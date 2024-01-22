@@ -1,0 +1,42 @@
+{
+	hide_tooltip: true
+	icon: "create:brown_toolbox"
+	id: "1214681AE78C0664"
+	loot_size: 2
+	order_index: 0
+	rewards: [
+		{ count: 5, item: "create:shaft" }
+		{ count: 2, item: "create:cogwheel" }
+		{ count: 2, item: "create:large_cogwheel" }
+		{ count: 2, item: "create:gearbox" }
+		{ count: 2, item: "create:vertical_gearbox" }
+		{ item: "create:clutch" }
+		{ item: "create:gearshift" }
+		{ item: "create:encased_chain_drive" }
+		{ item: "create:adjustable_chain_gearshift" }
+		{ count: 6, item: "create:belt_connector" }
+		{ count: 2, item: "create:water_wheel" }
+		{ item: "create:large_water_wheel" }
+		{ item: "create:encased_fan" }
+		{ item: "create:hand_crank" }
+		{ item: "create:millstone" }
+		{ item: "create:mechanical_press" }
+		{ item: "create:mechanical_mixer" }
+		{ item: "create:depot" }
+		{ item: "create:basin" }
+		{ item: "create:mechanical_drill" }
+		{ item: "create:mechanical_saw" }
+		{ item: "create:deployer" }
+		{ item: "create:portable_storage_interface" }
+		{ count: 2, item: "create:linear_chassis" }
+		{ count: 2, item: "create:secondary_linear_chassis" }
+		{ item: "create:radial_chassis" }
+		{ item: "create:chute" }
+		{ count: 2, item: "create:andesite_funnel" }
+		{ item: "create:andesite_tunnel" }
+		{ count: 10, item: "create:andesite_casing" }
+		{ item: "create:brown_toolbox" }
+		{ count: 4, item: "create:white_sail" }
+	]
+	title: "CreateBasicRewards"
+}

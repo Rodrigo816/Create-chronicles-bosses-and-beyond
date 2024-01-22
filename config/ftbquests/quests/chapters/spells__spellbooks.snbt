@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spells__spellbooks"
+	group: "2B02D614E453E838"
+	icon: {
+		Count: 1b
+		id: "irons_spellbooks:pumpkin_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "57D56196E68E019E"
+	order_index: 51
+	quest_links: [ ]
+	quests: [
+		{
+			id: "07D064B2B2CC96BB"
+			rewards: [{
+				id: "78F2CDD2DA7E5F49"
+				item: "irons_spellbooks:cast_time_ring"
+				type: "item"
+			}]
+			subtitle: "You may quickly notice as your explore your world that you will be finding scrolls. Each scroll contains a spell, similar to an enchanted book. The scroll can be consumed to cast that spell without consuming mana or triggering a cooldown, or brought to the first new workstation added: the Inscription Table. At the inscription table, you are allowed to place a spell book, one either found or crafted, and slot the scroll into it. However, depending on the rarity of the scroll (determined by the spell’s level), it may be too powerful for your spell book. In this case, you must go forth on a journey to obtain a better spell book."
+			tasks: [{
+				id: "66E580733F99AF01"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "5F1685BF343D1596"
+			subtitle: "Ink can be found in magic structures, such as wizard towers, and is the key to crafting scrolls. There are 5 variants, one for each rarity of scroll. When using ink in the Scroll Forge, it will allow you to craft a spell of the corresponding rarity, at the lowest level available. If the minimum rarity of a spell is higher than the ink provided, you will not be able to craft it at all, instead needing a higher quality ink to craft its first level."
+			tasks: [{
+				id: "7CF079189F2E9DB2"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "2FC755870388E535"
+			subtitle: "Ink can be found in magic structures, such as wizard towers, and is the key to crafting scrolls. There are 5 variants, one for each rarity of scroll. When using ink in the Scroll Forge, it will allow you to craft a spell of the corresponding rarity, at the lowest level available. If the minimum rarity of a spell is higher than the ink provided, you will not be able to craft it at all, instead needing a higher quality ink to craft its first level."
+			tasks: [{
+				id: "42F3AA661940EDC1"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "717F955D96F76F7F"
+			subtitle: "Ink can be found in magic structures, such as wizard towers, and is the key to crafting scrolls. There are 5 variants, one for each rarity of scroll. When using ink in the Scroll Forge, it will allow you to craft a spell of the corresponding rarity, at the lowest level available. If the minimum rarity of a spell is higher than the ink provided, you will not be able to craft it at all, instead needing a higher quality ink to craft its first level."
+			tasks: [{
+				id: "43FAE0D1FCFA1B00"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "2D8082C3BAC6F9CA"
+			subtitle: "Ink can be found in magic structures, such as wizard towers, and is the key to crafting scrolls. There are 5 variants, one for each rarity of scroll. When using ink in the Scroll Forge, it will allow you to craft a spell of the corresponding rarity, at the lowest level available. If the minimum rarity of a spell is higher than the ink provided, you will not be able to craft it at all, instead needing a higher quality ink to craft its first level."
+			tasks: [{
+				id: "0BB8233497FFD9D8"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "5F68216B4A584B45"
+			subtitle: "Ink can be found in magic structures, such as wizard towers, and is the key to crafting scrolls. There are 5 variants, one for each rarity of scroll. When using ink in the Scroll Forge, it will allow you to craft a spell of the corresponding rarity, at the lowest level available. If the minimum rarity of a spell is higher than the ink provided, you will not be able to craft it at all, instead needing a higher quality ink to craft its first level."
+			tasks: [{
+				id: "0826A8192A50042C"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			id: "48301DCD61BED84F"
+			subtitle: "Arcane essence is the most common and most important magical material. It can be found in magical structures, or looted from killing magical enemies. Low amounts of it may craft weak magic items, but its primary purpose is to be condensed into Arcane Cloth or Arcane Ingots, and used in more powerful crafting recipes."
+			tasks: [{
+				id: "603B3578B0C1BEB8"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "16E20882A93B7D3D"
+			subtitle: "Runestones are a more rare find in magical structures, and are always found as blank runestones. Using 8 focuses, you can craft a runestone to a specific school, and use your inscribed runestone to craft gear related to that school."
+			tasks: [{
+				id: "7DC3C3286AE631C7"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "3D0372D71961A15B"
+			subtitle: "The Scroll Forge is a new crafting station that allows the player to craft scrolls by using ink, paper, and a focus. The ink determines the rarity/level, and the focus determines what school of spells you can craft."
+			tasks: [{
+				id: "1E5CA5D00D1278FA"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "22313F6955C2F9CF"
+			subtitle: "The Arcane Anvil is a new crafting station that is used to combine magic items together, such as:Upgrading scrolls (just like enchanted books)Upgrade school armor and Spell Books using upgrade orbsImbue swords with a spell (only one at a time, scrolls cannot be retrieved after imbuing them)"
+			tasks: [{
+				id: "76617675338C8AE7"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+	]
+	title: "Spells and Spellbooks"
+}

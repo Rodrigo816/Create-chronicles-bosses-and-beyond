@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_andesite_machine"
+	group: "71FCEFE04D91F069"
+	id: "0459D6A74275DD3C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Tudo começa com uma tree"]
+			id: "12796FE2B6E3D53E"
+			tasks: [{
+				id: "21F98927C605D5FD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+				type: "item"
+			}]
+			title: "Tree Farm"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12796FE2B6E3D53E"]
+			description: [""]
+			id: "0C58CBF1F4D636FC"
+			rewards: [
+				{
+					count: 5
+					id: "731FEA8716285CD4"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					icon: "create:brown_toolbox"
+					id: "2FBA04CDA3A838A7"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "49A349EDC9F68F2B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "Logs"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C58CBF1F4D636FC"]
+			description: ["depois pegas no logs e passas numa sawmill"]
+			id: "5C5BBEA6E03836C7"
+			rewards: [
+				{
+					count: 5
+					id: "75A3490CDF981751"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27B64A67A71B4C4A"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "38C48144798950D8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:vanilla_stripped_logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "Stripped Logs"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C5BBEA6E03836C7"]
+			id: "5D5914AC9E5722EF"
+			tasks: [{
+				id: "0472A7BE9E04C326"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				type: "item"
+			}]
+			title: "Planks"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D5914AC9E5722EF"]
+			id: "507927EEC1417661"
+			tasks: [{
+				id: "7EDC0295D42294EE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wooden_slabs"
+					}
+				}
+				type: "item"
+			}]
+			title: "Wooden Slabs"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "6528F97D788A957A"
+			tasks: [{
+				id: "78AD80DDFB004EB4"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "72070D0355244B40"
+			tasks: [{
+				id: "61B23653DEBA1D46"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6528F97D788A957A"
+				"72070D0355244B40"
+			]
+			id: "5DB498A2D21DEC4D"
+			tasks: [{
+				id: "47EEF251F08E2BC4"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DB498A2D21DEC4D"]
+			id: "53EB7E023803E1B4"
+			tasks: [{
+				id: "2B7A47255138EA52"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"53EB7E023803E1B4"
+				"7C9BA77385C889BC"
+				"2AC4989491FBE085"
+			]
+			id: "7FE2DE6213FF326A"
+			tasks: [{
+				id: "5A0ADC667A80FA30"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7FE2DE6213FF326A"]
+			id: "43D6EC530F7F1126"
+			tasks: [{
+				id: "1FF830E699AC26FB"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0BEFDBD8AC519539"
+				"507927EEC1417661"
+				"43D6EC530F7F1126"
+			]
+			description: [
+				"Entra wood slab"
+				""
+				"1 Adensite Alloy"
+				"1 Andesite Alloy"
+				"1 Shear"
+				""
+				"= Andesite Mechanism"
+			]
+			id: "5E60FF6098CB030B"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1F9AFA49030B5A0B"
+				item: "kubejs:rotation_mechanism"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			id: "0BEFDBD8AC519539"
+			tasks: [{
+				id: "6DDD966363BA1D58"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+	]
+	title: "1.1 The Rotation Machine"
+}

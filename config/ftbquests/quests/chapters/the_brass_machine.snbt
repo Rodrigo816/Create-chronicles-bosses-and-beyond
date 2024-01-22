@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_brass_machine"
+	group: "71FCEFE04D91F069"
+	id: "3E77E18FC0D1193E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "The Brass Machine"
+}

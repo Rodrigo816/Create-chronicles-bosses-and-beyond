@@ -1,0 +1,1512 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "2B02D614E453E838"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
+	}
+	id: "156CADBCF6F616B4"
+	order_index: 52
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4752A206456F0893"]
+			description: [
+				"Ready, get set, go - blast off..."
+				""
+				"&7Reward: x1 Block of Steel, 1x Loot Bundle \\& 5 EXP Levels."
+			]
+			id: "2F519D02F7A0E915"
+			rewards: [{
+				id: "79278F7B5BEB2206"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			subtitle: "Craft a Nasa Workbench."
+			tasks: [{
+				id: "1EE02D412780BE15"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 0.10000000000000009d
+			y: -0.1999999999999993d
+		}
+		{
+			dependencies: ["56E6F1C7EC88FF79"]
+			description: [
+				"Used to build your tier 1 rocket."
+				""
+				"&7Reward: x2 Steel Plate \\& 1x Loot Bundle Fragment."
+			]
+			id: "1DCC04981C237EB9"
+			shape: "diamond"
+			subtitle: "Create a Steel Plate."
+			tasks: [{
+				id: "48432610ED8C1DF2"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
+			x: 0.10000000000000009d
+			y: -1.8000000000000007d
+		}
+		{
+			description: [
+				"Decor for the space adventurer."
+				""
+				"&7Reward: x1 Loot Bundle \\& 5 EXP Levels"
+			]
+			id: "56282C0278B37917"
+			optional: true
+			rewards: [{
+				id: "4733A90022E92B7D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Locate an earth globe."
+			tasks: [{
+				id: "44538BC33F697B57"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			x: 0.8d
+			y: 9.4d
+		}
+		{
+			dependencies: ["77BBDC91E0C13E6F"]
+			description: [
+				"Decor for the space adventurer."
+				""
+				"&7Reward: x1 Loot Bundle \\& 5 EXP Levels"
+			]
+			hide_dependency_lines: true
+			id: "26B9064E5EBB36B6"
+			optional: true
+			rewards: [{
+				id: "1C389BC25C3A05DA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Locate a moon globe."
+			tasks: [{
+				id: "5D64C5E973265373"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			x: -2.1d
+			y: 9.4d
+		}
+		{
+			dependencies: ["4AED9280BCB3CE39"]
+			description: [
+				"Decor for the space adventurer."
+				""
+				"&7Reward: x1 Loot Bundle \\& 5 EXP Levels"
+			]
+			hide_dependency_lines: true
+			id: "4E87852D645B6719"
+			optional: true
+			rewards: [{
+				id: "3BAF3BF1F4D957D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Locate a mars globe."
+			tasks: [{
+				id: "15E2A2F296A01745"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			x: -0.7999999999999998d
+			y: 9.4d
+		}
+		{
+			dependencies: ["4C77B32633B5B1A0"]
+			description: [
+				"Decor for the space adventurer."
+				""
+				"&7Reward: x1 Loot Bundle \\& 5 EXP Levels"
+			]
+			hide_dependency_lines: true
+			icon: "ad_astra:mercury_globe"
+			id: "0B2E5E7DF587D423"
+			optional: true
+			rewards: [{
+				id: "4ACC0CBEA7FBACB8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Locate a mercury globe."
+			tasks: [{
+				id: "5FEB4C71580C1D11"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			x: 2.2d
+			y: 9.4d
+		}
+		{
+			dependencies: ["12B46D169B7161B1"]
+			description: [
+				"Decor for the space adventurer."
+				""
+				"&7Reward: x1 Loot Bundle \\& 5 EXP Levels"
+			]
+			hide_dependency_lines: true
+			id: "5FB5B2C568627AF5"
+			optional: true
+			rewards: [{
+				id: "5274D0BF64AB8535"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Locate a venus globe."
+			tasks: [{
+				id: "1FB280ACB7A72F1A"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			x: 3.7d
+			y: 9.4d
+		}
+		{
+			dependencies: ["1809D70D466A620D"]
+			description: [
+				"Decor for the space adventurer."
+				""
+				"&7Reward: x1 Loot Bundle \\& 5 EXP Levels"
+			]
+			hide_dependency_lines: true
+			id: "71B4DEA520E46F5D"
+			optional: true
+			rewards: [{
+				id: "26B4360549152A38"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Locate a glacic globe."
+			tasks: [{
+				id: "482E0434A4ED6050"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			x: -3.6d
+			y: 9.4d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [
+				"Let's get the basic parts ready to head to space."
+				""
+				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "1384D02A51864415"
+			subtitle: "Craft a rocket nose cone."
+			tasks: [{
+				id: "53A0261682B43A4D"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.2d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [
+				"Let's get the basic parts ready to head to space."
+				""
+				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "2DF098A8C1559A7C"
+			subtitle: "Craft an engine frame."
+			tasks: [{
+				id: "3BC3A115FFF33DB6"
+				item: "ad_astra:engine_frame"
+				type: "item"
+			}]
+			x: -1.2000000000000002d
+			y: -0.8999999999999986d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [
+				"Let's get the basic parts ready to head to space."
+				""
+				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "476F1BE609D2F358"
+			subtitle: "Craft an engine fan."
+			tasks: [{
+				id: "073542196A746C40"
+				item: "ad_astra:engine_fan"
+				type: "item"
+			}]
+			x: -1.2000000000000002d
+			y: 0.1999999999999993d
+		}
+		{
+			description: [
+				"Use this to craft some steel plates."
+				""
+				"&7Reward: 2x Steel Ingot \\& 2x Loot Bundle Fragment."
+			]
+			hide_dependency_lines: false
+			id: "0DF7F93F8CADA927"
+			shape: "rsquare"
+			subtitle: "Craft a Compressor."
+			tasks: [{
+				id: "671E30D8E8FB884D"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 0.1d
+			y: -4.9d
+		}
+		{
+			dependencies: [
+				"6B296596CD127449"
+				"4C6B7F5D47CD0C70"
+			]
+			description: [
+				"Zoom, zoom..."
+				""
+				"&7Rewards: x1 Magenta Flag, x1 Loot Bundle \\& 1 EXP Level."
+			]
+			id: "3FFC5B7D12359392"
+			rewards: [
+				{
+					id: "6B2205535FA5D32D"
+					item: "ad_astra:magenta_flag"
+					type: "item"
+				}
+				{
+					id: "31D2E0E99D730AAC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			subtitle: "Craft a tier 1 rocket."
+			tasks: [{
+				id: "692A2D5111B77EB2"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.7d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [
+				"Let's get the basic parts ready to head to space."
+				""
+				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "6860A426A7492DFA"
+			subtitle: "Craft a rocket fin."
+			tasks: [{
+				id: "5B840509351102F2"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 1.4d
+			y: -0.9d
+		}
+		{
+			dependencies: ["4752A206456F0893"]
+			description: [
+				"Useful when trying to head to space :p"
+				""
+				"&7Reward: x2 steel ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "14E88BC7B1DD6680"
+			subtitle: "Craft 2 steel tanks."
+			tasks: [{
+				count: 2L
+				id: "5E877B4FF7AA96BE"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			title: "Steel Tank"
+			x: -6.5d
+			y: 3.8d
+		}
+		{
+			dependencies: ["4752A206456F0893"]
+			description: [
+				"You're almost ready to head into space."
+				""
+				"&7Reward: x4 Loot Bundle Fragment"
+			]
+			id: "6C83FDEB2EA5DABF"
+			subtitle: "Craft a steel engine."
+			tasks: [{
+				id: "73B339AF3FA948A4"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: -7.4d
+			y: 2.9d
+		}
+		{
+			dependencies: ["4D71E2AFA32631E7"]
+			description: [
+				"Zoom, zoom..."
+				""
+				"&7Rewards: x1 blue flag, x2 Loot Bundle \\& 2 EXP Levels."
+			]
+			id: "2AD94FA7375AF584"
+			rewards: [
+				{
+					id: "006A16CAE519C658"
+					item: "ad_astra:blue_flag"
+					type: "item"
+				}
+				{
+					id: "70D54F562E2F5440"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			subtitle: "Craft a tier 2 rocket."
+			tasks: [{
+				id: "633E2ADA44E7AA44"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.9d
+			y: 2.6999999999999993d
+		}
+		{
+			dependencies: ["6252590716097C6D"]
+			description: [
+				"Zoom, zoom..."
+				""
+				"&7Rewards: x1 Pink Flag, x3 Loot Bundle \\& 5 EXP Levels."
+			]
+			id: "07206599ED81588E"
+			rewards: [
+				{
+					id: "6ED579B880FD10F3"
+					item: "ad_astra:pink_flag"
+					type: "item"
+				}
+				{
+					id: "5CC1D1CBC75CDA6F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "gear"
+			subtitle: "Craft a tier 3 rocket."
+			tasks: [{
+				id: "1B00F0758AF314EE"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.3d
+			y: 2.6999999999999993d
+		}
+		{
+			dependencies: ["2BAF03664A5D36AF"]
+			description: [
+				"Zoom, zoom..."
+				""
+				"&7Rewards: x1 gray flag, x4 Loot Bundle \\& 10 EXP Levels."
+			]
+			id: "4D75722EC376B0DB"
+			rewards: [
+				{
+					id: "77A1FF278BECED93"
+					item: "ad_astra:gray_flag"
+					type: "item"
+				}
+				{
+					id: "4F54FCDDF84DB1CA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			subtitle: "Craft a tier 4 rocket."
+			tasks: [{
+				id: "651C35556C7F362B"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.8d
+			y: 1.9000000000000004d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [
+				"Place your rocket here and blast off."
+				""
+				"&7Reward: x1 Block of Steel \\& 3x Loot Bundle Fragment."
+			]
+			id: "6F348AACE9FE07B1"
+			subtitle: "Craft a Rocket Launch Pad."
+			tasks: [{
+				id: "33544D1BA7306100"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "Rocket Launch Pad"
+			x: 0.10000000000000009d
+			y: 1.1999999999999993d
+		}
+		{
+			description: [
+				"Used to build your tier 2 rocket."
+				""
+				"&7Reward: x2 desh ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "3E518488B86C3529"
+			rewards: [{
+				count: 2
+				id: "6EE2EF6487103C1D"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Create a Desh Ingot."
+			tasks: [{
+				id: "6AC0B01F57A0D824"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: -2.9d
+			y: 3.9000000000000004d
+		}
+		{
+			dependencies: ["4D71E2AFA32631E7"]
+			description: [
+				"Used to build your tier 2 rocket."
+				""
+				"&7Reward: x2 desh ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "6FF4A80A308C48E1"
+			rewards: [{
+				count: 2
+				id: "40483332900783DE"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Create a Desh Plate."
+			tasks: [{
+				id: "2607C0EA14FF230C"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			x: -2.9d
+			y: 5.1d
+		}
+		{
+			dependencies: ["4D71E2AFA32631E7"]
+			description: [
+				"Used to build your tier 2 rocket."
+				""
+				"&7Reward: x2 desh ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "133F82C7EFC4B0AF"
+			rewards: [{
+				count: 2
+				id: "3F29EC22FD8EB538"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			subtitle: "Craft 2 desh tank."
+			tasks: [{
+				count: 2L
+				id: "4DFFE03019D25828"
+				item: "ad_astra:desh_tank"
+				type: "item"
+			}]
+			title: "Desh Tank"
+			x: -4.2d
+			y: 3.9000000000000004d
+		}
+		{
+			dependencies: ["20D22E8DA314D5BD"]
+			description: [
+				"You're almost ready to go back into space."
+				""
+				"&7Reward: x4 Loot Bundle Fragment"
+			]
+			id: "275836F1C478284B"
+			subtitle: "Craft a desh engine."
+			tasks: [{
+				id: "19AF1D020A67EC67"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: -4.2d
+			y: 5.1d
+		}
+		{
+			description: [
+				"Used to build your tier 3 rocket."
+				""
+				"&7Reward: x2 ostrum ingot"
+			]
+			id: "42F6F46699EAEDAD"
+			rewards: [{
+				count: 2
+				id: "50A632F968FDD690"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Create an Ostrum Ingot."
+			tasks: [{
+				id: "5FD16E0A27F31566"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 3.3d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6252590716097C6D"]
+			description: [
+				"Used to build your tier 3 rocket."
+				""
+				"&7Reward: x2 ostrum ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "21CF44CDA0B54465"
+			rewards: [{
+				count: 2
+				id: "0903DEB22885F20B"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Create a Ostrum Plate."
+			tasks: [{
+				id: "770FB8E261B71517"
+				item: "ad_astra:ostrum_plate"
+				type: "item"
+			}]
+			x: 3.3d
+			y: 5.199999999999999d
+		}
+		{
+			dependencies: ["6252590716097C6D"]
+			description: [
+				"Used to build your tier 3 rocket."
+				""
+				"&7Rewards: x2 ostrum ingot, x2 steel ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "3EE31C6EBF64B334"
+			rewards: [{
+				count: 2
+				id: "5753E50E82686AC7"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			subtitle: "Craft x2 ostrum tank."
+			tasks: [{
+				count: 2L
+				id: "13173D3C3667F0F1"
+				item: "ad_astra:ostrum_tank"
+				type: "item"
+			}]
+			title: "Ostrum Tank"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DD4057509AD751B"]
+			description: [
+				"You are now ready to head back into space..."
+				""
+				"&7Reward: x4 Loot Bundle Fragment"
+			]
+			id: "16F1A602AF6F7FFF"
+			subtitle: "Craft an ostrum engine."
+			tasks: [{
+				id: "76C3A685EB91934E"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.199999999999999d
+		}
+		{
+			description: [
+				"Used to build your tier 4 rocket."
+				""
+				"&7Reward: x2 calorite ingot"
+			]
+			id: "3606D1AD9ECAC687"
+			rewards: [{
+				count: 2
+				id: "4D1DC14A386071EC"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Create a Calorite Ingot."
+			tasks: [{
+				id: "7FCF1A6024D70322"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 6.800000000000001d
+			y: 2.6999999999999993d
+		}
+		{
+			dependencies: ["2BAF03664A5D36AF"]
+			description: [
+				"Used to build your tier 4 rocket."
+				""
+				"&7Reward: x2 calorite ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "56FDAC952727BB4A"
+			rewards: [{
+				count: 2
+				id: "1A52B097435A634B"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Create a Calorite Plate."
+			tasks: [{
+				id: "40E23ADF863350CD"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			x: 6.800000000000001d
+			y: 3.9000000000000004d
+		}
+		{
+			dependencies: ["2BAF03664A5D36AF"]
+			description: [
+				"Used to build your tier 4 rocket."
+				""
+				"&7Rewards: x2 calorite ingot, x2 steel ingot"
+			]
+			id: "7834910AB38A9A42"
+			rewards: [{
+				count: 2
+				id: "42479C0EAE94C696"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			subtitle: "Craft x2 calorite tank."
+			tasks: [{
+				count: 2L
+				id: "398F9295039FF568"
+				item: "ad_astra:calorite_tank"
+				type: "item"
+			}]
+			title: "Calorite Tank"
+			x: 8.1d
+			y: 2.6999999999999993d
+		}
+		{
+			dependencies: ["52587C1149251FC4"]
+			description: [
+				"Used to build your tier 4 rocket."
+				""
+				"&7Reward: x4 Loot Bundle Fragment"
+			]
+			id: "435AE81926BF2B1B"
+			subtitle: "Craft a calorite engine."
+			tasks: [{
+				id: "01C3262C75217DCC"
+				item: "ad_astra:calorite_engine"
+				type: "item"
+			}]
+			x: 8.1d
+			y: 3.9000000000000004d
+		}
+		{
+			description: [
+				"Collect some fuel for your space adventures."
+				""
+				"&7Reward: x1 Basic Portable Tank \\& 3x Loot Bundle Fragment"
+			]
+			id: "7A9CCA59F94407C4"
+			subtitle: "Craft a fuel refinery."
+			tasks: [{
+				id: "5BCE734428E7F406"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.8000000000000007d
+		}
+		{
+			description: [
+				"Used for generating energy."
+				""
+				"&7Reward: x1 Loot Bundle"
+			]
+			id: "05BB9BF8D6580D9C"
+			optional: true
+			subtitle: "Craft a solar panel."
+			tasks: [{
+				id: "5EBBD746AB61BBA8"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.3000000000000007d
+		}
+		{
+			description: [
+				"Used to generate energy."
+				""
+				"&7Reward: x1 Block of Coal \\& 4x Loot Bundle Fragment"
+			]
+			id: "6A2E6C87D2901D2C"
+			optional: true
+			rewards: [{
+				id: "130C579C925DD4E5"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "Craft a coal generator."
+			tasks: [{
+				id: "25CDEA5FB405DEA2"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.3000000000000007d
+		}
+		{
+			dependencies: ["5C714C816CE3365B"]
+			description: [
+				"Helpful if you want to breathe in space :p"
+				""
+				"&7Reward: x2 steel ingot"
+			]
+			id: "68504A0B64558301"
+			subtitle: "Craft an oxygen loader."
+			tasks: [{
+				id: "654CE7DDC862990B"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["119A781265B7FCA0"]
+			description: [
+				"Oxygen for your space travels."
+				""
+				"&7Reward: x1 Loot Bundle"
+			]
+			id: "4BA7B8806A162499"
+			subtitle: "Craft an oxygen distributor."
+			tasks: [{
+				id: "4410124DE7537C38"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Equipment used to make your way into space."
+				""
+				"&7Reward: x1 Furnace \\& 2x Loot Bundle Fragment"
+			]
+			id: "16B682D0F2DE7E4B"
+			rewards: [{
+				id: "7C9E980413E18706"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Craft an oxygen tank."
+			tasks: [{
+				id: "043F3C00DB4A27D9"
+				item: "ad_astra:oxygen_tank"
+				type: "item"
+			}]
+			x: -11.3d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C64107F52DF00BC"]
+			description: [
+				"Vroom, vroom - space exploring..."
+				""
+				"&7Reward: x1 Loot Bundle \\& 2 EXP Levels."
+			]
+			id: "2DC12039DD9F0723"
+			rewards: [{
+				id: "176629339A5AE65C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "gear"
+			subtitle: "Craft a rover."
+			tasks: [{
+				id: "2AD064EBE60A86D7"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.10000000000000009d
+			y: 2.5999999999999996d
+		}
+		{
+			description: [
+				"Nom, nom... a little treat for your space travels."
+				""
+				"&7Reward: x1 Ham Sandwich. Yummy!"
+			]
+			id: "51428C6A619AD07B"
+			shape: "diamond"
+			size: 0.75d
+			subtitle: "Gather up some space cheese."
+			tasks: [{
+				id: "41D1003AF17CD087"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: 0.10000000000000009d
+			y: 3.9000000000000004d
+		}
+		{
+			description: [
+				"Required space attire."
+				""
+				"&7Reward: x2 White Wool \\& 3x Loot Bundle Fragment."
+			]
+			id: "2E0268818C630AD2"
+			rewards: [{
+				count: 2
+				id: "6B378BD9E1E11D58"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Craft a space suit."
+			tasks: [{
+				id: "5F9E52DB86D77125"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.800000000000001d
+			y: -2.1000000000000014d
+		}
+		{
+			dependencies: ["2B2678BC6A915B7F"]
+			description: [
+				"Upgraded space attire."
+				""
+				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
+			]
+			id: "0B0095000CA648C7"
+			rewards: [
+				{
+					id: "245E26A4017907B5"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+				{
+					id: "7EE5056690A1EA74"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Craft a netherite space suit."
+			tasks: [{
+				id: "1A0209A5A16005B5"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.4d
+			y: -2.1000000000000014d
+		}
+		{
+			description: [
+				"Required space attire."
+				""
+				"&7Reward: x2 White Wool \\& 2x Loot Bundle Fragment."
+			]
+			id: "26F83630C799143B"
+			rewards: [{
+				count: 2
+				id: "598AF2C0F7387FCC"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Craft space pants."
+			tasks: [{
+				id: "5EFADB2AADBEDA19"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.800000000000001d
+			y: -0.8999999999999986d
+		}
+		{
+			dependencies: ["67C5C8F6BAC5FD8E"]
+			description: [
+				"Upgraded space attire."
+				""
+				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
+			]
+			id: "2E7215B14D112F20"
+			rewards: [
+				{
+					id: "623DCCAC7DEEA0C2"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+				{
+					id: "46D1FEE9EE8FDDD5"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Craft netherite space pants."
+			tasks: [{
+				id: "72F5C2BC72E8F948"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.4d
+			y: -0.8999999999999986d
+		}
+		{
+			description: [
+				"Required space attire."
+				""
+				"&7Reward: x1 Enchanted Book (Feather Falling II) \\& 2x Loot Bundle Fragment"
+			]
+			id: "6A45619A9417EA59"
+			rewards: [{
+				id: "054F2D6ECCEEFFBA"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:feather_falling"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Craft space boots."
+			tasks: [{
+				id: "3092F95CF9C3786F"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.800000000000001d
+			y: 0.3000000000000007d
+		}
+		{
+			dependencies: ["17CE288AB8617E1B"]
+			description: [
+				"Upgraded space attire."
+				""
+				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
+			]
+			id: "674C31891A12BAA0"
+			rewards: [
+				{
+					id: "205703FFC8713035"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+				{
+					id: "09892AB1EFCAD9A7"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Craft netherite space boots."
+			tasks: [{
+				id: "05B75A4932FCB041"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.4d
+			y: 0.3000000000000007d
+		}
+		{
+			description: [
+				"Prepare for your travels to space."
+				""
+				"&7Reward: x1 Fuel Bucket \\& 2x Loot Bundle Fragment."
+			]
+			id: "755856DF0637320F"
+			rewards: [{
+				id: "0F43B08A9C5845BE"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Collect some fuel in a bucket."
+			tasks: [{
+				id: "40C247E53ADA1495"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: -2.6d
+			y: -0.3d
+		}
+		{
+			description: [
+				"Prepare for your travels to space."
+				""
+				"&7Reward: x1 Oil Bucket \\& 2x Loot Bundle Fragment."
+			]
+			id: "28DFCC3B28946F69"
+			rewards: [{
+				id: "0DF8A81B3C0CAEA1"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Collect some oil."
+			tasks: [{
+				id: "5294A7A3D23E3D09"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			x: 2.9d
+			y: -0.3d
+		}
+		{
+			description: ["&7Reward: x1 Water Bucket \\& 3x Loot Bundle Fragment"]
+			id: "66EDB2E85F2EC25E"
+			rewards: [{
+				id: "15D52EF79A68A0CA"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			subtitle: "Craft a water pump."
+			tasks: [{
+				id: "11C294D2898F8ED7"
+				item: "ad_astra:water_pump"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.8000000000000007d
+		}
+		{
+			description: ["&7Reward: 2 EXP Levels \\& x1 Loot Bundle"]
+			id: "37ED05123D56211F"
+			rewards: [{
+				id: "161BE3E403966274"
+				team_reward: false
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "pentagon"
+			subtitle: "Land on Glacio"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_stone"
+				id: "0972D2E8E5A55E3C"
+				title: "Glacio"
+				type: "dimension"
+			}]
+			title: "Visit Planet: Glacio"
+			x: -2.8d
+			y: 7.800000000000001d
+		}
+		{
+			description: ["&7Reward: 2 EXP Levels \\& x1 Loot Bundle"]
+			id: "6E258498122EF905"
+			rewards: [{
+				id: "511911EB03C04E0E"
+				team_reward: false
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "pentagon"
+			subtitle: "Land on Mars"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_stone"
+				id: "0FDACC0F09CE1915"
+				title: "Mars"
+				type: "dimension"
+			}]
+			title: "Visit Planet: Mars"
+			x: 0.0d
+			y: 7.8d
+		}
+		{
+			description: ["&7Reward: 2 EXP Levels \\& x1 Loot Bundle"]
+			id: "72DD88CABB9E2914"
+			rewards: [{
+				id: "09425F1A41D579D8"
+				team_reward: false
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "pentagon"
+			subtitle: "Land on Mercury"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_stone"
+				id: "42A26B5EE73CC1EF"
+				title: "Mercury"
+				type: "dimension"
+			}]
+			title: "Visit Planet: Mercury"
+			x: 1.3d
+			y: 7.8d
+		}
+		{
+			description: ["&7Reward: 2 EXP Levels \\& x1 Loot Bundle"]
+			id: "44D71F37C648B567"
+			rewards: [{
+				id: "4788335E29F049D8"
+				team_reward: false
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "pentagon"
+			subtitle: "Land on the Moon"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_stone"
+				id: "7CD2EC3A5EC9B9A9"
+				title: "Moon"
+				type: "dimension"
+			}]
+			title: "Visit Planet: Moon"
+			x: -1.4d
+			y: 7.8d
+		}
+		{
+			description: ["&7Reward: 2 EXP Levels \\& x1 Loot Bundle"]
+			id: "79D69D52101E540F"
+			rewards: [{
+				id: "2E8095C00B15A540"
+				team_reward: false
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "pentagon"
+			subtitle: "Land on Venus"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_stone"
+				id: "08D458C4E293FC48"
+				title: "Venus"
+				type: "dimension"
+			}]
+			title: "Visit Planet: Venus"
+			x: 2.7d
+			y: 7.8d
+		}
+		{
+			dependencies: [
+				"1809D70D466A620D"
+				"77BBDC91E0C13E6F"
+				"4AED9280BCB3CE39"
+				"4C77B32633B5B1A0"
+				"12B46D169B7161B1"
+			]
+			description: [
+				"&7Note: Don't place it on the ground like a block. Place it on the ground by pressing \"&rP&7\" over a block."
+				""
+				"&7Rewards: x3 Loot Bundle, 50 EXP Levels \\& Planet Explorer Trophy."
+			]
+			icon: "ad_astra:earth_globe"
+			id: "5979942D3CBC0C2F"
+			rewards: [{
+				id: "2CA9C39C3DFD9129"
+				team_reward: false
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			subtitle: "Claim this by exploring all planets."
+			tasks: [{
+				icon: "botania:tiny_planet"
+				id: "030B2FBE1862D384"
+				type: "checkmark"
+			}]
+			title: "Planet Explorer"
+			x: 0.0d
+			y: 6.2d
+		}
+		{
+			dependencies: ["59822C508A5BD9C7"]
+			id: "447409A415AC5884"
+			rewards: [{
+				id: "7C1BC33F5DEC1D35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "octagon"
+			subtitle: "Create a Steel Ingot."
+			tasks: [{
+				id: "771193F00D2B0043"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			x: 0.1d
+			y: -3.2d
+		}
+		{
+			description: [
+				"Required space attire."
+				""
+				"&7Reward: x2 White Wool \\& 2x Loot Bundle Fragment."
+			]
+			id: "3E6610B87C3B9A88"
+			rewards: [{
+				count: 2
+				id: "2D2AFDD2A77ECF83"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Craft a Space Helmet."
+			tasks: [{
+				id: "72D97C1A8A9E79F0"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.8d
+			y: -3.3d
+		}
+		{
+			dependencies: ["4AF4A6CAB336E810"]
+			description: [
+				"Upgraded space attire."
+				""
+				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
+			]
+			id: "5BB9ABF0B0AB72AF"
+			rewards: [
+				{
+					id: "7A830BF6901D5081"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+				{
+					id: "39882FB178086DC0"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Craft a Netherite Space Helmet."
+			tasks: [{
+				id: "4D9E1F4F186A93B2"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.4d
+			y: -3.3d
+		}
+		{
+			dependencies: ["7F68496ACEE438A8"]
+			description: [
+				"Upgraded space attire."
+				""
+				"&7Reward: x2 Loot Bundle \\& x16 Loot Bundle Fragment."
+			]
+			id: "294B10ADC034B788"
+			rewards: [{
+				count: 2
+				id: "08F012533FF3EE2A"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Craft a Jet Suit Helmet."
+			tasks: [{
+				id: "1DDB9B3C12DB4953"
+				item: {
+					Count: 1b
+					id: "ad_astra:jet_suit_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.9d
+			y: -3.3d
+		}
+		{
+			dependencies: ["41A61BC69C4D312A"]
+			description: [
+				"Upgraded space attire."
+				""
+				"&7Reward: x2 Loot Bundle \\& x16 Loot Bundle Fragment."
+			]
+			id: "422BB362351DA729"
+			rewards: [{
+				count: 2
+				id: "3566B6A71304D4D9"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Craft a Jet Suit."
+			tasks: [{
+				id: "1B94068AF27426E5"
+				item: {
+					Count: 1b
+					id: "ad_astra:jet_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.9d
+			y: -2.1d
+		}
+		{
+			dependencies: ["3448D2CCD81CEE76"]
+			description: [
+				"Upgraded space attire."
+				""
+				"&7Reward: x2 Loot Bundle \\& x16 Loot Bundle Fragment."
+			]
+			id: "22210E88A5712EEE"
+			rewards: [{
+				count: 2
+				id: "0E179C57A85538F4"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Craft a Jet Suit Pants."
+			tasks: [{
+				id: "7863ABFA0BE3762F"
+				item: {
+					Count: 1b
+					id: "ad_astra:jet_suit_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.9d
+			y: -0.9d
+		}
+		{
+			dependencies: ["1672C7230AC9A309"]
+			description: [
+				"Upgraded space attire."
+				""
+				"&7Reward: x2 Loot Bundle \\& x16 Loot Bundle Fragment."
+			]
+			id: "73D3909FC363CBF2"
+			rewards: [{
+				count: 2
+				id: "2E4C2ECD18B7D19E"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Craft Jet Suit Boots."
+			tasks: [{
+				id: "7F15AA6440ECE973"
+				item: {
+					Count: 1b
+					id: "ad_astra:jet_suit_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.9d
+			y: 0.3d
+		}
+	]
+	subtitle: ["To the moon and beyond..."]
+	title: "Ad Astra!"
+}

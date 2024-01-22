@@ -1,0 +1,1255 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2"
+	group: "2B02D614E453E838"
+	icon: "create:andesite_alloy"
+	id: "547D8D23D3A6A883"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "ad_astra:textures/sky/earth.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: -5.0d
+		y: 10.0d
+	}]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5BE7EBA598FD5EE0"]
+			description: ["{chapter.2.quest.1.description.1}"]
+			hide: false
+			hide_dependency_lines: false
+			id: "5268B7CCEDC48422"
+			subtitle: "{chapter.2.quest.1.subtitle}"
+			tasks: [{
+				id: "22254C04A4E1B471"
+				item: "createastral:bronze_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4D1A55B136F62B3F"
+				"74E7B48237BED17D"
+			]
+			description: ["{chapter.2.quest.2.description.1}"]
+			icon: "create:cogwheel"
+			id: "515FDE185E1FB782"
+			rewards: [
+				{
+					id: "625B90CB642D9A4B"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6D1214A71440BF3E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3A868A8C6AF3B78A"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "{chapter.2.quest.2.subtitle}"
+			tasks: [
+				{
+					count: 6L
+					id: "3CB54526940AEDD0"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6FD1313A8AB88A3D"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.2.title}"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"604CF717881C323A"
+				"35F1B635057746F0"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{chapter.2.quest.3.description.1}"]
+			icon: "create:mechanical_press"
+			id: "6499CD689863283D"
+			rewards: [{
+				count: 8
+				id: "58C0759B314F7A1A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.3.subtitle}"
+			tasks: [
+				{
+					id: "72A7DBDEF3FFF884"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "72A75AD9C706ACDA"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6499CD689863283D"]
+			description: ["{chapter.2.quest.4.description.1}"]
+			id: "4EB4838CCED125E2"
+			rewards: [
+				{
+					id: "5DEE6FCAA4C9AF9A"
+					item: "farmersdelight:smoked_ham"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0FB7CCEC080D88A7"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "5C8677CAB68CDBF5"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.4.title}"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			description: ["{chapter.2.quest.5.description.1}"]
+			id: "122CDE9C00B5CA06"
+			optional: true
+			tasks: [{
+				id: "7A09C3BFCA29B6B3"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.5.title}"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76704C59FAFCD2E7"]
+			description: ["{chapter.2.quest.6.description.1}"]
+			id: "74E7B48237BED17D"
+			rewards: [{
+				id: "15A8D721E715AA17"
+				item: {
+					Count: 1b
+					id: "mcdw:dagger_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.6.subtitle}"
+			tasks: [{
+				count: 3L
+				id: "6F6521AD31ABDEDB"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.6.title}"
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5268B7CCEDC48422"]
+			description: ["{chapter.2.quest.7.description.1}"]
+			id: "4D1A55B136F62B3F"
+			subtitle: "{chapter.2.quest.7.subtitle}"
+			tasks: [{
+				id: "754C2AF1CE1B6795"
+				item: "createastral:bronze_sheet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			description: ["{chapter.2.quest.8.description.1}"]
+			id: "5D51B2F9F28ECE8A"
+			rewards: [{
+				count: 5
+				id: "66C7D5F72E20E263"
+				item: "farmersdelight:chocolate_pie_slice"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.8.subtitle}"
+			tasks: [{
+				id: "33D6253E8E977ED8"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"68108C8A6AC63A01"
+				"6499CD689863283D"
+			]
+			description: ["{chapter.2.quest.9.description.1}"]
+			id: "0A5DC78719B9A244"
+			rewards: [
+				{
+					count: 5
+					id: "4C67A01DA11A0B50"
+					item: "farmersdelight:cabbage_rolls"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "72B7A5CE6D4F4827"
+					item: "dustrial_decor:industrial_iron_billet"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "16A97DA1DA562EFF"
+					item: "dustrial_decor:cast_iron_billet"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{chapter.2.quest.9.subtitle}"
+			tasks: [{
+				id: "132CCDA06F8DC8C5"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A5DC78719B9A244"]
+			description: ["{chapter.2.quest.10.description.1}"]
+			hide_dependency_lines: true
+			id: "67AA35D9D18AD64B"
+			rewards: [{
+				count: 16
+				id: "68BF3F2B051CCF01"
+				item: "create:track"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.10.subtitle}"
+			tasks: [{
+				id: "45ABEEADF51C2407"
+				item: "create:track"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A5DC78719B9A244"]
+			description: ["{chapter.2.quest.11.description.1}"]
+			id: "1579C73B735F06F8"
+			rewards: [{
+				id: "73BB68E05FE6085E"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5983C48519515105"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"67AA35D9D18AD64B"
+				"0E28273A4D119B81"
+				"31B9F34B69172C02"
+				"4E17A29F84247877"
+			]
+			description: ["{chapter.2.quest.12.description.1}"]
+			id: "36129D7A46CC6F6D"
+			rewards: [
+				{
+					count: 100
+					id: "190791854AEC801D"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					count: 48
+					id: "4375AC6679993CC0"
+					item: "create:metal_girder"
+					type: "item"
+				}
+				{
+					id: "7767CFF33CC1DABC"
+					item: "create:steam_whistle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0DDBBF6F28AF3160"
+					item: "create:train_door"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "057D2BB607293DB0"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{chapter.2.quest.12.subtitle}"
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				id: "0AF596BE70DCA925"
+				type: "advancement"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["515FDE185E1FB782"]
+			description: ["{chapter.2.quest.13.description.1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "createdeco:textures/block/palettes/decal/blue_decal.png"
+				}
+			}
+			id: "35F1B635057746F0"
+			rewards: [{
+				count: 3
+				id: "75D6346CB8A5E30C"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.13.subtitle}"
+			tasks: [
+				{
+					advancement: "create:water_wheel"
+					criterion: ""
+					id: "78758D6F5FAB59D4"
+					type: "advancement"
+				}
+				{
+					id: "5DEF719173BA2307"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["515FDE185E1FB782"]
+			description: ["{chapter.2.quest.14.description.1}"]
+			id: "604CF717881C323A"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "create:andesite_casing"
+				criterion: ""
+				id: "705806F9DF2C4D4E"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["604CF717881C323A"]
+			description: ["{chapter.2.quest.15.description.1}"]
+			icon: {
+				Count: 1b
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "07ED5ADF97F6F0D8"
+			rewards: [{
+				count: 16
+				id: "4E124F950CDC52D4"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.15.subtitle}"
+			tasks: [
+				{
+					id: "09149B060A7A39E2"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "639A21D7159EAEB7"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5BE7EBA598FD5EE0"]
+			description: ["{chapter.2.quest.16.description.1}"]
+			id: "1B5245476A321C24"
+			rewards: [{
+				count: 64
+				id: "4CD8DDB0266CAE21"
+				item: "catwalksinc:catwalk"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.16.subtitle}"
+			tasks: [
+				{
+					id: "6CB5E797D027C3B7"
+					item: "compressor:double_compressed_andesite"
+					type: "item"
+				}
+				{
+					id: "09139529C4467EC3"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "6DD2580F695132B6"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.16.title}"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			description: ["{chapter.2.quest.17.description.1}"]
+			icon: "create:mechanical_mixer"
+			id: "545BF28E82A07D19"
+			shape: "circle"
+			subtitle: "{chapter.2.quest.17.subtitle}"
+			tasks: [
+				{
+					id: "5107D676BD00FDDF"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "0DA20279D131EF79"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74E7B48237BED17D"]
+			id: "638367CB9262248E"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "0DC3D0AAF6DD9929"
+				item: "doodads:platform"
+				only_one: true
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.18.subtitle}"
+			tasks: [{
+				count: 16L
+				id: "4D557555BDA21F35"
+				item: "doodads:platform"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6B85CBE54B33C91F"]
+			description: ["{chapter.2.quest.19.description.1}"]
+			id: "247AF9BF2D5EBF78"
+			optional: true
+			rewards: [{
+				id: "7E0B5E1A08BA855C"
+				item: "minecraft:note_block"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.19.subtitle}"
+			tasks: [{
+				id: "0FE3D0A672182AE6"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["247AF9BF2D5EBF78"]
+			description: ["{chapter.2.quest.20.description.1}"]
+			id: "266B4D9BDF29BD12"
+			optional: true
+			subtitle: "{chapter.2.quest.20.subtitle}"
+			tasks: [{
+				id: "3EF37A796B2984A4"
+				item: "computercraft:turtle_normal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0A5DC78719B9A244"]
+			description: ["{chapter.2.quest.21.description.1}"]
+			id: "2B458E50ED7705ED"
+			optional: true
+			rewards: [{
+				id: "17F4671881A115DF"
+				item: {
+					Count: 1b
+					id: "mcdw:hammer_flail"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.21.subtitle}"
+			tasks: [
+				{
+					id: "2FDFDEF6F83F8517"
+					item: {
+						Count: 1b
+						id: "createastral:sturdy_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D09A517B2063CDD"
+					item: {
+						Count: 1b
+						id: "createastral:sturdy_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C6C4EC8D0E9DB8C"
+					item: {
+						Count: 1b
+						id: "createastral:sturdy_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4265EA690C4CBDB7"
+					item: {
+						Count: 1b
+						id: "createastral:sturdy_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.21.title}"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			description: ["{chapter.2.quest.22.description.1}"]
+			id: "735D255FF23C8967"
+			optional: true
+			rewards: [{
+				id: "2F3403F31AC55A14"
+				item: {
+					Count: 1b
+					id: "campanion:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.22.subtitle}"
+			tasks: [
+				{
+					id: "063F105EAF2E1CD1"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03CA4106F7490978"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74E7B48237BED17D"]
+			description: ["{chapter.2.quest.23.description.1}"]
+			id: "4AF3238551E346E1"
+			rewards: [{
+				count: 4
+				id: "23B7C7FE9EE1C6BF"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.23.subtitle}"
+			tasks: [{
+				id: "5AA7D9B4E863846A"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["604CF717881C323A"]
+			description: ["{chapter.2.quest.24.description.1}"]
+			id: "1DEF161DE26F3587"
+			rewards: [
+				{
+					count: 4
+					id: "20738A978098D996"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3EBD1C846242F9BD"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.2.quest.24.subtitle}"
+			tasks: [{
+				id: "062D9D73045B04F3"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1DEF161DE26F3587"]
+			id: "6B85CBE54B33C91F"
+			shape: "diamond"
+			subtitle: "{chapter.2.quest.25.subtitle}"
+			tasks: [{
+				count: 16L
+				id: "77BFFF7831525CB0"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.25.title}"
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1DEF161DE26F3587"]
+			description: ["{chapter.2.quest.26.description.1}"]
+			id: "68108C8A6AC63A01"
+			rewards: [{
+				count: 6
+				id: "7EEED7520D320247"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.26.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "20CDF6DD734135C3"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.26.title}"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["545BF28E82A07D19"]
+			description: ["{chapter.2.quest.27.description.1}"]
+			id: "7354F2BFB2591ECF"
+			rewards: [
+				{
+					id: "2FC3C3C1EEF29421"
+					item: "sniffer:sniffer_egg"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "02C1E6C64FF675CE"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6E745FEF91101A6C"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "559628E110BA3920"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6D73F8A2532F0D15"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3AF3F3526015EBC7"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "25D89697A7FE9804"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{chapter.2.quest.27.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "4F44B7121D6C4F8D"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.27.title}"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5BE7EBA598FD5EE0"]
+			description: ["{chapter.2.quest.28.description.1}"]
+			hide: false
+			id: "76704C59FAFCD2E7"
+			subtitle: "{chapter.2.quest.28.subtitle}"
+			tasks: [{
+				count: 3L
+				id: "11F5577E4AC6319A"
+				item: "createastral:andesite_compound"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.28.title}"
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1DEF161DE26F3587"]
+			description: ["{chapter.2.quest.29.description.1}"]
+			id: "392516C890B749C8"
+			optional: true
+			subtitle: "{chapter.2.quest.29.subtitle}"
+			tasks: [{
+				id: "4338CFB76306088F"
+				item: "createsifter:sifter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["392516C890B749C8"]
+			id: "3DBD012732199053"
+			optional: true
+			rewards: [
+				{
+					id: "5807402B0565A95D"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "7BA81C863A551473"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "1CFC88356FB05350"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+				{
+					id: "1FEAA15F96242579"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "60C1A50B98E5653F"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{chapter.2.quest.30.subtitle}"
+			tasks: [{
+				count: 256L
+				id: "4CAB1128165A4732"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.30.title}"
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			description: ["{chapter.2.quest.31.description.1}"]
+			id: "4117DCE0FDD1C403"
+			rewards: [{
+				count: 8
+				id: "0658745608F58B97"
+				item: "minecraft:grass_block"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.31.subtitle}"
+			tasks: [{
+				id: "0B8A1FC256D818B0"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D51B2F9F28ECE8A"]
+			description: ["{chapter.2.quest.32.description.1}"]
+			id: "605ECFFA4F1C2736"
+			rewards: [{
+				count: 4
+				id: "1723B18152EFFBDB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.32.subtitle}"
+			tasks: [{
+				id: "467CF458EC67569F"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.32.title}"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4117DCE0FDD1C403"]
+			description: ["{chapter.2.quest.33.description.1}"]
+			id: "0563257D5CE9C8A5"
+			rewards: [{
+				id: "474F63CEE27D89D4"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.33.subtitle}"
+			tasks: [{
+				id: "01D04DDE6D25A335"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			description: ["{chapter.2.quest.34.description.1}"]
+			id: "0E7A9F741823BB1C"
+			subtitle: "{chapter.2.quest.34.subtitle}"
+			tasks: [{
+				id: "0AE62A2EB5C01889"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E7A9F741823BB1C"]
+			id: "4881D5FF815609C3"
+			rewards: [
+				{
+					count: 5
+					id: "6339032CF14E63E3"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "43ED1E4CA0B18128"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "16CC9B96D4F83362"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0EE936A24539E621"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "18E856B68907F3B8"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "58E3F5DD50EF39C9"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "1E6CB5B640D83593"
+					item: "techreborn:rubber_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.2.quest.35.subtitle}"
+			tasks: [{
+				count: 100L
+				id: "2F0FF11646ED9D1C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "{chapter.2.quest.35.task.1.title}"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.35.title}"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			description: ["{chapter.2.quest.36.description.1}"]
+			id: "5A0C01D3ED5C49D4"
+			subtitle: "{chapter.2.quest.36.subtitle}"
+			tasks: [{
+				id: "5E3F778EEE449FC5"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A0C01D3ED5C49D4"]
+			description: ["{chapter.2.quest.37.description.1}"]
+			icon: "minecraft:blast_furnace"
+			id: "1FFB7970C388204C"
+			rewards: [{
+				id: "220200620D9BA6CF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{chapter.2.quest.37.subtitle}"
+			tasks: [{
+				id: "1A528CDF4DA51B41"
+				title: "{chapter.2.quest.37.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.2.quest.37.title}"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["604CF717881C323A"]
+			description: ["{chapter.2.quest.38.description.1}"]
+			id: "3BC959B431460B3E"
+			rewards: [{
+				count: 6
+				id: "0584F4786C257952"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.38.subtitle}"
+			tasks: [{
+				id: "6AB8ACEC187A2696"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["604CF717881C323A"]
+			description: ["{chapter.2.quest.39.description.1}"]
+			id: "16B52EB613255A4E"
+			rewards: [{
+				count: 6
+				id: "719847700014D8D3"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.39.subtitle}"
+			tasks: [{
+				id: "05717BB30821DD97"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["604CF717881C323A"]
+			description: ["{chapter.2.quest.40.description.1}"]
+			id: "2091C55A386F75AB"
+			rewards: [
+				{
+					count: 3
+					id: "23B75B415E6531E5"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2AC52F9B7033BF08"
+					item: "create:clutch"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.2.quest.40.subtitle}"
+			tasks: [{
+				id: "345E2CF0447592DE"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0A5DC78719B9A244"]
+			description: ["{chapter.2.quest.41.description.1}"]
+			hide_dependency_lines: true
+			id: "0E28273A4D119B81"
+			rewards: [{
+				id: "38DF6AA8C288E420"
+				item: "minecraft:slime_block"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.41.subtitle}"
+			tasks: [{
+				id: "4842B54099B4114B"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6499CD689863283D"]
+			description: ["{chapter.2.quest.42.description.1}"]
+			id: "0C6D01057E4E29FC"
+			rewards: [
+				{
+					count: 10
+					id: "5ABAC2209006E1A0"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "062DC014ED89362B"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{chapter.2.quest.42.subtitle}"
+			tasks: [{
+				id: "78CC75D171BB7AE8"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.42.title}"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1337920DA45E72AD"]
+			description: ["{chapter.2.quest.43.description.1}"]
+			hide: true
+			icon: "create:wrench"
+			id: "5BE7EBA598FD5EE0"
+			rewards: [{
+				id: "04356BEE19FBF2E4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 2.5d
+			subtitle: "{chapter.2.quest.43.subtitle}"
+			tasks: [{
+				id: "032EAA934B34EED4"
+				title: "{chapter.2.quest.43.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.2.quest.43.title}"
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1579C73B735F06F8"]
+			id: "4E17A29F84247877"
+			subtitle: "{chapter.2.quest.44.subtitle}"
+			tasks: [{
+				id: "0FB3C74D1CF20AF1"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1579C73B735F06F8"]
+			description: ["{chapter.2.quest.45.description.1}"]
+			id: "31B9F34B69172C02"
+			subtitle: "{chapter.2.quest.45.subtitle}"
+			tasks: [{
+				id: "6869CF716EC9137A"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36129D7A46CC6F6D"]
+			description: ["{chapter.2.quest.46.description.1}"]
+			id: "4525F3F3177D72B8"
+			optional: true
+			subtitle: "{chapter.2.quest.46.subtitle}"
+			tasks: [
+				{
+					id: "4DDF48CBA9ECE6E1"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					id: "504180FCBBDE01F7"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					id: "5565F447E4F83BAC"
+					item: "create:track_observer"
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.46.title}"
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BE7EBA598FD5EE0"]
+			description: ["{chapter.2.quest.47.description.1}"]
+			icon: "minecraft:bedrock"
+			id: "2AF2E0A5DF16F5D9"
+			subtitle: "{chapter.2.quest.47.subtitle}"
+			tasks: [
+				{
+					id: "35684AEA414C5246"
+					title: "{chapter.2.quest.47.task.1.title}"
+					type: "checkmark"
+				}
+				{
+					id: "65DD979F7CE1FDE8"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "19BAABDDC504962C"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.47.title}"
+			x: -4.0d
+			y: 12.5d
+		}
+	]
+	title: "{chapter.2.title}"
+}

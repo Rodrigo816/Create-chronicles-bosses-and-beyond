@@ -1,0 +1,419 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_m2"
+	group: "2B02D614E453E838"
+	icon: "ars_nouveau:as_gold_stone"
+	id: "43DDE8F2EDA941A9"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 50.0d
+			hover: [ ]
+			image: "kubejs:textures/source.png"
+			rotation: 0.0d
+			width: 50.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "kubejs:textures/wowarcane.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.5d
+			y: -5.0d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["07D1ED74C8A30306"]
+			description: ["Found all around the world."]
+			hide: true
+			id: "4FCF36E9502773E2"
+			rewards: [
+				{
+					id: "561023DAC5BC8E9E"
+					item: {
+						Count: 1b
+						id: "kubejs:lootbag_arcane_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "444B4DB0143C3743"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "247C4CD8805980C2"
+				item: "ars_nouveau:source_berry"
+				type: "item"
+			}]
+			title: "Sourceberry"
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4FCF36E9502773E2"]
+			description: ["Stamp down Sourceberries"]
+			id: "77CEF8A4D9FBB5E2"
+			tasks: [{
+				id: "3EA7926439C1C143"
+				item: "kubejs:sourceberry_juice_bucket"
+				type: "item"
+			}]
+			title: "Sourceberry Juice"
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2ADEBF32DFED9BAC"]
+			description: ["Fill a bowl with Magebloom Sourceberry Smoothie."]
+			id: "5E8190EE24211A08"
+			rewards: [
+				{
+					count: 3
+					id: "1D93342BC800E2EE"
+					item: "kubejs:magebloom_sourceberry_smoothie_bowl"
+					type: "item"
+				}
+				{
+					id: "04B1508F1B5EF9C7"
+					item: {
+						Count: 1b
+						id: "kubejs:lootbag_arcane_2"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F35E8CA9C0A4294"
+				item: "kubejs:magebloom_sourceberry_smoothie_bowl"
+				type: "item"
+			}]
+			title: "Magebloom Sourceberry Smoothie Bowl"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5E8190EE24211A08"]
+			description: ["Wash a Bowl of Leaves to clean it."]
+			id: "7DC257849AB71246"
+			rewards: [{
+				id: "1A298141DCBB8CD5"
+				item: {
+					Count: 1b
+					id: "kubejs:lootbag_arcane_1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AF443C156B04946"
+				item: "kubejs:mage_leaf"
+				type: "item"
+			}]
+			title: "Magically Blooming Leaves"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5E8190EE24211A08"]
+			description: ["Roll a Magebloom Source Smoothie Bowl over a item drain"]
+			id: "09BFC11F9574430E"
+			tasks: [{
+				id: "49CD6687B4A54965"
+				item: "kubejs:impure_source_bucket"
+				type: "item"
+			}]
+			title: "Impure Source Bucket"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["640F176B95D8B880"]
+			dependency_requirement: "one_started"
+			description: ["Cast Source into a gem cast to create Source Gems"]
+			id: "13DB66C24AD6C498"
+			rewards: [
+				{
+					count: 2
+					id: "18191B53401D5D59"
+					item: {
+						Count: 1b
+						id: "kubejs:lootbag_arcane_3"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4154CABE916D26AF"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "1120F4F148E7CCCA"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D60C3E9ADF653D5"]
+			description: ["The String can be woven into an ancient parchment"]
+			id: "2F4BE8EF99F2622B"
+			rewards: [
+				{
+					id: "6644BFEF6F8F0C9E"
+					item: {
+						Count: 1b
+						id: "kubejs:lootbag_arcane_2"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22218EBCA32AB1F0"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:spell_parchment"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0191E8D0CF28664F"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:spell_parchment"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2F4BE8EF99F2622B"
+				"09BFC11F9574430E"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Boil down Impure Source in a Mixer for a conversion with 75% loss."
+				"Alternatively, purify the source utilizing the Spell Parchment to create Source at full efficiency"
+			]
+			id: "640F176B95D8B880"
+			rewards: [{
+				id: "07AE90E8FEFD3CB8"
+				item: {
+					Count: 1b
+					id: "kubejs:lootbag_arcane_2"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B3EA02C0A5CEBC1"
+				item: "kubejs:source_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DC257849AB71246"]
+			description: ["Cut down Arcane Leaves using a Deployer"]
+			id: "0D60C3E9ADF653D5"
+			rewards: [{
+				count: 8
+				id: "73EE9C7778527934"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E37134E7BDF5D1"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			title: "Magebloom Fiber"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["07D1ED74C8A30306"]
+			description: ["Sighted on islands high up in the Sky. Some of the Ancients used to store this."]
+			hide: true
+			id: "672C2DF08E4C5B8A"
+			rewards: [
+				{
+					id: "5A5E0943E8BCC80D"
+					item: {
+						Count: 1b
+						id: "kubejs:lootbag_arcane_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "112D0C8337989FA0"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "17149B060C8E44AE"
+					item: "ars_nouveau:magebloom"
+					type: "item"
+				}
+				{
+					id: "2C2A4163BA611DE6"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["672C2DF08E4C5B8A"]
+			description: ["Stamp down Mageblooms"]
+			id: "13FAE8977206B874"
+			tasks: [{
+				id: "43D390230730F70A"
+				item: "kubejs:magebloom_juice_bucket"
+				type: "item"
+			}]
+			title: "Magebloom Juice"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"77CEF8A4D9FBB5E2"
+				"13FAE8977206B874"
+			]
+			description: ["Mix Sourceberry and Magebloom Juice"]
+			id: "2ADEBF32DFED9BAC"
+			tasks: [{
+				id: "4E00D4380963781E"
+				item: "kubejs:magebloom_sourceberry_smoothie_bucket"
+				type: "item"
+			}]
+			title: "Magebloom Sourceberry Smoothie"
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["07D1ED74C8A30306"]
+			hide: true
+			id: "6DC937B7DDC7E181"
+			size: 1.2d
+			tasks: [{
+				id: "3655F725B8BB8054"
+				item: "kubejs:runic_tablet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["07D1ED74C8A30306"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "kubejs:source_candy_rock"
+				tag: {
+					Enchantments: [{ }]
+				}
+			}
+			id: "5A6F9DE733759A51"
+			rewards: [{
+				count: 10
+				id: "529CC429D1300405"
+				item: "kubejs:source_candy_rock"
+				type: "item"
+			}]
+			subtitle: "Positive Affirmations (totally not brainwashing)"
+			tasks: [
+				{
+					id: "67580E5282D9AF16"
+					title: "I am loved"
+					type: "checkmark"
+				}
+				{
+					id: "4E79696CC13F9886"
+					title: "I accept, that this chapter seems simple."
+					type: "checkmark"
+				}
+				{
+					id: "0A2F53B4A0196A13"
+					title: "I embrace, that altough simple, this chapter needs a lot of infrastructure."
+					type: "checkmark"
+				}
+				{
+					id: "6AA0C48F791FC1E5"
+					title: "I will be wealthy with Source Gems"
+					type: "checkmark"
+				}
+				{
+					id: "5DDD45D325280925"
+					title: "I am a sane individual"
+					type: "checkmark"
+				}
+				{
+					id: "577A4FDADAEBA724"
+					title: "I am not crazy"
+					type: "checkmark"
+				}
+				{
+					id: "7E7F176F1F2D7AD5"
+					title: "crazy? I was crazy once"
+					type: "checkmark"
+				}
+			]
+			title: "Don't be frustrated."
+			x: 0.5d
+			y: -8.0d
+		}
+	]
+	title: "Chapter MII: Herbalists Heritage"
+}

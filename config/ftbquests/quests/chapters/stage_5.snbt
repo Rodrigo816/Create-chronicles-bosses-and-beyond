@@ -1,0 +1,936 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_5"
+	group: "2B02D614E453E838"
+	icon: "kubejs:computation_matrix"
+	id: "75CF8B6BAC6A01EF"
+	order_index: 45
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["251A91F6C21AEAFB"]
+			description: [
+				"Welcome to the final Chapter of this Journey: building the Data Centre. What will this entail? Thousands of numeric calculations! "
+				"But do not fear, as an inventor you will let your creation do all the work for you, as usual."
+				""
+				"Cast the combined logic of all your Calculation Mechanisms into two digits, from which you will calculate 8 others through a series of crafting operations. A digital ME system is recommended for managing the logistics, though not strictly required."
+			]
+			hide: true
+			icon: "kubejs:calculation_mechanism"
+			id: "5D0454F977C4F080"
+			rewards: [{
+				id: "0397D214E0A6CC89"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1F6009A328AA0184"
+				type: "checkmark"
+			}]
+			title: "Finale Start!"
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"6BA9A176EDA001A3"
+				"1AE7B6CA4D1DBA6F"
+				"462CE0A4C80442FB"
+				"69311E02A8B3451D"
+				"3AD7553F3C8593F9"
+				"4800892E1E70648D"
+				"25B76A897D97C9F1"
+				"73473DC7269EC5B0"
+			]
+			description: [
+				"With everything in place and the Matrices programmed, you can go ahead and assemble the Guidance Computer and add it to your Spaceship."
+				""
+				"Take a minute to craft a flag representing your space program to bring to the moon. You can apply patterns to it just like a Banner."
+				""
+				"In your own time, take a seat in your assembled rocket, and press Space."
+			]
+			icon: "advancedrocketry:guidancecomputer"
+			id: "47965C310D9847DC"
+			rewards: [{
+				count: 3
+				id: "7F4FDBDE58C30C3A"
+				item: {
+					Count: 1b
+					id: "desolation:charred_fence"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Flag Pole\",\"italic\":false,\"color\":\"aqua\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "05BDC7ACF64D13C2"
+					item: "advancedrocketry:guidancecomputer"
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					icon: {
+						Count: 1b
+						id: "supplementaries:flag_gray"
+						tag: {
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Color: 0
+										Pattern: "gra"
+									}
+									{
+										Color: 15
+										Pattern: "bo"
+									}
+									{
+										Color: 15
+										Pattern: "bs"
+									}
+									{
+										Color: 15
+										Pattern: "ts"
+									}
+									{
+										Color: 15
+										Pattern: "rs"
+									}
+									{
+										Color: 11
+										Pattern: "ls"
+									}
+								]
+							}
+						}
+					}
+					id: "4418C7A289B17158"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "supplementaries:flag_orange"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_magenta"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_light_blue"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_lime"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_gray"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_cyan"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_green"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_red"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_white"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_light_gray"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_yellow"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_pink"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_purple"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_blue"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_brown"
+								}
+								{
+									Count: 1b
+									id: "supplementaries:flag_black"
+								}
+							]
+						}
+					}
+					title: "Any Flag"
+					type: "item"
+				}
+			]
+			title: "We have lift off!"
+			x: 2.0d
+			y: 7.75d
+		}
+		{
+			dependencies: [
+				"42B5C0102B22F389"
+				"5358E5F7FB59DD60"
+				"5550A3E383EFEC90"
+				"55F959A18E904D6C"
+				"7927B6162577FA7B"
+				"1C6657984648B0D4"
+				"4A16CE3BC111280F"
+				"3126DE83A6741671"
+				"7D808F15BEDD7A7B"
+				"2441491CB5D5E57D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"For the calculations of the Guidance computer, we will need.. a lot of these Digits."
+				""
+				"Before letting items exit the logistical ecosystem of the calculations, make sure each digit leaves in equal amounts. Brass Tunnels can solve this issue in a straight-forward fashion."
+				""
+				"Each digit now has to be dissolved back into its liquified form via Smeltery. Once a Smeltery collected 10 liquified items of each digit, they combine into the encoded logic required for our Computer. Once enough of this figurative alloy has accumulated, it can be cast into the powerful Computation Matrix."
+				""
+				"The Guidance Computer requires 8 Matrices to function. Depending on your data centre and mechanism assembly lines, this may take a while."
+			]
+			id: "69311E02A8B3451D"
+			shape: "circle"
+			subtitle: "Contraption 45"
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "2C98415D43457049"
+				item: "kubejs:computation_matrix"
+				type: "item"
+			}]
+			title: "Solving Trajectories"
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D0454F977C4F080"]
+			description: ["In order to provide 'Mechanical' Calculators with numbers and operators, all available Calculation Mechanisms have to be melted down into the figurative processing power they provide."]
+			icon: {
+				Count: 1b
+				id: "thermal:fluid_cell"
+				tag: {
+					BlockEntityTag: {
+						AmountIn: 1000
+						AmountOut: 1000
+						RSControl: {
+							RSMode: 0b
+							RSThreshold: 0b
+						}
+						TankInv: [{
+							Amount: 32000
+							Capacity: 32000
+							FluidName: "kubejs:raw_logic"
+							Tank: 0b
+						}]
+						Xfer: {
+							XferIn: 0b
+							XferOut: 1b
+						}
+					}
+					Properties: { }
+				}
+			}
+			id: "70D563EF30E9CB97"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Contraption 42"
+			tasks: [
+				{
+					consume_items: false
+					id: "2A4A54EBAFBEB39F"
+					item: "kubejs:raw_logic_bucket"
+					type: "item"
+				}
+				{
+					id: "406AAC43EBD44F6A"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Processing Power"
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["70D563EF30E9CB97"]
+			description: [
+				"As one of the two available digits, Threes can be cast from unprocessed logic. Together with the Eight and available Operators, your Calculators will have to create the remaining digits from 0 to 9 in equal amounts."
+				""
+				"This casting process can quickly become a bottleneck, for most running calculations depend on the numbers generated here. Make sure things move fluently."
+			]
+			icon: "kubejs:three"
+			id: "5550A3E383EFEC90"
+			subtitle: "Contraption 43-1"
+			tasks: [
+				{
+					consume_items: false
+					id: "343E4ED28EA67219"
+					item: "kubejs:three"
+					type: "item"
+				}
+				{
+					id: "61DEC75D20A61088"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["70D563EF30E9CB97"]
+			description: [
+				"The second available Digit is the Eight. It can be cast from unprocessed logic."
+				""
+				"From here, plan via which calculations the other digits will be created, and how the cost can be minimised. Remember that each added calculation step ends up increasing the amount of Calculation Mechanisms required for the digit it leads to."
+			]
+			icon: "kubejs:eight"
+			id: "3126DE83A6741671"
+			subtitle: "Contraption 43-3"
+			tasks: [
+				{
+					consume_items: false
+					id: "18BB7C8E32701CB6"
+					item: "kubejs:eight"
+					type: "item"
+				}
+				{
+					id: "4DAD021C66AB2A27"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			description: ["3-3, 2-2, 8-8,...? A total of 39 options exist to calculate zeros. A tough decision!"]
+			icon: "kubejs:zero"
+			id: "2441491CB5D5E57D"
+			subtitle: "Contraption 44-8"
+			tasks: [
+				{
+					consume_items: false
+					id: "6FF94B3F20E69F43"
+					item: "kubejs:zero"
+					type: "item"
+				}
+				{
+					id: "3413FA802F33F4BF"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			description: ["3-2, 4/4, 8-7,...? A total of 21 options exist to calculate ones. Whichever will it be?"]
+			icon: "kubejs:one"
+			id: "42B5C0102B22F389"
+			subtitle: "Contraption 44-1"
+			tasks: [
+				{
+					consume_items: false
+					id: "61A3EF7882F2A31E"
+					item: "kubejs:one"
+					type: "item"
+				}
+				{
+					id: "402FD7973EC66AEA"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			description: ["3-1, 8/4, 1+1,...? A total of 17 options exist to calculate twos. Any favourites?"]
+			icon: "kubejs:two"
+			id: "5358E5F7FB59DD60"
+			subtitle: "Contraption 44-2"
+			tasks: [
+				{
+					consume_items: false
+					id: "2AD655BD7E1A0EBF"
+					item: "kubejs:two"
+					type: "item"
+				}
+				{
+					id: "14D9C52366D6AF27"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			description: ["6-2, 2x2, 3+1,...? A total of 16 options exist to calculate fours. Choose wisely."]
+			icon: "kubejs:four"
+			id: "55F959A18E904D6C"
+			subtitle: "Contraption 44-3"
+			tasks: [
+				{
+					consume_items: false
+					id: "54FEAD9C942788CF"
+					item: "kubejs:four"
+					type: "item"
+				}
+				{
+					id: "3662CA8BEE33E02D"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			description: ["3+2, 6-1, 8-3,...? A total of 14 options exist to calculate fives. How do you want to do this?"]
+			icon: "kubejs:five"
+			id: "7927B6162577FA7B"
+			subtitle: "Contraption 44-4"
+			tasks: [
+				{
+					consume_items: false
+					id: "0B94D4B1C2A131DA"
+					item: "kubejs:five"
+					type: "item"
+				}
+				{
+					id: "4963498277C8A578"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			description: ["3x2, 3+3, 8-2,...? A total of 16 options exist to calculate sixes. May the best be victorious."]
+			icon: "kubejs:six"
+			id: "1C6657984648B0D4"
+			subtitle: "Contraption 44-5"
+			tasks: [
+				{
+					consume_items: false
+					id: "0127797E6B5249A2"
+					item: "kubejs:six"
+					type: "item"
+				}
+				{
+					id: "3E69BC01E47532D1"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			description: ["9-2, 4+3, 8-1,...? A total of 14 options exist to calculate sevens. Feeling Lucky?"]
+			icon: "kubejs:seven"
+			id: "4A16CE3BC111280F"
+			subtitle: "Contraption 44-6"
+			tasks: [
+				{
+					consume_items: false
+					id: "7FA25AD87CBD6B62"
+					item: "kubejs:seven"
+					type: "item"
+				}
+				{
+					id: "44A10C4B490D3C62"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			description: ["3x3, 4+5, 8+1,...? A total of 15 options exist to calculate nines. The choice is yours."]
+			icon: "kubejs:nine"
+			id: "7D808F15BEDD7A7B"
+			subtitle: "Contraption 44-7"
+			tasks: [
+				{
+					consume_items: false
+					id: "2F81E83410906BB5"
+					item: "kubejs:nine"
+					type: "item"
+				}
+				{
+					id: "5521427D5BAF2771"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5D0454F977C4F080"]
+			description: [
+				"Rocketry Equipment is built from the light but robust material of Matter Plastics. Matter Balls can be created in a Matter Condenser."
+				""
+				"First, insert a 1k ME Storage Component into the Matter Condenser, set it to produce Matter Balls and then supply it with the most abundant flow of items you can come up with. Don't throw your valuables in; the items are consumed in the process."
+			]
+			hide_dependency_lines: true
+			icon: "appliedenergistics2:matter_ball"
+			id: "3CBED6B591BCEDEA"
+			subtitle: "Contraption 47"
+			tasks: [
+				{
+					consume_items: false
+					id: "245415CFAEFCA7ED"
+					item: "appliedenergistics2:matter_ball"
+					type: "item"
+				}
+				{
+					id: "0811C927283EE155"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Upcycle Bin"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6F750A66D0A559DE"
+				"3CBED6B591BCEDEA"
+			]
+			description: ["Create bars of Matter Plastics in a Super-Heated Compacter. You'll need a couple of these."]
+			id: "6A156D11D983661D"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "25532A2369192051"
+				item: "kubejs:matter_plastics"
+				type: "item"
+			}]
+			title: "Expensive Bricks II"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D0454F977C4F080"]
+			description: ["For powering our Rocket, we will require some very potent fuel. Search some of the warmer biomes for a source of Crude Oil. You cannot miss it."]
+			hide_dependency_lines: true
+			icon: "thermal:crude_oil_bucket"
+			id: "4761DAE59CDD93AF"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "69EE10F8CDFF7980"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:crude_oil_bucket"
+							}
+							{
+								Count: 1b
+								id: "thermal:crude_oil_bucket"
+							}
+						]
+					}
+				}
+				title: "Any Crude Oil Bucket"
+				type: "item"
+			}]
+			title: "Black Gold"
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4761DAE59CDD93AF"]
+			description: ["Crude Oil can be refined into Heavy Oil using a Fractionating Still."]
+			id: "2BD76CB3F8BC215E"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "0F12D5A3157F61C4"
+				item: "thermal:heavy_oil_bucket"
+				type: "item"
+			}]
+			title: "Hydrocarbon Sorter I"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4761DAE59CDD93AF"]
+			description: ["Refining Crude Oil into Heavy Oil creates a by-product of Light Oil."]
+			id: "26DD1CA6A8D4E249"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "2EA66D1B4EEBFA62"
+				item: "thermal:light_oil_bucket"
+				type: "item"
+			}]
+			title: "Hydrocarbon Sorter II"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2BD76CB3F8BC215E"
+				"26DD1CA6A8D4E249"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Both Heavy and Light Oil can be further refined into suitable Rocket Fuel."]
+			id: "25B76A897D97C9F1"
+			shape: "circle"
+			subtitle: "Contraption 46"
+			tasks: [{
+				consume_items: false
+				id: "5CAC7E6BDD460233"
+				item: "thermal:refined_fuel_bucket"
+				type: "item"
+			}]
+			title: "Hydrocarbon Sorter III"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D0454F977C4F080"]
+			description: ["To form Matter Plastics, we need temperatures unreachable by even the most overclocked Invar Machines. However, your little Blaze friend will be happy to trade..."]
+			hide_dependency_lines: true
+			id: "6F750A66D0A559DE"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "588732AF86BA6A8D"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "Treat for Heat"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6A156D11D983661D"]
+			description: ["If you intend to survive past the landing, a special set of armour will be required."]
+			icon: "advancedrocketry:spacehelmet"
+			id: "6BA9A176EDA001A3"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: false
+					id: "7E45D4E589606928"
+					item: "advancedrocketry:spacehelmet"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00E67717F76ABA56"
+					item: "advancedrocketry:spacechest"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3D1FB475F19FB099"
+					item: "advancedrocketry:spaceleggings"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "29F72399D75E555C"
+					item: "advancedrocketry:spaceboots"
+					type: "item"
+				}
+			]
+			title: "Attire"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D0454F977C4F080"]
+			description: ["In order for your Guidance Computer to know its Destination, a Planet Id Chip has to be inserted."]
+			hide_dependency_lines: true
+			id: "462CE0A4C80442FB"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "4036EE2984EFEA1A"
+				item: {
+					Count: 1b
+					id: "advancedrocketry:planet_id_chip"
+					tag: {
+						DimensionName: " The Moon "
+						dimId: "custommoon:moon"
+					}
+				}
+				type: "item"
+			}]
+			title: "Where to?"
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6A156D11D983661D"]
+			description: [
+				"In order to fill your Oxygen Tanks, stand on a Gas Charge Pad with oxygen in its internal storage."
+				""
+				"Suitable Oxygen can be gained by separating water into its components via heated mixing."
+			]
+			icon: "advancedrocketry:oxygencharger"
+			id: "3AD7553F3C8593F9"
+			shape: "circle"
+			subtitle: "Contraption 48"
+			tasks: [
+				{
+					consume_items: false
+					id: "045DB251DB8BB97F"
+					item: "advancedrocketry:oxygencharger"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "23140AC17E9BE946"
+					item: "advancedrocketry:bucketoxygen"
+					type: "item"
+				}
+			]
+			title: "Electrolysis"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6A156D11D983661D"]
+			description: [
+				"The Launch Pad for your Rocket requires special surface materials and reinforcement structures."
+				""
+				"In order to learn about the specific guidelines, locate the ponder scene of the Guidance Computer, or use the command"
+				""
+				"&6/c ponder advancedrocketry:guidancecomputer"
+			]
+			icon: "advancedrocketry:launchpad"
+			id: "4800892E1E70648D"
+			rewards: [{
+				command: "/c ponder advancedrocketry:guidancecomputer"
+				icon: {
+					Count: 1b
+					id: "occultism:book_of_calling_djinni_manage_machine"
+					tag: {
+						spiritName: "Zedzeraeus"
+					}
+				}
+				id: "6023AC8699FE1451"
+				team_reward: false
+				title: "Open Ponder Scene"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "Contraption 49"
+			tasks: [
+				{
+					consume_items: false
+					id: "1F86655043929A18"
+					item: "advancedrocketry:launchpad"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2BC9E126D403902B"
+					item: "advancedrocketry:structuretower"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3D2474BE8BAE28D1"
+					item: "advancedrocketry:rocketassembler"
+					type: "item"
+				}
+			]
+			title: "Launch Pad Structure"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6A156D11D983661D"]
+			description: ["A couple of additional Gadgets are required in order to load the rocket with fuel. For usages refer to the Ponder Scene of the Guidance Computer."]
+			icon: "libvulpes:linker"
+			id: "1AE7B6CA4D1DBA6F"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: false
+					id: "4D0D4FCDA84500F4"
+					item: "advancedrocketry:fuelingstation"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0CA84D5F0130C60E"
+					item: "libvulpes:linker"
+					type: "item"
+				}
+			]
+			title: "Pipeless Loading"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["70D563EF30E9CB97"]
+			description: ["Without the operators, a data center would not be able to combine digits into others. Provide your Calculators with an automated supply of any operator they end up requiring."]
+			icon: "kubejs:plus"
+			id: "4E85C8A2EEEB57C3"
+			subtitle: "Contraption 43-2"
+			tasks: [
+				{
+					consume_items: false
+					id: "69462AA912169E3B"
+					item: "kubejs:plus"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "56E1C75AD6DF3119"
+					item: "kubejs:minus"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3BF3D9E9B3782EA3"
+					item: "kubejs:multiply"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5914CB0D1D6E839E"
+					item: "kubejs:divide"
+					type: "item"
+				}
+				{
+					id: "26517C9D1C3D8269"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Operators"
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"6A156D11D983661D"
+				"4800892E1E70648D"
+			]
+			description: [
+				"With the Launch Pad in place, it is time to construct your Spaceship. "
+				""
+				"Give it your best, after all this is the final Contraption you've been working towards. "
+				"&7Though perhaps keep the palette simple- with the state that mod is in, see if you can avoid using any funky special rendered blocks here. Crashing to this now would be devastating."
+			]
+			icon: "advancedrocketry:fueltank"
+			id: "73473DC7269EC5B0"
+			shape: "circle"
+			subtitle: "Contraption &b50"
+			tasks: [
+				{
+					consume_items: false
+					id: "5A1CC7C1BAFFABBC"
+					item: "advancedrocketry:rocketmotor"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "303C6C7B357D47D9"
+					item: "advancedrocketry:fueltank"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5140EF835413E2FC"
+					item: "advancedrocketry:seat"
+					type: "item"
+				}
+			]
+			title: "The Spaceship"
+			x: 3.5d
+			y: 6.0d
+		}
+	]
+	title: "&f5&r Divide by Digital"
+}

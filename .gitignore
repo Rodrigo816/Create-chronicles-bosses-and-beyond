@@ -1,0 +1,17 @@
+# Ignore folders
+/logs/
+/crash-reports/
+/saves
+/XaeroWorldMap/
+/XaeroWorldWaypoints/
+/XaeroWaypoints/
+XaeroWaypoints_*/
+/pfm/
+/essential/
+/local/
+/mods/
+
+# files
+.curseclient
+usernamecache.json
+usercache.json

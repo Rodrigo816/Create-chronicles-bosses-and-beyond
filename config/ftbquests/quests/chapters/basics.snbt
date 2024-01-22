@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basics"
+	group: ""
+	id: "09B56D111668F538"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "20B809315D39A346"
+			tasks: [{
+				id: "5DE306E3F420E894"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["20B809315D39A346"]
+			id: "64C67B2DAA831696"
+			tasks: [{
+				id: "53E6AC95562AF86B"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	title: "Basics"
+}

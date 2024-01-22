@@ -1,0 +1,96 @@
+
+#.
+#Modify the generation of Ores added by Destroy
+[worldGen]
+	#.
+	#.
+	#Prevents Destroy Ores from generating
+	disableWorldGen = false
+
+#.
+#Destroy's drugs and medicines
+[substances]
+
+	#.
+	#.
+	#Baby Blue
+	[substances.babyBlue]
+		#.
+		#Allow the production of Baby Blue.
+		enableBabyBlue = true
+		#.
+		#[0 to disable this feature]
+		#Each level corresponds to an additional second of withdrawal.
+		#Range: > 0
+		maxAddictionLevel = 590
+
+	#.
+	#Alcohol
+	[substances.alcohol]
+		#.
+		#[in ticks]
+		#How long each additional level of inebriation adds.
+		#Range: > 0
+		inebriationDuration = 1200
+		#.
+		#[in ticks]
+		#How long each level of inebriation adds to the Hangover effect.
+		#Range: > 0
+		hangoverDuration = 1200
+		#.
+		#How much Entities will slip when inebriated.
+		#Range: 0.0 ~ 1.0
+		drunkenSlipping = 0.699999988079071
+
+	#.
+	#Chorus Wine
+	[substances.chorusWine]
+		#.
+		#[inSeconds]
+		#How far in the past your position will be set when drinking Chorus Wine.
+		#Range: 1 ~ 60
+		teleportTime = 20
+
+#.
+#Change the effects of pollution on the world
+[pollution]
+	#.
+	#.
+	#Releasing chemicals increases pollution
+	enablePollution = true
+	#.
+	"Players in Creative mode are treated as if they are wearing Engineer's Goggles even if they are not" = true
+
+	#.
+	[pollution."Visual Changes"]
+		#.
+		#The sky and grass turn browner the higher the Smog level
+		smog = true
+		#.
+		#The rain turns greener the higher the Acid Rain level
+		rainColorChanges = true
+
+	#.
+	[pollution."Gameplay Changes"]
+		#.
+		#Villagers increase their prices the higher the Smog level
+		villagersIncreasePrices = true
+		#.
+		#Fishing yields fewer fish and more junk the higher the Smog level
+		fishingAffected = true
+		#.
+		#Mobs will be more likely to fail to breed the higher the Smog level
+		breedingAffected = true
+		#.
+		#Crops are less likely to grow the higher the Smog, Greenhouse Gas and Acid Rain levels
+		growingAffected = true
+		#.
+		#Rain is more likely to kill plants and grass the higher the Acid Rain level
+		rainBreaksBlocks = true
+		#.
+		#Outdoor temperature (which affects Distillation Towers and Vats) increases with Greenhouse Gas and Ozone Depletion levels
+		temperatureAffected = true
+		#.
+		#The likelihood of getting the cancer awareness pop-up from the sun increases with the Ozone Depletion level
+		ozoneDepletionGivesCancer = true
+

@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oil"
+	group: ""
+	icon: "tfmg:heavy_oil_bucket"
+	id: "38FE3E0C86FF237B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Para começar tua produçao de oleo primeiro terás de encontrar um oil deposit."
+				"Os oils deposits poderão ser encontrados na bedrock."
+				"Crafta um surface scanner e usar create power para localizar o oil."
+				"o scannar não é precisso e tem uma margem de erro de cerca de 8 blocos se não encontrares num local exprimentar notro local."
+				"Eu garanto-te que ele existem :)."
+				"Some bombs could help"
+			]
+			id: "5E43C8E344DD951E"
+			rewards: [{
+				count: 10
+				id: "01B467BD98ED7C13"
+				item: "tfmg:industrial_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5094D88CB44BCDA6"
+				item: "tfmg:surface_scanner"
+				type: "item"
+			}]
+			title: "Finding the ore deposit"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E43C8E344DD951E"]
+			description: [
+				"Para extrair o oleo usa a ponder cene para obter mais informaçoes."
+				""
+				"Se tiveres a dar problemas certificar-te que o ponto vermelho do pumpjabase é virado para frente e o ponto do pumpjakebase na diraçao aposta"
+				""
+				"{image:kubejs:item/oil_extrator width:157 height:61 align:1 fit:true}"
+				""
+				"Depois da constraçao montada e funcionar poderás extrair o oleo com um mechanical pump na pumpjakebase"
+			]
+			id: "1A88FC2486B98B78"
+			rewards: [{
+				count: 4
+				id: "21B4C70FF4103ED4"
+				item: "tfmg:steel_fluid_tank"
+				type: "item"
+			}]
+			subtitle: "Extrair o oleo multoblock"
+			tasks: [
+				{
+					id: "62400367F312D615"
+					item: "tfmg:pumpjack_base"
+					type: "item"
+				}
+				{
+					id: "00D1F5257F7AB389"
+					item: "tfmg:pumpjack_hammer_holder"
+					type: "item"
+				}
+				{
+					id: "586D05EBFE813985"
+					item: "tfmg:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "4EDDB254F1336A93"
+					item: "tfmg:machine_input"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "43EB1737A6421A5B"
+					item: "tfmg:steel_truss"
+					type: "item"
+				}
+			]
+			title: "Oil Extrator"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A88FC2486B98B78"]
+			description: [
+				"O proximo passo será construir uma dislation"
+				""
+				"please refer to ponder scene como construir"
+			]
+			id: "1E1E079FFAE3FAF2"
+			rewards: [
+				{
+					id: "12A90D4FFE5C4DC0"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2E285870788EE6CC"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6519B92105B2C6E6"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					id: "2F62A9EDEDCD4B5D"
+					item: "tfmg:steel_truss"
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "62F6C005098B2D13"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "13FBC0933820B0E4"
+					item: "tfmg:steel_distillation_output"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "52B4F7143C036D7D"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+			]
+			title: "Distilation"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "24A830CFEBC6F4B6"
+			tasks: [{
+				amount: 1000L
+				fluid: "tfmg:gasoline"
+				id: "77C64A53926F1510"
+				type: "fluid"
+			}]
+			title: "Gasoline"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "565129B2C46EB47E"
+			tasks: [{
+				amount: 1000L
+				fluid: "minecraft:water"
+				id: "06935A5BED33FA89"
+				type: "fluid"
+			}]
+			title: "Ad Astra Fuel"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			id: "75B6601E19BF747F"
+			tasks: [{
+				id: "20AC07BE50FA4E19"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Mix mas ainda nao sei que e"
+			x: 5.0d
+			y: -5.0d
+		}
+	]
+	title: "Oil"
+}

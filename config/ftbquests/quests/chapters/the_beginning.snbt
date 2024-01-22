@@ -1,0 +1,231 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginning"
+	group: "2B02D614E453E838"
+	icon: "minecraft:red_bed"
+	id: "3FC9A225E7140A5A"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "minecraft:block/sculk_catalyst_top_bloom"
+		rotation: 0.0d
+		width: 3.0d
+		x: -4.0d
+		y: -5.5d
+	}]
+	order_index: 50
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:compass"
+			id: "6EF3BC02F21236EB"
+			rewards: [
+				{
+					id: "13AB7AACA7A779B8"
+					item: {
+						Count: 1b
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0A28FC8196DE07A8"
+					item: {
+						Count: 1b
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "243E33317425BAB6"
+					item: "minecraft:compass"
+					type: "item"
+				}
+			]
+			subtitle: "With these items you can find biomes and structures"
+			tasks: [{
+				id: "5E7F4ABB04BFF84F"
+				title: "Compass"
+				type: "checkmark"
+			}]
+			title: "Starting Items"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6EF3BC02F21236EB"]
+			icon: {
+				Count: 1b
+				id: "travelersbackpack:pig"
+				tag: { }
+			}
+			id: "4BA2099489326E16"
+			rewards: [
+				{
+					id: "1F1058BD51B5823C"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "7CD8950D9B6B3474"
+					item: {
+						Count: 1b
+						id: "travelersbackpack:pig"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "every traveler needs a backpack."
+			tasks: [{
+				id: "22C964F7CC0BA734"
+				type: "checkmark"
+			}]
+			title: "Backpack"
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6EF3BC02F21236EB"]
+			icon: "minecraft:cooked_beef"
+			id: "0C9B63E09D4085BA"
+			rewards: [{
+				count: 25
+				id: "482FA455A6AFD03F"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08DD72CB9125A6EE"
+				type: "checkmark"
+			}]
+			title: "Food"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6EF3BC02F21236EB"]
+			icon: "minecraft:red_bed"
+			id: "19958EC14459ED26"
+			rewards: [{
+				id: "56264D63CA8CB41A"
+				item: "minecraft:red_bed"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65D4DE660CB1D102"
+				type: "checkmark"
+			}]
+			title: "Sleep!"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6EF3BC02F21236EB"]
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3D10C3F8DC982EB4"
+			rewards: [
+				{
+					id: "4D5F106F2C4F8685"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4339CAA3E5AA8F23"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11FB87FDC0BD7F6C"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4752CE71DBB09CA1"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09B2DF9EB2EA71FB"
+				type: "checkmark"
+			}]
+			title: "Tools"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19958EC14459ED26"]
+			icon: {
+				Count: 1b
+				id: "minecraft:written_book"
+				tag: {
+					author: "BlazeXII"
+					pages: [
+						"{\"text\":\"Controls of Create Craft Quest:\\n\\n\\n^ = Change Camera\\n\\ntab = Show Quests\\n\\nMiddle Mouse button = Sort Inventory\\n\\nt = hide trashcan in inventory\\n\\n\"}"
+						"{\"text\":\"k = toggle shader\\n\\nm = open world map\\n\\n+ = map settings\\n\\ng = toggle jetpack engine\\n\\nh = toggle hovermode for jetpack\\n\\nb = open backpack\"}"
+					]
+					resolved: 1b
+					title: "Keybindings"
+				}
+			}
+			id: "6FE04DF6E3DD18A3"
+			rewards: [{
+				id: "24C1653E9234687D"
+				item: {
+					Count: 1b
+					id: "minecraft:written_book"
+					tag: {
+						author: "BlazeXII"
+						pages: [
+							"{\"text\":\"Controls of Create Craft Quest:\\n\\n\\n^ = Change Camera\\n\\ntab = Show Quests\\n\\nMiddle Mouse button = Sort Inventory\\n\\nt = hide trashcan in inventory\\n\\n\"}"
+							"{\"text\":\"k = toggle shader\\n\\nm = open world map\\n\\n+ = map settings\\n\\ng = toggle jetpack engine\\n\\nh = toggle hovermode for jetpack\\n\\nb = open backpack\"}"
+						]
+						resolved: 1b
+						title: "Keybindings"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "this book shows you the most important keybinds for this modpack"
+			tasks: [{
+				id: "1295803F27C3BCFF"
+				type: "checkmark"
+			}]
+			title: "Keybinds"
+			x: -4.0d
+			y: -9.5d
+		}
+	]
+	title: "Beginning Items"
+}

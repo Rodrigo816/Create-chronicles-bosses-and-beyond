@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: ""
+	icon: "create_dd:inductive_mechanism"
+	id: "19D31D09E6BC56DE"
+	images: [
+		{
+			alpha: 200
+			click: ""
+			color: 16672790
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 16672790
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: 8.5d
+			y: -7.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"685184BACF51DA3E"
+				"507927EEC1417661"
+				"799C5BF73C5D6C1E"
+				"2A3742D31C51EFB1"
+			]
+			description: [
+				"Parabens!!!"
+				"Com este mecanismo desbloqueas-te uma data de coisas"
+				"x "
+				"x"
+				"x"
+				"x"
+			]
+			id: "2891CDBA760D75E0"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				count: 10L
+				id: "21A20194279A207D"
+				item: "create_dd:inductive_mechanism"
+				type: "item"
+			}]
+			title: "Logistic Mechanism"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12796FE2B6E3D53E"]
+			id: "0405FF7031C1EE5E"
+			tasks: [{
+				id: "66D95F3084B72DFB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0405FF7031C1EE5E"]
+			dependency_requirement: "one_completed"
+			id: "1A586971A019CD43"
+			tasks: [{
+				id: "11B30524498A06D8"
+				item: "createaddition:seed_oil_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12796FE2B6E3D53E"]
+			id: "0B889314F6611F0C"
+			tasks: [{
+				id: "42387CE024E5E9C0"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0B889314F6611F0C"
+				"1A586971A019CD43"
+			]
+			dependency_requirement: "one_started"
+			description: ["Sticks não é precisso aquecimento :)"]
+			id: "7F558698B2690486"
+			tasks: [{
+				id: "4C6E53F563E877A3"
+				item: "createaddition:biomass"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F558698B2690486"]
+			id: "685184BACF51DA3E"
+			tasks: [{
+				id: "134F07BA8A7980A5"
+				item: "createaddition:biomass_pellet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43D6EC530F7F1126"]
+			id: "799C5BF73C5D6C1E"
+			tasks: [{
+				id: "68BE7DF54B0A8011"
+				item: "create_dd:andesite_sheet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43D6EC530F7F1126"]
+			id: "1DE7E1DD11C1E737"
+			tasks: [{
+				id: "320BE36D12875B8D"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1DE7E1DD11C1E737"]
+			id: "2A3742D31C51EFB1"
+			tasks: [{
+				id: "374D5A5A430DD5D9"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53EB7E023803E1B4"]
+			id: "7C9BA77385C889BC"
+			tasks: [{
+				id: "4DB045329AE71548"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			id: "2AC4989491FBE085"
+			tasks: [{
+				id: "267220A3BCE67000"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "Lava"
+			x: 10.0d
+			y: -2.5d
+		}
+	]
+	title: "Chapter 1"
+}

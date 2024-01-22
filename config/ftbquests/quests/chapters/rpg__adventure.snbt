@@ -1,0 +1,82 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rpg__adventure"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "forbidden_arcanus:draco_arcanus_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "31D2A38C7FF59E68"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Existe um sistema de skill points, poderás ver a tua skill tree cliclando na tecla \"k\" by default, existe um limite total de x skill poitns que poderás ter. Os skills serão como prémido das quests a medida que fores progredindo."]
+			id: "08BE1D108C9EA8A5"
+			rewards: [
+				{
+					count: 2
+					id: "17D67C3046362448"
+					item: "kubejs:skill_points"
+					type: "item"
+				}
+				{
+					id: "510F3DB28EA3CCAD"
+					item: "kubejs:skill_points"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2169B255769F2E04"
+					item: "kubejs:skill_points"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CC1D7C234A5A4C3"
+				type: "checkmark"
+			}]
+			title: "Skill Points System"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "2F88E7AA84363183"
+			tasks: [{
+				id: "605D3025988E6626"
+				item: {
+					Count: 1b
+					id: "simplyswords:emberblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Simple Swords"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Ao longo da tua aventura irás descobrir items com efeitos epeciais e bonus que são unicos que podem ser craftadas. Essas items tem um drop rate bastante baixo mas quando encontrares uma facilmente perceberás o seu poder ou então a falta dele xD."
+				"Os lugares onde poderão ser encontradas ou dropar são desconhecidos."
+				"Embarca nesta aventura e mantem teu olho bem aberto."
+			]
+			id: "7E166C9124401163"
+			subtitle: "Custom Stuff"
+			tasks: [{
+				id: "2EBA2040D132EE4B"
+				type: "checkmark"
+			}]
+			title: "Custom Items"
+			x: -3.0d
+			y: -0.5d
+		}
+	]
+	title: "RPG and Adventure"
+}

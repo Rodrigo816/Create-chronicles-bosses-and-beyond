@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_cooper_machine"
+	group: "71FCEFE04D91F069"
+	id: "6BD4C23A62382692"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5C5BBEA6E03836C7"]
+			description: ["Depois dás item drain para obter sap liquido"]
+			id: "6C54D9FC570E8C23"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "392FF0B029538E35"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "1B7A6BA5FB6CE58F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29DD83CD6B4FC717"
+				item: "create_dd:sap_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C54D9FC570E8C23"]
+			description: ["Com o sap dás mixing para obter raw rubber"]
+			id: "300DD17E607B3081"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B48C755367DF4D2"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "54BC81CDDDE9BA0C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "311C7E2AF95B47F9"
+				item: "create_dd:raw_rubber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["300DD17E607B3081"]
+			description: ["depois dás  bulk smoking"]
+			id: "2E72CEB626FD6EBE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "796CB8F719D6263C"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "49CFFADA3638AE17"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E457F9D0A4477C5"
+				item: "create_dd:rubber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E72CEB626FD6EBE"]
+			description: ["belts o principal de qualquer assemby line"]
+			id: "269E461376CE2456"
+			rewards: [{
+				count: 10
+				id: "70A141BAF8CF776A"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A340C67ECB502E3"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Belts"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"158CBAE8B12624BE"
+				"2E72CEB626FD6EBE"
+			]
+			description: [
+				"Entra Andesite mechanism"
+				""
+				"+ cooper ingot"
+				"+ 2 rubber"
+			]
+			id: "252BB3C829C5426D"
+			tasks: [{
+				id: "0641F3E0318419C2"
+				item: "minecraft:waxed_copper_block"
+				type: "item"
+			}]
+			title: "Cooper Mechanism"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			id: "158CBAE8B12624BE"
+			tasks: [{
+				id: "5DAE26A3D871041F"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+	]
+	title: "The Cooper Machine"
+}
