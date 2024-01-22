@@ -9,10 +9,12 @@ let SD = (id, x) => MOD("storagedrawers", id, x)
 let SP = (id, x) => MOD("supplementaries", id, x)
 let F = (id, x) =>  MOD("forge", id, x)
 let CI = (id, x) => MOD("createindustry", id, x)
+let IF = (id, x) => MOD("iceandfire", id, x)
+let ARS = (id, x) => MOD("ars_nouveau", id, x)
+let CRDD = (id, x) => MOD("create_dd", id, x)
 
 ServerEvents.recipes(event => {
 
-    event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc' })
     
     let multicut = (outputs, input, remove_old) => {
         outputs.forEach(output => {
@@ -28,51 +30,50 @@ ServerEvents.recipes(event => {
         });
     };
 
+    /*
+    ===============================
+    ---->Chapter 1
+    ==============================
+    */
+    event.remove({ id: CR('crafting/materials/andesite_alloy_from_zinc') })
+    event.remove({ id: CR('compacting/andesite_from_flint') })
+    event.remove({ id: IF('crackled_to_gravel') })
+    event.remove({ id: IF('furnace/frozen_gravel') })
+    event.remove({ id: 'minecraft:andesite' })
+    event.remove({ id: ARS('manipulation_essence_to_andesite') })
+    event.remove({ id: CRDD('industrial_iron/andesite_alloy_mixing') })
     event.replaceInput(
         { id: 'create:crafting/kinetics/mechanical_mixer' }, 
         'create:whisk',            
         'minecraft:diamond'         
     )
-    // Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
-    //event.blasting('minecraft:andesite', 'minecraft:gravel')
-    event.smoking('minecraft:andesite', 'minecraft:gravel')
-    // Cook 1 stone into 3 gravel in a Furnace:
-    event.smelting('3x minecraft:gravel', 'minecraft:stone')
 
-    // Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
-    event.blasting('minecraft:tinted_glass', 'minecraft:glass')
-
-    // Smoke glass into tinted glass in the Smoker:
-    event.smoking('minecraft:tinted_glass', 'minecraft:glass')
-
-    // Burn sticks into torches on the Campfire:
-    event.campfireCooking('minecraft:torch', 'minecraft:diamond')
-   // event.smelting("minecraft:leather", "minecraft:rotten_flesh");
-    //event.smoking("minecraft:leather", "minecraft:rotten_flesh");
-
-    //Magma Rotten Flesh to Leather
-    //event.smelting("minecraft:leather", "rottencreatures:magma_rotten_flesh");
-    //event.smoking("minecraft:leather", "rottencreatures:magma_rotten_flesh");
-
-
+    //event.smoking('minecraft:andesite', 'minecraft:gravel')
+    event.smoking('minecraft:andesite', 'minecraft:gravel').cookingTime(900)
+    
     // Rotation Mechanism
 	let transitional = 'kubejs:incomplete_rotation_mechanism'
 	event.recipes.createSequencedAssembly([
 		'kubejs:rotation_mechanism',
 	], '#minecraft:wooden_slabs', [
+		event.recipes.createDeploying(transitional, [transitional, CR('andesite_alloy')]),
 		event.recipes.createDeploying(transitional, [transitional, CR('cogwheel')]),
-		event.recipes.createDeploying(transitional, [transitional, CR('large_cogwheel')]),
-		event.recipes.createDeploying(transitional, [transitional, F('#saws')])
+		event.recipes.createDeploying(transitional, [transitional, 'minecraft:shears'])
 	]).transitionalItem(transitional)
 		.loops(1)
 		.id('kubejs:rotation_mechanism')
 
-    event.shapeless(KJ('rotation_mechanism'), [F('#saws'), CR('cogwheel'), CR('andesite_alloy'), '#minecraft:logs']).id("kubejs:rotation_mechanism_manual_only")
-        .damageIngredient(Item.of(KJ('stone_saw')))
-        .damageIngredient(Item.of(KJ('iron_saw')))
-        .damageIngredient(Item.of(KJ('diamond_saw')))   
-
-
+    event.shaped(KJ('rotation_mechanism'), [
+        'BBB',
+        'CDE',
+        ' A '
+    ], {
+        A: '#minecraft:wooden_slabs',
+        B: CR('andesite_alloy'),
+        C: CR('cogwheel'),
+        D: 'minecraft:shears',
+        E: 'minecraft:iron_ingot'
+    })
 
     // Rotation Machine
     transitional = 'kubejs:incomplete_rotation_machine'

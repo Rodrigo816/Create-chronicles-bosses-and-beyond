@@ -54,6 +54,9 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
