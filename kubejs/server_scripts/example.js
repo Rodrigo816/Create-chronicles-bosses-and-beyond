@@ -163,16 +163,19 @@ ServerEvents.recipes(event => {
 	let transitionalValve = 'kubejs:incomplete_valve_mechanism'
 	event.recipes.createSequencedAssembly([
 		'kubejs:valve_mechanism',
-	], '#minecraft:wooden_slabs', [
+	], 'kubejs:rotation_mechanism', [
 		event.recipes.createDeploying(transitionalValve, [transitionalValve, CR('copper_sheet')]),
         event.recipes.createDeploying(transitionalValve, [transitionalValve, CR('copper_sheet')]),
-        event.recipes.createFilling(transitionalValve, [
+        /*event.recipes.createFilling(transitionalValve, [
             transitionalValve,
             Fluid.of('minecraft:water', 250)
-          ]),
+          ]),*/
         event.recipes.createPressing(transitionalValve, 'coal_block'),
 	]).transitionalItem(transitionalValve)
 		.loops(1)
 		.id('kubejs:valve_mechanism')
+    
+
+    event.shapeless(KJ('copper_machine'), [KJ('valve_mechanism'),KJ('valve_mechanism')])
 
 })
