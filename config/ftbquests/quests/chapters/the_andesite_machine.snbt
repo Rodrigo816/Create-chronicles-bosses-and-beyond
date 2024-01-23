@@ -9,9 +9,23 @@
 	quests: [
 		{
 			description: ["Tudo começa com uma tree"]
+			icon: {
+				Count: 1b
+				id: "itemfilters:tag"
+				tag: {
+					value: "minecraft:saplings"
+				}
+			}
 			id: "12796FE2B6E3D53E"
 			tasks: [{
-				id: "21F98927C605D5FD"
+				icon: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+				id: "783C71576162A80E"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"

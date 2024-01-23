@@ -39,6 +39,7 @@ StartupEvents.registry('item', event => {
 
 
     mechanism('Rotation')
+    mechanism('Valve')
     console.log("rodrigo")
     event.create('skill_add_point')
         .maxStackSize(64)

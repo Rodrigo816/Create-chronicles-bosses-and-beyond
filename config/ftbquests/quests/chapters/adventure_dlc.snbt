@@ -1,0 +1,1481 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure_dlc"
+	group: "5DC690C45DE3E2BD"
+	icon: {
+		Count: 1b
+		id: "aquamirae:divider"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7DD81657A6032115"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:ice"
+			id: "5909DB73D7F9EA7F"
+			rewards: [{
+				count: 30
+				id: "05C86EC32269C59C"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				biome: "minecraft:deep_frozen_ocean"
+				icon: "minecraft:blue_ice"
+				id: "7CABDE621AD1EF97"
+				type: "biome"
+			}]
+			title: "Aquamirae"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "24BAFFA784E8D69D"
+			rewards: [{
+				count: 40
+				id: "3BDFC5912C0E162A"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E685D991688AE06"
+				item: "aquamirae:rune_of_the_storm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "7E5F3228C83C72FB"
+			rewards: [{
+				count: 40
+				id: "5A4AB6BA877995FA"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0307C66E1B0360E6"
+				item: "aquamirae:frozen_key"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "6956FA6C7C11E174"
+			rewards: [{
+				count: 30
+				id: "088FD49DE8FD29A6"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "712017B9881EE3D7"
+				structure: "aquamirae:shelter"
+				type: "structure"
+			}]
+			title: "Find a shelter"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "4B91D45BC2621ADC"
+			rewards: [{
+				count: 30
+				id: "7E78500D1C1621CE"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Obtain that by killing the captain of a pillager ship"
+			tasks: [{
+				id: "5513923213D6DC13"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			icon: "aquamirae:captain_cornelia_spawn_egg"
+			id: "264E0443C0956B97"
+			rewards: [{
+				count: 40
+				id: "1ADD7C096B38565C"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "71E642A8E6261429"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Ghost of Captain Cornelia"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "32C93610F237B5F0"
+			rewards: [{
+				id: "31F191ECFCB32277"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7CAC47A53E2A85E9"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57EAF4964C2CAD72"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25CF62F38310A945"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34977DDD292BB2E7"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Three-Bolt equipment"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "02DF62A1DF094A21"
+			rewards: [{
+				count: 30
+				id: "22F0B1401555806C"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Obtain that by killing the Eel"
+			tasks: [{
+				id: "4D092D9393CB95E6"
+				item: "aquamirae:dead_sea_scroll"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "343AAE1AEBBE9ED9"
+			rewards: [{
+				count: 3
+				id: "4FC3475812D23961"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C317267D1361F18"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58DA66FBDFDC16F1"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43B1BDFEFAEBB623"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64ACE04FA93E34E9"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "7BCB70142848DD37"
+			rewards: [{
+				id: "50B1732037F6EAAA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E5FBEFE02C84CEF"
+				item: {
+					Count: 1b
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "12A2CAD031ADB303"
+			rewards: [{
+				id: "535285655B3B97E4"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29F82D8F96399E2B"
+				item: {
+					Count: 1b
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "2538DF6BC981B959"
+			rewards: [{
+				id: "61DF00BC1F2D0D23"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "682C6B33D70D56A0"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6412657712B5902D"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4492FD4DA99D38E3"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "680407922276D24E"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "0DD74F06FC8838B9"
+			rewards: [{
+				id: "1ADE8182D31F3B74"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "308BF5978868622E"
+				item: {
+					Count: 1b
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "4EDCB4E0BF51ADD2"
+			rewards: [{
+				id: "034DEE5DE619C828"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AA61DBDEDE438C9"
+				item: {
+					Count: 1b
+					id: "aquamirae:poisoned_chakra"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "38EFD21088A9E179"
+			rewards: [{
+				count: 20
+				id: "1F710744BE15322D"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "1802A302DDA8D6EF"
+					structure: "blue_skies:gatekeeper_house_mountain"
+					type: "structure"
+				}
+				{
+					id: "316F1FA852D6DE63"
+					structure: "blue_skies:gatekeeper_house_plains"
+					type: "structure"
+				}
+				{
+					id: "4FCEB89D769F4A72"
+					structure: "blue_skies:gatekeeper_house_snowy"
+					type: "structure"
+				}
+				{
+					id: "767BCB1711968C27"
+					structure: "#blue_skies:gatekeeper_houses"
+					type: "structure"
+				}
+			]
+			title: "Find the house of the Gatekeeper"
+			x: -5.2d
+			y: -5.8500000000000005d
+		}
+		{
+			id: "27A672D21C7DB620"
+			rewards: [{
+				count: 20
+				id: "339AE10418EE0963"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A7C9CAB01DF3264"
+				item: {
+					Count: 1b
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			id: "6D62ECF1614F10CB"
+			rewards: [{
+				count: 20
+				id: "51E6FAEE9A5D7C3C"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25D4D9B2A2998F26"
+				item: "blue_skies:blue_journal"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			icon: "blue_skies:everbright_portal"
+			id: "39131D18C49E6E61"
+			rewards: [{
+				count: 30
+				id: "7E0081F71E50C774"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				id: "4818D18C63350E24"
+				type: "dimension"
+			}]
+			title: "Go to the Everbright"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			icon: "blue_skies:everdawn_portal"
+			id: "5F91A0ED4C7AB45D"
+			rewards: [{
+				count: 30
+				id: "03C31C2A190F7A0B"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				id: "7CF3EF8F357E8D12"
+				type: "dimension"
+			}]
+			title: "Go to the Everdawn"
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "29CB0025B2A7E2B7"
+			rewards: [{
+				id: "0254CBE08379B9E9"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "610D441A3805DDBF"
+					item: {
+						Count: 1b
+						id: "blue_skies:aquite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0626DE0C3A5BE8B7"
+					item: {
+						Count: 1b
+						id: "blue_skies:aquite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FAE60E3F2CE0C92"
+					item: {
+						Count: 1b
+						id: "blue_skies:aquite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69B54BF8134A43B7"
+					item: {
+						Count: 1b
+						id: "blue_skies:aquite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			id: "4DE58E4FC4416A5E"
+			rewards: [{
+				count: 30
+				id: "4B1D857EFBA6638F"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "369912257C1C353A"
+				item: "blue_skies:horizonite_forge"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7166769FCF2C44BE"
+			rewards: [{
+				count: 45
+				id: "110836377423D3A0"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "69E42380C36F9DD2"
+					item: {
+						Count: 1b
+						id: "blue_skies:pyrope_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65A6A7A122206AFF"
+					item: {
+						Count: 1b
+						id: "blue_skies:pyrope_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F91B510030B69E1"
+					item: {
+						Count: 1b
+						id: "blue_skies:pyrope_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54BBBF78654DEAD7"
+					item: {
+						Count: 1b
+						id: "blue_skies:pyrope_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "blue_skies:loot_bag_alchemist"
+				tag: {
+					LootTable: "blue_skies:loot_bags/alchemist/common"
+					Rarity: 0
+				}
+			}
+			id: "7386541440B34C06"
+			rewards: [{
+				count: 45
+				id: "6AB25AB59BB78E23"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				id: "516DC150BAF08B38"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Alchemist"
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			id: "1B42D50E5D9B2B27"
+			rewards: [{
+				id: "7AFD1F824FE4877F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67745F00A54D250C"
+				item: {
+					Count: 1b
+					id: "blue_skies:dusk_arc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "73F66C71A0690124"
+			rewards: [{
+				count: 2
+				id: "784B79A4CFD0E58B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1086B47A047E47D8"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "546F0198C3B92882"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "041A8EE82C9BFCB0"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1514AF821D16650B"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "154FFA98416AB6F5"
+			rewards: [{
+				count: 4
+				id: "6445CF51E7D5ED3B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "26254B7FE6C6272A"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37804B3AEFB86D40"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00DE58A413DA9BD7"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25EF5E6D2741099B"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			id: "3A34E063C01422A3"
+			rewards: [{
+				id: "5C21576979DF696C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "65200694E59B13D6"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "714CC8C2F78D3A51"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BBBB506BFD57B9F"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "269E0D949F4C5B4E"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			id: "1CD7F5FB24D84104"
+			rewards: [{
+				count: 2
+				id: "04F614E288E64840"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "312B905F8A6C37FC"
+				item: {
+					Count: 1b
+					id: "blue_skies:poison_arc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			id: "3FEB8D82B1C4EA0F"
+			rewards: [{
+				id: "46FD8A4029038D9C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43F482D746435F11"
+				item: {
+					Count: 1b
+					id: "blue_skies:ethereal_arc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "29C5EF9DEA46873E"
+			rewards: [{
+				count: 2
+				id: "728C6F9A3999590F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F50DC2928714EE1"
+				item: {
+					Count: 1b
+					id: "blue_skies:nature_arc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "blue_skies:loot_bag_arachnarch"
+				tag: {
+					LootTable: "blue_skies:loot_bags/arachnarch/common"
+					Rarity: 0
+				}
+			}
+			id: "52F2F1A12D35C6D6"
+			rewards: [{
+				count: 45
+				id: "226EC812AC9CD2B9"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				id: "6C1675A223C8D7E8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Arachnarch"
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "blue_skies:loot_bag_summoner"
+				tag: {
+					LootTable: "blue_skies:loot_bags/summoner/common"
+					Rarity: 0
+				}
+			}
+			id: "664DDC16001B47FF"
+			rewards: [{
+				count: 45
+				id: "5A6F76D39DD225EA"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "blue_skies:summoner"
+				id: "37B68FE559FDD144"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Summoner"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "blue_skies:loot_bag_starlit_crusher"
+				tag: {
+					LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+					Rarity: 0
+				}
+			}
+			id: "2DFC537A1142E83A"
+			rewards: [{
+				count: 45
+				id: "0969EB9E188C3D93"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				id: "732D36211062D8FF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Starlit Crusher"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "4EE53DF880D42589"
+			rewards: [{
+				count: 30
+				id: "29EE652C2030DF54"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F9D8D1144E20D53"
+				item: "blue_skies:snowcap_oven"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			icon: "aether:aether_portal_frame"
+			id: "41EA0046C1192AAA"
+			rewards: [{
+				count: 20
+				id: "1C01385FDC9D8CE6"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "1C821D372341A886"
+				type: "dimension"
+			}]
+			title: "Enter to the Aether"
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			id: "4E814FAD1DF01F49"
+			rewards: [{
+				count: 15
+				id: "251D9EC5D730BA79"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Dictionary"
+			tasks: [{
+				id: "33A60BB3ACDEC222"
+				item: "aether:book_of_lore"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			id: "33A69E0FC04AAB3C"
+			rewards: [{
+				count: 30
+				id: "5C98EC32976266F0"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "The Valkyries sanctuary"
+			tasks: [{
+				id: "30E43A2ACF8A6D5C"
+				structure: "aether:silver_dungeon"
+				type: "structure"
+			}]
+			title: "Find the Silver Dungeon"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			id: "008F518A9CA5D20C"
+			rewards: [{
+				count: 3
+				id: "4E8736B6D38B6712"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "77C0A9D78B15444F"
+					item: {
+						Count: 1b
+						id: "aether:zanite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A9B4CA569D462E3"
+					item: {
+						Count: 1b
+						id: "aether:zanite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AEACC65895FFC1A"
+					item: {
+						Count: 1b
+						id: "aether:zanite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B5F2DDDF768548E"
+					item: {
+						Count: 1b
+						id: "aether:zanite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Zanite armor"
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			id: "7A9ED7B883C7E4E2"
+			rewards: [{
+				count: 3
+				id: "4CDF1D05FD767537"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "49EBAC71E56364EE"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F8FFAF055DEB964"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12CBF54FB6DC714D"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AFDFAB052BDAD14"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gravitite armor"
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			id: "61ECE49AC61114AB"
+			rewards: [{
+				id: "15BE30C218B10045"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Defeat 10 Valkyries"
+			tasks: [{
+				count: 10L
+				id: "10660399126369E5"
+				item: "aether:victory_medal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "2CD260398F009AAD"
+			rewards: [{
+				count: 2
+				id: "52F9169825FD4B93"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Defeat the Valkyrie Queen"
+			tasks: [{
+				id: "7726ADEB9D0AE608"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "65D0D048A6CB5500"
+			rewards: [{
+				count: 30
+				id: "5C0EC494414F1EF6"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "370885E2FE48311C"
+				structure: "aether:bronze_dungeon"
+				type: "structure"
+			}]
+			title: "Find the Bronze Dungeon"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "2CD790E0469A7D86"
+			rewards: [{
+				id: "762F740B94427AB5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Kill the Slider"
+			tasks: [{
+				id: "49DA4CE75DA2F9BF"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "1FF02EC708B5B434"
+			rewards: [{
+				count: 30
+				id: "497B0F49540E6E07"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3825C0FF4E5B1482"
+				structure: "aether:gold_dungeon"
+				title: "Find the Gold Dungeon"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			id: "572B410BDC5F622C"
+			rewards: [{
+				count: 2
+				id: "371888228EA107BF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "686467A4795BEAD4"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			id: "0ED21D2600475F8C"
+			rewards: [{
+				count: 3
+				id: "3CA5D5AEEBEC6675"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A9F9D4C80D0D6FC"
+					item: {
+						Count: 1b
+						id: "aether:phoenix_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "236EE185D3B604E2"
+					item: {
+						Count: 1b
+						id: "aether:phoenix_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3642A93CDCB7018B"
+					item: {
+						Count: 1b
+						id: "aether:phoenix_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5904003B4D0E4C52"
+					item: {
+						Count: 1b
+						id: "aether:phoenix_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			id: "3D04701D067E6D15"
+			rewards: [{
+				count: 3
+				id: "0EC3E57D00E1BEE1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6909879032006B8D"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33009992399B0C19"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AA2FDC6A7D81355"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C4DC60E51E71232"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			description: ["Allow you to craft Waystones which you can teleport at them"]
+			id: "1B7AD50B077803A1"
+			rewards: [{
+				count: 4
+				id: "1A2AB7AAA68A251E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "The teleporting core"
+			tasks: [{
+				id: "75E2AF3FCA9EF71A"
+				item: {
+					Count: 1b
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.6d
+		}
+		{
+			hide_dependency_lines: true
+			id: "5BEEF5B705FF3770"
+			rewards: [{
+				count: 2
+				id: "1819933E9962D504"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "34224F475146F31F"
+				item: "enchantinginfuser:enchanting_infuser"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7BBA2B915E186973"
+			rewards: [{
+				count: 3
+				id: "24A8D5D10CC28F45"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "403FCB602274990E"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+	]
+	title: "Extended Adventure"
+}

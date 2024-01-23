@@ -1,0 +1,806 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "getting_started"
+	group: "5DC690C45DE3E2BD"
+	icon: "minecraft:book"
+	id: "20AD7BB5D77418BB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This modpack uses the Bountiful mod for a lot of progression! You can find bounty boards in villages with which you can take bounties and earn useful rewards."]
+			icon: "bountiful:bountyboard"
+			id: "2C060E7F19DFCE84"
+			rewards: [{
+				id: "15082B3667FECD8B"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			subtitle: "Bounty Boards"
+			tasks: [{
+				id: "310E79FBA808F544"
+				title: "Your first bounty"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			description: ["Waystones can be found randomly in the world or in villages. Use these for quick traversal over long distances."]
+			icon: "waystones:waystone"
+			id: "610124F1430E60F3"
+			rewards: [{
+				id: "2F60741EA0FBD454"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			subtitle: "Waystones"
+			tasks: [{
+				id: "021D169CC32B7943"
+				title: "Waystones"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			description: ["The warp stone will let you recall from anywhere in the world to a previously discovered waystone. Be sure to craft one, or get one from a reward for an \"Adventurer\" bounty!"]
+			id: "6C0A967F93AEDC20"
+			rewards: [{
+				id: "4C42EF65BB3672F1"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Get a Warp Stone"
+			tasks: [{
+				id: "3B42334AB7347A43"
+				item: {
+					Count: 1b
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Recall"
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			description: ["The first step on your Easy RPG journey is to find a village!"]
+			id: "6A28E3D60BF3FF7D"
+			rewards: [{
+				id: "2D27D064E3804773"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Find a village"
+			tasks: [{
+				icon: "minecraft:oak_log"
+				id: "0D565D59F56C0252"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			title: "Finding a Village"
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			description: ["Decrees are what determine the kind of bounties that will be supplied at a bounty board. When you place a Decree into a bounty board it will be generated as a random type of decree, so its useful to get a lot of decrees in order to find the types of bounties you want!"]
+			icon: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{}"
+				}
+			}
+			id: "12266C48D19BC63A"
+			rewards: [{
+				id: "5056E154AB20ADAC"
+				item: {
+					Count: 1b
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{}"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Using Decrees"
+			tasks: [{
+				id: "17C236C453011A61"
+				title: "Decrees"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			description: ["This modpack ahs the \"Callable Horses\" mod, which allows you to set a horse as your own personal horse (Using a keybind, make sure to set it.) Then once you claim your horse you can call it to your side from anywhere! (Also using another keybind to set up.)"]
+			icon: "minecraft:leather_horse_armor"
+			id: "1B8753F93E23DF61"
+			rewards: [{
+				id: "2C861EF1E184BF37"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			subtitle: "Mount up"
+			tasks: [{
+				id: "6E4ACA70609047D5"
+				title: "Callable Horses"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			description: ["This modpack uses the Apotheosis adventure module for progression. Exploring the world you will find gems that can be placed on your armor and weapons in order to face more challenging foes. On occasion you may also encounter Apothic bosses, they'll spawn in with a glowing effect and are special difficult monsters to battle. But the stronger the boss the more rewarding the drops!"]
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "685679061877366C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C81E20020E4E24D"
+				type: "choice"
+			}]
+			subtitle: "Progression systems"
+			tasks: [{
+				id: "5B7FE366056B5649"
+				title: "Apotheosis"
+				type: "checkmark"
+			}]
+			title: "Gear and Upgrades"
+			x: -17.0d
+			y: 2.0d
+		}
+		{
+			description: ["The gem cutting table will allow you to use two of the same type of gem to make a the better version of said gem."]
+			id: "5B5BC4B53A04C2B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BD6CFAC5F5EF8FD"
+					type: "choice"
+				}
+				{
+					count: 5
+					id: "4640D1D8AE03F563"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Gem Cutting Table"
+			tasks: [{
+				id: "401E8C8689A10206"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 4.0d
+		}
+		{
+			description: ["The Reforging table will allow you to reroll or add an affix title to your equipment, giving it unique buffs and effects based on the rarity/level of the materials you use in the reforging."]
+			id: "35F5502143ADA76F"
+			rewards: [
+				{
+					count: 10
+					id: "449EF5905672F277"
+					item: "apotheosis:common_material"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "030D70D1AEA9BE0C"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Simple Reforging Table"
+			tasks: [{
+				id: "26313E0BA6108A61"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			title: "Affixes and Reforging"
+			x: -17.0d
+			y: 6.0d
+		}
+		{
+			description: ["The Salvaging Table will allow you to break down gems into gem dust, and gear with affixes into reforging materials of the same rarity as the affixes."]
+			id: "16CD0FA5CA2732A1"
+			rewards: [
+				{
+					count: 10
+					id: "265B85C4CB156A38"
+					item: "apotheosis:common_material"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "732DE06C18DB4502"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Salvaging Table"
+			tasks: [{
+				id: "3CBD39F078A8B892"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 4.0d
+		}
+		{
+			description: ["Tools and equipment can gain empty sockets from reforging, but also from applying a sigil of socketing to an item in a smithing table. One piece of equipment can get up to 3 sockets using a normal Sigil of Socketing, and can get a 4th, last one using a Superior Sigil of Socketing. Similarly you apply gems into empty equipment sockets via a smithing table."]
+			icon: "minecraft:smithing_table"
+			id: "650C7273E987E463"
+			rewards: [{
+				id: "10286AF79A03FA07"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			subtitle: "Applying Sockets and Gems"
+			tasks: [{
+				id: "5C8E23E2B63DB911"
+				title: "Gems and Sockets"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 8.0d
+		}
+		{
+			description: ["The Simple Reforging Table will only allow you to get t3 (blue) reforges, the upgraded Reforging Table will let you go all the way up to mythic."]
+			id: "64B49CBA4958D434"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C0EB3A72B6B53F7"
+				type: "choice"
+			}]
+			subtitle: "Upgrade your Reforging Table"
+			tasks: [{
+				id: "1EF6A005E40E914D"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 8.0d
+		}
+		{
+			description: ["Getting a backpack will be super helpful for any up-and-coming adventurer. You can craft one or get one from bounty rewards."]
+			id: "57B3760B38660151"
+			rewards: [{
+				id: "727598C3918BD472"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			subtitle: "Get a backpack"
+			tasks: [{
+				id: "19D1BC808A2CB142"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Simply swords adds in a brand new arsenal of weapons to play around with. It also adds in very rare Legendary weapons with unique abilities that you can find in chests randomly around the world. Try out some of the cool new weapons types."]
+			icon: {
+				Count: 1b
+				id: "simplyswords:brimstone_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A48A445A36F035F"
+			rewards: [{
+				id: "45F9B8260BF73D21"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "New and legendary weapons"
+			tasks: [{
+				id: "77E63E3C4EDCFCAE"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "simplyswords:runic_grimoire"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			description: ["The Scroll Forge allows you to add ink (found in chests around the world,) paper, and special materials in order to make spells."]
+			id: "766246DB09F26168"
+			rewards: [
+				{
+					id: "5821EF5B73BD809E"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "4487B3D6B7E4BC9E"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "695D060B240F8BB0"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			subtitle: "Making Spells"
+			tasks: [{
+				id: "6A3683F96439B5E7"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.0d
+		}
+		{
+			description: ["It's hard to keep finding single use scrolls, but by putting the scrolls into a spell book using the inscription table, one can keep using the spell without consuming the scroll."]
+			id: "2807AABC66C5FBC5"
+			rewards: [{
+				id: "5D984D84AC206D1F"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Your first Spellbook"
+			tasks: [{
+				id: "6C224FBC5D9BDCDF"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 4
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			description: ["Use the Inscription table to place a spell into your spell book."]
+			id: "0490DCD6D189EC4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "617742D1FA49823F"
+				type: "choice"
+			}]
+			subtitle: "Inscribing spells"
+			tasks: [{
+				id: "7362A256BE5BABE4"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.0d
+		}
+		{
+			description: ["Iron's Spells 'n Spellbooks is a magic mod focused around exploring the world to find magic scrolls in order to cast fantastical magics. Craft the magic scrolls yourself, or seek out mage towers or deadly crypts around the world and take their loot as your own."]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "181B40BD86F3E387"
+			rewards: [{
+				id: "20CFED72FB563682"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Magic and towers"
+			tasks: [{
+				id: "174B2CAF8AFC3CC3"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "irons_spellbooks:iss_guide_book"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			description: ["The Arcane Anvil allows you to place 2 scrolls of the same type/level and combine them into the next level up. By placing a weapon and a spell scroll into th Arcane Anvil you can also imbue the effects of the used scroll into said weapon (consumes scroll,) making the weapon able to cast the spell. A Shriving Stone can be used to take off an imbued spell from a weapon."]
+			id: "3194AA6A31C80035"
+			rewards: [{
+				id: "231EC8EACB158C9E"
+				item: "irons_spellbooks:shriving_stone"
+				type: "item"
+			}]
+			subtitle: "Upgrading and Imbuement"
+			tasks: [{
+				id: "7DB096722F2C52DF"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			description: ["You'll find many enchanted books in your travels, but their effects will be hidden. In order to identify them you must use an identification scroll on the enchanted book/item. (Click to pick up scroll in inventory, R-click on item to identify.)"]
+			icon: "irons_rpg_tweaks:identification_scroll"
+			id: "23EA049BD62B4199"
+			rewards: [{
+				id: "197345612D2C4C4D"
+				item: "irons_rpg_tweaks:identification_scroll"
+				type: "item"
+			}]
+			subtitle: "Hidden Enchantments"
+			tasks: [{
+				id: "3183386D81673D87"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			description: ["The Animal Dictionary"]
+			icon: "alexsmobs:animal_dictionary"
+			id: "27BD30C230818FFA"
+			rewards: [{
+				id: "2775CBA990687D68"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			subtitle: "New Animals"
+			tasks: [{
+				id: "384016BF5055D886"
+				type: "checkmark"
+			}]
+			title: "Alex's Mobs"
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			description: ["Dimensional Dungeons is a mod about creating portals to semi-randomly generated dungeons with different challenges and puzzles for you to solve or fight your way through. To get started you will need gilded portal blocks."]
+			id: "78CCA717CD54C4CA"
+			subtitle: "Gilded portal block"
+			tasks: [{
+				count: 2L
+				id: "2F3BEFB8F93A81CC"
+				item: "dimdungeons:block_gilded_portal"
+				type: "item"
+			}]
+			title: "Dimensional Dungeons"
+			x: -21.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Now that we have an inscribed key and our gilded portal blocks, all we need is the portal keystone that will act as our doorway into dimensional dungeons. The image below shows how to set up the portal frame using stone bricks and the portal blocks."
+				""
+				"{image:minecraft:textures/images/portal1.png width:787 height:468 align:1 fit:true}"
+			]
+			id: "6BBE9FAD4EA94763"
+			rewards: [{
+				id: "7E3525245E809216"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			subtitle: "The last step"
+			tasks: [{
+				id: "0F5D17A21AC94364"
+				item: "dimdungeons:block_portal_keyhole"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 6.0d
+		}
+		{
+			description: ["Blank portal keys can be aquired via crafting, as loot, or from adventurer bounties. They are the key to opening new dimensional dungeons."]
+			id: "03B4F7FB1912E00B"
+			rewards: [{
+				id: "5718E396E9F65066"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Get a blank portal key"
+			tasks: [{
+				id: "46E6C21970748998"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 4.0d
+		}
+		{
+			description: ["Each dimensional dungeon you open will have its own unique name inscribed on the key it belongs to. In order to name a key you must right-click the blank portal key on the black center of an end portal frame block."]
+			id: "123FF052210C6BB4"
+			rewards: [{
+				id: "4C1A8FCDEA18A5A5"
+				item: "dimdungeons:block_key_charger"
+				type: "item"
+			}]
+			subtitle: "Inscribing your first key"
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "1B8799A2FE8B51D4"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:end_portal_frame"
+				type: "observation"
+			}]
+			title: "The end is the key"
+			x: -20.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Inside dimensional dungeons you will sometimes find portal setups with banners and portal crown blocks. you can upgrade your own portal using these blocks in order to allow it to use Advanced keys. Keystones wont accept advanced keys unless you have the portal crown blocks, and banners on the gilded portal blocks. You can inscribe an Blank Advanced Portal Key the same way as a normal key"
+				""
+				"{image:minecraft:textures/images/portal.png width:550 height:333 align:1 fit:true}"
+			]
+			id: "6C5DA67CF5A87CED"
+			rewards: [{
+				id: "301A27962AF6E04E"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			subtitle: "Advanced Portal Keys"
+			tasks: [{
+				count: 2L
+				id: "01B63FC9BC21F51B"
+				item: "dimdungeons:block_portal_crown"
+				type: "item"
+			}]
+			title: "Advanced Portals"
+			x: -21.0d
+			y: 8.0d
+		}
+		{
+			description: ["The Key Inscription Station works the same way to inscribe keys as the the end portal, but it's portable. Can be found in dimensional dungeons chests."]
+			id: "1528A0DC803A1DD2"
+			rewards: [{
+				id: "2FB123D5750A3C71"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			subtitle: "Key Inscription Station"
+			tasks: [{
+				id: "02988B45220579C5"
+				item: "dimdungeons:block_key_charger"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 6.0d
+		}
+		{
+			description: ["The Blank Personal Dimension Key can be inscribed the same as a normal blank key, but when inserted in the keystone will take you to your own empty dimension to build as you please."]
+			id: "6E44C3228A48751C"
+			rewards: [{
+				id: "2CC6AE8E5E8855A7"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Personal Dimension"
+			tasks: [{
+				id: "33B8156DEE2B6BA2"
+				item: "dimdungeons:item_blank_build_key"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 6.0d
+		}
+		{
+			description: ["The atlas can be used as both a world map or a mini-map by having the atlas on your hotbar, or in the 'hand' curios slot. By default the atlas will only have the first map used to create it inside it. But by adding extra empty maps, any place you explore will be automatically filled in and added to the atlas map."]
+			id: "136397FD44CF2195"
+			rewards: [{
+				count: 8
+				id: "43A717DD9B2DC37C"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			subtitle: "using the atlas"
+			tasks: [{
+				id: "63B03B3E704551F3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							maps: [I; ]
+						}
+					}
+					id: "map_atlases:atlas"
+				}
+				type: "item"
+			}]
+			title: "Map Atlas"
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			description: ["Refined storage is a mod taht allows you to store a mass quantity of items super easily, just requireing a bit of setup. The first piece you'll need is a Controller"]
+			id: "1BE4EC35A0086F17"
+			rewards: [{
+				count: 8
+				id: "31002C4731C12C07"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			subtitle: "Digital storage"
+			tasks: [{
+				id: "66BBFBBB56F6CA81"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "Refined Storage"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			description: ["In order to have any storage you must have a disk drive connected to the network, with storage disks inside it."]
+			id: "4F3E950CA669C3FA"
+			rewards: [{
+				count: 8
+				id: "5AF4EB1E2CFD5F25"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			subtitle: "Storage disks"
+			tasks: [{
+				id: "58ABAE8FB6AA4337"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			description: ["Any items you put inside the network will be stored on storage disks. You must have at least 1 storage disk within your disk drive connected to your network in order to put any items within it."]
+			id: "78AD33652E4B4091"
+			rewards: [{
+				count: 8
+				id: "2DD63CE6E643CDEF"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			subtitle: "Storage Disks"
+			tasks: [{
+				id: "046E88E14457086C"
+				item: "refinedstorage:1k_storage_disk"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			description: ["The grid is your doorway to access your new storage. It must be connected to the storage network by being placed next to one of the other pieces of the network, or connected via cables."]
+			id: "6903DB754A965DC5"
+			rewards: [{
+				count: 8
+				id: "6C68A53D366C74AD"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			subtitle: "Accessing your digital storage"
+			tasks: [{
+				id: "6F3D4922368E6A48"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			description: ["The crafting grid is the same as the grid block, but has a built in crafting station for faster crafting."]
+			id: "61EA293ACCC1C8B6"
+			rewards: [{
+				id: "6AD39270387F53F1"
+				item: "refinedstorage:1k_storage_disk"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D478B8EE3736AAD"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			description: ["In order for the storage system to function you must power it. These easy to use generators are a good way to start. Simply place it next to the controller and give it some burnable fuel to power up your storage system."]
+			id: "56724A1F9354D8E6"
+			rewards: [{
+				count: 8
+				id: "4C657F0ECA7A0F32"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Energy generation"
+			tasks: [{
+				id: "49513094529CF78B"
+				item: "generatorgalore:copper_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			description: ["When your storage network gets bigger it will require more energy to function, so generators can be upagraded to produce more energy."]
+			id: "005D567778F7E013"
+			rewards: [{
+				count: 16
+				id: "7D2EE9AE17B7E8CE"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Generator upgrades"
+			tasks: [{
+				id: "22151516E722EE70"
+				item: "generatorgalore:iron_generator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			description: ["Paragliders are a form of simple air transportation. Gliding is slightly faster then walking."]
+			id: "4CCD33131D6337C1"
+			rewards: [{
+				id: "4DFBB212B49DBC6F"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Catch the wind"
+			tasks: [{
+				id: "520E202C34987BAF"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			title: "Paraglider"
+			x: -19.0d
+			y: 0.0d
+		}
+		{
+			description: ["Small ships adds in new boats that hold more people and cargo then a normal vanilla boat."]
+			id: "05997223C19D571D"
+			rewards: [{
+				id: "4591006276B577B9"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "New boats"
+			tasks: [{
+				id: "32B9B04FA42D6C3C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:cogs"
+					}
+				}
+				title: "Any #smallships:cogs"
+				type: "item"
+			}]
+			title: "Small ships"
+			x: -21.0d
+			y: 0.0d
+		}
+	]
+	title: "Getting Started"
+}

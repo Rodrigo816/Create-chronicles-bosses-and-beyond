@@ -1,0 +1,1775 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure"
+	group: "5DC690C45DE3E2BD"
+	icon: {
+		Count: 1b
+		id: "aquamirae:terrible_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5A90BE0C54316180"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "710AADC2C52F96A7"
+			rewards: [{
+				count: 20
+				id: "6836E650AE97CFC4"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Best traduction"
+			tasks: [{
+				id: "0013731F962C646D"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["710AADC2C52F96A7"]
+			id: "4ACA75DB2B83971B"
+			rewards: [{
+				count: 5
+				id: "05FAE1B702AC83A9"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [
+				{
+					id: "77B15F02CAEDBFCF"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42FDBF9A21534730"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:primordial_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7922C28B729A2E05"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:toxic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C8CC74404735819"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:abyssal_chasm"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "384CBC420469CC90"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:forlorn_hollows"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4ACA75DB2B83971B"]
+			id: "2EA24B42559D34ED"
+			rewards: [{
+				id: "3614D8FF4F92B13C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: "alexscaves:lanternfish"
+				id: "5A374FCF8243CEFF"
+				type: "biome"
+			}]
+			title: "Visit the Abyssal Chasm"
+			x: -3.5999999999999996d
+			y: -0.6d
+		}
+		{
+			dependencies: ["4ACA75DB2B83971B"]
+			icon: "alexscaves:scarlet_magnet"
+			id: "6E904244259FC28A"
+			rewards: [{
+				id: "6BB33A28B1D05B4C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: "alexscaves:azure_magnet"
+				id: "0F2286C947A36DEF"
+				type: "biome"
+			}]
+			title: "Visit the Magnetic Caves"
+			x: 0.0d
+			y: -0.6d
+		}
+		{
+			dependencies: ["4ACA75DB2B83971B"]
+			id: "275E3EC611498859"
+			rewards: [{
+				id: "5092521007541DEF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: "alexscaves:peering_coprolith"
+				id: "6E5D478E1FC1D410"
+				type: "biome"
+			}]
+			title: "Visit the Forlorn Hollows"
+			x: -6.6d
+			y: -1.7999999999999998d
+		}
+		{
+			dependencies: ["4ACA75DB2B83971B"]
+			id: "2B5978F7AD13AEC7"
+			rewards: [{
+				id: "05C09F1C6FFAD44A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: "alexscaves:pewen_branch"
+				id: "09DD5C3550475006"
+				type: "biome"
+			}]
+			title: "Visit the Primordial Caves"
+			x: 6.6d
+			y: -1.7999999999999998d
+		}
+		{
+			dependencies: ["4ACA75DB2B83971B"]
+			id: "40B77204B1756BF0"
+			rewards: [{
+				id: "4AF7C93EF76977CF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: "alexscaves:waste_drum"
+				id: "3F3C7CC06A8A6B7E"
+				type: "biome"
+			}]
+			title: "Visit the Toxic Caves"
+			x: 3.5999999999999996d
+			y: -0.6d
+		}
+		{
+			dependencies: ["6E904244259FC28A"]
+			id: "7D5992BB318B6A22"
+			rewards: [{
+				count: 20
+				id: "1A4AEF733D73E3A0"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71C05FB0C7290DC2"
+				item: "alexscaves:notor_gizmo"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D5992BB318B6A22"]
+			id: "406150AFA44E7F79"
+			rewards: [{
+				count: 30
+				id: "3AA2A7913141D825"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Project your favorite mob using the Holocoder."
+			tasks: [
+				{
+					id: "3D92D915D4EAF1F2"
+					item: "alexscaves:hologram_projector"
+					type: "item"
+				}
+				{
+					id: "535E6628B990A758"
+					item: "alexscaves:holocoder"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D5992BB318B6A22"]
+			id: "38892B0568A83609"
+			rewards: [{
+				id: "32682A7F5FAA2891"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "An OP item that scans everything around you."
+			tasks: [{
+				id: "0B451F5BFBC47861"
+				item: "scannable:scanner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E904244259FC28A"]
+			id: "2644D0CF6537E1CB"
+			rewards: [{
+				count: 20
+				id: "29188E0BD71AF6C2"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7AA55FA9364ABE62"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "10CC75834F7A9A53"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+			]
+			title: "Neodymiums Ingots"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2644D0CF6537E1CB"]
+			description: ["Obtain the Hearth of Iron by killing the Magnetron."]
+			id: "341B9EE670322EA7"
+			rewards: [{
+				count: 2
+				id: "5E8A27F43E4E8BDA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "The most efficient mining system without the need for electricity."
+			tasks: [
+				{
+					id: "531B7CA65BB1F50D"
+					item: "alexscaves:quarry_smasher"
+					type: "item"
+				}
+				{
+					id: "381671C52E4A2D9C"
+					item: "alexscaves:quarry"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "01C11C8FDAC34CEF"
+					item: "alexscaves:magnetic_light"
+					type: "item"
+				}
+			]
+			title: "Quarry"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2644D0CF6537E1CB"]
+			description: ["Obtain the Heart of Iron by killing the Magnetron."]
+			id: "2E2CCE3A7EFBD4D7"
+			rewards: [{
+				count: 2
+				id: "285FF37A7279708A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "56BD2863B5B6A148"
+				item: {
+					Count: 1b
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2644D0CF6537E1CB"]
+			id: "27A990B00C164BC6"
+			rewards: [{
+				id: "0E98EA16F8E2E796"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "71BA34D21BB3C757"
+				item: {
+					Count: 1b
+					id: "alexscaves:galena_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["275E3EC611498859"]
+			id: "2235CA1FCA51B628"
+			rewards: [{
+				id: "2BD2616ED63989F1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20E8EB0A8AFB5029"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2235CA1FCA51B628"
+				"7760BD4E9F59C5B9"
+			]
+			id: "5B2F3DF315E1586F"
+			rewards: [{
+				count: 8
+				id: "037034DE1376B50B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "17AB75CB4C03827F"
+					item: {
+						Count: 1b
+						id: "alexscaves:hood_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72D637474BE8F774"
+					item: {
+						Count: 1b
+						id: "alexscaves:cloak_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2235CA1FCA51B628"]
+			id: "17A1E29E98A99E90"
+			rewards: [{
+				id: "7EC0D20D8A89AD4E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "72409B4620D037D9"
+				item: {
+					Count: 1b
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["275E3EC611498859"]
+			id: "7760BD4E9F59C5B9"
+			rewards: [{
+				count: 20
+				id: "22894C9ABC3C2085"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E21C222F28448F5"
+				item: "alexscaves:occult_gem"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7760BD4E9F59C5B9"]
+			id: "5F53B09D7CF6624F"
+			rewards: [{
+				count: 30
+				id: "5EBB9CB34A10CBFD"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15E9524857D87FCD"
+				item: {
+					Count: 1b
+					id: "alexscaves:totem_of_possession"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E98B980811EEABE"]
+			id: "53EEABA627BE2021"
+			rewards: [{
+				count: 30
+				id: "225CF320E97BAE14"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "72E291B9B563A11C"
+				item: {
+					Count: 1b
+					id: "alexscaves:primitive_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E98B980811EEABE"]
+			id: "2398CF7383DD8FDC"
+			rewards: [{
+				count: 3
+				id: "38FBE264C326FFEC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "4E990F41C6B3A8DB"
+					item: {
+						Count: 1b
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14DCC4C01AD8814B"
+					item: {
+						Count: 1b
+						id: "alexscaves:primordial_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A3A087C760E0763"
+					item: {
+						Count: 1b
+						id: "alexscaves:primordial_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B5978F7AD13AEC7"]
+			id: "1F7094EB2C76676D"
+			rewards: [{
+				count: 30
+				id: "428BEEB2862BC6F6"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A0B301BCCF282B9"
+				item: "alexscaves:amber_monolith"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B5978F7AD13AEC7"]
+			id: "7E98B980811EEABE"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "0099DACE0D4A7269"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05192274C7CB0A93"
+				item: "alexscaves:heavy_bone"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EA24B42559D34ED"]
+			id: "7C4ECCEA25F1B266"
+			rewards: [{
+				count: 2
+				id: "7D7ABBF5B98ACD75"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C5CBFFC6C0A8329"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DA49D46522C6B89"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69E2EAFD278D4921"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6202590121CAF522"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2EA24B42559D34ED"]
+			id: "4F601FA58526FDCE"
+			rewards: [{
+				count: 5
+				id: "1A724519EE70DA0D"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Can save you from drowning"
+			tasks: [{
+				id: "06846B7AC7E8BD78"
+				item: "alexscaves:floater"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2EA24B42559D34ED"
+				"275E3EC611498859"
+				"6E904244259FC28A"
+				"2B5978F7AD13AEC7"
+				"40B77204B1756BF0"
+			]
+			hide_dependency_lines: true
+			id: "67D1432F8E23B25C"
+			rewards: [{
+				id: "1AED9B3DC1957191"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "640FB6E8788416B3"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.15d
+		}
+		{
+			dependencies: ["2EA24B42559D34ED"]
+			id: "2728C5FE12FD767A"
+			rewards: [{
+				count: 5
+				id: "4F0500FA9034042A"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Use the Abyssal Altar to trade with the deep one to gain their trust and some legendary items"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/pearl_on_abyssal_altar"
+				criterion: ""
+				id: "661B94AB6169513C"
+				type: "advancement"
+			}]
+			title: "Abyssal Altar"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2728C5FE12FD767A"]
+			id: "0C9F2078CB2A5867"
+			rewards: [{
+				count: 3
+				id: "36F278853195A622"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5E472B204D877A2F"
+				item: {
+					Count: 1b
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2728C5FE12FD767A"]
+			id: "2830328901F9D5A3"
+			rewards: [{
+				count: 3
+				id: "4354CDF78A527517"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6833A297B189F5E9"
+				item: {
+					Count: 1b
+					id: "alexscaves:ortholance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2728C5FE12FD767A"]
+			id: "1065A0C535DBB43F"
+			rewards: [{
+				count: 3
+				id: "6A73A069D778F8AA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "63B0A4184D99FABB"
+				item: {
+					Count: 1b
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40B77204B1756BF0"]
+			id: "3A821DD630275DC0"
+			rewards: [{
+				count: 40
+				id: "5EC859AEC2EE494F"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E9B4DF058934830"
+					item: {
+						Count: 1b
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CE104A8C2CC3136"
+					item: {
+						Count: 1b
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6513A49B8DBD1F6D"
+					item: {
+						Count: 1b
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63931C47D48A74F5"
+					item: {
+						Count: 1b
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hazmat Suit"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40B77204B1756BF0"]
+			id: "154DD7209B9D8FDC"
+			rewards: [{
+				count: 5
+				id: "20B908F545782F30"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "323178174B315267"
+				item: "alexscaves:nuclear_furnace_component"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40B77204B1756BF0"]
+			id: "545628139700C1AB"
+			rewards: [{
+				count: 30
+				id: "4B2AA8BB1A1EC852"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D0ADF4D5A2222DB"
+				item: "alexscaves:uranium_rod"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["545628139700C1AB"]
+			id: "04149EB221D3DD79"
+			rewards: [{
+				id: "0AD0C87316653155"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "1C3DFB5CDFB2CB67"
+				item: "alexscaves:raygun"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["545628139700C1AB"]
+			id: "39B21082299C5F58"
+			rewards: [{
+				count: 2
+				id: "0BD12321A1455430"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5C728C7984DD9766"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			icon: "cataclysm:mech_eye"
+			id: "6F4EBE4120EEB59D"
+			rewards: [{
+				count: 30
+				id: "2E6C2BE6EC8DF28E"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "119FB09E0526B14E"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+				{
+					id: "6969C3940CA68A9D"
+					structure: "cataclysm:ancient_factory"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["00671934B2F8331A"]
+			icon: "cataclysm:flame_eye"
+			id: "2AD53560C47D924D"
+			rewards: [{
+				count: 30
+				id: "7B6F0945608091A1"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6127001D11517377"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+				{
+					id: "41254CC639458F31"
+					structure: "cataclysm:burning_arena"
+					type: "structure"
+				}
+			]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["00671934B2F8331A"]
+			icon: "cataclysm:monstrous_eye"
+			id: "72A9062C489C793F"
+			rewards: [{
+				count: 30
+				id: "4230D501342B6B79"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1056E664208D6AED"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+				{
+					id: "1124DAAC41E90779"
+					structure: "cataclysm:soul_black_smith"
+					type: "structure"
+				}
+			]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6B5705E88A1728CD"]
+			icon: "cataclysm:void_eye"
+			id: "7C9B07833F0E2E9A"
+			rewards: [{
+				count: 30
+				id: "7C393AF50043AD44"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F5041A4DA252F9E"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					id: "7E0223DBF36D51D5"
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			icon: "cataclysm:desert_eye"
+			id: "7E420873E1D67C94"
+			rewards: [{
+				count: 30
+				id: "2C29EEE2D4C53C2C"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6D76904E43CE2BF3"
+					item: "cataclysm:desert_eye"
+					type: "item"
+				}
+				{
+					id: "1EFEA1756932A0D3"
+					structure: "cataclysm:cursed_pyramid"
+					type: "structure"
+				}
+			]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			icon: "cataclysm:abyss_eye"
+			id: "0980C4FC42C83F23"
+			rewards: [{
+				count: 30
+				id: "5D5B61C02EB1C2CB"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0436856EB5C46458"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
+				{
+					id: "01F471D07F66599D"
+					structure: "cataclysm:sunken_city"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["72A9062C489C793F"]
+			id: "2898072E4CF75D5B"
+			rewards: [{
+				id: "4049A0CA25F50F45"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "73C89C44AE3919D1"
+				item: {
+					Count: 1b
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["72A9062C489C793F"]
+			id: "011475D42153FFE3"
+			rewards: [{
+				id: "29DEA6995011BCC8"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "66C27C763CCE4ECC"
+				item: {
+					Count: 1b
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7E420873E1D67C94"]
+			id: "66FDE7D0F90FD5D2"
+			rewards: [{
+				id: "52E6103FD2E877BC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0C2D5BD126103D75"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			id: "6EAB1B1408DEEBDE"
+			rewards: [{
+				id: "2BDF9C4CCC0B8977"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "18ACBC71829688A0"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.65d
+		}
+		{
+			dependencies: ["7E420873E1D67C94"]
+			id: "312A7F14670713C1"
+			rewards: [{
+				id: "4969BD0C41BE0BBF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "48E7769CF23CA558"
+				item: "cataclysm:sandstorm_in_a_bottle"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			icon: "minecraft:end_portal_frame"
+			id: "6B5705E88A1728CD"
+			rewards: [{
+				count: 20
+				id: "11FDE5A39A40CA27"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "7DDA7F4262A5499E"
+				type: "dimension"
+			}]
+			title: "Go to the End"
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B5705E88A1728CD"]
+			icon: "minecraft:dragon_head"
+			id: "2CAD09EB7887E382"
+			rewards: [{
+				count: 2
+				id: "05E26FC5675EF3A5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "6921A500D30B5E20"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Ender Dragon"
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7C9B07833F0E2E9A"]
+			id: "70A95A80EC2CB038"
+			rewards: [{
+				id: "687B5E872D07C9A6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "1E9DE87AC0A9EA01"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7C9B07833F0E2E9A"]
+			id: "152B96EA0D572CF6"
+			rewards: [{
+				count: 40
+				id: "60BB2032B327D737"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "74668A0C010793D1"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6B5705E88A1728CD"]
+			description: ["As soon as you find the boss structure, place an Eye of Ender in the altar to summon it."]
+			id: "770C59EF157D22AE"
+			rewards: [{
+				id: "678CC7056A9BB6A4"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "You cant mine it"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "3CD206D00F3B0AAA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill an Obsidilith"
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			icon: "minecraft:netherrack"
+			id: "00671934B2F8331A"
+			rewards: [{
+				count: 20
+				id: "597FFD62B455310C"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3300E9BDFE356F97"
+				type: "dimension"
+			}]
+			title: "Go to the Nether"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AD53560C47D924D"]
+			id: "66D9FB5E5F1EA329"
+			rewards: [{
+				id: "19DA59852828911A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0752CC17D6339852"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2AD53560C47D924D"]
+			id: "1D4E8900EC5F88C9"
+			rewards: [{
+				id: "518384CE255A1A8A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0EF037C999A6E65D"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AD53560C47D924D"]
+			id: "628846B46FE0D5C8"
+			rewards: [{
+				count: 5
+				id: "4F8E26B5BA9F0464"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "08CAD574C1A5F62D"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59546F20535CB686"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BA08B4D1A836AA8"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "653C57942DBDE993"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["00671934B2F8331A"]
+			id: "744504715650642B"
+			rewards: [{
+				id: "59B1D360EB94474B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "568A14B6D476DD75"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Nether Gauntlet"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			description: ["You can use a void lily to track the boss structure."]
+			id: "53D3EE97B1D4AB62"
+			rewards: [{
+				id: "6289D13FF7873A3D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "24604A37289B1618"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Void Blossom"
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "6C2F4B1755DE86EF"
+			rewards: [{
+				count: 2
+				id: "6A329659AA9196D6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Fight him preferably with Elytra."
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: "bosses_of_mass_destruction:ancient_anima"
+					id: "41B7A4072DEF16C7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 4L
+					id: "3162EF3C17D2EB79"
+					item: "bosses_of_mass_destruction:soul_star"
+					type: "item"
+				}
+			]
+			title: "Kill the Night Lich"
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"770C59EF157D22AE"
+				"53D3EE97B1D4AB62"
+			]
+			hide_dependency_lines: true
+			id: "78627E2C9824A5B5"
+			rewards: [{
+				id: "1E32594B35FAA1A2"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0C9949658E08A1EA"
+				item: {
+					Count: 1b
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"53D3EE97B1D4AB62"
+				"6C2F4B1755DE86EF"
+			]
+			hide_dependency_lines: true
+			id: "7E975BFC34411A37"
+			rewards: [{
+				id: "5A4D92B557FEB525"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "576B56A22D5C7984"
+				item: "bosses_of_mass_destruction:charged_ender_pearl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"6C2F4B1755DE86EF"
+				"744504715650642B"
+			]
+			hide_dependency_lines: true
+			id: "1CB95C8CD3503183"
+			rewards: [{
+				id: "31B061985055DDDC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "45D19D1D3CA9181F"
+				item: "bosses_of_mass_destruction:levitation_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"770C59EF157D22AE"
+				"744504715650642B"
+			]
+			hide_dependency_lines: true
+			id: "3FC6B5724EE6AE09"
+			rewards: [{
+				id: "6E9E0E3EB0AC0F68"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "58B233A3051425B0"
+				item: "bosses_of_mass_destruction:monolith_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"6C2F4B1755DE86EF"
+				"770C59EF157D22AE"
+			]
+			hide_dependency_lines: true
+			id: "38A6CD44F73E0678"
+			rewards: [{
+				id: "222DB1E8F370DAAE"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "1CD541659FB8B45A"
+				item: "bosses_of_mass_destruction:mob_ward"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0980C4FC42C83F23"]
+			id: "4A32B1F9D27AE472"
+			rewards: [{
+				id: "67681A401B19E053"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "01B236BB4C6C0F3B"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0980C4FC42C83F23"]
+			id: "7E05261522909633"
+			rewards: [{
+				id: "3C2DCA05CD2D6766"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "30C506C3C7BA29A7"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F4EBE4120EEB59D"]
+			id: "3A65E8997120031B"
+			rewards: [{
+				count: 3
+				id: "791ED0FAEFBCF736"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0F6F90539B996CBE"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F4EBE4120EEB59D"]
+			id: "3E362669EBE76484"
+			rewards: [{
+				id: "42A408BB456DA2EB"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "77954B8163101165"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F4EBE4120EEB59D"]
+			id: "2B8E3AC0B3A06AF1"
+			rewards: [{
+				id: "73B1CB275E982859"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0E470E26736E2E77"
+				item: {
+					Count: 1b
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F4EBE4120EEB59D"]
+			id: "45E27E36CE76440F"
+			rewards: [{
+				id: "22800D5F2020B150"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3A3DD07841C1000B"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["00671934B2F8331A"]
+			id: "767CA9159E2DDCEA"
+			rewards: [{
+				count: 20
+				id: "220CBEA192473818"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B05A36A1F3FB469"
+				item: "alexsmobs:mosquito_larva"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6B5705E88A1728CD"]
+			id: "1381AF11BE080F5D"
+			rewards: [{
+				count: 20
+				id: "41C2E4E9AD57F370"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "288B99FDBABA8DE8"
+				item: "alexsmobs:capsid"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1381AF11BE080F5D"]
+			id: "27D540CD98F17BD7"
+			rewards: [{
+				count: 30
+				id: "38B87AF0898EBBB1"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "What does it do in contact with the void ?"
+			tasks: [{
+				id: "0C0909968D4B35F7"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["27D540CD98F17BD7"]
+			id: "210CBDBF86593AAB"
+			rewards: [{
+				count: 2
+				id: "4FEF2E18592C7128"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Obtain the Void Worm eye by killing the Void Worm"
+			tasks: [{
+				id: "07C5C7EB98167AD6"
+				item: "alexsmobs:void_worm_eye"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["00671934B2F8331A"]
+			id: "3A2CF83E1F7EB4AD"
+			rewards: [{
+				count: 30
+				id: "121D300247526B73"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ACEC707E27B30E2"
+				item: "alexsmobs:warped_mixture"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3A2CF83E1F7EB4AD"]
+			id: "016E2D08CB1855DF"
+			rewards: [{
+				id: "1A229C1ADC3C7BCA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Giga fly"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "alexsmobs:spawn_egg_warped_mosco"
+				id: "6756B191B0A6C6AA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Warped Mosco"
+			x: -4.0d
+			y: -13.0d
+		}
+	]
+	title: "Main Adventure"
+}
