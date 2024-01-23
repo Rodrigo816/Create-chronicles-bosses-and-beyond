@@ -16,18 +16,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 28.0d
-			hover: [ ]
-			image: "kubejs:textures/tips.png"
-			rotation: 0.0d
-			width: 28.0d
-			x: 2.0d
-			y: -8.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "davebuildingmod:textures/blocks/arrow_right_sign.png"

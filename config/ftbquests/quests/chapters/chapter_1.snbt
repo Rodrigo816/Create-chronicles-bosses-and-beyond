@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_1"
-	group: ""
+	group: "71FCEFE04D91F069"
 	icon: "create_dd:inductive_mechanism"
 	id: "19D31D09E6BC56DE"
 	images: [
@@ -35,7 +35,7 @@
 			y: -7.0d
 		}
 	]
-	order_index: 12
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

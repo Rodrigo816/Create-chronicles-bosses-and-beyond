@@ -1,4 +1,4 @@
-
+Platform.mods.kubejs.name = 'Create Chronicles: Bosses and Beyond'
 // Blocks
 StartupEvents.registry("block", (event) => {
     event.create("mystic_coal_block")

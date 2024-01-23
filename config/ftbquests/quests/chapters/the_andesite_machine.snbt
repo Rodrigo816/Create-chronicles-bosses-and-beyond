@@ -254,6 +254,27 @@
 			x: 4.0d
 			y: 4.5d
 		}
+		{
+			description: [
+				"Entra wood slab"
+				""
+				"1 Adensite Alloy"
+				"1 Andesite Alloy"
+				"1 Shear"
+				""
+				"= Andesite Mechanism"
+			]
+			id: "5E788B4DCBC5AF14"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "68306C21F57AB69F"
+				item: "kubejs:rotation_mechanism"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
 	]
 	title: "1.1 The Rotation Machine"
 }

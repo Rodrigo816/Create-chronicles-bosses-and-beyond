@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "oil"
-	group: ""
+	group: "71FCEFE04D91F069"
 	icon: "tfmg:heavy_oil_bucket"
 	id: "38FE3E0C86FF237B"
-	order_index: 10
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,14 +16,34 @@
 				"o scannar não é precisso e tem uma margem de erro de cerca de 8 blocos se não encontrares num local exprimentar notro local."
 				"Eu garanto-te que ele existem :)."
 				"Some bombs could help"
+				""
+				"The Surface Scanner shows how far away a oil source is. The oil source is found at bedrock and the surface scanner isn't very accurate. Good luck"
 			]
 			id: "5E43C8E344DD951E"
-			rewards: [{
-				count: 10
-				id: "01B467BD98ED7C13"
-				item: "tfmg:industrial_pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "01B467BD98ED7C13"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+				{
+					id: "7C58AC8B1678550F"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "62481781D8D3275A"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5094D88CB44BCDA6"
 				item: "tfmg:surface_scanner"
@@ -173,6 +193,118 @@
 			title: "Mix mas ainda nao sei que e"
 			x: 5.0d
 			y: -5.0d
+		}
+		{
+			icon: "tfmg:heavy_oil_bucket"
+			id: "19D52AF67484168B"
+			rewards: [
+				{
+					count: 16
+					id: "12B8791C4F3C0DB6"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "0EDEB36D9D717D6B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Run an industrial pipe from bedrock to where you want to pump. Then place a pumpjack base onto of the industrial pipe."
+			tasks: [
+				{
+					id: "7279C5626322E3E1"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+				{
+					id: "6DF4BE2AA909D6D7"
+					item: "tfmg:pumpjack_hammer_head"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "617AA4701378B9F3"
+					item: "tfmg:pumpjack_hammer_part"
+					type: "item"
+				}
+				{
+					id: "1EDE4024C5EEAD3A"
+					item: "tfmg:pumpjack_hammer"
+					type: "item"
+				}
+				{
+					id: "08D41ABAF99DE7B1"
+					item: "tfmg:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "51FF04FA64956CA2"
+					item: "tfmg:pumpjack_base"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "201A654C7B771200"
+					item: "tfmg:steel_truss"
+					type: "item"
+				}
+			]
+			title: "Pumpjack"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			icon: "tfmg:pumpjack_crank"
+			id: "66CE0AF2709FB6AC"
+			rewards: [
+				{
+					count: 2
+					id: "2FA7131EA3B22987"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08AF59C713FF48BA"
+					item: {
+						Count: 1b
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								8
+								5
+								3
+							]
+							Deployed: 0b
+							File: "pumpjack.nbt"
+							Mirror: "NONE"
+							Owner: "Harvey_"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "If the pumpjack doesn't work, make sure EVERYTHING is glued together"
+			tasks: [{
+				id: "5E1083D7C0E65811"
+				title: "Building a Pumpjack"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.0d
 		}
 	]
 	title: "Oil"

@@ -1,0 +1,975 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ralex_caves"
+	group: "71FCEFE04D91F069"
+	id: "05B6770E65084120"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Alex's Caves adds in a unique variety of new underground cave biomes with many new interesting mobs and mechanics to play around with. To get started you'll need to find an underground cabin to acquire some cave tablets, as well as a spelunkers table."]
+			icon: "alexscaves:cave_book"
+			id: "7928A20D0045F639"
+			rewards: [{
+				id: "52F3C36B322862E2"
+				item: "alexscaves:cave_book"
+				type: "item"
+			}]
+			subtitle: "New Cave Biomes"
+			tasks: [{
+				id: "1F3B75CF4A9081C1"
+				structure: "alexscaves:underground_cabin"
+				type: "structure"
+			}]
+			title: "Alex's Caves"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7928A20D0045F639"]
+			description: ["By placing a piece of paper and a cave tablet into the spelunkers table, you can play a minigame to unlock some of the secrets the tablet holds."]
+			id: "0B33930363EA8EA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2099FD414A361329"
+				type: "choice"
+			}]
+			subtitle: "Cave Research"
+			tasks: [{
+				id: "7BE42DB0963CD12C"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0B33930363EA8EA6"]
+			description: ["Acquire a cave codex for the Magnetic caves."]
+			id: "44B09D1387E6E869"
+			rewards: [{
+				count: 3
+				id: "6B0CD08F6A995840"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D1D2A4F4DD151B1"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "Magnetic Caves"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0B33930363EA8EA6"]
+			description: ["Acquire a cave codex for the Primodial caves."]
+			id: "416E90790D3E0649"
+			rewards: [{
+				count: 3
+				id: "4A4FE2496B72C76B"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55F96ADA59F5C464"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "Primordial Caves"
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0B33930363EA8EA6"]
+			description: ["Acquire a cave codex for Toxic caves."]
+			id: "37AFA8503CA03709"
+			rewards: [{
+				count: 3
+				id: "696E192E4AEC536E"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60C25629145C9123"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "Toxic Caves"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0B33930363EA8EA6"]
+			description: ["Acquire a cave codex to an Abyssal Chasm."]
+			id: "1A0BB8ACA52FBA1F"
+			rewards: [{
+				count: 3
+				id: "7B29686E5B3065CA"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FA84A95E328CE0E"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			title: "Abyssal Chasm"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0B33930363EA8EA6"]
+			description: ["Acquire a cave codex for a Forlorn caves."]
+			id: "5CCA336AA55B6C1B"
+			rewards: [{
+				count: 3
+				id: "73DC21B31E20E7B2"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BA9BA11B3A259D3"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			title: "Forlorn Caves"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["416E90790D3E0649"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:primordial_caves"
+				}
+			}
+			id: "5952AF93B95E494C"
+			rewards: [{
+				id: "50937EBB2059442E"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				id: "7E61FA3DE51F62FD"
+				type: "biome"
+			}]
+			title: "Visit a Primordial Cave"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["37AFA8503CA03709"]
+			id: "52034A3AD5A347C8"
+			rewards: [{
+				id: "224EE67829FEDCC8"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				id: "4F2577E08520A4D9"
+				type: "biome"
+			}]
+			title: "Visit a Toxic Cave"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44B09D1387E6E869"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:magnetic_caves"
+				}
+			}
+			id: "073F2FEC3D06AC0E"
+			rewards: [{
+				id: "5AC77F6CF503CC1F"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				id: "0B39CDF045054E4F"
+				type: "biome"
+			}]
+			title: "Visit a Magnetic Cave"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5CCA336AA55B6C1B"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:forlorn_hollows"
+				}
+			}
+			id: "724179DC4605ECC2"
+			rewards: [{
+				id: "146E57873608A492"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				id: "3D5A5EFAB3166B8B"
+				type: "biome"
+			}]
+			title: "Visit a Forlorn Cave"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1A0BB8ACA52FBA1F"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:abyssal_chasm"
+				}
+			}
+			id: "5782F8A43B93FC7D"
+			rewards: [{
+				id: "0EF43A85D266ECB9"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				id: "56B9DE98CE2C4DB4"
+				type: "biome"
+			}]
+			title: "Find an Abyssal Chasm"
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["724179DC4605ECC2"]
+			id: "2F328DBD5E3F28D8"
+			rewards: [{
+				count: 20
+				id: "25DCB35B5FF29A14"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "369ED988D7362DA3"
+				item: "alexscaves:occult_gem"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["724179DC4605ECC2"]
+			id: "7AB09ACE8FBC2C80"
+			rewards: [{
+				id: "06CD8FB22E550ABF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "672A355C423CEF4D"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7AB09ACE8FBC2C80"]
+			id: "2ED593532961888C"
+			rewards: [{
+				id: "40AA963195DFBC19"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6A6E123B9C47C11C"
+				item: {
+					Count: 1b
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F328DBD5E3F28D8"]
+			id: "097FF4D0CAE1FF7F"
+			rewards: [{
+				count: 8
+				id: "0B7BEE275341096D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "535F5D4A1CEA4184"
+					item: {
+						Count: 1b
+						id: "alexscaves:hood_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28927228A544CF63"
+					item: {
+						Count: 1b
+						id: "alexscaves:cloak_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F328DBD5E3F28D8"]
+			id: "722DB38CB1082481"
+			rewards: [{
+				count: 30
+				id: "3D627A322521689B"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EC92B3E50037276"
+				item: {
+					Count: 1b
+					id: "alexscaves:totem_of_possession"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["073F2FEC3D06AC0E"]
+			id: "506990248ACF159D"
+			rewards: [{
+				count: 20
+				id: "2450B758CBE4213F"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A784571E36FBF43"
+				item: "alexscaves:notor_gizmo"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["073F2FEC3D06AC0E"]
+			id: "6BEABDF469E59EAC"
+			rewards: [{
+				count: 20
+				id: "6FD95ACD11C17C28"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50B3755810187AD8"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "32C125557F4230D9"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+			]
+			title: "Neodymiums Ingots"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["506990248ACF159D"]
+			id: "124769C0ED033D01"
+			rewards: [{
+				count: 30
+				id: "377FB9D8BADFC518"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Project your favorite mob using the Holocoder."
+			tasks: [
+				{
+					id: "51DF082DA90FBBAF"
+					item: "alexscaves:hologram_projector"
+					type: "item"
+				}
+				{
+					id: "436B886BF40B0EE7"
+					item: "alexscaves:holocoder"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6BEABDF469E59EAC"]
+			description: ["Obtain the Hearth of Iron by killing the Magnetron."]
+			id: "23E2EB47A0C8EABD"
+			rewards: [{
+				count: 2
+				id: "70147931B22CB367"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "The most efficient mining system without the need for electricity."
+			tasks: [
+				{
+					id: "5C09883F87497FB9"
+					item: "alexscaves:quarry_smasher"
+					type: "item"
+				}
+				{
+					id: "73B4392B2BF55DD9"
+					item: "alexscaves:quarry"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "50AE97B47DEDE7AB"
+					item: "alexscaves:magnetic_light"
+					type: "item"
+				}
+			]
+			title: "Quarry"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6BEABDF469E59EAC"]
+			description: ["Obtain the Heart of Iron by killing the Magnetron."]
+			id: "47E2DEA35C4E5D59"
+			rewards: [{
+				count: 2
+				id: "26896C6EA7D21E35"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3E6B540EB3E9B4E7"
+				item: {
+					Count: 1b
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6BEABDF469E59EAC"]
+			id: "41CADFCCA8E459E5"
+			rewards: [{
+				id: "2FDCB881F9574E78"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "1D8801284989B450"
+				item: {
+					Count: 1b
+					id: "alexscaves:galena_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "5FA8D3E16ECFBED3"
+			rewards: [{
+				count: 40
+				id: "7C743EAA09C0B0AC"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "75921302EEB53DE1"
+					item: {
+						Count: 1b
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D8E48643A427D98"
+					item: {
+						Count: 1b
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69CF74EAE3E41100"
+					item: {
+						Count: 1b
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FD4B3094C71D0D2"
+					item: {
+						Count: 1b
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hazmat Suit"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "2399A199236080C8"
+			rewards: [{
+				count: 5
+				id: "40893074D0F17689"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2F9C15018FC81959"
+				item: "alexscaves:nuclear_furnace_component"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "66043F72A210F943"
+			rewards: [{
+				count: 30
+				id: "5B2FFDD36D4DEC30"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B9A95109FC2C49B"
+				item: "alexscaves:uranium_rod"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "7C1E36875B944069"
+			rewards: [{
+				id: "500B02A3B404913D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "34E79D933AD62234"
+				item: "alexscaves:raygun"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "11CA94AE43641AC9"
+			rewards: [{
+				count: 2
+				id: "3A4D9480C090DD1E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "64A25B232A125DA6"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "68297433BDCED19C"
+			rewards: [{
+				count: 30
+				id: "5EB8A3EDD83E1C75"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "250357D728A348B3"
+				item: "alexscaves:amber_monolith"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			id: "0CF101F4B8931837"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "49169B614FAABE02"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CD6A306082C8969"
+				item: "alexscaves:heavy_bone"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			id: "7B261EC2F1A74405"
+			rewards: [{
+				count: 3
+				id: "5D040E8D8E89DE0E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "7F51DA13BCB1143A"
+					item: {
+						Count: 1b
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A6B62C149547717"
+					item: {
+						Count: 1b
+						id: "alexscaves:primordial_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FE05248E9093206"
+					item: {
+						Count: 1b
+						id: "alexscaves:primordial_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			id: "1FE0B61CF538C65F"
+			rewards: [{
+				count: 30
+				id: "25A10958F0EE4DCC"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "1E3D3D3BD2144FD9"
+				item: {
+					Count: 1b
+					id: "alexscaves:primitive_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			id: "51B5053D128F4787"
+			rewards: [{
+				count: 2
+				id: "7A8B336C0FE91184"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A1E7532CB86624E"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41C749ACB79CF6A3"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "486432B7A9A28CE7"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75A2C42C2F91C81A"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			id: "241C20D548353EA2"
+			rewards: [{
+				count: 5
+				id: "15A697BBB8ACFA27"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Can save you from drowning"
+			tasks: [{
+				id: "2A339FCE03B71802"
+				item: "alexscaves:floater"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			id: "5BB99E6A73A81777"
+			rewards: [{
+				count: 5
+				id: "62BCC4F5F9B8E751"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Use the Abyssal Altar to trade with the deep one to gain their trust and some legendary items"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/pearl_on_abyssal_altar"
+				criterion: ""
+				id: "158FD02F6D449C37"
+				type: "advancement"
+			}]
+			title: "Abyssal Altar"
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			id: "49E2EE77658248C3"
+			rewards: [{
+				count: 3
+				id: "4236D80FDB46F13A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "085872269672E5FC"
+				item: {
+					Count: 1b
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			id: "78E181E65D5E7ECF"
+			rewards: [{
+				count: 3
+				id: "5F101811EDF9C109"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "612209794893A48C"
+				item: {
+					Count: 1b
+					id: "alexscaves:ortholance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			id: "4CD47FC10AAACAD5"
+			rewards: [{
+				count: 3
+				id: "6041F68F05599557"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "54D66B1504B94884"
+				item: {
+					Count: 1b
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+	]
+	title: "Rodrigo Caves"
+}

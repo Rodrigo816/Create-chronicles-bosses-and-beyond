@@ -4,3 +4,6 @@
 
 console.info('Hello, World! (Loaded client scripts)')
 
+ClientEvents.lang('en_us', event => {
+  event.renameItem('create:brass_hand', 'Golden Hand')
+})

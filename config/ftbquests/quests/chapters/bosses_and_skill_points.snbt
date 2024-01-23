@@ -1,0 +1,327 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses_and_skill_points"
+	group: "71FCEFE04D91F069"
+	id: "16389783F38DFDED"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "cataclysm:textures/mob_effect/blazing_brand.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "bosses_of_mass_destruction:block/chiseled_stone_altar_lit"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "alexsmobs:item/void_worm_beak"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -0.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "cataclysm:desert_eye"
+			id: "07C2D6E01B241F73"
+			rewards: [{
+				count: 30
+				id: "53CD43EA84F76717"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "1F48F5E1B6FFD6B2"
+					item: "cataclysm:desert_eye"
+					type: "item"
+				}
+				{
+					id: "1853E9C6C8B7F941"
+					structure: "cataclysm:cursed_pyramid"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: "cataclysm:abyss_eye"
+			id: "681E9EE350CD6791"
+			rewards: [{
+				count: 30
+				id: "6A5DF8599CE7D32D"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "5247795B01E53FB1"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
+				{
+					id: "6F68A210D7E925C7"
+					structure: "cataclysm:sunken_city"
+					type: "structure"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: "cataclysm:void_eye"
+			id: "6AC1E375CA7DA676"
+			rewards: [{
+				count: 30
+				id: "52D23F0426CA115E"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "4D3838E39985F818"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					id: "6FD05DE1045CC387"
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "40DD304B90046084"
+			shape: "square"
+			subtitle: "You can craft a flame eye to locate the scture on nether"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:flame_eye"
+				id: "33F92E13CE47FBF7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "09D25A60964E517F"
+			shape: "square"
+			subtitle: "You can craft a eyo of monstrerous to locate the scture on nether"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_eye"
+				id: "52C683CAAB2FCA7C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			icon: "cataclysm:mech_eye"
+			id: "1A9BD3105BC4C13B"
+			shape: "square"
+			subtitle: "Eye of mech"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "0253F7F29DE5086C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "17061F6E53B6A809"
+			rewards: [{
+				count: 20
+				id: "6F1F4AFD6DE60394"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16E86001B9AFED33"
+				item: "alexsmobs:capsid"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "0C14F69B100527C1"
+			rewards: [{
+				count: 30
+				id: "43B6CE5CCA9CE6FC"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "What does it do in contact with the void ?"
+			tasks: [{
+				id: "083DC45C49C03AB6"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "7696990D3ED40A1B"
+			rewards: [{
+				count: 2
+				id: "3923AF1454B8A3AD"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Obtain the Void Worm eye by killing the Void Worm"
+			tasks: [{
+				id: "2DC19485464CE7E3"
+				item: "alexsmobs:void_worm_eye"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "150D9233D297B9DA"
+			rewards: [{
+				id: "0D3D422D620E6C5F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Giga fly"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "alexsmobs:spawn_egg_warped_mosco"
+				id: "5968A07BF617433F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Warped Mosco"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			description: ["As soon as you find the boss structure, place an Eye of Ender in the altar to summon it."]
+			id: "065A5A976F0D8FF9"
+			rewards: [{
+				id: "2BB8AF1C6723553D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "You cant mine it"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "4866CA5F8D193556"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill an Obsidilith"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: ["You can use a void lily to track the boss structure."]
+			id: "342B9E3297CC4309"
+			rewards: [{
+				id: "19B4CF32692969CB"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "1F551A91288A58FD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Void Blossom"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: ["Podes encontrar a lich tower em biomas de gelo"]
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "2BA58FB09C99F20A"
+			rewards: [{
+				count: 2
+				id: "28DDC721DCE38EE6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Fight him preferably with Elytra."
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: "bosses_of_mass_destruction:ancient_anima"
+					id: "337D311B36FB706A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 4L
+					id: "4B489509AB71074B"
+					item: "bosses_of_mass_destruction:soul_star"
+					type: "item"
+				}
+			]
+			title: "Kill the Night Lich"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "35E095FC517735B1"
+			rewards: [{
+				id: "0F548861CF5209D5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "7B71BA96352D74BF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Nether Gauntlet"
+			x: 3.0d
+			y: 2.0d
+		}
+	]
+	title: "Bosses and Skill Points"
+}

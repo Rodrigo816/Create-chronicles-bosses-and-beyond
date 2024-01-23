@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "rpg__adventure"
-	group: ""
+	group: "71FCEFE04D91F069"
 	icon: {
 		Count: 1b
 		id: "forbidden_arcanus:draco_arcanus_sword"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "31D2A38C7FF59E68"
-	order_index: 11
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
