@@ -5,7 +5,7 @@
 	group: "2B02D614E453E838"
 	icon: "minecraft:end_stone"
 	id: "00000000000000ED"
-	order_index: 46
+	order_index: 48
 	quest_links: [ ]
 	quests: [
 		{

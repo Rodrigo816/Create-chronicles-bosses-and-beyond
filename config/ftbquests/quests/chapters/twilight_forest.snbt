@@ -3,10 +3,10 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "twilight_forest"
-	group: "5DC690C45DE3E2BD"
+	group: ""
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "2AD59C1E13E7EC19"
-	order_index: 2
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

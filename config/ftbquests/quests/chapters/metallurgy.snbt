@@ -5,7 +5,7 @@
 	group: "2B02D614E453E838"
 	icon: "thermal:silver_ingot"
 	id: "1B927DD15CF28E13"
-	order_index: 45
+	order_index: 47
 	quest_links: [ ]
 	quests: [
 		{

@@ -11,22 +11,22 @@
 			CaveBiome: "alexscaves:primordial_caves"
 		}
 	}
-	id: "0487F6187C121114"
-	order_index: 10
+	id: "69599707FB0C0E57"
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["Alex's Caves adds in a unique variety of new underground cave biomes with many new interesting mobs and mechanics to play around with. To get started you'll need to find an underground cabin to acquire some cave tablets, as well as a spelunkers table."]
 			icon: "alexscaves:cave_book"
-			id: "3426C9A115FCCD3B"
+			id: "054E661FD9A1EF2E"
 			rewards: [{
-				id: "499BD0F6B47B9661"
+				id: "432418647C07250F"
 				item: "alexscaves:cave_book"
 				type: "item"
 			}]
 			subtitle: "New Cave Biomes"
 			tasks: [{
-				id: "0F966531EAD56DA8"
+				id: "594436CE3C1AD11C"
 				structure: "alexscaves:underground_cabin"
 				type: "structure"
 			}]
@@ -35,17 +35,16 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["10C75D265A204A87"]
 			description: ["By placing a piece of paper and a cave tablet into the spelunkers table, you can play a minigame to unlock some of the secrets the tablet holds."]
-			id: "47E014319DF38B86"
+			id: "6D10E63533E8220D"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2BDA8671FC6AF39C"
+				id: "083BAA15D4FC06C8"
 				type: "choice"
 			}]
 			subtitle: "Cave Research"
 			tasks: [{
-				id: "35056B47BE64D295"
+				id: "71B7D2B10A0CD19A"
 				item: "alexscaves:spelunkery_table"
 				type: "item"
 			}]
@@ -53,17 +52,16 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["3C0DD6B0D81DD580"]
 			description: ["Acquire a cave codex for the Magnetic caves."]
-			id: "33297E76DB8B803E"
+			id: "4B1A4F72E79FD6C9"
 			rewards: [{
 				count: 3
-				id: "3C82C65E32823EC0"
+				id: "6E379D8F5E4F174B"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "344358F71FD26B7B"
+				id: "1FBCB1C7B5E64EE1"
 				item: {
 					Count: 1b
 					id: "alexscaves:cave_codex"
@@ -78,17 +76,16 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["3C0DD6B0D81DD580"]
 			description: ["Acquire a cave codex for the Primodial caves."]
-			id: "4612668F1EC29962"
+			id: "4B4D8283C7479AB3"
 			rewards: [{
 				count: 3
-				id: "7D03EF0EB87D3F85"
+				id: "2027E8946977A422"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "437E843B46F5AFFF"
+				id: "3B5007A3473D0673"
 				item: {
 					Count: 1b
 					id: "alexscaves:cave_codex"
@@ -103,17 +100,16 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["3C0DD6B0D81DD580"]
 			description: ["Acquire a cave codex for Toxic caves."]
-			id: "49270E6DCDDEBE80"
+			id: "4E7E546DDD7A3C8D"
 			rewards: [{
 				count: 3
-				id: "24F65AECD6DBD169"
+				id: "652A79C09DF0CC37"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "01CBFE67A7098B4B"
+				id: "02B405D38ABA5F5F"
 				item: {
 					Count: 1b
 					id: "alexscaves:cave_codex"
@@ -128,17 +124,16 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["3C0DD6B0D81DD580"]
 			description: ["Acquire a cave codex to an Abyssal Chasm."]
-			id: "4F0F7CE31E307F9A"
+			id: "7B8F8DCE0B13F45F"
 			rewards: [{
 				count: 3
-				id: "07CE91887AA1588D"
+				id: "5BE3891C2A4C2DBA"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "101BD499EDAD9A08"
+				id: "722AF797131BD0F8"
 				item: {
 					Count: 1b
 					id: "alexscaves:cave_codex"
@@ -153,17 +148,16 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["3C0DD6B0D81DD580"]
 			description: ["Acquire a cave codex for a Forlorn caves."]
-			id: "602A93633D4F988D"
+			id: "6576FD2B5DAFE285"
 			rewards: [{
 				count: 3
-				id: "2604DFAD43656E89"
+				id: "25F330FE939A0B0A"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "050662B16BD5D70A"
+				id: "3F02230E56EF7ADC"
 				item: {
 					Count: 1b
 					id: "alexscaves:cave_codex"
@@ -178,7 +172,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["2BB52EA15CA60E6F"]
 			icon: {
 				Count: 1b
 				id: "alexscaves:cave_tablet"
@@ -186,9 +179,9 @@
 					CaveBiome: "alexscaves:primordial_caves"
 				}
 			}
-			id: "0758517ED2348AE7"
+			id: "7101A73F360DEFD3"
 			rewards: [{
-				id: "5AC6EDF2664A9D3C"
+				id: "53F5E9596A12CED4"
 				item: "coinsje:iron_coin"
 				type: "item"
 			}]
@@ -201,7 +194,7 @@
 						CaveBiome: "alexscaves:primordial_caves"
 					}
 				}
-				id: "2F10DFAFAAF677BC"
+				id: "78212BB8D9C82BAE"
 				type: "biome"
 			}]
 			title: "Visit a Primordial Cave"
@@ -209,10 +202,9 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["2F91C2654931D419"]
-			id: "41410A089EC70029"
+			id: "38DCE1CCB7FBCEC5"
 			rewards: [{
-				id: "1A1BE6DB89D9E62B"
+				id: "7153BA8158A6AA7B"
 				item: "coinsje:iron_coin"
 				type: "item"
 			}]
@@ -225,7 +217,7 @@
 						CaveBiome: "alexscaves:toxic_caves"
 					}
 				}
-				id: "3BAD23FDEB84E4F1"
+				id: "675594252023E913"
 				type: "biome"
 			}]
 			title: "Visit a Toxic Cave"
@@ -233,7 +225,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["78F6EB8EE620FD87"]
 			icon: {
 				Count: 1b
 				id: "alexscaves:cave_tablet"
@@ -241,9 +232,9 @@
 					CaveBiome: "alexscaves:magnetic_caves"
 				}
 			}
-			id: "49A5EEBB3847DCDD"
+			id: "0740CB4CC47133E4"
 			rewards: [{
-				id: "6E1D1725D2BAE6E2"
+				id: "02ED62F00E54114D"
 				item: "coinsje:iron_coin"
 				type: "item"
 			}]
@@ -256,7 +247,7 @@
 						CaveBiome: "alexscaves:magnetic_caves"
 					}
 				}
-				id: "00774E2636BCEFE1"
+				id: "4837CD16ECF336CA"
 				type: "biome"
 			}]
 			title: "Visit a Magnetic Cave"
@@ -264,7 +255,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["4C0D3F8B180D397A"]
 			icon: {
 				Count: 1b
 				id: "alexscaves:cave_tablet"
@@ -272,9 +262,9 @@
 					CaveBiome: "alexscaves:forlorn_hollows"
 				}
 			}
-			id: "549F7E0DB697B6DA"
+			id: "088A188A2036D46F"
 			rewards: [{
-				id: "2A3CB2EA75A331B0"
+				id: "0412D466558867A8"
 				item: "coinsje:iron_coin"
 				type: "item"
 			}]
@@ -287,7 +277,7 @@
 						CaveBiome: "alexscaves:forlorn_hollows"
 					}
 				}
-				id: "5C949403CC916312"
+				id: "771771744C94D408"
 				type: "biome"
 			}]
 			title: "Visit a Forlorn Cave"
@@ -295,7 +285,6 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["0E9575D2BDA5D5BA"]
 			icon: {
 				Count: 1b
 				id: "alexscaves:cave_tablet"
@@ -303,9 +292,9 @@
 					CaveBiome: "alexscaves:abyssal_chasm"
 				}
 			}
-			id: "0E3428E523ACFDFB"
+			id: "7CE3D0A33259D802"
 			rewards: [{
-				id: "256F4F787E351214"
+				id: "5C913F658123D2ED"
 				item: "coinsje:iron_coin"
 				type: "item"
 			}]
@@ -318,7 +307,7 @@
 						CaveBiome: "alexscaves:abyssal_chasm"
 					}
 				}
-				id: "227CC3A12224185B"
+				id: "58D61371E23BAD0A"
 				type: "biome"
 			}]
 			title: "Find an Abyssal Chasm"

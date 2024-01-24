@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ad_astra"
-	group: "5CE2EF58FCFC1520"
+	group: "2B02D614E453E838"
 	icon: {
 		Count: 1b
 		id: "ad_astra:tier_4_rocket"

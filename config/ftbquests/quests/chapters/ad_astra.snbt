@@ -2,14 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ad_astra"
-	group: "5DC690C45DE3E2BD"
+	group: "2B02D614E453E838"
 	icon: {
 		Count: 1b
 		id: "ad_astra:tier_4_rocket"
 		tag: { }
 	}
 	id: "23EB40D68520A682"
-	order_index: 5
+	order_index: 51
 	quest_links: [ ]
 	quests: [
 		{

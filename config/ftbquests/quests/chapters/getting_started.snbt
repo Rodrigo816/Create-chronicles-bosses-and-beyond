@@ -3,10 +3,10 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "getting_started"
-	group: "5DC690C45DE3E2BD"
+	group: ""
 	icon: "minecraft:book"
 	id: "20AD7BB5D77418BB"
-	order_index: 1
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{

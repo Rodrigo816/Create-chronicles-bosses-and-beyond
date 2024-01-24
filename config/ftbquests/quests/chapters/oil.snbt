@@ -43,6 +43,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "50A0836E13CBFEB0"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "5094D88CB44BCDA6"
@@ -54,58 +65,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["5E43C8E344DD951E"]
-			description: [
-				"Para extrair o oleo usa a ponder cene para obter mais informaçoes."
-				""
-				"Se tiveres a dar problemas certificar-te que o ponto vermelho do pumpjabase é virado para frente e o ponto do pumpjakebase na diraçao aposta"
-				""
-				"{image:kubejs:item/oil_extrator width:157 height:61 align:1 fit:true}"
-				""
-				"Depois da constraçao montada e funcionar poderás extrair o oleo com um mechanical pump na pumpjakebase"
-			]
-			id: "1A88FC2486B98B78"
-			rewards: [{
-				count: 4
-				id: "21B4C70FF4103ED4"
-				item: "tfmg:steel_fluid_tank"
-				type: "item"
-			}]
-			subtitle: "Extrair o oleo multoblock"
-			tasks: [
-				{
-					id: "62400367F312D615"
-					item: "tfmg:pumpjack_base"
-					type: "item"
-				}
-				{
-					id: "00D1F5257F7AB389"
-					item: "tfmg:pumpjack_hammer_holder"
-					type: "item"
-				}
-				{
-					id: "586D05EBFE813985"
-					item: "tfmg:pumpjack_crank"
-					type: "item"
-				}
-				{
-					id: "4EDDB254F1336A93"
-					item: "tfmg:machine_input"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "43EB1737A6421A5B"
-					item: "tfmg:steel_truss"
-					type: "item"
-				}
-			]
-			title: "Oil Extrator"
-			x: -2.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["1A88FC2486B98B78"]
+			dependencies: ["19D52AF67484168B"]
 			description: [
 				"O proximo passo será construir uma dislation"
 				""
@@ -195,6 +155,14 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["5E43C8E344DD951E"]
+			description: [
+				"Run an industrial pipe from bedrock to where you want to pump. Then place a pumpjack base onto of the industrial pipe."
+				""
+				"Depois da constraçao montada e funcionar poderás extrair o oleo com um mechanical pump na pumpjakebase"
+				""
+				"If the pumpjack doesn't work, make sure EVERYTHING is glued together"
+			]
 			icon: "tfmg:heavy_oil_bucket"
 			id: "19D52AF67484168B"
 			rewards: [
@@ -210,13 +178,8 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Run an industrial pipe from bedrock to where you want to pump. Then place a pumpjack base onto of the industrial pipe."
+			subtitle: "Please use ponder scene to refer how to construt"
 			tasks: [
-				{
-					id: "7279C5626322E3E1"
-					item: "tfmg:industrial_pipe"
-					type: "item"
-				}
 				{
 					id: "6DF4BE2AA909D6D7"
 					item: "tfmg:pumpjack_hammer_head"
@@ -244,68 +207,75 @@
 					type: "item"
 				}
 				{
-					count: 2L
+					count: 3L
 					id: "201A654C7B771200"
 					item: "tfmg:steel_truss"
 					type: "item"
 				}
+				{
+					id: "6D0896AB5FC06612"
+					item: "tfmg:pumpjack_hammer_connector"
+					type: "item"
+				}
 			]
 			title: "Pumpjack"
-			x: -1.5d
-			y: -1.0d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
-			icon: "tfmg:pumpjack_crank"
-			id: "66CE0AF2709FB6AC"
-			rewards: [
-				{
-					count: 2
-					id: "2FA7131EA3B22987"
-					item: {
-						Count: 1b
-						id: "create:super_glue"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "08AF59C713FF48BA"
-					item: {
-						Count: 1b
-						id: "create:schematic"
-						tag: {
-							Anchor: {
-								X: 0
-								Y: 0
-								Z: 0
-							}
-							Bounds: [
-								8
-								5
-								3
-							]
-							Deployed: 0b
-							File: "pumpjack.nbt"
-							Mirror: "NONE"
-							Owner: "Harvey_"
-							Rotation: "NONE"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "gear"
-			subtitle: "If the pumpjack doesn't work, make sure EVERYTHING is glued together"
+			id: "44B711E1B5B7B00E"
 			tasks: [{
-				id: "5E1083D7C0E65811"
-				title: "Building a Pumpjack"
-				type: "checkmark"
+				id: "4DEF0DA1D162EA2E"
+				item: "tfmg:steel_ingot"
+				type: "item"
 			}]
-			x: -3.5d
-			y: -1.0d
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "43B372544B94B6A4"
+			tasks: [{
+				id: "22D6C64DBA644574"
+				item: "tfmg:heavy_plate"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			id: "69D628450626D8D5"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "44B2D39FC1CB0678"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			id: "224A5CDEE0A8FF27"
+			tasks: [{
+				id: "30CD2C10EE91584B"
+				item: "tfmg:coal_coke"
+				type: "item"
+			}]
+			title: "Build a coke oven"
+			x: -17.0d
+			y: -7.0d
+		}
+		{
+			id: "2162963F8FD461E1"
+			tasks: [{
+				id: "75BB93E595825451"
+				item: "tfmg:blast_furnace_output"
+				type: "item"
+			}]
+			title: "Build a blast furnace"
+			x: -16.0d
+			y: -7.0d
 		}
 	]
-	title: "Oil"
+	title: "Oil Refinement"
 }
