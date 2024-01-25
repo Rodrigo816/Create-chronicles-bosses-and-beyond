@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: CR('compacting/andesite_from_flint') })
     event.remove({ id: IF('crackled_to_gravel') })
     event.remove({ id: IF('furnace/frozen_gravel') })
-    event.remove({ id: 'minecraft:andesite' })
+    event.remove({ id: MC('andesite') })
     event.remove({ id: ARS('manipulation_essence_to_andesite') })
     event.remove({ id: CRDD('industrial_iron/andesite_alloy_mixing') })
  
@@ -214,7 +214,7 @@ ServerEvents.recipes(event => {
 
     /*
     ===============================
-    ---->Chapter 2 Brass
+    ---->Chapter 3 Brass
     ==============================
     */
     event.replaceInput(
@@ -222,5 +222,19 @@ ServerEvents.recipes(event => {
         CR('brass_sheet'),               
         CR('golden_sheet')         
     )
+    let transitionalPrecision = 'kubejs:incomplete_valve_mechanism'
+	event.recipes.createSequencedAssembly([
+		KJ('precision_mechanism'),
+	], KJ('rotation_mechanism'), [
+		event.recipes.createDeploying(transitionalValve, [transitionalValve, CR('copper_sheet')]),
+        event.recipes.createDeploying(transitionalValve, [transitionalValve, CR('copper_sheet')]),
+        /*event.recipes.createFilling(transitionalValve, [
+            transitionalValve,
+            Fluid.of('minecraft:water', 250)
+          ]),*/
+        event.recipes.createPressing(transitionalValve, 'coal_block'),
+	]).transitionalItem(transitionalValve)
+		.loops(1)
+		.id(KJ('precision_mechanism'))
 
 })

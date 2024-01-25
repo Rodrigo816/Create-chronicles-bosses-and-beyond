@@ -24,6 +24,7 @@ StartupEvents.registry("block", (event) => {
 
     machine('Andesite', 'Rotation', "solid")
     machine('Copper', 'Valve', "solid")
+    machine('Brass', 'Precision', "solid")
 })
 
 
@@ -41,6 +42,7 @@ StartupEvents.registry('item', event => {
 
     mechanism('Rotation')
     mechanism('Valve')
+    mechanism('Precision')
     console.log("rodrigo")
     event.create('skill_add_point')
         .maxStackSize(64)
