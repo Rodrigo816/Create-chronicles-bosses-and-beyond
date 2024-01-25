@@ -14,6 +14,7 @@ let F = (id, x) =>  MOD("forge", id, x)
 let CI = (id, x) => MOD("createindustry", id, x)
 let IF = (id, x) => MOD("iceandfire", id, x)
 let ARS = (id, x) => MOD("ars_nouveau", id, x)
+let ASTRA = (id, x) => MOD("ad_astra", id, x)
 
 
 ServerEvents.recipes(event => {
@@ -86,7 +87,7 @@ ServerEvents.recipes(event => {
 	], '#minecraft:wooden_slabs', [
 		event.recipes.createDeploying(transitional, [transitional, CR('andesite_alloy')]),
 		event.recipes.createDeploying(transitional, [transitional, CR('andesite_alloy')]),
-		event.recipes.createDeploying(transitional, [transitional, 'minecraft:shears'])
+		event.recipes.createDeploying(transitional, [transitional, ASTRA('hammer')])
 	]).transitionalItem(transitional)
 		.loops(1)
 		.id('kubejs:rotation_mechanism')
@@ -98,7 +99,7 @@ ServerEvents.recipes(event => {
     ], {
         A: '#minecraft:wooden_slabs',
         B: CR('andesite_alloy'),
-        D: 'minecraft:shears',
+        D: ASTRA('hammer'),
         E: 'minecraft:iron_ingot'
     })
 

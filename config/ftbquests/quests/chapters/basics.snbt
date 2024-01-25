@@ -28,6 +28,70 @@
 			x: 4.0d
 			y: 2.0d
 		}
+		{
+			description: [
+				"The &5Talent Tree&r is the most important method of player progression strength."
+				""
+				"You can open the &5Talent Tree&r by pressing &bK&r"
+				""
+				"To reassign your talents, use the consumable item &cReset Scroll&f, which refunds all your skill points upon use. The means to acquire a &cReset Scroll&f are shrouded in mystery, but rumors suggest they might be dropped by certain mobs. "
+				""
+				"&eSkill points&f are primarily earned through challenging boss battles, with a max of 50 skills in total, all obtainable via quests. "
+				""
+				"For a comprehensive guide on acquiring &eskill points&f, refer to the &2'Bosses and Skill Points'&f chapter."
+			]
+			id: "072DA448D144179C"
+			title: "Progression: The Talent Tree"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "185BE49AE8B53CBD"
+			subtitle: "Craft a &6chest&r - upgradeable via the &5Iron Chests&r mod!"
+			tasks: [{
+				id: "328316AE91A63C63"
+				type: "item"
+			}]
+			title: "&f&lFirst Steps&r: &aCraft a Chest"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"To equip a &9backpack&r, click the Equip icon in the &9backpack&r menu."
+				""
+				"Once a &9backpack&r is equipped, you can open it by pressing &bB&r"
+				""
+				"&9Backpacks&r can be upgraded through several tiers. &9Backpacks&r with special benefits can be found in loot chests."
+				""
+				"To see all &9backpack&r variants, search &d@traveler&r in the &eREI&r search bar."
+				""
+				"You can find this search bar at the bottom of your inventory. "
+				""
+				"Clicking on items in the item list to the right of your inventory will show their recipes and uses."
+				""
+				"You can also press &bR&r and &bU&r while hovering over any item to see their Recipe and Uses"
+			]
+			id: "7261FED43BDDEFA8"
+			tasks: [{
+				id: "6202483BBBB5F8D1"
+				type: "item"
+			}]
+			title: "Upgrading: Inventory"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			description: ["The easiest way to teleport between locations is to use &eWaystones&r. Waystones generate naturally in villages and are also craftable."]
+			id: "7F9A5B6B0393C8E5"
+			tasks: [{
+				id: "3C015BB3D32C85FE"
+				type: "item"
+			}]
+			title: "The Basics: Teleporting"
+			x: 4.0d
+			y: 0.5d
+		}
 	]
 	title: "Basics"
 }

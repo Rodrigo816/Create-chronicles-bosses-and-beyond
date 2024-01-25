@@ -46,98 +46,76 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"In Minecraft's depths, the Remnant, last of the ancient dinosaurs, slumbers. Awakened by players, this colossal creature challenges them in a monumental battle, symbolizing a lost era. "
+				""
+				"Its defeat marks the end of a prehistoric legacy."
+			]
 			icon: "cataclysm:desert_eye"
 			id: "07C2D6E01B241F73"
-			rewards: [{
-				count: 30
-				id: "53CD43EA84F76717"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
 			shape: "square"
-			tasks: [
-				{
-					id: "1F48F5E1B6FFD6B2"
-					item: "cataclysm:desert_eye"
-					type: "item"
-				}
-				{
-					id: "1853E9C6C8B7F941"
-					structure: "cataclysm:cursed_pyramid"
-					type: "structure"
-				}
-			]
+			subtitle: "You can craft an eye of desert to locate the structure"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "312D9F500E45CDCC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Extinction was a lie"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			icon: "cataclysm:abyss_eye"
 			id: "681E9EE350CD6791"
-			rewards: [{
-				count: 30
-				id: "6A5DF8599CE7D32D"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
 			shape: "square"
-			tasks: [
-				{
-					id: "5247795B01E53FB1"
-					item: "cataclysm:abyss_eye"
-					type: "item"
-				}
-				{
-					id: "6F68A210D7E925C7"
-					structure: "cataclysm:sunken_city"
-					type: "structure"
-				}
-			]
+			subtitle: "You can craft an eye of abyss to locate the structure"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "1C2969AF75334559"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: From the Abyss"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
+			description: ["In the End's desolate expanse, stands the Ender Guardian Golem, a formidable sentinel crafted by the Endermen to protect their realm. Imbued with mysterious powers, it fiercely defends the End's secrets against any intruder."]
 			icon: "cataclysm:void_eye"
 			id: "6AC1E375CA7DA676"
-			rewards: [{
-				count: 30
-				id: "52D23F0426CA115E"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
 			shape: "square"
-			tasks: [
-				{
-					id: "4D3838E39985F818"
-					item: "cataclysm:void_eye"
-					type: "item"
-				}
-				{
-					id: "6FD05DE1045CC387"
-					structure: "cataclysm:ruined_citadel"
-					type: "structure"
-				}
-			]
+			subtitle: "You can craft an eye of the void to locate the structure"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "35A1226A30729B1F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eEnd&f: Protector of the end"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
+			description: ["Not being able to be deafened by a single human"]
+			icon: "cataclysm:flame_eye"
 			id: "40DD304B90046084"
 			shape: "square"
-			subtitle: "You can craft a flame eye to locate the scture on nether"
+			subtitle: "You can craft a flame eye to locate the structure"
 			tasks: [{
 				entity: "cataclysm:ignis"
-				icon: "cataclysm:flame_eye"
-				id: "33F92E13CE47FBF7"
+				id: "20A6B8D66C22E1BC"
 				type: "kill"
 				value: 1L
 			}]
+			title: "&cNether&f: The immortal "
 			x: 0.0d
 			y: 1.0d
 		}
 		{
 			id: "09D25A60964E517F"
 			shape: "square"
-			subtitle: "You can craft a eyo of monstrerous to locate the scture on nether"
+			subtitle: "You can craft an eye of netherite monstrosity to locate the structure"
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:monstrous_eye"
@@ -145,6 +123,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&cNether&f: The Monstrosity of lava"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -152,24 +131,19 @@
 			icon: "cataclysm:mech_eye"
 			id: "1A9BD3105BC4C13B"
 			shape: "square"
-			subtitle: "Eye of mech"
+			subtitle: "You can craft an eye of mech to locate the structure"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				id: "0253F7F29DE5086C"
 				type: "kill"
 				value: 1L
 			}]
+			title: "&cNether&f: Who needs to build one?"
 			x: 1.0d
 			y: 2.0d
 		}
 		{
 			id: "17061F6E53B6A809"
-			rewards: [{
-				count: 20
-				id: "6F1F4AFD6DE60394"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
 			tasks: [{
 				id: "16E86001B9AFED33"
 				item: "alexsmobs:capsid"
@@ -180,12 +154,6 @@
 		}
 		{
 			id: "0C14F69B100527C1"
-			rewards: [{
-				count: 30
-				id: "43B6CE5CCA9CE6FC"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
 			subtitle: "What does it do in contact with the void ?"
 			tasks: [{
 				id: "083DC45C49C03AB6"
@@ -197,12 +165,6 @@
 		}
 		{
 			id: "7696990D3ED40A1B"
-			rewards: [{
-				count: 2
-				id: "3923AF1454B8A3AD"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
 			subtitle: "Obtain the Void Worm eye by killing the Void Worm"
 			tasks: [{
 				id: "2DC19485464CE7E3"
@@ -232,13 +194,14 @@
 			y: 2.0d
 		}
 		{
-			description: ["As soon as you find the boss structure, place an Eye of Ender in the altar to summon it."]
+			description: [
+				"Upon discovering the enigmatic boss structure, place an Eye of Ender on the altar to awaken the formidable presence within."
+				""
+				"This living monolith, a master of the void's mysterious forces, resides in the Obsidilith Arena."
+				""
+				"This colossal, floating edifice hovers ominously in the endless void, waiting for challengers to test their mettle against its ancient power."
+			]
 			id: "065A5A976F0D8FF9"
-			rewards: [{
-				id: "2BB8AF1C6723553D"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
 			shape: "square"
 			subtitle: "You cant mine it"
 			tasks: [{
@@ -248,19 +211,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill an Obsidilith"
+			title: "&eEnd&f: The Obsidilith"
 			x: 3.0d
 			y: 1.0d
 		}
 		{
-			description: ["You can use a void lily to track the boss structure."]
+			description: [""]
 			id: "342B9E3297CC4309"
-			rewards: [{
-				id: "19B4CF32692969CB"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
 			shape: "square"
+			subtitle: "You can use a void lily to track the boss structure."
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				icon: "bosses_of_mass_destruction:void_lily"
@@ -268,22 +227,20 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill the Void Blossom"
+			title: "&2Overworld&f: The Void Blossom"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
-			description: ["Podes encontrar a lich tower em biomas de gelo"]
+			description: [
+				"The Night Lich, a sinister entity, reigns over colder biomes of the Overworld from its eerie Lich Tower. "
+				""
+				"Veiled in darkness, it wields ancient, shadowy magic, casting long nights and terror upon those who dare approach its frost-enshrouded domain."
+			]
 			icon: "bosses_of_mass_destruction:ancient_anima"
 			id: "2BA58FB09C99F20A"
-			rewards: [{
-				count: 2
-				id: "28DDC721DCE38EE6"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
 			shape: "square"
-			subtitle: "Fight him preferably with Elytra."
+			subtitle: "Fight him preferably with flying powers."
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:lich"
@@ -299,17 +256,13 @@
 					type: "item"
 				}
 			]
-			title: "Kill the Night Lich"
+			title: "&2Overworld&f: The Night Lich"
 			x: 4.0d
 			y: 2.0d
 		}
 		{
+			description: ["The Gauntlet is located in rare structures at the Nether."]
 			id: "35E095FC517735B1"
-			rewards: [{
-				id: "0F548861CF5209D5"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
 			shape: "square"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
@@ -318,7 +271,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill the Nether Gauntlet"
+			title: "&cNether&f: The Nether Gauntlet"
 			x: 3.0d
 			y: 2.0d
 		}

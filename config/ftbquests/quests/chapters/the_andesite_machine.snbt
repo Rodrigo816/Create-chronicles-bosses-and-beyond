@@ -9,23 +9,10 @@
 	quests: [
 		{
 			description: ["Tudo começa com uma tree"]
-			icon: {
-				Count: 1b
-				id: "itemfilters:tag"
-				tag: {
-					value: "minecraft:saplings"
-				}
-			}
+			icon: "twilightforest:time_sapling"
 			id: "12796FE2B6E3D53E"
 			tasks: [{
-				icon: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:saplings"
-					}
-				}
-				id: "783C71576162A80E"
+				id: "6570B0CBBB61B903"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
@@ -218,15 +205,7 @@
 				"507927EEC1417661"
 				"43D6EC530F7F1126"
 			]
-			description: [
-				"Entra wood slab"
-				""
-				"1 Adensite Alloy"
-				"1 Andesite Alloy"
-				"1 Shear"
-				""
-				"= Andesite Mechanism"
-			]
+			description: [""]
 			id: "5E60FF6098CB030B"
 			shape: "rsquare"
 			size: 1.5d

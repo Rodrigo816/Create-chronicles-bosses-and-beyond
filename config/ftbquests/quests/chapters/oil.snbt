@@ -10,14 +10,11 @@
 	quests: [
 		{
 			description: [
-				"Para começar tua produçao de oleo primeiro terás de encontrar um oil deposit."
-				"Os oils deposits poderão ser encontrados na bedrock."
-				"Crafta um surface scanner e usar create power para localizar o oil."
-				"o scannar não é precisso e tem uma margem de erro de cerca de 8 blocos se não encontrares num local exprimentar notro local."
-				"Eu garanto-te que ele existem :)."
-				"Some bombs could help"
+				"The &6Surface Scanner&f shows how far away an oil source is with an approximate 8-block margin of error. "
 				""
-				"The Surface Scanner shows how far away a oil source is. The oil source is found at bedrock and the surface scanner isn't very accurate. Good luck"
+				"The oil source is found at the bedrock."
+				""
+				"The &6surface scanner&f isn't very accurate, it’s recommended to do a search around the bedrock where the scanner pointed or to look in another location. Good luck"
 			]
 			id: "5E43C8E344DD951E"
 			rewards: [
@@ -66,11 +63,7 @@
 		}
 		{
 			dependencies: ["19D52AF67484168B"]
-			description: [
-				"O proximo passo será construir uma dislation"
-				""
-				"please refer to ponder scene como construir"
-			]
+			description: ["The next step is building the Distillation machine."]
 			id: "1E1E079FFAE3FAF2"
 			rewards: [
 				{
@@ -85,6 +78,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Please use the ponder scene to refer on how to build"
 			tasks: [
 				{
 					id: "6519B92105B2C6E6"
@@ -157,11 +151,11 @@
 		{
 			dependencies: ["5E43C8E344DD951E"]
 			description: [
-				"Run an industrial pipe from bedrock to where you want to pump. Then place a pumpjack base onto of the industrial pipe."
+				"Run an &3industrial pipe&f from the oil source at the bedrock to where you want to pump. Then place a &9pumpjack base&f on top the industrial pipe."
 				""
-				"Depois da constraçao montada e funcionar poderás extrair o oleo com um mechanical pump na pumpjakebase"
+				"If the pumpjack doesn't work, make sure EVERYTHING is glued together. "
 				""
-				"If the pumpjack doesn't work, make sure EVERYTHING is glued together"
+				"After the Oil Pump machine is built and running, you may extract the oil with a &cmechanical pump&f attached to the &9pumpjack base&f."
 			]
 			icon: "tfmg:heavy_oil_bucket"
 			id: "19D52AF67484168B"
@@ -178,7 +172,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Please use ponder scene to refer how to construt"
+			subtitle: "Please use the ponder scene to refer on how to build"
 			tasks: [
 				{
 					id: "6DF4BE2AA909D6D7"
