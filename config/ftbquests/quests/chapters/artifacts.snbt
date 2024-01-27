@@ -685,6 +685,66 @@
 			x: 1.5d
 			y: -4.0d
 		}
+		{
+			dependencies: [
+				"60B9F9AD8F49371D"
+				"2F8EAC597AB7E760"
+				"2B619746DAF80A5E"
+				"29491A4A65DEDCDC"
+				"2ED49410115A9FDC"
+				"39AD4C222874D63F"
+				"4D38017F83D30E13"
+				"4FDAFBD64AA710A1"
+				"36FB336313E5E377"
+				"250E32D632A506B2"
+				"17C488042DB187A3"
+				"0424F3DCA7620F49"
+				"3F0D2D8C1CFD1F2A"
+				"51A4E097156A6DC1"
+				"7940D8A4ECBD6541"
+				"5ABC7CE1A9B9FB7C"
+				"66A8B9C4C4AC291A"
+				"042259C7B1BF773A"
+				"78DFD8815E2AE291"
+				"016C498DFB704536"
+				"632F1D52317286A8"
+				"72564111D0768098"
+				"419A16655447AA92"
+				"136F140D9A3ED036"
+				"1ADACCB1A8BB9E7E"
+				"05A39ED901BC6569"
+				"78E34F3F9A19F275"
+				"13449219998C54E1"
+				"7362AE3D474FF6E1"
+				"3121D591D3807584"
+				"14CB47511F2D0E01"
+				"5A2F0B2712D9C667"
+				"4CCAD1EBB977DF2E"
+				"0E0532BA6E3FFEF9"
+				"10CDACBCA03AEDF7"
+				"6E98473128936047"
+				"7F1AB8E8DA7BFD77"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lootr:textures/item/crown.png"
+				}
+			}
+			id: "703CC46FAC00A5D9"
+			invisible: true
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "0F4E9AFE4EE5333A"
+				title: "a"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.25d
+		}
 	]
 	subtitle: ["Treasures from The Zone"]
 	title: "&aArtifacts"

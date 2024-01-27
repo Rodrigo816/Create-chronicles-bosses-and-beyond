@@ -7,14 +7,65 @@
 	hide_quest_until_deps_visible: true
 	icon: "ringsofascension:ring_slow_falling"
 	id: "000000000000031C"
+	images: [
+		{
+			click: ""
+			color: 3434985
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/particle/spark_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			color: 13004288
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/particle/spark_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.8d
+			hover: [ ]
+			image: "enlightened_end:textures/particle/teleporter_spark_1.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 14.0d
+			hover: [ ]
+			image: "kubejs:textures/rings.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 3.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["Grants the Night Vision potion effect while equipped."]
 			id: "000000000000032A"
-			shape: "diamond"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "Find a Ring of Night Vision."
 			tasks: [{
 				id: "000000000000032B"
@@ -22,14 +73,13 @@
 				type: "item"
 			}]
 			title: "Bravo Six, Going Dark"
-			x: -2.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
 			description: ["Grants the Regeneration potion effect when equipped."]
 			id: "00000000000003A3"
-			shape: "diamond"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "Find a Ring of Regeneration."
 			tasks: [{
 				id: "00000000000003A4"
@@ -37,14 +87,13 @@
 				type: "item"
 			}]
 			title: "A Helping Hand"
-			x: 2.5d
-			y: 0.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			description: ["Grants immunity to the poison effect when equipped."]
 			id: "00000000000003A5"
-			shape: "diamond"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "Find a Ring of Poison Resistance."
 			tasks: [{
 				id: "00000000000003A6"
@@ -52,8 +101,8 @@
 				type: "item"
 			}]
 			title: "Cave Spiders? Pfft.."
-			x: 0.0d
-			y: 3.0d
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -62,6 +111,7 @@
 				"&7Reward: 1x Loot Bundle"
 			]
 			id: "00000000000003A9"
+			size: 1.0d
 			subtitle: "Find a Ring of Strength."
 			tasks: [{
 				id: "00000000000003AA"
@@ -69,12 +119,13 @@
 				type: "item"
 			}]
 			title: "Johnny Bravo"
-			x: -2.0d
-			y: -1.5d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			description: ["Grows nearby crops faster when equipped."]
 			id: "00000000000003AB"
+			size: 1.0d
 			subtitle: "Find a Ring of Growth."
 			tasks: [{
 				id: "00000000000003AC"
@@ -82,12 +133,13 @@
 				type: "item"
 			}]
 			title: "The Plant Whisperer"
-			x: -2.0d
-			y: 1.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			description: ["Grants the Invisibility potion effect when equipped."]
 			id: "00000000000003AF"
+			size: 1.0d
 			subtitle: "Find a Ring of Invisibility."
 			tasks: [{
 				id: "00000000000003B0"
@@ -95,12 +147,13 @@
 				type: "item"
 			}]
 			title: "The Invisibility Ring"
-			x: 2.0d
-			y: -1.5d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			description: ["Grants the Water Breathing potion effect when equipped."]
 			id: "00000000000003B1"
+			size: 1.0d
 			subtitle: "Find a Ring of Water Breathing."
 			tasks: [{
 				id: "00000000000003B2"
@@ -108,14 +161,13 @@
 				type: "item"
 			}]
 			title: "Like breathing air!"
-			x: 2.0d
-			y: 1.5d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			description: ["Grants immunity to the Wither Potion effect when equipped."]
 			id: "00000000000003B5"
-			shape: "octagon"
-			size: 1.35d
+			size: 1.0d
 			subtitle: "Find a Wither Ring."
 			tasks: [{
 				id: "00000000000003B6"
@@ -123,13 +175,13 @@
 				type: "item"
 			}]
 			title: "Down with the Sickness"
-			x: 0.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			description: ["Grants the Dolphins Grace potion effect when equipped."]
 			id: "00000000000003B8"
-			size: 0.85d
+			size: 1.0d
 			subtitle: "Find a Dolphin Ring."
 			tasks: [{
 				id: "00000000000003B9"
@@ -137,8 +189,8 @@
 				type: "item"
 			}]
 			title: "Great Minds"
-			x: 0.0d
-			y: -1.5d
+			x: -0.5d
+			y: 0.5d
 		}
 		{
 			description: ["Grants Knockback Immunity when equipped."]
@@ -155,7 +207,7 @@
 					xp_levels: 1
 				}
 			]
-			size: 0.85d
+			size: 1.0d
 			subtitle: "Find a Ring of Knockback Resistance."
 			tasks: [{
 				id: "00000000000003BC"
@@ -163,13 +215,13 @@
 				type: "item"
 			}]
 			title: "Knockback? No more!"
-			x: 1.5d
-			y: 0.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			description: ["Grants Fire Resistance potion effect when equipped."]
 			id: "00000000000003BE"
-			size: 0.85d
+			size: 1.0d
 			subtitle: "Find a Ring of Fire Resistance."
 			tasks: [{
 				id: "00000000000003BF"
@@ -177,13 +229,13 @@
 				type: "item"
 			}]
 			title: "Extinguished"
-			x: 0.0d
-			y: 1.5d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			description: ["Pull nearby xp orbs when equipped."]
 			id: "00000000000003C1"
-			size: 0.85d
+			size: 1.0d
 			subtitle: "Find a Ring of Experience."
 			tasks: [{
 				id: "00000000000003C2"
@@ -191,13 +243,13 @@
 				type: "item"
 			}]
 			title: "Sweet XP"
-			x: -1.5d
-			y: 0.0d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			description: ["Removes all nearby water blocks around the player when equipped."]
 			id: "00000000000003C4"
-			shape: "hexagon"
+			size: 1.0d
 			subtitle: "Find a Ring of Sponge."
 			tasks: [{
 				id: "00000000000003C5"
@@ -205,13 +257,13 @@
 				type: "item"
 			}]
 			title: "Water's Gone"
-			x: -1.0d
-			y: -1.0d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			description: ["Grants the Haste potion effect when equipped."]
 			id: "00000000000003C7"
-			shape: "hexagon"
+			size: 1.0d
 			subtitle: "Find a Ring of Mining."
 			tasks: [{
 				id: "00000000000003C8"
@@ -219,13 +271,13 @@
 				type: "item"
 			}]
 			title: "Gotta Mine Fast"
-			x: 1.0d
-			y: -1.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			description: ["Grants two extra hearts when equipped."]
 			id: "00000000000003CA"
-			shape: "hexagon"
+			size: 1.0d
 			subtitle: "Find a Ring of Health."
 			tasks: [{
 				id: "00000000000003CB"
@@ -233,13 +285,13 @@
 				type: "item"
 			}]
 			title: "1-UP"
-			x: 1.0d
-			y: 1.0d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			description: ["Grants immunity to the Slowness potion effect."]
 			id: "00000000000003CD"
-			shape: "hexagon"
+			size: 1.0d
 			subtitle: "Find a Ring of Slowness Resistance."
 			tasks: [{
 				id: "00000000000003CE"
@@ -247,12 +299,13 @@
 				type: "item"
 			}]
 			title: "Feel Fast"
-			x: -1.0d
-			y: 1.0d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			description: ["Grants the Jump Boost potion effect when equipped."]
 			id: "00000000000003D0"
+			size: 1.0d
 			subtitle: "Find a Ring of Jump Boost."
 			tasks: [{
 				id: "00000000000003D1"
@@ -260,12 +313,13 @@
 				type: "item"
 			}]
 			title: "Bugs Bunny is that you?"
-			x: -1.0d
-			y: -2.5d
+			x: 2.0d
+			y: 5.5d
 		}
 		{
 			description: ["Grants the Luck potion effect when equipped."]
 			id: "00000000000003D2"
+			size: 1.0d
 			subtitle: "Find a Ring of Luck."
 			tasks: [{
 				id: "00000000000003D3"
@@ -273,12 +327,13 @@
 				type: "item"
 			}]
 			title: "Feeling Lucky?"
-			x: 1.0d
-			y: -2.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			description: ["Grants the Speed potion effect when equipped."]
 			id: "00000000000003D6"
+			size: 1.0d
 			subtitle: "Find a Ring of Speed."
 			tasks: [{
 				id: "00000000000003D7"
@@ -286,12 +341,13 @@
 				type: "item"
 			}]
 			title: "Gotta Go Fast"
-			x: -1.0d
-			y: 2.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			description: ["Grants the Slow Fall potion effect when equipped."]
 			id: "00000000000003D9"
+			size: 1.0d
 			subtitle: "Find a Ring of Slow Fall."
 			tasks: [{
 				id: "00000000000003DA"
@@ -299,8 +355,8 @@
 				type: "item"
 			}]
 			title: "Great View!"
-			x: 1.0d
-			y: 2.5d
+			x: -3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -325,7 +381,7 @@
 				"00000000000003BB"
 				"00000000000003BE"
 			]
-			hide: true
+			hide: false
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -335,6 +391,7 @@
 				}
 			}
 			id: "67B117317EB077BA"
+			invisible: true
 			shape: "hexagon"
 			size: 2.5d
 			subtitle: "Complete all the quests in this chapter."
@@ -344,7 +401,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.75d
+			y: -2.5d
 		}
 	]
 	subtitle: ["Rings can be in chests found randomly around the world."]
