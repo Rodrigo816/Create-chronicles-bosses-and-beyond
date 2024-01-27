@@ -1,0 +1,290 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: ""
+	icon: "minecraft:dragon_head"
+	id: "53FAA75157389DE5"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1E4B9F8A3401B4BF"
+			tasks: [{
+				id: "1A729831B2C6D804"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			id: "37F39A63C0C2934F"
+			tasks: [{
+				id: "3C6A1B486768BB94"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "02DE3FA28CBAE857"
+			tasks: [{
+				id: "1EBBF31125F4D187"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "3BC1492D43F6B120"
+			tasks: [{
+				id: "74DD9F7281936F2E"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			id: "1F4AE081014800B4"
+			tasks: [{
+				id: "2EBD7434762970D0"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			id: "22E0846B96BBD5DD"
+			tasks: [{
+				id: "20C9F4D0C3D85835"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "50B4EEBAF5CF3122"
+			tasks: [{
+				id: "6B27D02922CBE257"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "5EC521DA8FF06758"
+			tasks: [{
+				id: "2560EE369A9298B7"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "0C61389C18B4A2B4"
+			tasks: [{
+				id: "0EED6B0CA7E5C945"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "763F1FB0C55F702F"
+			tasks: [{
+				id: "0851A0649877E349"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "0A6EBBE5CD80EF14"
+			tasks: [{
+				id: "0C82B40849F15F55"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "33EF47DF16D412B5"
+			tasks: [{
+				id: "287BB9E7276751F7"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			id: "343AB719F81DFC63"
+			tasks: [{
+				id: "7DA4E17AB988FAD8"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "401C9B25D2B7B49F"
+			tasks: [{
+				id: "20A121DA1AC34CD3"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "63A35C0C01372EB6"
+			tasks: [{
+				id: "4542CE1355D29B3B"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			id: "1C89D285F0501472"
+			tasks: [{
+				id: "6D134B2D3A3BE8AA"
+				item: {
+					Count: 1b
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			id: "5B9C1D10A217657D"
+			tasks: [{
+				id: "650AD081A386407A"
+				title: "About the end"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "09C33BB3342632B4"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "276B6F50C52A8F96"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+	]
+	title: "The End"
+}

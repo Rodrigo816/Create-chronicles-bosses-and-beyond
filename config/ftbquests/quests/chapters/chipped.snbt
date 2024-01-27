@@ -1,0 +1,220 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "chipped"
+	group: "41A34DBCA10C139D"
+	icon: "chipped:carpenters_table"
+	id: "10BB09AFF092D042"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "52FB1C854913DF6D"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "267711DC1D0C4590"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The nature work table"
+			tasks: [{
+				id: "5849EE3DCF769C47"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "2E159F21FFAA8235"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "6FCE416F33D68E9A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The glass workers table"
+			tasks: [{
+				id: "7FD9F666136C210D"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "148846E470D751DC"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5173619B78535158"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The wood workers table"
+			tasks: [{
+				id: "78F5D7B7D09724BA"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "4168CF372904BF17"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5475E85D0FA831FF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The shepherd work table"
+			tasks: [{
+				id: "59380129E2F1EC7E"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "4CA5A79AAB5F1717"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "0A0BEC39A9B0F5B6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The stone workers table"
+			tasks: [{
+				id: "1AA1C00B2C5914EB"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "5A9B051E3E783BA8"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "265056103B5EFAD9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The gem workers table"
+			tasks: [{
+				id: "538DA2D4181A5163"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "1A34DF0FA24D3EB9"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "6D299BE646405DC6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The light workers table"
+			tasks: [{
+				id: "36E90A2F104A580C"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "7BB52BECAC00A7A4"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "159D1BC9C73BD301"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The different way to add variety to the game"
+			tasks: [{
+				id: "3A98B047AE8F3153"
+				title: "Chipped Workbenches"
+				type: "checkmark"
+			}]
+			title: "Adding variety to blocks"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "594A5DD3BE232243"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5BE9C1D5F3850B8C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The block workers tool"
+			tasks: [{
+				id: "211DA3D5C9CCEDEE"
+				item: {
+					Count: 1b
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "7A0AC960BB010825"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "4D42665F7BA240CD"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Make any block any shape"
+			tasks: [{
+				id: "09E6D0CC39A1E452"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			title: "Framed Blocks"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			icon: "handcrafted:dark_oak_fancy_bed"
+			id: "0FEF98EA0A718E42"
+			tasks: [{
+				id: "7DE5015E675320D7"
+				title: "Handcrafted Furniture"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			icon: "mcwfurnitures:oak_drawer_counter"
+			id: "4F2E13F2C6542F6C"
+			tasks: [{
+				id: "2ACC8D12025A5AB4"
+				title: "Macaw's Everything"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+	title: "&3Workbenches/Tools"
+}

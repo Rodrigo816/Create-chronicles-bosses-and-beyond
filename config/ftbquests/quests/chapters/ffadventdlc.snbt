@@ -1,19 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "adventure_dlc"
-	group: "41A34DBCA10C139D"
-	icon: {
-		Count: 1b
-		id: "aquamirae:divider"
-		tag: {
-			Damage: 0
-		}
-	}
-	id: "7DD81657A6032115"
+	filename: "ffadventdlc"
+	group: ""
+	id: "6E916CAEF2456308"
 	order_index: 0
 	quest_links: [ ]
-	quests: [
+	quests: 	quests: [
 		{
 			icon: "minecraft:ice"
 			id: "5909DB73D7F9EA7F"
@@ -1477,5 +1470,5 @@
 			y: -10.0d
 		}
 	]
-	title: "Extended Adventure"
+	title: "FFAdventDLC"
 }

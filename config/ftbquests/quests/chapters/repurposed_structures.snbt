@@ -1,0 +1,489 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "repurposed_structures"
+	group: "41A34DBCA10C139D"
+	icon: {
+		Count: 1b
+		id: "minecraft:filled_map"
+		tag: {
+			map: 0
+		}
+	}
+	id: "468A3F1443352E69"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 1x Loot Bundle."]
+			hide: true
+			id: "3A544C9045B712AC"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "724F951655230134"
+					type: "random"
+				}
+				{
+					id: "1082F0C7699553C9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Enter a Jungle Fortress"
+			tasks: [{
+				advancement: "repurposed_structures:fortress_jungle"
+				criterion: ""
+				id: "7CCB462BA4F6545D"
+				title: "Decaying Glory"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 1x Loot Bundle."]
+			hide: true
+			id: "2C6E064F0477C22E"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "3423B3E7CD29B693"
+					type: "random"
+				}
+				{
+					id: "4CBAF5D04FCC096B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Find all 5 ruins, in RS."
+			tasks: [{
+				advancement: "repurposed_structures:ruins"
+				criterion: ""
+				id: "5BCA4846D36F32E6"
+				title: "Ruined Ruins"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table."]
+			hide: true
+			id: "4F84CEA73D42D0E2"
+			rewards: [{
+				icon: "cyclic:dice"
+				id: "31EA3A467635C7E4"
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Find an End themed Ruined Portal!"
+			tasks: [{
+				advancement: "repurposed_structures:ruined_portal_end"
+				criterion: ""
+				id: "7874EE6D20E22A58"
+				title: "The Useless Portal"
+				type: "advancement"
+			}]
+			x: 2.1d
+			y: 0.0d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 1x Loot Bundle."]
+			hide: true
+			id: "745B2C47B4F0BDE1"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "256B33EC037B216D"
+					type: "random"
+				}
+				{
+					id: "2F230C05B0FDC2D8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Find all 5 Witch Huts, in RS."
+			tasks: [{
+				advancement: "repurposed_structures:witch_huts"
+				criterion: ""
+				icon: "reliquary:witch_hat"
+				id: "1434A844E0B9942D"
+				title: "Whole lot of Witches"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 2x Loot Bundle."]
+			hide: true
+			id: "61F90CE9DDFC53DD"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "3007DBF5DD5D46C6"
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2AB3F0C3E94BA3EB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Find all 7 Mansions, in RS."
+			tasks: [{
+				advancement: "repurposed_structures:mansions"
+				criterion: ""
+				icon: "minecraft:totem_of_undying"
+				id: "111DD5965A994125"
+				title: "Luxury Living"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.1d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 3x Loot Bundle."]
+			hide: true
+			id: "04D5EAFAC5D4EC03"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "265E4467D0161A23"
+					type: "random"
+				}
+				{
+					count: 3
+					id: "6563EE312493C200"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Find all 14 Mineshafts, in RS."
+			tasks: [{
+				advancement: "repurposed_structures:mineshafts"
+				criterion: ""
+				id: "02FFEF6F49CB322B"
+				title: "Mining Away"
+				type: "advancement"
+			}]
+			x: 3.1d
+			y: 0.0d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 1x Loot Bundle."]
+			hide: true
+			id: "6D8CBF794720C12A"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "6CB1F84BE634F726"
+					type: "random"
+				}
+				{
+					id: "38B770E57296FFD4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Enter a Nether City."
+			tasks: [{
+				advancement: "repurposed_structures:city_nether"
+				criterion: ""
+				icon: "minecraft:blaze_powder"
+				id: "7266C75C65A8EF94"
+				title: "Blazing Cities"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.1d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 1x Loot Bundle."]
+			hide: true
+			id: "66622C472F7E0EBD"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "003AF30D0EECDCE6"
+					type: "random"
+				}
+				{
+					id: "42C76EF223E6D523"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Find all 3 Igloos, in RS."
+			tasks: [{
+				advancement: "repurposed_structures:igloos"
+				criterion: ""
+				icon: "productivebees:snow_nest"
+				id: "06926532A6533CA8"
+				title: "Winter Warmth"
+				type: "advancement"
+			}]
+			x: 0.05d
+			y: 3.15d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table."]
+			hide: true
+			id: "0DD0253856B7F461"
+			rewards: [{
+				icon: "cyclic:dice"
+				id: "144A402297534CF4"
+				type: "random"
+			}]
+			shape: "octagon"
+			subtitle: "Enter an Underground Bastion."
+			tasks: [{
+				advancement: "repurposed_structures:bastion_underground"
+				criterion: ""
+				id: "51D181B1EF0373FB"
+				title: "Bastions, Evil, and Bones..."
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 2x Loot Bundle."]
+			hide: true
+			id: "695017EA378553CC"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "13A4A717F55A6ACB"
+					type: "random"
+				}
+				{
+					count: 2
+					id: "7D395F8238E114EA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Find all 4 Shipwrecks, in RS."
+			tasks: [{
+				advancement: "repurposed_structures:shipwrecks"
+				criterion: ""
+				id: "349D63F3B93A5814"
+				title: "Stranded in the Caribbean Sea"
+				type: "advancement"
+			}]
+			x: 1.1d
+			y: -1.05d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 2x Loot Bundle."]
+			hide: true
+			id: "4AECF216A06D7901"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "159198A18535C36E"
+					type: "random"
+				}
+				{
+					count: 2
+					id: "25A50108874C20CD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Find all 11 Villages, in RS."
+			tasks: [{
+				advancement: "repurposed_structures:villages"
+				criterion: ""
+				id: "4866DB0428C3F428"
+				title: "Friendly Neighborhood"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 2x Loot Bundle."]
+			hide: true
+			id: "07361D1698C7A086"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "0382FD833E032824"
+					type: "random"
+				}
+				{
+					count: 2
+					id: "16827985C98806FA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Find all 11 Pyramids, in RS."
+			tasks: [{
+				advancement: "repurposed_structures:pyramids"
+				criterion: ""
+				id: "42215FCEB61B4925"
+				title: "Mummies Buried Deep"
+				type: "advancement"
+			}]
+			x: -1.05d
+			y: 1.05d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 3x Loot Bundle."]
+			hide: true
+			id: "2265BBBBDBCBAF4F"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "3D60B36BE70AB5CA"
+					type: "random"
+				}
+				{
+					count: 3
+					id: "1966A510A457D48B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Find all 5 Temples, in RS."
+			tasks: [{
+				advancement: "repurposed_structures:temples"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tombstone:decorative_tombstone"
+					tag: {
+						model_texture: 0
+					}
+				}
+				id: "4988F232DA517307"
+				title: "Tomb Raiding"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.1d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 2x Loot Bundle."]
+			hide: true
+			id: "1EDF88A929EDCAC8"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "622CEEF58797574F"
+					type: "random"
+				}
+				{
+					count: 2
+					id: "1CA13D8C47730A6F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Find all 14 Outposts, in RS."
+			tasks: [{
+				advancement: "repurposed_structures:outposts"
+				criterion: ""
+				id: "1C8ED60DFC179C43"
+				title: "View from Above"
+				type: "advancement"
+			}]
+			x: -2.1d
+			y: 0.0d
+		}
+		{
+			description: ["&7Reward: 1x Random Reward from set Loot Table \\& 1x Loot Bundle."]
+			hide: true
+			id: "1DE1CAFA879F02A5"
+			rewards: [
+				{
+					icon: "cyclic:dice"
+					id: "779BF111F8738DDC"
+					type: "random"
+				}
+				{
+					id: "59C422D8C0BC59A7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Find 2 Strongholds, in RS."
+			tasks: [{
+				advancement: "repurposed_structures:strongholds"
+				criterion: ""
+				id: "7700AD34EB990799"
+				title: "Ways to The End?"
+				type: "advancement"
+			}]
+			x: -3.1d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"07361D1698C7A086"
+				"1DE1CAFA879F02A5"
+				"4F84CEA73D42D0E2"
+				"66622C472F7E0EBD"
+				"745B2C47B4F0BDE1"
+				"61F90CE9DDFC53DD"
+				"695017EA378553CC"
+				"1EDF88A929EDCAC8"
+				"4AECF216A06D7901"
+				"2C6E064F0477C22E"
+				"04D5EAFAC5D4EC03"
+				"2265BBBBDBCBAF4F"
+				"0DD0253856B7F461"
+				"3A544C9045B712AC"
+				"6D8CBF794720C12A"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lootr:textures/item/crown.png"
+				}
+			}
+			id: "7B2FEC4628BF73B9"
+			rewards: [{
+				count: 8
+				id: "658496E3F2F52E65"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Complete all the quests in this chapter."
+			tasks: [{
+				id: "5B04FA52D7D563BC"
+				title: "Completionist"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+	subtitle: ["Explore and discover all of the lost ancient structures."]
+	title: "&3ʀᴇᴘᴜʀᴘᴏѕᴇᴅ ѕᴛʀᴜᴄᴛᴜʀᴇѕ"
+}

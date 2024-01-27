@@ -1,21 +1,19 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	disable_toast: true
-	filename: "twilight_forest"
-	group: ""
-	icon: "twilightforest:twilight_portal_miniature_structure"
-	id: "2AD59C1E13E7EC19"
-	order_index: 12
+	filename: "twrod"
+	group: "41A34DBCA10C139D"
+	id: "2C9F84F55FF32BE0"
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["Twilight forest is a mod thats centered in another dimension called the Twilight Forest. It has it's own progression system, and it starts by visiting the twilight forest dimension! You can make a portal to the Twilight Forest by making a 2x2 hole in the ground, filling it with water, and surrounding it with flowers. Once that's done. Throw a single diamond into the water, and lightning will strike it, opening the portal to the Twilight Forest."]
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			id: "393A9B93DE93C1E4"
+			id: "4348513785FB5C9F"
 			rewards: [{
 				count: 2
-				id: "0D103C85F18E5E3A"
+				id: "6481B3B6AFE618E8"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
@@ -23,18 +21,19 @@
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				icon: "twilightforest:twilight_portal_miniature_structure"
-				id: "50C3F19093756481"
+				id: "3007792F1E8EAB6D"
 				type: "dimension"
 			}]
 			x: -1.0d
 			y: -0.5d
 		}
 		{
+			dependencies: ["4348513785FB5C9F"]
 			description: ["The naga is a giant snake-like monster boss that will spawn upon entering one of its "]
-			id: "2C85C7F33AC9EF42"
+			id: "038082B613DE0FF3"
 			rewards: [{
 				count: 3
-				id: "208861D6EA31F9D8"
+				id: "1214C98C2FED3446"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
@@ -42,7 +41,7 @@
 			tasks: [{
 				entity: "twilightforest:naga"
 				icon: "twilightforest:naga_trophy"
-				id: "29D21D8317C57642"
+				id: "642FB28001796D1B"
 				type: "kill"
 				value: 1L
 			}]
@@ -51,17 +50,18 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["4348513785FB5C9F"]
 			description: ["The Blank magic map can be used similar to a normal map, but inside the twilight forest it will show all the nearby biomes and objectives in said biome. It's very usefull for finding your way around."]
-			id: "56FA31769BF5BF1E"
+			id: "0E2FFDD7A6B5367A"
 			rewards: [{
 				count: 3
-				id: "2B48ECDE903AE7B5"
+				id: "63C6A57D5EDD885F"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
 			subtitle: "A useful guide"
 			tasks: [{
-				id: "326EFBBF7D31364D"
+				id: "3764C62F819C0EDD"
 				item: "twilightforest:magic_map"
 				type: "item"
 			}]
@@ -70,11 +70,12 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["038082B613DE0FF3"]
 			description: ["The Lich is your second boss fight in the twilight forest. The lich can be found in large towers. Fight your way to the top and slay it."]
-			id: "7288A9F4BDDD0C5D"
+			id: "3A6AAE9D323C69D3"
 			rewards: [{
 				count: 5
-				id: "40FBCFFA2805ADBB"
+				id: "2043B2059C46EC1F"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
@@ -82,7 +83,7 @@
 			tasks: [{
 				entity: "twilightforest:lich"
 				icon: "twilightforest:lich_trophy"
-				id: "28CEF5E4A486BB24"
+				id: "064534125AE12066"
 				title: "Kill a Lich"
 				type: "kill"
 				value: 1L
@@ -91,10 +92,11 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["3A6AAE9D323C69D3"]
 			description: ["After killing the lich in the tower, you must make your way to the swamps and find a hill which enters to the labyrinth. Make your way to the lowest floor and slay the mighty Minoshroom!"]
-			id: "42087825A280DD74"
+			id: "095AF56A72FB3D8D"
 			rewards: [{
-				id: "0ECCFC35F7B76BE2"
+				id: "138B1504B237C2BE"
 				item: "coinsje:iron_coin"
 				type: "item"
 			}]
@@ -102,7 +104,7 @@
 			tasks: [{
 				entity: "twilightforest:minoshroom"
 				icon: "twilightforest:minoshroom_trophy"
-				id: "7947F3F9BE264E8C"
+				id: "74D75D08B0F0D6CA"
 				type: "kill"
 				value: 1L
 			}]
@@ -111,10 +113,11 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["095AF56A72FB3D8D"]
 			description: ["After conquering the labyrinth in the swamps make your way inwards to the fiery lands and find the hydras den. In order to kill it you must wait for one of its heads to open its mouth and shoot it in the mouth, or ricochet projectiles it shoots back at it. The hydra shoots fire!"]
-			id: "5DF97DC89CC0E41A"
+			id: "1523F762B2CF0F02"
 			rewards: [{
-				id: "048F7D2D6454E930"
+				id: "7FEDB9D9E9D865C2"
 				item: "coinsje:iron_coin"
 				type: "item"
 			}]
@@ -122,7 +125,7 @@
 			tasks: [{
 				entity: "twilightforest:naga"
 				icon: "twilightforest:naga_trophy"
-				id: "5AFCE207E8161E6A"
+				id: "4F04578EF0B2DC21"
 				type: "kill"
 				value: 1L
 			}]
@@ -131,10 +134,11 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["0E2FFDD7A6B5367A"]
 			description: ["Random hills will jolt from the ground. If you mine into the middle of them they are plentiful in ores, but also spawners and monsters. It's worth the risk though."]
-			id: "76FD6F223BDDB793"
+			id: "29F0EEDD8EA030FC"
 			rewards: [{
-				id: "0BC7A26E9C12013D"
+				id: "5D1C044012723A7C"
 				item: "coinsje:iron_coin"
 				type: "item"
 			}]
@@ -142,19 +146,19 @@
 			tasks: [
 				{
 					icon: "minecraft:grass_block"
-					id: "18DC039BBB04ADA8"
+					id: "55E06B1AF68109C1"
 					structure: "twilightforest:small_hollow_hill"
 					type: "structure"
 				}
 				{
 					icon: "minecraft:grass_block"
-					id: "7BBBC7451CF1E002"
+					id: "1F2AF9976E78C22E"
 					structure: "twilightforest:medium_hollow_hill"
 					type: "structure"
 				}
 				{
 					icon: "minecraft:grass_block"
-					id: "41C44C54361BB93F"
+					id: "43D683ED3D23B12B"
 					structure: "twilightforest:large_hollow_hill"
 					type: "structure"
 				}
@@ -163,5 +167,5 @@
 			y: -4.0d
 		}
 	]
-	title: "Twilight Forest"
+	title: "TWROD"
 }

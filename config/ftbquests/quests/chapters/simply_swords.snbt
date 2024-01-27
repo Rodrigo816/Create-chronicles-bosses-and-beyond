@@ -16,7 +16,7 @@
 		x: -10.0d
 		y: -13.0d
 	}]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

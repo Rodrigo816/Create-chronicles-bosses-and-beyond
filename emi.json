@@ -1,0 +1,40 @@
+{
+  "favorites": [
+    {
+      "stack": "item:create_sa:steam_engine"
+    },
+    {
+      "stack": "item:create_sa:heat_engine"
+    },
+    {
+      "stack": "item:create_sa:hydraulic_engine"
+    }
+  ],
+  "lookup_history": [
+    "item:minecraft:blue_dye",
+    "item:aether_redux:fieldsprout_planks",
+    "item:alexsmobs:mimicream",
+    "item:alexsmobs:cooked_moose_ribs",
+    "item:alexsmobs:sopa_de_macaco",
+    "item:twilightforest:canopy_sign",
+    "item:twilightforest:time_pressure_plate",
+    "item:twilightforest:bold_castle_brick_pillar",
+    "item:alexsmobs:straddle_saddle",
+    "item:alexsmobs:blobfish",
+    "item:alexsmobs:soul_heart",
+    "item:ars_nouveau:source_gem",
+    "item:ars_nouveau:water_essence",
+    "item:kubejs:valve_mechanism",
+    "item:kubejs:rotation_mechanism",
+    "item:kubejs:andesite_machine",
+    "item:aquamirae:coral_lance{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:4s}]}"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

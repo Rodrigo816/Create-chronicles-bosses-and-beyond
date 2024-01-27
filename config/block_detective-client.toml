@@ -1,0 +1,30 @@
+
+#General
+[general]
+	#Activate the Update-Checker
+	update-checker = true
+
+#Tooltips
+[tooltip]
+	#Shows a more detailed text instead of the small shift hint under the item
+	show_long_shift_text = false
+	#Enable item tooltips
+	enable_item_tooltips = true
+	#Show the registry name in the item tooltips
+	show_registry_name = true
+	#Show the destroy time in the item tooltips
+	show_destroy_time = true
+	#Show the jump factor in the item tooltips
+	show_jump_factor = true
+	#Show the light level in the item tooltips
+	show_light_level = true
+	#Show the speed factor in the item tooltips
+	show_speed_factor = true
+	#Show the friction in the item tooltips
+	show_friction = true
+
+#JEI Pages
+[jei]
+	#Enable JEI (Just enough items Mod) item info pages
+	enable_jei_item_pages = true
+

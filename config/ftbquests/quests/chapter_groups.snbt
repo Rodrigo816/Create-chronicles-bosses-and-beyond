@@ -1,7 +1,8 @@
 {
 	chapter_groups: [
-		{ id: "71FCEFE04D91F069", title: "Charpter1: Starting with create" }
-		{ id: "2B02D614E453E838", title: "Exemplos de outros modpacks" }
-		{ id: "41A34DBCA10C139D", title: "Outros Ex" }
+		{ id: "53374CFE946B8348", title: "Collectibles" }
+		{ id: "71FCEFE04D91F069", title: "ON PROGRESS Charpter1: Starting with create" }
+		{ id: "2B02D614E453E838", title: "__DEL_Exemplos de outros modpacks" }
+		{ id: "41A34DBCA10C139D", title: "__DEL_Outros Ex" }
 	]
 }

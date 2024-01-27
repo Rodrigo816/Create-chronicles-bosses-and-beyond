@@ -1,17 +1,10 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "adventure"
-	group: ""
-	icon: {
-		Count: 1b
-		id: "aquamirae:terrible_sword"
-		tag: {
-			Damage: 0
-		}
-	}
-	id: "5A90BE0C54316180"
-	order_index: 9
+	filename: "ffadventure"
+	group: "41A34DBCA10C139D"
+	id: "2B98C3FAF4577C1C"
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -1771,5 +1764,5 @@
 			y: -13.0d
 		}
 	]
-	title: "Main Adventure"
+	title: "FFAdventure"
 }

@@ -1,17 +1,16 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "the_twilight_forest"
-	group: ""
-	icon: "twilightforest:twilight_portal_miniature_structure"
-	id: "5B98B6AA4DEBD21F"
-	order_index: 8
+	filename: "prominencetwilight"
+	group: "41A34DBCA10C139D"
+	id: "37F10464D1440591"
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
-			id: "40E46F359CC297AA"
+			id: "2BC7B74C1D405B3B"
 			rewards: [{
-				id: "5226309E91EE22AC"
+				id: "60AC17EED0812047"
 				item: "twilightforest:magic_map"
 				type: "item"
 			}]
@@ -21,7 +20,7 @@
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				icon: "twilightforest:twilight_portal_miniature_structure"
-				id: "2F077A66F656560A"
+				id: "43B4B4196E278A86"
 				title: "Enter the Twilight Forest"
 				type: "dimension"
 			}]
@@ -31,9 +30,9 @@
 		}
 		{
 			dependencies: ["2BC7B74C1D405B3B"]
-			id: "0D07368252303D5A"
+			id: "7630C21661FED121"
 			rewards: [{
-				id: "54E515C1C6BB353D"
+				id: "165BE5F21305C953"
 				type: "xp_levels"
 				xp_levels: 25
 			}]
@@ -41,7 +40,7 @@
 			tasks: [{
 				entity: "twilightforest:naga"
 				icon: "twilightforest:naga_trophy"
-				id: "28DB7CCB98BAF1AD"
+				id: "3E3AAB64DD29EF24"
 				title: "Defeat the Naga"
 				type: "kill"
 				value: 1L
@@ -52,9 +51,9 @@
 		}
 		{
 			dependencies: ["7630C21661FED121"]
-			id: "561F14C89521EBDD"
+			id: "7149FE98D0E105CE"
 			rewards: [{
-				id: "0B1A1055BC614803"
+				id: "3A2EB8FD6C05F748"
 				item: {
 					Count: 1b
 					id: "twilightforest:fortification_scepter"
@@ -68,7 +67,7 @@
 			tasks: [{
 				entity: "twilightforest:lich"
 				icon: "twilightforest:lich_trophy"
-				id: "7CBD3C7434418FEE"
+				id: "5794A56FA9705232"
 				title: "Defeat The Twilight Lich"
 				type: "kill"
 				value: 1L
@@ -79,9 +78,9 @@
 		}
 		{
 			dependencies: ["7149FE98D0E105CE"]
-			id: "7C1A083166F5A861"
+			id: "5ED257E2C2147AB2"
 			rewards: [{
-				id: "78C80C0972F518DB"
+				id: "66DCDF057D1F9F9C"
 				item: {
 					Count: 1b
 					id: "minecraft:splash_potion"
@@ -95,7 +94,7 @@
 			tasks: [{
 				entity: "twilightforest:minotaur"
 				icon: "twilightforest:meef_stroganoff"
-				id: "456053C1B1C1561C"
+				id: "5B95A81809E8E210"
 				title: "Eat Meef Stroganoff"
 				type: "kill"
 				value: 1L
@@ -105,16 +104,16 @@
 		}
 		{
 			dependencies: ["5ED257E2C2147AB2"]
-			id: "51606468EAD09392"
+			id: "37E4C4EFA9E20B79"
 			rewards: [
 				{
 					count: 8
-					id: "29A27E82B82FB153"
+					id: "4411FF8D2D7D3530"
 					item: "twilightforest:cooked_venison"
 					type: "item"
 				}
 				{
-					id: "4B8DC20DF50EC8E5"
+					id: "7737DE55400CB2D3"
 					item: "twilightforest:charm_of_keeping_1"
 					type: "item"
 				}
@@ -123,7 +122,7 @@
 			tasks: [{
 				entity: "twilightforest:hydra"
 				icon: "twilightforest:hydra_trophy"
-				id: "67B8A9993817CDAF"
+				id: "0C2016FE44EF5A17"
 				title: "Defeat the Hydra"
 				type: "kill"
 				value: 1L
@@ -134,9 +133,9 @@
 		}
 		{
 			dependencies: ["37E4C4EFA9E20B79"]
-			id: "3113FAF7787C72B7"
+			id: "57FD6DFF7B7647D0"
 			rewards: [{
-				id: "461BAECCED86D537"
+				id: "3DCE5F493B46E441"
 				item: "twilightforest:charm_of_keeping_2"
 				type: "item"
 			}]
@@ -144,7 +143,7 @@
 			tasks: [{
 				entity: "twilightforest:ur_ghast"
 				icon: "twilightforest:ur_ghast_trophy"
-				id: "3FE39B56F4ACD145"
+				id: "45767EA415670C8F"
 				title: "Defeat the Ur-Ghast"
 				type: "kill"
 				value: 1L
@@ -155,9 +154,9 @@
 		}
 		{
 			dependencies: ["57FD6DFF7B7647D0"]
-			id: "4533FDDE3AE00AB6"
+			id: "3D1F53C06B660F96"
 			rewards: [{
-				id: "00D0BC18E200D869"
+				id: "65ED4735EF4E9AB5"
 				item: "twilightforest:charm_of_keeping_3"
 				type: "item"
 			}]
@@ -165,7 +164,7 @@
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
 				icon: "twilightforest:alpha_yeti_trophy"
-				id: "6440CDC08E05614B"
+				id: "12C1C8D16C9D9FD1"
 				title: "Defeat the Alpha Yeti"
 				type: "kill"
 				value: 1L
@@ -176,9 +175,9 @@
 		}
 		{
 			dependencies: ["3D1F53C06B660F96"]
-			id: "5F6046230651CDE3"
+			id: "7B6005A9F6F5C7FE"
 			rewards: [{
-				id: "329629E441EE9E92"
+				id: "32DA7FB74907E8F2"
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
@@ -186,7 +185,7 @@
 			tasks: [{
 				entity: "twilightforest:snow_queen"
 				icon: "twilightforest:snow_queen_trophy"
-				id: "1FB98B2684168888"
+				id: "191F4CCB0B22AB0A"
 				title: "Defeat the Snow Queen"
 				type: "kill"
 				value: 1L
@@ -196,5 +195,5 @@
 			y: 0.5d
 		}
 	]
-	title: " &2Twilight Forest"
+	title: "ProminenceTwilight"
 }

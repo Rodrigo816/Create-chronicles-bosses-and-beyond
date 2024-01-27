@@ -1,0 +1,352 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rings_of_ascension"
+	group: "53374CFE946B8348"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "ringsofascension:ring_slow_falling"
+	id: "000000000000031C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Grants the Night Vision potion effect while equipped."]
+			id: "000000000000032A"
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Find a Ring of Night Vision."
+			tasks: [{
+				id: "000000000000032B"
+				item: "ringsofascension:ring_night_vision"
+				type: "item"
+			}]
+			title: "Bravo Six, Going Dark"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: ["Grants the Regeneration potion effect when equipped."]
+			id: "00000000000003A3"
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Find a Ring of Regeneration."
+			tasks: [{
+				id: "00000000000003A4"
+				item: "ringsofascension:ring_regeneration"
+				type: "item"
+			}]
+			title: "A Helping Hand"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["Grants immunity to the poison effect when equipped."]
+			id: "00000000000003A5"
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Find a Ring of Poison Resistance."
+			tasks: [{
+				id: "00000000000003A6"
+				item: "ringsofascension:ring_poison_resistance"
+				type: "item"
+			}]
+			title: "Cave Spiders? Pfft.."
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Grants the Strength potion effect when equipped."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "00000000000003A9"
+			subtitle: "Find a Ring of Strength."
+			tasks: [{
+				id: "00000000000003AA"
+				item: "ringsofascension:ring_strength"
+				type: "item"
+			}]
+			title: "Johnny Bravo"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			description: ["Grows nearby crops faster when equipped."]
+			id: "00000000000003AB"
+			subtitle: "Find a Ring of Growth."
+			tasks: [{
+				id: "00000000000003AC"
+				item: "ringsofascension:ring_growth"
+				type: "item"
+			}]
+			title: "The Plant Whisperer"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			description: ["Grants the Invisibility potion effect when equipped."]
+			id: "00000000000003AF"
+			subtitle: "Find a Ring of Invisibility."
+			tasks: [{
+				id: "00000000000003B0"
+				item: "ringsofascension:ring_invisibility"
+				type: "item"
+			}]
+			title: "The Invisibility Ring"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: ["Grants the Water Breathing potion effect when equipped."]
+			id: "00000000000003B1"
+			subtitle: "Find a Ring of Water Breathing."
+			tasks: [{
+				id: "00000000000003B2"
+				item: "ringsofascension:ring_water_breathing"
+				type: "item"
+			}]
+			title: "Like breathing air!"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: ["Grants immunity to the Wither Potion effect when equipped."]
+			id: "00000000000003B5"
+			shape: "octagon"
+			size: 1.35d
+			subtitle: "Find a Wither Ring."
+			tasks: [{
+				id: "00000000000003B6"
+				item: "ringsofascension:ring_wither"
+				type: "item"
+			}]
+			title: "Down with the Sickness"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Grants the Dolphins Grace potion effect when equipped."]
+			id: "00000000000003B8"
+			size: 0.85d
+			subtitle: "Find a Dolphin Ring."
+			tasks: [{
+				id: "00000000000003B9"
+				item: "ringsofascension:ring_dolphin"
+				type: "item"
+			}]
+			title: "Great Minds"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Grants Knockback Immunity when equipped."]
+			id: "00000000000003BB"
+			rewards: [
+				{
+					id: "00000000000003BD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5E0CD03C23A7D181"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 0.85d
+			subtitle: "Find a Ring of Knockback Resistance."
+			tasks: [{
+				id: "00000000000003BC"
+				item: "ringsofascension:ring_knockback_resistance"
+				type: "item"
+			}]
+			title: "Knockback? No more!"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Grants Fire Resistance potion effect when equipped."]
+			id: "00000000000003BE"
+			size: 0.85d
+			subtitle: "Find a Ring of Fire Resistance."
+			tasks: [{
+				id: "00000000000003BF"
+				item: "ringsofascension:ring_fire_resistance"
+				type: "item"
+			}]
+			title: "Extinguished"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Pull nearby xp orbs when equipped."]
+			id: "00000000000003C1"
+			size: 0.85d
+			subtitle: "Find a Ring of Experience."
+			tasks: [{
+				id: "00000000000003C2"
+				item: "ringsofascension:ring_experience"
+				type: "item"
+			}]
+			title: "Sweet XP"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Removes all nearby water blocks around the player when equipped."]
+			id: "00000000000003C4"
+			shape: "hexagon"
+			subtitle: "Find a Ring of Sponge."
+			tasks: [{
+				id: "00000000000003C5"
+				item: "ringsofascension:ring_sponge"
+				type: "item"
+			}]
+			title: "Water's Gone"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: ["Grants the Haste potion effect when equipped."]
+			id: "00000000000003C7"
+			shape: "hexagon"
+			subtitle: "Find a Ring of Mining."
+			tasks: [{
+				id: "00000000000003C8"
+				item: "ringsofascension:ring_mining"
+				type: "item"
+			}]
+			title: "Gotta Mine Fast"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: ["Grants two extra hearts when equipped."]
+			id: "00000000000003CA"
+			shape: "hexagon"
+			subtitle: "Find a Ring of Health."
+			tasks: [{
+				id: "00000000000003CB"
+				item: "ringsofascension:ring_health"
+				type: "item"
+			}]
+			title: "1-UP"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: ["Grants immunity to the Slowness potion effect."]
+			id: "00000000000003CD"
+			shape: "hexagon"
+			subtitle: "Find a Ring of Slowness Resistance."
+			tasks: [{
+				id: "00000000000003CE"
+				item: "ringsofascension:ring_slow_resistance"
+				type: "item"
+			}]
+			title: "Feel Fast"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: ["Grants the Jump Boost potion effect when equipped."]
+			id: "00000000000003D0"
+			subtitle: "Find a Ring of Jump Boost."
+			tasks: [{
+				id: "00000000000003D1"
+				item: "ringsofascension:ring_jump_boost"
+				type: "item"
+			}]
+			title: "Bugs Bunny is that you?"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			description: ["Grants the Luck potion effect when equipped."]
+			id: "00000000000003D2"
+			subtitle: "Find a Ring of Luck."
+			tasks: [{
+				id: "00000000000003D3"
+				item: "ringsofascension:ring_luck"
+				type: "item"
+			}]
+			title: "Feeling Lucky?"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: ["Grants the Speed potion effect when equipped."]
+			id: "00000000000003D6"
+			subtitle: "Find a Ring of Speed."
+			tasks: [{
+				id: "00000000000003D7"
+				item: "ringsofascension:ring_speed"
+				type: "item"
+			}]
+			title: "Gotta Go Fast"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			description: ["Grants the Slow Fall potion effect when equipped."]
+			id: "00000000000003D9"
+			subtitle: "Find a Ring of Slow Fall."
+			tasks: [{
+				id: "00000000000003DA"
+				item: "ringsofascension:ring_slow_falling"
+				type: "item"
+			}]
+			title: "Great View!"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"00000000000003C1"
+				"00000000000003A3"
+				"00000000000003C4"
+				"00000000000003A5"
+				"00000000000003C7"
+				"00000000000003A9"
+				"000000000000032A"
+				"00000000000003CA"
+				"00000000000003AB"
+				"00000000000003CD"
+				"00000000000003AF"
+				"00000000000003D0"
+				"00000000000003B1"
+				"00000000000003D2"
+				"00000000000003B5"
+				"00000000000003D6"
+				"00000000000003B8"
+				"00000000000003D9"
+				"00000000000003BB"
+				"00000000000003BE"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lootr:textures/item/crown.png"
+				}
+			}
+			id: "67B117317EB077BA"
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Complete all the quests in this chapter."
+			tasks: [{
+				id: "398E6380D04A8795"
+				title: "Completionist"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+	]
+	subtitle: ["Rings can be in chests found randomly around the world."]
+	title: "&3ʀɪɴɢѕ ᴏꜰ ᴀѕᴄᴇɴѕɪᴏɴ"
+}
