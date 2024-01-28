@@ -5,7 +5,7 @@
 	group: "41A34DBCA10C139D"
 	icon: "blue_skies:poison_key"
 	id: "7A1CF12A34BB69F1"
-	order_index: 11
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

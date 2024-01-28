@@ -2,14 +2,28 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_end"
-	group: ""
+	group: "13742BAAC673A80E"
 	icon: "minecraft:dragon_head"
 	id: "53FAA75157389DE5"
-	order_index: 4
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 9.0d
+		hover: [ ]
+		image: "kubejs:textures/enderportal1.png"
+		rotation: 0.0d
+		width: 9.0d
+		x: -1.0d
+		y: -2.0d
+	}]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Pirates say it gave sight to the legendary Black Pearl"]
 			id: "1E4B9F8A3401B4BF"
+			subtitle: "Found in Buried Chests"
 			tasks: [{
 				id: "1A729831B2C6D804"
 				item: {
@@ -21,11 +35,13 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
+			description: ["One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world"]
 			id: "37F39A63C0C2934F"
+			subtitle: "Found in Igloos"
 			tasks: [{
 				id: "3C6A1B486768BB94"
 				item: {
@@ -37,11 +53,13 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -2.0d
+			y: -4.5d
 		}
 		{
+			description: ["The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owner"]
 			id: "02DE3FA28CBAE857"
+			subtitle: "Found in Pillager Outposts"
 			tasks: [{
 				id: "1EBBF31125F4D187"
 				item: {
@@ -53,11 +71,13 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: -3.5d
+			y: -3.0d
 		}
 		{
+			description: ["It is told that it was forged by the first blacksmiths of time"]
 			id: "3BC1492D43F6B120"
+			subtitle: "Found in Mineshafts"
 			tasks: [{
 				id: "74DD9F7281936F2E"
 				item: {
@@ -69,11 +89,13 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.5d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
+			description: ["It was lost by a demon in the battle between the Aether and the Nether"]
 			id: "1F4AE081014800B4"
+			subtitle: "Found in Nether Fortresses"
 			tasks: [{
 				id: "2EBD7434762970D0"
 				item: {
@@ -85,11 +107,14 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.5d
+			title: "Nether Eye"
+			x: 1.5d
+			y: -1.0d
 		}
 		{
+			description: ["Legends say this eye once belonged to one of the great Sandworms"]
 			id: "22E0846B96BBD5DD"
+			subtitle: "Found in Desert Pyramids"
 			tasks: [{
 				id: "20C9F4D0C3D85835"
 				item: {
@@ -101,11 +126,13 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
+			description: ["This eye is believed to have given our ancestors the knowledge of Redstone"]
 			id: "50B4EEBAF5CF3122"
+			subtitle: "Found in Jungle Pyramids"
 			tasks: [{
 				id: "6B27D02922CBE257"
 				item: {
@@ -117,11 +144,13 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
+			description: ["A powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives"]
 			id: "5EC521DA8FF06758"
+			subtitle: "Found in Bastions treasure chest"
 			tasks: [{
 				id: "2560EE369A9298B7"
 				item: {
@@ -133,11 +162,13 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
+			description: ["A holy talisman said to protect its owner from bad luck"]
 			id: "0C61389C18B4A2B4"
+			subtitle: "Buy it from a master cleric"
 			tasks: [{
 				id: "0EED6B0CA7E5C945"
 				item: {
@@ -149,11 +180,13 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
+			description: ["It has seen many warriors drown into the depths of the sea"]
 			id: "763F1FB0C55F702F"
+			subtitle: "Get it by Killing Elder Guardian"
 			tasks: [{
 				id: "0851A0649877E349"
 				item: {
@@ -165,11 +198,13 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
+			description: ["Without this eye, the Evoker has no power"]
 			id: "0A6EBBE5CD80EF14"
+			subtitle: "Dropped by Evokers"
 			tasks: [{
 				id: "0C82B40849F15F55"
 				item: {
@@ -181,11 +216,13 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
+			description: ["Has witnessed destruction. Maybe it also witnessed your stuff disappear"]
 			id: "33EF47DF16D412B5"
+			subtitle: "Dropped by The Wither"
 			tasks: [{
 				id: "287BB9E7276751F7"
 				item: {
@@ -197,11 +234,13 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
+			description: ["This pupil is believed to have seen the ancient brewing recipes that were lost in time."]
 			id: "343AB719F81DFC63"
+			subtitle: " Craft it using the witch pupil"
 			tasks: [{
 				id: "7DA4E17AB988FAD8"
 				item: {
@@ -214,10 +253,12 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
+			description: ["Remembrance of the past lives of those who live in death"]
 			id: "401C9B25D2B7B49F"
+			subtitle: " Craft it using an Undead Soul"
 			tasks: [{
 				id: "20A121DA1AC34CD3"
 				item: {
@@ -229,11 +270,13 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
+			description: ["Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying"]
 			id: "63A35C0C01372EB6"
+			subtitle: "Craft it using aquatic items"
 			tasks: [{
 				id: "4542CE1355D29B3B"
 				item: {
@@ -245,11 +288,13 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.5d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
+			description: ["No information about this eye"]
 			id: "1C89D285F0501472"
+			subtitle: "ave a small chance to get it when enchanting"
 			tasks: [{
 				id: "6D134B2D3A3BE8AA"
 				item: {
@@ -261,30 +306,53 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.5d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
+			description: [
+				"There is a total of 16 custom eyes you can find by exploring vanilla structures and fighting vanilla bosses. "
+				""
+				"&6Once you have at least 12 eyes&r you can follow them until you reach the Stronghold. "
+				""
+				"Right click to throw them in the sky. They will point in the direction of the closest End Portal."
+				""
+				"Make your way to the Stronghold, find the End Portal and complete the frame using the 12 custom eyes in order to open it. If there's a vanilla eye of ender in one of the frames, you can remove it by right clicking on it with a custom eye."
+			]
+			hide_dependency_lines: false
 			id: "5B9C1D10A217657D"
+			subtitle: "End Remaster"
 			tasks: [{
 				id: "650AD081A386407A"
-				title: "About the end"
+				title: "Click to Acknowledge"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -7.0d
+			title: "&eAbout the end&f"
+			x: -1.0d
+			y: -6.5d
 		}
 		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: [
+				"In &eThe End&r, you'll find the final boss of Vanilla Minecraft: The &5Ender Dragon&r."
+				""
+				"At the top of each pillar of Obsidian, you'll find an End Crystal that heals the Dragon. Make sure to take those out first! They also do a lot of damage, so make sure to create some distance!"
+				""
+				"Once defeated, a &dDragon Egg&r spawns at the top of the Exit Portal. This cannot be mined like normal blocks, but is affected by gravity. :)"
+			]
+			hide_dependency_lines: true
 			id: "09C33BB3342632B4"
 			size: 2.0d
+			subtitle: "It is time to face the mighty Ender Dragon"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "276B6F50C52A8F96"
 				type: "dimension"
 			}]
-			x: 2.5d
-			y: -3.5d
+			title: "Enter &ethe end&f"
+			x: -1.0d
+			y: -2.0d
 		}
 	]
-	title: "The End"
+	title: "&eThe End"
 }
