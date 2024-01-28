@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "ralex_caves"
 	group: ""
+	icon: "alexscaves:cave_book"
 	id: "05B6770E65084120"
 	order_index: 4
 	quest_links: [ ]

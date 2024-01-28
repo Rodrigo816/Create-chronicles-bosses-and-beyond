@@ -11,7 +11,7 @@
 		dev: false
 		height: 9.0d
 		hover: [ ]
-		image: "kubejs:textures/enderportal1.png"
+		image: "kubejs:textures/enderportal.png"
 		rotation: 0.0d
 		width: 9.0d
 		x: -1.0d
