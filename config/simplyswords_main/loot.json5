@@ -30,5 +30,10 @@
 	"enableSlumberingLichblade": false,
 	"enableShadowsting": false,
 	"enableDormantRelic": false,
-	"enableWhisperwind": false
+	"enableWhisperwind": false,
+	"enableEmberlash": true,
+	"enableWaxweaver": true,
+	"enableHiveheart": true,
+	"enableStarsEdge": true,
+	"enableWickpiercer": true
 }
