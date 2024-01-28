@@ -6,13 +6,11 @@ Platform.mods.kubejs.name = 'Create Chronicles: Bosses and Beyond'
 StartupEvents.registry("block", (event) => {
     event.create("mystic_coal_block")
     .displayName("Mystic Coal Block §bMagical") 
-   // .soundType("coal") 
     .hardness(1.0) 
     .resistance(1.0)
     .requiresTool(true) 
     .tagBlock("mineable/pickaxe") 
     .tagBlock('minecraft:needs_diamond_tool')
-   // .rarity('Rare')
 
 
    let machine = (name, display, layer) => {

@@ -174,7 +174,8 @@ ServerEvents.recipes(event => {
     ==============================
     */
      // Valve Mechanism
-	let transitionalValve = 'kubejs:incomplete_valve_mechanism'
+    event.remove({ id: CRSA('hydraulic_engine_recipe') })
+	let transitionalValve = 'kubejs:incomplete_rotation_machine' // está mal
 	event.recipes.createSequencedAssembly([
 		, CRSA('hydraulic_engine'),
 	], 'kubejs:rotation_mechanism', [
@@ -184,10 +185,10 @@ ServerEvents.recipes(event => {
             transitionalValve,
             Fluid.of('minecraft:water', 250)
           ]),*/
-        event.recipes.createPressing(transitionalValve, 'coal_block'),
+       // event.recipes.createPressing(transitionalValve, 'coal_block'),
 	]).transitionalItem(transitionalValve)
 		.loops(1)
-		.id('kubejs:valve_mechanism')
+		.id(CRSA('hydraulic_engine'))
     
 
     event.shapeless(KJ('copper_machine'), [KJ('valve_mechanism'),KJ('valve_mechanism')])
@@ -225,6 +226,7 @@ ServerEvents.recipes(event => {
         CR('brass_sheet'),               
         CR('golden_sheet')         
     )
+    event.remove({ id: CRDD('industrial_iron/andesite_alloy_mixing') })
     let transitionalPrecision = 'kubejs:incomplete_valve_mechanism'
 	event.recipes.createSequencedAssembly([
 		KJ('precision_mechanism'),

@@ -1,0 +1,8 @@
+{
+  "maxEnchantments": 3,
+  "maxEnchantmentsOnLootBooks": 2,
+  "maxEnchantmentsOnLootItems": 3,
+  "enableCursesAmplifier": true,
+  "maxCurses": 1,
+  "enchantmentLimitIncreasePerCurse": 1
+}

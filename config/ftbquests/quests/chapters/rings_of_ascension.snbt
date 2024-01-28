@@ -119,8 +119,8 @@
 				type: "item"
 			}]
 			title: "Johnny Bravo"
-			x: -0.5d
-			y: -0.5d
+			x: 2.5d
+			y: 7.0d
 		}
 		{
 			description: ["Grows nearby crops faster when equipped."]
