@@ -67,6 +67,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["Found in the &2Suken City&r, use an &dAbyssal Sacrifice&r on the Abyssal Altar to summon the creature."]
 			icon: "cataclysm:abyss_eye"
 			id: "681E9EE350CD6791"
 			shape: "square"
@@ -98,7 +99,11 @@
 			y: 2.0d
 		}
 		{
-			description: ["Not being able to be deafened by a single human"]
+			description: [
+				"Found at the last floor of the &2Burning Arena&r. Use &8burning ashes&r dropped from Ignited Revenant into the Altar of Fire"
+				""
+				"Not being able to be deafened by a single human"
+			]
 			icon: "cataclysm:flame_eye"
 			id: "40DD304B90046084"
 			shape: "square"
@@ -129,6 +134,11 @@
 			y: 1.0d
 		}
 		{
+			description: [
+				"Found in the &2Ancient Factory&r deep in the overworld."
+				""
+				"Use a nether star to wake him up."
+			]
 			icon: "cataclysm:mech_eye"
 			id: "1A9BD3105BC4C13B"
 			shape: "square"
@@ -139,7 +149,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "&cNether&f: Who needs to build one?"
+			title: "&2Overworld&f: Who needs to build one?"
 			x: 1.0d
 			y: 2.0d
 		}

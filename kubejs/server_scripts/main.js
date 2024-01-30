@@ -175,9 +175,9 @@ ServerEvents.recipes(event => {
     */
      // Valve Mechanism
     event.remove({ id: CRSA('hydraulic_engine_recipe') })
-	let transitionalValve = 'kubejs:incomplete_rotation_machine' // está mal
+	let transitionalValve = 'kubejs:incomplete_valve_mechanism'
 	event.recipes.createSequencedAssembly([
-		, CRSA('hydraulic_engine'),
+		'kubejs:valve_mechanism',
 	], 'kubejs:rotation_mechanism', [
 		event.recipes.createDeploying(transitionalValve, [transitionalValve, CR('copper_sheet')]),
         event.recipes.createDeploying(transitionalValve, [transitionalValve, CR('copper_sheet')]),
@@ -185,10 +185,30 @@ ServerEvents.recipes(event => {
             transitionalValve,
             Fluid.of('minecraft:water', 250)
           ]),*/
-       // event.recipes.createPressing(transitionalValve, 'coal_block'),
+        event.recipes.createPressing(transitionalValve, 'coal_block'),
 	]).transitionalItem(transitionalValve)
 		.loops(1)
-		.id(CRSA('hydraulic_engine'))
+		.id('kubejs:valve_mechanism')
+
+        event.recipes.create.createSequencedAssembly([
+            Item.of('create:precision_mechanism').withChance(130.0), // this is the item that will appear in JEI as the result
+            Item.of('create:golden_sheet').withChance(8.0), // the rest of these items will be part of the scrap
+            Item.of('create:andesite_alloy').withChance(8.0),
+            Item.of('create:cogwheel').withChance(5.0),
+            Item.of('create:shaft').withChance(2.0),
+            Item.of('create:crushed_gold_ore').withChance(2.0),
+            Item.of('2x gold_nugget').withChance(2.0),
+            'iron_ingot',
+            'clock'
+        ], 'create:golden_sheet', [ // 'create:golden_sheet' is the input
+            // the transitional item set by `transitionalItem('create:incomplete_large_cogwheel')` is the item used during the intermediate stages of the assembly
+            event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:cogwheel']),
+            // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
+            event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:large_cogwheel']),
+            event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:iron_nugget'])
+        ]).transitionalItem('create:incomplete_precision_mechanism').loops(5) // set the transitional item and the number of loops
+    
+    
     
 
     event.shapeless(KJ('copper_machine'), [KJ('valve_mechanism'),KJ('valve_mechanism')])
