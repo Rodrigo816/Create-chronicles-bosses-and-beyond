@@ -9,6 +9,13 @@ XaeroWaypoints_*/
 /pfm/
 /essential/
 /local/
+config/oculus.properties
+config/oculus.properties
+config/xaeroworldmap.txt
+config/xaerominimap_entities.json
+config/xaerominimap.txt
+config/oculus.properties
+config/oculus.properties
 
 # files
 .curseclient

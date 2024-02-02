@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "molten_veins_reneeable_sources"
+	group: ""
+	id: "413FBDC7A573150B"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Molten Veins: Reneeable Sources"
+}

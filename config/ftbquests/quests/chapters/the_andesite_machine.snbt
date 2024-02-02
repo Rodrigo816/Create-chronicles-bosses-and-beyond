@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_andesite_machine"
-	group: "71FCEFE04D91F069"
+	group: ""
 	id: "0459D6A74275DD3C"
-	order_index: 0
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -234,5 +234,5 @@
 			y: 4.5d
 		}
 	]
-	title: "1.1 The Rotation Machine"
+	title: "Chapter I: The Rotation Machine"
 }

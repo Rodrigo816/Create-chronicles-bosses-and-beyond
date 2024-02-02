@@ -1,0 +1,1031 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "13742BAAC673A80E"
+	icon: "aether:aether_portal_frame"
+	id: "6BB184607658994D"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.7d
+		hover: [ ]
+		image: "aether:textures/gui/menu_api/menu_icon_aether.png"
+		rotation: 0.0d
+		width: 1.7d
+		x: -23.0d
+		y: 1.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["557CFA0FF7E22EB8"]
+			description: [
+				"Skyroot is the Oak of this dimension, try to gather some and create a Crafting Table."
+				""
+				"&7&o*other wood types can be used..."
+			]
+			id: "57078A29DBC3CF41"
+			tasks: [{
+				id: "0BAD7EB27B1D421A"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "The Classic..."
+			x: -19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09966BA346283D39"]
+			description: [
+				"These are the same tier as Overworld wooden tools, but they alos have another cool feature."
+				""
+				"When using the correct tool for the job, you'll gain double the drops!"
+				""
+				"Can mine &eAmbrosium&r Ore."
+			]
+			id: "324287EC1ACF685B"
+			tasks: [
+				{
+					id: "10F374DAFA91F3CD"
+					item: {
+						Count: 1b
+						id: "aether:skyroot_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FF2838DE1AB475F"
+					item: {
+						Count: 1b
+						id: "aether:skyroot_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "360FFB8D20408305"
+					item: {
+						Count: 1b
+						id: "aether:skyroot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Skyroot Tool Set"
+			x: -22.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3BADA9E324F873D7"]
+			description: [
+				"The Stone tools of the &bAether&r."
+				""
+				"Can rarely drop &eAmbrosium Shards&r when used on the correct block or slaying creatures with the sword."
+				""
+				"Can mine &5Zanite&r and &9Veridium&r Ore."
+			]
+			id: "527CA86A6BEAE9F4"
+			tasks: [
+				{
+					id: "3E674C7DEA51ECCE"
+					item: {
+						Count: 1b
+						id: "aether:holystone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7906D3B582AF8584"
+					item: {
+						Count: 1b
+						id: "aether:holystone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4518546732DDE697"
+					item: {
+						Count: 1b
+						id: "aether:holystone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Holystone Tool Set"
+			x: -25.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"527CA86A6BEAE9F4"
+				"7686D66200E518B3"
+			]
+			description: [
+				"As strong as Iron gear from the Overworld."
+				""
+				"But the more durability used, the faster it mines."
+				""
+				"The sword also increases damage output with how much durability it has."
+				""
+				"Can mine &2Skyjade&r and &dGravitite&r Ore"
+			]
+			id: "4B51836028C8BDE8"
+			tasks: [
+				{
+					id: "13A96C598F1C4D7E"
+					item: {
+						Count: 1b
+						id: "aether:zanite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C4B050440E8BBA5"
+					item: {
+						Count: 1b
+						id: "aether:zanite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55E809D4F42D4E50"
+					item: {
+						Count: 1b
+						id: "aether:zanite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Zanite Tool Set"
+			x: -27.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4B51836028C8BDE8"
+				"5A8DA19AF6406B75"
+			]
+			description: [
+				"The best obtainable gear in the line of progression."
+				""
+				"This tool set has high durability and its pretty much on the same level as diamond gear from the Overworld."
+				""
+				"It also has another interesting mechanic, when attacking mobs for example they'll be flung into the sky!"
+				""
+				"&o&7Woosh!"
+			]
+			id: "14BD495887E26D7B"
+			tasks: [
+				{
+					id: "24D6F75537F3FEB8"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "488C300525A5B3D9"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "681A70E8FA0C11F4"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gravitite Tool Set"
+			x: -27.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["324287EC1ACF685B"]
+			description: ["Think of this as yellow Coal."]
+			id: "586483D57C8A463E"
+			tasks: [{
+				id: "037DA10E61DBD324"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			title: "Golden Coal"
+			x: -16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["586483D57C8A463E"]
+			description: [
+				"Not as bright as regular Torches."
+				""
+				"Also has another use..."
+			]
+			id: "63B670F3227A2A53"
+			size: 1.25d
+			tasks: [{
+				count: 4L
+				id: "54F68ABE2DAA3371"
+				item: "aether:ambrosium_torch"
+				type: "item"
+			}]
+			title: "Light is Required"
+			x: -16.5d
+			y: -8.3875d
+		}
+		{
+			dependencies: ["63B670F3227A2A53"]
+			description: [
+				"Used to incubate your Moa Eggs that you have collected on your travels."
+				""
+				"Incubating the eggs will make them hatch into baby Moas."
+				"When a baby Moa is born it'll need feeding a certain food source called a &eAechor Petal&r."
+				""
+				"When a baby Moa fully grows up after eating &ax3 &eAechor Petals&r, it'll become an adult Moa which can be ridden on provided it has a saddle equipped."
+			]
+			id: "7810F69B0F6826AE"
+			tasks: [{
+				id: "4BB4363331DE94DA"
+				item: "aether:incubator"
+				type: "item"
+			}]
+			title: "Please don't fry!"
+			x: -18.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["63B670F3227A2A53"]
+			description: [
+				"Your travel companion awaits!"
+				""
+				"All you need to do is incubate the egg to make it hatch or you can just simply use it to make Cakes if that's your kind of thing?!"
+				""
+				"&o&7*rumours say that the black moas are the best for flying long distances...&r"
+			]
+			id: "136FFD14991FD432"
+			tasks: [{
+				id: "41C5382BAD2E94CB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "aether:moa_eggs"
+					}
+				}
+				title: "Any #aether:moa_eggs"
+				type: "item"
+			}]
+			title: "Best friends"
+			x: -15.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["63B670F3227A2A53"]
+			description: [
+				"A drop from a plant called an &eAechor Plant&r."
+				""
+				"It can also be found inside the &7Silver&r Dungeon Chests rarely, which overall is easier to find."
+				""
+				"These plants are hard to see, so be on the lookout for them."
+				"They are also hostile and shoot Poison Darts, so be careful!"
+				""
+				"The &apetal&r that drops is used to feed baby Moas once they are hungry after being incubated."
+				""
+				"If you use a Skyroot Bucket on this plant, you'll gain some poison from it in your bucket! "
+			]
+			id: "218FFECECB406E88"
+			tasks: [{
+				count: 3L
+				id: "42E33E3C43EAFE28"
+				item: "aether:aechor_petal"
+				type: "item"
+			}]
+			title: "The Rarest plant!"
+			x: -17.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["63B670F3227A2A53"]
+			description: [
+				"Can be crafted with String and some Leather."
+				""
+				"HANDY!"
+			]
+			id: "492CC1C0507FE008"
+			tasks: [{
+				id: "2AE2867555FD1591"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "Should be in Vanilla..."
+			x: -14.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["63B35ED12D525A4F"]
+			description: [
+				"Obtained by defeating the Sun Spirit."
+				""
+				"Used to open &6Gold&r Dungeon loot Chests."
+			]
+			id: "4A5578CD756D9DDC"
+			shape: "square"
+			tasks: [{
+				id: "316AC35D8E5A1A06"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			title: "The Gold Key!"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50CC54774B835A50"]
+			description: [
+				"Obtained by defeating the Aerwhale King."
+				""
+				"Used to open &9Platinum&r Dungeon loot Chests."
+			]
+			id: "50AF4D784A28D585"
+			shape: "square"
+			tasks: [{
+				id: "604830DA1C0956C9"
+				item: "lost_aether_content:platinum_key"
+				type: "item"
+			}]
+			title: "The Platinum Key!"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["557CFA0FF7E22EB8"]
+			description: [
+				"Locate and discover a &cBronze&r Dungeon."
+				""
+				"This is the easiest dungeon, that contains some great loot."
+				""
+				"Can be found almost anywhere in the &bAether&r."
+				""
+				"Just keep your eyes peeled for secret entrances that look like caves."
+			]
+			id: "5A143952EAB7643E"
+			shape: "square"
+			tasks: [{
+				icon: "aether:sentry_stone"
+				id: "18985B3D64F209F7"
+				structure: "aether:bronze_dungeon"
+				type: "structure"
+			}]
+			title: "Sliding into Action!"
+			x: -16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F808832927F1A31"]
+			description: [
+				"Locate and discover a &7Silver&r Dungeon."
+				""
+				"Be prepared for a difficult of a fight!"
+				""
+				"Can be found within the skies of &bAether&r."
+				""
+				"The structure looks like a greek ancient building with many pillars around it."
+			]
+			hide: true
+			id: "7C32DED450405D92"
+			shape: "square"
+			tasks: [{
+				icon: "aether:light_angelic_stone"
+				id: "1CF9173BA1C781F8"
+				structure: "aether:silver_dungeon"
+				type: "structure"
+			}]
+			title: "The Valkyrie Queen Awaits"
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["435634BB2DD8B627"]
+			description: [
+				"Locate and discover a &6Gold&r Dungeon."
+				""
+				"If you are well prepared, this fight will be more annoying then hard..."
+				""
+				"This dungeon can be found on a floating sphere shape island that has Golden Skyroot trees growing on top of it anywhere in the &bAether&r."
+				""
+				"Talk multiple times to the &4Sun Spirit&r to start the boss battle."
+			]
+			hide: true
+			id: "63B35ED12D525A4F"
+			shape: "square"
+			tasks: [{
+				icon: "aether:light_hellfire_stone"
+				id: "1A686BDA89487BCE"
+				structure: "aether:gold_dungeon"
+				type: "structure"
+			}]
+			title: "As hot as the Sun!"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A5578CD756D9DDC"]
+			description: [
+				"Locate and discover a &9Platinum&r Dungeon."
+				""
+				"A true final boss battle awaits, no spoilers!"
+				""
+				"Can be found in the highest of skies in the &bAether&r."
+				""
+				"This dungeon has the Aerwhale King flying around a large tower in the sky, by \"Right Clicking\" the &3Songstone&r it'll start the Boss battle."
+			]
+			hide: true
+			id: "50CC54774B835A50"
+			shape: "square"
+			tasks: [{
+				icon: "lost_aether_content:light_gale_stone"
+				id: "0B0C10CF52F7C55B"
+				structure: "lost_aether_content:platinum_dungeon"
+				type: "structure"
+			}]
+			title: "Puts up an AWESOME fight!"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["586483D57C8A463E"]
+			description: [
+				"Can be obtained by using a Gravitite Axe on a Amber Skyroot Logs."
+				""
+				"Used for crafting Golden Dart Shooter, Golden Darts."
+			]
+			id: "6E856702D9B7C2EE"
+			tasks: [{
+				id: "58C9E61064829F68"
+				item: "aether:golden_amber"
+				type: "item"
+			}]
+			title: "T-rex?"
+			x: -15.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7C32DED450405D92"]
+			description: [
+				"Obtained by defeating the Valkyrie Queen."
+				""
+				"Used to open &7Silver&r Dungeon loot Chests."
+			]
+			id: "435634BB2DD8B627"
+			shape: "square"
+			tasks: [{
+				id: "2DFB32E0B0435146"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			title: "The Silver Key!"
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A143952EAB7643E"]
+			description: [
+				"Obtained by defeating the Silder."
+				""
+				"Used to open &cBronze&r Dungeon loot Chests."
+			]
+			id: "5F808832927F1A31"
+			shape: "square"
+			tasks: [{
+				id: "0A295054B1A869F8"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			title: "The Bronze Key!"
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52DA719CD6C66226"]
+			description: [
+				"You guessed it!"
+				""
+				"Freezes items of course!"
+			]
+			id: "5CE831834AEB8CCE"
+			tasks: [{
+				id: "16CCDDB6C3A5950A"
+				item: "aether:freezer"
+				type: "item"
+			}]
+			title: "Where's the Fridge?"
+			x: -23.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7686D66200E518B3"
+				"3BADA9E324F873D7"
+			]
+			description: [
+				"The Altar is \"&m&7kinda&r\" like a Furnace."
+				""
+				"You can cook Aerclouds to change them, repair damaged equipment, enchant certain items and create...&o&7new Music Discs?!"
+				""
+				"&eAmbrosium&r is the main fuel source."
+			]
+			id: "4FA8E46476200357"
+			tasks: [{
+				id: "6A5C77D8E117D629"
+				item: "aether:altar"
+				type: "item"
+			}]
+			title: "Altar White"
+			x: -23.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4A5578CD756D9DDC"]
+			description: ["Used to control the time of day."]
+			id: "56A60C713CE0DE97"
+			shape: "square"
+			tasks: [{
+				id: "2E5ED23101FB6CAA"
+				item: "aether:sun_altar"
+				type: "item"
+			}]
+			title: "The Sun Dial"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["57078A29DBC3CF41"]
+			description: [
+				"Pretty much on par with the Sweetberries in the Overworld."
+				"Harvest the bushes to gather the berries."
+				""
+				"Break the bushes to move and replant them."
+			]
+			id: "3D47D2D38F5C4ECD"
+			tasks: [{
+				id: "03C587F21081C0BF"
+				item: "aether:blue_berry"
+				type: "item"
+			}]
+			title: "I'm blue, daba dee dab a die.."
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D47D2D38F5C4ECD"]
+			description: [
+				"A &a&nHUGE&r upgrade to the Blue Berry."
+				""
+				"Can be created using an Alter, extremely great food source."
+			]
+			id: "601378D5DFA4604A"
+			tasks: [{
+				id: "218305D4EC965D7C"
+				item: "aether:enchanted_berry"
+				type: "item"
+			}]
+			title: "Glowberries mk2"
+			x: -15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27E1DBFCF9691E4F"]
+			description: [
+				"Not to be mistaken for a food source."
+				""
+				"White Apples can be obtained by breaking Crystal Fruit Leaves, these leaves are blue in colour with white dots on them."
+			]
+			id: "0ED8D054CDC8D20E"
+			tasks: [{
+				id: "789BA4B991B61A4E"
+				item: "aether:white_apple"
+				type: "item"
+			}]
+			title: "Colourless"
+			x: -19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D47D2D38F5C4ECD"]
+			description: [
+				"Can be found growing under Quicksoil, much like Hanging Roots from the Overworld."
+				""
+				"When eaten, there's a chance of giving you the Resistance Effect."
+			]
+			id: "2EBC4A20AE0BB1D8"
+			tasks: [{
+				id: "6F7D83E7861472EA"
+				item: "aether_redux:quickroot"
+				type: "item"
+			}]
+			title: "A tad on the dry side..."
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["57078A29DBC3CF41"]
+			description: [
+				"The most basic form of food that can be found the Aether."
+				""
+				"Maybe some certain animals like them?"
+			]
+			id: "27E1DBFCF9691E4F"
+			tasks: [{
+				id: "3822E93611A86EFE"
+				item: "aether_redux:oats"
+				type: "item"
+			}]
+			title: "T-Oat-Ally Dude!"
+			x: -18.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3D47D2D38F5C4ECD"
+				"27E1DBFCF9691E4F"
+			]
+			description: ["By combining Oats and Blueberries you can create Oat Muffins, which serve as a ok(ish) starter food in the &bAether&r."]
+			id: "283C566D2001E937"
+			tasks: [{
+				id: "6632AD7F50CCC588"
+				item: "aether_redux:oat_muffin"
+				type: "item"
+			}]
+			title: "No baking required!"
+			x: -17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["527CA86A6BEAE9F4"]
+			description: [
+				"Used in many recipes including tools, weapons, armour etc..."
+				""
+				"It is also needed for crafting an Altar."
+			]
+			id: "7686D66200E518B3"
+			tasks: [{
+				id: "600779DE9979BB93"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4FA8E46476200357"]
+			description: [
+				"Used to craft the Freezer."
+				""
+				"&7&o*totally doesn't look like a blue version of Glowstone, no no...&r"
+			]
+			id: "52DA719CD6C66226"
+			tasks: [{
+				id: "5532351C3663819E"
+				item: "aether:icestone"
+				type: "item"
+			}]
+			title: "\"Blue\"stone"
+			x: -23.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["586483D57C8A463E"]
+			description: [
+				"Cook it in a Furnace."
+				""
+				"A Furnace can be crafted using Holystone, much like crafting it with Cobblestone."
+			]
+			id: "73764EBD175539EA"
+			tasks: [{
+				id: "5EE540BC9B496770"
+				item: "aether_redux:raw_veridium"
+				type: "item"
+			}]
+			title: "Raw Blue Mix"
+			x: -18.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["57078A29DBC3CF41"]
+			description: ["So sticky!"]
+			id: "09966BA346283D39"
+			tasks: [{
+				count: 4L
+				id: "4A1128FB2AB648BA"
+				item: "aether:skyroot_stick"
+				type: "item"
+			}]
+			title: "Sticks!"
+			x: -22.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57078A29DBC3CF41"]
+			description: [
+				"Can be obtained by slaying those unbelievably cute tiny little bunnies that you can find hoping around peacefully."
+				""
+				"Rumour has it, you can also get those bunnies to sit on your head..."
+				""
+				"&o&7How strange?!"
+			]
+			id: "4A3F3F9534E48D5E"
+			tasks: [{
+				id: "33D1CFB259A2BC2C"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			title: "Boing! Boing!"
+			x: -20.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["324287EC1ACF685B"]
+			description: ["The Cobblestone of the &bAether&r..."]
+			id: "3BADA9E324F873D7"
+			tasks: [{
+				id: "32AD0341D5CF4EA9"
+				item: "aether:holystone"
+				type: "item"
+			}]
+			title: "Wholely-Stone"
+			x: -23.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4776D3162BDA5C6E"]
+			description: ["Can be used to create tools, Veridium Chains and Veridium Blocks."]
+			id: "4B17E3BF24700D74"
+			tasks: [{
+				id: "6F107B8E1EAE7921"
+				item: "aether_redux:veridium_ingot"
+				type: "item"
+			}]
+			title: "Valuable Stuff!"
+			x: -21.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4B51836028C8BDE8"]
+			description: [
+				"The diamond rarity of the &bAether&r."
+				""
+				"This block has a very unique property as when it has no block above it, it'll just simply float up until it touches another block."
+				"Thus meaning you can lose this block in the sky if you are not careful!"
+				""
+				"&o&7*the name of the ore kind of gives that away..."
+			]
+			id: "5A8DA19AF6406B75"
+			tasks: [{
+				id: "6C688A790C97A9F7"
+				item: "aether:gravitite_ore"
+				type: "item"
+			}]
+			title: "What goes up, must..."
+			x: -29.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5CE831834AEB8CCE"]
+			description: [
+				"Created by freezing Skyroot Water Buckets."
+				""
+				"&o&7*don't worry you keep the bucket!&r"
+			]
+			id: "1A0242A5A2F73FB1"
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "1665348293EA1A0F"
+				item: "minecraft:ice"
+				type: "item"
+			}]
+			title: "Ice Cubes Required"
+			x: -22.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5CE831834AEB8CCE"]
+			description: [
+				"This is one &6&nVERY&r precious gem!"
+				""
+				"It is, as they would say...\" hard-locked\" or is it the term \"gated\"?"
+				""
+				"In other words, you'll need to go back and defeat the &3Aerwhale King &eBoss&r to obtain this gem, it's a drop from defeating it!"
+			]
+			id: "0BF62B709603047F"
+			tasks: [{
+				id: "24530566F9EC1AEB"
+				item: {
+					Count: 1b
+					id: "lost_aether_content:flaming_gemstone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The Flaming Gemstone"
+			x: -24.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5F808832927F1A31"]
+			description: ["This is a &n&eMUST HAVE&r Weapon for the early game bosses."]
+			id: "4859B7F2F440CD07"
+			shape: "square"
+			tasks: [{
+				id: "53E5A1301109264C"
+				item: {
+					Count: 1b
+					id: "aether:valkyrie_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Crab Reach!"
+			x: -14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["57078A29DBC3CF41"]
+			description: [
+				"Days in the Aether are &ax3&r longer than the Overworld day cycle."
+				""
+				"You might be a wise idea to craft a Skyroot Bed to set your spawn..."
+			]
+			id: "7AD7F690CED1D61F"
+			tasks: [{
+				id: "5FBBF67235897399"
+				item: "aether:skyroot_bed"
+				type: "item"
+			}]
+			title: "But you still need to craft it?!"
+			x: -17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73764EBD175539EA"]
+			description: [
+				"Required to cook Raw Veridium, which can be used to craft tools."
+				""
+				"But primarily used for creating Veridium Blocks, which are used for a &dPOWERFUL&r new ingot type."
+			]
+			id: "4776D3162BDA5C6E"
+			tasks: [{
+				id: "75B3C5EBC127011C"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Cooker"
+			x: -19.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["50AF4D784A28D585"]
+			description: ["The &n&6BEST&r Tools!"]
+			id: "1FFA1AF29AC57961"
+			shape: "square"
+			tasks: [{
+				id: "7C8EDD850E46525C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "lost_aether_content:phoenix_tools"
+					}
+				}
+				title: "Any #lost_aether_content:phoenix_tools"
+				type: "item"
+			}]
+			title: "Hot to the Touch!"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A5578CD756D9DDC"]
+			description: [
+				"A rare find in the &6Gold&r Dungeon loot Chest."
+				""
+				"Upon consuming, you'll recieve some extra hearts."
+				""
+				"A Total of &ax10&r Life Shards can be Consumed."
+			]
+			hide: true
+			id: "61B4D6EE4FF48831"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "434077B116C32C95"
+				item: "aether:life_shard"
+				type: "item"
+			}]
+			title: "Very Powerful!"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&6The Aether&r centers around a dimension high in the sky, filled with vast skylands of clouds and floating islands."
+				""
+				"This dimension features its own new survival adventure, based around a basic vanilla-esque survival progression that features new ores, mythical mobs, and three perilous dungeons each with their own powerful loot items."
+				""
+				""
+				"You can make a portal to the &6The Aether&r by making portal with the same format as nether portal instead you use &cglowstone blocks&r, and &nuse water bucket to activate it&r."
+			]
+			id: "4E43DC757C08068B"
+			shape: "square"
+			size: 1.7d
+			subtitle: "The sky is the limit"
+			tasks: [{
+				id: "039640E1597B86EF"
+				item: "aether:aether_portal_frame"
+				type: "item"
+			}]
+			title: "Making the portal"
+			x: -21.25d
+			y: 0.99d
+		}
+		{
+			dependencies: ["4E43DC757C08068B"]
+			description: [
+				"Your Overworldly tools have no power here."
+				""
+				"You'll want to quickly make a new pickaxe from the woods around you if you want to get anywhere in The Aether."
+				""
+				"Trinkets and Accessories can be obtained from beating bosses within the &bAether&r dimension."
+				""
+				"&o&7To equip them&r;"
+				""
+				"Simply press \"&ee&r\" to open up your inventory, look at the left of your charaters feet and click on the cloud icon to access a new inventory screen to equip them."
+				""
+				"Any armour set bonuses require the glove type also."
+				""
+				"The &6Book Of Lore&r is the &bAether&r explorers dream."
+				""
+				"Think of it as a wiki for &2ALL&r the new &bAether&r items/blocks gathered."
+				""
+				"Simply open it up and add an item/block in the slot in the book to find out more information."
+			]
+			id: "557CFA0FF7E22EB8"
+			shape: "square"
+			subtitle: "Getting started!"
+			tasks: [{
+				id: "4D50BDF0F9811D61"
+				item: "aether:book_of_lore"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 1.0d
+		}
+	]
+	title: "&6The Aether"
+}

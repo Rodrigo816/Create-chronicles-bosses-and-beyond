@@ -5,7 +5,7 @@
 	group: "41A34DBCA10C139D"
 	icon: "forbidden_arcanus:dark_matter"
 	id: "299FB3C20007E052"
-	order_index: 15
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{

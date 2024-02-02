@@ -5,7 +5,7 @@
 	group: "41A34DBCA10C139D"
 	icon: "kubejs:concrete_bar"
 	id: "295AA291F22FB812"
-	order_index: 13
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{

@@ -16,6 +16,7 @@ let CI = (id, x) => MOD("createindustry", id, x)
 let IF = (id, x) => MOD("iceandfire", id, x)
 let ARS = (id, x) => MOD("ars_nouveau", id, x)
 let ASTRA = (id, x) => MOD("ad_astra", id, x)
+let BS = (id, x) => MOD("blue_skies", id, x)
 
 
 ServerEvents.recipes(event => {
@@ -107,16 +108,6 @@ ServerEvents.recipes(event => {
     })
 
     // Rotation Machine
-    transitional = 'kubejs:incomplete_rotation_machine'
-
-    event.recipes.createSequencedAssembly([
-        'kubejs:andesite_machine',
-    ], 'create:andesite_casing', [
-        event.recipes.createDeploying(transitional, [transitional, KJ('rotation_mechanism')])
-    ])	.transitionalItem(transitional)
-        .loops(8)
-        .id('kubejs:rotation_machine_by_deployer') 
-
     event.shaped(KJ('andesite_machine'), [
         'SSS',
         'SCS',
@@ -175,42 +166,24 @@ ServerEvents.recipes(event => {
     */
      // Valve Mechanism
     event.remove({ id: CRSA('hydraulic_engine_recipe') })
-	let transitionalValve = 'kubejs:incomplete_valve_mechanism'
+    
+	transitional = 'kubejs:incomplete_rotation_mechanism'
 	event.recipes.createSequencedAssembly([
-		'kubejs:valve_mechanism',
-	], 'kubejs:rotation_mechanism', [
-		event.recipes.createDeploying(transitionalValve, [transitionalValve, CR('copper_sheet')]),
-        event.recipes.createDeploying(transitionalValve, [transitionalValve, CR('copper_sheet')]),
-        /*event.recipes.createFilling(transitionalValve, [
-            transitionalValve,
-            Fluid.of('minecraft:water', 250)
-          ]),*/
-        event.recipes.createPressing(transitionalValve, 'coal_block'),
-	]).transitionalItem(transitionalValve)
+		CRSA('hydraulic_engine'),
+	], KJ('rotation_mechanism'), [
+        event.recipes.createDeploying(transitional, [transitional, CR('copper_sheet')]),
+        event.recipes.createDeploying(transitional, [transitional, CR('copper_sheet')]),
+        event.recipes.createPressing(transitional, transitional)
+	]).transitionalItem(transitional)
 		.loops(1)
-		.id('kubejs:valve_mechanism')
+		.id(CRSA('hydraulic_engine_recipe'))
 
-        event.recipes.create.createSequencedAssembly([
-            Item.of('create:precision_mechanism').withChance(130.0), // this is the item that will appear in JEI as the result
-            Item.of('create:golden_sheet').withChance(8.0), // the rest of these items will be part of the scrap
-            Item.of('create:andesite_alloy').withChance(8.0),
-            Item.of('create:cogwheel').withChance(5.0),
-            Item.of('create:shaft').withChance(2.0),
-            Item.of('create:crushed_gold_ore').withChance(2.0),
-            Item.of('2x gold_nugget').withChance(2.0),
-            'iron_ingot',
-            'clock'
-        ], 'create:golden_sheet', [ // 'create:golden_sheet' is the input
-            // the transitional item set by `transitionalItem('create:incomplete_large_cogwheel')` is the item used during the intermediate stages of the assembly
-            event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:cogwheel']),
-            // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
-            event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:large_cogwheel']),
-            event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:iron_nugget'])
-        ]).transitionalItem('create:incomplete_precision_mechanism').loops(5) // set the transitional item and the number of loops
-    
-    
-    
+        //event.recipes.createFilling(transitionalValve, [
+          //  transitionalValve,
+          //  Fluid.of('minecraft:water', 250)
+          //]),
 
+    // Machine
     event.shapeless(KJ('copper_machine'), [KJ('valve_mechanism'),KJ('valve_mechanism')])
 
     const copper_machines_cutting = [
@@ -230,6 +203,9 @@ ServerEvents.recipes(event => {
         [MC('copper_block'), CR('copper_backtank')],
         [CRTM('sprinkler_head'), CRTM('sprinkler')],
         [MC('slime_block'), CRTM('sticky_launcher')],
+        [CRSA('copper_magnet'), CRSA('block_picker')],
+        [BS('pyrope_gem'), CRSA('copper_jetpack_chestplate')],
+        [MC('emerald_block'), CRSA('copper_exoskeleton_chestplate')],
     ];
     
     multicut(copper_machines_cutting, KJ('copper_machine'), true);
@@ -247,19 +223,38 @@ ServerEvents.recipes(event => {
         CR('golden_sheet')         
     )
     event.remove({ id: CRDD('industrial_iron/andesite_alloy_mixing') })
-    let transitionalPrecision = 'kubejs:incomplete_valve_mechanism'
+
+ 
+    event.recipes.createMixing(AE2('small_quartz_bud'),[Fluid.water(100),MC('sand'), "9x "+MC('sugar'), MC('quartz')])
+    event.recipes.createFilling(AE2('medium_quartz_bud'), [AE2('small_quartz_bud'), Fluid.of('minecraft:water', 700)])
+    event.recipes.createFilling(AE2('large_quartz_bud'), [AE2('medium_quartz_bud'), Fluid.of('minecraft:water', 700)])
+    event.recipes.createFilling(AE2('quartz_cluster'), [AE2('large_quartz_bud'), Fluid.of('minecraft:water', 700)])
+    event.recipes.createFilling(AE2('certus_quartz_crystal'), [AE2('quartz_cluster'), Fluid.of('minecraft:water', 700)])
+
+    
+
+    event.recipes.createMixing(Fluid.of(KJ("destabilized_redstone"), 800),["6x "+MC('redstone'), "1x "+AE2('sky_dust')])
+
+    transitional = CR('incomplete_precision_mechanism')
 	event.recipes.createSequencedAssembly([
-		KJ('precision_mechanism'),
+		CR('rose_quartz'),
+	], AE2('certus_quartz_crystal'), [
+		event.recipes.createFilling(transitional, [transitional, Fluid.of(KJ("destabilized_redstone"), 150)]),
+	]).transitionalItem(transitional)
+		.loops(3)
+		.id(CR('rose_quartz'))
+
+    // Precission Mechanism
+    transitional = CR('incomplete_precision_mechanism')
+	event.recipes.createSequencedAssembly([
+		CR('precision_mechanism'),
 	], KJ('rotation_mechanism'), [
-		event.recipes.createDeploying(transitionalValve, [transitionalValve, CR('copper_sheet')]),
-        event.recipes.createDeploying(transitionalValve, [transitionalValve, CR('copper_sheet')]),
-        /*event.recipes.createFilling(transitionalValve, [
-            transitionalValve,
-            Fluid.of('minecraft:water', 250)
-          ]),*/
-        event.recipes.createPressing(transitionalValve, 'coal_block'),
-	]).transitionalItem(transitionalValve)
-		.loops(1)
-		.id(KJ('precision_mechanism'))
+        event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
+        event.recipes.createDeploying(transitional, [transitional, CR('copper_sheet')]),
+        event.recipes.createPressing(transitional, transitional)
+	]).transitionalItem(transitional)
+		.loops(3)
+		.id(CR('precision_mechanism'))
+
 
 })

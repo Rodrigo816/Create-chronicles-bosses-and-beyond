@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_cooper_machine"
-	group: "71FCEFE04D91F069"
+	group: ""
 	id: "6BD4C23A62382692"
-	order_index: 1
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -219,5 +219,5 @@
 			y: 12.0d
 		}
 	]
-	title: "1.2 The Valve Machine"
+	title: "Chapter II: The Valve Machine"
 }

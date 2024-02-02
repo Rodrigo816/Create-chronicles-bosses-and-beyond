@@ -2,10 +2,181 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_brass_machine"
-	group: "71FCEFE04D91F069"
+	group: ""
 	id: "3E77E18FC0D1193E"
-	order_index: 2
+	order_index: 7
 	quest_links: [ ]
-	quests: [ ]
-	title: "1.3 The Brass Machine"
+	quests: [
+		{
+			id: "164CC65E9D5E5CED"
+			tasks: [{
+				id: "6A2AFA89F6064C52"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "527A744044F24A0C"
+			tasks: [{
+				id: "4FEE80F9338B99F1"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "7D6E6EFCB2DD19A0"
+			tasks: [{
+				id: "770EC6F492C38791"
+				item: "ae2:small_quartz_bud"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			id: "72C989B765AD2A4B"
+			tasks: [{
+				id: "4F60E93DA063643B"
+				item: "ae2:medium_quartz_bud"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			id: "0101855DF75D6C40"
+			tasks: [{
+				id: "60A42BA3D7D465F9"
+				item: "ae2:large_quartz_bud"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			id: "5BFA4F90901AC7B2"
+			tasks: [{
+				id: "45BC74F0D21F89E3"
+				item: "ae2:quartz_cluster"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "49E754928BF234F3"
+			tasks: [{
+				id: "1F9DB8D59AEF9247"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			id: "340B69A08A8A7CF3"
+			tasks: [{
+				id: "2A4A8C8AC00ECBD3"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			id: "2EBE018FE570EF16"
+			tasks: [{
+				id: "40AC3CAADB942375"
+				item: "kubejs:destabilized_redstone_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "64A476C01D1C4742"
+			tasks: [{
+				id: "216750237C1CED9A"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			id: "1C5DFA2AD6DEE1B2"
+			tasks: [{
+				id: "14FB44DA4AE233C3"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			id: "05836C34CD66A56F"
+			tasks: [{
+				id: "646DC6DDBF1F97D5"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			id: "671ABB3F4DDF8A89"
+			tasks: [{
+				id: "640776C3CFE97667"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			id: "1BAF2EB40FE08B25"
+			tasks: [{
+				id: "71C9FE5F39A5B431"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			id: "201291E8B8D4FE73"
+			tasks: [{
+				id: "3A67FE794B73D10B"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			id: "5924E1675FE1A9D0"
+			tasks: [{
+				id: "6A34C8BAA9CFC455"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "1FD0A192707FD8B2"
+			tasks: [{
+				id: "72B18A4F455BF477"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+	]
+	title: "Chapter III: The Brass Machine"
 }

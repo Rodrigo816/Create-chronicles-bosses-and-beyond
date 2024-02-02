@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "oil"
-	group: "71FCEFE04D91F069"
+	group: ""
 	icon: "tfmg:heavy_oil_bucket"
 	id: "38FE3E0C86FF237B"
-	order_index: 4
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -58,8 +58,8 @@
 				type: "item"
 			}]
 			title: "Finding the ore deposit"
-			x: -5.0d
-			y: -2.5d
+			x: -10.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["19D52AF67484168B"]
@@ -110,43 +110,8 @@
 				}
 			]
 			title: "Distilation"
-			x: 0.0d
-			y: -2.5d
-		}
-		{
-			id: "24A830CFEBC6F4B6"
-			tasks: [{
-				amount: 1000L
-				fluid: "tfmg:gasoline"
-				id: "77C64A53926F1510"
-				type: "fluid"
-			}]
-			title: "Gasoline"
-			x: 3.5d
-			y: -5.0d
-		}
-		{
-			id: "565129B2C46EB47E"
-			tasks: [{
-				amount: 1000L
-				fluid: "minecraft:water"
-				id: "06935A5BED33FA89"
-				type: "fluid"
-			}]
-			title: "Ad Astra Fuel"
-			x: 4.5d
-			y: -6.0d
-		}
-		{
-			id: "75B6601E19BF747F"
-			tasks: [{
-				id: "20AC07BE50FA4E19"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			title: "Mix mas ainda nao sei que e"
-			x: 5.0d
-			y: -5.0d
+			x: -7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5E43C8E344DD951E"]
@@ -213,28 +178,19 @@
 				}
 			]
 			title: "Pumpjack"
-			x: -2.5d
-			y: -2.5d
+			x: -9.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["60A94E3337A26181"]
 			id: "44B711E1B5B7B00E"
 			tasks: [{
 				id: "4DEF0DA1D162EA2E"
 				item: "tfmg:steel_ingot"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.5d
-		}
-		{
-			id: "43B372544B94B6A4"
-			tasks: [{
-				id: "22D6C64DBA644574"
-				item: "tfmg:heavy_plate"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -3.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			id: "69D628450626D8D5"
@@ -245,30 +201,761 @@
 				item: "tfmg:steel_mechanism"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -4.5d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
-			id: "224A5CDEE0A8FF27"
+			dependencies: [
+				"04C147662C9B4A6F"
+				"41F2204F3859C40E"
+				"0D2D729534CC797F"
+			]
+			id: "6410C194650D31D0"
+			rewards: [{
+				id: "3BC1809E12926D90"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
 			tasks: [{
-				id: "30CD2C10EE91584B"
+				id: "4796B10C0C3C0B60"
+				item: "tfmg:cast_iron_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5E4773542586E238"
+				"5FDD3AE28724E3DB"
+				"46E5565D623C0AC8"
+			]
+			id: "60A94E3337A26181"
+			rewards: [
+				{
+					id: "325E617AD5CEAEED"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "7AF10DD69B345714"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2F257B912F3BB647"
+					item: "tfmg:casting_basin"
+					type: "item"
+				}
+				{
+					id: "16F286980D9B8643"
+					item: "tfmg:casting_spout"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["004D298F9AF71A77"]
+			id: "3C0A956F427AE919"
+			rewards: [
+				{
+					id: "4C4EAAEDC7CBEC10"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "0563CFBBD86D9B79"
+					item: "crafting_on_a_stick:stonecutter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DC34A809AB81B5F"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["76651E7D057FF4D1"]
+			icon: "tfmg:aluminum_ingot"
+			id: "23AAAAF53A58DE75"
+			tasks: [
+				{
+					id: "42C18F2CCBB19E67"
+					item: "tfmg:bauxite"
+					type: "item"
+				}
+				{
+					id: "2B17D8042CC988B5"
+					item: "tfmg:aluminum_ingot"
+					type: "item"
+				}
+			]
+			title: "Aluminium"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5E4773542586E238"
+				"6410C194650D31D0"
+				"0BA407B166A319EA"
+			]
+			id: "3786CEBDF1D138A3"
+			rewards: [{
+				count: 32
+				id: "61CD476CA52EF93E"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "2A266B65EE1395FE"
+				item: "tfmg:coke_oven"
+				type: "item"
+			}]
+			title: "Coke Oven"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"583016517874D94B"
+				"4B0BBBDAB075B1BB"
+			]
+			id: "24A34819010FC67D"
+			rewards: [{
+				count: 8
+				id: "19D33CD773E72DD5"
+				item: "tfmg:heavy_plate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6055D33ED3151647"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"321C33E8635633F2"
+				"7F507E8AF166A594"
+			]
+			icon: "tfmg:industrial_pipe"
+			id: "39E0A8874BDED5A1"
+			rewards: [
+				{
+					id: "7C80FD9F3297215E"
+					item: "tfmg:cast_iron_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1A0F18AAA4F9BDBE"
+					item: "tfmg:cast_iron_distillation_output"
+					type: "item"
+				}
+				{
+					id: "1C3173BC7B85E1DC"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "33B08A27F50861DB"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "45A5A2DDF3CE6FA2"
+					item: "tfmg:steel_distillation_output"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "7BB17A76518C70EA"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "4DED9B21822F7F52"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+			]
+			title: "Distillation Tower"
+			x: 16.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0BA7A9518A1B8815"]
+			id: "5FC15F09A4F38C2F"
+			rewards: [{
+				count: 64
+				id: "14BE9FCBD24BF968"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1129421927269B3C"
+					item: "tfmg:cast_iron_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0DC3242DA7C0BA70"
+					item: "tfmg:cast_iron_distillation_output"
+					type: "item"
+				}
+			]
+			title: "Cast Iron Distillation Tower"
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2CB1A1136BCDD5C9"]
+			id: "4BFE691DA16592E8"
+			rewards: [{
+				id: "03C9370B35384866"
+				item: "tfmg:plastic_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12410CB68C0FAB95"
+				item: "tfmg:plastic_sheet"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2A1438D0288A2044"
+				"1606D155E64A2092"
+			]
+			icon: "tfmg:diesel_bucket"
+			id: "48CEEA10B8F0CC97"
+			rewards: [
+				{
+					count: 4
+					id: "37E89BFC255F2079"
+					item: "tfmg:flarestack"
+					type: "item"
+				}
+				{
+					id: "29F926AD714E2856"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5B236AD4EA61AC6C"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "6BD2BB12BA73F4A9"
+					item: "tfmg:steel_pipe"
+					type: "item"
+				}
+				{
+					id: "7E12E5CBE26FF88D"
+					item: "tfmg:steel_mechanical_pump"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4C097F44447F9F87"
+				title: "Refining Oil"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2CB1A1136BCDD5C9"]
+			id: "56BE394D10432CE8"
+			rewards: [
+				{
+					count: 3
+					id: "57EEB8182737A022"
+					item: "tfmg:napalm_bomb"
+					type: "item"
+				}
+				{
+					id: "49D37768FF9497D3"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+			]
+			subtitle: "That'll teach those farmers"
+			tasks: [{
+				id: "3A9DA2D4FEE7B02E"
+				item: "tfmg:napalm_bomb"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2CB1A1136BCDD5C9"]
+			id: "2F7A07FA1E68842D"
+			rewards: [{
+				count: 16
+				id: "57A230819A46C4D9"
+				item: "tfmg:kerosene_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "514242BA5257D6FC"
+				item: "tfmg:large_radial_engine"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2CB1A1136BCDD5C9"]
+			id: "7783772BC503C57D"
+			rewards: [{
+				id: "65F572BBCF47D1DD"
+				item: "tfmg:gasoline_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0377D8A8058DA39A"
+					item: "tfmg:gasoline_engine"
+					type: "item"
+				}
+				{
+					id: "76DBB54F65A18901"
+					item: "tfmg:gasoline_engine_back"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2CB1A1136BCDD5C9"]
+			id: "7E40DC0A9AFE729A"
+			rewards: [{
+				count: 32
+				id: "5E59EB4E5974AC6A"
+				item: "tfmg:steel_pipe"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7B9AB058013AA9FE"
+					item: "tfmg:lpg_engine"
+					type: "item"
+				}
+				{
+					id: "659970C3AE9442D3"
+					item: "tfmg:lpg_engine_back"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2CB1A1136BCDD5C9"]
+			id: "3326631077188DD0"
+			rewards: [
+				{
+					id: "4847F7D472582D7C"
+					item: "tfmg:air_intake"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6E18C407ECAA8F1E"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F222A42B8BB6162"
+				item: "tfmg:diesel_engine"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CB1A1136BCDD5C9"]
+			id: "2D83F9A9D0279308"
+			rewards: [{
+				id: "2C4AE762E6276C0B"
+				item: "tfmg:kerosene_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "01DC5CBB747126BE"
+					item: "tfmg:turbine_engine"
+					type: "item"
+				}
+				{
+					id: "04DA800DCD0DE6DD"
+					item: "tfmg:turbine_engine_back"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["306A79F4F0657309"]
+			id: "469454D2C2AE8FBC"
+			rewards: [{
+				count: 4
+				id: "2B90D38E7A41355C"
+				item: "alexscaves:nuclear_furnace_component"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Our words are backed with NUCLEAR WEAPONS!"
+			tasks: [{
+				id: "3A158A0C21D7FDF3"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			id: "66390863259FE74C"
+			tasks: [{
+				id: "07B7F0C605A4CA2E"
+				item: "tfmg:limesand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66390863259FE74C"]
+			id: "2185FF3295FDF2AE"
+			tasks: [{
+				id: "221AF8A0467D4C29"
+				item: "tfmg:cement"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"66390863259FE74C"
+				"6AD87BACD480D27B"
+			]
+			id: "5429EC5DB7D8429C"
+			tasks: [{
+				id: "1AE14BF44D6AE9E2"
+				item: "tfmg:blasting_mixture"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "6AD87BACD480D27B"
+			tasks: [{
+				id: "6515B66AB931E976"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"380851C8D9C9511A"
+				"2185FF3295FDF2AE"
+				"47018A45446BE69A"
+				"2EC3F6D750D9EE7A"
+				"745C2FF822729257"
+			]
+			id: "0B38A8FE68AAED6B"
+			tasks: [{
+				id: "77A51D62C0DB9ABF"
+				item: "tfmg:liquid_concrete_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "380851C8D9C9511A"
+			tasks: [
+				{
+					id: "08E04BAE0054FE5F"
+					item: "tfmg:slag"
+					type: "item"
+				}
+				{
+					id: "0F4F839005BA0CA7"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "47018A45446BE69A"
+			tasks: [{
+				id: "6AFAC2EFC6FAAE75"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "2EC3F6D750D9EE7A"
+			tasks: [{
+				id: "224FDA892B41F563"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "745C2FF822729257"
+			tasks: [{
+				id: "0BDAECCE724A2E45"
+				item: "tfmg:rebar_formwork_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["745C2FF822729257"]
+			id: "54E04E7346C13A08"
+			subtitle: "you can dye it=BLAST RESISTENCE"
+			tasks: [{
+				id: "7BB0B46E9BD7F1FF"
+				item: "tfmg:rebar_concrete"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "0D2D729534CC797F"
+			tasks: [{
+				id: "474A4F8B2096CDA0"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "41F2204F3859C40E"
+			tasks: [{
+				id: "0EA6CA1CCA875A5D"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			id: "0BA407B166A319EA"
+			tasks: [{
+				id: "240F6A031AE37CB7"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3786CEBDF1D138A3"]
+			id: "5800110695DFDE0F"
+			tasks: [{
+				id: "0B9049EA47071647"
 				item: "tfmg:coal_coke"
 				type: "item"
 			}]
-			title: "Build a coke oven"
-			x: -17.0d
-			y: -7.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
-			id: "2162963F8FD461E1"
+			dependencies: ["3786CEBDF1D138A3"]
+			id: "4529E314F97ED3FA"
 			tasks: [{
-				id: "75BB93E595825451"
-				item: "tfmg:blast_furnace_output"
+				id: "0298CA5AE64183C1"
+				item: "tfmg:creosote_bucket"
 				type: "item"
 			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5800110695DFDE0F"]
+			id: "239718D740BF77C5"
+			tasks: [{
+				id: "49E6FCE45A679184"
+				item: "tfmg:coal_coke_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4529E314F97ED3FA"]
+			id: "0A1E595C80AA998B"
+			tasks: [{
+				id: "5FC2DF714B2EBA01"
+				item: "tfmg:hardened_planks"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A1E595C80AA998B"]
+			id: "1F78ED8F3E697791"
+			tasks: [{
+				id: "60D8BDEAF5AEC1AB"
+				item: "tfmg:steel_casing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "7A39DEF0C865A40D"
+			tasks: [{
+				id: "084FECF72A815B06"
+				item: "tfmg:heavy_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A39DEF0C865A40D"]
+			id: "06811D1E2C982A1F"
+			tasks: [{
+				id: "0EB9574B1A35D109"
+				item: "tfmg:heavy_machinery_casing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5429EC5DB7D8429C"
+				"239718D740BF77C5"
+			]
+			id: "0AB740B18E5FA805"
+			tasks: [
+				{
+					id: "7FDB939CF73DB69E"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6D060A1C93359038"
+					item: { Count: 8b, id: "tfmg:fireproof_brick_reinforcement" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "03A608C6F6250588"
+					item: "tfmg:fireproof_bricks"
+					type: "item"
+				}
+			]
 			title: "Build a blast furnace"
-			x: -16.0d
-			y: -7.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0AB740B18E5FA805"]
+			id: "43DA11DD7F5A2C79"
+			tasks: [{
+				amount: 1000L
+				fluid: "tfmg:molten_slag"
+				id: "2AE5065E0A137C05"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AB740B18E5FA805"]
+			id: "5FDD3AE28724E3DB"
+			tasks: [{
+				amount: 1000L
+				fluid: "tfmg:molten_steel"
+				id: "75C0F879ADD4CFEE"
+				type: "fluid"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "46E5565D623C0AC8"
+			tasks: [
+				{
+					id: "1F038042E4DD56D8"
+					item: "tfmg:ingot_mold"
+					type: "item"
+				}
+				{
+					id: "42168E10C22BB30C"
+					item: "tfmg:block_mold"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "3AB3B4308FA14C9E"
+			tasks: [{
+				id: "5ABF5E739971F4AD"
+				item: "tfmg:bauxite"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "3B77F16B06EA00EF"
+			tasks: [{
+				id: "28204EE65135B7B7"
+				item: "create:crushed_raw_aluminum"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
 		}
 	]
 	title: "Oil Refinement"
