@@ -845,3 +845,31 @@
 			#Range: 0 ~ 100
 			raycatTamingChance = 33
 
+	[integration.quark]
+
+		[integration.quark.crab]
+			#Ingredients required for crab breeding
+			crabIngredients = "minecraft:wheat, minecraft:chicken, #minecraft:fishes"
+			crabSpawnEgg = "quark:crab_spawn_egg"
+			crabBreedingCooldown = 6000
+
+		[integration.quark.foxhound]
+			#Ingredients required for foxhound breeding
+			foxhoundIngredients = "minecraft:porkchop, minecraft:cooked_porkchop, minecraft:beef, minecraft:cooked_beef, minecraft:chicken, minecraft:cooked_chicken, minecraft:rotten_flesh, minecraft:rabbit, minecraft:cooked_rabbit, minecraft:mutton, minecraft:cooked_mutton"
+			foxhoundSpawnEgg = "quark:foxhound_spawn_egg"
+			foxhoundBreedingCooldown = 6000
+			#Ingredients required for foxhound taming
+			foxhoundTamingIngredients = "minecraft:coal"
+			#Range: 0 ~ 100
+			foxhoundTamingChance = 33
+
+		[integration.quark.shiba]
+			#Ingredients required for shiba breeding
+			shibaIngredients = "minecraft:porkchop, minecraft:cooked_porkchop, minecraft:beef, minecraft:cooked_beef, minecraft:chicken, minecraft:cooked_chicken, minecraft:rotten_flesh, minecraft:rabbit, minecraft:cooked_rabbit, minecraft:mutton, minecraft:cooked_mutton"
+			shibaSpawnEgg = "quark:shiba_spawn_egg"
+			shibaBreedingCooldown = 6000
+			#Ingredients required for shiba taming
+			shibaTamingIngredients = "minecraft:bone"
+			#Range: 0 ~ 100
+			shibaTamingChance = 33
+
