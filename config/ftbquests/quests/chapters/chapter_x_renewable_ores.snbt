@@ -1,11 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "molten_veins_reneeable_sources"
+	filename: "chapter_x_renewable_ores"
 	group: ""
-	id: "413FBDC7A573150B"
+	id: "01299364BAF193B6"
 	order_index: 8
 	quest_links: [ ]
 	quests: [ ]
-	title: "Molten Veins: Reneeable Sources"
+	title: "Chapter IV: Renewable ores"
 }

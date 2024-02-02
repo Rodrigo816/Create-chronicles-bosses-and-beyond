@@ -190,9 +190,16 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
+			dependencies: [
+				"23AAAAF53A58DE75"
+				"65C36850480E3CFB"
+				"214FA0AC03602688"
+				"39D793EF31699C8A"
+				"44B711E1B5B7B00E"
+			]
 			id: "69D628450626D8D5"
 			shape: "rsquare"
 			size: 2.0d
@@ -201,12 +208,11 @@
 				item: "tfmg:steel_mechanism"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.0d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
-				"04C147662C9B4A6F"
 				"41F2204F3859C40E"
 				"0D2D729534CC797F"
 			]
@@ -226,7 +232,6 @@
 		}
 		{
 			dependencies: [
-				"5E4773542586E238"
 				"5FDD3AE28724E3DB"
 				"46E5565D623C0AC8"
 			]
@@ -255,34 +260,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["004D298F9AF71A77"]
-			id: "3C0A956F427AE919"
-			rewards: [
-				{
-					id: "4C4EAAEDC7CBEC10"
-					item: "minecraft:iron_block"
-					type: "item"
-				}
-				{
-					id: "0563CFBBD86D9B79"
-					item: "crafting_on_a_stick:stonecutter"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1DC34A809AB81B5F"
-				item: "tfmg:steel_ingot"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["76651E7D057FF4D1"]
+			dependencies: ["3B77F16B06EA00EF"]
 			icon: "tfmg:aluminum_ingot"
 			id: "23AAAAF53A58DE75"
 			tasks: [
@@ -298,12 +280,11 @@
 				}
 			]
 			title: "Aluminium"
-			x: -1.5d
-			y: 6.5d
+			x: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
-				"5E4773542586E238"
 				"6410C194650D31D0"
 				"0BA407B166A319EA"
 			]
@@ -325,30 +306,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"583016517874D94B"
-				"4B0BBBDAB075B1BB"
-			]
-			id: "24A34819010FC67D"
-			rewards: [{
-				count: 8
-				id: "19D33CD773E72DD5"
-				item: "tfmg:heavy_plate"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6055D33ED3151647"
-				item: "tfmg:steel_mechanism"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"321C33E8635633F2"
-				"7F507E8AF166A594"
-			]
 			icon: "tfmg:industrial_pipe"
 			id: "39E0A8874BDED5A1"
 			rewards: [
@@ -399,7 +356,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["0BA7A9518A1B8815"]
 			id: "5FC15F09A4F38C2F"
 			rewards: [{
 				count: 64
@@ -425,7 +381,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2CB1A1136BCDD5C9"]
 			id: "4BFE691DA16592E8"
 			rewards: [{
 				id: "03C9370B35384866"
@@ -441,10 +396,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"2A1438D0288A2044"
-				"1606D155E64A2092"
-			]
 			icon: "tfmg:diesel_bucket"
 			id: "48CEEA10B8F0CC97"
 			rewards: [
@@ -486,7 +437,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["2CB1A1136BCDD5C9"]
 			id: "56BE394D10432CE8"
 			rewards: [
 				{
@@ -511,7 +461,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["2CB1A1136BCDD5C9"]
 			id: "2F7A07FA1E68842D"
 			rewards: [{
 				count: 16
@@ -528,7 +477,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["2CB1A1136BCDD5C9"]
 			id: "7783772BC503C57D"
 			rewards: [{
 				id: "65F572BBCF47D1DD"
@@ -551,7 +499,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["2CB1A1136BCDD5C9"]
 			id: "7E40DC0A9AFE729A"
 			rewards: [{
 				count: 32
@@ -575,7 +522,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2CB1A1136BCDD5C9"]
 			id: "3326631077188DD0"
 			rewards: [
 				{
@@ -599,7 +545,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["2CB1A1136BCDD5C9"]
 			id: "2D83F9A9D0279308"
 			rewards: [{
 				id: "2C4AE762E6276C0B"
@@ -622,7 +567,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["306A79F4F0657309"]
 			id: "469454D2C2AE8FBC"
 			rewards: [{
 				count: 4
@@ -647,19 +591,18 @@
 				item: "tfmg:limesand"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["66390863259FE74C"]
 			id: "2185FF3295FDF2AE"
 			tasks: [{
 				id: "221AF8A0467D4C29"
 				item: "tfmg:cement"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -672,8 +615,8 @@
 				item: "tfmg:blasting_mixture"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			id: "6AD87BACD480D27B"
@@ -682,7 +625,7 @@
 				item: "create:crushed_raw_iron"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -699,8 +642,8 @@
 				item: "tfmg:liquid_concrete_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			id: "380851C8D9C9511A"
@@ -716,8 +659,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 0.5d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
 			id: "47018A45446BE69A"
@@ -726,8 +669,8 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -8.5d
+			y: -1.0d
 		}
 		{
 			id: "2EC3F6D750D9EE7A"
@@ -736,8 +679,8 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -9.5d
+			y: -1.0d
 		}
 		{
 			id: "745C2FF822729257"
@@ -746,8 +689,8 @@
 				item: "tfmg:rebar_formwork_block"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["745C2FF822729257"]
@@ -758,8 +701,8 @@
 				item: "tfmg:rebar_concrete"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			id: "0D2D729534CC797F"
@@ -768,7 +711,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -7.0d
 		}
 		{
@@ -778,7 +721,7 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -7.0d
 		}
 		{
@@ -799,8 +742,8 @@
 				item: "tfmg:coal_coke"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3786CEBDF1D138A3"]
@@ -810,8 +753,8 @@
 				item: "tfmg:creosote_bucket"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5800110695DFDE0F"]
@@ -821,8 +764,8 @@
 				item: "tfmg:coal_coke_dust"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4529E314F97ED3FA"]
@@ -832,8 +775,8 @@
 				item: "tfmg:hardened_planks"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0A1E595C80AA998B"]
@@ -843,29 +786,8 @@
 				item: "tfmg:steel_casing"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
-		}
-		{
-			id: "7A39DEF0C865A40D"
-			tasks: [{
-				id: "084FECF72A815B06"
-				item: "tfmg:heavy_plate"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7A39DEF0C865A40D"]
-			id: "06811D1E2C982A1F"
-			tasks: [{
-				id: "0EB9574B1A35D109"
-				item: "tfmg:heavy_machinery_casing"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 3.0d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -893,17 +815,16 @@
 				}
 			]
 			title: "Build a blast furnace"
-			x: 2.0d
-			y: 0.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0AB740B18E5FA805"]
 			id: "43DA11DD7F5A2C79"
 			tasks: [{
-				amount: 1000L
-				fluid: "tfmg:molten_slag"
-				id: "2AE5065E0A137C05"
-				type: "fluid"
+				id: "36A1A6B1770C02AC"
+				item: "tfmg:molten_slag_bucket"
+				type: "item"
 			}]
 			x: 1.5d
 			y: 1.5d
@@ -912,12 +833,11 @@
 			dependencies: ["0AB740B18E5FA805"]
 			id: "5FDD3AE28724E3DB"
 			tasks: [{
-				amount: 1000L
-				fluid: "tfmg:molten_steel"
-				id: "75C0F879ADD4CFEE"
-				type: "fluid"
+				id: "1179319D080C8282"
+				item: "tfmg:molten_steel_bucket"
+				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -934,8 +854,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 4.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			id: "3AB3B4308FA14C9E"
@@ -944,19 +864,85 @@
 				item: "tfmg:bauxite"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["3AB3B4308FA14C9E"]
 			id: "3B77F16B06EA00EF"
 			tasks: [{
 				id: "28204EE65135B7B7"
 				item: "create:crushed_raw_aluminum"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.0d
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44B711E1B5B7B00E"]
+			id: "214FA0AC03602688"
+			tasks: [{
+				id: "77E2E89F149F2644"
+				item: "tfmg:heavy_plate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["44B711E1B5B7B00E"]
+			id: "65C36850480E3CFB"
+			tasks: [{
+				id: "205B55524B405A20"
+				item: "tfmg:screw"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["44B711E1B5B7B00E"]
+			id: "1D74F3D74105B835"
+			tasks: [{
+				id: "320CB5665EB7C2DA"
+				item: "tfmg:rebar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"23AAAAF53A58DE75"
+				"1D74F3D74105B835"
+			]
+			id: "39D793EF31699C8A"
+			tasks: [{
+				id: "102F142498C5F88D"
+				item: {
+					Count: 1b
+					id: "tfmg:screwdriver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["214FA0AC03602688"]
+			id: "50CDAAB5AECA6B27"
+			subtitle: "opcional"
+			tasks: [{
+				id: "6C9ED2E054D9EFEE"
+				item: "tfmg:heavy_machinery_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
 		}
 	]
-	title: "Oil Refinement"
+	title: "Chapter VI: Steel Mechanism"
 }
