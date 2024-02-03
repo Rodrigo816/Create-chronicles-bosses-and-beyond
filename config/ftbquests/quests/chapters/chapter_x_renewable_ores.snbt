@@ -6,6 +6,805 @@
 	id: "01299364BAF193B6"
 	order_index: 8
 	quest_links: [ ]
-	quests: [ ]
-	title: "Chapter IV: Renewable ores"
+	quests: [
+		{
+			dependencies: ["47B87C4A6EF446E9"]
+			id: "507B899E6467E189"
+			tasks: [{
+				id: "74FC72CBFFE5E319"
+				item: "create:asurine"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7951B19407FEE024"]
+			id: "5D9857A81A9DC029"
+			tasks: [{
+				id: "03D0BB3FA50990EE"
+				item: "create:crimsite"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4174526248A5CC4C"]
+			id: "6E596E1F969F1208"
+			tasks: [{
+				id: "6F729EC5F9258FE9"
+				item: "create:veridium"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1058E2CC764B27AD"
+				"3FB3FBB8C14EE5B0"
+			]
+			id: "5F7A18E1DDDDD166"
+			tasks: [{
+				id: "7503F6388197D05A"
+				item: "create:scorchia"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A68D9BF5A34686F"]
+			id: "24B79D5E984A2873"
+			tasks: [{
+				id: "783211D8A6D8F80B"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"507B899E6467E189"
+				"47B87C4A6EF446E9"
+			]
+			id: "397A95F9519D300D"
+			tasks: [{
+				id: "7E48FF4DB049FA12"
+				item: "create:crushed_raw_zinc"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D9857A81A9DC029"]
+			id: "7399876A60EEAF40"
+			tasks: [{
+				id: "3B697BE5B6CFFF50"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E596E1F969F1208"]
+			id: "59FE9435C6E0AD38"
+			tasks: [{
+				id: "45F8F429E2B4BA25"
+				item: "create:crushed_raw_copper"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F7A18E1DDDDD166"]
+			id: "14EFD8B3724D55E8"
+			tasks: [{
+				id: "4FE96F799D2BD6DE"
+				item: "create_dd:coal_piece"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F7A18E1DDDDD166"]
+			id: "022345647C99BAF1"
+			tasks: [{
+				id: "73982AA6E580FF35"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["24B79D5E984A2873"]
+			id: "4BD4EBA30864D035"
+			tasks: [{
+				id: "304B5BEAC49C0F67"
+				item: "create:crushed_raw_gold"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"018B793486C6832C"
+				"5198C559E16FE5F8"
+			]
+			id: "2FF8179BFB33AF6A"
+			tasks: [{
+				id: "2B83BBE744F5592D"
+				item: "create_dd:asurine_cobble"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			id: "018B793486C6832C"
+			tasks: [{
+				id: "2D87BDFD46F201D8"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			id: "5198C559E16FE5F8"
+			tasks: [{
+				id: "68BEB9774FE81AE6"
+				item: "create_dd:cream_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2FF8179BFB33AF6A"]
+			id: "47B87C4A6EF446E9"
+			tasks: [{
+				id: "399462D8CA9A4CA5"
+				item: "molten_vents:dormant_molten_asurine"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5F205D0B5CFB0EA0"
+				"74C870915AD24CFA"
+			]
+			id: "336C8972DC395FF8"
+			tasks: [{
+				id: "0BE4B8900AE5A845"
+				item: "create_dd:crimsite_cobble"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["336C8972DC395FF8"]
+			id: "7951B19407FEE024"
+			tasks: [{
+				id: "23304349004AE6EF"
+				item: "molten_vents:dormant_molten_crimsite"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "74C870915AD24CFA"
+			tasks: [{
+				id: "06A03782D88255E0"
+				item: "create_dd:strawberry_milkshake_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "5F205D0B5CFB0EA0"
+			tasks: [{
+				id: "1D3C1DDB3E385620"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "46986B63A3F554C9"
+			tasks: [{
+				id: "1A77DCE03CE0BF47"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			id: "72B77FB74E6F9EE4"
+			tasks: [{
+				id: "58320519FC21B1FD"
+				item: "create_dd:caramel_milkshake_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"46986B63A3F554C9"
+				"72B77FB74E6F9EE4"
+			]
+			id: "31E945A1E3AB77D3"
+			tasks: [{
+				id: "4F623A949A37AD98"
+				item: "create_dd:veridium_cobble"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31E945A1E3AB77D3"]
+			id: "4174526248A5CC4C"
+			tasks: [{
+				id: "0B9EC3E02F04B6BA"
+				item: "molten_vents:dormant_molten_veridium"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "1058E2CC764B27AD"
+			tasks: [{
+				id: "26458BEA6923897C"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			id: "3FB3FBB8C14EE5B0"
+			tasks: [{
+				id: "34B0552388A4CC76"
+				item: "create_dd:hot_chocolate_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"353EC4594F1C27E8"
+				"604A2492247869F3"
+			]
+			id: "6379A2FC62EF7C23"
+			tasks: [{
+				id: "0C807366F6FF5777"
+				item: "create:scoria"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6379A2FC62EF7C23"]
+			id: "3FDA4ADCC08B6CFB"
+			tasks: [{
+				id: "1CBD5C0070846DCE"
+				item: "create:scoria"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			id: "0E7A8BBC553C91E1"
+			tasks: [{
+				id: "1DE918B550DCAADF"
+				item: "molten_vents:dormant_molten_scorchia"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"559F6C7AC2FFAF8B"
+				"5D4101FAF388E3C6"
+			]
+			id: "71D8883DC01C822C"
+			tasks: [{
+				id: "33D49184724A950B"
+				item: "create_dd:ochrum_cobble"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "604A2492247869F3"
+			tasks: [{
+				id: "62DF99F4394E609E"
+				item: "create_dd:chocolate_milkshake_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			id: "353EC4594F1C27E8"
+			tasks: [{
+				id: "0597E92476C270AD"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			id: "1D22D77A69AFEA20"
+			tasks: [{
+				id: "0CA4A608CBE7BC2C"
+				item: "molten_vents:dormant_molten_scoria"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			id: "5D4101FAF388E3C6"
+			tasks: [{
+				id: "33BF6F231376B2EA"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "559F6C7AC2FFAF8B"
+			tasks: [{
+				id: "25A1022365E34FC2"
+				item: "create_dd:glowberry_milkshake_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["71D8883DC01C822C"]
+			id: "1A68D9BF5A34686F"
+			tasks: [{
+				id: "4B4B69944B0C0522"
+				item: "molten_vents:dormant_molten_ochrum"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BD4EBA30864D035"]
+			id: "62B83DDE3B70C656"
+			tasks: [{
+				id: "6A32FB1165805E81"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4BD4EBA30864D035"]
+			id: "12054E6E7E054B04"
+			tasks: [{
+				id: "22BEAE7421B33830"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4BD4EBA30864D035"]
+			id: "59C16E6BCAF98A94"
+			tasks: [{
+				id: "50B348E70B22267B"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7399876A60EEAF40"]
+			id: "439399D867FFBC87"
+			tasks: [{
+				id: "255EFC24ECB6F92F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7399876A60EEAF40"]
+			id: "6AD883909EE03BA6"
+			tasks: [{
+				id: "66D65E019FB6F75C"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7399876A60EEAF40"]
+			id: "72D74DA40D497C07"
+			tasks: [{
+				id: "3B9A03A8D8B3B89D"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7399876A60EEAF40"]
+			id: "57C615D858014A73"
+			tasks: [{
+				id: "45C8C3829A246258"
+				item: "tfmg:blasting_mixture"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "23B2DAE2A251304B"
+			tasks: [{
+				id: "4C40F6C4B0D4B1E5"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "1F377B6B64AE2EC7"
+			tasks: [{
+				id: "59364F5F3D9FDCFE"
+				item: "create:copper_nugget"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "7CF45E77B745C349"
+			tasks: [{
+				id: "4BA5CE69F73C29D6"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "23700E4853E5EDD8"
+			subtitle: "tirar isto de todas as receitas"
+			tasks: [{
+				id: "15C50730B775630F"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			id: "61CE0B3B33DA5D5E"
+			tasks: [{
+				id: "7D4C7F7635DB455D"
+				item: "create:zinc_nugget"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			id: "60146911132AB559"
+			tasks: [{
+				id: "20964593CD0DB805"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			id: "6B5CD61BEC5DA6C4"
+			tasks: [{
+				id: "7FC15F3809767EA9"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			id: "22E56EC81482F489"
+			tasks: [{
+				id: "3DBFF09408F7F13D"
+				item: "create_dd:condense_milk_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"22E56EC81482F489"
+				"6B5CD61BEC5DA6C4"
+			]
+			id: "745042FB41CB4628"
+			tasks: [{
+				id: "211FEB4669FDA479"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			id: "1311E2CC15060E74"
+			tasks: [{
+				id: "11CF3681EB71B846"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "0CB74126AF8CF746"
+			tasks: [{
+				id: "6DA9D88107E43D4D"
+				item: "create_dd:glowberry_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0CB74126AF8CF746"
+				"1311E2CC15060E74"
+			]
+			id: "67D984605442ECC2"
+			tasks: [{
+				id: "4925B3A1CF288150"
+				item: "minecraft:dripstone_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67D984605442ECC2"]
+			id: "592C387371A68936"
+			tasks: [{
+				id: "7D9420DC166ACBBB"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["745042FB41CB4628"]
+			id: "22CB87048793F5B0"
+			tasks: [{
+				id: "08B627B0D7DF6485"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["745042FB41CB4628"]
+			id: "68CE49FE4E9D77D4"
+			tasks: [{
+				id: "5929C0C8C09FC2F4"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			id: "6AC3F323E4B49E41"
+			tasks: [{
+				id: "573EBA06ABFEFE3A"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "3315B175F187D742"
+			tasks: [{
+				id: "2F27C22E1DFC124E"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6AC3F323E4B49E41"
+				"3315B175F187D742"
+			]
+			id: "6C9BBE9754A99A96"
+			tasks: [{
+				id: "5FDE13EBCECE7FD5"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C9BBE9754A99A96"]
+			id: "5C147AE4E96DA8DF"
+			tasks: [{
+				id: "6CC14C2F47BDD331"
+				item: "tfmg:limesand"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			id: "0B8ACADB9A7124D8"
+			tasks: [{
+				id: "5C41D743B5C55BE8"
+				item: "create_dd:caramel_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			id: "552C77EEE62B7E83"
+			tasks: [{
+				id: "03C6D3452F0CCFE7"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0B8ACADB9A7124D8"
+				"552C77EEE62B7E83"
+			]
+			id: "7648E46FEC9803B8"
+			tasks: [{
+				id: "7B60B405DE3AF61E"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2A49012030A688AE"
+				"08555DFB93FE3B92"
+			]
+			id: "0031D1C76E2C598C"
+			tasks: [{
+				id: "1E1ED0FCF0F1D25A"
+				item: "create_dd:gabbro"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			id: "2A49012030A688AE"
+			tasks: [{
+				id: "01CA3EE66F719C79"
+				item: "create_dd:strawberry_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			id: "08555DFB93FE3B92"
+			tasks: [{
+				id: "77C79E673FDBA1EF"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			id: "17B248D76F082951"
+			tasks: [{
+				id: "1B32CD57F8E41B6F"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			id: "7AA397A0DAE704E2"
+			tasks: [{
+				id: "7CA430AC6E543F4A"
+				item: "create_dd:vanilla_milkshake_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7AA397A0DAE704E2"
+				"17B248D76F082951"
+			]
+			id: "72E9DC33E526DADA"
+			tasks: [{
+				id: "2DAE1F8A13158384"
+				item: "create_dd:potassic_cobble"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			id: "40102220F51B35B6"
+			tasks: [{
+				id: "5FD619E6A4E60B71"
+				item: "create:crushed_raw_tin"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			id: "20A8242D2D7277A2"
+			tasks: [{
+				id: "3CE120D5EB545C78"
+				item: "create_dd:tin_nugget"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+	]
+	title: "Renewable ores"
 }

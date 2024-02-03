@@ -5,7 +5,7 @@
 	group: "2B02D614E453E838"
 	icon: "thermal:machine_press"
 	id: "08DF8E49DAFD4F9D"
-	order_index: 27
+	order_index: 26
 	quest_links: [ ]
 	quests: [
 		{

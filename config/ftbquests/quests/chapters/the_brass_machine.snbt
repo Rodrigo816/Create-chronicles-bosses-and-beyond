@@ -8,26 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "164CC65E9D5E5CED"
-			tasks: [{
-				id: "6A2AFA89F6064C52"
-				item: "ae2:sky_stone_block"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.0d
-		}
-		{
-			id: "527A744044F24A0C"
-			tasks: [{
-				id: "4FEE80F9338B99F1"
-				item: "ae2:sky_dust"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 5.5d
-		}
-		{
 			id: "7D6E6EFCB2DD19A0"
 			tasks: [{
 				id: "770EC6F492C38791"
@@ -176,6 +156,92 @@
 			}]
 			x: 0.0d
 			y: 14.0d
+		}
+		{
+			id: "3B8E5B6DD5005744"
+			tasks: [{
+				id: "624D6F9A96A05F54"
+				item: "quark:red_corundum_cluster"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"555CE8F6001EF8E7"
+				"14ADA913C53709AE"
+			]
+			id: "5E59C8255183FF3E"
+			tasks: [{
+				id: "543534EF6C25D984"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			id: "555CE8F6001EF8E7"
+			tasks: [{
+				id: "5813632ADCCD6073"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			id: "14ADA913C53709AE"
+			tasks: [{
+				id: "1E1B0C8BEDA1BE1A"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			id: "5EC19D2B9B50D297"
+			tasks: [{
+				id: "5B022D3278A69185"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["480A410744310A2C"]
+			id: "2450C64E4D399859"
+			tasks: [{
+				id: "4A4EF964915553F3"
+				item: "createaddition:gold_wire"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["230F9B5017F11176"]
+			id: "480A410744310A2C"
+			tasks: [{
+				id: "7C9A0A85291E1F73"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			id: "230F9B5017F11176"
+			tasks: [{
+				id: "20892618A9469B57"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
 		}
 	]
 	title: "Chapter III: The Brass Machine"

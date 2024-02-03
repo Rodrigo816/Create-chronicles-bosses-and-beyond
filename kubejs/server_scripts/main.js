@@ -69,6 +69,16 @@ ServerEvents.recipes(event => {
 
     /*
     ===============================
+    ----> Renewable Ores
+    ==============================
+    */
+    event.remove({ input: CRDD('asurine_cobble') })
+    event.remove({ input: CRDD('veridium_cobble') })
+    event.remove({ input: CRDD('crimsite_cobble') })
+    event.remove({ input: CRDD('ochrum_cobble') })
+
+    /*
+    ===============================
     ---->Chapter 1 Andesite Rotation
     ==============================
     */

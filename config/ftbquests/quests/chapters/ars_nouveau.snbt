@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ars_nouveau"
-	group: "2B02D614E453E838"
+	group: "1FA30C6751C69E7A"
 	icon: "ars_nouveau:creative_spell_book"
 	id: "6AEDA2F9BEB57759"
-	order_index: 16
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -2878,5 +2878,5 @@
 			y: 1.5d
 		}
 	]
-	title: "Ars Nouveau"
+	title: "Ars NouveauStory"
 }

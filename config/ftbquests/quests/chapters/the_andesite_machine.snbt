@@ -233,6 +233,16 @@
 			x: 4.0d
 			y: 4.5d
 		}
+		{
+			id: "0E1868C16FD26B6F"
+			tasks: [{
+				id: "497E59DD3DE76116"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
 	]
 	title: "Chapter I: The Rotation Machine"
 }

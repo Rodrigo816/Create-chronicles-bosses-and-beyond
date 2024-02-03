@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oil_2"
+	group: ""
+	id: "6754C36555B56724"
+	order_index: 11
+	quest_links: [ ]
+	quests: [ ]
+	title: "Oil"
+}

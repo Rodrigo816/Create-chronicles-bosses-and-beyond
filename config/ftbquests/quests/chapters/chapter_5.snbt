@@ -10,18 +10,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 45.0d
-			hover: [ ]
-			image: "kubejs:textures/arcane_nebulae_by_betwizer.png"
-			rotation: 0.0d
-			width: 70.0d
-			x: 13.0d
-			y: -6.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 14.0d
 			hover: [ ]
 			image: "kubejs:textures/wow.png"

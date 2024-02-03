@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_noveau"
+	group: "1FA30C6751C69E7A"
+	icon: "ars_nouveau:creative_spell_book"
+	id: "7B6AEC191EE50A2C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ars Noveau "
+}
