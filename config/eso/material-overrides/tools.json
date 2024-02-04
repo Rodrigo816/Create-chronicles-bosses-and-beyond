@@ -1,0 +1,32 @@
+{
+  "GOLD": {
+    "maxEnchantments": 6,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "NETHERITE": {
+    "maxEnchantments": 5,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "WOOD": {
+    "maxEnchantments": 4,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "DIAMOND": {
+    "maxEnchantments": 4,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "IRON": {
+    "maxEnchantments": 3,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "STONE": {
+    "maxEnchantments": 2,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  }
+}

@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "kubejs:block/machine",
 	"textures": {
-		"0": "create:block/fluid_pipe",
+		"0": "create:block/pipes",
 		"1": "create:block/item_drain_top",
 		"2": "create:block/copper_casing",
 		"3": "create:block/fluid_tank_connected",
@@ -30,10 +30,10 @@
 			"to": [9, 22, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.19, 8, 10.81]},
 			"faces": {
-				"north": {"uv": [4, 6, 0, 14], "texture": "#0"},
+				"north": {"uv": [4, 0, 0, 8], "texture": "#0"},
 				"east": {"uv": [0, 6, 4, 14], "texture": "#0"},
-				"south": {"uv": [0, 6, 4, 14], "texture": "#0"},
-				"west": {"uv": [0, 6, 4, 14], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 8], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 8], "texture": "#0"},
 				"up": {"uv": [4, 12, 8, 16], "rotation": 180, "texture": "#0"}
 			}
 		},
@@ -42,11 +42,11 @@
 			"to": [6, 6, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.19, 8, 10.81]},
 			"faces": {
-				"north": {"uv": [11, 6, 8, 5], "texture": "#0"},
+				"north": {"uv": [7, 9, 4, 8], "texture": "#0"},
 				"east": {"uv": [6, 5, 16, 7], "rotation": 180, "texture": "#0"},
-				"south": {"uv": [11, 6, 8, 5], "texture": "#0"},
-				"west": {"uv": [11, 6, 6, 5], "texture": "#0"},
-				"up": {"uv": [8, 0, 11, 5], "rotation": 180, "texture": "#0"}
+				"south": {"uv": [7, 9, 4, 8], "texture": "#0"},
+				"west": {"uv": [9, 9, 4, 8], "texture": "#0"},
+				"up": {"uv": [0.5, 2, 3.5, 7], "rotation": 180, "texture": "#0"}
 			}
 		},
 		{
@@ -54,12 +54,12 @@
 			"to": [10, 24, 16],
 			"rotation": {"angle": 0, "axis": "z", "origin": [4, 23, 11]},
 			"faces": {
-				"north": {"uv": [11, 6, 6, 5], "rotation": 180, "texture": "#0"},
-				"east": {"uv": [6, 5, 11, 6], "texture": "#0"},
-				"south": {"uv": [11, 6, 6, 5], "rotation": 180, "texture": "#0"},
-				"west": {"uv": [6, 5, 11, 6], "texture": "#0"},
-				"up": {"uv": [6, 0, 11, 5], "rotation": 180, "texture": "#0"},
-				"down": {"uv": [6, 0, 11, 5], "texture": "#0"}
+				"north": {"uv": [9, 9, 4, 8], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [4, 8, 9, 9], "texture": "#0"},
+				"south": {"uv": [9, 9, 4, 8], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [4, 8, 9, 9], "texture": "#0"},
+				"up": {"uv": [11, 11, 16, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [1, 11, 6, 16], "texture": "#0"}
 			}
 		},
 		{

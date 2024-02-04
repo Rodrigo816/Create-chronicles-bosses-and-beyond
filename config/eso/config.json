@@ -1,5 +1,8 @@
 {
   "maxEnchantments": 3,
+  "enableEnchantability": true,
+  "enableDefaultRecipe": true,
+  "disableDiscoverySystem": false,
   "maxEnchantmentsOnLootBooks": 2,
   "maxEnchantmentsOnLootItems": 3,
   "enableCursesAmplifier": true,

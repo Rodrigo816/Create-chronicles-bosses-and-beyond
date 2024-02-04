@@ -1,0 +1,37 @@
+{
+  "gold": {
+    "maxEnchantments": 6,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "diamond": {
+    "maxEnchantments": 4,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "chainmail": {
+    "maxEnchantments": 4,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "turtle": {
+    "maxEnchantments": 5,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "iron": {
+    "maxEnchantments": 3,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "leather": {
+    "maxEnchantments": 5,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "netherite": {
+    "maxEnchantments": 5,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  }
+}

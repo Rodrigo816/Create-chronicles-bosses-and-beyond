@@ -4,7 +4,7 @@
 	filename: "chapter_iv_the_locomotive_machine"
 	group: ""
 	id: "0AF8EE64D6B4516C"
-	order_index: 9
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -26,6 +26,177 @@
 			}]
 			x: -2.0d
 			y: -1.5d
+		}
+		{
+			id: "46C6D675E116C997"
+			tasks: [{
+				id: "475DEBC8DA7BD31A"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "174567332B8DE8C1"
+			tasks: [{
+				id: "392FC7AAF3ACCF9F"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"380851C8D9C9511A"
+				"2185FF3295FDF2AE"
+				"47018A45446BE69A"
+				"2EC3F6D750D9EE7A"
+				"745C2FF822729257"
+				"5C00CCFC83CCE7A4"
+				"784EF4A65242E3FD"
+				"1325CB313B08AB70"
+				"4B91CC0919FE9219"
+			]
+			id: "254636A47FC0F2FC"
+			tasks: [{
+				id: "3070A5BE48E5E14D"
+				item: "tfmg:liquid_concrete_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "1325CB313B08AB70"
+			tasks: [{
+				id: "1456DD2C10D0A955"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "784EF4A65242E3FD"
+			tasks: [{
+				id: "1C3D1D3FCF46A210"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "5C00CCFC83CCE7A4"
+			tasks: [{
+				id: "274695EAFEFA7242"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2B1038EE6D366111"
+				"4B78BB8B294461A9"
+			]
+			id: "4B91CC0919FE9219"
+			tasks: [{
+				id: "7AA90DC761775BFD"
+				item: "tfmg:cement"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08B00F4FFF4BA13F"]
+			id: "2B1038EE6D366111"
+			tasks: [{
+				id: "538CD736FF8B66F7"
+				item: "tfmg:limesand"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			id: "4B78BB8B294461A9"
+			tasks: [{
+				id: "3948FE8F632A21BB"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			id: "0AA998D14B422B9E"
+			tasks: [{
+				amount: 1000L
+				fluid: "create:honey"
+				id: "74C52702ADA8950F"
+				type: "fluid"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			id: "4D774B40DB2BEA38"
+			tasks: [{
+				id: "0EB79B5A265FBBA4"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"0AA998D14B422B9E"
+				"4D774B40DB2BEA38"
+			]
+			id: "08B00F4FFF4BA13F"
+			tasks: [{
+				id: "17494EABC0E0ED8B"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			id: "4F6238D3265EE4F1"
+			tasks: [{
+				id: "5BEA43357A54EE07"
+				item: "railways:track_acacia"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "2955A7EDC5A65DA7"
+			tasks: [{
+				id: "1E16776DB47C2F46"
+				item: "ad_astra:iron_rod"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "07EE6AFA3FE693E1"
+			tasks: [{
+				id: "3BCDEB4A718D3EF2"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
 		}
 	]
 	title: "Chapter V: The Locomotive Machine"

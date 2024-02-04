@@ -1,0 +1,222 @@
+{
+  "1": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "amount": 12,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "amount": 3,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "amount": 6,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:diamond",
+      "amount": 3,
+      "remainderAmount": 1
+    }
+  ],
+  "2": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "amount": 12,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "amount": 3,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "amount": 6,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:diamond",
+      "amount": 3,
+      "remainderAmount": 1
+    }
+  ],
+  "3": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "amount": 12,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "amount": 3,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "amount": 6,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:diamond",
+      "amount": 3,
+      "remainderAmount": 1
+    }
+  ],
+  "4": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "amount": 32,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "amount": 7,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "amount": 24,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:diamond",
+      "amount": 7,
+      "remainderAmount": 1
+    }
+  ],
+  "5": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "amount": 32,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "amount": 7,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "amount": 24,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:diamond",
+      "amount": 7,
+      "remainderAmount": 1
+    }
+  ],
+  "6": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "amount": 32,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "amount": 7,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "amount": 24,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:diamond",
+      "amount": 7,
+      "remainderAmount": 1
+    }
+  ],
+  "7": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "amount": 32,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "amount": 7,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "amount": 24,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:diamond",
+      "amount": 7,
+      "remainderAmount": 1
+    }
+  ],
+  "8": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "amount": 48,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "amount": 16,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "amount": 32,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:diamond",
+      "amount": 16,
+      "remainderAmount": 1
+    }
+  ],
+  "9": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "amount": 48,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "amount": 16,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "amount": 32,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:diamond",
+      "amount": 16,
+      "remainderAmount": 1
+    }
+  ],
+  "10": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "amount": 48,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "amount": 16,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "amount": 32,
+      "remainderAmount": 1
+    },
+    {
+      "id": "minecraft:diamond",
+      "amount": 16,
+      "remainderAmount": 1
+    }
+  ]
+}

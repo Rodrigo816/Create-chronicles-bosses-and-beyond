@@ -1,0 +1,6 @@
+#If true, player trophies will render their names over their head similar to how players do.
+player_trophies_render_names = true
+#If true, some player trophies will render with special icons or name colors.
+#If you find this to be too distracting for some reason, you can turn this off to keep the names plainly formatted.
+render_player_trophy_name_decorators = true
+

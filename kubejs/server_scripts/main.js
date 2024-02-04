@@ -17,6 +17,8 @@ let IF = (id, x) => MOD("iceandfire", id, x)
 let ARS = (id, x) => MOD("ars_nouveau", id, x)
 let ASTRA = (id, x) => MOD("ad_astra", id, x)
 let BS = (id, x) => MOD("blue_skies", id, x)
+let TFMG= (id, x) => MOD("tfmg", id, x)
+let FA= (id, x) => MOD("forbidden_arcanus", id, x)
 
 
 ServerEvents.recipes(event => {
@@ -266,5 +268,31 @@ ServerEvents.recipes(event => {
 		.loops(3)
 		.id(CR('precision_mechanism'))
 
+    // NASA pro
+    event.replaceInput(
+        { id: ASTRA('recipes/rocket_nose_cone') }, 
+        MC('lightning_rod'),               
+        FA('whirlwind_prism')         
+    )
+
+    event.recipes.ad_astra.nasa_workbench({
+        "output": "minecraft:golden_apple",
+        ingredients: [
+          { "ingredient": { "item": ASTRA('rocket_nose_cone') } },
+          { "ingredient": { "item": TFMG('steel_block') } },
+          { "ingredient": { "item": TFMG('steel_block') } },
+          { "ingredient": { "item": TFMG('steel_block') } },
+          { "ingredient": { "item": TFMG('steel_block') } },
+          { "ingredient": { "item": TFMG('steel_block') } },
+          { "ingredient": { "item": TFMG('steel_block') } },
+          { "ingredient": { "item": CRSA('heat_engine') } },
+          { "ingredient": { "item": TFMG('large_radial_engine') } },
+          { "ingredient": { "item": TFMG('large_radial_engine') } },
+          { "ingredient": { "item": CRSA('heat_engine') } },
+          { "ingredient": { "item": ASTRA('rocket_fin') } },
+          { "ingredient": { "item": TFMG('turbine_engine') } },
+          { "ingredient": { "item": ASTRA('rocket_fin') } },
+        ]
+      })
 
 })

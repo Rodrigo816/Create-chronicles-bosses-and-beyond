@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_3"
-	group: "2B02D614E453E838"
+	group: ""
 	icon: "thermal:invar_block"
 	id: "3CB202406B401D8B"
 	images: [
@@ -31,7 +31,7 @@
 			y: -3.0d
 		}
 	]
-	order_index: 20
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{

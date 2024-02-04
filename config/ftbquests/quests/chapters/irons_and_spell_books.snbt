@@ -1,0 +1,178 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_and_spell_books"
+	group: "1FA30C6751C69E7A"
+	id: "67A95E982EC0E071"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Iron's Spells 'n Spellbooks is a magic mod focused around exploring the world to find magic scrolls in order to cast fantastical magics. Craft the magic scrolls yourself, or seek out mage towers or deadly crypts around the world and take their loot as your own."]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "4B378FB1C1B2C9B6"
+			subtitle: "Magic and towers"
+			tasks: [{
+				id: "2393F7F99A9D5A39"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "irons_spellbooks:iss_guide_book"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"23821B52905A0A11"
+				"203A551C239270CC"
+			]
+			description: [
+				"You may quickly notice as your explore your world that you will be finding scrolls. "
+				""
+				"Each scroll contains a spell, similar to an enchanted book. "
+				""
+				"The scroll can be consumed to cast that spell without consuming mana or triggering a cooldown, or brought to the first new workstation added: the Inscription Table."
+				""
+				"At the inscription table, you are allowed to place a spell book, one either found or crafted, and slot the scroll into it."
+				""
+				"However, depending on the rarity of the scroll (determined by the spell’s level), it may be too powerful for your spell book."
+				""
+				"In this case, you need a better spell book."
+			]
+			id: "5B77391C5522B8FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1289670BD572DC07"
+				type: "choice"
+			}]
+			subtitle: "Inscribing spells"
+			tasks: [{
+				id: "4760248725EA6AFE"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"23821B52905A0A11"
+				"4B378FB1C1B2C9B6"
+			]
+			description: ["It's hard to keep finding single use scrolls, but by putting the scrolls into a spell book using the inscription table, one can keep using the spell without consuming the scroll."]
+			id: "203A551C239270CC"
+			subtitle: "Your first Spellbook"
+			tasks: [{
+				id: "57756789D0E642A1"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 4
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3705F3FE20E4D597"
+				"7F100A2BD0FCDF83"
+				"36F0F4CB2DB0DC6F"
+				"5B77391C5522B8FD"
+			]
+			description: ["The Arcane Anvil allows you to place 2 scrolls of the same type/level and combine them into the next level up. By placing a weapon and a spell scroll into th Arcane Anvil you can also imbue the effects of the used scroll into said weapon (consumes scroll,) making the weapon able to cast the spell. A Shriving Stone can be used to take off an imbued spell from a weapon."]
+			id: "25F182EEFE41CFAB"
+			rewards: [{
+				id: "391A333A7E3687F0"
+				item: "irons_spellbooks:shriving_stone"
+				type: "item"
+			}]
+			subtitle: "Upgrading and Imbuement"
+			tasks: [{
+				id: "489E87CAFFF7045B"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["203A551C239270CC"]
+			description: ["Runestones are a more rare find in magical structures, and are always found as blank runestones. Using 8 focuses, you can craft a runestone to a specific school, and use your inscribed runestone to craft gear related to that school."]
+			id: "7F100A2BD0FCDF83"
+			tasks: [{
+				id: "5D93C698ECD2F59D"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B378FB1C1B2C9B6"]
+			id: "4BF4F782BB659567"
+			subtitle: "Arcane essence is the most common and most important magical material. It can be found in magical structures, or looted from killing magical enemies. Low amounts of it may craft weak magic items, but its primary purpose is to be condensed into Arcane Cloth or Arcane Ingots, and used in more powerful crafting recipes."
+			tasks: [{
+				id: "5CD67234CAD3B746"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B378FB1C1B2C9B6"]
+			description: [
+				"Ink can be found in magic structures, such as wizard towers, and is the key to crafting scrolls. "
+				""
+				"There are 5 variants, one for each rarity of scroll."
+				""
+				"When using ink in the Scroll Forge, it will allow you to craft a spell of the corresponding rarity, at the lowest level available. If the minimum rarity of a spell is higher than the ink provided, you will not be able to craft it at all, instead needing a higher quality ink to craft its first level."
+			]
+			id: "06B922A788EDDEC4"
+			tasks: [{
+				id: "31E0D91ADE40BCF9"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["203A551C239270CC"]
+			description: [
+				"The Scroll Forge is a new crafting station that allows the player to craft scrolls by using ink, paper, and a focus. "
+				""
+				"The ink determines the rarity/level, and the focus determines what school of spells you can craft."
+			]
+			id: "36F0F4CB2DB0DC6F"
+			subtitle: "Making Spells"
+			tasks: [{
+				id: "51298BAF518C7A9E"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+	]
+	title: "Irons and Spell Books"
+}
