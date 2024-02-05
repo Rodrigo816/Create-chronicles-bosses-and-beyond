@@ -943,6 +943,128 @@
 			x: -1.0d
 			y: 6.5d
 		}
+		{
+			description: [""]
+			id: "7FB83D3B7BA08C64"
+			tasks: [{
+				id: "3BD28FA3BD4786C5"
+				title: "as"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "3844825296D29971"
+			tasks: [{
+				id: "286BA34064665701"
+				item: "minecraft:spruce_wood"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "2CB5ED12CA3CAEC4"
+			tasks: [{
+				id: "051CE3BE80E95F42"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2CB5ED12CA3CAEC4"]
+			id: "71F0D1C3E7FB5A6C"
+			tasks: [{
+				id: "478B26EC5EAE1576"
+				item: "kubejs:mystic_coal_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["716FF6B4B8C5844C"]
+			id: "77C3C65A485F7CCC"
+			tasks: [{
+				id: "35BEE1FE6DAC1627"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["77C3C65A485F7CCC"]
+			id: "3C396D3DB5BB1C9C"
+			tasks: [{
+				id: "6EB48DDED30B6F57"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["71F0D1C3E7FB5A6C"]
+			id: "08A4160AF895DE85"
+			tasks: [{
+				id: "206BC3CC0338CF7D"
+				item: "kubejs:dormant_dust_mystic_coal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"08A4160AF895DE85"
+				"38A6B9F33C2FFB7A"
+			]
+			id: "1CCF195684DE24B7"
+			tasks: [{
+				amount: 1000L
+				fluid: "kubejs:mystic_coal_liquid"
+				id: "25A38EA372DE173D"
+				type: "fluid"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			id: "38A6B9F33C2FFB7A"
+			tasks: [{
+				id: "1AC8A7C249C04FB7"
+				item: "tfmg:coal_coke_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1CCF195684DE24B7"]
+			id: "0DEDED4932541F5D"
+			tasks: [{
+				id: "2C00436CB68B02DD"
+				item: "kubejs:ingot_mystic_coal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0DEDED4932541F5D"]
+			id: "716FF6B4B8C5844C"
+			tasks: [{
+				id: "28870FBBFB762615"
+				item: "kubejs:rod_mystic_coal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
 	]
 	title: "Chapter VI: Steel Mechanism"
 }

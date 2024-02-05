@@ -6,6 +6,12 @@ StartupEvents.registry('fluid', (event) => {
             color: 0xa73434,
             display: 'Destabilized Redstone'
         },
+        {
+            type: 'thin',
+            id: 'mystic_coal_liquid',
+            color: 0x131a1d,
+            display: 'Mystic Coal Liquid'
+        },
     ];
 
     fluids.forEach((fluid) => {

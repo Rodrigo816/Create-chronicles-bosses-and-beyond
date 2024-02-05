@@ -215,8 +215,8 @@
 				item: "tfmg:kerosene_bucket"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["79D8F10B5FB6E8A0"]
@@ -260,7 +260,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3D74996DA8E68370"]
@@ -288,7 +288,8 @@
 		{
 			dependencies: [
 				"213FE39AA35C3F95"
-				"3D74996DA8E68370"
+				"2975C35F5F29256F"
+				"1ACB2AFC5EB11041"
 			]
 			id: "59B36B675F138BB6"
 			tasks: [{
@@ -296,8 +297,8 @@
 				item: "minecraft:gunpowder"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["44A670D932666510"]
@@ -361,6 +362,7 @@
 			dependencies: [
 				"39F41DD259107207"
 				"634900A1F828C03A"
+				"5F251A9D593B7C53"
 			]
 			id: "05C33B6D8E933B93"
 			shape: "square"
@@ -370,7 +372,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 6.0d
+			y: 11.0d
 		}
 		{
 			id: "39F41DD259107207"
@@ -380,7 +382,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.5d
+			y: 8.5d
 		}
 		{
 			id: "7350979CF6533DDD"
@@ -389,8 +391,151 @@
 				item: "create_sa:heat_engine"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 6.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["496C8280CF77787E"]
+			id: "2975C35F5F29256F"
+			tasks: [{
+				id: "1081A5ED282813D3"
+				item: "tfmg:nitrate_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "496C8280CF77787E"
+			tasks: [{
+				id: "66D70BAD34C8F7C8"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["55E6E99D3CEF6003"]
+			id: "1ACB2AFC5EB11041"
+			tasks: [{
+				id: "57C59A4FFD5B4CA1"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "55E6E99D3CEF6003"
+			tasks: [{
+				id: "240B70F3F042F90B"
+				item: "minecraft:oak_wood"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "2CB5ED12CA3CAEC4"
+			tasks: [{
+				id: "051CE3BE80E95F42"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2CB5ED12CA3CAEC4"]
+			id: "71F0D1C3E7FB5A6C"
+			tasks: [{
+				id: "478B26EC5EAE1576"
+				item: "kubejs:mystic_coal_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["716FF6B4B8C5844C"]
+			id: "77C3C65A485F7CCC"
+			tasks: [{
+				id: "35BEE1FE6DAC1627"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["77C3C65A485F7CCC"]
+			id: "3C396D3DB5BB1C9C"
+			tasks: [{
+				id: "6EB48DDED30B6F57"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["71F0D1C3E7FB5A6C"]
+			id: "08A4160AF895DE85"
+			tasks: [{
+				id: "206BC3CC0338CF7D"
+				item: "kubejs:dormant_dust_mystic_coal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"08A4160AF895DE85"
+				"38A6B9F33C2FFB7A"
+			]
+			id: "1CCF195684DE24B7"
+			tasks: [{
+				amount: 1000L
+				fluid: "kubejs:mystic_coal_liquid"
+				id: "25A38EA372DE173D"
+				type: "fluid"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			id: "38A6B9F33C2FFB7A"
+			tasks: [{
+				id: "1AC8A7C249C04FB7"
+				item: "tfmg:coal_coke_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1CCF195684DE24B7"]
+			id: "0DEDED4932541F5D"
+			tasks: [{
+				id: "2C00436CB68B02DD"
+				item: "kubejs:ingot_mystic_coal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0DEDED4932541F5D"]
+			id: "716FF6B4B8C5844C"
+			tasks: [{
+				id: "28870FBBFB762615"
+				item: "kubejs:rod_mystic_coal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
 		}
 	]
 	title: "Oil"

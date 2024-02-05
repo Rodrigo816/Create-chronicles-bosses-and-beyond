@@ -295,4 +295,79 @@ ServerEvents.recipes(event => {
         ]
       })
 
+    // Blaze Rod
+    event.recipes.createCrushing('9x '+KJ('dormant_dust_mystic_coal'), KJ('mystic_coal_block')).processingTime(500)
+    event.custom(
+        {
+            "type": TFMG('industrial_blasting'),
+            "ingredients": [
+              {
+                "count": 1,
+                "item": KJ('dormant_dust_mystic_coal')
+              }
+            ],
+            "processingTime": 320,
+            "results": [
+              {
+                "fluid": KJ('mystic_coal_liquid'),
+                "amount": 333
+              },
+              {
+                "fluid": TFMG('molten_slag'),
+                "amount": 65
+              }
+            ]
+        }
+	)
+    event.custom(
+        {
+            "type": TFMG('casting'),
+            "ingredients": [
+              {
+                "fluid": KJ('mystic_coal_liquid'),
+                "amount": 1
+              }
+            ],
+            "processingTime": 300,
+            "results": [
+              {
+                "count": 1,
+                "item": KJ('ingot_mystic_coal')
+              }
+            ]
+        }
+	)
+    event.custom({
+        "type": CRA('rolling'),
+        "input": {
+              "item": KJ('ingot_mystic_coal')
+        },
+        "result": {
+            "item": KJ('rod_mystic_coal'),
+            "count": 3
+        }
+    })
+    transitional = 'kubejs:incomplete_rotation_mechanism'
+	event.recipes.createSequencedAssembly([
+		MC('blaze_rod'),
+	], KJ('rod_mystic_coal'), [
+        event.recipes.createDeploying(transitional, [transitional, BS('fiery_beans')]),
+        event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
+        event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
+        event.recipes.createPressing(transitional, transitional)
+	]).transitionalItem(transitional)
+		.loops(6)
+		.id(KJ('rod_mystic_coal'))
+
+        //event.recipes.createFilling(transitionalValve, [
+          //  transitionalValve,
+          //  Fluid.of('minecraft:water', 250)
+          //]),
+
+        // Blaze
+        //event.create('dormant_dust_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Dormant Coal Dust')
+        //event.create('dust_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Coal Dust')
+        //event.create('ingot_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Coal Ingot')
+        //event.create('rod_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Coal Rod')
+
 })

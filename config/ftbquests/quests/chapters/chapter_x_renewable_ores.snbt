@@ -281,6 +281,7 @@
 		}
 		{
 			id: "3FB3FBB8C14EE5B0"
+			subtitle: "remover hot chocolate"
 			tasks: [{
 				id: "34B0552388A4CC76"
 				item: "create_dd:hot_chocolate_bucket"
@@ -813,6 +814,86 @@
 				type: "item"
 			}]
 			x: 8.5d
+			y: -2.0d
+		}
+		{
+			id: "6F2B71DAF90FDC09"
+			tasks: [{
+				id: "17CE121DD0E52488"
+				item: "molten_vents:dormant_molten_scorchia"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			id: "1D287DBAB263E2A0"
+			tasks: [{
+				id: "24B086DE89729094"
+				item: "create_dd:hot_chocolate_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			id: "0F0CD0C4AEDC6AD9"
+			tasks: [{
+				id: "03E16ED2D463FBE4"
+				item: "create_dd:chromatic_waste_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "3CA5D965EE1D9E26"
+			tasks: [{
+				id: "4E68E6C01C03E070"
+				item: "aether:skyroot_poison_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "66CBA0AD7B833E78"
+			tasks: [{
+				id: "148075BC57464A35"
+				item: "tfmg:naphtha_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			id: "6A114FBFDB64B6AF"
+			tasks: [{
+				id: "0D3BAB2537A6E899"
+				item: "blue_skies:ventium_lava_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			id: "4BC42B5FF9B195F8"
+			tasks: [{
+				id: "3EF24B3F15E1AC43"
+				item: "enlightened_end:ooze_fluid_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "6C503D64D41795DF"
+			tasks: [{
+				id: "798FB325E295D316"
+				item: "kubejs:mystic_coal_liquid_bucket"
+				type: "item"
+			}]
+			x: 12.0d
 			y: -2.0d
 		}
 	]
