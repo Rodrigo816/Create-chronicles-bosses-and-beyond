@@ -4,7 +4,7 @@
 	filename: "chapter_iv_the_locomotive_machine"
 	group: ""
 	id: "0AF8EE64D6B4516C"
-	order_index: 8
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -49,11 +49,6 @@
 		}
 		{
 			dependencies: [
-				"380851C8D9C9511A"
-				"2185FF3295FDF2AE"
-				"47018A45446BE69A"
-				"2EC3F6D750D9EE7A"
-				"745C2FF822729257"
 				"5C00CCFC83CCE7A4"
 				"784EF4A65242E3FD"
 				"1325CB313B08AB70"
@@ -169,24 +164,14 @@
 			y: -8.0d
 		}
 		{
-			id: "4F6238D3265EE4F1"
-			tasks: [{
-				id: "5BEA43357A54EE07"
-				item: "railways:track_acacia"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
 			id: "2955A7EDC5A65DA7"
 			tasks: [{
 				id: "1E16776DB47C2F46"
 				item: "ad_astra:iron_rod"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.5d
+			x: 8.5d
+			y: -0.5d
 		}
 		{
 			id: "07EE6AFA3FE693E1"
@@ -195,8 +180,50 @@
 				item: "minecraft:slime_ball"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			id: "6027481987412344"
+			tasks: [{
+				id: "5DE84F1065A9A562"
+				item: "forbidden_arcanus:obsidian_with_iron"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E62A3B6C3E0EF8B"]
+			id: "1360D8CD2949E41B"
+			tasks: [{
+				id: "3E70EED36DDFF8EF"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B0D61030092824D"]
+			id: "6E62A3B6C3E0EF8B"
+			tasks: [{
+				id: "5E181D8952DDF478"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "6B0D61030092824D"
+			tasks: [{
+				id: "56731712C3EC0870"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
 		}
 	]
 	title: "Chapter V: The Locomotive Machine"

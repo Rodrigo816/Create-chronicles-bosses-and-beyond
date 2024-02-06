@@ -5,182 +5,9 @@
 	group: ""
 	icon: "tfmg:heavy_oil_bucket"
 	id: "38FE3E0C86FF237B"
-	order_index: 9
+	order_index: 8
 	quest_links: [ ]
 	quests: [
-		{
-			description: [
-				"The &6Surface Scanner&f shows how far away an oil source is with an approximate 8-block margin of error. "
-				""
-				"The oil source is found at the bedrock."
-				""
-				"The &6surface scanner&f isn't very accurate, it’s recommended to do a search around the bedrock where the scanner pointed or to look in another location. Good luck"
-			]
-			id: "5E43C8E344DD951E"
-			rewards: [
-				{
-					count: 10
-					id: "01B467BD98ED7C13"
-					item: "tfmg:industrial_pipe"
-					type: "item"
-				}
-				{
-					id: "7C58AC8B1678550F"
-					item: "create:hand_crank"
-					type: "item"
-				}
-				{
-					id: "62481781D8D3275A"
-					item: {
-						Count: 1b
-						id: "minecraft:diamond_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "50A0836E13CBFEB0"
-					item: {
-						Count: 1b
-						id: "create:super_glue"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5094D88CB44BCDA6"
-				item: "tfmg:surface_scanner"
-				type: "item"
-			}]
-			title: "Finding the ore deposit"
-			x: -10.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["19D52AF67484168B"]
-			description: ["The next step is building the Distillation machine."]
-			id: "1E1E079FFAE3FAF2"
-			rewards: [
-				{
-					id: "12A90D4FFE5C4DC0"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "2E285870788EE6CC"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-			]
-			subtitle: "Please use the ponder scene to refer on how to build"
-			tasks: [
-				{
-					id: "6519B92105B2C6E6"
-					item: "tfmg:steel_distillation_controller"
-					type: "item"
-				}
-				{
-					id: "2F62A9EDEDCD4B5D"
-					item: "tfmg:steel_truss"
-					type: "item"
-				}
-				{
-					count: 52L
-					id: "62F6C005098B2D13"
-					item: "tfmg:steel_fluid_tank"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "13FBC0933820B0E4"
-					item: "tfmg:steel_distillation_output"
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "52B4F7143C036D7D"
-					item: "tfmg:industrial_pipe"
-					type: "item"
-				}
-			]
-			title: "Distilation"
-			x: -7.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["5E43C8E344DD951E"]
-			description: [
-				"Run an &3industrial pipe&f from the oil source at the bedrock to where you want to pump. Then place a &9pumpjack base&f on top the industrial pipe."
-				""
-				"If the pumpjack doesn't work, make sure EVERYTHING is glued together. "
-				""
-				"After the Oil Pump machine is built and running, you may extract the oil with a &cmechanical pump&f attached to the &9pumpjack base&f."
-			]
-			icon: "tfmg:heavy_oil_bucket"
-			id: "19D52AF67484168B"
-			rewards: [
-				{
-					count: 16
-					id: "12B8791C4F3C0DB6"
-					item: "tfmg:steel_fluid_tank"
-					type: "item"
-				}
-				{
-					id: "0EDEB36D9D717D6B"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "Please use the ponder scene to refer on how to build"
-			tasks: [
-				{
-					id: "6DF4BE2AA909D6D7"
-					item: "tfmg:pumpjack_hammer_head"
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "617AA4701378B9F3"
-					item: "tfmg:pumpjack_hammer_part"
-					type: "item"
-				}
-				{
-					id: "1EDE4024C5EEAD3A"
-					item: "tfmg:pumpjack_hammer"
-					type: "item"
-				}
-				{
-					id: "08D41ABAF99DE7B1"
-					item: "tfmg:pumpjack_crank"
-					type: "item"
-				}
-				{
-					id: "51FF04FA64956CA2"
-					item: "tfmg:pumpjack_base"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "201A654C7B771200"
-					item: "tfmg:steel_truss"
-					type: "item"
-				}
-				{
-					id: "6D0896AB5FC06612"
-					item: "tfmg:pumpjack_hammer_connector"
-					type: "item"
-				}
-			]
-			title: "Pumpjack"
-			x: -9.0d
-			y: -3.5d
-		}
 		{
 			dependencies: ["60A94E3337A26181"]
 			id: "44B711E1B5B7B00E"
@@ -286,7 +113,7 @@
 		{
 			dependencies: [
 				"6410C194650D31D0"
-				"0BA407B166A319EA"
+				"41F2204F3859C40E"
 			]
 			id: "3786CEBDF1D138A3"
 			rewards: [{
@@ -352,8 +179,8 @@
 				}
 			]
 			title: "Distillation Tower"
-			x: 16.0d
-			y: 7.5d
+			x: 3.5d
+			y: -15.5d
 		}
 		{
 			id: "5FC15F09A4F38C2F"
@@ -377,8 +204,8 @@
 				}
 			]
 			title: "Cast Iron Distillation Tower"
-			x: 16.0d
-			y: 3.5d
+			x: 3.5d
+			y: -19.5d
 		}
 		{
 			id: "4BFE691DA16592E8"
@@ -392,8 +219,8 @@
 				item: "tfmg:plastic_sheet"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 3.5d
+			x: 5.0d
+			y: -19.5d
 		}
 		{
 			icon: "tfmg:diesel_bucket"
@@ -433,8 +260,8 @@
 				title: "Refining Oil"
 				type: "checkmark"
 			}]
-			x: 17.5d
-			y: 5.5d
+			x: 5.0d
+			y: -17.5d
 		}
 		{
 			id: "56BE394D10432CE8"
@@ -457,8 +284,8 @@
 				item: "tfmg:napalm_bomb"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 7.5d
+			x: 5.0d
+			y: -15.5d
 		}
 		{
 			id: "2F7A07FA1E68842D"
@@ -473,8 +300,8 @@
 				item: "tfmg:large_radial_engine"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 7.5d
+			x: 6.0d
+			y: -15.5d
 		}
 		{
 			id: "7783772BC503C57D"
@@ -495,8 +322,8 @@
 					type: "item"
 				}
 			]
-			x: 19.5d
-			y: 6.5d
+			x: 7.0d
+			y: -16.5d
 		}
 		{
 			id: "7E40DC0A9AFE729A"
@@ -518,8 +345,8 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
-			y: 3.5d
+			x: 6.0d
+			y: -19.5d
 		}
 		{
 			id: "3326631077188DD0"
@@ -541,8 +368,8 @@
 				item: "tfmg:diesel_engine"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 4.5d
+			x: 7.0d
+			y: -18.5d
 		}
 		{
 			id: "2D83F9A9D0279308"
@@ -563,8 +390,8 @@
 					type: "item"
 				}
 			]
-			x: 19.5d
-			y: 5.5d
+			x: 7.0d
+			y: -17.5d
 		}
 		{
 			id: "469454D2C2AE8FBC"
@@ -581,8 +408,8 @@
 				item: "alexscaves:nuclear_bomb"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 2.5d
+			x: 5.0d
+			y: -20.5d
 		}
 		{
 			id: "66390863259FE74C"
@@ -593,16 +420,6 @@
 			}]
 			x: -1.0d
 			y: 1.0d
-		}
-		{
-			id: "2185FF3295FDF2AE"
-			tasks: [{
-				id: "221AF8A0467D4C29"
-				item: "tfmg:cement"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -629,82 +446,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"380851C8D9C9511A"
-				"2185FF3295FDF2AE"
-				"47018A45446BE69A"
-				"2EC3F6D750D9EE7A"
-				"745C2FF822729257"
-			]
-			id: "0B38A8FE68AAED6B"
-			tasks: [{
-				id: "77A51D62C0DB9ABF"
-				item: "tfmg:liquid_concrete_bucket"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 0.5d
-		}
-		{
-			id: "380851C8D9C9511A"
-			tasks: [
-				{
-					id: "08E04BAE0054FE5F"
-					item: "tfmg:slag"
-					type: "item"
-				}
-				{
-					id: "0F4F839005BA0CA7"
-					item: "minecraft:sand"
-					type: "item"
-				}
-			]
-			x: -7.0d
-			y: -1.0d
-		}
-		{
-			id: "47018A45446BE69A"
-			tasks: [{
-				id: "6AFAC2EFC6FAAE75"
-				item: "minecraft:gravel"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -1.0d
-		}
-		{
-			id: "2EC3F6D750D9EE7A"
-			tasks: [{
-				id: "224FDA892B41F563"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -1.0d
-		}
-		{
-			id: "745C2FF822729257"
-			tasks: [{
-				id: "0BDAECCE724A2E45"
-				item: "tfmg:rebar_formwork_block"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["745C2FF822729257"]
-			id: "54E04E7346C13A08"
-			subtitle: "you can dye it=BLAST RESISTENCE"
-			tasks: [{
-				id: "7BB0B46E9BD7F1FF"
-				item: "tfmg:rebar_concrete"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 2.5d
-		}
-		{
 			id: "0D2D729534CC797F"
 			tasks: [{
 				id: "474A4F8B2096CDA0"
@@ -715,24 +456,15 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["7E82E9591EDB4835"]
 			id: "41F2204F3859C40E"
 			tasks: [{
 				id: "0EA6CA1CCA875A5D"
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: -7.0d
-		}
-		{
-			id: "0BA407B166A319EA"
-			tasks: [{
-				id: "240F6A031AE37CB7"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -4.0d
 		}
 		{
 			dependencies: ["3786CEBDF1D138A3"]
@@ -753,7 +485,7 @@
 				item: "tfmg:creosote_bucket"
 				type: "item"
 			}]
-			x: 4.0d
+			x: -2.0d
 			y: -4.0d
 		}
 		{
@@ -775,7 +507,7 @@
 				item: "tfmg:hardened_planks"
 				type: "item"
 			}]
-			x: 5.5d
+			x: -0.5d
 			y: -4.0d
 		}
 		{
@@ -786,7 +518,7 @@
 				item: "tfmg:steel_casing"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
@@ -858,6 +590,10 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"3E42FEEFBC22F7D3"
+				"7682212B86FC5B85"
+			]
 			id: "3AB3B4308FA14C9E"
 			tasks: [{
 				id: "5ABF5E739971F4AD"
@@ -944,46 +680,32 @@
 			y: 6.5d
 		}
 		{
-			description: [""]
-			id: "7FB83D3B7BA08C64"
-			tasks: [{
-				id: "3BD28FA3BD4786C5"
-				title: "as"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: -1.5d
-		}
-		{
-			id: "3844825296D29971"
-			tasks: [{
-				id: "286BA34064665701"
-				item: "minecraft:spruce_wood"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.0d
-		}
-		{
+			dependencies: ["41F2204F3859C40E"]
 			id: "2CB5ED12CA3CAEC4"
+			subtitle: "Block of coal"
 			tasks: [{
 				id: "051CE3BE80E95F42"
 				item: "minecraft:coal_block"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 5.0d
+			title: "OPTIONAL"
+			x: 9.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["2CB5ED12CA3CAEC4"]
+			dependencies: [
+				"2CB5ED12CA3CAEC4"
+				"17E6666AED4CDEFB"
+				"1F74700C66E141D4"
+			]
 			id: "71F0D1C3E7FB5A6C"
 			tasks: [{
 				id: "478B26EC5EAE1576"
 				item: "kubejs:mystic_coal_block"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 6.0d
+			x: 9.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["716FF6B4B8C5844C"]
@@ -993,8 +715,8 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 11.0d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["77C3C65A485F7CCC"]
@@ -1004,8 +726,8 @@
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 12.0d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["71F0D1C3E7FB5A6C"]
@@ -1015,33 +737,22 @@
 				item: "kubejs:dormant_dust_mystic_coal"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 7.0d
+			x: 9.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
 				"08A4160AF895DE85"
-				"38A6B9F33C2FFB7A"
+				"239718D740BF77C5"
 			]
 			id: "1CCF195684DE24B7"
 			tasks: [{
-				amount: 1000L
-				fluid: "kubejs:mystic_coal_liquid"
-				id: "25A38EA372DE173D"
-				type: "fluid"
-			}]
-			x: -3.5d
-			y: 8.0d
-		}
-		{
-			id: "38A6B9F33C2FFB7A"
-			tasks: [{
-				id: "1AC8A7C249C04FB7"
-				item: "tfmg:coal_coke_dust"
+				id: "41AD3C9E835ACF38"
+				item: "kubejs:mystic_coal_liquid_bucket"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 8.0d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1CCF195684DE24B7"]
@@ -1051,8 +762,8 @@
 				item: "kubejs:ingot_mystic_coal"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 9.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0DEDED4932541F5D"]
@@ -1062,8 +773,105 @@
 				item: "kubejs:rod_mystic_coal"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 10.0d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["409394CEF9087E88"]
+			id: "7E82E9591EDB4835"
+			tasks: [{
+				id: "0D462E5C990EC927"
+				item: "create_dd:coal_piece"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["23EB881052304EE0"]
+			id: "409394CEF9087E88"
+			tasks: [{
+				id: "1F112853E7AB803B"
+				item: "create:scorchia"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			id: "23EB881052304EE0"
+			tasks: [{
+				id: "000AFF0E198A8AA4"
+				item: "molten_vents:dormant_molten_scorchia"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"5F7A18E1DDDDD166"
+				"409394CEF9087E88"
+			]
+			id: "3E42FEEFBC22F7D3"
+			tasks: [{
+				id: "18DF3371A3B988F5"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			id: "7682212B86FC5B85"
+			tasks: [{
+				id: "0A2352F496F6C23A"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "1F74700C66E141D4"
+			tasks: [{
+				id: "14CFA20BB29CA5DB"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["16937B0EDAE2B227"]
+			id: "17E6666AED4CDEFB"
+			tasks: [{
+				id: "3C73C56636A21767"
+				item: "minecraft:glow_ink_sac"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			id: "16937B0EDAE2B227"
+			tasks: [{
+				id: "382A90AF633E4158"
+				item: "minecraft:ink_sac"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			id: "55CACF29F521A6D1"
+			tasks: [{
+				id: "24B96DF83C65460C"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
 		}
 	]
 	title: "Chapter VI: Steel Mechanism"

@@ -8,6 +8,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"671ABB3F4DDF8A89"
+				"1C5DFA2AD6DEE1B2"
+				"201291E8B8D4FE73"
+				"05836C34CD66A56F"
+			]
 			id: "7D6E6EFCB2DD19A0"
 			tasks: [{
 				id: "770EC6F492C38791"
@@ -18,6 +24,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["7D6E6EFCB2DD19A0"]
 			id: "72C989B765AD2A4B"
 			tasks: [{
 				id: "4F60E93DA063643B"
@@ -28,6 +35,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["72C989B765AD2A4B"]
 			id: "0101855DF75D6C40"
 			tasks: [{
 				id: "60A42BA3D7D465F9"
@@ -38,6 +46,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["0101855DF75D6C40"]
 			id: "5BFA4F90901AC7B2"
 			tasks: [{
 				id: "45BC74F0D21F89E3"
@@ -48,6 +57,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["5BFA4F90901AC7B2"]
 			id: "49E754928BF234F3"
 			tasks: [{
 				id: "1F9DB8D59AEF9247"
@@ -58,6 +68,10 @@
 			y: 7.0d
 		}
 		{
+			dependencies: [
+				"49E754928BF234F3"
+				"2EBE018FE570EF16"
+			]
 			id: "340B69A08A8A7CF3"
 			tasks: [{
 				id: "2A4A8C8AC00ECBD3"
@@ -84,8 +98,8 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			id: "1C5DFA2AD6DEE1B2"
@@ -118,6 +132,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["5924E1675FE1A9D0"]
 			id: "1BAF2EB40FE08B25"
 			tasks: [{
 				id: "71C9FE5F39A5B431"
@@ -138,6 +153,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["340B69A08A8A7CF3"]
 			id: "5924E1675FE1A9D0"
 			tasks: [{
 				id: "6A34C8BAA9CFC455"
@@ -148,6 +164,11 @@
 			y: 10.0d
 		}
 		{
+			dependencies: [
+				"1BAF2EB40FE08B25"
+				"52D0CAA2503C35D6"
+				"701883FE5E3CF381"
+			]
 			id: "1FD0A192707FD8B2"
 			tasks: [{
 				id: "72B18A4F455BF477"
@@ -164,8 +185,8 @@
 				item: "quark:red_corundum_cluster"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -202,46 +223,25 @@
 			y: 9.5d
 		}
 		{
-			id: "5EC19D2B9B50D297"
+			id: "52D0CAA2503C35D6"
 			tasks: [{
-				id: "5B022D3278A69185"
-				item: "create:cinder_flour"
+				id: "2D7170386855BCB0"
+				item: "ae2:nether_quartz_wrench"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.5d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["480A410744310A2C"]
-			id: "2450C64E4D399859"
+			dependencies: ["5E59C8255183FF3E"]
+			id: "701883FE5E3CF381"
 			tasks: [{
-				id: "4A4EF964915553F3"
-				item: "createaddition:gold_wire"
+				id: "7AFC52965847BD86"
+				item: "create:brass_sheet"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["230F9B5017F11176"]
-			id: "480A410744310A2C"
-			tasks: [{
-				id: "7C9A0A85291E1F73"
-				item: "create:golden_sheet"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 10.0d
-		}
-		{
-			id: "230F9B5017F11176"
-			tasks: [{
-				id: "20892618A9469B57"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 9.0d
+			x: 3.5d
+			y: 12.5d
 		}
 	]
 	title: "Chapter III: The Brass Machine"

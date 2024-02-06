@@ -26,6 +26,7 @@ StartupEvents.registry("block", (event) => {
     machine('Andesite', 'Rotation', "solid")
     machine('Copper', 'Valve', "solid")
     machine('Brass', 'Precision', "solid")
+    machine('OBsidian', 'Locomotive', "solid")
 })
 
 

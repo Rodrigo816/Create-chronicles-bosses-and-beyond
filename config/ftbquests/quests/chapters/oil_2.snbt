@@ -4,7 +4,7 @@
 	filename: "oil_2"
 	group: ""
 	id: "6754C36555B56724"
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -61,10 +61,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"5E43C8E344DD951E"
-				"5ACAE424E85D95BA"
-			]
+			dependencies: ["5ACAE424E85D95BA"]
 			description: [
 				"Run an &3industrial pipe&f from the oil source at the bedrock to where you want to pump. Then place a &9pumpjack base&f on top the industrial pipe."
 				""
@@ -131,10 +128,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"19D52AF67484168B"
-				"002EF55827A366DE"
-			]
+			dependencies: ["002EF55827A366DE"]
 			description: ["The next step is building the Distillation machine."]
 			id: "79D8F10B5FB6E8A0"
 			rewards: [
@@ -437,9 +431,9 @@
 			y: 4.0d
 		}
 		{
-			id: "2CB5ED12CA3CAEC4"
+			id: "19069D2118E2E673"
 			tasks: [{
-				id: "051CE3BE80E95F42"
+				id: "5B6C2ADD31A63A9F"
 				item: "minecraft:coal_block"
 				type: "item"
 			}]
@@ -448,9 +442,9 @@
 		}
 		{
 			dependencies: ["2CB5ED12CA3CAEC4"]
-			id: "71F0D1C3E7FB5A6C"
+			id: "5DE1C5436B428738"
 			tasks: [{
-				id: "478B26EC5EAE1576"
+				id: "79285F21C809D79D"
 				item: "kubejs:mystic_coal_block"
 				type: "item"
 			}]
@@ -459,9 +453,9 @@
 		}
 		{
 			dependencies: ["716FF6B4B8C5844C"]
-			id: "77C3C65A485F7CCC"
+			id: "0370357540A7E5A3"
 			tasks: [{
-				id: "35BEE1FE6DAC1627"
+				id: "5170489552497A11"
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
@@ -470,9 +464,9 @@
 		}
 		{
 			dependencies: ["77C3C65A485F7CCC"]
-			id: "3C396D3DB5BB1C9C"
+			id: "0B37C70B63EED84E"
 			tasks: [{
-				id: "6EB48DDED30B6F57"
+				id: "4D01441EFCB237DA"
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
@@ -481,9 +475,9 @@
 		}
 		{
 			dependencies: ["71F0D1C3E7FB5A6C"]
-			id: "08A4160AF895DE85"
+			id: "7D97E3DE87FCEFFA"
 			tasks: [{
-				id: "206BC3CC0338CF7D"
+				id: "72734219DAC3BAF5"
 				item: "kubejs:dormant_dust_mystic_coal"
 				type: "item"
 			}]
@@ -491,24 +485,21 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"08A4160AF895DE85"
-				"38A6B9F33C2FFB7A"
-			]
-			id: "1CCF195684DE24B7"
+			dependencies: ["08A4160AF895DE85"]
+			id: "5950A628A62DB61A"
 			tasks: [{
 				amount: 1000L
 				fluid: "kubejs:mystic_coal_liquid"
-				id: "25A38EA372DE173D"
+				id: "411557A593C9CB1E"
 				type: "fluid"
 			}]
 			x: -3.5d
 			y: 8.0d
 		}
 		{
-			id: "38A6B9F33C2FFB7A"
+			id: "7FC68FD365ABFD41"
 			tasks: [{
-				id: "1AC8A7C249C04FB7"
+				id: "677DD8E0E9FEA427"
 				item: "tfmg:coal_coke_dust"
 				type: "item"
 			}]
@@ -517,9 +508,9 @@
 		}
 		{
 			dependencies: ["1CCF195684DE24B7"]
-			id: "0DEDED4932541F5D"
+			id: "2AEC6FFBABB19D58"
 			tasks: [{
-				id: "2C00436CB68B02DD"
+				id: "0B3F7181DE1CBCB6"
 				item: "kubejs:ingot_mystic_coal"
 				type: "item"
 			}]
@@ -528,9 +519,9 @@
 		}
 		{
 			dependencies: ["0DEDED4932541F5D"]
-			id: "716FF6B4B8C5844C"
+			id: "681D7F5DBB181BB7"
 			tasks: [{
-				id: "28870FBBFB762615"
+				id: "44522D8B649BFBE8"
 				item: "kubejs:rod_mystic_coal"
 				type: "item"
 			}]

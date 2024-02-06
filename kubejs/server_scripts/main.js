@@ -19,6 +19,7 @@ let ASTRA = (id, x) => MOD("ad_astra", id, x)
 let BS = (id, x) => MOD("blue_skies", id, x)
 let TFMG= (id, x) => MOD("tfmg", id, x)
 let FA= (id, x) => MOD("forbidden_arcanus", id, x)
+let IS= (id, x) => MOD("irons_spellbooks", id, x)
 
 
 ServerEvents.recipes(event => {
@@ -295,7 +296,32 @@ ServerEvents.recipes(event => {
         ]
       })
 
+
+    // bauxite renew
+    event.recipes.createMechanicalCrafting(TFMG('bauxite'), [
+        ' A ',
+        'ABA',
+        ' A '
+      ], {
+        A: CR('cinder_flour'),
+        B: MC('red_sand')
+    })
+
+    // irons and spells
+    event.recipes.createMixing("7x "+IS("arcane_essence"),["2x "+MC('lapis_lazuli'), "2x "+MC('blaze_powder'),CR('experience_nugget')]).superheated()
+ 
     // Blaze Rod
+    event.remove({id:CRDD('crafting/diamond_shard_compacting')})
+    transitional = MC('coal_block')
+    event.recipes.createSequencedAssembly([
+		KJ('mystic_coal_block'),
+	], MC('coal_block'), [
+		event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
+		event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
+        event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
+		event.recipes.createDeploying(transitional, [transitional, IS('arcane_ingot')])
+	]).transitionalItem(transitional)
+		.loops(1)
     event.recipes.createCrushing('9x '+KJ('dormant_dust_mystic_coal'), KJ('mystic_coal_block')).processingTime(500)
     event.custom(
         {

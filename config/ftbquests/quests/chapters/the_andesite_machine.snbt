@@ -220,10 +220,10 @@
 		{
 			id: "0BEFDBD8AC519539"
 			tasks: [{
-				id: "6DDD966363BA1D58"
+				id: "7C657F9C765B5184"
 				item: {
 					Count: 1b
-					id: "minecraft:shears"
+					id: "ad_astra:hammer"
 					tag: {
 						Damage: 0
 					}
