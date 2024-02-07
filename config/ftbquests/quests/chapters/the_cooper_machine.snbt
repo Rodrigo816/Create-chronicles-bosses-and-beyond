@@ -30,8 +30,8 @@
 				item: "create_dd:sap_bucket"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 11.0d
+			x: 0.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6C54D9FC570E8C23"]
@@ -56,8 +56,8 @@
 				item: "create_dd:raw_rubber"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 13.5d
+			x: 0.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["300DD17E607B3081"]
@@ -82,8 +82,8 @@
 				item: "create_dd:rubber"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 15.5d
+			x: -2.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2E72CEB626FD6EBE"]
@@ -101,11 +101,15 @@
 				type: "item"
 			}]
 			title: "Belts"
-			x: 3.0d
-			y: 15.5d
+			x: -2.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["68CD9910A1658762"]
+			dependencies: [
+				"68CD9910A1658762"
+				"48413A6A0A9BFFA7"
+				"26B8E592AED8E995"
+			]
 			id: "46516B2DC2F6D719"
 			tasks: [{
 				id: "6A10872193395C1B"
@@ -123,8 +127,8 @@
 				type: "item"
 			}]
 			title: "Copper Ores"
-			x: -1.5d
-			y: 2.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["469BCDA1AD3D80FA"]
@@ -134,7 +138,7 @@
 				item: "create:copper_sheet"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: 4.0d
 		}
 		{
@@ -155,8 +159,8 @@
 				item: "minecraft:stripped_oak_log"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 9.5d
+			x: -5.0d
+			y: 8.0d
 		}
 		{
 			description: ["The &n&5Hose Pulley&r is a pump that can extract liquids or place liquids in the world."]
@@ -217,6 +221,43 @@
 			}]
 			x: -5.5d
 			y: 12.0d
+		}
+		{
+			id: "48413A6A0A9BFFA7"
+			tasks: [{
+				id: "2B3D3E600A72681E"
+				item: {
+					Count: 1b
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["15777779AE0400E3"]
+			id: "26B8E592AED8E995"
+			tasks: [{
+				id: "6F98A97AA4B3D83D"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "15777779AE0400E3"
+			tasks: [{
+				id: "126E49041133AFF7"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
 		}
 	]
 	title: "Chapter II: The Valve Machine"

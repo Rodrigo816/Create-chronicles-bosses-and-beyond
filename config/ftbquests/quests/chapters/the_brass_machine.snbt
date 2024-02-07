@@ -42,7 +42,7 @@
 				item: "ae2:large_quartz_bud"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 7.0d
 		}
 		{
@@ -53,7 +53,7 @@
 				item: "ae2:quartz_cluster"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 7.0d
 		}
 		{
@@ -64,7 +64,7 @@
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 7.0d
 		}
 		{
@@ -78,17 +78,21 @@
 				item: "create:rose_quartz"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 8.5d
 		}
 		{
+			dependencies: [
+				"5167DEF3903D6CFD"
+				"64A476C01D1C4742"
+			]
 			id: "2EBE018FE570EF16"
 			tasks: [{
 				id: "40AC3CAADB942375"
 				item: "kubejs:destabilized_redstone_bucket"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 7.0d
 		}
 		{
@@ -98,8 +102,8 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.5d
+			x: 1.0d
+			y: 5.5d
 		}
 		{
 			id: "1C5DFA2AD6DEE1B2"
@@ -132,17 +136,21 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["5924E1675FE1A9D0"]
+			dependencies: [
+				"5924E1675FE1A9D0"
+				"588F642CD467FC64"
+			]
 			id: "1BAF2EB40FE08B25"
 			tasks: [{
 				id: "71C9FE5F39A5B431"
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.5d
+			x: -1.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["2BBB5E496BBD52C5"]
 			id: "201291E8B8D4FE73"
 			tasks: [{
 				id: "3A67FE794B73D10B"
@@ -160,33 +168,8 @@
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 10.0d
-		}
-		{
-			dependencies: [
-				"1BAF2EB40FE08B25"
-				"52D0CAA2503C35D6"
-				"701883FE5E3CF381"
-			]
-			id: "1FD0A192707FD8B2"
-			tasks: [{
-				id: "72B18A4F455BF477"
-				item: "create:precision_mechanism"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 14.0d
-		}
-		{
-			id: "3B8E5B6DD5005744"
-			tasks: [{
-				id: "624D6F9A96A05F54"
-				item: "quark:red_corundum_cluster"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -199,8 +182,8 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 11.0d
+			x: -3.5d
+			y: 10.5d
 		}
 		{
 			id: "555CE8F6001EF8E7"
@@ -209,8 +192,8 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.5d
+			x: -4.5d
+			y: 9.0d
 		}
 		{
 			id: "14ADA913C53709AE"
@@ -219,8 +202,8 @@
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.5d
+			x: -2.5d
+			y: 9.0d
 		}
 		{
 			id: "52D0CAA2503C35D6"
@@ -229,7 +212,7 @@
 				item: "ae2:nether_quartz_wrench"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 12.0d
 		}
 		{
@@ -240,8 +223,95 @@
 				item: "create:brass_sheet"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 12.5d
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			id: "5167DEF3903D6CFD"
+			tasks: [{
+				id: "0BBE8417B8A3BE92"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"61B5DE7788ED3D6D"
+				"70FE285006F6632F"
+				"7A50893172D43878"
+			]
+			id: "2BBB5E496BBD52C5"
+			tasks: [{
+				id: "254618B5A7F95447"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			id: "70FE285006F6632F"
+			tasks: [{
+				id: "6E812FD4E5FCC138"
+				item: "quark:soul_bead"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["671ABB3F4DDF8A89"]
+			id: "61B5DE7788ED3D6D"
+			tasks: [{
+				id: "3385925890E92473"
+				item: "forbidden_arcanus:soulless_sand"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.5d
+		}
+		{
+			id: "7A50893172D43878"
+			tasks: [{
+				id: "2A78C95C3292BE29"
+				item: "born_in_chaos_v1:ethereal_spirit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"0BEFDBD8AC519539"
+				"507927EEC1417661"
+				"43D6EC530F7F1126"
+				"52D0CAA2503C35D6"
+				"701883FE5E3CF381"
+				"1BAF2EB40FE08B25"
+			]
+			description: [""]
+			id: "6F2EA0844769A10A"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "59880B9FCDD6D188"
+				item: "create_dd:integrated_mechanism"
+				type: "item"
+			}]
+			x: -0.95d
+			y: 14.25d
+		}
+		{
+			id: "588F642CD467FC64"
+			tasks: [{
+				id: "3F040CE86620F08A"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
 		}
 	]
 	title: "Chapter III: The Brass Machine"

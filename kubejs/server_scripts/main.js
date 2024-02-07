@@ -20,6 +20,8 @@ let BS = (id, x) => MOD("blue_skies", id, x)
 let TFMG= (id, x) => MOD("tfmg", id, x)
 let FA= (id, x) => MOD("forbidden_arcanus", id, x)
 let IS= (id, x) => MOD("irons_spellbooks", id, x)
+let HNN= (id, x) => MOD("hostilenetworks", id, x)
+let CHAOS= (id, x) => MOD("born_in_chaos_v1", id, x)
 
 
 ServerEvents.recipes(event => {
@@ -236,26 +238,51 @@ ServerEvents.recipes(event => {
         CR('golden_sheet')         
     )
     event.remove({ id: CRDD('industrial_iron/andesite_alloy_mixing') })
+    event.remove({ id: CR('crafting/materials/rose_quartz') })
+    event.remove({ output: AE2('certus_quartz_crystal') })
+    event.remove({ id: 'create_oppenheimered:crushing/depth_charge_destruction' })
 
+    event.recipes.createDeploying(CR('electron_tube'), [CR('iron_sheet'), CR('polished_rose_quartz')])
+
+    
+    // Soul Sand Procesing
+    event.remove({id:CR('haunting/soul_sand')})
+    event.remove({id:ARS('conjuration_essence_to_soul_sand')})
+    event.remove({id:HNN('living_matter/hellish/soul_sand')})
+    event.remove({id:CHAOS('solsendk')})
+    event.recipes.createHaunting(FA('soulless_sand'), MC('sand'))
+    event.recipes.createDeploying(MC('soul_sand'), [FA('soulless_sand'), 'quark:soul_bead'])
+    event.recipes.createDeploying(MC('soul_sand'), [FA('soulless_sand'), CHAOS('ethereal_spirit')])
  
     event.recipes.createMixing(AE2('small_quartz_bud'),[Fluid.water(100),MC('sand'), "9x "+MC('sugar'), MC('quartz')])
+    
     event.recipes.createFilling(AE2('medium_quartz_bud'), [AE2('small_quartz_bud'), Fluid.of('minecraft:water', 700)])
     event.recipes.createFilling(AE2('large_quartz_bud'), [AE2('medium_quartz_bud'), Fluid.of('minecraft:water', 700)])
     event.recipes.createFilling(AE2('quartz_cluster'), [AE2('large_quartz_bud'), Fluid.of('minecraft:water', 700)])
-    event.recipes.createFilling(AE2('certus_quartz_crystal'), [AE2('quartz_cluster'), Fluid.of('minecraft:water', 700)])
-
+    //event.recipes.createFilling(AE2('certus_quartz_crystal'), [AE2('quartz_cluster'), Fluid.of('minecraft:water', 700)])
+    transitional = AE2('quartz_cluster')
+	event.recipes.createSequencedAssembly([
+		AE2('certus_quartz_crystal'),
+	], AE2('quartz_cluster'), [
+		event.recipes.createFilling(transitional, [transitional, Fluid.of(MC("water"), 100)]),
+	]).transitionalItem(transitional)
+		.loops(3)
+		.id(AE2('quartz_cluster'))
     
 
-    event.recipes.createMixing(Fluid.of(KJ("destabilized_redstone"), 800),["6x "+MC('redstone'), "1x "+AE2('sky_dust')])
+    event.recipes.createMixing(Fluid.of(KJ("destabilized_redstone"), 600),["6x "+MC('redstone'), "2x "+MC('nether_wart')])
+
+
 
     transitional = CR('incomplete_precision_mechanism')
 	event.recipes.createSequencedAssembly([
 		CR('rose_quartz'),
 	], AE2('certus_quartz_crystal'), [
-		event.recipes.createFilling(transitional, [transitional, Fluid.of(KJ("destabilized_redstone"), 150)]),
+		event.recipes.createFilling(transitional, [transitional, Fluid.of(KJ("destabilized_redstone"), 75)]),
 	]).transitionalItem(transitional)
 		.loops(3)
 		.id(CR('rose_quartz'))
+    
 
     // Precission Mechanism
     transitional = CR('incomplete_precision_mechanism')
@@ -309,9 +336,12 @@ ServerEvents.recipes(event => {
 
     // irons and spells
     event.recipes.createMixing("7x "+IS("arcane_essence"),["2x "+MC('lapis_lazuli'), "2x "+MC('blaze_powder'),CR('experience_nugget')]).superheated()
- 
+
+
+
     // Blaze Rod
     event.remove({id:CRDD('crafting/diamond_shard_compacting')})
+
     transitional = MC('coal_block')
     event.recipes.createSequencedAssembly([
 		KJ('mystic_coal_block'),
