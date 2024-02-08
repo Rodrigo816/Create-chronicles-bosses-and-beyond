@@ -128,6 +128,70 @@
 			x: 7.0d
 			y: 3.0d
 		}
+		{
+			id: "02EE6631DBFE387E"
+			tasks: [
+				{
+					id: "1E9DF986588A01D8"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 1
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "27B2B95A6616150E"
+					ignore_dimension: false
+					position: [I;
+						0
+						0
+						0
+					]
+					size: [I;
+						1
+						1
+						1
+					]
+					type: "location"
+				}
+				{
+					id: "2F0CBA6D6637D262"
+					title: "63"
+					type: "checkmark"
+				}
+				{
+					advancement: "dungeons_arise:find_heavenly_rider"
+					criterion: ""
+					id: "42EEAFF9A2C7F7AB"
+					type: "advancement"
+				}
+				{
+					id: "4619F398DB058D0A"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:air"
+					type: "observation"
+				}
+				{
+					id: "78C5E6075DDA454B"
+					structure: "ad_astra:pygro_village"
+					type: "structure"
+				}
+				{
+					amount: 1000L
+					fluid: "create_dd:strawberry_milkshake"
+					id: "315717F394C36549"
+					type: "fluid"
+				}
+				{
+					id: "7A4296AA7CCF10BA"
+					max_input: 1000L
+					type: "forge_energy"
+					value: 1L
+				}
+			]
+			x: 4.0d
+			y: 5.5d
+		}
 	]
 	title: "Getting Started?"
 }

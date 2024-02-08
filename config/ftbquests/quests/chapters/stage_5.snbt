@@ -5,7 +5,7 @@
 	group: "2B02D614E453E838"
 	icon: "kubejs:computation_matrix"
 	id: "75CF8B6BAC6A01EF"
-	order_index: 30
+	order_index: 28
 	quest_links: [ ]
 	quests: [
 		{

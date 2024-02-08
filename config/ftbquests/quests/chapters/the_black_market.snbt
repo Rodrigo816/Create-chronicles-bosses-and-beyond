@@ -1,0 +1,90 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_black_market"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "forbidden_arcanus:reinforced_deorum_blacksmith_gavel"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "48B8B88CBA0E14DC"
+	order_index: 18
+	quest_links: [ ]
+	quests: [{
+		id: "4F8825F7EE8D60F0"
+		rewards: [
+			{
+				id: "7BA0467980BB9E02"
+				item: {
+					Count: 1b
+					id: "create_sabers:brass_saber_white"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 0.2d
+								AttributeName: "generic.attack_speed"
+								Name: "Attack Speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUIDLeast: 894654
+								UUIDMost: 2872
+							}
+							{
+								Amount: 7
+								AttributeName: "generic.attack_damage"
+								Name: "Attack Damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUIDLeast: 894655
+								UUIDMost: 2873
+							}
+						]
+						Damage: 50
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "70CD2FBD32504C7B"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_sword"
+					tag: {
+						Count: 1
+						Damage: 0
+						id: "minecraft:diamond_sword"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 18
+								AttributeName: "generic.attack_damage"
+								Name: "generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUIDLeast: 111111
+								UUIDMost: 111112
+							}]
+						}
+					}
+				}
+				type: "item"
+			}
+		]
+		tasks: [{
+			consume_items: true
+			count: 1000000L
+			id: "65836BDDD0504FB9"
+			item: "minecraft:oak_log"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -0.5d
+	}]
+	title: "The Black Market"
+}
