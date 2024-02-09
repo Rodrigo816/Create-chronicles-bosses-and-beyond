@@ -28,6 +28,10 @@ ServerEvents.recipes(event => {
 
     //Twilight Forest
     event.remove({id:'twilightforest:uncrafting_table'})
+
+    event.remove({output:'constructionwand:infinity_wand'})
+    event.remove({output:CRDD('forest_ravager')})
+    event.remove({output:CRDD('deforester_saw')})
     
     let multicut = (outputs, input, remove_old) => {
         outputs.forEach(output => {

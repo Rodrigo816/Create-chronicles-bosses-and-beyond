@@ -735,6 +735,16 @@
 			}
 			id: "703CC46FAC00A5D9"
 			invisible: true
+			rewards: [{
+				id: "181ECA8ED4C122FD"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.5d
 			tasks: [{

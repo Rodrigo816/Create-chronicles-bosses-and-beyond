@@ -13,78 +13,59 @@
 	id: "48B8B88CBA0E14DC"
 	order_index: 18
 	quest_links: [ ]
-	quests: [{
-		id: "4F8825F7EE8D60F0"
-		rewards: [
-			{
-				id: "7BA0467980BB9E02"
+	quests: [
+		{
+			id: "4F8825F7EE8D60F0"
+			rewards: [{
+				id: "10D0227C4BE9BA2F"
 				item: {
 					Count: 1b
 					id: "create_sabers:brass_saber_white"
 					tag: {
-						AttributeModifiers: [
-							{
-								Amount: 0.2d
-								AttributeName: "generic.attack_speed"
-								Name: "Attack Speed"
-								Operation: 0
-								Slot: "mainhand"
-								UUIDLeast: 894654
-								UUIDMost: 2872
-							}
-							{
-								Amount: 7
-								AttributeName: "generic.attack_damage"
-								Name: "Attack Damage"
-								Operation: 0
-								Slot: "mainhand"
-								UUIDLeast: 894655
-								UUIDMost: 2873
-							}
-						]
-						Damage: 50
-						Enchantments: [{
-							id: "minecraft:unbreaking"
-							lvl: 3s
+						AttributeModifiers: [{
+							Amount: 20
+							AttributeName: "generic.attack_damage"
+							Name: "generic.attack_damage"
+							Operation: 0
+							Slot: "mainhand"
+							UUID: [I;
+								463728609
+								-892124506
+								-1979896846
+								-1457971414
+							]
 						}]
+						Damage: 0
 					}
 				}
 				type: "item"
-			}
-			{
-				id: "70CD2FBD32504C7B"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000000L
+				id: "65836BDDD0504FB9"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "71501C6B437B6DAE"
+			tasks: [{
+				id: "0093518F4FEB8E6B"
 				item: {
 					Count: 1b
-					id: "minecraft:diamond_sword"
+					id: "constructionwand:infinity_wand"
 					tag: {
-						Count: 1
-						Damage: 0
-						id: "minecraft:diamond_sword"
-						tag: {
-							AttributeModifiers: [{
-								Amount: 18
-								AttributeName: "generic.attack_damage"
-								Name: "generic.attack_damage"
-								Operation: 0
-								Slot: "mainhand"
-								UUIDLeast: 111111
-								UUIDMost: 111112
-							}]
-						}
+						wand_options: { }
 					}
 				}
 				type: "item"
-			}
-		]
-		tasks: [{
-			consume_items: true
-			count: 1000000L
-			id: "65836BDDD0504FB9"
-			item: "minecraft:oak_log"
-			type: "item"
-		}]
-		x: 0.0d
-		y: -0.5d
-	}]
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+	]
 	title: "The Black Market"
 }

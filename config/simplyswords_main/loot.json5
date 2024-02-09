@@ -31,9 +31,10 @@
 	"enableShadowsting": false,
 	"enableDormantRelic": false,
 	"enableWhisperwind": false,
-	"enableEmberlash": true,
-	"enableWaxweaver": true,
-	"enableHiveheart": true,
-	"enableStarsEdge": true,
-	"enableWickpiercer": true
+	"enableEmberlash": false,
+	"enableWaxweaver": false,
+	"enableHiveheart": false,
+	"enableStarsEdge": false,
+	"enableWickpiercer": false,
+	"enableTempest": false
 }

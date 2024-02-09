@@ -105,11 +105,7 @@
 			y: 6.0d
 		}
 		{
-			description: [
-				"Grants the Strength potion effect when equipped."
-				""
-				"&7Reward: 1x Loot Bundle"
-			]
+			description: ["Grants the Strength potion effect when equipped."]
 			id: "00000000000003A9"
 			size: 1.0d
 			subtitle: "Find a Ring of Strength."
@@ -119,8 +115,8 @@
 				type: "item"
 			}]
 			title: "Johnny Bravo"
-			x: 2.5d
-			y: 7.0d
+			x: 3.5d
+			y: 6.5d
 		}
 		{
 			description: ["Grows nearby crops faster when equipped."]
@@ -161,8 +157,8 @@
 				type: "item"
 			}]
 			title: "Like breathing air!"
-			x: 3.0d
-			y: 5.0d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
 			description: ["Grants immunity to the Wither Potion effect when equipped."]
@@ -229,8 +225,8 @@
 				type: "item"
 			}]
 			title: "Extinguished"
-			x: 3.5d
-			y: 3.5d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			description: ["Pull nearby xp orbs when equipped."]
@@ -392,6 +388,17 @@
 			}
 			id: "67B117317EB077BA"
 			invisible: true
+			rewards: [{
+				id: "64337688FD649BE8"
+				item: {
+					Count: 1b
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.5d
 			subtitle: "Complete all the quests in this chapter."
@@ -402,6 +409,30 @@
 			}]
 			x: 0.0d
 			y: -2.5d
+		}
+		{
+			id: "08913D75A611396B"
+			subtitle: "Find a Ring of Water Walking."
+			tasks: [{
+				id: "3C6522DEFC6EAD3C"
+				item: "ringsofascension:ring_water_walking"
+				type: "item"
+			}]
+			title: "Its like walking on the park"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "7B8E7F4A2D5BB1F0"
+			subtitle: "Find a Ring of Magnetism."
+			tasks: [{
+				id: "37948693F35D0718"
+				item: "ringsofascension:ring_magnetism"
+				type: "item"
+			}]
+			title: "Why is my inventory full again?"
+			x: 3.5d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Rings can be in chests found randomly around the world."]

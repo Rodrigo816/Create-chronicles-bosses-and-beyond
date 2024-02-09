@@ -5,7 +5,7 @@
 	ringUndyingCooldown = 600
 	#The amount of hearts that Max Health's ring gives you.
 	#Range: 0 ~ 400
-	ringHealthHearts = 10
+	ringHealthHearts = 3
 
 ["Enable/Disable Rings"]
 	ringFireResistance = true
@@ -21,17 +21,17 @@
 	ringLuck = true
 	ringDolphin = true
 	ringMagnetism = true
-	ringFlight = true
+	ringFlight = false
 	ringPoisonResistance = true
-	ringHungerless = true
+	ringHungerless = false
 	ringGrowth = true
 	ringKnockbackResistance = true
 	ringHealth = true
 	ringSponge = true
 	ringExperience = true
 	ringWaterWalking = true
-	ringWither = true
-	ringUndying = true
+	ringWither = true 
+	ringUndying = false
 	ringSlowResistance = true
 
 ["Rings Amplifier"]
