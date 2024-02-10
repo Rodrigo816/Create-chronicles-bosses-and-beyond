@@ -220,10 +220,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"5E62059675895213"
-				"47965C310D9847DC"
-			]
+			dependencies: ["5E62059675895213"]
 			description: [
 				"The Dream of walking the Moon's surface finally came to fruition."
 				""

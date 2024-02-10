@@ -4,6 +4,20 @@
 	filename: "oil_2"
 	group: ""
 	id: "6754C36555B56724"
+	images: [{
+		alpha: 200
+		click: ""
+		color: 16672790
+		corner: false
+		dev: false
+		height: 1.2d
+		hover: [ ]
+		image: "chalk:block/mark/arrow"
+		rotation: 180.0d
+		width: 1.2d
+		x: 1.5d
+		y: -7.5d
+	}]
 	order_index: 9
 	quest_links: [ ]
 	quests: [
@@ -365,6 +379,7 @@
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
+			title: "Astral Fuel"
 			x: 0.5d
 			y: 11.0d
 		}
@@ -385,8 +400,8 @@
 				item: "create_sa:heat_engine"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 9.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["496C8280CF77787E"]
@@ -527,6 +542,245 @@
 			}]
 			x: -3.5d
 			y: 10.0d
+		}
+		{
+			dependencies: ["59B36B675F138BB6"]
+			id: "5FAA3AD7C903B57B"
+			tasks: [{
+				id: "5CDBE24059EEFEA4"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "67F68463AB5E4702"
+			tasks: [{
+				id: "5D887BFA055485FB"
+				item: "create_dd:sealed_mechanism"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 16.0d
+		}
+		{
+			id: "334677E5FB60C044"
+			tasks: [{
+				id: "662669DA41F855A1"
+				item: "create_dd:infernal_mechanism"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 16.5d
+		}
+		{
+			id: "13F027AE39627C18"
+			tasks: [{
+				id: "348B814BFDFE290F"
+				item: "create_dd:calculation_mechanism"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3921087D564A6659"]
+			id: "0198236ADC17A538"
+			tasks: [{
+				id: "079F0381CA1C1EA2"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1548E2F07EAD637F"]
+			id: "69336FA41A4C41EF"
+			tasks: [{
+				id: "4C32712A97D971DF"
+				item: "ae2:ender_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "1548E2F07EAD637F"
+			tasks: [{
+				id: "20B6510DAE38FB28"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5FAA3AD7C903B57B"
+				"0198236ADC17A538"
+				"69336FA41A4C41EF"
+			]
+			id: "2C03A8E703001FDA"
+			tasks: [{
+				id: "41A56C77E4171ACE"
+				item: "ae2:quantum_entangled_singularity"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"300C0F835B6598C0"
+				"2C03A8E703001FDA"
+				"0252501C99FFC62E"
+				"2E000FFF2C0A4045"
+			]
+			id: "78344EA2C9E89AD9"
+			tasks: [{
+				id: "7D235ACD73189E7A"
+				item: "create_dd:chromatic_compound"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "300C0F835B6598C0"
+			tasks: [{
+				id: "24AE710BFC6C9BD4"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			id: "2E000FFF2C0A4045"
+			tasks: [{
+				id: "3268A5811CBE422F"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			id: "4ECA82782988ACB9"
+			tasks: [{
+				id: "2FF67EE486C50647"
+				item: "create_dd:spectral_ruby"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4ECA82782988ACB9"]
+			id: "0252501C99FFC62E"
+			tasks: [{
+				id: "381C3A7E2088256B"
+				item: "create_dd:polished_spectral_ruby"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["78344EA2C9E89AD9"]
+			id: "57FCF653EDA81DE0"
+			tasks: [{
+				id: "4E10585A56C6F0CB"
+				item: "create_dd:refined_radiance"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["57FCF653EDA81DE0"]
+			id: "2DAF8F2EBB74DDE8"
+			tasks: [{
+				id: "55461EC905084B80"
+				item: "create_dd:refined_radiance_sheet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"6BA8F6F964689964"
+				"046BEC0717CBE938"
+			]
+			id: "3921087D564A6659"
+			tasks: [{
+				id: "62558D36BE204B66"
+				item: "forbidden_arcanus:arcane_crystal_obelisk"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7A405050D14C4CBB"
+				"46534BD052D02597"
+			]
+			id: "046BEC0717CBE938"
+			tasks: [{
+				id: "4366EF53D9DFE475"
+				item: "forbidden_arcanus:arcane_polished_darkstone"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36032C287CC77A74"]
+			id: "6BA8F6F964689964"
+			tasks: [{
+				id: "6B7953A2703D3926"
+				item: "forbidden_arcanus:arcane_crystal_block"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "34ADDB9018231BCA"
+			tasks: [{
+				id: "0E04F45CEA4D5CD1"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34ADDB9018231BCA"]
+			id: "36032C287CC77A74"
+			subtitle: "bulk super heated"
+			tasks: [{
+				id: "46933D45063DFDED"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "7A405050D14C4CBB"
+			tasks: [{
+				id: "0F2854C3395BB9E2"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
 		}
 	]
 	title: "Oil"

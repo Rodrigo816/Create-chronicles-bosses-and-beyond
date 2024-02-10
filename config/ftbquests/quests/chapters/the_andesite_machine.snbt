@@ -243,6 +243,20 @@
 			x: 9.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["5E60FF6098CB030B"]
+			description: [""]
+			id: "3AEFFAED564130A6"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "10508B211B77AB83"
+				item: "kubejs:andesite_machine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
 	]
 	title: "Chapter I: The Rotation Machine"
 }

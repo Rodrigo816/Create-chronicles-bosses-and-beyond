@@ -1,0 +1,90 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aere"
+	group: ""
+	id: "651BF93915F9D0F2"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0824449C7886F3DA"
+				"0334A96945D47AB0"
+				"5C5AAD6E31BE6B30"
+				"2E4A5771F8835874"
+				"43E6385471074E6B"
+			]
+			id: "058F559E5127CCA9"
+			tasks: [{
+				id: "722F2F826662283C"
+				item: "create_dd:inductive_mechanism"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "0824449C7886F3DA"
+			tasks: [{
+				id: "3D9F6C037AE1E9DF"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "2E4A5771F8835874"
+			tasks: [{
+				id: "49705CF53D449806"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "5C5AAD6E31BE6B30"
+			tasks: [{
+				id: "21172F5B209254E8"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "0334A96945D47AB0"
+			tasks: [{
+				id: "2A937602C03E42B3"
+				item: "create:zinc_nugget"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "43E6385471074E6B"
+			tasks: [{
+				id: "032D6134E0DCA9EB"
+				item: "ae2:ender_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["058F559E5127CCA9"]
+			id: "202D28FD50BBB2A7"
+			tasks: [{
+				id: "0F1BFF96EC804586"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+	]
+	title: "aere"
+}

@@ -12,10 +12,10 @@
 	small_light_connector_consumption = 1
 	#Large Connector max wire length in blocks.
 	#Range: 0 ~ 256
-	large_connector_wire_length = 32
+	large_connector_wire_length = 36
 	#Small Connector max wire length in blocks.
 	#Range: 0 ~ 256
-	small_connector_wire_length = 16
+	small_connector_wire_length = 18
 	#Large Connector max input in FE/t (Energy transfer).
 	#Range: > 0
 	large_connector_max_input = 5000
@@ -132,7 +132,7 @@
 [rolling_mill]
 	#Rolling Mill duration in ticks.
 	#Range: > 0
-	rolling_mill_processing_duration = 100
+	rolling_mill_processing_duration = 200
 	#Rolling Mill base stress impact.
 	#Range: 0 ~ 1024
 	rolling_mill_stress = 16

@@ -46,7 +46,10 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["0101855DF75D6C40"]
+			dependencies: [
+				"0101855DF75D6C40"
+				"5A605FE15BE8470C"
+			]
 			id: "5BFA4F90901AC7B2"
 			tasks: [{
 				id: "45BC74F0D21F89E3"
@@ -182,7 +185,7 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: -3.5d
+			x: 3.0d
 			y: 10.5d
 		}
 		{
@@ -192,7 +195,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: -4.5d
+			x: 2.0d
 			y: 9.0d
 		}
 		{
@@ -202,17 +205,18 @@
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 4.0d
 			y: 9.0d
 		}
 		{
+			dependencies: ["201291E8B8D4FE73"]
 			id: "52D0CAA2503C35D6"
 			tasks: [{
 				id: "2D7170386855BCB0"
 				item: "ae2:nether_quartz_wrench"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -4.0d
 			y: 12.0d
 		}
 		{
@@ -223,7 +227,7 @@
 				item: "create:brass_sheet"
 				type: "item"
 			}]
-			x: -3.5d
+			x: 3.0d
 			y: 12.0d
 		}
 		{
@@ -312,6 +316,92 @@
 			}]
 			x: 1.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: [""]
+			id: "637D976589937434"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1EF9D4CC4F5F39A9"
+				item: "kubejs:brass_machine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			id: "5A605FE15BE8470C"
+			tasks: [{
+				id: "55C9A1230373CE59"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			id: "480F3998093A389E"
+			tasks: [{
+				id: "5CCC13F3B441C893"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 17.0d
+		}
+		{
+			id: "5430D1EC4C530C13"
+			tasks: [{
+				id: "464B858673586621"
+				item: "create_dd:inductive_mechanism"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 16.5d
+		}
+		{
+			id: "37E622A0AC0855BD"
+			tasks: [{
+				id: "48D77D73FE30F242"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 18.0d
+		}
+		{
+			id: "296E9EF397F250A5"
+			tasks: [{
+				id: "47E2D0160F355194"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 16.5d
+		}
+		{
+			id: "17A1AE5093121420"
+			tasks: [{
+				id: "1A9B66F2B8506185"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 18.0d
 		}
 	]
 	title: "Chapter III: The Brass Machine"

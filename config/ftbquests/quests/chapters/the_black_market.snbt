@@ -47,8 +47,8 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			id: "71501C6B437B6DAE"
@@ -65,6 +65,186 @@
 			}]
 			x: 0.5d
 			y: 1.5d
+		}
+		{
+			id: "56F3BA44D1121FBE"
+			tasks: [{
+				id: "326EEE0F05953CC2"
+				item: "ringsofascension:ring_flight"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			id: "2146B907572F18E7"
+			tasks: [{
+				id: "3B278D066EB9DEDC"
+				item: "ringsofascension:ring_hungerless"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "27AE17F884999DA5"
+			tasks: [{
+				id: "10CEE5D7ABBEDDB1"
+				item: {
+					Count: 1b
+					id: "create_dd:forest_ravager"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "318AA1462F299CA6"
+			tasks: [{
+				id: "3C707BE54A16408E"
+				item: {
+					Count: 1b
+					id: "create_dd:deforester_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "0B4CF106789A624F"
+			tasks: [{
+				id: "6774ABDFB4391BDA"
+				item: {
+					Count: 1b
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "7FD31970F7A3ABC2"
+			tasks: [{
+				id: "434976CE2F29314E"
+				item: {
+					Count: 1b
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "59E3B38C6886F22E"
+			tasks: [{
+				id: "40F2F1E4DE0B05EE"
+				item: {
+					Count: 1b
+					id: "simplyswords:sword_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "33DB2CA9D5E90864"
+			tasks: [{
+				id: "2ABA5BC2BBEB47DA"
+				item: {
+					Count: 1b
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "3DB0C71C531082E7"
+			tasks: [{
+				id: "601C7B3BFB5EA112"
+				item: {
+					Count: 1b
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "1355B7A11A3AF9CD"
+			tasks: [{
+				id: "620D13A5485DE12E"
+				item: {
+					Count: 1b
+					id: "create_sabers:double_zinc_saber_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "4BA2A3CE6159F396"
+			tasks: [{
+				id: "5917F58A81F87458"
+				item: {
+					Count: 1b
+					id: "create_sabers:copper_saber_yellow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "71016DF306B1C628"
+			tasks: [{
+				id: "263256FED4F68588"
+				item: {
+					Count: 1b
+					id: "create_sabers:zinc_saber_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
 		}
 	]
 	title: "The Black Market"

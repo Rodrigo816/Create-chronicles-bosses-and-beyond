@@ -696,7 +696,7 @@
 			dependencies: [
 				"2CB5ED12CA3CAEC4"
 				"17E6666AED4CDEFB"
-				"1F74700C66E141D4"
+				"05CFC6F5EE1B3443"
 			]
 			id: "71F0D1C3E7FB5A6C"
 			tasks: [{
@@ -825,22 +825,12 @@
 		{
 			id: "7682212B86FC5B85"
 			tasks: [{
-				id: "0A2352F496F6C23A"
-				item: "minecraft:clay"
+				id: "16513AA213DA6D0F"
+				item: "minecraft:red_sand"
 				type: "item"
 			}]
 			x: 7.5d
 			y: 4.5d
-		}
-		{
-			id: "1F74700C66E141D4"
-			tasks: [{
-				id: "14CFA20BB29CA5DB"
-				item: "irons_spellbooks:arcane_ingot"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -4.5d
 		}
 		{
 			dependencies: ["16937B0EDAE2B227"]
@@ -850,8 +840,8 @@
 				item: "minecraft:glow_ink_sac"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.5d
+			x: 11.5d
+			y: -3.5d
 		}
 		{
 			id: "16937B0EDAE2B227"
@@ -860,19 +850,163 @@
 				item: "minecraft:ink_sac"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -7.0d
+			x: 13.5d
+			y: -3.5d
 		}
 		{
-			id: "55CACF29F521A6D1"
+			id: "4815D9A288590957"
 			tasks: [{
-				id: "24B96DF83C65460C"
-				item: "minecraft:lapis_lazuli"
+				id: "609CA6AF0E98E592"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			id: "134AC6AD41BB5533"
+			tasks: [{
+				id: "4FE07393E91515D9"
+				item: "create_dd:sealed_mechanism"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			id: "22964A202F0C5285"
+			tasks: [{
+				id: "30A8894C8B355451"
+				item: "create_dd:infernal_mechanism"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3C396D3DB5BB1C9C"
+				"3E42FEEFBC22F7D3"
+			]
+			id: "27B30E8528B6AABB"
+			tasks: [{
+				id: "53A8F744BA5CD977"
+				item: "create_dd:ember_alloy"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"70A8BB8EDF0B86EB"
+				"6596C11D2F29C284"
+				"49FBD8334BD62D17"
+				"5D3713AFF2393E28"
+				"7C152496E0290EB0"
+			]
+			id: "05CFC6F5EE1B3443"
+			tasks: [{
+				id: "114FDBE8AF98C67E"
+				item: "forbidden_arcanus:purifying_soap"
 				type: "item"
 			}]
 			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["20E1C703700FB201"]
+			id: "1409D0D6231F65DC"
+			tasks: [{
+				id: "1E697FB8DD5F67A4"
+				item: "forbidden_arcanus:arcane_crystal_dust_speck"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1409D0D6231F65DC"]
+			id: "70A8BB8EDF0B86EB"
+			tasks: [{
+				id: "48D555F736902890"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			id: "20E1C703700FB201"
+			tasks: [{
+				id: "0258FBC9AE170A4A"
+				item: "forbidden_arcanus:nipa"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -7.5d
+		}
+		{
+			id: "6596C11D2F29C284"
+			tasks: [{
+				id: "711A688D7947D13A"
+				item: "forbidden_arcanus:wax"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			id: "5D3713AFF2393E28"
+			tasks: [{
+				id: "5E36503AE3872B40"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2CB5ED12CA3CAEC4"]
+			id: "7C152496E0290EB0"
+			tasks: [{
+				id: "621020A1E59CCA44"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			id: "49FBD8334BD62D17"
+			tasks: [{
+				id: "7C6A5BBB63F768BA"
+				item: "minecraft:red_tulip"
+				type: "item"
+			}]
+			x: 13.5d
 			y: -4.5d
 		}
+		{
+			id: "42B9AFDC4CD9F4C3"
+			tasks: [{
+				id: "1FA0907C2BF07D4D"
+				item: "create_dd:industrial_fan"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			id: "3DD47C8D14ADA3A4"
+			tasks: [{
+				id: "4281C1CF59AF7D2A"
+				item: "create_things_and_misc:crushed_magma"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
 	]
-	title: "Chapter VI: Steel Mechanism"
+	title: "Chapter V: Steel Mechanism"
 }

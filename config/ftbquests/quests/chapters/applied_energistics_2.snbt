@@ -2394,6 +2394,198 @@
 			x: 17.5d
 			y: 0.5d
 		}
+		{
+			id: "22CF9546A20FF080"
+			tasks: [{
+				id: "0E00295EA2FFDCAA"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "774DAE1040A287F1"
+			tasks: [{
+				id: "12EDBAD6D20BD11D"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			id: "6C3EF2B9715C8BB5"
+			tasks: [{
+				id: "1FD742EEAECD8C43"
+				item: "create_dd:overcharge_alloy_sheet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"13A233B26F38420A"
+				"290D26DBD0609C36"
+				"3E5338AA1600BE0A"
+				"021022FA3775590B"
+				"066C572C2E18E55F"
+				"6C3EF2B9715C8BB5"
+			]
+			id: "3E0204AAEB3FF039"
+			tasks: [{
+				id: "6A8F7C75305314D6"
+				item: "create_dd:integrated_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "49C027CA13AD83DA"
+			tasks: [{
+				id: "15144B139950F52C"
+				item: "tfmg:plastic_sheet"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "062EDF21A69BC068"
+			tasks: [{
+				id: "22D31CB3574C8780"
+				item: "create_connected:control_chip"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			id: "13A233B26F38420A"
+			tasks: [{
+				id: "605A0C1D6D61189D"
+				item: "createaddition:electrum_wire"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "36E0DA821F80B9F6"
+			tasks: [{
+				id: "6A232676E46E4121"
+				item: "create_dd:calculation_mechanism"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "290D26DBD0609C36"
+			tasks: [{
+				id: "217ED6B84B722ED8"
+				item: "createaddition:gold_wire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "3E5338AA1600BE0A"
+			tasks: [{
+				id: "4C4FEBDA2217492B"
+				item: "createaddition:copper_wire"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "066C572C2E18E55F"
+			tasks: [{
+				id: "5920AD071FA4438F"
+				item: "createaddition:electrum_nugget"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "021022FA3775590B"
+			tasks: [{
+				id: "2AB33CF9F118E6C4"
+				item: "create:copper_nugget"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "4B95C49DF03D923A"
+			tasks: [{
+				id: "7AC75B88726C9CB7"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "61F001E0768CC81B"
+			tasks: [{
+				id: "7ADE521391E2278E"
+				item: "ae2:silicon_press"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			id: "486741249D2EFAF8"
+			tasks: [{
+				id: "4080B3F7A8B89CC6"
+				item: "ae2:calculation_processor_press"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "27F028C3942D1D6A"
+			tasks: [{
+				id: "755B2E687E024A17"
+				item: "ae2:engineering_processor_press"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "473F932B4717D80F"
+			tasks: [{
+				id: "2B7160A4405E687E"
+				item: "ae2:logic_processor_press"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "35F51E28E9E7CE7B"
+			tasks: [{
+				id: "07BDE062781A9B69"
+				item: {
+					Count: 1b
+					id: "ae2:name_press"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
 	]
 	title: "Applied Energistics 2"
 }

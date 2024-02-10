@@ -106,7 +106,7 @@
 	"wickpiercer_damageModifier": 4.0,
 	"dreadtide_damageModifier": 3.0,
 	"tempest_damageModifier": 0.0,
-	"brimstone_attackSpeed": -2.999999952316284,
+	"brimstone_attackSpeed": -3.0,
 	"thewatcher_attackSpeed": -2.799999952316284,
 	"stormsedge_attackSpeed": -2.0,
 	"stormbringer_attackSpeed": -2.4000000953674316,

@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_vii_building_a_rocket"
+	group: ""
+	id: "1DBBA282D8932456"
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		id: "4D530A62F95C078D"
+		tasks: [{
+			id: "38AB24AA65F70EA6"
+			item: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			type: "item"
+		}]
+		x: 1.0d
+		y: -1.5d
+	}]
+	title: "Chapter VII: Building a Rocket"
+}

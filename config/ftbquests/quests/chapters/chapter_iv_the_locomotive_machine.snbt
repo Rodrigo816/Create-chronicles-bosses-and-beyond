@@ -14,28 +14,30 @@
 				item: "create:track_signal"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 6.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["46C6D675E116C997"]
 			id: "31055C6D28A45113"
 			tasks: [{
 				id: "27AB083F26DF84B3"
 				item: "create:sturdy_sheet"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["174567332B8DE8C1"]
 			id: "46C6D675E116C997"
 			tasks: [{
 				id: "475DEBC8DA7BD31A"
 				item: "create:powdered_obsidian"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			id: "174567332B8DE8C1"
@@ -44,8 +46,8 @@
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.5d
+			x: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -60,8 +62,8 @@
 				item: "tfmg:liquid_concrete_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: 0.0d
+			y: -13.0d
 		}
 		{
 			id: "1325CB313B08AB70"
@@ -70,8 +72,8 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.0d
+			x: -1.0d
+			y: -15.0d
 		}
 		{
 			id: "784EF4A65242E3FD"
@@ -80,8 +82,8 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: 0.0d
+			y: -15.0d
 		}
 		{
 			id: "5C00CCFC83CCE7A4"
@@ -90,8 +92,8 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.0d
+			x: 1.0d
+			y: -15.0d
 		}
 		{
 			dependencies: [
@@ -104,8 +106,8 @@
 				item: "tfmg:cement"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: 2.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["08B00F4FFF4BA13F"]
@@ -115,8 +117,8 @@
 				item: "tfmg:limesand"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -7.0d
+			x: 1.0d
+			y: -17.0d
 		}
 		{
 			id: "4B78BB8B294461A9"
@@ -125,8 +127,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -7.0d
+			x: 2.5d
+			y: -17.0d
 		}
 		{
 			id: "0AA998D14B422B9E"
@@ -136,8 +138,8 @@
 				id: "74C52702ADA8950F"
 				type: "fluid"
 			}]
-			x: 2.5d
-			y: -9.5d
+			x: 0.0d
+			y: -19.5d
 		}
 		{
 			id: "4D774B40DB2BEA38"
@@ -146,8 +148,8 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.5d
+			x: 1.5d
+			y: -19.5d
 		}
 		{
 			dependencies: [
@@ -160,8 +162,8 @@
 				item: "create:limestone"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -8.0d
+			x: 1.0d
+			y: -18.0d
 		}
 		{
 			id: "2955A7EDC5A65DA7"
@@ -190,7 +192,7 @@
 				item: "forbidden_arcanus:obsidian_with_iron"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -202,7 +204,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6B0D61030092824D"]
@@ -213,9 +215,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.5d
+			y: -10.0d
 		}
 		{
+			dependencies: ["254636A47FC0F2FC"]
 			id: "6B0D61030092824D"
 			tasks: [{
 				id: "56731712C3EC0870"
@@ -223,8 +226,127 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"5E60FF6098CB030B"
+				"3DFF1B74E8AADB57"
+			]
+			description: [""]
+			id: "143E325CFBC9FAC9"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "300EC4A1F3FFEC13"
+				item: "kubejs:obsidian_machine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"5E60FF6098CB030B"
+				"31055C6D28A45113"
+				"2EF91E1C99625A46"
+			]
+			description: [""]
+			id: "3DFF1B74E8AADB57"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "3D5BEB624196441F"
+				item: "kubejs:andesite_machine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53A0772D1388314C"]
+			id: "2EF91E1C99625A46"
+			tasks: [{
+				id: "7D53BF11AFCB88D7"
+				item: "alexscaves:metal_rebar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D4534E5FEBE0716"]
+			id: "53A0772D1388314C"
+			tasks: [{
+				id: "53733C42A5BCDD42"
+				item: "alexscaves:scrap_metal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E509C44D3A6E49E"]
+			id: "4D4534E5FEBE0716"
+			tasks: [{
+				id: "00B9F2140FA31170"
+				item: "alexscaves:metal_swarf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1360D8CD2949E41B"]
+			id: "6E509C44D3A6E49E"
+			tasks: [{
+				id: "73B98B126E5C8B08"
+				item: "alexscaves:ferrouslime_ball"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "5CD1199F80B99AA0"
+			tasks: [{
+				id: "7AF0B9D2065419C7"
+				item: "minecraft:repeater"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			id: "1624FEA31895C527"
+			tasks: [{
+				id: "61D0C23F9599C2BE"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "5C1E80D31FB5E3B7"
+			tasks: [{
+				id: "6CA7F5A91A7C0C6F"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "14735BEA278CCFFA"
+			tasks: [{
+				id: "2057D142A75EB09E"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
 		}
 	]
-	title: "Chapter V: The Locomotive Machine"
+	title: "Chapter IV: The Locomotive Machine"
 }

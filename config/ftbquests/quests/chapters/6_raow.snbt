@@ -4,7 +4,7 @@
 	filename: "6_raow"
 	group: "2B02D614E453E838"
 	icon: "createastral:subatomic_ingot"
-	id: "3EAE66D754E5EB35"
+	id: "7C9980EC0626D2B9"
 	images: [
 		{
 			click: ""
@@ -31,15 +31,15 @@
 			y: 3.5d
 		}
 	]
-	order_index: 34
+	order_index: 28
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["17794A6A366C8497"]
 			description: ["{chapter.8.quest.1.description.1}"]
-			id: "77B4ED6CAAF8FD3E"
+			id: "1EAADE00466CF5A7"
 			rewards: [{
-				id: "79932C27C3D5FA48"
+				id: "100CDB59E81E77D1"
 				item: {
 					Count: 1b
 					id: "tconstruct:pick_head"
@@ -51,7 +51,7 @@
 			}]
 			subtitle: "{chapter.8.quest.1.subtitle}"
 			tasks: [{
-				id: "6CEBB252ACB8EEC7"
+				id: "7D6535D4FA22AF68"
 				item: "create:refined_radiance"
 				type: "item"
 			}]
@@ -65,10 +65,10 @@
 				"2605212C0EC5C277"
 			]
 			description: ["{chapter.8.quest.2.description.1}"]
-			id: "3B943161B968CF7C"
+			id: "6843063172DF7EE1"
 			rewards: [{
 				count: 8
-				id: "4A31208289470FEA"
+				id: "6EADB5CF3AAB3EC8"
 				item: "farmersdelight:glow_berry_custard"
 				type: "item"
 			}]
@@ -77,7 +77,7 @@
 			subtitle: "{chapter.8.quest.2.subtitle}"
 			tasks: [{
 				count: 10L
-				id: "0DC36FE6C8188970"
+				id: "77F14473B68DD428"
 				item: "techreborn:uu_matter"
 				type: "item"
 			}]
@@ -92,23 +92,23 @@
 				"3F5054A2481E6F9C"
 			]
 			description: ["{chapter.8.quest.3.description.1}"]
-			id: "17A1F85886AB859C"
+			id: "58C429B932BE6B89"
 			rewards: [
 				{
 					count: 10
-					id: "734842DB244CE95D"
+					id: "657FD69C3E315B42"
 					item: "dustrial_decor:large_cursed_lantern"
 					type: "item"
 				}
 				{
 					count: 10
-					id: "4D8D1AB50F0218AA"
+					id: "7ED9733A6A67DB8F"
 					item: "dustrial_decor:large_redstone_lantern"
 					type: "item"
 				}
 				{
 					count: 10
-					id: "0C353AA1EFF1D16C"
+					id: "47A217E2889847F2"
 					item: "dustrial_decor:large_soul_lantern"
 					type: "item"
 				}
@@ -116,7 +116,7 @@
 			shape: "square"
 			size: 2.0d
 			tasks: [{
-				id: "09AB35CBD50FF5C0"
+				id: "548A2AA83A056ED8"
 				item: "techreborn:industrial_circuit"
 				type: "item"
 			}]
@@ -126,16 +126,16 @@
 		}
 		{
 			dependencies: ["11F776AD4AEA326A"]
-			id: "38519F6AD24AA311"
+			id: "1ECBEC84AF581A1C"
 			optional: true
 			tasks: [
 				{
-					id: "0DD9C6C56FD4531A"
+					id: "3625C2B636483BD5"
 					item: "techreborn:industrial_storage_unit"
 					type: "item"
 				}
 				{
-					id: "6566A96CCFEC76D8"
+					id: "1DC5D844C2458546"
 					item: "techreborn:industrial_tank_unit"
 					type: "item"
 				}
@@ -147,10 +147,10 @@
 		{
 			dependencies: ["1E93A90AEF614FA3"]
 			hide_dependency_lines: false
-			id: "00A846F952ABB9F1"
+			id: "462E737842AE67BB"
 			optional: true
 			tasks: [{
-				id: "52D4B0BD1DF2A4B5"
+				id: "1D35BD62FF1FF17F"
 				item: {
 					Count: 1b
 					id: "techreborn:nanosaber"
@@ -167,16 +167,16 @@
 		{
 			description: ["{chapter.8.quest.6.description.1}"]
 			hide: true
-			id: "7593E10E319FCC95"
+			id: "40FAB9C47E8A4B81"
 			rewards: [
 				{
 					count: 2
-					id: "01662BA4495ADD98"
+					id: "7001159AD91B9982"
 					item: "vinery:apple_cupcake"
 					type: "item"
 				}
 				{
-					id: "4C12D6C237BF98C2"
+					id: "2E9B999D59F7E8C9"
 					type: "xp"
 					xp: 300
 				}
@@ -187,7 +187,7 @@
 			tasks: [{
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
-				id: "2512D3A9A1AB41A1"
+				id: "392E486DD677CBA9"
 				type: "dimension"
 			}]
 			title: "{chapter.8.quest.6.title}"
@@ -197,20 +197,20 @@
 		{
 			dependencies: ["7A4255522DA6FEB7"]
 			icon: "ad_astra:deepslate_calorite_ore"
-			id: "09A13B8EA049206D"
+			id: "2CC7E212D773C6A8"
 			tasks: [
 				{
-					id: "298B6242C46EEA5A"
+					id: "0E8F10EBDC7FE307"
 					item: "techreborn:deepslate_iridium_ore"
 					type: "item"
 				}
 				{
-					id: "133F2CB98D52CA83"
+					id: "3F90FDEE1D5B02FE"
 					item: "ad_astra:deepslate_calorite_ore"
 					type: "item"
 				}
 				{
-					id: "35C4971D1074EBF9"
+					id: "77902F65E9DDCDA3"
 					title: "{chapter.8.quest.7.task.3.title}"
 					type: "checkmark"
 				}
@@ -221,10 +221,10 @@
 		}
 		{
 			dependencies: ["3705B91C0D4EA2A0"]
-			id: "6B992AB848114E6B"
+			id: "2525139F10123ADC"
 			optional: true
 			tasks: [{
-				id: "64D47EE2982E6928"
+				id: "4941185B2C3EF2EB"
 				item: {
 					Count: 1b
 					id: "techreborn:industrial_drill"
@@ -240,10 +240,10 @@
 		}
 		{
 			dependencies: ["3705B91C0D4EA2A0"]
-			id: "761606FB448FFB40"
+			id: "4EEBB843C2DEC970"
 			optional: true
 			tasks: [{
-				id: "582B7C5F67212145"
+				id: "792615F26E4F3C6D"
 				item: {
 					Count: 1b
 					id: "techreborn:industrial_chainsaw"
@@ -259,10 +259,10 @@
 		}
 		{
 			dependencies: ["3705B91C0D4EA2A0"]
-			id: "681BFD268A794E2B"
+			id: "1CF9999038FD82D4"
 			optional: true
 			tasks: [{
-				id: "2F65E235495E7916"
+				id: "3806FA57FE49B2D8"
 				item: {
 					Count: 1b
 					id: "techreborn:industrial_jackhammer"
@@ -279,10 +279,10 @@
 		{
 			dependencies: ["3705B91C0D4EA2A0"]
 			description: ["{chapter.8.quest.11.description.1}"]
-			id: "2AFAFCF42E6BAD90"
+			id: "07B85DA4FC3E8C63"
 			subtitle: "{chapter.8.quest.11.subtitle}"
 			tasks: [{
-				id: "740E44E4A8FF82D0"
+				id: "3C3A69F9F9A942B9"
 				item: "techreborn:matter_fabricator"
 				type: "item"
 			}]
@@ -296,9 +296,9 @@
 				"4347500C31C8D0DD"
 			]
 			description: ["{chapter.8.quest.12.description.1}"]
-			id: "58E1FF088BF2A849"
+			id: "63D82248A98D2704"
 			rewards: [{
-				id: "01260DF3B69C8949"
+				id: "375D1E453F37CBDC"
 				item: {
 					Count: 1b
 					id: "tconstruct:broad_blade"
@@ -311,7 +311,7 @@
 			shape: "square"
 			size: 1.5d
 			tasks: [{
-				id: "013B6677DB24C50B"
+				id: "6FA1D228C1B0FBCB"
 				item: "techreborn:data_storage_chip"
 				type: "item"
 			}]
@@ -322,30 +322,30 @@
 		{
 			dependencies: ["7A25FF7058F0C3CD"]
 			description: ["{chapter.8.quest.13.description.1}"]
-			id: "3187DCE4D2D30EFA"
+			id: "5BC67A3BBCE9D1CD"
 			rewards: [
 				{
 					count: 4
-					id: "74AF5F23062B6303"
+					id: "1E9C98B4E9E7461A"
 					item: "techreborn:fusion_coil"
 					type: "item"
 				}
 				{
 					count: 16
-					id: "571561A087A4EE15"
+					id: "76CF1BB01D1DD835"
 					item: "techreborn:advanced_machine_casing"
 					type: "item"
 				}
 				{
 					count: 16
-					id: "1E50DCD6883FD315"
+					id: "7DF57C0681C2FEDB"
 					item: "techreborn:industrial_machine_casing"
 					type: "item"
 				}
 			]
 			subtitle: "{chapter.8.quest.13.subtitle}"
 			tasks: [{
-				id: "3D550B42CC8D47E0"
+				id: "1F4A2842E4F40684"
 				item: "techreborn:fusion_control_computer"
 				type: "item"
 			}]
@@ -356,10 +356,10 @@
 		{
 			dependencies: ["00EB34849356498A"]
 			description: ["{chapter.8.quest.14.description.1}"]
-			id: "7C9120143A2C95DE"
+			id: "79E90EF285FD8EB2"
 			subtitle: "{chapter.8.quest.14.subtitle}"
 			tasks: [{
-				id: "0E0388402BDC93D5"
+				id: "6F4E81426E0517FD"
 				item: "techreborn:fusion_coil"
 				type: "item"
 			}]
@@ -369,12 +369,12 @@
 		}
 		{
 			dependencies: ["1E93A90AEF614FA3"]
-			id: "2A0F429EE8288D4F"
+			id: "27507F8DF8B22B89"
 			optional: true
 			subtitle: "{chapter.8.quest.15.subtitle}"
 			tasks: [
 				{
-					id: "3385540D3E89A5A8"
+					id: "2B5C808A45FFDF10"
 					item: {
 						Count: 1b
 						id: "createastral:radiant_helmet"
@@ -385,7 +385,7 @@
 					type: "item"
 				}
 				{
-					id: "6DCBD2521D2D9FA6"
+					id: "140EBFAC9701CEBC"
 					item: {
 						Count: 1b
 						id: "createastral:radiant_chestplate"
@@ -396,7 +396,7 @@
 					type: "item"
 				}
 				{
-					id: "633D980069EE1C6F"
+					id: "06B2C38400CD3689"
 					item: {
 						Count: 1b
 						id: "createastral:radiant_leggings"
@@ -407,7 +407,7 @@
 					type: "item"
 				}
 				{
-					id: "44D52E69483D0B0F"
+					id: "6F7CC31D971530A3"
 					item: {
 						Count: 1b
 						id: "createastral:radiant_boots"
@@ -426,11 +426,11 @@
 			dependencies: ["6F1D5D69B4E9266E"]
 			description: ["{chapter.8.quest.16.description.1}"]
 			hide_dependency_lines: true
-			id: "276049D704FFFAF2"
+			id: "7BDDFC7AF9249C8E"
 			subtitle: "{chapter.8.quest.16.subtitle}"
 			tasks: [{
 				count: 256L
-				id: "5EE7EC69298504C1"
+				id: "5BDD971E8D5AFB81"
 				item: "techreborn:scrap"
 				type: "item"
 			}]
@@ -441,10 +441,10 @@
 		{
 			dependencies: ["7A4255522DA6FEB7"]
 			hide_dependency_lines: true
-			id: "54AFFA2F4D53332F"
+			id: "5272DD4DAAA65076"
 			subtitle: "{chapter.8.quest.17.subtitle}"
 			tasks: [{
-				id: "5DE297AE0133A44C"
+				id: "75B51231ABD25606"
 				item: "techreborn:recycler"
 				type: "item"
 			}]
@@ -457,9 +457,9 @@
 				"7A4255522DA6FEB7"
 				"160490A7E60FC575"
 			]
-			id: "3B639DD058D5A454"
+			id: "1627F12964E352E8"
 			rewards: [{
-				id: "14231A47E57FF49F"
+				id: "1D2BB2B627A4187D"
 				item: "compressor:quadruple_compressed_gravel"
 				type: "item"
 			}]
@@ -467,24 +467,24 @@
 			subtitle: "{chapter.8.quest.18.subtitle}"
 			tasks: [
 				{
-					id: "645D3D3C1F0A8651"
+					id: "2725F0F30603A0DF"
 					item: "techreborn:industrial_grinder"
 					type: "item"
 				}
 				{
 					count: 18L
-					id: "1CF5AA25100681C3"
+					id: "3108BE1E599915A5"
 					item: "techreborn:basic_machine_casing"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "7DE2AD95D62FB83A"
+					id: "20E2A01522B02E03"
 					item: "techreborn:advanced_machine_casing"
 					type: "item"
 				}
 				{
-					id: "582DD6D632B93242"
+					id: "39BBB525D3442428"
 					item: "minecraft:water_bucket"
 					type: "item"
 				}
@@ -496,9 +496,9 @@
 		{
 			dependencies: ["17794A6A366C8497"]
 			description: ["{chapter.8.quest.19.description.1}"]
-			id: "20BB94828994D009"
+			id: "61D425C8EF282A95"
 			rewards: [{
-				id: "7D629999FBC66ABE"
+				id: "6BDFD1D968B554CC"
 				item: {
 					Count: 1b
 					id: "tconstruct:tool_handle"
@@ -510,7 +510,7 @@
 			}]
 			subtitle: "{chapter.8.quest.19.subtitle}"
 			tasks: [{
-				id: "307DB7E7F8238E31"
+				id: "5A8544737D596F71"
 				item: "create:shadow_steel"
 				type: "item"
 			}]
@@ -520,10 +520,10 @@
 		{
 			dependencies: ["00EB34849356498A"]
 			description: ["{chapter.8.quest.20.description.1}"]
-			id: "44C4E8B21FF8DDEE"
+			id: "6663530616CD2E41"
 			subtitle: "{chapter.8.quest.20.subtitle}"
 			tasks: [{
-				id: "28536E173EF4968C"
+				id: "7C4B7F207FBF7910"
 				item: {
 					Count: 1b
 					id: "create:chromatic_compound"
@@ -538,11 +538,11 @@
 		{
 			dependencies: ["3ED703EAA646A18A"]
 			hide_dependency_lines: true
-			id: "4C299198EB5575B5"
+			id: "51577845E5AA02B3"
 			optional: true
 			subtitle: "{chapter.8.quest.21.subtitle}"
 			tasks: [{
-				id: "70ECD0341CC1DB0B"
+				id: "4B129152D65DF6D8"
 				item: "techreborn:quantum_storage_unit"
 				type: "item"
 			}]
@@ -552,11 +552,11 @@
 		{
 			dependencies: ["3ED703EAA646A18A"]
 			hide_dependency_lines: true
-			id: "2E8D72329D04AA65"
+			id: "6E4161B38AE5778D"
 			optional: true
 			subtitle: "{chapter.8.quest.22.subtitle}"
 			tasks: [{
-				id: "629B129411D7E9B6"
+				id: "3E4F3824C90D4E51"
 				item: "techreborn:quantum_tank_unit"
 				type: "item"
 			}]
@@ -566,11 +566,11 @@
 		{
 			dependencies: ["3ED703EAA646A18A"]
 			hide_dependency_lines: true
-			id: "42AA8C4426B33BC0"
+			id: "5F8DE751B7A4C50E"
 			optional: true
 			subtitle: "{chapter.8.quest.23.subtitle}"
 			tasks: [{
-				id: "0084DA4950331DF7"
+				id: "6C47C233E8B8A1D1"
 				item: "techreborn:quantum_solar_panel"
 				type: "item"
 			}]
@@ -580,11 +580,11 @@
 		{
 			dependencies: ["3ED703EAA646A18A"]
 			hide_dependency_lines: false
-			id: "01614C7D0157B6D7"
+			id: "2A9E32779B8C6FE9"
 			subtitle: "{chapter.8.quest.24.subtitle}"
 			tasks: [
 				{
-					id: "5418BEDCE458B39F"
+					id: "4E4F42D45E13A1DF"
 					item: {
 						Count: 1b
 						id: "ad_astra:jet_suit_helmet"
@@ -595,7 +595,7 @@
 					type: "item"
 				}
 				{
-					id: "78E4F4DCAA34FB25"
+					id: "015D205C62ECCDAF"
 					item: {
 						Count: 1b
 						id: "ad_astra:jet_suit"
@@ -606,7 +606,7 @@
 					type: "item"
 				}
 				{
-					id: "4C5C72218655E1E6"
+					id: "18DC7FCEDFA141E2"
 					item: {
 						Count: 1b
 						id: "ad_astra:jet_suit_pants"
@@ -617,7 +617,7 @@
 					type: "item"
 				}
 				{
-					id: "5CD72113DD467FC0"
+					id: "606E6DA2A3F454CF"
 					item: {
 						Count: 1b
 						id: "ad_astra:jet_suit_boots"
@@ -639,10 +639,10 @@
 				"78932223283B0376"
 			]
 			description: ["{chapter.8.quest.25.description.1}"]
-			id: "2C08C29D7A3A1EE3"
+			id: "32371381C0F729DE"
 			rewards: [{
 				count: 3
-				id: "53DBC9CDF8C7B0C7"
+				id: "01A2B9E2870F192B"
 				item: "createastral:subatomic_ingot"
 				type: "item"
 			}]
@@ -650,7 +650,7 @@
 			size: 2.0d
 			subtitle: "{chapter.8.quest.25.subtitle}"
 			tasks: [{
-				id: "07006AA77E8F6983"
+				id: "60605694745D6DC0"
 				item: "createastral:subatomic_ingot"
 				type: "item"
 			}]
@@ -663,10 +663,10 @@
 				"3ED703EAA646A18A"
 				"5779A205B598A69B"
 			]
-			id: "3E85CC42101D719D"
+			id: "0A56317ABA551ADB"
 			subtitle: "{chapter.8.quest.26.subtitle}"
 			tasks: [{
-				id: "43484BC1B71F1113"
+				id: "247C163C67C0BF99"
 				item: {
 					Count: 1b
 					id: "techreborn:cell"
@@ -683,9 +683,9 @@
 		{
 			dependencies: ["0A6A678C1179157D"]
 			description: ["{chapter.8.quest.27.description.1}"]
-			id: "3509D9242284384A"
+			id: "6F32B7A211B79E48"
 			tasks: [{
-				id: "51BC1D04191B1B50"
+				id: "385E3E57F709C6AD"
 				item: "ae2:singularity"
 				type: "item"
 			}]
@@ -699,28 +699,28 @@
 				"16A2464A968635F7"
 			]
 			description: ["{chapter.8.quest.28.description.1}"]
-			id: "6ABB7D71FBF3B59D"
+			id: "04691B02DE7D8CC1"
 			rewards: [
 				{
-					id: "6664D0ADE1A05BAB"
+					id: "400A30A1AB180E23"
 					item: "adoptafloppa:kitney_item"
 					type: "item"
 				}
 				{
-					id: "37625718F6A8F50D"
+					id: "31C2031CA1108B1F"
 					item: "createastral:astral_conduit"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "0E800BE04C272E32"
+					id: "40A3D28D6A2FAC43"
 					item: "techreborn:uu_matter"
 					type: "item"
 				}
 			]
 			subtitle: "{chapter.8.quest.28.subtitle}"
 			tasks: [{
-				id: "69AE94FFDF1CEACE"
+				id: "439174F5BD42EE06"
 				item: "createastral:astral_singularity"
 				type: "item"
 			}]
@@ -734,10 +734,10 @@
 				"3ED703EAA646A18A"
 			]
 			description: ["{chapter.8.quest.29.description.1}"]
-			id: "2C03284E4B36163B"
+			id: "722688B6D63CC43C"
 			subtitle: "{chapter.8.quest.29.subtitle}"
 			tasks: [{
-				id: "7BAA58CCD232C3DF"
+				id: "5EEBED1ADCC2D8FB"
 				item: {
 					Count: 1b
 					id: "techreborn:cell"
@@ -754,15 +754,15 @@
 		{
 			dependencies: ["7A4255522DA6FEB7"]
 			description: ["{chapter.8.quest.30.description.1}"]
-			id: "3434A0BB8BDE3A52"
+			id: "0E3C5D5F087EB494"
 			tasks: [
 				{
-					id: "3FBF52F8B4C4C0D6"
+					id: "71815ADB83A29EAE"
 					item: "techreborn:raw_iridium"
 					type: "item"
 				}
 				{
-					id: "10A7A765E404E998"
+					id: "5033E16A9C0F87FE"
 					title: "{chapter.8.quest.30.task.2.title}"
 					type: "checkmark"
 				}
@@ -777,10 +777,10 @@
 				"353DA088F5ABA8FE"
 			]
 			description: ["{chapter.8.quest.31.description.1}"]
-			id: "3C4EB369C24CA14C"
+			id: "024FECF11C57FD0D"
 			tasks: [{
 				count: 16L
-				id: "1C6B4A3855B3E6B6"
+				id: "1B31E85BD8ED6333"
 				item: "createastral:calorite_pin"
 				type: "item"
 			}]
@@ -792,9 +792,9 @@
 			dependencies: ["7A4255522DA6FEB7"]
 			description: ["{chapter.8.quest.32.description.1}"]
 			hide_dependency_lines: true
-			id: "6CA59B08FF0A10B7"
+			id: "0F5F8432490A10D0"
 			tasks: [{
-				id: "48EA5C48BF78A9AC"
+				id: "34F6F8B82305AC34"
 				item: {
 					Count: 1b
 					id: "techreborn:cell"
@@ -812,9 +812,9 @@
 			dependencies: ["7A4255522DA6FEB7"]
 			description: ["{chapter.8.quest.33.description.1}"]
 			hide_dependency_lines: true
-			id: "0F496A6F2A7EF349"
+			id: "59FE621430E52669"
 			tasks: [{
-				id: "38D1CBA00155E9FB"
+				id: "41E06D4401464746"
 				item: "techreborn:machine_parts"
 				type: "item"
 			}]
@@ -824,10 +824,10 @@
 		}
 		{
 			dependencies: ["11F776AD4AEA326A"]
-			id: "1DBE1F2BA36296D2"
+			id: "78123800D984D8B5"
 			subtitle: "{chapter.8.quest.34.subtitle}"
 			tasks: [{
-				id: "24B04FB89196E04B"
+				id: "100D15F6A2EA63C5"
 				item: "doodads:speed_boots"
 				type: "item"
 			}]
@@ -837,10 +837,10 @@
 		{
 			dependencies: ["39B529A749BEC970"]
 			description: ["{chapter.8.quest.35.description.1}"]
-			id: "35AE6B04D77FA45C"
+			id: "708D21AB2715522E"
 			tasks: [{
 				count: 64L
-				id: "165CDD08F03056BC"
+				id: "4905BBA7A9F407D5"
 				item: "create:veridium"
 				type: "item"
 			}]
@@ -851,9 +851,9 @@
 		{
 			dependencies: ["1FFE36A644FA5491"]
 			icon: "create:crushing_wheel"
-			id: "3D8B291A4A9335AB"
+			id: "11FF2CABE788A468"
 			tasks: [{
-				id: "59FB8C4205337EC3"
+				id: "2E71670D9374D664"
 				type: "checkmark"
 			}]
 			title: "{chapter.8.quest.36.title}"
@@ -863,10 +863,10 @@
 		{
 			dependencies: ["1B70BAF5B7B5ED0C"]
 			description: ["{chapter.8.quest.37.description.1}"]
-			id: "6449A6E1325F06D2"
+			id: "15A9566218336209"
 			tasks: [{
 				count: 16L
-				id: "7A648475B72A3372"
+				id: "58B248E76218BB62"
 				item: "techreborn:olivine_dust"
 				type: "item"
 			}]
@@ -876,15 +876,15 @@
 		}
 		{
 			dependencies: ["0E0C76625B24032F"]
-			id: "587CE7A210328BC4"
+			id: "0BFFD767F0CAC281"
 			rewards: [{
-				id: "53ED796EBFB7EA4A"
+				id: "4FA1168767197B0F"
 				item: "vinery:apple_pie"
 				type: "item"
 			}]
 			subtitle: "{chapter.8.quest.38.subtitle}"
 			tasks: [{
-				id: "448A08222BEDB4BE"
+				id: "7F7DBC39C483D672"
 				item: "createastral:olivine_sheet"
 				type: "item"
 			}]
@@ -898,16 +898,16 @@
 				"46382C349512DBEE"
 			]
 			description: ["{chapter.8.quest.39.description.1}"]
-			id: "5E372D41FA6B22E1"
+			id: "345CEDF3E8A623F3"
 			rewards: [{
 				count: 32
-				id: "32270EF4AD747201"
+				id: "1A741ABC55A32FE0"
 				item: "minecraft:tnt"
 				type: "item"
 			}]
 			subtitle: "{chapter.8.quest.39.subtitle}"
 			tasks: [{
-				id: "0039F6CB477B178A"
+				id: "348495EC0A835D58"
 				item: "techreborn:nuke"
 				type: "item"
 			}]
@@ -920,9 +920,9 @@
 				"49C63ADC9B1FC721"
 			]
 			description: ["{chapter.8.quest.40.description.1}"]
-			id: "39EB3B684E2EC0E3"
+			id: "30F838885BB7F5C6"
 			tasks: [{
-				id: "0DB332124E804F52"
+				id: "1B7081396D6E311A"
 				item: "ae2:condenser"
 				type: "item"
 			}]
@@ -933,10 +933,10 @@
 		{
 			dependencies: ["3ED703EAA646A18A"]
 			hide_dependency_lines: true
-			id: "7DA68C68E1AA126B"
+			id: "378FF6580BCC5AFF"
 			subtitle: "{chapter.8.quest.41.subtitle}"
 			tasks: [{
-				id: "69D8D108C507E9A8"
+				id: "26C24E595270C667"
 				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
@@ -945,9 +945,9 @@
 		}
 		{
 			dependencies: ["3705B91C0D4EA2A0"]
-			id: "19E9431C6F452144"
+			id: "3EFDAE0B018FB9EA"
 			tasks: [{
-				id: "451138DEB2E8242D"
+				id: "15830351436ED3E3"
 				item: "techreborn:plasma_generator"
 				type: "item"
 			}]
@@ -956,9 +956,9 @@
 		}
 		{
 			dependencies: ["3705B91C0D4EA2A0"]
-			id: "2D102079F94D5E25"
+			id: "4E0A432BD98B66B2"
 			tasks: [{
-				id: "3DE472758B96C04E"
+				id: "230806DED12DDA02"
 				item: "techreborn:lightning_rod"
 				type: "item"
 			}]
@@ -967,9 +967,9 @@
 		}
 		{
 			dependencies: ["797AC00CB4F6F9DC"]
-			id: "6A9F4D60E298434F"
+			id: "2479555E9BDBB2BB"
 			tasks: [{
-				id: "7726BC127B2BB2F5"
+				id: "65BBBB024B005260"
 				item: "techreborn:fluid_replicator"
 				type: "item"
 			}]
@@ -978,9 +978,9 @@
 		}
 		{
 			dependencies: ["00EB34849356498A"]
-			id: "504615C406D21476"
+			id: "4CE0644E9BAEE0B1"
 			tasks: [{
-				id: "312A68E7FA71E703"
+				id: "4539E03761B76FE4"
 				item: "techreborn:superconductor"
 				type: "item"
 			}]
@@ -989,10 +989,10 @@
 		}
 		{
 			dependencies: ["4684E4AEACEC9802"]
-			id: "65DE1F48F26CC6D2"
+			id: "5E2C157BD9036B03"
 			tasks: [{
 				count: 16L
-				id: "04916E1737177EE2"
+				id: "6FD21044948E1F1F"
 				item: {
 					Count: 1b
 					id: "techreborn:cell"
@@ -1007,10 +1007,10 @@
 		}
 		{
 			dependencies: ["4684E4AEACEC9802"]
-			id: "545ADE499F362906"
+			id: "61EFE5CBA34E9FE9"
 			tasks: [{
 				count: 16L
-				id: "2F02E8F38A089048"
+				id: "5A17D34F96564C2D"
 				item: {
 					Count: 1b
 					id: "techreborn:cell"
@@ -1025,9 +1025,9 @@
 		}
 		{
 			dependencies: ["4329020373E27B1F"]
-			id: "002023332FB536B6"
+			id: "265B087544735878"
 			tasks: [{
-				id: "1BE34A1EA63380A2"
+				id: "71E983FF13EE5E53"
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
@@ -1038,10 +1038,10 @@
 			dependencies: ["353DA088F5ABA8FE"]
 			description: ["{chapter.8.quest.49.description.1}"]
 			hide: true
-			id: "7652E1CDFADABF2F"
+			id: "3649BCF03A5EE73C"
 			subtitle: "{chapter.8.quest.49.subtitle}"
 			tasks: [{
-				id: "4A61C336B48743F3"
+				id: "68FEAA1589BF1AC8"
 				item: "ad_astra:calorite_sliding_door"
 				type: "item"
 			}]
@@ -1052,9 +1052,9 @@
 		{
 			dependencies: ["0CE73BAC9F3A9E03"]
 			description: ["{chapter.8.quest.50.description.1}"]
-			id: "7403F98829F375A3"
+			id: "082042F97D3ECD3D"
 			rewards: [{
-				id: "7BC64C468CF608A6"
+				id: "09F044EA1DCDAB31"
 				type: "xp"
 				xp: 1000
 			}]
@@ -1062,7 +1062,7 @@
 			size: 5.0d
 			subtitle: "{chapter.8.quest.50.subtitle}"
 			tasks: [{
-				id: "2155C49AD0010D79"
+				id: "3E7E59184A10E1E3"
 				item: {
 					Count: 1b
 					id: "ad_astra:tier_4_rocket"
@@ -1077,15 +1077,15 @@
 		{
 			dependencies: ["7A4255522DA6FEB7"]
 			description: ["{chapter.8.quest.51.description.1}"]
-			id: "7F5539BE85E69315"
+			id: "6F599E37FF2AF4B3"
 			rewards: [{
 				count: 16
-				id: "7A107BE670B3004F"
+				id: "2D07A7E91BBDC567"
 				item: "techreborn:raw_iridium"
 				type: "item"
 			}]
 			tasks: [{
-				id: "4488EFD4DB8B3A4F"
+				id: "5E3D0BD63D7E9961"
 				item: "techreborn:iridium_alloy_ingot"
 				type: "item"
 			}]
