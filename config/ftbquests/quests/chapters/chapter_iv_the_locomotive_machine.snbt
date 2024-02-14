@@ -4,6 +4,20 @@
 	filename: "chapter_iv_the_locomotive_machine"
 	group: ""
 	id: "0AF8EE64D6B4516C"
+	images: [{
+		alpha: 200
+		click: ""
+		color: 16672790
+		corner: false
+		dev: false
+		height: 1.2d
+		hover: [ ]
+		image: "chalk:block/mark/arrow"
+		rotation: 180.0d
+		width: 1.2d
+		x: 3.0d
+		y: -21.5d
+	}]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -14,8 +28,8 @@
 				item: "create:track_signal"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["46C6D675E116C997"]
@@ -25,8 +39,8 @@
 				item: "create:sturdy_sheet"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["174567332B8DE8C1"]
@@ -36,8 +50,8 @@
 				item: "create:powdered_obsidian"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.0d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			id: "174567332B8DE8C1"
@@ -46,8 +60,8 @@
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: -2.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -62,7 +76,7 @@
 				item: "tfmg:liquid_concrete_bucket"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.5d
 			y: -13.0d
 		}
 		{
@@ -72,7 +86,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: -15.0d
 		}
 		{
@@ -82,7 +96,7 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -15.0d
 		}
 		{
@@ -92,7 +106,7 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: -15.0d
 		}
 		{
@@ -106,7 +120,7 @@
 				item: "tfmg:cement"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -15.0d
 		}
 		{
@@ -117,7 +131,7 @@
 				item: "tfmg:limesand"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: -17.0d
 		}
 		{
@@ -127,19 +141,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: -17.0d
-		}
-		{
-			id: "0AA998D14B422B9E"
-			tasks: [{
-				amount: 1000L
-				fluid: "create:honey"
-				id: "74C52702ADA8950F"
-				type: "fluid"
-			}]
-			x: 0.0d
-			y: -19.5d
 		}
 		{
 			id: "4D774B40DB2BEA38"
@@ -148,13 +151,13 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -19.5d
+			x: 4.0d
+			y: -20.5d
 		}
 		{
 			dependencies: [
-				"0AA998D14B422B9E"
 				"4D774B40DB2BEA38"
+				"42CFF547BDAB44B1"
 			]
 			id: "08B00F4FFF4BA13F"
 			tasks: [{
@@ -162,18 +165,8 @@
 				item: "create:limestone"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -18.0d
-		}
-		{
-			id: "2955A7EDC5A65DA7"
-			tasks: [{
-				id: "1E16776DB47C2F46"
-				item: "ad_astra:iron_rod"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -0.5d
+			x: 3.0d
+			y: -19.0d
 		}
 		{
 			id: "07EE6AFA3FE693E1"
@@ -182,51 +175,75 @@
 				item: "minecraft:slime_ball"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -0.5d
-		}
-		{
-			id: "6027481987412344"
-			tasks: [{
-				id: "5DE84F1065A9A562"
-				item: "forbidden_arcanus:obsidian_with_iron"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -1.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6E62A3B6C3E0EF8B"]
+			description: [
+				"&9Mob Predictions &rwill need to be processed in a &2loot fabricator&r, a device which uses power to convert predictions to mob drops."
+				""
+				"The drops which are available are based on a list of pre-defined items, and a target can be selected for each type of model. "
+				""
+				"&2The loot fabricator&r will remember your choices for each type, so you can feed multiple types of predictions into a single fabricator."
+			]
 			id: "1360D8CD2949E41B"
 			tasks: [{
 				id: "3E70EED36DDFF8EF"
 				item: "hostilenetworks:loot_fabricator"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -8.5d
+			x: 2.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["6B0D61030092824D"]
+			dependencies: [
+				"6B0D61030092824D"
+				"58DD96B724C875FE"
+				"0AF71B3EB3531CAC"
+			]
+			description: [
+				"Training a Data Model can be done in one of two ways, with a &4Deep Learner&r or with a &6Simulation Chamber&r. "
+				""
+				"All models start out in the Faulty state, and must be trained up to Basic in the deep learner."
+				""
+				"Once your model is Basic or higher, you can use the simulation chamber to run simulations of your model. "
+				""
+				"Simulations will always produce a generalized prediction, and may also produce a Mob Prediction, based on the accuracy of the model."
+				""
+				"The higher tier of the model, the higher the accuracy, up to 99.5% at Self Aware. Running simulations requires energy (based on the model type) and a catalyst item, which is usually a &6Prediction Matrix&r."
+			]
 			id: "6E62A3B6C3E0EF8B"
 			tasks: [{
 				id: "5E181D8952DDF478"
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -10.0d
+			x: 2.5d
+			y: -8.5d
 		}
 		{
-			dependencies: ["254636A47FC0F2FC"]
+			dependencies: ["49A0E7E6B5C3DB65"]
+			description: [
+				"&2Hostile Neural Networks&r is a mod based on Deep Mob Learning."
+				""
+				"It allows you to train data models and run simulations, producing mob predictions, which can be used to generate mob loot."
+				""
+				""
+				"The fundamental unit of this mod is the &dData Model&r - an item which holds information about an entity that you can utilize to generate their drops. "
+				""
+				"To get a Data Model, you must first craft a &6Data Model Framework&r, and use it on the target entity to build the model. "
+				""
+				"Once you have your model, you will have to train it."
+			]
 			id: "6B0D61030092824D"
 			tasks: [{
 				id: "56731712C3EC0870"
 				item: "hostilenetworks:blank_data_model"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -11.5d
+			x: 2.5d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -250,14 +267,15 @@
 				"5E60FF6098CB030B"
 				"31055C6D28A45113"
 				"2EF91E1C99625A46"
+				"07EE6AFA3FE693E1"
 			]
 			description: [""]
 			id: "3DFF1B74E8AADB57"
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "3D5BEB624196441F"
-				item: "kubejs:andesite_machine"
+				id: "0902CB56133DA394"
+				item: "kubejs:locomotive_mechanism"
 				type: "item"
 			}]
 			x: 0.0d
@@ -271,8 +289,8 @@
 				item: "alexscaves:metal_rebar"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4D4534E5FEBE0716"]
@@ -282,8 +300,8 @@
 				item: "alexscaves:scrap_metal"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6E509C44D3A6E49E"]
@@ -293,39 +311,24 @@
 				item: "alexscaves:metal_swarf"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1360D8CD2949E41B"]
+			description: [
+				"&0Ferrous Slime&r can be found in &9Magnetic Alex Caves&r."
+				""
+				"Once you get there you need collect a data model of Ferrous Slime and train it to Basic."
+			]
 			id: "6E509C44D3A6E49E"
 			tasks: [{
 				id: "73B98B126E5C8B08"
 				item: "alexscaves:ferrouslime_ball"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.0d
-		}
-		{
-			id: "5CD1199F80B99AA0"
-			tasks: [{
-				id: "7AF0B9D2065419C7"
-				item: "minecraft:repeater"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -11.5d
-		}
-		{
-			id: "1624FEA31895C527"
-			tasks: [{
-				id: "61D0C23F9599C2BE"
-				item: "sophisticatedbackpacks:gold_backpack"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 5.5d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			id: "5C1E80D31FB5E3B7"
@@ -338,14 +341,64 @@
 			y: 4.0d
 		}
 		{
-			id: "14735BEA278CCFFA"
+			id: "42CFF547BDAB44B1"
 			tasks: [{
-				id: "2057D142A75EB09E"
-				item: "create_sa:steam_engine"
+				id: "641350D980FCA0F9"
+				item: "minecraft:honey_bottle"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.0d
+			x: 2.0d
+			y: -20.5d
+		}
+		{
+			id: "0FA7629CCE64385C"
+			tasks: [{
+				id: "317DED90EB4BE944"
+				item: "tfmg:formwork_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"254636A47FC0F2FC"
+				"0FA7629CCE64385C"
+			]
+			description: ["Put the liquid concrete in a framework block and wait a few seconds till it forms a solid block of concetre. "]
+			id: "49A0E7E6B5C3DB65"
+			tasks: [{
+				id: "6DF77E7EDAD9CD77"
+				item: "tfmg:concrete"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			id: "58DD96B724C875FE"
+			tasks: [{
+				id: "6AD585B377F63905"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"&6The deep learner&r allows you to store a few data models within, and kills you receive will begin to train the model. "
+				""
+				"You can equip in curious or have in inventory it will work."
+			]
+			id: "0AF71B3EB3531CAC"
+			tasks: [{
+				id: "7BDD94C5B583CCFD"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
 		}
 	]
 	title: "Chapter IV: The Locomotive Machine"

@@ -4,21 +4,370 @@
 	filename: "chapter_vii_building_a_rocket"
 	group: ""
 	id: "1DBBA282D8932456"
-	order_index: 10
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:item/abstruse_mechanism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:item/explosive_mechanism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:item/incomplete_train_mechanism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:item/t1_plating"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -1.5d
+		}
+	]
+	order_index: 11
 	quest_links: [ ]
-	quests: [{
-		id: "4D530A62F95C078D"
-		tasks: [{
-			id: "38AB24AA65F70EA6"
-			item: {
-				Count: 1b
-				id: "ad_astra:tier_1_rocket"
-				tag: { }
-			}
-			type: "item"
-		}]
-		x: 1.0d
-		y: -1.5d
-	}]
-	title: "Chapter VII: Building a Rocket"
+	quests: [
+		{
+			dependencies: [
+				"1EE3D07D498AEA5C"
+				"59753336427A57A6"
+				"778AEC1710A4E237"
+				"08ED76082CFF1D16"
+				"711608DBAE9D41EE"
+				"2F520B59F10123D2"
+				"797DCA89A0B3FBB8"
+			]
+			id: "4D530A62F95C078D"
+			tasks: [{
+				id: "38AB24AA65F70EA6"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "6BD417BCB8EA5267"
+			tasks: [{
+				id: "7C0E78B5308A2D34"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "724B553DDBF1E534"
+			tasks: [{
+				id: "5FCECB84B813AA3E"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "26DD3B1618269540"
+			tasks: [{
+				id: "6D12335E837AEBFE"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4B3AFE4516C05F1D"
+				"7AD239C9017085D9"
+				"1178219DCA5FFBAE"
+				"12B1E96A0ED56770"
+			]
+			id: "1EE3D07D498AEA5C"
+			tasks: [{
+				id: "05A29C17D5346C09"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "12B1E96A0ED56770"
+			tasks: [{
+				id: "72062E8B4198B56F"
+				item: "tfmg:steel_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "7AD239C9017085D9"
+			tasks: [{
+				id: "00BDE91C5186375F"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "1178219DCA5FFBAE"
+			tasks: [{
+				id: "634C19FA9A8BC0BE"
+				item: "forbidden_arcanus:corrupti_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [
+				"Place your rocket here and blast off."
+				""
+				"&7Reward: x1 Block of Steel \\& 3x Loot Bundle Fragment."
+			]
+			id: "2A55F2732FFD85FC"
+			subtitle: "Craft a Rocket Launch Pad."
+			tasks: [{
+				id: "75FD870840BE9790"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "Rocket Launch Pad"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1EE3D07D498AEA5C"
+				"5F8B17F4A8CF47C7"
+			]
+			description: [
+				"Let's get the basic parts ready to head to space."
+				""
+				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
+			]
+			id: "59753336427A57A6"
+			subtitle: "Craft a rocket nose cone."
+			tasks: [{
+				id: "3C9E552FF109985E"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "4B3AFE4516C05F1D"
+			tasks: [{
+				id: "3629F0B44DA81940"
+				item: "tfmg:steel_casing"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "5F8B17F4A8CF47C7"
+			tasks: [{
+				id: "075E1F8A5CAED24C"
+				item: "forbidden_arcanus:whirlwind_prism"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "2F520B59F10123D2"
+			tasks: [{
+				id: "313DDCE3C70B036C"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "778AEC1710A4E237"
+			tasks: [{
+				id: "3052E3B7BCD06CBF"
+				item: "tfmg:turbine_engine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "08ED76082CFF1D16"
+			tasks: [{
+				id: "7DF1B8FCABA555F8"
+				item: "tfmg:radial_engine"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "711608DBAE9D41EE"
+			tasks: [{
+				id: "3A10A653EECB62D0"
+				item: "tfmg:low_grade_fuel_engine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "0EF6ACCA326B81D1"
+			tasks: [{
+				id: "1CBB160DA3343C3B"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "797DCA89A0B3FBB8"
+			tasks: [{
+				id: "5DBEA7A9720638BE"
+				item: "create:black_seat"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "06653C7655CFEE6C"
+			tasks: [{
+				id: "07411071D22E1680"
+				item: "ad_astra:vent"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "651CC51E0CEBF71C"
+			tasks: [{
+				id: "6183D145591AF75B"
+				item: "alexscaves:depth_glass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Oxygen for your space travels."
+				""
+				"&7Reward: x1 Loot Bundle"
+			]
+			id: "7D24EB4545FD943B"
+			subtitle: "Craft an oxygen distributor."
+			tasks: [{
+				id: "2FDA917B16206989"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Helpful if you want to breathe in space :p"
+				""
+				"&7Reward: x2 steel ingot"
+			]
+			id: "6521D876CFFA6497"
+			subtitle: "Craft an oxygen loader."
+			tasks: [{
+				id: "1A604497F93D343E"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "2B348941EFBB45C6"
+			tasks: [{
+				id: "65AAA7F5E8758049"
+				item: "create_dd:diamond_shard"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "6CBB3199B0864718"
+			tasks: [{
+				id: "7581530D2300460E"
+				item: "born_in_chaos_v1:spiny_shell"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "5CAA8464CB5B1EDB"
+			tasks: [{
+				id: "4D6BA36A213B81FB"
+				item: "minecraft:terracotta"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+	]
+	title: "Chapter VIII: Building a Rocket"
 }

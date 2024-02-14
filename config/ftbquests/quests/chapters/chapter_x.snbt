@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_x"
+	group: ""
+	id: "19ECD475E94E145F"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "01D7CF12E71D81FF"
+			tasks: [{
+				id: "0219A6441EF65D68"
+				item: "create_dd:mithril_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			id: "1C780BFC6939C692"
+			tasks: [{
+				id: "45FB9E932E894AF0"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+	]
+	title: "Chapter X"
+}

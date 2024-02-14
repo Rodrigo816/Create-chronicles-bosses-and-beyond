@@ -26,7 +26,7 @@ StartupEvents.registry("block", (event) => {
     machine('Andesite', 'Rotation', "solid")
     machine('Copper', 'Valve', "solid")
     machine('Brass', 'Precision', "solid")
-    machine('OBsidian', 'Locomotive', "solid")
+    machine('Obsidian', 'Locomotive', "solid")
 })
 
 
@@ -46,7 +46,8 @@ StartupEvents.registry('item', event => {
 
     mechanism('Rotation')
     //mechanism('Valve')
-    mechanism('Precision')
+    //mechanism('Precision')
+    mechanism('Locomotive')
 
 	event.create('skill_add_point')
         .maxStackSize(64)
@@ -66,5 +67,6 @@ StartupEvents.registry('item', event => {
     //event.create('dust_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Coal Dust')
     event.create('ingot_mystic_coal').texture("kubejs:item/mystic_ingot").displayName('Mystic Coal Ingot')
     event.create('rod_mystic_coal').texture("kubejs:item/mystic_dust").displayName('Mystic Coal Rod')
+
   
 })

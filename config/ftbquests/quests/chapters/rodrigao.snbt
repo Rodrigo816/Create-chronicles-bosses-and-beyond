@@ -1,0 +1,622 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rodrigao"
+	group: ""
+	id: "20497405FCFCFADA"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "tfmg:industrial_pipe"
+			id: "75C520AF20F26D8B"
+			rewards: [
+				{
+					id: "7606F21EB001F73B"
+					item: "tfmg:cast_iron_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "20C9B531D15B4373"
+					item: "tfmg:cast_iron_distillation_output"
+					type: "item"
+				}
+				{
+					id: "3C8810A776B93AE9"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2EF07DC96A62F94C"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6A75D997868ABFA6"
+					item: "tfmg:steel_distillation_output"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "20BEFEE7EDFD4D3E"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "1B6C7CC735B9A3A8"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+			]
+			title: "Distillation Tower"
+			x: 3.5d
+			y: -15.5d
+		}
+		{
+			id: "234DD65244B0B9E4"
+			rewards: [{
+				count: 64
+				id: "16D1096B8AE787DB"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5FAF6B2F80771668"
+					item: "tfmg:cast_iron_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0F607B544A153345"
+					item: "tfmg:cast_iron_distillation_output"
+					type: "item"
+				}
+			]
+			title: "Cast Iron Distillation Tower"
+			x: 3.5d
+			y: -19.5d
+		}
+		{
+			id: "5DDF3D85567EA4D6"
+			rewards: [{
+				id: "3BE415D10419A014"
+				item: "tfmg:plastic_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49ACD491DC1C47A5"
+				item: "tfmg:plastic_sheet"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -19.5d
+		}
+		{
+			icon: "tfmg:diesel_bucket"
+			id: "26CAC1CC8936FFE7"
+			rewards: [
+				{
+					count: 4
+					id: "37018FAD1DB836CE"
+					item: "tfmg:flarestack"
+					type: "item"
+				}
+				{
+					id: "7FE46AB38DEF67AE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6D8DC4C0DE733B70"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "189A250B72076CBD"
+					item: "tfmg:steel_pipe"
+					type: "item"
+				}
+				{
+					id: "15EB70167D0F45EE"
+					item: "tfmg:steel_mechanical_pump"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "3781A9B37BF476EF"
+				title: "Refining Oil"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -17.5d
+		}
+		{
+			id: "25E2251A4CFC70C2"
+			rewards: [
+				{
+					count: 3
+					id: "34234A47C04B5CFB"
+					item: "tfmg:napalm_bomb"
+					type: "item"
+				}
+				{
+					id: "236F5FA1A392FF9B"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+			]
+			subtitle: "That'll teach those farmers"
+			tasks: [{
+				id: "7F50B82429921DF2"
+				item: "tfmg:napalm_bomb"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -15.5d
+		}
+		{
+			id: "03EBDAA263554C2B"
+			rewards: [{
+				count: 16
+				id: "6E7ABD6EBFA4535E"
+				item: "tfmg:kerosene_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18D355360B82A47A"
+				item: "tfmg:large_radial_engine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -15.5d
+		}
+		{
+			id: "688E680A6CE29C50"
+			rewards: [{
+				id: "21C39D0895E08943"
+				item: "tfmg:gasoline_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "24F78FBE62C4D689"
+					item: "tfmg:gasoline_engine"
+					type: "item"
+				}
+				{
+					id: "3CFFF11BBB970428"
+					item: "tfmg:gasoline_engine_back"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -16.5d
+		}
+		{
+			id: "3A58C82E22E467EC"
+			rewards: [{
+				count: 32
+				id: "61811A7141EA0EF5"
+				item: "tfmg:steel_pipe"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3E30E53CCEE015F2"
+					item: "tfmg:lpg_engine"
+					type: "item"
+				}
+				{
+					id: "6AFA6AA2055BE74C"
+					item: "tfmg:lpg_engine_back"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -19.5d
+		}
+		{
+			id: "071396322F2A89C0"
+			rewards: [
+				{
+					id: "136CA867683022E7"
+					item: "tfmg:air_intake"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0F4B05F1F8F38E7E"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C69582357844117"
+				item: "tfmg:diesel_engine"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -18.5d
+		}
+		{
+			id: "0BD790ED22139712"
+			rewards: [{
+				id: "5393D241302F0E44"
+				item: "tfmg:kerosene_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F2DCF861A977C89"
+					item: "tfmg:turbine_engine"
+					type: "item"
+				}
+				{
+					id: "5717D9F771B528E3"
+					item: "tfmg:turbine_engine_back"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -17.5d
+		}
+		{
+			id: "306E38806C64C1F1"
+			rewards: [{
+				count: 4
+				id: "2FE567F631E8BBCA"
+				item: "alexscaves:nuclear_furnace_component"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Our words are backed with NUCLEAR WEAPONS!"
+			tasks: [{
+				id: "7EFFBF6E1371007F"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["7E82E9591EDB4835"]
+			id: "0CFFF58986CE7733"
+			tasks: [{
+				id: "43AD25D516C4DC06"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"41F2204F3859C40E"
+				"0CFFF58986CE7733"
+			]
+			id: "645E8388213F1284"
+			subtitle: "Block of coal"
+			tasks: [{
+				id: "48748B75597DC519"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			title: "OPTIONAL"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7EC15712EC498088"
+				"020E3DF3DAA4292F"
+				"645E8388213F1284"
+			]
+			id: "5690FCED46349207"
+			tasks: [{
+				id: "6F136A019E348CD4"
+				item: "kubejs:mystic_coal_block"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69E26E48222CEC01"]
+			id: "6C52531E3B0CCB60"
+			tasks: [{
+				id: "6012EF5123327E81"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C52531E3B0CCB60"]
+			id: "1D9D2E1FF9BD8A91"
+			tasks: [{
+				id: "20A855B3B2E0B5A7"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5690FCED46349207"]
+			id: "440BB8DB69B930F5"
+			tasks: [{
+				id: "6DA15926138E55D1"
+				item: "kubejs:dormant_dust_mystic_coal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"239718D740BF77C5"
+				"440BB8DB69B930F5"
+				"2D42E5A8299941E1"
+			]
+			id: "2D2E2028EBB92BF6"
+			tasks: [{
+				id: "61ACAD180F4BF9F0"
+				item: "kubejs:mystic_coal_liquid_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D2E2028EBB92BF6"]
+			id: "466F43B18F0D1B7E"
+			tasks: [{
+				id: "54052EC191B72E3C"
+				item: "kubejs:ingot_mystic_coal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["466F43B18F0D1B7E"]
+			id: "69E26E48222CEC01"
+			tasks: [{
+				id: "0CA9848993BF29B0"
+				item: "kubejs:rod_mystic_coal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F7A18E1DDDDD166"
+				"409394CEF9087E88"
+			]
+			id: "1A36CF8C1DF5DEC4"
+			tasks: [{
+				id: "1B61CF2AEB5A536E"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0706D3B957259D7B"]
+			id: "020E3DF3DAA4292F"
+			tasks: [{
+				id: "01A0949F876C011E"
+				item: "minecraft:glow_ink_sac"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			id: "0706D3B957259D7B"
+			tasks: [{
+				id: "026F73EBCA345E92"
+				item: "minecraft:ink_sac"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"3E42FEEFBC22F7D3"
+				"1D9D2E1FF9BD8A91"
+				"1A36CF8C1DF5DEC4"
+			]
+			id: "738C37B1E696F933"
+			tasks: [{
+				id: "2DDA923F80609B46"
+				item: "create_dd:ember_alloy"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0179452F07812322"
+				"25F677F8D587C451"
+				"39AEC26244AC111B"
+				"08DACD94A59D5FDE"
+				"6B73EB529E646EF8"
+			]
+			id: "7EC15712EC498088"
+			tasks: [{
+				id: "038A366EFB89A0A1"
+				item: "forbidden_arcanus:purifying_soap"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["312D4E8EBE475538"]
+			id: "4706B7F09A2BFC25"
+			tasks: [{
+				id: "3C659447C538B899"
+				item: "forbidden_arcanus:arcane_crystal_dust_speck"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4706B7F09A2BFC25"]
+			id: "25F677F8D587C451"
+			tasks: [{
+				id: "15D5BFE6A644C840"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			id: "312D4E8EBE475538"
+			tasks: [{
+				id: "38C4815C1D5E7A60"
+				item: "forbidden_arcanus:nipa"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -7.5d
+		}
+		{
+			id: "08DACD94A59D5FDE"
+			tasks: [{
+				id: "73219A8C1148BF84"
+				item: "forbidden_arcanus:wax"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			id: "39AEC26244AC111B"
+			tasks: [{
+				id: "148DA1DD32850B83"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["645E8388213F1284"]
+			id: "0179452F07812322"
+			tasks: [{
+				id: "3A3F8FDBFE26CEB3"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			id: "6B73EB529E646EF8"
+			tasks: [{
+				id: "3552D6ABEA36EF94"
+				item: "minecraft:red_tulip"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			id: "4D391FCA01F6D795"
+			tasks: [{
+				id: "632939ADDADCC2A2"
+				item: "create_dd:industrial_fan"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["438AFB85E4605DF6"]
+			id: "67F1C2891AA7CD0E"
+			tasks: [{
+				id: "138B877F4F400CB4"
+				item: "create_things_and_misc:crushed_magma"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			id: "7F5486A6318789B5"
+			tasks: [{
+				id: "5525D9787719CB17"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			id: "2D42E5A8299941E1"
+			tasks: [{
+				id: "1E3E6BF49B227CEF"
+				item: "tfmg:coal_coke_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "3045E9E172BEEAC1"
+			tasks: [{
+				id: "301586EA1A6AF0C7"
+				item: "tfmg:napalm_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7F5486A6318789B5"
+				"67F1C2891AA7CD0E"
+				"738C37B1E696F933"
+				"3045E9E172BEEAC1"
+			]
+			id: "1084B343FEEBB88E"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "2F9501B14DAF966D"
+				item: "create_dd:infernal_mechanism"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			id: "438AFB85E4605DF6"
+			tasks: [{
+				id: "73730D3EF2168510"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+	]
+	title: "Chapter VII: Infernal Mechanism"
+}

@@ -1,3 +1,9 @@
+#.
+#Migrate copycats to Create: Copycats+ when they receive a block update
+migrateCopycatsOnBlockUpdate = true
+#.
+#Migrate copycats to Create: Copycats+ when their block entities are initialized
+migrateCopycatsOnInitialize = true
 
 #.
 #Enable/disable features. Values on server override clients

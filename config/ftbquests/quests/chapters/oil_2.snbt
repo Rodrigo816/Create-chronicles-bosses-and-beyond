@@ -16,7 +16,7 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: 1.5d
-		y: -7.5d
+		y: -6.5d
 	}]
 	order_index: 9
 	quest_links: [ ]
@@ -29,21 +29,21 @@
 				""
 				"The &6surface scanner&f isn't very accurate, it’s recommended to do a search around the bedrock where the scanner pointed or to look in another location. Good luck"
 			]
-			id: "5ACAE424E85D95BA"
+			id: "333CCE71E8979C07"
 			rewards: [
 				{
 					count: 10
-					id: "721D852686EF3177"
+					id: "126AD692D41FF283"
 					item: "tfmg:industrial_pipe"
 					type: "item"
 				}
 				{
-					id: "0E12728D01C8DFEE"
+					id: "456FDF42194B3C40"
 					item: "create:hand_crank"
 					type: "item"
 				}
 				{
-					id: "5BA0F1A358BFFDB9"
+					id: "23053778A07D231F"
 					item: {
 						Count: 1b
 						id: "minecraft:diamond_pickaxe"
@@ -54,7 +54,7 @@
 					type: "item"
 				}
 				{
-					id: "0CAFC8F60FA77A76"
+					id: "0F170CD9F195E01C"
 					item: {
 						Count: 1b
 						id: "create:super_glue"
@@ -66,7 +66,7 @@
 				}
 			]
 			tasks: [{
-				id: "6652994916B0B59B"
+				id: "66B4AD02808647BB"
 				item: "tfmg:surface_scanner"
 				type: "item"
 			}]
@@ -75,7 +75,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["5ACAE424E85D95BA"]
+			dependencies: ["333CCE71E8979C07"]
 			description: [
 				"Run an &3industrial pipe&f from the oil source at the bedrock to where you want to pump. Then place a &9pumpjack base&f on top the industrial pipe."
 				""
@@ -83,16 +83,16 @@
 				""
 				"After the Oil Pump machine is built and running, you may extract the oil with a &cmechanical pump&f attached to the &9pumpjack base&f."
 			]
-			id: "002EF55827A366DE"
+			id: "683EC98909A058CD"
 			rewards: [
 				{
 					count: 16
-					id: "2960C6B6C00A702B"
+					id: "671F16B14124E4A9"
 					item: "tfmg:steel_fluid_tank"
 					type: "item"
 				}
 				{
-					id: "3320085264E39D56"
+					id: "6EB3E999CEB73444"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -100,39 +100,39 @@
 			subtitle: "Please use the ponder scene to refer on how to build"
 			tasks: [
 				{
-					id: "3B3EDB125E47CD09"
+					id: "3D5E53441035CFC9"
 					item: "tfmg:pumpjack_hammer_head"
 					type: "item"
 				}
 				{
 					count: 5L
-					id: "4242AA68FF531602"
+					id: "6BBFCDEDC5911220"
 					item: "tfmg:pumpjack_hammer_part"
 					type: "item"
 				}
 				{
-					id: "164F5C2B690CC923"
+					id: "78EE4E9525A0E83D"
 					item: "tfmg:pumpjack_hammer"
 					type: "item"
 				}
 				{
-					id: "449FED3D47263267"
+					id: "029D76FC595F4A29"
 					item: "tfmg:pumpjack_crank"
 					type: "item"
 				}
 				{
-					id: "5D9C35A956AA3D44"
+					id: "17F842B1E61FED37"
 					item: "tfmg:pumpjack_base"
 					type: "item"
 				}
 				{
 					count: 3L
-					id: "4D44113793577DD1"
+					id: "0ECB6106A595A346"
 					item: "tfmg:steel_truss"
 					type: "item"
 				}
 				{
-					id: "5530041F4D2E366C"
+					id: "657E59C3F1534206"
 					item: "tfmg:pumpjack_hammer_connector"
 					type: "item"
 				}
@@ -142,18 +142,18 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["002EF55827A366DE"]
+			dependencies: ["683EC98909A058CD"]
 			description: ["The next step is building the Distillation machine."]
-			id: "79D8F10B5FB6E8A0"
+			id: "615126E9C29AA0F1"
 			rewards: [
 				{
-					id: "797B6F89F641EE44"
+					id: "0B76E13A3B4F13CF"
 					item: "minecraft:diamond"
 					type: "item"
 				}
 				{
 					count: 10
-					id: "4E983523B4C7B58F"
+					id: "04B238973221C1D9"
 					item: "create:experience_nugget"
 					type: "item"
 				}
@@ -161,30 +161,30 @@
 			subtitle: "Please use the ponder scene to refer on how to build"
 			tasks: [
 				{
-					id: "45E9D6AB594488F3"
+					id: "7275F497E340C67C"
 					item: "tfmg:steel_distillation_controller"
 					type: "item"
 				}
 				{
-					id: "51B455337E7932E3"
+					id: "61A831A1377B3BE1"
 					item: "tfmg:steel_truss"
 					type: "item"
 				}
 				{
 					count: 52L
-					id: "3A62F9811B17D5CB"
+					id: "236A32C3012FE5C2"
 					item: "tfmg:steel_fluid_tank"
 					type: "item"
 				}
 				{
 					count: 6L
-					id: "5E425EE85584E2F3"
+					id: "251191B35BF19D9D"
 					item: "tfmg:steel_distillation_output"
 					type: "item"
 				}
 				{
 					count: 5L
-					id: "1010BECEEE709FAA"
+					id: "4E9FE7F0E2DF1C04"
 					item: "tfmg:industrial_pipe"
 					type: "item"
 				}
@@ -194,43 +194,32 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["79D8F10B5FB6E8A0"]
-			id: "3D74996DA8E68370"
+			dependencies: ["615126E9C29AA0F1"]
+			id: "20218B68C748F8E8"
 			tasks: [{
-				id: "79447D2A85FEA859"
+				id: "7BD17D0BCD140D64"
 				item: "tfmg:heavy_oil_bucket"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["79D8F10B5FB6E8A0"]
-			id: "0397BD2FDCD7407F"
+			dependencies: ["615126E9C29AA0F1"]
+			id: "17695F39F46DA92C"
 			tasks: [{
-				id: "2EEA469855379E00"
-				item: "tfmg:diesel_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["79D8F10B5FB6E8A0"]
-			id: "5F251A9D593B7C53"
-			tasks: [{
-				id: "42EFC77A529659E4"
+				id: "0A7CCD23557DCD8A"
 				item: "tfmg:kerosene_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["79D8F10B5FB6E8A0"]
-			id: "67C210C6372896C7"
+			dependencies: ["615126E9C29AA0F1"]
+			id: "1EA7C3F726EAC443"
 			tasks: [{
-				id: "20CA94D4B0F599E8"
+				id: "5A5D69EEEF2A22C7"
 				item: "tfmg:naphtha_bucket"
 				type: "item"
 			}]
@@ -238,114 +227,77 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["79D8F10B5FB6E8A0"]
-			id: "36D23A39C967B2F4"
+			dependencies: ["615126E9C29AA0F1"]
+			id: "2A662FA99B21BFB3"
 			tasks: [{
-				id: "620461B55C26B81E"
+				id: "7B87AAD96375ADE9"
 				item: "tfmg:gasoline_bucket"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3D74996DA8E68370"]
-			id: "7AB5BFE12FCA4BEA"
+			dependencies: ["20218B68C748F8E8"]
+			id: "026770210A6EBDB4"
 			tasks: [{
-				id: "5CBEB9ED87E49EFD"
+				id: "3EBDEFC3A78D07D3"
 				item: "tfmg:lubrication_oil_bucket"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3D74996DA8E68370"]
-			id: "634900A1F828C03A"
+			dependencies: ["615126E9C29AA0F1"]
+			id: "0387186A7791A953"
 			tasks: [{
-				id: "6E6F930750140EEF"
+				id: "035B048FB162B702"
 				item: "tfmg:diesel_bucket"
 				type: "item"
 			}]
 			x: -0.5d
-			y: 8.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["3D74996DA8E68370"]
-			id: "213FE39AA35C3F95"
+			dependencies: ["20218B68C748F8E8"]
+			id: "4DA9294ABB244D04"
 			subtitle: "ALEX CAVES"
 			tasks: [{
-				id: "3C4EB56DAA21809E"
+				id: "33056D37E3332D97"
 				item: "tfmg:sulfur_dust"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -2.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3D74996DA8E68370"]
-			id: "44A670D932666510"
+			dependencies: ["20218B68C748F8E8"]
+			id: "077DDA2EE4C3603D"
 			tasks: [{
-				id: "425072ED6B1FC55A"
+				id: "2EAC1FE49BDCFDDE"
 				item: "tfmg:bitumen"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"213FE39AA35C3F95"
-				"2975C35F5F29256F"
-				"1ACB2AFC5EB11041"
-			]
-			id: "59B36B675F138BB6"
+			dependencies: ["2A662FA99B21BFB3"]
+			id: "2679F3B882A0DAB5"
 			tasks: [{
-				id: "403BF270EBED74DA"
-				item: "minecraft:gunpowder"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["44A670D932666510"]
-			id: "2CD896CA13BDA134"
-			tasks: [{
-				id: "0B901DADB6F5BB70"
-				item: "tfmg:liquid_asphalt_bucket"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["7AB5BFE12FCA4BEA"]
-			id: "1557F1BA108D775D"
-			tasks: [{
-				id: "5561A34BC406E1C1"
-				item: "tfmg:turbine_engine"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["36D23A39C967B2F4"]
-			id: "46534BD052D02597"
-			tasks: [{
-				id: "2D382E2F9E948BCF"
+				id: "5CA35B08063D28CE"
 				item: "tfmg:napalm_bucket"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["67C210C6372896C7"]
-			id: "08950732928EB0B8"
+			dependencies: ["1EA7C3F726EAC443"]
+			id: "1E6D5B2997075953"
 			tasks: [{
-				id: "030C9D4C73E2739C"
+				id: "2784C6636B6CEBDB"
 				item: "tfmg:liquid_plastic_bucket"
 				type: "item"
 			}]
@@ -353,13 +305,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"08950732928EB0B8"
-				"67C210C6372896C7"
-			]
-			id: "26B89A3D9B21740A"
+			dependencies: ["1E6D5B2997075953"]
+			id: "660362D67075EA49"
 			tasks: [{
-				id: "22333CA6FFBA26AC"
+				id: "61200E449FACE8CC"
 				item: "tfmg:plastic_sheet"
 				type: "item"
 			}]
@@ -367,421 +316,32 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"39F41DD259107207"
-				"634900A1F828C03A"
-				"5F251A9D593B7C53"
-			]
-			id: "05C33B6D8E933B93"
-			shape: "square"
+			id: "4AF468B735AE6B79"
 			tasks: [{
-				id: "202A05B07A65B388"
-				item: "ad_astra:fuel_bucket"
-				type: "item"
-			}]
-			title: "Astral Fuel"
-			x: 0.5d
-			y: 11.0d
-		}
-		{
-			id: "39F41DD259107207"
-			tasks: [{
-				id: "25BA1FB4B0722429"
+				id: "77A4C1280F58ACFC"
 				item: "createaddition:bioethanol_bucket"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 8.5d
-		}
-		{
-			id: "7350979CF6533DDD"
-			tasks: [{
-				id: "5B1350491CE2E790"
-				item: "create_sa:heat_engine"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["496C8280CF77787E"]
-			id: "2975C35F5F29256F"
-			tasks: [{
-				id: "1081A5ED282813D3"
-				item: "tfmg:nitrate_dust"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 5.0d
-		}
-		{
-			id: "496C8280CF77787E"
-			tasks: [{
-				id: "66D70BAD34C8F7C8"
-				item: "minecraft:dirt"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["55E6E99D3CEF6003"]
-			id: "1ACB2AFC5EB11041"
-			tasks: [{
-				id: "57C59A4FFD5B4CA1"
-				item: "minecraft:charcoal"
-				type: "item"
-			}]
 			x: 1.5d
-			y: 5.0d
-		}
-		{
-			id: "55E6E99D3CEF6003"
-			tasks: [{
-				id: "240B70F3F042F90B"
-				item: "minecraft:oak_wood"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.0d
-		}
-		{
-			id: "19069D2118E2E673"
-			tasks: [{
-				id: "5B6C2ADD31A63A9F"
-				item: "minecraft:coal_block"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["2CB5ED12CA3CAEC4"]
-			id: "5DE1C5436B428738"
-			tasks: [{
-				id: "79285F21C809D79D"
-				item: "kubejs:mystic_coal_block"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["716FF6B4B8C5844C"]
-			id: "0370357540A7E5A3"
-			tasks: [{
-				id: "5170489552497A11"
-				item: "minecraft:blaze_rod"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["77C3C65A485F7CCC"]
-			id: "0B37C70B63EED84E"
-			tasks: [{
-				id: "4D01441EFCB237DA"
-				item: "minecraft:blaze_powder"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["71F0D1C3E7FB5A6C"]
-			id: "7D97E3DE87FCEFFA"
-			tasks: [{
-				id: "72734219DAC3BAF5"
-				item: "kubejs:dormant_dust_mystic_coal"
-				type: "item"
-			}]
-			x: -3.5d
 			y: 7.0d
 		}
 		{
-			dependencies: ["08A4160AF895DE85"]
-			id: "5950A628A62DB61A"
-			tasks: [{
-				amount: 1000L
-				fluid: "kubejs:mystic_coal_liquid"
-				id: "411557A593C9CB1E"
-				type: "fluid"
-			}]
-			x: -3.5d
-			y: 8.0d
-		}
-		{
-			id: "7FC68FD365ABFD41"
-			tasks: [{
-				id: "677DD8E0E9FEA427"
-				item: "tfmg:coal_coke_dust"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["1CCF195684DE24B7"]
-			id: "2AEC6FFBABB19D58"
-			tasks: [{
-				id: "0B3F7181DE1CBCB6"
-				item: "kubejs:ingot_mystic_coal"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["0DEDED4932541F5D"]
-			id: "681D7F5DBB181BB7"
-			tasks: [{
-				id: "44522D8B649BFBE8"
-				item: "kubejs:rod_mystic_coal"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["59B36B675F138BB6"]
-			id: "5FAA3AD7C903B57B"
-			tasks: [{
-				id: "5CDBE24059EEFEA4"
-				item: "minecraft:tnt"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 6.0d
-		}
-		{
-			id: "67F68463AB5E4702"
-			tasks: [{
-				id: "5D887BFA055485FB"
-				item: "create_dd:sealed_mechanism"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 16.0d
-		}
-		{
-			id: "334677E5FB60C044"
-			tasks: [{
-				id: "662669DA41F855A1"
-				item: "create_dd:infernal_mechanism"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 16.5d
-		}
-		{
-			id: "13F027AE39627C18"
-			tasks: [{
-				id: "348B814BFDFE290F"
-				item: "create_dd:calculation_mechanism"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 16.0d
-		}
-		{
-			dependencies: ["3921087D564A6659"]
-			id: "0198236ADC17A538"
-			tasks: [{
-				id: "079F0381CA1C1EA2"
-				item: "ae2:singularity"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1548E2F07EAD637F"]
-			id: "69336FA41A4C41EF"
-			tasks: [{
-				id: "4C32712A97D971DF"
-				item: "ae2:ender_dust"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.0d
-		}
-		{
-			id: "1548E2F07EAD637F"
-			tasks: [{
-				id: "20B6510DAE38FB28"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 4.5d
-		}
-		{
 			dependencies: [
-				"5FAA3AD7C903B57B"
-				"0198236ADC17A538"
-				"69336FA41A4C41EF"
+				"17695F39F46DA92C"
+				"0387186A7791A953"
+				"4AF468B735AE6B79"
 			]
-			id: "2C03A8E703001FDA"
+			id: "7EEB0092E87627F1"
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
-				id: "41A56C77E4171ACE"
-				item: "ae2:quantum_entangled_singularity"
+				id: "58A9A0AFD66E7527"
+				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.5d
-		}
-		{
-			dependencies: [
-				"300C0F835B6598C0"
-				"2C03A8E703001FDA"
-				"0252501C99FFC62E"
-				"2E000FFF2C0A4045"
-			]
-			id: "78344EA2C9E89AD9"
-			tasks: [{
-				id: "7D235ACD73189E7A"
-				item: "create_dd:chromatic_compound"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["2C03A8E703001FDA"]
-			id: "300C0F835B6598C0"
-			tasks: [{
-				id: "24AE710BFC6C9BD4"
-				item: "ae2:matter_ball"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 9.0d
-		}
-		{
-			id: "2E000FFF2C0A4045"
-			tasks: [{
-				id: "3268A5811CBE422F"
-				item: "create:polished_rose_quartz"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 8.5d
-		}
-		{
-			id: "4ECA82782988ACB9"
-			tasks: [{
-				id: "2FF67EE486C50647"
-				item: "create_dd:spectral_ruby"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["4ECA82782988ACB9"]
-			id: "0252501C99FFC62E"
-			tasks: [{
-				id: "381C3A7E2088256B"
-				item: "create_dd:polished_spectral_ruby"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["78344EA2C9E89AD9"]
-			id: "57FCF653EDA81DE0"
-			tasks: [{
-				id: "4E10585A56C6F0CB"
-				item: "create_dd:refined_radiance"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["57FCF653EDA81DE0"]
-			id: "2DAF8F2EBB74DDE8"
-			tasks: [{
-				id: "55461EC905084B80"
-				item: "create_dd:refined_radiance_sheet"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 13.5d
-		}
-		{
-			dependencies: [
-				"6BA8F6F964689964"
-				"046BEC0717CBE938"
-			]
-			id: "3921087D564A6659"
-			tasks: [{
-				id: "62558D36BE204B66"
-				item: "forbidden_arcanus:arcane_crystal_obelisk"
-				type: "item"
-			}]
-			x: 6.0d
+			x: 1.5d
 			y: 4.0d
 		}
-		{
-			dependencies: [
-				"7A405050D14C4CBB"
-				"46534BD052D02597"
-			]
-			id: "046BEC0717CBE938"
-			tasks: [{
-				id: "4366EF53D9DFE475"
-				item: "forbidden_arcanus:arcane_polished_darkstone"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["36032C287CC77A74"]
-			id: "6BA8F6F964689964"
-			tasks: [{
-				id: "6B7953A2703D3926"
-				item: "forbidden_arcanus:arcane_crystal_block"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 2.5d
-		}
-		{
-			id: "34ADDB9018231BCA"
-			tasks: [{
-				id: "0E04F45CEA4D5CD1"
-				item: "forbidden_arcanus:arcane_crystal_dust"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["34ADDB9018231BCA"]
-			id: "36032C287CC77A74"
-			subtitle: "bulk super heated"
-			tasks: [{
-				id: "46933D45063DFDED"
-				item: "forbidden_arcanus:arcane_crystal"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 1.0d
-		}
-		{
-			id: "7A405050D14C4CBB"
-			tasks: [{
-				id: "0F2854C3395BB9E2"
-				item: "minecraft:blackstone"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 0.5d
-		}
 	]
-	title: "Oil"
+	title: "Chapter VI: Rocket Fuel"
 }

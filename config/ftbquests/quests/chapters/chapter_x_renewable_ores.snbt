@@ -4,7 +4,7 @@
 	filename: "chapter_x_renewable_ores"
 	group: ""
 	id: "01299364BAF193B6"
-	order_index: 11
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
@@ -865,6 +865,16 @@
 			}]
 			x: 11.5d
 			y: 0.5d
+		}
+		{
+			id: "4B455641CDEA4E7B"
+			tasks: [{
+				id: "4B49B12DFB935241"
+				item: "create:crushed_raw_tin"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
 		}
 	]
 	title: "Renewable ores"

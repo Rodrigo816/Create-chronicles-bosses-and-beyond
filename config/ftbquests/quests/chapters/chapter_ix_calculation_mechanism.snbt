@@ -1,0 +1,1253 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_ix_calculation_mechanism"
+	group: ""
+	id: "6183184A27691A5F"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2975C35F5F29256F"
+				"1ACB2AFC5EB11041"
+				"64D7956A3E6681A5"
+			]
+			id: "59B36B675F138BB6"
+			tasks: [{
+				id: "403BF270EBED74DA"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["496C8280CF77787E"]
+			id: "2975C35F5F29256F"
+			tasks: [{
+				id: "1081A5ED282813D3"
+				item: "tfmg:nitrate_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			id: "496C8280CF77787E"
+			tasks: [{
+				id: "66D70BAD34C8F7C8"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["55E6E99D3CEF6003"]
+			id: "1ACB2AFC5EB11041"
+			tasks: [{
+				id: "57C59A4FFD5B4CA1"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "55E6E99D3CEF6003"
+			tasks: [{
+				id: "240B70F3F042F90B"
+				item: "minecraft:oak_wood"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"59B36B675F138BB6"
+				"41444693F75F309B"
+			]
+			id: "5FAA3AD7C903B57B"
+			tasks: [{
+				id: "36B6F5E3FABE3B04"
+				item: "ae2:tiny_tnt"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3921087D564A6659"]
+			id: "0198236ADC17A538"
+			tasks: [{
+				id: "079F0381CA1C1EA2"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1548E2F07EAD637F"]
+			id: "69336FA41A4C41EF"
+			tasks: [{
+				id: "4C32712A97D971DF"
+				item: "ae2:ender_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			id: "1548E2F07EAD637F"
+			tasks: [{
+				id: "20B6510DAE38FB28"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5FAA3AD7C903B57B"
+				"69336FA41A4C41EF"
+				"0198236ADC17A538"
+			]
+			id: "2C03A8E703001FDA"
+			tasks: [{
+				id: "41A56C77E4171ACE"
+				item: "ae2:quantum_entangled_singularity"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"300C0F835B6598C0"
+				"0252501C99FFC62E"
+				"6C74A90BEFD54FE7"
+			]
+			id: "78344EA2C9E89AD9"
+			tasks: [{
+				id: "7D235ACD73189E7A"
+				item: "create_dd:chromatic_compound"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["5BFA620B6424D8DF"]
+			id: "300C0F835B6598C0"
+			tasks: [{
+				id: "24AE710BFC6C9BD4"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 15.0d
+		}
+		{
+			id: "4ECA82782988ACB9"
+			tasks: [{
+				id: "2FF67EE486C50647"
+				item: "create_dd:spectral_ruby"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4ECA82782988ACB9"]
+			id: "0252501C99FFC62E"
+			tasks: [{
+				id: "381C3A7E2088256B"
+				item: "create_dd:polished_spectral_ruby"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["78344EA2C9E89AD9"]
+			id: "57FCF653EDA81DE0"
+			tasks: [{
+				id: "4E10585A56C6F0CB"
+				item: "create_dd:refined_radiance"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["57FCF653EDA81DE0"]
+			id: "2DAF8F2EBB74DDE8"
+			tasks: [{
+				id: "55461EC905084B80"
+				item: "create_dd:refined_radiance_sheet"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"6BA8F6F964689964"
+				"046BEC0717CBE938"
+			]
+			id: "3921087D564A6659"
+			tasks: [{
+				id: "62558D36BE204B66"
+				item: "forbidden_arcanus:arcane_crystal_obelisk"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A405050D14C4CBB"]
+			id: "046BEC0717CBE938"
+			tasks: [{
+				id: "4366EF53D9DFE475"
+				item: "forbidden_arcanus:arcane_polished_darkstone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["36032C287CC77A74"]
+			id: "6BA8F6F964689964"
+			tasks: [{
+				id: "6B7953A2703D3926"
+				item: "forbidden_arcanus:arcane_crystal_block"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			id: "34ADDB9018231BCA"
+			tasks: [{
+				id: "0E04F45CEA4D5CD1"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34ADDB9018231BCA"]
+			id: "36032C287CC77A74"
+			subtitle: "bulk super heated"
+			tasks: [{
+				id: "46933D45063DFDED"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"535537D880A5C63B"
+				"683BD9B4E6116735"
+			]
+			id: "7A405050D14C4CBB"
+			tasks: [{
+				id: "0F2854C3395BB9E2"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "323651421CB88312"
+			tasks: [{
+				id: "0CB51B536A069468"
+				item: "ae2:yellow_paint_ball"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "56B560D4CC6F13DD"
+			tasks: [{
+				id: "7C6BC608C3897B7E"
+				item: "ae2:lime_paint_ball"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "721DB13270EF3201"
+			tasks: [{
+				id: "3B982BDDEE573D3E"
+				item: "ae2:green_paint_ball"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"16ECD7E9532D07D8"
+				"626F4A677E1EA22E"
+			]
+			id: "67AFC8E796A93DFD"
+			tasks: [{
+				id: "54171B9F0120853C"
+				item: "ae2:cyan_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"163C88A35ABA9978"
+				"67AFC8E796A93DFD"
+			]
+			id: "324002E5427D6953"
+			tasks: [{
+				id: "03EB9499676A5523"
+				item: "ae2:light_blue_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"1550F3D77ED9B07F"
+				"324002E5427D6953"
+			]
+			id: "2365C37AA7F866C8"
+			tasks: [{
+				id: "39D6B73F5BC6B54A"
+				item: "ae2:blue_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"72D767C3679FB4D9"
+				"2365C37AA7F866C8"
+			]
+			id: "187392F9F27D6ACB"
+			tasks: [{
+				id: "4261054CB09C64C3"
+				item: "ae2:purple_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"198ADF175143C673"
+				"187392F9F27D6ACB"
+			]
+			id: "1F0BED9674B0445A"
+			tasks: [{
+				id: "4FE70F31BB770B68"
+				item: "ae2:magenta_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"30758067160FA462"
+				"2F6B55425D8D9FBB"
+			]
+			id: "7C38A9E38509C547"
+			tasks: [{
+				id: "6EF92C98E2F7A7FF"
+				item: "ae2:pink_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"105B54F48BA0F4B1"
+				"7C38A9E38509C547"
+			]
+			id: "18C86D856767C8B8"
+			tasks: [{
+				id: "38C5011DE049A3CC"
+				item: "ae2:red_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"1712137F6310A959"
+				"18C86D856767C8B8"
+			]
+			id: "4BD4B9CC03466702"
+			tasks: [{
+				id: "404EA962760D2126"
+				item: "ae2:orange_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"4A36BC7DF0E28956"
+				"1F0BED9674B0445A"
+			]
+			id: "29C39D1955A121D2"
+			tasks: [{
+				id: "79A803B93E976883"
+				item: "ae2:brown_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"6FBB8B0221ADD42A"
+				"29C39D1955A121D2"
+			]
+			id: "5BFA620B6424D8DF"
+			tasks: [{
+				id: "710219EEF145EE45"
+				item: "ae2:black_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "743E440E6D6EA92B"
+			tasks: [{
+				id: "715C89DB2F45DD47"
+				item: "ae2:gray_paint_ball"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"5D4344DB77B6EBA2"
+				"5119E810608CC419"
+			]
+			id: "029CDDBE80C888C8"
+			tasks: [{
+				id: "19598511F2752CF4"
+				item: "ae2:light_gray_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"64C1D53837287550"
+			]
+			id: "5119E810608CC419"
+			tasks: [{
+				id: "5BF3C92B369B0E80"
+				item: "ae2:white_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "0986F2B411CBEB5D"
+			tasks: [{
+				id: "3F3AFF3C0FB0B346"
+				item: "ae2:white_paint_ball"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0986F2B411CBEB5D"]
+			id: "64C1D53837287550"
+			tasks: [{
+				id: "0CAC79295DFC384F"
+				item: "minecraft:white_dye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1A315558B8D1DE35"]
+			id: "5D4344DB77B6EBA2"
+			tasks: [{
+				id: "508EA2801DF06A8B"
+				item: "minecraft:light_gray_dye"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["743E440E6D6EA92B"]
+			id: "1F4D22B135B8ED2D"
+			tasks: [{
+				id: "69A708F73C13F35A"
+				item: "minecraft:gray_dye"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5C364B372D32CB11"]
+			id: "30758067160FA462"
+			tasks: [{
+				id: "5D40818F81087572"
+				item: "minecraft:pink_dye"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["36C1D65FBB93F373"]
+			id: "105B54F48BA0F4B1"
+			tasks: [{
+				id: "0B66900405CFB8A0"
+				item: "minecraft:red_dye"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["120811B4D25A3731"]
+			id: "1712137F6310A959"
+			tasks: [{
+				id: "18F4BE7F736FF255"
+				item: "minecraft:orange_dye"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["323651421CB88312"]
+			id: "6CCBE6872A535A36"
+			tasks: [{
+				id: "668017C44BC1904D"
+				item: "minecraft:yellow_dye"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["56B560D4CC6F13DD"]
+			id: "2F91AA28EEDD0A03"
+			tasks: [{
+				id: "37AD9890555432CB"
+				item: "minecraft:lime_dye"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["721DB13270EF3201"]
+			id: "1F4C52698004EC82"
+			tasks: [{
+				id: "6E6E6D4ADAB58C0D"
+				item: "minecraft:green_dye"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["46DA22CAB8F73819"]
+			id: "16ECD7E9532D07D8"
+			tasks: [{
+				id: "003B43BDAD507781"
+				item: "minecraft:cyan_dye"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7B319516D507F5CC"]
+			id: "163C88A35ABA9978"
+			tasks: [{
+				id: "0E8B951D70671577"
+				item: "minecraft:light_blue_dye"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3970F1FF1594DB8F"]
+			id: "1550F3D77ED9B07F"
+			tasks: [{
+				id: "5FE90C47D2E66E17"
+				item: "minecraft:blue_dye"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["09128B2426041E1E"]
+			id: "72D767C3679FB4D9"
+			tasks: [{
+				id: "332373B2A223306C"
+				item: "minecraft:purple_dye"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["62DCDDA1F4471798"]
+			id: "198ADF175143C673"
+			tasks: [{
+				id: "143964CE8BC4A45F"
+				item: "minecraft:magenta_dye"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["04E36595A8ECEEBA"]
+			id: "4A36BC7DF0E28956"
+			tasks: [{
+				id: "0D1352BE6DA8DB0D"
+				item: "minecraft:brown_dye"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"1F4D22B135B8ED2D"
+				"029CDDBE80C888C8"
+			]
+			id: "2F6B55425D8D9FBB"
+			tasks: [{
+				id: "30618D62D20DF5E8"
+				item: "ae2:gray_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["743D5A200AA402B1"]
+			id: "6FBB8B0221ADD42A"
+			tasks: [{
+				id: "7AAA6A237F8A0B9D"
+				item: "minecraft:black_dye"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"5BFA620B6424D8DF"
+				"29C39D1955A121D2"
+				"1F0BED9674B0445A"
+				"029CDDBE80C888C8"
+				"324002E5427D6953"
+				"2365C37AA7F866C8"
+				"03B75E1470F38700"
+				"18C86D856767C8B8"
+				"03DFA9BB90FE42E9"
+				"7C38A9E38509C547"
+				"626F4A677E1EA22E"
+				"187392F9F27D6ACB"
+				"67AFC8E796A93DFD"
+				"4BD4B9CC03466702"
+				"5119E810608CC419"
+				"2F6B55425D8D9FBB"
+			]
+			id: "6C74A90BEFD54FE7"
+			tasks: [{
+				id: "6903BE49F1CFEFA6"
+				item: "create_dd:chromatic_waste_bucket"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"6CCBE6872A535A36"
+				"4BD4B9CC03466702"
+			]
+			id: "03DFA9BB90FE42E9"
+			tasks: [{
+				id: "19D540046FB655C2"
+				item: "ae2:yellow_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"2F91AA28EEDD0A03"
+				"03DFA9BB90FE42E9"
+			]
+			id: "03B75E1470F38700"
+			tasks: [{
+				id: "078DAB0B33E35788"
+				item: "ae2:lime_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0D4844DE023FCFA4"
+				"1F4C52698004EC82"
+				"03B75E1470F38700"
+			]
+			id: "626F4A677E1EA22E"
+			tasks: [{
+				id: "4EF9CBD013C812DC"
+				item: "ae2:green_lumen_paint_ball"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"32CEB5F5DA7E08E5"
+				"4A5C011878F7BB63"
+				"3F0E651F191CD81F"
+				"73D579268007A8C7"
+				"137CC533B864B25F"
+				"582E68291A96A9E7"
+				"2A0B07555EC8D47E"
+				"44A8B31CD719B906"
+				"08277642FD16A56E"
+			]
+			id: "0D4844DE023FCFA4"
+			tasks: [{
+				id: "1CD5DEBDA7F62527"
+				item: "create_dd:shimmer_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "1A315558B8D1DE35"
+			tasks: [{
+				id: "444AAFC4596D0635"
+				item: "ae2:light_gray_paint_ball"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "5C364B372D32CB11"
+			tasks: [{
+				id: "38FEF241990417C7"
+				item: "ae2:pink_paint_ball"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "36C1D65FBB93F373"
+			tasks: [{
+				id: "1BD3FBA84C0EA63C"
+				item: "ae2:red_paint_ball"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "120811B4D25A3731"
+			tasks: [{
+				id: "6DE8303AC34B3AC0"
+				item: "ae2:orange_paint_ball"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "46DA22CAB8F73819"
+			tasks: [{
+				id: "22C5E3A738B0E00E"
+				item: "ae2:cyan_paint_ball"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "7B319516D507F5CC"
+			tasks: [{
+				id: "54158E53D31AF432"
+				item: "ae2:light_blue_paint_ball"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "3970F1FF1594DB8F"
+			tasks: [{
+				id: "69554709EFE936BE"
+				item: "ae2:blue_paint_ball"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "09128B2426041E1E"
+			tasks: [{
+				id: "6B57D2FF6BED467F"
+				item: "ae2:purple_paint_ball"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "62DCDDA1F4471798"
+			tasks: [{
+				id: "3A98B90D36479D96"
+				item: "ae2:magenta_paint_ball"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "04E36595A8ECEEBA"
+			tasks: [{
+				id: "58D4E1F28C1332BB"
+				item: "ae2:brown_paint_ball"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C03A8E703001FDA"]
+			id: "743D5A200AA402B1"
+			tasks: [{
+				id: "193B62746E324016"
+				item: "ae2:black_paint_ball"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			id: "582E68291A96A9E7"
+			tasks: [{
+				id: "75C843ADAA77974C"
+				item: "quark:red_corundum_cluster"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 19.0d
+		}
+		{
+			id: "73D579268007A8C7"
+			tasks: [{
+				id: "385736B84922A6AE"
+				item: "quark:orange_corundum_cluster"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 19.0d
+		}
+		{
+			id: "3F0E651F191CD81F"
+			tasks: [{
+				id: "7EF38417438E1FF9"
+				item: "quark:yellow_corundum_cluster"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 19.0d
+		}
+		{
+			id: "2A0B07555EC8D47E"
+			tasks: [{
+				id: "5B09A686F862388E"
+				item: "quark:green_corundum_cluster"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 19.0d
+		}
+		{
+			id: "08277642FD16A56E"
+			tasks: [{
+				id: "4FD7822593A67917"
+				item: "quark:blue_corundum_cluster"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 19.0d
+		}
+		{
+			id: "44A8B31CD719B906"
+			tasks: [{
+				id: "52A48E3C059C1B04"
+				item: "quark:indigo_corundum_cluster"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 19.0d
+		}
+		{
+			id: "137CC533B864B25F"
+			tasks: [{
+				id: "69C1DB59CCC51C37"
+				item: "quark:violet_corundum_cluster"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 19.0d
+		}
+		{
+			id: "32CEB5F5DA7E08E5"
+			tasks: [{
+				id: "7054C30FB69EE656"
+				item: "quark:white_corundum_cluster"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 19.0d
+		}
+		{
+			id: "4A5C011878F7BB63"
+			tasks: [{
+				id: "30AF44076DFD1A95"
+				item: "quark:black_corundum_cluster"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"1416BD3CA9EEF561"
+				"595DE4AF7043BD38"
+				"05629E7F780A315D"
+				"2DAF8F2EBB74DDE8"
+				"03BCAD5BFB9DA32C"
+			]
+			description: [""]
+			id: "108EA49E8421CCC7"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "3CDE85F4454E1E23"
+				item: "create_dd:calculation_mechanism"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 24.75d
+		}
+		{
+			id: "1416BD3CA9EEF561"
+			tasks: [{
+				id: "7C4C35E4EBA21851"
+				item: "tfmg:plastic_sheet"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 22.0d
+		}
+		{
+			id: "595DE4AF7043BD38"
+			tasks: [{
+				id: "25665063DFE8E402"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 22.0d
+		}
+		{
+			id: "05629E7F780A315D"
+			tasks: [{
+				id: "520D2465D9DFBE98"
+				item: "createaddition:copper_spool"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 22.0d
+		}
+		{
+			id: "64D7956A3E6681A5"
+			subtitle: "You already know how to make sulfur don't you?"
+			tasks: [{
+				id: "22390AE734462223"
+				item: "tfmg:sulfur_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "41444693F75F309B"
+			tasks: [{
+				id: "283AF6FEDF5B847B"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12B028C021E25ED0"]
+			id: "0DECC9938E6EB5D4"
+			tasks: [{
+				id: "4FE3D077F8D0FA6C"
+				item: "create_dd:overcharge_alloy_sheet"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 22.0d
+		}
+		{
+			id: "6B99D6C0A6FBA697"
+			tasks: [{
+				id: "6D9E555894A11931"
+				item: "createaddition:electrum_wire"
+				type: "item"
+			}]
+			x: 33.5d
+			y: 22.0d
+		}
+		{
+			id: "47CF120182269404"
+			tasks: [{
+				id: "243E258957CF9911"
+				item: "createaddition:copper_wire"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 22.0d
+		}
+		{
+			id: "72E155EC6EA00C03"
+			tasks: [{
+				id: "2F234C9D0E7B1F74"
+				item: "createaddition:electrum_nugget"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 22.0d
+		}
+		{
+			id: "574055FAA9B8AD45"
+			tasks: [{
+				id: "3DEA5AB3FD8B918A"
+				item: "create:copper_nugget"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"07BA5073BD4BF7D2"
+				"034A878E02C53994"
+				"21C6293B8770A864"
+				"474B28D5F441CD9D"
+				"11E236BCD6DE38E5"
+			]
+			id: "56C3DE7F230ED103"
+			tasks: [{
+				id: "69BF9F82BCA46BC3"
+				item: "create_connected:control_chip"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 22.0d
+		}
+		{
+			id: "21C6293B8770A864"
+			tasks: [{
+				id: "605D3F761209C559"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 20.5d
+		}
+		{
+			id: "034A878E02C53994"
+			tasks: [{
+				id: "1FB048EFD297F46F"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 20.5d
+		}
+		{
+			id: "07BA5073BD4BF7D2"
+			tasks: [{
+				id: "3A5321588758D0E9"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["78344EA2C9E89AD9"]
+			id: "12B028C021E25ED0"
+			tasks: [{
+				id: "4FD614058021BDCD"
+				item: "create_dd:overcharge_alloy"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"56C3DE7F230ED103"
+				"0DECC9938E6EB5D4"
+				"6B99D6C0A6FBA697"
+				"574055FAA9B8AD45"
+				"47CF120182269404"
+				"72E155EC6EA00C03"
+				"108EA49E8421CCC7"
+			]
+			description: [""]
+			id: "60FC4ADEFBA29C6D"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "381CC1EF280A0711"
+				item: "create_dd:integrated_circuit"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 24.75d
+		}
+		{
+			id: "03BCAD5BFB9DA32C"
+			tasks: [{
+				id: "5E64A82FB4957579"
+				item: "create_dd:tin_sheet"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 22.0d
+		}
+		{
+			id: "474B28D5F441CD9D"
+			tasks: [{
+				id: "42ACB647463A9ED9"
+				item: "design_decor:cardboard_sheet"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 22.0d
+		}
+		{
+			id: "11E236BCD6DE38E5"
+			tasks: [{
+				id: "165936F2048149CD"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 20.5d
+		}
+		{
+			id: "535537D880A5C63B"
+			tasks: [{
+				id: "5AB0612FEF5AE99B"
+				item: "create_dd:caramel_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "683BD9B4E6116735"
+			tasks: [{
+				id: "2C8F375875B5B36E"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+	]
+	title: "Chapter IX: Calculation Mechanism"
+}

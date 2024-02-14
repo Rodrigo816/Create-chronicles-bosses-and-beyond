@@ -5,7 +5,7 @@
 	group: ""
 	icon: "ae2:controller"
 	id: "07210DDF872160BA"
-	order_index: 17
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
@@ -2459,8 +2459,8 @@
 				item: "create_connected:control_chip"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.5d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			id: "13A233B26F38420A"
@@ -2549,8 +2549,8 @@
 				item: "ae2:calculation_processor_press"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: -6.5d
+			y: -3.5d
 		}
 		{
 			id: "27F028C3942D1D6A"

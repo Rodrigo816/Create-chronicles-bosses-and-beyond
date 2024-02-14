@@ -9,7 +9,7 @@
 	quests: [
 		{
 			dependencies: ["5C5BBEA6E03836C7"]
-			description: ["Depois dás item drain para obter sap liquido"]
+			description: ["from stripped logs Depois dás item drain para obter sap liquido"]
 			id: "6C54D9FC570E8C23"
 			rewards: [
 				{
@@ -30,7 +30,7 @@
 				item: "create_dd:sap_bucket"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -56,8 +56,8 @@
 				item: "create_dd:raw_rubber"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["300DD17E607B3081"]
@@ -82,8 +82,8 @@
 				item: "create_dd:rubber"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.5d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2E72CEB626FD6EBE"]
@@ -101,8 +101,8 @@
 				type: "item"
 			}]
 			title: "Belts"
-			x: 4.5d
-			y: 8.0d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
 			id: "469BCDA1AD3D80FA"
@@ -112,7 +112,7 @@
 				type: "item"
 			}]
 			title: "Copper Ores"
-			x: -2.0d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -123,78 +123,8 @@
 				item: "create:copper_sheet"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 4.5d
-		}
-		{
-			id: "7FBA6030D4091852"
-			tasks: [{
-				id: "026177CC716D451B"
-				item: "minecraft:stripped_oak_log"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 8.0d
-		}
-		{
-			description: ["The &n&5Hose Pulley&r is a pump that can extract liquids or place liquids in the world."]
-			id: "01F2A19988733334"
-			tasks: [{
-				id: "7E4A1E51F4A42FF7"
-				item: "create:hose_pulley"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 10.5d
-		}
-		{
-			description: ["The &n&5Spout&r is used to fill items with liquid. It is best to use a Depot under it to hold the items."]
-			id: "6E9050C7939CA7C6"
-			tasks: [{
-				id: "2A6B64C375B2A1B0"
-				item: "create:spout"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 10.5d
-		}
-		{
-			description: [
-				"The &n&5Portable Interface&r works in pairs. You need to have one placed in the world and another one on a moving entity, like a Minecart."
-				""
-				"When the two interfaces are facing each other, they will link and transfer liquids between each other."
-			]
-			id: "0691A15BE0A8AD26"
-			tasks: [{
-				id: "1AAA7D7C571BC6CB"
-				item: "create:portable_fluid_interface"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 9.5d
-		}
-		{
-			id: "10B2B26509423397"
-			rewards: [
-				{
-					id: "387E560DABD83AF4"
-					item: "minecraft:milk_bucket"
-					type: "item"
-				}
-				{
-					id: "4158040E2EC558B5"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "Drains fluids from buckets and bottles"
-			tasks: [{
-				id: "42CE488FCFB2A6E1"
-				item: "create:item_drain"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 12.0d
 		}
 		{
 			id: "48413A6A0A9BFFA7"
@@ -209,7 +139,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 4.5d
 		}
 		{
@@ -220,7 +150,7 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 4.5d
 		}
 		{
@@ -230,42 +160,7 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5E60FF6098CB030B"]
-			description: [""]
-			id: "50551DC12417C686"
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "28A0C8F2F4705EA4"
-				item: "kubejs:andesite_machine"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["34D2380903462376"]
-			id: "53ABA42CE2ED0DDA"
-			tasks: [{
-				id: "4591B32207EAFB67"
-				item: "minecraft:dried_kelp"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.5d
-		}
-		{
-			id: "34D2380903462376"
-			tasks: [{
-				id: "3937627C94B52415"
-				item: "minecraft:kelp"
-				type: "item"
-			}]
-			x: -4.0d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -284,7 +179,6 @@
 		}
 		{
 			dependencies: [
-				"53ABA42CE2ED0DDA"
 				"26B8E592AED8E995"
 				"48413A6A0A9BFFA7"
 				"68CD9910A1658762"
@@ -294,8 +188,8 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "64136A43AF2F1313"
-				item: "kubejs:rotation_mechanism"
+				id: "1837A98319870BC6"
+				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
 			x: -0.9d

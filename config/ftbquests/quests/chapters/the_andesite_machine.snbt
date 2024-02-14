@@ -8,7 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Tudo começa com uma tree"]
+			description: ["Begin your journey by harvesting the essence of nature: trees. Gather saplings to ensure a renewable source of wood."]
 			icon: "twilightforest:time_sapling"
 			id: "12796FE2B6E3D53E"
 			tasks: [{
@@ -24,11 +24,11 @@
 			}]
 			title: "Tree Farm"
 			x: 0.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["12796FE2B6E3D53E"]
-			description: [""]
+			description: ["With your saplings planted, it's time to harvest logs. Logs are the backbone of all wooden creations."]
 			id: "0C58CBF1F4D636FC"
 			rewards: [
 				{
@@ -38,8 +38,8 @@
 					type: "item"
 				}
 				{
-					icon: "create:brown_toolbox"
-					id: "2FBA04CDA3A838A7"
+					auto: "disabled"
+					id: "4DC3C96A501483F6"
 					table_id: 1302780656980067940L
 					type: "random"
 				}
@@ -55,13 +55,13 @@
 				}
 				type: "item"
 			}]
-			title: "Logs"
+			title: "Lumber Harvest"
 			x: 0.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0C58CBF1F4D636FC"]
-			description: ["depois pegas no logs e passas numa sawmill"]
+			description: ["Transform your logs into stripped logs using a &6sawing.&r Stripped logs are a step closer to"]
 			id: "5C5BBEA6E03836C7"
 			rewards: [
 				{
@@ -88,12 +88,13 @@
 				}
 				type: "item"
 			}]
-			title: "Stripped Logs"
+			title: "Sawmill Processing"
 			x: 0.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5C5BBEA6E03836C7"]
+			description: ["Convert stripped logs into planks. "]
 			id: "5D5914AC9E5722EF"
 			tasks: [{
 				id: "0472A7BE9E04C326"
@@ -106,12 +107,13 @@
 				}
 				type: "item"
 			}]
-			title: "Planks"
+			title: "Plank Production"
 			x: 0.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5D5914AC9E5722EF"]
+			description: ["Further refine planks into wooden slabs. Slabs offer a variety of building and crafting uses."]
 			id: "507927EEC1417661"
 			tasks: [{
 				id: "7EDC0295D42294EE"
@@ -124,27 +126,31 @@
 				}
 				type: "item"
 			}]
-			title: "Wooden Slabs"
+			title: "Slab Crafting"
 			x: 0.5d
 			y: 4.5d
 		}
 		{
+			description: [""]
 			id: "6528F97D788A957A"
 			tasks: [{
 				id: "78AD80DDFB004EB4"
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
+			title: "Lava Collection"
 			x: 6.5d
 			y: -3.5d
 		}
 		{
+			description: [""]
 			id: "72070D0355244B40"
 			tasks: [{
 				id: "61B23653DEBA1D46"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
+			title: "Water Gathering"
 			x: 8.5d
 			y: -3.5d
 		}
@@ -153,49 +159,53 @@
 				"6528F97D788A957A"
 				"72070D0355244B40"
 			]
+			description: ["Combine the forces of water and lava to create cobblestone"]
 			id: "5DB498A2D21DEC4D"
 			tasks: [{
 				id: "47EEF251F08E2BC4"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
+			title: "Cobblestone Generation"
 			x: 7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5DB498A2D21DEC4D"]
+			description: [""]
 			id: "53EB7E023803E1B4"
 			tasks: [{
 				id: "2B7A47255138EA52"
 				item: "minecraft:gravel"
 				type: "item"
 			}]
+			title: "Gravel Production"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"53EB7E023803E1B4"
-				"7C9BA77385C889BC"
-				"2AC4989491FBE085"
-			]
+			dependencies: ["53EB7E023803E1B4"]
+			description: [""]
 			id: "7FE2DE6213FF326A"
 			tasks: [{
 				id: "5A0ADC667A80FA30"
 				item: "minecraft:andesite"
 				type: "item"
 			}]
+			title: "Andesite"
 			x: 7.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7FE2DE6213FF326A"]
+			description: [""]
 			id: "43D6EC530F7F1126"
 			tasks: [{
 				id: "1FF830E699AC26FB"
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
+			title: "Andesite Alloy Mixing"
 			x: 7.5d
 			y: 4.5d
 		}
@@ -205,7 +215,7 @@
 				"507927EEC1417661"
 				"43D6EC530F7F1126"
 			]
-			description: [""]
+			description: ["Assemble the components you've crafted into a functional rotation mechanism, the heart of many Create machines."]
 			id: "5E60FF6098CB030B"
 			shape: "rsquare"
 			size: 1.5d
@@ -214,10 +224,12 @@
 				item: "kubejs:rotation_mechanism"
 				type: "item"
 			}]
+			title: "Building the Rotation Mechanism"
 			x: 4.0d
 			y: 8.5d
 		}
 		{
+			description: [""]
 			id: "0BEFDBD8AC519539"
 			tasks: [{
 				id: "7C657F9C765B5184"
@@ -230,22 +242,13 @@
 				}
 				type: "item"
 			}]
+			title: "Hammer Acquisition"
 			x: 4.0d
 			y: 4.5d
 		}
 		{
-			id: "0E1868C16FD26B6F"
-			tasks: [{
-				id: "497E59DD3DE76116"
-				item: "minecraft:flint"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["5E60FF6098CB030B"]
-			description: [""]
+			description: ["Combine all your knowledge and resources to construct the pinnacle of this chapter: The Andesite Machine."]
 			id: "3AEFFAED564130A6"
 			shape: "rsquare"
 			size: 1.5d
@@ -254,9 +257,10 @@
 				item: "kubejs:andesite_machine"
 				type: "item"
 			}]
+			title: "The Andesite Machine"
 			x: 4.0d
 			y: 12.0d
 		}
 	]
-	title: "Chapter I: The Rotation Machine"
+	title: "Chapter I: The Foundation of Machines"
 }
