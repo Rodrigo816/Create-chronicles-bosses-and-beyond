@@ -2,9 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_ix_calculation_mechanism"
-	group: ""
+	group: "5237AEA7260D740E"
+	icon: "create_dd:calculation_mechanism"
 	id: "6183184A27691A5F"
-	order_index: 12
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -199,6 +200,11 @@
 				"6BA8F6F964689964"
 				"046BEC0717CBE938"
 			]
+			description: [
+				"To create an &6Arcane Crystal Obelisk&r, place down an &2Arcane Polished Darkstone block&r, then place two &2Arcane Crystal Blocks&r on top of it."
+				""
+				"Right-click with &4Mundabitur Dust&r and you'll create the obelisk."
+			]
 			id: "3921087D564A6659"
 			tasks: [{
 				id: "62558D36BE204B66"
@@ -209,7 +215,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7A405050D14C4CBB"]
+			dependencies: ["4E36CBF73B75D812"]
 			id: "046BEC0717CBE938"
 			tasks: [{
 				id: "4366EF53D9DFE475"
@@ -264,7 +270,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2C03A8E703001FDA"]
@@ -1236,7 +1242,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -0.5d
+			y: -2.5d
 		}
 		{
 			id: "683BD9B4E6116735"
@@ -1246,7 +1252,48 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A405050D14C4CBB"]
+			id: "4E36CBF73B75D812"
+			tasks: [{
+				id: "6489B746E0F1233B"
+				item: "forbidden_arcanus:darkstone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "0641EC250DE5E1F3"
+			tasks: [{
+				id: "21F3FAC4F96A7EE3"
+				item: "forbidden_arcanus:corrupted_pixie"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "7D2B7584529DD4C8"
+			tasks: [{
+				id: "77286EE3E5979003"
+				item: "forbidden_arcanus:pixie"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "548D4E3144EB6D08"
+			tasks: [{
+				id: "5C89FE84249BFF36"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
 		}
 	]
 	title: "Chapter IX: Calculation Mechanism"

@@ -2,9 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "rodrigao"
-	group: ""
+	group: "5237AEA7260D740E"
+	icon: "create_dd:infernal_mechanism"
 	id: "20497405FCFCFADA"
-	order_index: 10
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -289,6 +290,7 @@
 		{
 			dependencies: ["7E82E9591EDB4835"]
 			id: "0CFFF58986CE7733"
+			subtitle: "you know how to make coal don't you? "
 			tasks: [{
 				id: "43AD25D516C4DC06"
 				item: "minecraft:coal"
@@ -329,7 +331,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["69E26E48222CEC01"]
+			dependencies: [
+				"69E26E48222CEC01"
+				"0CD56ADF87F8799B"
+				"453F0E5926BA4AB1"
+			]
 			id: "6C52531E3B0CCB60"
 			tasks: [{
 				id: "6012EF5123327E81"
@@ -368,6 +374,7 @@
 				"2D42E5A8299941E1"
 			]
 			id: "2D2E2028EBB92BF6"
+			subtitle: "Industrial Blasting"
 			tasks: [{
 				id: "61ACAD180F4BF9F0"
 				item: "kubejs:mystic_coal_liquid_bucket"
@@ -379,6 +386,7 @@
 		{
 			dependencies: ["2D2E2028EBB92BF6"]
 			id: "466F43B18F0D1B7E"
+			subtitle: "Casting"
 			tasks: [{
 				id: "54052EC191B72E3C"
 				item: "kubejs:ingot_mystic_coal"
@@ -390,6 +398,7 @@
 		{
 			dependencies: ["466F43B18F0D1B7E"]
 			id: "69E26E48222CEC01"
+			subtitle: "Rolling"
 			tasks: [{
 				id: "0CA9848993BF29B0"
 				item: "kubejs:rod_mystic_coal"
@@ -456,6 +465,7 @@
 				"08DACD94A59D5FDE"
 				"6B73EB529E646EF8"
 			]
+			dependency_requirement: "one_started"
 			id: "7EC15712EC498088"
 			tasks: [{
 				id: "038A366EFB89A0A1"
@@ -468,6 +478,7 @@
 		{
 			dependencies: ["312D4E8EBE475538"]
 			id: "4706B7F09A2BFC25"
+			subtitle: "nipa farm"
 			tasks: [{
 				id: "3C659447C538B899"
 				item: "forbidden_arcanus:arcane_crystal_dust_speck"
@@ -518,7 +529,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["645E8388213F1284"]
+			dependencies: [
+				"029C392AD3BA76AD"
+				"7E56F2B931A55A36"
+			]
+			dependency_requirement: "one_started"
 			id: "0179452F07812322"
 			tasks: [{
 				id: "3A3F8FDBFE26CEB3"
@@ -539,14 +554,16 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["1084B343FEEBB88E"]
 			id: "4D391FCA01F6D795"
+			invisible: true
 			tasks: [{
 				id: "632939ADDADCC2A2"
 				item: "create_dd:industrial_fan"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 7.5d
+			x: 9.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["438AFB85E4605DF6"]
@@ -556,7 +573,7 @@
 				item: "create_things_and_misc:crushed_magma"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 5.5d
 			y: 6.0d
 		}
 		{
@@ -580,21 +597,10 @@
 			y: -1.5d
 		}
 		{
-			id: "3045E9E172BEEAC1"
-			tasks: [{
-				id: "301586EA1A6AF0C7"
-				item: "tfmg:napalm_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 6.0d
-		}
-		{
 			dependencies: [
 				"7F5486A6318789B5"
 				"67F1C2891AA7CD0E"
 				"738C37B1E696F933"
-				"3045E9E172BEEAC1"
 			]
 			id: "1084B343FEEBB88E"
 			shape: "rsquare"
@@ -614,8 +620,49 @@
 				item: "minecraft:magma_block"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 5.5d
 			y: 4.5d
+		}
+		{
+			id: "029C392AD3BA76AD"
+			tasks: [{
+				id: "221C56497902B8AA"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			id: "7E56F2B931A55A36"
+			tasks: [{
+				id: "30138F8F0234319D"
+				item: "create_dd:diamond_shard"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			id: "453F0E5926BA4AB1"
+			subtitle: "This can be found in blue skies dimension"
+			tasks: [{
+				id: "32DD7FA9050C4FD3"
+				item: "blue_skies:fiery_beans"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "0CD56ADF87F8799B"
+			tasks: [{
+				id: "5EB7E246748365C2"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
 		}
 	]
 	title: "Chapter VII: Infernal Mechanism"

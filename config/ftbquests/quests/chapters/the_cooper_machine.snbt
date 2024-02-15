@@ -2,14 +2,20 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_cooper_machine"
-	group: ""
+	group: "5237AEA7260D740E"
+	icon: "kubejs:copper_machine"
 	id: "6BD4C23A62382692"
-	order_index: 5
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5C5BBEA6E03836C7"]
+			dependencies: [
+				"5C5BBEA6E03836C7"
+				"5012AE3E688F40D7"
+			]
 			description: ["from stripped logs Depois dás item drain para obter sap liquido"]
+			hide: true
+			hide_dependency_lines: true
 			id: "6C54D9FC570E8C23"
 			rewards: [
 				{
@@ -166,6 +172,7 @@
 		{
 			dependencies: ["646C119DC7AC80AB"]
 			description: [""]
+			hide: true
 			id: "5012AE3E688F40D7"
 			shape: "rsquare"
 			size: 1.5d

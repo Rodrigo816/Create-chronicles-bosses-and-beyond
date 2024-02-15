@@ -9,27 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "20B809315D39A346"
-			tasks: [{
-				id: "5DE306E3F420E894"
-				item: "minecraft:blaze_rod"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["20B809315D39A346"]
-			id: "64C67B2DAA831696"
-			tasks: [{
-				id: "53E6AC95562AF86B"
-				item: "minecraft:blaze_powder"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 5.5d
-		}
-		{
 			description: [
 				"The &5Talent Tree&r is the most important method of player progression strength."
 				""
@@ -97,36 +76,6 @@
 			title: "The Basics: Teleporting"
 			x: 4.0d
 			y: 0.5d
-		}
-		{
-			id: "066F51E3101245EF"
-			tasks: [{
-				id: "7E0D5A9321BEF119"
-				item: "minecraft:blackstone"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 1.0d
-		}
-		{
-			id: "6B09B80FC128D7E8"
-			tasks: [{
-				id: "166D4AA8BC5B75E4"
-				item: "minecraft:coal_block"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 2.0d
-		}
-		{
-			id: "361A64AC66FC7FEC"
-			tasks: [{
-				id: "729795909E88BBE7"
-				item: "kubejs:mystic_coal_block"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 3.0d
 		}
 		{
 			id: "02EE6631DBFE387E"

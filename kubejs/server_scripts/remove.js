@@ -48,6 +48,13 @@ ServerEvents.recipes(event => {
         CRDD('sequenced_assembly/inductive_mechanism'),
         CRDD('sequenced_assembly/logistic_mechanism'),
 
+        // Locomotive
+        'alexscaves:metal_rebar',
+        // Steel
+        TFMG('sequenced_assembly/aluminum_ingot'),
+        
+        // Oil
+        TFMG('sequenced_assembly/aluminum_ingot'),
         // Soul Sand Procesing
         CR('haunting/soul_sand'),
         ARS('conjuration_essence_to_soul_sand'),
@@ -63,6 +70,11 @@ ServerEvents.recipes(event => {
        HNN('living_matter/hellish/blaze_powder'),
        HNN('living_matter/hellish/gold_ingot'),
        HNN('living_matter/hellish/gold_ingot'),
+
+       CRDD('mixing/hot_chocolate'),
+       CRDD('mixing/chocolate_milkshake'),
+       CRDD('mixing/vanilla_milkshake'),
+
   
     ].forEach((recipeID) => event.remove({id: recipeID}));
 
@@ -78,7 +90,11 @@ ServerEvents.recipes(event => {
         CRDD('industrial_iron_nugget'),
         CRDD('integrated_mechanism'),
         AE2('small_quartz_bud'),
-        CRDD('inductive_mechanism')
+        CRDD('inductive_mechanism'),
+        CR('asurine'),
+        CRDD('hot_chocolate'),
+        CRDD('chocolate_milkshake'),
+        CRDD('vanilla_milkshake'),
     ].forEach((ingredientID) => event.remove({input: ingredientID}));
     
     //Remove by item ID
@@ -92,7 +108,12 @@ ServerEvents.recipes(event => {
          CRDD('industrial_iron_nugget'),
          CRDD('integrated_mechanism'),
          MC('soul_sand'),
-         AE2('small_quartz_bud')
+         AE2('small_quartz_bud'),
+         'ad_astra:fuel',
+         CRDD('hot_chocolate'),
+         CRDD('chocolate_milkshake'),
+         CRDD('vanilla_milkshake'),
+         CR('scoria'),
     ].forEach((itemID) => event.remove({output: itemID}));
 
 })

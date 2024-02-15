@@ -5,7 +5,7 @@ Platform.mods.kubejs.name = 'Create Chronicles: Bosses and Beyond'
  */
 StartupEvents.registry("block", (event) => {
     event.create("mystic_coal_block")
-    .displayName("Mystic Coal Block §bMagical") 
+    .displayName("§bMystic Coal Block") 
     .hardness(1.0) 
     .resistance(1.0)
     .requiresTool(true) 
@@ -66,7 +66,13 @@ StartupEvents.registry('item', event => {
     event.create('dormant_dust_mystic_coal').texture("kubejs:item/mystic_dust").displayName('Mystic Dormant Coal Dust')
     //event.create('dust_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Coal Dust')
     event.create('ingot_mystic_coal').texture("kubejs:item/mystic_ingot").displayName('Mystic Coal Ingot')
-    event.create('rod_mystic_coal').texture("kubejs:item/mystic_dust").displayName('Mystic Coal Rod')
+    event.create('rod_mystic_coal').texture("kubejs:item/rod_mystic_coal").displayName('Mystic Coal Rod')
+
+    event.create('tier_1_plating').displayName('Tier 1 Plating').texture('kubejs:item/t1_plating')
+	event.create('tier_2_plating').displayName('Tier 2 Plating').texture('kubejs:item/t2_plating')
+	event.create('tier_3_plating').displayName('Tier 3 Plating').texture('kubejs:item/t3_plating')
+	event.create('tier_4_plating').displayName('Tier 4 Plating').texture('kubejs:item/t4_plating')
+	
 
   
 })

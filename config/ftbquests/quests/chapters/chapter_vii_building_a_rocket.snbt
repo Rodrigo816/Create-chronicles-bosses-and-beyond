@@ -2,7 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_vii_building_a_rocket"
-	group: ""
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
 	id: "1DBBA282D8932456"
 	images: [
 		{
@@ -54,7 +59,7 @@
 			y: -1.5d
 		}
 	]
-	order_index: 11
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -124,7 +129,6 @@
 		}
 		{
 			dependencies: [
-				"4B3AFE4516C05F1D"
 				"7AD239C9017085D9"
 				"1178219DCA5FFBAE"
 				"12B1E96A0ED56770"
@@ -145,8 +149,8 @@
 				item: "tfmg:steel_block"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: -5.0d
+			y: 1.5d
 		}
 		{
 			id: "7AD239C9017085D9"
@@ -205,16 +209,6 @@
 			}]
 			x: -2.0d
 			y: 4.0d
-		}
-		{
-			id: "4B3AFE4516C05F1D"
-			tasks: [{
-				id: "3629F0B44DA81940"
-				item: "tfmg:steel_casing"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -1.0d
 		}
 		{
 			id: "5F8B17F4A8CF47C7"
@@ -319,8 +313,8 @@
 				item: "ad_astra:oxygen_distributor"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -336,7 +330,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			id: "2B348941EFBB45C6"
@@ -345,27 +339,7 @@
 				item: "create_dd:diamond_shard"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.0d
-		}
-		{
-			id: "6CBB3199B0864718"
-			tasks: [{
-				id: "7581530D2300460E"
-				item: "born_in_chaos_v1:spiny_shell"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -1.0d
-		}
-		{
-			id: "5CAA8464CB5B1EDB"
-			tasks: [{
-				id: "4D6BA36A213B81FB"
-				item: "minecraft:terracotta"
-				type: "item"
-			}]
-			x: -6.0d
+			x: -4.5d
 			y: -1.0d
 		}
 	]

@@ -73,6 +73,23 @@ ServerEvents.recipes(event => {
   // irons and spells
   event.recipes.createMixing("7x "+IS("arcane_essence"),["2x "+MC('lapis_lazuli'), "2x "+MC('blaze_powder'),CR('experience_nugget')]).superheated()
 
+
+  event.recipes.createCrushing([
+    Item.of(CR('crushed_raw_zinc')).withChance(0.30),
+    Item.of(CR('zinc_nugget')).withChance(0.15),
+    Item.of(CR('zinc_nugget')).withChance(0.10),
+    Item.of(MC('lapis_lazuli')).withChance(0.20),
+    Item.of(MC('lapis_lazuli')).withChance(0.05),
+  ], CR('asurine'))
+
+  event.recipes.createCrushing([
+    Item.of(CRDD('potassic_cobble')).withChance(0.70),
+    Item.of('enlightened_end:adamantite_nugget').withChance(0.70),
+    Item.of('enlightened_end:bismuth_nugget').withChance(0.70),
+    Item.of('enlightened_end:adamantite_nugget').withChance(0.50),
+    Item.of('enlightened_end:bismuth_nugget').withChance(0.50),
+    Item.of('cataclysm:ignitium_ingot').withChance(0.002),
+  ], CR('scoria'))
 /*
 ===============================
   ---->Chapter 1 Andesite Rotation
@@ -183,7 +200,6 @@ ServerEvents.recipes(event => {
   ], KJ('rotation_mechanism'), [
         event.recipes.createDeploying(transitional, [transitional, CR('copper_sheet')]),
         event.recipes.createDeploying(transitional, [transitional, MC('glass')]),
-        event.recipes.createDeploying(transitional, [transitional, CR('copper_sheet')]),
         event.recipes.createDeploying(transitional, [transitional, SP('wrench')]),
         event.recipes.createPressing(transitional, transitional)
   ]).transitionalItem(transitional)
@@ -240,6 +256,36 @@ ServerEvents.recipes(event => {
         { id: 'create:crafting/kinetics/brass_hand' }, 
         CR('brass_sheet'),               
         CR('golden_sheet')         
+    )
+
+    event.replaceInput(
+      { id: 'buildinggadgets2:gadget_building' }, 
+      MC('redstone'),               
+      CR('precision_mechanism')         
+    )
+
+    event.replaceInput(
+      { id: 'buildinggadgets2:template_manager' }, 
+      MC('redstone'),               
+      CR('precision_mechanism')         
+    )
+
+    event.replaceInput(
+      { id: 'buildinggadgets2:gadget_exchanging' }, 
+      MC('redstone'),               
+      CR('precision_mechanism')         
+    )
+
+    event.replaceInput(
+      { id: 'buildinggadgets2:gadget_cut_paste' }, 
+      MC('redstone'),               
+      CR('precision_mechanism')         
+    )
+
+    event.replaceInput(
+      { id: 'buildinggadgets2:gadget_destruction' }, 
+      MC('redstone'),               
+      CR('precision_mechanism')         
     )
 
     event.recipes.createDeploying(CR('electron_tube'), [CR('iron_sheet'), CR('polished_rose_quartz')])
@@ -338,6 +384,7 @@ ServerEvents.recipes(event => {
     Item.of(MC('repeater'), 4),
     Item.of(MC('comparator'), 4),
     Item.of(MC('daylight_detector'), 1),
+    Item.of('quark:redstone_randomizer', 2),
   ];
 
   const brass_shapes = [
@@ -375,6 +422,20 @@ ServerEvents.recipes(event => {
     CR('precision_mechanism')         
   )
 
+  event.replaceInput(
+    { id:'travelanchors:travel_anchor' },               
+    MC('iron_ingot'),
+    KJ('locomotive_mechanism')         
+  )
+
+  event.replaceInput(
+    { id: 'travelanchors:travel_staff' },
+    MC('iron_ingot'), 
+    KJ('locomotive_mechanism')                    
+  )
+
+  event.recipes.createCutting('2x alexscaves:metal_rebar', 'alexscaves:scrap_metal').processingTime(500);
+
     // Locomotive Mechanism
    transitional = KJ('incomplete_locomotive_mechanism')
     event.recipes.createSequencedAssembly([
@@ -396,17 +457,173 @@ ServerEvents.recipes(event => {
   
   
     // Locomotive Machine
-    /*event.shaped(KJ('locomotive_machine'), [
+    event.shaped(KJ('obsidian_machine'), [
         'SSS',
         'SCS',
         'SSS'
     ], {
         C: CR('railway_casing'),
         S: KJ('locomotive_mechanism')
-    })*/
+    })
+    
+    const locomotive_machines_cutting = [
+      Item.of('railways:track_coupler', 2),
+      Item.of('railways:semaphore', 2),
+      Item.of('railways:remote_lens', 1),
+      Item.of('railways:track_switch_brass', 2),
+      Item.of(CR('track_observer'), 2),
+      Item.of(CR('track_station'), 2),
+      Item.of(CR('track_signal'), 2),
+      Item.of(CR('schedule'), 4),
+      Item.of(CR('controls'), 1),
+    ];
   
+    multicut(locomotive_machines_cutting, KJ('obsidian_machine'), true);
 
 
+   
+  /*
+    ===============================
+    ---->Chp 5 Steel Mechanism
+    ==============================
+  */
+     // bauxite renew
+     event.recipes.createMechanicalCrafting(TFMG('bauxite'), [
+      ' A ',
+      'ABA',
+      ' A '
+    ], {
+      A: CR('cinder_flour'),
+      B: MC('red_sand')
+  })
+
+    // Steel Mechanism
+    transitional = TFMG('unfinished_steel_mechanism')
+    event.recipes.createSequencedAssembly([
+      Item.of(TFMG('steel_mechanism')).withChance(100.0),
+      Item.of(TFMG('screw')).withChance(20.0),
+    ], KJ('locomotive_mechanism'), [
+      event.recipes.createDeploying(transitional, [transitional, TFMG('steel_ingot')]),
+      event.recipes.createDeploying(transitional, [transitional, TFMG('aluminum_ingot')]),
+      event.recipes.createDeploying(transitional, [transitional, TFMG('screw')]),
+      event.recipes.createDeploying(transitional, [transitional, TFMG('screwdriver')]),
+    ]).transitionalItem(transitional)
+      .loops(2)
+      .id(TFMG('steel_mechanism'))
+    
+
+
+
+  /*
+    ===============================
+    ---->Chp 6 Rocket Fuel
+    ==============================
+  */
+  event.recipes.createMixing(Fluid.of(ASTRA('fuel'), 400),[Fluid.of(TFMG('diesel'), 700),Fluid.of(TFMG('kerosene'), 200),Fluid.of(CRA('bioethanol'), 400)]).superheated()
+
+  /*
+    ===============================
+    ---->Chp 7 Infernal
+    ==============================
+  */
+
+    transitional = MC('coal_block')
+    event.recipes.createSequencedAssembly([
+		KJ('mystic_coal_block'),
+	], MC('coal_block'), [
+		event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
+		event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
+    event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
+		event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:purifying_soap'])
+	]).transitionalItem(transitional)
+		.loops(1)
+    event.recipes.createCrushing('9x '+KJ('dormant_dust_mystic_coal'), KJ('mystic_coal_block')).processingTime(500)
+    event.custom(
+        {
+            "type": TFMG('industrial_blasting'),
+            "ingredients": [
+              {
+                "count": 1,
+                "item": KJ('dormant_dust_mystic_coal')
+              }
+            ],
+            "processingTime": 320,
+            "results": [
+              {
+                "fluid": KJ('mystic_coal_liquid'),
+                "amount": 333
+              },
+              {
+                "fluid": TFMG('molten_slag'),
+                "amount": 65
+              }
+            ]
+        }
+	)
+    event.custom(
+        {
+            "type": TFMG('casting'),
+            "ingredients": [
+              {
+                "fluid": KJ('mystic_coal_liquid'),
+                "amount": 900
+              }
+            ],
+            "processingTime": 300,
+            "results": [
+              {
+                "count": 1,
+                "item": KJ('ingot_mystic_coal')
+              }
+            ]
+        }
+	)
+    event.custom({
+        "type": CRA('rolling'),
+        "input": {
+              "item": KJ('ingot_mystic_coal')
+        },
+        "result": {
+            "item": KJ('rod_mystic_coal'),
+            "count": 3
+        }
+    })
+    transitional = MC('blaze_rod')
+	event.recipes.createSequencedAssembly([
+		MC('blaze_rod'),
+	], KJ('rod_mystic_coal'), [
+        event.recipes.createDeploying(transitional, [transitional, BS('fiery_beans')]),
+        event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
+        event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
+        event.recipes.createPressing(transitional, transitional)
+	]).transitionalItem(transitional)
+		.loops(6)
+		.id(KJ('rod_mystic_coal'))
+
+
+     // Infernal Mechanism
+   transitional = CRDD('incomplete_infernal_mechanism')
+   event.recipes.createSequencedAssembly([
+     Item.of(CRDD('infernal_mechanism')).withChance(100.0),
+     Item.of(KJ('rod_mystic_coal')).withChance(10.0),
+     Item.of(KJ('dormant_dust_mystic_coal')).withChance(5.0),
+     Item.of(CRTM('crushed_magma')).withChance(10.0),
+     Item.of(CR('cinder_flour')).withChance(10.0),
+   ], TFMG('steel_mechanism'), [
+     event.recipes.createDeploying(transitional, [transitional, CRTM('crushed_magma')]),
+     event.recipes.createDeploying(transitional, [transitional, CRDD('ember_alloy')]),
+     event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
+     event.recipes.createPressing(transitional, transitional)
+   ]).transitionalItem(transitional)
+     .loops(5)
+     .id(CRDD('infernal_mechanism'))
+
+
+       /*
+    ===============================
+    ---->Chp 8 NASA
+    ==============================
+  */
 
     // NASA pro
     event.replaceInput(
@@ -528,15 +745,6 @@ ServerEvents.recipes(event => {
         })
 
 
-    // bauxite renew
-    event.recipes.createMechanicalCrafting(TFMG('bauxite'), [
-        ' A ',
-        'ABA',
-        ' A '
-      ], {
-        A: CR('cinder_flour'),
-        B: MC('red_sand')
-    })
 
 
 
@@ -544,78 +752,7 @@ ServerEvents.recipes(event => {
     // Blaze Rod
 
 
-    transitional = MC('coal_block')
-    event.recipes.createSequencedAssembly([
-		KJ('mystic_coal_block'),
-	], MC('coal_block'), [
-		event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
-		event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
-        event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
-		event.recipes.createDeploying(transitional, [transitional, IS('arcane_ingot')])
-	]).transitionalItem(transitional)
-		.loops(1)
-    event.recipes.createCrushing('9x '+KJ('dormant_dust_mystic_coal'), KJ('mystic_coal_block')).processingTime(500)
-    event.custom(
-        {
-            "type": TFMG('industrial_blasting'),
-            "ingredients": [
-              {
-                "count": 1,
-                "item": KJ('dormant_dust_mystic_coal')
-              }
-            ],
-            "processingTime": 320,
-            "results": [
-              {
-                "fluid": KJ('mystic_coal_liquid'),
-                "amount": 333
-              },
-              {
-                "fluid": TFMG('molten_slag'),
-                "amount": 65
-              }
-            ]
-        }
-	)
-    event.custom(
-        {
-            "type": TFMG('casting'),
-            "ingredients": [
-              {
-                "fluid": KJ('mystic_coal_liquid'),
-                "amount": 1
-              }
-            ],
-            "processingTime": 300,
-            "results": [
-              {
-                "count": 1,
-                "item": KJ('ingot_mystic_coal')
-              }
-            ]
-        }
-	)
-    event.custom({
-        "type": CRA('rolling'),
-        "input": {
-              "item": KJ('ingot_mystic_coal')
-        },
-        "result": {
-            "item": KJ('rod_mystic_coal'),
-            "count": 3
-        }
-    })
-    transitional = 'kubejs:incomplete_rotation_mechanism'
-	event.recipes.createSequencedAssembly([
-		MC('blaze_rod'),
-	], KJ('rod_mystic_coal'), [
-        event.recipes.createDeploying(transitional, [transitional, BS('fiery_beans')]),
-        event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
-        event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
-        event.recipes.createPressing(transitional, transitional)
-	]).transitionalItem(transitional)
-		.loops(6)
-		.id(KJ('rod_mystic_coal'))
+   
 
         //event.recipes.createFilling(transitionalValve, [
           //  transitionalValve,

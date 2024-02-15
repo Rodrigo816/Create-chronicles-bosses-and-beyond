@@ -8,7 +8,7 @@
 		id: "ad_astra:tier_4_rocket"
 		tag: { }
 	}
-	id: "3BDE2C7AE1BA9A28"
+	id: "4CB4F8A1E58F710C"
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -19,16 +19,16 @@
 				""
 				"&7Reward: x1 Block of Steel, 1x Loot Bundle \\& 5 EXP Levels."
 			]
-			id: "24DDEB255E1280BE"
+			id: "19D976D08CD19003"
 			rewards: [{
-				id: "0E69868FF47A0D33"
+				id: "5005463E47812A1F"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
 			shape: "gear"
 			subtitle: "Craft a Nasa Workbench."
 			tasks: [{
-				id: "30B51AF63063F3DE"
+				id: "30BD02711051DF68"
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
@@ -42,7 +42,7 @@
 				""
 				"&7Reward: x2 Steel Plate \\& 1x Loot Bundle Fragment."
 			]
-			id: "631B6095F210CC27"
+			id: "1DBAA96991026F07"
 			shape: "diamond"
 			subtitle: "Create a Steel Plate."
 			tasks: [{
@@ -203,10 +203,10 @@
 				""
 				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
 			]
-			id: "4E1AFE5049C186D2"
+			id: "4B78FFE397562231"
 			subtitle: "Craft a rocket nose cone."
 			tasks: [{
-				id: "3B505C0D486ED5D8"
+				id: "561F4C00C894E2C2"
 				item: "ad_astra:rocket_nose_cone"
 				type: "item"
 			}]
@@ -220,10 +220,10 @@
 				""
 				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
 			]
-			id: "7EAA93FAD482917A"
+			id: "65BE9F34936A2F4D"
 			subtitle: "Craft an engine frame."
 			tasks: [{
-				id: "56EBEC31E5B098C2"
+				id: "3422D480DC2A5C26"
 				item: "ad_astra:engine_frame"
 				type: "item"
 			}]
@@ -237,10 +237,10 @@
 				""
 				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
 			]
-			id: "735B633EF651A2D5"
+			id: "1F7569FA23494BC1"
 			subtitle: "Craft an engine fan."
 			tasks: [{
-				id: "3F4691DCE404B24D"
+				id: "2B7E90A2739F9DD5"
 				item: "ad_astra:engine_fan"
 				type: "item"
 			}]
@@ -254,11 +254,11 @@
 				"&7Reward: 2x Steel Ingot \\& 2x Loot Bundle Fragment."
 			]
 			hide_dependency_lines: false
-			id: "111D4FF2E2D93B7A"
+			id: "4BD95556BDAE72B9"
 			shape: "rsquare"
 			subtitle: "Craft a Compressor."
 			tasks: [{
-				id: "038505715C81E893"
+				id: "65F2091980C66652"
 				item: "ad_astra:compressor"
 				type: "item"
 			}]
@@ -275,15 +275,15 @@
 				""
 				"&7Rewards: x1 Magenta Flag, x1 Loot Bundle \\& 1 EXP Level."
 			]
-			id: "32568E17CBF7882D"
+			id: "03D96DB126E3FF2B"
 			rewards: [
 				{
-					id: "2A1F3CCDF4EFEF67"
+					id: "69C634C4745EE5C4"
 					item: "ad_astra:magenta_flag"
 					type: "item"
 				}
 				{
-					id: "0B81CD9DE2E744F8"
+					id: "6A29B5E3C35A4B40"
 					type: "xp_levels"
 					xp_levels: 1
 				}
@@ -291,7 +291,7 @@
 			shape: "gear"
 			subtitle: "Craft a tier 1 rocket."
 			tasks: [{
-				id: "39F1D5C498E580A3"
+				id: "7AEF180ED6A9D54D"
 				item: {
 					Count: 1b
 					id: "ad_astra:tier_1_rocket"
@@ -309,10 +309,10 @@
 				""
 				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
 			]
-			id: "3A6FF366EFF401AA"
+			id: "725DBA7D72E3DE6C"
 			subtitle: "Craft a rocket fin."
 			tasks: [{
-				id: "4B05E3A46EAE0276"
+				id: "3C836CCE9139DE51"
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
@@ -326,11 +326,11 @@
 				""
 				"&7Reward: x2 steel ingot \\& 2x Loot Bundle Fragment."
 			]
-			id: "6EA9F2D70CE70308"
+			id: "0EE4264D03474088"
 			subtitle: "Craft 2 steel tanks."
 			tasks: [{
 				count: 2L
-				id: "65C6E089EFB764BD"
+				id: "581E1C8A5D8C05F2"
 				item: "ad_astra:steel_tank"
 				type: "item"
 			}]
@@ -345,10 +345,10 @@
 				""
 				"&7Reward: x4 Loot Bundle Fragment"
 			]
-			id: "5ACC26AC14F4BE7A"
+			id: "5E838D450ED7B44B"
 			subtitle: "Craft a steel engine."
 			tasks: [{
-				id: "24C8665EC18B5615"
+				id: "41B3B31590182AED"
 				item: "ad_astra:steel_engine"
 				type: "item"
 			}]
@@ -362,15 +362,15 @@
 				""
 				"&7Rewards: x1 blue flag, x2 Loot Bundle \\& 2 EXP Levels."
 			]
-			id: "4E6DCC411500E4AD"
+			id: "197E7B77AEEF69CB"
 			rewards: [
 				{
-					id: "3AD290DD42361D1A"
+					id: "387791AB78CBAE4D"
 					item: "ad_astra:blue_flag"
 					type: "item"
 				}
 				{
-					id: "09565460AFDE5900"
+					id: "4AA3AD6612B81B9A"
 					type: "xp_levels"
 					xp_levels: 2
 				}
@@ -378,7 +378,7 @@
 			shape: "gear"
 			subtitle: "Craft a tier 2 rocket."
 			tasks: [{
-				id: "18FD533E4ACCC625"
+				id: "254735327679AC34"
 				item: {
 					Count: 1b
 					id: "ad_astra:tier_2_rocket"
@@ -396,15 +396,15 @@
 				""
 				"&7Rewards: x1 Pink Flag, x3 Loot Bundle \\& 5 EXP Levels."
 			]
-			id: "0D2C598E7D7A64A7"
+			id: "24B5B4032EAF7321"
 			rewards: [
 				{
-					id: "5267AB4CEF2764A2"
+					id: "223A0FC105CC85C3"
 					item: "ad_astra:pink_flag"
 					type: "item"
 				}
 				{
-					id: "63885C1672F8DA70"
+					id: "569460CAC92F150A"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -412,7 +412,7 @@
 			shape: "gear"
 			subtitle: "Craft a tier 3 rocket."
 			tasks: [{
-				id: "69D645DE52B1BA22"
+				id: "04057DFF822283DF"
 				item: {
 					Count: 1b
 					id: "ad_astra:tier_3_rocket"
@@ -430,15 +430,15 @@
 				""
 				"&7Rewards: x1 gray flag, x4 Loot Bundle \\& 10 EXP Levels."
 			]
-			id: "145C9640F2B6BF5C"
+			id: "3E1C489F9081D03A"
 			rewards: [
 				{
-					id: "08EB920092849C6B"
+					id: "7A749B8E97E99680"
 					item: "ad_astra:gray_flag"
 					type: "item"
 				}
 				{
-					id: "75B79F90E1A16231"
+					id: "52171C577B753DB5"
 					type: "xp_levels"
 					xp_levels: 10
 				}
@@ -446,7 +446,7 @@
 			shape: "gear"
 			subtitle: "Craft a tier 4 rocket."
 			tasks: [{
-				id: "3D6DDBB604B1474C"
+				id: "1AC42D6DBC69E663"
 				item: {
 					Count: 1b
 					id: "ad_astra:tier_4_rocket"
@@ -464,10 +464,10 @@
 				""
 				"&7Reward: x1 Block of Steel \\& 3x Loot Bundle Fragment."
 			]
-			id: "596B69B1E38ADA76"
+			id: "576404C97E23F48A"
 			subtitle: "Craft a Rocket Launch Pad."
 			tasks: [{
-				id: "1B1FE1A10CABB667"
+				id: "1792F78301E8FBDA"
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
@@ -481,17 +481,17 @@
 				""
 				"&7Reward: x2 desh ingot \\& 2x Loot Bundle Fragment."
 			]
-			id: "55FBFEA45162A4F9"
+			id: "2DDA2C00A6D32A86"
 			rewards: [{
 				count: 2
-				id: "7448FEE9A26722DA"
+				id: "5E574E4A9CCF8AD6"
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
 			shape: "octagon"
 			subtitle: "Create a Desh Ingot."
 			tasks: [{
-				id: "7A95FA9F7BCBD2C5"
+				id: "261158A53A0F1B4E"
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
@@ -505,17 +505,17 @@
 				""
 				"&7Reward: x2 desh ingot \\& 2x Loot Bundle Fragment."
 			]
-			id: "1B67DC46D689562F"
+			id: "4C9465EA45950AD6"
 			rewards: [{
 				count: 2
-				id: "44A7B39A973A83F8"
+				id: "611F26A4031263B7"
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
 			shape: "diamond"
 			subtitle: "Create a Desh Plate."
 			tasks: [{
-				id: "62CBE6B0454D3D24"
+				id: "03B1519417E3D580"
 				item: "ad_astra:desh_plate"
 				type: "item"
 			}]
@@ -529,17 +529,17 @@
 				""
 				"&7Reward: x2 desh ingot \\& 2x Loot Bundle Fragment."
 			]
-			id: "3C9EF98071433FB7"
+			id: "557CA00299C10306"
 			rewards: [{
 				count: 2
-				id: "211F4F55D1EAC459"
+				id: "4F088EA778B3FC47"
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
 			subtitle: "Craft 2 desh tank."
 			tasks: [{
 				count: 2L
-				id: "525DA156013ABEE9"
+				id: "3975352654749327"
 				item: "ad_astra:desh_tank"
 				type: "item"
 			}]
@@ -554,10 +554,10 @@
 				""
 				"&7Reward: x4 Loot Bundle Fragment"
 			]
-			id: "472A40F9C24E593B"
+			id: "00EC62248279F9DC"
 			subtitle: "Craft a desh engine."
 			tasks: [{
-				id: "4BE91FA228A3A81B"
+				id: "472BB7C9233EDCE0"
 				item: "ad_astra:desh_engine"
 				type: "item"
 			}]
@@ -570,17 +570,17 @@
 				""
 				"&7Reward: x2 ostrum ingot"
 			]
-			id: "66EE1FBC88B8389A"
+			id: "2F6F8EE250E483FA"
 			rewards: [{
 				count: 2
-				id: "56F0B51F7D6EB20F"
+				id: "20B51CBFA2294AEC"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
 			shape: "octagon"
 			subtitle: "Create an Ostrum Ingot."
 			tasks: [{
-				id: "7746B4203D8D599D"
+				id: "30555A937B9CAF60"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
@@ -594,17 +594,17 @@
 				""
 				"&7Reward: x2 ostrum ingot \\& 2x Loot Bundle Fragment."
 			]
-			id: "45D260F8BC1F0CB1"
+			id: "2205E339C7C51D0E"
 			rewards: [{
 				count: 2
-				id: "27E2D7491BCC19BE"
+				id: "2205B5EFF5E2D885"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
 			shape: "diamond"
 			subtitle: "Create a Ostrum Plate."
 			tasks: [{
-				id: "5BC8CB909CE33A7C"
+				id: "3220498C8E671B99"
 				item: "ad_astra:ostrum_plate"
 				type: "item"
 			}]
@@ -618,17 +618,17 @@
 				""
 				"&7Rewards: x2 ostrum ingot, x2 steel ingot \\& 2x Loot Bundle Fragment."
 			]
-			id: "5A4F0DD921F4A474"
+			id: "2E48909B921F7148"
 			rewards: [{
 				count: 2
-				id: "3550FBA303976FE1"
+				id: "6180DB1ED2483A1C"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
 			subtitle: "Craft x2 ostrum tank."
 			tasks: [{
 				count: 2L
-				id: "2FCF1A0885ACBA75"
+				id: "5B0C6D28379FC686"
 				item: "ad_astra:ostrum_tank"
 				type: "item"
 			}]
@@ -643,10 +643,10 @@
 				""
 				"&7Reward: x4 Loot Bundle Fragment"
 			]
-			id: "4E78F33F0B7102CF"
+			id: "0972DEADFEEF1EF3"
 			subtitle: "Craft an ostrum engine."
 			tasks: [{
-				id: "064EE04D41199E75"
+				id: "26F992A551BB22D6"
 				item: "ad_astra:ostrum_engine"
 				type: "item"
 			}]
@@ -659,17 +659,17 @@
 				""
 				"&7Reward: x2 calorite ingot"
 			]
-			id: "154118251AF87EFE"
+			id: "10DDE5BEAC6BAF5F"
 			rewards: [{
 				count: 2
-				id: "3F273987C70E51C9"
+				id: "62A639A4CA4324AE"
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
 			shape: "octagon"
 			subtitle: "Create a Calorite Ingot."
 			tasks: [{
-				id: "0D4B0AABDFDF2BA2"
+				id: "10EC30E1B3066954"
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
@@ -683,17 +683,17 @@
 				""
 				"&7Reward: x2 calorite ingot \\& 2x Loot Bundle Fragment."
 			]
-			id: "394FE4C7480A1FD5"
+			id: "0A6D4808E677F10C"
 			rewards: [{
 				count: 2
-				id: "4D4AC63E8C988365"
+				id: "7545A70D9ACFFE2F"
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
 			shape: "diamond"
 			subtitle: "Create a Calorite Plate."
 			tasks: [{
-				id: "7255F980AB9D1ECC"
+				id: "1241D977D4CB572B"
 				item: "ad_astra:calorite_plate"
 				type: "item"
 			}]
@@ -707,17 +707,17 @@
 				""
 				"&7Rewards: x2 calorite ingot, x2 steel ingot"
 			]
-			id: "678DC6C282FCD0A9"
+			id: "34D8751E7F011934"
 			rewards: [{
 				count: 2
-				id: "096B37A53D5AD94F"
+				id: "76D22727605624FB"
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
 			subtitle: "Craft x2 calorite tank."
 			tasks: [{
 				count: 2L
-				id: "5678897C69C85F5F"
+				id: "3B9D4A3BA05B20B1"
 				item: "ad_astra:calorite_tank"
 				type: "item"
 			}]
@@ -732,10 +732,10 @@
 				""
 				"&7Reward: x4 Loot Bundle Fragment"
 			]
-			id: "370A4212E302F654"
+			id: "555D1DDF880A7C06"
 			subtitle: "Craft a calorite engine."
 			tasks: [{
-				id: "0BC7AE064C63A67A"
+				id: "1D47B168614779C1"
 				item: "ad_astra:calorite_engine"
 				type: "item"
 			}]
@@ -748,10 +748,10 @@
 				""
 				"&7Reward: x1 Basic Portable Tank \\& 3x Loot Bundle Fragment"
 			]
-			id: "00BCA76EE244471A"
+			id: "318881F52593CE7D"
 			subtitle: "Craft a fuel refinery."
 			tasks: [{
-				id: "0913D7A4D7BB10E6"
+				id: "552EB6788926C30E"
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
@@ -764,11 +764,11 @@
 				""
 				"&7Reward: x1 Loot Bundle"
 			]
-			id: "2D19A81FB90E2E9B"
+			id: "4D7053B0AC2F08CA"
 			optional: true
 			subtitle: "Craft a solar panel."
 			tasks: [{
-				id: "33BC559859FCB129"
+				id: "081DB60FC3FE6BC2"
 				item: "ad_astra:solar_panel"
 				type: "item"
 			}]
@@ -781,16 +781,16 @@
 				""
 				"&7Reward: x1 Block of Coal \\& 4x Loot Bundle Fragment"
 			]
-			id: "3DCC07ED8EEC7C4E"
+			id: "0B13B45108E58663"
 			optional: true
 			rewards: [{
-				id: "2AE94B9B97D0851D"
+				id: "31EEFD4DBC65EE69"
 				item: "minecraft:coal_block"
 				type: "item"
 			}]
 			subtitle: "Craft a coal generator."
 			tasks: [{
-				id: "22F7F569EBBF0396"
+				id: "3B386DC0AE399566"
 				item: "ad_astra:coal_generator"
 				type: "item"
 			}]
@@ -804,10 +804,10 @@
 				""
 				"&7Reward: x2 steel ingot"
 			]
-			id: "08179E90F01C700F"
+			id: "5F881129B5963886"
 			subtitle: "Craft an oxygen loader."
 			tasks: [{
-				id: "032D859B26B8066A"
+				id: "194DAC2924C75E30"
 				item: "ad_astra:oxygen_loader"
 				type: "item"
 			}]
@@ -821,10 +821,10 @@
 				""
 				"&7Reward: x1 Loot Bundle"
 			]
-			id: "4F0395A3564B84A8"
+			id: "5C78DBE3D704F4BF"
 			subtitle: "Craft an oxygen distributor."
 			tasks: [{
-				id: "2BE0A907C708F4F6"
+				id: "5DD6ACB3E9DE37EC"
 				item: "ad_astra:oxygen_distributor"
 				type: "item"
 			}]
@@ -837,16 +837,16 @@
 				""
 				"&7Reward: x1 Furnace \\& 2x Loot Bundle Fragment"
 			]
-			id: "5B5C1CCEBEC7FFB2"
+			id: "75D1CBAB73B950A5"
 			rewards: [{
-				id: "2D0AD75375BAD418"
+				id: "58DA9A194ADA0B3A"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
 			shape: "hexagon"
 			subtitle: "Craft an oxygen tank."
 			tasks: [{
-				id: "6F8EF6B1AA0F0619"
+				id: "5ABB6B1A05166034"
 				item: "ad_astra:oxygen_tank"
 				type: "item"
 			}]
@@ -860,16 +860,16 @@
 				""
 				"&7Reward: x1 Loot Bundle \\& 2 EXP Levels."
 			]
-			id: "315EDB2144EA84B9"
+			id: "5A1E7BB3DDA37FF9"
 			rewards: [{
-				id: "2416C2500BC61BBA"
+				id: "2A3B38ADEAA943F9"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			shape: "gear"
 			subtitle: "Craft a rover."
 			tasks: [{
-				id: "6D30810794F4F2B9"
+				id: "426A8802B4A71BF1"
 				item: {
 					Count: 1b
 					id: "ad_astra:tier_1_rover"
@@ -886,12 +886,12 @@
 				""
 				"&7Reward: x1 Ham Sandwich. Yummy!"
 			]
-			id: "5A076A38AC9DA06A"
+			id: "438770DF2B3EFA33"
 			shape: "diamond"
 			size: 0.75d
 			subtitle: "Gather up some space cheese."
 			tasks: [{
-				id: "43223CFBA06CD1FD"
+				id: "61304D93A0A67B5B"
 				item: "ad_astra:cheese"
 				type: "item"
 			}]
@@ -904,17 +904,17 @@
 				""
 				"&7Reward: x2 White Wool \\& 3x Loot Bundle Fragment."
 			]
-			id: "70A7F7BE5897C0F5"
+			id: "10E67FADB6541508"
 			rewards: [{
 				count: 2
-				id: "505FA857301DCBE5"
+				id: "13244385DF37D9D8"
 				item: "minecraft:white_wool"
 				type: "item"
 			}]
 			shape: "hexagon"
 			subtitle: "Craft a space suit."
 			tasks: [{
-				id: "064B7CB740106F5B"
+				id: "6013700B0DBDFCB4"
 				item: {
 					Count: 1b
 					id: "ad_astra:space_suit"
@@ -934,15 +934,15 @@
 				""
 				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
 			]
-			id: "70915F31F64AE4DF"
+			id: "27187557D538C4F1"
 			rewards: [
 				{
-					id: "4AC31EE87180171E"
+					id: "0A9BD23292BB3D12"
 					item: "ad_astra:ostrum_plate"
 					type: "item"
 				}
 				{
-					id: "32753B443B09D9EE"
+					id: "71909A862C69F7B3"
 					item: "ad_astra:desh_plate"
 					type: "item"
 				}
@@ -950,7 +950,7 @@
 			shape: "hexagon"
 			subtitle: "Craft a netherite space suit."
 			tasks: [{
-				id: "376DA7E647D47306"
+				id: "223F63F0F4DC6EA8"
 				item: {
 					Count: 1b
 					id: "ad_astra:netherite_space_suit"
@@ -969,17 +969,17 @@
 				""
 				"&7Reward: x2 White Wool \\& 2x Loot Bundle Fragment."
 			]
-			id: "5FE730DBE9007755"
+			id: "0CA1B8299FC8127E"
 			rewards: [{
 				count: 2
-				id: "7B6B1BA3254CF631"
+				id: "16BEFC795D41BEF5"
 				item: "minecraft:white_wool"
 				type: "item"
 			}]
 			shape: "hexagon"
 			subtitle: "Craft space pants."
 			tasks: [{
-				id: "3BAD764F479098C5"
+				id: "283871E5267D54A6"
 				item: {
 					Count: 1b
 					id: "ad_astra:space_pants"
@@ -999,15 +999,15 @@
 				""
 				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
 			]
-			id: "69004B09DF7A9C15"
+			id: "65439668AB7A9D4F"
 			rewards: [
 				{
-					id: "20F0CFCA6950BBEA"
+					id: "0E52B02736A5CB5D"
 					item: "ad_astra:ostrum_plate"
 					type: "item"
 				}
 				{
-					id: "2D10D4231177CDE8"
+					id: "504249F17E7FF29C"
 					item: "ad_astra:desh_plate"
 					type: "item"
 				}
@@ -1015,7 +1015,7 @@
 			shape: "hexagon"
 			subtitle: "Craft netherite space pants."
 			tasks: [{
-				id: "318C8FACD840E6AE"
+				id: "072566411FE4D64B"
 				item: {
 					Count: 1b
 					id: "ad_astra:netherite_space_pants"
@@ -1034,9 +1034,9 @@
 				""
 				"&7Reward: x1 Enchanted Book (Feather Falling II) \\& 2x Loot Bundle Fragment"
 			]
-			id: "6A31A98A6AAC4C14"
+			id: "52FC8CA7E643F661"
 			rewards: [{
-				id: "0DCC0DBAB1FBA87C"
+				id: "34444ACD46C184BA"
 				item: {
 					Count: 1b
 					id: "minecraft:enchanted_book"
@@ -1052,7 +1052,7 @@
 			shape: "hexagon"
 			subtitle: "Craft space boots."
 			tasks: [{
-				id: "39EB71994D4AFDC2"
+				id: "223869705F2A2007"
 				item: {
 					Count: 1b
 					id: "ad_astra:space_boots"
@@ -1072,15 +1072,15 @@
 				""
 				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
 			]
-			id: "2A98F321BE176A8C"
+			id: "69601DFDC9DD4B3B"
 			rewards: [
 				{
-					id: "3AA0BF2610166E40"
+					id: "5ED0DA365A1B01C2"
 					item: "ad_astra:ostrum_plate"
 					type: "item"
 				}
 				{
-					id: "6F9EF074F6690BF0"
+					id: "7A7D4200C240CA7C"
 					item: "ad_astra:desh_plate"
 					type: "item"
 				}
@@ -1088,7 +1088,7 @@
 			shape: "hexagon"
 			subtitle: "Craft netherite space boots."
 			tasks: [{
-				id: "55AB940D65BCD5AB"
+				id: "301BCD9E1087BB43"
 				item: {
 					Count: 1b
 					id: "ad_astra:netherite_space_boots"
@@ -1107,16 +1107,16 @@
 				""
 				"&7Reward: x1 Fuel Bucket \\& 2x Loot Bundle Fragment."
 			]
-			id: "577089E7F6C6116F"
+			id: "5BF0B03CB0B694EF"
 			rewards: [{
-				id: "788AD88419D5CD5F"
+				id: "66114B1E7AA4B9B0"
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
 			shape: "hexagon"
 			subtitle: "Collect some fuel in a bucket."
 			tasks: [{
-				id: "034A0D3E4692345E"
+				id: "58740CD513FB8E20"
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
@@ -1129,16 +1129,16 @@
 				""
 				"&7Reward: x1 Oil Bucket \\& 2x Loot Bundle Fragment."
 			]
-			id: "2988793392CAB4A9"
+			id: "62A9C576FD0E31BB"
 			rewards: [{
-				id: "0F8B91B34B736D6E"
+				id: "1C22272A1118524B"
 				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
 			shape: "hexagon"
 			subtitle: "Collect some oil."
 			tasks: [{
-				id: "4E25B18E9A37B4C1"
+				id: "539F659AC23678E9"
 				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
@@ -1147,15 +1147,15 @@
 		}
 		{
 			description: ["&7Reward: x1 Water Bucket \\& 3x Loot Bundle Fragment"]
-			id: "4A2425CAEA831E21"
+			id: "3D3323418386862E"
 			rewards: [{
-				id: "079A7A0250981528"
+				id: "4BAF3F5FE9875A65"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
 			subtitle: "Craft a water pump."
 			tasks: [{
-				id: "73E419F8D13B8056"
+				id: "36A5191F06B1E992"
 				item: "ad_astra:water_pump"
 				type: "item"
 			}]
@@ -1164,9 +1164,9 @@
 		}
 		{
 			description: ["&7Reward: 2 EXP Levels \\& x1 Loot Bundle"]
-			id: "6A0840451EE510B0"
+			id: "6CD79DA5738EEA6D"
 			rewards: [{
-				id: "7BB29615E0F7F7A7"
+				id: "3441B1A776E190E5"
 				team_reward: false
 				type: "xp_levels"
 				xp_levels: 2
@@ -1176,7 +1176,7 @@
 			tasks: [{
 				dimension: "ad_astra:glacio"
 				icon: "ad_astra:glacio_stone"
-				id: "0F351D2654632180"
+				id: "61DF806D2EAEB8CA"
 				title: "Glacio"
 				type: "dimension"
 			}]
@@ -1186,9 +1186,9 @@
 		}
 		{
 			description: ["&7Reward: 2 EXP Levels \\& x1 Loot Bundle"]
-			id: "0B94029C02B3D872"
+			id: "0276B8265880E189"
 			rewards: [{
-				id: "410C21302947D098"
+				id: "31916920E34C05B6"
 				team_reward: false
 				type: "xp_levels"
 				xp_levels: 2
@@ -1198,7 +1198,7 @@
 			tasks: [{
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_stone"
-				id: "292B60BA13C13AB3"
+				id: "2CC0340D8AEDBFC4"
 				title: "Mars"
 				type: "dimension"
 			}]
@@ -1208,9 +1208,9 @@
 		}
 		{
 			description: ["&7Reward: 2 EXP Levels \\& x1 Loot Bundle"]
-			id: "190482A4BF4BFF98"
+			id: "0D235F6200FC236B"
 			rewards: [{
-				id: "3A7318502DB49610"
+				id: "4D08B9B6FEDC2DE2"
 				team_reward: false
 				type: "xp_levels"
 				xp_levels: 2
@@ -1220,7 +1220,7 @@
 			tasks: [{
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_stone"
-				id: "5EE66D6478F8A887"
+				id: "1E71A53EBF28C225"
 				title: "Mercury"
 				type: "dimension"
 			}]
@@ -1230,9 +1230,9 @@
 		}
 		{
 			description: ["&7Reward: 2 EXP Levels \\& x1 Loot Bundle"]
-			id: "36CAEB47BA3EB4BB"
+			id: "1466B95755EA89AA"
 			rewards: [{
-				id: "0E84FF528583AE5E"
+				id: "268EDE3646059768"
 				team_reward: false
 				type: "xp_levels"
 				xp_levels: 2
@@ -1242,7 +1242,7 @@
 			tasks: [{
 				dimension: "ad_astra:moon"
 				icon: "ad_astra:moon_stone"
-				id: "284674F59D82F976"
+				id: "7C766139CF7EBFD0"
 				title: "Moon"
 				type: "dimension"
 			}]
@@ -1252,9 +1252,9 @@
 		}
 		{
 			description: ["&7Reward: 2 EXP Levels \\& x1 Loot Bundle"]
-			id: "6B5D345FFE367075"
+			id: "0FBA37A6F3C76B13"
 			rewards: [{
-				id: "5F8D68F3C076F68D"
+				id: "6AE378EC79BAC015"
 				team_reward: false
 				type: "xp_levels"
 				xp_levels: 2
@@ -1264,7 +1264,7 @@
 			tasks: [{
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_stone"
-				id: "517C982F5948A234"
+				id: "4C48259B03E54E98"
 				title: "Venus"
 				type: "dimension"
 			}]
@@ -1286,9 +1286,9 @@
 				"&7Rewards: x3 Loot Bundle, 50 EXP Levels \\& Planet Explorer Trophy."
 			]
 			icon: "ad_astra:earth_globe"
-			id: "57E095859B979212"
+			id: "439CA215C7F8B15A"
 			rewards: [{
-				id: "58C372F35E9C10E4"
+				id: "5EAA1F0C4DE94409"
 				team_reward: false
 				type: "xp_levels"
 				xp_levels: 50
@@ -1296,7 +1296,7 @@
 			subtitle: "Claim this by exploring all planets."
 			tasks: [{
 				icon: "botania:tiny_planet"
-				id: "3074E46214E738D5"
+				id: "6A952C90ED34D81E"
 				type: "checkmark"
 			}]
 			title: "Planet Explorer"
@@ -1305,9 +1305,9 @@
 		}
 		{
 			dependencies: ["59822C508A5BD9C7"]
-			id: "2BAF7358492A525D"
+			id: "7A310BEC0B6D63B5"
 			rewards: [{
-				id: "53912428E762EE2C"
+				id: "70BFF4229272D58F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -1327,17 +1327,17 @@
 				""
 				"&7Reward: x2 White Wool \\& 2x Loot Bundle Fragment."
 			]
-			id: "5B1D3AA5B8C468CA"
+			id: "5FAC21A23FEBD3BE"
 			rewards: [{
 				count: 2
-				id: "1EC909FE2B2486E5"
+				id: "7299EBE1E330DB24"
 				item: "minecraft:white_wool"
 				type: "item"
 			}]
 			shape: "pentagon"
 			subtitle: "Craft a Space Helmet."
 			tasks: [{
-				id: "405288F80D89B8C1"
+				id: "75EDA4AECBBB825D"
 				item: {
 					Count: 1b
 					id: "ad_astra:space_helmet"
@@ -1357,15 +1357,15 @@
 				""
 				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
 			]
-			id: "7358742203E7438D"
+			id: "4ADA675DC2A0E4A6"
 			rewards: [
 				{
-					id: "4ED5F86EDD28DF12"
+					id: "5D40DA9CE8791294"
 					item: "ad_astra:ostrum_plate"
 					type: "item"
 				}
 				{
-					id: "2435D50D9C4AF944"
+					id: "780494EE9FD078DE"
 					item: "ad_astra:desh_plate"
 					type: "item"
 				}
@@ -1373,7 +1373,7 @@
 			shape: "pentagon"
 			subtitle: "Craft a Netherite Space Helmet."
 			tasks: [{
-				id: "0132C77B4E762193"
+				id: "5495765B7E9BC9C4"
 				item: {
 					Count: 1b
 					id: "ad_astra:netherite_space_helmet"
@@ -1393,17 +1393,17 @@
 				""
 				"&7Reward: x2 Loot Bundle \\& x16 Loot Bundle Fragment."
 			]
-			id: "0EC7CD36AE84A8AB"
+			id: "107225FB91885036"
 			rewards: [{
 				count: 2
-				id: "720899528C60E904"
+				id: "2F80A9937C59F01C"
 				item: "ad_astra:calorite_plate"
 				type: "item"
 			}]
 			shape: "pentagon"
 			subtitle: "Craft a Jet Suit Helmet."
 			tasks: [{
-				id: "03FCA3C9C97E9E03"
+				id: "128D59535034867F"
 				item: {
 					Count: 1b
 					id: "ad_astra:jet_suit_helmet"
@@ -1423,17 +1423,17 @@
 				""
 				"&7Reward: x2 Loot Bundle \\& x16 Loot Bundle Fragment."
 			]
-			id: "6B68E48C7E409A29"
+			id: "77A839981822A44E"
 			rewards: [{
 				count: 2
-				id: "720BA7D9D8833B1C"
+				id: "7B3622A318C7169A"
 				item: "ad_astra:calorite_plate"
 				type: "item"
 			}]
 			shape: "hexagon"
 			subtitle: "Craft a Jet Suit."
 			tasks: [{
-				id: "2CD56B312C1E29FD"
+				id: "5853DEF35BAB01CD"
 				item: {
 					Count: 1b
 					id: "ad_astra:jet_suit"
@@ -1453,17 +1453,17 @@
 				""
 				"&7Reward: x2 Loot Bundle \\& x16 Loot Bundle Fragment."
 			]
-			id: "2027644695D33798"
+			id: "4DCF11EAAB11D3A8"
 			rewards: [{
 				count: 2
-				id: "50D4B3BD646E587A"
+				id: "7B5F5C5153543D5C"
 				item: "ad_astra:calorite_plate"
 				type: "item"
 			}]
 			shape: "hexagon"
 			subtitle: "Craft a Jet Suit Pants."
 			tasks: [{
-				id: "315D93F6C4678F7A"
+				id: "534E1F7ECA1237E2"
 				item: {
 					Count: 1b
 					id: "ad_astra:jet_suit_pants"
@@ -1483,17 +1483,17 @@
 				""
 				"&7Reward: x2 Loot Bundle \\& x16 Loot Bundle Fragment."
 			]
-			id: "356785339FB9EE77"
+			id: "1C4B98181EF1D9A5"
 			rewards: [{
 				count: 2
-				id: "73BB9606E5706EBF"
+				id: "2EEE5C3B2E7C4E37"
 				item: "ad_astra:calorite_plate"
 				type: "item"
 			}]
 			shape: "hexagon"
 			subtitle: "Craft Jet Suit Boots."
 			tasks: [{
-				id: "226E119A670E6672"
+				id: "3C78E5FDAE4C6263"
 				item: {
 					Count: 1b
 					id: "ad_astra:jet_suit_boots"

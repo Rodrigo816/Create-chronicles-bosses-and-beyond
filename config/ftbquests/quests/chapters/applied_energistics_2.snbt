@@ -5,7 +5,7 @@
 	group: ""
 	icon: "ae2:controller"
 	id: "07210DDF872160BA"
-	order_index: 14
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

@@ -3,7 +3,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_brass_machine"
-	group: ""
+	group: "5237AEA7260D740E"
+	icon: "kubejs:brass_machine"
 	id: "3E77E18FC0D1193E"
 	images: [{
 		alpha: 200
@@ -19,7 +20,7 @@
 		x: -5.5d
 		y: 6.0d
 	}]
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -29,6 +30,7 @@
 				"201291E8B8D4FE73"
 				"05836C34CD66A56F"
 			]
+			dependency_requirement: "one_started"
 			id: "7D6E6EFCB2DD19A0"
 			tasks: [{
 				id: "770EC6F492C38791"
@@ -166,6 +168,8 @@
 		}
 		{
 			dependencies: ["2BBB5E496BBD52C5"]
+			dependency_requirement: "one_started"
+			hide: false
 			id: "201291E8B8D4FE73"
 			tasks: [{
 				id: "3A67FE794B73D10B"
@@ -248,6 +252,7 @@
 				"7A50893172D43878"
 			]
 			id: "2BBB5E496BBD52C5"
+			optional: true
 			tasks: [{
 				id: "254618B5A7F95447"
 				item: "minecraft:soul_sand"
@@ -258,6 +263,7 @@
 		}
 		{
 			id: "70FE285006F6632F"
+			optional: true
 			tasks: [{
 				id: "6E812FD4E5FCC138"
 				item: "quark:soul_bead"
@@ -269,6 +275,7 @@
 		{
 			dependencies: ["671ABB3F4DDF8A89"]
 			id: "61B5DE7788ED3D6D"
+			optional: true
 			tasks: [{
 				id: "3385925890E92473"
 				item: "forbidden_arcanus:soulless_sand"
@@ -279,6 +286,7 @@
 		}
 		{
 			id: "7A50893172D43878"
+			optional: true
 			tasks: [{
 				id: "2A78C95C3292BE29"
 				item: "born_in_chaos_v1:ethereal_spirit"
@@ -321,6 +329,7 @@
 		{
 			dependencies: ["6F2EA0844769A10A"]
 			description: [""]
+			hide: true
 			id: "637D976589937434"
 			shape: "rsquare"
 			size: 1.5d
@@ -333,17 +342,8 @@
 			y: 16.5d
 		}
 		{
-			id: "480F3998093A389E"
-			tasks: [{
-				id: "5CCC13F3B441C893"
-				item: "sophisticatedbackpacks:iron_backpack"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 18.5d
-		}
-		{
 			dependencies: ["637D976589937434"]
+			hide: true
 			id: "738E4BA03DA3D655"
 			tasks: [
 				{
@@ -375,6 +375,18 @@
 			x: 1.5d
 			y: 12.0d
 		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide: true
+			id: "62E69747ECE312C3"
+			tasks: [{
+				id: "3A5588665BD2BBD2"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.3d
+		}
 	]
-	title: "Chapter III: The Brass Machine"
+	title: "Chapter III: The Precision Machine"
 }

@@ -3,13 +3,29 @@
 	default_quest_shape: ""
 	filename: "chapter_x_renewable_ores"
 	group: ""
+	icon: "molten_vents:active_molten_crimsite"
 	id: "01299364BAF193B6"
-	order_index: 16
+	images: [{
+		alpha: 200
+		click: ""
+		color: 16672790
+		corner: false
+		dev: false
+		height: 1.2d
+		hover: [ ]
+		image: "chalk:block/mark/arrow"
+		rotation: 180.0d
+		width: 1.2d
+		x: -1.0d
+		y: -8.5d
+	}]
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["47B87C4A6EF446E9"]
 			id: "507B899E6467E189"
+			subtitle: "crush it"
 			tasks: [{
 				id: "74FC72CBFFE5E319"
 				item: "create:asurine"
@@ -21,6 +37,7 @@
 		{
 			dependencies: ["7951B19407FEE024"]
 			id: "5D9857A81A9DC029"
+			subtitle: "crush it"
 			tasks: [{
 				id: "03D0BB3FA50990EE"
 				item: "create:crimsite"
@@ -32,6 +49,7 @@
 		{
 			dependencies: ["4174526248A5CC4C"]
 			id: "6E596E1F969F1208"
+			subtitle: "crush it"
 			tasks: [{
 				id: "6F729EC5F9258FE9"
 				item: "create:veridium"
@@ -41,22 +59,21 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"1058E2CC764B27AD"
-				"3FB3FBB8C14EE5B0"
-			]
+			dependencies: ["47E3008A1C7F64CE"]
 			id: "5F7A18E1DDDDD166"
+			subtitle: "crush it"
 			tasks: [{
 				id: "7503F6388197D05A"
 				item: "create:scorchia"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.0d
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1A68D9BF5A34686F"]
 			id: "24B79D5E984A2873"
+			subtitle: "crush it"
 			tasks: [{
 				id: "783211D8A6D8F80B"
 				item: "create:ochrum"
@@ -66,17 +83,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"507B899E6467E189"
-				"47B87C4A6EF446E9"
-			]
+			dependencies: ["507B899E6467E189"]
 			id: "397A95F9519D300D"
 			tasks: [{
 				id: "7E48FF4DB049FA12"
 				item: "create:crushed_raw_zinc"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: 1.5d
 		}
 		{
@@ -87,7 +101,7 @@
 				item: "create:crushed_raw_iron"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -98,7 +112,7 @@
 				item: "create:crushed_raw_copper"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 1.5d
 		}
 		{
@@ -109,8 +123,8 @@
 				item: "create_dd:coal_piece"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -0.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5F7A18E1DDDDD166"]
@@ -120,8 +134,8 @@
 				item: "create:cinder_flour"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -0.5d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["24B79D5E984A2873"]
@@ -139,7 +153,9 @@
 				"018B793486C6832C"
 				"5198C559E16FE5F8"
 			]
+			description: ["You don't need to keep making liquid. If you place it correctly its infinite."]
 			id: "2FF8179BFB33AF6A"
+			subtitle: "combine the two liquids"
 			tasks: [{
 				id: "2B83BBE744F5592D"
 				item: "create_dd:asurine_cobble"
@@ -170,11 +186,13 @@
 		}
 		{
 			dependencies: ["2FF8179BFB33AF6A"]
+			icon: "molten_vents:dormant_molten_asurine"
 			id: "47B87C4A6EF446E9"
+			subtitle: "Activate with tnt them place Cobbled Asurine near it."
 			tasks: [{
-				id: "399462D8CA9A4CA5"
-				item: "molten_vents:dormant_molten_asurine"
-				type: "item"
+				id: "4D081A9FDA8FE0F7"
+				title: "Dormant Molten Asurine"
+				type: "checkmark"
 			}]
 			x: -9.5d
 			y: -1.5d
@@ -184,7 +202,9 @@
 				"5F205D0B5CFB0EA0"
 				"74C870915AD24CFA"
 			]
+			description: ["You don't need to keep making liquid. If you place it correctly its infinite."]
 			id: "336C8972DC395FF8"
+			subtitle: "combine the two liquids"
 			tasks: [{
 				id: "0BE4B8900AE5A845"
 				item: "create_dd:crimsite_cobble"
@@ -195,11 +215,13 @@
 		}
 		{
 			dependencies: ["336C8972DC395FF8"]
+			icon: "molten_vents:dormant_molten_crimsite"
 			id: "7951B19407FEE024"
+			subtitle: "Activate with tnt them place Cobbled Crimsite near it."
 			tasks: [{
-				id: "23304349004AE6EF"
-				item: "molten_vents:dormant_molten_crimsite"
-				type: "item"
+				id: "650021AF1A83B634"
+				title: "Dormant Molten Crimsite"
+				type: "checkmark"
 			}]
 			x: -0.5d
 			y: -1.5d
@@ -249,7 +271,9 @@
 				"46986B63A3F554C9"
 				"72B77FB74E6F9EE4"
 			]
+			description: ["You don't need to keep making liquid. If you place it correctly its infinite."]
 			id: "31E945A1E3AB77D3"
+			subtitle: "combine the two liquids"
 			tasks: [{
 				id: "4F623A949A37AD98"
 				item: "create_dd:veridium_cobble"
@@ -260,77 +284,37 @@
 		}
 		{
 			dependencies: ["31E945A1E3AB77D3"]
+			icon: "molten_vents:dormant_molten_veridium"
 			id: "4174526248A5CC4C"
+			subtitle: "Activate with tnt them place Cobbled Veridium near it."
 			tasks: [{
-				id: "0B9EC3E02F04B6BA"
-				item: "molten_vents:dormant_molten_veridium"
-				type: "item"
+				id: "13174EE6D0045679"
+				title: "Dormant Molten Veridium"
+				type: "checkmark"
 			}]
 			x: -5.0d
 			y: -1.5d
 		}
 		{
-			id: "1058E2CC764B27AD"
-			tasks: [{
-				id: "26458BEA6923897C"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -4.0d
-		}
-		{
-			id: "3FB3FBB8C14EE5B0"
-			subtitle: "remover hot chocolate"
-			tasks: [{
-				id: "34B0552388A4CC76"
-				item: "create_dd:hot_chocolate_bucket"
-				type: "item"
-			}]
-			x: 11.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"353EC4594F1C27E8"
-				"604A2492247869F3"
-			]
-			id: "6379A2FC62EF7C23"
-			tasks: [{
-				id: "0C807366F6FF5777"
-				item: "create:scoria"
-				type: "item"
-			}]
-			x: 13.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6379A2FC62EF7C23"]
+			dependencies: ["1D22D77A69AFEA20"]
 			id: "3FDA4ADCC08B6CFB"
+			subtitle: "crush it"
 			tasks: [{
 				id: "1CBD5C0070846DCE"
 				item: "create:scoria"
 				type: "item"
 			}]
 			x: 13.5d
-			y: 0.0d
-		}
-		{
-			id: "0E7A8BBC553C91E1"
-			tasks: [{
-				id: "1DE918B550DCAADF"
-				item: "molten_vents:dormant_molten_scorchia"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"559F6C7AC2FFAF8B"
 				"5D4101FAF388E3C6"
 			]
+			description: ["You don't need to keep making liquid. If you place it correctly its infinite."]
 			id: "71D8883DC01C822C"
+			subtitle: "combine the two liquids"
 			tasks: [{
 				id: "33D49184724A950B"
 				item: "create_dd:ochrum_cobble"
@@ -340,34 +324,17 @@
 			y: -3.0d
 		}
 		{
-			id: "604A2492247869F3"
-			tasks: [{
-				id: "62DF99F4394E609E"
-				item: "create_dd:chocolate_milkshake_bucket"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -3.0d
-		}
-		{
-			id: "353EC4594F1C27E8"
-			tasks: [{
-				id: "0597E92476C270AD"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -3.0d
-		}
-		{
+			dependencies: ["64E747B93D74A16E"]
+			icon: "molten_vents:active_molten_scoria"
 			id: "1D22D77A69AFEA20"
+			subtitle: "Activate with tnt them place napalm bomb near it."
 			tasks: [{
-				id: "0CA4A608CBE7BC2C"
-				item: "molten_vents:dormant_molten_scoria"
-				type: "item"
+				id: "1D8F55CF1C66A060"
+				title: "Dormant Molten Scoria"
+				type: "checkmark"
 			}]
 			x: 13.5d
-			y: -6.5d
+			y: -3.0d
 		}
 		{
 			id: "5D4101FAF388E3C6"
@@ -391,25 +358,16 @@
 		}
 		{
 			dependencies: ["71D8883DC01C822C"]
+			icon: "molten_vents:dormant_molten_ochrum"
 			id: "1A68D9BF5A34686F"
+			subtitle: "Activate with tnt them place Cobbled Ochrum near it."
 			tasks: [{
-				id: "4B4B69944B0C0522"
-				item: "molten_vents:dormant_molten_ochrum"
-				type: "item"
+				id: "2B10DBAC24916BD1"
+				title: "Dormant Molten Ochrum"
+				type: "checkmark"
 			}]
 			x: 4.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["4BD4EBA30864D035"]
-			id: "62B83DDE3B70C656"
-			tasks: [{
-				id: "6A32FB1165805E81"
-				item: "minecraft:quartz"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 3.0d
 		}
 		{
 			dependencies: ["4BD4EBA30864D035"]
@@ -419,7 +377,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -441,19 +399,19 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["7399876A60EEAF40"]
+			dependencies: ["5D9857A81A9DC029"]
 			id: "6AD883909EE03BA6"
 			tasks: [{
 				id: "66D65E019FB6F75C"
 				item: "minecraft:iron_nugget"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7399876A60EEAF40"]
@@ -463,7 +421,7 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 3.0d
 		}
 		{
@@ -474,68 +432,62 @@
 				item: "tfmg:blasting_mixture"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: 3.0d
 		}
 		{
+			dependencies: ["59FE9435C6E0AD38"]
 			id: "23B2DAE2A251304B"
 			tasks: [{
 				id: "4C40F6C4B0D4B1E5"
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 3.0d
 		}
 		{
+			dependencies: ["6E596E1F969F1208"]
 			id: "1F377B6B64AE2EC7"
 			tasks: [{
 				id: "59364F5F3D9FDCFE"
 				item: "create:copper_nugget"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.0d
+			x: -4.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["59FE9435C6E0AD38"]
 			id: "7CF45E77B745C349"
 			tasks: [{
 				id: "4BA5CE69F73C29D6"
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -7.0d
 			y: 3.0d
 		}
 		{
-			id: "23700E4853E5EDD8"
-			subtitle: "tirar isto de todas as receitas"
-			tasks: [{
-				id: "15C50730B775630F"
-				item: "minecraft:gunpowder"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 3.0d
-		}
-		{
+			dependencies: ["397A95F9519D300D"]
 			id: "61CE0B3B33DA5D5E"
 			tasks: [{
 				id: "7D4C7F7635DB455D"
 				item: "create:zinc_nugget"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -9.5d
 			y: 3.0d
 		}
 		{
+			dependencies: ["397A95F9519D300D"]
 			id: "60146911132AB559"
 			tasks: [{
 				id: "20964593CD0DB805"
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.5d
 			y: 3.0d
 		}
 		{
@@ -545,8 +497,8 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.5d
+			x: -7.5d
+			y: 5.5d
 		}
 		{
 			id: "22E56EC81482F489"
@@ -555,8 +507,8 @@
 				item: "create_dd:condense_milk_bucket"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.5d
+			x: -5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -569,8 +521,8 @@
 				item: "minecraft:calcite"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: -6.5d
+			y: 7.0d
 		}
 		{
 			id: "1311E2CC15060E74"
@@ -579,8 +531,8 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.5d
+			x: -3.5d
+			y: 5.5d
 		}
 		{
 			id: "0CB74126AF8CF746"
@@ -589,8 +541,8 @@
 				item: "create_dd:glowberry_bucket"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.5d
+			x: -1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -603,8 +555,8 @@
 				item: "minecraft:dripstone_block"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["67D984605442ECC2"]
@@ -614,8 +566,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.5d
+			x: -2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["745042FB41CB4628"]
@@ -625,8 +577,8 @@
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -2.0d
+			x: -7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["745042FB41CB4628"]
@@ -636,8 +588,8 @@
 				item: "minecraft:diorite"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: -5.5d
+			y: 8.5d
 		}
 		{
 			id: "6AC3F323E4B49E41"
@@ -646,8 +598,8 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 5.0d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			id: "3315B175F187D742"
@@ -656,8 +608,8 @@
 				item: "minecraft:honey_bottle"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: 2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -670,8 +622,8 @@
 				item: "create:limestone"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.5d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6C9BBE9754A99A96"]
@@ -681,8 +633,8 @@
 				item: "tfmg:limesand"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 7.5d
+			x: 1.0d
+			y: 8.5d
 		}
 		{
 			id: "0B8ACADB9A7124D8"
@@ -691,8 +643,8 @@
 				item: "create_dd:caramel_bucket"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.5d
+			x: 9.5d
+			y: 5.5d
 		}
 		{
 			id: "552C77EEE62B7E83"
@@ -701,8 +653,8 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.5d
+			x: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -715,8 +667,8 @@
 				item: "minecraft:blackstone"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.5d
+			x: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -729,8 +681,8 @@
 				item: "create_dd:gabbro"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 6.5d
+			x: 5.0d
+			y: 7.0d
 		}
 		{
 			id: "2A49012030A688AE"
@@ -739,7 +691,7 @@
 				item: "create_dd:strawberry_bucket"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 4.0d
 			y: 5.5d
 		}
 		{
@@ -749,34 +701,11 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 6.0d
 			y: 5.5d
 		}
 		{
-			id: "17B248D76F082951"
-			tasks: [{
-				id: "1B32CD57F8E41B6F"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 2.5d
-		}
-		{
-			id: "7AA397A0DAE704E2"
-			tasks: [{
-				id: "7CA430AC6E543F4A"
-				item: "create_dd:vanilla_milkshake_bucket"
-				type: "item"
-			}]
-			x: 15.5d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"7AA397A0DAE704E2"
-				"17B248D76F082951"
-			]
+			dependencies: ["3FDA4ADCC08B6CFB"]
 			id: "72E9DC33E526DADA"
 			tasks: [{
 				id: "2DAE1F8A13158384"
@@ -784,9 +713,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 3.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["72E9DC33E526DADA"]
 			id: "40102220F51B35B6"
 			tasks: [{
 				id: "5FD619E6A4E60B71"
@@ -794,88 +724,160 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 4.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["72E9DC33E526DADA"]
 			id: "20A8242D2D7277A2"
 			tasks: [{
 				id: "3CE120D5EB545C78"
 				item: "create_dd:tin_nugget"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 4.5d
+			x: 16.0d
+			y: 1.5d
 		}
 		{
-			id: "4157F297E569C916"
+			dependencies: [
+				"397A95F9519D300D"
+				"507B899E6467E189"
+			]
+			id: "2A24C1514D1D58D9"
 			tasks: [{
-				id: "5F297DDC145AC701"
-				item: "create:limestone"
+				id: "3D6E8D30C0659641"
+				item: "minecraft:lapis_lazuli"
 				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{image:kubejs:textures/molten_vents.png width:350 height:200 align:1}"
+				""
+				"&6Molten Vents&r is a mod which adds a renewable source of the orestones."
+				""
+				"These ore stones include: &2Veridium,&r &3Asurine&r, &4Crimsite,&r &6Ochrum,&r &0Scorchia&r and &8Scoria.&r"
+				""
+				"The vents contain immovable dormant orestones in them, which when exploded will convert into molten orestones place the required material into the corresponding orestone when near it."
+				""
+				"&4&lTo activate the dormant orestones you must explode them.&r&r"
+				""
+				"This will explode the visual debris on the texture of the block and convert it into a molten orestone, allowing it to make contact with and begin converting the required material into the orestones."
+			]
+			id: "2AA838B09218F700"
+			rewards: [
+				{
+					count: 10
+					id: "6952FDAD954BBBD3"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "407C26120D175763"
+					item: "create_dd:asurine_cobble"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "06DC7BD3E1AEB21E"
+					item: "create_dd:crimsite_cobble"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "13C73C1A477CAA4B"
+					item: "create_dd:ochrum_cobble"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "514046EDCCA5C157"
+					item: "create_dd:veridium_cobble"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "If you find one mark it on map cus you will need it later :)"
+			tasks: [{
+				id: "7C93AC02F8D93AA3"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Renewable sources"
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"12F66417863F4017"
+				"101A5F8BD84CBE03"
+			]
+			icon: "molten_vents:dormant_molten_scorchia"
+			id: "47E3008A1C7F64CE"
+			subtitle: "Activate with tnt them place chocolate cake or honey cake near it."
+			tasks: [{
+				id: "32BD95D152335FD6"
+				title: "Dormant Molten Scorchia"
+				type: "checkmark"
 			}]
 			x: 8.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
-			id: "6F2B71DAF90FDC09"
+			id: "101A5F8BD84CBE03"
 			tasks: [{
-				id: "17CE121DD0E52488"
-				item: "molten_vents:dormant_molten_scorchia"
+				id: "18E4D92CE1E6F701"
+				item: "createaddition:chocolate_cake"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.0d
+			x: 7.5d
+			y: -4.5d
 		}
 		{
-			id: "6C503D64D41795DF"
+			id: "12F66417863F4017"
 			tasks: [{
-				id: "798FB325E295D316"
-				item: "kubejs:mystic_coal_liquid_bucket"
+				id: "53A819FC7ADDA736"
+				item: "createaddition:honey_cake"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3FDA4ADCC08B6CFB"]
+			id: "1236C986845D0C1F"
+			tasks: [{
+				id: "1977D67F683D6C7C"
+				item: "enlightened_end:bismuth_nugget"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FDA4ADCC08B6CFB"]
+			id: "6FD212897ED80389"
+			tasks: [{
+				id: "5337C6F84DC11DC7"
+				item: "enlightened_end:adamantite_nugget"
 				type: "item"
 			}]
 			x: 12.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
-			id: "1F7573661D0059ED"
+			id: "64E747B93D74A16E"
 			tasks: [{
-				id: "4F8E527FF01D52F5"
-				item: "minecraft:blackstone"
+				id: "33AEC4DB0724378C"
+				item: "tfmg:napalm_bomb"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -8.5d
-		}
-		{
-			id: "60FD19CD73C2A564"
-			tasks: [{
-				id: "1E094D084103C86B"
-				item: "minecraft:gilded_blackstone"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -7.5d
-		}
-		{
-			id: "520DCE1AF2BD9D02"
-			tasks: [{
-				id: "71DAC69D6DA053F9"
-				item: "tfmg:bauxite"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 0.5d
-		}
-		{
-			id: "4B455641CDEA4E7B"
-			tasks: [{
-				id: "4B49B12DFB935241"
-				item: "create:crushed_raw_tin"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -5.5d
+			x: 13.5d
+			y: -4.5d
 		}
 	]
-	title: "Renewable ores"
+	title: "&o&l&aRenewable ores&r&r"
 }

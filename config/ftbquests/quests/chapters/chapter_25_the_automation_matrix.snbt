@@ -5,7 +5,7 @@
 	group: ""
 	icon: "create:mechanical_arm"
 	id: "4BFDE9E4CB4FB124"
-	order_index: 19
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

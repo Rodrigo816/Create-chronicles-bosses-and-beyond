@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "oil_2"
-	group: ""
+	group: "5237AEA7260D740E"
 	id: "6754C36555B56724"
 	images: [{
 		alpha: 200
@@ -18,7 +18,7 @@
 		x: 1.5d
 		y: -6.5d
 	}]
-	order_index: 9
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -196,6 +196,7 @@
 		{
 			dependencies: ["615126E9C29AA0F1"]
 			id: "20218B68C748F8E8"
+			optional: true
 			tasks: [{
 				id: "7BD17D0BCD140D64"
 				item: "tfmg:heavy_oil_bucket"
@@ -218,6 +219,7 @@
 		{
 			dependencies: ["615126E9C29AA0F1"]
 			id: "1EA7C3F726EAC443"
+			optional: true
 			tasks: [{
 				id: "5A5D69EEEF2A22C7"
 				item: "tfmg:naphtha_bucket"
@@ -229,6 +231,7 @@
 		{
 			dependencies: ["615126E9C29AA0F1"]
 			id: "2A662FA99B21BFB3"
+			optional: true
 			tasks: [{
 				id: "7B87AAD96375ADE9"
 				item: "tfmg:gasoline_bucket"
@@ -322,8 +325,8 @@
 				item: "createaddition:bioethanol_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -334,6 +337,7 @@
 			id: "7EEB0092E87627F1"
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "this will be the fuel you use on your rocket"
 			tasks: [{
 				id: "58A9A0AFD66E7527"
 				item: "ad_astra:fuel_bucket"

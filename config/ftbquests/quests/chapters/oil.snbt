@@ -2,10 +2,24 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "oil"
-	group: ""
-	icon: "tfmg:heavy_oil_bucket"
+	group: "5237AEA7260D740E"
+	icon: "tfmg:steel_mechanism"
 	id: "38FE3E0C86FF237B"
-	order_index: 8
+	images: [{
+		alpha: 200
+		click: ""
+		color: 16672790
+		corner: false
+		dev: false
+		height: 1.2d
+		hover: [ ]
+		image: "chalk:block/mark/arrow"
+		rotation: 180.0d
+		width: 1.2d
+		x: 2.5d
+		y: -7.5d
+	}]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -43,8 +57,10 @@
 				"41F2204F3859C40E"
 				"0D2D729534CC797F"
 			]
+			dependency_requirement: "one_started"
 			id: "6410C194650D31D0"
 			rewards: [{
+				count: 5
 				id: "3BC1809E12926D90"
 				item: "minecraft:coal_block"
 				type: "item"
@@ -62,6 +78,7 @@
 				"5FDD3AE28724E3DB"
 				"46E5565D623C0AC8"
 			]
+			dependency_requirement: "one_started"
 			id: "60A94E3337A26181"
 			rewards: [
 				{
@@ -115,6 +132,7 @@
 				"6410C194650D31D0"
 				"41F2204F3859C40E"
 			]
+			dependency_requirement: "one_started"
 			id: "3786CEBDF1D138A3"
 			rewards: [{
 				count: 32
@@ -122,6 +140,7 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
+			subtitle: "build a coke oven"
 			tasks: [{
 				count: 9L
 				id: "2A266B65EE1395FE"
@@ -133,7 +152,9 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["61D53F99D72D0940"]
 			id: "66390863259FE74C"
+			optional: true
 			tasks: [{
 				id: "07B7F0C605A4CA2E"
 				item: "tfmg:limesand"
@@ -148,6 +169,7 @@
 				"6AD87BACD480D27B"
 			]
 			id: "5429EC5DB7D8429C"
+			optional: true
 			tasks: [{
 				id: "1AE14BF44D6AE9E2"
 				item: "tfmg:blasting_mixture"
@@ -158,6 +180,7 @@
 		}
 		{
 			id: "6AD87BACD480D27B"
+			optional: true
 			tasks: [{
 				id: "6515B66AB931E976"
 				item: "create:crushed_raw_iron"
@@ -178,6 +201,7 @@
 		}
 		{
 			dependencies: ["7E82E9591EDB4835"]
+			dependency_requirement: "one_started"
 			id: "41F2204F3859C40E"
 			tasks: [{
 				id: "0EA6CA1CCA875A5D"
@@ -200,14 +224,15 @@
 		}
 		{
 			dependencies: ["3786CEBDF1D138A3"]
+			dependency_requirement: "one_completed"
 			id: "4529E314F97ED3FA"
 			tasks: [{
 				id: "0298CA5AE64183C1"
 				item: "tfmg:creosote_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5800110695DFDE0F"]
@@ -222,14 +247,15 @@
 		}
 		{
 			dependencies: ["4529E314F97ED3FA"]
+			dependency_requirement: "one_completed"
 			id: "0A1E595C80AA998B"
 			tasks: [{
 				id: "5FC2DF714B2EBA01"
 				item: "tfmg:hardened_planks"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A1E595C80AA998B"]
@@ -239,8 +265,8 @@
 				item: "tfmg:steel_casing"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -402,7 +428,9 @@
 		}
 		{
 			dependencies: ["409394CEF9087E88"]
+			dependency_requirement: "one_completed"
 			id: "7E82E9591EDB4835"
+			optional: true
 			tasks: [{
 				id: "0D462E5C990EC927"
 				item: "create_dd:coal_piece"
@@ -412,25 +440,18 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["23EB881052304EE0"]
+			dependency_requirement: "one_completed"
 			id: "409394CEF9087E88"
+			optional: true
+			progression_mode: "linear"
+			subtitle: "Please visit the renewable ores chapter to learn how to activate this."
 			tasks: [{
 				id: "1F112853E7AB803B"
 				item: "create:scorchia"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.7d
 			y: -10.0d
-		}
-		{
-			id: "23EB881052304EE0"
-			tasks: [{
-				id: "000AFF0E198A8AA4"
-				item: "molten_vents:dormant_molten_scorchia"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -11.5d
 		}
 		{
 			dependencies: [
@@ -444,7 +465,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -10.0d
+			y: -8.5d
 		}
 		{
 			id: "7682212B86FC5B85"
@@ -455,6 +476,43 @@
 			}]
 			x: 7.5d
 			y: 4.5d
+		}
+		{
+			dependencies: [
+				"184B9A5F983FA7A5"
+				"1DBA19EB422182AF"
+			]
+			id: "61D53F99D72D0940"
+			optional: true
+			tasks: [{
+				id: "327FDFAE9ECCD6C5"
+				item: "quark:limestone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "1DBA19EB422182AF"
+			optional: true
+			tasks: [{
+				id: "08A5F4FD57B1A774"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "184B9A5F983FA7A5"
+			optional: true
+			tasks: [{
+				id: "3EE64AE0721EA522"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
 		}
 	]
 	title: "Chapter V: Steel Mechanism"

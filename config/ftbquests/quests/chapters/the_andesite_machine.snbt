@@ -2,9 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_andesite_machine"
-	group: ""
+	group: "5237AEA7260D740E"
+	icon: "kubejs:andesite_machine"
 	id: "0459D6A74275DD3C"
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -249,6 +250,7 @@
 		{
 			dependencies: ["5E60FF6098CB030B"]
 			description: ["Combine all your knowledge and resources to construct the pinnacle of this chapter: The Andesite Machine."]
+			hide: true
 			id: "3AEFFAED564130A6"
 			shape: "rsquare"
 			size: 1.5d
