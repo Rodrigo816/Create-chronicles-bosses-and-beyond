@@ -176,6 +176,7 @@
 		{
 			dependencies: ["78344EA2C9E89AD9"]
 			id: "57FCF653EDA81DE0"
+			subtitle: "use a beacon to convert it"
 			tasks: [{
 				id: "4E10585A56C6F0CB"
 				item: "create_dd:refined_radiance"
@@ -1004,11 +1005,10 @@
 		}
 		{
 			dependencies: [
-				"1416BD3CA9EEF561"
-				"595DE4AF7043BD38"
 				"05629E7F780A315D"
 				"2DAF8F2EBB74DDE8"
 				"03BCAD5BFB9DA32C"
+				"53EC81CE0F98EB86"
 			]
 			description: [""]
 			id: "108EA49E8421CCC7"
@@ -1023,33 +1023,13 @@
 			y: 24.75d
 		}
 		{
-			id: "1416BD3CA9EEF561"
-			tasks: [{
-				id: "7C4C35E4EBA21851"
-				item: "tfmg:plastic_sheet"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 22.0d
-		}
-		{
-			id: "595DE4AF7043BD38"
-			tasks: [{
-				id: "25665063DFE8E402"
-				item: "createaddition:capacitor"
-				type: "item"
-			}]
-			x: 21.0d
-			y: 22.0d
-		}
-		{
 			id: "05629E7F780A315D"
 			tasks: [{
 				id: "520D2465D9DFBE98"
 				item: "createaddition:copper_spool"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 20.5d
 			y: 22.0d
 		}
 		{
@@ -1091,46 +1071,31 @@
 				item: "createaddition:electrum_wire"
 				type: "item"
 			}]
-			x: 33.5d
-			y: 22.0d
-		}
-		{
-			id: "47CF120182269404"
-			tasks: [{
-				id: "243E258957CF9911"
-				item: "createaddition:copper_wire"
-				type: "item"
-			}]
-			x: 30.5d
-			y: 22.0d
-		}
-		{
-			id: "72E155EC6EA00C03"
-			tasks: [{
-				id: "2F234C9D0E7B1F74"
-				item: "createaddition:electrum_nugget"
-				type: "item"
-			}]
 			x: 32.0d
 			y: 22.0d
 		}
 		{
-			id: "574055FAA9B8AD45"
-			tasks: [{
-				id: "3DEA5AB3FD8B918A"
-				item: "create:copper_nugget"
-				type: "item"
-			}]
-			x: 29.0d
+			id: "47CF120182269404"
+			tasks: [
+				{
+					id: "243E258957CF9911"
+					item: "createaddition:copper_wire"
+					type: "item"
+				}
+				{
+					id: "28BA547D448A24AF"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			x: 30.5d
 			y: 22.0d
 		}
 		{
 			dependencies: [
-				"07BA5073BD4BF7D2"
-				"034A878E02C53994"
-				"21C6293B8770A864"
-				"474B28D5F441CD9D"
 				"11E236BCD6DE38E5"
+				"16952288925225D2"
+				"3C0427C75D2CA7F2"
 			]
 			id: "56C3DE7F230ED103"
 			tasks: [{
@@ -1140,36 +1105,6 @@
 			}]
 			x: 26.0d
 			y: 22.0d
-		}
-		{
-			id: "21C6293B8770A864"
-			tasks: [{
-				id: "605D3F761209C559"
-				item: "minecraft:glowstone_dust"
-				type: "item"
-			}]
-			x: 25.0d
-			y: 20.5d
-		}
-		{
-			id: "034A878E02C53994"
-			tasks: [{
-				id: "1FB048EFD297F46F"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
-			x: 26.0d
-			y: 20.5d
-		}
-		{
-			id: "07BA5073BD4BF7D2"
-			tasks: [{
-				id: "3A5321588758D0E9"
-				item: "create:electron_tube"
-				type: "item"
-			}]
-			x: 27.0d
-			y: 20.5d
 		}
 		{
 			dependencies: ["78344EA2C9E89AD9"]
@@ -1187,10 +1122,9 @@
 				"56C3DE7F230ED103"
 				"0DECC9938E6EB5D4"
 				"6B99D6C0A6FBA697"
-				"574055FAA9B8AD45"
 				"47CF120182269404"
-				"72E155EC6EA00C03"
 				"108EA49E8421CCC7"
+				"66C6FAD9FBDE1094"
 			]
 			description: [""]
 			id: "60FC4ADEFBA29C6D"
@@ -1211,17 +1145,7 @@
 				item: "create_dd:tin_sheet"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 22.0d
-		}
-		{
-			id: "474B28D5F441CD9D"
-			tasks: [{
-				id: "42ACB647463A9ED9"
-				item: "design_decor:cardboard_sheet"
-				type: "item"
-			}]
-			x: 24.0d
+			x: 17.5d
 			y: 22.0d
 		}
 		{
@@ -1232,7 +1156,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: 20.5d
+			y: 22.0d
 		}
 		{
 			id: "535537D880A5C63B"
@@ -1266,34 +1190,44 @@
 			y: 1.5d
 		}
 		{
-			id: "0641EC250DE5E1F3"
+			id: "53EC81CE0F98EB86"
 			tasks: [{
-				id: "21F3FAC4F96A7EE3"
-				item: "forbidden_arcanus:corrupted_pixie"
+				id: "171C84B8345DEB30"
+				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: 22.0d
+			y: 22.0d
 		}
 		{
-			id: "7D2B7584529DD4C8"
+			id: "16952288925225D2"
 			tasks: [{
-				id: "77286EE3E5979003"
-				item: "forbidden_arcanus:pixie"
+				id: "629C25C840876A1E"
+				item: "create:brass_nugget"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 25.5d
+			y: 21.0d
 		}
 		{
-			id: "548D4E3144EB6D08"
+			id: "3C0427C75D2CA7F2"
 			tasks: [{
-				id: "5C89FE84249BFF36"
-				item: "minecraft:dragon_breath"
+				id: "6191970DCA37E67C"
+				item: "createaddition:electrum_nugget"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 26.5d
+			y: 21.0d
+		}
+		{
+			id: "66C6FAD9FBDE1094"
+			tasks: [{
+				id: "1392265BED6C0B9C"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 22.0d
 		}
 	]
 	title: "Chapter IX: Calculation Mechanism"

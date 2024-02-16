@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
         'alexscaves:metal_rebar',
         // Steel
         TFMG('sequenced_assembly/aluminum_ingot'),
-        
+
         // Oil
         TFMG('sequenced_assembly/aluminum_ingot'),
         // Soul Sand Procesing
@@ -75,6 +75,24 @@ ServerEvents.recipes(event => {
        CRDD('mixing/chocolate_milkshake'),
        CRDD('mixing/vanilla_milkshake'),
 
+       // NASA
+       ASTRA('nasa_workbench/tier_1_rocket'),
+       ASTRA('nasa_workbench/tier_2_rocket'),
+       ASTRA('nasa_workbench/tier_3_rocket'),
+       ASTRA('nasa_workbench/tier_4_rocket'),
+       ASTRA('recipes/compressor'),
+
+       // CHP9
+       AE2('transform/entangled_singularity_from_pearl'),
+       CRDD('mechanical_crafting/shimmer_bucket'),
+       CRDD('mixing/chromatic_compound'),
+       CRDD('sequenced_assembly/calculation_mechanism'),
+       CRDD('sequenced_assembly/integrated_circuit'),
+       'create_connected:sequenced_assembly/control_chip',
+       //mys conversion
+       CR('conversion_4'),
+       CR('conversion_7')
+
   
     ].forEach((recipeID) => event.remove({id: recipeID}));
 
@@ -94,7 +112,8 @@ ServerEvents.recipes(event => {
         CR('asurine'),
         CRDD('hot_chocolate'),
         CRDD('chocolate_milkshake'),
-        CRDD('vanilla_milkshake'),
+        CRDD('shadow_steel'),
+        CRDD('blaze_gold'),
     ].forEach((ingredientID) => event.remove({input: ingredientID}));
     
     //Remove by item ID
@@ -114,6 +133,44 @@ ServerEvents.recipes(event => {
          CRDD('chocolate_milkshake'),
          CRDD('vanilla_milkshake'),
          CR('scoria'),
+         ASTRA('nasa_workbench'),
+         AE2('white_lumen_paint_ball'),
+         AE2('light_gray_lumen_paint_ball'),
+         AE2('gray_lumen_paint_ball'),
+         AE2('pink_lumen_paint_ball'),
+         AE2('red_lumen_paint_ball'),
+         AE2('orange_lumen_paint_ball'),
+         AE2('yellow_lumen_paint_ball'),
+         AE2('lime_lumen_paint_ball'),
+         AE2('green_lumen_paint_ball'),
+         AE2('cyan_lumen_paint_ball'),
+         AE2('light_blue_lumen_paint_ball'),
+         AE2('blue_lumen_paint_ball'),
+         AE2('purple_lumen_paint_ball'),
+         AE2('magenta_lumen_paint_ball'),
+         AE2('brown_lumen_paint_ball'),
+         AE2('black_lumen_paint_ball'),
+         AE2('matter_ball'),
+         CRDD('shmimmer'),
+         CRDD('shmimmer_bucket'),
+         AE2('white_paint_ball'),
+         AE2('light_gray_paint_ball'),
+         AE2('gray_paint_ball'),
+         AE2('pink_paint_ball'),
+         AE2('red_paint_ball'),
+         AE2('orange_paint_ball'),
+         AE2('yellow_paint_ball'),
+         AE2('lime_paint_ball'),
+         AE2('green_paint_ball'),
+         AE2('cyan_paint_ball'),
+         AE2('light_blue_paint_ball'),
+         AE2('blue_paint_ball'),
+         AE2('purple_paint_ball'),
+         AE2('magenta_paint_ball'),
+         AE2('brown_paint_ball'),
+         AE2('black_paint_ball'),
+         CRDD('shadow_steel'),
+         CRDD('blaze_gold'),
     ].forEach((itemID) => event.remove({output: itemID}));
 
 })

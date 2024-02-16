@@ -1121,7 +1121,6 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["3CB202406B401D8B"]
 			description: ["Note: Make sure they always have somewhere to deposit too. Or else they will store to many items which will cause a lot of lag."]
 			hide: true
 			id: "675C4C0F98A750CC"

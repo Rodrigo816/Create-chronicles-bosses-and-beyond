@@ -84,11 +84,12 @@ ServerEvents.recipes(event => {
 
   event.recipes.createCrushing([
     Item.of(CRDD('potassic_cobble')).withChance(0.70),
+    Item.of(CR('crushed_raw_silver')).withChance(0.20),
     Item.of('enlightened_end:adamantite_nugget').withChance(0.70),
     Item.of('enlightened_end:bismuth_nugget').withChance(0.70),
     Item.of('enlightened_end:adamantite_nugget').withChance(0.50),
     Item.of('enlightened_end:bismuth_nugget').withChance(0.50),
-    Item.of('cataclysm:ignitium_ingot').withChance(0.002),
+    Item.of('cataclysm:ignitium_ingot').withChance(0.0002),
   ], CR('scoria'))
 /*
 ===============================
@@ -632,46 +633,49 @@ ServerEvents.recipes(event => {
         FA('whirlwind_prism')         
     )
 
-    event.recipes.ad_astra.nasa_workbench({
-        "output": "minecraft:golden_apple",
-        ingredients: [
-          { "ingredient": { "item": ASTRA('rocket_nose_cone') } },
-          { "ingredient": { "item": TFMG('steel_block') } },
-          { "ingredient": { "item": TFMG('steel_block') } },
-          { "ingredient": { "item": TFMG('steel_block') } },
-          { "ingredient": { "item": TFMG('steel_block') } },
-          { "ingredient": { "item": TFMG('steel_block') } },
-          { "ingredient": { "item": TFMG('steel_block') } },
-          { "ingredient": { "item": CRSA('heat_engine') } },
-          { "ingredient": { "item": TFMG('large_radial_engine') } },
-          { "ingredient": { "item": TFMG('large_radial_engine') } },
-          { "ingredient": { "item": CRSA('heat_engine') } },
-          { "ingredient": { "item": ASTRA('rocket_fin') } },
-          { "ingredient": { "item": TFMG('turbine_engine') } },
-          { "ingredient": { "item": ASTRA('rocket_fin') } },
-        ]
-      })
+    event.replaceInput(
+      { id: ASTRA('recipes/steel_engine') }, 
+      '#forge:plates/steel',               
+      CRDD('infernal_mechanism')         
+  )
+
+  // t1 plate
+  transitional = CRDD('infernal_mechanism')
+  event.recipes.createSequencedAssembly([
+    KJ('tier_1_plating')
+  ], CRDD('infernal_mechanism'), [
+    event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:mundabitur_dust']),
+    event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:mundabitur_dust']),
+    event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:corrupti_dust']),
+    event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:corrupti_dust']),
+    event.recipes.createDeploying(transitional, [transitional, CRDD('steel_sheet')]),
+    event.recipes.createPressing(transitional, transitional)
+  ]).transitionalItem(transitional)
+    .loops(1)
+    .id(KJ('tier_1_plating'))
+
+
       event.recipes.createMechanicalCrafting('ad_astra:tier_1_rocket', [
         '   N   ',
         '  BBB  ',
-        '  BCB  ',
-        '  BGB  ',
+        '  BTB  ',
+        '  BTB  ',
         '  BSB  ',
-        '  BWB  ',
-        ' FTBTF ',
+        '  BXB  ',
+        ' FRXRF ',
         ' F E F ',
         ], {
-        F: 'ad_astra:rocket_fin',
-        E: 'ad_astra:steel_engine',
-        T: 'ad_astra:steel_tank',
-        B: 'kubejs:tier_1_plating',
-        C: 'ad_astra:vent',
+        F: ASTRA('rocket_fin'),
+        T: ASTRA('steel_tank'),
+        R: TFMG('large_radial_engine'),
+        X: TFMG('turbine_engine'),
+        E: ASTRA('steel_engine'),
+        B: KJ('tier_1_plating'),
         S: '#create:seats',
-        G: '#forge:glass',
-        W: 'kubejs:guidance_mechanism',
-        N: 'ad_astra:rocket_nose_cone'
+        N: ASTRA('rocket_nose_cone')
+       
         })
-        event.recipes.createMechanicalCrafting('ad_astra:tier_2_rocket', [
+      /*  event.recipes.createMechanicalCrafting('ad_astra:tier_2_rocket', [
         '   N   ',
         '  BBB  ',
         '  BCB  ',
@@ -742,48 +746,147 @@ ServerEvents.recipes(event => {
         B: 'mekanism:block_steel',
         S: 'create:shadow_steel',
         P: 'create:iron_sheet'
-        })
+        })*/
 
 
+  /*
+    ===============================
+    ---->Chp 9 Calculation Mechanism
+    ==============================
+  */
 
+  event.custom({
+    "type": "create_dd:superheating",
+    "ingredients": [
+      {
+        "item": "minecraft:blackstone"
+      }
+    ],
+    "results": [
+      {
+        "item": "forbidden_arcanus:darkstone",
+        "count": 1
+      }
+    ]
+  })
+  //shimmer
+  event.recipes.createMixing(Fluid.of(CRDD("shimmer"), 500),[
+    'quark:red_corundum_cluster',
+    'quark:orange_corundum_cluster',
+    'quark:yellow_corundum_cluster',
+    'quark:green_corundum_cluster',
+    'quark:blue_corundum_cluster',
+    'quark:indigo_corundum_cluster',
+    'quark:violet_corundum_cluster',
+    'quark:white_corundum_cluster',
+    'quark:black_corundum_cluster',
+  ]).superheated()
 
-
-
-    // Blaze Rod
-
-
-   
-
-        //event.recipes.createFilling(transitionalValve, [
-          //  transitionalValve,
-          //  Fluid.of('minecraft:water', 250)
-          //]),
-
-        // Blaze
-        //event.create('dormant_dust_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Dormant Coal Dust')
-        //event.create('dust_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Coal Dust')
-        //event.create('ingot_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Coal Ingot')
-        //event.create('rod_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Coal Rod')
-
+  const chance = 0.06
   event.recipes.createCrushing([
-    Item.of(AE2('white_paint_ball')).withChance(0.2),
-    Item.of(AE2('light_gray_paint_ball')).withChance(0.2),
-    Item.of(AE2('gray_paint_ball')).withChance(0.2),
-    Item.of(AE2('pink_paint_ball')).withChance(0.2),
-    Item.of(AE2('red_paint_ball')).withChance(0.1),
-    Item.of(AE2('orange_paint_ball')).withChance(0.1),
-    Item.of(AE2('yellow_paint_ball')).withChance(0.1),
-    Item.of(AE2('lime_paint_ball')).withChance(0.05),
-    Item.of(AE2('green_paint_ball')).withChance(0.05),
-    Item.of(AE2('cyan_paint_ball')).withChance(0.05),
-    Item.of(AE2('light_blue_paint_ball')).withChance(0.03),
-    Item.of(AE2('blue_paint_ball')).withChance(0.003),
-    Item.of(AE2('purple_paint_ball')).withChance(0.003),
-    Item.of(AE2('magenta_paint_ball')).withChance(0.02),
-    Item.of(AE2('brown_paint_ball')).withChance(0.002),
-    Item.of(AE2('black_paint_ball')).withChance(0.002)
+    Item.of(AE2('white_paint_ball')).withChance(chance),
+    Item.of(AE2('light_gray_paint_ball')).withChance(chance),
+    Item.of(AE2('gray_paint_ball')).withChance(chance),
+    Item.of(AE2('pink_paint_ball')).withChance(chance),
+    Item.of(AE2('red_paint_ball')).withChance(chance),
+    Item.of(AE2('orange_paint_ball')).withChance(chance),
+    Item.of(AE2('yellow_paint_ball')).withChance(chance),
+    Item.of(AE2('lime_paint_ball')).withChance(chance),
+    Item.of(AE2('green_paint_ball')).withChance(chance),
+    Item.of(AE2('cyan_paint_ball')).withChance(chance),
+    Item.of(AE2('light_blue_paint_ball')).withChance(chance),
+    Item.of(AE2('blue_paint_ball')).withChance(chance),
+    Item.of(AE2('purple_paint_ball')).withChance(chance),
+    Item.of(AE2('magenta_paint_ball')).withChance(chance),
+    Item.of(AE2('brown_paint_ball')).withChance(chance),
+    Item.of(AE2('black_paint_ball')).withChance(chance)
   ], AE2('quantum_entangled_singularity'))
+
+  event.recipes.createMixing(AE2('white_lumen_paint_ball'),[AE2('white_paint_ball'),MC('white_dye'),Fluid.of(CRDD("shimmer"), 185)]).superheated()
+  event.recipes.createMixing(AE2('light_gray_lumen_paint_ball'),[AE2('light_gray_paint_ball'),MC('light_gray_dye'),Fluid.of(CRDD("shimmer"), 150)]).superheated()
+  event.recipes.createMixing(AE2('gray_lumen_paint_ball'),[AE2('gray_paint_ball'),MC('gray_dye'),Fluid.of(CRDD("shimmer"), 129)]).superheated()
+  event.recipes.createMixing(AE2('pink_lumen_paint_ball'),[AE2('pink_paint_ball'),MC('pink_dye'),Fluid.of(CRDD("shimmer"), 180)]).superheated()
+  event.recipes.createMixing(AE2('red_lumen_paint_ball'),[AE2('red_paint_ball'),MC('red_dye'),Fluid.of(CRDD("shimmer"), 125)]).superheated()
+  event.recipes.createMixing(AE2('orange_lumen_paint_ball'),[AE2('orange_paint_ball'),MC('orange_dye'),Fluid.of(CRDD("shimmer"), 175)]).superheated()
+  event.recipes.createMixing(AE2('yellow_lumen_paint_ball'),[AE2('yellow_paint_ball'),MC('yellow_dye'),Fluid.of(CRDD("shimmer"), 194)]).superheated()
+  event.recipes.createMixing(AE2('lime_lumen_paint_ball'),[AE2('lime_paint_ball'),MC('lime_dye'),Fluid.of(CRDD("shimmer"), 111)]).superheated()
+  event.recipes.createMixing(AE2('green_lumen_paint_ball'),[AE2('green_paint_ball'),MC('green_dye'),Fluid.of(CRDD("shimmer"), 187)]).superheated()
+  event.recipes.createMixing(AE2('cyan_lumen_paint_ball'),[AE2('cyan_paint_ball'),MC('cyan_dye'),Fluid.of(CRDD("shimmer"), 159)]).superheated()
+  event.recipes.createMixing(AE2('light_blue_lumen_paint_ball'),[AE2('light_blue_paint_ball'),MC('light_blue_dye'),Fluid.of(CRDD("shimmer"), 159)]).superheated()
+  event.recipes.createMixing(AE2('blue_lumen_paint_ball'),[AE2('blue_paint_ball'),MC('blue_dye'),Fluid.of(CRDD("shimmer"), 189)]).superheated()
+  event.recipes.createMixing(AE2('purple_lumen_paint_ball'),[AE2('purple_paint_ball'),MC('purple_dye'),Fluid.of(CRDD("shimmer"), 123)]).superheated()
+  event.recipes.createMixing(AE2('magenta_lumen_paint_ball'),[AE2('magenta_paint_ball'),MC('magenta_dye'),Fluid.of(CRDD("shimmer"), 90)]).superheated()
+  event.recipes.createMixing(AE2('brown_lumen_paint_ball'),[AE2('brown_paint_ball'),MC('brown_dye'),Fluid.of(CRDD("shimmer"), 112)]).superheated()
+  event.recipes.createMixing(AE2('black_lumen_paint_ball'),[AE2('black_paint_ball'),MC('black_dye'),Fluid.of(CRDD("shimmer"), 70)]).superheated()
   
-         
-  //event.remove({id:CR('crushing/netherrack')})
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('light_gray_lumen_paint_ball')],  AE2('white_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('gray_lumen_paint_ball')],  AE2('light_gray_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('pink_lumen_paint_ball')],  AE2('gray_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('red_lumen_paint_ball')],  AE2('pink_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('orange_lumen_paint_ball')],  AE2('red_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('yellow_lumen_paint_ball')],  AE2('orange_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('lime_lumen_paint_ball')],  AE2('yellow_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('green_lumen_paint_ball')],  AE2('lime_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('cyan_lumen_paint_ball')],  AE2('green_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('light_blue_lumen_paint_ball')],  AE2('cyan_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('blue_lumen_paint_ball')],  AE2('light_blue_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('purple_lumen_paint_ball')],  AE2('blue_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('magenta_lumen_paint_ball')],  AE2('purple_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('brown_lumen_paint_ball')],  AE2('magenta_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('black_lumen_paint_ball')],  AE2('brown_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('matter_ball')],  AE2('black_lumen_paint_ball'))
+
+
+  event.recipes.createMixing('2x '+CRDD('chromatic_compound'),[
+    CRDD('polished_spectral_ruby'),
+    AE2('matter_ball'),
+    Fluid.of(CRDD("chromatic_waste"),500)
+  ]).superheated()
+
+
+  transitional = CRDD('incomplete_calculation_mechanism')
+  event.recipes.createSequencedAssembly([
+    Item.of(CRDD('calculation_mechanism')).withChance(100.0),
+    Item.of(CRA('copper_spool')).withChance(50.0),
+  ], CRDD('infernal_mechanism'), [
+    event.recipes.createDeploying(transitional, [transitional, CRDD('refined_radiance_sheet')]),
+    event.recipes.createDeploying(transitional, [transitional, CRDD('tin_sheet')]),
+    event.recipes.createDeploying(transitional, [transitional, CRA('copper_spool')]),
+    event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
+    event.recipes.createPressing(transitional, transitional)
+  ]).transitionalItem(transitional)
+    .loops(10)
+    .id(CRDD('calculation_mechanism'))
+
+  
+    transitional = CRDD('incomplete_integrated_circuit')
+    event.recipes.createSequencedAssembly([
+      Item.of(CRDD('integrated_circuit')).withChance(100.0),
+      Item.of(MC('glowstone_dust')).withChance(15.0),
+      Item.of(CRA('copper_wire')).withChance(15.0),
+      Item.of(CR('brass_nugget')).withChance(15.0),
+      Item.of(CRA('electrum_nugget')).withChance(15.0),
+      Item.of('create_connected:control_chip').withChance(15.0),
+    ], CRDD('calculation_mechanism'), [
+      event.recipes.createDeploying(transitional, [transitional, CRDD('overcharge_alloy_sheet')]),
+      event.recipes.createDeploying(transitional, [transitional, 'create_connected:control_chip']),
+      event.recipes.createDeploying(transitional, [transitional, MC('glowstone_dust')]),
+      event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
+      event.recipes.createDeploying(transitional, [transitional, CRA('electrum_wire')]),
+    ]).transitionalItem(transitional)
+      .loops(10)
+      .id(CRDD('integrated_circuit'))
+
+    transitional ='create_connected:incomplete_control_chip'
+    event.recipes.createSequencedAssembly([
+      'create_connected:control_chip'
+    ], CR('golden_sheet'), [
+      event.recipes.createDeploying(transitional, [transitional, CR('brass_nugget')]),
+      event.recipes.createDeploying(transitional, [transitional, CRA('electrum_nugget')]),
+      event.recipes.createPressing(transitional, transitional)
+    ]).transitionalItem(transitional)
+      .loops(64)
+      .id('create_connected:control_chip')
+
+
 })

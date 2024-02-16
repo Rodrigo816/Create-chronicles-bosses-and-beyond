@@ -11,7 +11,7 @@
 		}
 	}
 	id: "48B8B88CBA0E14DC"
-	order_index: 10
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -245,6 +245,26 @@
 			}]
 			x: 1.5d
 			y: 0.0d
+		}
+		{
+			id: "4F7C0BE871AEC096"
+			tasks: [{
+				id: "37FBC64A1E2D6C3D"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			id: "72397FD023A65783"
+			tasks: [{
+				id: "2FFEFF4D4FF76D0F"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
 		}
 	]
 	title: "The Black Market"

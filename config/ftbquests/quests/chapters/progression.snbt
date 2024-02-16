@@ -255,7 +255,6 @@
 			dependencies: [
 				"3A10D0D5E8548C54"
 				"1CF1A735F77415F2"
-				"76BADBF7F2B5B09B"
 			]
 			icon: "kubejs:radiant_machine"
 			id: "19232B8B77F86AF8"
@@ -282,10 +281,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"19232B8B77F86AF8"
-				"0B18125292828D4D"
-			]
+			dependencies: ["19232B8B77F86AF8"]
 			icon: "kubejs:plastic_machine"
 			id: "5A8CA8146004CDE2"
 			tasks: [{
@@ -368,7 +364,6 @@
 			dependencies: [
 				"10F884D73B9DB540"
 				"19232B8B77F86AF8"
-				"3070EC94FB14615C"
 			]
 			icon: "kubejs:time_machine"
 			id: "321593B0981F168B"

@@ -19,7 +19,7 @@
 		x: -1.0d
 		y: -8.5d
 	}]
-	order_index: 11
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -877,6 +877,17 @@
 			}]
 			x: 13.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["3FDA4ADCC08B6CFB"]
+			id: "2AD4EFBB9601D4AE"
+			tasks: [{
+				id: "25ABDD5C10F8C053"
+				item: "create:crushed_raw_silver"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
 		}
 	]
 	title: "&o&l&aRenewable ores&r&r"
