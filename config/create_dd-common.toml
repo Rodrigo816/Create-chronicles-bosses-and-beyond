@@ -5,5 +5,5 @@
 	#.
 	#.
 	#Prevents all worldgen added by Create: Dreams n' Desire's from taking effect
-	disableWorldGen = false
+	disableWorldGen = true
 

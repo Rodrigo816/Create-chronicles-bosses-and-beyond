@@ -9,7 +9,7 @@
 		"Generate Dragon Skeleton Chance" = 300
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 180
+		"Generate Dragon Cave Chance" = 500
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Generate Dragon Roost Chance" = 360
