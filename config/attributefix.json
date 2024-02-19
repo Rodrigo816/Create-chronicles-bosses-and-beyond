@@ -110,17 +110,6 @@
         "value": 10
       }
     },
-    "obscure_api:resilience": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -130,6 +119,17 @@
       "max": {
         "default": 8,
         "value": 8
+      }
+    },
+    "obscure_api:resilience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "irons_spellbooks:nature_magic_resist": {
@@ -264,17 +264,6 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
-    "obscure_api:magic_resistance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "forge:entity_reach": {
       "enabled": false,
       "min": {
@@ -284,6 +273,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "obscure_api:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "ars_nouveau:ars_nouveau.perk.saturation": {
@@ -484,7 +484,7 @@
         "value": 10
       }
     },
-    "ars_nouveau:ars_nouveau.perk.wixie": {
+    "forge:swim_speed": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -495,7 +495,7 @@
         "value": 1024
       }
     },
-    "forge:swim_speed": {
+    "ars_nouveau:ars_nouveau.perk.wixie": {
       "enabled": false,
       "min": {
         "default": 0,

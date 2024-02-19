@@ -21,6 +21,17 @@
 	nucleeper_fuse_time = 300
 	#Whether the Watcher can take control of the camera.
 	watcher_possession = true
+	#How many cpu cores big mobs(tremorzilla, atlatitan, grottoceratops etc) should utilize when pathing. Bigger number = less impact on TPS
+	#Range: 1 ~ 100
+	pathfinding_threads = 5
+	#The maximum explosion resistance that a block can have to be destroyed by an atlatitan stomp. Set to zero to disable all atlatitan block breaking.
+	#Range: > 0
+	atlatitan_max_block_explosion_resistance = 10
+	#True if the Tremorzilla beam breaks even more blocks.
+	devastating_tremorzilla_beam = true
+	#How long (in game ticks) between watcher possession attempts.
+	#Range: 20 ~ 24000
+	watcher_possession_cooldown = 300
 
 [block-behavior]
 	#How long (in game ticks) it usually takes for an amber monolith to spawn an animal.
@@ -28,13 +39,12 @@
 	amber_monolith_mean_time = 32000
 	#True if the Nuclear Furnace only uses 'Blasting' recipes, false to use all smelting recipes.
 	nuclear_furnace_blasting_only = true
+	#True if the Nuclear Furnace should only use recipes using the `alexscaves:nuclear_furnace` recipe type, false to use regular behavior.
+	nuclear_furnace_custom_type = false
 
 [item-behavior]
 	#True if one Cave Codex is all that is needed to unlock every Cave Compendium entry.
 	only_one_research_needed = false
-	#How far away for cave biomes the Cave Map will search for.
-	#Range: > 6400
-	cave_map_search_distance = 10000
 	#The maximum explosion resistance that a block can have to be destroyed by a nuclear explosion. Set to zero to disable all nuclear explosion block breaking.
 	#Range: > 0
 	nuke_max_block_explosion_resistance = 1000
@@ -51,6 +61,12 @@
 	#The amount of time (in ticks) that players can fly with the Cloak of Darkness ability.
 	#Range: > 20
 	darkness_cloak_fly_time = 200
+	#How many attempts to find a biome a cave map engages in when used. Increase this to increase the search radius, or decrease it to make them faster.
+	#Range: > 64
+	cave_map_search_attempts = 128000
+	#How wide each search attempt scans for a biome. Increasing this generally makes cave biome maps faster - at the cost of losing fidelity(may skip biomes smaller than this in block width).
+	#Range: 4 ~ 256
+	cave_map_search_width = 64
 
 [vanilla-changes]
 	#percent chance of bastion having a cave tablet for magnetic caves in its loot table:
@@ -75,4 +91,11 @@
 	cartographers_sell_cabin_maps = true
 	#Whether the Wandering Traders can sell maps to Underground Cabins.
 	wandering_traders_sell_cabin_maps = true
+	#Whether the Enchantments added by AC appear in vanilla loot tables.
+	enchantments_in_loot = false
+
+[mob-spawning]
+	#Cave Creatures (All dinosaurs, raycats, etc) spawn at this frequency. Their cap is calculated by multiplying this number with the default mob cap for surface animals.
+	#Range: 0.0 ~ 10.0
+	cave_creature_spawn_count_modifier = 1.75
 

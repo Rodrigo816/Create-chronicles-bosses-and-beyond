@@ -1076,18 +1076,11 @@
 		}
 		{
 			id: "47CF120182269404"
-			tasks: [
-				{
-					id: "243E258957CF9911"
-					item: "createaddition:copper_wire"
-					type: "item"
-				}
-				{
-					id: "28BA547D448A24AF"
-					item: "create:electron_tube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "28BA547D448A24AF"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			x: 30.5d
 			y: 22.0d
 		}
