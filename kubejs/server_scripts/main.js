@@ -187,8 +187,7 @@ ServerEvents.recipes(event => {
   machine_shape(andesite_shapes, "kubejs:andesite_machine", true);
 
 
-  // Replace 'create_dd:industrial_iron_ingot' with 'tfmg:cast_iron_ingot' in all recipes
-  event.replaceInput({}, 'create_dd:industrial_iron_ingot', 'tfmg:cast_iron_ingot');
+
   /*
   ===============================
   ---->Chapter 2 Cooper Valve

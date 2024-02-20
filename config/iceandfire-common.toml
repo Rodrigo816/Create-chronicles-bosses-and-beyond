@@ -6,16 +6,16 @@
 		"Generate Dragon Skeletons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Skeleton Chance" = 300
+		"Generate Dragon Skeleton Chance" = 600
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 500
+		"Generate Dragon Cave Chance" = 350
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Roost Chance" = 360
+		"Generate Dragon Roost Chance" = 700
 		#1 out of this number chance per block that gold will generate in dragon lairs.
 		#Range: 1 ~ 10000
-		"Dragon Den Gold Amount" = 4
+		"Dragon Den Gold Amount" = 6
 		#Ratio of Stone(this number) to Ores in Dragon Caves
 		#Range: 1 ~ 10000
 		"Dragon Cave Ore Ratio" = 45
@@ -23,10 +23,10 @@
 	[Generation.Structures-Features]
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist From Spawn" = 800
+		"Dangerous World Gen Dist From Spawn" = 1200
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist Seperation" = 300
+		"Dangerous World Gen Dist Seperation" = 500
 		#Whether to generate glacier biomes or not
 		"Generate Glaciers" = true
 		#Glacier Spawn Weight. Higher number = more common
@@ -63,19 +63,19 @@
 		"Dragon Flute Distance" = 4
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 500.0
+		"Dragon Health" = 1500.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
-		"Dragon Attack Damage" = 17
+		"Dragon Attack Damage" = 40
 		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Fire breath)" = 2.0
+		"Dragon Attack Damage(Fire breath)" = 6.0
 		#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Ice breath)" = 2.5
+		"Dragon Attack Damage(Ice breath)" = 6.5
 		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Lightning breath)" = 3.5
+		"Dragon Attack Damage(Lightning breath)" = 8.5
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
 		"Dragon Flight Speed Modifier" = 1.0
@@ -145,7 +145,7 @@
 		"Spawn Wandering Cyclops Chance" = 100
 		#Maximum cyclops health
 		#Range: 1.0 ~ 10000.0
-		"Cyclops Max Health" = 150.0
+		"Cyclops Max Health" = 300.0
 		#How many blocks away can cyclopes detect sheep. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
 		"Cyclopes Sheep Search Length" = 17
@@ -154,19 +154,19 @@
 		"Cyclops Attack Strength" = 15.0
 		#Amount of damage done with cyclops bite attack.
 		#Range: 1.0 ~ 10000.0
-		"Cyclops Bite Strength" = 40.0
+		"Cyclops Bite Strength" = 70.0
 		#Whether or not cyclops can break logs or leaves in their way
-		"Cyclops Griefing" = true
+		"Cyclops Griefing" = false
 
 	[Mobs.Sirens]
 		#Maximum siren health
 		#Range: 1.0 ~ 10000.0
-		"Siren Max Health" = 50.0
+		"Siren Max Health" = 100.0
 		#True to make the screen pink when sirens attract players
 		"Use Siren Shader" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sirens Chance" = 400
+		"Spawn Sirens Chance" = 500
 		#how long(in ticks) can a siren use its sing effect on a player, without a cooldown.
 		#Range: 100 ~ 24000
 		"Siren Max Sing Time" = 12000
@@ -180,10 +180,10 @@
 		"Death Worm Target Search Length" = 64
 		#Default deathworm health, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Health" = 10.0
+		"Death Worm Base Health" = 20.0
 		#Default deathworm attack strength, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Attack Strength" = 3.0
+		"Death Worm Base Attack Strength" = 6.0
 		#True if wild deathworms are allowed to target and attack monsters
 		"Death Worms Target Monsters" = true
 		#Deathworm spawn weight. Higher = lower chance to spawn
@@ -193,7 +193,7 @@
 	[Mobs.Cockatrice]
 		#Maximum cockatrice health
 		#Range: 1.0 ~ 10000.0
-		"Cockatrice Health" = 40.0
+		"Cockatrice Health" = 80.0
 		#1 out of this number chance per 6000 ticks for a chicken to lay a cockatrice egg.
 		#Range: > 1
 		"Cockatrice chicken Search Length" = 30
@@ -214,7 +214,7 @@
 		"Stymphalian Bird Feather Drop Chance" = 25
 		#Stymphalian bird feather attack strength.
 		#Range: 0.0 ~ 10000.0
-		"Stymphalian Bird Feather Attack Strength" = 1.0
+		"Stymphalian Bird Feather Attack Strength" = 3.0
 		#How far away stymphalian birds will consider other birds to be in the same flock.
 		#Range: 1 ~ 10000
 		"Stymphalian Bird Flock Length" = 40
@@ -239,10 +239,10 @@
 		"Troll Spawn Weight" = 40
 		#Maximum troll health
 		#Range: 1.0 ~ 10000.0
-		"Troll Max Health" = 50.0
+		"Troll Max Health" = 100.0
 		#Troll attack strength
 		#Range: 1.0 ~ 10000.0
-		"Troll Attack Strength" = 10.0
+		"Troll Attack Strength" = 30.0
 
 	[Mobs.Myrmex]
 		#How many ticks it takes for a Myrmex Queen to produce an egg.
@@ -283,23 +283,23 @@
 		"Amphithere Flight Speed" = 1.75
 		#Maximum amphithere health
 		#Range: 1.0 ~ 10000.0
-		"Amphithere Max Health" = 50.0
+		"Amphithere Max Health" = 100.0
 		#Amphithere attack strength
 		#Range: 1.0 ~ 10000.0
-		"Amphithere Attack Strength" = 7.0
+		"Amphithere Attack Strength" = 20.0
 
 	[Mobs.SeaSerpents]
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 250
+		"Spawn Sea Serpent Chance" = 350
 		#Whether or not sea serpents can break weak blocks in their way
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Health" = 20.0
+		"Sea Serpent Base Health" = 60.0
 		#Default sea serpent attack strength, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Attack Strength" = 4.0
+		"Sea Serpent Base Attack Strength" = 8.0
 
 	[Mobs.Hippocampus]
 		#1 out of this number chance per chunk for generation
@@ -322,7 +322,7 @@
 	[Mobs.Gorgons]
 		#Maximum gorgon health
 		#Range: 1.0 ~ 10000.0
-		"Gorgon Max Health" = 100.0
+		"Gorgon Max Health" = 400.0
 
 	[Mobs.Others]
 		#True if dread liches are allowed to spawn
@@ -335,16 +335,16 @@
 		"Lich Spawn Chance" = 30
 		#Maximum hydra health
 		#Range: 1.0 ~ 10000.0
-		"Hydra Max Health" = 250.0
+		"Hydra Max Health" = 400.0
 		#One out of this number chance per chunk to generate a hydra cave.
 		#Range: 1 ~ 10000
-		"Hydra Caves Gen Chance" = 60
+		"Hydra Caves Gen Chance" = 80
 		#Maximum ghost health.
 		#Range: 1.0 ~ 10000.0
-		"Ghost Max Health" = 30.0
+		"Ghost Max Health" = 60.0
 		#Maximum ghost attack strength.
 		#Range: 0.0 ~ 10000.0
-		"Ghost Attack Strength" = 3.0
+		"Ghost Attack Strength" = 8.0
 		#True if ghosts can rarely spawn from brutal PvP deaths.
 		"Ghost Spawn from PvP deaths" = true
 		#Villager Scribe House generation weight. Lower = lower chance to spawn
@@ -356,13 +356,13 @@
 [Items]
 	#Default attack strength of a dragonsteel sword.
 	#Range: 5.0 ~ 2.147483647E9
-	"Dragonsteel Sword Base Attack Strength" = 25.0
+	"Dragonsteel Sword Base Attack Strength" = 15.0
 	#Default armor value of dragonsteel chestplate.
 	#Range: > 7
-	"Dragonsteel Base Armor" = 12
+	"Dragonsteel Base Armor" = 10
 	#Default armor toughness value of dragonsteel.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Dragonsteel Base Armor Toughness" = 6.0
+	"Dragonsteel Base Armor Toughness" = 5.0
 	#Default durability value of dragonsteel tools.
 	#Range: > 1
 	"Dragonsteel Base Durability" = 8000
