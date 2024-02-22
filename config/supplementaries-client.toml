@@ -88,34 +88,6 @@
 		#A list of mobs that can be ticked on client side when inside jars. Mainly used for stuff that has particles. Can cause issues and side effects so use with care
 		tickable_inside_jars = ["iceandfire:pixie", "druidcraft:dreadfish", "druidcraft:lunar_moth", "alexsmobs:hummingbird"]
 
-	[blocks.wall_lantern]
-		#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
-		fast_lanterns = false
-
-		[blocks.wall_lantern.swing_physics]
-			min_angle = 0.79999995
-			collision_force = 15.0
-			damping = 0.525
-			collision_inertia = 1.0
-			collision_considers_entity_hitbox = true
-			frequency = 0.6
-			max_angle = 60.0
-
-	[blocks.enhanced_hanging_sign]
-		#Modifies vanilla hanging signs to make them like old Supplementaries ones
-		enabled = true
-		#Makes supplementaries hanging signs use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
-		fast_signs = false
-
-		[blocks.enhanced_hanging_sign.swing_physics]
-			min_angle = 0.79999995
-			collision_force = 15.0
-			damping = 0.525
-			collision_inertia = 1.0
-			collision_considers_entity_hitbox = true
-			frequency = 0.6
-			max_angle = 60.0
-
 	[blocks.hat_stand]
 
 		[blocks.hat_stand.swing_physics]
@@ -177,6 +149,8 @@
 	#Config button Y offset
 	#Range: -10000 ~ 10000
 	config_button_y_offset = 0
+	#Disables Amendments suggestion screen
+	no_amendments_screen = false
 
 #Game tweaks
 [tweaks]
@@ -206,9 +180,6 @@
 	mob_head_shaders = true
 	#Sends your current chat when you die while typing
 	send_chat_on_death = true
-	#A scalar multiplier that will be applied to sign text making it brighter, supposedly more legible
-	#Range: 0.0 ~ 5.0
-	sign_text_color_multiplier = 1.2000000476837158
 
 	[tweaks.colored_maps]
 		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors

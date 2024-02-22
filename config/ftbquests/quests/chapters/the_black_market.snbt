@@ -11,7 +11,7 @@
 		}
 	}
 	id: "48B8B88CBA0E14DC"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -265,6 +265,26 @@
 			}]
 			x: 11.0d
 			y: -3.0d
+		}
+		{
+			id: "1FB255BADD1BE35E"
+			tasks: [{
+				id: "3358C918E569A0F3"
+				item: "aeinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			id: "4238FA580B3DA9D9"
+			tasks: [{
+				id: "5B058FAB686EC29C"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
 		}
 	]
 	title: "The Black Market"

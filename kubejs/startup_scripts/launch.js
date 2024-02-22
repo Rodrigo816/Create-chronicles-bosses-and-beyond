@@ -72,6 +72,8 @@ StartupEvents.registry('item', event => {
 	event.create('tier_2_plating').displayName('Tier 2 Plating').texture('kubejs:item/t2_plating')
 	event.create('tier_3_plating').displayName('Tier 3 Plating').texture('kubejs:item/t3_plating')
 	event.create('tier_4_plating').displayName('Tier 4 Plating').texture('kubejs:item/t4_plating')
+
+    event.create('siliceous_compound').displayName('Siliceous Compound').texture('kubejs:item/siliceous_compound')
 	
 
   

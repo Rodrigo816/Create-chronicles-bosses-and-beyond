@@ -91,7 +91,9 @@ ServerEvents.recipes(event => {
        'create_connected:sequenced_assembly/control_chip',
        //mys conversion
        CR('conversion_4'),
-       CR('conversion_7')
+       CR('conversion_7'),
+
+       // AE2
 
   
     ].forEach((recipeID) => event.remove({id: recipeID}));
@@ -171,6 +173,9 @@ ServerEvents.recipes(event => {
          AE2('black_paint_ball'),
          CRDD('shadow_steel'),
          CRDD('blaze_gold'),
+         AE2('silicon'),
+         'aeinfinitybooster:infinity_card',
+         'aeinfinitybooster:dimension_card',
     ].forEach((itemID) => event.remove({output: itemID}));
 
 })

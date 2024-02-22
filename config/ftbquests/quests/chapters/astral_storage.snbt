@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "astral_storage"
-	group: ""
+	group: "5237AEA7260D740E"
 	icon: "ae2:fluix_dust"
 	id: "37926C9ECE25B63B"
 	images: [
@@ -43,7 +43,7 @@
 			y: -12.5d
 		}
 	]
-	order_index: 6
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
