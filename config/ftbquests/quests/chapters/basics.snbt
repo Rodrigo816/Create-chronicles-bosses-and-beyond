@@ -5,6 +5,18 @@
 	group: ""
 	icon: "minecraft:diamond"
 	id: "09B56D111668F538"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 6.0d
+		hover: [ ]
+		image: "kubejs:textures/logo.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 3.0d
+		y: -4.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -27,8 +39,8 @@
 				type: "checkmark"
 			}]
 			title: "Progression: The Talent Tree"
-			x: 1.5d
-			y: 3.5d
+			x: -0.5d
+			y: 4.0d
 		}
 		{
 			id: "185BE49AE8B53CBD"
@@ -39,19 +51,21 @@
 			}]
 			title: "&f&lFirst Steps&r: &aCraft a Chest"
 			x: 2.0d
-			y: 2.0d
+			y: 7.0d
 		}
 		{
 			description: [
+				"&6Sophisticated Backpacks&r andd some of the most useful Backpacks to Minecraft!"
+				""
 				"To equip a &9backpack&r, click the Equip icon in the &9backpack&r menu."
 				""
 				"Once a &9backpack&r is equipped, you can open it by pressing &bB&r"
 				""
-				"&9Backpacks&r can be upgraded through several tiers. &9Backpacks&r with special benefits can be found in loot chests."
+				"&9Backpacks&r can be upgraded through several tiers."
 				""
-				"To see all &9backpack&r variants, search &d@traveler&r in the &eREI&r search bar."
+				"To see all &9backpack&r variants, search &d@traveler&r in the &eJEI&r search bar."
 				""
-				"You can find this search bar at the bottom of your inventory. "
+				"You can find this search bar at the bottom right. "
 				""
 				"Clicking on items in the item list to the right of your inventory will show their recipes and uses."
 				""
@@ -63,8 +77,8 @@
 				type: "item"
 			}]
 			title: "Upgrading: Inventory"
-			x: 2.5d
-			y: 0.5d
+			x: 3.5d
+			y: 6.5d
 		}
 		{
 			description: ["The easiest way to teleport between locations is to use &eWaystones&r. Waystones generate naturally in villages and are also craftable."]
@@ -78,69 +92,159 @@
 			y: 0.5d
 		}
 		{
-			id: "02EE6631DBFE387E"
-			tasks: [
+			description: [
+				"&lGreetings, intrepid explorer!&r You've embarked on a grand journey in a realm where creativity meets adventure, where the gears of automation intertwine with the mysteries of magic. Welcome to a world brimming with possibilities!"
+				""
+				"Your &2Quest Book&r it's your loyal companion on this epic saga. Should it ever seem out of reach, simply glance at the top left of your inventory or press F4 to beckon it back to your side."
+				""
+				"As you go through this big place full of challenges and cool things, finishing quests will give you XP and special items. Every step you take, every new thing you find makes your story even better."
+				""
+				"At the heart of our chronicles lies the art of &6Create automation&r. An odyssey of engineering divided into 10 meticulously crafted chapters. Each chapter is a new horizon in your quest for automation mastery, laying the foundation for you to build the most elaborate and awe-inspiring machines known to this world."
+				""
+				"If you like the secret world of magic, don't worry—the magic mods are their own special place, not mixed up with the machine stuff. You can dive into magic and make your journey your own."
+				""
+				"Step into a big, mysterious world full of adventure waiting for you. But be careful – this place is full of dangers. There are many big buildings and tough bosses to fight, and lots of different worlds to explore. Make sure you're ready for the challenges that come your way."
+				""
+				"Your story is yet unwritten, your legacy undefined. Will you become the master of machines, a wizard of the arcane, or perhaps forge a path unique to your spirit?"
+				""
+				"&b&lIn Create Chronicles: Bosses and Beyond, your saga awaits!&r&r"
+			]
+			id: "1F6BC8C2A5B8F9B2"
+			rewards: [
 				{
-					id: "1E9DF986588A01D8"
-					stat: "minecraft:mob_kills"
-					type: "stat"
-					value: 1
+					id: "27F60389CE864A39"
+					item: "create:wrench"
+					type: "item"
 				}
 				{
-					dimension: "minecraft:overworld"
-					id: "27B2B95A6616150E"
-					ignore_dimension: false
-					position: [I;
-						0
-						0
-						0
-					]
-					size: [I;
-						1
-						1
-						1
-					]
-					type: "location"
+					id: "3B74A9D1A5D3091C"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
 				}
 				{
-					id: "2F0CBA6D6637D262"
-					title: "63"
-					type: "checkmark"
-				}
-				{
-					advancement: "dungeons_arise:find_heavenly_rider"
-					criterion: ""
-					id: "42EEAFF9A2C7F7AB"
-					type: "advancement"
-				}
-				{
-					id: "4619F398DB058D0A"
-					observe_type: 0
-					timer: 0L
-					to_observe: "minecraft:air"
-					type: "observation"
-				}
-				{
-					id: "78C5E6075DDA454B"
-					structure: "ad_astra:pygro_village"
-					type: "structure"
-				}
-				{
-					amount: 1000L
-					fluid: "create_dd:strawberry_milkshake"
-					id: "315717F394C36549"
-					type: "fluid"
-				}
-				{
-					id: "7A4296AA7CCF10BA"
-					max_input: 1000L
-					type: "forge_energy"
-					value: 1L
+					count: 20
+					id: "167DE99A77DBDD03"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
 				}
 			]
-			x: 4.0d
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Hello and welcome to &6Create Chronicles:Bosses and Beyond!&r"
+			tasks: [{
+				id: "184D02801FC28C38"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "&9Welcome!"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"You know how to punch trees, right? "
+				"Before you get too invested in all the mods, if you're unsure of what to do, just play some Minecraft. "
+				"Build a house, build a farm, do the usual."
+			]
+			id: "0C49795E134A27E0"
+			tasks: [{
+				id: "1DD5BBE838C429A3"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "&6Always the same"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"In 1.20, creating Netherie tools and armour has changed. You'll need to find the &dNetherite Smiting Template&r in chests found inside of Bastions."
+				""
+				"Don't use all your templates in one go as you can duplicate those."
+			]
+			id: "6EDC6D809402C84C"
+			tasks: [{
+				id: "096AF6AAAD52211A"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "&6Netherite Template"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Looking to soar through the skies without venturing into the End for an Elytra? Consider crafting a jetpack instead."
+				""
+				"You'll gain access to mechanical crafters in Chapter 3, paving the way for your aerial adventure."
+			]
+			id: "0C7046AD65831DAC"
+			tasks: [{
+				id: "4CDC98F4B0439B5A"
+				item: {
+					Count: 1b
+					id: "create_sa:andesite_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Early Game Flight"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"With basic iron tools, you can get started on a bran new adventure into &dMagic&r using the mod &6Ars Nouveau&r,"
+				""
+				"Creating this&a Novice Spellbook&r allows you to create beginner spells like casting projectiles to mine or damage mobs."
+			]
+			id: "62A5E2FCF7F308E9"
+			tasks: [{
+				id: "5D1FEF40F06A3A8A"
+				item: "ad_astra:chiseled_mars_stone_slab"
+				type: "item"
+			}]
+			title: "Getting Magical"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"We all like finding treasure, and&d Lootr Chests&r make it fun."
+				""
+				"These chests give different loot for each player, so you and your friends can all take treasure without taking from each other!"
+				""
+				"In these chests, you might find special items called &6Artifacts&r and &aRings of Ascension&r. You can put them in special slots called &bCurios&r for cool powers or skills."
+			]
+			id: "7FA9BBBA1DBB5F32"
+			tasks: [{
+				id: "3064740D34624535"
+				item: "minecraft:birch_planks"
+				type: "item"
+			}]
+			title: "Loot Chests"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Iron's Spells & Spellboooks adds classic RPG Spellcasting fantasy to Minecraft!"
+				""
+				"You will fight more gangerous mobs like &2Necromancer&r, collect brand new resources, and most importantly: &6Cast Powerful Spells!&r"
+				""
+				"At"
+			]
+			id: "4189614A692B2629"
+			tasks: [{
+				id: "3F60646AA057886E"
+				item: "minecraft:spruce_trapdoor"
+				type: "item"
+			}]
+			x: 10.0d
 			y: 5.5d
 		}
 	]
-	title: "Getting Started?"
+	title: "Getting Started?aaaa"
 }

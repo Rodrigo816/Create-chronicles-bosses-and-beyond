@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "chapter_iv_the_locomotive_machine"
 	group: "5237AEA7260D740E"
-	icon: "kubejs:obsidian_machine"
+	icon: {
+		Count: 1b
+		id: "kubejs:obsidian_machine"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
 	id: "0AF8EE64D6B4516C"
 	images: [{
 		alpha: 200

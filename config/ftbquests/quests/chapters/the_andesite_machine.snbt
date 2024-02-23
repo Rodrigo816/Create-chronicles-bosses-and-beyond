@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "the_andesite_machine"
 	group: "5237AEA7260D740E"
-	icon: "kubejs:andesite_machine"
+	icon: {
+		Count: 1b
+		id: "kubejs:andesite_machine"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
 	id: "0459D6A74275DD3C"
 	order_index: 0
 	quest_links: [ ]

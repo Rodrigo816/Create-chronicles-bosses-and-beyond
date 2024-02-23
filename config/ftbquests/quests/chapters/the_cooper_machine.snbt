@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "the_cooper_machine"
 	group: "5237AEA7260D740E"
-	icon: "kubejs:copper_machine"
+	icon: {
+		Count: 1b
+		id: "kubejs:copper_machine"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
 	id: "6BD4C23A62382692"
 	order_index: 1
 	quest_links: [ ]

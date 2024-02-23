@@ -4,7 +4,13 @@
 	default_quest_shape: ""
 	filename: "the_brass_machine"
 	group: "5237AEA7260D740E"
-	icon: "kubejs:brass_machine"
+	icon: {
+		Count: 1b
+		id: "kubejs:brass_machine"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
 	id: "3E77E18FC0D1193E"
 	images: [{
 		alpha: 200
@@ -377,6 +383,11 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
+			description: [
+				"&cBuilding Gadgets&r mod allow us to create some cool gadgets to help us building."
+				""
+				"These are great tools to help you build bigget bases, or for clearing out space using the destruction Gadget"
+			]
 			hide: true
 			id: "62E69747ECE312C3"
 			tasks: [{

@@ -3,8 +3,9 @@
 	default_quest_shape: ""
 	filename: "chapter_x"
 	group: "5237AEA7260D740E"
+	icon: "ad_astra:mars_globe"
 	id: "19ECD475E94E145F"
-	order_index: 11
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -14,8 +15,8 @@
 				item: "create_dd:mithril_ingot"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 5.5d
+			x: -11.5d
+			y: 6.5d
 		}
 		{
 			id: "1C780BFC6939C692"
@@ -24,9 +25,22 @@
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 5.0d
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			description: [""]
+			id: "692353C638DE0348"
+			subtitle: "Cooming soon"
+			tasks: [{
+				id: "32DBE2F85964A1F8"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "SOON"
+			x: -11.0d
+			y: 4.5d
 		}
 	]
-	title: "Chapter X"
+	title: "Chapter XI:"
 }

@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "oil"
 	group: "5237AEA7260D740E"
-	icon: "tfmg:steel_mechanism"
+	icon: {
+		Count: 1b
+		id: "tfmg:steel_mechanism"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
 	id: "38FE3E0C86FF237B"
 	images: [{
 		alpha: 200

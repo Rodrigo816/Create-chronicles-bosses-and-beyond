@@ -286,6 +286,56 @@
 			x: 3.0d
 			y: 2.0d
 		}
+		{
+			description: [
+				"The &0Wither&r is really tough to beat because it can fly, move quickly, and explodes a lot. You know what I mean."
+				""
+				"To call it forth, set up 4 Soul Sand blocks in a \"T\" shape. Then, put the &e3 Wither Skeleton Skulls&r on top of the \"T\" to make the &0Wither&r appear."
+				""
+				"Be careful, it explodes a lot! So, it's best not to summon it close to your base."
+			]
+			id: "1D335FA02D1F86DD"
+			tasks: [{
+				id: "6A70389AC71C6B5E"
+				item: {
+					Count: 1b
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "minecraft:wither"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &2Warden&r is blind! It can only find you if it hears you, so either fly around or sneak!"
+				""
+				"It doesn't matter if you use ranged or melee attacks, because it will found you, If you go too far, it'll burrow into the ground and come up next to you!"
+			]
+			id: "079641D681493C48"
+			tasks: [{
+				id: "5620C0D83944D96E"
+				item: {
+					Count: 1b
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "minecraft:warden"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
 	]
 	title: "Bosses and Skill Points"
 }

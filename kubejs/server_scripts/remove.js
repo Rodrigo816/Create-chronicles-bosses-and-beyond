@@ -94,7 +94,9 @@ ServerEvents.recipes(event => {
        CR('conversion_7'),
 
        // AE2
-
+       AE2('transform/fluix_crystals'),
+       AE2('transform/fluix_crystal'),
+       CR('compat/ae2/millling/sky_stone_block')
   
     ].forEach((recipeID) => event.remove({id: recipeID}));
 
@@ -176,6 +178,10 @@ ServerEvents.recipes(event => {
          AE2('silicon'),
          'aeinfinitybooster:infinity_card',
          'aeinfinitybooster:dimension_card',
+         AE2('printed_calculation_processor'),
+         AE2('printed_engineering_processor'),
+         AE2('printed_logic_processor'),
+         AE2('growth_accelerator'),
     ].forEach((itemID) => event.remove({output: itemID}));
 
 })

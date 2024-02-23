@@ -75,6 +75,8 @@ StartupEvents.registry('item', event => {
 
     event.create('siliceous_compound').displayName('Siliceous Compound').texture('kubejs:item/siliceous_compound')
 	
+    event.create('create_chronicles').displayName("§bCreate Chronicles").texture('kubejs:item/logo_texture')
+	
 
   
 })

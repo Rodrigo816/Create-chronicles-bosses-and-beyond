@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "oil_2"
 	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1b
+		id: "ad_astra:fuel_bucket"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
 	id: "6754C36555B56724"
 	images: [{
 		alpha: 200

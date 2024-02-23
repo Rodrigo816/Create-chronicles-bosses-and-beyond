@@ -647,7 +647,7 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:mundabitur_dust']),
     event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:corrupti_dust']),
     event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:corrupti_dust']),
-    event.recipes.createDeploying(transitional, [transitional, CRDD('steel_sheet')]),
+    event.recipes.createDeploying(transitional, [transitional, TFMG('heavy_plate')]),
     event.recipes.createPressing(transitional, transitional)
   ]).transitionalItem(transitional)
     .loops(1)
@@ -876,42 +876,57 @@ ServerEvents.recipes(event => {
       .loops(10)
       .id(CRDD('integrated_circuit'))
 
-    transitional ='createappliedkinetics:incomplete_printed_calculation_processor'
-    event.recipes.createSequencedAssembly([
-      AE2('printed_calculation_processor')
-    ], CRDD('integrated_circuit'), [
-      event.recipes.createDeploying(transitional, [transitional, CR('brass_nugget')]),
-      event.recipes.createDeploying(transitional, [transitional, CRA('electrum_nugget')]),
-      event.recipes.createPressing(transitional, transitional)
-    ]).transitionalItem(transitional)
-      .loops(1)
-      .id(AE2('printed_calculation_processor'))
-
-
-    /*
+  /*
     ===============================
     ----AE2
     ==============================
   */
+  transitional ='createappliedkinetics:incomplete_printed_calculation_circuit'
+  event.recipes.createSequencedAssembly([
+    AE2('printed_calculation_processor')
+  ], CRDD('integrated_circuit'), [
+    event.recipes.createDeploying(transitional, [transitional, AE2('charged_certus_quartz_crystal')]),
+    event.recipes.createDeploying(transitional, [transitional, AE2('calculation_processor_press')]).keepHeldItem(),
+    event.recipes.createPressing(transitional, transitional)
+  ]).transitionalItem(transitional)
+    .loops(1)
+    .id(AE2('printed_calculation_processor'))
+
+  transitional ='createappliedkinetics:incomplete_printed_engineering_circuit'
+  event.recipes.createSequencedAssembly([
+    AE2('printed_engineering_processor')
+  ], CRDD('integrated_circuit'), [
+    event.recipes.createDeploying(transitional, [transitional, MC('diamond')]),
+    event.recipes.createDeploying(transitional, [transitional, CRA('diamond_grit')]),
+    event.recipes.createDeploying(transitional, [transitional, CRA('diamond_grit')]),
+    event.recipes.createDeploying(transitional, [transitional, CRA('diamond_grit')]),
+    event.recipes.createDeploying(transitional, [transitional, AE2('engineering_processor_press')]).keepHeldItem(),
+    event.recipes.createPressing(transitional, transitional)
+  ]).transitionalItem(transitional)
+    .loops(1)
+    .id(AE2('printed_engineering_processor'))
+
+  transitional ='createappliedkinetics:incomplete_printed_logic_circuit'
+  event.recipes.createSequencedAssembly([
+    AE2('printed_logic_processor')
+  ], CRDD('integrated_circuit'), [
+    event.recipes.createDeploying(transitional, [transitional, CR('golden_sheet')]),
+    event.recipes.createDeploying(transitional, [transitional, AE2('logic_processor_press')]).keepHeldItem(),
+    event.recipes.createPressing(transitional, transitional)
+  ]).transitionalItem(transitional)
+    .loops(1)
+    .id(AE2('printed_logic_processor'))
+
+
   event.recipes.createMixing(KJ('siliceous_compound'),['#forge:sand',MC('clay_ball')])
   event.blasting(AE2('silicon'),KJ('siliceous_compound'))
 
-  event.recipes.createSequencedAssembly([
-    Item.of(CRDD('integrated_circuit')).withChance(100.0),
-    Item.of(MC('glowstone_dust')).withChance(15.0),
-    Item.of(CRA('copper_wire')).withChance(15.0),
-    Item.of(CR('brass_nugget')).withChance(15.0),
-    Item.of(CRA('electrum_nugget')).withChance(15.0),
-    Item.of('create_connected:control_chip').withChance(15.0),
-  ], CRDD('calculation_mechanism'), [
-    event.recipes.createDeploying(transitional, [transitional, AE2('calculation_processor_press')]),
-    event.recipes.createDeploying(transitional, [transitional, AE2('certus_quartz_crystal')]),
-    event.recipes.createDeploying(transitional, [transitional, MC('glowstone_dust')]),
-    event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
-    event.recipes.createDeploying(transitional, [transitional, CRA('electrum_wire')]),
-  ]).transitionalItem(transitional)
-    .loops(10)
-    .id(CRDD('integrated_circuit'))
+  event.recipes.createCrushing([
+    Item.of(AE2('sky_dust')).withChance(1),
+    Item.of(AE2('sky_dust')).withChance(0.10),
+  ], AE2('sky_stone_block')).processingTime(800)
+
+
 
 
 })

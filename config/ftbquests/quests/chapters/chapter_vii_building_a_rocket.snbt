@@ -6,7 +6,9 @@
 	icon: {
 		Count: 1b
 		id: "ad_astra:tier_1_rocket"
-		tag: { }
+		tag: {
+			Enchantments: [{ }]
+		}
 	}
 	id: "1DBBA282D8932456"
 	order_index: 7
@@ -111,9 +113,23 @@
 				"75BD9E93A6143DC7"
 				"72EC381A9B79EF64"
 			]
+			description: [
+				"Crouch and right click to pen its UI."
+				""
+				"From there, &6Astral Fuel&r can be deposited."
+				""
+				"It can store up to three buckets, its a smart ideia to keep some spare. Being stranded is the worst thing that can happen yo you."
+				""
+				"Right-click to enter the rocket. Adter holding space for awhile you'll launch off and gain acess to a planetary selection system. You can't expore every planet just yet, but you'll still have some new options."
+				""
+				"After selecting a location, you'll descend on the planet in a lander."
+				""
+				"Space will decelerate it. Make sure you do not hit the ground too fast: the lander will explode and you'll be left with no way home. The truly paranoind will take two rockets. F5 can help with the landing process."
+			]
 			id: "7148FF0A0F2F9890"
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Space Engineers"
 			tasks: [{
 				id: "76C26ADF57608504"
 				item: {
@@ -123,6 +139,7 @@
 				}
 				type: "item"
 			}]
+			title: "We are going to the moon!!!"
 			x: 1.0d
 			y: 7.0d
 		}
@@ -139,7 +156,7 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				dimension: "ad_astra:glacio"
+				dimension: "ad_astra:moon"
 				id: "18E4F1919AF13979"
 				type: "dimension"
 			}]
@@ -188,5 +205,5 @@
 			y: 8.5d
 		}
 	]
-	title: "Chapter VIII: Building a Rocket"
+	title: "Chapter VIII: Building The Rocket"
 }

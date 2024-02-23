@@ -31,7 +31,7 @@
 			y: -1.0d
 		}
 	]
-	order_index: 16
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -79,10 +79,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"10190AA2A7C13277"
-				"7E9E78A1997AB84E"
-			]
+			dependencies: ["7E9E78A1997AB84E"]
 			hide: true
 			id: "6736E5C9F772788F"
 			rewards: [{
@@ -183,7 +180,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["10190AA2A7C13277"]
 			description: ["It all starts with cobblestone, aint it?"]
 			hide: true
 			id: "71A1D228DFD9F180"
@@ -229,7 +225,6 @@
 			dependencies: [
 				"69F021C402A96487"
 				"66B319ACF0228A32"
-				"10190AA2A7C13277"
 			]
 			dependency_requirement: "all_started"
 			hide: true
@@ -317,10 +312,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"10190AA2A7C13277"
-				"7FC6F7E88224DA53"
-			]
+			dependencies: ["7FC6F7E88224DA53"]
 			hide: true
 			id: "79B2BD8F7999E19F"
 			rewards: [{
@@ -399,10 +391,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"60F4CA04E216B7C3"
-				"10190AA2A7C13277"
-			]
+			dependencies: ["60F4CA04E216B7C3"]
 			dependency_requirement: "all_started"
 			hide: true
 			id: "191EE221A8EEE8F3"
@@ -486,7 +475,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["10190AA2A7C13277"]
 			hide: true
 			icon: "davebuildingmod:alarm_sign"
 			id: "2082FF7C812BF843"
@@ -543,7 +531,6 @@
 			dependencies: [
 				"6D2C48974003D539"
 				"6736E5C9F772788F"
-				"10190AA2A7C13277"
 				"69F021C402A96487"
 			]
 			description: ["You can place this on the Hephaestus Forge pedestal slots to generate passive Aureal, if you want to know how Obelisks work and how they're made, check their ponder"]
@@ -603,7 +590,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["10190AA2A7C13277"]
 			hide: true
 			icon: "forbidden_arcanus:deepslate_arcane_crystal_ore"
 			id: "1FAEF479BCF83D6F"
