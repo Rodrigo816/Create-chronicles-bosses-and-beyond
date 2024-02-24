@@ -24,6 +24,8 @@ let CHAOS= (id, x) => MOD("born_in_chaos_v1", id, x)
 
 
 ServerEvents.recipes(event => {
+
+
     //Remove by recipe ID
     [
         'twilightforest:uncrafting_table',
@@ -96,8 +98,7 @@ ServerEvents.recipes(event => {
        // AE2
        AE2('transform/fluix_crystals'),
        AE2('transform/fluix_crystal'),
-       CR('compat/ae2/millling/sky_stone_block')
-  
+       CR('compat/ae2/milling/sky_stone_block')
     ].forEach((recipeID) => event.remove({id: recipeID}));
 
     //Remove all recipes an item is related to. For example putting 'minecraft:bonemeal' here would remove the recipe for bone blocks as well.
@@ -182,6 +183,7 @@ ServerEvents.recipes(event => {
          AE2('printed_engineering_processor'),
          AE2('printed_logic_processor'),
          AE2('growth_accelerator'),
+         'waystones:warp_dust',
     ].forEach((itemID) => event.remove({output: itemID}));
 
 })

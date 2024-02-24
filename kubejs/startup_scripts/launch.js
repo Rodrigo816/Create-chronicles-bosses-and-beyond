@@ -1,5 +1,17 @@
 Platform.mods.kubejs.name = 'Create Chronicles: Bosses and Beyond'
 
+BlockEvents.modification(event => {
+    event.modify('waystones:waystone', block =>{
+        block.destroySpeed = 50
+      })
+      event.modify('waystones:mossy_waystone', block =>{
+        block.destroySpeed = 50
+      })
+      event.modify('waystones:sandy_waystone', block =>{
+        block.destroySpeed = 40
+      })
+  })
+
 /**
     ========== Blocks ==========
  */
@@ -27,6 +39,7 @@ StartupEvents.registry("block", (event) => {
     machine('Copper', 'Valve', "solid")
     machine('Brass', 'Precision', "solid")
     machine('Obsidian', 'Locomotive', "solid")
+
 })
 
 

@@ -11,4 +11,10 @@ LootJS.modifiers((event) => {
 						Item.of("ae2:silicon_press").withChance(15)
           ]
       );
+    event
+      .addBlockLootModifier(/waystones\:.*waystone/)
+      .removeLoot(/waystones\:.*waystone/)
+    event
+      .addBlockLootModifier(/waystones\:.*waystone/)
+      .addLoot(Item.of("waystones:warp_dust",1))
   });

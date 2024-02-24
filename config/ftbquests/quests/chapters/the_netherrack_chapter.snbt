@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_netherrack_chapter"
-	group: "2B02D614E453E838"
+	group: "41A34DBCA10C139D"
 	icon: {
 		Count: 1b
 		id: "minecraft:netherrack"
@@ -37,7 +37,7 @@
 			y: -6.0d
 		}
 	]
-	order_index: 8
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

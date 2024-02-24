@@ -41,6 +41,16 @@
 			x: -11.0d
 			y: 4.5d
 		}
+		{
+			id: "6569425E83E57421"
+			tasks: [{
+				id: "1519EC8053C36734"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.5d
+		}
 	]
-	title: "Chapter XI:"
+	title: "Chapter XI: Mars"
 }

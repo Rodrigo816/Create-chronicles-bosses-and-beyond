@@ -72,7 +72,17 @@ ServerEvents.recipes(event => {
 
   // irons and spells
   event.recipes.createMixing("7x "+IS("arcane_essence"),["2x "+MC('lapis_lazuli'), "2x "+MC('blaze_powder'),CR('experience_nugget')]).superheated()
-
+  event.shapeless('dimdungeons:block_key_charger', ['quark:ender_watcher',MC('gold_block')])
+  event.replaceInput(
+    { id: 'waystones:warp_stone' }, 
+    MC('ender_pearl'),               
+    'waystones:warp_dust'         
+  )
+  event.replaceInput(
+    { id: 'waystones:warp_stone' }, 
+    MC('emerald'),               
+    AE2('sky_stone_block')         
+  )
 
   event.recipes.createCrushing([
     Item.of(CR('crushed_raw_zinc')).withChance(0.30),

@@ -4,19 +4,19 @@
 	filename: "fficeandfire"
 	group: "41A34DBCA10C139D"
 	id: "07957B1AC4EACA2C"
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "00CCA9A34E314582"
+			id: "0CDF3FFCFB7235B5"
 			rewards: [{
 				count: 3
-				id: "5F3E6E7FBB2DCDD1"
+				id: "39446752D6FC9D6E"
 				item: "iceandfire:manuscript"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1584A86F782C8BE3"
+				id: "177CDCC61E6D3C86"
 				item: "iceandfire:lectern"
 				type: "item"
 			}]
@@ -25,16 +25,16 @@
 		}
 		{
 			description: ["By putting a Bestiary in a lectern you can paste new pages into it with manuscripts to unlock knowledge of monsters."]
-			id: "5F54BFA919A9265B"
+			id: "0F4B8DF3CF578016"
 			rewards: [{
 				count: 3
-				id: "3ECA39C956698FC6"
+				id: "5A358CAF2725B3B2"
 				item: "iceandfire:manuscript"
 				type: "item"
 			}]
 			subtitle: "Knowledge of monsters"
 			tasks: [{
-				id: "32B50B49CA6E5D3F"
+				id: "37944FB29B70B744"
 				item: "iceandfire:bestiary"
 				type: "item"
 			}]
@@ -43,17 +43,17 @@
 		}
 		{
 			description: ["You can find manuscripts in chests around the world. These are used to uncover knowledge of monsters and beasts in the 'Bestiary'."]
-			id: "0A6D8A117DACC36B"
+			id: "28740C665F7A1D62"
 			rewards: [{
 				count: 3
-				id: "5B9B991735FED2BB"
+				id: "7EE7C4EEC3E24D2C"
 				item: "iceandfire:manuscript"
 				type: "item"
 			}]
 			subtitle: "Pages of a book"
 			tasks: [{
 				consume_items: false
-				id: "46ABA342D99C4D1E"
+				id: "34F6A06435E80FE5"
 				item: "iceandfire:manuscript"
 				type: "item"
 			}]
@@ -72,11 +72,11 @@
 			hide_dependent_lines: true
 			hide_details_until_startable: true
 			icon: "iceandfire:stymphalian_bird_feather"
-			id: "39F45CB1B99ED86C"
+			id: "632344C9198BD8C0"
 			optional: true
 			rewards: [{
 				count: 3
-				id: "4BC7A64B17DD0207"
+				id: "5D668693C4C79C1E"
 				item: "treasure2:copper_coin"
 				type: "item"
 			}]
@@ -84,7 +84,7 @@
 			tasks: [{
 				entity: "iceandfire:stymphalian_bird"
 				icon: "iceandfire:stymphalian_skull"
-				id: "371743F072C762BF"
+				id: "64F6C03B4572A8A8"
 				type: "kill"
 				value: 20L
 			}]
@@ -94,16 +94,16 @@
 		}
 		{
 			description: ["Dangerous mob spawns, dragon roosts, sea serpents, will spawn anywhere beyond 3000 blocks in any direction. Proceed at your own risk."]
-			id: "05DF598DEBADABC3"
+			id: "618EB0ED23BA7F9A"
 			rewards: [{
 				count: 3
-				id: "4DB3D90257676F99"
+				id: "6382910D16FA4C0A"
 				item: "iceandfire:manuscript"
 				type: "item"
 			}]
 			subtitle: "Warning"
 			tasks: [{
-				id: "10C9EC641579B9FA"
+				id: "2EB6DB16315122BB"
 				title: "3000 Blocks"
 				type: "checkmark"
 			}]
@@ -120,11 +120,11 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
-			id: "70227826A758D54D"
+			id: "4B8AA887F0B4664E"
 			optional: true
 			rewards: [{
 				count: 5
-				id: "76516F60F4E0B15A"
+				id: "6C75B5E208EE8B67"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
@@ -138,7 +138,7 @@
 						Damage: 0
 					}
 				}
-				id: "02A5D8F2DAFA17A2"
+				id: "087E8458D72A533B"
 				type: "kill"
 				value: 1L
 			}]
@@ -157,11 +157,11 @@
 			hide_dependent_lines: true
 			hide_details_until_startable: true
 			icon: "iceandfire:shiny_scales"
-			id: "16D98D21B84CEDB1"
+			id: "21CB5C980CA08188"
 			optional: true
 			rewards: [{
 				count: 3
-				id: "5C154E7D57C046AF"
+				id: "3A717F51DDC13E70"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
@@ -169,7 +169,7 @@
 			tasks: [{
 				entity: "iceandfire:siren"
 				icon: "iceandfire:shiny_scales"
-				id: "413B8A4BBB9C745C"
+				id: "051295BAB259D4D2"
 				type: "kill"
 				value: 10L
 			}]
@@ -188,11 +188,11 @@
 			hide_dependent_lines: true
 			hide_details_until_startable: true
 			icon: "iceandfire:hydra_fang"
-			id: "12DD77BC361CEA40"
+			id: "23EF18C11A9B1FBD"
 			optional: true
 			rewards: [{
 				count: 5
-				id: "28609C7CC4CD1505"
+				id: "58FE4FC26A43C7E8"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
@@ -200,7 +200,7 @@
 			tasks: [{
 				entity: "iceandfire:hydra"
 				icon: "iceandfire:hydra_fang"
-				id: "310AFBC33E923B22"
+				id: "456A25567235C6A9"
 				type: "kill"
 				value: 1L
 			}]
@@ -218,11 +218,11 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
-			id: "1A77D146EB55773D"
+			id: "620693DD15450F6A"
 			optional: true
 			rewards: [{
 				count: 3
-				id: "2E756FAFB35F7512"
+				id: "47D7FCB29B7D8043"
 				item: "coinsje:iron_coin"
 				type: "item"
 			}]
@@ -230,7 +230,7 @@
 			tasks: [{
 				entity: "iceandfire:fire_dragon"
 				icon: "iceandfire:dragon_skull_fire"
-				id: "3F30A3CDC1700627"
+				id: "65FFBE764449030A"
 				type: "kill"
 				value: 1L
 			}]
@@ -248,11 +248,11 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
-			id: "31A658CDA3CDD3D1"
+			id: "3BD86F07D21311B5"
 			optional: true
 			rewards: [{
 				count: 3
-				id: "600E1D65C7C70170"
+				id: "34D3AF5FCA9AF383"
 				item: "coinsje:iron_coin"
 				type: "item"
 			}]
@@ -260,7 +260,7 @@
 			tasks: [{
 				entity: "iceandfire:ice_dragon"
 				icon: "iceandfire:dragon_skull_ice"
-				id: "4174451F4AFC5667"
+				id: "550D7589775BFEF1"
 				type: "kill"
 				value: 1L
 			}]
@@ -278,11 +278,11 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
-			id: "71CD834782B8BC7E"
+			id: "11B5FE68A812F389"
 			optional: true
 			rewards: [{
 				count: 3
-				id: "2188C12A7DB97859"
+				id: "73A89908F649C0C6"
 				item: "coinsje:iron_coin"
 				type: "item"
 			}]
@@ -290,7 +290,7 @@
 			tasks: [{
 				entity: "iceandfire:lightning_dragon"
 				icon: "iceandfire:dragon_skull_lightning"
-				id: "6F51AEAD1105A526"
+				id: "471D0BDDAAEC8A86"
 				type: "kill"
 				value: 1L
 			}]
@@ -309,11 +309,11 @@
 			hide_dependent_lines: true
 			hide_details_until_startable: true
 			icon: "iceandfire:pixie_wings"
-			id: "38923387F6C99F92"
+			id: "165C84B773268888"
 			optional: true
 			rewards: [{
 				count: 3
-				id: "353A992466056C1C"
+				id: "3B0D4D1D6354295F"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
@@ -321,7 +321,7 @@
 			tasks: [{
 				entity: "iceandfire:pixie"
 				icon: "iceandfire:pixie_wings"
-				id: "37E193F19CA7F1FB"
+				id: "129E9FCAE259CD52"
 				type: "kill"
 				value: 30L
 			}]
@@ -340,11 +340,11 @@
 			hide_dependent_lines: true
 			hide_details_until_startable: true
 			icon: "iceandfire:sea_serpent_fang"
-			id: "686133C0DBAF5F56"
+			id: "1AB94A49F0A4427D"
 			optional: true
 			rewards: [{
 				count: 5
-				id: "235B1988C3771354"
+				id: "10F1657AFEE5F11A"
 				item: "coinsje:copper_coin"
 				type: "item"
 			}]
@@ -352,7 +352,7 @@
 			tasks: [{
 				entity: "iceandfire:sea_serpent"
 				icon: "iceandfire:sea_serpent_fang"
-				id: "3F30CEE59EEEC655"
+				id: "39A127619B88417C"
 				type: "kill"
 				value: 1L
 			}]
