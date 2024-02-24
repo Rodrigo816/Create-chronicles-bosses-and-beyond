@@ -63,7 +63,7 @@
 		"Dragon Flute Distance" = 4
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 1500.0
+		"Dragon Health" = 3000.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
 		"Dragon Attack Damage" = 40
@@ -180,10 +180,10 @@
 		"Death Worm Target Search Length" = 64
 		#Default deathworm health, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Health" = 20.0
+		"Death Worm Base Health" = 80.0
 		#Default deathworm attack strength, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Attack Strength" = 6.0
+		"Death Worm Base Attack Strength" = 20.0
 		#True if wild deathworms are allowed to target and attack monsters
 		"Death Worms Target Monsters" = true
 		#Deathworm spawn weight. Higher = lower chance to spawn

@@ -30,6 +30,7 @@ ServerEvents.recipes(event => {
     [
         'twilightforest:uncrafting_table',
          //Chapter 1
+        ASTRA('recipes/hammering/iron_plate'),
         CR('crafting/materials/andesite_alloy_from_zinc'),
         CR('compacting/andesite_from_flint'),
         IF('crackled_to_gravel'),
@@ -184,6 +185,12 @@ ServerEvents.recipes(event => {
          AE2('printed_logic_processor'),
          AE2('growth_accelerator'),
          'waystones:warp_dust',
+         ASTRA('coal_generator'),
+         ASTRA('desh_fluid_pipe'),
+         ASTRA('ostrum_fluid_pipe'),
+         ASTRA('fuel_refinery'),
     ].forEach((itemID) => event.remove({output: itemID}));
+
+    event.remove({ type: 'ad_astra:fuel_conversion' })
 
 })

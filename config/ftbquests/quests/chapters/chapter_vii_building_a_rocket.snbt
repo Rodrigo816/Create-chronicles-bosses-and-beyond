@@ -6,11 +6,35 @@
 	icon: {
 		Count: 1b
 		id: "ad_astra:tier_1_rocket"
-		tag: {
-			Enchantments: [{ }]
-		}
+		tag: { }
 	}
 	id: "1DBBA282D8932456"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/painting/earth.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ad_astra:textures/painting/moon.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: 11.0d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -112,8 +136,12 @@
 				"2CCB9C223585FA23"
 				"75BD9E93A6143DC7"
 				"72EC381A9B79EF64"
+				"086223FF8861479F"
+				"6CE8C3410296E977"
 			]
 			description: [
+				"You should bring multiple &ffull oxygen tanks&r, plentiful &ffood&r, &csoul torches&r or &eglowstone&r, &aweapons&r and &atools&r. Once you have this, you are ready to launch! Enter the &erocket&r and press &aSpace&r!&r"
+				""
 				"Crouch and right click to pen its UI."
 				""
 				"From there, &6Astral Fuel&r can be deposited."
@@ -185,6 +213,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"A Rocket needs something to launch off of, so we'll need to make a &aLaunch Pad&r."
+				""
+				"To use it, place it down wherever you want to launch from with a clear view of the sky. Once you have a Rocket, you can place it down in the middle of the Launch Pad."
+			]
 			id: "75BD9E93A6143DC7"
 			tasks: [{
 				id: "420BD0F655854B7A"
@@ -203,6 +236,234 @@
 			}]
 			x: -0.5d
 			y: 8.5d
+		}
+		{
+			description: [
+				"If you're planning on going to space, you better believe that you need a new set of gear for the journey."
+				""
+				"You'll need to make a full &aSpace Suit&r for your first trip, which will be to the &bMoon&r. Come to find out, the Moon is kind of cold and lacks Oxygen. Without a Suit, you won't last long. :)"
+			]
+			hide_dependency_lines: true
+			id: "086223FF8861479F"
+			rewards: [{
+				id: "45882951E2B3695C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1645E38B9254D660"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CCE98B05AA6111E"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7059377306B67AE6"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7EFFD09E4B0DB5"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aSuiting Up&r"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Fun Fact: You cannot breathe on the Moon without &bOxygen&r. Actually, you can't breathe anywhere without Oxygen. Guess what the Moon doesn't have?"
+				""
+				"So we're going to make us some. Start by crafting an &aOxygen Loader&r and giving it water and power. This will begin to convert the Water into &bOxygen&r for us to use."
+				""
+				"To collect it, you can either place an &bOxygen Tank&r, an empty bucket, or a Space Suit inside."
+				""
+				"Pro Tip: It's always a good idea to have extra &bOxygen&r on hand... just in case."
+			]
+			hide_dependency_lines: true
+			icon: "ad_astra:oxygen_loader"
+			id: "6CE8C3410296E977"
+			min_width: 300
+			rewards: [{
+				id: "62FF6DA8DA2C53C5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "7D926F7974EA410B"
+					item: "ad_astra:oxygen_loader"
+					type: "item"
+				}
+				{
+					id: "6DA3662083D3873D"
+					item: {
+						Count: 1b
+						id: "ad_astra:oxygen_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&aPreparing Some&r &bOxygen&r"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			description: [
+				"Once you've explored the Moon and gathered enough Desh, you will be able to create &dSpace Stations&r around planets!"
+				""
+				"These are prebuilt structures that serve as a mini-base in the galaxy. Home away from home kinda thing."
+			]
+			icon: "ad_astra:space_painting"
+			id: "509BB6BF39848F5B"
+			optional: true
+			tasks: [{
+				count: 32L
+				id: "2EF04DC642F0A0AA"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "Space Stations"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"509BB6BF39848F5B"
+				"37D437BA68D6864C"
+				"29A64A556C101D83"
+			]
+			description: [
+				"If you want to make a base outside of the Earth, you'll most likely need a way to get &bOxygen&r."
+				""
+				"The &dOxygen Distributor&r is a machine that distributes oxygen in a &asealed&r room. When given water and power, it will automatically distribute the oxygen into the sealed room."
+				""
+				"The &9Water Pump&r is used to pump water from an infinite water source below it into the Distributor. You can also pump water in using a sink or an &dEternal Water Block&r."
+			]
+			id: "01B1F88F57961B10"
+			optional: true
+			tasks: [{
+				id: "469F37921FE70F08"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			title: "Oxygen for your Bases!"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			description: ["Its power generation depends on the planet's distance from the &csun &6and &bfog&r. Because of this, it is more efficient to place &bsolar panels&r close to the &csun&r. &bsolar panels&r also produce more energy in &borbit&r, as there is no &catmosphere&r blocking the &dlight&r.&r"]
+			id: "37D437BA68D6864C"
+			optional: true
+			rewards: [{
+				id: "56C2799476D03572"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "64F2521F16C07397"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			title: "Craft a &2Solar Panel"
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			description: ["The &bwater pump&r is essential for keeping the &boxygen distributor&r running infinitely. To use it, place an &binfinite water source&r below, then place the &bwater pump&r above one of the water blocks, and then place the &boxygen distributor&r adjacent to it. Make sure to supply both the &bwater pump&r and the &boxygen distributor&r with sufficient &cpower&r.&r"]
+			id: "29A64A556C101D83"
+			optional: true
+			rewards: [{
+				id: "496CCA723B67B909"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "554F69A27BBC5A76"
+				item: "ad_astra:water_pump"
+				title: "Craft a &bWater Pump"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			dependency_requirement: "one_completed"
+			description: ["The &6rover&r is a land vehicle capable of driving on the rough terrain of &emoons &6and &bplanets&r. It's &aexceptionally fast&r, has an &binventory &6capable of &astoring eight items &6and has &atwo seats &6for &cmultiple riders&r. To use it, fill the rover with &cfuel &6(&eshift-click&r and place &cfuel buckets &6in the &cleft input slot&r).&r"]
+			id: "694646586C18C609"
+			optional: true
+			rewards: [
+				{
+					id: "47210264186C3DFA"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "02518CE7883A9C6E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "263DA1AE14291C4C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 5
+					id: "465BA134DD240761"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "451EC360A3F38231"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rover"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				title: "Craft a &cRover"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
 		}
 	]
 	title: "Chapter VIII: Building The Rocket"

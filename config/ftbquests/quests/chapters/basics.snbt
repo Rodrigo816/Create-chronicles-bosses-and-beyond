@@ -14,8 +14,8 @@
 		image: "kubejs:textures/logo.png"
 		rotation: 0.0d
 		width: 8.0d
-		x: -18.5d
-		y: 13.0d
+		x: -27.0d
+		y: 18.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -37,7 +37,7 @@
 			id: "072DA448D144179C"
 			tasks: [{
 				id: "13FDAAB9648E3D0D"
-				title: "Click to Acknowledge"
+				title: "&l&6Unlock Chapter: Bosses and Skill Points"
 				type: "checkmark"
 			}]
 			title: "Progression: The Talent Tree"
@@ -45,14 +45,14 @@
 			y: 19.0d
 		}
 		{
+			description: ["Craft a &6iron chest&r - upgradeable via the &5Iron Chests&r mod!"]
 			id: "185BE49AE8B53CBD"
-			subtitle: "Craft a &6chest&r - upgradeable via the &5Iron Chests&r mod!"
 			tasks: [{
 				id: "4EFDAB97918B546C"
 				item: "ironchest:iron_chest"
 				type: "item"
 			}]
-			title: "Craft a Chest"
+			title: "Irons Chests"
 			x: -4.5d
 			y: 16.0d
 		}
@@ -86,10 +86,11 @@
 			y: 20.0d
 		}
 		{
+			dependencies: ["2E3B821A8A402B3E"]
 			description: [
 				"&lGreetings, intrepid explorer!&r You've embarked on a grand journey in a realm where creativity meets adventure, where the gears of automation intertwine with the mysteries of magic. Welcome to a world brimming with possibilities!"
 				""
-				"Your &2Quest Book&r it's your loyal companion on this epic saga. Should it ever seem out of reach, simply glance at the top left of your inventory or press F4 to beckon it back to your side."
+				"Your &2Quest Book&r it's your loyal companion on this epic saga and will guide you through most of the game's progression. Should it ever seem out of reach, simply glance at the top left of your inventory or press F4 to beckon it back to your side."
 				""
 				"As you go through this big place full of challenges and cool things, finishing quests will give you XP and special items. Every step you take, every new thing you find makes your story even better."
 				""
@@ -104,12 +105,19 @@
 				"&b&lIn Create Chronicles: Bosses and Beyond, your saga awaits!&r&r"
 			]
 			id: "1F6BC8C2A5B8F9B2"
-			rewards: [{
-				count: 20
-				id: "167DE99A77DBDD03"
-				item: "farmersdelight:sweet_berry_cookie"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 20
+					id: "167DE99A77DBDD03"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "6F4B491F8FFFB7FF"
+					item: "ftbquests:book"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Hello and welcome to &6Create Chronicles:Bosses and Beyond!&r"
@@ -233,7 +241,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["7EF948B39FBEA377"]
+			dependencies: ["640C3588E6BA8DF2"]
 			description: [
 				"&cSimply swords&r adds in a brand new arsenal of weapons to play around with."
 				""
@@ -272,7 +280,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 20.0d
+			y: 21.5d
 		}
 		{
 			description: ["The Animal Dictionary"]
@@ -289,8 +297,8 @@
 				type: "checkmark"
 			}]
 			title: "Alex's Mobs"
-			x: -17.0d
-			y: 21.5d
+			x: -13.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["123D70CA4959F172"]
@@ -315,7 +323,7 @@
 			description: [
 				"Now that we have an inscribed key and our gilded portal blocks, all we need is the portal keystone that will act as our doorway into dimensional dungeons. The image below shows how to set up the portal frame using stone bricks and the portal blocks."
 				""
-				"{image:kubejs:textures/advanced_portal_build.png width:200 height:120 align:1}"
+				"{image:kubejs:textures/bare_portal_frame.png width:200 height:120 align:1}"
 			]
 			id: "70068CFDA790A856"
 			rewards: [{
@@ -336,11 +344,6 @@
 			dependencies: ["479BCCC330D6725A"]
 			description: ["Blank portal keys can be aquired via crafting, as loot, or from adventurer bounties. They are the key to opening new dimensional dungeons."]
 			id: "7B4DB4B0D17BE6C4"
-			rewards: [{
-				id: "63CF24EF8EF2AA10"
-				item: "coinsje:copper_coin"
-				type: "item"
-			}]
 			subtitle: "Get a blank portal key"
 			tasks: [{
 				id: "67D7AB20A178B8A4"
@@ -353,9 +356,9 @@
 		{
 			dependencies: ["70068CFDA790A856"]
 			description: [
-				"Inside dimensional dungeons you will sometimes find portal setups with banners and portal crown blocks. you can upgrade your own portal using these blocks in order to allow it to use Advanced keys. Keystones wont accept advanced keys unless you have the portal crown blocks, and banners on the gilded portal blocks. You can inscribe an Blank Advanced Portal Key the same way as a normal key"
+				"Inside dimensional dungeons you will sometimes find portal setups with banners and portal crown blocks. you can upgrade your own portal using these blocks in order to allow it to use Advanced keys. Keystones wont accept advanced keys unless you have the portal crown blocks, and banners on the gilded portal blocks. You can inscribe an Blank Advanced Portal Key the same way as a normal key."
 				""
-				"{image:minecraft:textures/images/portal.png width:550 height:333 align:1 fit:true}"
+				"{image:kubejs:textures/advanced_portal_build.png width:200 height:120 align:1}"
 			]
 			id: "6A465B0AE8586176"
 			rewards: [{
@@ -396,11 +399,6 @@
 			dependencies: ["7B4DB4B0D17BE6C4"]
 			description: ["The Blank Personal Dimension Key can be inscribed the same as a normal blank key, but when inserted in the keystone will take you to your own empty dimension to build as you please."]
 			id: "03C4EA06B12B1656"
-			rewards: [{
-				id: "7F0C2CB9A359F8D7"
-				item: "coinsje:copper_coin"
-				type: "item"
-			}]
 			subtitle: "Personal Dimension"
 			tasks: [{
 				id: "7B8C4A7F6C6AF405"
@@ -418,6 +416,22 @@
 				"By default the atlas will only have the first map used to create it inside it. "
 				""
 				"&nBut by adding extra empty maps&r, any place you explore will be automatically filled in and added to the atlas map."
+				""
+				"To expand the atlas simply add Filled or Empty maps to it via Crafting or Cartography Table."
+				""
+				"Waypoints can be added by clicking on the waypoint \"red pin\" button or by pressing \"b\"."
+				""
+				"Hold shift to place a named waypoint or change the color."
+				""
+				"While in the placed named waypoint screen you can click on the waypoint icon or use scroll wheel to change its color"
+				""
+				"Placed waypoints cannot be edited but can be removed by shift clicking."
+				""
+				"You can target a waypoint by pressing click + \"ctrl\"."
+				""
+				"Targeted waypoints will always be displayed on the edge of your minimap."
+				""
+				"Death marker  when holding a recovery compass"
 			]
 			id: "3CE1B3AB173035B9"
 			rewards: [{
@@ -525,13 +539,13 @@
 				item: "iceandfire:manuscript"
 				type: "item"
 			}]
-			subtitle: "Warning"
+			subtitle: "Warning: 1200 Blocks"
 			tasks: [{
 				id: "10C9EC641579B9FA"
 				title: "Click to Acknowledge"
 				type: "checkmark"
 			}]
-			title: "1200 Blocks"
+			title: "&l&4The world is dangerous"
 			x: -7.0d
 			y: 20.0d
 		}
@@ -586,11 +600,6 @@
 				"In this case, you need a better spell book."
 			]
 			id: "5B77391C5522B8FD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1289670BD572DC07"
-				type: "choice"
-			}]
 			subtitle: "Inscribing spells"
 			tasks: [{
 				id: "4760248725EA6AFE"
@@ -659,8 +668,8 @@
 		}
 		{
 			dependencies: ["4B378FB1C1B2C9B6"]
+			description: ["Arcane essence is the most common and most important magical material. It can be found in magical structures, or looted from killing magical enemies. Low amounts of it may craft weak magic items, but its primary purpose is to be condensed into Arcane Cloth or Arcane Ingots, and used in more powerful crafting recipes."]
 			id: "4BF4F782BB659567"
-			subtitle: "Arcane essence is the most common and most important magical material. It can be found in magical structures, or looted from killing magical enemies. Low amounts of it may craft weak magic items, but its primary purpose is to be condensed into Arcane Cloth or Arcane Ingots, and used in more powerful crafting recipes."
 			tasks: [{
 				id: "5CD67234CAD3B746"
 				item: "irons_spellbooks:arcane_essence"
@@ -734,7 +743,7 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["06267D7C266DE215"]
+			dependencies: ["05DF598DEBADABC3"]
 			description: ["&eAlex's Caves&r adds in a unique variety of new underground cave biomes with many new interesting mobs and mechanics to play around with. To get started you'll need to find an underground cabin to acquire some cave tablets, as well as a spelunkers table."]
 			icon: "alexscaves:cave_book"
 			id: "7928A20D0045F639"
@@ -745,8 +754,8 @@
 				type: "structure"
 			}]
 			title: "Alex's Caves"
-			x: 18.5d
-			y: 18.0d
+			x: -9.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["7928A20D0045F639"]
@@ -758,8 +767,8 @@
 				item: "alexscaves:spelunkery_table"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 20.0d
+			x: -9.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["0B33930363EA8EA6"]
@@ -777,8 +786,8 @@
 				type: "item"
 			}]
 			title: "Magnetic Caves"
-			x: 18.5d
-			y: 21.5d
+			x: -9.0d
+			y: 27.5d
 		}
 		{
 			dependencies: ["0B33930363EA8EA6"]
@@ -796,8 +805,8 @@
 				type: "item"
 			}]
 			title: "Primordial Caves"
-			x: 17.0d
-			y: 20.0d
+			x: -10.5d
+			y: 26.0d
 		}
 		{
 			dependencies: ["0B33930363EA8EA6"]
@@ -815,8 +824,8 @@
 				type: "item"
 			}]
 			title: "Toxic Caves"
-			x: 17.0d
-			y: 21.5d
+			x: -10.5d
+			y: 27.5d
 		}
 		{
 			dependencies: ["0B33930363EA8EA6"]
@@ -834,8 +843,8 @@
 				type: "item"
 			}]
 			title: "Abyssal Chasm"
-			x: 20.0d
-			y: 20.0d
+			x: -7.5d
+			y: 26.0d
 		}
 		{
 			dependencies: ["0B33930363EA8EA6"]
@@ -853,8 +862,8 @@
 				type: "item"
 			}]
 			title: "Forlorn Caves"
-			x: 20.0d
-			y: 21.5d
+			x: -7.5d
+			y: 27.5d
 		}
 		{
 			dependencies: ["416E90790D3E0649"]
@@ -879,8 +888,8 @@
 				type: "biome"
 			}]
 			title: "Visit a Primordial Cave"
-			x: 15.0d
-			y: 20.0d
+			x: -12.5d
+			y: 26.0d
 		}
 		{
 			dependencies: ["37AFA8503CA03709"]
@@ -898,8 +907,8 @@
 				type: "biome"
 			}]
 			title: "Visit a Toxic Cave"
-			x: 15.5d
-			y: 23.0d
+			x: -12.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["44B09D1387E6E869"]
@@ -924,8 +933,8 @@
 				type: "biome"
 			}]
 			title: "Visit a Magnetic Cave"
-			x: 18.5d
-			y: 23.0d
+			x: -9.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["5CCA336AA55B6C1B"]
@@ -950,8 +959,8 @@
 				type: "biome"
 			}]
 			title: "Visit a Forlorn Cave"
-			x: 21.5d
-			y: 23.0d
+			x: -6.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["1A0BB8ACA52FBA1F"]
@@ -976,15 +985,17 @@
 				type: "biome"
 			}]
 			title: "Find an Abyssal Chasm"
-			x: 22.0d
-			y: 20.0d
+			x: -5.5d
+			y: 26.0d
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
 			description: [
-				"This pack includes &eComplimentaryReimagined&f. This is a highly customizable and performance friendly shader that you can enable through &aVideo Settings -> Shader Packs&f."
+				"This pack includes &e3 shaders packs&f."
 				""
-				"Also included is a &aSmooth Font&f resource pack. It can be enabled in the &6Resource Pack&r menu."
+				"This is a highly customizable and performance friendly shader that you can enable through &aVideo Settings -> Shader Packs&f."
+				""
+				"We recomend using silfur for performance and Complye Reamin for better grafics."
 			]
 			icon: "create:goggles"
 			id: "6D382620BBC1E6C0"
@@ -1048,7 +1059,18 @@
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
-			description: ["Want to &eshow off&r your skin rather than whatever armor you're currently wearing? You can create the &aClear Armor&r and put in the &3cosmetic armor slots&r to hide the armor you're wearing!"]
+			description: [
+				"Want to &eshow off&r your skin rather than whatever armor you're currently wearing? You can create the &aClear Armor&r and put in the &3cosmetic armor slots&r to hide the armor you're wearing!"
+				""
+				"You can also show off your items to chat using&3 shift + T&r"
+			]
+			icon: {
+				Count: 1b
+				id: "epicsamurai:diamond_samurai_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0AC9C73D4060AE29"
 			rewards: [{
 				id: "10090314F2EBAC8B"
@@ -1056,26 +1078,27 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "483D11050AAB8305"
-				item: {
-					Count: 1b
-					id: "epicsamurai:diamond_samurai_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "6F0C9FDD4263D695"
+				title: "Click to Acknowledge"
+				type: "checkmark"
 			}]
 			title: "Clear Armor"
 			x: -19.0d
 			y: 20.0d
 		}
 		{
-			dependencies: ["7EF948B39FBEA377"]
+			dependencies: ["28B245505F91D21C"]
 			description: [
 				"Find something cool in your world, or just want to take a picture to remember the occasion? Take a picture with the &bCamera&r!"
 				""
-				"To take a photo, you must have an &aEmpty Map&r in your inventory and press '&eC&r' while using the Camera."
+				"Images can be taken by right-clicking a camera. This brings you to the viewfinder of the camera. Right-clicking again takes an image of the perspective you are currently seeing. Images are saved with the same ratio as your Minecraft window."
+				""
+				""
+				"&6The camera&r is able to apply filters to the image. By sneak + right-clicking the camera a GUI opens where the filter can be chosen."
+				""
+				"&6The album&r can hold up to 54 images. You can add images by sneak + right-clicking the album. You can view the contained images by right-clicking the album. By scrolling up and down or pressing the arrow-up/down key, you can switch the currently viewed image."
+				""
+				"&6The image frame&r allows you to place your image in the world. Just place the image frame item on a wall. Sneak + right-clicking the image frame opens a GUI that allows you to resize the frame. Just clicking the resize buttons enlarges the frame in the given direction. If you sneak and click the button the frame will be downsize the frame in that direction. To display an image in the frame right-click it with the chosen image in hand. To remove it from the frame just right-click the frame again."
 			]
 			id: "6205128D8BD81FE0"
 			rewards: [{
@@ -1083,13 +1106,14 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Slime!!!!"
 			tasks: [{
-				id: "0A423EBAF159A3B2"
-				item: "polaroidcamera:camera"
+				id: "6A97508FBE37DBEE"
+				item: "camera:camera"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 16.0d
+			x: -4.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["7EF948B39FBEA377"]
@@ -1106,7 +1130,7 @@
 				item: "dummmmmmy:target_dummy"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -11.5d
 			y: 16.0d
 		}
 		{
@@ -1159,7 +1183,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 21.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["3D8B2D9B4488D1C4"]
@@ -1198,7 +1222,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 23.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["3D8B2D9B4488D1C4"]
@@ -1237,7 +1261,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 23.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
@@ -1259,7 +1283,7 @@
 				type: "item"
 			}]
 			title: "Big Plans"
-			x: 12.0d
+			x: 13.5d
 			y: 16.0d
 		}
 		{
@@ -1278,8 +1302,8 @@
 				type: "item"
 			}]
 			title: "House Building Cannon"
-			x: 15.0d
-			y: 16.0d
+			x: 16.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
@@ -1305,43 +1329,20 @@
 				type: "item"
 			}]
 			title: "Engineer's Companion"
-			x: 13.5d
+			x: 15.0d
 			y: 16.0d
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
-			icon: {
-				Count: 1b
-				id: "minecraft:written_book"
-				tag: {
-					author: "BlazeXII"
-					pages: [
-						"{\"text\":\"Controls of Create Craft Quest:\\n\\n\\n^ = Change Camera\\n\\ntab = Show Quests\\n\\nMiddle Mouse button = Sort Inventory\\n\\nt = hide trashcan in inventory\\n\\n\"}"
-						"{\"text\":\"k = toggle shader\\n\\nm = open world map\\n\\n+ = map settings\\n\\ng = toggle jetpack engine\\n\\nh = toggle hovermode for jetpack\\n\\nb = open backpack\"}"
-					]
-					resolved: 1b
-					title: "Keybindings"
-				}
-			}
+			description: [
+				"Most of the modded keybind are unbided."
+				""
+				"Go to options, controls and bind whatever key you need on your desired button."
+				""
+				"This is to prevent annoying cases were some mods uses the same button."
+			]
+			icon: "supplementaries:key"
 			id: "660C3D5CB407247F"
-			rewards: [{
-				id: "5C254AD51F970E41"
-				item: {
-					Count: 1b
-					id: "minecraft:written_book"
-					tag: {
-						author: "BlazeXII"
-						pages: [
-							"{\"text\":\"Controls of Create Craft Quest:\\n\\n\\n^ = Change Camera\\n\\ntab = Show Quests\\n\\nMiddle Mouse button = Sort Inventory\\n\\nt = hide trashcan in inventory\\n\\n\"}"
-							"{\"text\":\"k = toggle shader\\n\\nm = open world map\\n\\n+ = map settings\\n\\ng = toggle jetpack engine\\n\\nh = toggle hovermode for jetpack\\n\\nb = open backpack\"}"
-						]
-						resolved: 1b
-						title: "Keybindings"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "this book shows you the most important keybinds for this modpack"
 			tasks: [{
 				id: "6FD0241035AC0F91"
 				type: "checkmark"
@@ -1454,9 +1455,10 @@
 					xp: 10
 				}
 				{
-					exclude_from_claim_all: true
-					id: "19E60DFC2A754199"
-					type: "random"
+					count: 32
+					id: "1D06972FAEF3D196"
+					item: "minecraft:torch"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1476,18 +1478,11 @@
 				"Pickaxes allow you to break most stone and metal blocks. This wooden one won't last long, so make sure to gather some &3Cobblestone&r with it!"
 			]
 			id: "7EF948B39FBEA377"
-			rewards: [
-				{
-					id: "4A44E1F48CD46585"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "775108D8336FEBEB"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "4A44E1F48CD46585"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -1600,18 +1595,11 @@
 				"This pickaxe can mine some of the rarer ores in the game, including Diamond!"
 			]
 			id: "7FA5CDC0F616D2C5"
-			rewards: [
-				{
-					id: "6E032A8E6435C192"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "680056C2FD3E71F0"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "6E032A8E6435C192"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -1640,18 +1628,11 @@
 				"To learn more about the mod, check out the documentation in the Book!"
 			]
 			id: "7CCB17165A8E0D43"
-			rewards: [
-				{
-					id: "7E8541C1EC17E521"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "41DFBF2A5DF7F5E8"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "7E8541C1EC17E521"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [{
@@ -1699,7 +1680,7 @@
 				type: "item"
 			}]
 			title: "&2Archaeology&r!"
-			x: -3.0d
+			x: -2.0d
 			y: 20.0d
 		}
 		{
@@ -1736,7 +1717,7 @@
 				type: "item"
 			}]
 			title: "&dArmor Trims&r"
-			x: -4.0d
+			x: -3.0d
 			y: 21.5d
 		}
 		{
@@ -1770,7 +1751,7 @@
 				type: "item"
 			}]
 			title: "&aThe&r &5Sniffer&r"
-			x: -2.0d
+			x: -1.0d
 			y: 21.5d
 		}
 		{
@@ -1811,18 +1792,11 @@
 			]
 			id: "72A5DEFDD0F3470D"
 			min_width: 300
-			rewards: [
-				{
-					id: "2DA219D2C2C27D52"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "132991A93FAD049C"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "2DA219D2C2C27D52"
+				type: "xp"
+				xp: 50
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -1940,12 +1914,15 @@
 			y: 20.0d
 		}
 		{
+			dependencies: ["06267D7C266DE215"]
+			description: ["The &0&kBlack Market&r&r is the ultimate testing ground for your ingenious Create automations. Here, you can exchange the fruits of your mechanical mastery for unique items &cnot found anywhere else&r."]
 			id: "21FB9D855FA9D2DF"
 			tasks: [{
 				id: "0D128D27E6FC641D"
-				title: "I want more tips"
+				title: "&l&6Unlock Chapter: The Black Market"
 				type: "checkmark"
 			}]
+			title: "&kThe Black Market&r, &amore tips&r"
 			x: 13.5d
 			y: 18.0d
 		}
@@ -1992,8 +1969,8 @@
 				type: "item"
 			}]
 			title: "Storage"
-			x: 13.5d
-			y: 20.0d
+			x: 12.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["06267D7C266DE215"]
@@ -2012,7 +1989,7 @@
 			}]
 			title: "&l&aEnchantment Industries"
 			x: 8.5d
-			y: 16.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["64407A1BC7A1761B"]
@@ -2039,7 +2016,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 14.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["64407A1BC7A1761B"]
@@ -2066,7 +2043,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 14.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["53BB590289D14A36"]
@@ -2095,7 +2072,7 @@
 			}]
 			title: "Disenchanting Enchanted Golden Apples"
 			x: 11.5d
-			y: 15.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["53BB590289D14A36"]
@@ -2114,7 +2091,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 13.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["53BB590289D14A36"]
@@ -2136,7 +2113,7 @@
 			}]
 			title: "Disenchanting Enchanted Items"
 			x: 11.5d
-			y: 14.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["21B2D54BEC60EEBA"]
@@ -2156,7 +2133,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 14.0d
+			y: 12.0d
 		}
 		{
 			description: ["Once you have the xp stored in a tank, all you need to get the xp orbs to fall back onto the player all you need is a pump and pipe with nothing on the end this will pull the liquid xp down and dispense the orbs for the player to pick up"]
@@ -2176,7 +2153,7 @@
 			}]
 			title: "Dispensing XP onto the player"
 			x: 10.0d
-			y: 12.0d
+			y: 10.0d
 		}
 		{
 			description: ["With a spout attached to the tank of liquid xp via pipes, you will be able to put the liquid back into bottles either by right clicking bottles onto a depot or having bottles put on a belt line underneath the spout"]
@@ -2195,7 +2172,7 @@
 				type: "checkmark"
 			}]
 			x: 7.0d
-			y: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["64407A1BC7A1761B"]
@@ -2221,7 +2198,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 14.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -2252,7 +2229,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1511BEF5725A6F63"]
@@ -2285,7 +2262,7 @@
 				type: "checkmark"
 			}]
 			x: 8.5d
-			y: 10.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["35BB0498DD5DC544"]
@@ -2311,18 +2288,166 @@
 				type: "checkmark"
 			}]
 			x: 8.5d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
+			description: [
+				"&6Forbidden and Arcanus&r introduces exciting new methods to obtain improved armor, enchantments, and more!"
+				""
+				"Although there isn't an in-game guidebook, we've created a dedicated chapter for this mod. Plus, you'll find many items from Forbidden and Arcanus useful in your Create adventures."
+			]
 			id: "04D09899362AFC7A"
 			tasks: [{
 				id: "4E1D5074A8E3A8D2"
-				title: "I want more tips"
+				title: "&l&6Unlock Chapter: Forbidden and Arcanus"
 				type: "checkmark"
 			}]
+			title: "&aGetting&r &dMagical III&r "
 			x: 5.0d
 			y: 18.0d
 		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"Combat mechanics were altered by the &6Better Combat&r, &6Dodge Roll&r and &6Shield overhaul&r mod."
+				""
+				""
+				"&c-> Better Combat&r"
+				"Weapons each weapon has its own attack animation and time, comsecutive attacks will perform combos and you can hold attakc button to keep attacking continuosly."
+				""
+				"&c-> Shield Overhaul&r"
+				"Shields have new mechanics and like bashing: Attack while blocking to perform a shield bash. This will stun the target for 1 second, unless it's a boss"
+				""
+				"&c-> Dogge Roll&r"
+				"Press R to roll. You can roll into any direction you are heading. This is crucial to dodge attacks during boss fights!"
+				""
+				"The combat roll ability has 4 seconds cooldown by default."
+				""
+				"Cooldown of your combat roll ability can be seen on the main UI."
+			]
+			id: "640C3588E6BA8DF2"
+			tasks: [{
+				id: "66A18BC1D70CC3C1"
+				title: "Yes, I'm ready to fight!"
+				type: "checkmark"
+			}]
+			title: "&6New Combat Mechanics"
+			x: -12.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3CE1B3AB173035B9"]
+			description: [
+				"Item comes in pairs, and allows the player to seek out another player to whom they've given the second stone."
+				""
+				"Right-clicking the stone sends a particle trail in the direction of the player."
+				""
+				"Getting closer to the target player will also make them glow pink, allowing you to easily spot them."
+				""
+				"Using a map will also reveal the other player on it."
+				""
+				"If the other player dies, your own heartstone will break, repairing itself only when the other players recovers it."
+			]
+			id: "323158E5DCC9CB18"
+			subtitle: "love is everything <3"
+			tasks: [{
+				id: "0A95A2D6DCAB5873"
+				item: "heartstone:heartstone"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 14.5d
+		}
+		{
+			id: "2E3B821A8A402B3E"
+			tasks: [{
+				id: "30301B61C261D6B7"
+				item: "minecraft:birch_planks"
+				type: "item"
+			}]
+			title: "Mulriplayer: Chunk Claiming"
+			x: -21.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: ["By right cliking on the ground, you can summon in a \"mirror\" that will, well, mirror the blocks you place down."]
+			id: "6A532E6DD8742675"
+			tasks: [{
+				id: "73FB56BC99572AE8"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"The Abacus can be used to count the distance between two blocks in a much faster and efficient way."
+				""
+				"By simply right clicking on one block and then hovering over the other block, it will give you the distance between those two."
+				""
+				"This tool has a range of 48 blocks."
+			]
+			id: "714B3994BC2C04CB"
+			tasks: [{
+				id: "3AE7928601517133"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			title: "The Abacus"
+			x: -8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: ["You can sell and buy stuff from other players using a vending machine."]
+			id: "27B45F8E0C5718F7"
+			tasks: [{
+				id: "39028376A1090EEA"
+				item: "toms_trading_network:vending_machine"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				"{image:kubejs:textures/molten_vents.png width:350 height:200 align:1}"
+				""
+				"&6Molten Vents&r is a mod which adds a renewable source of the orestones."
+				""
+				"&nSave it your map you will need it later and they are rare to find.&r "
+			]
+			id: "67145CE26EFAD16D"
+			tasks: [{
+				id: "2705180D70FA1C18"
+				title: "&l&6Unlock Chapter: Renewable ores"
+				type: "checkmark"
+			}]
+			title: "&6Keep an eye out for this structure!"
+			x: -5.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["67145CE26EFAD16D"]
+			description: [
+				"During your adventures, you'll not only find a wealth of artifacts and Rings of Ascension but also unique trophies that drops each mob you encounter at very low chance. "
+				""
+				"If you manage to gather and complete all the items from each category, you'll be rewarded with a &6secret prize.&r Keep a keen eye out and collect them all to uncover the hidden rewards awaiting you!"
+			]
+			id: "0D0118FCEFE0A8E2"
+			tasks: [{
+				id: "3F0F062B13DBD93A"
+				title: "&l&6Unlock Chapter: Collectibles"
+				type: "checkmark"
+			}]
+			title: "&2For those you want to 100%"
+			x: -5.5d
+			y: 23.0d
+		}
 	]
-	title: "Getting Started?aaaa"
+	title: "&e&l Getting Started!"
 }

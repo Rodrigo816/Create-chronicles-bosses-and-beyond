@@ -294,21 +294,16 @@
 				""
 				"Be careful, it explodes a lot! So, it's best not to summon it close to your base."
 			]
+			icon: "minecraft:nether_star"
 			id: "1D335FA02D1F86DD"
+			shape: "square"
 			tasks: [{
-				id: "6A70389AC71C6B5E"
-				item: {
-					Count: 1b
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "minecraft:wither"
-						}
-					}
-				}
-				type: "item"
+				entity: "minecraft:wither"
+				id: "2D907589532D85C9"
+				type: "kill"
+				value: 1L
 			}]
+			title: "&2Overworld&f: Wither"
 			x: -7.0d
 			y: 1.0d
 		}
@@ -318,24 +313,359 @@
 				""
 				"It doesn't matter if you use ranged or melee attacks, because it will found you, If you go too far, it'll burrow into the ground and come up next to you!"
 			]
-			id: "079641D681493C48"
-			tasks: [{
-				id: "5620C0D83944D96E"
-				item: {
-					Count: 1b
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "minecraft:warden"
-						}
-					}
+			icon: {
+				Count: 1b
+				id: "deeperdarker:warden_helmet"
+				tag: {
+					Damage: 0
 				}
-				type: "item"
+			}
+			id: "079641D681493C48"
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "0DCD8A33E321FA0F"
+				optional_task: true
+				type: "kill"
+				value: 1L
 			}]
+			title: "&2Overworld&f: Warden"
 			x: -8.5d
 			y: 1.0d
 		}
+		{
+			can_repeat: false
+			description: ["Stymphalian birds are found in swamps. They fly around in groups and will rain down sharp feathers on any mobs they see."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "iceandfire:stymphalian_bird_feather"
+			id: "632344C9198BD8C0"
+			shape: "square"
+			subtitle: "Feather daggers"
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				icon: "iceandfire:stymphalian_skull"
+				id: "64F6C03B4572A8A8"
+				type: "kill"
+				value: 20L
+			}]
+			title: "&2Overworld&f: Stymphalian Bird Slayer"
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"Cyclops can be found in caves around beaches, or wandering the world with sheep."
+				""
+				"If the bite you they deal &4&lmassive damage&r&r&l."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4B8AA887F0B4664E"
+			shape: "square"
+			subtitle: "All see-ing eye"
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				icon: {
+					Count: 1b
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "087E8458D72A533B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Cyclops Slayer"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: false
+			description: ["Sirens can be found in the ocean, perched upon stone outcrops. They'll lure anyone who get to close in with their sweet song."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "iceandfire:shiny_scales"
+			id: "21CB5C980CA08188"
+			shape: "square"
+			subtitle: "A sweet song"
+			tasks: [{
+				entity: "iceandfire:siren"
+				icon: "iceandfire:shiny_scales"
+				id: "051295BAB259D4D2"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&2Overworld&f: Siren Slayer"
+			x: -7.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: false
+			description: ["Hydras can be found in dirt caves protruding from swamps. They're formiddible foes that use venom, and the only way to kill them without letting them heal is using fire."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "iceandfire:hydra_fang"
+			id: "23EF18C11A9B1FBD"
+			shape: "square"
+			subtitle: "A venemous bite, cured by flame"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:hydra_fang"
+				id: "456A25567235C6A9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Hydra Slayer"
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: false
+			description: ["Pixies can be found in dark oak forests, roaming around their small villages. They'll steal items from anyone who gets close and fly away with it."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "iceandfire:pixie_wings"
+			id: "165C84B773268888"
+			shape: "square"
+			subtitle: "It's a piece of cake"
+			tasks: [{
+				entity: "iceandfire:pixie"
+				icon: "iceandfire:pixie_wings"
+				id: "129E9FCAE259CD52"
+				type: "kill"
+				value: 30L
+			}]
+			title: "&2Overworld&f: Pixie Slayer"
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: false
+			description: ["Sea Serpents are formidable foes that can be found in oceans throughout the world. They have a deadly bite and a powerful water blast attack."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "iceandfire:sea_serpent_fang"
+			id: "1AB94A49F0A4427D"
+			shape: "square"
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				icon: "iceandfire:sea_serpent_fang"
+				id: "39A127619B88417C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Sea Serpent Slayer"
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			description: ["Use Transmuting Elixer on an infernal Evil Pumpkin."]
+			icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+			id: "03A47AAF2D751796"
+			shape: "square"
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				id: "76D4C2BC06D35358"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Lord Pumpkinhead"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			description: ["Lightning dragons can be found in the overworld or undergound in certain warm biomes: badlands, savanna. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragonsteel_lightning_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "496E8E6570D6FE17"
+			shape: "square"
+			subtitle: "I am the storm that is approaching"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "73E1E3F465E1915A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Lightning Dragon Slayer"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			description: ["Ice dragons can be found in the overworld or undergound in cold biomes. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragonsteel_ice_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "485FA783FD36FB50"
+			shape: "square"
+			subtitle: "Winter is coming"
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "1C57AF3602B65340"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Ice Dragon Slayer"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			description: ["Fire dragons can be found in the overworld or undergound in warm biomes. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragonsteel_fire_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "608ECD63B1EAC46B"
+			shape: "square"
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "00828F2360910CF8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Fire Dragon Slayer"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: false
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1b
+				id: "iceandfire:dread_knight_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3780F7E9BF09B899"
+			shape: "square"
+			tasks: [{
+				entity: "iceandfire:dread_knight"
+				id: "16355663414CF9C0"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&2Overworld&f: Dread Knight Slayer"
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: false
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1b
+				id: "iceandfire:lich_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "366C08A8527C1229"
+			shape: "square"
+			tasks: [{
+				entity: "iceandfire:dread_lich"
+				id: "72186FF8DD8AF732"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Dread Lich Slayer"
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: false
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1b
+				id: "iceandfire:myrmex_desert_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "271202F67BEA0A20"
+			shape: "square"
+			tasks: [{
+				entity: "iceandfire:myrmex_queen"
+				id: "68D8EC4BF1BBB2DD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Myrmex Queen"
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			can_repeat: false
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "iceandfire:amphithere_feather"
+			id: "153438EF7B3083E7"
+			shape: "square"
+			tasks: [{
+				entity: "iceandfire:amphithere"
+				id: "0DD7983B52A56080"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&2Overworld&f: Amphithere"
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: false
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1b
+				id: "iceandfire:deathworm_gauntlet_yellow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3FAB7E8F9242D140"
+			shape: "square"
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				id: "6E8AC68589051F63"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Amphithere"
+			x: -6.0d
+			y: 8.0d
+		}
 	]
-	title: "Bosses and Skill Points"
+	title: "&9&l Bosses and Skill Points"
 }

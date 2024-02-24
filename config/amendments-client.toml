@@ -1,6 +1,7 @@
 
 [general]
 	tooltip_hints = true
+	custom_configured_screen = true
 
 [lily_pad]
 	#set to 0 tho have lilypads at the same exact position as vanilla.negative numbers will place them in their own blockspace right below avoiding any clipping.best of both worlds at default as its barely within its space
@@ -64,4 +65,10 @@
 	#A scalar multiplier that will be applied to sign text making it brighter, supposedly more legible
 	#Range: 0.0 ~ 5.0
 	sign_text_color_multiplier = 1.2000000476837158
+
+[jukebox]
+	#Use the new jukebox model
+	new_model = true
+	#Makes jukebox disc spin while playing
+	disc_spin = true
 

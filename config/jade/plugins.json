@@ -57,9 +57,6 @@
   "ars_nouveau": {
     "mob_jar": true
   },
-  "delightful": {
-    "crop_progress": true
-  },
   "twilightforest": {
     "quest_ram_wool": true
   },
@@ -76,6 +73,9 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "camera": {
+    "image_frame": true
   },
   "ae2": {
     "part_icon": true,

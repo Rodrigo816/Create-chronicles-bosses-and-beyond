@@ -1,0 +1,11 @@
+
+[highlight]
+	#Highlight color
+	color = "#00FF68CF"
+	enabled = true
+	#Distance at which the player highlight will take effect
+	#Range: 0 ~ 10000
+	distance = 20
+	#Range: 0 ~ 10000
+	duration = 100
+
