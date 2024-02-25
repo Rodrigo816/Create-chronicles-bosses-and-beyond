@@ -616,6 +616,21 @@
 			x: -11.5d
 			y: -2.5d
 		}
+		{
+			id: "1FB0AAC5A21444FD"
+			rewards: [{
+				id: "4DB1F24181413976"
+				item: "kubejs:create_chronicles"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C560F75D37D3AE1"
+				type: "item"
+			}]
+			title: "The End"
+			x: -12.0d
+			y: 22.0d
+		}
 	]
 	title: "WIP: Chapter XI: Space Exploration"
 }

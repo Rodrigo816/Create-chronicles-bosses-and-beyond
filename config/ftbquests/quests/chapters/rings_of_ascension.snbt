@@ -409,17 +409,24 @@
 			}
 			id: "67B117317EB077BA"
 			invisible: true
-			rewards: [{
-				id: "64337688FD649BE8"
-				item: {
-					Count: 1b
-					id: "simplyswords:dormant_relic"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "64337688FD649BE8"
+					item: {
+						Count: 1b
+						id: "simplyswords:dormant_relic"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6E0DB42BAA196550"
+					item: "kubejs:create_chronicles"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.5d
 			subtitle: "Complete all the quests in this chapter."

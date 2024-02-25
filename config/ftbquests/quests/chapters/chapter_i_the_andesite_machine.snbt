@@ -23,7 +23,7 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: 4.0d
-		y: -6.5d
+		y: -5.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -334,7 +334,7 @@
 			}]
 			title: "Lets get started!"
 			x: 4.0d
-			y: -5.5d
+			y: -4.0d
 		}
 	]
 	title: "Chapter I: The Foundation of Machines"

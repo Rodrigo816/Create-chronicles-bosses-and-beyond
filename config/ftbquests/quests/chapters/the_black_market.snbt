@@ -202,7 +202,7 @@
 			image: "ftbquests:textures/gui/shop.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
+			x: 4.0d
 			y: -3.5d
 		}
 		{
@@ -250,7 +250,7 @@
 			image: "minecraft:textures/particle/goldheart_0.png"
 			rotation: 0.0d
 			width: 1.1428571428571428d
-			x: 4.0d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -262,55 +262,62 @@
 			image: "minecraft:textures/particle/goldheart_0.png"
 			rotation: 0.0d
 			width: 1.1428571428571428d
-			x: 2.0d
+			x: 5.0d
 			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.5d
 		}
 	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			id: "4F8825F7EE8D60F0"
-			rewards: [{
-				id: "10D0227C4BE9BA2F"
-				item: {
-					Count: 1b
-					id: "create_sabers:brass_saber_white"
-					tag: {
-						AttributeModifiers: [{
-							Amount: 20
-							AttributeName: "generic.attack_damage"
-							Name: "generic.attack_damage"
-							Operation: 0
-							Slot: "mainhand"
-							UUID: [I;
-								463728609
-								-892124506
-								-1979896846
-								-1457971414
-							]
-						}]
-						Damage: 0
-					}
+			icon: {
+				Count: 1b
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
 				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 1000000L
-				id: "65836BDDD0504FB9"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["21FB9D855FA9D2DF"]
+			}
 			id: "71501C6B437B6DAE"
-			tasks: [{
-				id: "0093518F4FEB8E6B"
+			rewards: [{
+				id: "26972A098A65C655"
 				item: {
 					Count: 1b
 					id: "constructionwand:infinity_wand"
@@ -320,25 +327,36 @@
 				}
 				type: "item"
 			}]
+			title: "Infinity Wand"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: "ringsofascension:ring_hungerless"
 			id: "2146B907572F18E7"
-			tasks: [{
-				id: "3B278D066EB9DEDC"
+			rewards: [{
+				id: "760E9EC109AE528A"
 				item: "ringsofascension:ring_hungerless"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.0d
+			title: "Ring of hungerless"
+			x: 8.0d
+			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: {
+				Count: 1b
+				id: "create_dd:forest_ravager"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "27AE17F884999DA5"
-			tasks: [{
-				id: "10CEE5D7ABBEDDB1"
+			rewards: [{
+				id: "25D17CFEAF4CCD48"
 				item: {
 					Count: 1b
 					id: "create_dd:forest_ravager"
@@ -348,14 +366,23 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			title: "Mytical Forest Ravager"
+			x: 2.0d
+			y: 1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: {
+				Count: 1b
+				id: "create_dd:deforester_saw"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "318AA1462F299CA6"
-			tasks: [{
-				id: "3C707BE54A16408E"
+			rewards: [{
+				id: "557636EC4333A2C2"
 				item: {
 					Count: 1b
 					id: "create_dd:deforester_saw"
@@ -365,14 +392,23 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -0.5d
+			title: "Deforesting saw"
+			x: 0.5d
+			y: 1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: {
+				Count: 1b
+				id: "simplyswords:shadowsting"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0B4CF106789A624F"
-			tasks: [{
-				id: "6774ABDFB4391BDA"
+			rewards: [{
+				id: "2AEB1DE320946845"
 				item: {
 					Count: 1b
 					id: "simplyswords:shadowsting"
@@ -382,14 +418,22 @@
 				}
 				type: "item"
 			}]
+			title: "Shadowsting"
 			x: 3.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: {
+				Count: 1b
+				id: "simplyswords:slumbering_lichblade"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7FD31970F7A3ABC2"
-			tasks: [{
-				id: "434976CE2F29314E"
+			rewards: [{
+				id: "2D25F28A40935B5C"
 				item: {
 					Count: 1b
 					id: "simplyswords:slumbering_lichblade"
@@ -399,15 +443,24 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			title: "&3Lichbane"
+			x: 8.0d
+			y: 1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide: true
+			icon: {
+				Count: 1b
+				id: "simplyswords:sword_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "59E3B38C6886F22E"
-			tasks: [{
-				id: "40F2F1E4DE0B05EE"
+			rewards: [{
+				id: "425647B6866D2F49"
 				item: {
 					Count: 1b
 					id: "simplyswords:sword_on_a_stick"
@@ -417,14 +470,30 @@
 				}
 				type: "item"
 			}]
+			tasks: [{
+				consume_items: true
+				count: 300L
+				id: "1EA070431FD7ECF7"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			title: "Sword on a stick"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: {
+				Count: 1b
+				id: "simplyswords:bramblethorn"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "33DB2CA9D5E90864"
-			tasks: [{
-				id: "2ABA5BC2BBEB47DA"
+			rewards: [{
+				id: "08A4585C1007B571"
 				item: {
 					Count: 1b
 					id: "simplyswords:bramblethorn"
@@ -434,14 +503,23 @@
 				}
 				type: "item"
 			}]
+			title: "Brambletorn"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: {
+				Count: 1b
+				id: "simplyswords:soulstealer"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3DB0C71C531082E7"
-			tasks: [{
-				id: "601C7B3BFB5EA112"
+			rewards: [{
+				id: "3FFCA35DF1595D88"
 				item: {
 					Count: 1b
 					id: "simplyswords:soulstealer"
@@ -451,84 +529,246 @@
 				}
 				type: "item"
 			}]
+			title: "Soulstealer"
 			x: 2.0d
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: {
+				Count: 1b
+				id: "create_sabers:double_zinc_saber_red"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1355B7A11A3AF9CD"
-			tasks: [{
-				id: "620D13A5485DE12E"
+			rewards: [{
+				id: "056F201136D5F446"
 				item: {
 					Count: 1b
 					id: "create_sabers:double_zinc_saber_red"
 					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 10
+								AttributeName: "generic.attack_damage"
+								Name: "generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									463728609
+									-892124506
+									-1979896846
+									-1457971414
+								]
+							}
+							{
+								Amount: -2.3d
+								AttributeName: "generic.attack_speed"
+								Name: "generic.attack_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-463728610
+									892124507
+									1979896847
+									1457971415
+								]
+							}
+						]
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			subtitle: "changing the saber color loses the effects."
+			title: "Red double zinc saber"
+			x: 6.5d
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: {
+				Count: 1b
+				id: "create_sabers:copper_saber_yellow"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4BA2A3CE6159F396"
-			tasks: [{
-				id: "5917F58A81F87458"
+			rewards: [{
+				id: "6BEEE45C81FB8B80"
 				item: {
 					Count: 1b
 					id: "create_sabers:copper_saber_yellow"
 					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 7
+								AttributeName: "generic.attack_damage"
+								Name: "generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									463728609
+									-892124506
+									-1979896846
+									-1457971414
+								]
+							}
+							{
+								Amount: -2.5d
+								AttributeName: "generic.attack_speed"
+								Name: "generic.attack_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-463728610
+									892124507
+									1979896847
+									1457971415
+								]
+							}
+							{
+								Amount: 0.15d
+								AttributeName: "attributeslib:crit_chance"
+								Name: "attributeslib:crit_chance"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									112233445
+									-556677889
+									998877665
+									-554433221
+								]
+							}
+							{
+								Amount: 0.25d
+								AttributeName: "attributeslib:crit_damage"
+								Name: "attributeslib:crit_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									334455667
+									-778899001
+									1122334455
+									-667788999
+								]
+							}
+						]
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
+			subtitle: "changing the saber color loses the effects."
+			title: "Yellow copper saber"
 			x: 0.5d
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: {
+				Count: 1b
+				id: "create_sabers:brass_saber_blue"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "71016DF306B1C628"
-			tasks: [{
-				id: "263256FED4F68588"
+			rewards: [{
+				id: "5D38EC2AB59448F6"
 				item: {
 					Count: 1b
-					id: "create_sabers:zinc_saber_blue"
+					id: "create_sabers:brass_saber_blue"
 					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 6
+								AttributeName: "generic.attack_damage"
+								Name: "generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									463728609
+									-892124506
+									-1979896846
+									-1457971414
+								]
+							}
+							{
+								Amount: -2.5d
+								AttributeName: "generic.attack_speed"
+								Name: "generic.attack_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-463728610
+									892124507
+									1979896847
+									1457971415
+								]
+							}
+							{
+								Amount: 3
+								AttributeName: "attributeslib:cold_damage"
+								Name: "attributeslib:cold_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									123456780
+									-987654320
+									1029384756
+									-564738291
+								]
+							}
+						]
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
+			subtitle: "it comes with ice damage, and changing the saber color loses the effects."
+			title: "Blue brass saber"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: "aeinfinitybooster:infinity_card"
 			id: "1FB255BADD1BE35E"
-			tasks: [{
-				id: "3358C918E569A0F3"
+			rewards: [{
+				id: "47BC38F15D4AACA9"
 				item: "aeinfinitybooster:infinity_card"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			id: "4238FA580B3DA9D9"
-			tasks: [{
-				id: "5B058FAB686EC29C"
-				item: "aeinfinitybooster:dimension_card"
-				type: "item"
-			}]
+			title: "Infinity Range Booster"
 			x: 5.0d
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: "aeinfinitybooster:dimension_card"
+			id: "4238FA580B3DA9D9"
+			rewards: [{
+				id: "1AF758FEBC30FABA"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			title: "Dimension card"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			icon: "waystones:warp_dust"
 			id: "49F5334F500A9615"
 			rewards: [{
 				count: 10
@@ -536,13 +776,310 @@
 				item: "waystones:warp_dust"
 				type: "item"
 			}]
-			tasks: [{
-				id: "46F986DF8C430BB2"
-				item: "waystones:warp_dust"
+			title: "x10 Wrap dust"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "create_sabers:zinc_saber_red"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "65EA2300DCD3E129"
+			rewards: [{
+				id: "54F82FD19844412E"
+				item: {
+					Count: 1b
+					id: "create_sabers:zinc_saber_red"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 5
+								AttributeName: "generic.attack_damage"
+								Name: "generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									463728609
+									-892124506
+									-1979896846
+									-1457971414
+								]
+							}
+							{
+								Amount: -2.7d
+								AttributeName: "generic.attack_speed"
+								Name: "generic.attack_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-463728610
+									892124507
+									1979896847
+									1457971415
+								]
+							}
+							{
+								Amount: 3
+								AttributeName: "attributeslib:fire_damage"
+								Name: "attributeslib:fire_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									123456780
+									-987654320
+									1029384756
+									-564738291
+								]
+							}
+							{
+								Amount: 1.5d
+								AttributeName: "attributeslib:crit_damage"
+								Name: "attributeslib:crit_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									334455667
+									-778899001
+									1122334455
+									-667788999
+								]
+							}
+						]
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
+			subtitle: "it comes with fire damage, and changing the saber color loses the effects."
+			title: "Red Zinc Saber"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "create_sabers:brass_saber_galaxy"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C5F0F864A1801D1"
+			rewards: [{
+				id: "4E560886AF35D361"
+				item: {
+					Count: 1b
+					id: "create_sabers:brass_saber_galaxy"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 9
+								AttributeName: "generic.attack_damage"
+								Name: "generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									463728609
+									-892124506
+									-1979896846
+									-1457971414
+								]
+							}
+							{
+								Amount: -2.5d
+								AttributeName: "generic.attack_speed"
+								Name: "generic.attack_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-463728610
+									892124507
+									1979896847
+									1457971415
+								]
+							}
+							{
+								Amount: 0.02d
+								AttributeName: "generic.movement_speed"
+								Name: "generic.movement_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									778899011
+									223344556
+									-445566778
+									-889900112
+								]
+							}
+							{
+								Amount: 1
+								AttributeName: "generic.attack_knockback"
+								Name: "generic.attack_knockback"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									991122234
+									445566778
+									-667788990
+									-1122334455
+								]
+							}
+							{
+								Amount: 0.25d
+								AttributeName: "attributeslib:crit_chance"
+								Name: "attributeslib:crit_chance"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									112233445
+									-556677889
+									998877665
+									-554433221
+								]
+							}
+							{
+								Amount: 0.25d
+								AttributeName: "attributeslib:crit_damage"
+								Name: "attributeslib:crit_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									334455667
+									-778899001
+									1122334455
+									-667788999
+								]
+							}
+						]
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "changing the saber color loses the effects."
+			title: "Black Brass Saber"
 			x: 2.0d
-			y: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "create_sabers:brass_saber_lime"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "25EC727AA4CDE24C"
+			rewards: [{
+				id: "53B9F841DC48371D"
+				item: {
+					Count: 1b
+					id: "create_sabers:brass_saber_lime"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 1
+								AttributeName: "generic.attack_damage"
+								Name: "generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									463728609
+									-892124506
+									-1979896846
+									-1457971414
+								]
+							}
+							{
+								Amount: -1.0d
+								AttributeName: "generic.attack_speed"
+								Name: "generic.attack_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-463728610
+									892124507
+									1979896847
+									1457971415
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.movement_speed"
+								Name: "generic.movement_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									778899011
+									223344556
+									-445566778
+									-889900112
+								]
+							}
+						]
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Lime Brass Saber"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			icon: "ringsofascension:ring_flight"
+			id: "35026166839C8E4C"
+			rewards: [{
+				id: "2F1857C01CA4EB32"
+				item: "ringsofascension:ring_flight"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "610B61E1D62CE035"
+					item: "kubejs:create_chronicles"
+					type: "item"
+				}
+				{
+					id: "1987C89D7E2F1000"
+					item: {
+						Count: 1b
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "cataclysm:ignis"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AF03A59B9C5B1D9"
+					item: {
+						Count: 1b
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "aether:valkyrie_queen"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ring of flight"
+			x: 8.0d
+			y: -2.0d
 		}
 	]
 	title: "&0&l The Black Market"
