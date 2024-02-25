@@ -23,7 +23,7 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: -1.0d
-		y: -2.0d
+		y: 0.0d
 	}]
 	order_index: 1
 	quest_links: [ ]
@@ -128,7 +128,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["7A8A14D27F132A52"]
+			dependencies: ["5E60FF6098CB030B"]
 			hide: true
 			hide_dependency_lines: true
 			id: "469BCDA1AD3D80FA"
@@ -153,7 +153,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["7A8A14D27F132A52"]
+			dependencies: ["5E60FF6098CB030B"]
 			hide: true
 			hide_dependency_lines: true
 			id: "48413A6A0A9BFFA7"
@@ -183,7 +183,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["7A8A14D27F132A52"]
+			dependencies: ["5E60FF6098CB030B"]
 			hide: true
 			hide_dependency_lines: true
 			id: "15777779AE0400E3"
@@ -227,21 +227,6 @@
 			}]
 			x: -0.9d
 			y: 6.75d
-		}
-		{
-			dependencies: ["5E60FF6098CB030B"]
-			description: [""]
-			hide: true
-			hide_dependent_lines: true
-			id: "7A8A14D27F132A52"
-			tasks: [{
-				id: "4860757A9EC5DE03"
-				title: "&a&lUnlock&r&r"
-				type: "checkmark"
-			}]
-			title: "Chapter II"
-			x: -1.0d
-			y: -1.0d
 		}
 	]
 	title: "Chapter II: The Valve Machine"

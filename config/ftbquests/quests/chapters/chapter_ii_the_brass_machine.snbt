@@ -24,7 +24,7 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: -5.5d
-		y: 5.0d
+		y: 10.5d
 	}]
 	order_index: 2
 	quest_links: [ ]
@@ -44,7 +44,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 7.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7D6E6EFCB2DD19A0"]
@@ -55,7 +55,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 7.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["72C989B765AD2A4B"]
@@ -66,7 +66,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 7.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0101855DF75D6C40"]
@@ -77,7 +77,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 7.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["5BFA4F90901AC7B2"]
@@ -88,7 +88,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 7.0d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -102,7 +102,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 8.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -116,10 +116,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["6E199DBC43B38B80"]
+			dependencies: ["646C119DC7AC80AB"]
 			hide: true
 			hide_dependency_lines: true
 			id: "64A476C01D1C4742"
@@ -129,10 +129,10 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["6E199DBC43B38B80"]
+			dependencies: ["646C119DC7AC80AB"]
 			hide: true
 			hide_dependency_lines: true
 			id: "1C5DFA2AD6DEE1B2"
@@ -142,10 +142,10 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 6.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["6E199DBC43B38B80"]
+			dependencies: ["646C119DC7AC80AB"]
 			dependency_requirement: "one_started"
 			hide: true
 			hide_dependency_lines: true
@@ -156,10 +156,10 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 5.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["6E199DBC43B38B80"]
+			dependencies: ["646C119DC7AC80AB"]
 			hide: true
 			hide_dependency_lines: true
 			id: "671ABB3F4DDF8A89"
@@ -170,7 +170,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 7.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -184,7 +184,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 12.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2BBB5E496BBD52C5"]
@@ -197,7 +197,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 8.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["340B69A08A8A7CF3"]
@@ -208,7 +208,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 10.0d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -222,10 +222,10 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 10.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["6E199DBC43B38B80"]
+			dependencies: ["646C119DC7AC80AB"]
 			hide: true
 			hide_dependency_lines: true
 			id: "555CE8F6001EF8E7"
@@ -235,10 +235,10 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 8.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["6E199DBC43B38B80"]
+			dependencies: ["646C119DC7AC80AB"]
 			hide: true
 			hide_dependency_lines: true
 			id: "14ADA913C53709AE"
@@ -248,7 +248,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 8.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["5E59C8255183FF3E"]
@@ -259,10 +259,10 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 12.0d
+			y: 16.5d
 		}
 		{
-			dependencies: ["6E199DBC43B38B80"]
+			dependencies: ["646C119DC7AC80AB"]
 			hide: true
 			hide_dependency_lines: true
 			id: "5167DEF3903D6CFD"
@@ -272,7 +272,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 5.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -288,10 +288,10 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 8.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["6E199DBC43B38B80"]
+			dependencies: ["646C119DC7AC80AB"]
 			hide: true
 			hide_dependency_lines: true
 			id: "70FE285006F6632F"
@@ -302,7 +302,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 10.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["671ABB3F4DDF8A89"]
@@ -314,10 +314,10 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 7.5d
+			y: 12.0d
 		}
 		{
-			dependencies: ["6E199DBC43B38B80"]
+			dependencies: ["646C119DC7AC80AB"]
 			hide: true
 			hide_dependency_lines: true
 			id: "7A50893172D43878"
@@ -328,7 +328,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 10.0d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -345,11 +345,11 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: -0.95d
-			y: 14.25d
+			x: -0.9499999999999993d
+			y: 18.75d
 		}
 		{
-			dependencies: ["6E199DBC43B38B80"]
+			dependencies: ["646C119DC7AC80AB"]
 			hide: true
 			hide_dependency_lines: true
 			id: "588F642CD467FC64"
@@ -359,7 +359,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 10.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
@@ -374,7 +374,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 16.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["637D976589937434"]
@@ -398,10 +398,10 @@
 				}
 			]
 			x: -1.0d
-			y: 18.5d
+			y: 23.0d
 		}
 		{
-			dependencies: ["6E199DBC43B38B80"]
+			dependencies: ["646C119DC7AC80AB"]
 			hide: true
 			hide_dependency_lines: true
 			id: "7F75BF2B511A2B14"
@@ -411,7 +411,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 12.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
@@ -428,21 +428,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 14.3d
-		}
-		{
-			dependencies: ["646C119DC7AC80AB"]
-			hide: true
-			hide_dependent_lines: true
-			id: "6E199DBC43B38B80"
-			tasks: [{
-				id: "2BF4CFEE9EC8FE58"
-				title: "&a&lUnlock&r&r"
-				type: "checkmark"
-			}]
-			title: "Chapter III"
-			x: -5.5d
-			y: 6.0d
+			y: 18.8d
 		}
 	]
 	title: "Chapter III: The Precision Machine"

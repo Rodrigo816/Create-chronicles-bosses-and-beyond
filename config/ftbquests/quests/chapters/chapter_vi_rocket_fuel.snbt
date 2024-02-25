@@ -23,13 +23,13 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: 1.5d
-		y: -8.0d
+		y: -6.5d
 	}]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["701B8832130A7959"]
+			dependencies: ["69D628450626D8D5"]
 			description: [
 				"The &6Surface Scanner&f shows how far away an oil source is with an approximate 8-block margin of error. "
 				""
@@ -329,7 +329,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["701B8832130A7959"]
+			dependencies: ["69D628450626D8D5"]
 			hide: true
 			hide_dependency_lines: true
 			id: "4AF468B735AE6B79"
@@ -358,20 +358,6 @@
 			}]
 			x: 1.5d
 			y: 4.0d
-		}
-		{
-			dependencies: ["69D628450626D8D5"]
-			hide: true
-			hide_dependent_lines: true
-			id: "701B8832130A7959"
-			tasks: [{
-				id: "55F0A9F5815B1134"
-				title: "&a&lUnlock&r&r"
-				type: "checkmark"
-			}]
-			title: "Chapter VI"
-			x: 1.5d
-			y: -7.0d
 		}
 	]
 	title: "Chapter VI: Rocket Fuel"

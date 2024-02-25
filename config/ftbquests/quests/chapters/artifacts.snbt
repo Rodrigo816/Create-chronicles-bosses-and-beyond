@@ -91,7 +91,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Can be used to slowfall and as a shield in a pinch"]
 			id: "36FB336313E5E377"
 			rewards: [{
@@ -108,7 +108,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Does not get consumed when eaten, meaning it's an infinite food source."]
 			id: "78DFD8815E2AE291"
 			rewards: [{
@@ -142,7 +142,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Allows you to drink items faster"]
 			id: "14CB47511F2D0E01"
 			rewards: [{
@@ -159,7 +159,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Allows you to drink items faster, but now with style!"]
 			id: "0E0532BA6E3FFEF9"
 			rewards: [{
@@ -176,7 +176,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Provides infinite air underwater, very useful for those pesky underwater caves"]
 			id: "78E34F3F9A19F275"
 			rewards: [{
@@ -193,7 +193,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Provides an infinite night vision effect"]
 			id: "419A16655447AA92"
 			rewards: [{
@@ -210,7 +210,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Allows you to trade with villagers for much cheaper"]
 			id: "016C498DFB704536"
 			rewards: [{
@@ -227,7 +227,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Adds a looting effect to killed mobs"]
 			id: "7F1AB8E8DA7BFD77"
 			rewards: [{
@@ -244,7 +244,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Applies fortune to mined blocks"]
 			id: "5A2F0B2712D9C667"
 			rewards: [{
@@ -261,7 +261,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Applies an infinite invisibility potion, making you less noticeable to mobs"]
 			id: "3F0D2D8C1CFD1F2A"
 			rewards: [{
@@ -278,7 +278,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Increases the user's invulnerability frames after taking a hit"]
 			id: "39AD4C222874D63F"
 			rewards: [{
@@ -295,7 +295,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Gives a movement speed boost when taking damage"]
 			id: "2B619746DAF80A5E"
 			rewards: [{
@@ -312,7 +312,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Strikes your attackers with lightning (occasionally)"]
 			id: "66A8B9C4C4AC291A"
 			rewards: [{
@@ -329,7 +329,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Lights your attackers on fire"]
 			id: "042259C7B1BF773A"
 			rewards: [{
@@ -346,7 +346,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Damages attackers similar to the Thorns enchantment"]
 			id: "4D38017F83D30E13"
 			rewards: [{
@@ -363,7 +363,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [
 				"Allows the wearer to move unimpeded in water"
 				""
@@ -384,7 +384,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Allows you to double jump, similar to the Terraria item"]
 			id: "3121D591D3807584"
 			rewards: [{
@@ -401,7 +401,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants temporary fire resistance when touching lava/fire"]
 			id: "60B9F9AD8F49371D"
 			rewards: [{
@@ -418,7 +418,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Reduces the time of debuffs"]
 			id: "05A39ED901BC6569"
 			rewards: [{
@@ -435,7 +435,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Attracts dropped items to the wearer"]
 			id: "10CDACBCA03AEDF7"
 			rewards: [{
@@ -452,7 +452,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants around 10 extra health (5 hearts)"]
 			id: "29491A4A65DEDCDC"
 			rewards: [{
@@ -469,7 +469,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Press CTRL while airborne to perform a short and slow glide"]
 			id: "4CCAD1EBB977DF2E"
 			rewards: [{
@@ -486,7 +486,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Increases the wearers mining speed and allows the wearer to break blocks like stone with their fist"]
 			id: "0424F3DCA7620F49"
 			rewards: [{
@@ -503,7 +503,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Increases the wearer's attack speed"]
 			id: "7940D8A4ECBD6541"
 			rewards: [{
@@ -520,7 +520,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Increases the damage dealt by the wearer"]
 			id: "72564111D0768098"
 			rewards: [{
@@ -537,7 +537,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Causes the wearer's attacks to set the target on fire"]
 			id: "13449219998C54E1"
 			rewards: [{
@@ -554,7 +554,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Increases knockback from attacks"]
 			id: "136F140D9A3ED036"
 			rewards: [{
@@ -571,7 +571,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["The wearer slightly heals from attacks"]
 			id: "51A4E097156A6DC1"
 			rewards: [{
@@ -588,7 +588,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Increases experience dropped by mobs"]
 			id: "4FDAFBD64AA710A1"
 			rewards: [{
@@ -605,7 +605,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["The wearer can sprint on water"]
 			id: "5ABC7CE1A9B9FB7C"
 			rewards: [{
@@ -622,7 +622,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Increases wearer's jump height and negates all fall damage"]
 			id: "2ED49410115A9FDC"
 			rewards: [{
@@ -639,7 +639,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Creepers will actively avoid the wearer"]
 			id: "632F1D52317286A8"
 			rewards: [{
@@ -656,7 +656,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Drastically increases the wearer's sprint speed and allows for auto-step"]
 			id: "7362AE3D474FF6E1"
 			rewards: [{
@@ -673,7 +673,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["The wearer cannot be knocked back"]
 			id: "17C488042DB187A3"
 			rewards: [{
@@ -690,7 +690,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Increases the wearer's swim speed"]
 			id: "2F8EAC597AB7E760"
 			rewards: [{
@@ -707,7 +707,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4AF4761B0AFB7813"]
+			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Infinite comedy"]
 			id: "250E32D632A506B2"
 			rewards: [{
@@ -799,30 +799,6 @@
 			}]
 			x: 0.0d
 			y: -6.25d
-		}
-		{
-			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [
-				"&6&lArtifacts&r&r is a mod which aims to make exploration more rewarding by adding various powerful items that cannot be crafted."
-				""
-				"The items added by this mod can be found in chests in vanilla structures."
-				""
-				"All artifacts only have a few chests in which they can be found, so go out and explore! Additionally, a new underground campsite structure has been added. "
-				""
-				"&5Mimics&r occasionally spawn in these campsites instead of a chests, which are dangerous enemies that attack players that get too close. Mimics always drop a random artifact when killed."
-			]
-			hide: true
-			hide_dependent_lines: true
-			id: "4AF4761B0AFB7813"
-			shape: "square"
-			tasks: [{
-				id: "20A897EE32DB6944"
-				title: "&a&lUnlock&r&r"
-				type: "checkmark"
-			}]
-			title: "Artifacts"
-			x: -2.0d
-			y: -6.0d
 		}
 	]
 	subtitle: ["Treasures from The Zone"]

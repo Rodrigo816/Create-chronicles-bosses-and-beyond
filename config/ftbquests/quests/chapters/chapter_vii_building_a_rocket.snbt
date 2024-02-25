@@ -70,7 +70,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			hide: true
 			hide_dependency_lines: true
 			id: "5F8B17F4A8CF47C7"
@@ -83,7 +83,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			hide: true
 			hide_dependency_lines: true
 			id: "2F520B59F10123D2"
@@ -97,7 +97,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			hide: true
 			hide_dependency_lines: true
 			id: "778AEC1710A4E237"
@@ -111,7 +111,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			hide: true
 			hide_dependency_lines: true
 			id: "08ED76082CFF1D16"
@@ -125,7 +125,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			hide: true
 			hide_dependency_lines: true
 			id: "797DCA89A0B3FBB8"
@@ -138,7 +138,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			hide: true
 			hide_dependency_lines: true
 			id: "0D1A3BE5396104F7"
@@ -212,7 +212,7 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			hide: true
 			hide_dependency_lines: true
 			id: "2CCB9C223585FA23"
@@ -225,7 +225,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			dependency_requirement: "one_completed"
 			hide: true
 			hide_dependency_lines: true
@@ -240,7 +240,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			description: [
 				"A Rocket needs something to launch off of, so we'll need to make a &aLaunch Pad&r."
 				""
@@ -258,7 +258,7 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			hide: true
 			hide_dependency_lines: true
 			id: "72EC381A9B79EF64"
@@ -271,7 +271,7 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			description: [
 				"If you're planning on going to space, you better believe that you need a new set of gear for the journey."
 				""
@@ -337,7 +337,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["228EEF29E73F945C"]
+			dependencies: ["1084B343FEEBB88E"]
 			description: [
 				"Fun Fact: You cannot breathe on the Moon without &bOxygen&r. Actually, you can't breathe anywhere without Oxygen. Guess what the Moon doesn't have?"
 				""
@@ -510,20 +510,6 @@
 			}]
 			x: 2.0d
 			y: 14.0d
-		}
-		{
-			dependencies: ["1084B343FEEBB88E"]
-			hide: true
-			hide_dependent_lines: true
-			id: "228EEF29E73F945C"
-			tasks: [{
-				id: "5C15893A2C4C953E"
-				title: "&a&lUnlock&r&r"
-				type: "checkmark"
-			}]
-			title: "Chapter VIII"
-			x: 1.0d
-			y: 1.5d
 		}
 	]
 	title: "Chapter VIII: Building The Rocket"

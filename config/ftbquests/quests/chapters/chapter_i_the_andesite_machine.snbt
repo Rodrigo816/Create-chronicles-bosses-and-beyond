@@ -31,7 +31,6 @@
 		{
 			dependencies: ["342BCE36CF749057"]
 			description: ["Begin your journey by harvesting the essence of nature: trees. Gather saplings to ensure a renewable source of wood."]
-			hide: true
 			hide_dependency_lines: true
 			icon: "twilightforest:time_sapling"
 			id: "12796FE2B6E3D53E"
@@ -157,7 +156,6 @@
 		{
 			dependencies: ["342BCE36CF749057"]
 			description: [""]
-			hide: true
 			hide_dependency_lines: true
 			id: "6528F97D788A957A"
 			tasks: [{
@@ -174,7 +172,6 @@
 			description: [""]
 			hide_dependency_lines: true
 			id: "72070D0355244B40"
-			invisible: true
 			tasks: [{
 				id: "61B23653DEBA1D46"
 				item: "minecraft:water_bucket"
@@ -282,6 +279,7 @@
 		{
 			dependencies: ["5E60FF6098CB030B"]
 			description: ["Combine all your knowledge and resources to construct the pinnacle of this chapter: The Andesite Machine."]
+			hide: true
 			id: "3AEFFAED564130A6"
 			shape: "rsquare"
 			size: 1.5d

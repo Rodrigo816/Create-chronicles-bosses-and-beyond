@@ -782,6 +782,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
 				Count: 1b
 				id: "create_sabers:zinc_saber_red"
@@ -862,6 +863,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
 				Count: 1b
 				id: "create_sabers:brass_saber_galaxy"
@@ -968,6 +970,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
 				Count: 1b
 				id: "create_sabers:brass_saber_lime"
@@ -1033,6 +1036,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["21FB9D855FA9D2DF"]
 			icon: "ringsofascension:ring_flight"
 			id: "35026166839C8E4C"
 			rewards: [{
@@ -1079,6 +1083,22 @@
 			]
 			title: "Ring of flight"
 			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			id: "0FB8722642860DFF"
+			subtitle: "keep an eye for updates"
+			title: "soon1"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			id: "4EEDE7245553A616"
+			subtitle: "keep an eye for updates"
+			title: "soon2"
+			x: 6.5d
 			y: -2.0d
 		}
 	]

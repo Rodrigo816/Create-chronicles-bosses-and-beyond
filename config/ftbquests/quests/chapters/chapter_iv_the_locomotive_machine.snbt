@@ -23,7 +23,7 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: 3.0d
-		y: -22.5d
+		y: -20.5d
 	}]
 	order_index: 3
 	quest_links: [ ]
@@ -51,7 +51,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["40E0C9B58C60549E"]
+			dependencies: ["6F2EA0844769A10A"]
 			hide: true
 			hide_dependency_lines: true
 			id: "174567332B8DE8C1"
@@ -80,7 +80,7 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["40E0C9B58C60549E"]
+			dependencies: ["6F2EA0844769A10A"]
 			hide: true
 			hide_dependency_lines: true
 			id: "1325CB313B08AB70"
@@ -93,7 +93,7 @@
 			y: -15.0d
 		}
 		{
-			dependencies: ["40E0C9B58C60549E"]
+			dependencies: ["6F2EA0844769A10A"]
 			hide: true
 			hide_dependency_lines: true
 			id: "784EF4A65242E3FD"
@@ -106,7 +106,7 @@
 			y: -15.0d
 		}
 		{
-			dependencies: ["40E0C9B58C60549E"]
+			dependencies: ["6F2EA0844769A10A"]
 			hide: true
 			hide_dependency_lines: true
 			id: "5C00CCFC83CCE7A4"
@@ -144,7 +144,7 @@
 			y: -17.0d
 		}
 		{
-			dependencies: ["40E0C9B58C60549E"]
+			dependencies: ["6F2EA0844769A10A"]
 			dependency_requirement: "one_started"
 			hide: true
 			hide_dependency_lines: true
@@ -158,7 +158,7 @@
 			y: -17.0d
 		}
 		{
-			dependencies: ["40E0C9B58C60549E"]
+			dependencies: ["6F2EA0844769A10A"]
 			hide: true
 			hide_dependency_lines: true
 			id: "4D774B40DB2BEA38"
@@ -187,7 +187,7 @@
 			y: -19.0d
 		}
 		{
-			dependencies: ["40E0C9B58C60549E"]
+			dependencies: ["6F2EA0844769A10A"]
 			hide: true
 			hide_dependency_lines: true
 			id: "07EE6AFA3FE693E1"
@@ -352,7 +352,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["40E0C9B58C60549E"]
+			dependencies: ["6F2EA0844769A10A"]
 			hide: true
 			hide_dependency_lines: true
 			id: "42CFF547BDAB44B1"
@@ -366,7 +366,7 @@
 			y: -20.5d
 		}
 		{
-			dependencies: ["40E0C9B58C60549E"]
+			dependencies: ["6F2EA0844769A10A"]
 			hide: true
 			hide_dependency_lines: true
 			id: "0FA7629CCE64385C"
@@ -394,7 +394,7 @@
 			y: -11.5d
 		}
 		{
-			dependencies: ["40E0C9B58C60549E"]
+			dependencies: ["6F2EA0844769A10A"]
 			hide: true
 			hide_dependency_lines: true
 			id: "58DD96B724C875FE"
@@ -407,7 +407,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["40E0C9B58C60549E"]
+			dependencies: ["6F2EA0844769A10A"]
 			description: [
 				"&6The deep learner&r allows you to store a few data models within, and kills you receive will begin to train the model. "
 				""
@@ -442,20 +442,6 @@
 			]
 			x: 2.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["6F2EA0844769A10A"]
-			hide: true
-			hide_dependent_lines: true
-			id: "40E0C9B58C60549E"
-			tasks: [{
-				id: "30F357A89C3C836C"
-				title: "&a&lUnlock&r&r"
-				type: "checkmark"
-			}]
-			title: "Chapter IV"
-			x: 3.0d
-			y: -21.5d
 		}
 	]
 	title: "Chapter IV: The Locomotive Machine"

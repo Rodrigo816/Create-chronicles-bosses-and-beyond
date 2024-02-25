@@ -23,7 +23,7 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: 2.5d
-		y: -10.5d
+		y: -7.0d
 	}]
 	order_index: 4
 	quest_links: [ ]
@@ -185,7 +185,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2458D182A8FD4612"]
+			dependencies: ["3DFF1B74E8AADB57"]
 			hide: true
 			hide_dependency_lines: true
 			id: "6AD87BACD480D27B"
@@ -199,7 +199,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2458D182A8FD4612"]
+			dependencies: ["3DFF1B74E8AADB57"]
 			hide: true
 			hide_dependency_lines: true
 			id: "0D2D729534CC797F"
@@ -332,7 +332,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2458D182A8FD4612"]
+			dependencies: ["3DFF1B74E8AADB57"]
 			hide: true
 			hide_dependency_lines: true
 			id: "46E5565D623C0AC8"
@@ -455,7 +455,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["2458D182A8FD4612"]
+			dependencies: ["3DFF1B74E8AADB57"]
 			dependency_requirement: "one_completed"
 			hide: true
 			hide_dependency_lines: true
@@ -483,7 +483,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["2458D182A8FD4612"]
+			dependencies: ["3DFF1B74E8AADB57"]
 			hide: true
 			hide_dependency_lines: true
 			id: "7682212B86FC5B85"
@@ -511,7 +511,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2458D182A8FD4612"]
+			dependencies: ["3DFF1B74E8AADB57"]
 			hide: true
 			hide_dependency_lines: true
 			id: "1DBA19EB422182AF"
@@ -525,7 +525,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["2458D182A8FD4612"]
+			dependencies: ["3DFF1B74E8AADB57"]
 			hide: true
 			hide_dependency_lines: true
 			id: "184B9A5F983FA7A5"
@@ -537,20 +537,6 @@
 			}]
 			x: -3.5d
 			y: 1.5d
-		}
-		{
-			dependencies: ["3DFF1B74E8AADB57"]
-			hide: true
-			hide_dependent_lines: true
-			id: "2458D182A8FD4612"
-			tasks: [{
-				id: "6EDDD25CFFFB17BE"
-				title: "&a&lUnlock&r&r"
-				type: "checkmark"
-			}]
-			title: "Chapter V"
-			x: 2.5d
-			y: -9.5d
 		}
 	]
 	title: "Chapter V: Steel Mechanism"
