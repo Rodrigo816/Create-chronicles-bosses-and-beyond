@@ -505,8 +505,8 @@
 				item: "waystones:warp_dust"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -0.5d
+			x: 2.0d
+			y: 1.0d
 		}
 	]
 	title: "&0&l The Black Market"
