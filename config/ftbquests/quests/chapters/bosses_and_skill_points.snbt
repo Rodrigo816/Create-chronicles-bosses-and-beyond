@@ -566,6 +566,7 @@
 			icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
 			id: "03A47AAF2D751796"
 			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "born_in_chaos_v1:lord_pumpkinhead"
 				id: "76D4C2BC06D35358"
@@ -830,6 +831,66 @@
 			title: "Bosses"
 			x: -3.5d
 			y: -2.5d
+		}
+		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
+			description: [
+				"The Corrupted Champion is the entombed remnant of an unknown hero, fallen into corruption. Its power arise from its bone staff, which was crafted from the bones of its innocent victims. With its power, the lich can controll the minds of its enemies and turn peaceful beings into abominations fighting along its side. But beware. Even if you manage to drain the staff's corruption, the fight isn't over."
+				""
+				""
+				"&c-> How to summon the Corrupted Champion:&r"
+				"-Collect the three bone staff pieces (Ominous Bone Staff Fragment) from the Ruins structure. Every Ruin has a unique fragment (upper, middle and lower bone staff fragment)."
+				""
+				"-Obtain a bone dagger from an Acolyte, or craft it yourself."
+				""
+				"-Hold a glass bottle in your offhand and start killing villager with the bone dagger. You'll get a Vial of Blood. Fill the vial to the limit."
+				""
+				"-Find the Lich Prison structure, a large floating island above the oceans."
+				""
+				"-Wait until it is night, place the bone staff pieces (from upper to lower) on the dark corrupted deepslate blocks in front of the altar (they should fairly stand out)."
+				""
+				"-Pour the Vial of Blood into the altar."
+				""
+				"&bVoilà, you unleashed pure evil into the world, probably causing the death of thousands of innocent people and very likely your own.&r"
+			]
+			icon: "graveyard:white_bone_staff"
+			id: "2EFEFB8A1B1A2E3F"
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐&7"
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:red_bone_staff"
+				id: "516289600229A0D9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Corrupted Champion"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"You can summon him by destroying a special pumpkin surrounded by candles that you can meet in the world."
+				""
+				"The boss has 3 phases."
+			]
+			icon: "chipped:anguished_carved_pumpkin"
+			id: "02E628FD58B3D4C7"
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:sir_pumpkinhead"
+				icon: "chipped:anguished_carved_pumpkin"
+				id: "1D79E53E83899586"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Sir Pumpkinhead"
+			x: -0.5d
+			y: 5.0d
 		}
 	]
 	title: "&9&l Bosses and Skill Points"

@@ -157,19 +157,19 @@
     "horde_spawn": {
       "enabled": true,
       "mobSpawnAttempts": 40,
-      "ticksUntilNextSpawn": 24000,
+      "ticksUntilNextSpawn": 54000,
       "additionalRandomizedTicks": 1200
     }
   },
   "corruptedChampionConfigEntries": {
     "corrupted_champion": {
-      "healthInCastingPhase": 400.0,
+      "healthInCastingPhase": 1000.0,
       "healthInHuntingPhase": 200.0,
-      "damageCastingPhase": 30.0,
-      "damageHuntingPhaseAddition": 40.0,
-      "armor": 14.0,
-      "armorToughness": 12.0,
-      "speedInHuntPhase": 0.15,
+      "damageCastingPhase": 50.0,
+      "damageHuntingPhaseAddition": 100.0,
+      "armor": 15.0,
+      "armorToughness": 15.0,
+      "speedInHuntPhase": 0.55,
       "durationHuntingPhase": 800,
       "durationFallingCorpseSpell": 400,
       "durationHealingSpell": 700,

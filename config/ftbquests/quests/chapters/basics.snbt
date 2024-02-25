@@ -420,7 +420,9 @@
 				""
 				"To expand the atlas simply add Filled or Empty maps to it via Crafting or Cartography Table."
 				""
-				"Waypoints can be added by clicking on the waypoint \"red pin\" button or by pressing \"b\"."
+				"You can open the world map by clicking &e\"m\"&r."
+				""
+				"Waypoints can be added by clicking on the waypoint \"red pin\" button or by pressing &e\"y\"&r."
 				""
 				"Hold shift to place a named waypoint or change the color."
 				""
@@ -612,7 +614,11 @@
 		}
 		{
 			dependencies: ["4B378FB1C1B2C9B6"]
-			description: ["It's hard to keep finding single use scrolls, but by putting the scrolls into a spell book using the inscription table, one can keep using the spell without consuming the scroll."]
+			description: [
+				"It's hard to keep finding single use scrolls, but by putting the scrolls into a spell book using the inscription table, one can keep using the spell without consuming the scroll."
+				""
+				"Default key is \"v\" to open wheel."
+			]
 			id: "203A551C239270CC"
 			subtitle: "Your first Spellbook"
 			tasks: [{
@@ -996,7 +1002,7 @@
 				""
 				"This is a highly customizable and performance friendly shader that you can enable through &aVideo Settings -> Shader Packs&f."
 				""
-				"We recomend using silfur for performance and Complye Reamin for better grafics."
+				"We recomend usingSildur's Enchanced Default for performance and ComplementaryReimagined  for better visuals"
 			]
 			icon: "create:goggles"
 			id: "6D382620BBC1E6C0"
@@ -1620,6 +1626,8 @@
 				"Creating this &2Novice Spellbook&r allows you to create beginner spells like casting projectiles to mine or damage mobs."
 				""
 				"To learn more about the mod, check out the documentation in the Book!"
+				""
+				"Default key is \"v\" to open wheel."
 			]
 			id: "7CCB17165A8E0D43"
 			rewards: [{

@@ -13,7 +13,7 @@
 	#Gummy Swets when eaten restore full health instead of full hunger
 	"Gummy Swets restore health" = false
 	#Determines the limit of the amount of Life Shards a player can consume to increase their health
-	"Maximum consumable Life Shards" = 2
+	"Maximum consumable Life Shards" = 5
 	#Determines the cooldown in ticks for the Hammer of Kingbdogz's ability
 	"Cooldown for the Hammer of Kingbdogz projectile" = 50
 	#Determines the cooldown in ticks for the Cloud Staff's ability
