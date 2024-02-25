@@ -305,6 +305,7 @@
 				""
 				"Let's go on an adventure and build some amazing machines!"
 			]
+			hide: true
 			hide_dependent_lines: true
 			id: "342BCE36CF749057"
 			rewards: [

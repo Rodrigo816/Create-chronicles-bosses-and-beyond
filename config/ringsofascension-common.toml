@@ -5,7 +5,7 @@
 	ringUndyingCooldown = 600
 	#The amount of hearts that Max Health's ring gives you.
 	#Range: 0 ~ 400
-	ringHealthHearts = 3
+	ringHealthHearts = 5
 
 ["Enable/Disable Rings"]
 	ringFireResistance = true

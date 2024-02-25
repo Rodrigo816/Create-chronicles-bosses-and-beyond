@@ -607,6 +607,7 @@
 			hide: true
 			hide_dependent_lines: true
 			id: "6BADF9AAB7413162"
+			invisible: true
 			tasks: [{
 				id: "060C0AD3CAA59AAB"
 				title: "sd"

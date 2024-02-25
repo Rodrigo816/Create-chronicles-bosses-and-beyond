@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "the_black_market"
 	group: ""
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
 		id: "forbidden_arcanus:reinforced_deorum_blacksmith_gavel"
@@ -403,6 +404,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
 			id: "59E3B38C6886F22E"
 			tasks: [{
 				id: "40F2F1E4DE0B05EE"
