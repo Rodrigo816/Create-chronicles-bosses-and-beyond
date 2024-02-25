@@ -20,7 +20,7 @@
 	   Values between 0 and 1 will make artifacts more common
 	   Set this to 10000 to remove all artifacts from chest loot
 	*/
-	"artifactRarity": 1.0,
+	"artifactRarity": 3.0,
 	/* The chance everlasting beef drops when a cow
 	   or mooshroom is killed by a player
 	*/

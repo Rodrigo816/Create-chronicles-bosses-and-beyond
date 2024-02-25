@@ -45,6 +45,7 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["28B245505F91D21C"]
 			description: ["Craft a &6iron chest&r - upgradeable via the &5Iron Chests&r mod!"]
 			id: "185BE49AE8B53CBD"
 			tasks: [{
@@ -166,6 +167,7 @@
 			y: 23.5d
 		}
 		{
+			dependencies: ["28B245505F91D21C"]
 			description: [
 				"Looking to soar through the skies without venturing into the End for an Elytra? Consider crafting a jetpack instead."
 				""
@@ -1013,6 +1015,7 @@
 			y: 20.0d
 		}
 		{
+			dependencies: ["05B32DE12868C6DE"]
 			description: [
 				"&aCalculators &rare a key to success. With the &dCrafting Calculator&r you can determine how many raw resources a recipe will cost, and how much materials you will need to craft the items in bulk. There is a bit of a &3learning curve&r to the calculator, but it has some helpful tips in it's own UI."
 				""
@@ -1041,6 +1044,7 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["28B245505F91D21C"]
 			description: ["When right clicked it picks a &drandom block&r from your hotbar and places it down."]
 			id: "1E53659639A295D6"
 			rewards: [{
@@ -1133,6 +1137,7 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["05B32DE12868C6DE"]
 			description: ["Thanks to a mod, the &aTotem of Undying&f can now be equipped in a &etrinket slot&f. This means you can keep your shield in your offhand and not fear death as long as it's equipped."]
 			id: "68623EA6ABCAE7C7"
 			rewards: [{
@@ -1351,6 +1356,7 @@
 			y: 20.0d
 		}
 		{
+			dependencies: ["28B245505F91D21C"]
 			description: [
 				"A quick way to switch between tools."
 				""
@@ -1501,11 +1507,7 @@
 			y: 18.0d
 		}
 		{
-			dependencies: [
-				"7EF948B39FBEA377"
-				"6CC91D69D83DE57A"
-				"68623EA6ABCAE7C7"
-			]
+			dependencies: ["7EF948B39FBEA377"]
 			description: [
 				"With our Wooden Pickaxe, stone shouldn't be a problem to break!"
 				""
@@ -1546,14 +1548,7 @@
 			y: 18.0d
 		}
 		{
-			dependencies: [
-				"05B32DE12868C6DE"
-				"0C4974DE21CEDF4B"
-				"1E53659639A295D6"
-				"0C7046AD65831DAC"
-				"185BE49AE8B53CBD"
-				"15E1385A52B7A632"
-			]
+			dependencies: ["05B32DE12868C6DE"]
 			description: ["I'm going to assume you've been out mining, right? It is &4Minecraft&r after all."]
 			id: "28B245505F91D21C"
 			rewards: [
@@ -1644,6 +1639,7 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["28B245505F91D21C"]
 			description: [
 				"&2Achaeology&r is a brand new feature for MC v1.20 that allows a player to find items inside of &aSuspicious&r blocks like Sand and Gravel."
 				""
@@ -1652,7 +1648,6 @@
 				"To uncover an item from a Suspicious block, you need to create a &aBrush&r to brush away the block to unveil an item."
 			]
 			hide: false
-			hide_dependency_lines: true
 			id: "0C4974DE21CEDF4B"
 			rewards: [
 				{
@@ -1754,7 +1749,7 @@
 			y: 21.5d
 		}
 		{
-			dependencies: ["7FA5CDC0F616D2C5"]
+			dependencies: ["04D09899362AFC7A"]
 			description: ["Diamonds are one of the best materials to use for tool crafting, but also allows you to visit new dimensions like the Nether!"]
 			id: "06267D7C266DE215"
 			rewards: [
@@ -2290,6 +2285,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["7FA5CDC0F616D2C5"]
 			description: [
 				"&6Forbidden and Arcanus&r introduces exciting new methods to obtain improved armor, enchantments, and more!"
 				""
