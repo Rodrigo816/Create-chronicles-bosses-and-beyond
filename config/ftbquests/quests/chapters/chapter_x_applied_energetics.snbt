@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "aaaa"
+	filename: "chapter_x_applied_energetics"
 	group: "5237AEA7260D740E"
 	icon: {
 		Count: 1b
@@ -23,7 +23,7 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: -1.5d
-		y: -4.0d
+		y: -5.5d
 	}]
 	order_index: 9
 	quest_links: [ ]
@@ -82,6 +82,9 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["2BBCC2FC5B63FF4D"]
+			hide: true
+			hide_dependency_lines: true
 			id: "5F99D59B31FF34D4"
 			tasks: [{
 				id: "7AE20B3EF81A3343"
@@ -115,6 +118,9 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["2BBCC2FC5B63FF4D"]
+			hide: true
+			hide_dependency_lines: true
 			id: "4919AEB1300D63B7"
 			tasks: [{
 				id: "678BE1D28085C785"
@@ -152,7 +158,10 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2BBCC2FC5B63FF4D"]
 			description: ["Applied Energistics 2 (or &oAE2&r for short) is an incredibly versatile &bdigital storage&f mod, allowing for extremely efficient storage and all sorts of automation capabilities to greatly augment your modded Minecraft experience from as early as you want to the very endgame."]
+			hide: true
+			hide_dependency_lines: true
 			id: "78425DC3875B9854"
 			subtitle: "&lWelcome to &bApplied Energistics 2&f!"
 			tasks: [{
@@ -1876,6 +1885,20 @@
 			}]
 			x: 12.5d
 			y: 10.0d
+		}
+		{
+			dependencies: ["108EA49E8421CCC7"]
+			hide: true
+			hide_dependent_lines: true
+			id: "2BBCC2FC5B63FF4D"
+			tasks: [{
+				id: "6E5B351E393E4A1D"
+				title: "&a&lUnlock&r&r"
+				type: "checkmark"
+			}]
+			title: "Chapter X"
+			x: -1.5d
+			y: -4.5d
 		}
 	]
 	title: "Chapter X: Applied Energetics 2"

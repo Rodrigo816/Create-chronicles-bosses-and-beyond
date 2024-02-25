@@ -9,6 +9,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["123D70CA4959F172"]
+			hide: true
 			id: "731C3214BB61FDAE"
 			rewards: [{
 				id: "1A22694A70BE865A"
@@ -55,8 +57,12 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["731C3214BB61FDAE"]
+			dependencies: [
+				"731C3214BB61FDAE"
+				"123D70CA4959F172"
+			]
 			description: ["Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &bHeart of The Deep &rthat you got earlier from killing The Warden."]
+			hide: true
 			id: "704CCA2CEAB23B4D"
 			rewards: [{
 				id: "336DFFDBA2B4F736"

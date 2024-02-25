@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "oil_2"
+	filename: "chapter_vi_rocket_fuel"
 	group: "5237AEA7260D740E"
 	icon: {
 		Count: 1b
@@ -23,12 +23,13 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: 1.5d
-		y: -6.5d
+		y: -8.0d
 	}]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["701B8832130A7959"]
 			description: [
 				"The &6Surface Scanner&f shows how far away an oil source is with an approximate 8-block margin of error. "
 				""
@@ -36,6 +37,8 @@
 				""
 				"The &6surface scanner&f isn't very accurate, it’s recommended to do a search around the bedrock where the scanner pointed or to look in another location. Good luck"
 			]
+			hide: true
+			hide_dependency_lines: true
 			id: "333CCE71E8979C07"
 			rewards: [
 				{
@@ -326,6 +329,9 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["701B8832130A7959"]
+			hide: true
+			hide_dependency_lines: true
 			id: "4AF468B735AE6B79"
 			tasks: [{
 				id: "77A4C1280F58ACFC"
@@ -352,6 +358,20 @@
 			}]
 			x: 1.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			hide: true
+			hide_dependent_lines: true
+			id: "701B8832130A7959"
+			tasks: [{
+				id: "55F0A9F5815B1134"
+				title: "&a&lUnlock&r&r"
+				type: "checkmark"
+			}]
+			title: "Chapter VI"
+			x: 1.5d
+			y: -7.0d
 		}
 	]
 	title: "Chapter VI: Rocket Fuel"

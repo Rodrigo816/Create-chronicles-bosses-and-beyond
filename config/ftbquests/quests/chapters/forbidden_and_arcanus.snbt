@@ -21,6 +21,7 @@
 				""
 				"This magic-themed mod has amazing animations, as well as some overpowered items like the &6Eternal Stella&r. "
 			]
+			hide: true
 			icon: "forbidden_arcanus:whirlwind_prism"
 			id: "5523A71F1688EA88"
 			rewards: [{
@@ -1075,12 +1076,7 @@
 		{
 			dependencies: [
 				"0C6719D81DE5A614"
-				"1BA5E38444CAF02B"
-				"685A56030D996A81"
-				"4E93F14CE6E7AE09"
-				"52BB4427D9F5163D"
-				"4506F8FBBA580C0E"
-				"5AC2BD87BB92F27B"
+				"73349B993DE69954"
 			]
 			description: [
 				"To perform a ritual, place the ingredients on the Arcane Pedestals."
@@ -1088,20 +1084,11 @@
 				"You'll need a &9Blacksmith's Gavel&r to activate the ritual. To do this, right click on the Forge with the Gavel."
 			]
 			id: "537E39530360AD73"
-			rewards: [
-				{
-					count: 2
-					id: "71C67BAC8336840E"
-					item: "forbidden_arcanus:arcane_gold_ingot"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "7D92F94919F2BB7D"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "7D92F94919F2BB7D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0309B0EB29771EC0"
 				item: {
@@ -1280,6 +1267,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["537E39530360AD73"]
 			id: "52BB4427D9F5163D"
 			subtitle: "not implemented yet"
 			tasks: [{
@@ -1291,6 +1279,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["537E39530360AD73"]
 			id: "4E93F14CE6E7AE09"
 			subtitle: "The Sea Prism applies the Aquatic modifier to helmets allows breaking blocks while swimming without a speed decrease and grants you some additional regeneration while in water"
 			tasks: [{
@@ -1303,6 +1292,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["537E39530360AD73"]
 			id: "5AC2BD87BB92F27B"
 			subtitle: "The demolishing modifier can unlock the true power out of your tools (Pickaxes, Shovels, Axes, Hoes). Tools with this modifier will be able to break a 3x3 area."
 			tasks: [{
@@ -1315,6 +1305,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["537E39530360AD73"]
 			id: "4506F8FBBA580C0E"
 			subtitle: "The magnetized modifier can only be used on Boots. When boots with this modifier are equipped, the item pick-up range of the player will increase by one and a half blocks."
 			tasks: [{
@@ -1327,6 +1318,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["537E39530360AD73"]
 			id: "1BA5E38444CAF02B"
 			subtitle: "The fiery modifier can be applied to all tool items (Pickaxes, Shovels, Axes, Hoes) and will automatically smelt all mined blocks if they have a smelting recipe"
 			tasks: [{
@@ -1345,6 +1337,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["537E39530360AD73"]
 			id: "685A56030D996A81"
 			subtitle: "Removes the durability from an item"
 			tasks: [{

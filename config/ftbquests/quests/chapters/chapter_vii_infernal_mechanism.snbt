@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "rodrigao"
+	filename: "chapter_vii_infernal_mechanism"
 	group: "5237AEA7260D740E"
 	icon: {
 		Count: 1b
@@ -23,292 +23,15 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: 9.0d
-		y: -10.0d
+		y: -11.5d
 	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			icon: "tfmg:industrial_pipe"
-			id: "75C520AF20F26D8B"
-			rewards: [
-				{
-					id: "7606F21EB001F73B"
-					item: "tfmg:cast_iron_distillation_controller"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "20C9B531D15B4373"
-					item: "tfmg:cast_iron_distillation_output"
-					type: "item"
-				}
-				{
-					id: "3C8810A776B93AE9"
-					item: "create:mechanical_pump"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2EF07DC96A62F94C"
-					item: "tfmg:steel_distillation_controller"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "6A75D997868ABFA6"
-					item: "tfmg:steel_distillation_output"
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "20BEFEE7EDFD4D3E"
-					item: "tfmg:industrial_pipe"
-					type: "item"
-				}
-				{
-					count: 52L
-					id: "1B6C7CC735B9A3A8"
-					item: "tfmg:steel_fluid_tank"
-					type: "item"
-				}
-			]
-			title: "Distillation Tower"
-			x: 3.5d
-			y: -15.5d
-		}
-		{
-			id: "234DD65244B0B9E4"
-			rewards: [{
-				count: 64
-				id: "16D1096B8AE787DB"
-				item: "create:fluid_tank"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5FAF6B2F80771668"
-					item: "tfmg:cast_iron_distillation_controller"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "0F607B544A153345"
-					item: "tfmg:cast_iron_distillation_output"
-					type: "item"
-				}
-			]
-			title: "Cast Iron Distillation Tower"
-			x: 3.5d
-			y: -19.5d
-		}
-		{
-			id: "5DDF3D85567EA4D6"
-			rewards: [{
-				id: "3BE415D10419A014"
-				item: "tfmg:plastic_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "49ACD491DC1C47A5"
-				item: "tfmg:plastic_sheet"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -19.5d
-		}
-		{
-			icon: "tfmg:diesel_bucket"
-			id: "26CAC1CC8936FFE7"
-			rewards: [
-				{
-					count: 4
-					id: "37018FAD1DB836CE"
-					item: "tfmg:flarestack"
-					type: "item"
-				}
-				{
-					id: "7FE46AB38DEF67AE"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "6D8DC4C0DE733B70"
-					item: "tfmg:steel_fluid_tank"
-					type: "item"
-				}
-				{
-					id: "189A250B72076CBD"
-					item: "tfmg:steel_pipe"
-					type: "item"
-				}
-				{
-					id: "15EB70167D0F45EE"
-					item: "tfmg:steel_mechanical_pump"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "3781A9B37BF476EF"
-				title: "Refining Oil"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: -17.5d
-		}
-		{
-			id: "25E2251A4CFC70C2"
-			rewards: [
-				{
-					count: 3
-					id: "34234A47C04B5CFB"
-					item: "tfmg:napalm_bomb"
-					type: "item"
-				}
-				{
-					id: "236F5FA1A392FF9B"
-					item: "minecraft:fire_charge"
-					type: "item"
-				}
-			]
-			subtitle: "That'll teach those farmers"
-			tasks: [{
-				id: "7F50B82429921DF2"
-				item: "tfmg:napalm_bomb"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -15.5d
-		}
-		{
-			id: "03EBDAA263554C2B"
-			rewards: [{
-				count: 16
-				id: "6E7ABD6EBFA4535E"
-				item: "tfmg:kerosene_bucket"
-				type: "item"
-			}]
-			tasks: [{
-				id: "18D355360B82A47A"
-				item: "tfmg:large_radial_engine"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -15.5d
-		}
-		{
-			id: "688E680A6CE29C50"
-			rewards: [{
-				id: "21C39D0895E08943"
-				item: "tfmg:gasoline_bucket"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "24F78FBE62C4D689"
-					item: "tfmg:gasoline_engine"
-					type: "item"
-				}
-				{
-					id: "3CFFF11BBB970428"
-					item: "tfmg:gasoline_engine_back"
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: -16.5d
-		}
-		{
-			id: "3A58C82E22E467EC"
-			rewards: [{
-				count: 32
-				id: "61811A7141EA0EF5"
-				item: "tfmg:steel_pipe"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "3E30E53CCEE015F2"
-					item: "tfmg:lpg_engine"
-					type: "item"
-				}
-				{
-					id: "6AFA6AA2055BE74C"
-					item: "tfmg:lpg_engine_back"
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -19.5d
-		}
-		{
-			id: "071396322F2A89C0"
-			rewards: [
-				{
-					id: "136CA867683022E7"
-					item: "tfmg:air_intake"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "0F4B05F1F8F38E7E"
-					item: "minecraft:bread"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5C69582357844117"
-				item: "tfmg:diesel_engine"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -18.5d
-		}
-		{
-			id: "0BD790ED22139712"
-			rewards: [{
-				id: "5393D241302F0E44"
-				item: "tfmg:kerosene_bucket"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4F2DCF861A977C89"
-					item: "tfmg:turbine_engine"
-					type: "item"
-				}
-				{
-					id: "5717D9F771B528E3"
-					item: "tfmg:turbine_engine_back"
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: -17.5d
-		}
-		{
-			id: "306E38806C64C1F1"
-			rewards: [{
-				count: 4
-				id: "2FE567F631E8BBCA"
-				item: "alexscaves:nuclear_furnace_component"
-				type: "item"
-			}]
-			shape: "rsquare"
-			subtitle: "Our words are backed with NUCLEAR WEAPONS!"
-			tasks: [{
-				id: "7EFFBF6E1371007F"
-				item: "alexscaves:nuclear_bomb"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -20.5d
-		}
-		{
-			dependencies: ["7E82E9591EDB4835"]
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "0CFFF58986CE7733"
 			subtitle: "you know how to make coal don't you? "
 			tasks: [{
@@ -320,10 +43,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"41F2204F3859C40E"
-				"0CFFF58986CE7733"
-			]
+			dependencies: ["0CFFF58986CE7733"]
 			id: "645E8388213F1284"
 			subtitle: "Block of coal"
 			tasks: [{
@@ -337,9 +57,9 @@
 		}
 		{
 			dependencies: [
+				"645E8388213F1284"
 				"7EC15712EC498088"
 				"020E3DF3DAA4292F"
-				"645E8388213F1284"
 			]
 			id: "5690FCED46349207"
 			tasks: [{
@@ -389,9 +109,8 @@
 		}
 		{
 			dependencies: [
-				"239718D740BF77C5"
-				"440BB8DB69B930F5"
 				"2D42E5A8299941E1"
+				"440BB8DB69B930F5"
 			]
 			id: "2D2E2028EBB92BF6"
 			subtitle: "Industrial Blasting"
@@ -428,10 +147,9 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"5F7A18E1DDDDD166"
-				"409394CEF9087E88"
-			]
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "1A36CF8C1DF5DEC4"
 			tasks: [{
 				id: "1B61CF2AEB5A536E"
@@ -453,6 +171,9 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "0706D3B957259D7B"
 			tasks: [{
 				id: "026F73EBCA345E92"
@@ -464,9 +185,8 @@
 		}
 		{
 			dependencies: [
-				"3E42FEEFBC22F7D3"
-				"1D9D2E1FF9BD8A91"
 				"1A36CF8C1DF5DEC4"
+				"1D9D2E1FF9BD8A91"
 			]
 			id: "738C37B1E696F933"
 			tasks: [{
@@ -519,6 +239,9 @@
 			y: -7.5d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "312D4E8EBE475538"
 			tasks: [{
 				id: "38C4815C1D5E7A60"
@@ -529,6 +252,9 @@
 			y: -7.5d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "08DACD94A59D5FDE"
 			tasks: [{
 				id: "73219A8C1148BF84"
@@ -539,6 +265,9 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "39AEC26244AC111B"
 			tasks: [{
 				id: "148DA1DD32850B83"
@@ -564,6 +293,9 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "6B73EB529E646EF8"
 			tasks: [{
 				id: "3552D6ABEA36EF94"
@@ -575,8 +307,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
+			hide: true
 			id: "4D391FCA01F6D795"
-			invisible: true
 			tasks: [{
 				id: "632939ADDADCC2A2"
 				item: "create_dd:industrial_fan"
@@ -597,6 +329,9 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "7F5486A6318789B5"
 			tasks: [{
 				id: "5525D9787719CB17"
@@ -607,6 +342,9 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "2D42E5A8299941E1"
 			tasks: [{
 				id: "1E3E6BF49B227CEF"
@@ -634,6 +372,9 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "438AFB85E4605DF6"
 			tasks: [{
 				id: "73730D3EF2168510"
@@ -644,6 +385,9 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "029C392AD3BA76AD"
 			tasks: [{
 				id: "221C56497902B8AA"
@@ -654,6 +398,9 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "7E56F2B931A55A36"
 			tasks: [{
 				id: "30138F8F0234319D"
@@ -664,6 +411,9 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "453F0E5926BA4AB1"
 			subtitle: "This can be found in blue skies dimension"
 			tasks: [{
@@ -675,6 +425,9 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["6E3231178697350A"]
+			hide: true
+			hide_dependency_lines: true
 			id: "0CD56ADF87F8799B"
 			tasks: [{
 				id: "5EB7E246748365C2"
@@ -683,6 +436,20 @@
 			}]
 			x: 10.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependent_lines: true
+			id: "6E3231178697350A"
+			tasks: [{
+				id: "4D7D331FCCFB8A34"
+				title: "&a&lUnlock&r&r"
+				type: "checkmark"
+			}]
+			title: "Chapter VII"
+			x: 9.0d
+			y: -10.5d
 		}
 	]
 	title: "Chapter VII: Infernal Mechanism"

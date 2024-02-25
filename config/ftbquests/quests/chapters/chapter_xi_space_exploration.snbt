@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "chapter_x"
+	filename: "chapter_xi_space_exploration"
 	group: "5237AEA7260D740E"
 	icon: "ad_astra:mars_globe"
 	id: "19ECD475E94E145F"
@@ -59,6 +59,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6BADF9AAB7413162"]
 			id: "01D7CF12E71D81FF"
 			tasks: [{
 				id: "0219A6441EF65D68"
@@ -69,6 +70,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["6BADF9AAB7413162"]
 			id: "1C780BFC6939C692"
 			tasks: [{
 				id: "45FB9E932E894AF0"
@@ -79,6 +81,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["6BADF9AAB7413162"]
 			description: [""]
 			id: "692353C638DE0348"
 			subtitle: "Cooming soon"
@@ -92,6 +95,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["6BADF9AAB7413162"]
 			description: [
 				"You'll need a LOT of &cDesh&r to make the &aTier 2 Rocket&r."
 				""
@@ -599,6 +603,19 @@
 			x: -11.0d
 			y: 17.5d
 		}
+		{
+			dependencies: ["3D2DDC65DED45F4A"]
+			hide: true
+			hide_dependent_lines: true
+			id: "6BADF9AAB7413162"
+			tasks: [{
+				id: "060C0AD3CAA59AAB"
+				title: "sd"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
 	]
-	title: "Chapter XI: Space Exploration"
+	title: "WIP: Chapter XI: Space Exploration"
 }

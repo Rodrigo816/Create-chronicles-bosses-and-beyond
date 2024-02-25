@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "the_cooper_machine"
+	filename: "chapter_iii_the_cooper_machine"
 	group: "5237AEA7260D740E"
 	icon: {
 		Count: 1b
@@ -11,14 +11,25 @@
 		}
 	}
 	id: "6BD4C23A62382692"
+	images: [{
+		alpha: 200
+		click: ""
+		color: 16672790
+		corner: false
+		dev: false
+		height: 1.2d
+		hover: [ ]
+		image: "chalk:block/mark/arrow"
+		rotation: 180.0d
+		width: 1.2d
+		x: -1.0d
+		y: -2.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"5C5BBEA6E03836C7"
-				"5012AE3E688F40D7"
-			]
+			dependencies: ["5012AE3E688F40D7"]
 			description: ["from stripped logs Depois dás item drain para obter sap liquido"]
 			hide: true
 			hide_dependency_lines: true
@@ -117,6 +128,9 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["7A8A14D27F132A52"]
+			hide: true
+			hide_dependency_lines: true
 			id: "469BCDA1AD3D80FA"
 			tasks: [{
 				id: "1C05ADED165FCA5B"
@@ -139,6 +153,9 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["7A8A14D27F132A52"]
+			hide: true
+			hide_dependency_lines: true
 			id: "48413A6A0A9BFFA7"
 			tasks: [{
 				id: "2B3D3E600A72681E"
@@ -166,6 +183,9 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["7A8A14D27F132A52"]
+			hide: true
+			hide_dependency_lines: true
 			id: "15777779AE0400E3"
 			tasks: [{
 				id: "126E49041133AFF7"
@@ -207,6 +227,21 @@
 			}]
 			x: -0.9d
 			y: 6.75d
+		}
+		{
+			dependencies: ["5E60FF6098CB030B"]
+			description: [""]
+			hide: true
+			hide_dependent_lines: true
+			id: "7A8A14D27F132A52"
+			tasks: [{
+				id: "4860757A9EC5DE03"
+				title: "&a&lUnlock&r&r"
+				type: "checkmark"
+			}]
+			title: "Chapter II"
+			x: -1.0d
+			y: -1.0d
 		}
 	]
 	title: "Chapter II: The Valve Machine"

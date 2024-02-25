@@ -34,6 +34,20 @@
 			x: 1.0d
 			y: 11.0d
 		}
+		{
+			alpha: 200
+			click: ""
+			color: 16672790
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: 1.0d
+			y: 0.5d
+		}
 	]
 	order_index: 7
 	quest_links: [ ]
@@ -56,6 +70,9 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
+			hide: true
+			hide_dependency_lines: true
 			id: "5F8B17F4A8CF47C7"
 			tasks: [{
 				id: "075E1F8A5CAED24C"
@@ -66,6 +83,9 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
+			hide: true
+			hide_dependency_lines: true
 			id: "2F520B59F10123D2"
 			tasks: [{
 				count: 4L
@@ -77,6 +97,9 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
+			hide: true
+			hide_dependency_lines: true
 			id: "778AEC1710A4E237"
 			tasks: [{
 				count: 2L
@@ -88,6 +111,9 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
+			hide: true
+			hide_dependency_lines: true
 			id: "08ED76082CFF1D16"
 			tasks: [{
 				count: 2L
@@ -99,6 +125,9 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
+			hide: true
+			hide_dependency_lines: true
 			id: "797DCA89A0B3FBB8"
 			tasks: [{
 				id: "5DBEA7A9720638BE"
@@ -109,6 +138,9 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
+			hide: true
+			hide_dependency_lines: true
 			id: "0D1A3BE5396104F7"
 			tasks: [{
 				count: 11L
@@ -121,23 +153,18 @@
 		}
 		{
 			dependencies: [
-				"23AAAAF53A58DE75"
-				"65C36850480E3CFB"
-				"214FA0AC03602688"
-				"39D793EF31699C8A"
-				"44B711E1B5B7B00E"
-				"4EE82272D412DB9C"
-				"2F520B59F10123D2"
-				"0D1A3BE5396104F7"
-				"08ED76082CFF1D16"
-				"778AEC1710A4E237"
 				"59753336427A57A6"
 				"797DCA89A0B3FBB8"
+				"2F520B59F10123D2"
+				"4EE82272D412DB9C"
+				"778AEC1710A4E237"
+				"08ED76082CFF1D16"
 				"2CCB9C223585FA23"
+				"0D1A3BE5396104F7"
+				"6CE8C3410296E977"
+				"086223FF8861479F"
 				"75BD9E93A6143DC7"
 				"72EC381A9B79EF64"
-				"086223FF8861479F"
-				"6CE8C3410296E977"
 			]
 			description: [
 				"You should bring multiple &ffull oxygen tanks&r, plentiful &ffood&r, &csoul torches&r or &eglowstone&r, &aweapons&r and &atools&r. Once you have this, you are ready to launch! Enter the &erocket&r and press &aSpace&r!&r"
@@ -172,14 +199,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"23AAAAF53A58DE75"
-				"65C36850480E3CFB"
-				"214FA0AC03602688"
-				"39D793EF31699C8A"
-				"44B711E1B5B7B00E"
-				"7148FF0A0F2F9890"
-			]
+			dependencies: ["7148FF0A0F2F9890"]
 			id: "47A6ACAA667AD14A"
 			shape: "rsquare"
 			size: 2.0d
@@ -192,6 +212,9 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
+			hide: true
+			hide_dependency_lines: true
 			id: "2CCB9C223585FA23"
 			tasks: [{
 				id: "1E4A4A70072E9777"
@@ -202,6 +225,10 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
+			dependency_requirement: "one_completed"
+			hide: true
+			hide_dependency_lines: true
 			id: "4EE82272D412DB9C"
 			tasks: [{
 				count: 2L
@@ -213,11 +240,14 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
 			description: [
 				"A Rocket needs something to launch off of, so we'll need to make a &aLaunch Pad&r."
 				""
 				"To use it, place it down wherever you want to launch from with a clear view of the sky. Once you have a Rocket, you can place it down in the middle of the Launch Pad."
 			]
+			hide: true
+			hide_dependency_lines: true
 			id: "75BD9E93A6143DC7"
 			tasks: [{
 				id: "420BD0F655854B7A"
@@ -228,6 +258,9 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
+			hide: true
+			hide_dependency_lines: true
 			id: "72EC381A9B79EF64"
 			tasks: [{
 				id: "37B838D2ABF21CC5"
@@ -238,11 +271,13 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
 			description: [
 				"If you're planning on going to space, you better believe that you need a new set of gear for the journey."
 				""
 				"You'll need to make a full &aSpace Suit&r for your first trip, which will be to the &bMoon&r. Come to find out, the Moon is kind of cold and lacks Oxygen. Without a Suit, you won't last long. :)"
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "086223FF8861479F"
 			rewards: [{
@@ -302,6 +337,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["228EEF29E73F945C"]
 			description: [
 				"Fun Fact: You cannot breathe on the Moon without &bOxygen&r. Actually, you can't breathe anywhere without Oxygen. Guess what the Moon doesn't have?"
 				""
@@ -311,6 +347,7 @@
 				""
 				"Pro Tip: It's always a good idea to have extra &bOxygen&r on hand... just in case."
 			]
+			hide: true
 			hide_dependency_lines: true
 			icon: "ad_astra:oxygen_loader"
 			id: "6CE8C3410296E977"
@@ -347,6 +384,7 @@
 				""
 				"These are prebuilt structures that serve as a mini-base in the galaxy. Home away from home kinda thing."
 			]
+			hide: true
 			icon: "ad_astra:space_painting"
 			id: "509BB6BF39848F5B"
 			optional: true
@@ -363,9 +401,10 @@
 		{
 			dependencies: [
 				"509BB6BF39848F5B"
-				"37D437BA68D6864C"
 				"29A64A556C101D83"
+				"37D437BA68D6864C"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"If you want to make a base outside of the Earth, you'll most likely need a way to get &bOxygen&r."
 				""
@@ -385,7 +424,10 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["47A6ACAA667AD14A"]
 			description: ["Its power generation depends on the planet's distance from the &csun &6and &bfog&r. Because of this, it is more efficient to place &bsolar panels&r close to the &csun&r. &bsolar panels&r also produce more energy in &borbit&r, as there is no &catmosphere&r blocking the &dlight&r.&r"]
+			hide: true
+			hide_dependency_lines: true
 			id: "37D437BA68D6864C"
 			optional: true
 			rewards: [{
@@ -404,7 +446,10 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["47A6ACAA667AD14A"]
 			description: ["The &bwater pump&r is essential for keeping the &boxygen distributor&r running infinitely. To use it, place an &binfinite water source&r below, then place the &bwater pump&r above one of the water blocks, and then place the &boxygen distributor&r adjacent to it. Make sure to supply both the &bwater pump&r and the &boxygen distributor&r with sufficient &cpower&r.&r"]
+			hide: true
+			hide_dependency_lines: true
 			id: "29A64A556C101D83"
 			optional: true
 			rewards: [{
@@ -425,6 +470,7 @@
 			dependencies: ["47A6ACAA667AD14A"]
 			dependency_requirement: "one_completed"
 			description: ["The &6rover&r is a land vehicle capable of driving on the rough terrain of &emoons &6and &bplanets&r. It's &aexceptionally fast&r, has an &binventory &6capable of &astoring eight items &6and has &atwo seats &6for &cmultiple riders&r. To use it, fill the rover with &cfuel &6(&eshift-click&r and place &cfuel buckets &6in the &cleft input slot&r).&r"]
+			hide: true
 			id: "694646586C18C609"
 			optional: true
 			rewards: [
@@ -464,6 +510,20 @@
 			}]
 			x: 2.0d
 			y: 14.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			hide: true
+			hide_dependent_lines: true
+			id: "228EEF29E73F945C"
+			tasks: [{
+				id: "5C15893A2C4C953E"
+				title: "&a&lUnlock&r&r"
+				type: "checkmark"
+			}]
+			title: "Chapter VIII"
+			x: 1.0d
+			y: 1.5d
 		}
 	]
 	title: "Chapter VIII: Building The Rocket"

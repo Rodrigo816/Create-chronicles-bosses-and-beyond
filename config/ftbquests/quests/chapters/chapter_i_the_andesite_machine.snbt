@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "the_andesite_machine"
+	filename: "chapter_i_the_andesite_machine"
 	group: "5237AEA7260D740E"
 	icon: {
 		Count: 1b
@@ -11,13 +11,28 @@
 		}
 	}
 	id: "0459D6A74275DD3C"
+	images: [{
+		alpha: 200
+		click: ""
+		color: 16672790
+		corner: false
+		dev: false
+		height: 1.2d
+		hover: [ ]
+		image: "chalk:block/mark/arrow"
+		rotation: 180.0d
+		width: 1.2d
+		x: 4.0d
+		y: -6.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["70780E7D20738714"]
+			dependencies: ["342BCE36CF749057"]
 			description: ["Begin your journey by harvesting the essence of nature: trees. Gather saplings to ensure a renewable source of wood."]
 			hide: true
+			hide_dependency_lines: true
 			icon: "twilightforest:time_sapling"
 			id: "12796FE2B6E3D53E"
 			tasks: [{
@@ -70,7 +85,7 @@
 		}
 		{
 			dependencies: ["0C58CBF1F4D636FC"]
-			description: ["Transform your logs into stripped logs using a &6sawing.&r Stripped logs are a step closer to"]
+			description: ["Transform your logs into stripped logs using an &6mechanical saw.&r"]
 			id: "5C5BBEA6E03836C7"
 			rewards: [
 				{
@@ -103,7 +118,7 @@
 		}
 		{
 			dependencies: ["5C5BBEA6E03836C7"]
-			description: ["Convert stripped logs into planks. "]
+			description: ["Convert the stripped logs into planks."]
 			id: "5D5914AC9E5722EF"
 			tasks: [{
 				id: "0472A7BE9E04C326"
@@ -122,7 +137,7 @@
 		}
 		{
 			dependencies: ["5D5914AC9E5722EF"]
-			description: ["Further refine planks into wooden slabs. Slabs offer a variety of building and crafting uses."]
+			description: ["Further refine the planks into wooden slabs. Slabs offer a variety of building and crafting uses."]
 			id: "507927EEC1417661"
 			tasks: [{
 				id: "7EDC0295D42294EE"
@@ -140,9 +155,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["70780E7D20738714"]
+			dependencies: ["342BCE36CF749057"]
 			description: [""]
 			hide: true
+			hide_dependency_lines: true
 			id: "6528F97D788A957A"
 			tasks: [{
 				id: "78AD80DDFB004EB4"
@@ -154,10 +170,11 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["70780E7D20738714"]
+			dependencies: ["342BCE36CF749057"]
 			description: [""]
-			hide: true
+			hide_dependency_lines: true
 			id: "72070D0355244B40"
+			invisible: true
 			tasks: [{
 				id: "61B23653DEBA1D46"
 				item: "minecraft:water_bucket"
@@ -242,9 +259,10 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["70780E7D20738714"]
+			dependencies: ["342BCE36CF749057"]
 			description: [""]
 			hide: true
+			hide_dependency_lines: true
 			id: "0BEFDBD8AC519539"
 			tasks: [{
 				id: "7C657F9C765B5184"
@@ -264,7 +282,6 @@
 		{
 			dependencies: ["5E60FF6098CB030B"]
 			description: ["Combine all your knowledge and resources to construct the pinnacle of this chapter: The Andesite Machine."]
-			hide: true
 			id: "3AEFFAED564130A6"
 			shape: "rsquare"
 			size: 1.5d
@@ -278,45 +295,43 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
 			description: [
 				"The start might be hard because there aren't many materials and machines, but keep going—your hard work will pay off. Remember, exploring is important."
 				""
-				"At first, the game might seem easy to just push through, but as you get further into the midgame chapters of this modpack, you'll find lots of challenges if you haven't automated things."
+				"As you progress further into chapters of this modpack, It'll become quite challenging if you don't automate things."
 				""
-				"A good tip is, if you find a way to make something automatically, you should do it."
+				"Tip: If you find a way to make something be automated, you should do it."
 				""
 				"Let's go on an adventure and build some amazing machines!"
 			]
 			hide_dependent_lines: true
-			id: "70780E7D20738714"
+			id: "342BCE36CF749057"
 			rewards: [
 				{
-					id: "41A10E127F8ED25B"
+					id: "503FF713551DE57F"
 					item: "create:wrench"
 					type: "item"
 				}
 				{
-					id: "621F36AC16133CA1"
-					item: "create:goggles"
+					count: 2
+					id: "551C7824C044FF34"
+					item: "create:mechanical_saw"
 					type: "item"
 				}
 				{
 					count: 10
-					id: "064050B1AB154932"
+					id: "34A85CE8EAFB3E78"
 					item: "create:andesite_alloy"
-					type: "item"
-				}
-				{
-					id: "1D7D9A18086332FA"
-					item: "create:mechanical_saw"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "5DD1E493A206BB4E"
-				title: "Lets get started!"
+				id: "7970E483F81A6425"
+				title: "&a&lUnlock&r&r"
 				type: "checkmark"
 			}]
+			title: "Lets get started!"
 			x: 4.0d
 			y: -5.5d
 		}

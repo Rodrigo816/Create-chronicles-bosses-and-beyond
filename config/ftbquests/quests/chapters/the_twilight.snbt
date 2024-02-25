@@ -5,15 +5,17 @@
 	group: "13742BAAC673A80E"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "7DA89DB49AC553E1"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["123D70CA4959F172"]
 			description: [
 				"Twilight forest is a mod thats centered in another dimension called the Twilight Forest. It has it's own progression system, and it starts by visiting the twilight forest dimension! "
 				""
 				"You can make a portal to the Twilight Forest by making a 2x2 hole in the ground, filling it with water, and surrounding it with flowers. Once that's done. Throw a single diamond into the water, and lightning will strike it, opening the portal to the Twilight Forest."
 			]
+			hide: true
 			id: "2F0F635C06E8D307"
 			shape: "square"
 			size: 1.7d
@@ -318,25 +320,9 @@
 			y: -0.5d
 		}
 		{
-			description: [
-				"And that's it! Sorry to disappoint, but this &emarks the end&r of progression in &dThe Twilight Forest&r at least for now. "
-				""
-				"I hope &2the quest rewards&r are worth it."
-			]
-			hide: true
+			dependencies: ["6186282EA9E837D8"]
+			description: ["And that's it! Sorry to disappoint, but this &emarks the end&r of progression in &dThe Twilight Forest&r at least for now. "]
 			id: "7CA4CDBFAA14FA9F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "68810C3343F00F4A"
-					type: "random"
-				}
-				{
-					id: "7BAC30692E91C4E2"
-					type: "xp"
-					xp: 10
-				}
-			]
 			shape: "square"
 			tasks: [{
 				advancement: "twilightforest:progress_thorns"
@@ -345,8 +331,8 @@
 				type: "advancement"
 			}]
 			title: "The End?"
-			x: 17.0d
-			y: -1.0d
+			x: 12.5d
+			y: -0.5d
 		}
 	]
 	title: "&2The Twilight Forest"

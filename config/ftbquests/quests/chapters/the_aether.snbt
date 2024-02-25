@@ -17,7 +17,7 @@
 		x: -23.0d
 		y: 1.0d
 	}]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -973,6 +973,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["123D70CA4959F172"]
 			description: [
 				"&6The Aether&r centers around a dimension high in the sky, filled with vast skylands of clouds and floating islands."
 				""
@@ -981,6 +982,7 @@
 				""
 				"You can make a portal to the &6The Aether&r by making portal with the same format as nether portal instead you use &cglowstone blocks&r, and &nuse water bucket to activate it&r."
 			]
+			hide: true
 			id: "4E43DC757C08068B"
 			shape: "square"
 			size: 1.7d

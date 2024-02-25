@@ -2,7 +2,7 @@
 	autofocus_id: "6F2EA0844769A10A"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "the_brass_machine"
+	filename: "chapter_ii_the_brass_machine"
 	group: "5237AEA7260D740E"
 	icon: {
 		Count: 1b
@@ -24,7 +24,7 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: -5.5d
-		y: 6.0d
+		y: 5.0d
 	}]
 	order_index: 2
 	quest_links: [ ]
@@ -119,6 +119,9 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["6E199DBC43B38B80"]
+			hide: true
+			hide_dependency_lines: true
 			id: "64A476C01D1C4742"
 			tasks: [{
 				id: "216750237C1CED9A"
@@ -129,6 +132,9 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["6E199DBC43B38B80"]
+			hide: true
+			hide_dependency_lines: true
 			id: "1C5DFA2AD6DEE1B2"
 			tasks: [{
 				id: "14FB44DA4AE233C3"
@@ -139,6 +145,10 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["6E199DBC43B38B80"]
+			dependency_requirement: "one_started"
+			hide: true
+			hide_dependency_lines: true
 			id: "05836C34CD66A56F"
 			tasks: [{
 				id: "646DC6DDBF1F97D5"
@@ -149,7 +159,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["6E199DBC43B38B80"]
+			hide: true
+			hide_dependency_lines: true
 			id: "671ABB3F4DDF8A89"
+			optional: true
 			tasks: [{
 				id: "640776C3CFE97667"
 				item: "minecraft:sand"
@@ -175,8 +189,8 @@
 		{
 			dependencies: ["2BBB5E496BBD52C5"]
 			dependency_requirement: "one_started"
-			hide: false
 			id: "201291E8B8D4FE73"
+			optional: true
 			tasks: [{
 				id: "3A67FE794B73D10B"
 				item: "minecraft:quartz"
@@ -211,6 +225,9 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["6E199DBC43B38B80"]
+			hide: true
+			hide_dependency_lines: true
 			id: "555CE8F6001EF8E7"
 			tasks: [{
 				id: "5813632ADCCD6073"
@@ -221,6 +238,9 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["6E199DBC43B38B80"]
+			hide: true
+			hide_dependency_lines: true
 			id: "14ADA913C53709AE"
 			tasks: [{
 				id: "1E1B0C8BEDA1BE1A"
@@ -242,6 +262,9 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["6E199DBC43B38B80"]
+			hide: true
+			hide_dependency_lines: true
 			id: "5167DEF3903D6CFD"
 			tasks: [{
 				id: "0BBE8417B8A3BE92"
@@ -268,6 +291,9 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["6E199DBC43B38B80"]
+			hide: true
+			hide_dependency_lines: true
 			id: "70FE285006F6632F"
 			optional: true
 			tasks: [{
@@ -291,6 +317,9 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["6E199DBC43B38B80"]
+			hide: true
+			hide_dependency_lines: true
 			id: "7A50893172D43878"
 			optional: true
 			tasks: [{
@@ -303,12 +332,9 @@
 		}
 		{
 			dependencies: [
-				"0BEFDBD8AC519539"
-				"507927EEC1417661"
-				"43D6EC530F7F1126"
+				"7F75BF2B511A2B14"
 				"701883FE5E3CF381"
 				"1BAF2EB40FE08B25"
-				"7F75BF2B511A2B14"
 			]
 			description: [""]
 			id: "6F2EA0844769A10A"
@@ -323,6 +349,9 @@
 			y: 14.25d
 		}
 		{
+			dependencies: ["6E199DBC43B38B80"]
+			hide: true
+			hide_dependency_lines: true
 			id: "588F642CD467FC64"
 			tasks: [{
 				id: "3F040CE86620F08A"
@@ -372,6 +401,9 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["6E199DBC43B38B80"]
+			hide: true
+			hide_dependency_lines: true
 			id: "7F75BF2B511A2B14"
 			tasks: [{
 				id: "22D8338B1C8A2FB8"
@@ -397,6 +429,20 @@
 			}]
 			x: 1.5d
 			y: 14.3d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			hide: true
+			hide_dependent_lines: true
+			id: "6E199DBC43B38B80"
+			tasks: [{
+				id: "2BF4CFEE9EC8FE58"
+				title: "&a&lUnlock&r&r"
+				type: "checkmark"
+			}]
+			title: "Chapter III"
+			x: -5.5d
+			y: 6.0d
 		}
 	]
 	title: "Chapter III: The Precision Machine"

@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "oil"
+	filename: "chapter_v_steel_mechanism"
 	group: "5237AEA7260D740E"
 	icon: {
 		Count: 1b
@@ -23,7 +23,7 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: 2.5d
-		y: -7.5d
+		y: -10.5d
 	}]
 	order_index: 4
 	quest_links: [ ]
@@ -185,6 +185,9 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2458D182A8FD4612"]
+			hide: true
+			hide_dependency_lines: true
 			id: "6AD87BACD480D27B"
 			optional: true
 			tasks: [{
@@ -196,6 +199,9 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["2458D182A8FD4612"]
+			hide: true
+			hide_dependency_lines: true
 			id: "0D2D729534CC797F"
 			tasks: [{
 				id: "474A4F8B2096CDA0"
@@ -326,6 +332,9 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["2458D182A8FD4612"]
+			hide: true
+			hide_dependency_lines: true
 			id: "46E5565D623C0AC8"
 			tasks: [
 				{
@@ -446,7 +455,10 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["2458D182A8FD4612"]
 			dependency_requirement: "one_completed"
+			hide: true
+			hide_dependency_lines: true
 			id: "409394CEF9087E88"
 			optional: true
 			progression_mode: "linear"
@@ -460,10 +472,7 @@
 			y: -10.0d
 		}
 		{
-			dependencies: [
-				"5F7A18E1DDDDD166"
-				"409394CEF9087E88"
-			]
+			dependencies: ["409394CEF9087E88"]
 			id: "3E42FEEFBC22F7D3"
 			tasks: [{
 				id: "18DF3371A3B988F5"
@@ -474,6 +483,9 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["2458D182A8FD4612"]
+			hide: true
+			hide_dependency_lines: true
 			id: "7682212B86FC5B85"
 			tasks: [{
 				id: "16513AA213DA6D0F"
@@ -499,6 +511,9 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["2458D182A8FD4612"]
+			hide: true
+			hide_dependency_lines: true
 			id: "1DBA19EB422182AF"
 			optional: true
 			tasks: [{
@@ -510,6 +525,9 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["2458D182A8FD4612"]
+			hide: true
+			hide_dependency_lines: true
 			id: "184B9A5F983FA7A5"
 			optional: true
 			tasks: [{
@@ -519,6 +537,20 @@
 			}]
 			x: -3.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			hide: true
+			hide_dependent_lines: true
+			id: "2458D182A8FD4612"
+			tasks: [{
+				id: "6EDDD25CFFFB17BE"
+				title: "&a&lUnlock&r&r"
+				type: "checkmark"
+			}]
+			title: "Chapter V"
+			x: 2.5d
+			y: -9.5d
 		}
 	]
 	title: "Chapter V: Steel Mechanism"

@@ -5,10 +5,11 @@
 	group: "13742BAAC673A80E"
 	icon: "blue_skies:everbright_portal"
 	id: "7739373308A83503"
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["123D70CA4959F172"]
 			dependency_requirement: "one_completed"
 			description: [
 				"Somewhere in the Overworld, you'll find two simple homes."
@@ -21,6 +22,7 @@
 				""
 				"Acquire the &9Blue Journal&r. You'll also need the Zeal Lighter in the next quest. "
 			]
+			hide: true
 			icon: "blue_skies:blue_journal"
 			id: "198EB5AE0E18E6C3"
 			rewards: [{

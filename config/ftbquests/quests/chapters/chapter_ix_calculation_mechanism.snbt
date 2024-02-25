@@ -23,7 +23,7 @@
 		rotation: 180.0d
 		width: 1.2d
 		x: 9.0d
-		y: 4.0d
+		y: 2.5d
 	}]
 	order_index: 8
 	quest_links: [ ]
@@ -55,6 +55,9 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "496C8280CF77787E"
 			tasks: [{
 				id: "66D70BAD34C8F7C8"
@@ -76,6 +79,9 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "55E6E99D3CEF6003"
 			tasks: [{
 				id: "240B70F3F042F90B"
@@ -122,6 +128,9 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "1548E2F07EAD637F"
 			tasks: [{
 				id: "20B6510DAE38FB28"
@@ -173,6 +182,9 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "4ECA82782988ACB9"
 			tasks: [{
 				id: "2FF67EE486C50647"
@@ -258,6 +270,9 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "34ADDB9018231BCA"
 			tasks: [{
 				id: "0E04F45CEA4D5CD1"
@@ -934,6 +949,9 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "582E68291A96A9E7"
 			tasks: [{
 				id: "75C843ADAA77974C"
@@ -944,6 +962,9 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "73D579268007A8C7"
 			tasks: [{
 				id: "385736B84922A6AE"
@@ -954,6 +975,9 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "3F0E651F191CD81F"
 			tasks: [{
 				id: "7EF38417438E1FF9"
@@ -964,6 +988,9 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "2A0B07555EC8D47E"
 			tasks: [{
 				id: "5B09A686F862388E"
@@ -974,6 +1001,9 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "08277642FD16A56E"
 			tasks: [{
 				id: "4FD7822593A67917"
@@ -984,6 +1014,9 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "44A8B31CD719B906"
 			tasks: [{
 				id: "52A48E3C059C1B04"
@@ -994,6 +1027,9 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "137CC533B864B25F"
 			tasks: [{
 				id: "69C1DB59CCC51C37"
@@ -1004,6 +1040,9 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "32CEB5F5DA7E08E5"
 			tasks: [{
 				id: "7054C30FB69EE656"
@@ -1014,6 +1053,9 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "4A5C011878F7BB63"
 			tasks: [{
 				id: "30AF44076DFD1A95"
@@ -1043,6 +1085,9 @@
 			y: 24.75d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "05629E7F780A315D"
 			tasks: [{
 				id: "520D2465D9DFBE98"
@@ -1053,6 +1098,9 @@
 			y: 22.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "64D7956A3E6681A5"
 			subtitle: "You already know how to make sulfur don't you?"
 			tasks: [{
@@ -1064,6 +1112,9 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "41444693F75F309B"
 			tasks: [{
 				id: "283AF6FEDF5B847B"
@@ -1085,6 +1136,9 @@
 			y: 22.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "6B99D6C0A6FBA697"
 			tasks: [{
 				id: "6D9E555894A11931"
@@ -1095,6 +1149,9 @@
 			y: 22.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "47CF120182269404"
 			tasks: [{
 				id: "28BA547D448A24AF"
@@ -1152,6 +1209,9 @@
 			y: 24.75d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "03BCAD5BFB9DA32C"
 			tasks: [{
 				id: "5E64A82FB4957579"
@@ -1162,6 +1222,9 @@
 			y: 22.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "11E236BCD6DE38E5"
 			tasks: [{
 				id: "165936F2048149CD"
@@ -1172,6 +1235,9 @@
 			y: 22.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "535537D880A5C63B"
 			tasks: [{
 				id: "5AB0612FEF5AE99B"
@@ -1182,6 +1248,9 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "683BD9B4E6116735"
 			tasks: [{
 				id: "2C8F375875B5B36E"
@@ -1203,6 +1272,9 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "53EC81CE0F98EB86"
 			tasks: [{
 				id: "171C84B8345DEB30"
@@ -1213,6 +1285,9 @@
 			y: 22.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "16952288925225D2"
 			tasks: [{
 				id: "629C25C840876A1E"
@@ -1223,6 +1298,9 @@
 			y: 21.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "3C0427C75D2CA7F2"
 			tasks: [{
 				id: "6191970DCA37E67C"
@@ -1233,6 +1311,9 @@
 			y: 21.0d
 		}
 		{
+			dependencies: ["400D81B5BFFE8BA8"]
+			hide: true
+			hide_dependency_lines: true
 			id: "66C6FAD9FBDE1094"
 			tasks: [{
 				id: "1392265BED6C0B9C"
@@ -1241,6 +1322,20 @@
 			}]
 			x: 29.0d
 			y: 22.0d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			hide: true
+			hide_dependent_lines: true
+			id: "400D81B5BFFE8BA8"
+			tasks: [{
+				id: "34F378967ED6CE54"
+				title: "&a&lUnlock&r&r"
+				type: "checkmark"
+			}]
+			title: "Chapter IX"
+			x: 9.0d
+			y: 3.5d
 		}
 	]
 	title: "Chapter IX: Calculation Mechanism"

@@ -86,7 +86,6 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["2E3B821A8A402B3E"]
 			description: [
 				"&lGreetings, intrepid explorer!&r You've embarked on a grand journey in a realm where creativity meets adventure, where the gears of automation intertwine with the mysteries of magic. Welcome to a world brimming with possibilities!"
 				""
@@ -123,7 +122,7 @@
 			subtitle: "Hello and welcome to &6Create Chronicles:Bosses and Beyond!&r"
 			tasks: [{
 				id: "184D02801FC28C38"
-				title: "Click to Acknowledge"
+				title: "&l&6Unlock Chapter 1"
 				type: "checkmark"
 			}]
 			title: "&9Welcome!"

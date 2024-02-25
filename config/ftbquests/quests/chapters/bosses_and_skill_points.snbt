@@ -47,6 +47,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [
 				"In Minecraft's depths, the Remnant, last of the ancient dinosaurs, slumbers. Awakened by players, this colossal creature challenges them in a monumental battle, symbolizing a lost era. "
 				""
@@ -67,6 +71,10 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["Found in the &2Suken City&r, use an &dAbyssal Sacrifice&r on the Abyssal Altar to summon the creature."]
 			icon: "cataclysm:abyss_eye"
 			id: "681E9EE350CD6791"
@@ -83,6 +91,10 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["In the End's desolate expanse, stands the Ender Guardian Golem, a formidable sentinel crafted by the Endermen to protect their realm. Imbued with mysterious powers, it fiercely defends the End's secrets against any intruder."]
 			icon: "cataclysm:void_eye"
 			id: "6AC1E375CA7DA676"
@@ -99,6 +111,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [
 				"Found at the last floor of the &2Burning Arena&r. Use &8burning ashes&r dropped from Ignited Revenant into the Altar of Fire"
 				""
@@ -119,6 +135,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			id: "09D25A60964E517F"
 			shape: "square"
 			subtitle: "You can craft an eye of netherite monstrosity to locate the structure"
@@ -134,6 +154,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [
 				"Found in the &2Ancient Factory&r deep in the overworld."
 				""
@@ -154,6 +178,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			id: "17061F6E53B6A809"
 			tasks: [{
 				id: "16E86001B9AFED33"
@@ -164,6 +192,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			id: "0C14F69B100527C1"
 			subtitle: "What does it do in contact with the void ?"
 			tasks: [{
@@ -175,6 +207,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			id: "7696990D3ED40A1B"
 			subtitle: "Obtain the Void Worm eye by killing the Void Worm"
 			tasks: [{
@@ -186,6 +222,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			id: "150D9233D297B9DA"
 			rewards: [{
 				id: "0D3D422D620E6C5F"
@@ -205,6 +245,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [
 				"Upon discovering the enigmatic boss structure, place an Eye of Ender on the altar to awaken the formidable presence within."
 				""
@@ -227,6 +271,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [""]
 			id: "342B9E3297CC4309"
 			shape: "square"
@@ -243,6 +291,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [
 				"The Night Lich, a sinister entity, reigns over colder biomes of the Overworld from its eerie Lich Tower. "
 				""
@@ -272,6 +324,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["The Gauntlet is located in rare structures at the Nether."]
 			id: "35E095FC517735B1"
 			shape: "square"
@@ -287,6 +343,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [
 				"The &0Wither&r is really tough to beat because it can fly, move quickly, and explodes a lot. You know what I mean."
 				""
@@ -308,6 +368,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [
 				"The &2Warden&r is blind! It can only find you if it hears you, so either fly around or sneak!"
 				""
@@ -335,6 +399,10 @@
 		}
 		{
 			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["Stymphalian birds are found in swamps. They fly around in groups and will rain down sharp feathers on any mobs they see."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -356,6 +424,10 @@
 		}
 		{
 			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [
 				"Cyclops can be found in caves around beaches, or wandering the world with sheep."
 				""
@@ -386,6 +458,10 @@
 		}
 		{
 			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["Sirens can be found in the ocean, perched upon stone outcrops. They'll lure anyone who get to close in with their sweet song."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -407,6 +483,10 @@
 		}
 		{
 			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["Hydras can be found in dirt caves protruding from swamps. They're formiddible foes that use venom, and the only way to kill them without letting them heal is using fire."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -428,6 +508,10 @@
 		}
 		{
 			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["Pixies can be found in dark oak forests, roaming around their small villages. They'll steal items from anyone who gets close and fly away with it."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -449,6 +533,10 @@
 		}
 		{
 			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["Sea Serpents are formidable foes that can be found in oceans throughout the world. They have a deadly bite and a powerful water blast attack."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -468,6 +556,10 @@
 			y: 8.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["Use Transmuting Elixer on an infernal Evil Pumpkin."]
 			icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
 			id: "03A47AAF2D751796"
@@ -483,6 +575,10 @@
 			y: 5.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["Lightning dragons can be found in the overworld or undergound in certain warm biomes: badlands, savanna. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
 			icon: {
 				Count: 1b
@@ -505,6 +601,10 @@
 			y: 5.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["Ice dragons can be found in the overworld or undergound in cold biomes. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
 			icon: {
 				Count: 1b
@@ -527,6 +627,10 @@
 			y: 5.0d
 		}
 		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: ["Fire dragons can be found in the overworld or undergound in warm biomes. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
 			icon: {
 				Count: 1b
@@ -549,6 +653,10 @@
 		}
 		{
 			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [""]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -574,6 +682,10 @@
 		}
 		{
 			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [""]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -599,6 +711,10 @@
 		}
 		{
 			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [""]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -624,6 +740,10 @@
 		}
 		{
 			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [""]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -643,6 +763,10 @@
 		}
 		{
 			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
 			description: [""]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -665,6 +789,45 @@
 			title: "&2Overworld&f: Amphithere"
 			x: -6.0d
 			y: 8.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "iceandfire:troll_skull"
+			id: "1008B11B672BCD38"
+			shape: "square"
+			subtitle: "This unique item can be discovered in the shadows of dark caves. Once brought into the sunlight, it undergoes a stunning transformation, revealing its true beauty."
+			tasks: [{
+				entity: "iceandfire:troll"
+				id: "532ADB024E2B85FE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Troll"
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			hide: true
+			hide_dependent_lines: true
+			id: "1BF8821D14DB607D"
+			tasks: [{
+				id: "3A782FA19D6C62C5"
+				title: "&a&lUnlock&r&r"
+				type: "checkmark"
+			}]
+			title: "Bosses"
+			x: -3.5d
+			y: -2.5d
 		}
 	]
 	title: "&9&l Bosses and Skill Points"
