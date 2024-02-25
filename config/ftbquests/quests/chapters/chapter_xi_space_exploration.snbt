@@ -604,7 +604,6 @@
 			y: 17.5d
 		}
 		{
-			dependencies: ["3D2DDC65DED45F4A"]
 			hide: true
 			hide_dependent_lines: true
 			id: "6BADF9AAB7413162"
