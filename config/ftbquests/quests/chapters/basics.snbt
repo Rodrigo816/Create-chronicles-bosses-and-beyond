@@ -2362,13 +2362,27 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			dependency_requirement: "one_completed"
+			description: [
+				"You're able to claim chunks to protect your base(s). "
+				""
+				"Open your inventory with &3\"e\"&r key and click on the map icon that is located top left in your inventory that says &bFTB Chunks Claimed Manager&r."
+				""
+				"Here yo can freely claim available chunks by just drawing on the map with your mouse."
+				""
+				"To unclmaim a chunk you do the opposite, just draw but hold right click instead."
+				""
+				"For force loading chunks hold &a'leftshift'&r"
+			]
+			icon: "twilightforest:ore_map"
 			id: "2E3B821A8A402B3E"
 			tasks: [{
-				id: "30301B61C261D6B7"
-				item: "minecraft:birch_planks"
-				type: "item"
+				id: "5A0FD6D40314D526"
+				title: "Click to Acknowledge"
+				type: "checkmark"
 			}]
-			title: "Mulriplayer: Chunk Claiming"
+			title: "&6Multiplayer:&r Chunk Claiming"
 			x: -21.0d
 			y: 16.0d
 		}
