@@ -18,8 +18,11 @@ config/oculus.properties
 config/oculus.properties
 modernfix
 fancymenu_data
+hs_err*
 
 # files
 .curseclient
 usernamecache.json
 usercache.json
+minecraftinstance.json
+emi.json
