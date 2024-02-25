@@ -459,6 +459,11 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [
+				"&6Rings of Ascension&r is a mod that uses the Curios API to add 20+ new rings to your minecraft. Each ring has its own special effect that is activated when the ring is equipped."
+				""
+				"Rings from this mod don't have a recipe and can only be found in specific locations."
+			]
 			hide: true
 			hide_dependent_lines: true
 			id: "02D862B43F90699D"
@@ -467,6 +472,7 @@
 				title: "&a&lUnlock&r&r"
 				type: "checkmark"
 			}]
+			title: "Rings of Ascension"
 			x: 0.0d
 			y: -0.5d
 		}

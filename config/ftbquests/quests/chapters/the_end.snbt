@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "the_end"
 	group: "13742BAAC673A80E"
@@ -24,6 +24,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["Pirates say it gave sight to the legendary Black Pearl"]
 			id: "1E4B9F8A3401B4BF"
+			progression_mode: "flexible"
 			subtitle: "Found in Buried Chests"
 			tasks: [{
 				id: "1A729831B2C6D804"
@@ -43,6 +44,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world"]
 			id: "37F39A63C0C2934F"
+			progression_mode: "flexible"
 			subtitle: "Found in Igloos"
 			tasks: [{
 				id: "3C6A1B486768BB94"
@@ -62,6 +64,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owner"]
 			id: "02DE3FA28CBAE857"
+			progression_mode: "flexible"
 			subtitle: "Found in Pillager Outposts"
 			tasks: [{
 				id: "1EBBF31125F4D187"
@@ -81,6 +84,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["It is told that it was forged by the first blacksmiths of time"]
 			id: "3BC1492D43F6B120"
+			progression_mode: "flexible"
 			subtitle: "Found in Mineshafts"
 			tasks: [{
 				id: "74DD9F7281936F2E"
@@ -100,6 +104,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["It was lost by a demon in the battle between the Aether and the Nether"]
 			id: "1F4AE081014800B4"
+			progression_mode: "flexible"
 			subtitle: "Found in Nether Fortresses"
 			tasks: [{
 				id: "2EBD7434762970D0"
@@ -120,6 +125,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["Legends say this eye once belonged to one of the great Sandworms"]
 			id: "22E0846B96BBD5DD"
+			progression_mode: "flexible"
 			subtitle: "Found in Desert Pyramids"
 			tasks: [{
 				id: "20C9F4D0C3D85835"
@@ -139,6 +145,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["This eye is believed to have given our ancestors the knowledge of Redstone"]
 			id: "50B4EEBAF5CF3122"
+			progression_mode: "flexible"
 			subtitle: "Found in Jungle Pyramids"
 			tasks: [{
 				id: "6B27D02922CBE257"
@@ -158,6 +165,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["A powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives"]
 			id: "5EC521DA8FF06758"
+			progression_mode: "flexible"
 			subtitle: "Found in Bastions treasure chest"
 			tasks: [{
 				id: "2560EE369A9298B7"
@@ -177,6 +185,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["A holy talisman said to protect its owner from bad luck"]
 			id: "0C61389C18B4A2B4"
+			progression_mode: "flexible"
 			subtitle: "Buy it from a master cleric"
 			tasks: [{
 				id: "0EED6B0CA7E5C945"
@@ -196,6 +205,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["It has seen many warriors drown into the depths of the sea"]
 			id: "763F1FB0C55F702F"
+			progression_mode: "flexible"
 			subtitle: "Get it by Killing Elder Guardian"
 			tasks: [{
 				id: "0851A0649877E349"
@@ -215,6 +225,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["Without this eye, the Evoker has no power"]
 			id: "0A6EBBE5CD80EF14"
+			progression_mode: "flexible"
 			subtitle: "Dropped by Evokers"
 			tasks: [{
 				id: "0C82B40849F15F55"
@@ -234,6 +245,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["Has witnessed destruction. Maybe it also witnessed your stuff disappear"]
 			id: "33EF47DF16D412B5"
+			progression_mode: "flexible"
 			subtitle: "Dropped by The Wither"
 			tasks: [{
 				id: "287BB9E7276751F7"
@@ -253,6 +265,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["This pupil is believed to have seen the ancient brewing recipes that were lost in time."]
 			id: "343AB719F81DFC63"
+			progression_mode: "flexible"
 			subtitle: " Craft it using the witch pupil"
 			tasks: [{
 				id: "7DA4E17AB988FAD8"
@@ -272,6 +285,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["Remembrance of the past lives of those who live in death"]
 			id: "401C9B25D2B7B49F"
+			progression_mode: "flexible"
 			subtitle: " Craft it using an Undead Soul"
 			tasks: [{
 				id: "20A121DA1AC34CD3"
@@ -291,6 +305,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying"]
 			id: "63A35C0C01372EB6"
+			progression_mode: "flexible"
 			subtitle: "Craft it using aquatic items"
 			tasks: [{
 				id: "4542CE1355D29B3B"
@@ -310,6 +325,7 @@
 			dependencies: ["5B9C1D10A217657D"]
 			description: ["No information about this eye"]
 			id: "1C89D285F0501472"
+			progression_mode: "flexible"
 			subtitle: "ave a small chance to get it when enchanting"
 			tasks: [{
 				id: "6D134B2D3A3BE8AA"

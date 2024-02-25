@@ -795,6 +795,15 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [
+				"&6&lArtifacts&r&r is a mod which aims to make exploration more rewarding by adding various powerful items that cannot be crafted."
+				""
+				"The items added by this mod can be found in chests in vanilla structures."
+				""
+				"All artifacts only have a few chests in which they can be found, so go out and explore! Additionally, a new underground campsite structure has been added. "
+				""
+				"&5Mimics&r occasionally spawn in these campsites instead of a chests, which are dangerous enemies that attack players that get too close. Mimics always drop a random artifact when killed."
+			]
 			hide: true
 			hide_dependent_lines: true
 			id: "4AF4761B0AFB7813"
@@ -804,6 +813,7 @@
 				title: "&a&lUnlock&r&r"
 				type: "checkmark"
 			}]
+			title: "Artifacts"
 			x: -2.0d
 			y: -6.0d
 		}
