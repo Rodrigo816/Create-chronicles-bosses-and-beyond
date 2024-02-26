@@ -95,9 +95,9 @@
 	#Lava bomb's Radius
 	#Range: 1 ~ 7
 	Lavabombradius = 6
-	#Amethyst Cluster's 
+	#Amethyst Cluster's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Amethyst Cluster Damage" =30.0
+	"Amethyst Cluster Damage" = 30.0
 	#Sandstorm's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Sandstorm Damage" = 20.0

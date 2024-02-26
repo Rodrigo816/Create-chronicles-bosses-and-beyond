@@ -1,0 +1,30 @@
+{
+    "structures": [
+        {
+            "structure": "totw_modded:regular",
+            "weight": 1
+        },
+        {
+            "structure": "totw_modded:desert",
+            "weight": 1
+        },
+        {
+            "structure": "totw_modded:ice",
+            "weight": 1
+        },
+        {
+            "structure": "totw_modded:jungle",
+            "weight": 1
+        },
+        {
+            "structure": "totw_modded:badlands",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 75,
+        "separation": 35,
+        "salt": 1689777
+    }
+}

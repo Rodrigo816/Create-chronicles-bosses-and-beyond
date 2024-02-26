@@ -243,13 +243,9 @@
 				"072DA448D144179C"
 				"1BF8821D14DB607D"
 			]
+			description: ["mini-boss"]
 			id: "150D9233D297B9DA"
-			rewards: [{
-				id: "0D3D422D620E6C5F"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
-			subtitle: "Giga fly"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
 				entity: "alexsmobs:warped_mosco"
 				icon: "alexsmobs:spawn_egg_warped_mosco"
@@ -595,7 +591,7 @@
 			}]
 			title: "&2Overworld&f: Lord Pumpkinhead"
 			x: 1.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -889,8 +885,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Corrupted Champion"
-			x: 4.5d
-			y: 4.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			description: [
@@ -981,8 +977,77 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Amethyst Crab"
-			x: 2.0d
+			x: 1.0d
 			y: 6.0d
+		}
+		{
+			description: ["Forlorn in alex caves"]
+			icon: "alexscaves:forsaken_idol"
+			id: "11DB96D8FC52617B"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:forsaken_idol"
+				id: "7680DB76B6492D9D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Forsaken"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			description: ["Abyssal chasm in alex caves"]
+			icon: {
+				Count: 1b
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "alexscaves:hullbreaker"
+					}
+				}
+			}
+			id: "0346F78CE4B0F393"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: {
+					Count: 1b
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "alexscaves:hullbreaker"
+						}
+					}
+				}
+				id: "29A9EF820B958D7F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Hullbreaker"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			description: ["Toxic caves in alex caves"]
+			icon: "alexscaves:tremorzilla_egg"
+			id: "138E94B1FC310502"
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:tremorzilla"
+				icon: "alexscaves:tremorzilla_egg"
+				id: "6BD72F4850C2B8AC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Tremorzilla"
+			x: 4.0d
+			y: 8.0d
 		}
 	]
 	title: "&9&l Bosses and Skill Points"

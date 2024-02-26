@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "irons_spellbooks:evoker_fort",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 684512,
+    "spacing": 100,
+    "separation": 70,
+    "type": "minecraft:random_spread"
+  }
+}
