@@ -94,7 +94,7 @@
 				""
 				"As you go through this big place full of challenges and cool things, finishing quests will give you XP and special items. Every step you take, every new thing you find makes your story even better."
 				""
-				"At the heart of our chronicles lies the art of &6Create automation&r. An odyssey of engineering divided into 10 meticulously crafted chapters. Each chapter is a new horizon in your quest for automation mastery, laying the foundation for you to build the most elaborate and awe-inspiring machines known to this world."
+				"At the heart of our chronicles lies the art of &6Create automation&r. An odyssey of engineering divided into 11 meticulously crafted chapters. Each chapter is a new horizon in your quest for automation mastery, laying the foundation for you to build the most elaborate and awe-inspiring machines known to this world."
 				""
 				"If you like the secret world of magic, don't worry—the magic mods are their own special place, not mixed up with the machine stuff. You can dive into magic and make your journey your own."
 				""
@@ -120,7 +120,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Hello and welcome to &6Create Chronicles:Bosses and Beyond!&r"
+			subtitle: "Hello and welcome to &6Create Chronicles: Bosses and Beyond!&r"
 			tasks: [{
 				id: "184D02801FC28C38"
 				title: "&l&6Unlock Chapter 1"
@@ -284,21 +284,24 @@
 			y: 21.5d
 		}
 		{
-			description: ["The Animal Dictionary"]
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"&bAlex's Mobs&r is a mod that adds 89 new mobs to Minecraft. All of these mobs fall into either two categories: most of them are real world creatures, like Grizzly Bears, Roadrunners, Orcas, etc; but some of them are purely fictional, like the Endergade and Bone Serpent. "
+				""
+				"All of these creatures fulfill a necessary purpose, and either have unique drops, mechanics or functions, as there are no purely aesthetic creatures. "
+				""
+				"&6The Animal Dictionary&r is a very basic guide and documentation of each creature added by the mod, and should provide insight into uses for each of the mobs or their drops."
+			]
 			icon: "alexsmobs:animal_dictionary"
 			id: "018D3C4DBED54803"
-			rewards: [{
-				id: "1441BCE04789140E"
+			subtitle: "New Animals"
+			tasks: [{
+				id: "15EDF99888160CC9"
 				item: "alexsmobs:animal_dictionary"
 				type: "item"
 			}]
-			subtitle: "New Animals"
-			tasks: [{
-				id: "24B8621B49565A08"
-				type: "checkmark"
-			}]
 			title: "Alex's Mobs"
-			x: -13.0d
+			x: -12.5d
 			y: 16.0d
 		}
 		{
@@ -472,7 +475,7 @@
 				type: "item"
 			}]
 			title: "Paraglider"
-			x: -14.0d
+			x: -13.5d
 			y: 16.0d
 		}
 		{
@@ -1000,9 +1003,7 @@
 			description: [
 				"This pack includes &e3 shaders packs&f."
 				""
-				"This is a highly customizable and performance friendly shader that you can enable through &aVideo Settings -> Shader Packs&f."
-				""
-				"We recomend usingSildur's Enchanced Default for performance and ComplementaryReimagined  for better visuals"
+				"By default comes with Sildur's Enchanced Default you can disable this going through &aVideo Settings -> Shader Packs&f."
 			]
 			icon: "create:goggles"
 			id: "6D382620BBC1E6C0"
@@ -1016,7 +1017,7 @@
 				title: "Click to Acknowledge"
 				type: "checkmark"
 			}]
-			title: "Optional Additions"
+			title: "Shaders"
 			x: -21.0d
 			y: 20.0d
 		}
@@ -1454,7 +1455,7 @@
 		{
 			dependencies: ["06267D7C266DE215"]
 			description: [
-				"When placed, the &9Mega Torch&r prevents all hostile mobs from naturally spawning in a 64 block radius."
+				"When placed, the &9Mega Torch&r prevents all hostile mobs from naturally spawning in a 86 block radius."
 				""
 				"Great for stopping hostile spawns in dark parts of your base!"
 			]
@@ -1637,11 +1638,18 @@
 			}]
 			shape: "rsquare"
 			size: 1.2d
-			tasks: [{
-				id: "69CC3EFC64B0D5F6"
-				item: "ars_nouveau:novice_spell_book"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "69CC3EFC64B0D5F6"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+				{
+					id: "2BDDEEDE78044DB7"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+			]
 			title: "&aGetting&r &dMagical I&r "
 			x: 2.0d
 			y: 16.0d
@@ -1917,7 +1925,11 @@
 		}
 		{
 			dependencies: ["06267D7C266DE215"]
-			description: ["The &0&kBlack Market&r&r is the ultimate testing ground for your ingenious Create automations. Here, you can exchange the fruits of your mechanical mastery for unique items &cnot found anywhere else&r."]
+			description: [
+				"The &0&kBlack Market&r&r is the ultimate testing ground for your ingenious Create automations. Here, you can exchange the fruits of your mechanical mastery for unique items &cnot found anywhere else&r."
+				""
+				"You can use a &9task screen&r and a &9task screen configurator&r to automate."
+			]
 			id: "21FB9D855FA9D2DF"
 			tasks: [{
 				id: "0D128D27E6FC641D"

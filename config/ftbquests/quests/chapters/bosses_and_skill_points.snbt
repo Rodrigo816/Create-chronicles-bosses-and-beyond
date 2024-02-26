@@ -54,6 +54,8 @@
 				"1BF8821D14DB607D"
 			]
 			description: [
+				"You can craft an eye of desert to locate the structure"
+				""
 				"In Minecraft's depths, the Remnant, last of the ancient dinosaurs, slumbers. Awakened by players, this colossal creature challenges them in a monumental battle, symbolizing a lost era. "
 				""
 				"Its defeat marks the end of a prehistoric legacy."
@@ -61,7 +63,7 @@
 			icon: "cataclysm:desert_eye"
 			id: "07C2D6E01B241F73"
 			shape: "square"
-			subtitle: "You can craft an eye of desert to locate the structure"
+			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
 				id: "312D9F500E45CDCC"
@@ -77,11 +79,15 @@
 				"072DA448D144179C"
 				"1BF8821D14DB607D"
 			]
-			description: ["Found in the &2Suken City&r, use an &dAbyssal Sacrifice&r on the Abyssal Altar to summon the creature."]
+			description: [
+				"You can craft an eye of abyss to locate the structure"
+				""
+				"Found in the &2Suken City&r, use an &dAbyssal Sacrifice&r on the Abyssal Altar to summon the creature."
+			]
 			icon: "cataclysm:abyss_eye"
 			id: "681E9EE350CD6791"
 			shape: "square"
-			subtitle: "You can craft an eye of abyss to locate the structure"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				id: "1C2969AF75334559"
@@ -97,11 +103,15 @@
 				"072DA448D144179C"
 				"1BF8821D14DB607D"
 			]
-			description: ["In the End's desolate expanse, stands the Ender Guardian Golem, a formidable sentinel crafted by the Endermen to protect their realm. Imbued with mysterious powers, it fiercely defends the End's secrets against any intruder."]
+			description: [
+				"You can craft an eye of the void to locate the structure."
+				""
+				"In the End's desolate expanse, stands the Ender Guardian Golem, a formidable sentinel crafted by the Endermen to protect their realm. Imbued with mysterious powers, it fiercely defends the End's secrets against any intruder."
+			]
 			icon: "cataclysm:void_eye"
 			id: "6AC1E375CA7DA676"
 			shape: "square"
-			subtitle: "You can craft an eye of the void to locate the structure"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				id: "35A1226A30729B1F"
@@ -110,7 +120,7 @@
 			}]
 			title: "&eEnd&f: Protector of the end"
 			x: 0.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -118,6 +128,8 @@
 				"1BF8821D14DB607D"
 			]
 			description: [
+				"You can craft a flame eye to locate the structure"
+				""
 				"Found at the last floor of the &2Burning Arena&r. Use &8burning ashes&r dropped from Ignited Revenant into the Altar of Fire"
 				""
 				"Not being able to be deafened by a single human"
@@ -125,7 +137,7 @@
 			icon: "cataclysm:flame_eye"
 			id: "40DD304B90046084"
 			shape: "square"
-			subtitle: "You can craft a flame eye to locate the structure"
+			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
 				entity: "cataclysm:ignis"
 				id: "20A6B8D66C22E1BC"
@@ -141,9 +153,10 @@
 				"072DA448D144179C"
 				"1BF8821D14DB607D"
 			]
+			description: ["You can craft an eye of netherite monstrosity to locate the structure"]
 			id: "09D25A60964E517F"
 			shape: "square"
-			subtitle: "You can craft an eye of netherite monstrosity to locate the structure"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:monstrous_eye"
@@ -153,7 +166,7 @@
 			}]
 			title: "&cNether&f: The Monstrosity of lava"
 			x: 1.0d
-			y: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -161,6 +174,8 @@
 				"1BF8821D14DB607D"
 			]
 			description: [
+				"You can craft an eye of mech to locate the structure"
+				""
 				"Found in the &2Ancient Factory&r deep in the overworld."
 				""
 				"Use a nether star to wake him up."
@@ -168,7 +183,7 @@
 			icon: "cataclysm:mech_eye"
 			id: "1A9BD3105BC4C13B"
 			shape: "square"
-			subtitle: "You can craft an eye of mech to locate the structure"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				id: "0253F7F29DE5086C"
@@ -176,8 +191,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Who needs to build one?"
-			x: 1.0d
-			y: 2.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -260,7 +275,7 @@
 			]
 			id: "065A5A976F0D8FF9"
 			shape: "square"
-			subtitle: "You cant mine it"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: "bosses_of_mass_destruction:obsidian_heart"
@@ -277,10 +292,10 @@
 				"072DA448D144179C"
 				"1BF8821D14DB607D"
 			]
-			description: [""]
+			description: ["You can use a void lily to track the boss structure."]
 			id: "342B9E3297CC4309"
 			shape: "square"
-			subtitle: "You can use a void lily to track the boss structure."
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				icon: "bosses_of_mass_destruction:void_lily"
@@ -301,11 +316,13 @@
 				"The Night Lich, a sinister entity, reigns over colder biomes of the Overworld from its eerie Lich Tower. "
 				""
 				"Veiled in darkness, it wields ancient, shadowy magic, casting long nights and terror upon those who dare approach its frost-enshrouded domain."
+				""
+				"Fight him preferably with flying powers."
 			]
 			icon: "bosses_of_mass_destruction:ancient_anima"
 			id: "2BA58FB09C99F20A"
 			shape: "square"
-			subtitle: "Fight him preferably with flying powers."
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:lich"
@@ -333,6 +350,7 @@
 			description: ["The Gauntlet is located in rare structures at the Nether."]
 			id: "35E095FC517735B1"
 			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: "bosses_of_mass_destruction:blazing_eye"
@@ -359,6 +377,7 @@
 			icon: "minecraft:nether_star"
 			id: "1D335FA02D1F86DD"
 			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
 				entity: "minecraft:wither"
 				id: "2D907589532D85C9"
@@ -366,8 +385,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Wither"
-			x: -7.0d
-			y: 1.0d
+			x: -8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -388,6 +407,7 @@
 			}
 			id: "079641D681493C48"
 			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "0DCD8A33E321FA0F"
@@ -575,7 +595,7 @@
 			}]
 			title: "&2Overworld&f: Lord Pumpkinhead"
 			x: 1.0d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -592,7 +612,7 @@
 			}
 			id: "496E8E6570D6FE17"
 			shape: "square"
-			subtitle: "I am the storm that is approaching"
+			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
 				entity: "iceandfire:lightning_dragon"
 				id: "73E1E3F465E1915A"
@@ -618,7 +638,7 @@
 			}
 			id: "485FA783FD36FB50"
 			shape: "square"
-			subtitle: "Winter is coming"
+			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
 				entity: "iceandfire:ice_dragon"
 				id: "1C57AF3602B65340"
@@ -644,6 +664,7 @@
 			}
 			id: "608ECD63B1EAC46B"
 			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
 				entity: "iceandfire:fire_dragon"
 				id: "00828F2360910CF8"
@@ -880,7 +901,7 @@
 			icon: "chipped:anguished_carved_pumpkin"
 			id: "02E628FD58B3D4C7"
 			shape: "square"
-			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
 				entity: "born_in_chaos_v1:sir_pumpkinhead"
 				icon: "chipped:anguished_carved_pumpkin"
@@ -889,8 +910,79 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Sir Pumpkinhead"
-			x: -0.5d
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			description: ["mini-boss"]
+			icon: {
+				Count: 1b
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "cataclysm:ender_golem"
+					}
+				}
+			}
+			id: "376DD4B56039898B"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: {
+					Count: 1b
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "cataclysm:ender_golem"
+						}
+					}
+				}
+				id: "3A353CC73BA204C3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eEnd&f: Ender Golem"
+			x: 1.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"072DA448D144179C"
+				"1BF8821D14DB607D"
+			]
+			description: ["mini-boss"]
+			icon: "cataclysm:the_prowler_spawn_egg"
+			id: "186D1014F748B001"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				id: "5058F5131FFDC6DE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: The Prowler"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: ["mini-boss"]
+			icon: "cataclysm:amethyst_crab_spawn_egg"
+			id: "188968771B831DCE"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				id: "7ACEBCB47E3AD999"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Amethyst Crab"
+			x: 2.0d
+			y: 6.0d
 		}
 	]
 	title: "&9&l Bosses and Skill Points"
