@@ -1,6 +1,0 @@
-{
-    "type": "forge:add_features",
-    "biomes": "#minecraft:is_overworld",
-    "features": ["molten_vents:asurine_vent", "molten_vents:veridium_vent", "molten_vents:crimsite_vent", "molten_vents:ochrum_vent", "molten_vents:scorchia_vent", "molten_vents:scoria_vent"],
-    "step": "vegetal_decoration"
-  }
