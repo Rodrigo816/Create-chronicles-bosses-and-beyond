@@ -1144,7 +1144,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["05B32DE12868C6DE"]
+			dependencies: ["21FB9D855FA9D2DF"]
 			description: ["Thanks to a mod, the &aTotem of Undying&f can now be equipped in a &etrinket slot&f. This means you can keep your shield in your offhand and not fear death as long as it's equipped."]
 			id: "68623EA6ABCAE7C7"
 			rewards: [{
@@ -1158,8 +1158,8 @@
 				item: "minecraft:totem_of_undying"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 16.0d
+			x: 12.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["2F1F1047E8A734EC"]
@@ -2324,7 +2324,7 @@
 		{
 			dependencies: ["7EF948B39FBEA377"]
 			description: [
-				"Combat mechanics were altered by the &6Better Combat&r, &6Dodge Roll&r and &6Shield overhaul&r mod."
+				"Combat mechanics were altered by the &6Better Combat&r, &6Dodge Roll&r, &6Shield overhaul&r and&6 Shield Expansion&r mod."
 				""
 				""
 				"&c-> Better Combat&r"
@@ -2333,10 +2333,13 @@
 				"&c-> Shield Overhaul&r"
 				"Shields have new mechanics and like bashing: Attack while blocking to perform a shield bash. This will stun the target for 1 second, unless it's a boss"
 				""
+				"&c-> Shield Expansion&r"
+				"The mod adds traditional tiers to shields and introduces two new mechanics, Off-Guard Cooldown and Parrying!"
+				""
 				"&c-> Dogge Roll&r"
 				"Press R to roll. You can roll into any direction you are heading. This is crucial to dodge attacks during boss fights!"
 				""
-				"The combat roll ability has 4 seconds cooldown by default."
+				"The combat roll ability has 20 seconds cooldown by default."
 				""
 				"Cooldown of your combat roll ability can be seen on the main UI."
 			]
@@ -2491,6 +2494,119 @@
 			title: "&2For those you want to 100%"
 			x: -5.5d
 			y: 23.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"Chalk allow you to drawk marks for easier navigation in the caves or structures it comes in all colors."
+				""
+				"You can also draw a couple of different symbols using &6Right-click while sneaking &r to open a menu where you can choose desired symbol to draw. Some symbols can be unlocked by completing advancements."
+				""
+				"Marks can be made glowing by appying Glowstone Dust or Glow Ink Sac to Them."
+				""
+				"&eChalk Box&r is a convenient way to store and use you chalks. "
+				"  - It can be opened by using it while not looking at any block or right-clicking in the GUI."
+				"  - Mark whill be drawn with leftmost chalk in order sneaking"
+				"  - You can draw glowing mark with Chalk Box by adding glowing items in a spacial slot."
+			]
+			id: "419327E6573538F7"
+			rewards: [{
+				count: 15
+				id: "2A7D00993B48E84D"
+				item: {
+					Count: 1b
+					id: "chalk:yellow_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "22B0A15629EF37D8"
+					item: {
+						Count: 1b
+						id: "chalk:black_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FF668A7502BD876"
+					item: {
+						Count: 1b
+						id: "chalk:chalk_box"
+						tag: {
+							Items: [
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Chalk"
+			x: -9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"1. Get a levitation stone by trading with a Cartographer (Master level);"
+				""
+				"2. Right click the levitation stone;"
+				""
+				"3. Follow the cloud (you may travel tens of thousands of blocks, so be patient and prepared)."
+				""
+				"In other to break blocks on the castle o you to find the Leviation Crystal and turn it off"
+			]
+			id: "52C213D9E19FDE18"
+			tasks: [{
+				id: "521DE53EA3888058"
+				item: "ecologics:sandcastle"
+				type: "item"
+			}]
+			title: "&6A Castle in the sky"
+			x: 16.0d
+			y: 17.0d
 		}
 	]
 	title: "&e&l Getting Started!"

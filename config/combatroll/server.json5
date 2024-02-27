@@ -12,11 +12,11 @@
 	// Allows combat roll while the player is in the air. WARNING! Setting this to `true` breaks roll distance attribute and enchantment
 	"allow_rolling_while_airborn": false,
 	// The amount of exhaust (hunger) to be added to the player on every roll
-	"exhaust_on_roll": 0.10000000149011612,
+	"exhaust_on_roll": 0.20000000298023224,
 	// The amount of food level above which players can do a roll
 	"food_level_required": 6.0,
 	// The cooldown duration of the combat roll ability expressed in seconds
-	"roll_cooldown": 4.0,
+	"roll_cooldown": 20.0,
 	// Default roll distance attribute is `3`. Settings this to `1` will make it `4`. Warning! Attribute based scaling does not effect this.
 	"additional_roll_distance": 0.0
 }
