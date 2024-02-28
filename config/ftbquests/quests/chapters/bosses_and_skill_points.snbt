@@ -12,13 +12,49 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 2.0d
+			height: 1.0d
 			hover: [ ]
-			image: "cataclysm:textures/mob_effect/blazing_brand.png"
+			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
 			rotation: 0.0d
-			width: 2.0d
-			x: 0.5d
-			y: -0.5d
+			width: 1.0d
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.5d
+			hover: [ ]
+			image: "forbidden_arcanus:block/arcane_polished_darkstone"
+			rotation: 0.0d
+			width: 12.0d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:textures/gui/spell_icons/wither_skull.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			click: ""
@@ -26,33 +62,54 @@
 			dev: false
 			height: 2.0d
 			hover: [ ]
-			image: "bosses_of_mass_destruction:block/chiseled_stone_altar_lit"
+			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.5d
-			y: -0.5d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			click: ""
 			corner: false
 			dev: false
-			height: 2.0d
+			height: 1.0d
 			hover: [ ]
-			image: "alexsmobs:item/void_worm_beak"
+			image: "createdeco:block/palettes/decals/decal_skull"
 			rotation: 0.0d
-			width: 2.0d
-			x: -3.0d
-			y: -0.5d
+			width: 1.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 9.5d
 		}
 	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: [
 				"You can craft an eye of desert to locate the structure"
 				""
@@ -72,13 +129,10 @@
 			}]
 			title: "&2Overworld&f: Extinction was a lie"
 			x: 0.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: [
 				"You can craft an eye of abyss to locate the structure"
 				""
@@ -96,13 +150,10 @@
 			}]
 			title: "&2Overworld&f: From the Abyss"
 			x: 1.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: [
 				"You can craft an eye of the void to locate the structure."
 				""
@@ -120,13 +171,10 @@
 			}]
 			title: "&eEnd&f: Protector of the end"
 			x: 0.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: [
 				"You can craft a flame eye to locate the structure"
 				""
@@ -145,14 +193,11 @@
 				value: 1L
 			}]
 			title: "&cNether&f: The immortal "
-			x: 0.0d
-			y: 1.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: ["You can craft an eye of netherite monstrosity to locate the structure"]
 			id: "09D25A60964E517F"
 			shape: "square"
@@ -166,13 +211,10 @@
 			}]
 			title: "&cNether&f: The Monstrosity of lava"
 			x: 1.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: [
 				"You can craft an eye of mech to locate the structure"
 				""
@@ -192,59 +234,30 @@
 			}]
 			title: "&2Overworld&f: Who needs to build one?"
 			x: 0.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
-			id: "17061F6E53B6A809"
-			tasks: [{
-				id: "16E86001B9AFED33"
-				item: "alexsmobs:capsid"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
-			id: "0C14F69B100527C1"
-			subtitle: "What does it do in contact with the void ?"
-			tasks: [{
-				id: "083DC45C49C03AB6"
-				item: "alexsmobs:mysterious_worm"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
+			description: ["This boss can be baited out of the void by tossing a Msyerious Worm into the End's void."]
+			icon: "alexsmobs:void_worm_eye"
 			id: "7696990D3ED40A1B"
-			subtitle: "Obtain the Void Worm eye by killing the Void Worm"
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
-				id: "2DC19485464CE7E3"
-				item: "alexsmobs:void_worm_eye"
-				type: "item"
+				entity: "alexsmobs:void_worm_part"
+				id: "56332C3B671B9F70"
+				type: "kill"
+				value: 1L
 			}]
-			x: -3.5d
-			y: 1.0d
+			title: "&eEnd&f: Void Worm"
+			x: -3.0d
+			y: 5.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
-			description: ["mini-boss"]
+			dependencies: ["072DA448D144179C"]
+			description: ["When a Crimson Mosquito sucks blood of strange fungal create, especially one covered in Warped Fungus, it will begin to mutate into this beast."]
 			id: "150D9233D297B9DA"
+			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
 				entity: "alexsmobs:warped_mosco"
@@ -253,15 +266,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill the Warped Mosco"
-			x: -3.5d
-			y: 2.0d
+			title: "&cNether&f: Warped Mosco"
+			x: -3.0d
+			y: 6.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: [
 				"Upon discovering the enigmatic boss structure, place an Eye of Ender on the altar to awaken the formidable presence within."
 				""
@@ -280,14 +290,11 @@
 				value: 1L
 			}]
 			title: "&eEnd&f: The Obsidilith"
-			x: 3.0d
-			y: 1.0d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: ["You can use a void lily to track the boss structure."]
 			id: "342B9E3297CC4309"
 			shape: "square"
@@ -300,14 +307,11 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: The Void Blossom"
-			x: 4.0d
-			y: 1.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: [
 				"The Night Lich, a sinister entity, reigns over colder biomes of the Overworld from its eerie Lich Tower. "
 				""
@@ -335,18 +339,15 @@
 				}
 			]
 			title: "&2Overworld&f: The Night Lich"
-			x: 4.0d
-			y: 2.0d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: ["The Gauntlet is located in rare structures at the Nether."]
 			id: "35E095FC517735B1"
 			shape: "square"
-			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: "bosses_of_mass_destruction:blazing_eye"
@@ -355,14 +356,11 @@
 				value: 1L
 			}]
 			title: "&cNether&f: The Nether Gauntlet"
-			x: 3.0d
-			y: 2.0d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: [
 				"The &0Wither&r is really tough to beat because it can fly, move quickly, and explodes a lot. You know what I mean."
 				""
@@ -381,14 +379,11 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Wither"
-			x: -8.5d
-			y: 0.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: [
 				"The &2Warden&r is blind! It can only find you if it hears you, so either fly around or sneak!"
 				""
@@ -412,51 +407,19 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Warden"
-			x: -8.5d
-			y: 1.0d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
-			description: ["Stymphalian birds are found in swamps. They fly around in groups and will rain down sharp feathers on any mobs they see."]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
-			icon: "iceandfire:stymphalian_bird_feather"
-			id: "632344C9198BD8C0"
-			shape: "square"
-			subtitle: "Feather daggers"
-			tasks: [{
-				entity: "iceandfire:stymphalian_bird"
-				icon: "iceandfire:stymphalian_skull"
-				id: "64F6C03B4572A8A8"
-				type: "kill"
-				value: 20L
-			}]
-			title: "&2Overworld&f: Stymphalian Bird Slayer"
-			x: -4.5d
-			y: 8.0d
-		}
-		{
-			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
-			description: [
-				"Cyclops can be found in caves around beaches, or wandering the world with sheep."
-				""
-				"If the bite you they deal &4&lmassive damage&r&r&l."
-			]
+			dependencies: ["072DA448D144179C"]
+			description: [""]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
 			id: "4B8AA887F0B4664E"
 			shape: "square"
-			subtitle: "All see-ing eye"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "iceandfire:cyclops"
 				icon: {
@@ -471,40 +434,12 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Cyclops Slayer"
-			x: -4.5d
-			y: 6.5d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
-			description: ["Sirens can be found in the ocean, perched upon stone outcrops. They'll lure anyone who get to close in with their sweet song."]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
-			icon: "iceandfire:shiny_scales"
-			id: "21CB5C980CA08188"
-			shape: "square"
-			subtitle: "A sweet song"
-			tasks: [{
-				entity: "iceandfire:siren"
-				icon: "iceandfire:shiny_scales"
-				id: "051295BAB259D4D2"
-				type: "kill"
-				value: 10L
-			}]
-			title: "&2Overworld&f: Siren Slayer"
-			x: -7.5d
-			y: 11.0d
-		}
-		{
-			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: ["Hydras can be found in dirt caves protruding from swamps. They're formiddible foes that use venom, and the only way to kill them without letting them heal is using fire."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -512,7 +447,7 @@
 			icon: "iceandfire:hydra_fang"
 			id: "23EF18C11A9B1FBD"
 			shape: "square"
-			subtitle: "A venemous bite, cured by flame"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "iceandfire:hydra"
 				icon: "iceandfire:hydra_fang"
@@ -521,40 +456,12 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Hydra Slayer"
-			x: -7.5d
-			y: 6.5d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
-			description: ["Pixies can be found in dark oak forests, roaming around their small villages. They'll steal items from anyone who gets close and fly away with it."]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
-			icon: "iceandfire:pixie_wings"
-			id: "165C84B773268888"
-			shape: "square"
-			subtitle: "It's a piece of cake"
-			tasks: [{
-				entity: "iceandfire:pixie"
-				icon: "iceandfire:pixie_wings"
-				id: "129E9FCAE259CD52"
-				type: "kill"
-				value: 30L
-			}]
-			title: "&2Overworld&f: Pixie Slayer"
-			x: -6.0d
-			y: 6.5d
-		}
-		{
-			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: ["Sea Serpents are formidable foes that can be found in oceans throughout the world. They have a deadly bite and a powerful water blast attack."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -562,6 +469,7 @@
 			icon: "iceandfire:sea_serpent_fang"
 			id: "1AB94A49F0A4427D"
 			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "iceandfire:sea_serpent"
 				icon: "iceandfire:sea_serpent_fang"
@@ -570,14 +478,11 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Sea Serpent Slayer"
-			x: -7.5d
-			y: 8.0d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: ["Use Transmuting Elixer on an infernal Evil Pumpkin."]
 			icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
 			id: "03A47AAF2D751796"
@@ -591,13 +496,10 @@
 			}]
 			title: "&2Overworld&f: Lord Pumpkinhead"
 			x: 1.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: ["Lightning dragons can be found in the overworld or undergound in certain warm biomes: badlands, savanna. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
 			icon: {
 				Count: 1b
@@ -616,14 +518,11 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Lightning Dragon Slayer"
-			x: -7.5d
-			y: 5.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: ["Ice dragons can be found in the overworld or undergound in cold biomes. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
 			icon: {
 				Count: 1b
@@ -642,14 +541,11 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Ice Dragon Slayer"
-			x: -6.0d
-			y: 5.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: ["Fire dragons can be found in the overworld or undergound in warm biomes. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
 			icon: {
 				Count: 1b
@@ -668,73 +564,12 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Fire Dragon Slayer"
-			x: -4.5d
-			y: 5.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
-			description: [""]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1b
-				id: "iceandfire:dread_knight_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "3780F7E9BF09B899"
-			shape: "square"
-			tasks: [{
-				entity: "iceandfire:dread_knight"
-				id: "16355663414CF9C0"
-				type: "kill"
-				value: 10L
-			}]
-			title: "&2Overworld&f: Dread Knight Slayer"
-			x: -7.5d
-			y: 9.5d
-		}
-		{
-			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
-			description: [""]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1b
-				id: "iceandfire:lich_staff"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "366C08A8527C1229"
-			shape: "square"
-			tasks: [{
-				entity: "iceandfire:dread_lich"
-				id: "72186FF8DD8AF732"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&2Overworld&f: Dread Lich Slayer"
-			x: -6.0d
-			y: 9.5d
-		}
-		{
-			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: [""]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -748,6 +583,7 @@
 			}
 			id: "271202F67BEA0A20"
 			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
 				entity: "iceandfire:myrmex_queen"
 				id: "68D8EC4BF1BBB2DD"
@@ -755,38 +591,12 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Myrmex Queen"
-			x: -6.0d
-			y: 11.0d
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
-			description: [""]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
-			icon: "iceandfire:amphithere_feather"
-			id: "153438EF7B3083E7"
-			shape: "square"
-			tasks: [{
-				entity: "iceandfire:amphithere"
-				id: "0DD7983B52A56080"
-				type: "kill"
-				value: 10L
-			}]
-			title: "&2Overworld&f: Amphithere"
-			x: -4.5d
-			y: 9.5d
-		}
-		{
-			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: [""]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -800,30 +610,28 @@
 			}
 			id: "3FAB7E8F9242D140"
 			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
 				entity: "iceandfire:deathworm"
 				id: "6E8AC68589051F63"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&2Overworld&f: Amphithere"
-			x: -6.0d
-			y: 8.0d
+			title: "&2Overworld&f: Death Worm"
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: false
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
-			description: [""]
+			dependencies: ["072DA448D144179C"]
+			description: ["This unique item can be discovered in the shadows of dark caves. Once brought into the sunlight, it undergoes a stunning transformation, revealing its true beauty."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
 			icon: "iceandfire:troll_skull"
 			id: "1008B11B672BCD38"
 			shape: "square"
-			subtitle: "This unique item can be discovered in the shadows of dark caves. Once brought into the sunlight, it undergoes a stunning transformation, revealing its true beauty."
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
 				entity: "iceandfire:troll"
 				id: "532ADB024E2B85FE"
@@ -831,29 +639,11 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Troll"
-			x: -4.5d
-			y: 11.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
-			hide: true
-			hide_dependent_lines: true
-			id: "1BF8821D14DB607D"
-			tasks: [{
-				id: "3A782FA19D6C62C5"
-				title: "&a&lUnlock&r&r"
-				type: "checkmark"
-			}]
-			title: "Bosses"
-			x: -3.5d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
 			description: [
 				"The Corrupted Champion is the entombed remnant of an unknown hero, fallen into corruption. Its power arise from its bone staff, which was crafted from the bones of its innocent victims. With its power, the lich can controll the minds of its enemies and turn peaceful beings into abominations fighting along its side. But beware. Even if you manage to drain the staff's corruption, the fight isn't over."
 				""
@@ -885,10 +675,11 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Corrupted Champion"
-			x: 4.0d
-			y: 7.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["072DA448D144179C"]
 			description: [
 				"You can summon him by destroying a special pumpkin surrounded by candles that you can meet in the world."
 				""
@@ -907,9 +698,10 @@
 			}]
 			title: "&2Overworld&f: Sir Pumpkinhead"
 			x: 0.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
+			dependencies: ["072DA448D144179C"]
 			description: ["mini-boss"]
 			icon: {
 				Count: 1b
@@ -942,13 +734,10 @@
 			}]
 			title: "&eEnd&f: Ender Golem"
 			x: 1.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"1BF8821D14DB607D"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: ["mini-boss"]
 			icon: "cataclysm:the_prowler_spawn_egg"
 			id: "186D1014F748B001"
@@ -962,9 +751,10 @@
 			}]
 			title: "&2Overworld&f: The Prowler"
 			x: 0.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["072DA448D144179C"]
 			description: ["mini-boss"]
 			icon: "cataclysm:amethyst_crab_spawn_egg"
 			id: "188968771B831DCE"
@@ -978,10 +768,11 @@
 			}]
 			title: "&2Overworld&f: Amethyst Crab"
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
-			description: ["Forlorn in alex caves"]
+			dependencies: ["072DA448D144179C"]
+			description: ["Found in Forlorn caves"]
 			icon: "alexscaves:forsaken_idol"
 			id: "11DB96D8FC52617B"
 			shape: "square"
@@ -994,11 +785,12 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Forsaken"
-			x: 5.0d
-			y: 7.0d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
-			description: ["Abyssal chasm in alex caves"]
+			dependencies: ["072DA448D144179C"]
+			description: ["Found in Abyssal chasms"]
 			icon: {
 				Count: 1b
 				id: "obtrophies:trophy"
@@ -1029,11 +821,12 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Hullbreaker"
-			x: 5.0d
-			y: 8.0d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
-			description: ["Toxic caves in alex caves"]
+			dependencies: ["072DA448D144179C"]
+			description: ["Found in Toxic caves"]
 			icon: "alexscaves:tremorzilla_egg"
 			id: "138E94B1FC310502"
 			shape: "square"
@@ -1046,8 +839,789 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Tremorzilla"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Found in promordial caves"]
+			icon: {
+				Count: 1b
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "alexscaves:relicheirus"
+					}
+				}
+			}
+			id: "6942E56394BC3AE1"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:relicheirus"
+				icon: {
+					Count: 1b
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "alexscaves:relicheirus"
+						}
+					}
+				}
+				id: "2E70C8E6AA3073BA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Relicheirus"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Found in promordial caves"]
+			icon: {
+				Count: 1b
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "alexscaves:tremorsaurus"
+					}
+				}
+			}
+			id: "64D3E7555B2EA5E2"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:relicheirus"
+				icon: {
+					Count: 1b
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "alexscaves:tremorsaurus"
+						}
+					}
+				}
+				id: "7DE04AC4D62ED215"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Tremorsaurus"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Found in promordial caves"
+				""
+				"Trow a ominous catalysm into the volcano."
+			]
+			icon: "alexscaves:ominous_catalyst"
+			id: "5E8607FE394E659A"
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:ominous_catalyst"
+				id: "44A104FF6801AC8F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Luxtructosauros"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "minecraft:dragon_head"
+			id: "4FCD7C734E04EC59"
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:dragon_egg"
+				icon: "minecraft:dragon_head"
+				id: "01631A62DF9E28CB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eEnd&f: The Ender Dragon"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Found in icy biomes in a small temple"]
+			icon: {
+				Count: 1b
+				id: "legendary_monsters:frostbitten_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "686D8206E0787502"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				icon: {
+					Count: 1b
+					id: "legendary_monsters:frostbitten_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1C5207BE743E7A35"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Frostbitten golem"
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "legendary_monsters:mossy_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "323D6AE9C2858EF3"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "legendary_monsters:overgrown_colossus"
+				icon: {
+					Count: 1b
+					id: "legendary_monsters:mossy_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "34D0B846E60768D6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Overgrown Collosus"
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "legendary_monsters:warped_mushroom_cap_part"
+			id: "197DD9E124643F59"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "legendary_monsters:warped_fungussus"
+				icon: "legendary_monsters:warped_mushroom_cap_part"
+				id: "6A59E7D2F1D2A926"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cNether&f: Warped Fungussus"
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "legendary_monsters:withered_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "705231A3D400C442"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				icon: {
+					Count: 1b
+					id: "legendary_monsters:withered_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2645D4276F53B98D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cNether&f: Withered abomination"
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "legendary_monsters:dinosaur_bone_club"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "548DF3360D5B6B5C"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				icon: {
+					Count: 1b
+					id: "legendary_monsters:dinosaur_bone_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "15AEFC8BA4EDE603"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cNether&f: Skeletosauros"
 			x: 4.0d
-			y: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "legendary_monsters:fiery_jaw"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "57142A944464E2DC"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "legendary_monsters:lava_eater"
+				icon: {
+					Count: 1b
+					id: "legendary_monsters:fiery_jaw"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "44EEE3807864C381"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cNether&f: Lava Eater"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "legendary_monsters:endersent_spawn_egg"
+			id: "1C3FB56346ACED76"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				icon: "legendary_monsters:endersent_spawn_egg"
+				id: "0F3A4745FA85D69F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eEnd&f: Endersent"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "legendary_monsters:shulker_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1D73BCBED3BE14E9"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				icon: {
+					Count: 1b
+					id: "legendary_monsters:shulker_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "433C9ECD235E84BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eEnd&f: Shulker mimic"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "deeperdarker:stalker_spawn_egg"
+			id: "66C5F17F1D24B252"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:stalker_spawn_egg"
+				id: "1AF6D6CD931AC4FD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&3The other side&f: Stalker"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "realmrpg_demons:ancient_demon_lord_spawn_egg"
+			id: "1447D924C3077D48"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "realmrpg_demons:ancient_demon_lord"
+				icon: "realmrpg_demons:ancient_demon_lord_spawn_egg"
+				id: "187692AE730D8462"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cNether&f: Ancient Demon Lord"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "minecraft:creeper_head"
+			id: "5590F8A33E7C7EBA"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "minecraft:creeper_head"
+				id: "3AAF2A659E06F390"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Mutant Creeper"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "supplementaries:enderman_head"
+			id: "0FA6D29FC55F9AEC"
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: "supplementaries:enderman_head"
+				id: "5A3BED717D4E35DE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Mutant Enderman"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "minecraft:skeleton_skull"
+			id: "12540DE2AD46BD25"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "7815976CA6879562"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Mutant Skeleton"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "minecraft:zombie_head"
+			id: "466E95094802C572"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "minecraft:zombie_head"
+				id: "52948508C1427CED"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Mutant Zombie"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Follow twilight quest chapter for more details."]
+			icon: "twilightforest:naga_trophy"
+			id: "1118D777AFDEABF1"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "78C777F75BACC65B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Twilight Forest&f: Naga"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Follow twilight quest chapter for more details."]
+			icon: "twilightforest:lich_trophy"
+			id: "360D7D51B8827142"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "566220709E69A5FD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Twilight Forest&f: Twilight Lich"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Follow twilight quest chapter for more details."]
+			id: "66CCB8E61772D9C5"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "3E8FFAD088D562A2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Twilight Forest&f: Hydra"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Follow twilight quest chapter for more details."]
+			id: "6C426E483987130D"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "244B910EB39E5D6E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Twilight Forest&f: Ur-Ghast"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Follow twilight quest chapter for more details."]
+			id: "0561992D26000F6C"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "53E591049A94D8CB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Twilight Forest&f: Snow Queen"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "blue_skies:alchemy_scroll"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5AD9D7336F8E4D96"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: {
+					Count: 1b
+					id: "blue_skies:alchemy_scroll"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0BC48FB63912FA16"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&9Blue Skies&f: Alchemist"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "blue_skies:summoner_trophy"
+				tag: {
+					BlockStateTag: {
+						tier: "bronze"
+					}
+				}
+			}
+			id: "45E828FAD2F4D3EC"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: {
+					Count: 1b
+					id: "blue_skies:summoner_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "35C492B05779FE17"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&9Blue Skies&f: The Summoner"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "blue_skies:arachnarch_trophy"
+				tag: {
+					BlockStateTag: {
+						tier: "bronze"
+					}
+				}
+			}
+			id: "22230F5131F8FEFD"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1b
+					id: "blue_skies:arachnarch_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "005029D367CE51E6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&9Blue Skies&f: The Arachnarch"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "blue_skies:starlit_leaves"
+			id: "4473A6FB1DD04B33"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: "blue_skies:starlit_leaves"
+				id: "31DD138C22CF79AB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&9Blue Skies&f: Starlit crusher"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			id: "1B579FA633476F4B"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				id: "1F63201CB11C5269"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			title: "&6The Aether&f: The Bronze Key!"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			id: "0990BE5505F823C2"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				id: "4136D61E6EE248C3"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			title: "&6The Aether&f: The Silver Key!"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			id: "70D8E200F5040BA9"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				id: "0E462753AA02FAEA"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			title: "&6The Aether&f: The Gold Key!"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			id: "7FE615B1AB39CFFA"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				id: "099E3A9375FD853E"
+				item: "lost_aether_content:platinum_key"
+				type: "item"
+			}]
+			title: "&6The Aether&f: The Platinum Key!"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "aquamirae:rune_of_the_storm"
+			id: "44DCD0A86F67612E"
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "7CCBCB6DC88FB248"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Captain King Cornelia"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "conjurer_illager:conjurer_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "468294C066683BE3"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "conjurer_illager:conjurer"
+				icon: {
+					Count: 1b
+					id: "conjurer_illager:conjurer_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7442AF368E78EFA1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Conjurer"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "ars_nouveau:wilden_tribute"
+			id: "3316608227ABBD2E"
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				id: "2B4BE55FF05CB23C"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			title: "&2Overworld&f: Chimera"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "irons_spellbooks:blood_staff"
+			id: "034ADBF4EC3738DD"
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "78FF425190DBCD30"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: The Death King"
+			x: 5.0d
+			y: 4.5d
 		}
 	]
 	title: "&9&l Bosses and Skill Points"

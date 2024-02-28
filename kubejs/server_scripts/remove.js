@@ -189,6 +189,9 @@ ServerEvents.recipes(event => {
          ASTRA('desh_fluid_pipe'),
          ASTRA('ostrum_fluid_pipe'),
          ASTRA('fuel_refinery'),
+
+         'aquamirae:divider',
+         'aquamirae:terrible_sword',
     ].forEach((itemID) => event.remove({output: itemID}));
 
     event.remove({ type: 'ad_astra:fuel_conversion' })

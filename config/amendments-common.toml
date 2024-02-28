@@ -92,3 +92,7 @@
 	#Allows lilypads to have any block placed ontop
 	better_lilypads = true
 
+[tripwire_hook]
+	#Allows placing tools on tripwire hooks
+	tool_hook = true
+

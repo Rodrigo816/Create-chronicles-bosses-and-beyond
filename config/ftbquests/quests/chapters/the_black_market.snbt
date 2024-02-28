@@ -552,7 +552,7 @@
 					tag: {
 						AttributeModifiers: [
 							{
-								Amount: 10
+								Amount: 12
 								AttributeName: "generic.attack_damage"
 								Name: "generic.attack_damage"
 								Operation: 0
@@ -880,7 +880,7 @@
 					tag: {
 						AttributeModifiers: [
 							{
-								Amount: 9
+								Amount: 10
 								AttributeName: "generic.attack_damage"
 								Name: "generic.attack_damage"
 								Operation: 0
@@ -1094,10 +1094,33 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: "kubejs:skill_reset"
 			id: "4EEDE7245553A616"
-			subtitle: "keep an eye for updates"
-			title: "soon2"
+			rewards: [{
+				id: "5BC98C439FB333E6"
+				item: "kubejs:skill_reset"
+				type: "item"
+			}]
+			subtitle: "use it wisely"
+			tasks: [
+				{
+					consume_items: true
+					count: 50L
+					id: "0FCBCDF4FF5A177C"
+					item: "totemfactory:inactive_totem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "25DA1B79DB18A700"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "&6Talent Tree Reset"
 			x: 6.5d
 			y: -2.0d
 		}

@@ -621,6 +621,8 @@
 				"It's hard to keep finding single use scrolls, but by putting the scrolls into a spell book using the inscription table, one can keep using the spell without consuming the scroll."
 				""
 				"Default key is \"v\" to open wheel."
+				""
+				"Default cast key is \"c\""
 			]
 			id: "203A551C239270CC"
 			subtitle: "Your first Spellbook"
@@ -2607,6 +2609,29 @@
 			title: "&6A Castle in the sky"
 			x: 16.0d
 			y: 17.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"Labels functions similar to Item Frames but can adapt to all surfaces and be physically connected to any solid block no matter the shape."
+				""
+				"By shift-clicking on a Label with an item you'll be able to change its image, showing that item you selected. "
+				""
+				"Can accept Glow Ink Sacks to make then glow in the dark"
+				""
+				"Can be colored with any dye. "
+				""
+				"Using a Feather on them will display the item name. "
+			]
+			id: "7C72177A2822A166"
+			tasks: [{
+				id: "7EE639E3F72F2181"
+				item: "labels:label"
+				type: "item"
+			}]
+			title: "Storage Labels "
+			x: -11.5d
+			y: 20.0d
 		}
 	]
 	title: "&e&l Getting Started!"

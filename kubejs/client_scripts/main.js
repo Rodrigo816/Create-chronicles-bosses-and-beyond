@@ -19,5 +19,7 @@ JEIEvents.hideItems(event => {
   event.hide('create_dd:vanilla_milkshake_bucket')
   event.hide('create_dd:chocolate_milkshake_bucket')
   event.hide('create_dd:hot_chocolate_bucket')
+  'aquamirae:divider',
+  'aquamirae:terrible_sword',
   //event.hide('kubejs:create_chronicles')
 })

@@ -72,3 +72,7 @@
 	#Makes jukebox disc spin while playing
 	disc_spin = true
 
+[tripwire_hook]
+	#Makes hooks render faster using a block model instead of tile renderer. Cost is that animated and enchanted items will appear static
+	fast_hooks = false
+

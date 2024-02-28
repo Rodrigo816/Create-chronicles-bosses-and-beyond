@@ -37,7 +37,7 @@
 	"obsidilithConfig": {
 		"health": 500.0,
 		"armor": 80.0,
-		"attack": 30.0,
+		"attack": 40.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"spawnPillarOnDeath": true,
@@ -46,7 +46,7 @@
 	"gauntletConfig": {
 		"health": 300.0,
 		"armor": 8.0,
-		"attack": 20.0,
+		"attack": 30.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"spawnAncientDebrisOnDeath": true,
@@ -54,7 +54,7 @@
 		"normalPunchExplosionMultiplier": 1.5
 	},
 	"voidBlossomConfig": {
-		"health": 150.0,
+		"health": 200.0,
 		"armor": 4.0,
 		"attack": 15.0,
 		"idleHealingPerTick": 0.5,
