@@ -618,14 +618,11 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["7E2CC0CBD8ED1A60"]
 			id: "1FB0AAC5A21444FD"
 			rewards: [{
 				id: "4DB1F24181413976"
 				item: "kubejs:create_chronicles"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5C560F75D37D3AE1"
 				type: "item"
 			}]
 			title: "The End"
