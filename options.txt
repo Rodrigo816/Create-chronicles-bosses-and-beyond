@@ -42,8 +42,6 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/overrides_pack","file/Unity-1.20.1-Dark-1.1.0.zip","1.20 Create Camera 1.2.1.zip","Create Simple Storage 2.1.zip","Lopy-Create-Sophisticated-Backpacks.zip","Repurposed_Structures-Better_Dungeons_v5.zip","Repurposed_Structures-Better_Monuments_v6.zip","Repurposed_Structures-Better_Strongholds_v5.zip","Repurposed_Structures-Better_Witch_Huts_v4.zip","Repurposed_Structures-Farmers_Delight_v6.zip","Repurposed_Structures-Friends_And_Foes_v5.zip","Repurposed_Structures-Wizards_v3.zip","[1.4] Enhanced Boss Bars.zip","ctov-creates-structures-add-on-v1-0.zip","ctov-farmers-delight-add-on-v2-1a.zip","ctov-friends-and-foes-add-on-v2-0.zip","ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip","idasalexsmobs-1.20.zip","intstrong_alexsmobs-1.0.0-1.20.1.zip","intstrong_endrem-1.0.0-1.18.2-1.19.2.zip","intstrong_graveyard-1.0.0-1.20.1.zip"]
-incompatibleResourcePacks:["1.20 Create Camera 1.2.1.zip","Create Simple Storage 2.1.zip","Lopy-Create-Sophisticated-Backpacks.zip","ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip","intstrong_endrem-1.0.0-1.18.2-1.19.2.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
