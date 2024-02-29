@@ -1,0 +1,16 @@
+{
+	// The chance a Pumpkillager will spawn when a player breaks a pumpkin block.
+	// min: 0.001, max: 1.0
+	"pumpkillagerSpawnChance": 0.05,
+	// Whether the Pumpkillager should spawn when pumpkins are broken while the player is in creative mode.
+	"enablePumpkillagerSpawnDuringCreative": true,
+	// The amount of health the final boss should have.
+	// min: 1.0, max: 10000.0
+	"finalBossMaxHealth": 500.0,
+	// How much experience the final boss should drop on death.
+	// min: 0, max: 10000
+	"experienceAmountRewardFinalBoss": 900,
+	// This is a feature to add more pumpkins to the world, to make people come across the Pumpkillager in a more natural way. Whenever a pig spawns, it has a chance to spawn on top of a pumpkin block. This will make them be sprinkled around the world. To turn it off, set the config chance value to 0.
+	// min: 0.0, max: 1.0
+	"chanceForPumpkinBlockToSpawnOnPigSpawn": 0.02
+}

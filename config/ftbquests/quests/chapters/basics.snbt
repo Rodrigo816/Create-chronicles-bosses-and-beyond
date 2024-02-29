@@ -27,7 +27,7 @@
 				""
 				"You can open the &5Talent Tree&r by pressing &bK&r"
 				""
-				"To reassign your talents, use the consumable item &cReset Scroll&f, which refunds all your skill points upon use. The means to acquire a &cReset Scroll&f are shrouded in mystery, but rumors suggest they might be dropped by certain mobs. "
+				"To reassign your talents, use the consumable item &cReset Scroll&f, which refunds all your skill points upon use. The means to acquire a &cReset Scroll&f are unlocked at later stage. "
 				""
 				"&eSkill points&f are primarily earned through challenging boss battles, with a max of 50 skills in total, all obtainable via quests. "
 				""
@@ -1160,8 +1160,8 @@
 				item: "minecraft:totem_of_undying"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 19.5d
+			x: 13.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["2F1F1047E8A734EC"]
@@ -1296,8 +1296,8 @@
 				type: "item"
 			}]
 			title: "Big Plans"
-			x: 13.5d
-			y: 16.0d
+			x: 14.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
@@ -1342,7 +1342,7 @@
 				type: "item"
 			}]
 			title: "Engineer's Companion"
-			x: 15.0d
+			x: 15.5d
 			y: 16.0d
 		}
 		{
@@ -1460,6 +1460,8 @@
 				"When placed, the &9Mega Torch&r prevents all hostile mobs from naturally spawning in a 86 block radius."
 				""
 				"Great for stopping hostile spawns in dark parts of your base!"
+				""
+				"You can also see your light levels by pressing F7"
 			]
 			id: "478DE12D3EF8C22A"
 			rewards: [
@@ -1985,8 +1987,8 @@
 				type: "item"
 			}]
 			title: "Storage"
-			x: 12.0d
-			y: 16.0d
+			x: 13.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["06267D7C266DE215"]
@@ -2412,8 +2414,8 @@
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 19.5d
+			x: 16.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["05B32DE12868C6DE"]
@@ -2443,8 +2445,8 @@
 				item: "toms_trading_network:vending_machine"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 20.0d
+			x: 14.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["05DF598DEBADABC3"]
@@ -2602,6 +2604,7 @@
 			]
 			id: "52C213D9E19FDE18"
 			tasks: [{
+				icon: "castle_in_the_sky:laputa_miniature"
 				id: "521DE53EA3888058"
 				item: "ecologics:sandcastle"
 				type: "item"
@@ -2632,6 +2635,48 @@
 			title: "Storage Labels "
 			x: -11.5d
 			y: 20.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"The Lost Castle introduces an enormous castle that you'll be able to find with the help of a map given by a journeyman cartographer. "
+				""
+				"Inside resides infinite fortune and mysteries from a long forgotten civilization that disappeared a long time ago and is now eagerly guarded by illagers that won't give up on their fortune even if it means the end of them, or the end of you..."
+			]
+			id: "145E9D1D17E8459F"
+			tasks: [{
+				icon: "ecologics:sandcastle"
+				id: "5F6FB1FF16AA62CB"
+				item: "ecologics:sandcastle"
+				type: "item"
+			}]
+			title: "&6The Lost Castle"
+			x: 15.5d
+			y: 20.0d
+		}
+		{
+			description: [
+				"&lCreate Chronicles: Bosses and Beyond&r&6 is currently in an experimental phase&r and not fully complete."
+				""
+				"Expect bugs and some unimplemented features as we continue development. "
+				""
+				"Your feedback and assistance are invaluable to improving this modpack."
+				""
+				"For suggestions, bug reports, or if you're interested in contributing, please reach out to us on Discord. "
+				""
+				"Your support helps us make this modpack better for everyone!"
+				""
+				"https://discord.gg/regYxpqbun"
+			]
+			id: "5525E70F7FBDBD92"
+			tasks: [{
+				id: "27FA3D59FA635932"
+				item: "createdeco:decal_warning"
+				type: "item"
+			}]
+			title: "&6HELP NEEDED"
+			x: -18.5d
+			y: 16.5d
 		}
 	]
 	title: "&e&l Getting Started!"

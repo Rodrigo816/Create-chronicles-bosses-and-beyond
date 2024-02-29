@@ -1623,6 +1623,28 @@
 			x: 5.0d
 			y: 4.5d
 		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"TODO: proper text from Pumpkillager's quest mod"
+				""
+				""
+			]
+			icon: "minecraft:pumpkin"
+			id: "18951CEFEE6CDB8F"
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:sir_pumpkinhead"
+				icon: "minecraft:pumpkin"
+				id: "20888A9A4FE6B6F2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Pumpkillager"
+			x: 1.0d
+			y: 8.5d
+		}
 	]
 	title: "&9&l Bosses and Skill Points"
 }
