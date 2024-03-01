@@ -22,9 +22,13 @@ config/jei
 /hs_err*
 /map_atlases
 
+
 # files
 .curseclient
 usernamecache.json
 usercache.json
 minecraftinstance.json
 emi.json
+patchouli_data.json
+rhino.local.properties
+config/libraryferret_1.properties
