@@ -1,0 +1,1 @@
+powershell "& ""%cd%\generateServerFiles.ps1"""
