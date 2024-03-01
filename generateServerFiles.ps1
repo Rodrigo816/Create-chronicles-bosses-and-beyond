@@ -5,7 +5,7 @@ $MOD_BLACK_LIST="betterfpsdist*", "MapTooltip-forge*", "probejs*", "moreoverlays
 # Folder list to copy
 $FOLDER_LIST= @("mods", "config", "defaultconfigs")
 
-$SERVER_FOLDER="server _files"
+$SERVER_FOLDER="server_files"
 $CURRENT_FOLDER=$PWD
 
 Write-Output "Starting Server generation."
