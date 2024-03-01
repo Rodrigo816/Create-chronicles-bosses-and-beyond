@@ -17,9 +17,10 @@ config/xaerominimap.txt
 config/oculus.properties
 config/oculus.properties
 config/jei
-modernfix
-fancymenu_data
+/modernfix/
+/fancymenu_data/
 hs_err*
+/.vscode/
 
 # files
 .curseclient
