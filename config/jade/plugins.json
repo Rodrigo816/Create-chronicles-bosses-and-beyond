@@ -54,15 +54,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "twilightforest": {
-    "quest_ram_wool": true
-  },
-  "supplementaries": {
-    "hat_stand": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -71,11 +62,8 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "waystones": {
-    "waystone": true
-  },
-  "camera": {
-    "image_frame": true
+  "lootr": {
+    "info": true
   },
   "ae2": {
     "part_icon": true,
@@ -88,6 +76,38 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "crafting_blueprint": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "gravestone": {
+    "grave": true
+  },
+  "camera": {
+    "image_frame": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

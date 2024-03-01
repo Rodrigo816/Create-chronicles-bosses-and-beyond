@@ -17,9 +17,11 @@ config/xaerominimap.txt
 config/oculus.properties
 config/oculus.properties
 config/jei
-modernfix
-fancymenu_data
-hs_err*
+/modernfix
+/fancymenu_data
+/hs_err*
+/map_atlases
+
 
 # files
 .curseclient
@@ -27,3 +29,6 @@ usernamecache.json
 usercache.json
 minecraftinstance.json
 emi.json
+patchouli_data.json
+rhino.local.properties
+config/libraryferret_1.properties

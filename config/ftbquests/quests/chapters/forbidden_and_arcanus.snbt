@@ -134,7 +134,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -425,8 +425,8 @@
 				type: "item"
 			}]
 			title: "Dragon Scales"
-			x: 2.5d
-			y: 7.0d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["20B495B4B8B95636"]
@@ -494,8 +494,8 @@
 				}
 			]
 			title: "&1Draco Arcanus Armor&r"
-			x: 3.0d
-			y: 8.5d
+			x: 3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["20B495B4B8B95636"]
@@ -531,8 +531,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 7.0d
+			x: 7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2894F11A73335179"]
@@ -697,37 +697,7 @@
 				}
 			]
 			title: "&5Tyr Armor"
-			x: 4.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["744A01000E086CC9"]
-			description: [
-				""
-				""
-				"It's also a cool decoration piece."
-			]
-			id: "24261D6C5C5A6CB4"
-			rewards: [
-				{
-					count: 2
-					id: "2F8682CA5351660F"
-					item: "forbidden_arcanus:dragon_scale"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "413D504AB03C2837"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "548E998BF89F6713"
-				item: "forbidden_arcanus:arcane_dragon_egg"
-				type: "item"
-			}]
-			x: 6.5d
+			x: 7.0d
 			y: 7.0d
 		}
 		{
@@ -1171,8 +1141,8 @@
 				}
 			]
 			title: "&1Draco Tools"
-			x: 2.0d
-			y: 8.5d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["20B495B4B8B95636"]
@@ -1213,8 +1183,8 @@
 				}
 			]
 			title: "&1Draco Weapons"
-			x: 2.5d
-			y: 9.0d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["73349B993DE69954"]
