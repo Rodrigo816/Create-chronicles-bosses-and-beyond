@@ -21,6 +21,7 @@ config/jei
 /fancymenu_data
 /hs_err*
 /map_atlases
+/server_files
 
 
 # files
