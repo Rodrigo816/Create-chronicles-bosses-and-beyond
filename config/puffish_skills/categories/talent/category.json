@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"title": "Talent Tree",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "diamond_sword"
+		}
+	},
+	"spent_points_limit":50,
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}

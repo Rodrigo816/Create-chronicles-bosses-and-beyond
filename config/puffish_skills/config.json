@@ -1,10 +1,7 @@
 {
 	"version": 1,
-
 	"show_warnings": true,
-
 	"categories": [
-		"combat",
-		"mining"
+		"talent"
 	]
 }
