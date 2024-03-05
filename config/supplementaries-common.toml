@@ -203,7 +203,6 @@
 	blackstone_tile = true
 	sconce = true
 	sconce_lever = true
-	sconce_green = false
 	pancake = true
 	netherite_door = true
 	netherite_trapdoor = true
