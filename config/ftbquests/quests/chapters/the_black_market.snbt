@@ -1114,7 +1114,7 @@
 				}
 				{
 					consume_items: true
-					count: 5L
+					count: 3L
 					id: "25DA1B79DB18A700"
 					item: "minecraft:diamond"
 					type: "item"

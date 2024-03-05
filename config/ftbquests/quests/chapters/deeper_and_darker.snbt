@@ -17,7 +17,7 @@
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "rsquare"
 			size: 1.5d
 			subtitle: "Found underground in the &aOverworld&r."
 			tasks: [{
@@ -53,8 +53,8 @@
 				type: "item"
 			}]
 			title: "Craft a &9Warden Helmet"
-			x: 5.5d
-			y: 3.0d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -69,7 +69,7 @@
 				item: "deeperdarker:ancient_vase"
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				dimension: "deeperdarker:otherside"
@@ -175,7 +175,7 @@
 				type: "observation"
 			}]
 			title: "Find a &2Sculk Snapper"
-			x: 9.0d
+			x: 4.5d
 			y: 2.0d
 		}
 	]

@@ -615,8 +615,8 @@
 				type: "item"
 			}]
 			title: "I'm blue, daba dee dab a die.."
-			x: -17.0d
-			y: -2.0d
+			x: -17.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3D47D2D38F5C4ECD"]
@@ -632,11 +632,11 @@
 				type: "item"
 			}]
 			title: "Glowberries mk2"
-			x: -15.5d
-			y: -2.0d
+			x: -16.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["27E1DBFCF9691E4F"]
+			dependencies: ["57078A29DBC3CF41"]
 			description: [
 				"Not to be mistaken for a food source."
 				""
@@ -649,58 +649,8 @@
 				type: "item"
 			}]
 			title: "Colourless"
-			x: -19.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["3D47D2D38F5C4ECD"]
-			description: [
-				"Can be found growing under Quicksoil, much like Hanging Roots from the Overworld."
-				""
-				"When eaten, there's a chance of giving you the Resistance Effect."
-			]
-			id: "2EBC4A20AE0BB1D8"
-			tasks: [{
-				id: "6F7D83E7861472EA"
-				item: "aether_redux:quickroot"
-				type: "item"
-			}]
-			title: "A tad on the dry side..."
-			x: -16.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["57078A29DBC3CF41"]
-			description: [
-				"The most basic form of food that can be found the Aether."
-				""
-				"Maybe some certain animals like them?"
-			]
-			id: "27E1DBFCF9691E4F"
-			tasks: [{
-				id: "3822E93611A86EFE"
-				item: "aether_redux:oats"
-				type: "item"
-			}]
-			title: "T-Oat-Ally Dude!"
 			x: -18.5d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"3D47D2D38F5C4ECD"
-				"27E1DBFCF9691E4F"
-			]
-			description: ["By combining Oats and Blueberries you can create Oat Muffins, which serve as a ok(ish) starter food in the &bAether&r."]
-			id: "283C566D2001E937"
-			tasks: [{
-				id: "6632AD7F50CCC588"
-				item: "aether_redux:oat_muffin"
-				type: "item"
-			}]
-			title: "No baking required!"
-			x: -17.5d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["527CA86A6BEAE9F4"]
@@ -733,23 +683,6 @@
 			}]
 			title: "\"Blue\"stone"
 			x: -23.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["586483D57C8A463E"]
-			description: [
-				"Cook it in a Furnace."
-				""
-				"A Furnace can be crafted using Holystone, much like crafting it with Cobblestone."
-			]
-			id: "73764EBD175539EA"
-			tasks: [{
-				id: "5EE540BC9B496770"
-				item: "aether_redux:raw_veridium"
-				type: "item"
-			}]
-			title: "Raw Blue Mix"
-			x: -18.0d
 			y: -6.5d
 		}
 		{
@@ -797,19 +730,6 @@
 			title: "Wholely-Stone"
 			x: -23.5d
 			y: -3.5d
-		}
-		{
-			dependencies: ["4776D3162BDA5C6E"]
-			description: ["Can be used to create tools, Veridium Chains and Veridium Blocks."]
-			id: "4B17E3BF24700D74"
-			tasks: [{
-				id: "6F107B8E1EAE7921"
-				item: "aether_redux:veridium_ingot"
-				type: "item"
-			}]
-			title: "Valuable Stuff!"
-			x: -21.0d
-			y: -6.5d
 		}
 		{
 			dependencies: ["4B51836028C8BDE8"]
@@ -909,25 +829,8 @@
 				type: "item"
 			}]
 			title: "But you still need to craft it?!"
-			x: -17.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["73764EBD175539EA"]
-			description: [
-				"Required to cook Raw Veridium, which can be used to craft tools."
-				""
-				"But primarily used for creating Veridium Blocks, which are used for a &dPOWERFUL&r new ingot type."
-			]
-			id: "4776D3162BDA5C6E"
-			tasks: [{
-				id: "75B3C5EBC127011C"
-				item: "minecraft:furnace"
-				type: "item"
-			}]
-			title: "Cooker"
 			x: -19.5d
-			y: -6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["50AF4D784A28D585"]

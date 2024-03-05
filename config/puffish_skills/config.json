@@ -1,7 +1,7 @@
 {
 	"version": 1,
+
 	"show_warnings": true,
-	"categories": [
-		"talent"
-	]
+
+	"categories": ["talentree"]
 }

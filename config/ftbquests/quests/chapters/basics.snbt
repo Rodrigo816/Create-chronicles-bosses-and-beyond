@@ -2592,28 +2592,6 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"1. Get a levitation stone by trading with a Cartographer (Master level);"
-				""
-				"2. Right click the levitation stone;"
-				""
-				"3. Follow the cloud (you may travel tens of thousands of blocks, so be patient and prepared)."
-				""
-				"In other to break blocks on the castle o you to find the Leviation Crystal and turn it off"
-			]
-			id: "52C213D9E19FDE18"
-			tasks: [{
-				icon: "castle_in_the_sky:laputa_miniature"
-				id: "521DE53EA3888058"
-				item: "ecologics:sandcastle"
-				type: "item"
-			}]
-			title: "&6A Castle in the sky"
-			x: 16.0d
-			y: 17.0d
-		}
-		{
 			dependencies: ["7EF948B39FBEA377"]
 			description: [
 				"Labels functions similar to Item Frames but can adapt to all surfaces and be physically connected to any solid block no matter the shape."
@@ -2634,24 +2612,6 @@
 			}]
 			title: "Storage Labels "
 			x: -11.5d
-			y: 20.0d
-		}
-		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"The Lost Castle introduces an enormous castle that you'll be able to find with the help of a map given by a journeyman cartographer. "
-				""
-				"Inside resides infinite fortune and mysteries from a long forgotten civilization that disappeared a long time ago and is now eagerly guarded by illagers that won't give up on their fortune even if it means the end of them, or the end of you..."
-			]
-			id: "145E9D1D17E8459F"
-			tasks: [{
-				icon: "ecologics:sandcastle"
-				id: "5F6FB1FF16AA62CB"
-				item: "ecologics:sandcastle"
-				type: "item"
-			}]
-			title: "&6The Lost Castle"
-			x: 15.5d
 			y: 20.0d
 		}
 		{
@@ -2677,6 +2637,31 @@
 			title: "&6HELP NEEDED"
 			x: -18.5d
 			y: 16.5d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"You can simply press a \"V\" and call your horse. Your horse will appear, no matter how far away from it you are."
+				""
+				""
+				"To get a personal horse, you first need to sit on one and press the P key."
+				""
+				"If that horse isn't already owned by another player, that horse becomes your personal horse."
+				""
+				"You can only have one personal horse at a time."
+				""
+				"If your personal horse dies, you can't call it again."
+			]
+			id: "35B77F30098C195A"
+			subtitle: "Do you know you can call your horse?"
+			tasks: [{
+				id: "44C57CADDF7AE7F6"
+				item: "minecraft:leather_horse_armor"
+				type: "item"
+			}]
+			title: "Callable Horses"
+			x: 16.0d
+			y: 17.0d
 		}
 	]
 	title: "&e&l Getting Started!"

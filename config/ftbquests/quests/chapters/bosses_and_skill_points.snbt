@@ -592,54 +592,6 @@
 			}]
 			title: "&2Overworld&f: Myrmex Queen"
 			x: -1.0d
-			y: 3.5d
-		}
-		{
-			can_repeat: false
-			dependencies: ["072DA448D144179C"]
-			description: [""]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1b
-				id: "iceandfire:deathworm_gauntlet_yellow"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "3FAB7E8F9242D140"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "iceandfire:deathworm"
-				id: "6E8AC68589051F63"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&2Overworld&f: Death Worm"
-			x: -2.0d
-			y: 3.5d
-		}
-		{
-			can_repeat: false
-			dependencies: ["072DA448D144179C"]
-			description: ["This unique item can be discovered in the shadows of dark caves. Once brought into the sunlight, it undergoes a stunning transformation, revealing its true beauty."]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
-			icon: "iceandfire:troll_skull"
-			id: "1008B11B672BCD38"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "iceandfire:troll"
-				id: "532ADB024E2B85FE"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&2Overworld&f: Troll"
-			x: -1.0d
 			y: 2.5d
 		}
 		{
@@ -785,8 +737,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Forsaken"
-			x: 1.0d
-			y: 7.5d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -821,8 +773,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Hullbreaker"
-			x: 2.0d
-			y: 7.5d
+			x: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -840,78 +792,6 @@
 			}]
 			title: "&2Overworld&f: Tremorzilla"
 			x: -2.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
-			description: ["Found in promordial caves"]
-			icon: {
-				Count: 1b
-				id: "obtrophies:trophy"
-				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "alexscaves:relicheirus"
-					}
-				}
-			}
-			id: "6942E56394BC3AE1"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "alexscaves:relicheirus"
-				icon: {
-					Count: 1b
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "alexscaves:relicheirus"
-						}
-					}
-				}
-				id: "2E70C8E6AA3073BA"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&2Overworld&f: Relicheirus"
-			x: 0.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
-			description: ["Found in promordial caves"]
-			icon: {
-				Count: 1b
-				id: "obtrophies:trophy"
-				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "alexscaves:tremorsaurus"
-					}
-				}
-			}
-			id: "64D3E7555B2EA5E2"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "alexscaves:relicheirus"
-				icon: {
-					Count: 1b
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "alexscaves:tremorsaurus"
-						}
-					}
-				}
-				id: "7DE04AC4D62ED215"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&2Overworld&f: Tremorsaurus"
-			x: -1.0d
 			y: 7.5d
 		}
 		{
@@ -956,222 +836,6 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Found in icy biomes in a small temple"]
-			icon: {
-				Count: 1b
-				id: "legendary_monsters:frostbitten_shield"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "686D8206E0787502"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "legendary_monsters:frostbitten_golem"
-				icon: {
-					Count: 1b
-					id: "legendary_monsters:frostbitten_shield"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "1C5207BE743E7A35"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&2Overworld&f: Frostbitten golem"
-			x: -3.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
-			description: [""]
-			icon: {
-				Count: 1b
-				id: "legendary_monsters:mossy_hammer"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "323D6AE9C2858EF3"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "legendary_monsters:overgrown_colossus"
-				icon: {
-					Count: 1b
-					id: "legendary_monsters:mossy_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "34D0B846E60768D6"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&2Overworld&f: Overgrown Collosus"
-			x: -2.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
-			description: [""]
-			icon: "legendary_monsters:warped_mushroom_cap_part"
-			id: "197DD9E124643F59"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "legendary_monsters:warped_fungussus"
-				icon: "legendary_monsters:warped_mushroom_cap_part"
-				id: "6A59E7D2F1D2A926"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&cNether&f: Warped Fungussus"
-			x: 5.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
-			description: [""]
-			icon: {
-				Count: 1b
-				id: "legendary_monsters:withered_scythe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "705231A3D400C442"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "legendary_monsters:withered_abomination"
-				icon: {
-					Count: 1b
-					id: "legendary_monsters:withered_scythe"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "2645D4276F53B98D"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&cNether&f: Withered abomination"
-			x: -1.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
-			description: [""]
-			icon: {
-				Count: 1b
-				id: "legendary_monsters:dinosaur_bone_club"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "548DF3360D5B6B5C"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "legendary_monsters:skeletosaurus"
-				icon: {
-					Count: 1b
-					id: "legendary_monsters:dinosaur_bone_club"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "15AEFC8BA4EDE603"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&cNether&f: Skeletosauros"
-			x: 4.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
-			description: [""]
-			icon: {
-				Count: 1b
-				id: "legendary_monsters:fiery_jaw"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "57142A944464E2DC"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "legendary_monsters:lava_eater"
-				icon: {
-					Count: 1b
-					id: "legendary_monsters:fiery_jaw"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "44EEE3807864C381"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&cNether&f: Lava Eater"
-			x: 3.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
-			description: [""]
-			icon: "legendary_monsters:endersent_spawn_egg"
-			id: "1C3FB56346ACED76"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "legendary_monsters:endersent"
-				icon: "legendary_monsters:endersent_spawn_egg"
-				id: "0F3A4745FA85D69F"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&eEnd&f: Endersent"
-			x: 0.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
-			description: [""]
-			icon: {
-				Count: 1b
-				id: "legendary_monsters:shulker_shield"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "1D73BCBED3BE14E9"
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "legendary_monsters:shulker_mimic"
-				icon: {
-					Count: 1b
-					id: "legendary_monsters:shulker_shield"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "433C9ECD235E84BC"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&eEnd&f: Shulker mimic"
-			x: 5.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
 			description: [""]
 			icon: "deeperdarker:stalker_spawn_egg"
 			id: "66C5F17F1D24B252"
@@ -1185,8 +849,8 @@
 				value: 1L
 			}]
 			title: "&3The other side&f: Stalker"
-			x: 4.0d
-			y: 4.5d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1203,8 +867,8 @@
 				value: 1L
 			}]
 			title: "&cNether&f: Ancient Demon Lord"
-			x: 4.0d
-			y: 5.5d
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1557,7 +1221,7 @@
 			}]
 			title: "&2Overworld&f: Captain King Cornelia"
 			x: 4.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1642,8 +1306,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Pumpkillager"
-			x: 1.0d
-			y: 8.5d
+			x: 4.0d
+			y: 4.5d
 		}
 	]
 	title: "&9&l Bosses and Skill Points"
