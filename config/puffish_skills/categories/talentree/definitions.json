@@ -959,7 +959,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "ars_nouveau:apprentice_spell_book"
+				"item": "supplementaries:wrench"
 			}
 		},
 		"rewards": [
@@ -1009,7 +1009,7 @@
 	},
 	"meeleElemental": {
 		"title": "§aYour Meele Attacks will deal +3 Fire damge +3 Cold Damage",
-		"cost": 7,
+		"cost": 12,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1019,9 +1019,9 @@
 			}
 		},
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "health_boost"
+				"item": "ars_elemental:fire_focus"
 			}
 		},
 		"rewards": [
@@ -2013,9 +2013,9 @@
 			}
 		},
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "diamond"
+				"effect": "alexscaves:stunned"
 			}
 		},
 		"rewards": [
@@ -2093,9 +2093,9 @@
 			}
 		},
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "diamond"
+				"effect": "obscure_api:fury"
 			}
 		},
 		"rewards": [
@@ -2135,7 +2135,7 @@
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "regeneration"
+				"effect": "fire_resistance"
 			}
 		},
 		"rewards": [
@@ -2249,26 +2249,29 @@
 		}
 	},
 	"armourPen%md": {
-		"title": "fill",
+		"title": "§a +5% Armour Penetration",
+		"const":3,
 		"frame": {
-			"type": "advancement",
+			"type": "texture",
 			"data": {
-				"frame": "challenge"
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
 			}
 		},
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "apple"
+				"effect": "attributeslib:sundering"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.1,
-					"operation": "multiply_total"
+					"attribute": "obscure_api:penetration",
+					"value": 5,
+					"operation": "addition"
 				}
 			}
 		],

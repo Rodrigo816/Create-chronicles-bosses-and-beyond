@@ -4,9 +4,9 @@
 	"icon": {
 		"type": "item",
 		"data": {
-			"item": "diamond_sword"
+			"item": "kubejs:create_chronicles"
 		}
 	},
-	"spent_points_limit":50,
+	"spent_points_limit":56,
 	"background": "textures/block/deepslate_bricks.png"
 }

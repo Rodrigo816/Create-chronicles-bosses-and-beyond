@@ -29,7 +29,7 @@
 				""
 				"To reassign your talents, use the consumable item &cReset Scroll&f, which refunds all your skill points upon use. The means to acquire a &cReset Scroll&f are unlocked at later stage. "
 				""
-				"&eSkill points&f are primarily earned through challenging boss battles, with a max of 50 skills in total, all obtainable via quests. "
+				"&eSkill points&f are primarily earned through challenging boss battles, with a max of &656 skills&r in total, all obtainable via quests. "
 				""
 				"For a comprehensive guide on acquiring &eskill points&f, refer to the &2'Bosses and Skill Points'&f chapter."
 			]
@@ -1933,6 +1933,8 @@
 				"The &0&kBlack Market&r&r is the ultimate testing ground for your ingenious Create automations. Here, you can exchange the fruits of your mechanical mastery for unique items &cnot found anywhere else&r."
 				""
 				"You can use a &9task screen&r and a &9task screen configurator&r to automate."
+				""
+				"NEED SUGESTIONS ON WHAT U LIKE TO AUTOMATE TO SUBMIT TO MARKET."
 			]
 			id: "21FB9D855FA9D2DF"
 			tasks: [{
