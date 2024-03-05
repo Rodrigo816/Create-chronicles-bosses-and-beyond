@@ -29,7 +29,7 @@
 		"Default Text Color" = "ffffff"
 		# The text's scale.
 		# Default: 2.1
-		"Text Size" = 2.5
+		"Text Size" = 2.1
 		# If enabled, will render a shadow below the text making it easier to read.
 		# Default: true
 		"Display Text Shadow" = true
