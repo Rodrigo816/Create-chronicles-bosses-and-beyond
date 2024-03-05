@@ -17,6 +17,11 @@
 			]
 			hide: true
 			id: "2F0F635C06E8D307"
+			rewards: [{
+				id: "5492E3E7C1F5AE23"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "square"
 			size: 1.7d
 			subtitle: "The twilight zone"
@@ -35,6 +40,11 @@
 			dependencies: ["2F0F635C06E8D307"]
 			description: ["The Blank magic map can be used similar to a normal map, but inside the twilight forest it will show all the nearby biomes and objectives in said biome. It's very usefull for finding your way around."]
 			id: "51EC1DBEAFF575D7"
+			rewards: [{
+				id: "2C00EFF4D95465A8"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "square"
 			subtitle: "A useful guide"
 			tasks: [{
@@ -112,6 +122,11 @@
 					item: "twilightforest:charm_of_keeping_1"
 					type: "item"
 				}
+				{
+					id: "3EEB8AED442F6C86"
+					type: "xp"
+					xp: 100
+				}
 			]
 			shape: "square"
 			subtitle: "Found in Hollow Hills in swamps. Unlocks The Dark Forest."
@@ -132,11 +147,18 @@
 				"Watch out for the &cUr-Ghast&r's tears, as they will do &dsignificant damage to you&r!"
 			]
 			id: "546A5B881F8F6A29"
-			rewards: [{
-				id: "3173D23B515E0009"
-				item: "twilightforest:charm_of_keeping_2"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3173D23B515E0009"
+					item: "twilightforest:charm_of_keeping_2"
+					type: "item"
+				}
+				{
+					id: "763634AD2A1F1CD8"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Found in Dark Towers in The Dark Forest."
 			tasks: [{
@@ -179,11 +201,19 @@
 				"Once you find her, she is &eheavily protected&r by the &bice of her throne&r. You will need to wait for her to lower herself into attack range to defeat her."
 			]
 			id: "2C964425741DFA07"
-			rewards: [{
-				id: "56AA01D8597D455E"
-				item: "minecraft:netherite_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "1D44958D215809FB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "549F30A250309E05"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "square"
 			subtitle: "Found in Glaciers."
 			tasks: [{
@@ -203,6 +233,11 @@
 				"You're looking to get your hands on some &dMeef Stroganaff&r. Consuming this will allow you to traverse deeper into the hotter part of the swamp and fight the &6Hydra&r!"
 			]
 			id: "1125F566DAEFC4A5"
+			rewards: [{
+				id: "38F20D5365F9DD50"
+				type: "xp"
+				xp: 30
+			}]
 			shape: "square"
 			subtitle: "Obtained by killing a Minotaur, found in swamp Labyrinths. Unlocks Hollow Hills."
 			tasks: [{
@@ -250,6 +285,11 @@
 				"Your first goal is to locate a &2cave full of trolls&r. &3Trolls&r hide their most valuable possessions in stashes made of &dobsidian&r. The large stash you will not be able to get into until later, but remember it's location as you will return soon. In the smaller stashes, you can find &aMagic Beans&r. These beans can be planted on &dUberous Soil&r on the surface to grow a &alarge beanstalk&r into the skies. "
 			]
 			id: "254CFFAAF052399C"
+			rewards: [{
+				id: "02162698D2E1046C"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7732BB4C69F3B042"
@@ -267,6 +307,11 @@
 				"Once you have the &eGiant's Pickaxe&r in hand, descend back into the &2Troll Cave&r to &3break into the giant &dObsidian&3 vault&r."
 			]
 			id: "1BFB221E98E6B727"
+			rewards: [{
+				id: "614E47B26F05E9FF"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -304,6 +349,11 @@
 				"Use it to ascend to the &5Final Castle&r. You can hold right-click to spread the flame in an AoE around you, or apply directly to the &cthorns&r with right-click."
 			]
 			id: "6186282EA9E837D8"
+			rewards: [{
+				id: "5A18BD24A1F4B566"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "square"
 			tasks: [{
 				id: "281C6A9BEC1301F2"
@@ -323,6 +373,18 @@
 			dependencies: ["6186282EA9E837D8"]
 			description: ["And that's it! Sorry to disappoint, but this &emarks the end&r of progression in &dThe Twilight Forest&r at least for now. "]
 			id: "7CA4CDBFAA14FA9F"
+			rewards: [
+				{
+					id: "1E18D0AD656581CA"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "1218CB3BFC5A3648"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				advancement: "twilightforest:progress_thorns"

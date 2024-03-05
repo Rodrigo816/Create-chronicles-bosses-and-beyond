@@ -48,6 +48,11 @@
 			dependencies: ["28B245505F91D21C"]
 			description: ["Craft a &6iron chest&r - upgradeable via the &5Iron Chests&r mod!"]
 			id: "185BE49AE8B53CBD"
+			rewards: [{
+				id: "1F4E5A434D150857"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4EFDAB97918B546C"
 				item: "ironchest:iron_chest"
@@ -77,6 +82,11 @@
 				"You can also press &bR&r and &bU&r while hovering over any item to see their Recipe and Uses"
 			]
 			id: "7261FED43BDDEFA8"
+			rewards: [{
+				id: "6936CD16F9688A12"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
 			tasks: [{
 				id: "28DECE967CE74AD2"
 				item: "sophisticatedbackpacks:backpack"
@@ -138,6 +148,11 @@
 				"Build a house, build a farm, do the usual."
 			]
 			id: "0C49795E134A27E0"
+			rewards: [{
+				id: "08FE04373B6B0505"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -157,6 +172,11 @@
 				"Don't use all your templates in one go as you can duplicate those."
 			]
 			id: "6EDC6D809402C84C"
+			rewards: [{
+				id: "3BE68D65CCD63759"
+				type: "xp"
+				xp: 60
+			}]
 			tasks: [{
 				id: "096AF6AAAD52211A"
 				item: "minecraft:netherite_upgrade_smithing_template"
@@ -174,6 +194,11 @@
 				"You'll gain access to mechanical crafters in Chapter 3, paving the way for your aerial adventure."
 			]
 			id: "0C7046AD65831DAC"
+			rewards: [{
+				id: "6941E9B443360ADA"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "4CDC98F4B0439B5A"
 				item: {
@@ -268,6 +293,11 @@
 				}
 			}
 			id: "2F1F1047E8A734EC"
+			rewards: [{
+				id: "721FF67AC2FD6B87"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "New and legendary weapons"
 			tasks: [{
 				id: "2641C625B57F3705"
@@ -294,6 +324,11 @@
 			]
 			icon: "alexsmobs:animal_dictionary"
 			id: "018D3C4DBED54803"
+			rewards: [{
+				id: "3DAC8A3BB2FB7AFB"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "New Animals"
 			tasks: [{
 				id: "15EDF99888160CC9"
@@ -308,6 +343,11 @@
 			dependencies: ["123D70CA4959F172"]
 			description: ["Dimensional Dungeons is a mod about creating portals to semi-randomly generated dungeons with different challenges and puzzles for you to solve or fight your way through. To get started you will need gilded portal blocks."]
 			id: "479BCCC330D6725A"
+			rewards: [{
+				id: "25AEE5EABCB3C6DD"
+				type: "xp"
+				xp: 15
+			}]
 			subtitle: "Gilded portal block"
 			tasks: [{
 				count: 2L
@@ -330,11 +370,18 @@
 				"{image:kubejs:textures/bare_portal_frame.png width:200 height:120 align:1}"
 			]
 			id: "70068CFDA790A856"
-			rewards: [{
-				id: "5A6D5150CFD16EA9"
-				item: "dimdungeons:item_portal_key"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5A6D5150CFD16EA9"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "56B9713B96937881"
+					type: "xp"
+					xp: 35
+				}
+			]
 			subtitle: "The last step"
 			tasks: [{
 				id: "5051B0937885FF15"
@@ -348,6 +395,11 @@
 			dependencies: ["479BCCC330D6725A"]
 			description: ["Blank portal keys can be aquired via crafting, as loot, or from adventurer bounties. They are the key to opening new dimensional dungeons."]
 			id: "7B4DB4B0D17BE6C4"
+			rewards: [{
+				id: "07DDC96B14693645"
+				type: "xp"
+				xp: 35
+			}]
 			subtitle: "Get a blank portal key"
 			tasks: [{
 				id: "67D7AB20A178B8A4"
@@ -365,11 +417,18 @@
 				"{image:kubejs:textures/advanced_portal_build.png width:200 height:120 align:1}"
 			]
 			id: "6A465B0AE8586176"
-			rewards: [{
-				id: "09562381EF6CF006"
-				item: "dimdungeons:item_portal_key"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "09562381EF6CF006"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "7FBB4AF74D31C240"
+					type: "xp"
+					xp: 70
+				}
+			]
 			subtitle: "Advanced Portal Keys"
 			tasks: [{
 				count: 2L
@@ -385,11 +444,18 @@
 			dependencies: ["479BCCC330D6725A"]
 			description: ["Each dimensional dungeon you open will have its own unique name inscribed on the key it belongs to. In order to name a key you must right-click the blank portal key on &6The Key Inscription Station&r."]
 			id: "6BC9E9B971DEE60A"
-			rewards: [{
-				id: "56139D410D078D3C"
-				item: "dimdungeons:item_portal_key"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "56139D410D078D3C"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "1CBDEF934517F060"
+					type: "xp"
+					xp: 35
+				}
+			]
 			subtitle: "Key Inscription Station"
 			tasks: [{
 				id: "6254D4627A80A005"
@@ -403,6 +469,11 @@
 			dependencies: ["7B4DB4B0D17BE6C4"]
 			description: ["The Blank Personal Dimension Key can be inscribed the same as a normal blank key, but when inserted in the keystone will take you to your own empty dimension to build as you please."]
 			id: "03C4EA06B12B1656"
+			rewards: [{
+				id: "1AD3FDA3EF5444A4"
+				type: "xp"
+				xp: 35
+			}]
 			subtitle: "Personal Dimension"
 			tasks: [{
 				id: "7B8C4A7F6C6AF405"
@@ -468,6 +539,11 @@
 			dependencies: ["7EF948B39FBEA377"]
 			description: ["Paragliders are a form of simple air transportation. Gliding is slightly faster then walking."]
 			id: "107C7C1F5CADD79E"
+			rewards: [{
+				id: "1AC7296C76CD5F9F"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Catch the wind"
 			tasks: [{
 				id: "44B7D229A5F0DA91"
@@ -572,6 +648,11 @@
 				}
 			}
 			id: "4B378FB1C1B2C9B6"
+			rewards: [{
+				id: "0DE40E0CC958DE8B"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			subtitle: "Magic and towers"
@@ -606,6 +687,11 @@
 				"In this case, you need a better spell book."
 			]
 			id: "5B77391C5522B8FD"
+			rewards: [{
+				id: "10628D069DE82A16"
+				type: "xp"
+				xp: 20
+			}]
 			subtitle: "Inscribing spells"
 			tasks: [{
 				id: "4760248725EA6AFE"
@@ -625,6 +711,11 @@
 				"Default cast key is \"c\""
 			]
 			id: "203A551C239270CC"
+			rewards: [{
+				id: "3C19DC8A4E206C87"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Your first Spellbook"
 			tasks: [{
 				id: "57756789D0E642A1"
@@ -652,11 +743,18 @@
 			]
 			description: ["The Arcane Anvil allows you to place 2 scrolls of the same type/level and combine them into the next level up. By placing a weapon and a spell scroll into th Arcane Anvil you can also imbue the effects of the used scroll into said weapon (consumes scroll,) making the weapon able to cast the spell. A Shriving Stone can be used to take off an imbued spell from a weapon."]
 			id: "25F182EEFE41CFAB"
-			rewards: [{
-				id: "391A333A7E3687F0"
-				item: "irons_spellbooks:shriving_stone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "391A333A7E3687F0"
+					item: "irons_spellbooks:shriving_stone"
+					type: "item"
+				}
+				{
+					id: "318A3F601957723A"
+					type: "xp"
+					xp: 200
+				}
+			]
 			subtitle: "Upgrading and Imbuement"
 			tasks: [{
 				id: "489E87CAFFF7045B"
@@ -670,6 +768,11 @@
 			dependencies: ["203A551C239270CC"]
 			description: ["Runestones are a more rare find in magical structures, and are always found as blank runestones. Using 8 focuses, you can craft a runestone to a specific school, and use your inscribed runestone to craft gear related to that school."]
 			id: "7F100A2BD0FCDF83"
+			rewards: [{
+				id: "1E00ABF3337012D9"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "5D93C698ECD2F59D"
 				item: "irons_spellbooks:blank_rune"
@@ -682,6 +785,11 @@
 			dependencies: ["4B378FB1C1B2C9B6"]
 			description: ["Arcane essence is the most common and most important magical material. It can be found in magical structures, or looted from killing magical enemies. Low amounts of it may craft weak magic items, but its primary purpose is to be condensed into Arcane Cloth or Arcane Ingots, and used in more powerful crafting recipes."]
 			id: "4BF4F782BB659567"
+			rewards: [{
+				id: "1F9589A29691F3A3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5CD67234CAD3B746"
 				item: "irons_spellbooks:arcane_essence"
@@ -700,6 +808,11 @@
 				"When using ink in the Scroll Forge, it will allow you to craft a spell of the corresponding rarity, at the lowest level available. If the minimum rarity of a spell is higher than the ink provided, you will not be able to craft it at all, instead needing a higher quality ink to craft its first level."
 			]
 			id: "06B922A788EDDEC4"
+			rewards: [{
+				id: "715E6F4F64E208E5"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "31E0D91ADE40BCF9"
 				item: "irons_spellbooks:common_ink"
@@ -716,6 +829,11 @@
 				"The ink determines the rarity/level, and the focus determines what school of spells you can craft."
 			]
 			id: "36F0F4CB2DB0DC6F"
+			rewards: [{
+				id: "00C545839245671B"
+				type: "xp"
+				xp: 20
+			}]
 			subtitle: "Making Spells"
 			tasks: [{
 				id: "51298BAF518C7A9E"
@@ -759,6 +877,11 @@
 			description: ["&eAlex's Caves&r adds in a unique variety of new underground cave biomes with many new interesting mobs and mechanics to play around with. To get started you'll need to find an underground cabin to acquire some cave tablets, as well as a spelunkers table."]
 			icon: "alexscaves:cave_book"
 			id: "7928A20D0045F639"
+			rewards: [{
+				id: "17219D3B2ADE76CA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "New Cave Biomes"
 			tasks: [{
 				id: "1F3B75CF4A9081C1"
@@ -773,6 +896,11 @@
 			dependencies: ["7928A20D0045F639"]
 			description: ["By placing a piece of paper and a cave tablet into the spelunkers table, you can play a minigame to unlock some of the secrets the tablet holds."]
 			id: "0B33930363EA8EA6"
+			rewards: [{
+				id: "5B5D750CDEF200EC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "Cave Research"
 			tasks: [{
 				id: "7BE42DB0963CD12C"
@@ -786,6 +914,11 @@
 			dependencies: ["0B33930363EA8EA6"]
 			description: ["Acquire a cave codex for the Magnetic caves."]
 			id: "44B09D1387E6E869"
+			rewards: [{
+				id: "427CA655869197C1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "2D1D2A4F4DD151B1"
 				item: {
@@ -805,6 +938,11 @@
 			dependencies: ["0B33930363EA8EA6"]
 			description: ["Acquire a cave codex for the Primodial caves."]
 			id: "416E90790D3E0649"
+			rewards: [{
+				id: "202722CB3DD66DA2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "55F96ADA59F5C464"
 				item: {
@@ -824,6 +962,11 @@
 			dependencies: ["0B33930363EA8EA6"]
 			description: ["Acquire a cave codex for Toxic caves."]
 			id: "37AFA8503CA03709"
+			rewards: [{
+				id: "33C5B2A58607842A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "60C25629145C9123"
 				item: {
@@ -843,6 +986,11 @@
 			dependencies: ["0B33930363EA8EA6"]
 			description: ["Acquire a cave codex to an Abyssal Chasm."]
 			id: "1A0BB8ACA52FBA1F"
+			rewards: [{
+				id: "001F77E8130D72A4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "3FA84A95E328CE0E"
 				item: {
@@ -862,6 +1010,11 @@
 			dependencies: ["0B33930363EA8EA6"]
 			description: ["Acquire a cave codex for a Forlorn caves."]
 			id: "5CCA336AA55B6C1B"
+			rewards: [{
+				id: "59D7D74384CD8089"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "1BA9BA11B3A259D3"
 				item: {
@@ -887,6 +1040,11 @@
 				}
 			}
 			id: "5952AF93B95E494C"
+			rewards: [{
+				id: "4513960438D57A06"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				biome: "alexscaves:primordial_caves"
 				icon: {
@@ -906,6 +1064,11 @@
 		{
 			dependencies: ["37AFA8503CA03709"]
 			id: "52034A3AD5A347C8"
+			rewards: [{
+				id: "6931B8CCFC75DDB9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				biome: "alexscaves:toxic_caves"
 				icon: {
@@ -932,6 +1095,11 @@
 				}
 			}
 			id: "073F2FEC3D06AC0E"
+			rewards: [{
+				id: "3D4075D137A22448"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				biome: "alexscaves:magnetic_caves"
 				icon: {
@@ -958,6 +1126,11 @@
 				}
 			}
 			id: "724179DC4605ECC2"
+			rewards: [{
+				id: "75522EBCFEB4314B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				biome: "alexscaves:forlorn_hollows"
 				icon: {
@@ -984,6 +1157,11 @@
 				}
 			}
 			id: "5782F8A43B93FC7D"
+			rewards: [{
+				id: "7B08CB0811CA3F51"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				biome: "alexscaves:abyssal_chasm"
 				icon: {
@@ -1303,11 +1481,18 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: ["With the help of Schematicannons, any .nbt Schematic can be built into your world. Use it to replicate parts of your Building, or even to prepare it in a completely different World ahead of time."]
 			id: "64BDD35062B9FAF8"
-			rewards: [{
-				id: "074A88EAA4BABA31"
-				item: "create:empty_schematic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "074A88EAA4BABA31"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "35890285183CAF11"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				consume_items: false
 				id: "7C520AF11FE6262D"
@@ -1562,18 +1747,11 @@
 			dependencies: ["05B32DE12868C6DE"]
 			description: ["I'm going to assume you've been out mining, right? It is &4Minecraft&r after all."]
 			id: "28B245505F91D21C"
-			rewards: [
-				{
-					id: "2CABA399E7A9D8B1"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2EC02ED9DFE779BD"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "2CABA399E7A9D8B1"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [
@@ -1669,18 +1847,11 @@
 			]
 			hide: false
 			id: "0C4974DE21CEDF4B"
-			rewards: [
-				{
-					id: "2029C4079E097488"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7004C41EC862BFE1"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "2029C4079E097488"
+				type: "xp"
+				xp: 10
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "0C5834C0899BEF2B"
@@ -1705,18 +1876,11 @@
 				"While they do have a recipe, most of the trims are rare finds in from loot chests or archaeology digs. Once you find one, you can dupe the Template by using the recipe to create more!"
 			]
 			id: "65B47B2E1AA75ED3"
-			rewards: [
-				{
-					id: "48CCA5D27575C069"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "06A32083D4E32B12"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "48CCA5D27575C069"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "760E2C0115B25B09"
@@ -1746,18 +1910,11 @@
 				"You can breed 2 adult Sniffers by using Torchflowers."
 			]
 			id: "77EEE919C23E18B1"
-			rewards: [
-				{
-					id: "60B1B82C0EFA564B"
-					type: "xp"
-					xp: 250
-				}
-				{
-					exclude_from_claim_all: true
-					id: "46FE2C449F22974C"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "60B1B82C0EFA564B"
+				type: "xp"
+				xp: 250
+			}]
 			subtitle: "Scruff McGruff's Distant Cousin"
 			tasks: [{
 				id: "2DC4927BB3208BB3"
@@ -1772,18 +1929,11 @@
 			dependencies: ["04D09899362AFC7A"]
 			description: ["Diamonds are one of the best materials to use for tool crafting, but also allows you to visit new dimensions like the Nether!"]
 			id: "06267D7C266DE215"
-			rewards: [
-				{
-					id: "5CCB3BCA3CDDC471"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4FBC05EAB0617FCF"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "5CCB3BCA3CDDC471"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -1879,24 +2029,11 @@
 				}
 			}
 			id: "119EBE265E39757C"
-			rewards: [
-				{
-					id: "22FEF5E3C20EF9FF"
-					item: {
-						Count: 1b
-						id: "minecraft:lingering_potion"
-						tag: {
-							Potion: "ars_nouveau:mana_regen_potion_long"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2FA068BB2914BAE8"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "2FA068BB2914BAE8"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Mage Power"
 			tasks: [{
 				id: "5128619AB7EB8CFE"
@@ -1951,6 +2088,7 @@
 			description: ["Stoves are a good-looking and very useful campfire alternative. Together with a Cooking Pot, it can help you prepare the most delicious meals in the game."]
 			id: "327AE18669E4B9F0"
 			rewards: [{
+				count: 5
 				id: "2FA95BED56ECC377"
 				item: "minecraft:salmon"
 				type: "item"
@@ -1969,12 +2107,19 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: ["If you are looking for extra large but specialised storage space in a block, check out Storage Drawers."]
 			id: "097BB73C61F14C0A"
-			rewards: [{
-				id: "7CE563842B465CA3"
-				item: "storagedrawers:upgrade_template"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7CE563842B465CA3"
+					item: "storagedrawers:upgrade_template"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "5B8CA56B5C1A9881"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				consume_items: false
 				id: "04EB28BC261F8CD3"
@@ -2350,6 +2495,11 @@
 				"Cooldown of your combat roll ability can be seen on the main UI."
 			]
 			id: "640C3588E6BA8DF2"
+			rewards: [{
+				id: "71C3D2FFBD888B63"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "66A18BC1D70CC3C1"
 				title: "Yes, I'm ready to fight!"
@@ -2411,6 +2561,11 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: ["By right cliking on the ground, you can summon in a \"mirror\" that will, well, mirror the blocks you place down."]
 			id: "6A532E6DD8742675"
+			rewards: [{
+				id: "0F7A0972D7B3E32F"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "73FB56BC99572AE8"
 				item: "create:wand_of_symmetry"
@@ -2442,6 +2597,11 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: ["You can sell and buy stuff from other players using a vending machine."]
 			id: "27B45F8E0C5718F7"
+			rewards: [{
+				id: "595571ED03CEC951"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "39028376A1090EEA"
 				item: "toms_trading_network:vending_machine"
@@ -2607,6 +2767,11 @@
 				"Using a Feather on them will display the item name. "
 			]
 			id: "7C72177A2822A166"
+			rewards: [{
+				id: "6B5E0B1AFEE93BCE"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7EE639E3F72F2181"
 				item: "labels:label"
@@ -2617,11 +2782,8 @@
 			y: 20.0d
 		}
 		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
 			description: [
-				"&lCreate Chronicles: Bosses and Beyond&r&6 is currently in an experimental phase&r and not fully complete."
-				""
-				"Expect bugs and some unimplemented features as we continue development. "
-				""
 				"Your feedback and assistance are invaluable to improving this modpack."
 				""
 				"For suggestions, bug reports, or if you're interested in contributing, please reach out to us on Discord. "
@@ -2637,8 +2799,8 @@
 				type: "item"
 			}]
 			title: "&6HELP NEEDED"
-			x: -18.5d
-			y: 16.5d
+			x: -19.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
@@ -2655,6 +2817,11 @@
 				"If your personal horse dies, you can't call it again."
 			]
 			id: "35B77F30098C195A"
+			rewards: [{
+				id: "56D51CC1BF5E556B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Do you know you can call your horse?"
 			tasks: [{
 				id: "44C57CADDF7AE7F6"

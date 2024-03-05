@@ -34,31 +34,13 @@
 			x: 1.0d
 			y: 11.0d
 		}
-		{
-			alpha: 200
-			click: ""
-			color: 16672790
-			corner: false
-			dev: false
-			height: 1.2d
-			hover: [ ]
-			image: "chalk:block/mark/arrow"
-			rotation: 180.0d
-			width: 1.2d
-			x: 1.0d
-			y: 0.5d
-		}
 	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["5F8B17F4A8CF47C7"]
-			description: [
-				"Let's get the basic parts ready to head to space."
-				""
-				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
-			]
+			description: ["Let's get the basic parts ready to head to space."]
 			id: "59753336427A57A6"
 			subtitle: "Craft a rocket nose cone."
 			tasks: [{

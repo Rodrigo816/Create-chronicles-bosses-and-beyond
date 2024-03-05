@@ -28,6 +28,18 @@
 				"&7&o*other wood types can be used..."
 			]
 			id: "57078A29DBC3CF41"
+			rewards: [
+				{
+					id: "692D3BB78F827FC2"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "69FBF60C22D79481"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "0BAD7EB27B1D421A"
 				item: "minecraft:crafting_table"
@@ -47,6 +59,18 @@
 				"Can mine &eAmbrosium&r Ore."
 			]
 			id: "324287EC1ACF685B"
+			rewards: [
+				{
+					id: "3FEEC1D3E9FDAEA4"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "7818E64E346F3818"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [
 				{
 					id: "10F374DAFA91F3CD"
@@ -96,6 +120,18 @@
 				"Can mine &5Zanite&r and &9Veridium&r Ore."
 			]
 			id: "527CA86A6BEAE9F4"
+			rewards: [
+				{
+					id: "27F65604DC13A7FB"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "21BBD9B081009944"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [
 				{
 					id: "3E674C7DEA51ECCE"
@@ -150,6 +186,18 @@
 				"Can mine &2Skyjade&r and &dGravitite&r Ore"
 			]
 			id: "4B51836028C8BDE8"
+			rewards: [
+				{
+					id: "43865962AB10A36A"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5130539CB47C5FDE"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [
 				{
 					id: "13A96C598F1C4D7E"
@@ -204,6 +252,18 @@
 				"&o&7Woosh!"
 			]
 			id: "14BD495887E26D7B"
+			rewards: [
+				{
+					id: "134614EA42979EEA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "7E7001D2A77F4FD4"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [
 				{
 					id: "24D6F75537F3FEB8"
@@ -247,6 +307,18 @@
 			dependencies: ["324287EC1ACF685B"]
 			description: ["Think of this as yellow Coal."]
 			id: "586483D57C8A463E"
+			rewards: [
+				{
+					id: "5CC6FC193A926BF1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5F40F83A12ADE734"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "037DA10E61DBD324"
 				item: "aether:ambrosium_shard"
@@ -264,6 +336,18 @@
 				"Also has another use..."
 			]
 			id: "63B670F3227A2A53"
+			rewards: [
+				{
+					id: "46AA0B719B009974"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5DECE5ECA563B1B5"
+					type: "xp"
+					xp: 10
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				count: 4L
@@ -286,6 +370,18 @@
 				"When a baby Moa fully grows up after eating &ax3 &eAechor Petals&r, it'll become an adult Moa which can be ridden on provided it has a saddle equipped."
 			]
 			id: "7810F69B0F6826AE"
+			rewards: [
+				{
+					id: "5916988078B98857"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3E97FF2A2A9C5D5C"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "4BB4363331DE94DA"
 				item: "aether:incubator"
@@ -305,6 +401,18 @@
 				"&o&7*rumours say that the black moas are the best for flying long distances...&r"
 			]
 			id: "136FFD14991FD432"
+			rewards: [
+				{
+					id: "278A8DE64026FF2F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3FFBC307807270E1"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "41C5382BAD2E94CB"
 				item: {
@@ -336,6 +444,18 @@
 				"If you use a Skyroot Bucket on this plant, you'll gain some poison from it in your bucket! "
 			]
 			id: "218FFECECB406E88"
+			rewards: [
+				{
+					id: "307F10E2EC5DBD4C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "6181FA20A013532B"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				count: 3L
 				id: "42E33E3C43EAFE28"
@@ -354,6 +474,18 @@
 				"HANDY!"
 			]
 			id: "492CC1C0507FE008"
+			rewards: [
+				{
+					id: "12C6A6C3F97F539A"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "339D206D500B4A5F"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "2AE2867555FD1591"
 				item: "minecraft:saddle"
@@ -371,6 +503,18 @@
 				"Used to open &6Gold&r Dungeon loot Chests."
 			]
 			id: "4A5578CD756D9DDC"
+			rewards: [
+				{
+					id: "01D60183031E3A32"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "04E17C37F81AC92F"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "316AC35D8E5A1A06"
@@ -389,6 +533,18 @@
 				"Used to open &9Platinum&r Dungeon loot Chests."
 			]
 			id: "50AF4D784A28D585"
+			rewards: [
+				{
+					id: "1EDBC85149C2AE74"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "4C3D40FA7F779A9B"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "604830DA1C0956C9"
@@ -411,6 +567,18 @@
 				"Just keep your eyes peeled for secret entrances that look like caves."
 			]
 			id: "5A143952EAB7643E"
+			rewards: [
+				{
+					id: "76E579C02050CA0E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "00572D7C101A4544"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			tasks: [{
 				icon: "aether:sentry_stone"
@@ -435,6 +603,18 @@
 			]
 			hide: true
 			id: "7C32DED450405D92"
+			rewards: [
+				{
+					id: "141A9D1FC3D7F4E5"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "360916D949073A85"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			tasks: [{
 				icon: "aether:light_angelic_stone"
@@ -459,6 +639,18 @@
 			]
 			hide: true
 			id: "63B35ED12D525A4F"
+			rewards: [
+				{
+					id: "49D4CAC116A07CAF"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "333884B3E9AB5D51"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			tasks: [{
 				icon: "aether:light_hellfire_stone"
@@ -483,6 +675,18 @@
 			]
 			hide: true
 			id: "50CC54774B835A50"
+			rewards: [
+				{
+					id: "3461FC6AA756E857"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "42A2D249B0BAD58D"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			tasks: [{
 				icon: "lost_aether_content:light_gale_stone"
@@ -502,6 +706,18 @@
 				"Used for crafting Golden Dart Shooter, Golden Darts."
 			]
 			id: "6E856702D9B7C2EE"
+			rewards: [
+				{
+					id: "478001BE2584AAA4"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "62ADB380B6E409EA"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "58C9E61064829F68"
 				item: "aether:golden_amber"
@@ -519,6 +735,18 @@
 				"Used to open &7Silver&r Dungeon loot Chests."
 			]
 			id: "435634BB2DD8B627"
+			rewards: [
+				{
+					id: "179C184688044657"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1B3EA30EA2E07784"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "2DFB32E0B0435146"
@@ -537,6 +765,18 @@
 				"Used to open &cBronze&r Dungeon loot Chests."
 			]
 			id: "5F808832927F1A31"
+			rewards: [
+				{
+					id: "34571A725398EEBA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "03F4A70FC6E3ED1D"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "0A295054B1A869F8"
@@ -555,6 +795,18 @@
 				"Freezes items of course!"
 			]
 			id: "5CE831834AEB8CCE"
+			rewards: [
+				{
+					id: "44613E22E63ABC6F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5795ECCE7782DE11"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "16CCDDB6C3A5950A"
 				item: "aether:freezer"
@@ -577,6 +829,18 @@
 				"&eAmbrosium&r is the main fuel source."
 			]
 			id: "4FA8E46476200357"
+			rewards: [
+				{
+					id: "4244E38DED217522"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "57B5EF20241C30EF"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "6A5C77D8E117D629"
 				item: "aether:altar"
@@ -590,6 +854,18 @@
 			dependencies: ["4A5578CD756D9DDC"]
 			description: ["Used to control the time of day."]
 			id: "56A60C713CE0DE97"
+			rewards: [
+				{
+					id: "5B14B9B38B1D31EE"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "614A03F7188049A3"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "2E5ED23101FB6CAA"
@@ -609,6 +885,18 @@
 				"Break the bushes to move and replant them."
 			]
 			id: "3D47D2D38F5C4ECD"
+			rewards: [
+				{
+					id: "1DEAA0D03B0945FE"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0B0529BD89C9F5CA"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "03C587F21081C0BF"
 				item: "aether:blue_berry"
@@ -626,6 +914,18 @@
 				"Can be created using an Alter, extremely great food source."
 			]
 			id: "601378D5DFA4604A"
+			rewards: [
+				{
+					id: "248943E157CDE739"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "6EA150C76F8BA86F"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "218305D4EC965D7C"
 				item: "aether:enchanted_berry"
@@ -643,6 +943,18 @@
 				"White Apples can be obtained by breaking Crystal Fruit Leaves, these leaves are blue in colour with white dots on them."
 			]
 			id: "0ED8D054CDC8D20E"
+			rewards: [
+				{
+					id: "5AFA18BA56369EE7"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3DF26C163B94415B"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "789BA4B991B61A4E"
 				item: "aether:white_apple"
@@ -660,6 +972,18 @@
 				"It is also needed for crafting an Altar."
 			]
 			id: "7686D66200E518B3"
+			rewards: [
+				{
+					id: "1E48EFD9DB98B018"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1D72DC532994CEBD"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "600779DE9979BB93"
 				item: "aether:zanite_gemstone"
@@ -676,6 +1000,18 @@
 				"&7&o*totally doesn't look like a blue version of Glowstone, no no...&r"
 			]
 			id: "52DA719CD6C66226"
+			rewards: [
+				{
+					id: "090AC499F837ABC6"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "57BBAD2564C5500D"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "5532351C3663819E"
 				item: "aether:icestone"
@@ -689,6 +1025,18 @@
 			dependencies: ["57078A29DBC3CF41"]
 			description: ["So sticky!"]
 			id: "09966BA346283D39"
+			rewards: [
+				{
+					id: "580659370546867A"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1CE706346FE2E13A"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "4A1128FB2AB648BA"
@@ -709,6 +1057,18 @@
 				"&o&7How strange?!"
 			]
 			id: "4A3F3F9534E48D5E"
+			rewards: [
+				{
+					id: "46748A2CA0FEB77C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0FB11D12DB292A21"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "33D1CFB259A2BC2C"
 				item: "minecraft:string"
@@ -722,6 +1082,18 @@
 			dependencies: ["324287EC1ACF685B"]
 			description: ["The Cobblestone of the &bAether&r..."]
 			id: "3BADA9E324F873D7"
+			rewards: [
+				{
+					id: "093B81A148316599"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "717638AE0BD45963"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "32AD0341D5CF4EA9"
 				item: "aether:holystone"
@@ -742,6 +1114,18 @@
 				"&o&7*the name of the ore kind of gives that away..."
 			]
 			id: "5A8DA19AF6406B75"
+			rewards: [
+				{
+					id: "69C243336136D441"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3ECA00CA3812383C"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "6C688A790C97A9F7"
 				item: "aether:gravitite_ore"
@@ -759,6 +1143,18 @@
 				"&o&7*don't worry you keep the bucket!&r"
 			]
 			id: "1A0242A5A2F73FB1"
+			rewards: [
+				{
+					id: "44A1E5C5B18D1562"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "2C641FA23FB95A60"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				count: 4L
@@ -780,6 +1176,18 @@
 				"In other words, you'll need to go back and defeat the &3Aerwhale King &eBoss&r to obtain this gem, it's a drop from defeating it!"
 			]
 			id: "0BF62B709603047F"
+			rewards: [
+				{
+					id: "0BB85CAA49D12124"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "46390F241F5A5677"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "24530566F9EC1AEB"
 				item: {
@@ -799,6 +1207,18 @@
 			dependencies: ["5F808832927F1A31"]
 			description: ["This is a &n&eMUST HAVE&r Weapon for the early game bosses."]
 			id: "4859B7F2F440CD07"
+			rewards: [
+				{
+					id: "6C55D5E0837309BE"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "156473D3E9051860"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "53E5A1301109264C"
@@ -823,6 +1243,18 @@
 				"You might be a wise idea to craft a Skyroot Bed to set your spawn..."
 			]
 			id: "7AD7F690CED1D61F"
+			rewards: [
+				{
+					id: "0A5A737B1F1B4B02"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "6DA7F949EA99F508"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "5FBBF67235897399"
 				item: "aether:skyroot_bed"
@@ -836,6 +1268,18 @@
 			dependencies: ["50AF4D784A28D585"]
 			description: ["The &n&6BEST&r Tools!"]
 			id: "1FFA1AF29AC57961"
+			rewards: [
+				{
+					id: "7D6C82C69364FA13"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3DEA54A5C30E7604"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "7C8EDD850E46525C"
@@ -864,6 +1308,18 @@
 			]
 			hide: true
 			id: "61B4D6EE4FF48831"
+			rewards: [
+				{
+					id: "23A20E77ADE22150"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "4B53D8A0E19ADF29"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
@@ -887,6 +1343,18 @@
 			]
 			hide: true
 			id: "4E43DC757C08068B"
+			rewards: [
+				{
+					id: "6E942097E19F5C09"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0668DE4575738320"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			size: 1.7d
 			subtitle: "The sky is the limit"
@@ -921,6 +1389,18 @@
 				"Simply open it up and add an item/block in the slot in the book to find out more information."
 			]
 			id: "557CFA0FF7E22EB8"
+			rewards: [
+				{
+					id: "5B61CAB176BC2D44"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "2C330798A9502315"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			subtitle: "Getting started!"
 			tasks: [{

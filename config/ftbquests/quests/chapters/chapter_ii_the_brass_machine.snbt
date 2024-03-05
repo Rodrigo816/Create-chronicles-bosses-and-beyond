@@ -38,6 +38,12 @@
 			]
 			dependency_requirement: "one_started"
 			id: "7D6E6EFCB2DD19A0"
+			rewards: [{
+				count: 5
+				id: "30FA72BAF0EA3275"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "770EC6F492C38791"
 				item: "ae2:small_quartz_bud"
@@ -49,6 +55,12 @@
 		{
 			dependencies: ["7D6E6EFCB2DD19A0"]
 			id: "72C989B765AD2A4B"
+			rewards: [{
+				count: 5
+				id: "4BC17306251EB648"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F60E93DA063643B"
 				item: "ae2:medium_quartz_bud"
@@ -60,6 +72,12 @@
 		{
 			dependencies: ["72C989B765AD2A4B"]
 			id: "0101855DF75D6C40"
+			rewards: [{
+				count: 5
+				id: "45627898A6F728F9"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "60A42BA3D7D465F9"
 				item: "ae2:large_quartz_bud"
@@ -71,6 +89,12 @@
 		{
 			dependencies: ["0101855DF75D6C40"]
 			id: "5BFA4F90901AC7B2"
+			rewards: [{
+				count: 5
+				id: "192AA6AEE91BCE4D"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "45BC74F0D21F89E3"
 				item: "ae2:quartz_cluster"
@@ -82,6 +106,12 @@
 		{
 			dependencies: ["5BFA4F90901AC7B2"]
 			id: "49E754928BF234F3"
+			rewards: [{
+				count: 5
+				id: "60E939D6F4975586"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F9DB8D59AEF9247"
 				item: "ae2:certus_quartz_crystal"
@@ -96,6 +126,12 @@
 				"2EBE018FE570EF16"
 			]
 			id: "340B69A08A8A7CF3"
+			rewards: [{
+				count: 5
+				id: "269133ADB1795D10"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A4A8C8AC00ECBD3"
 				item: "create:rose_quartz"
@@ -110,6 +146,12 @@
 				"64A476C01D1C4742"
 			]
 			id: "2EBE018FE570EF16"
+			rewards: [{
+				count: 5
+				id: "03C52E89033512FB"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "40AC3CAADB942375"
 				item: "kubejs:destabilized_redstone_bucket"
@@ -123,6 +165,12 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "64A476C01D1C4742"
+			rewards: [{
+				count: 5
+				id: "2A5547B65BF113F8"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "216750237C1CED9A"
 				item: "minecraft:redstone"
@@ -136,6 +184,12 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "1C5DFA2AD6DEE1B2"
+			rewards: [{
+				count: 5
+				id: "57D8CC9B67EA0360"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "14FB44DA4AE233C3"
 				item: "minecraft:sugar"
@@ -150,6 +204,12 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "05836C34CD66A56F"
+			rewards: [{
+				count: 5
+				id: "5C9617FF2C3C911B"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "646DC6DDBF1F97D5"
 				item: "minecraft:water_bucket"
@@ -164,6 +224,12 @@
 			hide_dependency_lines: true
 			id: "671ABB3F4DDF8A89"
 			optional: true
+			rewards: [{
+				count: 5
+				id: "3D5E1AA9D2CD4DD0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "640776C3CFE97667"
 				item: "minecraft:sand"
@@ -178,6 +244,12 @@
 				"588F642CD467FC64"
 			]
 			id: "1BAF2EB40FE08B25"
+			rewards: [{
+				count: 5
+				id: "5AC1026E5B0E0C41"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "71C9FE5F39A5B431"
 				item: "create:electron_tube"
@@ -191,6 +263,12 @@
 			dependency_requirement: "one_started"
 			id: "201291E8B8D4FE73"
 			optional: true
+			rewards: [{
+				count: 5
+				id: "4A0F7AA8C848BA3F"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A67FE794B73D10B"
 				item: "minecraft:quartz"
@@ -202,6 +280,12 @@
 		{
 			dependencies: ["340B69A08A8A7CF3"]
 			id: "5924E1675FE1A9D0"
+			rewards: [{
+				count: 5
+				id: "33D29EF4A1775CBE"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A34C8BAA9CFC455"
 				item: "create:polished_rose_quartz"
@@ -216,6 +300,12 @@
 				"14ADA913C53709AE"
 			]
 			id: "5E59C8255183FF3E"
+			rewards: [{
+				count: 5
+				id: "095EB4DA657710CB"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "543534EF6C25D984"
 				item: "create:brass_ingot"
@@ -229,6 +319,12 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "555CE8F6001EF8E7"
+			rewards: [{
+				count: 5
+				id: "3E16256C3273B9B6"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5813632ADCCD6073"
 				item: "minecraft:copper_ingot"
@@ -242,6 +338,12 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "14ADA913C53709AE"
+			rewards: [{
+				count: 5
+				id: "5530A5D11FE879F2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E1B0C8BEDA1BE1A"
 				item: "create:zinc_ingot"
@@ -253,6 +355,12 @@
 		{
 			dependencies: ["5E59C8255183FF3E"]
 			id: "701883FE5E3CF381"
+			rewards: [{
+				count: 5
+				id: "39819254B55E4511"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AFC52965847BD86"
 				item: "create:brass_sheet"
@@ -266,6 +374,12 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "5167DEF3903D6CFD"
+			rewards: [{
+				count: 5
+				id: "2D3EF842CF6D9CC7"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0BBE8417B8A3BE92"
 				item: "minecraft:nether_wart"
@@ -282,6 +396,12 @@
 			]
 			id: "2BBB5E496BBD52C5"
 			optional: true
+			rewards: [{
+				count: 5
+				id: "365AB32A38550F1C"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "254618B5A7F95447"
 				item: "minecraft:soul_sand"
@@ -296,6 +416,12 @@
 			hide_dependency_lines: true
 			id: "70FE285006F6632F"
 			optional: true
+			rewards: [{
+				count: 5
+				id: "35F597263E5955BC"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E812FD4E5FCC138"
 				item: "quark:soul_bead"
@@ -308,6 +434,12 @@
 			dependencies: ["671ABB3F4DDF8A89"]
 			id: "61B5DE7788ED3D6D"
 			optional: true
+			rewards: [{
+				count: 5
+				id: "7217A03BCC48B79B"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3385925890E92473"
 				item: "forbidden_arcanus:soulless_sand"
@@ -322,6 +454,12 @@
 			hide_dependency_lines: true
 			id: "7A50893172D43878"
 			optional: true
+			rewards: [{
+				count: 5
+				id: "515488EEC9B8E6A1"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A78C95C3292BE29"
 				item: "born_in_chaos_v1:ethereal_spirit"
@@ -338,6 +476,12 @@
 			]
 			description: [""]
 			id: "6F2EA0844769A10A"
+			rewards: [{
+				count: 5
+				id: "4B38C1A7816655FA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -353,6 +497,12 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "588F642CD467FC64"
+			rewards: [{
+				count: 5
+				id: "72F58A3FDEBEB1F1"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F040CE86620F08A"
 				item: "create:iron_sheet"
@@ -366,6 +516,12 @@
 			description: [""]
 			hide: true
 			id: "637D976589937434"
+			rewards: [{
+				count: 5
+				id: "016A23C18D36A9C8"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -380,6 +536,12 @@
 			dependencies: ["637D976589937434"]
 			hide: true
 			id: "738E4BA03DA3D655"
+			rewards: [{
+				count: 5
+				id: "68C96B15A8ECB312"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "44E8C65FC73DF7B5"
@@ -405,6 +567,12 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "7F75BF2B511A2B14"
+			rewards: [{
+				count: 5
+				id: "4C7E8BF932F2FD39"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22D8338B1C8A2FB8"
 				item: "create:cogwheel"
@@ -422,6 +590,12 @@
 			]
 			hide: true
 			id: "62E69747ECE312C3"
+			rewards: [{
+				count: 5
+				id: "7F6E12133C631447"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A5588665BD2BBD2"
 				item: "buildinggadgets2:gadget_building"

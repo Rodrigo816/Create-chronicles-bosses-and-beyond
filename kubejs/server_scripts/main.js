@@ -33,11 +33,6 @@ ServerEvents.recipes(event => {
               event.remove({ output: output })
           };
           event.stonecutting(output, input)
-          /* if (remove_old) {
-              event.recipes.createCompacting(input, [output, "kubejs:radiant_mechanism"])
-          }
-          if (output.toString().startsWith("x ", 1)) { output = output.slice(3) }
-          wrencharray.push(Item.of(output))*/
       });
   };
 
@@ -49,24 +44,6 @@ ServerEvents.recipes(event => {
               event.remove({ output: entry[1] })
           };
           event.shapeless(entry[1], [entry[0],machine])
-          
-        /*  if (remove_old) {
-              event.recipes.createCompacting([machine, Item.of(entry[0]).withChance(0.4)], [entry[1], "kubejs:radiant_mechanism"])
-          }*/
-          /* if (!entry[1].toString().startsWith("x ", 1) && !entry[1].toString().startsWith("x ", 2)) {
-              if (Item.of(entry[1]).isBlock()) {
-                  event.recipes.create.itemApplication(entry[1], [machine, entry[0]])
-              }
-          }
-          if (entry[1].toString().startsWith("x ", 1) || entry[1].toString().startsWith("x ", 2)) {
-
-              event.recipes.create.deploying(entry[1], [machine, entry[0]])
-
-          }
-
-          if (entry[1].toString().startsWith("x ", 1)) { entry[1] = entry[1].slice(3) }
-          wrencharray.push(Item.of(entry[1]))*/
-
       });
   };   
 
@@ -182,7 +159,18 @@ ServerEvents.recipes(event => {
       Item.of(CR('gantry_carriage'), 2),
       Item.of(CR('chute'), 3),
       Item.of(CR('empty_blaze_burner'), 2),
-      Item.of(CRA('rolling_mill'), 2)
+      Item.of(CR('depot'), 4),
+      Item.of(CRA('rolling_mill'), 2),
+      Item.of(CR('windmill_bearing'), 2),
+      Item.of(CR('mechanical_bearing'), 2),
+      Item.of(CR('portable_storage_interface'), 1),
+      Item.of(CR('analog_lever'), 1),
+      Item.of(CRDD('reversed_gearshift'), 1),
+      Item.of(CRDD('kinetic_motor'), 1),
+      Item.of('create_connected:freewheel_clutch', 1),
+      Item.of(CRDD('kinetic_motor'), 1),
+
+
   ];
   const andesite_shapes = [
       //["thermal:drill_head", "create:mechanical_drill"],
@@ -192,6 +180,7 @@ ServerEvents.recipes(event => {
       [CR('whisk'), CR('mechanical_mixer')],
       [CR('brass_hand'), CR('deployer')],
       [MC('diamond_block'),  CR('schematicannon')],
+      [MC('obsidian'),  'create_connected:brake'],
   ];
   multicut(andesite_machines_cutting, "kubejs:andesite_machine", true);
   machine_shape(andesite_shapes, "kubejs:andesite_machine", true);
@@ -216,10 +205,6 @@ ServerEvents.recipes(event => {
     .loops(1)
     .id(CRSA('hydraulic_engine_recipe'))
 
-        //event.recipes.createFilling(transitionalValve, [
-          //  transitionalValve,
-          //  Fluid.of('minecraft:water', 250)
-          //]),
 
     // Machine
     event.shaped(KJ('copper_machine'), [
@@ -240,6 +225,7 @@ ServerEvents.recipes(event => {
         Item.of(CR('steam_engine'), 1),
         Item.of(CR('copper_valve_handle'), 6),
         Item.of(CR('copper_casing'), 10),
+        Item.of(CR('steam_whistle'), 4),
     ];
     const copper_shapes = [
         [MC('iron_bars'), CR('item_drain')],
@@ -391,15 +377,39 @@ ServerEvents.recipes(event => {
     Item.of(CR('powered_latch'), 2),
     Item.of(CR('pulse_extender'), 2),
     Item.of(CR('pulse_repeater'), 2),
+    Item.of(CR('linked_controller'), 1),
     Item.of(MC('repeater'), 4),
     Item.of(MC('comparator'), 4),
     Item.of(MC('daylight_detector'), 1),
+    Item.of(CR('smart_chute'), 2),
+    Item.of(CR('smart_fluid_pipe'), 2),
+    Item.of(CR('clockwork_bearing'), 2),
+    Item.of(CR('elevator_pulley'), 2),
+    Item.of(CR('contraption_controls'), 2),
+    Item.of(CR('redstone_contact'), 2),
+    Item.of(CR('nixie_tube'), 2),
+    Item.of(CRA('redstone_relay'), 1),
+    Item.of(CRA('portable_energy_interface'), 1),
+    Item.of(CRDD('accelerator_motor'), 1),
+    Item.of(CRDD('flywheel'), 1),
+    Item.of('create_connected:overstress_clutch', 1),
+    Item.of('create_connected:sequenced_pulse_generator', 1),
+    Item.of('create_connected:empty_fan_catalyst', 2),
+
+
+    
+
     Item.of('quark:redstone_randomizer', 2),
   ];
 
   const brass_shapes = [
       [MC('crafting_table'), Item.of('create:mechanical_crafter', 3)],
       [MC('glowstone_dust'), 'torchmaster:feral_flare_lantern'],
+      [MC('compass'), CR('speedometer')],
+      [CR('crushing_wheel'), CR('mechanical_roller')],
+      [CR('speedometer'),'create_connected:centrifugal_clutch'],
+
+
      // ['#ae2:all_fluix', 'createaddition:tesla_coil'],
     //  ["createaddition:capacitor", "createaddition:modular_accumulator"],
     //  ['createaddition:connector', "createaddition:portable_energy_interface"],
@@ -486,6 +496,7 @@ ServerEvents.recipes(event => {
       Item.of(CR('track_signal'), 2),
       Item.of(CR('schedule'), 4),
       Item.of(CR('controls'), 1),
+      Item.of('railways:track_switch_andesite', 2),
     ];
   
     multicut(locomotive_machines_cutting, KJ('obsidian_machine'), true);
@@ -635,6 +646,11 @@ ServerEvents.recipes(event => {
     ==============================
   */
 
+    event.replaceInput(
+      { id: ASTRA('recipes/oxygen_loader') }, 
+      MC('redstone_block'),               
+      CRDD('infernal_mechanism')          
+  )
     // NASA pro
     event.replaceInput(
         { id: ASTRA('recipes/rocket_nose_cone') }, 

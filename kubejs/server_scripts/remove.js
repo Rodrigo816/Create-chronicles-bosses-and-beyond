@@ -40,8 +40,9 @@ ServerEvents.recipes(event => {
         CRDD('industrial_iron/andesite_alloy_mixing'),
         CR('milling/andesite'),
         // CH2
-         CRSA('hydraulic_engine_recipe'),
-        // Brass
+        CRSA('hydraulic_engine_recipe'),
+        CR('crafting/kinetics/belt_connector'),
+        // Brassa
         CRDD('industrial_iron/andesite_alloy_mixing'),
         CR('crafting/materials/rose_quartz'),
         CR('crushing/diorite_recycling'),

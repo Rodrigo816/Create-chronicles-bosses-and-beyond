@@ -79,18 +79,11 @@
 		{
 			dependencies: ["0B68E3C046C82860"]
 			id: "2E114B4C441EF50D"
-			rewards: [
-				{
-					id: "30DE1B1984B2CFE8"
-					item: "forbidden_arcanus:arcane_gold_ingot"
-					type: "item"
-				}
-				{
-					id: "75C6FCC257C6679D"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "75C6FCC257C6679D"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "A Silk-Touch Pickaxe"
 			tasks: [{
 				id: "2DE570337D6E8368"
@@ -376,20 +369,11 @@
 			]
 			hide_dependency_lines: false
 			id: "5ED1896F1986BD2B"
-			rewards: [
-				{
-					count: 3
-					id: "464173632063B0EC"
-					item: "forbidden_arcanus:arcane_gold_nugget"
-					random_bonus: 6
-					type: "item"
-				}
-				{
-					id: "5A94F2FC66A32C6F"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "5A94F2FC66A32C6F"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "circle"
 			subtitle: "Growing Gold"
 			tasks: [{
@@ -1213,6 +1197,11 @@
 		{
 			dependencies: ["0B68E3C046C82860"]
 			id: "1DB562D431DB8D96"
+			rewards: [{
+				id: "0A78EB6B3A738B5C"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [
 				{
 					id: "536D55312BA87FEC"
@@ -1239,6 +1228,11 @@
 		{
 			dependencies: ["537E39530360AD73"]
 			id: "52BB4427D9F5163D"
+			rewards: [{
+				id: "3A46D58723771936"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "not implemented yet"
 			tasks: [{
 				id: "351C1E7D252B4118"
@@ -1251,6 +1245,11 @@
 		{
 			dependencies: ["537E39530360AD73"]
 			id: "4E93F14CE6E7AE09"
+			rewards: [{
+				id: "60494906CF56FBEE"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "The Sea Prism applies the Aquatic modifier to helmets allows breaking blocks while swimming without a speed decrease and grants you some additional regeneration while in water"
 			tasks: [{
 				id: "216A6F06157EF4CB"
@@ -1264,6 +1263,11 @@
 		{
 			dependencies: ["537E39530360AD73"]
 			id: "5AC2BD87BB92F27B"
+			rewards: [{
+				id: "7D2E0FF16148CDAA"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "The demolishing modifier can unlock the true power out of your tools (Pickaxes, Shovels, Axes, Hoes). Tools with this modifier will be able to break a 3x3 area."
 			tasks: [{
 				id: "1044187E7B12F100"
@@ -1277,6 +1281,11 @@
 		{
 			dependencies: ["537E39530360AD73"]
 			id: "4506F8FBBA580C0E"
+			rewards: [{
+				id: "5F6B38EDEDDCE1B7"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "The magnetized modifier can only be used on Boots. When boots with this modifier are equipped, the item pick-up range of the player will increase by one and a half blocks."
 			tasks: [{
 				id: "4198963AE845A2F5"
@@ -1290,6 +1299,11 @@
 		{
 			dependencies: ["537E39530360AD73"]
 			id: "1BA5E38444CAF02B"
+			rewards: [{
+				id: "309F30705E3E76BF"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "The fiery modifier can be applied to all tool items (Pickaxes, Shovels, Axes, Hoes) and will automatically smelt all mined blocks if they have a smelting recipe"
 			tasks: [{
 				id: "17E6FB18EEBAC122"
@@ -1309,6 +1323,11 @@
 		{
 			dependencies: ["537E39530360AD73"]
 			id: "685A56030D996A81"
+			rewards: [{
+				id: "1F558D0717AA368A"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "Removes the durability from an item"
 			tasks: [{
 				id: "1D469AD59ADE1EAF"

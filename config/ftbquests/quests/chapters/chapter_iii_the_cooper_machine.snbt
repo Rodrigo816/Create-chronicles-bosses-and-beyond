@@ -30,7 +30,7 @@
 	quests: [
 		{
 			dependencies: ["5012AE3E688F40D7"]
-			description: ["from stripped logs Depois dás item drain para obter sap liquido"]
+			description: ["From stripped logs, then you give it an item drain to obtain liquid sap."]
 			hide: true
 			hide_dependency_lines: true
 			id: "6C54D9FC570E8C23"
@@ -47,6 +47,12 @@
 					item: "create:experience_nugget"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "3217A75AB184F68E"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "29DD83CD6B4FC717"
@@ -58,7 +64,7 @@
 		}
 		{
 			dependencies: ["6C54D9FC570E8C23"]
-			description: ["Com o sap dás mixing para obter raw rubber"]
+			description: ["With the sap, you perform mixing to obtain raw rubber."]
 			id: "300DD17E607B3081"
 			rewards: [
 				{
@@ -73,6 +79,12 @@
 					item: "create:experience_nugget"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "29C4E661DF729D1F"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "311C7E2AF95B47F9"
@@ -84,7 +96,7 @@
 		}
 		{
 			dependencies: ["300DD17E607B3081"]
-			description: ["depois dás  bulk smoking"]
+			description: ["Then you perform bulk smoking."]
 			id: "2E72CEB626FD6EBE"
 			rewards: [
 				{
@@ -99,6 +111,12 @@
 					item: "create:experience_nugget"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "05472F8D52088E78"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "3E457F9D0A4477C5"
@@ -110,14 +128,22 @@
 		}
 		{
 			dependencies: ["2E72CEB626FD6EBE"]
-			description: ["belts o principal de qualquer assemby line"]
+			description: ["Belts are the backbone of any assembly line."]
 			id: "269E461376CE2456"
-			rewards: [{
-				count: 10
-				id: "70A141BAF8CF776A"
-				item: "create:belt_connector"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "70A141BAF8CF776A"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1784DF9100A34DE6"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7A340C67ECB502E3"
 				item: "create:belt_connector"
@@ -132,6 +158,12 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "469BCDA1AD3D80FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24C7ADB58CC56445"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1C05ADED165FCA5B"
 				item: "minecraft:copper_ingot"
@@ -144,6 +176,12 @@
 		{
 			dependencies: ["469BCDA1AD3D80FA"]
 			id: "68CD9910A1658762"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A2C5221D5902969"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6AEC9B3402B31C37"
 				item: "create:copper_sheet"
@@ -157,6 +195,12 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "48413A6A0A9BFFA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D66733C78182A4B"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2B3D3E600A72681E"
 				item: {
@@ -174,6 +218,12 @@
 		{
 			dependencies: ["15777779AE0400E3"]
 			id: "26B8E592AED8E995"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51DFB7706D978901"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6F98A97AA4B3D83D"
 				item: "minecraft:glass"
@@ -187,6 +237,12 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "15777779AE0400E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E6C98064F67E2B2"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
 			tasks: [{
 				id: "126E49041133AFF7"
 				item: "minecraft:sand"
@@ -200,6 +256,12 @@
 			description: [""]
 			hide: true
 			id: "5012AE3E688F40D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A5076EBE626B29D"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -218,6 +280,12 @@
 			]
 			description: [""]
 			id: "646C119DC7AC80AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04D80E217126D30D"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{

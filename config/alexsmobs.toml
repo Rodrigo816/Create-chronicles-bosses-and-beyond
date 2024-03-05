@@ -127,6 +127,8 @@
 	#The distance in blocks that will cause an underminer to dissapear when approached by a player.
 	#Range: 1.0 ~ 10000.0
 	underminerDisappearDistance = 8.0
+	#Whether wild crows steal crops from farmland.
+	crowsStealCrops = true
 
 	[general.spawning]
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn

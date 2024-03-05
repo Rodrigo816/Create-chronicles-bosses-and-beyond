@@ -1,3 +1,30 @@
 {
-
+  "entity": "minecraft:phantom",
+  "variants": [],
+  "name": "entity.minecraft.phantom",
+  "name_color": "#0AB405",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 150,
+  "input": {
+      "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+      "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.phantom",
+  "fabricator_drops": [
+      {
+          "item": "minecraft:phantom_membrane",
+          "count": 1
+      }
+  ],
+  "tier_data": [
+    20,
+    400,
+    2000,
+    9000
+  ]
 }

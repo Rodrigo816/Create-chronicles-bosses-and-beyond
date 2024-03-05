@@ -34,6 +34,20 @@
 			hide_dependency_lines: true
 			icon: "twilightforest:time_sapling"
 			id: "12796FE2B6E3D53E"
+			rewards: [
+				{
+					count: 2
+					id: "241CF8EB10742E6B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A6BDC527F3A10DE"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6570B0CBBB61B903"
 				item: {
@@ -63,6 +77,18 @@
 				{
 					auto: "disabled"
 					id: "4DC3C96A501483F6"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "559AA194623B61BA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C92AA3CAF9AEAD3"
 					table_id: 1302780656980067940L
 					type: "random"
 				}
@@ -99,6 +125,18 @@
 					table_id: 1302780656980067940L
 					type: "random"
 				}
+				{
+					count: 2
+					id: "40F0C1B819CB28EA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "125195B8E31B68C8"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "38C48144798950D8"
@@ -119,6 +157,20 @@
 			dependencies: ["5C5BBEA6E03836C7"]
 			description: ["Convert the stripped logs into planks."]
 			id: "5D5914AC9E5722EF"
+			rewards: [
+				{
+					count: 2
+					id: "686563B7B3E6BC35"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05452EAA7FA877BB"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0472A7BE9E04C326"
 				item: {
@@ -138,6 +190,20 @@
 			dependencies: ["5D5914AC9E5722EF"]
 			description: ["Further refine the planks into wooden slabs. Slabs offer a variety of building and crafting uses."]
 			id: "507927EEC1417661"
+			rewards: [
+				{
+					count: 2
+					id: "48A578EBA55BB619"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "152D17CC48AFF968"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7EDC0295D42294EE"
 				item: {
@@ -158,6 +224,20 @@
 			description: [""]
 			hide_dependency_lines: true
 			id: "6528F97D788A957A"
+			rewards: [
+				{
+					count: 2
+					id: "15601A9F64FD750E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FE38AE7AD47A4E7"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "78AD80DDFB004EB4"
 				item: "minecraft:lava_bucket"
@@ -172,6 +252,20 @@
 			description: [""]
 			hide_dependency_lines: true
 			id: "72070D0355244B40"
+			rewards: [
+				{
+					count: 2
+					id: "0D3422F7EA4A823B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B21491A4B9C7B0F"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "61B23653DEBA1D46"
 				item: "minecraft:water_bucket"
@@ -188,6 +282,20 @@
 			]
 			description: ["Combine the forces of water and lava to create cobblestone"]
 			id: "5DB498A2D21DEC4D"
+			rewards: [
+				{
+					count: 2
+					id: "482C57DD1749FAEF"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E10C92B2759B3CD"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "47EEF251F08E2BC4"
 				item: "minecraft:cobblestone"
@@ -201,6 +309,20 @@
 			dependencies: ["5DB498A2D21DEC4D"]
 			description: [""]
 			id: "53EB7E023803E1B4"
+			rewards: [
+				{
+					count: 2
+					id: "26335B4810B5614B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65603C728EB8CDDD"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2B7A47255138EA52"
 				item: "minecraft:gravel"
@@ -214,6 +336,20 @@
 			dependencies: ["53EB7E023803E1B4"]
 			description: [""]
 			id: "7FE2DE6213FF326A"
+			rewards: [
+				{
+					count: 2
+					id: "566933CB4370622D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1485BED3EB93240F"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5A0ADC667A80FA30"
 				item: "minecraft:andesite"
@@ -227,6 +363,20 @@
 			dependencies: ["7FE2DE6213FF326A"]
 			description: [""]
 			id: "43D6EC530F7F1126"
+			rewards: [
+				{
+					count: 2
+					id: "7E560B65674B8053"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50B1831054F33B43"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1FF830E699AC26FB"
 				item: "create:andesite_alloy"
@@ -244,6 +394,20 @@
 			]
 			description: ["Assemble the components you've crafted into a functional rotation mechanism, the heart of many Create machines."]
 			id: "5E60FF6098CB030B"
+			rewards: [
+				{
+					count: 2
+					id: "1BBCA865D2FE571D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BC4FAC1985F974A"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -258,9 +422,22 @@
 		{
 			dependencies: ["342BCE36CF749057"]
 			description: [""]
-			hide: true
 			hide_dependency_lines: true
 			id: "0BEFDBD8AC519539"
+			rewards: [
+				{
+					count: 2
+					id: "12C841CB82E23820"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "030DC0334B9AAC2E"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7C657F9C765B5184"
 				item: {
@@ -281,6 +458,20 @@
 			description: ["Combine all your knowledge and resources to construct the pinnacle of this chapter: The Andesite Machine."]
 			hide: true
 			id: "3AEFFAED564130A6"
+			rewards: [
+				{
+					count: 2
+					id: "04B8BC5611C5310E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "260EC7D7C5447907"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -296,6 +487,8 @@
 			dependencies: ["1F6BC8C2A5B8F9B2"]
 			description: [
 				"The start might be hard because there aren't many materials and machines, but keep going—your hard work will pay off. Remember, exploring is important."
+				""
+				"At start you will have to make some manual work. It's more expensive to craft &6Rotation Mechanism&r at crafting table so as soon you can automate it."
 				""
 				"As you progress further into chapters of this modpack, It'll become quite challenging if you don't automate things."
 				""

@@ -1,3 +1,49 @@
 {
-
+  "conditions": [
+      {
+          "modid": "ars_nouveau",
+          "type": "forge:mod_loaded"
+      }
+  ],
+  "entity": "ars_nouveau:wilden_hunter",
+  "variants": [
+      "ars_nouveau:wilden_stalker",
+      "ars_nouveau:wilden_guardian"
+  ],
+  "name": "name.hostilenetworks.ars_wilden",
+  "name_color": "#55FF55",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 210,
+  "input": {
+      "item": "hostilenetworks:prediction_matrix",
+      "count": 1
+  },
+  "base_drop": {
+      "item": "hostilenetworks:overworld_prediction",
+      "count": 1
+  },
+  "trivia": "hostilenetworks.trivia.ars_wilden",
+  "fabricator_drops": [
+      {
+          "item": "ars_nouveau:wilden_spike",
+          "count": 2
+      },
+      {
+          "item": "ars_nouveau:wilden_wing",
+          "count": 2
+      },
+      {
+          "item": "ars_nouveau:wilden_horn",
+          "count": 2
+      }
+  ],
+  "tier_data": [
+    20,
+    400,
+    2000,
+    9000
+  ]
 }
