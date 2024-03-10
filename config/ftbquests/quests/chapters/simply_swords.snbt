@@ -1,0 +1,1036 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "simply_swords"
+	group: "53374CFE946B8348"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "simplyswords:awakened_lichblade"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "784A6CC38A657526"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"44DFABF9753C695A"
+				"455B5BE4799E7BA1"
+				"020EF6BAC6E7BD52"
+				"0E07548D03860CCF"
+				"0AA8A1F80F280ABD"
+				"7EF5B971BE033641"
+				"591452E3ABF5CE04"
+				"2D063400687C0A32"
+				"53B2E9A6E5B325ED"
+				"2097C3E4ED7D5F02"
+				"1E84A488F5E570E4"
+				"0B77600C1CF9D04D"
+				"7E05746BAA2DFC51"
+				"722AF20B25C73434"
+				"699E000B5857A250"
+				"0793903EFDA666D9"
+				"3818BF7AAFFFF348"
+				"7162B0D58650037E"
+				"15ACAC042E5DC5A9"
+				"22CAADECE7DBCC19"
+				"10E6A5CCEA7AF675"
+				"3183E4BFE858CACC"
+				"5CEB5D0A9457C85F"
+				"54281D0166F4A2B7"
+				"2C73BC02BBEBC431"
+				"5DC857771CA38E30"
+				"710E685F9C267299"
+				"4BFEA32C76691954"
+				"693EF5F1A82287C2"
+				"6A397DDAD1FEB62D"
+				"738B384E5DA0FE51"
+				"0D05510497DF52AB"
+				"53603CD7E6CA3F0B"
+				"48BA8279B7803935"
+				"6D240A5EFE38CB75"
+				"2BD02102AED25BBD"
+				"2169375E832C2F25"
+				"0040CDCBC2EB8DDF"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lootr:textures/item/crown.png"
+				}
+			}
+			id: "6C71E2ABAA99C005"
+			invisible: true
+			rewards: [{
+				id: "387A00F1019BE76A"
+				item: "kubejs:create_chronicles"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "2A43BFEDFEFF3899"
+				title: "Completionist"
+				type: "checkmark"
+			}]
+			x: -1.25d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "53B2E9A6E5B325ED"
+			rewards: [{
+				id: "047E2792DD532780"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "544C8E47301FBF06"
+				item: {
+					Count: 1b
+					id: "simplyswords:livyatan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "0E07548D03860CCF"
+			rewards: [{
+				id: "57192A2620C7B48E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "62C60ACAB6FAC733"
+				item: {
+					Count: 1b
+					id: "simplyswords:watching_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "simplyswords:mjolnir"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "22CAADECE7DBCC19"
+			rewards: [{
+				id: "2D95BA416394CA48"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "615CA90709AF9EE2"
+				item: {
+					Count: 1b
+					id: "simplyswords:mjolnir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "2169375E832C2F25"
+			rewards: [{
+				id: "7CB020263D93D65A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "2A81AAFE840CE232"
+				item: {
+					Count: 1b
+					id: "simplyswords:emberblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "455B5BE4799E7BA1"
+			rewards: [{
+				id: "783B16978485CC03"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "23A8A396BF645CF9"
+				item: {
+					Count: 1b
+					id: "simplyswords:stormbringer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "0040CDCBC2EB8DDF"
+			rewards: [{
+				id: "7720216DC97158DE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "396C308DB975ED6F"
+				item: {
+					Count: 1b
+					id: "simplyswords:storms_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "7EF5B971BE033641"
+			rewards: [{
+				id: "3247AC214F5C4483"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5BB01416CA7AADDD"
+				item: {
+					Count: 1b
+					id: "simplyswords:sword_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "53603CD7E6CA3F0B"
+			rewards: [{
+				id: "04049F5D304B3770"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "790454D72C1B21E1"
+				item: {
+					Count: 1b
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "2D063400687C0A32"
+			rewards: [{
+				id: "64B00CB97AB64DCD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "486EF4C783BE7F96"
+				item: {
+					Count: 1b
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "2097C3E4ED7D5F02"
+			rewards: [{
+				id: "199B21D9C7DF509D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "18B20B0FEE835CA8"
+				item: {
+					Count: 1b
+					id: "simplyswords:emberlash"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "5DC857771CA38E30"
+			rewards: [{
+				id: "7E89FA99FE15C1F4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "21BCAC1F8B3099B7"
+				item: {
+					Count: 1b
+					id: "simplyswords:twisted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "693EF5F1A82287C2"
+			rewards: [{
+				id: "70CD067B72A20355"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "783D2C2A78F4EDBD"
+				item: {
+					Count: 1b
+					id: "simplyswords:frostfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "48BA8279B7803935"
+			rewards: [{
+				id: "52BF2FCD102A50D9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "0942D01457DACB76"
+				item: {
+					Count: 1b
+					id: "simplyswords:hearthflame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "5CEB5D0A9457C85F"
+			rewards: [{
+				id: "14118FB693248E98"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "2357EC02C1AAD0A9"
+				item: {
+					Count: 1b
+					id: "simplyswords:soulpyre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "699E000B5857A250"
+			rewards: [{
+				id: "707EF32F1F0E9D7F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "6D27F59148737DEE"
+				item: {
+					Count: 1b
+					id: "simplyswords:soulkeeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "738B384E5DA0FE51"
+			rewards: [{
+				id: "160D5A113536B09A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "00BD83810F5237FB"
+				item: {
+					Count: 1b
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			id: "0D05510497DF52AB"
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "3B75A36B924354CC"
+				item: {
+					Count: 1b
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "3183E4BFE858CACC"
+			rewards: [{
+				id: "516477FBC5498A23"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "7B71BF8CE5F0A295"
+				item: {
+					Count: 1b
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "722AF20B25C73434"
+			rewards: [{
+				id: "1F11D760752CD149"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "07C0CB7E2D17495E"
+				item: {
+					Count: 1b
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "1E84A488F5E570E4"
+			rewards: [{
+				id: "45679370FEB0D911"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "6960BCBD0925D522"
+				item: {
+					Count: 1b
+					id: "simplyswords:thunderbrand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "34BBF229D598EC32"
+			rewards: [{
+				id: "632E4EB252A66CE9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3D69FE85ABD4867C"
+				item: {
+					Count: 1b
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "54281D0166F4A2B7"
+			rewards: [{
+				id: "34C76BB77980CE3F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "701B110644804178"
+				item: {
+					Count: 1b
+					id: "simplyswords:brimstone_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34BBF229D598EC32"]
+			description: [""]
+			hide: false
+			hide_dependency_lines: false
+			id: "3818BF7AAFFFF348"
+			rewards: [{
+				id: "3DDF9976E7C8523A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5B8B8B2DADA0CFED"
+				item: {
+					Count: 1b
+					id: "simplyswords:waking_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3818BF7AAFFFF348"]
+			description: [""]
+			hide: false
+			hide_dependency_lines: false
+			id: "7E05746BAA2DFC51"
+			rewards: [{
+				id: "3548BA64ECB3A2B3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7ACF3D014BD2DE0E"
+				item: {
+					Count: 1b
+					id: "simplyswords:awakened_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "44DFABF9753C695A"
+			rewards: [{
+				id: "108D10DE4A6331A7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "1B9718F5C45C4436"
+				item: {
+					Count: 1b
+					id: "simplyswords:tempest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "15ACAC042E5DC5A9"
+			rewards: [{
+				id: "59FD3D3587E17E6E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "1D25B90CB61CBC58"
+				item: {
+					Count: 1b
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "0B77600C1CF9D04D"
+			rewards: [{
+				id: "79EAFED40A29EB42"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "1857617ECD147F54"
+				item: {
+					Count: 1b
+					id: "simplyswords:stars_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "6A397DDAD1FEB62D"
+			rewards: [{
+				id: "5826DEBB2B52DB17"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "0CC32E25243D7C93"
+				item: {
+					Count: 1b
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "591452E3ABF5CE04"
+			rewards: [{
+				id: "1C3A71996FBE5C49"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "2CCAE40045618CB3"
+				item: {
+					Count: 1b
+					id: "simplyswords:hiveheart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "710E685F9C267299"
+			rewards: [{
+				id: "65C161C2475C7162"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "1FF119266D0CF297"
+				item: {
+					Count: 1b
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "7162B0D58650037E"
+			rewards: [{
+				id: "717AA56EF5D3CF22"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "7F51BF61124D9AEA"
+				item: {
+					Count: 1b
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "10E6A5CCEA7AF675"
+			rewards: [{
+				id: "5FA842D9CACD43BD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6A1F1AF0140A0449"
+				item: {
+					Count: 1b
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "020EF6BAC6E7BD52"
+			rewards: [{
+				id: "7BFC7141E8E68193"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "77B0C8E916D8A023"
+				item: {
+					Count: 1b
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "2BD02102AED25BBD"
+			rewards: [{
+				id: "271495DB92BD498F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "v"
+			tasks: [{
+				id: "13DB3044B0654389"
+				item: {
+					Count: 1b
+					id: "simplyswords:flamewind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "0793903EFDA666D9"
+			rewards: [{
+				id: "7233ACA209E5DFFE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "08D042463711C681"
+				item: {
+					Count: 1b
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10E6A5CCEA7AF675"]
+			hide: false
+			hide_dependency_lines: false
+			id: "0AA8A1F80F280ABD"
+			shape: "square"
+			tasks: [{
+				id: "2A0E9CCCD60F8194"
+				item: {
+					Count: 1b
+					id: "simplyswords:righteous_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10E6A5CCEA7AF675"]
+			hide: false
+			hide_dependency_lines: false
+			id: "6D240A5EFE38CB75"
+			shape: "square"
+			tasks: [{
+				id: "017458DDFC9008D0"
+				item: {
+					Count: 1b
+					id: "simplyswords:tainted_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D240A5EFE38CB75"]
+			hide: false
+			hide_dependency_lines: false
+			id: "2C73BC02BBEBC431"
+			shape: "square"
+			tasks: [{
+				id: "06372236CE378E5C"
+				item: {
+					Count: 1b
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0AA8A1F80F280ABD"]
+			hide: false
+			hide_dependency_lines: false
+			id: "4BFEA32C76691954"
+			shape: "square"
+			tasks: [{
+				id: "3E4A2914C5A72DEB"
+				item: {
+					Count: 1b
+					id: "simplyswords:sunfire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+	]
+	title: "Simply Swords"
+}

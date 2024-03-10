@@ -113,15 +113,21 @@ ServerEvents.recipes(event => {
     .id(KJ('rotation_mechanism'))
 
   event.shaped(KJ('rotation_mechanism'), [
-      'BBB',
-      'BDE',
-      ' A '
+    'BBB',
+    'BDE',
+    ' A '
   ], {
       A: '#minecraft:wooden_slabs',
       B: CR('andesite_alloy'),
-      D: ASTRA('hammer'),
+      D: Item.of(ASTRA('hammer')).ignoreNBT(),
       E: 'minecraft:iron_ingot'
-  })
+  }).damageIngredient(4).keepIngredient(4)
+
+  event.replaceInput(
+    { id: 'handcrafted:hammer' }, 
+    MC('iron_ingot'),               
+    '#forge:ingots/silver'         
+)
 
   // Rotation Machine
   event.shaped(KJ('andesite_machine'), [
@@ -224,7 +230,6 @@ ServerEvents.recipes(event => {
         Item.of(CR('portable_fluid_interface'), 2),
         Item.of(CR('steam_engine'), 1),
         Item.of(CR('copper_valve_handle'), 6),
-        Item.of(CR('copper_casing'), 10),
         Item.of(CR('steam_whistle'), 4),
     ];
     const copper_shapes = [

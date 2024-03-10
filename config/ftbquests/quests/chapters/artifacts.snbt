@@ -781,12 +781,22 @@
 						id: "explorerscompass:explorerscompass"
 						tag: { }
 					}
-					random_bonus: 2
 					type: "item"
 				}
 				{
 					id: "4720ED7FF0C20F17"
 					item: "kubejs:create_chronicles"
+					type: "item"
+				}
+				{
+					id: "4443BADF7DDA2981"
+					item: {
+						Count: 1b
+						id: "simplyswords:dormant_relic"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]

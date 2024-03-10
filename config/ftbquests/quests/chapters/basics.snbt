@@ -1181,9 +1181,17 @@
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
 			description: [
-				"This pack includes &e3 shaders packs&f."
+				"This pack includes &63 shader packs&r to enhance your gameplay visuals."
 				""
-				"By default comes with Sildur's Enchanced Default you can disable this going through &aVideo Settings -> Shader Packs&f."
+				"You can select the shader of your preference by going through &aOptions -> Video Settings -> Shader Packs.&r"
+				""
+				"Our recommendation for high performance and a style close to vanilla is &bSildur's Enhanced Default&r, although the maximum shadow distance is 7."
+				""
+				"For the best visuals, select &bComplementary Reimagined&r."
+				""
+				"For a more balanced approach between graphics and performance, select &bMake Up Ultra Fast&r."
+				""
+				"Additionally, you can adjust your video settings to increase the render distance, enhancing your overall visual experience."
 			]
 			icon: "create:goggles"
 			id: "6D382620BBC1E6C0"

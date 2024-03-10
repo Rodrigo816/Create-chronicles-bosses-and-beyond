@@ -9,6 +9,7 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('create_sa:hydraulic_engine', 'Valve Mechanism')
   event.renameItem('ad_astra:fuel', 'Astral Fuel')
   event.renameItem('ad_astra:fuel_bucket', 'Astral Fuel Bucket')
+  event.renameItem('handcrafted:hammer', 'Handcrafted Tool')
 })
 
 JEIEvents.hideItems(event => {
@@ -20,6 +21,5 @@ JEIEvents.hideItems(event => {
   event.hide('create_dd:chocolate_milkshake_bucket')
   event.hide('create_dd:hot_chocolate_bucket')
   'aquamirae:divider',
-  'aquamirae:terrible_sword',
-  //event.hide('kubejs:create_chronicles')
+  'aquamirae:terrible_sword'
 })

@@ -121,6 +121,7 @@ ServerEvents.recipes(event => {
         CRDD('chocolate_milkshake'),
         CRDD('shadow_steel'),
         CRDD('blaze_gold'),
+        ASTRA('hammer'),
     ].forEach((ingredientID) => event.remove({input: ingredientID}));
     
     //Remove by item ID

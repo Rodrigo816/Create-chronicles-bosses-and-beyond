@@ -485,6 +485,8 @@
 				"00000000000003D9"
 				"00000000000003BB"
 				"00000000000003BE"
+				"0D3F7751B579353F"
+				"64157A1BC3E09963"
 			]
 			hide: false
 			hide_dependency_lines: true
@@ -561,6 +563,26 @@
 			title: "Why is my inventory full again?"
 			x: 3.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "64157A1BC3E09963"
+			rewards: [{
+				id: "7B46734FBCBF6692"
+				type: "xp"
+				xp: 15
+			}]
+			size: 1.0d
+			subtitle: "Find a Ring of Steadfast steps"
+			tasks: [{
+				id: "0D3F7751B579353F"
+				item: "ringsofascension:ring_steadfast_steps"
+				type: "item"
+			}]
+			title: "Step Assist"
+			x: -2.0d
+			y: 7.5d
 		}
 	]
 	subtitle: ["Rings can be in chests found randomly around the world."]

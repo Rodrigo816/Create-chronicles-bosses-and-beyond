@@ -512,9 +512,15 @@
 					type: "item"
 				}
 				{
-					count: 10
+					count: 15
 					id: "34A85CE8EAFB3E78"
 					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "7C4136DEB3AB9EFF"
+					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 			]

@@ -33,6 +33,7 @@
 	ringWither = true
 	ringUndying = false
 	ringSlowResistance = true
+	ringSteadfastSteps = true
 
 ["Rings Amplifier"]
 
