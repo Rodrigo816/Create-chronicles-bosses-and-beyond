@@ -125,6 +125,7 @@
 				"49E754928BF234F3"
 				"2EBE018FE570EF16"
 			]
+			dependency_requirement: "one_completed"
 			id: "340B69A08A8A7CF3"
 			rewards: [{
 				count: 5
@@ -145,6 +146,7 @@
 				"5167DEF3903D6CFD"
 				"64A476C01D1C4742"
 			]
+			dependency_requirement: "one_completed"
 			id: "2EBE018FE570EF16"
 			rewards: [{
 				count: 5
@@ -299,6 +301,7 @@
 				"555CE8F6001EF8E7"
 				"14ADA913C53709AE"
 			]
+			dependency_requirement: "one_completed"
 			id: "5E59C8255183FF3E"
 			rewards: [{
 				count: 5
@@ -394,6 +397,7 @@
 				"70FE285006F6632F"
 				"7A50893172D43878"
 			]
+			dependency_requirement: "one_completed"
 			id: "2BBB5E496BBD52C5"
 			optional: true
 			rewards: [{
@@ -432,6 +436,7 @@
 		}
 		{
 			dependencies: ["671ABB3F4DDF8A89"]
+			dependency_requirement: "one_completed"
 			id: "61B5DE7788ED3D6D"
 			optional: true
 			rewards: [{
@@ -474,6 +479,7 @@
 				"701883FE5E3CF381"
 				"1BAF2EB40FE08B25"
 			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "6F2EA0844769A10A"
 			rewards: [{
@@ -596,11 +602,24 @@
 				item: "create:experience_nugget"
 				type: "item"
 			}]
-			tasks: [{
-				id: "3A5588665BD2BBD2"
-				item: "buildinggadgets2:gadget_building"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3A5588665BD2BBD2"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+				{
+					id: "52EBF9F28358429D"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 18.8d
 		}

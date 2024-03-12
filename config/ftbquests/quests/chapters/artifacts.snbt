@@ -784,11 +784,6 @@
 					type: "item"
 				}
 				{
-					id: "4720ED7FF0C20F17"
-					item: "kubejs:create_chronicles"
-					type: "item"
-				}
-				{
 					id: "4443BADF7DDA2981"
 					item: {
 						Count: 1b
@@ -797,6 +792,11 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "2F33E5A50DB9E0D3"
+					item: "kubejs:relic_badge"
 					type: "item"
 				}
 			]

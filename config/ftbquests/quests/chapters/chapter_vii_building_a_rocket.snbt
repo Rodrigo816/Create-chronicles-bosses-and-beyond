@@ -36,6 +36,7 @@
 		}
 	]
 	order_index: 7
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -148,6 +149,7 @@
 				"75BD9E93A6143DC7"
 				"72EC381A9B79EF64"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"You should bring multiple &ffull oxygen tanks&r, plentiful &ffood&r, &csoul torches&r or &eglowstone&r, &aweapons&r and &atools&r. Once you have this, you are ready to launch! Enter the &erocket&r and press &aSpace&r!&r"
 				""

@@ -293,6 +293,18 @@
 			click: ""
 			corner: false
 			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "lootr:item/crown"
+			rotation: 0.0d
+			width: 1.7d
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "supplementaries:item/item_shelf"
@@ -300,6 +312,30 @@
 			width: 1.0d
 			x: 8.0d
 			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "born_in_chaos_v1:textures/particle/stunstars_6.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "born_in_chaos_v1:textures/particle/stunstars_6.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -1.5d
 		}
 	]
 	order_index: 3
@@ -327,12 +363,22 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				count: 1100L
-				id: "5187ED34F5E7CD4E"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 5000L
+					id: "79A960D3689E9CEA"
+					item: "create_things_and_misc:vibration_mechanism"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "1B6DB269DBABF375"
+					item: "create_dd:overcharge_alloy"
+					type: "item"
+				}
+			]
 			title: "Infinity Wand"
 			x: -1.0d
 			y: 1.0d
@@ -346,12 +392,130 @@
 				item: "ringsofascension:ring_hungerless"
 				type: "item"
 			}]
-			tasks: [{
-				count: 1100L
-				id: "3DB1E199ABB26339"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 5000L
+					id: "01AF0790C14FA6FE"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "2EA2E027A1AF3DB5"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "612E7FC77B474C12"
+					item: {
+						Count: 1b
+						id: "create_confectionery:full_chocolate_bar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "4BE9FA92FDE58654"
+					item: {
+						Count: 1b
+						id: "create_confectionery:full_black_chocolate_bar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "246FE87A9886C784"
+					item: {
+						Count: 1b
+						id: "create_confectionery:full_white_chocolate_bar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "560D125CA5B87793"
+					item: {
+						Count: 1b
+						id: "create_confectionery:full_ruby_chocolate_bar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "5E31C851BAE72252"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "53C9C12E3FD5AB4C"
+					item: "farmersdelight:barbecue_stick"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "7A64492C5B918C4D"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "63185AF56548BB44"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "4BE74D799B2163F1"
+					item: "farmersdelight:dumplings"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "4F7F4D6B9D4FEE25"
+					item: "farmersdelight:dog_food"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "535F990F4E1C4A0B"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "1E44FB445F56A225"
+					item: "ars_nouveau:source_berry_pie"
+					type: "item"
+				}
+			]
 			title: "Ring of hungerless"
 			x: 8.0d
 			y: -0.5d
@@ -378,12 +542,36 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				count: 1100L
-				id: "0C385BEADDEC25CC"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 5000L
+					id: "449493037D1D8EDF"
+					item: "create_dd:mithril_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2A005AA3838B2B00"
+					item: "create_dd:caramel_milkshake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2B8C513628BAAA50"
+					item: "create_dd:glowberry_milkshake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "6FBCB1CC3EF82B53"
+					item: "create_dd:strawberry_milkshake"
+					type: "item"
+				}
+			]
 			title: "Mytical Forest Ravager"
 			x: 2.0d
 			y: 1.0d
@@ -410,12 +598,22 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				count: 1100L
-				id: "10DEE8FE26DE5555"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "3140E0AAF3001ADD"
+					item: "create_sa:steam_engine"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "698097D401632C38"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+			]
 			title: "Deforesting saw"
 			x: 0.5d
 			y: 1.0d
@@ -442,12 +640,29 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				count: 1100L
-				id: "2FD845E484D2E01C"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 200L
+					id: "03A091339056BB10"
+					item: "blue_skies:scalefruit"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 400L
+					id: "243134B49A5C68FC"
+					item: "create:sweet_roll"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 400L
+					id: "45AB8759C882E4E1"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+			]
 			title: "Shadowsting"
 			x: 3.5d
 			y: -2.0d
@@ -473,15 +688,88 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				count: 1100L
-				id: "2DE6316E4E77E21A"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 10000L
+					id: "20DA32772A263FD3"
+					item: "twilightforest:knightmetal_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "07EE5B3A4B5C4BBB"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "046E23F86269B7A0"
+					item: "quark:golden_carrot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "5A8D29D34D8F6542"
+					item: "supplementaries:ash_brick"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "644253090D3FCE4A"
+					item: "twilightforest:ironwood_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "333335A0064EB1FC"
+					item: "twilightforest:fiery_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "1915C91D1BD971A3"
+					item: "irons_spellbooks:arcane_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 30000L
+					id: "42B1D1356B6D6B68"
+					item: "create_dd:experience_mass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20000L
+					id: "38879E9886BDDE5D"
+					item: "create_dd:integrated_circuit"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "584300D656F07686"
+					item: "iceandfire:silver_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "3E1502652ED26112"
+					item: "create_dd:tin_ingot"
+					type: "item"
+				}
+			]
 			title: "&3Lichbane"
-			x: 8.0d
-			y: 1.0d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
@@ -506,13 +794,22 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				consume_items: true
-				count: 300L
-				id: "1EA070431FD7ECF7"
-				item: "minecraft:stick"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 400L
+					id: "1EA070431FD7ECF7"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 200L
+					id: "7CAD3A98FB94B3A5"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
 			title: "Sword on a stick"
 			x: -1.0d
 			y: -2.0d
@@ -540,9 +837,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 200L
-				id: "58A0DAB5B1BEA0C8"
-				item: "minecraft:netherite_block"
+				consume_items: true
+				count: 800L
+				id: "4FB2D7EB5F235835"
+				item: "create_confectionery:caramelized_marshmellow_on_a_stick"
 				type: "item"
 			}]
 			title: "Brambletorn"
@@ -571,12 +869,29 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				count: 100L
-				id: "0ABE24A5700CE56B"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "29909475FEA9D27C"
+					item: "blue_skies:winter_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 200L
+					id: "5EB23EA939BB3A2D"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4000L
+					id: "460CD348C6E6B558"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+			]
 			title: "Soulstealer"
 			x: 2.0d
 			y: -2.0d
@@ -632,12 +947,64 @@
 				type: "item"
 			}]
 			subtitle: "changing the saber color loses the effects."
-			tasks: [{
-				count: 1100L
-				id: "05F540AD89885A4A"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2000L
+					id: "20DB540CCB6A4497"
+					item: "minecraft:twisting_vines"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "7D9BD8B452220413"
+					item: "minecraft:weeping_vines"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "4583483447375859"
+					item: "quark:beetroot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "4CA18C4182AEF2AB"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "4454BEE3551651D3"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "73649DE2D93D4972"
+					item: "minecraft:red_nether_bricks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "760508C218912913"
+					item: "blue_skies:scalefruit"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "1D7FBBE20DEB3F7A"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+			]
 			title: "Red double zinc saber"
 			x: 6.5d
 			y: -0.5d
@@ -719,12 +1086,29 @@
 				type: "item"
 			}]
 			subtitle: "changing the saber color loses the effects."
-			tasks: [{
-				count: 1100L
-				id: "6D365F9B3DB714AC"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "55131DF058DEB8FB"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "3A558B0CC01C3C0C"
+					item: "blue_skies:comet_berry_pie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "259F4FBA76119E4C"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+			]
 			title: "Yellow copper saber"
 			x: 0.5d
 			y: -0.5d
@@ -793,12 +1177,29 @@
 				type: "item"
 			}]
 			subtitle: "it comes with ice damage, and changing the saber color loses the effects."
-			tasks: [{
-				count: 1100L
-				id: "72061D63961E1923"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2000L
+					id: "18D87F93A58E9E8E"
+					item: "farmersdelight:roasted_mutton_chops"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "42F6AE5A3CA62614"
+					item: "supplementaries:pancake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "38BB6F1BCB6A2726"
+					item: "farmersdelight:vegetable_noodles"
+					type: "item"
+				}
+			]
 			title: "Blue brass saber"
 			x: -1.0d
 			y: -0.5d
@@ -813,12 +1214,22 @@
 				item: "aeinfinitybooster:infinity_card"
 				type: "item"
 			}]
-			tasks: [{
-				count: 1100L
-				id: "4AD2E02F01E89088"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 6000L
+					id: "2D40B147082856CA"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20L
+					id: "3539554F7379E0EB"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
 			title: "Infinity Range Booster"
 			x: 5.0d
 			y: 1.0d
@@ -833,12 +1244,41 @@
 				item: "aeinfinitybooster:dimension_card"
 				type: "item"
 			}]
-			tasks: [{
-				count: 1100L
-				id: "06E3639B2116F975"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					amount: 100000L
+					fluid: "ad_astra:cryo_fuel"
+					id: "21C946C4A2E57B17"
+					type: "fluid"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "428CA91CF5D09A04"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "4EC022C1001BAB7F"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "09C7B59472CB928C"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2AF15012110096B8"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+			]
 			title: "Dimension card"
 			x: 6.5d
 			y: 1.0d
@@ -855,9 +1295,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 1100L
-				id: "09C29B84E55D2D64"
-				item: "minecraft:netherite_block"
+				consume_items: true
+				count: 64L
+				id: "1A492A0ED5496A74"
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "x10 Wrap dust"
@@ -941,12 +1382,36 @@
 				type: "item"
 			}]
 			subtitle: "it comes with fire damage, and changing the saber color loses the effects."
-			tasks: [{
-				count: 1100L
-				id: "4093261344A219C3"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2000L
+					id: "25F21076D00B3F9D"
+					item: "blue_skies:crescent_fruit"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "0D2B19D2663FFF57"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3000L
+					id: "1EC567BF476FBD66"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "789C92EE3AC71B35"
+					item: "farmersdelight:ratatouille"
+					type: "item"
+				}
+			]
 			title: "Red Zinc Saber"
 			x: 3.5d
 			y: -0.5d
@@ -1054,12 +1519,57 @@
 				type: "item"
 			}]
 			subtitle: "changing the saber color loses the effects."
-			tasks: [{
-				count: 1100L
-				id: "432BFBA67FFB1FF0"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2000L
+					id: "5B11B317A53C4879"
+					item: "blue_skies:black_brewberry"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "367F2351D09900A5"
+					item: "farmersdelight:melon_popsicle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "2A5CF75659651DEC"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "7EDB0CB0C18AA202"
+					item: "minecraft:dried_kelp_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "0226811D920A8359"
+					item: "blue_skies:solnut"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "5E5047CE68F8E59E"
+					item: "farmersdelight:bacon_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "52EE900EC9C7AB33"
+					item: "minecraft:gilded_blackstone"
+					type: "item"
+				}
+			]
 			title: "Black Brass Saber"
 			x: 2.0d
 			y: -0.5d
@@ -1127,12 +1637,29 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				count: 1100L
-				id: "51013B1AACEE03EF"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 6000L
+					id: "6F207968CED030F8"
+					item: "create:sweet_roll"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4000L
+					id: "502F7881B0DBA682"
+					item: "create_things_and_misc:slime_cake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "446CBB27FE4FB608"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+			]
 			title: "Lime Brass Saber"
 			x: 5.0d
 			y: -0.5d
@@ -1146,58 +1673,91 @@
 				item: "ringsofascension:ring_flight"
 				type: "item"
 			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "The most overpowered item ever made in a survival world, having completed all that the pack has to offer, right? So, claim your overpowered item for all the hard work. Congratulations!"
 			tasks: [
 				{
 					consume_items: true
-					count: 3L
-					id: "610B61E1D62CE035"
-					item: "kubejs:create_chronicles"
+					id: "00EA04CAB07E654F"
+					item: "kubejs:engineer_badge"
 					type: "item"
 				}
 				{
-					id: "1987C89D7E2F1000"
-					item: {
-						Count: 1b
-						id: "obtrophies:trophy"
-						tag: {
-							BlockEntityTag: {
-								VariantID: 0
-								entity: "cataclysm:ignis"
-							}
-						}
-					}
+					consume_items: true
+					id: "46EE59B6008B5F50"
+					item: "kubejs:slayer_badge"
 					type: "item"
 				}
 				{
-					id: "2AF03A59B9C5B1D9"
-					item: {
-						Count: 1b
-						id: "obtrophies:trophy"
-						tag: {
-							BlockEntityTag: {
-								VariantID: 0
-								entity: "aether:valkyrie_queen"
-							}
-						}
-					}
+					consume_items: true
+					id: "6FE9DE535368A77C"
+					item: "kubejs:relic_badge"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2DE6ECAC8A07BBC3"
+					item: "kubejs:ascendant_badge"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7335073D3CED8D8E"
+					item: "kubejs:blade_badge"
 					type: "item"
 				}
 			]
-			title: "Ring of flight"
-			x: 8.0d
-			y: -2.0d
+			title: "&e&l Creative flight"
+			x: 12.0d
+			y: 0.0d
 		}
 		{
+			can_repeat: false
 			dependencies: ["21FB9D855FA9D2DF"]
+			icon: {
+				Count: 1b
+				id: "simplyswords:ribboncleaver"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0FB8722642860DFF"
-			subtitle: "keep an eye for updates"
-			tasks: [{
-				count: 133L
-				id: "52799E7A3F5DBE2E"
-				item: "minecraft:netherite_block"
+			rewards: [{
+				id: "518D5740ACA9CF0E"
+				item: {
+					Count: 1b
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			title: "soon1"
+			tasks: [
+				{
+					consume_items: true
+					count: 2000L
+					id: "5530E56CC01AC160"
+					item: "create_confectionery:ruby_chocolate_candy_3"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "74CA8190969F889B"
+					item: "create_confectionery:candy_cane_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20000L
+					id: "3C3EDB0BFA30237F"
+					item: "supplementaries:candy"
+					type: "item"
+				}
+			]
+			title: "Ribboncleaver"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -1220,7 +1780,7 @@
 				type: "item"
 			}]
 			title: "&6Talent Tree Reset"
-			x: 6.5d
+			x: 8.0d
 			y: -2.0d
 		}
 	]

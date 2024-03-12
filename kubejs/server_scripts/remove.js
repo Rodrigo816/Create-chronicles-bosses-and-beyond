@@ -96,11 +96,15 @@ ServerEvents.recipes(event => {
        //mys conversion
        CR('conversion_4'),
        CR('conversion_7'),
+       CR('conversion_8'),
 
        // AE2
        AE2('transform/fluix_crystals'),
        AE2('transform/fluix_crystal'),
-       CR('compat/ae2/milling/sky_stone_block')
+       CR('compat/ae2/milling/sky_stone_block'),
+
+       CR('fil_minecraft_bucket_with_create_dd_hot_chocolate'),
+       CR('empty_create_dd_hot_chocolate_bucket_of_create_dd_hot_chocolate'),
     ].forEach((recipeID) => event.remove({id: recipeID}));
 
     //Remove all recipes an item is related to. For example putting 'minecraft:bonemeal' here would remove the recipe for bone blocks as well.
@@ -117,18 +121,17 @@ ServerEvents.recipes(event => {
         AE2('small_quartz_bud'),
         CRDD('inductive_mechanism'),
         CR('asurine'),
-        CRDD('hot_chocolate'),
-        CRDD('chocolate_milkshake'),
         CRDD('shadow_steel'),
         CRDD('blaze_gold'),
         ASTRA('hammer'),
+        AE2('condenser'),
     ].forEach((ingredientID) => event.remove({input: ingredientID}));
     
     //Remove by item ID
     [
         'constructionwand:infinity_wand',
-        'create_dd:forest_ravager',
-        'create_dd:deforester_saw',
+      //  'create_dd:forest_ravager',
+      //  'create_dd:deforester_saw',
          AE2('certus_quartz_crystal'),
          CRDD('industrial_iron_ingot'),
          CRDD('steel_ingot'),
@@ -137,8 +140,6 @@ ServerEvents.recipes(event => {
          MC('soul_sand'),
          AE2('small_quartz_bud'),
          'ad_astra:fuel',
-         CRDD('hot_chocolate'),
-         CRDD('chocolate_milkshake'),
          CRDD('vanilla_milkshake'),
          CR('scoria'),
          ASTRA('nasa_workbench'),
@@ -191,6 +192,7 @@ ServerEvents.recipes(event => {
          ASTRA('desh_fluid_pipe'),
          ASTRA('ostrum_fluid_pipe'),
          ASTRA('fuel_refinery'),
+         AE2('condenser'),
 
          'aquamirae:divider',
          'aquamirae:terrible_sword',

@@ -26,6 +26,7 @@
 		y: -10.0d
 	}]
 	order_index: 6
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -61,6 +62,7 @@
 				"7EC15712EC498088"
 				"020E3DF3DAA4292F"
 			]
+			dependency_requirement: "one_completed"
 			id: "5690FCED46349207"
 			tasks: [{
 				id: "6F136A019E348CD4"
@@ -76,6 +78,7 @@
 				"0CD56ADF87F8799B"
 				"453F0E5926BA4AB1"
 			]
+			dependency_requirement: "one_completed"
 			id: "6C52531E3B0CCB60"
 			tasks: [{
 				id: "6012EF5123327E81"
@@ -188,6 +191,7 @@
 				"1A36CF8C1DF5DEC4"
 				"1D9D2E1FF9BD8A91"
 			]
+			dependency_requirement: "one_completed"
 			id: "738C37B1E696F933"
 			tasks: [{
 				id: "2DDA923F80609B46"
@@ -205,7 +209,7 @@
 				"08DACD94A59D5FDE"
 				"6B73EB529E646EF8"
 			]
-			dependency_requirement: "one_started"
+			dependency_requirement: "one_completed"
 			id: "7EC15712EC498088"
 			tasks: [{
 				id: "038A366EFB89A0A1"
@@ -282,7 +286,7 @@
 				"029C392AD3BA76AD"
 				"7E56F2B931A55A36"
 			]
-			dependency_requirement: "one_started"
+			dependency_requirement: "one_completed"
 			id: "0179452F07812322"
 			tasks: [{
 				id: "3A3F8FDBFE26CEB3"
@@ -360,6 +364,8 @@
 				"67F1C2891AA7CD0E"
 				"738C37B1E696F933"
 			]
+			dependency_requirement: "one_completed"
+			hide_details_until_startable: false
 			id: "1084B343FEEBB88E"
 			shape: "rsquare"
 			size: 1.5d

@@ -649,8 +649,9 @@
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
-				entity: "born_in_chaos_v1:lord_pumpkinhead"
-				id: "76D4C2BC06D35358"
+				entity: "born_in_chaos_v1:lord_pumpkinhead_head"
+				icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+				id: "6F37C2762D88AFA2"
 				type: "kill"
 				value: 1L
 			}]
@@ -841,8 +842,10 @@
 				"You can summon him by destroying a special pumpkin surrounded by candles that you can meet in the world."
 				""
 				"The boss has 3 phases."
+				""
+				"You have to kill in last phase for quest to work."
 			]
-			icon: "chipped:anguished_carved_pumpkin"
+			icon: "born_in_chaos_v1:fel_lamp"
 			id: "02E628FD58B3D4C7"
 			rewards: [{
 				command: "/puffish_skills points add @s talentree 1"
@@ -856,9 +859,9 @@
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
-				entity: "born_in_chaos_v1:sir_pumpkinhead"
-				icon: "chipped:anguished_carved_pumpkin"
-				id: "1D79E53E83899586"
+				entity: "born_in_chaos_v1:pumpkinhead"
+				icon: "born_in_chaos_v1:fel_lamp"
+				id: "52E375BB9FB07AF5"
 				type: "kill"
 				value: 1L
 			}]
@@ -1777,15 +1780,15 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: The Death King"
-			x: 5.0d
-			y: 4.5d
+			x: -1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
 			description: [
-				"TODO: proper text from Pumpkillager's quest mod"
+				"The first encounter with the Pumpkillager. He'll appear randomly after breaking a pumpkin that doesn't have any blocks surrounding it. You'll be given a quest book."
 				""
-				""
+				"Follow the quest book in order to process the next steps."
 			]
 			icon: "minecraft:pumpkin"
 			id: "18951CEFEE6CDB8F"
@@ -1801,14 +1804,152 @@
 			shape: "square"
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
-				entity: "born_in_chaos_v1:sir_pumpkinhead"
-				icon: "minecraft:pumpkin"
-				id: "20888A9A4FE6B6F2"
-				type: "kill"
-				value: 1L
+				id: "00168A16EE93A334"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Pumpkalibur\"}"
+						}
+					}
+				}
+				type: "item"
 			}]
 			title: "&2Overworld&f: Pumpkillager"
 			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6C426E483987130D"
+				"09D25A60964E517F"
+				"2BA58FB09C99F20A"
+				"23EF18C11A9B1FBD"
+				"45E828FAD2F4D3EC"
+				"0FA6D29FC55F9AEC"
+				"138E94B1FC310502"
+				"3316608227ABBD2E"
+				"7FE615B1AB39CFFA"
+				"40DD304B90046084"
+				"466E95094802C572"
+				"18951CEFEE6CDB8F"
+				"360D7D51B8827142"
+				"66CCB8E61772D9C5"
+				"0561992D26000F6C"
+				"681E9EE350CD6791"
+				"1AB94A49F0A4427D"
+				"11DB96D8FC52617B"
+				"5E8607FE394E659A"
+				"1447D924C3077D48"
+				"271202F67BEA0A20"
+				"186D1014F748B001"
+				"188968771B831DCE"
+				"065A5A976F0D8FF9"
+				"485FA783FD36FB50"
+				"44DCD0A86F67612E"
+				"6AC1E375CA7DA676"
+				"1118D777AFDEABF1"
+				"079641D681493C48"
+				"468294C066683BE3"
+				"496E8E6570D6FE17"
+				"66C5F17F1D24B252"
+				"1D335FA02D1F86DD"
+				"2EFEFB8A1B1A2E3F"
+				"7696990D3ED40A1B"
+				"034ADBF4EC3738DD"
+				"12540DE2AD46BD25"
+				"35E095FC517735B1"
+				"342B9E3297CC4309"
+				"4FCD7C734E04EC59"
+				"03A47AAF2D751796"
+				"0346F78CE4B0F393"
+				"376DD4B56039898B"
+				"4473A6FB1DD04B33"
+				"608ECD63B1EAC46B"
+				"02E628FD58B3D4C7"
+				"5AD9D7336F8E4D96"
+				"150D9233D297B9DA"
+				"1A9BD3105BC4C13B"
+				"70D8E200F5040BA9"
+				"5590F8A33E7C7EBA"
+				"07C2D6E01B241F73"
+				"22230F5131F8FEFD"
+				"4B8AA887F0B4664E"
+				"1B579FA633476F4B"
+				"0990BE5505F823C2"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lootr:textures/item/crown.png"
+				}
+			}
+			id: "025314CC80D7286F"
+			invisible: true
+			rewards: [{
+				id: "45D461EBEE406919"
+				item: "kubejs:slayer_badge"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Complete all the quests in this chapter."
+			tasks: [{
+				id: "763C98900C9BC722"
+				title: "Completionist"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "minecraft:elder_guardian"
+					}
+				}
+			}
+			id: "53359B066B0AC21D"
+			rewards: [{
+				command: "/puffish_skills points add @s talentree 1"
+				elevate_perms: true
+				icon: "kubejs:skill_add_point"
+				id: "1F53B9CBF0EB0AF1"
+				silent: true
+				title: "+1 Skill Point"
+				type: "command"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: {
+					Count: 1b
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "minecraft:guardian"
+						}
+					}
+				}
+				id: "4E504A5927E2DFE0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Elder Guardian"
+			x: 5.0d
 			y: 4.5d
 		}
 	]

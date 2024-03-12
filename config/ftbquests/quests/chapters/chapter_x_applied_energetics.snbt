@@ -26,6 +26,7 @@
 		y: -4.0d
 	}]
 	order_index: 9
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -135,6 +136,7 @@
 				"5B24C4560809333B"
 				"76CB692248EAF336"
 			]
+			dependency_requirement: "one_completed"
 			description: ["It's time to start making some &eProcessors&f. These are an important crafting ingredient used to make the large majority of ME-connected devices."]
 			id: "3026C7FFA3B230FA"
 			tasks: [

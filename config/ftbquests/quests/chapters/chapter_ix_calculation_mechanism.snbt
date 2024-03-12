@@ -26,6 +26,7 @@
 		y: 4.0d
 	}]
 	order_index: 8
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -34,6 +35,7 @@
 				"1ACB2AFC5EB11041"
 				"64D7956A3E6681A5"
 			]
+			dependency_requirement: "one_completed"
 			id: "59B36B675F138BB6"
 			tasks: [{
 				id: "403BF270EBED74DA"
@@ -146,6 +148,7 @@
 				"69336FA41A4C41EF"
 				"0198236ADC17A538"
 			]
+			dependency_requirement: "one_completed"
 			id: "2C03A8E703001FDA"
 			tasks: [{
 				id: "41A56C77E4171ACE"
@@ -161,6 +164,7 @@
 				"0252501C99FFC62E"
 				"6C74A90BEFD54FE7"
 			]
+			dependency_requirement: "one_completed"
 			id: "78344EA2C9E89AD9"
 			tasks: [{
 				id: "7D235ACD73189E7A"
@@ -233,6 +237,7 @@
 				"6BA8F6F964689964"
 				"046BEC0717CBE938"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"To create an &6Arcane Crystal Obelisk&r, place down an &2Arcane Polished Darkstone block&r, then place two &2Arcane Crystal Blocks&r on top of it."
 				""
@@ -299,6 +304,7 @@
 				"535537D880A5C63B"
 				"683BD9B4E6116735"
 			]
+			dependency_requirement: "one_completed"
 			id: "7A405050D14C4CBB"
 			tasks: [{
 				id: "0F2854C3395BB9E2"
@@ -1072,6 +1078,7 @@
 				"03BCAD5BFB9DA32C"
 				"53EC81CE0F98EB86"
 			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "108EA49E8421CCC7"
 			shape: "rsquare"
@@ -1167,6 +1174,7 @@
 				"16952288925225D2"
 				"3C0427C75D2CA7F2"
 			]
+			dependency_requirement: "one_completed"
 			id: "56C3DE7F230ED103"
 			tasks: [{
 				id: "69BF9F82BCA46BC3"
@@ -1196,6 +1204,7 @@
 				"108EA49E8421CCC7"
 				"66C6FAD9FBDE1094"
 			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "60FC4ADEFBA29C6D"
 			shape: "rsquare"

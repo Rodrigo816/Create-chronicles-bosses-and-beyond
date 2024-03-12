@@ -15,11 +15,18 @@ ClientEvents.lang('en_us', event => {
 JEIEvents.hideItems(event => {
   event.hide('twilightforest:uncrafting_table')
   event.hide('create_dd:chocolate_milkshake')
-  event.hide('create_dd:hot_chocolate')
   event.hide('create_dd:vanilla_milkshake')
   event.hide('create_dd:vanilla_milkshake_bucket')
   event.hide('create_dd:chocolate_milkshake_bucket')
+  event.hide('create_confectionery:caramel_bucket')
+  event.hide('create_dd:hot_chocolate')
   event.hide('create_dd:hot_chocolate_bucket')
   'aquamirae:divider',
   'aquamirae:terrible_sword'
 })
+
+
+JEIEvents.hideFluids((event) => {
+  event.hide('create_confectionery:caramel')
+  event.hide('create_dd:hot_chocolate')
+});

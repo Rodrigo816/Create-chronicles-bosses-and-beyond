@@ -26,6 +26,7 @@
 		y: 0.0d
 	}]
 	order_index: 1
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -201,6 +202,7 @@
 				table_id: 1302780656980067940L
 				type: "random"
 			}]
+			subtitle: "please use a hopper to drop the wrech on deployer"
 			tasks: [{
 				id: "2B3D3E600A72681E"
 				item: {
@@ -245,7 +247,13 @@
 			}]
 			tasks: [{
 				id: "126E49041133AFF7"
-				item: "minecraft:sand"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "smelts_to_glass"
+					}
+				}
 				type: "item"
 			}]
 			x: -1.0d
@@ -278,6 +286,7 @@
 				"48413A6A0A9BFFA7"
 				"68CD9910A1658762"
 			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "646C119DC7AC80AB"
 			rewards: [{

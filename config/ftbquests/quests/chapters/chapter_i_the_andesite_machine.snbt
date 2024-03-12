@@ -26,11 +26,20 @@
 		y: -5.0d
 	}]
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["342BCE36CF749057"]
-			description: ["Begin your journey by harvesting the essence of nature: trees. Gather saplings to ensure a renewable source of wood."]
+			description: [
+				"Begin your journey by harvesting the essence of nature: Trees."
+				""
+				"Go punch some trees to gather wood logs or you can have my axe! If I had an axe to give… "
+				""
+				"Eventually you can make an automated Tree Farm. "
+				""
+				"Make sure to gather the Saplings to replant the trees to ensure a renewable source of wood."
+			]
 			hide_dependency_lines: true
 			icon: "twilightforest:time_sapling"
 			id: "12796FE2B6E3D53E"
@@ -65,21 +74,15 @@
 		}
 		{
 			dependencies: ["12796FE2B6E3D53E"]
-			description: ["With your saplings planted, it's time to harvest logs. Logs are the backbone of all wooden creations."]
+			description: [
+				"Now that you have punched a tree or cut down a tree with an axe, with the logs you have harvested, you can make all sorts of wood creations!"
+				""
+				" Always make sure to plant the saplings again to harvest more logs after."
+				""
+				"&l&6Tip:&r&r &oYou can use a Mechanical Saw and a Hand Crank to cut down trees faster.&r"
+			]
 			id: "0C58CBF1F4D636FC"
 			rewards: [
-				{
-					count: 5
-					id: "731FEA8716285CD4"
-					item: "create_dd:experience_ingot"
-					type: "item"
-				}
-				{
-					auto: "disabled"
-					id: "4DC3C96A501483F6"
-					table_id: 1302780656980067940L
-					type: "random"
-				}
 				{
 					count: 2
 					id: "559AA194623B61BA"
@@ -104,27 +107,15 @@
 				}
 				type: "item"
 			}]
-			title: "Lumber Harvest"
+			title: "Log Harvest"
 			x: 0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0C58CBF1F4D636FC"]
-			description: ["Transform your logs into stripped logs using an &6mechanical saw.&r"]
+			description: ["Time to strip some logs! You can strip them by using an axe or using the &6Mechanical Saw&r, which can be used to automate the process later."]
 			id: "5C5BBEA6E03836C7"
 			rewards: [
-				{
-					count: 5
-					id: "75A3490CDF981751"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "27B64A67A71B4C4A"
-					table_id: 1302780656980067940L
-					type: "random"
-				}
 				{
 					count: 2
 					id: "40F0C1B819CB28EA"
@@ -155,7 +146,7 @@
 		}
 		{
 			dependencies: ["5C5BBEA6E03836C7"]
-			description: ["Convert the stripped logs into planks."]
+			description: ["With the striped logs, you can convert them into planks using a&6 Crafting Table&r or a &6Mechanical Saw&r."]
 			id: "5D5914AC9E5722EF"
 			rewards: [
 				{
@@ -188,7 +179,7 @@
 		}
 		{
 			dependencies: ["5D5914AC9E5722EF"]
-			description: ["Further refine the planks into wooden slabs. Slabs offer a variety of building and crafting uses."]
+			description: ["With your planks in hands, you can now refine them further into Wooden Slabs. They offer a variety of crafting and building uses. "]
 			id: "507927EEC1417661"
 			rewards: [
 				{
@@ -221,7 +212,13 @@
 		}
 		{
 			dependencies: ["342BCE36CF749057"]
-			description: [""]
+			description: [
+				"&cThis Lava is hot!&r Lava can be used for many things, such as creating &6Cobblestone&r by touching it with water!"
+				""
+				"Touching in the wrong order can create Obsidian instead."
+				""
+				"&l&6Tip:&r&r &oYou can generate lava by using Drip Stones and a Cauldron.&r"
+			]
 			hide_dependency_lines: true
 			id: "6528F97D788A957A"
 			rewards: [
@@ -249,7 +246,13 @@
 		}
 		{
 			dependencies: ["342BCE36CF749057"]
-			description: [""]
+			description: [
+				"&bWater is not hot!&r Shocking I know… Water can be used for many things, such as creating &6Cobblestone&r by having Lava touch the water. "
+				""
+				"If the Water touches the lava first, it will turn into Obsidian instead of Cobblestone."
+				""
+				"&l&6Tip:&r&r &oYou can have an infinite water source by creating a 4 square hole and filling it with water.&r"
+			]
 			hide_dependency_lines: true
 			id: "72070D0355244B40"
 			rewards: [
@@ -280,7 +283,12 @@
 				"6528F97D788A957A"
 				"72070D0355244B40"
 			]
-			description: ["Combine the forces of water and lava to create cobblestone"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Now that you have combined the forces of &bWater&r and &cLava&r or mined some &6Cobblestone&r. "
+				""
+				"&6Cobblestone&r can be used for many things, such as upgrading your starter wooden house or your starter dirt house… no judging. "
+			]
 			id: "5DB498A2D21DEC4D"
 			rewards: [
 				{
@@ -307,7 +315,11 @@
 		}
 		{
 			dependencies: ["5DB498A2D21DEC4D"]
-			description: [""]
+			description: [
+				"With all the Cobblestone you’ve harvested, it’s time to make that annoying block that tells you “YOU SHALL NOT PASS!” if it doesn’t suffocate you first by falling on top of you. "
+				""
+				"You can make the Gravel by using a&6 Millingstone&r or &8Crushing Wheels&r."
+			]
 			id: "53EB7E023803E1B4"
 			rewards: [
 				{
@@ -334,8 +346,15 @@
 		}
 		{
 			dependencies: ["53EB7E023803E1B4"]
-			description: [""]
+			description: [
+				"Now that you have Gravel, you can use an &6Encased Fan&r with a heat source, like a &cCampfire&r, to turn Gravel into Andesite. "
+				""
+				"Don’t use Lava as your heat source though, it will destroy the Gravel."
+				""
+				"&l&6Tip:&r&r &oYou can use a Netherrack and set it on fire with Flint and Steel, for something more fancy than a Campfire..&r"
+			]
 			id: "7FE2DE6213FF326A"
+			progression_mode: "flexible"
 			rewards: [
 				{
 					count: 2
@@ -355,14 +374,19 @@
 				item: "minecraft:andesite"
 				type: "item"
 			}]
-			title: "Andesite"
+			title: "Andesite Production"
 			x: 7.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7FE2DE6213FF326A"]
-			description: [""]
+			description: [
+				"With all the Andesite you’ve gathered, it’s time to turn into Andesite Alloy! "
+				""
+				"One of the most important materials of the &6Create Mod&r. To do so you can either use a &6Crafting Table&r or use a &6Mechanical Mixer&r for a more material efficient way."
+			]
 			id: "43D6EC530F7F1126"
+			progression_mode: "flexible"
 			rewards: [
 				{
 					count: 2
@@ -392,7 +416,12 @@
 				"507927EEC1417661"
 				"43D6EC530F7F1126"
 			]
-			description: ["Assemble the components you've crafted into a functional rotation mechanism, the heart of many Create machines."]
+			dependency_requirement: "one_completed"
+			description: [
+				"You can craft &aRotational Mechanism&r by using Mjöln-I mean the Hammer; Andesite Alloy; a Wooden Slab and some Iron ingots in a Crafting Table. "
+				""
+				"Automating the crafting of the Rotational Mechanism &6using sequence assembly makes it more resource efficient.&r"
+			]
 			id: "5E60FF6098CB030B"
 			rewards: [
 				{
@@ -407,9 +436,16 @@
 					table_id: 1302780656980067940L
 					type: "random"
 				}
+				{
+					count: 8
+					id: "6D576FBEE6EAA53D"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "The heart of all Rotational Machines!"
 			tasks: [{
 				id: "1F9AFA49030B5A0B"
 				item: "kubejs:rotation_mechanism"
@@ -421,7 +457,13 @@
 		}
 		{
 			dependencies: ["342BCE36CF749057"]
-			description: [""]
+			description: [
+				"Time to summon Mjölnir! You wish I know but you can craft the&6 Hammer&r using a &bCrafting Table&r or a &bMechanical Crafter&r for an automated supply of Hammers. "
+				""
+				"The Hammers have 64 uses until it breaks."
+				""
+				"&o&cRumor:&r&r &oI’ve heard that you can turn the Hammer into an unbreakable Hammer just like Mjölnir! Not the Marvel one though, that one still breaks.&r"
+			]
 			hide_dependency_lines: true
 			id: "0BEFDBD8AC519539"
 			rewards: [
@@ -455,7 +497,15 @@
 		}
 		{
 			dependencies: ["5E60FF6098CB030B"]
-			description: ["Combine all your knowledge and resources to construct the pinnacle of this chapter: The Andesite Machine."]
+			description: [
+				"With all your knowledge and hard work combined, you’ve achieved the ultimate goal of&c Chapter 1!&r"
+				""
+				"The creation of the &aRotation Machine&r, the heart to every Andesite Machine. "
+				""
+				"You should pat yourself in the back, you deserve it."
+				" "
+				"Now into &6Chapter 2!&r New challenges await you there."
+			]
 			hide: true
 			id: "3AEFFAED564130A6"
 			rewards: [
@@ -470,6 +520,11 @@
 					id: "260EC7D7C5447907"
 					table_id: 1302780656980067940L
 					type: "random"
+				}
+				{
+					id: "131F93BE1FCD6209"
+					item: "kubejs:andesite_machine"
+					type: "item"
 				}
 			]
 			shape: "rsquare"

@@ -191,6 +191,7 @@ ServerEvents.recipes(event => {
   multicut(andesite_machines_cutting, "kubejs:andesite_machine", true);
   machine_shape(andesite_shapes, "kubejs:andesite_machine", true);
 
+  event.shapeless(CR('gearbox'), [CR('vertical_gearbox')])
 
 
   /*
@@ -799,6 +800,11 @@ ServerEvents.recipes(event => {
       }
     ]
   })
+
+  event.recipes.createCrushing([
+    Item.of(AE2('singularity')).withChance(0.40),
+  ], 'forbidden_arcanus:arcane_crystal_obelisk').processingTime(800)
+
   //shimmer
   event.recipes.createMixing(Fluid.of(CRDD("shimmer"), 500),[
     'quark:red_corundum_cluster',
@@ -958,6 +964,19 @@ ServerEvents.recipes(event => {
   ], AE2('sky_stone_block')).processingTime(800)
 
 
+  /*
+    ===============================
+    ----Misc
+    ==============================
+  */
+  event.recipes.createMechanicalCrafting(MC('gilded_blackstone'), [
+      ' G ',
+      'GBG',
+      'GGG'
+    ], {
+      G: MC('gold_nugget'),
+      B: MC('blackstone')
+  })
 
 
 })

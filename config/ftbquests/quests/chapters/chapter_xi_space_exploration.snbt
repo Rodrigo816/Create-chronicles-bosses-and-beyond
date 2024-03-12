@@ -621,8 +621,8 @@
 			dependencies: ["7E2CC0CBD8ED1A60"]
 			id: "1FB0AAC5A21444FD"
 			rewards: [{
-				id: "4DB1F24181413976"
-				item: "kubejs:create_chronicles"
+				id: "059F19FC15E9A4ED"
+				item: "kubejs:engineer_badge"
 				type: "item"
 			}]
 			title: "The End"

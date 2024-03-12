@@ -26,6 +26,7 @@
 		y: -7.0d
 	}]
 	order_index: 4
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -47,6 +48,7 @@
 				"39D793EF31699C8A"
 				"44B711E1B5B7B00E"
 			]
+			dependency_requirement: "one_completed"
 			id: "69D628450626D8D5"
 			shape: "rsquare"
 			size: 2.0d
@@ -63,7 +65,7 @@
 				"41F2204F3859C40E"
 				"0D2D729534CC797F"
 			]
-			dependency_requirement: "one_started"
+			dependency_requirement: "one_completed"
 			id: "6410C194650D31D0"
 			rewards: [{
 				count: 5
@@ -174,6 +176,7 @@
 				"66390863259FE74C"
 				"6AD87BACD480D27B"
 			]
+			dependency_requirement: "one_completed"
 			id: "5429EC5DB7D8429C"
 			optional: true
 			tasks: [{

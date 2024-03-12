@@ -877,11 +877,18 @@
 			description: ["&eAlex's Caves&r adds in a unique variety of new underground cave biomes with many new interesting mobs and mechanics to play around with. To get started you'll need to find an underground cabin to acquire some cave tablets, as well as a spelunkers table."]
 			icon: "alexscaves:cave_book"
 			id: "7928A20D0045F639"
-			rewards: [{
-				id: "17219D3B2ADE76CA"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "17219D3B2ADE76CA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6D121B48D7120E2B"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+			]
 			subtitle: "New Cave Biomes"
 			tasks: [{
 				id: "1F3B75CF4A9081C1"
@@ -1314,7 +1321,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["7EF948B39FBEA377"]
+			dependencies: ["640C3588E6BA8DF2"]
 			description: ["The &aTarget Dummy&f is pretty self explanatory. You can use this to test how much damage your weapons deal."]
 			id: "77E129C820E2C154"
 			rewards: [{
@@ -1328,8 +1335,8 @@
 				item: "dummmmmmy:target_dummy"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 16.0d
+			x: -13.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
@@ -2839,6 +2846,65 @@
 			title: "Callable Horses"
 			x: 16.0d
 			y: 17.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"&6Comforts&r is a mod that adds sleeping bags and hammocks to Minecraft. These items can be used just like beds except they do not set a player's spawn point on use, safely preserving a player's spawn point at their home base."
+				""
+				"Hammocks are like an inverse bed, turning day to night."
+			]
+			id: "6BF73E8BF5844527"
+			rewards: [{
+				id: "35AE171E2836FC71"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: "comforts:sleeping_bag_white"
+				id: "2A57737D02234E97"
+				item: "comforts:sleeping_bag_light_blue"
+				type: "item"
+			}]
+			title: "Craft a sleeping bag"
+			x: -11.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"&6The Tome&r solves a single problem: managing all of your guidebooks."
+				""
+				"The Tome allows many books to be combined into a single item and enables them to be retrieved when needed."
+				""
+				""
+				"&nRight-click&r while holding Tome to open the book selection screen"
+				""
+				"&nShift + Right-click&r while holding Tome to convert to the book for the block you're looking at"
+				""
+				"&nLeft-click&r on air to revert a book back into the Tome"
+				""
+				"&nShift + Q&r while holding the converted tome to eject a book from it"
+			]
+			id: "715415DD1D493D8E"
+			rewards: [{
+				id: "76ACB3A825340239"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4CD4529B4670AF0A"
+				item: {
+					Count: 1b
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 20.0d
 		}
 	]
 	title: "&e&l Getting Started!"

@@ -7,6 +7,6 @@
 			"item": "kubejs:create_chronicles"
 		}
 	},
-	"spent_points_limit":56,
+	"spent_points_limit":57,
 	"background": "textures/block/deepslate_bricks.png"
 }

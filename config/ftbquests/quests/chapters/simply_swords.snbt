@@ -68,8 +68,8 @@
 			id: "6C71E2ABAA99C005"
 			invisible: true
 			rewards: [{
-				id: "387A00F1019BE76A"
-				item: "kubejs:create_chronicles"
+				id: "4C106559A388027E"
+				item: "kubejs:blade_badge"
 				type: "item"
 			}]
 			shape: "hexagon"
