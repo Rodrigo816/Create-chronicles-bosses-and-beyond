@@ -431,21 +431,21 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "0BC4FAC1985F974A"
-					table_id: 1302780656980067940L
-					type: "random"
-				}
-				{
 					count: 8
 					id: "6D576FBEE6EAA53D"
 					item: "kubejs:rotation_mechanism"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "76AB79084D819171"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "The heart of all Rotational Machines!"
+			subtitle: "The heart of all Andesite Machines!"
 			tasks: [{
 				id: "1F9AFA49030B5A0B"
 				item: "kubejs:rotation_mechanism"
@@ -498,9 +498,7 @@
 		{
 			dependencies: ["5E60FF6098CB030B"]
 			description: [
-				"With all your knowledge and hard work combined, you’ve achieved the ultimate goal of&c Chapter 1!&r"
-				""
-				"The creation of the &aRotation Machine&r, the heart to every Andesite Machine. "
+				"With all your knowledge and hard work combined, you’ve achieved the ultimate goal of&c Chapter 1!&r The creation of the &aRotation Machine!&r"
 				""
 				"You should pat yourself in the back, you deserve it."
 				" "
@@ -516,15 +514,27 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "260EC7D7C5447907"
-					table_id: 1302780656980067940L
-					type: "random"
-				}
-				{
 					id: "131F93BE1FCD6209"
 					item: "kubejs:andesite_machine"
 					type: "item"
+				}
+				{
+					count: 10
+					id: "0DD14B34DB4A7B93"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2475DBB309D7CCD4"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01F40A2E704680D9"
+					table_id: 1302780656980067940L
+					type: "choice"
 				}
 			]
 			shape: "rsquare"
@@ -576,6 +586,11 @@
 					count: 15
 					id: "7C4136DEB3AB9EFF"
 					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "6A51B9F0E37DED09"
+					item: "create:hand_crank"
 					type: "item"
 				}
 			]

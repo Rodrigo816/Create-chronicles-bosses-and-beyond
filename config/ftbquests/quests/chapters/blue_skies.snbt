@@ -194,7 +194,6 @@
 					xp: 100
 				}
 			]
-			shape: "diamond"
 			subtitle: "And it's pretty dark."
 			tasks: [{
 				count: 2L
@@ -276,7 +275,6 @@
 					xp: 100
 				}
 			]
-			shape: "hexagon"
 			subtitle: "Spartan Style"
 			tasks: [{
 				id: "0A3B8E7765432D22"
@@ -316,7 +314,6 @@
 					xp: 100
 				}
 			]
-			shape: "diamond"
 			tasks: [{
 				count: 3L
 				id: "11A420F02EC037AF"
@@ -393,7 +390,6 @@
 					xp: 100
 				}
 			]
-			shape: "diamond"
 			tasks: [{
 				count: 3L
 				id: "290B4D50053FDD52"
@@ -505,7 +501,6 @@
 					xp: 100
 				}
 			]
-			shape: "diamond"
 			tasks: [{
 				id: "4082CD21223CF655"
 				item: "blue_skies:raw_charoite"

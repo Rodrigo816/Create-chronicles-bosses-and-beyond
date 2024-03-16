@@ -22,6 +22,8 @@ config/jei
 /hs_err*
 /map_atlases
 /server_files
+/mods/BetterTags*
+/config/bettertags*
 
 
 # files

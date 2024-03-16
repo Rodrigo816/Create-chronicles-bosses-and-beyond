@@ -1,0 +1,16 @@
+{
+  "mobs": [
+    {
+      "name": "alexsmobs:centipede_head",
+      "weight": 10
+    },
+    {
+      "name": "born_in_chaos_v1:zombie_lumberjack",
+      "weight": 10
+    },
+    {
+      "name": "quark:forgotten",
+      "weight": 5
+    }
+  ]
+}

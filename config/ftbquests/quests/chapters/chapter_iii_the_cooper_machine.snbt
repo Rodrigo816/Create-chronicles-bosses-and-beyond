@@ -31,17 +31,15 @@
 	quests: [
 		{
 			dependencies: ["5012AE3E688F40D7"]
-			description: ["From stripped logs, then you give it an item drain to obtain liquid sap."]
+			description: [
+				"&6Sap&r is an important component to make an essential item for your automations! "
+				""
+				"To gather &6Sap&r you need to use an Item Drain made with a Iron Fence and a Valve Machine to extract the &6Sap&r from Wood Logs. To put the &6Sap&r into a Bucket you need to use a Spout and an Empty Bucket."
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "6C54D9FC570E8C23"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "392FF0B029538E35"
-					table_id: 1302780656980067940L
-					type: "random"
-				}
 				{
 					count: 5
 					id: "1B7A6BA5FB6CE58F"
@@ -65,15 +63,13 @@
 		}
 		{
 			dependencies: ["6C54D9FC570E8C23"]
-			description: ["With the sap, you perform mixing to obtain raw rubber."]
+			description: [
+				"With all that Sap you’ve gathered, it’s time to mix it up with a Mechanical Mixer and a Basin to create Raw Rubber! "
+				""
+				"&d&oTrivia:&r&r &oTires used to be white because natural rubber is white. Natural rubber was not ideal for tires, they were fortified with zinc oxide, another white material. Later they replaced the zinc oxide with a superior material called Carbon Black giving the tires they're black color. This is why Michelin Man is white, representing the very first tires.&r"
+			]
 			id: "300DD17E607B3081"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2B48C755367DF4D2"
-					table_id: 1302780656980067940L
-					type: "random"
-				}
 				{
 					count: 5
 					id: "54BC81CDDDE9BA0C"
@@ -97,15 +93,9 @@
 		}
 		{
 			dependencies: ["300DD17E607B3081"]
-			description: ["Then you perform bulk smoking."]
+			description: ["Now it’s time to strengthen your Rubber and no, you don’t need to use Carbon Black to do so. In this case, you just have to heat it up! "]
 			id: "2E72CEB626FD6EBE"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "796CB8F719D6263C"
-					table_id: 1302780656980067940L
-					type: "random"
-				}
 				{
 					count: 5
 					id: "49CFFADA3638AE17"
@@ -129,7 +119,14 @@
 		}
 		{
 			dependencies: ["2E72CEB626FD6EBE"]
-			description: ["Belts are the backbone of any assembly line."]
+			description: [
+				"Time to turn your Rubber into one of the most useful items in Create, the &6Mechanical Belt!&r "
+				""
+				"&6The Mechanical Belt&r has many uses, such as moving items to point A to B, or to use it to add rotation to machines. It can even be used for Aesthetic purposes."
+				""
+				""
+				"&6&lTip:&r&r &oYou can use dyes in your Mechanical Belt to add colors or use Andesite Block to add some frames to it.&r"
+			]
 			id: "269E461376CE2456"
 			rewards: [
 				{
@@ -139,10 +136,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "1784DF9100A34DE6"
-					table_id: 1302780656980067940L
-					type: "random"
+					id: "6C481379FEDB9CE9"
+					item: "moped:copper_moped_item"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -156,6 +152,13 @@
 		}
 		{
 			dependencies: ["5E60FF6098CB030B"]
+			description: [
+				"The Copper Ore is the key of this chapter. Grab your Pickaxe and go mine some Copper and then turn them into Copper Ingots."
+				""
+				"For an infinite source of Copper, please check &aRenewable Ores chapter&r."
+				""
+				"&o&dTrivia:&r&r &oNearly 80 percent of the copper that has been mined to date is still in use.&r"
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "469BCDA1AD3D80FA"
@@ -170,12 +173,17 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			title: "Copper Ores"
+			title: "Copper Ore"
 			x: -3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["469BCDA1AD3D80FA"]
+			description: [
+				"With all that Copper Ingots in your hands, it’s time to set things flat! "
+				""
+				"To turn the Copper Ingots into Sheets, you need to craft a &6Mechanical Press.&r"
+			]
 			id: "68CD9910A1658762"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -193,6 +201,13 @@
 		}
 		{
 			dependencies: ["5E60FF6098CB030B"]
+			description: [
+				"Still have some Copper Ingots left? No? Go grab some more and create Winry! By that I mean the Wrench. "
+				""
+				"&cThe Wrench&r by itself can be used to rotate blocks and to make a Deployer use the Wrench,&n you have to use a Chute to Hop the Wrench in&r."
+				""
+				"&o&dNote:&r&r &oIf you recognize the name Winry, you Rock like a Bell!&r"
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "48413A6A0A9BFFA7"
@@ -202,7 +217,6 @@
 				table_id: 1302780656980067940L
 				type: "random"
 			}]
-			subtitle: "please use a hopper to drop the wrech on deployer"
 			tasks: [{
 				id: "2B3D3E600A72681E"
 				item: {
@@ -219,6 +233,11 @@
 		}
 		{
 			dependencies: ["15777779AE0400E3"]
+			description: [
+				"So if you haven’t built yourself a &eSand&r Castle yet… use that &eSand&r and turn it into&a Glass&r by heating it up."
+				""
+				"&d&oTrivia:&r&r &oGlass is 100% recyclable!  So if you break your Glass, make sure to recycle it!&r"
+			]
 			id: "26B8E592AED8E995"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -236,6 +255,11 @@
 		}
 		{
 			dependencies: ["5E60FF6098CB030B"]
+			description: [
+				"Grab yourself a shovel or use your hands and go dig some &esand&r like a pirate to make Glass! "
+				""
+				"&o&dTrivia:&r&r &oDeserts aren't the world's largest sandboxes, Minecraft is! No seriously, deserts aren’t the largest, the world's largest sand deposits are actually found on the ocean floor. &r"
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "15777779AE0400E3"
@@ -256,20 +280,46 @@
 				}
 				type: "item"
 			}]
+			title: "Sand"
 			x: -1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
-			description: [""]
+			description: [
+				"With all your knowledge and hard work combined, you’ve achieved the ultimate goal of&c Chapter 2!&r The creation of the&2 Valve Machine! &r"
+				""
+				"You should pat yourself in the back, you deserve it. "
+				""
+				"&6Now into Chapter 3!&r New challenges await you there!"
+			]
 			hide: true
 			id: "5012AE3E688F40D7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6A5076EBE626B29D"
-				table_id: 1302780656980067940L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5205F130C56DB1B5"
+					item: "create:filter"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0968A28FFA719131"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "187CE4BC728BED81"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65F5AA011CBBE1B3"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -287,14 +337,26 @@
 				"68CD9910A1658762"
 			]
 			dependency_requirement: "one_completed"
-			description: [""]
+			description: [
+				"The heart of all Copper Machines! You can craft the&6 Valve Mechanism&r by using Deployers, a Mechanical Press and a Rotational Mechanism. "
+				""
+				"The first Deployer assembles Copper Sheets into the Rotational Mechanism, then the second Deployer assembles the Glass, then the last Deployer Uses the Wrench to make sure everything is tight and finally the Mechanical Press does the final touch and you have made the &6Valve Mechanism!&r"
+			]
 			id: "646C119DC7AC80AB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "04D80E217126D30D"
-				table_id: 1302780656980067940L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04D80E217126D30D"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "42E36A74EEE55EF0"
+					item: "create_sa:hydraulic_engine"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{

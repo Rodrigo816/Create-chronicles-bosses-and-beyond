@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "alexsmobs:frilled_shark",
+      "weight": 15
+    },
+    {
+      "name": "born_in_chaos_v1:corpse_fish",
+      "weight": 15
+    }
+  ]
+}

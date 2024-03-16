@@ -1,0 +1,20 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:cave_spider",
+      "weight": 10
+    },
+    {
+      "name": "born_in_chaos_v1:fallen_chaos_knight",
+      "weight": 15
+    },
+    {
+      "name": "born_in_chaos_v1:door_knight",
+      "weight": 2
+    },
+    {
+      "name": "born_in_chaos_v1:bonescaller",
+      "weight": 7
+    }
+  ]
+}

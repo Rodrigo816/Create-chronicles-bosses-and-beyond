@@ -1,0 +1,28 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:zombie",
+      "weight": 15
+    },
+    {
+      "name": "minecraft:skeleton",
+      "weight": 10
+    },
+    {
+      "name": "born_in_chaos_v1:decripit_skeleton",
+      "weight": 10
+    },
+    {
+      "name": "born_in_chaos_v1:zombie_lumberjack",
+      "weight": 15
+    },
+    {
+      "name": "born_in_chaos_v1:bone_imp",
+      "weight": 2
+    },
+    {
+      "name": "quark:wraith",
+      "weight": 5
+    }
+  ]
+}

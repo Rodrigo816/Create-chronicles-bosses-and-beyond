@@ -35,6 +35,15 @@
 			]
 			icon: "kubejs:skill_add_point"
 			id: "072DA448D144179C"
+			rewards: [{
+				command: "/puffish_skills points add @s talentree 1"
+				elevate_perms: true
+				icon: "kubejs:skill_add_point"
+				id: "2F72B652621B93C9"
+				silent: true
+				title: "+1 Skill Point"
+				type: "command"
+			}]
 			tasks: [{
 				id: "13FDAAB9648E3D0D"
 				title: "&l&6Unlock Chapter: Bosses and Skill Points"
@@ -148,11 +157,18 @@
 				"Build a house, build a farm, do the usual."
 			]
 			id: "0C49795E134A27E0"
-			rewards: [{
-				id: "08FE04373B6B0505"
-				type: "xp"
-				xp: 20
-			}]
+			rewards: [
+				{
+					id: "6C864251A2E6384F"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "37AB800E7789E9C7"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -240,6 +256,8 @@
 				"&eWaystones&r can be discovered scattered throughout the world or within villages, offering a fast way to travel across vast distances."
 				""
 				"Additionally, you might find &atowers in the wild&r, typically housing a waystone at their summit."
+				""
+				"You can rename a waystone by shift-right-clicking it with an empty hand."
 				""
 				"Breaking a waystone yields &d4 Warp Fragments&r rather than the entire block. "
 				""
@@ -486,6 +504,8 @@
 		{
 			dependencies: ["0C49795E134A27E0"]
 			description: [
+				"You need to craft a &eempty map&r and use it to get a &cmap&r."
+				""
 				"The &d&lAtlas&r&r can be used as both a world map or a mini-map by having the atlas on your hotbar, or in the 'hand' curios slot. "
 				""
 				"By default the atlas will only have the first map used to create it inside it. "
@@ -846,7 +866,7 @@
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
 			description: [
-				"You start your journey with &c7 hearts&r, but you can increase your life through skill points or by using &cHeart Containers&r and &aStamina Vessels&r. "
+				"You start your journey with &c8 hearts&r, but you can increase your life through skill points or by using &cHeart Containers&r and &aStamina Vessels&r. "
 				""
 				"These items can expand your hearts and stamina wheel, respectively. "
 				""
@@ -1217,7 +1237,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["05B32DE12868C6DE"]
+			dependencies: ["21FB9D855FA9D2DF"]
 			description: [
 				"&aCalculators &rare a key to success. With the &dCrafting Calculator&r you can determine how many raw resources a recipe will cost, and how much materials you will need to craft the items in bulk. There is a bit of a &3learning curve&r to the calculator, but it has some helpful tips in it's own UI."
 				""
@@ -1242,8 +1262,8 @@
 				}
 			]
 			title: "Calculators"
-			x: -7.0d
-			y: 16.0d
+			x: 16.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["28B245505F91D21C"]
@@ -1651,8 +1671,8 @@
 				type: "item"
 			}]
 			title: "Building Wands"
-			x: -9.0d
-			y: 20.0d
+			x: -7.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["06267D7C266DE215"]
@@ -2705,17 +2725,6 @@
 			}]
 			tasks: [
 				{
-					id: "22B0A15629EF37D8"
-					item: {
-						Count: 1b
-						id: "chalk:black_chalk"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "6FF668A7502BD876"
 					item: {
 						Count: 1b
@@ -2759,6 +2768,17 @@
 									id: "minecraft:air"
 								}
 							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "367973CDFE4547F1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chalks"
 						}
 					}
 					type: "item"
@@ -2818,36 +2838,6 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"You can simply press a \"V\" and call your horse. Your horse will appear, no matter how far away from it you are."
-				""
-				""
-				"To get a personal horse, you first need to sit on one and press the P key."
-				""
-				"If that horse isn't already owned by another player, that horse becomes your personal horse."
-				""
-				"You can only have one personal horse at a time."
-				""
-				"If your personal horse dies, you can't call it again."
-			]
-			id: "35B77F30098C195A"
-			rewards: [{
-				id: "56D51CC1BF5E556B"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Do you know you can call your horse?"
-			tasks: [{
-				id: "44C57CADDF7AE7F6"
-				item: "minecraft:leather_horse_armor"
-				type: "item"
-			}]
-			title: "Callable Horses"
-			x: 16.0d
-			y: 17.0d
-		}
-		{
 			dependencies: ["7EF948B39FBEA377"]
 			description: [
 				"&6Comforts&r is a mod that adds sleeping bags and hammocks to Minecraft. These items can be used just like beds except they do not set a player's spawn point on use, safely preserving a player's spawn point at their home base."
@@ -2861,9 +2851,14 @@
 				xp: 10
 			}]
 			tasks: [{
-				icon: "comforts:sleeping_bag_white"
-				id: "2A57737D02234E97"
-				item: "comforts:sleeping_bag_light_blue"
+				id: "29D80872F625649F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
 				type: "item"
 			}]
 			title: "Craft a sleeping bag"
@@ -2904,6 +2899,18 @@
 				type: "item"
 			}]
 			x: -3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			id: "42CDB69FF6A817D1"
+			subtitle: "go vroom!"
+			tasks: [{
+				id: "5E16A1B18678318C"
+				item: "moped:copper_moped_item"
+				type: "item"
+			}]
+			x: 15.5d
 			y: 20.0d
 		}
 	]

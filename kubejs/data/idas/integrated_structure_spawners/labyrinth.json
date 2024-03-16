@@ -1,0 +1,16 @@
+{
+  "mobs": [
+    {
+      "name": "born_in_chaos_v1:swarmer",
+      "weight": 15
+    },
+    {
+      "name": "born_in_chaos_v1:dark_vortex",
+      "weight": 5
+    },
+    {
+      "name": "born_in_chaos_v1:dread_hound",
+      "weight": 10
+    }
+  ]
+}

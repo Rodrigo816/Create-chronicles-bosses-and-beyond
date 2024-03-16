@@ -1,0 +1,24 @@
+{
+  "mobs": [
+    {
+      "name": "alexsmobs:centipede_head",
+      "weight": 10
+    },
+    {
+      "name": "born_in_chaos_v1:supreme_bonescaller",
+      "weight": 7
+    },
+    {
+      "name": "born_in_chaos_v1:zombie_bruiser",
+      "weight": 7
+    },
+    {
+      "name": "born_in_chaos_v1:firelight",
+      "weight": 10
+    },
+    {
+      "name": "born_in_chaos_v1:scarlet_persecutor",
+      "weight": 4
+    }
+  ]
+}

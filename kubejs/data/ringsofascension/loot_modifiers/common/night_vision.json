@@ -1,0 +1,25 @@
+{
+  "type": "ringsofascension:rings_modifier",
+  "conditions": [
+    {
+      "condition": "random_chance",
+      "chance": 0.01
+    }
+  ],
+  "loot_tables": [
+    "iceandfire:chests/graveyard",
+    "iceandfire:chests/hydra_cave",
+    "iceandfire:chests/fire_dragon_female_cave",
+    "iceandfire:chests/fire_dragon_male_cave",
+    "iceandfire:chests/ice_dragon_female_cave",
+    "iceandfire:chests/ice_dragon_male_cave",
+    "iceandfire:chests/lightning_dragon_female_cave",
+    "iceandfire:chests/lightning_dragon_male_cave",
+    "iceandfire:chests/cyclops_cave",
+    "twilightforest:chests/well",
+    "twilightforest:chests/labyrinth_dead_end",
+    "twilightforest:chests/basement",
+    "minecraft:chests/abandoned_mineshaft"
+  ],
+  "ring": "ringsofascension:ring_night_vision"
+}

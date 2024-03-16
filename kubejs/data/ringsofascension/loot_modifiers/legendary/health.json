@@ -1,0 +1,23 @@
+{
+  "type": "ringsofascension:rings_modifier",
+  "conditions": [
+    {
+      "condition": "random_chance",
+      "chance": 0.01
+    }
+  ],
+  "loot_tables": [
+    "minecraft:chests/end_city_treasure",
+    "minecraft:chests/bastion_treasure",
+    "minecraft:chests/stronghold_library",
+    "iceandfire:chests/hydra_cave",
+    "iceandfire:chests/fire_dragon_female_cave",
+    "iceandfire:chests/fire_dragon_male_cave",
+    "iceandfire:chests/ice_dragon_female_cave",
+    "iceandfire:chests/ice_dragon_male_cave",
+    "iceandfire:chests/lightning_dragon_female_cave",
+    "iceandfire:chests/lightning_dragon_male_cave",
+    "iceandfire:chests/cyclops_cave"
+  ],
+  "ring": "ringsofascension:ring_health"
+}

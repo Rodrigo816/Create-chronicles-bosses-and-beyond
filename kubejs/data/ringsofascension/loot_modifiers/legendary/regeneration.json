@@ -1,0 +1,17 @@
+{
+  "type": "ringsofascension:rings_modifier",
+  "conditions": [
+    {
+      "condition": "random_chance",
+      "chance": 0.01
+    }
+  ],
+  "loot_tables": [
+    "minecraft:chests/stronghold_corridor",
+    "minecraft:chests/stronghold_library",
+    "iceandfire:chest/mausoleum_chest",
+    "iceandfire:chest/village_scribe",
+    "iceandfire:chest/myrmex_loot_chest"
+  ],
+  "ring": "ringsofascension:ring_regeneration"
+}

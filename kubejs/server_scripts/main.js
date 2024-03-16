@@ -254,6 +254,12 @@ ServerEvents.recipes(event => {
     ---->Chapter 3 Brass
     ==============================
     */
+
+    event.replaceInput(
+      { id: 'toms_storage:storage_terminal' },             
+      MC('glowstone'),
+      CR('precision_mechanism')         
+    )
     event.replaceInput(
         { id: 'create:crafting/kinetics/brass_hand' }, 
         CR('brass_sheet'),               
@@ -912,6 +918,9 @@ ServerEvents.recipes(event => {
     ]).transitionalItem(transitional)
       .loops(10)
       .id(CRDD('integrated_circuit'))
+
+    // readd crushed raw zinc washing
+    event.recipes.createSplashing('9x '+CR('zinc_nugget'),CR('crushed_raw_zinc'))
 
   /*
     ===============================

@@ -293,18 +293,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 1.7d
-			hover: [ ]
-			image: "lootr:item/crown"
-			rotation: 0.0d
-			width: 1.7d
-			x: 12.0d
-			y: -1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "supplementaries:item/item_shelf"
@@ -312,30 +300,6 @@
 			width: 1.0d
 			x: 8.0d
 			y: 1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "born_in_chaos_v1:textures/particle/stunstars_6.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 13.0d
-			y: -1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "born_in_chaos_v1:textures/particle/stunstars_6.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 11.0d
-			y: -1.5d
 		}
 	]
 	order_index: 3
@@ -515,6 +479,12 @@
 					item: "ars_nouveau:source_berry_pie"
 					type: "item"
 				}
+				{
+					count: 5000L
+					id: "786FE7A68C2B2E68"
+					item: "alexscaves:spelunkie"
+					type: "item"
+				}
 			]
 			title: "Ring of hungerless"
 			x: 8.0d
@@ -569,6 +539,13 @@
 					count: 1000L
 					id: "6FBCB1CC3EF82B53"
 					item: "create_dd:strawberry_milkshake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0BF968D502A9703B"
+					item: "twilightforest:aurora_block"
 					type: "item"
 				}
 			]
@@ -743,13 +720,6 @@
 					count: 30000L
 					id: "42B1D1356B6D6B68"
 					item: "create_dd:experience_mass"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 20000L
-					id: "38879E9886BDDE5D"
-					item: "create_dd:integrated_circuit"
 					type: "item"
 				}
 				{
@@ -1229,6 +1199,13 @@
 					item: "minecraft:diamond_block"
 					type: "item"
 				}
+				{
+					consume_items: true
+					count: 60000L
+					id: "74A1078D88B3227C"
+					item: "minecraft:snow_block"
+					type: "item"
+				}
 			]
 			title: "Infinity Range Booster"
 			x: 5.0d
@@ -1273,9 +1250,10 @@
 					type: "item"
 				}
 				{
-					count: 5L
-					id: "2AF15012110096B8"
-					item: "minecraft:netherite_block"
+					consume_items: true
+					count: 50000L
+					id: "45286C88E5E65595"
+					item: "minecraft:netherrack"
 					type: "item"
 				}
 			]
@@ -1665,7 +1643,29 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["21FB9D855FA9D2DF"]
+			dependencies: [
+				"7FD31970F7A3ABC2"
+				"4BA2A3CE6159F396"
+				"318AA1462F299CA6"
+				"1355B7A11A3AF9CD"
+				"4238FA580B3DA9D9"
+				"49F5334F500A9615"
+				"59E3B38C6886F22E"
+				"0FB8722642860DFF"
+				"2146B907572F18E7"
+				"27AE17F884999DA5"
+				"71016DF306B1C628"
+				"4EEDE7245553A616"
+				"1FB255BADD1BE35E"
+				"71501C6B437B6DAE"
+				"4C5F0F864A1801D1"
+				"65EA2300DCD3E129"
+				"25EC727AA4CDE24C"
+				"3DB0C71C531082E7"
+				"33DB2CA9D5E90864"
+				"0B4CF106789A624F"
+			]
+			hide_dependency_lines: true
 			icon: "ringsofascension:ring_flight"
 			id: "35026166839C8E4C"
 			rewards: [{
@@ -1709,8 +1709,8 @@
 				}
 			]
 			title: "&e&l Creative flight"
-			x: 12.0d
-			y: 0.0d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			can_repeat: false

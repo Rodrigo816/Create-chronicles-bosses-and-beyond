@@ -37,7 +37,7 @@ paragliderInTowersOfTheWild = "DEFAULT"
 [vessels]
 	#Starting health points measured in number of hearts.
 	#Range: 1 ~ 512
-	startingHearts = 7
+	startingHearts = 8
 	#Maximum amount of Heart Containers one player can consume.
 	#Do note that the maximum health point is capped at value of 1024 (or 512 hearts) by Minecraft's default
 	#attribute system; without modifying these limits, Heart Containers won't give you extra hearts beyond that.

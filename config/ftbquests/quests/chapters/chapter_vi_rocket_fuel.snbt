@@ -276,7 +276,6 @@
 		{
 			dependencies: ["20218B68C748F8E8"]
 			id: "4DA9294ABB244D04"
-			subtitle: "ALEX CAVES"
 			tasks: [{
 				id: "33056D37E3332D97"
 				item: "tfmg:sulfur_dust"

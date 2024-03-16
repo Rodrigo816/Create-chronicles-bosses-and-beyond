@@ -1,0 +1,17 @@
+{
+  "type": "ringsofascension:rings_modifier",
+  "conditions": [
+    {
+      "condition": "random_chance",
+      "chance": 0.05
+    }
+  ],
+  "loot_tables": [
+    "minecraft:chests/underwater_ruin_big",
+    "minecraft:chests/underwater_run_small",
+    "minecraft:chests/buried_treasure",
+    "twilightforest:chests/aurora_cache",
+    "twilightforest:chests/aurora_room"
+  ],
+  "ring": "ringsofascension:ring_water_walking"
+}

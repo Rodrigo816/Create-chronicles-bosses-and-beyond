@@ -1,0 +1,15 @@
+{
+  "type": "ringsofascension:rings_modifier",
+  "conditions": [
+    {
+      "condition": "random_chance",
+      "chance": 0.03
+    }
+  ],
+  "loot_tables": [
+    "minecraft:chests/jungle_temple",
+    "twilightforest:chests/hedge_maze",
+    "twilightforest:chests/hydra_cave"
+  ],
+  "ring": "ringsofascension:ring_growth"
+}

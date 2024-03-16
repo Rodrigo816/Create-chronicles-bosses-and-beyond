@@ -128,7 +128,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6E3B9051503B938C"]
@@ -409,8 +409,8 @@
 				type: "item"
 			}]
 			title: "Dragon Scales"
-			x: 3.0d
-			y: 9.0d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["20B495B4B8B95636"]
@@ -429,7 +429,6 @@
 					xp: 1000
 				}
 			]
-			shape: "diamond"
 			subtitle: "Better than Netherite"
 			tasks: [
 				{
@@ -478,8 +477,8 @@
 				}
 			]
 			title: "&1Draco Arcanus Armor&r"
-			x: 3.5d
-			y: 7.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["20B495B4B8B95636"]
@@ -515,8 +514,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 9.0d
+			x: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2894F11A73335179"]
@@ -633,7 +632,6 @@
 					xp: 100
 				}
 			]
-			shape: "square"
 			tasks: [
 				{
 					id: "1837D97833619166"
@@ -682,7 +680,7 @@
 			]
 			title: "&5Tyr Armor"
 			x: 7.0d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3799ACDA92F96FD1"]
@@ -726,7 +724,7 @@
 				"Once you have all of the blocks needed, you'll need to build the platform for the forge."
 				""
 				""
-				"{image:kubejs:textures/hephaestus.png width:100 height:100 align:1}"
+				"{image:kubejs:textures/forge.png width:100 height:100 align:1 fit:true}"
 				""
 				"Once built, place a Smithing Table in the center, then sneak+right-click with a piece of Mundabitur Dust."
 			]
@@ -1076,7 +1074,6 @@
 					xp: 1000
 				}
 			]
-			shape: "diamond"
 			subtitle: "Dragon Tools"
 			tasks: [
 				{
@@ -1125,7 +1122,7 @@
 				}
 			]
 			title: "&1Draco Tools"
-			x: 4.5d
+			x: 5.0d
 			y: 8.0d
 		}
 		{
@@ -1146,7 +1143,6 @@
 					xp: 1000
 				}
 			]
-			shape: "diamond"
 			subtitle: "Go Pew Pew"
 			tasks: [
 				{
@@ -1168,7 +1164,7 @@
 			]
 			title: "&1Draco Weapons"
 			x: 4.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["73349B993DE69954"]

@@ -55,6 +55,12 @@ ServerEvents.recipes(event => {
         // Locomotive
         'alexscaves:metal_rebar',
         // Steel
+        CR('blasting/limestone'),
+        CR('haunting/glow_ink_sac'),
+        CRDD('smelting/gabbro'),
+        CR('haunting/blackstone'),
+        CR('filling/calcite'),
+        'forbidden_arcanus:enchanted_golden_apple',
         TFMG('sequenced_assembly/aluminum_ingot'),
 
         // Oil
@@ -73,7 +79,7 @@ ServerEvents.recipes(event => {
        HNN('living_matter/hellish/blaze_rod'),
        HNN('living_matter/hellish/blaze_powder'),
        HNN('living_matter/hellish/gold_ingot'),
-       HNN('living_matter/hellish/gold_ingot'),
+       HNN('living_matter/hellish/nether_wart'),
 
        CRDD('mixing/hot_chocolate'),
        CRDD('mixing/chocolate_milkshake'),
@@ -97,6 +103,9 @@ ServerEvents.recipes(event => {
        CR('conversion_4'),
        CR('conversion_7'),
        CR('conversion_8'),
+       //netherack
+       CRA('mixing/netherrack'),
+       CRSA('netherrack_recipe'),
 
        // AE2
        AE2('transform/fluix_crystals'),
@@ -105,6 +114,12 @@ ServerEvents.recipes(event => {
 
        CR('fil_minecraft_bucket_with_create_dd_hot_chocolate'),
        CR('empty_create_dd_hot_chocolate_bucket_of_create_dd_hot_chocolate'),
+       // remove gunpowder
+       HNN('living_matter/overworldian/gunpowder'),
+       'born_in_chaos_v1:phantom_powder_k',
+       'alexscaves:gunpowder_from_sulfur',
+       'create:splashing/crushed_raw_zinc',
+       'create:filling/gunpowder'
     ].forEach((recipeID) => event.remove({id: recipeID}));
 
     //Remove all recipes an item is related to. For example putting 'minecraft:bonemeal' here would remove the recipe for bone blocks as well.
@@ -125,6 +140,7 @@ ServerEvents.recipes(event => {
         CRDD('blaze_gold'),
         ASTRA('hammer'),
         AE2('condenser'),
+        'blue_skies:alchemy_table',
     ].forEach((ingredientID) => event.remove({input: ingredientID}));
     
     //Remove by item ID
@@ -193,11 +209,16 @@ ServerEvents.recipes(event => {
          ASTRA('ostrum_fluid_pipe'),
          ASTRA('fuel_refinery'),
          AE2('condenser'),
-
+         'moped:tiny_copper_moped_item',
          'aquamirae:divider',
          'aquamirae:terrible_sword',
+         //'minecraft:netherrack'
+         //'minecraft:gunpowder'
     ].forEach((itemID) => event.remove({output: itemID}));
 
-    event.remove({ type: 'ad_astra:fuel_conversion' })
+    event.remove({ type: 'ad_astra:fuel_conversion' });
+    event.remove({output: 'create_dd:stargaze_singularity'});
+    event.remove({input: 'create_dd:stargaze_singularity'});
+    event.remove({output: 'create_dd:fallen_stargaze_singularity'});
 
 })

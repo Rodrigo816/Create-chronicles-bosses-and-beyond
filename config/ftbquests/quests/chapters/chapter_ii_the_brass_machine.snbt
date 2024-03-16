@@ -37,6 +37,11 @@
 				"05836C34CD66A56F"
 			]
 			dependency_requirement: "one_started"
+			description: [
+				"You have Water, you have Sugar, you have Sand, you have Quartz, it’s time to mix it up! "
+				""
+				"Use a &6Mechanical Mixer&r and a &6Basin&r, to mix all the ingredients to get a &bSmall Certus Quartz Bud!&r God that’s a mouthful name."
+			]
 			id: "7D6E6EFCB2DD19A0"
 			rewards: [{
 				count: 5
@@ -54,6 +59,7 @@
 		}
 		{
 			dependencies: ["7D6E6EFCB2DD19A0"]
+			description: ["With the small version, you pour water on it using a &6Spout&r. You have to pour water 3 times on the &bSmall Certus Quartz Bud.&r"]
 			id: "72C989B765AD2A4B"
 			rewards: [{
 				count: 5
@@ -71,6 +77,7 @@
 		}
 		{
 			dependencies: ["72C989B765AD2A4B"]
+			description: ["With the medium version, you pour water on it using a &6Spout.&r You have to pour water 3 times on the &bMedium Certus Quartz.&r"]
 			id: "0101855DF75D6C40"
 			rewards: [{
 				count: 5
@@ -88,6 +95,7 @@
 		}
 		{
 			dependencies: ["0101855DF75D6C40"]
+			description: ["With the large version, you pour water on it using a &6Spout.&r You have to pour water 3 times on the &bLarge Certus Quartz.&r"]
 			id: "5BFA4F90901AC7B2"
 			rewards: [{
 				count: 5
@@ -105,6 +113,7 @@
 		}
 		{
 			dependencies: ["5BFA4F90901AC7B2"]
+			description: ["With the Certus Quartz Cluster, you don’t pour water on it, this time you crush it either using the &6Crushing Wheels&r or the &6Millstone.&r"]
 			id: "49E754928BF234F3"
 			rewards: [{
 				count: 5
@@ -126,6 +135,7 @@
 				"2EBE018FE570EF16"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Pour Destabilized Redstone with a Spout onto a Certus Quartz Crystal 3 times to turn it into a Rose Quartz."]
 			id: "340B69A08A8A7CF3"
 			rewards: [{
 				count: 5
@@ -147,6 +157,7 @@
 				"64A476C01D1C4742"
 			]
 			dependency_requirement: "one_completed"
+			description: ["With the Redstone Dust and Nether Wart you’ve collected. Put them inside a basing on top of a Blaze Burner and mix them up with a Mechanical Mixer."]
 			id: "2EBE018FE570EF16"
 			rewards: [{
 				count: 5
@@ -164,6 +175,11 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"You can find &4redstone&r by mining deep in the earth."
+				""
+				"There are recipes to automate the process of getting &4Redstone Dust&r. By washing Crushed Raw Iron."
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "64A476C01D1C4742"
@@ -183,6 +199,15 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"Here’s a trivia for you for a start!"
+				""
+				"Sugar can save your life! When poured in a wound, the sugar granules will soak up the moisture that allows the bacteria to thrive. "
+				""
+				"Without the bacteria, the wound heals more. In some parts of the world, this procedure can save the lives of people who cannot afford antibiotics."
+				""
+				"Now for game facts, you can get&6 sugar&r by cultivating&a Sugar Canes&r or some honey from the bees."
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "1C5DFA2AD6DEE1B2"
@@ -203,6 +228,15 @@
 		{
 			dependencies: ["646C119DC7AC80AB"]
 			dependency_requirement: "one_started"
+			description: [
+				"The famous &bWater Bucket!&r It can save your life! "
+				""
+				"Always carry a &bWater bucket&r with you so when you jump from a high place, if you time it well, you can place the Water to dampen your fall. "
+				""
+				"That’s your Pro tip for the day!"
+				""
+				"&aNote:&r &oYou probably already know how to get a Water Bucket by now.&r"
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "05836C34CD66A56F"
@@ -222,6 +256,7 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
+			description: ["You probably already know how to get some Sand by now."]
 			hide: true
 			hide_dependency_lines: true
 			id: "671ABB3F4DDF8A89"
@@ -245,6 +280,7 @@
 				"5924E1675FE1A9D0"
 				"588F642CD467FC64"
 			]
+			description: ["Time to assemble! You have two ways to do this, you can either use a Deployer holding a &6Polished Quartz Rose&r and place it into an Iron Sheet or you can use Mechanical Crafts for something more fancy looking."]
 			id: "1BAF2EB40FE08B25"
 			rewards: [{
 				count: 5
@@ -263,6 +299,11 @@
 		{
 			dependencies: ["2BBB5E496BBD52C5"]
 			dependency_requirement: "one_started"
+			description: [
+				"With the Soul Sand in hand, you can now wash it’s sins by using a&6 Encased Fan&r and Water blowing against the Soul Sand and you’ll get&c Nether Quartz&r in return as well a chance of getting a Gold Nugget."
+				""
+				"You can also mine &cNether Quartz&r in the Nether."
+			]
 			id: "201291E8B8D4FE73"
 			optional: true
 			rewards: [{
@@ -281,6 +322,14 @@
 		}
 		{
 			dependencies: ["340B69A08A8A7CF3"]
+			description: [
+				"Time to polish the &cRose Quartz.&r To do so you have to use&6 Sand Paper&r, you can either do it by hand or with a Deployer in an automated way. "
+				""
+				"There are various types of &6Sand Paper&r with different durability."
+				""
+				""
+				"&6&lTip:&r&r &oYou can use a Seething Sail as a permanent solution for your polishing automations.&r"
+			]
 			id: "5924E1675FE1A9D0"
 			rewards: [{
 				count: 5
@@ -302,6 +351,7 @@
 				"14ADA913C53709AE"
 			]
 			dependency_requirement: "one_completed"
+			description: ["To get Brass Ingots you have to mix both&6 Zinc Ingots&r and &6Copper Ingots&r. To do so you need a Basin on top of a Blaze Burner and a Mechanical Mixer."]
 			id: "5E59C8255183FF3E"
 			rewards: [{
 				count: 5
@@ -319,6 +369,7 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
+			description: ["You probably already know how to get some&d copper ingots&r by now."]
 			hide: true
 			hide_dependency_lines: true
 			id: "555CE8F6001EF8E7"
@@ -338,6 +389,13 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"You can get&9 Raw Zinc&r from mining and to turn it into an ingot you have to smelter it. "
+				""
+				"You can use an Encased Fan and Lava for an automated process or use a Seething Sail with an Encased Fan."
+				""
+				"Please check &nRenewable Ores chapter&r for information on how to get a renewable source of &9Raw Zinc&r."
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "14ADA913C53709AE"
@@ -357,6 +415,7 @@
 		}
 		{
 			dependencies: ["5E59C8255183FF3E"]
+			description: ["Grab your Brass Ingots, place it under a Mechanical Press and start flat lining them to make some Brass Sheets."]
 			id: "701883FE5E3CF381"
 			rewards: [{
 				count: 5
@@ -374,6 +433,7 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
+			description: ["The &cNether Wart&r can be found in the Nether or you can farm like you farm wheat. Instead of dirt you need to plant the &cNether Wart&r in &6Soul Sand&r and the &rNether Wart&r doesn’t need light to grow."]
 			hide: true
 			hide_dependency_lines: true
 			id: "5167DEF3903D6CFD"
@@ -398,6 +458,11 @@
 				"7A50893172D43878"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"With the Soulless Sand you’ve just made, grab yourself a Soul from the shelf and stick it up the Soulless Sand! "
+				""
+				"To create&6 Soul Sand&r you must use a &cDeployer&r to put a &3Soul Bead&r or&3 Ethereal Spirit&r  into the Soulless Sand, turning it into Soul Sand."
+			]
 			id: "2BBB5E496BBD52C5"
 			optional: true
 			rewards: [{
@@ -416,6 +481,11 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"The Soul Bead drops from Wraiths. The Wraiths can be found wandering around in the Nether in the Soul Sand Valleys."
+				""
+				"&l&2Note:&r&r &oIn the next chapter you’ll learn how to automate monster drops.&r"
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "70FE285006F6632F"
@@ -437,6 +507,11 @@
 		{
 			dependencies: ["671ABB3F4DDF8A89"]
 			dependency_requirement: "one_completed"
+			description: [
+				"To obtain the Soulless Sand you have to curse the Sand, not verbally though, you use a &bhaunted flame&r. "
+				""
+				"You can use a Soul Campfire or set a Soul Sand on fire with a Flint and Stone or use a Haunting Sail, with an Encased Fan blowing air against a Sand block which will turn it into a Soulless Sand."
+			]
 			id: "61B5DE7788ED3D6D"
 			optional: true
 			rewards: [{
@@ -445,6 +520,7 @@
 				item: "create:experience_nugget"
 				type: "item"
 			}]
+			subtitle: "Sand without a Soul, which begs the question, does Sand contain a Soul? Spoiler alert! It does, in the Nether. "
 			tasks: [{
 				id: "3385925890E92473"
 				item: "forbidden_arcanus:soulless_sand"
@@ -455,6 +531,11 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"The Ethereal Spirit drops from a variety of monsters that lurk during the night that spawn randomly around the world or structures. "
+				""
+				"&l&2Note:&r&r &oIn the next chapter you’ll learn how to automate monster drops.&r"
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "7A50893172D43878"
@@ -480,14 +561,49 @@
 				"1BAF2EB40FE08B25"
 			]
 			dependency_requirement: "one_completed"
-			description: [""]
+			description: [
+				"The heart of all &6Brass Machines!&r "
+				""
+				"You can craft the &aPrecision Mechanism&r by using Deployers, a Mechanical Press and a Valve Mechanism. "
+				""
+				"The first Deployer assembles Brass Sheets into the Valve Mechanism, then the second Deployer assembles the Electron Tube, then the last Deployer assembles the Cog Wheel and finally the Mechanical Press does the final touch and you have made the &6Precision Mechanism!&r"
+				""
+				"&aNote:&r &oIt has a 85% success rate and a 15% chance of giving a random item."
+				"&r"
+			]
 			id: "6F2EA0844769A10A"
-			rewards: [{
-				count: 5
-				id: "4B38C1A7816655FA"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 20
+					id: "4B38C1A7816655FA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "45AA5A07B71C35F0"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "4C82B78D51BE4A73"
+					item: "quark:soul_bead"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "5944A534E69E28B4"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "458C7234B5814A99"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -500,6 +616,11 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"Remember when you flattened the Copper Ingots? Well do the same for the Iron."
+				""
+				"Use a &6Mechanical Press&r to flatten the Iron Ingots into Iron Sheets."
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "588F642CD467FC64"
@@ -519,15 +640,53 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			description: [""]
+			description: [
+				"With all your knowledge and hard work combined, you’ve achieved the ultimate goal of&c Chapter 3!&r The creation of the &aPrecision Machine!&r"
+				""
+				"This will evolve your automation farms to a whole new level of automation and precision! You should pat yourself in the back, you deserve it. "
+				""
+				"Congratulations on getting this far,you’ve mastered the basics of Create, you know how to use the JEI  function so from now on &9you’re on your own! &r"
+				""
+				"The challenges that await you on &lChapter 4 and beyond are harder&r than what you had to do so far but don’t lose hope! I know you can master all chapters, believe in me (the writer) as I believe in you! "
+				""
+				"I know you’ll miss me, but don’t worry! I’ll still be here to help you with certain mechanics in the next chapters but mostly you’re on your own. Good luck!"
+				""
+				"&6&lTip:&r&r &oIf you feel like you’re running out of certain materials, make sure to check the Chapter Renewable Ores.&r"
+			]
 			hide: true
 			id: "637D976589937434"
-			rewards: [{
-				count: 5
-				id: "016A23C18D36A9C8"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 40
+					id: "016A23C18D36A9C8"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0938031FB8C4E56E"
+					item: "kubejs:brass_machine"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "52DFCA0C258F50ED"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "1C65FDE6CB31F343"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "5E0AFFADD4CFB831"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -540,14 +699,23 @@
 		}
 		{
 			dependencies: ["637D976589937434"]
+			description: ["Do you end up with a gazillion chests and not know which chest you put the item that you need for your next build? Then you’ll love this Tom's Simple Storage, as it makes storing and finding your items much easier!"]
 			hide: true
 			id: "738E4BA03DA3D655"
-			rewards: [{
-				count: 5
-				id: "68C96B15A8ECB312"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "68C96B15A8ECB312"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2617DA918A6075F4"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "44E8C65FC73DF7B5"
@@ -565,11 +733,13 @@
 					type: "item"
 				}
 			]
+			title: "&6Tom's Simple Storage"
 			x: -1.0d
 			y: 23.0d
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
+			description: ["You know how to craft one… Fine… For consistency's sake… Grab a Shaft, grab a Wood Plank and either use a Deployer to place the Wood Plank on a Shaft, or a Mechanical Mixer with a Basin to mix both or use the trusty Crafting Table to make the Cog Wheel. "]
 			hide: true
 			hide_dependency_lines: true
 			id: "7F75BF2B511A2B14"
@@ -590,9 +760,10 @@
 		{
 			dependencies: ["6F2EA0844769A10A"]
 			description: [
-				"&cBuilding Gadgets&r mod allow us to create some cool gadgets to help us building."
+				"&cBuilding Gadgets&r mod allows you to create some cool gadgets to help you build big bases, or for clearing out large areas using the &dDestruction Gadget.&r"
 				""
-				"These are great tools to help you build bigget bases, or for clearing out space using the destruction Gadget"
+				""
+				"&6&lNote:&r&r &oTo charge this Gadget you must use a Tesla Coil and have eletricity. &r"
 			]
 			hide: true
 			id: "62E69747ECE312C3"

@@ -1,6 +1,6 @@
 {
 	hide_tooltip: true
-	icon: "create:brown_toolbox"
+	icon: "create:white_toolbox"
 	id: "1214681AE78C0664"
 	loot_size: 2
 	order_index: 0
@@ -14,7 +14,7 @@
 		{ item: "create:gearshift" }
 		{ item: "create:encased_chain_drive" }
 		{ item: "create:adjustable_chain_gearshift" }
-		{ count: 6, item: "create:belt_connector" }
+		{ count: 12, item: "create:belt_connector" }
 		{ count: 2, item: "create:water_wheel" }
 		{ item: "create:large_water_wheel" }
 		{ item: "create:encased_fan" }
