@@ -699,7 +699,20 @@
 		}
 		{
 			dependencies: ["637D976589937434"]
-			description: ["Do you end up with a gazillion chests and not know which chest you put the item that you need for your next build? Then you’ll love this Tom's Simple Storage, as it makes storing and finding your items much easier!"]
+			description: [
+				"Do you end up with a gazillion chests and not know which chest you put the item that you need for your next build? Then you’ll love this &6Tom's Simple Storage&r, as it makes storing and finding your items much easier!"
+				""
+				"&nHow it works:&r"
+				""
+				"&2Step 1:&r  First, you place down a block called the Inventory Connector. This is like a better brain than yours. It knows where everything is kept. Then you either place a Storage Terminal or a Crafting Terminal on the Inventory Connector to access the chests contents. Make sure to use Shift when doing so."
+				""
+				"&2Step 2:&r You can place a chest on either side of the Inventory Connector and it will read its contents. You can even stack the chests on top of each other and the Inventory Connector will still read their contents as long as one chest is touching the Inventory Connector."
+				""
+				"&2Step 3:&r If you have Chests that are in a further location, you can use an item called Inventory Cable Connector against the chest, make sure to use Shift to do so and then you use another item called Inventory Cable to make a connection from the Cable Connector to the Inventory Connector to read the chests contents even though it’s further away."
+				"Note: It also works with Item Vaults"
+				""
+				"That’s just the basics on how this mod works. It has many more features for you to discover!"
+			]
 			hide: true
 			id: "738E4BA03DA3D655"
 			rewards: [
