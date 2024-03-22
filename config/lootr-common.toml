@@ -86,4 +86,6 @@ check_world_border = false
 refresh_structures = []
 #whether or not the Elytra item frame should be converted into a standard loot chest with a guaranteed elytra
 convert_elytras = true
+#disables styling of breaking, decaying and refreshing messages sent to players
+disable_message_styles = false
 

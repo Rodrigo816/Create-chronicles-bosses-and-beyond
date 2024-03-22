@@ -92,7 +92,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "544C8E47301FBF06"
 				item: {
@@ -117,7 +116,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "62C60ACAB6FAC733"
 				item: {
@@ -149,7 +147,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "615CA90709AF9EE2"
 				item: {
@@ -174,7 +171,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "2A81AAFE840CE232"
 				item: {
@@ -295,7 +291,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "486EF4C783BE7F96"
 				item: {
@@ -320,7 +315,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "18B20B0FEE835CA8"
 				item: {
@@ -345,7 +339,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "21BCAC1F8B3099B7"
 				item: {
@@ -370,7 +363,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "783D2C2A78F4EDBD"
 				item: {
@@ -395,7 +387,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "0942D01457DACB76"
 				item: {
@@ -420,7 +411,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "2357EC02C1AAD0A9"
 				item: {
@@ -445,7 +435,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "6D27F59148737DEE"
 				item: {
@@ -488,7 +477,6 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			id: "0D05510497DF52AB"
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "3B75A36B924354CC"
 				item: {
@@ -513,7 +501,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "7B71BF8CE5F0A295"
 				item: {
@@ -538,7 +525,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "07C0CB7E2D17495E"
 				item: {
@@ -563,7 +549,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "6960BCBD0925D522"
 				item: {
@@ -689,7 +674,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "1B9718F5C45C4436"
 				item: {
@@ -714,7 +698,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "1D25B90CB61CBC58"
 				item: {
@@ -739,7 +722,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "1857617ECD147F54"
 				item: {
@@ -764,7 +746,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "0CC32E25243D7C93"
 				item: {
@@ -789,7 +770,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "2CCAE40045618CB3"
 				item: {
@@ -814,7 +794,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "1FF119266D0CF297"
 				item: {
@@ -839,7 +818,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "7F51BF61124D9AEA"
 				item: {
@@ -912,7 +890,6 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "v"
 			tasks: [{
 				id: "13DB3044B0654389"
 				item: {
