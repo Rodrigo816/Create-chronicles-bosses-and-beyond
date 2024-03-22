@@ -19,9 +19,9 @@ LootJS.modifiers((event) => {
     .addLoot(Item.of("waystones:warp_dust",1))
  
     // SIMPLE SWORDS STUFF
-  const normalChance =0.02
-  const highChance =0.1
-  const mdChance =0.04
+    const normalChance =0.02
+    const highChance =0.1
+    const mdChance =0.04
   event
     .addEntityLootModifier("twilightforest:snow_queen")
     .randomChance(normalChance)
@@ -36,38 +36,38 @@ LootJS.modifiers((event) => {
     .addLoot("simplyswords:twisted_blade");   
   // ---
   event
-    .addEntityLootModifier("cataclysm:the_leviathan")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:icewhisper")
-  event
-    .addEntityLootModifier("cataclysm:the_leviathan")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:frostfall");
-  event
-    .addEntityLootModifier("cataclysm:the_leviathan")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:whisperwind");   
-  event
-    .addEntityLootModifier("cataclysm:the_leviathan")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:watching_warglaive"); 
-  event
-    .addEntityLootModifier("cataclysm:the_leviathan")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:twisted_blade");   
-  // ---
-  event
-    .addEntityLootModifier("twilightforest:hydra")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:ember_blade");
-  event
-    .addEntityLootModifier("twilightforest:hydra")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:emberlash");
-  event
-    .addEntityLootModifier("twilightforest:hydra")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:emberblade");  
+  .addEntityLootModifier("cataclysm:the_leviathan")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:icewhisper")
+event
+  .addEntityLootModifier("cataclysm:the_leviathan")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:frostfall");
+event
+  .addEntityLootModifier("cataclysm:the_leviathan")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:whisperwind");   
+event
+  .addEntityLootModifier("cataclysm:the_leviathan")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:watching_warglaive"); 
+event
+  .addEntityLootModifier("cataclysm:the_leviathan")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:twisted_blade");   
+// ---
+event
+  .addEntityLootModifier("twilightforest:hydra")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:ember_blade");
+event
+  .addEntityLootModifier("twilightforest:hydra")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:emberlash");
+event
+  .addEntityLootModifier("twilightforest:hydra")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:emberblade");  
   // ---
   event
     .addEntityLootModifier("twilightforest:naga")
@@ -83,25 +83,25 @@ LootJS.modifiers((event) => {
     .addLoot("simplyswords:watching_warglaive");   
   // ---
   event
-    .addEntityLootModifier("minecraft:dragon")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:stars_edge")
-  event
-    .addEntityLootModifier("minecraft:dragon")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:tempest");
-  event
-    .addEntityLootModifier("minecraft:dragon")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:soulkeeper");
-  event
-    .addEntityLootModifier("minecraft:dragon")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:waxweaver")  
-  event
-    .addEntityLootModifier("minecraft:dragon")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:whisperwind");   
+  .addEntityLootModifier("minecraft:ender_dragon")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:stars_edge");
+event
+  .addEntityLootModifier("minecraft:ender_dragon")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:tempest");
+event
+  .addEntityLootModifier("minecraft:ender_dragon")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:soulkeeper");
+event
+  .addEntityLootModifier("minecraft:ender_dragon")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:waxweaver");
+event
+  .addEntityLootModifier("minecraft:ender_dragon")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:whisperwind");   
   // ---
   event
     .addEntityLootModifier("aquamirae:captain_cornelia")
@@ -140,6 +140,7 @@ LootJS.modifiers((event) => {
 
   // ---
 
+
   event
     .addEntityLootModifier("alexscaves:hullbreaker")
     .randomChance(normalChance)
@@ -163,23 +164,23 @@ LootJS.modifiers((event) => {
     .addLoot("simplyswords:watching_warglaive");    
   // --
   event
-    .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead")
+    .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead_head")
     .randomChance(normalChance)
     .addLoot("simplyswords:hiveheart");
   event
-    .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead")
+    .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead_head")
     .randomChance(normalChance)
     .addLoot("simplyswords:brimstone_claymore");
   event
-    .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead")
+    .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead_head")
     .randomChance(normalChance)
     .addLoot("simplyswords:flamewind") 
   event
-    .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead")
+    .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead_head")
     .randomChance(normalChance)
     .addLoot("simplyswords:flamewind")  
   event
-    .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead")
+    .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead_head")
     .randomChance(normalChance)
     .addLoot("simplyswords:mjolnir");   
   // ---
@@ -287,13 +288,13 @@ LootJS.modifiers((event) => {
     .randomChance(highChance)
     .addLoot("simplyswords:flamewind")  
   event
-    .addEntityLootModifier("bosses_of_mass_destruction:ignis")
+    .addEntityLootModifier("cataclysm:ignis")
     .randomChance(highChance)
     .addLoot("simplyswords:hiveheart");
   event
-    .addEntityLootModifier("bosses_of_mass_destruction:ignis")
+    .addEntityLootModifier("cataclysm:ignis")
     .randomChance(highChance)
-    .addLoot("simplyswords:hearthflame");  
+    .addLoot("simplyswords:hearthflame");
     
   //---
 
@@ -306,7 +307,6 @@ LootJS.modifiers((event) => {
     .randomChance(normalChance)
     .addLoot("simplyswords:stormbringer");  
   //---
-
   event
     .addEntityLootModifier("mutantmonsters:mutant_enderman")
     .randomChance(normalChance)
@@ -363,19 +363,19 @@ LootJS.modifiers((event) => {
     .addLoot("simplyswords:thunderbrand");    
   //---
   event
-    .addEntityLootModifier("bosses_of_mass_destruction:night_licht")
+    .addEntityLootModifier("bosses_of_mass_destruction:lich")
     .randomChance(normalChance)
     .addLoot("simplyswords:soulrender");
   event
-    .addEntityLootModifier("bosses_of_mass_destruction:night_licht")
+    .addEntityLootModifier("bosses_of_mass_destruction:lich")
     .randomChance(normalChance)
     .addLoot("simplyswords:wickpiercer");       
   event
-    .addEntityLootModifier("bosses_of_mass_destruction:night_licht")
+    .addEntityLootModifier("bosses_of_mass_destruction:lich")
     .randomChance(normalChance)
     .addLoot("simplyswords:stars_edge");  
   event
-    .addEntityLootModifier("bosses_of_mass_destruction:night_licht")
+    .addEntityLootModifier("bosses_of_mass_destruction:lich")
     .randomChance(normalChance)
     .addLoot("simplyswords:thunderbrand"); 
   
@@ -400,7 +400,6 @@ LootJS.modifiers((event) => {
     .addEntityLootModifier("bosses_of_mass_destruction:obsidilith")
     .randomChance(mdChance)
     .addLoot("simplyswords:thunderbrand"); 
-     
   //---
   event
     .addEntityLootModifier("bosses_of_mass_destruction:gauntlet")
@@ -421,79 +420,79 @@ LootJS.modifiers((event) => {
    
 
   //---     
-    event
-    .addEntityLootModifier("alexscaves:luxtructosaurus")
-    .randomChance(mdChance)
-    .addLoot("simplyswords:hearthflame");  
-  
   event
-    .addEntityLootModifier("alexscaves:luxtructosaurus")
-    .randomChance(mdChance)
-    .addLoot("simplyswords:emberblade");  
-  event
-    .addEntityLootModifier("alexscaves:luxtructosaurus")
-    .randomChance(mdChance)
-    .addLoot("simplyswords:brimstone_claymore");
-  event
-    .addEntityLootModifier("alexscaves:luxtructosaurus")
-    .randomChance(mdChance)
-    .addLoot("simplyswords:hiveheart");
+  .addEntityLootModifier("alexscaves:luxtructosaurus")
+  .randomChance(mdChance)
+  .addLoot("simplyswords:hearthflame");  
+
+event
+  .addEntityLootModifier("alexscaves:luxtructosaurus")
+  .randomChance(mdChance)
+  .addLoot("simplyswords:emberblade");  
+event
+  .addEntityLootModifier("alexscaves:luxtructosaurus")
+  .randomChance(mdChance)
+  .addLoot("simplyswords:brimstone_claymore");
+event
+  .addEntityLootModifier("alexscaves:luxtructosaurus")
+  .randomChance(mdChance)
+  .addLoot("simplyswords:hiveheart");
 
 
-  //---   
-  event
-    .addEntityLootModifier("minecraft:wither")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:toxic_longsword"); 
-  event
-    .addEntityLootModifier("minecraft:wither")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:storms_edge");  
-  event
-    .addEntityLootModifier("minecraft:wither")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:waxweaver")   
-  event
-    .addEntityLootModifier("minecraft:wither")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:soulrender")
-  //---  
-  event
-    .addEntityLootModifier("ars_nouveau:wilden_chimera")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:storms_edge");  
-  event
-    .addEntityLootModifier("ars_nouveau:wilden_chimera")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:stormbringer");     
-  event
-    .addEntityLootModifier("ars_nouveau:wilden_chimera")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:tempest");  
-  event
-    .addEntityLootModifier("ars_nouveau:wilden_chimera")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:arcanethyst")
+//---   
+event
+  .addEntityLootModifier("minecraft:wither")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:toxic_longsword"); 
+event
+  .addEntityLootModifier("minecraft:wither")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:storms_edge");  
+event
+  .addEntityLootModifier("minecraft:wither")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:waxweaver")   
+event
+  .addEntityLootModifier("minecraft:wither")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:soulrender")
+//---  
+event
+  .addEntityLootModifier("ars_nouveau:wilden_boss")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:storms_edge");  
+event
+  .addEntityLootModifier("ars_nouveau:wilden_boss")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:stormbringer");     
+event
+  .addEntityLootModifier("ars_nouveau:wilden_boss")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:tempest");  
+event
+  .addEntityLootModifier("ars_nouveau:wilden_boss")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:arcanethyst")
 
-  //---   
-  event
-    .addEntityLootModifier("minecraft:warden")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:watcher_claymore");  
-  event
-    .addEntityLootModifier("minecraft:warden")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:stars_edge");  
-  event
-    .addEntityLootModifier("minecraft:warden")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:waxweaver")     
-  event
-    .addEntityLootModifier("minecraft:warden")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:hiveheart");
-  event
-    .addEntityLootModifier("minecraft:warden")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:soulrender")
+//---   
+event
+  .addEntityLootModifier("minecraft:warden")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:watcher_claymore");  
+event
+  .addEntityLootModifier("minecraft:warden")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:stars_edge");  
+event
+  .addEntityLootModifier("minecraft:warden")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:waxweaver")     
+event
+  .addEntityLootModifier("minecraft:warden")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:hiveheart");
+event
+  .addEntityLootModifier("minecraft:warden")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:soulrender")
 });

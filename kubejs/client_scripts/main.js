@@ -49,6 +49,9 @@ ItemEvents.tooltip(event => {
   event.add('blue_skies:alchemy_table',[
     Text.of('§4This item cannot be obtained by any means.').red()
   ])
+  event.add('forbidden_arcanus:soul',[
+    Text.of('You can use a Soul Extrator on a deployer to automate this.').yellow()
+  ])
 })
 
 JEIEvents.information(e => {

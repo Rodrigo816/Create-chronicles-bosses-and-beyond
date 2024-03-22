@@ -76,7 +76,6 @@ ServerEvents.recipes(event => {
     Item.of('enlightened_end:bismuth_nugget').withChance(0.70),
     Item.of('enlightened_end:adamantite_nugget').withChance(0.50),
     Item.of('enlightened_end:bismuth_nugget').withChance(0.50),
-    Item.of('cataclysm:ignitium_ingot').withChance(0.0002),
   ], CR('scoria'))
 /*
 ===============================
@@ -564,10 +563,9 @@ ServerEvents.recipes(event => {
     event.recipes.createSequencedAssembly([
 		KJ('mystic_coal_block'),
 	], MC('coal_block'), [
-		event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
-		event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
+		event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:arcane_crystal_dust']),
+		event.recipes.createDeploying(transitional, [transitional, MC('prismarine_crystals')]),
     event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
-		event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:purifying_soap'])
 	]).transitionalItem(transitional)
 		.loops(1)
     event.recipes.createCrushing('9x '+KJ('dormant_dust_mystic_coal'), KJ('mystic_coal_block')).processingTime(500)
@@ -630,11 +628,11 @@ ServerEvents.recipes(event => {
         event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
         event.recipes.createPressing(transitional, transitional)
 	]).transitionalItem(transitional)
-		.loops(6)
+		.loops(1)
 		.id(KJ('rod_mystic_coal'))
 
 
-     // Infernal Mechanism
+    // Infernal Mechanism
    transitional = CRDD('incomplete_infernal_mechanism')
    event.recipes.createSequencedAssembly([
      Item.of(CRDD('infernal_mechanism')).withChance(100.0),
@@ -648,7 +646,7 @@ ServerEvents.recipes(event => {
      event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
      event.recipes.createPressing(transitional, transitional)
    ]).transitionalItem(transitional)
-     .loops(5)
+     .loops(2)
      .id(CRDD('infernal_mechanism'))
 
 

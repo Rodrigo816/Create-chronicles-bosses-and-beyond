@@ -59,8 +59,9 @@
 		{
 			dependencies: [
 				"645E8388213F1284"
-				"7EC15712EC498088"
 				"020E3DF3DAA4292F"
+				"25F677F8D587C451"
+				"0179452F07812322"
 			]
 			dependency_requirement: "one_completed"
 			id: "5690FCED46349207"
@@ -202,24 +203,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"0179452F07812322"
-				"25F677F8D587C451"
-				"39AEC26244AC111B"
-				"08DACD94A59D5FDE"
-				"6B73EB529E646EF8"
-			]
-			dependency_requirement: "one_completed"
-			id: "7EC15712EC498088"
-			tasks: [{
-				id: "038A366EFB89A0A1"
-				item: "forbidden_arcanus:purifying_soap"
-				type: "item"
-			}]
-			x: 11.5d
-			y: -5.5d
-		}
-		{
 			dependencies: ["312D4E8EBE475538"]
 			id: "4706B7F09A2BFC25"
 			subtitle: "nipa farm"
@@ -228,8 +211,8 @@
 				item: "forbidden_arcanus:arcane_crystal_dust_speck"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -7.5d
+			x: 13.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4706B7F09A2BFC25"]
@@ -239,8 +222,8 @@
 				item: "forbidden_arcanus:arcane_crystal_dust"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -7.5d
+			x: 11.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
@@ -252,33 +235,7 @@
 				item: "forbidden_arcanus:nipa"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
-			id: "08DACD94A59D5FDE"
-			tasks: [{
-				id: "73219A8C1148BF84"
-				item: "forbidden_arcanus:wax"
-				type: "item"
-			}]
-			x: 13.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
-			id: "39AEC26244AC111B"
-			tasks: [{
-				id: "148DA1DD32850B83"
-				item: "minecraft:slime_ball"
-				type: "item"
-			}]
-			x: 13.5d
+			x: 15.5d
 			y: -5.5d
 		}
 		{
@@ -295,19 +252,6 @@
 			}]
 			x: 11.5d
 			y: -7.0d
-		}
-		{
-			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
-			id: "6B73EB529E646EF8"
-			tasks: [{
-				id: "3552D6ABEA36EF94"
-				item: "minecraft:red_tulip"
-				type: "item"
-			}]
-			x: 13.5d
-			y: -4.5d
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
