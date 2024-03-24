@@ -917,6 +917,17 @@ ServerEvents.recipes(event => {
       .loops(10)
       .id(CRDD('integrated_circuit'))
 
+
+    transitional = 'create_connected:incomplete_control_chip'
+    event.recipes.createSequencedAssembly([
+      Item.of('create_connected:control_chip').withChance(100.0)
+    ], CR('golden_sheet'), [
+      event.recipes.createDeploying(transitional, [transitional, CR('brass_nugget')]),
+      event.recipes.createDeploying(transitional, [transitional, CRA('electrum_nugget')]),
+    ]).transitionalItem(transitional)
+      .loops(64)
+      .id('create_connected:control_chip')
+
     // readd crushed raw zinc washing
     event.recipes.createSplashing('9x '+CR('zinc_nugget'),CR('crushed_raw_zinc'))
 

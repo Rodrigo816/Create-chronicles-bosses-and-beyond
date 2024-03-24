@@ -1,5 +1,5 @@
 {
-	"ironsEnder%small": {
+	"fill": {
 		"title": "§a+1% Ender Spell Power",
 		"frame": {
 			"type": "texture",
@@ -30,9 +30,186 @@
 			"icon": "tdqag3ctr980szjh"
 		}
 	},
+	"root_path_misc": {
+		"title": "§d[1P] Miscellaneous",
+		"description": "§a+0.25 Luck \n§a+5% Movement Speed\n§a+10% Roll Recharge Rate",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/iron_skill_frame_available.png",
+				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
+				"locked": "kubejs:textures/iron_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "quark:warped_ladder"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "j4pxkk4yf26cli06"
+		}
+	},
+	"root_path_melee": {
+		"title": "§d[1P] Combat Focus",
+		"description": "§a+1 Heart",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/iron_skill_frame_available.png",
+				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
+				"locked": "kubejs:textures/iron_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aether:iron_gloves"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "unxrli8o7yee40p3"
+		}
+	},
+	"root_path_magic": {
+		"title": "§d[1P] Irons and Spellbooks Enchancements",
+		"description": "§a+20 Mana \n§a+5% Spell Power",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/iron_skill_frame_available.png",
+				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
+				"locked": "kubejs:textures/iron_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:iron_spell_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"ironsEnder%small": {
+		"title": "§d[1P] §a+1% Ender Spell Power",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/iron_skill_frame_available.png",
+				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
+				"locked": "kubejs:textures/iron_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ender_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "pvmj56hjftsc4f35"
+		}
+	},
+	"ironsEnder%md": {
+		"title": "§d[4P] §a+4% Ender Spell Power",
+		"cost": 4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ender_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "pvmj56hjftsc4f35"
+		}
+	},
 	"ironsEnder%F": {
-		"title": "§e§lMaster of Ender",
-		"cost": 5,
+		"title": "§d[10P] §e§lMaster of Ender",
+		"cost": 10,
 		"description": "§a+25% Ender Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -45,7 +222,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:ender_upgrade_orb"
+				"item": "irons_spellbooks:ender_rune"
 			}
 		},
 		"rewards": [
@@ -92,11 +269,11 @@
 		],
 		"editor-color": "#d3622c",
 		"metadata": {
-			"icon": "tdqag3ctr980szjh"
+			"icon": "c12752nmygqjabz2"
 		}
 	},
-	"ironsBlood%small": {
-		"title": "§a+1% Blood Spell Power",
+	"ironsEnvocation%small": {
+		"title": "§d[1P] §a+1% Evocation Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -108,7 +285,135 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:blood_upgrade_orb"
+				"item": "irons_spellbooks:evocation_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "pvmj56hjftsc4f35"
+		}
+	},
+	"ironsEvocation%md": {
+		"title": "§d[4P] §a+4% Evocation Spell Power",
+		"cost": 4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:evocation_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "pvmj56hjftsc4f35"
+		}
+	},
+	"ironsEvocation%F": {
+		"title": "§d[10P] §e§lMaster of Evocation",
+		"cost": 10,
+		"description": "§a+25% Evocation Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/diamond_skill_frame_available.png",
+				"unlocked": "kubejs:textures/diamond_skill_frame_active.png",
+				"locked": "kubejs:textures/diamond_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:evocation_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "c12752nmygqjabz2"
+		}
+	},
+	"ironsBlood%small": {
+		"title": "§d[1P] §a+1% Blood Spell Power",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/iron_skill_frame_available.png",
+				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
+				"locked": "kubejs:textures/iron_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:blood_rune"
 			}
 		},
 		"rewards": [
@@ -126,9 +431,41 @@
 			"icon": "3mb8cdxzde3bquoo"
 		}
 	},
+	"ironsBlood%md": {
+		"title": "§d[4P] §a+4% Blood Spell Power",
+		"cost": 4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/nomal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:blood_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "3mb8cdxzde3bquoo"
+		}
+	},
 	"ironsBlood%F": {
-		"title": "§e§lMaster of Blood",
-		"cost": 5,
+		"title": "§d[10P] §e§lMaster of Blood",
+		"cost": 10,
 		"description": "§a+25% Blood Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -141,7 +478,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:blood_upgrade_orb"
+				"item": "irons_spellbooks:blood_rune"
 			}
 		},
 		"rewards": [
@@ -192,7 +529,7 @@
 		}
 	},
 	"ironsFire%small": {
-		"title": "§a+1% Fire Spell Power",
+		"title": "§d[1P] §a+1% Fire Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -204,7 +541,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:fire_upgrade_orb"
+				"item": "irons_spellbooks:fire_rune"
 			}
 		},
 		"rewards": [
@@ -222,9 +559,41 @@
 			"icon": "tp6a6had8zbufqwa"
 		}
 	},
+	"ironsFire%md": {
+		"title": "§d[4P] §a+4% Fire Spell Power",
+		"cost": 4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/nomal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:fire_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "tp6a6had8zbufqwa"
+		}
+	},
 	"ironsFire%F": {
-		"title": "§e§lMaster of Fire",
-		"cost": 5,
+		"title": "§d[10P] §e§lMaster of Fire",
+		"cost": 10,
 		"description": "§a+25% Fire Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -237,7 +606,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:fire_upgrade_orb"
+				"item": "irons_spellbooks:fire_rune"
 			}
 		},
 		"rewards": [
@@ -288,7 +657,7 @@
 		}
 	},
 	"ironsHoly%small": {
-		"title": "§a+1% Holy Spell Power",
+		"title": "§d[1P] §a+1% Holy Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -300,7 +669,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:ice_upgrade_orb"
+				"item": "irons_spellbooks:holy_rune"
 			}
 		},
 		"rewards": [
@@ -318,9 +687,41 @@
 			"icon": "57zk40oeulur32qo"
 		}
 	},
+	"ironsHoly%md": {
+		"title": "§d[4P] §a+4% Holy Spell Power",
+		"cost": 4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:holy_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "57zk40oeulur32qo"
+		}
+	},
 	"ironsHoly%F": {
-		"title": "§e§lMaster of Holy",
-		"cost": 5,
+		"title": "§d[10P] §e§lMaster of Holy",
+		"cost": 10,
 		"description": "§a+25% Holy Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -333,7 +734,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:holy_upgrade_orb"
+				"item": "irons_spellbooks:holy_rune"
 			}
 		},
 		"rewards": [
@@ -384,7 +785,7 @@
 		}
 	},
 	"ironsIce%small": {
-		"title": "§a+1% Ice Spell Power",
+		"title": "§d[1P] §a+1% Ice Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -396,7 +797,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:ice_upgrade_orb"
+				"item": "irons_spellbooks:ice_rune"
 			}
 		},
 		"rewards": [
@@ -414,9 +815,41 @@
 			"icon": "o2jdc3noby3p2msg"
 		}
 	},
+	"ironsIce%md": {
+		"title": "§d[4P] §a+4% Ice Spell Power",
+		"cost": 4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ice_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "o2jdc3noby3p2msg"
+		}
+	},
 	"ironsIce%F": {
-		"title": "§e§lMaster of Ice",
-		"cost": 5,
+		"title": "§d[10P] §e§lMaster of Ice",
+		"cost": 10,
 		"description": "§a+25% Ice Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -429,7 +862,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:ice_upgrade_orb"
+				"item": "irons_spellbooks:ice_rune"
 			}
 		},
 		"rewards": [
@@ -480,7 +913,7 @@
 		}
 	},
 	"ironsLight%small": {
-		"title": "§a+1% Lightning Spell Power",
+		"title": "§d[1P] §a+1% Lightning Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -492,7 +925,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:lightning_upgrade_orb"
+				"item": "irons_spellbooks:lightning_rune"
 			}
 		},
 		"rewards": [
@@ -510,9 +943,41 @@
 			"icon": "uctqmtljlff96gw9"
 		}
 	},
-	"ironsLight%F": {
-		"title": "§e§lMaster of Lightning",
+	"ironsLight%md": {
+		"title": "§d[4P] §a+4% Lightning Spell Power",
 		"cost": 5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:lightning_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "uctqmtljlff96gw9"
+		}
+	},
+	"ironsLight%F": {
+		"title": "§d[10P] §e§lMaster of Lightning",
+		"cost": 10,
 		"description": "§a+25% Lightning Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -525,7 +990,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:lightning_upgrade_orb"
+				"item": "irons_spellbooks:lightning_rune"
 			}
 		},
 		"rewards": [
@@ -576,7 +1041,7 @@
 		}
 	},
 	"ironsNature%small": {
-		"title": "§a+1% Nature Spell Power",
+		"title": "§d[1P] §a+1% Nature Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -588,7 +1053,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:nature_upgrade_orb"
+				"item": "irons_spellbooks:nature_rune"
 			}
 		},
 		"rewards": [
@@ -606,9 +1071,41 @@
 			"icon": "l6p05ysk0uc2m67a"
 		}
 	},
+	"ironsNature%md": {
+		"title": "§d[4P] §a+4% Nature Spell Power",
+		"cost": 4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:nature_rune"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "l6p05ysk0uc2m67a"
+		}
+	},
 	"ironsNature%F": {
-		"title": "§e§lMaster of Nature",
-		"cost": 5,
+		"title": "§d[10P] §e§lMaster of Nature",
+		"cost": 10,
 		"description": "§a+25% Nature Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -621,7 +1118,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:nature_upgrade_orb"
+				"item": "irons_spellbooks:nature_rune"
 			}
 		},
 		"rewards": [
@@ -671,14 +1168,15 @@
 			"icon": "l6p05ysk0uc2m67a"
 		}
 	},
-	"ironsSpellPower%small": {
-		"title": "§a+0.70% Spell Power",
+	"ironsSpellPower%md": {
+		"title": "§d[5P] §a+3% Spell Power",
+		"cost":5,
 		"frame": {
 			"type": "texture",
 			"data": {
-				"available": "kubejs:textures/iron_skill_frame_available.png",
-				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
-				"locked": "kubejs:textures/iron_skill_frame_locked.png"
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
 			}
 		},
 		"icon": {
@@ -692,7 +1190,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
-					"value": 0.07,
+					"value": 0.04,
 					"operation": "multiply_total"
 				}
 			}
@@ -702,54 +1200,29 @@
 			"icon": "k8moz0bep6poeume"
 		}
 	},
-	"ironsSpellPower%F": {
-		"title": "§e§lMaster of all Elements",
-		"cost": 5,
-		"description": "§a+8% Spell Power \n§a+30% Mana Regen Speed\n§a+30% Max Mana \n§a+60% Casting Time Reduction",
+	"ironsSpellCastTime%F": {
+		"title": "§d[4P] §a+20% Casting Time Reduction",
+		"cost": 4,
 		"frame": {
 			"type": "texture",
 			"data": {
-				"available": "kubejs:textures/diamond_skill_frame_available.png",
-				"unlocked": "kubejs:textures/diamond_skill_frame_active.png",
-				"locked": "kubejs:textures/diamond_skill_frame_locked.png"
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
 			}
 		},
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:hither_thither_wand"
+				"item": "irons_spellbooks:cast_time_ring"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:spell_power",
-					"value": 0.08,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:mana_regen",
-					"value": 0.3,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:max_mana",
-					"value": 0.3,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
 					"attribute": "irons_spellbooks:cast_time_reduction",
-					"value": 0.6,
+					"value": 0.15,
 					"operation": "multiply_total"
 				}
 			}
@@ -760,7 +1233,7 @@
 		}
 	},
 	"ironsManaRegen%small": {
-		"title": "§a+2% Mana Regen",
+		"title": "§d[1P] §a+2% Mana Regen",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -791,7 +1264,7 @@
 		}
 	},
 	"ironsManaRegen%md": {
-		"title": "§a+5% Mana Regen",
+		"title": "§d[2P] §a+5% Mana Regen",
 		"cost": 2,
 		"frame": {
 			"type": "texture",
@@ -822,8 +1295,40 @@
 			"icon": "hcfjwb39hwahkj2h"
 		}
 	},
+	"ironsManaRegen%high": {
+		"title": "§d[4P] §a+12% Mana Regen",
+		"cost": 4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:mana_ring"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "hcfjwb39hwahkj2h"
+		}
+	},
 	"ironsMana+small": {
-		"title": "§a+10 Mana",
+		"title": "§d[1P] §a+10 Mana",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -854,12 +1359,14 @@
 		}
 	},
 	"ironsMana%medium": {
-		"title": "§a+ 5% mana",
+		"title": "§d[2P] §a+5% mana",
 		"cost": 2,
 		"frame": {
-			"type": "advancement",
+			"type": "texture",
 			"data": {
-				"frame": "challenge"
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
 			}
 		},
 		"icon": {
@@ -880,7 +1387,7 @@
 		],
 		"editor-color": "#d3622c",
 		"metadata": {
-			"icon": "k8moz0bep6poeume"
+			"icon": "zxkavp5entgirtde"
 		}
 	},
 	"root_health+2": {
@@ -914,102 +1421,9 @@
 			"icon": "4slg1k07chy17eb2"
 		}
 	},
-	"root_resistance+1%": {
-		"title": "Irons and Spellbooks Enchancements",
-		"description": "§a+20 Mana",
-		"frame": {
-			"type": "texture",
-			"data": {
-				"available": "kubejs:textures/iron_skill_frame_available.png",
-				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
-				"locked": "kubejs:textures/iron_skill_frame_locked.png"
-			}
-		},
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:iron_spell_book"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:max_mana",
-					"value": 20,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "wj61h9nrxrdk9zm9"
-		}
-	},
-	"root_melee_damage+3%": {
-		"title": "Miscellaneous",
-		"description": "§a+0.25 Luck",
-		"frame": {
-			"type": "texture",
-			"data": {
-				"available": "kubejs:textures/iron_skill_frame_available.png",
-				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
-				"locked": "kubejs:textures/iron_skill_frame_locked.png"
-			}
-		},
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "supplementaries:wrench"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.luck",
-					"value": 0.25,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "j4pxkk4yf26cli06"
-		}
-	},
-	"root_ranged_damage+3%": {
-		"title": "Master Ars Noveau",
-		"description": "§a+20 Mana",
-		"frame": {
-			"type": "texture",
-			"data": {
-				"available": "kubejs:textures/iron_skill_frame_available.png",
-				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
-				"locked": "kubejs:textures/iron_skill_frame_locked.png"
-			}
-		},
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "ars_nouveau:apprentice_spell_book"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-					"value": 20,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "unxrli8o7yee40p3"
-		}
-	},
 	"meeleElemental": {
-		"title": "§aYour Meele Attacks will deal +3 Fire damge +3 Cold Damage",
-		"cost": 12,
+		"title": "§d[10P] §aYour Meele Attacks will deal +3 Fire damage +3 Cold Damage",
+		"cost": 10,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1048,7 +1462,7 @@
 		}
 	},
 	"lifeSteal%": {
-		"title": "§a+5% Life Steal",
+		"title": "§d[3P] §a+5% Life Steal",
 		"cost": 5,
 		"frame": {
 			"type": "texture",
@@ -1059,9 +1473,9 @@
 			}
 		},
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "health_boost"
+				"item": "artifacts:vampiric_glove"
 			}
 		},
 		"rewards": [
@@ -1080,13 +1494,14 @@
 		}
 	},
 	"experienceGained%small": {
-		"title": "§a+2% Experience Gained",
+		"title": "§d[3P] §a+20% Experience Gained",
+		"cost":3,
 		"frame": {
 			"type": "texture",
 			"data": {
-				"available": "kubejs:textures/iron_skill_frame_available.png",
-				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
-				"locked": "kubejs:textures/iron_skill_frame_locked.png"
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
 			}
 		},
 		"icon": {
@@ -1111,7 +1526,7 @@
 		}
 	},
 	"arsManaRegen%sm": {
-		"title": "§a+2% Ars Noveau Mana Regen",
+		"title": "§d[1P] §a+2% Ars Noveau Mana Regen",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1142,7 +1557,7 @@
 		}
 	},
 	"arsMaxMana%Big": {
-		"title": "§a+10% Ars Noveau Max Mana",
+		"title": "§d[4P] §a+10% Ars Noveau Max Mana",
 		"cost": 4,
 		"frame": {
 			"type": "texture",
@@ -1153,9 +1568,9 @@
 			}
 		},
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "ars_nouveau:mana_regen"
+				"item": "ars_nouveau:archmage_spell_book"
 			}
 		},
 		"rewards": [
@@ -1174,7 +1589,7 @@
 		}
 	},
 	"arsMaxMana+small": {
-		"title": "§a+12 Ars Noveau Max Mana",
+		"title": "§d[1P] §a+12 Ars Noveau Max Mana",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1205,7 +1620,7 @@
 		}
 	},
 	"critChance%sm": {
-		"title": "§a1% Critical Hit Chance",
+		"title": "§d[1P] §a1% Critical Hit Chance",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1236,7 +1651,7 @@
 		}
 	},
 	"critChance%md": {
-		"title": "§a5% Critical Hit Chance",
+		"title": "§d[3P] §a5% Critical Hit Chance",
 		"cost": 3,
 		"frame": {
 			"type": "texture",
@@ -1268,7 +1683,7 @@
 		}
 	},
 	"critDamage%sm": {
-		"title": "§a+5% Critical Damage",
+		"title": "§d[1P] §a+3% Critical Damage",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1288,7 +1703,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:crit_damage",
-					"value": 0.05,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
@@ -1299,7 +1714,7 @@
 		}
 	},
 	"critDamage%md": {
-		"title": "§a+10% Critical Damage",
+		"title": "§d[3P] §a+8% Critical Damage",
 		"cost": 3,
 		"frame": {
 			"type": "texture",
@@ -1320,7 +1735,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:crit_damage",
-					"value": 0.1,
+					"value": 0.08,
 					"operation": "addition"
 				}
 			}
@@ -1331,8 +1746,8 @@
 		}
 	},
 	"health%sm": {
-		"title": "§a+2.0% Maximum Health",
-		"cost": 3,
+		"title": "§d[2P] §a+2.0% Maximum Health",
+		"cost": 2,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1363,8 +1778,8 @@
 		}
 	},
 	"health%md": {
-		"title": "§a+5.0% Maximum Health",
-		"cost": 5,
+		"title": "§d[4P] §a+5.0% Maximum Health",
+		"cost": 4,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1395,7 +1810,7 @@
 		}
 	},
 	"+1heart": {
-		"title": "§a+1 Heart",
+		"title": "§d[2P] §a+1 Heart",
 		"cost": 2,
 		"frame": {
 			"type": "texture",
@@ -1406,9 +1821,9 @@
 			}
 		},
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "regeneration"
+				"item": "paraglider:heart_container"
 			}
 		},
 		"rewards": [
@@ -1427,7 +1842,7 @@
 		}
 	},
 	"resistance+1%": {
-		"title": "§a+1% Resistance",
+		"title": "§d[1P] §a+5% Resistance",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1457,13 +1872,14 @@
 		}
 	},
 	"rollDistance%": {
-		"title": "§a+1.5% Roll Distance",
+		"title": "§d[2P] §a+10% Roll Distance",
+		"cost":2,
 		"frame": {
 			"type": "texture",
 			"data": {
-				"available": "kubejs:textures/iron_skill_frame_available.png",
-				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
-				"locked": "kubejs:textures/iron_skill_frame_locked.png"
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
 			}
 		},
 		"icon": {
@@ -1477,7 +1893,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "combatroll:distance",
-					"value": 0.015,
+					"value": 0.06,
 					"operation": "multiply_base"
 				}
 			}
@@ -1488,13 +1904,14 @@
 		}
 	},
 	"rollRecharge%": {
-		"title": "§a+1.5% Roll Recharge Rate",
+		"title": "§d[2P] §a+10% Roll Recharge Rate",
+		"cost":2,
 		"frame": {
 			"type": "texture",
 			"data": {
-				"available": "kubejs:textures/iron_skill_frame_available.png",
-				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
-				"locked": "kubejs:textures/iron_skill_frame_locked.png"
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
 			}
 		},
 		"icon": {
@@ -1508,7 +1925,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "combatroll:recharge",
-					"value": 0.015,
+					"value": 0.1,
 					"operation": "multiply_base"
 				}
 			}
@@ -1519,9 +1936,9 @@
 		}
 	},
 	"bigMasterOfDodge": {
-		"title": "§e§lThe Art of Dodging",
+		"title": "§d[2P] §e§lThe Art of Dodging",
 		"const": 10,
-		"description": "§a+2 Extra rolls\n§a+40% Dodge Roll Distance\n§a+40% Dodge Roll Recharge Rate\n§a+20% Movement Speed\n§a+20% Attack Speed",
+		"description": "§a+2 Extra rolls\n§a+30% Dodge Roll Distance\n§a+100% Dodge Roll Recharge Rate\n§a+20% Movement Speed\n§a+20% Attack Speed",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1549,7 +1966,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "combatroll:distance",
-					"value": 0.4,
+					"value": 0.3,
 					"operation": "multiply_base"
 				}
 			},
@@ -1557,7 +1974,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "combatroll:recharge",
-					"value": 0.4,
+					"value": 1,
 					"operation": "multiply_base"
 				}
 			},
@@ -1584,7 +2001,7 @@
 		}
 	},
 	"movement_speed%sm": {
-		"title": "§a+2% Movement Speed",
+		"title": "§d[1P] §a+2% Movement Speed",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1615,7 +2032,7 @@
 		}
 	},
 	"healing%sm": {
-		"title": "§a+2% Natural Healing Recovery",
+		"title": "§d[1P] §a+8% Natural Healing Recovery",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1627,7 +2044,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "ars_nouveau:glyph_heal"
+				"item": "farmersdelight:melon_juice"
 			}
 		},
 		"rewards": [
@@ -1635,7 +2052,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.healing",
-					"value": 0.02,
+					"value": 0.08,
 					"operation": "multiply_base"
 				}
 			}
@@ -1646,12 +2063,12 @@
 		}
 	},
 	"healing%md": {
-		"title": "§a+5% Natural Healing Recovery",
+		"title": "§d[2P] §a+20% Natural Healing Recovery",
 		"cost": 2,
 		"frame": {
 			"type": "texture",
 			"data": {
-				"available": "kubejs:textures/nomal_skill_frame_available.png",
+				"available": "kubejs:textures/normal_skill_frame_available.png",
 				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
 				"locked": "kubejs:textures/normal_skill_frame_locked.png"
 			}
@@ -1659,7 +2076,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "ars_nouveau:glyph_heal"
+				"item": "farmersdelight:melon_juice"
 			}
 		},
 		"rewards": [
@@ -1667,7 +2084,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.healing",
-					"value": 0.05,
+					"value": 0.2,
 					"operation": "multiply_base"
 				}
 			}
@@ -1678,7 +2095,7 @@
 		}
 	},
 	"saturation%sm": {
-		"title": "§a-2% Saturation",
+		"title": "§d[1P] §a-6% Saturation",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1698,7 +2115,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.stamina",
-					"value": 0.02,
+					"value": 0.06,
 					"operation": "multiply_base"
 				}
 			}
@@ -1709,7 +2126,7 @@
 		}
 	},
 	"saturation%md": {
-		"title": "§a-5% Saturation",
+		"title": "§d[2P] §a-20% Saturation",
 		"cost": 2,
 		"frame": {
 			"type": "texture",
@@ -1730,7 +2147,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.stamina",
-					"value": 0.05,
+					"value": 0.2,
 					"operation": "multiply_base"
 				}
 			}
@@ -1741,7 +2158,7 @@
 		}
 	},
 	"bigArcher": {
-		"title": "§e§lDeadly Bows",
+		"title": "§d[10P] §e§lDeadly Bows",
 		"cost": 10,
 		"description": "§a+40% Ranged Damage\n§a+150% Draw Speed \n§a+50% Arrow Velocity\n§c-100% Knockback Resistance\n§c+20% Damage Taken\n§c-100% Armor Efficency",
 		"frame": {
@@ -1813,7 +2230,7 @@
 		}
 	},
 	"attack_speed%sm": {
-		"title": "§a+2% Attack Speed",
+		"title": "§d[1P] §a+2% Attack Speed",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1825,7 +2242,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "golden_sword"
+				"item": "artifacts:feral_claws"
 			}
 		},
 		"rewards": [
@@ -1844,7 +2261,8 @@
 		}
 	},
 	"attack_speed%md": {
-		"title": "§a+5% Attack Speed",
+		"title": "§d[2P] §a+5% Attack Speed",
+		"cost":2,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1856,7 +2274,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "golden_sword"
+				"item": "artifacts:feral_claws"
 			}
 		},
 		"rewards": [
@@ -1875,7 +2293,7 @@
 		}
 	},
 	"ranged_damage%sm": {
-		"title": "§a+1% Ranged Damage",
+		"title": "§d[1P] §a+1% Ranged Damage",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1906,7 +2324,7 @@
 		}
 	},
 	"ranged_damage%md": {
-		"title": "§a+3% Ranged Damage",
+		"title": "§d[3P] §a+5% Ranged Damage",
 		"cost": 2,
 		"frame": {
 			"type": "texture",
@@ -1927,7 +2345,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.02,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
@@ -1938,7 +2356,7 @@
 		}
 	},
 	"draw_speed%sm": {
-		"title": "§a+2% Draw Speed",
+		"title": "§d[1P] §a+3% Draw Speed",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1958,7 +2376,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:draw_speed",
-					"value": 0.02,
+					"value": 0.04,
 					"operation": "multiply_total"
 				}
 			}
@@ -1969,7 +2387,7 @@
 		}
 	},
 	"draw_speed%md": {
-		"title": "§a+5% Draw Speed",
+		"title": "§d[2P] §a+8% Draw Speed",
 		"cost": 2,
 		"frame": {
 			"type": "texture",
@@ -2001,9 +2419,9 @@
 		}
 	},
 	"bigBreserk": {
-		"title": "§e§lBreserk",
+		"title": "§d[10P] §e§lBreserk",
 		"cost": 10,
-		"description": "§a+30% Attack Damage\n§a+20% Attack Speed\n§++20% Crit Chance\n§++50% Crit Damage \n§c-50% Armor Efficency \n§c-30% Health",
+		"description": "§a+30% Attack Damage\n§a+20% Attack Speed\n§+20% Crit Chance\n§++50% Crit Damage \n§c-50% Armor Efficency \n§c-30% Health",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2081,7 +2499,7 @@
 		}
 	},
 	"critMaster": {
-		"title": "§e§lDeadly Crit's",
+		"title": "§d[10P] §e§lDeadly Crit's",
 		"cost": 10,
 		"description": "§a+25% Crit Chance\n§+80% Crit Damage",
 		"frame": {
@@ -2121,9 +2539,9 @@
 		}
 	},
 	"bigIronSkin": {
-		"title": "§e§lIron Skin",
-		"cost":10,
-		"description": "§a+50% Resistance\n§a+30% Max Health\n§c-50% Attack Damage\n§c-80% Movement Speed",
+		"title": "§d[10P] §e§lIron Skin",
+		"cost": 10,
+		"description": "§a+50% Resistance\n§a+30% Max Health\n§c-40% Attack Damage\n§c-60% Mana \n§c-60% Movement Speed",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2159,7 +2577,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.ranged_damage",
-					"value": -0.5,
+					"value": -0.4,
 					"operation": "multiply_total"
 				}
 			},
@@ -2167,7 +2585,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.melee_damage",
-					"value": -0.5,
+					"value": -0.4,
 					"operation": "multiply_total"
 				}
 			},
@@ -2175,7 +2593,23 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.movement_speed",
-					"value": -0.8,
+					"value": -0.6,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": -0.6,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": -0.6,
 					"operation": "multiply_base"
 				}
 			}
@@ -2186,7 +2620,7 @@
 		}
 	},
 	"meleeDamage%sm": {
-		"title": "§a+1% Melee Damage",
+		"title": "§d[1P] §a+1% Melee Damage",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2198,7 +2632,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "diamond_sword"
+				"item": "aether:valkyrie_gloves"
 			}
 		},
 		"rewards": [
@@ -2217,8 +2651,8 @@
 		}
 	},
 	"meleeDamage%md": {
-		"title": "§a+3% Melee Damage",
-		"cost": 2,
+		"title": "§d[3P] §a+5% Melee Damage",
+		"cost": 3,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2230,7 +2664,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "diamond_sword"
+				"item": "aether:valkyrie_gloves"
 			}
 		},
 		"rewards": [
@@ -2249,8 +2683,8 @@
 		}
 	},
 	"armourPen%md": {
-		"title": "§a +5% Armour Penetration",
-		"const":3,
+		"title": "§d[3P] §a +5% Armour Penetration",
+		"const": 3,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2281,13 +2715,14 @@
 		}
 	},
 	"jump+5%": {
-		"title": "§a+5% Jump",
+		"title": "§d[1P] §a+20% Jump",
+		"cost":3,
 		"frame": {
 			"type": "texture",
 			"data": {
-				"available": "kubejs:textures/iron_skill_frame_available.png",
-				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
-				"locked": "kubejs:textures/iron_skill_frame_locked.png"
+				"available": "kubejs:textures/normal_skill_frame_available.png",
+				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
+				"locked": "kubejs:textures/normal_skill_frame_locked.png"
 			}
 		},
 		"icon": {
@@ -2301,7 +2736,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.jump",
-					"value": 0.05,
+					"value": 0.2,
 					"operation": "multiply_total"
 				}
 			}
@@ -2311,7 +2746,7 @@
 		}
 	},
 	"luckAll": {
-		"title": "§a+0.25 Luck",
+		"title": "§d[1P] §a+0.25 Luck",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2341,7 +2776,7 @@
 		}
 	},
 	"fortune+0.1": {
-		"title": "§a+0.1 Fortune",
+		"title": "§d[1P] §a+0.1 Fortune",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2371,7 +2806,7 @@
 		}
 	},
 	"mining_speed": {
-		"title": "§a+3% Mining Speed",
+		"title": "§d[1P] §a+4% Mining Speed",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2391,7 +2826,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.mining_speed",
-					"value": 0.03,
+					"value": 0.04,
 					"operation": "multiply_base"
 				}
 			}
@@ -2400,8 +2835,56 @@
 			"icon": "ysr3klbppg879vni"
 		}
 	},
+	"hydro_excavator": {
+		"title": "§d[10P] §e§lHydro Excavator",
+		"cost": 10,
+		"description": "§a+80% Mining Speed\n§a+80% Swimming Speed\n§a+0.5 Fortune",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/diamond_skill_frame_available.png",
+				"unlocked": "kubejs:textures/diamond_skill_frame_active.png",
+				"locked": "kubejs:textures/diamond_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aether:valkyrie_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.8,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.8,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.fortune",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ysr3klbppg879vni"
+		}
+	},
 	"swim_speed": {
-		"title": "§a+3% Swimming speed",
+		"title": "§d[1P] §a+5% Swimming speed",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2421,7 +2904,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "forge:swim_speed",
-					"value": 0.03,
+					"value": 0.05,
 					"operation": "multiply_base"
 				}
 			}
@@ -2431,7 +2914,7 @@
 		}
 	},
 	"reach+1": {
-		"title": "§a+1 Block Reach",
+		"title": "§d[1P] §a+1 Block Reach",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2441,9 +2924,9 @@
 			}
 		},
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "haste"
+				"item": "mutantmonsters:endersoul_hand"
 			}
 		},
 		"rewards": [

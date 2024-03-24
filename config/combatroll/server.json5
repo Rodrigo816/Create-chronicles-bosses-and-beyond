@@ -16,7 +16,7 @@
 	// The amount of food level above which players can do a roll
 	"food_level_required": 6.0,
 	// The cooldown duration of the combat roll ability expressed in seconds
-	"roll_cooldown": 20.0,
+	"roll_cooldown": 14.0,
 	// Default roll distance attribute is `3`. Settings this to `1` will make it `4`. Warning! Attribute based scaling does not effect this.
 	"additional_roll_distance": 0.0
 }
