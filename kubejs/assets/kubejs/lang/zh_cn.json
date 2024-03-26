@@ -1,0 +1,59 @@
+{
+    "#block":"方块",
+    "block.kubejs.mystic_coal_block":"§b神秘煤炭块",
+
+    "block.kubejs.andesite_machine":"旋转机器",
+    "block.kubejs.copper_machine":"阀门机器",
+    "block.kubejs.brass_machine":"精准机器",
+    "block.kubejs.obsidian_machine":"列车机器",
+
+    "#item":"物品",
+    "item.kubejs.rotation_mechanism":"旋转构件",
+    "item.kubejs.locomotive_mechanism":"列车构件",
+    "item.kubejs.incomplete_rotation_mechanism":"旋转构件（半成品）",
+    "item.kubejs.incomplete_locomotive_mechanism":"列车构件（半成品）",
+
+    "item.kubejs.skill_add_point":"+1 技能点",
+    "item.kubejs.skill_reset":"技能树重置",
+
+    "item.kubejs.dormant_dust_mystic_coal":"神秘煤炭粉",
+    "item.kubejs.ingot_mystic_coal":"神秘煤炭锭",
+    "item.kubejs.rod_mystic_coal":"神秘煤炭棒",
+
+    "item.kubejs.tier_1_plating":"1 级金属板",
+    "item.kubejs.tier_2_plating":"2 级金属板",
+    "item.kubejs.tier_3_plating":"3 级金属板",
+    "item.kubejs.tier_4_plating":"4 级金属板",
+
+    "item.kubejs.siliceous_compound":"硅化合物",
+
+    "item.kubejs.create_chronicles":"§b机械动力编年史",
+
+    "item.kubejs.engineer_badge":"§6工程师徽章",
+    "item.kubejs.slayer_badge":"§6终极杀手徽章",
+    "item.kubejs.relic_badge":"§6饰品猎人徽章",
+    "item.kubejs.ascendant_badge":"§6戒指猎人徽章",
+    "item.kubejs.blade_badge":"§6刀剑大师徽章",
+
+    "item.kubejs.uncommon_paper":"精良纸",
+    "item.kubejs.rare_paper":"稀有纸",
+    "item.kubejs.epic_paper":"史诗纸",
+    "item.kubejs.legendary_paper":"传说纸",
+
+    "item.kubejs.unfinished_fire_scroll":"火焰卷轴（半成品）",
+    "item.kubejs.unfinished_ice_scroll":"冰霜卷轴（半成品）",
+    "item.kubejs.unfinished_blood_scroll":"鲜血卷轴（半成品）",
+    "item.kubejs.unfinished_ender_scroll":"末影卷轴（半成品）",
+    "item.kubejs.unfinished_nature_scroll":"自然卷轴（半成品）",
+    "item.kubejs.unfinished_lightning_scroll":"雷电卷轴（半成品）",
+    "item.kubejs.unfinished_holy_scroll":"神圣卷轴（半成品）",
+    "item.kubejs.unfinished_evocation_scroll":"唤魔卷轴（半成品）",
+    "item.kubejs.unfinished_eldritch_scroll":"邪术卷轴（半成品）",
+    "item.kubejs.incomplete_netherrack":"下界岩（半成品）",
+
+    "#fluid and fluid":"流体和流体桶",
+    "fluid.kubejs.destabilized_redstone":"不稳定红石",
+    "fluid.kubejs.mystic_coal_liquid":"神秘煤炭流体",
+    "item.kubejs.destabilized_redstone_bucket":"不稳定红石桶",
+    "item.kubejs.mystic_coal_liquid_bucket":"神秘煤炭流体桶"
+}
