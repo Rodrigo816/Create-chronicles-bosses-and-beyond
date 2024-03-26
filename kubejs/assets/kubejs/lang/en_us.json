@@ -1,0 +1,59 @@
+{
+    "#block":"",
+    "block.kubejs.mystic_coal_block":"§bMystic Coal Block",
+
+    "block.kubejs.andesite_machine":"Rotation Machine",
+    "block.kubejs.copper_machine":"Valve Machine",
+    "block.kubejs.brass_machine":"Precision Machine",
+    "block.kubejs.obsidian_machine":"Precision Machine",
+
+    "#item":"",
+    "item.kubejs.rotation_mechanism":"Rotation Mechanism",
+    "item.kubejs.locomotive_mechanism":"Locomotive Mechanism",
+    "item.kubejs.incomplete_rotation_mechanism":"Incomplete Rotation Mechanism",
+    "item.kubejs.incomplete_locomotive_mechanism":"Incomplete Locomotive Mechanism",
+
+    "item.kubejs.skill_add_point":"+1 Skill Point",
+    "item.kubejs.skill_reset":"Talent Tree Reset",
+
+    "item.kubejs.dormant_dust_mystic_coal":"Mystic Dormant Coal Dust",
+    "item.kubejs.ingot_mystic_coal":"Mystic Coal Ingot",
+    "item.kubejs.rod_mystic_coal":"Mystic Coal Rod",
+
+    "item.kubejs.tier_1_plating":"Tier 1 Plating",
+    "item.kubejs.tier_2_plating":"Tier 2 Plating",
+    "item.kubejs.tier_3_plating":"Tier 3 Plating",
+    "item.kubejs.tier_4_plating":"Tier 4 Plating",
+
+    "item.kubejs.siliceous_compound":"Siliceous Compound",
+
+    "item.kubejs.create_chronicles":"§bCreate Chronicles",
+
+    "item.kubejs.engineer_badge":"§6Engineer's Badge",
+    "item.kubejs.slayer_badge":"§6Ultimate Slayer's Badge",
+    "item.kubejs.relic_badge":"§6Relic Hunter's Badge",
+    "item.kubejs.ascendant_badge":"§6Ascendant's Badge",
+    "item.kubejs.blade_badge":"§6Blade Master Badge",
+
+    "item.kubejs.uncommon_paper":"Uncommon Paper",
+    "item.kubejs.rare_paper":"Rare Paper",
+    "item.kubejs.epic_paper":"Epic Paper",
+    "item.kubejs.legendary_paper":"Legendary Paper",
+
+    "item.kubejs.unfinished_fire_scroll":"Unfinished Fire Scroll",
+    "item.kubejs.unfinished_ice_scroll":"Unfinished Ice Scroll",
+    "item.kubejs.unfinished_blood_scroll":"Unfinished Blood Scroll",
+    "item.kubejs.unfinished_ender_scroll":"Unfinished Ender Scroll",
+    "item.kubejs.unfinished_nature_scroll":"Unfinished Nature Scroll",
+    "item.kubejs.unfinished_lightning_scroll":"Unfinished Lightning Scroll",
+    "item.kubejs.unfinished_holy_scroll":"Unfinished Holy Scroll",
+    "item.kubejs.unfinished_evocation_scroll":"Unfinished Evocation Scroll",
+    "item.kubejs.unfinished_eldritch_scroll":"Unfinished Eldritch Scroll",
+    "item.kubejs.incomplete_netherrack":"Incomplete Netherrack",
+
+    "#fluid and fluid":"",
+    "fluid.kubejs.destabilized_redstone":"Destabilized Redstone",
+    "fluid.kubejs.mystic_coal_liquid":"Mystic Coal Liquid",
+    "item.kubejs.destabilized_redstone_bucket":"Destabilized Redstone Bucket",
+    "item.kubejs.mystic_coal_liquid_bucket":"Mystic Coal Liquid Bucket"
+}
