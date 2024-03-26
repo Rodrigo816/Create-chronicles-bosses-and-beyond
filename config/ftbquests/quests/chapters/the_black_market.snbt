@@ -301,6 +301,30 @@
 			x: 8.0d
 			y: 1.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.0d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -1782,6 +1806,51 @@
 			title: "&6Talent Tree Reset"
 			x: 8.0d
 			y: -2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["21FB9D855FA9D2DF"]
+			icon: "waystones:waystone"
+			id: "09C84FAE1A3E0921"
+			rewards: [{
+				id: "73C444536086D53D"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			subtitle: "one time only"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "47EED6DE252AE2E7"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Waystone"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["21FB9D855FA9D2DF"]
+			icon: "minecraft:iron_ingot"
+			id: "465EAD8B006329BC"
+			rewards: [{
+				count: 30
+				id: "2DA580D37E828D33"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "one time only"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "5749B61DF5453F62"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Iron Ingots"
+			x: 0.5d
+			y: 2.5d
 		}
 	]
 	title: "&0&l The Black Market"

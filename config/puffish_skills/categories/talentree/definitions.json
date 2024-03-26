@@ -2419,9 +2419,9 @@
 		}
 	},
 	"bigBreserk": {
-		"title": "§d[10P] §e§lBreserk",
+		"title": "§d[10P] §e§lBerserk",
 		"cost": 10,
-		"description": "§a+30% Attack Damage\n§a+20% Attack Speed\n§+20% Crit Chance\n§++50% Crit Damage \n§c-50% Armor Efficency \n§c-30% Health",
+		"description": "§a+30% Attack Damage\n§a+20% Attack Speed\n§ +20% Crit Chance\n§ +50% Crit Damage\n§c-50% Armor Efficency \n§c-30% Health",
 		"frame": {
 			"type": "texture",
 			"data": {

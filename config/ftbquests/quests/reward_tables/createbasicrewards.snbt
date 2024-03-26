@@ -5,7 +5,7 @@
 	loot_size: 2
 	order_index: 0
 	rewards: [
-		{ count: 5, item: "create:shaft" }
+		{ count: 8, item: "create:shaft" }
 		{ count: 2, item: "create:cogwheel" }
 		{ count: 2, item: "create:large_cogwheel" }
 		{ count: 2, item: "create:gearbox" }
@@ -33,10 +33,12 @@
 		{ item: "create:radial_chassis" }
 		{ item: "create:chute" }
 		{ count: 2, item: "create:andesite_funnel" }
-		{ item: "create:andesite_tunnel" }
+		{ count: 2, item: "create:andesite_tunnel" }
 		{ count: 10, item: "create:andesite_casing" }
 		{ item: "create:brown_toolbox" }
 		{ count: 4, item: "create:white_sail" }
+		{ item: "create:mechanical_bearing" }
+		{ item: "create:windmill_bearing" }
 	]
 	title: "CreateBasicRewards"
 }

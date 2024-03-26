@@ -319,6 +319,18 @@
 					table_id: 2630622174541927595L
 					type: "choice"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "230A1C394453E79C"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1758421E8B8225FD"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
@@ -345,16 +357,22 @@
 			id: "646C119DC7AC80AB"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "04D80E217126D30D"
-					table_id: 1302780656980067940L
-					type: "random"
-				}
-				{
 					count: 8
 					id: "42E36A74EEE55EF0"
 					item: "create_sa:hydraulic_engine"
 					type: "item"
+				}
+				{
+					count: 2
+					id: "75FE1FEE6577E8C1"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CD417F9CCDEFFAB"
+					table_id: 1302780656980067940L
+					type: "choice"
 				}
 			]
 			shape: "rsquare"

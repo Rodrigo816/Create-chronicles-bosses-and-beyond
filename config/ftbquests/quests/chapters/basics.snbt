@@ -504,17 +504,19 @@
 		{
 			dependencies: ["0C49795E134A27E0"]
 			description: [
-				"You need to craft a &eempty map&r and use it to get a &cmap&r."
+				"By default, pressing &6\"M\"&r grants you access to the world map from the FTB Chunks mod, although you won't have access to the mini-map."
 				""
-				"The &d&lAtlas&r&r can be used as both a world map or a mini-map by having the atlas on your hotbar, or in the 'hand' curios slot. "
+				"To obtain a mini-map, you need an&2 Atlas&r, which can function as both a&n world map&r and a &nmini-map&r when carried in your hotbar or placed in the 'hand' curios slot."
 				""
-				"By default the atlas will only have the first map used to create it inside it. "
+				"You must craft an empty map and use it to create a map."
 				""
-				"&nBut by adding extra empty maps&r, any place you explore will be automatically filled in and added to the atlas map."
+				"Initially, the atlas will contain only the first map used to create it."
 				""
-				"To expand the atlas simply add Filled or Empty maps to it via Crafting or Cartography Table."
+				"However, by adding extra empty maps, any areas you explore will automatically be filled in and added to the atlas."
 				""
-				"You can open the world map by clicking &e\"m\"&r."
+				"To expand the atlas, simply add filled or empty maps to it via the Crafting or Cartography Table."
+				""
+				"You can open the world map by pressing &6\"M\"&r&n. If you wish to use the atlas as the world map, which is highly recommended when you have an automation of map farming, navigate to Controls -> Keybinds -> Category: \"FTB Chunks\" -> Open Map and disable the keybinding for opening it.&r"
 				""
 				"Waypoints can be added by clicking on the waypoint \"red pin\" button or by pressing &e\"y\"&r."
 				""
@@ -532,12 +534,12 @@
 			]
 			id: "3CE1B3AB173035B9"
 			rewards: [{
-				count: 8
+				count: 20
 				id: "432F55EB62251142"
 				item: "minecraft:map"
 				type: "item"
 			}]
-			subtitle: "Do you need a map?"
+			subtitle: "Do you need a mini-map?"
 			tasks: [{
 				id: "70CECC316554D7D3"
 				item: {
@@ -726,9 +728,9 @@
 			description: [
 				"It's hard to keep finding single use scrolls, but by putting the scrolls into a spell book using the inscription table, one can keep using the spell without consuming the scroll."
 				""
-				"Default key is \"v\" to open wheel."
+				"Default key is &6\"x\"&r to open wheel."
 				""
-				"Default cast key is \"c\""
+				"Default cast key is &6\"r\"&r"
 			]
 			id: "203A551C239270CC"
 			rewards: [{
@@ -1590,6 +1592,8 @@
 				"A quick way to switch between tools."
 				""
 				"Upgrade with belt pouches in an anvil to increase capacity."
+				""
+				"Default key is&6 \"J\"&r to open."
 			]
 			id: "15E1385A52B7A632"
 			rewards: [
@@ -1845,7 +1849,7 @@
 				""
 				"To learn more about the mod, check out the documentation in the Book!"
 				""
-				"Default key is \"v\" to open wheel."
+				"Default key is \"v\" to open wheel and \"c\" to acess book."
 			]
 			id: "7CCB17165A8E0D43"
 			rewards: [{
@@ -2090,6 +2094,11 @@
 				"Your adventure into the unknown awaits—will you rise to the challenge and become a true dimension explorer?"
 			]
 			id: "123D70CA4959F172"
+			rewards: [{
+				id: "74501D93CD967375"
+				item: "waystones:waystone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "60FB6758FF913425"
 				title: "I want to explore new dimensions"
@@ -2523,7 +2532,7 @@
 				"The mod adds traditional tiers to shields and introduces two new mechanics, Off-Guard Cooldown and Parrying!"
 				""
 				"&c-> Dogge Roll&r"
-				"Press R to roll. You can roll into any direction you are heading. This is crucial to dodge attacks during boss fights!"
+				"Press &6\"caps lock\"&r (default key) to roll. You can roll into any direction you are heading. This is crucial to dodge attacks during boss fights!"
 				""
 				"The combat roll ability has 14 seconds cooldown by default."
 				""
@@ -2827,11 +2836,12 @@
 				""
 				"https://discord.gg/regYxpqbun"
 			]
+			icon: "createdeco:decal_warning"
 			id: "5525E70F7FBDBD92"
 			tasks: [{
-				id: "27FA3D59FA635932"
-				item: "createdeco:decal_warning"
-				type: "item"
+				id: "0CBC9A977ED7A39C"
+				title: "Sure, I can Help!"
+				type: "checkmark"
 			}]
 			title: "&6HELP NEEDED"
 			x: -19.0d

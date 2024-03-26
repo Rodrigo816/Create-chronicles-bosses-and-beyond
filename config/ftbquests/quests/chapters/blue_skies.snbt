@@ -957,11 +957,18 @@
 			dependencies: ["1F944EEA0F397B95"]
 			id: "42228FEECEAA2241"
 			optional: true
-			rewards: [{
-				id: "672DCB4C384FBEE3"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "672DCB4C384FBEE3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7F21BC1935A61170"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "Drops from the Starlit Crusher's Loot Bag"
 			tasks: [{
@@ -1032,11 +1039,18 @@
 			dependencies: ["0DB1A5763EDD6A7F"]
 			id: "68C79649BB060EFA"
 			optional: true
-			rewards: [{
-				id: "5F2826B2B406F6A5"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "5F2826B2B406F6A5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7F100302934F788C"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "Drops from the Arachnarch's Loot Bag"
 			tasks: [{

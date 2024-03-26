@@ -603,6 +603,12 @@
 					item: "create:precision_mechanism"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "79BDEFBD13CE8B52"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
@@ -685,6 +691,12 @@
 					id: "5E0AFFADD4CFB831"
 					item: "minecraft:iron_ingot"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "595859079B6F0687"
+					table_id: 2630622174541927595L
+					type: "choice"
 				}
 			]
 			shape: "rsquare"

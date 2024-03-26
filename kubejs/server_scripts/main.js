@@ -996,5 +996,17 @@ ServerEvents.recipes(event => {
       B: MC('blackstone')
   })
 
+  event.recipes.createMechanicalCrafting('waystones:warp_stone', [
+    ' ABA ',
+    'ACBCA',
+    'BCDCB',
+    'ACBCA',
+    ' ABA '
+  ], {
+    A: MC('amethyst_shard'),
+    B: 'waystones:warp_dust',
+    C: MC('ender_pearl'),
+    D: MC('blaze_powder')
+  })
 
 })
