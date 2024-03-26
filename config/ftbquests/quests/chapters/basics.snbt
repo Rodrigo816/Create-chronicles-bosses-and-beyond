@@ -113,7 +113,7 @@
 				""
 				"As you go through this big place full of challenges and cool things, finishing quests will give you XP and special items. Every step you take, every new thing you find makes your story even better."
 				""
-				"At the heart of our chronicles lies the art of &6Create automation&r. An odyssey of engineering divided into 11 meticulously crafted chapters. Each chapter is a new horizon in your quest for automation mastery, laying the foundation for you to build the most elaborate and awe-inspiring machines known to this world."
+				"At the heart of our chronicles lies the art of &6Create automation&r. An odyssey of engineering divided into 10 meticulously crafted chapters. Each chapter is a new horizon in your quest for automation mastery, laying the foundation for you to build the most elaborate and awe-inspiring machines known to this world."
 				""
 				"If you like the secret world of magic, don't worry—the magic mods are their own special place, not mixed up with the machine stuff. You can dive into magic and make your journey your own."
 				""
@@ -124,19 +124,12 @@
 				"&b&lIn Create Chronicles: Bosses and Beyond, your saga awaits!&r&r"
 			]
 			id: "1F6BC8C2A5B8F9B2"
-			rewards: [
-				{
-					count: 20
-					id: "167DE99A77DBDD03"
-					item: "farmersdelight:sweet_berry_cookie"
-					type: "item"
-				}
-				{
-					id: "6F4B491F8FFFB7FF"
-					item: "ftbquests:book"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "167DE99A77DBDD03"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Hello and welcome to &6Create Chronicles: Bosses and Beyond!&r"

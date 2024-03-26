@@ -315,12 +315,6 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "65F5AA011CBBE1B3"
-					table_id: 2630622174541927595L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
 					id: "230A1C394453E79C"
 					table_id: 1302780656980067940L
 					type: "choice"
@@ -330,6 +324,17 @@
 					id: "1758421E8B8225FD"
 					table_id: 1302780656980067940L
 					type: "choice"
+				}
+				{
+					count: 2
+					id: "43EECDA07CEB3A84"
+					item: "kubejs:copper_machine"
+					type: "item"
+				}
+				{
+					id: "2AF57F6D4F2A4597"
+					item: "create:spout"
+					type: "item"
 				}
 			]
 			shape: "rsquare"

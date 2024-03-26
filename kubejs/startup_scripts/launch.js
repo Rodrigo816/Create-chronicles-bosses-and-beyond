@@ -91,31 +91,26 @@ StartupEvents.registry('item', event => {
     event.create('create_chronicles').displayName("§bCreate Chronicles").texture('kubejs:item/logo_texture')
 	event.create('engineer_badge')
         .displayName("§6Engineer's Badge")
-        .tooltip("Awarded for complete all Create chapters.")
         .texture("kubejs:item/create_badge")
         .rarity('Epic')
 
     event.create('slayer_badge')
         .displayName("§6Ultimate Slayer's Badge")
-        .tooltip("Awarded for defeating all the bosses in the game.")
         .texture("kubejs:item/bosses_badge")
         .rarity('Epic')
 
     event.create('relic_badge')
         .displayName("§6Relic Hunter's Badge")
-        .tooltip("Awarded for collecting all artifacts.")
         .texture("kubejs:item/artifact_badge")
         .rarity('Epic')
 
     event.create('ascendant_badge')
         .displayName("§6Ascendant's Badge")
-        .tooltip("Awarded for collecting all Rings of Ascension.")
         .texture("kubejs:item/ring_badge")
         .rarity('Epic')
 
     event.create('blade_badge')
         .displayName("§6Blade Master Badge")
-        .tooltip("Awarded for collecting all swords in the Simply Swords mod.")
         .texture("kubejs:item/sword_badge")
         .rarity('Epic')
     

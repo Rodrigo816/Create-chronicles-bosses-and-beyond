@@ -5,7 +5,7 @@
     "block.kubejs.andesite_machine":"Rotation Machine",
     "block.kubejs.copper_machine":"Valve Machine",
     "block.kubejs.brass_machine":"Precision Machine",
-    "block.kubejs.obsidian_machine":"Precision Machine",
+    "block.kubejs.obsidian_machine":"Locomotive Machine",
 
     "#item":"",
     "item.kubejs.rotation_mechanism":"Rotation Mechanism",

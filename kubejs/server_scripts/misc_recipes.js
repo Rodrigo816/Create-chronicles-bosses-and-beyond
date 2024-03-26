@@ -61,6 +61,9 @@ ServerEvents.recipes(event => {
   //moss
   event.recipes.createCompacting('minecraft:moss_block', ['minecraft:cobblestone','9x minecraft:vine'])
 
+  // convert ventium ingot to iron ingot via splashingh
+  event.recipes.createSplashing('minecraft:iron_ingot', 'blue_skies:ventium_ingot');
+
   //dripstone
   // RENEWABLES
   //event.recipes.createCompacting('minecraft:dripstone_block', ['2x minecraft:flint','minecraft:dirt', Fluid.of('minecraft:water', 100)])

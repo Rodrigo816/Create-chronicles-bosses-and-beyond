@@ -137,12 +137,20 @@
 			dependency_requirement: "one_completed"
 			description: ["Pour Destabilized Redstone with a Spout onto a Certus Quartz Crystal 3 times to turn it into a Rose Quartz."]
 			id: "340B69A08A8A7CF3"
-			rewards: [{
-				count: 5
-				id: "269133ADB1795D10"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "269133ADB1795D10"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3B4B5AD2E461D733"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2A4A8C8AC00ECBD3"
 				item: "create:rose_quartz"
@@ -282,12 +290,20 @@
 			]
 			description: ["Time to assemble! You have two ways to do this, you can either use a Deployer holding a &6Polished Quartz Rose&r and place it into an Iron Sheet or you can use Mechanical Crafts for something more fancy looking."]
 			id: "1BAF2EB40FE08B25"
-			rewards: [{
-				count: 5
-				id: "5AC1026E5B0E0C41"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "5AC1026E5B0E0C41"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E4EAB68AC539692"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "71C9FE5F39A5B431"
 				item: "create:electron_tube"
@@ -331,12 +347,20 @@
 				"&6&lTip:&r&r &oYou can use a Seething Sail as a permanent solution for your polishing automations.&r"
 			]
 			id: "5924E1675FE1A9D0"
-			rewards: [{
-				count: 5
-				id: "33D29EF4A1775CBE"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "33D29EF4A1775CBE"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54D32BB412E23B4B"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "6A34C8BAA9CFC455"
 				item: "create:polished_rose_quartz"
@@ -353,12 +377,20 @@
 			dependency_requirement: "one_completed"
 			description: ["To get Brass Ingots you have to mix both&6 Zinc Ingots&r and &6Copper Ingots&r. To do so you need a Basin on top of a Blaze Burner and a Mechanical Mixer."]
 			id: "5E59C8255183FF3E"
-			rewards: [{
-				count: 5
-				id: "095EB4DA657710CB"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "095EB4DA657710CB"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48F8F356C43B1165"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "543534EF6C25D984"
 				item: "create:brass_ingot"
@@ -417,12 +449,20 @@
 			dependencies: ["5E59C8255183FF3E"]
 			description: ["Grab your Brass Ingots, place it under a Mechanical Press and start flat lining them to make some Brass Sheets."]
 			id: "701883FE5E3CF381"
-			rewards: [{
-				count: 5
-				id: "39819254B55E4511"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "39819254B55E4511"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "680F614A30C9B2A8"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7AFC52965847BD86"
 				item: "create:brass_sheet"
@@ -574,12 +614,6 @@
 			id: "6F2EA0844769A10A"
 			rewards: [
 				{
-					count: 20
-					id: "4B38C1A7816655FA"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
 					count: 30
 					id: "45AA5A07B71C35F0"
 					item: "minecraft:redstone"
@@ -663,12 +697,6 @@
 			id: "637D976589937434"
 			rewards: [
 				{
-					count: 40
-					id: "016A23C18D36A9C8"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
 					count: 2
 					id: "0938031FB8C4E56E"
 					item: "kubejs:brass_machine"
@@ -695,6 +723,12 @@
 				{
 					exclude_from_claim_all: true
 					id: "595859079B6F0687"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74B7A78C1FBE14BB"
 					table_id: 2630622174541927595L
 					type: "choice"
 				}

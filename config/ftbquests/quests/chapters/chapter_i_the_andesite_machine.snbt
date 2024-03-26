@@ -425,12 +425,6 @@
 			id: "5E60FF6098CB030B"
 			rewards: [
 				{
-					count: 2
-					id: "1BBCA865D2FE571D"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
 					count: 8
 					id: "6D576FBEE6EAA53D"
 					item: "kubejs:rotation_mechanism"
@@ -447,6 +441,11 @@
 					id: "6401DB62BCC20443"
 					table_id: 1302780656980067940L
 					type: "choice"
+				}
+				{
+					id: "6C9FF38643167879"
+					item: "create:deployer"
+					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -515,11 +514,6 @@
 			rewards: [
 				{
 					count: 2
-					id: "04B8BC5611C5310E"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
 					id: "131F93BE1FCD6209"
 					item: "kubejs:andesite_machine"
 					type: "item"
@@ -543,9 +537,8 @@
 					type: "choice"
 				}
 				{
-					count: 10
-					id: "3AD2EC529AA7184F"
-					item: "minecraft:iron_ingot"
+					id: "5509D7DFEB9473BB"
+					item: "create:goggles"
 					type: "item"
 				}
 			]

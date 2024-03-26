@@ -8,8 +8,6 @@ decay_loot_tables = []
 additional_chests = []
 #list of mod IDs whose loot tables will decay (default blank, meaning no chests decay, in the format ["modid", "othermodid"])
 decay_modids = []
-#list of structures in which contains shouldn't be converted (in the format of ["modid:structure_name", "othermodid:other_structure_name"])
-loot_structure_blacklist = []
 #list of modids whose loot tables shouldn't be converted (in the format of ["modid", "other_modid"])
 loot_modid_blacklist = []
 #allows fake players to destroy Lootr chests without having to sneak, overrides the `disable_break` option for fake players
@@ -41,8 +39,6 @@ refresh_modids = []
 randomise_seed = true
 #when true, custom inventories will act like trapped chests when opened
 trapped_custom = false
-#whether or not quark chests used in world generation for loot purposes should be replaced with Lootr chests
-convert_quark = true
 #how long (in ticks) a decaying loot containers should take to decay (default 5 minutes = 5 * 60 * 20)
 #Range: > 0
 decay_value = 6000

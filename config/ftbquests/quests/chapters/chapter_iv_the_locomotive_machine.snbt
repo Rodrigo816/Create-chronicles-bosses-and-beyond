@@ -278,6 +278,19 @@
 			description: [""]
 			hide: true
 			id: "143E325CFBC9FAC9"
+			rewards: [
+				{
+					id: "210218F9ADD2294B"
+					item: "kubejs:obsidian_machine"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "72DB4C998BE6BEB7"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -297,6 +310,38 @@
 			dependency_requirement: "one_completed"
 			description: [""]
 			id: "3DFF1B74E8AADB57"
+			rewards: [
+				{
+					count: 8
+					id: "649EBBD6DEE04890"
+					item: "kubejs:locomotive_mechanism"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27CC33BDF94154B7"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "483BC910223BB44C"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20845DA19DCC70C1"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F10BCB1B41329EE"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{

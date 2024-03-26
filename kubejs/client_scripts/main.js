@@ -52,6 +52,23 @@ ItemEvents.tooltip(event => {
   event.add('forbidden_arcanus:soul',[
     Text.of('You can use a Soul Extrator on a deployer to automate this.').yellow()
   ])
+
+  // badges
+  event.add('kubejs:blade_badge',[
+    Text.of('Awarded for collecting all swords in the Simply Swords mod.').yellow()
+  ])
+  event.add('kubejs:ascendant_badge',[
+    Text.of('Awarded for collecting all Rings of Ascension.').yellow()
+  ])
+  event.add('kubejs:relic_badge',[
+    Text.of('Awarded for collecting all artifacts.').yellow()
+  ])
+  event.add('kubejs:slayer_badge',[
+    Text.of('Awarded for defeating all the bosses in the game.').yellow()
+  ])
+  event.add('kubejs:engineer_badge',[
+    Text.of('Awarded for complete all Create chapters.').yellow()
+  ])
 })
 
 JEIEvents.information(e => {

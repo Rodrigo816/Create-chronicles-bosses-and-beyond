@@ -216,7 +216,7 @@
 		"root": false
 	},
 	"0fru4rhps8xhkpev": {
-		"definition": "movement_speed%sm",
+		"definition": "sprintSpeed%sm",
 		"x": 192,
 		"y": 184.75208614068023,
 		"root": false
@@ -900,7 +900,7 @@
 		"root": false
 	},
 	"o8v6ayuvu0w0zzgh": {
-		"definition": "movement_speed%sm",
+		"definition": "sprintSpeed%sm",
 		"x": -224,
 		"y": 351.0289636672925,
 		"root": false
@@ -960,7 +960,7 @@
 		"root": false
 	},
 	"odfah5skrjwvwmn3": {
-		"definition": "movement_speed%sm",
+		"definition": "sprintSpeed%sm",
 		"x": 320,
 		"y": 258.6529205969523,
 		"root": false
@@ -1032,19 +1032,19 @@
 		"root": false
 	},
 	"794mmx1pfyyna7qq": {
-		"definition": "movement_speed%sm",
+		"definition": "sprintSpeed%sm",
 		"x": 352,
 		"y": 277.12812921102034,
 		"root": false
 	},
 	"yoa6zsjc7jx3r8g6": {
-		"definition": "movement_speed%sm",
+		"definition": "sprintSpeed%sm",
 		"x": 320,
 		"y": 295.6033378250884,
 		"root": false
 	},
 	"ura7atp7u89s20jo": {
-		"definition": "movement_speed%sm",
+		"definition": "sprintSpeed%sm",
 		"x": 288,
 		"y": 277.12812921102034,
 		"root": false

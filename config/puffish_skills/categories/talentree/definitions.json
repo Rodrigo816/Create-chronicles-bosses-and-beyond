@@ -99,7 +99,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.max_health",
-					"value": 0.5,
+					"value": 2,
 					"operation": "addition"
 				}
 			}
@@ -1831,7 +1831,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.max_health",
-					"value": 0.5,
+					"value": 2,
 					"operation": "addition"
 				}
 			}
@@ -2022,6 +2022,37 @@
 				"data": {
 					"attribute": "generic.movement_speed",
 					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#5aa758",
+		"metadata": {
+			"icon": "545voaik7uzcf3mh"
+		}
+	},
+	"sprintSpeed%sm": {
+		"title": "§d[1P] §a+3% Sprinting Speed",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "kubejs:textures/iron_skill_frame_available.png",
+				"unlocked": "kubejs:textures/iron_skill_frame_active.png",
+				"locked": "kubejs:textures/iron_skill_frame_locked.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "artifacts:running_shoes"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.sprinting_speed",
+					"value": 0.03,
 					"operation": "multiply_base"
 				}
 			}

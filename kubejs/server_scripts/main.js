@@ -113,13 +113,13 @@ ServerEvents.recipes(event => {
 
   event.shaped(KJ('rotation_mechanism'), [
     'BBB',
-    'BDE',
-    ' A '
+    'EDE',
+    'EAE'
   ], {
       A: '#minecraft:wooden_slabs',
       B: CR('andesite_alloy'),
       D: Item.of(ASTRA('hammer')).ignoreNBT(),
-      E: 'minecraft:iron_ingot'
+      E: 'minecraft:iron_nugget'
   }).damageIngredient(4).keepIngredient(4)
 
   event.replaceInput(
@@ -156,7 +156,7 @@ ServerEvents.recipes(event => {
       Item.of(CR('mechanical_plough'), 1),
       Item.of(CR('mechanical_saw'), 1),
       Item.of(CR('mechanical_drill'), 1),
-      Item.of(CR('encased_chain_drive'), 2),
+      Item.of(CR('encased_chain_drive'), 3),
       Item.of(CR('adjustable_chain_gearshift'), 2),
       Item.of(CR('gearshift'), 2),
       Item.of(CR('clutch'), 2),
@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
     const copper_machines_cutting = [
         Item.of(CR('fluid_pipe'), 12),
         Item.of(CR('mechanical_pump'), 2),
-        Item.of(CR('fluid_valve'), 2),
+        Item.of(CR('fluid_valve'), 3),
         Item.of(CR('hose_pulley'), 2),
         Item.of(CR('portable_fluid_interface'), 2),
         Item.of(CR('steam_engine'), 1),
