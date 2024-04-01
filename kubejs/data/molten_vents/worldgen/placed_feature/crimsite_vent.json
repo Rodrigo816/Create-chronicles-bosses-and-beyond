@@ -1,9 +1,9 @@
 {
-    "feature": "molten_vents:ochrum_vent",
+    "feature": "molten_vents:crimsite_vent",
     "placement": [
       {
         "type": "minecraft:rarity_filter",
-        "chance": 5000
+        "chance": 4000
       },
       {
         "type": "minecraft:in_square"

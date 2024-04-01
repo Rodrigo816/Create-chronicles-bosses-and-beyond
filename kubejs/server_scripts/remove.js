@@ -62,6 +62,7 @@ ServerEvents.recipes(event => {
         CR('filling/calcite'),
         'forbidden_arcanus:enchanted_golden_apple',
         TFMG('sequenced_assembly/aluminum_ingot'),
+        'epicsamurai:steel_ingot_create_compat',
 
         // Oil
         TFMG('sequenced_assembly/aluminum_ingot'),

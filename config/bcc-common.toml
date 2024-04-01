@@ -3,11 +3,11 @@
 [general]
 	#The CurseForge project ID for the modpack
 	#Range: > 0
-	modpackProjectID = 0
+	modpackProjectID = 980595
 	#The name of the modpack
-	modpackName = "PLEASE_CHANGE_ME"
+	modpackName = "Create Chronicles: Bosses and Beyond"
 	#The version of the modpack
-	modpackVersion = "CHANGE_ME"
+	modpackVersion = "1.3.0"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false

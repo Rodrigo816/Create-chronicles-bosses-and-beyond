@@ -334,13 +334,13 @@ ServerEvents.recipes(event => {
 
   event.recipes.createMilling([AE2('certus_quartz_crystal'), AE2('certus_quartz_crystal')], AE2('quartz_cluster'))
 
-  event.recipes.createMixing(Fluid.of(KJ("destabilized_redstone"), 800),["6x "+MC('redstone'), "2x "+MC('nether_wart')]).heated()
+  event.recipes.createMixing(Fluid.of(KJ("destabilized_redstone"), 600),["3x "+MC('redstone'), "4x "+MC('nether_wart')]).heated()
 
   transitional = AE2('certus_quartz_crystal')
 	event.recipes.createSequencedAssembly([
 		CR('rose_quartz'),
 	], AE2('certus_quartz_crystal'), [
-		event.recipes.createFilling(transitional, [transitional, Fluid.of(KJ("destabilized_redstone"), 100)]),
+		event.recipes.createFilling(transitional, [transitional, Fluid.of(KJ("destabilized_redstone"), 50)]),
 	]).transitionalItem(transitional)
 		.loops(3)
 		.id(CR('rose_quartz'))

@@ -14,8 +14,11 @@ ServerEvents.recipes(event => {
   ], 'minecraft:magma_block').processingTime(100)
 
 
-  // Netherrack
+  //Cheap maps
+  event.remove({id: 'minecraft:map'});
+  event.shapeless('minecraft:map', ['minecraft:paper','minecraft:ink_sac'])
 
+  // Netherrack
   let transitional = 'kubejs:incomplete_netherrack'
   event.recipes.createSequencedAssembly('4x minecraft:netherrack', 'twilightforest:deadrock', [
     event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:soul']),

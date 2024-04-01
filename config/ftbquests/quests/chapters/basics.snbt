@@ -509,7 +509,7 @@
 				""
 				"To expand the atlas, simply add filled or empty maps to it via the Crafting or Cartography Table."
 				""
-				"You can open the world map by pressing &6\"M\"&r&n. If you wish to use the atlas as the world map, which is highly recommended when you have an automation of map farming, navigate to Controls -> Keybinds -> Category: \"FTB Chunks\" -> Open Map and disable the keybinding for opening it.&r"
+				"You can open altas world map by pressing &6\"N\"&r&n. If you wish to use the atlas as the world map, which is highly recommended when you have an automation of map farming, navigate to Controls -> Keybinds -> Category: \"FTB Chunks\" -> Open Map and disable the keybinding for opening it.&r"
 				""
 				"Waypoints can be added by clicking on the waypoint \"red pin\" button or by pressing &e\"y\"&r."
 				""
@@ -524,6 +524,8 @@
 				"Targeted waypoints will always be displayed on the edge of your minimap."
 				""
 				"Death marker  when holding a recovery compass"
+				""
+				"&4&lNether:&r&r Normal map on nether won't work you have to use slice map."
 			]
 			id: "3CE1B3AB173035B9"
 			rewards: [{

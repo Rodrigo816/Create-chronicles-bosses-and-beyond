@@ -523,7 +523,7 @@
 				type: "command"
 			}]
 			shape: "square"
-			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "0DCD8A33E321FA0F"
@@ -1152,8 +1152,8 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
-			icon: "realmrpg_demons:ancient_demon_lord_spawn_egg"
+			description: ["found in infernal altar"]
+			icon: "create:blaze_burner"
 			id: "1447D924C3077D48"
 			rewards: [{
 				command: "/puffish_skills points add @s talentree 1"
@@ -1165,17 +1165,25 @@
 				type: "command"
 			}]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
-				entity: "realmrpg_demons:ancient_demon_lord"
-				icon: "realmrpg_demons:ancient_demon_lord_spawn_egg"
-				id: "187692AE730D8462"
-				type: "kill"
-				value: 1L
+				id: "45F44F82B7A7A783"
+				item: {
+					Count: 1b
+					id: "minecraft:bow"
+					tag: {
+						CustomModelData: 1450104
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				title: "Get trailblazer bow"
+				type: "item"
+				weak_nbt_match: true
 			}]
-			title: "&cNether&f: Ancient Demon Lord"
+			title: "&cNether&f: The Hovering Inferno"
 			x: -1.0d
-			y: 3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1781,7 +1789,7 @@
 			}]
 			title: "&2Overworld&f: The Death King"
 			x: -1.0d
-			y: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1815,7 +1823,9 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "&2Overworld&f: Pumpkillager"
 			x: 4.0d
