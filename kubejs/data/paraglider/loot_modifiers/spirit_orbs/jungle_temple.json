@@ -9,7 +9,7 @@
       "loot_table_id": "minecraft:chests/jungle_temple"
     },
     {
-      "chance": 0.05,
+      "chance": 0.08,
       "condition": "minecraft:random_chance"
     }
   ],

@@ -508,6 +508,8 @@ ServerEvents.recipes(event => {
       Item.of(CR('schedule'), 4),
       Item.of(CR('controls'), 1),
       Item.of('railways:track_switch_andesite', 2),
+      Item.of('railways:portable_fuel_interface', 2),
+      Item.of('railways:fuel_tank', 2),
     ];
   
     multicut(locomotive_machines_cutting, KJ('obsidian_machine'), true);

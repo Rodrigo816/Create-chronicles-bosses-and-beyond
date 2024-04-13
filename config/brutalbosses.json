@@ -5,7 +5,7 @@
   },
   "globalDifficultyMultiplier": {
     "desc:": "Global difficulty multiplier, affects health and damage of all bosses, default:1.0",
-    "globalDifficultyMultiplier": 4.0
+    "globalDifficultyMultiplier": 1.7
   },
   "globalBossSpawnChance": {
     "desc:": "Global boss spawn chance, determines the chance per treasure chest spawn at which a boss can appear in a structure. Chance X in 100, default = 30",

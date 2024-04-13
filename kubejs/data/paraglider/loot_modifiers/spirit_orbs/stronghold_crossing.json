@@ -9,7 +9,7 @@
       "loot_table_id": "minecraft:chests/stronghold_crossing"
     },
     {
-      "chance": 0.06,
+      "chance": 0.08,
       "condition": "minecraft:random_chance"
     }
   ],

@@ -24,6 +24,7 @@ config/jei
 /server_files
 /mods/BetterTags*
 /config/bettertags*
+/.mixin.out
 
 
 # files

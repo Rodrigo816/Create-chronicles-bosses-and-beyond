@@ -20,6 +20,7 @@
 ["Elemental Spell Foci - Abilities"]
 	"Enable glyph empowering" = true
 	"Enable regen bonus under special conditions" = true
+	"Enable iframe skip combos" = true
 
 #Adjust Elemental Armor Mana Buffs
 ["Elemental Armors"]

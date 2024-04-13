@@ -98,3 +98,7 @@
 	#Allows placing tools on tripwire hooks
 	tool_hook = true
 
+[lectern]
+	#Improved lectern screen allowing to edit font of a book while on it
+	improved_screen = true
+

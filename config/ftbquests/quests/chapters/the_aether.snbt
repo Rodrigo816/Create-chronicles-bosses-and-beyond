@@ -1359,9 +1359,11 @@
 			size: 1.7d
 			subtitle: "The sky is the limit"
 			tasks: [{
-				id: "039640E1597B86EF"
-				item: "aether:aether_portal_frame"
-				type: "item"
+				advancement: "aether:enter_aether"
+				criterion: ""
+				icon: "aether:aether_portal_frame"
+				id: "3ED3012B555AC165"
+				type: "advancement"
 			}]
 			title: "Making the portal"
 			x: -21.25d
