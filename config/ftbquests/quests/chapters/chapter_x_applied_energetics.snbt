@@ -37,6 +37,11 @@
 				"The &8sky stone block&r can be duplicated once obtained one."
 			]
 			id: "4CCA16E6E4070E37"
+			rewards: [{
+				id: "26932829672076C7"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			subtitle: "Explore the moon"
 			tasks: [
 				{
@@ -74,6 +79,11 @@
 				"4CCA16E6E4070E37"
 			]
 			id: "5B24C4560809333B"
+			rewards: [{
+				id: "5EB4D23AA9378868"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "40B35917487461D0"
 				item: "ae2:printed_silicon"
@@ -87,6 +97,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "5F99D59B31FF34D4"
+			rewards: [{
+				id: "7236BE2E9397A1F5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AE20B3EF81A3343"
 				item: "ae2:silicon"
@@ -98,6 +113,11 @@
 		{
 			dependencies: ["4919AEB1300D63B7"]
 			id: "76CB692248EAF336"
+			rewards: [{
+				id: "45F1F8C609A19BB1"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2753728847ABC719"
@@ -123,6 +143,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "4919AEB1300D63B7"
+			rewards: [{
+				id: "1B570C90802E9EEE"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "678BE1D28085C785"
 				item: "create_dd:integrated_circuit"
@@ -139,6 +164,11 @@
 			dependency_requirement: "one_completed"
 			description: ["It's time to start making some &eProcessors&f. These are an important crafting ingredient used to make the large majority of ME-connected devices."]
 			id: "3026C7FFA3B230FA"
+			rewards: [{
+				id: "52E564CE18CB8C1D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5DF56494EA4619D2"
@@ -165,6 +195,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "78425DC3875B9854"
+			rewards: [{
+				id: "3816472B177457ED"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			subtitle: "&lWelcome to &bApplied Energistics 2&f!"
 			tasks: [{
 				id: "51AA3BC3AFF2FEDA"
@@ -183,11 +218,18 @@
 				"AE2's wrench comes in both certus and nether quartz flavours."
 			]
 			id: "5D3EA637C19E26F4"
-			rewards: [{
-				id: "1D670A1D6B660880"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1D670A1D6B660880"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "602D20D8239BFEED"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			subtitle: "Does exactly what you'd expect."
 			tasks: [{
@@ -215,13 +257,14 @@
 			id: "79A7417475A593C6"
 			rewards: [
 				{
-					id: "0A121DA56B19C70D"
-					type: "random"
-				}
-				{
 					id: "126ED16DF4BD65B4"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "109A3EEB58842B85"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "Plug in"
@@ -243,13 +286,14 @@
 			id: "25F281C3D8849819"
 			rewards: [
 				{
-					id: "4423CC3D5D71E079"
-					type: "random"
-				}
-				{
 					id: "0E04CCB12AEABDC8"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "32F99FAA6DFE37D5"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -281,13 +325,14 @@
 			id: "738C5CDEA3283099"
 			rewards: [
 				{
-					id: "3A74555E1BFB5373"
-					type: "random"
-				}
-				{
 					id: "6FBCD5EB6F46ADE8"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "64FE65B6C859CC88"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			shape: "circle"
@@ -309,13 +354,14 @@
 			id: "3B06C0FF8E28AC91"
 			rewards: [
 				{
-					id: "4416FC68EE90FAFE"
-					type: "random"
-				}
-				{
 					id: "7ABA25494FDEB81A"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "5CA2E0815B52FEAB"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -353,13 +399,14 @@
 			id: "229F5549A476E523"
 			rewards: [
 				{
-					id: "2C6C56E7479DA25A"
-					type: "random"
-				}
-				{
 					id: "0FFEA304CBC22EBB"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "70F5470162410280"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "Not quite antimatter"
@@ -397,13 +444,14 @@
 					type: "item"
 				}
 				{
-					id: "55AB4B835114E35A"
-					type: "random"
-				}
-				{
 					id: "3A2DB97F3C8432C7"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "3A87C70D322B6B23"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -438,13 +486,14 @@
 			id: "52E7496E0A9118F6"
 			rewards: [
 				{
-					id: "577F9E211E7D3CE2"
-					type: "random"
-				}
-				{
 					id: "6B0F82C6592DDA2E"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "47352ADED42DB625"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -503,13 +552,20 @@
 			id: "3D2DDC65DED45F4A"
 			rewards: [
 				{
-					id: "09951A74EC991C7D"
-					type: "random"
-				}
-				{
 					id: "03379D3A97E0A04A"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "29E9FE77ECDB40A8"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "04005C548122D2F0"
+					item: "numismatics:cog"
+					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -535,13 +591,14 @@
 			id: "6F8A1655E91E7E89"
 			rewards: [
 				{
-					id: "4CB6E8DF68415340"
-					type: "random"
-				}
-				{
 					id: "4E4B16DCFAA8E28B"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "6BECB03A9100B5B2"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "Under the knife"
@@ -583,10 +640,6 @@
 			id: "5BCF209E014D37E6"
 			rewards: [
 				{
-					id: "10D575CE1A1D1BFB"
-					type: "random"
-				}
-				{
 					id: "73B2E0E9789C870A"
 					type: "xp"
 					xp: 10
@@ -595,6 +648,11 @@
 					count: 2
 					id: "2A27534ADC8B669E"
 					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+				{
+					id: "43F54CD9D8096821"
+					item: "numismatics:bevel"
 					type: "item"
 				}
 			]
@@ -639,13 +697,14 @@
 			id: "7A47716BA89E7B06"
 			rewards: [
 				{
-					id: "51076FC734450255"
-					type: "random"
-				}
-				{
 					id: "6B93B89D63DEB503"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "238E1EACC0903F6A"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -671,6 +730,11 @@
 				"The first of these two items is the &bMatter Ball&f, requiring at least a 1k storage component and 256 items' worth of voided material."
 			]
 			id: "093F71164A80A452"
+			rewards: [{
+				id: "1DC317549D5CB8AA"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7DD5364D658B121F"
@@ -699,13 +763,14 @@
 			id: "171DB69D600EBD90"
 			rewards: [
 				{
-					id: "23581A3AD853DADF"
-					type: "random"
-				}
-				{
 					id: "7989CCFEB7EDE569"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "114666BBCE25C8C3"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			shape: "circle"
@@ -737,13 +802,14 @@
 			id: "580F889F027A87FE"
 			rewards: [
 				{
-					id: "6FE1849F40566B9F"
-					type: "random"
-				}
-				{
 					id: "46C8C3B106287313"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "60FAC646D0E9F394"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "Defragmentation"
@@ -765,13 +831,14 @@
 			id: "4256AD377F068FF4"
 			rewards: [
 				{
-					id: "7098568191670FDB"
-					type: "random"
-				}
-				{
 					id: "4B721FB0F90BAEE9"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "2E5965D2F51BA39E"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -788,13 +855,14 @@
 			id: "3D470D57CC2E7A9E"
 			rewards: [
 				{
-					id: "6EF941B8A5211599"
-					type: "random"
-				}
-				{
 					id: "64C0A6A067A6A86D"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "45996D6574EC1720"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			shape: "circle"
@@ -816,13 +884,14 @@
 			id: "61742FBBD1E5D42F"
 			rewards: [
 				{
-					id: "10EE0F6537E02EDC"
-					type: "random"
-				}
-				{
 					id: "386E583B0B608DDD"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "616B33955E707D70"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			shape: "circle"
@@ -848,13 +917,14 @@
 			id: "130A80D8B3E4EA98"
 			rewards: [
 				{
-					id: "4F923BD94CE2F2E2"
-					type: "random"
-				}
-				{
 					id: "349B89CB821805A8"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "14449D4FFEA6AC48"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			size: 1.0d
@@ -899,13 +969,14 @@
 					type: "item"
 				}
 				{
-					id: "4DCC858860C9DDFC"
-					type: "random"
-				}
-				{
 					id: "5565EAA51803B8EA"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "3F5915B37BE8308A"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -936,13 +1007,14 @@
 			id: "2506598B0A22BE75"
 			rewards: [
 				{
-					id: "71AA3C6BEAD58098"
-					type: "random"
-				}
-				{
 					id: "0BFF789D33A6827D"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "7474F91197A07D56"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -963,13 +1035,14 @@
 			id: "32728BD9BD6384F3"
 			rewards: [
 				{
-					id: "25A4F7EAD7AE5210"
-					type: "random"
-				}
-				{
 					id: "52D38D36F1DB8385"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "78C4ADD9044876B5"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			shape: "circle"
@@ -991,13 +1064,14 @@
 			id: "4BEC405C5EC58218"
 			rewards: [
 				{
-					id: "0B40A9A56D9C41F2"
-					type: "random"
-				}
-				{
 					id: "4B174EAFF5992B6C"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "35D7D9E14C97AF50"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1018,13 +1092,14 @@
 			id: "16BF82CCB4624E9C"
 			rewards: [
 				{
-					id: "63DE69E6B0EE669C"
-					type: "random"
-				}
-				{
 					id: "0F2D07D4525CDAC0"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "00F36C97DDEB992F"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			shape: "circle"
@@ -1054,13 +1129,14 @@
 			id: "2393A0DC1A59CDEC"
 			rewards: [
 				{
-					id: "17FC4D7C4815047E"
-					type: "random"
-				}
-				{
 					id: "69F29D55A5BC25F2"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "346F504CDC4DF93D"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			shape: "circle"
@@ -1083,13 +1159,14 @@
 			id: "06252C87B61A19F3"
 			rewards: [
 				{
-					id: "41CAA8AC87508772"
-					type: "random"
-				}
-				{
 					id: "0DEA958ABF15E53D"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "4B38E17A7BBD84AF"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "Download more RAM"
@@ -1118,13 +1195,14 @@
 			id: "15B4189EFAD4B6E2"
 			rewards: [
 				{
-					id: "3281C40E028E78EA"
-					type: "random"
-				}
-				{
 					id: "1382623AA6B83F68"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "3D714A5A50FC50E4"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "Download more CPU cores"
@@ -1153,13 +1231,14 @@
 			id: "753831874D7C3BC8"
 			rewards: [
 				{
-					id: "6416325AF7B0472E"
-					type: "random"
-				}
-				{
 					id: "4D1085F582724465"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "37C886AE5AF81EA2"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "Download more VRAM"
@@ -1190,13 +1269,14 @@
 			id: "35029D28522C7A28"
 			rewards: [
 				{
-					id: "003D70F9D55FF573"
-					type: "random"
-				}
-				{
 					id: "0A937827A7D082F1"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "65DCDE8346F55CA9"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "The first kilobyte."
@@ -1223,10 +1303,6 @@
 			id: "607E3A4AEEA46A98"
 			rewards: [
 				{
-					id: "4F105EBB11BD11E4"
-					type: "random"
-				}
-				{
 					id: "040F5FFB1EAD9A07"
 					type: "xp"
 					xp: 10
@@ -1234,6 +1310,11 @@
 				{
 					id: "3E90E38196284547"
 					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+				{
+					id: "062F8117F11D622B"
+					item: "numismatics:bevel"
 					type: "item"
 				}
 			]
@@ -1263,13 +1344,14 @@
 			id: "3E9FA4241DD2A49F"
 			rewards: [
 				{
-					id: "2627BDB12F604FDF"
-					type: "random"
-				}
-				{
 					id: "7DC51ED69913C088"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "1B1B6005ED9BB34E"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1298,13 +1380,14 @@
 			id: "2C7EE6C411E3CF59"
 			rewards: [
 				{
-					id: "79D7BB9A0A165183"
-					type: "random"
-				}
-				{
 					id: "51ED1467CFF7D04F"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "6AEAC630163D4D53"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1329,13 +1412,14 @@
 			id: "630BDF564F7516D7"
 			rewards: [
 				{
-					id: "340D6787C4FF4B31"
-					type: "random"
-				}
-				{
 					id: "5B71BDE86148D950"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "64F466824D5D679F"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -1365,13 +1449,14 @@
 			id: "5A27BA1E5C692EB1"
 			rewards: [
 				{
-					id: "2E55CFD6F5B04BF2"
-					type: "random"
-				}
-				{
 					id: "41854F9E0ED9381F"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "60BE7075FA7BB27A"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "This is what you're here for"
@@ -1402,13 +1487,14 @@
 			id: "64A2A85357384A51"
 			rewards: [
 				{
-					id: "17EB176D4DE83BFC"
-					type: "random"
-				}
-				{
 					id: "7EF455A6A19383C1"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "19C6A202BFC8D004"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			shape: "circle"
@@ -1434,13 +1520,14 @@
 			id: "5D03D736B9E76E16"
 			rewards: [
 				{
-					id: "63496609E6023BC7"
-					type: "random"
-				}
-				{
 					id: "08F97A7874C04ABC"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "3F9B3EC5139C8542"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1465,13 +1552,14 @@
 			id: "5236164BE64893D2"
 			rewards: [
 				{
-					id: "1ED05015AE0C6C64"
-					type: "random"
-				}
-				{
 					id: "59995B584EBF7645"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "7BC24BB341EFA4F9"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1495,13 +1583,14 @@
 			id: "72426A0FB41CD542"
 			rewards: [
 				{
-					id: "0EA168B27527751C"
-					type: "random"
-				}
-				{
 					id: "6019DB785B925599"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "06E00C540B51E7A6"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1525,13 +1614,14 @@
 			id: "109FBFA37FF99341"
 			rewards: [
 				{
-					id: "2B83F7973D013783"
-					type: "random"
-				}
-				{
 					id: "410D9D60A5C7C2A2"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "6BC75E66FDE7E4DC"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			size: 1.0d
@@ -1564,13 +1654,14 @@
 			id: "089899282C7F87E4"
 			rewards: [
 				{
-					id: "29E5B3FC2950EB08"
-					type: "random"
-				}
-				{
 					id: "71E073B62735529F"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "3E4057E72DE8B7B2"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "This has a use outside of crafting cables."
@@ -1595,13 +1686,14 @@
 			id: "334AF33B87A48816"
 			rewards: [
 				{
-					id: "66478A44B62A4264"
-					type: "random"
-				}
-				{
 					id: "6511B3E7B634CD50"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "085D7D365285F39D"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "Cut out the middleman"
@@ -1624,13 +1716,14 @@
 			id: "4B3E500121857046"
 			rewards: [
 				{
-					id: "4813FA25A7ACFCD7"
-					type: "random"
-				}
-				{
 					id: "4FA1462703F2ED35"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "28D1079FC47C7C6B"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			shape: "circle"
@@ -1663,13 +1756,14 @@
 			id: "43E5907E27844D18"
 			rewards: [
 				{
-					id: "1843AF53CF453F34"
-					type: "random"
-				}
-				{
 					id: "56D940B894AC8F62"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "6C3D4E6AF18569AD"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "Too hot for the ATF"
@@ -1704,13 +1798,14 @@
 			id: "725685829EF53BA4"
 			rewards: [
 				{
-					id: "04675A556531A60A"
-					type: "random"
-				}
-				{
 					id: "4EE94FDE25FA98C9"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "0E56027A91A08857"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "The O"
@@ -1732,13 +1827,14 @@
 			id: "6FBCDEA419DB1D37"
 			rewards: [
 				{
-					id: "669461C568A5B604"
-					type: "random"
-				}
-				{
 					id: "5DB24A23808461E6"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "5BA2008076A258DB"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "GET OUT"
@@ -1760,13 +1856,14 @@
 			id: "323963AAF0375942"
 			rewards: [
 				{
-					id: "7A9EACBC90969464"
-					type: "random"
-				}
-				{
 					id: "4F78BD9D22FB755E"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "69350517BFB912DD"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "The spare chest"
@@ -1784,13 +1881,14 @@
 			id: "4ACC788E6E79B711"
 			rewards: [
 				{
-					id: "0C3D77B18F45669D"
-					type: "random"
-				}
-				{
 					id: "655D31C539B32295"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "28871770DC63526E"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1807,13 +1905,14 @@
 			id: "4EA88BEBCCF09C54"
 			rewards: [
 				{
-					id: "4F2DFAF4E81CEB5B"
-					type: "random"
-				}
-				{
 					id: "6093C9A8F4EECBF4"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "4E82C4670D959B66"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			shape: "circle"
@@ -1840,13 +1939,14 @@
 			id: "35FDE052B50EFAAF"
 			rewards: [
 				{
-					id: "206C411CE555BE7C"
-					type: "random"
-				}
-				{
 					id: "2EB798AA1DA6C5C3"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "71EFC85DE7329962"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "The I"
@@ -1870,13 +1970,14 @@
 			id: "3D4ED245E498E765"
 			rewards: [
 				{
-					id: "42AF1EBEA96BF8EB"
-					type: "random"
-				}
-				{
 					id: "4D7A8138B5CB050A"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "5A6F9ADA07F93E41"
+					item: "numismatics:bevel"
+					type: "item"
 				}
 			]
 			subtitle: "GET IN"

@@ -66,11 +66,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Night Vision potion effect while equipped."]
 			id: "000000000000032A"
-			rewards: [{
-				id: "59F0A2478F033F31"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "59F0A2478F033F31"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A5753D40BE45ADB"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Night Vision."
 			tasks: [{
@@ -86,11 +93,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Regeneration potion effect when equipped."]
 			id: "00000000000003A3"
-			rewards: [{
-				id: "50D2341A45E50AFF"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "50D2341A45E50AFF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4A1FE463A894487C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Regeneration."
 			tasks: [{
@@ -106,11 +120,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants immunity to the poison effect when equipped."]
 			id: "00000000000003A5"
-			rewards: [{
-				id: "64C3F5EAB53C0598"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "64C3F5EAB53C0598"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "095FB372A10BC112"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Poison Resistance."
 			tasks: [{
@@ -126,11 +147,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Strength potion effect when equipped."]
 			id: "00000000000003A9"
-			rewards: [{
-				id: "06D60DEFE3FEF59D"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "06D60DEFE3FEF59D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "2F6A640E4F483A69"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Strength."
 			tasks: [{
@@ -146,11 +174,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grows nearby crops faster when equipped."]
 			id: "00000000000003AB"
-			rewards: [{
-				id: "26821BD139D0B7F3"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "26821BD139D0B7F3"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "53B04D6F516DB443"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Growth."
 			tasks: [{
@@ -166,11 +201,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Invisibility potion effect when equipped."]
 			id: "00000000000003AF"
-			rewards: [{
-				id: "5645A6D9FB673D78"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "5645A6D9FB673D78"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "5C5D997B79D8103F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Invisibility."
 			tasks: [{
@@ -186,11 +228,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Water Breathing potion effect when equipped."]
 			id: "00000000000003B1"
-			rewards: [{
-				id: "00721004C29D260E"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "00721004C29D260E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "4A2FE94710D113F6"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Water Breathing."
 			tasks: [{
@@ -207,11 +256,18 @@
 			description: ["Grants immunity to the Wither Potion effect when equipped."]
 			hide: true
 			id: "00000000000003B5"
-			rewards: [{
-				id: "19F16C0316ACC5FF"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "19F16C0316ACC5FF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "2C702DA2200D11A2"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Wither Ring."
 			tasks: [{
@@ -227,11 +283,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Dolphins Grace potion effect when equipped."]
 			id: "00000000000003B8"
-			rewards: [{
-				id: "05064E49AE423F96"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "05064E49AE423F96"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3476363AAAA2C654"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Dolphin Ring."
 			tasks: [{
@@ -247,11 +310,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants Knockback Immunity when equipped."]
 			id: "00000000000003BB"
-			rewards: [{
-				id: "447CDA14655C706C"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "447CDA14655C706C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B799F766C71C222"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Knockback Resistance."
 			tasks: [{
@@ -267,11 +337,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants Fire Resistance potion effect when equipped."]
 			id: "00000000000003BE"
-			rewards: [{
-				id: "0020300BD9EF99B9"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "0020300BD9EF99B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "110CE4CDECC49EB3"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Fire Resistance."
 			tasks: [{
@@ -287,11 +364,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Pull nearby xp orbs when equipped."]
 			id: "00000000000003C1"
-			rewards: [{
-				id: "105AA2A3A8E7FD25"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "105AA2A3A8E7FD25"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7F5668C01F5438EA"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Experience."
 			tasks: [{
@@ -307,11 +391,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Removes all nearby water blocks around the player when equipped."]
 			id: "00000000000003C4"
-			rewards: [{
-				id: "3161B782D5915B45"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "3161B782D5915B45"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7725487591CADBBD"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Sponge."
 			tasks: [{
@@ -327,11 +418,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Haste potion effect when equipped."]
 			id: "00000000000003C7"
-			rewards: [{
-				id: "0BF341DD10476F47"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "0BF341DD10476F47"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20B1BCEAB7F7763B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Mining."
 			tasks: [{
@@ -347,11 +445,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants five extra hearts when equipped."]
 			id: "00000000000003CA"
-			rewards: [{
-				id: "56EA55F689ADA2F7"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "56EA55F689ADA2F7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "233A9C8C1D5EB813"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Health."
 			tasks: [{
@@ -367,11 +472,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants immunity to the Slowness potion effect."]
 			id: "00000000000003CD"
-			rewards: [{
-				id: "7ECAA07595672464"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "7ECAA07595672464"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "42F26BA0F12CF2DE"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Slowness Resistance."
 			tasks: [{
@@ -387,11 +499,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Jump Boost potion effect when equipped."]
 			id: "00000000000003D0"
-			rewards: [{
-				id: "03F6A49BC06FF04D"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "03F6A49BC06FF04D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "0EF3043963F2F36B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Jump Boost."
 			tasks: [{
@@ -407,11 +526,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Luck potion effect when equipped."]
 			id: "00000000000003D2"
-			rewards: [{
-				id: "6D3C790A0FB92A82"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "6D3C790A0FB92A82"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3933AC8DA4F83092"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Luck."
 			tasks: [{
@@ -427,11 +553,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Speed potion effect when equipped."]
 			id: "00000000000003D6"
-			rewards: [{
-				id: "4E6AA0F67D3B13DD"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "4E6AA0F67D3B13DD"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "587ACE420BB01B36"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Speed."
 			tasks: [{
@@ -447,11 +580,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Slow Fall potion effect when equipped."]
 			id: "00000000000003D9"
-			rewards: [{
-				id: "5074AE73AA6C672F"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "5074AE73AA6C672F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7051EFE8ECE15A1C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Slow Fall."
 			tasks: [{
@@ -516,6 +656,11 @@
 					item: "kubejs:ascendant_badge"
 					type: "item"
 				}
+				{
+					id: "42653208ADDF81FE"
+					item: "numismatics:sun"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 2.5d
@@ -531,11 +676,18 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			id: "08913D75A611396B"
-			rewards: [{
-				id: "15869D5C3084D857"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "15869D5C3084D857"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "5B1C228CE9CFA32F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			subtitle: "Find a Ring of Water Walking."
 			tasks: [{
 				id: "3C6522DEFC6EAD3C"
@@ -549,11 +701,18 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			id: "7B8E7F4A2D5BB1F0"
-			rewards: [{
-				id: "53B32688D804A7B6"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "53B32688D804A7B6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DDC4167230B0FA5"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			subtitle: "Find a Ring of Magnetism."
 			tasks: [{
 				id: "37948693F35D0718"
@@ -568,11 +727,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "64157A1BC3E09963"
-			rewards: [{
-				id: "7B46734FBCBF6692"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "7B46734FBCBF6692"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "175B6E0528E3B4E1"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "Find a Ring of Steadfast steps"
 			tasks: [{

@@ -43,6 +43,11 @@
 			dependencies: ["5F8B17F4A8CF47C7"]
 			description: ["Let's get the basic parts ready to head to space."]
 			id: "59753336427A57A6"
+			rewards: [{
+				id: "63A8D8C6D85E85F4"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			subtitle: "Craft a rocket nose cone."
 			tasks: [{
 				id: "3C9E552FF109985E"
@@ -57,6 +62,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "5F8B17F4A8CF47C7"
+			rewards: [{
+				id: "721DC53FF2796F54"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "075E1F8A5CAED24C"
 				item: "forbidden_arcanus:whirlwind_prism"
@@ -70,6 +80,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "2F520B59F10123D2"
+			rewards: [{
+				id: "7B21D24982D37EAD"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "313DDCE3C70B036C"
@@ -84,6 +99,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "778AEC1710A4E237"
+			rewards: [{
+				id: "07FE8BE80975ABF7"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "3052E3B7BCD06CBF"
@@ -98,6 +118,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "08ED76082CFF1D16"
+			rewards: [{
+				id: "25E4ADA9A8433B4D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "7DF1B8FCABA555F8"
@@ -112,6 +137,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "797DCA89A0B3FBB8"
+			rewards: [{
+				id: "10CE28573E2AAE93"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DBEA7A9720638BE"
 				item: "create:black_seat"
@@ -125,6 +155,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "0D1A3BE5396104F7"
+			rewards: [{
+				id: "06D96115AF487ADD"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				count: 11L
 				id: "15E300DC84EC9BB3"
@@ -166,6 +201,12 @@
 				"Space will decelerate it. Make sure you do not hit the ground too fast: the lander will explode and you'll be left with no way home. The truly paranoind will take two rockets. F5 can help with the landing process."
 			]
 			id: "7148FF0A0F2F9890"
+			rewards: [{
+				count: 20
+				id: "62981A2CE861546B"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Space Engineers"
@@ -185,6 +226,11 @@
 		{
 			dependencies: ["7148FF0A0F2F9890"]
 			id: "47A6ACAA667AD14A"
+			rewards: [{
+				id: "20BE567DCE029C47"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -200,6 +246,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "2CCB9C223585FA23"
+			rewards: [{
+				id: "11F1F5B4C046DB71"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E4A4A70072E9777"
 				item: "ad_astra:steel_engine"
@@ -214,6 +265,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "4EE82272D412DB9C"
+			rewards: [{
+				id: "2561488F73A82985"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "22A6EB743446800A"
@@ -233,6 +289,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "75BD9E93A6143DC7"
+			rewards: [{
+				id: "1D84CCC85A0ACFE5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "420BD0F655854B7A"
 				item: "ad_astra:launch_pad"
@@ -246,6 +307,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "72EC381A9B79EF64"
+			rewards: [{
+				id: "04857F1FAB3823E6"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "37B838D2ABF21CC5"
 				item: "ad_astra:fuel_bucket"
@@ -264,11 +330,18 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "086223FF8861479F"
-			rewards: [{
-				id: "45882951E2B3695C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "45882951E2B3695C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C58ACEABB4D77F1"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1645E38B9254D660"
@@ -336,11 +409,18 @@
 			icon: "ad_astra:oxygen_loader"
 			id: "6CE8C3410296E977"
 			min_width: 300
-			rewards: [{
-				id: "62FF6DA8DA2C53C5"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "62FF6DA8DA2C53C5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4AC9900B81E930A6"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7D926F7974EA410B"
@@ -372,6 +452,11 @@
 			icon: "ad_astra:space_painting"
 			id: "509BB6BF39848F5B"
 			optional: true
+			rewards: [{
+				id: "4CC6058B3C286B6F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				count: 32L
 				id: "2EF04DC642F0A0AA"
@@ -398,6 +483,11 @@
 			]
 			id: "01B1F88F57961B10"
 			optional: true
+			rewards: [{
+				id: "0E405A04A64B1B7D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "469F37921FE70F08"
 				item: "ad_astra:oxygen_distributor"
@@ -414,11 +504,18 @@
 			hide_dependency_lines: true
 			id: "37D437BA68D6864C"
 			optional: true
-			rewards: [{
-				id: "56C2799476D03572"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "56C2799476D03572"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6A8372695BBBA7E3"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 8L
 				id: "64F2521F16C07397"
@@ -436,11 +533,18 @@
 			hide_dependency_lines: true
 			id: "29A64A556C101D83"
 			optional: true
-			rewards: [{
-				id: "496CCA723B67B909"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "496CCA723B67B909"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6EFD3AFA6C1F5E46"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "554F69A27BBC5A76"
 				item: "ad_astra:water_pump"
@@ -477,6 +581,11 @@
 					count: 5
 					id: "465BA134DD240761"
 					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					id: "37679D84DC025A58"
+					item: "numismatics:bevel"
 					type: "item"
 				}
 			]

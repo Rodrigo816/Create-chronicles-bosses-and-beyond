@@ -25,11 +25,18 @@
 			description: ["Pirates say it gave sight to the legendary Black Pearl"]
 			id: "1E4B9F8A3401B4BF"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "68EA32EFAEB5143B"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "68EA32EFAEB5143B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3DD4BFE7D5933942"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Found in Buried Chests"
 			tasks: [{
 				id: "1A729831B2C6D804"
@@ -50,11 +57,18 @@
 			description: ["One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world"]
 			id: "37F39A63C0C2934F"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "3F352686CC502342"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "3F352686CC502342"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F3F54B858EC9DA0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Found in Igloos"
 			tasks: [{
 				id: "3C6A1B486768BB94"
@@ -75,11 +89,18 @@
 			description: ["The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owner"]
 			id: "02DE3FA28CBAE857"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "2100F0746434B10A"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "2100F0746434B10A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "68D1B1BC7568082E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Found in Pillager Outposts"
 			tasks: [{
 				id: "1EBBF31125F4D187"
@@ -100,11 +121,18 @@
 			description: ["It is told that it was forged by the first blacksmiths of time"]
 			id: "3BC1492D43F6B120"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "4B24AAF7E62764C4"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "4B24AAF7E62764C4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "57AB4F82739C0C8E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Found in Mineshafts"
 			tasks: [{
 				id: "74DD9F7281936F2E"
@@ -125,11 +153,18 @@
 			description: ["It was lost by a demon in the battle between the Aether and the Nether"]
 			id: "1F4AE081014800B4"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "6ED622B2D318C1A7"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "6ED622B2D318C1A7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7F84F4C2ACD8DB73"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Found in Nether Fortresses"
 			tasks: [{
 				id: "2EBD7434762970D0"
@@ -151,11 +186,18 @@
 			description: ["Legends say this eye once belonged to one of the great Sandworms"]
 			id: "22E0846B96BBD5DD"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "08896BAE21310E2D"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "08896BAE21310E2D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4FAEA363F7A35F96"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Found in Desert Pyramids"
 			tasks: [{
 				id: "20C9F4D0C3D85835"
@@ -176,11 +218,18 @@
 			description: ["This eye is believed to have given our ancestors the knowledge of Redstone"]
 			id: "50B4EEBAF5CF3122"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "4D9FA1892ACCDB42"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "4D9FA1892ACCDB42"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "388664454D9BC6AB"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Found in Jungle Pyramids"
 			tasks: [{
 				id: "6B27D02922CBE257"
@@ -201,11 +250,18 @@
 			description: ["A powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives"]
 			id: "5EC521DA8FF06758"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "592FF0077C53B240"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "592FF0077C53B240"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5054487C89FB859C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Found in Bastions treasure chest"
 			tasks: [{
 				id: "2560EE369A9298B7"
@@ -226,11 +282,18 @@
 			description: ["A holy talisman said to protect its owner from bad luck"]
 			id: "0C61389C18B4A2B4"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "631C513B233BC412"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "631C513B233BC412"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "69E9FF57A7F437E0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Buy it from a master cleric"
 			tasks: [{
 				id: "0EED6B0CA7E5C945"
@@ -251,11 +314,18 @@
 			description: ["It has seen many warriors drown into the depths of the sea"]
 			id: "763F1FB0C55F702F"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "370DCBB20E4513E6"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "370DCBB20E4513E6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7290922B5B72345E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Get it by Killing Elder Guardian"
 			tasks: [{
 				id: "0851A0649877E349"
@@ -276,11 +346,18 @@
 			description: ["Without this eye, the Evoker has no power"]
 			id: "0A6EBBE5CD80EF14"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "21CFCB591AF1A6C0"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "21CFCB591AF1A6C0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3164447E72990273"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Dropped by Evokers"
 			tasks: [{
 				id: "0C82B40849F15F55"
@@ -301,11 +378,18 @@
 			description: ["Has witnessed destruction. Maybe it also witnessed your stuff disappear"]
 			id: "33EF47DF16D412B5"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "0884B0B40E117B0D"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "0884B0B40E117B0D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "03E971302F8223CA"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Dropped by The Wither"
 			tasks: [{
 				id: "287BB9E7276751F7"
@@ -326,11 +410,18 @@
 			description: ["This pupil is believed to have seen the ancient brewing recipes that were lost in time."]
 			id: "343AB719F81DFC63"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "7F0FCC7B96AE6A29"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "7F0FCC7B96AE6A29"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6EC254DF19223CC6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: " Craft it using the witch pupil"
 			tasks: [{
 				id: "7DA4E17AB988FAD8"
@@ -351,11 +442,18 @@
 			description: ["Remembrance of the past lives of those who live in death"]
 			id: "401C9B25D2B7B49F"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "1AA465D134BA7CD1"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "1AA465D134BA7CD1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "480BF26F85998ABD"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: " Craft it using an Undead Soul"
 			tasks: [{
 				id: "20A121DA1AC34CD3"
@@ -376,11 +474,18 @@
 			description: ["Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying"]
 			id: "63A35C0C01372EB6"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "65FC57F9C96B29AC"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "65FC57F9C96B29AC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7F95B9AC69FE8996"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Craft it using aquatic items"
 			tasks: [{
 				id: "4542CE1355D29B3B"
@@ -401,11 +506,18 @@
 			description: ["No information about this eye"]
 			id: "1C89D285F0501472"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "5E464F5F71FB4FEA"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "5E464F5F71FB4FEA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "484E14715040219F"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "ave a small chance to get it when enchanting"
 			tasks: [{
 				id: "6D134B2D3A3BE8AA"
@@ -436,6 +548,11 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "5B9C1D10A217657D"
+			rewards: [{
+				id: "15BBB24830C1B4A8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "End Remaster"
 			tasks: [{
 				id: "650AD081A386407A"
@@ -457,11 +574,18 @@
 			]
 			hide_dependency_lines: true
 			id: "09C33BB3342632B4"
-			rewards: [{
-				id: "3E80EBBA07E1F9CB"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "3E80EBBA07E1F9CB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "11B1982FBB3D5F87"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			subtitle: "It is time to face the mighty Ender Dragon"
 			tasks: [{

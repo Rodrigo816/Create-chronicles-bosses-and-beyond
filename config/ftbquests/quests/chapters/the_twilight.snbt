@@ -17,11 +17,18 @@
 			]
 			hide: true
 			id: "2F0F635C06E8D307"
-			rewards: [{
-				id: "5492E3E7C1F5AE23"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "5492E3E7C1F5AE23"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1F91E8BA56BD1E92"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 1.7d
 			subtitle: "The twilight zone"
@@ -40,11 +47,18 @@
 			dependencies: ["2F0F635C06E8D307"]
 			description: ["The Blank magic map can be used similar to a normal map, but inside the twilight forest it will show all the nearby biomes and objectives in said biome. It's very usefull for finding your way around."]
 			id: "51EC1DBEAFF575D7"
-			rewards: [{
-				id: "2C00EFF4D95465A8"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "2C00EFF4D95465A8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E1C77210823A93B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "A useful guide"
 			tasks: [{
@@ -60,11 +74,19 @@
 			dependencies: ["51EC1DBEAFF575D7"]
 			description: ["Your first &ctarget&r is the &aNaga&r, which lives in the &ecourtyard of the forest&r. "]
 			id: "043A32CFAF07245A"
-			rewards: [{
-				id: "48129AD4ABD679B4"
-				type: "xp_levels"
-				xp_levels: 25
-			}]
+			rewards: [
+				{
+					id: "48129AD4ABD679B4"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 32
+					id: "2726CF36932480DC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "Found in forests. Unlocks the &eLich Tower&r."
 			tasks: [{
@@ -80,17 +102,25 @@
 			dependencies: ["043A32CFAF07245A"]
 			description: ["Atop the &egrand tower&r is the &cLich&r. While shielded &ehe is unable to be damaged&r, however his &bown attacks may be lethal to him&r."]
 			id: "65E6F43E380A343B"
-			rewards: [{
-				id: "0105941E62BE1CA6"
-				item: {
-					Count: 1b
-					id: "twilightforest:fortification_scepter"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "0105941E62BE1CA6"
+					item: {
+						Count: 1b
+						id: "twilightforest:fortification_scepter"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 32
+					id: "164D54883E2CB856"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "Found in forests. Unlocks Labyrinths and Yeti Lairs."
 			tasks: [{
@@ -127,6 +157,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "47BE539B2F759871"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
 			]
 			shape: "square"
 			subtitle: "Found in Hollow Hills in swamps. Unlocks The Dark Forest."
@@ -158,6 +193,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "4D312ADC61F028FF"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
 			]
 			shape: "square"
 			subtitle: "Found in Dark Towers in The Dark Forest."
@@ -174,11 +214,19 @@
 			dependencies: ["65E6F43E380A343B"]
 			description: ["Deep in the &bSnowy Forest&r you will find the &aLair of the Yeti&r. &aYetis&r can pick you up and throw you to deal significant damage, but the &eFur of the Alpha Yeti&r will be required to advanced into the &3glacial area&r of the &bSnowy Forest&r."]
 			id: "2471021B93EE125D"
-			rewards: [{
-				id: "178C04B0EF68AFC5"
-				item: "twilightforest:charm_of_keeping_3"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "178C04B0EF68AFC5"
+					item: "twilightforest:charm_of_keeping_3"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6DC84096BC6A36B6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "Found in &fYeti Lairs &rin the &fSnowy Forest&r. Unlocks the &f&lSnow Queen&r."
 			tasks: [{
@@ -213,6 +261,11 @@
 					type: "xp"
 					xp: 300
 				}
+				{
+					id: "2F7033D363C1F7D3"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
 			]
 			shape: "square"
 			subtitle: "Found in Glaciers."
@@ -233,11 +286,19 @@
 				"You're looking to get your hands on some &dMeef Stroganaff&r. Consuming this will allow you to traverse deeper into the hotter part of the swamp and fight the &6Hydra&r!"
 			]
 			id: "1125F566DAEFC4A5"
-			rewards: [{
-				id: "38F20D5365F9DD50"
-				type: "xp"
-				xp: 30
-			}]
+			rewards: [
+				{
+					id: "38F20D5365F9DD50"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 10
+					id: "69A423C4DA3CED56"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by killing a Minotaur, found in swamp Labyrinths. Unlocks Hollow Hills."
 			tasks: [{
@@ -257,11 +318,19 @@
 				"Deep inside you will find the &dKnight Phantom&r. Defeating him will grant you access to control the &cCarmintine&r contraptions."
 			]
 			id: "08864DB101FED90C"
-			rewards: [{
-				id: "2B9F8C58FA8E4648"
-				item: "twilightforest:charm_of_keeping_2"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2B9F8C58FA8E4648"
+					item: "twilightforest:charm_of_keeping_2"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0A94451C0444E7BB"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "Found in Dark Towers in The Dark Forest."
 			tasks: [{
@@ -285,11 +354,18 @@
 				"Your first goal is to locate a &2cave full of trolls&r. &3Trolls&r hide their most valuable possessions in stashes made of &dobsidian&r. The large stash you will not be able to get into until later, but remember it's location as you will return soon. In the smaller stashes, you can find &aMagic Beans&r. These beans can be planted on &dUberous Soil&r on the surface to grow a &alarge beanstalk&r into the skies. "
 			]
 			id: "254CFFAAF052399C"
-			rewards: [{
-				id: "02162698D2E1046C"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "02162698D2E1046C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7BCDEC918BE047DC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "7732BB4C69F3B042"
@@ -307,11 +383,18 @@
 				"Once you have the &eGiant's Pickaxe&r in hand, descend back into the &2Troll Cave&r to &3break into the giant &dObsidian&3 vault&r."
 			]
 			id: "1BFB221E98E6B727"
-			rewards: [{
-				id: "614E47B26F05E9FF"
-				type: "xp"
-				xp: 40
-			}]
+			rewards: [
+				{
+					id: "614E47B26F05E9FF"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "64E8C1E9B258ED23"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -349,11 +432,18 @@
 				"Use it to ascend to the &5Final Castle&r. You can hold right-click to spread the flame in an AoE around you, or apply directly to the &cthorns&r with right-click."
 			]
 			id: "6186282EA9E837D8"
-			rewards: [{
-				id: "5A18BD24A1F4B566"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "5A18BD24A1F4B566"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "764324D6A5BA750A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "281C6A9BEC1301F2"
@@ -382,6 +472,18 @@
 				{
 					id: "1218CB3BFC5A3648"
 					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "344ABE2EAC937877"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "365031F35C0AD287"
+					item: "numismatics:cog"
 					type: "item"
 				}
 			]

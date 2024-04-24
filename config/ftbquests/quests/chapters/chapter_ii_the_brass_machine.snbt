@@ -43,12 +43,19 @@
 				"Use a &6Mechanical Mixer&r and a &6Basin&r, to mix all the ingredients to get a &bSmall Certus Quartz Bud!&r God that’s a mouthful name."
 			]
 			id: "7D6E6EFCB2DD19A0"
-			rewards: [{
-				count: 5
-				id: "30FA72BAF0EA3275"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "30FA72BAF0EA3275"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "466D705C8DFE163C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "770EC6F492C38791"
 				item: "ae2:small_quartz_bud"
@@ -61,12 +68,19 @@
 			dependencies: ["7D6E6EFCB2DD19A0"]
 			description: ["With the small version, you pour water on it using a &6Spout&r. You have to pour water 3 times on the &bSmall Certus Quartz Bud.&r"]
 			id: "72C989B765AD2A4B"
-			rewards: [{
-				count: 5
-				id: "4BC17306251EB648"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "4BC17306251EB648"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "31F2785928AF609E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4F60E93DA063643B"
 				item: "ae2:medium_quartz_bud"
@@ -79,12 +93,19 @@
 			dependencies: ["72C989B765AD2A4B"]
 			description: ["With the medium version, you pour water on it using a &6Spout.&r You have to pour water 3 times on the &bMedium Certus Quartz.&r"]
 			id: "0101855DF75D6C40"
-			rewards: [{
-				count: 5
-				id: "45627898A6F728F9"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "45627898A6F728F9"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5D4B056714BB3B7C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "60A42BA3D7D465F9"
 				item: "ae2:large_quartz_bud"
@@ -97,12 +118,19 @@
 			dependencies: ["0101855DF75D6C40"]
 			description: ["With the large version, you pour water on it using a &6Spout.&r You have to pour water 3 times on the &bLarge Certus Quartz.&r"]
 			id: "5BFA4F90901AC7B2"
-			rewards: [{
-				count: 5
-				id: "192AA6AEE91BCE4D"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "192AA6AEE91BCE4D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3941B6A3D78F9C31"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "45BC74F0D21F89E3"
 				item: "ae2:quartz_cluster"
@@ -115,12 +143,19 @@
 			dependencies: ["5BFA4F90901AC7B2"]
 			description: ["With the Certus Quartz Cluster, you don’t pour water on it, this time you crush it either using the &6Crushing Wheels&r or the &6Millstone.&r"]
 			id: "49E754928BF234F3"
-			rewards: [{
-				count: 5
-				id: "60E939D6F4975586"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "60E939D6F4975586"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "45B69CC282DBDF58"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1F9DB8D59AEF9247"
 				item: "ae2:certus_quartz_crystal"
@@ -150,6 +185,11 @@
 					item: "create:andesite_alloy"
 					type: "item"
 				}
+				{
+					id: "16AA68CDC08269AC"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "2A4A8C8AC00ECBD3"
@@ -167,12 +207,19 @@
 			dependency_requirement: "one_completed"
 			description: ["With the Redstone Dust and Nether Wart you’ve collected. Put them inside a basing on top of a Blaze Burner and mix them up with a Mechanical Mixer."]
 			id: "2EBE018FE570EF16"
-			rewards: [{
-				count: 5
-				id: "03C52E89033512FB"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "03C52E89033512FB"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "4D2F65A7E4A061B2"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "40AC3CAADB942375"
 				item: "kubejs:destabilized_redstone_bucket"
@@ -191,12 +238,19 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "64A476C01D1C4742"
-			rewards: [{
-				count: 5
-				id: "2A5547B65BF113F8"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "2A5547B65BF113F8"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1C86676759461E59"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "216750237C1CED9A"
 				item: "minecraft:redstone"
@@ -219,12 +273,19 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "1C5DFA2AD6DEE1B2"
-			rewards: [{
-				count: 5
-				id: "57D8CC9B67EA0360"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "57D8CC9B67EA0360"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0166710BAE045D1A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "14FB44DA4AE233C3"
 				item: "minecraft:sugar"
@@ -248,12 +309,19 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "05836C34CD66A56F"
-			rewards: [{
-				count: 5
-				id: "5C9617FF2C3C911B"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "5C9617FF2C3C911B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "4FAA1CA1DBBEA9EA"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "646DC6DDBF1F97D5"
 				item: "minecraft:water_bucket"
@@ -269,12 +337,19 @@
 			hide_dependency_lines: true
 			id: "671ABB3F4DDF8A89"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "3D5E1AA9D2CD4DD0"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "3D5E1AA9D2CD4DD0"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "6612FB790A6FEB6B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "640776C3CFE97667"
 				item: "minecraft:sand"
@@ -309,6 +384,11 @@
 					item: "minecraft:redstone"
 					type: "item"
 				}
+				{
+					id: "087022B81F40CA19"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "71C9FE5F39A5B431"
@@ -328,12 +408,19 @@
 			]
 			id: "201291E8B8D4FE73"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "4A0F7AA8C848BA3F"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "4A0F7AA8C848BA3F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "687D36C5DE9A08DF"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3A67FE794B73D10B"
 				item: "minecraft:quartz"
@@ -372,6 +459,11 @@
 					item: "minecraft:redstone"
 					type: "item"
 				}
+				{
+					id: "3B6C175AEB249DD4"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "6A34C8BAA9CFC455"
@@ -402,6 +494,11 @@
 					table_id: 1302780656980067940L
 					type: "random"
 				}
+				{
+					id: "4DE2DA6DB9EE06C9"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "543534EF6C25D984"
@@ -417,12 +514,19 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "555CE8F6001EF8E7"
-			rewards: [{
-				count: 5
-				id: "3E16256C3273B9B6"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "3E16256C3273B9B6"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "136C392AF236B77D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5813632ADCCD6073"
 				item: "minecraft:copper_ingot"
@@ -443,12 +547,19 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "14ADA913C53709AE"
-			rewards: [{
-				count: 5
-				id: "5530A5D11FE879F2"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "5530A5D11FE879F2"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "24CA59890FB943D5"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1E1B0C8BEDA1BE1A"
 				item: "create:zinc_ingot"
@@ -474,6 +585,11 @@
 					table_id: 1302780656980067940L
 					type: "random"
 				}
+				{
+					id: "354ED7A2B787914C"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7AFC52965847BD86"
@@ -489,12 +605,19 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "5167DEF3903D6CFD"
-			rewards: [{
-				count: 5
-				id: "2D3EF842CF6D9CC7"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "2D3EF842CF6D9CC7"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "7CEFC09E09FB28B8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0BBE8417B8A3BE92"
 				item: "minecraft:nether_wart"
@@ -517,12 +640,19 @@
 			]
 			id: "2BBB5E496BBD52C5"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "365AB32A38550F1C"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "365AB32A38550F1C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0EB6AB22AF8CB9BB"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "254618B5A7F95447"
 				item: "minecraft:soul_sand"
@@ -542,12 +672,19 @@
 			hide_dependency_lines: true
 			id: "70FE285006F6632F"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "35F597263E5955BC"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "35F597263E5955BC"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "36B9604DEF912D76"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6E812FD4E5FCC138"
 				item: "quark:soul_bead"
@@ -566,12 +703,19 @@
 			]
 			id: "61B5DE7788ED3D6D"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "7217A03BCC48B79B"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "7217A03BCC48B79B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "61EF950CD8D0B0EB"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Sand without a Soul, which begs the question, does Sand contain a Soul? Spoiler alert! It does, in the Nether. "
 			tasks: [{
 				id: "3385925890E92473"
@@ -592,12 +736,19 @@
 			hide_dependency_lines: true
 			id: "7A50893172D43878"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "515488EEC9B8E6A1"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "515488EEC9B8E6A1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "11DDE0DF7EB14DA8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2A78C95C3292BE29"
 				item: "born_in_chaos_v1:ethereal_spirit"
@@ -655,6 +806,12 @@
 					table_id: 2630622174541927595L
 					type: "choice"
 				}
+				{
+					count: 20
+					id: "733FA80C44010DCD"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
@@ -676,12 +833,19 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "588F642CD467FC64"
-			rewards: [{
-				count: 5
-				id: "72F58A3FDEBEB1F1"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "72F58A3FDEBEB1F1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "7036D41C6C28B77A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3F040CE86620F08A"
 				item: "create:iron_sheet"
@@ -744,6 +908,12 @@
 					table_id: 2630622174541927595L
 					type: "choice"
 				}
+				{
+					count: 40
+					id: "4A1566AA979782BC"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
@@ -786,6 +956,11 @@
 					item: "toms_storage:ts.inventory_cable"
 					type: "item"
 				}
+				{
+					id: "578F3DC2FE2278F8"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -814,12 +989,19 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "7F75BF2B511A2B14"
-			rewards: [{
-				count: 5
-				id: "4C7E8BF932F2FD39"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "4C7E8BF932F2FD39"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1AEC766B131424CE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "22D8338B1C8A2FB8"
 				item: "create:cogwheel"
@@ -838,12 +1020,19 @@
 			]
 			hide: true
 			id: "62E69747ECE312C3"
-			rewards: [{
-				count: 5
-				id: "7F6E12133C631447"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "7F6E12133C631447"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "79EB1CD96A5A997A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3A5588665BD2BBD2"

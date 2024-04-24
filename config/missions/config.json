@@ -1,0 +1,7 @@
+{
+  "exchange-rate": "2",
+  "exchanger-drop-rate": "0",
+  "first-reroll-currency": "8",
+  "free-rerolls": "2",
+  "command-upon-mission": "say %player% completed a mission!"
+}

@@ -283,7 +283,7 @@
 				"6528F97D788A957A"
 				"72070D0355244B40"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			description: [
 				"Now that you have combined the forces of &bWater&r and &cLava&r or mined some &6Cobblestone&r. "
 				""
@@ -607,6 +607,43 @@
 			title: "Lets get started!"
 			x: 4.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["3AEFFAED564130A6"]
+			description: [
+				"&6The Stonecutter&r is essential to get the Create Machines, such as the Water Wheel or Funnel. By using an Andesite Machine and other Material Machines on the chapters ahead on a Stonecutter, you will get a list of the items equivalent to the machine you’re using, such as, using Andesite Machine will give you an Andesite based Create item list."
+				""
+				"You can automate the process by using a Mechanical Saw but make sure to use Filters to get the Item you want as it will generate a random one from the list."
+				""
+				""
+				"&lNote:&r &oNot all items are available on the Stonecutter/Mechanical Saw. Some Items require crafting of other parts. Make sure to use the JEI in such cases to know the recipe. &r"
+			]
+			hide: true
+			id: "1EEB1C5C7801D8D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BD8248B41454CCC"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25B15C16659553C3"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7F189FDAF0AFA429"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			title: "Stonecutter"
+			x: 6.75d
+			y: 12.0d
 		}
 	]
 	title: "Chapter I: The Foundation of Machines"

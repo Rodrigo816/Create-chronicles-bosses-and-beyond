@@ -32,6 +32,11 @@
 		{
 			dependencies: ["46C6D675E116C997"]
 			id: "31055C6D28A45113"
+			rewards: [{
+				id: "4303430F0A68B578"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "27AB083F26DF84B3"
 				item: "create:sturdy_sheet"
@@ -43,6 +48,11 @@
 		{
 			dependencies: ["174567332B8DE8C1"]
 			id: "46C6D675E116C997"
+			rewards: [{
+				id: "6C07E93EE33A8F4D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "475DEBC8DA7BD31A"
 				item: "create:powdered_obsidian"
@@ -56,6 +66,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "174567332B8DE8C1"
+			rewards: [{
+				id: "51A2B9110A53CB75"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "392FC7AAF3ACCF9F"
 				item: "minecraft:obsidian"
@@ -73,6 +88,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "254636A47FC0F2FC"
+			rewards: [{
+				id: "52675BF23D852759"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3070A5BE48E5E14D"
 				item: "tfmg:liquid_concrete_bucket"
@@ -86,6 +106,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "1325CB313B08AB70"
+			rewards: [{
+				id: "71DC15A34CEE02F3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1456DD2C10D0A955"
 				item: "minecraft:water_bucket"
@@ -99,6 +124,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "784EF4A65242E3FD"
+			rewards: [{
+				id: "30C3926A43672E89"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C3D1D3FCF46A210"
 				item: "minecraft:gravel"
@@ -112,6 +142,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "5C00CCFC83CCE7A4"
+			rewards: [{
+				id: "00C1432798EB30E0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "274695EAFEFA7242"
 				item: "minecraft:sand"
@@ -127,6 +162,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "4B91CC0919FE9219"
+			rewards: [{
+				id: "18C60FDB8637A4DB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AA90DC761775BFD"
 				item: "tfmg:cement"
@@ -138,6 +178,11 @@
 		{
 			dependencies: ["08B00F4FFF4BA13F"]
 			id: "2B1038EE6D366111"
+			rewards: [{
+				id: "22E795BD2D95B10C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "538CD736FF8B66F7"
 				item: "tfmg:limesand"
@@ -152,6 +197,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "4B78BB8B294461A9"
+			rewards: [{
+				id: "784E38EC380896AC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3948FE8F632A21BB"
 				item: "minecraft:clay_ball"
@@ -166,6 +216,11 @@
 			hide_dependency_lines: true
 			id: "4D774B40DB2BEA38"
 			optional: true
+			rewards: [{
+				id: "0C7F828C81E98FC7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0EB79B5A265FBBA4"
 				item: "minecraft:lava_bucket"
@@ -182,6 +237,11 @@
 			dependency_requirement: "one_completed"
 			id: "08B00F4FFF4BA13F"
 			optional: true
+			rewards: [{
+				id: "5FC85A71291D3714"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "17494EABC0E0ED8B"
 				item: "create:limestone"
@@ -195,6 +255,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "07EE6AFA3FE693E1"
+			rewards: [{
+				id: "33D129BFFF3DE9E7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BCDEB4A718D3EF2"
 				item: "minecraft:slime_ball"
@@ -213,6 +278,11 @@
 				"&2The loot fabricator&r will remember your choices for each type, so you can feed multiple types of predictions into a single fabricator."
 			]
 			id: "1360D8CD2949E41B"
+			rewards: [{
+				id: "2BAD048AD10B57A4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E70EED36DDFF8EF"
 				item: "hostilenetworks:loot_fabricator"
@@ -239,6 +309,11 @@
 				"The higher tier of the model, the higher the accuracy, up to 99.5% at Self Aware. Running simulations requires energy (based on the model type) and a catalyst item, which is usually a &6Prediction Matrix&r."
 			]
 			id: "6E62A3B6C3E0EF8B"
+			rewards: [{
+				id: "79C5B1F9ABE3A920"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E181D8952DDF478"
 				item: "hostilenetworks:sim_chamber"
@@ -262,6 +337,11 @@
 				"Once you have your model, you will have to train it."
 			]
 			id: "6B0D61030092824D"
+			rewards: [{
+				id: "2A19D5165B875DDF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56731712C3EC0870"
 				item: "hostilenetworks:blank_data_model"
@@ -288,6 +368,12 @@
 					count: 60
 					id: "72DB4C998BE6BEB7"
 					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4D24AF2A8A549B0B"
+					item: "numismatics:spur"
 					type: "item"
 				}
 			]
@@ -341,6 +427,12 @@
 					table_id: 2630622174541927595L
 					type: "choice"
 				}
+				{
+					count: 10
+					id: "6CB9C844EE16FE89"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
@@ -355,6 +447,11 @@
 		{
 			dependencies: ["53A0772D1388314C"]
 			id: "2EF91E1C99625A46"
+			rewards: [{
+				id: "1AC82E9B9A3217ED"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D53BF11AFCB88D7"
 				item: "alexscaves:metal_rebar"
@@ -366,6 +463,11 @@
 		{
 			dependencies: ["4D4534E5FEBE0716"]
 			id: "53A0772D1388314C"
+			rewards: [{
+				id: "1F77F5C5B18BC60D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53733C42A5BCDD42"
 				item: "alexscaves:scrap_metal"
@@ -377,6 +479,11 @@
 		{
 			dependencies: ["6E509C44D3A6E49E"]
 			id: "4D4534E5FEBE0716"
+			rewards: [{
+				id: "2761AE11F4DFB96A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00B9F2140FA31170"
 				item: "alexscaves:metal_swarf"
@@ -393,6 +500,11 @@
 				"Once you get there you need collect a data model of Ferrous Slime and train it to Basic."
 			]
 			id: "6E509C44D3A6E49E"
+			rewards: [{
+				id: "5FD6B361B2ACBC75"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "73B98B126E5C8B08"
 				item: "alexscaves:ferrouslime_ball"
@@ -407,6 +519,11 @@
 			hide_dependency_lines: true
 			id: "42CFF547BDAB44B1"
 			optional: true
+			rewards: [{
+				id: "03EAFBCCA1038AC3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "641350D980FCA0F9"
 				item: "minecraft:honey_bottle"
@@ -420,6 +537,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "0FA7629CCE64385C"
+			rewards: [{
+				id: "173D98907050B4C6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "317DED90EB4BE944"
 				item: "tfmg:formwork_block"
@@ -433,8 +555,18 @@
 				"254636A47FC0F2FC"
 				"0FA7629CCE64385C"
 			]
-			description: ["Put the liquid concrete in a framework block and wait a few seconds till it forms a solid block of concetre. "]
+			description: [
+				"After creating the Liquid Concrete, use a Mechanical Pump and Pipe to inject the Liquid Concrete into the Formwork Block. After the Formwork Block is full, wait a few seconds for the Liquid Concrete to turn into Concrete. When that happens, the Formwork Block will break and you’ll have to place a new one. "
+				""
+				""
+				"&2&lNote:&r &r&oYou can use a bucket of Liquid Concrete on the floor. The Liquid Concrete will turn into Concrete as if you used a Formwork Block but if you wish to do the Rebar Concrete then you have to use the process of injecting the Liquid Concrete into the Rebar Formwork Block.&r"
+			]
 			id: "49A0E7E6B5C3DB65"
+			rewards: [{
+				id: "517B88FEF859E9C6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DF77E7EDAD9CD77"
 				item: "tfmg:concrete"
@@ -448,6 +580,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "58DD96B724C875FE"
+			rewards: [{
+				id: "7EC39768269FF1AF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AD585B377F63905"
 				item: "hostilenetworks:prediction_matrix"
@@ -466,6 +603,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "0AF71B3EB3531CAC"
+			rewards: [{
+				id: "22EE923AEC44F07E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7BDD94C5B583CCFD"
 				item: "hostilenetworks:deep_learner"
@@ -478,6 +620,11 @@
 			dependencies: ["3DFF1B74E8AADB57"]
 			hide: true
 			id: "33274B5D531EF9B7"
+			rewards: [{
+				id: "76C8CF873148521B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "03924F210618B3C4"

@@ -51,7 +51,7 @@
 			}]
 			title: "Progression: The Talent Tree"
 			x: -22.0d
-			y: 19.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["28B245505F91D21C"]
@@ -241,7 +241,7 @@
 			}]
 			title: "Loot Chests"
 			x: -22.0d
-			y: 17.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
@@ -887,7 +887,7 @@
 			}]
 			title: "Why I have less hearts?"
 			x: -22.0d
-			y: 18.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["05DF598DEBADABC3"]
@@ -2109,8 +2109,6 @@
 				"The &0&kBlack Market&r&r is the ultimate testing ground for your ingenious Create automations. Here, you can exchange the fruits of your mechanical mastery for unique items &cnot found anywhere else&r."
 				""
 				"You can use a &9task screen&r and a &9task screen configurator&r to automate."
-				""
-				"NEED SUGESTIONS ON WHAT U LIKE TO AUTOMATE TO SUBMIT TO MARKET."
 			]
 			id: "21FB9D855FA9D2DF"
 			tasks: [{
@@ -2634,16 +2632,47 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: ["You can sell and buy stuff from other players using a vending machine."]
+			description: [
+				"You can sell and buy stuff from other players using a &6vendor&r."
+				""
+				"You have 6 different coins of various values to choose from."
+				"Spur < Bevel < Sprocket < Cog < Crown < Sun"
+				""
+				""
+				"&c-> Bank Terminal&r"
+				"Access your virtual bank account to deposit and withdraw coins."
+				""
+				"&c-> Depositor&r"
+				"Set a price and the depositor will emit a 1 redstone tick pulse once a player deposits money, either by having coins in their inventory or by using a card."
+				""
+				""
+				"&c-> Bank and ID Cards&r"
+				"Bank Cards can be placed in a Depositor or Vendor to have funds go directly into the associated account. Additionally, using a Bank Card on a Vendor or Depositor extracts funds from your account instead of taking coins from your inventory."
+				" "
+				""
+				"ID Cards are used to allow other players access to Numismatics' protected blocks (Vendors, Depositors, and Blaze Bankers), allowing you to easily give access to your business partners."
+				""
+				""
+				"&c-> Blaze Banker&r"
+				"Is one bank account not enough for your tax evasion business needs? Create another and use ID Cards to allow your business partners to withdraw funds."
+			]
 			id: "27B45F8E0C5718F7"
-			rewards: [{
-				id: "595571ED03CEC951"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "595571ED03CEC951"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "441B153A78EF64E0"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
+			subtitle: "Create numismatics"
 			tasks: [{
-				id: "39028376A1090EEA"
-				item: "toms_trading_network:vending_machine"
+				id: "6C1DAB2B662BFCAB"
+				item: "numismatics:vendor"
 				type: "item"
 			}]
 			x: 14.5d
@@ -2909,6 +2938,11 @@
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
 			id: "42CDB69FF6A817D1"
+			rewards: [{
+				id: "132C946C438CC7A1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "go vroom!"
 			tasks: [{
 				id: "5E16A1B18678318C"
@@ -2917,6 +2951,32 @@
 			}]
 			x: 15.5d
 			y: 20.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Embark on weekly missions to earn valuable currency! Simply press &6\"H\" to access your current missions.&r Completing these will reward you with credits that can be used in multiplayer environments. Spend your earnings at various shops to purchase exclusive items and enhance your gameplay experience."
+				""
+				""
+				"Spur < Bevel < Sprocket < Cog < Crown < Sun"
+			]
+			icon: "numismatics:cog"
+			id: "567ED608748850A8"
+			rewards: [{
+				count: 10
+				id: "2892B66CBC8A26C7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65A099F8209103AE"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "&6Multiplayer:&r Weekly Missions"
+			x: -22.0d
+			y: 16.5d
 		}
 	]
 	title: "&e&l Getting Started!"

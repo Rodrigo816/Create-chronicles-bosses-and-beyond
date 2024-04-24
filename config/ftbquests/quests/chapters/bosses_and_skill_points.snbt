@@ -119,15 +119,23 @@
 			]
 			icon: "cataclysm:desert_eye"
 			id: "07C2D6E01B241F73"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "50DF8030A3412975"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "50DF8030A3412975"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "0FCCD8AE586C9C71"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
@@ -149,15 +157,23 @@
 			]
 			icon: "cataclysm:abyss_eye"
 			id: "681E9EE350CD6791"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "03E940FAAD38134C"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "03E940FAAD38134C"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "3A4BEFB0D1A615D1"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐⭐&7⭐"
 			tasks: [{
@@ -179,15 +195,23 @@
 			]
 			icon: "cataclysm:void_eye"
 			id: "6AC1E375CA7DA676"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "7CA935B0479A4539"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "7CA935B0479A4539"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "55EC396C9E9F65EF"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
@@ -211,15 +235,28 @@
 			]
 			icon: "cataclysm:flame_eye"
 			id: "40DD304B90046084"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "637499C1EF6D799F"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "637499C1EF6D799F"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "56123B076C1CF390"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "31B104ADF8E7EFEE"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
@@ -236,15 +273,23 @@
 			dependencies: ["072DA448D144179C"]
 			description: ["You can craft an eye of netherite monstrosity to locate the structure"]
 			id: "09D25A60964E517F"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "42E586511F8FACBA"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "42E586511F8FACBA"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "239A4701D7CDC24B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
@@ -269,15 +314,22 @@
 			]
 			icon: "cataclysm:mech_eye"
 			id: "1A9BD3105BC4C13B"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "574B0E49AD93B0FB"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "574B0E49AD93B0FB"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "0082E376BBC5DE43"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
@@ -295,15 +347,22 @@
 			description: ["This boss can be baited out of the void by tossing a Msyerious Worm into the End's void."]
 			icon: "alexsmobs:void_worm_eye"
 			id: "7696990D3ED40A1B"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "77C13FB102857BB9"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "77C13FB102857BB9"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "324A7787DA164D44"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
@@ -320,14 +379,21 @@
 			dependencies: ["072DA448D144179C"]
 			description: ["When a Crimson Mosquito sucks blood of strange fungal create, especially one covered in Warped Fungus, it will begin to mutate into this beast."]
 			id: "150D9233D297B9DA"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "6FC75D49789DE246"
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6FC75D49789DE246"
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "16322CAE3E462A22"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -351,15 +417,23 @@
 				"This colossal, floating edifice hovers ominously in the endless void, waiting for challengers to test their mettle against its ancient power."
 			]
 			id: "065A5A976F0D8FF9"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "084B87957DA020A9"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "084B87957DA020A9"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "6A547D7F1E59FB9B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
@@ -375,17 +449,27 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["You can use a void lily to track the boss structure."]
+			description: [
+				"You can use a void lily to track the boss structure."
+				"--bugged for now--"
+			]
 			id: "342B9E3297CC4309"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "2A63F9AFE1D90235"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "2A63F9AFE1D90235"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "75571B72EE22567B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -410,15 +494,22 @@
 			]
 			icon: "bosses_of_mass_destruction:ancient_anima"
 			id: "2BA58FB09C99F20A"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "01C2773FBDC2293E"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "01C2773FBDC2293E"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "75E2AF7160B589B5"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [
@@ -444,15 +535,23 @@
 			dependencies: ["072DA448D144179C"]
 			description: ["The Gauntlet is located in rare structures at the Nether."]
 			id: "35E095FC517735B1"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "07F3C40E1FE39405"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "07F3C40E1FE39405"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "4F4841FC1395F194"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
@@ -477,15 +576,22 @@
 			]
 			icon: "minecraft:nether_star"
 			id: "1D335FA02D1F86DD"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "262CB855D17DBC7E"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "262CB855D17DBC7E"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "3C2A4AFCDE01444E"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -513,15 +619,22 @@
 				}
 			}
 			id: "079641D681493C48"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "69675DA31FC03D1F"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "69675DA31FC03D1F"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "7401A162C85095B6"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
@@ -542,15 +655,22 @@
 			hide_dependent_lines: true
 			hide_details_until_startable: true
 			id: "4B8AA887F0B4664E"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "1EE4CE7588BA7EFB"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "1EE4CE7588BA7EFB"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "7549852B0F997D64"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
@@ -579,15 +699,22 @@
 			hide_details_until_startable: true
 			icon: "iceandfire:hydra_fang"
 			id: "23EF18C11A9B1FBD"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "4638C13CFDF8399A"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4638C13CFDF8399A"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "6F7E16F692BF29DA"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
@@ -610,15 +737,22 @@
 			hide_details_until_startable: true
 			icon: "iceandfire:sea_serpent_fang"
 			id: "1AB94A49F0A4427D"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "7ADAC30E2731B667"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "7ADAC30E2731B667"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "2FAE2271D7D512F9"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
@@ -637,15 +771,22 @@
 			description: ["Use Transmuting Elixer on an infernal Evil Pumpkin."]
 			icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
 			id: "03A47AAF2D751796"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "46598E458AAF4C7A"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "46598E458AAF4C7A"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "481D46EBCFEB7971"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
@@ -670,15 +811,22 @@
 				}
 			}
 			id: "496E8E6570D6FE17"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "5D6B89B090FFEC34"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5D6B89B090FFEC34"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "1F160B67B40DAD06"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
@@ -702,15 +850,22 @@
 				}
 			}
 			id: "485FA783FD36FB50"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "19F37DE102460CFA"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "19F37DE102460CFA"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "0CFB472A487E479A"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
@@ -734,15 +889,22 @@
 				}
 			}
 			id: "608ECD63B1EAC46B"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "704D2BDFDE77D350"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "704D2BDFDE77D350"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "01F849D80A1D7D0E"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
@@ -770,15 +932,22 @@
 				}
 			}
 			id: "271202F67BEA0A20"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "3D8295649714F002"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "3D8295649714F002"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "1D1B0DFF8AB31A7C"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -814,15 +983,27 @@
 			]
 			icon: "graveyard:white_bone_staff"
 			id: "2EFEFB8A1B1A2E3F"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "22668824FB494143"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "22668824FB494143"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "51CA780D04D096DE"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "29606AA253921FB1"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
@@ -847,15 +1028,22 @@
 			]
 			icon: "born_in_chaos_v1:fel_lamp"
 			id: "02E628FD58B3D4C7"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "00E081CC230B46DD"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "00E081CC230B46DD"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "36BC606DB8CE3E5B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -883,15 +1071,22 @@
 				}
 			}
 			id: "376DD4B56039898B"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "6984CC523C61BCB1"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6984CC523C61BCB1"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "7B0AC077DF257249"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -919,15 +1114,22 @@
 			description: ["mini-boss"]
 			icon: "cataclysm:the_prowler_spawn_egg"
 			id: "186D1014F748B001"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "6322B9827A2BF329"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6322B9827A2BF329"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "65A6E1D67B2481CA"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -945,15 +1147,22 @@
 			description: ["mini-boss"]
 			icon: "cataclysm:amethyst_crab_spawn_egg"
 			id: "188968771B831DCE"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "32768E131EE7A65A"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "32768E131EE7A65A"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "47D9DB544262865E"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -971,15 +1180,22 @@
 			description: ["Found in Forlorn caves"]
 			icon: "alexscaves:forsaken_idol"
 			id: "11DB96D8FC52617B"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "7F6D245ED3B792DE"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "7F6D245ED3B792DE"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "7916C75646297103"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1007,15 +1223,22 @@
 				}
 			}
 			id: "0346F78CE4B0F393"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "724FEB568BBCB2D5"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "724FEB568BBCB2D5"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "3139BC56D3C88F02"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1043,15 +1266,22 @@
 			description: ["Found in Toxic caves"]
 			icon: "alexscaves:tremorzilla_egg"
 			id: "138E94B1FC310502"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "48AE090E327ABC7F"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "48AE090E327ABC7F"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "3B39B6CEB895BAE3"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
@@ -1074,15 +1304,22 @@
 			]
 			icon: "alexscaves:ominous_catalyst"
 			id: "5E8607FE394E659A"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "002FE13B8FD7B103"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "002FE13B8FD7B103"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "779808F5124B1BB3"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
@@ -1101,15 +1338,22 @@
 			description: [""]
 			icon: "minecraft:dragon_head"
 			id: "4FCD7C734E04EC59"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "378815EDAB66FE96"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "378815EDAB66FE96"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "069E97DB94C37F24"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
@@ -1128,15 +1372,22 @@
 			description: [""]
 			icon: "deeperdarker:stalker_spawn_egg"
 			id: "66C5F17F1D24B252"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "4A6EC55ED17B234E"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4A6EC55ED17B234E"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "4DF8E949B9892D88"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1155,15 +1406,22 @@
 			description: ["found in infernal altar"]
 			icon: "create:blaze_burner"
 			id: "1447D924C3077D48"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "19507BFF9635CD09"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "19507BFF9635CD09"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "4198B095B5D88615"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
@@ -1190,15 +1448,22 @@
 			description: [""]
 			icon: "minecraft:creeper_head"
 			id: "5590F8A33E7C7EBA"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "11785BB87317FFD8"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "11785BB87317FFD8"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "27B2E7DE2471AFAE"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1217,15 +1482,22 @@
 			description: [""]
 			icon: "supplementaries:enderman_head"
 			id: "0FA6D29FC55F9AEC"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "3D7501C5BA1A2652"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "3D7501C5BA1A2652"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "5BF83535330C64C7"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
@@ -1244,15 +1516,22 @@
 			description: [""]
 			icon: "minecraft:skeleton_skull"
 			id: "12540DE2AD46BD25"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "4F2074C87E8E3440"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4F2074C87E8E3440"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "52BFB9FB197D88A8"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1271,15 +1550,22 @@
 			description: [""]
 			icon: "minecraft:zombie_head"
 			id: "466E95094802C572"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "3F86E43B3F80D722"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "3F86E43B3F80D722"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "713DBE549076AA9A"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1298,23 +1584,28 @@
 			description: ["Follow twilight quest chapter for more details."]
 			icon: "twilightforest:naga_trophy"
 			id: "1118D777AFDEABF1"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "261DD4AC3353A153"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "261DD4AC3353A153"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "4CCBAA89DE18D707"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
-				entity: "twilightforest:naga"
-				icon: "twilightforest:naga_trophy"
-				id: "78C777F75BACC65B"
-				type: "kill"
-				value: 1L
+				id: "32B1B5E2E70C9EFB"
+				item: "twilightforest:naga_trophy"
+				type: "item"
 			}]
 			title: "&2Twilight Forest&f: Naga"
 			x: 4.0d
@@ -1325,23 +1616,28 @@
 			description: ["Follow twilight quest chapter for more details."]
 			icon: "twilightforest:lich_trophy"
 			id: "360D7D51B8827142"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "362C0272415F76D8"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "362C0272415F76D8"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "67A2640AEFFC99F5"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
-				entity: "twilightforest:lich"
-				icon: "twilightforest:lich_trophy"
-				id: "566220709E69A5FD"
-				type: "kill"
-				value: 1L
+				id: "52D7F31C08738E0E"
+				item: "twilightforest:lich_trophy"
+				type: "item"
 			}]
 			title: "&2Twilight Forest&f: Twilight Lich"
 			x: 5.0d
@@ -1351,23 +1647,28 @@
 			dependencies: ["072DA448D144179C"]
 			description: ["Follow twilight quest chapter for more details."]
 			id: "66CCB8E61772D9C5"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "6DA4D456BA6CD79D"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6DA4D456BA6CD79D"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "7F8E097B21E02F09"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
-				entity: "iceandfire:hydra"
-				icon: "twilightforest:hydra_trophy"
-				id: "3E8FFAD088D562A2"
-				type: "kill"
-				value: 1L
+				id: "0E832BF18FE8B67D"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
 			}]
 			title: "&2Twilight Forest&f: Hydra"
 			x: 5.0d
@@ -1377,23 +1678,28 @@
 			dependencies: ["072DA448D144179C"]
 			description: ["Follow twilight quest chapter for more details."]
 			id: "6C426E483987130D"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "18D5C48D92709FF7"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "18D5C48D92709FF7"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "2A021BF225DAA771"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
-				entity: "twilightforest:ur_ghast"
-				icon: "twilightforest:ur_ghast_trophy"
-				id: "244B910EB39E5D6E"
-				type: "kill"
-				value: 1L
+				id: "69EBB0CA8881552E"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
 			}]
 			title: "&2Twilight Forest&f: Ur-Ghast"
 			x: 4.0d
@@ -1403,23 +1709,28 @@
 			dependencies: ["072DA448D144179C"]
 			description: ["Follow twilight quest chapter for more details."]
 			id: "0561992D26000F6C"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "24D5883822C00526"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "24D5883822C00526"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "5D62DF9BFD00702A"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
-				entity: "twilightforest:snow_queen"
-				icon: "twilightforest:snow_queen_trophy"
-				id: "53E591049A94D8CB"
-				type: "kill"
-				value: 1L
+				id: "347585336B761168"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
 			}]
 			title: "&2Twilight Forest&f: Snow Queen"
 			x: 4.0d
@@ -1436,15 +1747,22 @@
 				}
 			}
 			id: "5AD9D7336F8E4D96"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "0A5A2011633F2016"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "0A5A2011633F2016"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "29CBE370CE1D5E57"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1477,15 +1795,22 @@
 				}
 			}
 			id: "45E828FAD2F4D3EC"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "0CF524004E0E9088"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "0CF524004E0E9088"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "2BDE193BE81CD1F8"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1520,15 +1845,22 @@
 				}
 			}
 			id: "22230F5131F8FEFD"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "34C86FF91B85C163"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "34C86FF91B85C163"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "186572E2BB05C6BA"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1555,15 +1887,22 @@
 			description: [""]
 			icon: "blue_skies:starlit_leaves"
 			id: "4473A6FB1DD04B33"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "586AEB753D3783EA"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "586AEB753D3783EA"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "1F56CC6E53B2FA7D"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1581,15 +1920,22 @@
 			dependencies: ["072DA448D144179C"]
 			description: [""]
 			id: "1B579FA633476F4B"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "6F16667A95F0722F"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6F16667A95F0722F"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "22CF79A31715195F"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1605,15 +1951,22 @@
 			dependencies: ["072DA448D144179C"]
 			description: [""]
 			id: "0990BE5505F823C2"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "52461B8E6869D388"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "52461B8E6869D388"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "507553CA46529B27"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1629,15 +1982,22 @@
 			dependencies: ["072DA448D144179C"]
 			description: [""]
 			id: "70D8E200F5040BA9"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "5B29D59699E791F8"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5B29D59699E791F8"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "15F0DC84D42E7A7B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1653,15 +2013,22 @@
 			dependencies: ["072DA448D144179C"]
 			description: [""]
 			id: "7FE615B1AB39CFFA"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "24C7C537994F50C8"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "24C7C537994F50C8"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "772647D456D37BFC"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1678,15 +2045,22 @@
 			description: [""]
 			icon: "aquamirae:rune_of_the_storm"
 			id: "44DCD0A86F67612E"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "4183F285584DF8D4"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4183F285584DF8D4"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "05E1AF818FCD9FF0"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐⭐⭐&7⭐"
 			tasks: [{
@@ -1711,15 +2085,22 @@
 				}
 			}
 			id: "468294C066683BE3"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "49B9533F17F164D3"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "49B9533F17F164D3"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "25711466BF0091CB"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1744,15 +2125,22 @@
 			description: [""]
 			icon: "ars_nouveau:wilden_tribute"
 			id: "3316608227ABBD2E"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "1AD1DA989CCF391E"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "1AD1DA989CCF391E"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "70B7F8C034864711"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
@@ -1769,15 +2157,22 @@
 			description: [""]
 			icon: "irons_spellbooks:blood_staff"
 			id: "034ADBF4EC3738DD"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "4D43FCE63A4CAFF4"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4D43FCE63A4CAFF4"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "1A8CB76BC1BA8C80"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
@@ -1800,15 +2195,22 @@
 			]
 			icon: "minecraft:pumpkin"
 			id: "18951CEFEE6CDB8F"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "6EB15BC8D12B9F3F"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6EB15BC8D12B9F3F"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "1A1C4FA4B3BD1118"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
@@ -1931,15 +2333,22 @@
 				}
 			}
 			id: "53359B066B0AC21D"
-			rewards: [{
-				command: "/puffish_skills points add @s talentree 1"
-				elevate_perms: true
-				icon: "kubejs:skill_add_point"
-				id: "1F53B9CBF0EB0AF1"
-				silent: true
-				title: "+1 Skill Point"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "1F53B9CBF0EB0AF1"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "7235339D2B3EDC3B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{

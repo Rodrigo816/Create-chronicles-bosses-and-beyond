@@ -25,11 +25,18 @@
 			hide: true
 			icon: "blue_skies:blue_journal"
 			id: "198EB5AE0E18E6C3"
-			rewards: [{
-				id: "3E34B92B094794C5"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3E34B92B094794C5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "604E5DE65953F845"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "Living a simple life...."
 			tasks: [{
 				id: "0C6C12DEFB35A5C8"
@@ -56,11 +63,18 @@
 				}
 			}
 			id: "13BB7347D271D29C"
-			rewards: [{
-				id: "6663443B86E83DA1"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "6663443B86E83DA1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4282DCA84CB18FA7"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5971D3F2F9D07D81"
 				item: {
@@ -83,11 +97,18 @@
 				"This is the realm of eternal day and frigid temps. You'll find several large beasts, ethereal mobs, and even a few bosses. "
 			]
 			id: "765EBF99FFF4061F"
-			rewards: [{
-				id: "1A987500928B1EFB"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1A987500928B1EFB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "210129086F9A9753"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "blue_skies:everbright/enter"
 				criterion: ""
@@ -108,11 +129,18 @@
 				"Are you prepared for the poison and fire?"
 			]
 			id: "20ECBCF42E1B0660"
-			rewards: [{
-				id: "3025D554420EEC24"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3025D554420EEC24"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "38BFC75AB4100356"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "blue_skies:everdawn/enter"
 				criterion: ""
@@ -154,6 +182,11 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "7DF6923885A8D2B9"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "1E8B8C302718AFB5"
@@ -193,6 +226,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "71AD0A3A386EAE44"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			subtitle: "And it's pretty dark."
 			tasks: [{
@@ -224,6 +262,11 @@
 					id: "7823D0435F1F5BB1"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "2019049A37C6E375"
+					item: "numismatics:spur"
+					type: "item"
 				}
 			]
 			subtitle: "First Wood, then Stone... then.. what?"
@@ -274,6 +317,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "7F81ABD0231274D0"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			subtitle: "Spartan Style"
 			tasks: [{
@@ -312,6 +360,11 @@
 					id: "36B50FD9EAABEB48"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "14F6BB3D3EC31E9A"
+					item: "numismatics:spur"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -355,6 +408,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "7C9A483502D80F84"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 3L
@@ -388,6 +446,11 @@
 					id: "0EB720A8B06A2B4C"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "348BF84A229EA079"
+					item: "numismatics:spur"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -426,6 +489,11 @@
 					id: "5CA275C6FBF1B66C"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "7121DC3B913A0686"
+					item: "numismatics:spur"
+					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -467,6 +535,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "6109A722AEBB8705"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -500,6 +573,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "67E1C8FE35CAEE46"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "4082CD21223CF655"
@@ -532,6 +610,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "10470B31484104AC"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -561,6 +644,11 @@
 					id: "697278285B58C98A"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "05CCC51682503123"
+					item: "numismatics:spur"
+					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -602,6 +690,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "3DEB33AD540C3022"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			tasks: [{
@@ -617,6 +710,11 @@
 			description: ["This is a lantern that prevents hostile spawns within a large radius. "]
 			id: "3857D8DF87108DAB"
 			optional: true
+			rewards: [{
+				id: "7B4F21667565C5E8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6FDADB2CDD542CF7"
@@ -647,6 +745,11 @@
 					id: "6F204AEED5F47462"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "478FC2716EF3CA93"
+					item: "numismatics:spur"
+					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -694,6 +797,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "2FA00D8545BA1416"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -727,6 +835,11 @@
 					id: "1307942F62236FD8"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "47D1DB485CA53860"
+					item: "numismatics:spur"
+					type: "item"
 				}
 			]
 			shape: "octagon"
@@ -763,6 +876,16 @@
 					id: "00B1CB7571BE55BD"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "34CB7578A5553F53"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "71345A7EA7EAE216"
+					item: "numismatics:sprocket"
+					type: "item"
 				}
 			]
 			shape: "square"
@@ -801,6 +924,16 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "430F45A9AF05FB07"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "1936EAE2A8ECA652"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
 			]
 			shape: "square"
 			subtitle: "The Guardian of the Everdawn Tower"
@@ -836,6 +969,17 @@
 					id: "5BCDC7A808E16774"
 					type: "xp"
 					xp: 1000
+				}
+				{
+					count: 60
+					id: "65E648237E3499A6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "52595BCE87A14045"
+					item: "numismatics:cog"
+					type: "item"
 				}
 			]
 			shape: "square"
@@ -874,6 +1018,17 @@
 					type: "xp"
 					xp: 1000
 				}
+				{
+					count: 60
+					id: "24788D025163C517"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "1C41A6425C916141"
+					item: "numismatics:cog"
+					type: "item"
+				}
 			]
 			shape: "square"
 			size: 1.5d
@@ -904,6 +1059,11 @@
 					id: "7A50234374DBF487"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "3847606A241F1E5B"
+					item: "numismatics:spur"
+					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -937,6 +1097,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "40C140C28A0F4AA0"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			tasks: [{
@@ -968,6 +1133,11 @@
 					item: "minecraft:netherite_scrap"
 					type: "item"
 				}
+				{
+					id: "53F4933A5992B54C"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "Drops from the Starlit Crusher's Loot Bag"
@@ -989,11 +1159,18 @@
 			dependencies: ["0DB1A5763EDD6A7F"]
 			description: ["Increases damage done when poisoned."]
 			id: "08DA36DAD1422B0A"
-			rewards: [{
-				id: "0AF4AC6D51F379CB"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "0AF4AC6D51F379CB"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1807810890BD4B61"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			subtitle: "Drops from the Arachnarch's Loot Bag"
 			tasks: [{
@@ -1014,11 +1191,18 @@
 			dependencies: ["0DB1A5763EDD6A7F"]
 			id: "02089D95AA679502"
 			optional: true
-			rewards: [{
-				id: "617E21F0834DFD65"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "617E21F0834DFD65"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "045480F2F29CE29D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "Drops from the Arachnarch's Loot Bag"
 			tasks: [{
@@ -1050,6 +1234,11 @@
 					item: "minecraft:netherite_scrap"
 					type: "item"
 				}
+				{
+					id: "1CAFD2E69B0F2C2E"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			subtitle: "Drops from the Arachnarch's Loot Bag"
@@ -1075,11 +1264,18 @@
 				"You will also need this to craft the Dragon Soul, which is needed for the ATM star."
 			]
 			id: "37CBBAB88E2E49AC"
-			rewards: [{
-				id: "08D2CB95417634F7"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "08D2CB95417634F7"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1FEC148472B209D0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			subtitle: "Drops from the Starlit Crusher's Loot Bag"
 			tasks: [{
@@ -1100,11 +1296,18 @@
 			dependencies: ["7E124E6EFC7E8ADD"]
 			id: "2F08F444586722F7"
 			optional: true
-			rewards: [{
-				id: "5A12BFE4AB3B7A62"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5A12BFE4AB3B7A62"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "69E1594AA6B9D620"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "3E1D8A917D2C81A4"
@@ -1124,11 +1327,18 @@
 			dependencies: ["7E124E6EFC7E8ADD"]
 			id: "582FCFC9A5062978"
 			optional: true
-			rewards: [{
-				id: "4EF3FB07E782AD38"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4EF3FB07E782AD38"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "519296F35F15FD87"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6351A3DAD00BAE5E"
@@ -1142,11 +1352,18 @@
 			dependencies: ["0515422E36E4E9A3"]
 			id: "439EA0E50E369340"
 			optional: true
-			rewards: [{
-				id: "2DB9A48CA66E968F"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2DB9A48CA66E968F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "56A6EE06BE135939"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "53573EE98943693F"

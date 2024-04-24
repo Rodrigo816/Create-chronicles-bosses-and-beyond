@@ -204,7 +204,10 @@
 			description: [
 				"Still have some Copper Ingots left? No? Go grab some more and create Winry! By that I mean the Wrench. "
 				""
-				"&cThe Wrench&r by itself can be used to rotate blocks and to make a Deployer use the Wrench,&n you have to use a Chute to Hop the Wrench in&r."
+				"&cThe Wrench&r by itself can be used to rotate blocks and to make a Deployer use the Wrench, &nyou have to use a Hopper/Chute with a Chest on top and place the Wrench inside the chest so it goes into the Deployer.&r"
+				""
+				""
+				"{image:kubejs:textures/chute_hopper_exp.png width:150 height:194 align:1}"
 				""
 				"&o&dNote:&r&r &oIf you recognize the name Winry, you Rock like a Bell!&r"
 			]

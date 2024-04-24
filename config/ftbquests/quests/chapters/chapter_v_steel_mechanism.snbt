@@ -32,6 +32,11 @@
 		{
 			dependencies: ["60A94E3337A26181"]
 			id: "44B711E1B5B7B00E"
+			rewards: [{
+				id: "67DC5F0576D69364"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DEF0DA1D162EA2E"
 				item: "tfmg:steel_ingot"
@@ -50,6 +55,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "69D628450626D8D5"
+			rewards: [{
+				count: 15
+				id: "3C4CD26A2CF7E22D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -59,27 +70,6 @@
 			}]
 			x: 3.0d
 			y: 10.0d
-		}
-		{
-			dependencies: [
-				"41F2204F3859C40E"
-				"0D2D729534CC797F"
-			]
-			dependency_requirement: "one_completed"
-			id: "6410C194650D31D0"
-			rewards: [{
-				count: 5
-				id: "3BC1809E12926D90"
-				item: "minecraft:coal_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4796B10C0C3C0B60"
-				item: "tfmg:cast_iron_ingot"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -97,6 +87,11 @@
 				{
 					id: "7AF10DD69B345714"
 					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "3F3D74AA8F3EE56A"
+					item: "numismatics:spur"
 					type: "item"
 				}
 			]
@@ -119,6 +114,11 @@
 			dependencies: ["3B77F16B06EA00EF"]
 			icon: "tfmg:aluminum_ingot"
 			id: "23AAAAF53A58DE75"
+			rewards: [{
+				id: "5FA364EA8CDFD30E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "42C18F2CCBB19E67"
@@ -137,17 +137,25 @@
 		}
 		{
 			dependencies: [
-				"6410C194650D31D0"
+				"7195C5282BA6B067"
 				"41F2204F3859C40E"
 			]
-			dependency_requirement: "one_started"
+			dependency_requirement: "one_completed"
 			id: "3786CEBDF1D138A3"
-			rewards: [{
-				count: 32
-				id: "61CD476CA52EF93E"
-				item: "minecraft:coal"
-				type: "item"
-			}]
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 32
+					id: "61CD476CA52EF93E"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "614AAB689DC0DB6D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			subtitle: "build a coke oven"
 			tasks: [{
 				count: 9L
@@ -163,6 +171,11 @@
 			dependencies: ["61D53F99D72D0940"]
 			id: "66390863259FE74C"
 			optional: true
+			rewards: [{
+				id: "425F7E676458AA5D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "07B7F0C605A4CA2E"
 				item: "tfmg:limesand"
@@ -179,6 +192,11 @@
 			dependency_requirement: "one_completed"
 			id: "5429EC5DB7D8429C"
 			optional: true
+			rewards: [{
+				id: "2DB496EE7C31F923"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1AE14BF44D6AE9E2"
 				item: "tfmg:blasting_mixture"
@@ -193,6 +211,11 @@
 			hide_dependency_lines: true
 			id: "6AD87BACD480D27B"
 			optional: true
+			rewards: [{
+				id: "2B4AD85E927EC7FD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6515B66AB931E976"
 				item: "create:crushed_raw_iron"
@@ -206,6 +229,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "0D2D729534CC797F"
+			rewards: [{
+				id: "3072BE1C255F3304"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "474A4F8B2096CDA0"
 				item: "minecraft:iron_ingot"
@@ -216,8 +244,12 @@
 		}
 		{
 			dependencies: ["7E82E9591EDB4835"]
-			dependency_requirement: "one_started"
 			id: "41F2204F3859C40E"
+			rewards: [{
+				id: "59F8BD25C788CD09"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0EA6CA1CCA875A5D"
 				item: "minecraft:coal"
@@ -228,7 +260,13 @@
 		}
 		{
 			dependencies: ["3786CEBDF1D138A3"]
+			dependency_requirement: "one_completed"
 			id: "5800110695DFDE0F"
+			rewards: [{
+				id: "3FA946BA9C7E384F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B9049EA47071647"
 				item: "tfmg:coal_coke"
@@ -241,6 +279,11 @@
 			dependencies: ["3786CEBDF1D138A3"]
 			dependency_requirement: "one_completed"
 			id: "4529E314F97ED3FA"
+			rewards: [{
+				id: "70B4FE9276461339"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0298CA5AE64183C1"
 				item: "tfmg:creosote_bucket"
@@ -252,6 +295,11 @@
 		{
 			dependencies: ["5800110695DFDE0F"]
 			id: "239718D740BF77C5"
+			rewards: [{
+				id: "3B1EF10B34E5D032"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "49E6FCE45A679184"
 				item: "tfmg:coal_coke_dust"
@@ -264,6 +312,11 @@
 			dependencies: ["4529E314F97ED3FA"]
 			dependency_requirement: "one_completed"
 			id: "0A1E595C80AA998B"
+			rewards: [{
+				id: "1087AEC91B0272AE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FC2DF714B2EBA01"
 				item: "tfmg:hardened_planks"
@@ -275,6 +328,11 @@
 		{
 			dependencies: ["0A1E595C80AA998B"]
 			id: "1F78ED8F3E697791"
+			rewards: [{
+				id: "4E5AFD46E9BAC255"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "60D8BDEAF5AEC1AB"
 				item: "tfmg:steel_casing"
@@ -289,6 +347,11 @@
 				"239718D740BF77C5"
 			]
 			id: "0AB740B18E5FA805"
+			rewards: [{
+				id: "4A228E3C11E7B7CE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7FDB939CF73DB69E"
@@ -315,6 +378,11 @@
 		{
 			dependencies: ["0AB740B18E5FA805"]
 			id: "43DA11DD7F5A2C79"
+			rewards: [{
+				id: "6BCFAF954ADF22BC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "36A1A6B1770C02AC"
 				item: "tfmg:molten_slag_bucket"
@@ -326,6 +394,11 @@
 		{
 			dependencies: ["0AB740B18E5FA805"]
 			id: "5FDD3AE28724E3DB"
+			rewards: [{
+				id: "30D500185A528087"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1179319D080C8282"
 				item: "tfmg:molten_steel_bucket"
@@ -339,6 +412,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "46E5565D623C0AC8"
+			rewards: [{
+				id: "169DC08818C80F38"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1F038042E4DD56D8"
@@ -360,6 +438,11 @@
 				"7682212B86FC5B85"
 			]
 			id: "3AB3B4308FA14C9E"
+			rewards: [{
+				id: "57A1B373D3E34F70"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5ABF5E739971F4AD"
 				item: "tfmg:bauxite"
@@ -371,6 +454,11 @@
 		{
 			dependencies: ["3AB3B4308FA14C9E"]
 			id: "3B77F16B06EA00EF"
+			rewards: [{
+				id: "36FA4B90E3C2CB19"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "28204EE65135B7B7"
 				item: "create:crushed_raw_aluminum"
@@ -382,6 +470,11 @@
 		{
 			dependencies: ["44B711E1B5B7B00E"]
 			id: "214FA0AC03602688"
+			rewards: [{
+				id: "22C2C26B2F4A13A0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77E2E89F149F2644"
 				item: "tfmg:heavy_plate"
@@ -393,6 +486,11 @@
 		{
 			dependencies: ["44B711E1B5B7B00E"]
 			id: "65C36850480E3CFB"
+			rewards: [{
+				id: "760AE9D1577F2CC3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "205B55524B405A20"
 				item: "tfmg:screw"
@@ -404,6 +502,11 @@
 		{
 			dependencies: ["44B711E1B5B7B00E"]
 			id: "1D74F3D74105B835"
+			rewards: [{
+				id: "5749384243C6C18A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "320CB5665EB7C2DA"
 				item: "tfmg:rebar"
@@ -418,6 +521,11 @@
 				"1D74F3D74105B835"
 			]
 			id: "39D793EF31699C8A"
+			rewards: [{
+				id: "0ECF6548F0B20419"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "102F142498C5F88D"
 				item: {
@@ -435,6 +543,11 @@
 		{
 			dependencies: ["214FA0AC03602688"]
 			id: "50CDAAB5AECA6B27"
+			rewards: [{
+				id: "33A5B114C70B6E58"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "opcional"
 			tasks: [{
 				id: "6C9ED2E054D9EFEE"
@@ -449,6 +562,11 @@
 			dependency_requirement: "one_completed"
 			id: "7E82E9591EDB4835"
 			optional: true
+			rewards: [{
+				id: "55DE7D3F8224F459"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D462E5C990EC927"
 				item: "create_dd:coal_piece"
@@ -465,6 +583,11 @@
 			id: "409394CEF9087E88"
 			optional: true
 			progression_mode: "linear"
+			rewards: [{
+				id: "427A845A81663D8B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "Please visit the renewable ores chapter to learn how to activate this."
 			tasks: [{
 				id: "1F112853E7AB803B"
@@ -477,6 +600,11 @@
 		{
 			dependencies: ["409394CEF9087E88"]
 			id: "3E42FEEFBC22F7D3"
+			rewards: [{
+				id: "6C1DC825E5C0019A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "18DF3371A3B988F5"
 				item: "create:cinder_flour"
@@ -490,6 +618,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "7682212B86FC5B85"
+			rewards: [{
+				id: "39F9903A2C348E03"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16513AA213DA6D0F"
 				item: "minecraft:red_sand"
@@ -503,11 +636,17 @@
 				"184B9A5F983FA7A5"
 				"1DBA19EB422182AF"
 			]
+			dependency_requirement: "one_completed"
 			id: "61D53F99D72D0940"
 			optional: true
+			rewards: [{
+				id: "4527B8FE29A203DB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "327FDFAE9ECCD6C5"
-				item: "quark:limestone"
+				item: "create:limestone"
 				type: "item"
 			}]
 			x: -2.5d
@@ -519,6 +658,11 @@
 			hide_dependency_lines: true
 			id: "1DBA19EB422182AF"
 			optional: true
+			rewards: [{
+				id: "461F5038E99F7EF9"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "08A5F4FD57B1A774"
 				item: "minecraft:lava_bucket"
@@ -533,6 +677,11 @@
 			hide_dependency_lines: true
 			id: "184B9A5F983FA7A5"
 			optional: true
+			rewards: [{
+				id: "461C4B3C8BD29E23"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EE64AE0721EA522"
 				item: "minecraft:honey_bottle"
@@ -540,6 +689,29 @@
 			}]
 			x: -3.5d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"41F2204F3859C40E"
+				"0D2D729534CC797F"
+			]
+			dependency_requirement: "one_completed"
+			description: [""]
+			id: "7195C5282BA6B067"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "7E87412957C08810"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01905FFF014AD138"
+				item: "tfmg:cast_iron_ingot"
+				type: "item"
+			}]
+			title: "cast iron ingot"
+			x: 2.5d
+			y: -6.0d
 		}
 	]
 	title: "Chapter V: Steel Mechanism"

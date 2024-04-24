@@ -12,11 +12,18 @@
 			dependencies: ["123D70CA4959F172"]
 			hide: true
 			id: "731C3214BB61FDAE"
-			rewards: [{
-				id: "1A22694A70BE865A"
-				item: "minecraft:netherite_scrap"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1A22694A70BE865A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "756F5F1CA255DE69"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "Found underground in the &aOverworld&r."
@@ -35,11 +42,18 @@
 		{
 			dependencies: ["731C3214BB61FDAE"]
 			id: "44937B2D2EB38094"
-			rewards: [{
-				id: "2B6B4A1DB2165CC7"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					id: "2B6B4A1DB2165CC7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1895131623290E9B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			subtitle: "Used to negate the darkness in &8&lThe Otherside."
 			tasks: [{
 				id: "42CA7AAF304767E7"
@@ -64,11 +78,18 @@
 			description: ["Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &bHeart of The Deep &rthat you got earlier from killing The Warden."]
 			hide: true
 			id: "704CCA2CEAB23B4D"
-			rewards: [{
-				id: "336DFFDBA2B4F736"
-				item: "deeperdarker:ancient_vase"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "336DFFDBA2B4F736"
+					item: "deeperdarker:ancient_vase"
+					type: "item"
+				}
+				{
+					id: "6AEED5EA493981C2"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -85,11 +106,18 @@
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
 			id: "6E7D3242496F4501"
-			rewards: [{
-				id: "64D2CD3086F0814E"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "64D2CD3086F0814E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1D0A62A0E8280A89"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "deeperdarker:shattered"
 				icon: "deeperdarker:soul_dust"
@@ -105,11 +133,18 @@
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
 			id: "192EE909C57F390A"
-			rewards: [{
-				id: "32D7431007C483AE"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "32D7431007C483AE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1E94990659346438"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			subtitle: "Rare chance of spawning after breaking an &8Ancient Vase&r."
 			tasks: [{
 				entity: "deeperdarker:stalker"
@@ -126,11 +161,18 @@
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
 			id: "3CBDB45D65737212"
-			rewards: [{
-				id: "65BC1997E31DF6FD"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "65BC1997E31DF6FD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "02918A58E871AA39"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			subtitle: "Found by stepping on Infested Sculk"
 			tasks: [{
 				entity: "deeperdarker:shriek_worm"
@@ -155,11 +197,18 @@
 				}
 			}
 			id: "0FF69526C1DC1593"
-			rewards: [{
-				id: "67FB94C359F4DC55"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					id: "67FB94C359F4DC55"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0AB28BF2AD665D1D"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1b

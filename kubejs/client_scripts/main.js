@@ -13,6 +13,7 @@ ClientEvents.lang('en_us', event => {
 })
 
 JEIEvents.hideItems(event => {
+  event.hide('missions:mechanical_exchanger')
   event.hide('twilightforest:uncrafting_table')
   event.hide('create_dd:chocolate_milkshake')
   event.hide('create_dd:vanilla_milkshake_bucket')

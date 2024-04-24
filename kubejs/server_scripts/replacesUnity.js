@@ -21,6 +21,12 @@ ServerEvents.recipes(event => {
   event.remove({output: 'create_dd:steel_ingot'});
   event.replaceInput({}, 'create_dd:steel_ingot', 'tfmg:steel_ingot');
 
+  event.remove({output: 'createaddition:zinc_sheet'});
+  event.remove({output: 'createdeco:zinc_sheet'});
+  event.replaceInput({}, 'createdeco:zinc_sheet', 'create_dd:zinc_sheet');
+  event.replaceInput({}, 'createaddition:zinc_sheet', 'create_dd:zinc_sheet');
+
+
   event.remove({output: 'ad_astra:steel_ingot'});
   event.replaceInput({}, 'ad_astra:steel_ingot', 'tfmg:steel_ingot');
 

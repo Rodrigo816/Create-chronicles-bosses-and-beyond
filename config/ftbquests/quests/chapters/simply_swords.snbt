@@ -67,11 +67,18 @@
 			}
 			id: "6C71E2ABAA99C005"
 			invisible: true
-			rewards: [{
-				id: "4C106559A388027E"
-				item: "kubejs:blade_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4C106559A388027E"
+					item: "kubejs:blade_badge"
+					type: "item"
+				}
+				{
+					id: "32C9D3E3426ECB82"
+					item: "numismatics:sun"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.5d
 			tasks: [{
@@ -86,11 +93,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "53B2E9A6E5B325ED"
-			rewards: [{
-				id: "047E2792DD532780"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "047E2792DD532780"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A21209D0F3066EA"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "544C8E47301FBF06"
@@ -110,11 +124,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "0E07548D03860CCF"
-			rewards: [{
-				id: "57192A2620C7B48E"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "57192A2620C7B48E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1363B0B06357E8B8"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "62C60ACAB6FAC733"
@@ -141,11 +162,18 @@
 				}
 			}
 			id: "22CAADECE7DBCC19"
-			rewards: [{
-				id: "2D95BA416394CA48"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "2D95BA416394CA48"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "51EAB2D0DE06677C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "615CA90709AF9EE2"
@@ -165,11 +193,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "2169375E832C2F25"
-			rewards: [{
-				id: "7CB020263D93D65A"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7CB020263D93D65A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "60DDE46325A42AC5"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "2A81AAFE840CE232"
@@ -189,11 +224,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "455B5BE4799E7BA1"
-			rewards: [{
-				id: "783B16978485CC03"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "783B16978485CC03"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20876E31B27C5A15"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "23A8A396BF645CF9"
@@ -213,11 +255,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "0040CDCBC2EB8DDF"
-			rewards: [{
-				id: "7720216DC97158DE"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7720216DC97158DE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4CA6285B42AFD474"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "396C308DB975ED6F"
@@ -237,11 +286,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "7EF5B971BE033641"
-			rewards: [{
-				id: "3247AC214F5C4483"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "3247AC214F5C4483"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F4FB2374B83C43E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "5BB01416CA7AADDD"
@@ -261,11 +317,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "53603CD7E6CA3F0B"
-			rewards: [{
-				id: "04049F5D304B3770"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "04049F5D304B3770"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5D590545C0BC2F13"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "790454D72C1B21E1"
@@ -285,11 +348,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "2D063400687C0A32"
-			rewards: [{
-				id: "64B00CB97AB64DCD"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "64B00CB97AB64DCD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0973342B8F1381B7"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "486EF4C783BE7F96"
@@ -309,11 +379,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "2097C3E4ED7D5F02"
-			rewards: [{
-				id: "199B21D9C7DF509D"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "199B21D9C7DF509D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "35A9468ECCD18E2A"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "18B20B0FEE835CA8"
@@ -333,11 +410,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "5DC857771CA38E30"
-			rewards: [{
-				id: "7E89FA99FE15C1F4"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7E89FA99FE15C1F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "25C24D2A0896B312"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "21BCAC1F8B3099B7"
@@ -357,11 +441,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "693EF5F1A82287C2"
-			rewards: [{
-				id: "70CD067B72A20355"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "70CD067B72A20355"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "10A27688A756AB0E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "783D2C2A78F4EDBD"
@@ -381,11 +472,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "48BA8279B7803935"
-			rewards: [{
-				id: "52BF2FCD102A50D9"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "52BF2FCD102A50D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "10B3357589F86A44"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "0942D01457DACB76"
@@ -405,11 +503,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "5CEB5D0A9457C85F"
-			rewards: [{
-				id: "14118FB693248E98"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "14118FB693248E98"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "24C5981F199A491C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "2357EC02C1AAD0A9"
@@ -429,11 +534,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "699E000B5857A250"
-			rewards: [{
-				id: "707EF32F1F0E9D7F"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "707EF32F1F0E9D7F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C4E49233590F17B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "6D27F59148737DEE"
@@ -453,11 +565,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "738B384E5DA0FE51"
-			rewards: [{
-				id: "160D5A113536B09A"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "160D5A113536B09A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "25A1BDD6A214F2BB"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "00BD83810F5237FB"
@@ -476,6 +595,11 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			id: "0D05510497DF52AB"
+			rewards: [{
+				id: "59F6CFE0225F2011"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3B75A36B924354CC"
@@ -495,11 +619,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "3183E4BFE858CACC"
-			rewards: [{
-				id: "516477FBC5498A23"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "516477FBC5498A23"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "18156A26297C2317"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "7B71BF8CE5F0A295"
@@ -519,11 +650,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "722AF20B25C73434"
-			rewards: [{
-				id: "1F11D760752CD149"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1F11D760752CD149"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "770964DF845B206B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "07C0CB7E2D17495E"
@@ -543,11 +681,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "1E84A488F5E570E4"
-			rewards: [{
-				id: "45679370FEB0D911"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "45679370FEB0D911"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4935A9A4204DB9B3"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "6960BCBD0925D522"
@@ -567,11 +712,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "34BBF229D598EC32"
-			rewards: [{
-				id: "632E4EB252A66CE9"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "632E4EB252A66CE9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B4736002D45C064"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "3D69FE85ABD4867C"
@@ -592,11 +744,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "54281D0166F4A2B7"
-			rewards: [{
-				id: "34C76BB77980CE3F"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "34C76BB77980CE3F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0E8050299A66859C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "701B110644804178"
@@ -618,11 +777,18 @@
 			hide: false
 			hide_dependency_lines: false
 			id: "3818BF7AAFFFF348"
-			rewards: [{
-				id: "3DDF9976E7C8523A"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "3DDF9976E7C8523A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0498C1A94178777D"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "5B8B8B2DADA0CFED"
@@ -644,11 +810,18 @@
 			hide: false
 			hide_dependency_lines: false
 			id: "7E05746BAA2DFC51"
-			rewards: [{
-				id: "3548BA64ECB3A2B3"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "3548BA64ECB3A2B3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "712B62C82EEB46A9"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "7ACF3D014BD2DE0E"
@@ -668,11 +841,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "44DFABF9753C695A"
-			rewards: [{
-				id: "108D10DE4A6331A7"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "108D10DE4A6331A7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40966B0AE2FB6B8A"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "1B9718F5C45C4436"
@@ -692,11 +872,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "15ACAC042E5DC5A9"
-			rewards: [{
-				id: "59FD3D3587E17E6E"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "59FD3D3587E17E6E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "552B22AF38D33E16"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "1D25B90CB61CBC58"
@@ -716,11 +903,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "0B77600C1CF9D04D"
-			rewards: [{
-				id: "79EAFED40A29EB42"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "79EAFED40A29EB42"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4A3AC5855CC431AF"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "1857617ECD147F54"
@@ -740,11 +934,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "6A397DDAD1FEB62D"
-			rewards: [{
-				id: "5826DEBB2B52DB17"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "5826DEBB2B52DB17"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5AE2E92C7B34A8F8"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "0CC32E25243D7C93"
@@ -764,11 +965,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "591452E3ABF5CE04"
-			rewards: [{
-				id: "1C3A71996FBE5C49"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1C3A71996FBE5C49"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "616D2F3B58220933"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "2CCAE40045618CB3"
@@ -788,11 +996,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "710E685F9C267299"
-			rewards: [{
-				id: "65C161C2475C7162"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "65C161C2475C7162"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "19A5D778A772E398"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "1FF119266D0CF297"
@@ -812,11 +1027,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "7162B0D58650037E"
-			rewards: [{
-				id: "717AA56EF5D3CF22"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "717AA56EF5D3CF22"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "48094004CB012400"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "7F51BF61124D9AEA"
@@ -836,11 +1058,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "10E6A5CCEA7AF675"
-			rewards: [{
-				id: "5FA842D9CACD43BD"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "5FA842D9CACD43BD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3E81127B89B41CE3"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "6A1F1AF0140A0449"
@@ -860,11 +1089,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "020EF6BAC6E7BD52"
-			rewards: [{
-				id: "7BFC7141E8E68193"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7BFC7141E8E68193"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C650117018C45C2"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "77B0C8E916D8A023"
@@ -884,11 +1120,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "2BD02102AED25BBD"
-			rewards: [{
-				id: "271495DB92BD498F"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "271495DB92BD498F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5EC98D97833C79C9"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "13DB3044B0654389"
@@ -908,11 +1151,18 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			id: "0793903EFDA666D9"
-			rewards: [{
-				id: "7233ACA209E5DFFE"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7233ACA209E5DFFE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "402EDFEBFC2FBA20"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "08D042463711C681"
@@ -933,6 +1183,11 @@
 			hide: false
 			hide_dependency_lines: false
 			id: "0AA8A1F80F280ABD"
+			rewards: [{
+				id: "6DB867FB896E78CC"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2A0E9CCCD60F8194"
@@ -953,6 +1208,11 @@
 			hide: false
 			hide_dependency_lines: false
 			id: "6D240A5EFE38CB75"
+			rewards: [{
+				id: "326B8581F88C4027"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "017458DDFC9008D0"
@@ -973,6 +1233,11 @@
 			hide: false
 			hide_dependency_lines: false
 			id: "2C73BC02BBEBC431"
+			rewards: [{
+				id: "7E769296B8E91FCE"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "06372236CE378E5C"
@@ -993,6 +1258,11 @@
 			hide: false
 			hide_dependency_lines: false
 			id: "4BFEA32C76691954"
+			rewards: [{
+				id: "0F0F5EA5CB74B2D2"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3E4A2914C5A72DEB"

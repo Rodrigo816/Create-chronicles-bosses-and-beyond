@@ -75,6 +75,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "14CE5ABE72CBB952"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "66B4AD02808647BB"
@@ -106,6 +111,11 @@
 					id: "6EB3E999CEB73444"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					id: "39C7BE5CF0DBA5E5"
+					item: "numismatics:spur"
+					type: "item"
 				}
 			]
 			subtitle: "Please use the ponder scene to refer on how to build"
@@ -168,6 +178,11 @@
 					item: "create:experience_nugget"
 					type: "item"
 				}
+				{
+					id: "1EE23E2C17152C7A"
+					item: "numismatics:spur"
+					type: "item"
+				}
 			]
 			subtitle: "Please use the ponder scene to refer on how to build"
 			tasks: [
@@ -208,6 +223,11 @@
 			dependencies: ["615126E9C29AA0F1"]
 			id: "20218B68C748F8E8"
 			optional: true
+			rewards: [{
+				id: "62D9D938927C9CB8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7BD17D0BCD140D64"
 				item: "tfmg:heavy_oil_bucket"
@@ -219,6 +239,11 @@
 		{
 			dependencies: ["615126E9C29AA0F1"]
 			id: "17695F39F46DA92C"
+			rewards: [{
+				id: "50F22E7AF21219DD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A7CCD23557DCD8A"
 				item: "tfmg:kerosene_bucket"
@@ -231,6 +256,11 @@
 			dependencies: ["615126E9C29AA0F1"]
 			id: "1EA7C3F726EAC443"
 			optional: true
+			rewards: [{
+				id: "76FD74C754BAAA70"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A5D69EEEF2A22C7"
 				item: "tfmg:naphtha_bucket"
@@ -243,6 +273,11 @@
 			dependencies: ["615126E9C29AA0F1"]
 			id: "2A662FA99B21BFB3"
 			optional: true
+			rewards: [{
+				id: "2F9990F305F26109"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B87AAD96375ADE9"
 				item: "tfmg:gasoline_bucket"
@@ -254,6 +289,11 @@
 		{
 			dependencies: ["20218B68C748F8E8"]
 			id: "026770210A6EBDB4"
+			rewards: [{
+				id: "6D5F0B36B190295A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EBDEFC3A78D07D3"
 				item: "tfmg:lubrication_oil_bucket"
@@ -265,6 +305,11 @@
 		{
 			dependencies: ["615126E9C29AA0F1"]
 			id: "0387186A7791A953"
+			rewards: [{
+				id: "70204D2B35F8BBEC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "035B048FB162B702"
 				item: "tfmg:diesel_bucket"
@@ -276,6 +321,11 @@
 		{
 			dependencies: ["20218B68C748F8E8"]
 			id: "4DA9294ABB244D04"
+			rewards: [{
+				id: "312CEC283AEEA1B8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "33056D37E3332D97"
 				item: "tfmg:sulfur_dust"
@@ -287,6 +337,11 @@
 		{
 			dependencies: ["20218B68C748F8E8"]
 			id: "077DDA2EE4C3603D"
+			rewards: [{
+				id: "5830D2051112C109"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EAC1FE49BDCFDDE"
 				item: "tfmg:bitumen"
@@ -298,6 +353,11 @@
 		{
 			dependencies: ["2A662FA99B21BFB3"]
 			id: "2679F3B882A0DAB5"
+			rewards: [{
+				id: "39D53A37C57B6D74"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CA35B08063D28CE"
 				item: "tfmg:napalm_bucket"
@@ -309,6 +369,11 @@
 		{
 			dependencies: ["1EA7C3F726EAC443"]
 			id: "1E6D5B2997075953"
+			rewards: [{
+				id: "379C05C922F4BEDC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2784C6636B6CEBDB"
 				item: "tfmg:liquid_plastic_bucket"
@@ -320,6 +385,11 @@
 		{
 			dependencies: ["1E6D5B2997075953"]
 			id: "660362D67075EA49"
+			rewards: [{
+				id: "434B0616F3C628E8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61200E449FACE8CC"
 				item: "tfmg:plastic_sheet"
@@ -333,6 +403,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "4AF468B735AE6B79"
+			rewards: [{
+				id: "2C7E53A9E48AE499"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77A4C1280F58ACFC"
 				item: "createaddition:bioethanol_bucket"
@@ -348,6 +423,12 @@
 				"4AF468B735AE6B79"
 			]
 			id: "7EEB0092E87627F1"
+			rewards: [{
+				count: 30
+				id: "446EC2B687FD1490"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "this will be the fuel you use on your rocket"
