@@ -1,0 +1,867 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trains"
+	group: "4546D7737CBFFD68"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "railways:textures/gui/journeymap_train.png"
+		}
+	}
+	id: "68ED9222300D955D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "railways:textures/gui/journeymap_train.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create_things_and_misc:item/train_stop_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/track"
+			rotation: -90.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/track"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/track"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/track"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/track"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/track"
+			rotation: -90.0d
+			width: 1.0d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/track"
+			rotation: -90.0d
+			width: 1.0d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/track"
+			rotation: -90.0d
+			width: 1.0d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "velox:textures/quests/trains.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "velox:textures/quests/trains-title.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 7.0d
+			y: -2.0d
+		}
+	]
+	order_index: 38
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["66A79E26F0061C31"]
+			id: "6FAC43D64B944DF9"
+			rewards: [
+				{
+					count: 32
+					id: "3A6BEB0CA527E16E"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "17706D5179B12590"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					id: "7FA5B9B93421C24F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			subtitle: "Gotta Lay Some Tracks"
+			tasks: [{
+				count: 16L
+				id: "04A599E4D4076430"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "Laying Tracks"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FAC43D64B944DF9"]
+			description: [
+				"Casings can only be crafted through physically applying a valid alloy or ingot to any Stripped variant of Log or Wood. "
+				""
+				"The logs will convert themselves into the casing, where the player can either mine it with their preferred tool or use a Wrench to place the casing in their inventory."
+				""
+				"So for Brass Casings, the recipe is &o&2Any Stripped Log or Stripped Wood&r&r +"
+				"&o&6Brass Ingot&r"
+				"&r"
+				""
+				"Train casings are &o&6Brass Casing&r&r&r +"
+				"&o&8Sturdy Sheet&r&r."
+			]
+			id: "112B56B1C8BB2DAE"
+			rewards: [
+				{
+					count: 16
+					id: "1122A75849AE5AB6"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "5E8E9FCFC456CBE5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "008DF63311848848"
+					item: "simplehats:hatbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FE02F6A81C64380"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["112B56B1C8BB2DAE"]
+			description: [
+				"Train Stations are used to create, disassemble, and guide Trains."
+				""
+				"&oRight-click&r a Train Track, then place the Station within &o15&r blocks of the track. "
+				""
+				"Stations can be placed on any Track so long as it isn't occupied by a Train Signal or Train Observer, &ohowever&r it can only create Trains if placed on a straight Track, and Bogeys may only be placed on a &o3&r long straight track."
+			]
+			id: "26CDCBD20507311C"
+			rewards: [
+				{
+					id: "34C803D913295BD1"
+					item: "create:train_door"
+					type: "item"
+				}
+				{
+					id: "3371ADC166BC7DA3"
+					item: "railways:orange_conductor_cap"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5355361B6BC78A5C"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "58F3FCD45F6EF102"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26CDCBD20507311C"]
+			description: [
+				"On a Train, Train Controls can be right clicked to take control of the Train. The player's ordinary movement options will affect the Train instead. "
+				""
+				"Use the controls again or sneak to stop. Hold &oleft or right&r at a fork to choose a path. Use the &oscroll wheel&r to adjust maximum speed. Hold &ojump&r to approach and align at a Station. "
+				""
+				"If a Steam Whistle is attached, press the sprint key to blow it."
+			]
+			id: "16EDC0F8ED08BE9D"
+			rewards: [
+				{
+					id: "399177B28E6B8738"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E41EF050559FB3F"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "68EEF96CD33189D8"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16EDC0F8ED08BE9D"]
+			description: [
+				"Place the track and right-click it with a station block. Place the station block near the track."
+				""
+				""
+				"Right click on the station and select \"Create Train\" to enter assembly mode (blue flag shown on station)."
+				""
+				"Place one or more Train Casings on the track where indicated with blue. The casings will turn into bogeys (wheeled undercarriages.)"
+				""
+				"When assembled, each bogey will automatically become coupled together as part of the train. To create a carriage, build a platform around two bogeys' bases. See Train Creation Restrictions for more details."
+				""
+				"Place a Train Controls block facing the direction dictated by the station. This is shown as an arrow on the Station's selected track. Place another set of Train Controls facing the opposite way to make the engine bi-directional (able to travel in both directions) and place a Seat or Blaze Burner behind the controls for the driver."
+				""
+				"Use Block Attachment Utilities such as Super Glue to connect all parts together (green highlight)."
+				""
+				"When finished, use the Station's interface to attempt to assemble the Train."
+				""
+				"If a Train fails to assemble, an error will be shown in the Station's interface. Common errors are detailed below."
+				""
+				"When assembled, the Train can be named in the Station's interface."
+			]
+			id: "6D5A328AB4250234"
+			rewards: [
+				{
+					id: "3F1C55B94057B379"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "1B5DB5A3ED46FFB5"
+					item: "create:black_seat"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				id: "55B4EAD0ED211647"
+				type: "advancement"
+			}]
+			title: "All Aboard!"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "66A79E26F0061C31"
+			rewards: [
+				{
+					id: "0292BBD6E9585ECE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63A84371125F962B"
+					type: "random"
+				}
+			]
+			subtitle: "Building \"Block\" of Trains"
+			tasks: [{
+				advancement: "create:sturdy_sheet"
+				criterion: ""
+				id: "135198785D4F06F5"
+				type: "advancement"
+			}]
+			title: "Gotta Start Somewhere"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D5A328AB4250234"]
+			description: [
+				"Craft a Bell Whistle and combine with your train and activate it. "
+				""
+				"While driving the train, use the sprint key to blow the whistle. The Whistle's pitch will be accounted for. Non-player conductors will also blow the whistles shortly before arriving at distant stations."
+				""
+				"Note: &oIf multiple whistles are on a Train, a player can only blow the Whistle at the frontmost of the Train. NPC Conductors can play every Whistle, however.&r"
+			]
+			id: "251CBA9BCFBD0584"
+			rewards: [
+				{
+					id: "76ADF84FC92BE7E3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AF669FA9F76D494"
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				advancement: "create:train_whistle"
+				criterion: ""
+				id: "00DED01569D71F4E"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["251CBA9BCFBD0584"]
+			description: [
+				"&7\"&oRide a Train through a portal.&r\"&r"
+				""
+				"Train Tracks can go through &dNether Portals&r. "
+				""
+				"Simply lead the &7Track&r to a &dportal,&r and it will link to the other side if it was already loaded once. "
+				""
+				"A set of &7tracks&r will appear on the other side of the portal, making it easier to tell which way the Train will emerge from. "
+				""
+				"While a &6wagon&r is part way through a nether portal, certain onboard machines such as Portable Storage or Portable Fluid Interfaces will not work."
+			]
+			id: "0F86BB2763C44E2D"
+			rewards: [
+				{
+					id: "296FD56476CA971A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "30E18BC74DFF9D56"
+					item: "ironfurnaces:rainbow_coal"
+					type: "item"
+				}
+			]
+			subtitle: "Time to Go Warp Nine!"
+			tasks: [{
+				advancement: "create:train_portal"
+				criterion: ""
+				id: "79663720B984FF15"
+				type: "advancement"
+			}]
+			title: "Dimensional Commutor"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D5A328AB4250234"]
+			description: [
+				"Instruct a Train driver with a Schedule."
+				""
+				"Right-click a Train conductor with a Train Schedule to give it to them."
+			]
+			id: "420D4246D74137F3"
+			tasks: [{
+				advancement: "create:conductor"
+				criterion: ""
+				id: "72AEE3911865DD91"
+				type: "advancement"
+			}]
+			title: "Conductor Instructor"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D5A328AB4250234"]
+			description: ["Place a Train Station and assemble a Train with six carriages."]
+			id: "3B8146ABC109F41F"
+			rewards: [
+				{
+					id: "38F814C5DECF902E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 64
+					id: "0C05618419048BD8"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2832AE4005A0DE6E"
+					type: "random"
+				}
+			]
+			subtitle: "♪ I LIKE LONG CARRIAGES! ♫"
+			tasks: [{
+				advancement: "create:long_train"
+				criterion: ""
+				id: "74A0FFC51116E605"
+				type: "advancement"
+			}]
+			title: "Really LONG Train"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D5A328AB4250234"]
+			description: ["Leave a Train Seat over 5000 blocks away from where you started traveling."]
+			id: "1ADB421910528C85"
+			rewards: [
+				{
+					id: "605466A957A9D32E"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+				{
+					id: "58EB8F77DE11D7B2"
+					item: "farmersdelight:smoked_ham"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02CAD4C956193DC2"
+					type: "random"
+				}
+			]
+			subtitle: "Okay...bye..."
+			tasks: [{
+				advancement: "create:long_travel"
+				criterion: ""
+				id: "10A5D13FFE88ED87"
+				type: "advancement"
+			}]
+			title: "Field Trip"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D5A328AB4250234"]
+			description: [
+				"Forecast a Train’s arrival on your Display Board with the help of a Display Link."
+				""
+				"Place a Display Link with a Display Board as a target and a Train Station as a source on Station Status Summary mode."
+			]
+			id: "461DC26B8BCFD3DC"
+			rewards: [
+				{
+					id: "5AC40450005EED90"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34D0901F2B6A1F6E"
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5928A2E0B15A23B1"
+					type: "random"
+				}
+			]
+			subtitle: "Train Will Be Arriving Soon"
+			tasks: [{
+				advancement: "create:display_board_0"
+				criterion: ""
+				id: "4DE5AD48AF0E3681"
+				type: "advancement"
+			}]
+			title: "Dynamic Timetables"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FAC43D64B944DF9"]
+			description: [
+				"&o\"Produce more than 1000 train tracks in the same Mechanical Press.\"&r"
+				""
+				"Place a Mechanical Press and use it to complete more than 1000 Train Tracks."
+			]
+			id: "57B8CBC7E6BA45AD"
+			rewards: [
+				{
+					id: "4A0C9CE76EAA332F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76B3AEC719741833"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "722E8CB020BA6D75"
+					type: "random"
+				}
+				{
+					id: "5332317A5260B459"
+					item: "immersiveengineering:shader_bag_epic"
+					type: "item"
+				}
+			]
+			subtitle: "More! MORE!"
+			tasks: [{
+				advancement: "create:track_crafting_factory"
+				criterion: ""
+				id: "17CF4D05054027D6"
+				type: "advancement"
+			}]
+			title: "Track Factory"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["251CBA9BCFBD0584"]
+			description: ["With &3&oCreate: Steam and Rails&r&r you can add various smoke stacks to add some flair to your train without having to use campfires. "]
+			id: "1CDA28B6B238521A"
+			rewards: [
+				{
+					id: "7BCC2B0A8E6532BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "356B162395E68B24"
+					item: "skinnedcarts:panda_minecart"
+					type: "item"
+				}
+			]
+			subtitle: "Puff Puff"
+			tasks: [{
+				id: "14793E8DB8440628"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railways:smokestack_woodburner"
+							}
+							{
+								Count: 1b
+								id: "railways:smokestack_streamlined"
+							}
+							{
+								Count: 1b
+								id: "railways:smokestack_oilburner"
+							}
+							{
+								Count: 1b
+								id: "railways:smokestack_coalburner"
+							}
+							{
+								Count: 1b
+								id: "railways:smokestack_caboosestyle"
+							}
+							{
+								Count: 1b
+								id: "railways:smokestack_long"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Smokestacks"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26CDCBD20507311C"]
+			description: [
+				"The &6speaker&r emits a &bsound&r and also sends a custom message in the chat. "
+				""
+				"The perfect block for a &btrain station&r!"
+			]
+			id: "1AA07723F2B408D0"
+			rewards: [
+				{
+					count: 3
+					id: "109FB45E4FACA0C6"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "65FFD2069ACFB45D"
+					item: "create_things_and_misc:train_sing_yellow_4"
+					type: "item"
+				}
+				{
+					id: "2A871DBA1D86880A"
+					item: "create_things_and_misc:green_sing_1"
+					type: "item"
+				}
+				{
+					id: "3A7595D22192FC10"
+					item: "create_things_and_misc:green_sing_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "ALL ABOARD!"
+			tasks: [{
+				id: "591DEC6997C3EC0A"
+				item: "create_things_and_misc:brass_speaker"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AA07723F2B408D0"]
+			description: ["Any aspiring station masters need this!"]
+			id: "106F1946DE52C51B"
+			rewards: [{
+				count: 2
+				id: "0D0E691D9D6A0828"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Choo choo!"
+			tasks: [{
+				id: "1E91AD193736CAF9"
+				item: "create_things_and_misc:portable_whistle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D5A328AB4250234"]
+			description: [
+				"Right-click a Train Track with a Train Signal while facing the direction Trains are intended to go, then place the signal within 15 blocks of the selected Track. "
+				""
+				"An arrow will appear on the selected Track indicating which way Trains can pass it."
+				""
+				"{@pagebreak}"
+				""
+				"&nTwo-way Tracks&r"
+				""
+				"Conductors will never cross a Train Signal from the opposite direction. "
+				""
+				"Unlike other Railway Equipment, multiple Train Signals can select one track. "
+				""
+				"A Train Signal can be made two-way by having two opposite facing Train Signals linked to the same place. "
+				""
+				"Train Signals facing the same way on the same Track will be synchronized."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&nTrack Segments&r"
+				""
+				"Train Signals divide the track network into segments."
+				""
+				" The segments can be viewed by holding a Signal while looking at the Track. "
+				""
+				"Conductors will not enter a track segment occupied by another Train, regardless of how large the Train or the segment is."
+				""
+				"In order to divide a Track into sections, each section must be separated either by a Train Signal or a lack of connected Tracks."
+				""
+				"{@pagebreak}"
+				""
+				"A circular loop of Tracks requires two Train Signals to divide it, otherwise the Train Signals will have no effect. "
+				""
+				"A straight track only needs one Train Signal to divide it into two. If a section was successfully defined, the line ahead of the Signal should become a different color. The color has no significance aside from serving to differentiate segments."
+				""
+				"{@pagebreak}"
+				""
+				"&nChain Signal&r"
+				""
+				"Use a Wrench on the signal to activate chain mode. "
+				""
+				"This mode will stop the train before the denoted segment if the segment ahead that the train is attempting to path to is occupied. Chain mode is useful at junction locations, where a train could potentially sit in the middle of a junction while waiting for the proceeding segment to become free."
+				""
+				""
+				"{@pagebreak}"
+				"&nDisplay&r"
+				""
+				"Nixie Tubes can be attached to make the signal more visible, as well as convey additional information."
+				""
+				""
+				"{@pagebreak}"
+				"&nRedstone"
+				"&r"
+				"Signals give a Redstone Comparator signal while red. Signals can also be forced red by being activated with Redstone."
+			]
+			id: "3D0D555D1E9BA0C0"
+			rewards: [
+				{
+					id: "5B5F0AE9C8BA69BB"
+					item: "create:nixie_tube"
+					type: "item"
+				}
+				{
+					id: "2301D8AF24CF52BC"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "Train Signals are used to control the flow of Trains not driven by players."
+			tasks: [{
+				id: "6BFBC907B64318BC"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1CDA28B6B238521A"]
+			description: ["Useful for sepeating trains/carts that bump up against each other or to add an extra flair for your train."]
+			id: "44E917BA249C050B"
+			rewards: [
+				{
+					id: "5451D121C70BF76B"
+					item: "create_things_and_misc:train_sing_yellow_5"
+					type: "item"
+				}
+				{
+					id: "7DC4997A6F1083B5"
+					item: "create_things_and_misc:train_sing_yellow_4"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "18A773DD1D12A9D9"
+					item: "railways:conductor_vent"
+					type: "item"
+				}
+			]
+			subtitle: "Give me some space."
+			tasks: [{
+				count: 2L
+				id: "21E1880A1593D09B"
+				item: "create_things_and_misc:train_buffer"
+				type: "item"
+			}]
+			title: "Train Buffers"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3D0D555D1E9BA0C0"]
+			description: [
+				"Make your train yards and junctions pop with our new Semaphore blocks! "
+				""
+				"They serve the same purpose as nixie tubes, but do so in a far more aesthetically pleasing way."
+			]
+			id: "0A95542CEBC061E7"
+			rewards: [
+				{
+					count: 16
+					id: "7A29F8D19613069A"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "6591D564F5D92949"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "Controll Moving Trains"
+			tasks: [{
+				id: "612A5B38D1D434CF"
+				item: "railways:semaphore"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+	]
+	subtitle: ["Finally you can build complex, interesting and fun trains in Minecraft."]
+	title: "Trains"
+}

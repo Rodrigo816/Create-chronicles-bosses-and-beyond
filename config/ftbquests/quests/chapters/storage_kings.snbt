@@ -1,0 +1,562 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_kings"
+	group: ""
+	id: "0A13C1CA42781BE8"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chipped:block/barrel/reinforced_oak_crate_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chipped:block/barrel/oak_crate_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/gui/chest.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/gui/chest.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chipped:block/barrel/reinforced_oak_crate_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chipped:block/barrel/oak_crate_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/glass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/beacon"
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "minecraft:textures/entity/beacon_beam.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chipped:block/barrel/oak_crate_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chipped:block/barrel/reinforced_oak_crate_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chipped:block/barrel/reinforced_oak_crate_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chipped:block/barrel/oak_crate_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/gui/chest.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "create:block/vault/vault_side_large"
+			order: -2
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/barrel_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: [ ]
+			image: "minecraft:block/obsidian"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.9d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "create:block/vault/vault_side_large"
+			order: -2
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	order_index: 24
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "62C803FB7002D18D"
+			size: 2.0d
+			subtitle: "The Storage Terminal lets you access all the items in its connected inventories."
+			tasks: [{
+				id: "01AF2E506BC76C55"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62C803FB7002D18D"]
+			id: "078D019571F6FF13"
+			subtitle: "The Crafting Terminal lets you access your items like a Storage Terminal, but has an in-built Crafting Table. Compatible with JEI!"
+			tasks: [{
+				id: "59EDC9292EA7D562"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "183EA99F74FD0943"
+			size: 2.0d
+			subtitle: "The Inventory Connector connects inventories to the Storage Terminal network, as long as the inventories are adjacent to a connected inventory or the Connector itself."
+			tasks: [{
+				id: "3D6CAF1F3A048D53"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "7AEFFB79D47455E2"
+			size: 2.0d
+			subtitle: "To connect further away inventories, run a line of Inventory Cables from your Connector to another inventory or connector, and put an Inventory Cable Connector onto it."
+			tasks: [
+				{
+					id: "0A57EDE1937BE9FB"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "07ABE964783E3EB8"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AEFFB79D47455E2"]
+			id: "2A71C760CAAFB567"
+			subtitle: "Framed storage items can be painted with a Paint Kit to disguise them as any full block while maintaining functionality."
+			tasks: [
+				{
+					id: "1FFE7B0F83244F83"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "44BDF293DA5684AB"
+					item: "toms_storage:ts.inventory_cable_connector_framed"
+					type: "item"
+				}
+			]
+			title: "Framed Inventory Cables"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A71C760CAAFB567"]
+			id: "6C0E80ED11BD1E11"
+			subtitle: "Use a paint kit to disguise Framed storage blocks. Shift-right click any full block to pick it and then right-click a Framed storage block to disguise it."
+			tasks: [{
+				id: "6901FB36D198F4C4"
+				item: {
+					Count: 1b
+					id: "toms_storage:ts.paint_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "70F0393C0C571F22"
+			subtitle: "The Wireless Terminal lets you wirelessly access system Terminals. It requires you to look at the Terminal you want to access, and it only has a range of 16 blocks."
+			tasks: [{
+				id: "2681CE1E6630ED4B"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70F0393C0C571F22"]
+			id: "1CCDBC0EAAFC2E74"
+			rewards: [{
+				count: 9
+				id: "17CCBA0800D4707D"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Advanced Wireless Terminals are much more useful than basic ones. Bind a Terminal by shift-right-clicking, and as long as you're within 64 blocks and the terminal is loaded, you can access it!"
+			tasks: [{
+				id: "14371B8BBD404712"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CCDBC0EAAFC2E74"]
+			id: "6DAB9C7E990B42DD"
+			subtitle: "Placing a Lvl 1 Beacon within 8 blocks of a Terminal lets Advanced Wireless Terminals access it from anywhere in that dimension. A Lvl 4 Beacon lets you access it from anywhere in any dimension!"
+			tasks: [{
+				advancement: "minecraft:nether/create_full_beacon"
+				criterion: ""
+				id: "0AAA89B0BA018796"
+				type: "advancement"
+			}]
+			title: "Beacon"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "6EEDC828B476E641"
+			subtitle: "Create Vaults (and it's derivatives, Silos) are perfect for massive storage when combined with a Storage Terminal. [NOTE!] Inventory Connectors often show an incorrect amount of total available slots on empty Vaults. Placing any amount of items into a vault/system fixes this.]"
+			tasks: [
+				{
+					id: "1B53ED610E724A62"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "16C8FE9DE2025FC1"
+					item: "create_connected:item_silo"
+					type: "item"
+				}
+			]
+			title: "Vault Storage"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Late-game storage with Tom's Simple Storage!"]
+	title: "&3Simplstorage"
+}

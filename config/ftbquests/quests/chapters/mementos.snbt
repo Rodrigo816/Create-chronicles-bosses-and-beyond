@@ -1,0 +1,721 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mementos"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "twilightforest:block/uncrafting_top"
+		}
+	}
+	id: "6ED0C0BD6A66F25B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "twilightforest:block/uncrafting_top"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "betterarcheology:block/archeology_table/archeology_table_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "betterarcheology:block/archeology_table/archeology_table_front"
+			rotation: 0.0d
+			width: 3.0d
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "betterarcheology:block/archeology_table/archeology_table_bottom"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "betterarcheology:block/archeology_table/archeology_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "betterarcheology:item/brushes/diamond_brush"
+			order: 2
+			rotation: -90.0d
+			width: 1.0d
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "eidolon:item/giant_bone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.535714285714285d
+			y: 2.4940476190476133d
+		}
+		{
+			alpha: 230
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bloodmagic:item/arcaneashes"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.57142857142857d
+			y: 2.529761904761905d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "rats:item/archeologist_hat"
+			rotation: 15.0d
+			width: 1.0d
+			x: 12.142857142857146d
+			y: -1.8630952380952408d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "ad_astra:textures/sky/earth.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ad_astra:textures/gui/sun.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "velox:textures/quests/mementos.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -2.0d
+			y: -7.0d
+		}
+	]
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "72D0F54049C78853"
+			rewards: [
+				{
+					id: "42C28AAC1CDD56B8"
+					item: "cfm:rainbow_sofa"
+					type: "item"
+				}
+				{
+					id: "4E9D5DA3C1D9C15E"
+					item: "simplehats:rainboworbiters"
+					type: "item"
+				}
+				{
+					id: "24D089DB3AB73CB9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Taste like &4S&r&1k&r&5i&r&9t&r&dt&r&2l&r&ee&r&3s&r."
+			tasks: [{
+				id: "324BE5A237E778F3"
+				item: "ironfurnaces:rainbow_coal"
+				type: "item"
+			}]
+			title: "Taste the Rainbow"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			id: "4DE2864CFF24018D"
+			rewards: [
+				{
+					id: "2A1259841E0D131E"
+					item: "waystones:sandy_waystone"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "49499FD6D2A1D2D4"
+					item: "minecraft:chiseled_sandstone"
+					type: "item"
+				}
+				{
+					id: "08F3D1A83ADF198C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Slay the &ePharaoh&r and free the temple from the his curse."
+			tasks: [{
+				advancement: "betterdeserttemples:temple_clear"
+				criterion: ""
+				id: "683FAFA7DFFA8FEA"
+				type: "advancement"
+			}]
+			title: "Eternal Slumber"
+			x: -1.2857142857142918d
+			y: -0.7678571428571388d
+		}
+		{
+			description: [""]
+			id: "0970CAA02F789A5C"
+			rewards: [
+				{
+					id: "5328FFE52059A7B8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "67C7FEE168333111"
+					item: "netherdepthsupgrade:lava_sponge"
+					type: "item"
+				}
+			]
+			subtitle: "Find a &6lava&r sponge in the &cNether Depths.&r"
+			tasks: [{
+				id: "1C2623DFBDD0962B"
+				item: "netherdepthsupgrade:wet_lava_sponge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.7678571428571388d
+		}
+		{
+			description: [""]
+			id: "792913EED204AF61"
+			rewards: [
+				{
+					id: "20F2C3E1F6586793"
+					item: "realmrpg_skeletons:swimmer_skeleton"
+					type: "item"
+				}
+				{
+					id: "359FEDA953C87CA4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "722B6D14591571CC"
+					item: "seadwellers:seashell_of_blacksmith"
+					type: "item"
+				}
+			]
+			subtitle: "Do a &bnautilus barter&r with a &ecollector&r mermorph."
+			tasks: [{
+				advancement: "seadwellers:adv_barter_nautilus"
+				criterion: ""
+				id: "50744F40C393222A"
+				type: "advancement"
+			}]
+			title: "A Man of Culture"
+			x: 1.2857142857142847d
+			y: -0.7678571428571388d
+		}
+		{
+			description: [""]
+			id: "148BF7565536E0EB"
+			rewards: [
+				{
+					count: 8
+					id: "0D76497B296EA371"
+					item: "fantasyfurniture:decorations/coin_stack_gold"
+					type: "item"
+				}
+				{
+					id: "3F6849150022357B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "&eLoot&r till you drop for this advancement."
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "500CD98D48ADB342"
+				type: "advancement"
+			}]
+			title: "True Lootr"
+			x: -1.2857142857142847d
+			y: 0.5178571428571459d
+		}
+		{
+			id: "0A974DAD44EED10F"
+			rewards: [
+				{
+					id: "596A8D59BF41F69F"
+					item: "mcwholidays:red_balloon"
+					type: "item"
+				}
+				{
+					id: "5808E4D4ED4A1CA7"
+					item: "mcwholidays:white_balloon"
+					type: "item"
+				}
+				{
+					id: "7A061E4E0A71BC68"
+					item: "corn_delight:caramel_popcorn"
+					type: "item"
+				}
+				{
+					id: "3FBACD903C5D6395"
+					item: "corn_delight:popcorn_box"
+					type: "item"
+				}
+				{
+					id: "7B1F15134E12A813"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Host yourself a &epopcorn&r party!"
+			tasks: [{
+				advancement: "corn_delight:popcorn_party"
+				criterion: ""
+				id: "07B3C38CE7D3AEA4"
+				type: "advancement"
+			}]
+			title: "&ePopcorn&r Party"
+			x: 1.2857142857142847d
+			y: 0.5178571428571459d
+		}
+		{
+			id: "7CD05765FDD8E661"
+			rewards: [
+				{
+					id: "18EA05FFF04888B2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "757B77FDC1B337FD"
+					item: "supplementaries:pedestal"
+					type: "item"
+				}
+			]
+			subtitle: "Find &2Greed.&r"
+			tasks: [{
+				advancement: "aquamirae:adventure/obtain_dagger_of_greed"
+				criterion: ""
+				id: "5C8B4938D399D7FF"
+				type: "advancement"
+			}]
+			title: "Greedy"
+			x: -1.2857142857142918d
+			y: 1.8035714285714306d
+		}
+		{
+			id: "58535EFF8A2EE218"
+			rewards: [
+				{
+					id: "5841EAB7BCBD0E09"
+					item: "fantasyfurniture:decorations/dunmer_pottery_0"
+					type: "item"
+				}
+				{
+					id: "1A88D37AA6A5E34E"
+					item: "fantasyfurniture:decorations/dunmer_pottery_1"
+					type: "item"
+				}
+				{
+					id: "5821F4EA9CE3101C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Make a &6decorated pot&r using &bfour&r pottery shards."
+			tasks: [{
+				advancement: "minecraft:adventure/craft_decorated_pot_using_only_sherds"
+				criterion: ""
+				id: "2DA00E016E57246F"
+				type: "advancement"
+			}]
+			title: "Careful Restoration"
+			x: 1.2857142857142847d
+			y: 1.8035714285714306d
+		}
+		{
+			description: [""]
+			id: "06DD33963DA56BF8"
+			rewards: [
+				{
+					id: "18F4731860669D8F"
+					item: "simplehats:moreeyes"
+					type: "item"
+				}
+				{
+					id: "479732C6321A3C87"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "2C776666BD864536"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Find a temple made by &5enderman.&r"
+			tasks: [{
+				advancement: "adorabuild_structures:eyes_of_the_void"
+				criterion: ""
+				id: "481CD92814675056"
+				type: "advancement"
+			}]
+			title: "&eE&ry&ee&rs of the &9Void&r"
+			x: 0.0d
+			y: 1.8035714285714306d
+		}
+		{
+			dependencies: ["48472B808385FA80"]
+			description: ["Perhaps you can&b put these back together&r, or maybe make&o &6something else&r with it."]
+			id: "5168C7785066EA30"
+			rewards: [
+				{
+					id: "787A3D1457D0523A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5B00B566EA084618"
+					item: "betterarcheology:artifact_shards"
+					type: "item"
+				}
+			]
+			subtitle: "Find an Artifact Shard."
+			tasks: [{
+				advancement: "betterarcheology:artifact_shards"
+				criterion: ""
+				id: "1309834465A149D6"
+				type: "advancement"
+			}]
+			title: "&8Shattered&r Knowledge"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Obtain loot by breaking a vase."]
+			id: "48472B808385FA80"
+			rewards: [
+				{
+					id: "70901B039BCF6978"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "19FAA9A101B2B644"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Who broke my vase?"
+			tasks: [{
+				advancement: "betterarcheology:loot_vase_broken"
+				criterion: ""
+				id: "1169E5263B8CBE31"
+				type: "advancement"
+			}]
+			title: "Smashing"
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5168C7785066EA30"]
+			id: "5E1B768A71E880C5"
+			rewards: [
+				{
+					count: 2
+					id: "2783D88F350FE27C"
+					item: "betterarcheology:artifact_shards"
+					type: "item"
+				}
+				{
+					id: "08DFBB1B2FB22432"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Unidentified Artifact from Shards. Now the identifying begins!"
+			tasks: [{
+				advancement: "betterarcheology:unidentified_artifact"
+				criterion: ""
+				id: "7C729BA8B6D5D815"
+				type: "advancement"
+			}]
+			title: "It's All Coming Together"
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5168C7785066EA30"]
+			description: [
+				"The &6Archeology Table&r is used to analyse &bUnidentified Artifacts&r using any type of brush. "
+				""
+				"It can be crafted using 4 Wood Planks, a &6Brush&r and and &bArtifact Shards&r. It outputs one of the 3 different Identified Artifact, each with their own special powers."
+			]
+			id: "7F14041D72FC0273"
+			rewards: [
+				{
+					id: "050435748F0AC9F4"
+					item: "rats:archeologist_hat"
+					type: "item"
+				}
+				{
+					id: "4696806A01AF12BB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "43581FE70C496CC8"
+					item: "betterarcheology:archeology_table"
+					type: "item"
+				}
+				{
+					id: "05902988B5B57697"
+					item: {
+						Count: 1b
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F14041D72FC0273"]
+			description: ["Using your brush, you can brush away the dirt to find the fossils hidden underneath. "]
+			id: "73A116D644D32A44"
+			rewards: [
+				{
+					count: 2
+					id: "7FB90EA93F897A6E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "421DD6FD9F6971D0"
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "70F426F8E06FFC6C"
+				item: { Count: 4b, id: "betterarcheology:fossiliferous_dirt" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F14041D72FC0273"]
+			description: ["Using your brush, you can brush away the loose sand to find the fossils hidden underneath. "]
+			id: "322BD529DA354403"
+			rewards: [
+				{
+					count: 2
+					id: "7F4A7F620B7EFF79"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1E9E51078DBBF4EA"
+					item: "ecologics:sandcastle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "53244B4FE45E705C"
+				item: { Count: 4b, id: "betterarcheology:suspicious_red_sand" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			description: ["Visit all &963&r Biomes in Biomes o' Plenty."]
+			id: "3A7AB07C7A59849F"
+			rewards: [
+				{
+					id: "67DB1CCB843C1666"
+					item: {
+						Count: 1b
+						id: "supplementaries:globe"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Around the World\",\"color\":\"gold\",\"italic\":true,\"underlined\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60EA2229F7B47576"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			subtitle: "Yeah...I travel."
+			tasks: [{
+				advancement: "biomesoplenty:biomesoplenty/all_biomes"
+				criterion: ""
+				disable_toast: true
+				id: "72EF11F1BE41EB95"
+				type: "advancement"
+			}]
+			title: "Wanderer"
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			description: ["Discover a Better Desert Temple. "]
+			id: "13D0807C9441F78E"
+			rewards: [
+				{
+					count: 16
+					id: "0C35C6A411F53F4B"
+					item: {
+						Count: 1b
+						id: "chipped:sandstone_bricks"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Pyramid Bricks\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5783E7AD3ADC3A28"
+					item: {
+						Count: 1b
+						id: "alexsmobs:pocket_sand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Are you my Mummy?"
+			tasks: [{
+				advancement: "betterdeserttemples:temple_entry"
+				criterion: ""
+				id: "5B8D5702657D9778"
+				type: "advancement"
+			}]
+			title: "An Ancient Tomb"
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			description: ["Fall from the top of the world(build height),to the bottom of the world... and live!"]
+			id: "3DB5EBC9DAE20595"
+			rewards: [{
+				id: "7FC1356C2DD500A3"
+				item: {
+					Count: 1b
+					id: "artifacts:bunny_hoppers"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"It is said to increase your jump height...\"}"]
+							Name: "{\"text\":\"White Rabbit Slippers\"}"
+						}
+						jumpBoost: 8b
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "You call that a fall? HA!"
+			tasks: [{
+				advancement: "minecraft:adventure/fall_from_world_height"
+				criterion: ""
+				id: "01D02A60993376B8"
+				type: "advancement"
+			}]
+			title: "Top of the World"
+			x: 8.5d
+			y: -10.0d
+		}
+	]
+	subtitle: ["Collection of various items from your adventures. Visit crazy structures, find hidden fossils and treasures."]
+	title: "Mementos"
+}

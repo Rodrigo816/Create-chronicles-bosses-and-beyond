@@ -1,0 +1,6385 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "bestiary"
+	group: "4546D7737CBFFD68"
+	icon: {
+		Count: 1b
+		id: "occultism:book_of_binding_bound_djinni"
+		tag: {
+			spiritName: "Holmaraces"
+		}
+	}
+	id: "189F525F8F943E21"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.2d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.4d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.6d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -0.2d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.8d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.6d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -3.4d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.2d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 2.2d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 1.4d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 0.6d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -0.2d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -1.8d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -2.6d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -3.4d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chipped:block/mossy_cobblestone/ctm/thick_inlayed_mossy_cobblestone_ctm/2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -4.2d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "velox:textures/quests/zombie.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:block/large_lantern"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:block/large_lantern"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "bountiful:block/bountyboard"
+			rotation: 0.0d
+			width: 5.0d
+			x: 22.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "supplementaries:block/stick"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "velox:textures/quests/bestiary.png"
+			rotation: 0.0d
+			width: 9.4d
+			x: 6.0d
+			y: -6.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&2Zombies&r are common undead hostile mobs that deal melee damage and commonly attack in groups."]
+			icon: "minecraft:zombie_head"
+			id: "5D8F464E2DD93A5E"
+			optional: true
+			rewards: [
+				{
+					id: "66BAAF80E7DAF325"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AFC05435731102A"
+					type: "random"
+				}
+				{
+					id: "3804EC699576DA28"
+					item: "minecraft:zombie_head"
+					type: "item"
+				}
+				{
+					id: "7F5F946F807A2944"
+					item: "exlinefurniture:zombie_arm"
+					type: "item"
+				}
+				{
+					id: "7135A77E0FA5F2B1"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:zombie_villager"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Zombie Killer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "\"When life closes a door, it opens a window. And then, zombies climb in and eat you. Kill some.”"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "7745A5FF0E14F57E"
+					title: "Kill Zombies"
+					type: "kill"
+					value: 75L
+				}
+				{
+					entity: "minecraft:zombie_villager"
+					id: "6E5BDFF52BEE46FE"
+					title: "Kill Zombie Villagers"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Kill Zombies"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: ["A &7skeleton&r is an undead hostile mob that performs ranged attacks with a bow."]
+			icon: "minecraft:skeleton_skull"
+			id: "7C0E71028CF876E1"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D5F1C2E3D0D8DFB"
+					type: "random"
+				}
+				{
+					id: "400F20B6A30687E7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3E1EA6AE0C85FA99"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:skeleton"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Skeleton Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B20E5ED55025C9A"
+					item: "realmrpg_skeletons:waterdrop_skeleton"
+					type: "item"
+				}
+			]
+			subtitle: "\"I am literally just a human. I have the same brain as you; there's a skeleton under my skin just like yours. \""
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "3A4409E7767854D5"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Skeletons"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependency_requirement: "all_started"
+			description: ["A &2creeper&r is a common &chostile&r mob that silently approaches players and then explodes, which can destroy blocks and &ckill&r unarmored players on any difficulty (except for peaceful)."]
+			id: "6ED2D2269EBDBB3A"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D3210C75F40CD1D"
+					type: "random"
+				}
+				{
+					id: "2038FAEF1FA5E2C3"
+					item: "minecraft:creeper_head"
+					type: "item"
+				}
+				{
+					id: "0A064F9EBA827A6F"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:creeper"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Creeper Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "550B639516D04EAE"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "\"I always feel like, somebody is watching me.\""
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:creeper_head"
+				id: "1087EA9B38EA82A6"
+				title: "Kill Creepers"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			icon: "plushies:chicken_plushie"
+			id: "2F53B42974ED80EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D19F6765B537009"
+					type: "random"
+				}
+				{
+					id: "31620731DAD2722C"
+					item: "plushies:chicken_plushie"
+					type: "item"
+				}
+				{
+					id: "0C3E11BB8C745AF0"
+					item: "farmingforblockheads:chicken_nest"
+					type: "item"
+				}
+				{
+					id: "542B53CD1F80FB98"
+					item: "simplehats:chickenhead"
+					type: "item"
+				}
+			]
+			subtitle: "Yum!"
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "40D80C9D078A1E6E"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Chickums"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&7Pillagers &rare hostile mobs armed with crossbows found in wandering patrols, in pillager outposts, or as participants in raids. "
+				""
+				"They attack by firing arrows at the player."
+			]
+			icon: "plushies:pillager_plushie"
+			id: "6E33F51F349347D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61DE701F31840D2D"
+					type: "random"
+				}
+				{
+					id: "2BB4D249AB55AF4B"
+					item: "plushies:pillager_plushie"
+					type: "item"
+				}
+				{
+					id: "2E1983DB83A30F77"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1EC570278C61BAE6"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:pillager"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Pillager Enemy Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "They're Bad to The Bone."
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: "plushies:pillager_plushie"
+				id: "707CEEFDB194D450"
+				title: "Kill Pillagers"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["The witch is a hostile mob that uses potions in combat, both in the form of weapons as splash potions and in the form of drinkable potions for defense."]
+			icon: "plushies:witch_plushie"
+			id: "1C9E99DD8F00C6CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0CE580879A2C1069"
+					type: "random"
+				}
+				{
+					id: "6233FE9A14A41068"
+					item: "plushies:witch_plushie"
+					type: "item"
+				}
+				{
+					id: "2F246FA25977932B"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:witch"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Witch Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B5F0D23B6310112"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			subtitle: "A little hocus pocus."
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "124C68FA44679426"
+				type: "kill"
+				value: 75L
+			}]
+			title: "Kill Witches"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			icon: "realmrpg_skeletons:trident_skeleton"
+			id: "4BCAB8EFB4EF9CE4"
+			rewards: [
+				{
+					id: "6F9AEF543C74864C"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:drowned"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Drowned Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "629B0A397C9B2664"
+					item: "plushies:drowned_plushie"
+					type: "item"
+				}
+				{
+					id: "14EE4236A0954678"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "You can't keep them down."
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "22BA1EA98780F2CA"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Drowned"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: ["It uses two spells to attack; one that summons armor-piercing fangs and one that summons vexes."]
+			icon: "plushies:evoker_plushie"
+			id: "499886E4938F26D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C0541047A34F349"
+					type: "random"
+				}
+				{
+					id: "0CE68EB57E11A3C2"
+					item: "plushies:evoker_plushie"
+					type: "item"
+				}
+				{
+					id: "4339D2745F207C1B"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:evoker"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Evoker Silencer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27AD1731FDF54F5D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "An evoker is a spell-casting illager found in woodland mansions and raids, and the only source of the totem of undying."
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "2AE8F3589D5F5F43"
+				type: "kill"
+				value: 75L
+			}]
+			title: "Kill Evokers"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:husk"
+					}
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Husk Smasher Trophy\"}"
+					}
+				}
+			}
+			id: "3D2974FA58D8B471"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C22FDE9B6AB5721"
+					type: "random"
+				}
+				{
+					id: "7BF6A111521822B4"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:husk"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Husk Smasher Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "000862DD8AAF97A8"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "A husk of their former self."
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "5408FF8A293F4300"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Husks"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"A &8bat&r is a flying ambient passive mob that spawns in dark areas underground."
+				""
+				"In base minecraft, &8bats&r do not drop any items or experience upon death."
+			]
+			icon: "mcwholidays:bat_wall_deco_3"
+			id: "5982652DA656C455"
+			rewards: [
+				{
+					id: "1C81722411666E61"
+					item: "mcwholidays:bat_sleeping"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52C16B276A0CE1CF"
+					type: "random"
+				}
+				{
+					id: "155F5EBAD61DAA5C"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:bat"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Bat Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B161FDB54E16373"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Going Batty!"
+			tasks: [{
+				entity: "minecraft:bat"
+				icon: "mcwholidays:bat_awake"
+				id: "2F15339CE4C9D8D1"
+				title: "Kill 100 Bats"
+				type: "kill"
+				value: 75L
+			}]
+			title: "Kill Bats"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"A &eblaze&r is a hostile mob that spawns in &8nether fortresses&r and is the only source of&e blaze rods&r. "
+				""
+				"&eBlazes&r attack at range by firing a trio of fireballs or can attack the player that gets too close to them with their spinning rods."
+			]
+			icon: "plushies:blaze_plushie"
+			id: "757319E99F063D6D"
+			rewards: [
+				{
+					id: "5CB7CE45A76D7CEF"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:blaze"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Blaze Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58C88FCB8B270128"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "18D76E3E05EA5B25"
+					item: "plushies:blaze_plushie"
+					type: "item"
+				}
+				{
+					id: "3C3CA48C0BC15FDA"
+					item: "minecraft:blaze_rod"
+					random_bonus: 15
+					type: "item"
+				}
+			]
+			subtitle: "Burn Baby Burn!"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "17BF2685BEC318C8"
+				type: "kill"
+				value: 75L
+			}]
+			title: "Kill Blazes"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: ["They are found exclusively in nether fortresses and are the only source of wither skeleton skulls, as well as the only renewable source of coal."]
+			icon: "graveyard:leaning_wither_skeleton"
+			id: "1DBD945976FE6749"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25BAE1B1D956BFAB"
+					type: "choice"
+				}
+				{
+					id: "4C57DEEDD098CD8E"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "137F888198F92210"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:wither_skeleton"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Wither Skeleton Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E84453F5BF3E2C6"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "2BB24FBF38419DD2"
+					item: "minecraft:coal_block"
+					random_bonus: 15
+					type: "item"
+				}
+			]
+			subtitle: "Wither skeletons are tall black variants of skeletons equipped with stone swords that inflict the poison-like Wither effect. "
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "2D7D347B6E3228BA"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Wither Skeletons"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "6FADB0CD1A1DCD50"
+			rewards: [
+				{
+					id: "445ADB198D07D809"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:ghast"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Ghast Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FB2D725363BA96D"
+					item: "plushies:ghast_plushie"
+					type: "item"
+				}
+				{
+					id: "39EB8DA3C6C28B39"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DFB0F8CB9FFE676"
+					type: "random"
+				}
+			]
+			subtitle: "Ghasts are large white floating ghost-like hostile mobs that live in the Nether and shoot explosive fireballs at the player."
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "1900CC6D855A1B79"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Ghasts"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"A &8spider&r is a neutral mob that attacks the player in dark areas. "
+				""
+				"&8Spiders&r attack by biting the target, and they can also climb walls and lunge at them."
+			]
+			icon: {
+				Count: 1b
+				id: "fairylights:spider_light"
+				tag: {
+					color: 3289650
+				}
+			}
+			id: "2CDB7961BE5B2201"
+			rewards: [
+				{
+					id: "4331726E4F65DA5E"
+					item: "plushies:spider_plushie"
+					type: "item"
+				}
+				{
+					id: "4E5A8AC1FEA5F341"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:spider"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Spider Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58E3A0419A7DB912"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 16
+					id: "51291B7C844775B4"
+					item: "minecraft:cobweb"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "058401547CD5CA4A"
+					type: "random"
+				}
+			]
+			subtitle: "BURN IT WITH FIRE!"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "385DE6A70971992D"
+				type: "kill"
+				value: 80L
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Cave spiders are small variants of the spider that inflict Poison with their attacks. "
+				""
+				"They are exclusively spawned by monster spawners found in mineshafts."
+			]
+			id: "2CB4B18569F381ED"
+			rewards: [
+				{
+					id: "426EBC7B77F13ABE"
+					item: "treasure2:spider_chest"
+					type: "item"
+				}
+				{
+					id: "32D9AC0C05EA7C74"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:cave_spider"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Cave Spider Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "423C1F9C2DE4E281"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 16
+					id: "38B8AC4F7D091166"
+					item: "apotheosis:prismatic_web"
+					type: "item"
+				}
+			]
+			subtitle: "They Are Venomous?!"
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				icon: "mcwholidays:spider_wall_deco_2"
+				id: "0C196518B3F46A9C"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Cave Spiders"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&aSlimes&r are bouncy, cube-shaped hostile mobs that spawn deep underground in &oparticular chunks&r, or in &2swamp biomes&r. "
+				""
+				"They attack by jumping at their targets, come in three sizes and larger &aslimes&r can &osplit&r into smaller ones on death."
+			]
+			icon: "minecraft:slime_block"
+			id: "34B0AB28F92626A2"
+			rewards: [
+				{
+					id: "73F2F6E71215B8FA"
+					item: "plushies:slime_plushie"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D748331FBCD6372"
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "219E6AE918A4A012"
+					type: "random"
+				}
+				{
+					id: "7D86E57650396AD4"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "35CE257CBACC91AF"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:slime"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Slime Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Why Is It Multiplying?! "
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "0E843AACE892E751"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Slimes"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&5Phantoms&r are flying undead hostile mobs that spawn in the night sky when the player has not laid in a bed or died for three or more in-game days. "
+				""
+				"They attack by diving at the player from the sky to bite them."
+			]
+			icon: "handcrafted:phantom_trophy"
+			id: "4684151A5DE4C265"
+			rewards: [
+				{
+					id: "466A2CB1ECE45B96"
+					item: "handcrafted:phantom_trophy"
+					type: "item"
+				}
+				{
+					id: "18E994C8522A3968"
+					item: "simplehats:winghat"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A5800B2782D938D"
+					type: "random"
+				}
+				{
+					id: "5946924302933320"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3128A675D21DD880"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:phantom"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Phantom Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "NO MORE NIGHTMARES!"
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "7C9216AA3678565E"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Phantoms"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: ["A cow is a passive mob found in most grassy biomes and a source of leather, beef and milk."]
+			icon: "plushies:cow_plushie"
+			id: "7EB3FA5997D1A4FA"
+			rewards: [
+				{
+					id: "10501B222D150BB3"
+					item: "plushies:cow_plushie"
+					type: "item"
+				}
+				{
+					id: "2FB36346FAE6F0A0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EBDF9D9DEAC5492"
+					type: "random"
+				}
+				{
+					id: "096DD3E1158D2AAF"
+					item: "simplehats:cowboy"
+					type: "item"
+				}
+			]
+			subtitle: "Moooooo yourself cow!"
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "29464A6AB325BCDB"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Cows"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			description: ["Sheep are common passive mobs that supply wool and mutton and are found in many of the grassy biomes."]
+			icon: "plushies:sheep_plushie"
+			id: "142B7D10B74DF319"
+			rewards: [
+				{
+					id: "088684EE764B1035"
+					item: "plushies:sheep_plushie"
+					type: "item"
+				}
+				{
+					id: "5FE60181263CBE07"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "4677BAFF9A44BBC8"
+					item: "simplehats:sheep"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3242F64EAE8546CD"
+					type: "random"
+				}
+			]
+			subtitle: "Baaaaaa!"
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "2ACB83F5F9DAA19F"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Sheep"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A &2zombie&r trapped in a barrel is found mainly near water bodies, unlike regular &2zombies&r, it does not &9drown&r, and is also protected from the &esun&r."
+				""
+				"A lot of items can drop from this monster, as well as &7complete garbage&r, as well as extremely &brare ones&r."
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "velox:slayerbarrelzombie"
+					}
+				}
+			}
+			id: "6B04C17809C52D9F"
+			rewards: [
+				{
+					id: "5191DDF897365F52"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:diamond_barrel"
+						tag: {
+							accentColor: 8606770
+							mainColor: 8606770
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D2C37A308D84956"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "618E6D41A1E524C3"
+					item: "forbidden_arcanus:zombie_arm"
+					type: "item"
+				}
+				{
+					id: "44E75826759C96E5"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerbarrelzombie"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Its Kinda Cute Like That"
+			tasks: [{
+				entity: "born_in_chaos_v1:barrel_zombie"
+				id: "7B8CB4B5A3DDB070"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Barrel Zombies"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: ["A magma cube behaves similarly to a slime, but is &6fireproof&r, jumps higher and less often, and &cdeals more damage&r."]
+			id: "5C23A02F163322CB"
+			rewards: [
+				{
+					id: "20ABDC5A1937283B"
+					item: "plushies:magma_cube_plushie"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0806AE591A7A1B3E"
+					item: {
+						Count: 1b
+						id: "botania:brew_flask"
+						tag: {
+							brewKey: "botania:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46A0B32357234AD8"
+					type: "random"
+				}
+				{
+					id: "776147C1E4341FBF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5D8C9F27AD65FC21"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:magma_cube"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Magma Cube Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Spicy Little Cubes"
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				icon: "plushies:magma_cube_plushie"
+				id: "53B7D73F06BC779D"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Magma Cubes"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			icon: "plushies:wandering_trader_plushie"
+			id: "303875094303DC16"
+			rewards: [
+				{
+					id: "40B61FF7889C35B6"
+					item: "plushies:wandering_trader_plushie"
+					type: "item"
+				}
+				{
+					id: "19CAE36B3881B201"
+					item: "realmrpg_skeletons:lucky_skeleton"
+					type: "item"
+				}
+				{
+					id: "07FD6133767F7DF2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					auto: "enabled"
+					description: ""
+					id: "70F6E23FE3D64903"
+					title: "Shut UP Trader!"
+					type: "toast"
+				}
+			]
+			shape: "square"
+			subtitle: "They been causing trouble in local neighborhoods, take them out."
+			tasks: [
+				{
+					entity: "minecraft:wandering_trader"
+					id: "326673EA98A8E58C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:trader_llama"
+					id: "6EC4FD7519B53D2A"
+					type: "kill"
+					value: 2L
+				}
+			]
+			title: "Bounty: &1Trader&r"
+			x: 20.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"A &8warden&r is an extremely powerful but easily avoidable hostile mob summoned by sculk shriekers in the &7deep dark biome&r. "
+				""
+				"It attacks by swinging its arms downward, dealing the strongest melee damage of all mobs, and can also release a sonic boom attack that immediately strikes the target, piercing through obstacles and deals damage that cannot be reduced except by the &bResistance&r effect. "
+			]
+			id: "16C064F67B93D216"
+			rewards: [
+				{
+					id: "7893E953BCFFFCDC"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:warden"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Warden Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68F6B81AAA2216EC"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					description: ""
+					id: "165C8DD587909F1B"
+					type: "toast"
+				}
+			]
+			subtitle: "“A warden is this unstoppable force of nature and a challenge that you must overcome in ways that you may not be used to in traditional Minecraft gameplay.” "
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "plushies:warden_plushie"
+				id: "0989BED7F93ABC80"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &8Warden"
+			x: 21.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"An &3elder guardian&r is a stronger and larger variant of the &7guardian&r, and the &olargest aquatic mob in default minecraft&r. "
+				""
+				"It attacks the same way as a normal &7guardian&r, but also applies&c Mining Fatigue&r to players in a large radius around itself. They are only found in &9ocean monuments&r; three of them generate in each one."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&3Three&r elder guardians spawn naturally during the generation of each ocean monument: &oone in the top room of the monument&r and the &oother two&r in each wing section of the&9 monument&r. "
+				""
+				"&nThey do not respawn&r after their initial spawn, thus there are a &olimited number of them&r per world.&r"
+			]
+			icon: "plushies:elder_guardian_plushie"
+			id: "756FB205E5AAAF5D"
+			rewards: [
+				{
+					id: "53E8E7415C9F3B03"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					id: "07DE88272D6BF7C6"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:elder_guardian"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Elder Guardian Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BCC7787CFAC4AB5"
+					item: "simplehats:cyclopseye"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: ""
+					id: "61075D1BED0ED3BE"
+					type: "toast"
+				}
+			]
+			subtitle: "I'm your elder!"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "764F9790F20881D8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &cElder Guardian"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The &5ender dragon&r is a giant flying hostile boss mob found when first entering &5the End&r. It is the largest naturally spawning mob in the game. "
+				""
+				"It guards access to the end gateways that provide entry to the outer end islands in addition to the exit portal that allows return to the &2Overworld&r as well as access to the end credits of Minecraft. "
+				""
+				"Its attacks involve charging at the player and its unique dragon acid attacks."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Players can &bre-summon&r the dragon by placing four end crystals on the edges of the exit portal, one on each side. "
+				""
+				"When it is re-summoned, the four end crystals point to the tops of each pillar setting off a series of explosions that resets the obsidian pillars, iron bars, and end crystals."
+			]
+			id: "728BE1816DA23DC0"
+			rewards: [
+				{
+					id: "73BAA6AD36E525E5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "4384BB0F15A6D0AB"
+					item: "plushies:dragon_plushie"
+					type: "item"
+				}
+				{
+					id: "572E3A9BF73DA8AE"
+					item: "voidtotem:totem_of_void_undying"
+					type: "item"
+				}
+				{
+					id: "22A82EFF29B6BDC7"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:enderdragon"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "“So comes snow after fire, and even dragons have their endings.”"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "1809F1F9A3043683"
+				title: "Kill the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &5Ender Dragon"
+			x: 23.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The &8wither&r is a player-constructed and highly destructive undead hostile boss mob that can hover in mid-air and fire barrages of explosive &8wither skulls&r at its target &o(which happens to be everything living)&r. "
+				""
+				"It is the only source of &dnether stars&r, which are used to craft &bbeacon&rs."
+			]
+			id: "09C82CDDA800D8C9"
+			rewards: [
+				{
+					id: "47314637684743A3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "52E464205FC011F3"
+					item: "graveyard:wither_skull_pile"
+					type: "item"
+				}
+				{
+					id: "72DC631D0A052083"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:wither"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "171FD27057746E80"
+				title: "Kill the Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &8Wither"
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			description: ["The Chimera is a worthy fight for a caster with &bTier 2&r spells and equipment. The Chimera resists cold damage, and a variety of spells including buffs, dispel, and mobility are suggested."]
+			id: "56DA46DC82F6665D"
+			rewards: [
+				{
+					id: "09F39A57D992ECB6"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerwildenboss"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38C25D51E31867BF"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25D53115642E7D31"
+					type: "random"
+				}
+				{
+					id: "27EF5AE118535B55"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.0d
+			subtitle: "This isn't even my final form."
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: "ars_nouveau:wilden_tribute"
+				id: "452B65E139D9E12D"
+				title: "Kill the Wilden Chimera"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &1Chimera&r"
+			x: 21.5d
+			y: -1.0d
+		}
+		{
+			description: ["&7Giant Squid&r are neutral mobs that spawn &orarely&r underwater below &3y-level&r 25 in &1Deep Ocean&r biomes or if a Squid is struck by &alightning&r."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/entity/banner/flags/additionalbanners/squid.png"
+				}
+			}
+			id: "53643D9B1187C1DF"
+			rewards: [
+				{
+					id: "641BA0D9DAD9B6BA"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/giant_squid"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Giant Squid Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "50A8CA27E0DC53CC"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+				{
+					id: "078E189B3B59E548"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "\"Sometimes making a story is as easy as putting two characters in a room and seeing what happens. So, imagine a great white shark and a giant squid in the same bathroom.\" "
+			tasks: [{
+				entity: "alexsmobs:giant_squid"
+				icon: "alexsmobs:spawn_egg_giant_squid"
+				id: "697E6F66244F4969"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Kill Giant Squids"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			icon: "plushies:glow_squid_plushie"
+			id: "0B3EAF1C037D7C6A"
+			rewards: [
+				{
+					id: "6B9FDBCC933D758B"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:glow_squid"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Glow Squid Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27EAFB58E747E408"
+					item: "plushies:glow_squid_plushie"
+					type: "item"
+				}
+				{
+					id: "6CB46DE5961A9887"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "It glowing like fire-flies!"
+			tasks: [{
+				entity: "minecraft:glow_squid"
+				id: "27820F8B02A1CD9C"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Glow Squids"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			icon: "plushies:squid_plushie"
+			id: "1B7698B2853C09D0"
+			rewards: [
+				{
+					id: "6904F871C0DC61B0"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:squid"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Squid Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "483BC7F4D4E1EFB8"
+					item: "plushies:squid_plushie"
+					type: "item"
+				}
+				{
+					id: "2771D0B3233447BE"
+					item: "farmersdelight:squid_ink_pasta"
+					type: "item"
+				}
+				{
+					id: "6DB15DBE0A80EA3C"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Guysss! You made me inkkkkk."
+			tasks: [{
+				entity: "minecraft:squid"
+				id: "0F8E0E216528725A"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Squids"
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:textures/mob_effect/sunbird_curse.png"
+				}
+			}
+			id: "22BF1EBC3A26B98A"
+			rewards: [
+				{
+					id: "7003B8B8521ED6D4"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/seagull"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Seagull Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "04D73147B1D252F2"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "4C35265544A130F4"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Seagulls are passive mobs that spawn in Beach biomes."
+			tasks: [{
+				entity: "alexsmobs:seagull"
+				id: "0302760C0E4A86B8"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Seagulls"
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:froststalker_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5EEB47B1427F79C1"
+			rewards: [
+				{
+					id: "3EFA8058B2EBCB0C"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/froststalker"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Froststalker Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0564B55F48333AE1"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0EC958E1920AEEC9"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "divine_weaponry:strong_frosting"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&o\"It's like a &bfrozen&r dinosaur!\"&r"
+			tasks: [{
+				entity: "alexsmobs:froststalker"
+				id: "1E4C41ECBBC15EEB"
+				type: "kill"
+				value: 50L
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			description: ["Hammerhead Sharks are placatable mobs that spawn underwater in Warm Ocean biomes."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/alexsmobs/hammerhead_shark.png"
+				}
+			}
+			id: "301F6F7192851AA7"
+			rewards: [
+				{
+					id: "16DE54749C2EF4A7"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/hammerhead_shark"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Hammerhead Shark Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01F0349ED336B20E"
+					item: "alexsmobs:shark_tooth"
+					type: "item"
+				}
+				{
+					id: "60AD59E9FA084D5C"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "\"You're tellin' me this shark &oISN'T&r part &8hammer&r?\""
+			tasks: [{
+				entity: "alexsmobs:hammerhead_shark"
+				id: "4C6C7D8A9D7FB847"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Hammerhead Sharks"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			description: ["Skelewags (also known as Skeleton Marlin or Skeleton Swordfish) are placatable mobs that can be found near underwater Shipwrecks."]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:skelewag_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3ED81A2585534C75"
+			rewards: [
+				{
+					id: "79FBD35E6106F702"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/skelewag"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Skelewag Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42B85ECFA2D93098"
+					item: "born_in_chaos_v1:gnawed_bones"
+					type: "item"
+				}
+				{
+					id: "5125440EEEB02047"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5891A85AC7239AB6"
+					item: "treasure2:skull_chest"
+					type: "item"
+				}
+			]
+			subtitle: "\"That &8Unsettling Kimono&r...scares me.\""
+			tasks: [{
+				entity: "alexsmobs:skelewag"
+				id: "2F6E650535383AFE"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Skelwags"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"A piglin is a neutral mob found in the &cNether&r."
+				""
+				"It is hostile to players unless they wear at least one piece of &egolden armor&r. "
+				""
+				"It can be given gold ingots to barter for various items. It wields either a golden sword or a crossbow, and uses either melee or ranged attacks, respectively."
+			]
+			icon: "plushies:piglin_plushie"
+			id: "3A2EA6F4EE6DBC17"
+			rewards: [
+				{
+					id: "3F132E800B54A320"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:piglin"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Piglin Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EB8CCE293E53302"
+					item: "plushies:piglin_plushie"
+					type: "item"
+				}
+				{
+					id: "3AAF0C8F97037FFA"
+					item: "wandering_bags:piglin_bag"
+					type: "item"
+				}
+				{
+					id: "0E3FAEAA9161B3A1"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Oh Shiny!"
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "056307FCE37BFF99"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Piglins"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["The Enderman is a tall neutral mob found in all three dimensions. Endermen normally ignore players and lazily amble about, but they will swiftly walk to attack those that damage it or look directly at its face."]
+			icon: "supplementaries:enderman_head"
+			id: "02BD84F9B0E7727F"
+			rewards: [
+				{
+					id: "183FAC4C14699ABA"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:enderman"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Enderman Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58600F7976892D4D"
+					item: "plushies:enderman_plushie"
+					type: "item"
+				}
+				{
+					id: "18A048E88598B8F6"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 16
+					id: "71C040A019CFC063"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Endermen open their mouths and begin to shake‌ angrily if provoked; they also make loud and lengthy sounds while being stared at."
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "0BFE70FCB7E47F3A"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Endermen"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&9Farseers&r are hostile mobs that can be found either inside or right outside the &2World Border&r in any dimension."
+				""
+				"Due to how far they away they live, the only way to reach them is by using a &8Shattered Dimensional Carver&r multiple times in &oone&r direction."
+			]
+			icon: "naturesaura:end_city_finder"
+			id: "75B18E1167D3912F"
+			rewards: [
+				{
+					id: "206024FC6F8D976C"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/farseer"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Farseer Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29E7FBCFAF5584B8"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6AAD50702056835F"
+					item: "alexsmobs:farseer_arm"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: ""
+					id: "162BA0283B20C0C4"
+					type: "toast"
+				}
+			]
+			subtitle: "\"Dang you were far away!\""
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				id: "23F5A75BCBEA13C9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &bFarseer"
+			x: 21.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Throwing a Mysterious Worm into the void of &5The End&r will spawn the &dVoid Worm&r."
+				""
+				"This can only be done if the &5Ender Dragon&r has been defeated."
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "velox:alexsmobsvoidworm"
+					}
+				}
+			}
+			id: "4F3C49597BCC920C"
+			rewards: [
+				{
+					id: "2DB0CCEEBA15D751"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:alexsmobsvoidworm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CDF7841978EDF4F"
+					item: "alexsmobs:void_worm_eye"
+					type: "item"
+				}
+				{
+					id: "609DF84C6F40644B"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "The Void Worm is a boss mob that can be summoned using a Mysterious Worm."
+			tasks: [{
+				entity: "alexsmobs:void_worm_part"
+				id: "5083C58EBDA6F2F1"
+				title: "Bounty: Voidworm"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &9Void Worm"
+			x: 22.5d
+			y: -2.0d
+		}
+		{
+			description: ["Spectres can only be damaged by magic such as Potions."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/alexsmobs/spectre.png"
+				}
+			}
+			id: "4F0B9791F5673FBD"
+			rewards: [
+				{
+					id: "542347E350A9082D"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/spectre"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Spectre Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7C0DF3B4FD688C6B"
+					item: "alexsmobs:enderiophage_rocket"
+					type: "item"
+				}
+				{
+					id: "1FDD7E468A5C3093"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "\"A distant relative of the Phantom\""
+			tasks: [{
+				entity: "alexsmobs:spectre"
+				id: "1C8FC32F9A845BD1"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Spectres"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Encounter the &5Illusioner&r, a cunning trickster armed with a bow who lives in the &3taiga&r. You can find him by searching for a small shack or his training grounds. "
+				""
+				"Approach with caution, for the blinding spell may leave you in the dark, making it challenging to distinguish between illusion and reality."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/illusioner.png"
+				}
+			}
+			id: "72FC718199CEBB26"
+			rewards: [
+				{
+					id: "6C3EB49EE102AD69"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerillusioner"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CC1C43FC09F7B13"
+					item: "plushies:illusioner_plushie"
+					type: "item"
+				}
+				{
+					id: "5952C9D9FF0019E4"
+					item: "friendsandfoes:totem_of_illusion"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "2CD697052CD11CD4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "You are already under my illusion."
+			tasks: [{
+				entity: "minecraft:illusioner"
+				id: "0FED0AE6F88955D9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &5Illusioner"
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			description: ["Gusters are hostile mobs that spawn in Desert and Badlands biomes during the rain."]
+			id: "43D7D723B8A54408"
+			rewards: [
+				{
+					id: "2E10051786121785"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/guster"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Guster Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F66A09CC309CFA7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "34CC5C6F6833072F"
+					item: "alexsmobs:guster_eye"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "Did you feel a gust of wind just now?"
+			tasks: [{
+				entity: "alexsmobs:guster"
+				icon: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:alexsmobs/guster"
+						}
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Guster Slayer Trophy\"}"
+						}
+					}
+				}
+				id: "1CA5DC62EADE789C"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Gusters"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"If a Crimson Mosquito drinks the blood of a &dMungus&r which is coated in &3Warped Fungus&r then the &cCrimson Mosquito&r will turn blue and start to grow in size, eventually turning into a &3Warped Mosco&r."
+				""
+				"This can also be done manually if the &cCrimson Mosquito&r is fed &3Warped Mixture&r."
+				""
+				""
+				"{ \"text\": \"Click here for more about Mungus\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5A57CB8AF3FC690C\" } }"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/warped_mosco"
+					}
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Warped Mosco Squasher Trophy\"}"
+					}
+				}
+			}
+			id: "4118668D91037E8D"
+			rewards: [
+				{
+					id: "17AC97A0C8D42293"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/warped_mosco"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Warped Mosco Squasher Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B4A903CCC3C068F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "5CC29A7EF3B0B5FD"
+					item: "alexsmobs:warped_muscle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A9453889F92AA3C"
+					type: "random"
+				}
+			]
+			subtitle: "They bulk out!"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				id: "445A444837A6E2B4"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Warped Moscos"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&dMungi&r are passive mobs that spawn in Mushroom Fields."
+				""
+				"&dMungi&r with Mushrooms on their head will fire beams at Mushrooms to turn them into large Mushrooms."
+				""
+				"&dMungi&r will randomly shed Mungal Spores."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/phantom.png"
+				}
+			}
+			id: "5A57CB8AF3FC690C"
+			rewards: [
+				{
+					id: "3B9DBF0C2E649E77"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/mungus"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Sussy Mungus Ejected Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D5BD25C8850D4D4"
+					item: "alexsmobs:mungal_spores"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "0230F641A2738AF8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "483543D156D88088"
+					type: "random"
+				}
+			]
+			subtitle: "They are pretty sus'."
+			tasks: [{
+				disable_toast: true
+				entity: "alexsmobs:mungus"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/phantom.png"
+					}
+				}
+				id: "10E419D266D538A8"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Munguses"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Encounter the &bIceologer&r, a lonely illager who lives deep in the snows. "
+				""
+				"You can find him by searching for a &2small spruce cabin&r among the trees. But be &ocareful&r on your adventure though, as years of living in the wild has made his heart &bcolder&r than the &bice&r around him. "
+				""
+				"If he spots you, brace for icy attacks, turning your adventure into a &bfrosty challenge&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/illusioner.png"
+				}
+			}
+			id: "3E7C4C808E9B914D"
+			rewards: [
+				{
+					id: "23268B923F014589"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayericeologer"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BD701350E76D36C"
+					item: "pamhc2foodcore:caramelicecreamitem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "44285958E947CAAA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "082C4F263BAD132B"
+					type: "random"
+				}
+			]
+			subtitle: "He is as cold as &bice&r."
+			tasks: [{
+				entity: "friendsandfoes:iceologer"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "divine_weaponry:textures/mob_effect/frosted.png"
+					}
+				}
+				id: "4AFA677F4031E3A3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &bIceologer"
+			x: 23.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"This encounter is &onot&r a &cfriendly one&r, watch out for its shield debris barrage and ground-shaking shockwave attack. "
+				""
+				"When cornered, it summons &eblazes&r for reinforcement. Conquer the challenge, wield strategy against this &6fiery&r sentinel in it's citadel domain."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplyswords:textures/mob_effect/wildfire.png"
+				}
+			}
+			id: "2970476D6ED89C37"
+			rewards: [
+				{
+					id: "3F8D4C257D52C64B"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerwildfire"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78265DCE22D98B6F"
+					item: "friendsandfoes:wildfire_crown_fragment"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "6C14F91D43D7A975"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "225C9C6C7DD22488"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			subtitle: "&eWildfire&r, the master of &eblazes&r. "
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				id: "37A551E4D3CB1728"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &eWildfire "
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Introducing the Mauler, pint-sized predator roaming savannas, badlands, and deserts. "
+				""
+				"They are on a quest for chickens, rabbits, and more. "
+				""
+				"You can feed them enchanted goodies to store experience points and later extract them using bottles. But beware the more experience points, the bigger and hungrier the Mauler!"
+				""
+				"{@pagebreak}"
+				""
+				"You can feed maulers by right clicking it with enchanted item/book."
+				""
+				" It will eat the given item/book and store the experience points in it. "
+				""
+				"When mauler does have stored any experience points you can right click on it with an empty glass bottle(s) and fill it with experience, thus getting the Bottle o' Enchanting."
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "velox:slayermauler"
+					}
+				}
+			}
+			id: "01C43AA5723B6B66"
+			rewards: [
+				{
+					id: "2CD1E9C8654B84B2"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayermauler"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "013B469D57D377FC"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:punch"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F48079CEB2F0F5D"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "apotheosis:chromatic"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C97007FC9D5356D"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Maulers are small neutral mobs exclusive to the savanna, badlands and desert biomes."
+			tasks: [{
+				entity: "friendsandfoes:mauler"
+				id: "1F7F3862E8EFBE93"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Maulers"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"These &eflower&r-covered companions are not only a sight to behold, but also engage in a harmonious synergy with bees. "
+				""
+				"As they traverse, the &emooblooms&r leave a trail of &2blooming&r flora, turning each step into a mesmerizing journey through nature's wonders."
+				""
+				"&o&7Note: Only one moobloom section is required but this entry covers mooblooms added from two mods.&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/buzzier_bees/moobloom.png"
+				}
+			}
+			id: "514F3A83E1C008F1"
+			rewards: [
+				{
+					id: "34C9CEC81E6AC961"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayermoobloom"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "293341C5DE5E4B4E"
+					item: "minecraft:dandelion"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "580916E4E4E81D9D"
+					item: "minecraft:sunflower"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "3FC8FD6ADDC96081"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "A sun-kissed cow, covered with a beautiful flowers."
+			tasks: [
+				{
+					entity: "friendsandfoes:moobloom"
+					id: "6D063273BF5D3C0A"
+					type: "kill"
+					value: 25L
+				}
+				{
+					entity: "lostfeatures:moobloom"
+					id: "2AC093A676CB0B3A"
+					type: "kill"
+					value: 25L
+				}
+			]
+			title: "Kill Mooblooms"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&cCrimson Mosquitoes&r are placatable mobs that can be found in &4Crimson Forest&r biomes or if a &7Fly&r is in The Nether for too long."
+				""
+				""
+				"{ \"text\": \"See Fly entry.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4851256AA48992F6\" } }"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:textures/mob_effect/mosquito_repellent.png"
+				}
+			}
+			id: "027452A56C8CA900"
+			rewards: [
+				{
+					id: "2F474C5475CB65CA"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/crimson_mosquito"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Crimson Mosquito Squasher Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0F8C1F4C12BC9AF6"
+					item: "alexsmobs:mosquito_repellent_stew"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "7A81AA93E400ADD7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30BA28EF8642A8BF"
+					type: "random"
+				}
+			]
+			subtitle: "GET OFF MY FACE!"
+			tasks: [{
+				entity: "alexsmobs:crimson_mosquito"
+				id: "554007F2298145FE"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Crimson Mosquitos"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&7Flies&r usually don't do much except fly around however they can be seen biting Zombies, Skeletons, and other undead mobs they find. "
+				""
+				"These bites don't damage the mob and the mob won't attack the &7fly&r that's biting them."
+				""
+				"Spiders, Frogs, and Potoos will attack any &7Flies&r they encounter."
+				""
+				"If a &3Fly&r is in &cThe Nether&r then the &3Fly&r will transform into a &cCrimson Mosquito&r."
+				""
+				"{@pagebreak}"
+				""
+				""
+				"{ \"text\": \"See Crimson Mosquito entry.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"027452A56C8CA900\" } }"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplehats:item/hats/flies"
+				}
+			}
+			id: "4851256AA48992F6"
+			rewards: [
+				{
+					id: "22F6C460A191335C"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/fly"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Fly Exterminator Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5C62695A7F814D49"
+					item: "blue_skies:bug_guts"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28D5F14FACCF48F1"
+					type: "random"
+				}
+				{
+					id: "7475ADB76E854C1E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Flies are passive mobs that spawn in all overworld biomes except Oceans."
+			tasks: [{
+				entity: "alexsmobs:fly"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "simplehats:item/hats/flies"
+					}
+				}
+				id: "642F686F40758505"
+				title: "Kill Flies"
+				type: "kill"
+				value: 50L
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&6Potoos&r are passive mobs that spawn in &2Dark Forests&r."
+				""
+				"&6Potoos&r rarely do anything during the day; they will perch on a tree and sleep through the day. "
+				""
+				"During the night, they are slightly more active and will remain on their perch, only leaving to catch any &7Flies&r that get too close."
+				""
+				"&6Potoos&r can be moved around using a &bFalconry Glove&r."
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/potoo"
+					}
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Potoo Hater Trophy\"}"
+					}
+				}
+			}
+			id: "4F39CE07775BB338"
+			rewards: [
+				{
+					id: "00DAC44E9FCED998"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/potoo"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Potoo Hater Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "292AC8F05E83CC16"
+					item: "exoticbirds:owl_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3710460E1F2EAD48"
+					type: "random"
+				}
+				{
+					id: "4D6F76BC377DB71F"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Hoot Hoot"
+			tasks: [{
+				entity: "alexsmobs:potoo"
+				id: "5A7698F1971973F7"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Potoos"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"A &2frog&r is a passive mob found in swamps."
+				""
+				"&2Frogs&r eat small &aslimes&r and &cmagma cubes&r. "
+				""
+				"A &2frog&r can produce one of three kinds of &bFroglights&r from eating magma cubes, depending on the type of &2frog&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/frog/cold_frog.png"
+				}
+			}
+			id: "38C98444B76E57F6"
+			rewards: [
+				{
+					id: "14DB24CAD9220DDA"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:frog"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Frog Hater Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5121A50FE303EA93"
+					item: "skinnedcarts:frog_minecart"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65A8C46FB634717F"
+					type: "random"
+				}
+				{
+					id: "4A005AC21CE057D7"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "ribbit ribbit"
+			tasks: [{
+				entity: "minecraft:frog"
+				id: "6CD42AD6C4F17357"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Frogs"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&3Rain Frogs&r are often seen buried in &6Sand&r blocks. They can only emerge if its &9raining&r, they get &cattacked&r or if a &7Shovel&r is used to dig them out."
+				""
+				"&3Rain Frogs&r that have been dug out with a &3Shovel&r will &l&onever&r submerge themselves in &6Sand&r again."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/frog/warm_frog.png"
+				}
+			}
+			id: "6F6572AF0FA337DE"
+			rewards: [
+				{
+					id: "1B339FD57ED8ABA1"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/rain_frog"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Rain Frog Hater Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FED91867F83F03E"
+					item: "skinnedcarts:green_frog_minecart"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7880BF5AEC6DEB50"
+					item: "exlinefurniture:froggy_chair_light_blue"
+					type: "item"
+				}
+				{
+					id: "67EFACA97FDB0DE5"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Rain Frogs are passive mobs that spawn in Desert biomes during the rain."
+			tasks: [{
+				entity: "alexsmobs:rain_frog"
+				id: "445E1155B9852DD8"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Rain Frogs"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Goats can jump especially high and ram mobs. "
+				""
+				"They are a source of &7goat horns&r and &bmilk&r."
+			]
+			icon: "plushies:goat_plushie"
+			id: "3DB856ACB2E779E5"
+			rewards: [
+				{
+					id: "564402E439F74EFB"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:goat"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"G.O.A.T Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22405BFB79F7D526"
+					item: "plushies:goat_plushie"
+					type: "item"
+				}
+				{
+					id: "4CCD048DA0F13C24"
+					item: "handcrafted:goat_trophy"
+					type: "item"
+				}
+				{
+					id: "1292C8E3918192E2"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Goats are a neutral mob in Minecraft, that can be found in snow biomes."
+			tasks: [{
+				entity: "minecraft:goat"
+				id: "742984B12286699D"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Goats"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&cTarantula Hawks&r will fight back if the player attacks one."
+				""
+				"&cTarantula Hawks&r will attack &7Spiders&r or threats using their erratic flying pattern and their sting, applying the &eDebilitating Sting&r effect in the process."
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/tarantula_hawk"
+					}
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Tarantula Hawk Squisher Trophy\"}"
+					}
+				}
+			}
+			id: "7989C53DA03E931F"
+			rewards: [
+				{
+					id: "70B9C5948037C11D"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/tarantula_hawk"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Tarantula Hawk Squisher Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FA97ABA36A8FAD8"
+					item: "alexsmobs:tarantula_hawk_wing"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "02D7BB8844F97A8B"
+					item: "blue_skies:bug_guts"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A3E02793778B519"
+					type: "random"
+				}
+				{
+					id: "77DBDDE00299FB40"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&bTarantula Hawks&r (also known as &bTarantula Hawk Wasps&r) are neutral mobs that can be found in Desert and Badlands biomes."
+			tasks: [{
+				entity: "alexsmobs:tarantula_hawk"
+				id: "29A03C22734305D9"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Tarantula Hawks"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&cDropbears&r are aggressive and will attack by swiping their target with their claws and biting."
+				""
+				"&cDropbears&r are capable of jumping vertically at great heights to reach any blocks that are placed somewhere above them. Once they reach these block(s), they can climb upside down on them."
+				""
+				"If any entity the &cDropbear&r targets comes underneath the blocks the &cDropbear&r is climbing on, the &cDropbear&r will jump down and attack. If the &cDropbear&r lands on its target it can deal damage."
+			]
+			icon: "alexsmobs:dropbear_claw"
+			id: "57D61D9833387FF4"
+			rewards: [
+				{
+					id: "78211E43E405437E"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/dropbear"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Dropbear Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DEDA6ACA20B4F65"
+					item: "alexsmobs:dropbear_claw"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A9240FE58B17417"
+					type: "random"
+				}
+				{
+					id: "0A36DA1465753F17"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Dropbears are hostile mobs that can be found in Nether Waste biomes."
+			tasks: [{
+				entity: "alexsmobs:dropbear"
+				icon: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:alexsmobs/dropbear"
+						}
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Dropbear Slayer Trophy\"}"
+						}
+					}
+				}
+				id: "4050C7E47E3324B4"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Dropbears"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&3Soul Vultures&r will mostly fly around."
+				""
+				"Additionally, they can only land on &6Bone Blocks&r."
+				""
+				"&3Soul Vultures&r are placatable and will attack any nearby player unless that player is wearing an &7Unsettling Kimono&r."
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/soul_vulture"
+					}
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Soul Vulture Slayer Trophy\"}"
+					}
+				}
+			}
+			id: "11B73E379909353A"
+			rewards: [
+				{
+					id: "4F937EDF67F7703C"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/soul_vulture"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Soul Vulture Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79ADE6999EAE107A"
+					item: {
+						Count: 1b
+						id: "simplyswords:soulrender"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F5BB13DD8206D58"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Soul Vultures are placatable mobs that can be found near the Fossils of Soul Sand Valleys."
+			tasks: [{
+				entity: "alexsmobs:soul_vulture"
+				id: "1FEF22DACEAD8244"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Soul Vultures"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&eBanana Slugs&r will occasionally drop their&e Banana Slug &aSlime&r either randomly or upon death."
+				""
+				"&eBanana Slugs&r can be bred with Brown Mushrooms and come in &eyellow&r and &fwhite&r colour variants."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:item/banana_slug_slime"
+				}
+			}
+			id: "17A8383622513138"
+			rewards: [
+				{
+					id: "25E9B593D483D873"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/banana_slug"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Banana Slug  Squasher Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DA8BEDF603E9550"
+					item: "pamhc2foodextended:bananasplititem"
+					type: "item"
+				}
+				{
+					id: "2A4FA33A03E70802"
+					item: "pamhc2foodextended:bananapieitem"
+					type: "item"
+				}
+				{
+					id: "585700945C1DF6C2"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Banana Slugs are mobs that can be found in Old Growth Taigas."
+			tasks: [{
+				entity: "alexsmobs:banana_slug"
+				id: "4516C9D5D569FE49"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Banana Slugs"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			description: ["Unlike piglins, they &odo not&r barter, retreat, or be diverted by &egold&r, instead always charge at the player on sight with their &egolden axes&r."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/piglin/piglin_brute.png"
+				}
+			}
+			id: "581F9B39F6959B96"
+			rewards: [
+				{
+					id: "795E57EA5FE51852"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:piglin_brute"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Piglin Brute Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0007438C8E98879E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "345DFF35E8D8406F"
+					type: "random"
+				}
+				{
+					id: "08B6DD72BA553BD1"
+					item: {
+						Count: 1b
+						id: "divine_weaponry:netherite_shuriken"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 15
+					type: "item"
+				}
+			]
+			subtitle: "A piglin brute is a hostile and stronger variant of piglins that appears in all types of bastion remnants."
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "500C7DB087EA89DC"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Piglin Brutes"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: ["&2Zombified piglins&r normally ignore players, but if one is attacked, it and all &2zombified piglins&r in the vicinity become enraged and attack the aggressor with their &egolden swords&r."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/piglin/zombified_piglin.png"
+				}
+			}
+			id: "5E652EAD28BAF0BA"
+			rewards: [
+				{
+					id: "77D9F55D8AF88EA6"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:zombified_piglin"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Zombified Piglin Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D6586B7964A8676"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1C511C69B599DB84"
+					item: "minecraft:rotten_flesh"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0237A28C6791296F"
+					type: "random"
+				}
+			]
+			subtitle: "A zombified piglin is a neutral undead variant of the piglin that inhabits the Nether."
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "40280C519CE895B6"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Zombidied Piglin"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&6Laviathans&r are capable of moving on land along with swimming in &cLava&r. "
+				""
+				"The obsidian variant can additionally swim in &9Water&r. &6Laviathans&r are able to crawl over flat land very slowly"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/laviathan"
+					}
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Laviathan Slayer Trophy\"}"
+					}
+				}
+			}
+			id: "0E444B97C8C55D4D"
+			rewards: [{
+				id: "2A71D1EFB4C2F241"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:alexsmobs/laviathan"
+						}
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Laviathan Slayer Trophy\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Laviathans are passive mobs that can be found in The Nether's Lava Seas."
+			tasks: [{
+				entity: "alexsmobs:laviathan"
+				id: "33651C0C5A8A9DAE"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Kill Laviathans"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: ["Magma monsters will change to &5Obsidian&r or &7Stone&r (Grunts) if they come in contact with &9water&r and can become molten again if in contact with &6lava&r."]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "velox:slayermagmamonster"
+					}
+				}
+			}
+			id: "535A0E8676E3E331"
+			rewards: [
+				{
+					id: "0C6BCF2054D6CF5F"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayermagmamonster"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F407282DAD7B018"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:edelwood_lava_bucket"
+						tag: {
+							Fullness: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39A30D9FF9F4D3E6"
+					type: "random"
+				}
+				{
+					id: "640DA571871C76C0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "The Magma Monster spawns around lava, has fireball ranged attacks, and can set blocks on fire as it walks."
+			tasks: [{
+				entity: "magma_monsters:magma_monster"
+				id: "31653397F416D4BD"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Magma Monsters"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&5Enderiophages&r can also spawn if the &dEnder Flu&r effect wears off on an entity."
+				""
+				"&5Enderiophages&r can also be built."
+				""
+				"&5Enderiophages&r can be built by placing an &dEnd Rod&r with a &3Capsid&r containing an &aEye of Ender&r at the top."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:item/enderiophage_rocket"
+				}
+			}
+			id: "1CB668F589A468E9"
+			rewards: [
+				{
+					id: "159D0E76E7A80DF2"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/enderiophage"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Enderiophage Doctor Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20916BC5C7A11E64"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "25AFDF6E257733FD"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+				{
+					id: "1C87B21E3E7D23A5"
+					item: "alexsmobs:capsid"
+					type: "item"
+				}
+				{
+					id: "0CA907496203D6DF"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			subtitle: "Enderiophages are defensive mobs that spawn in End Midlands."
+			tasks: [{
+				entity: "alexsmobs:enderiophage"
+				id: "12DE6E4CDAB2ED72"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Enderiophages"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"A vindicator is an illager equipped with an iron axe."
+				""
+				"It sprints towards its targets to attack them with its axe."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/vindicator.png"
+				}
+			}
+			id: "5062F24DAA41D747"
+			rewards: [
+				{
+					id: "0078D333DAF20B21"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:vindicator"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Vindicator Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AE0BEAF5D91B7A6"
+					type: "random"
+				}
+				{
+					id: "37051AD989B41141"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Vindicators appear in woodland mansions and participate in raids. "
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "2FC1B54CB2BE1B87"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Vindicators"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"They attack players, adult villagers, wandering traders and iron golems by running at them and biting them. "
+				""
+				"They can be briefly stunned by being blocked with a shield, but after recovering they will roar, damaging and knocking away all nearby entities."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/ravager.png"
+				}
+			}
+			id: "3305E38771B3E04B"
+			rewards: [
+				{
+					id: "2D8D3D8047EE2404"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:ravager"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Ravager Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "576696C1709E3684"
+					item: "minecraft:emerald"
+					random_bonus: 63
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BA152220D7C7339"
+					type: "random"
+				}
+				{
+					id: "18C9DA45F7D38C8C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Ravagers are large hostile mobs that only spawn alongside illagers in raids. "
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "0A8BB5663B885137"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Ravagers"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&5Endergrades&r have the ability to fly upwards at a slow pace."
+				""
+				"&5Endergrades&r will eat any &5Chorus Flowers&r they come across."
+				""
+				"&5Endergrades&r are often targeted by &dEnderiophages&r."
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/endergrade"
+					}
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Endergrade Slayer Trophy\"}"
+					}
+				}
+			}
+			id: "227294FA12F318D6"
+			rewards: [
+				{
+					id: "5BE08183266E849D"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/endergrade"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Endergrade Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26890ACBC7644876"
+					item: "minecraft:chorus_flower"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "60610A22ED6494A8"
+					item: "minecraft:chorus_fruit"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "290B9E6536B98042"
+					type: "random"
+				}
+				{
+					id: "67AF851ECB13ADD7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Endergrades are passive mobs that spawn in End Highlands and End Midlands."
+			tasks: [{
+				entity: "alexsmobs:endergrade"
+				id: "1737C971ADE97120"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Endergrades"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			description: ["They carry iron tools above their heads, which can be used to attack targets from afar."]
+			id: "7BEF01A4342CEEF6"
+			rewards: [
+				{
+					id: "4992C0397A2D2C7E"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerteletor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3698D5C181BF80ED"
+					item: "alexscaves:telecore"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "126C9A567DC5CDC3"
+					item: "alexscaves:raw_azure_neodymium"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "02BF2AD5C3354912"
+					item: "alexscaves:raw_scarlet_neodymium"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "5A0D099D93F935FF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Teletor are common flying hostile mobs found in the Magnetic Caves."
+			tasks: [{
+				entity: "alexscaves:teletor"
+				icon: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "velox:slayerteletor"
+						}
+					}
+				}
+				id: "48DF617BE0B1C635"
+				title: "Kill Teletors"
+				type: "kill"
+				value: 25L
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Upon spotting a foe, they will construct a body made out of blocks for themselves, greatly enhancing their strength."
+				""
+				"&7&o\"The Magnetron is an uncommon, powerful being encountered in the Magnetic Caves. This monster was once a machine created to help extract resources from this place, although the fate of its makers are unknown.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "velox:slayertmagnetron"
+					}
+				}
+			}
+			id: "59F4D583D5518221"
+			rewards: [
+				{
+					id: "68D837A83A5E8AEA"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayertmagnetron"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54FCB1B466B2045D"
+					item: "alexscaves:heart_of_iron"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "4D0C6423EABDEA1A"
+					item: "botania:magnet_ring"
+					type: "item"
+				}
+				{
+					id: "0B44784BE7292847"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Magnetrons are rare hostile mobs found in the Magnetic Caves."
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				id: "6F598015489597DA"
+				title: "Kill Magnetrons"
+				type: "kill"
+				value: 15L
+			}]
+			title: "Kill Magnetrons"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"They are composite mobs that hang from quadrupedal winches which crawl across cave ceilings in pursuit of targets, slamming down on them once they get in range."
+				""
+				"&o&7\"What appears to be one creature is actually a mechanical being composed of two separate parts - a head and a walking winch, bound by a chain. This composite creature is known as the Boundroid. \"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "velox:slayerboundroid"
+					}
+				}
+			}
+			id: "3A2F92F0AC3E94D7"
+			rewards: [
+				{
+					id: "3E7C3AE469AA25AA"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerboundroid"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78E6CCDBA3F3E73D"
+					item: "alexscaves:heavyweight"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "09542A94A7A65C37"
+					item: "additionallanterns:crimson_chain"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C66B0642698EF55"
+					type: "random"
+				}
+				{
+					id: "578C4E0F222D4F45"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Boundroids are common hostile mobs found in the Magnetic Caves. "
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				id: "4E5C0886B41EE282"
+				title: "Kill Boundriods"
+				type: "kill"
+				value: 50L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["They can only move about in fixed patterns, but they can merge with each other to become stronger"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:textures/entity/ferrouslime_gel.png"
+				}
+			}
+			id: "2B043E6152F8FF2A"
+			rewards: [
+				{
+					id: "32C922CD8843BB24"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerferrouslime"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09AB36E503BC7709"
+					item: "alexscaves:ferrouslime_ball"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "2491F5494375B97E"
+					item: "ars_nouveau:experience_gem"
+					random_bonus: 7
+					type: "item"
+				}
+			]
+			subtitle: "Ferrouslimes are common flying hostile mobs found in the Magnetic Caves."
+			tasks: [{
+				entity: "alexscaves:ferrouslime"
+				id: "33228FBF8E1BCD88"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Ferrousslimes"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"They can be tamed and used as airborne mounts for quickly traversing most environments."
+				""
+				"&7&o\"The Subterranodon is a large, neutral flying reptile found in roosts on the sides of the Primordial Caves, or flying through its vast underground hollows. Although its large mouth is lined with spiky teeth, its diet consists mostly of aquatic life. Subterranodon nests are an occasional sight, emerging on rocky outcrops on pillars. Subterranodons can be lured and bred with a cod, and will produce one of their eggs, which can also be found in their nests.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:block/cave_painting/subterranodon"
+				}
+			}
+			id: "741DD4C70EC7FB8B"
+			rewards: [
+				{
+					id: "1B1BBBDF635F7160"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayersubterranodon"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7290001BDC2AB9C2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3864F0199AD5240D"
+					type: "random"
+				}
+				{
+					id: "65925148959E896A"
+					item: "alexscaves:subterranodon_egg"
+					type: "item"
+				}
+			]
+			subtitle: "Subterranodons are common flying neutral mobs found in the Primordial Caves. "
+			tasks: [{
+				entity: "alexscaves:subterranodon"
+				id: "1436C37C2404D398"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Subterranodons"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&oThey frequently feed on various kinds of vegetation, being able to turn Curly Ferns into Fiddleheads by grazing on them."
+				""
+				"\"&7&oGrottoceratops are large, herbivorous dinosaurs that seem to think only ever of eating more plants.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:block/cave_painting/grottoceratops"
+				}
+			}
+			id: "753B345FEBD19C74"
+			rewards: [
+				{
+					id: "7AF0C744BAC51126"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayergrottoceratops"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BF294CB51177FB2"
+					item: "alexscaves:tough_hide"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A14ECB96045A579"
+					type: "random"
+				}
+				{
+					id: "1E0BC547F8603EA4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Grottoceratops are common neutral mobs found in the Primordial Caves."
+			tasks: [{
+				entity: "alexscaves:grottoceratops"
+				id: "3CFAA24D77FE0E58"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Grottoceratops"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"They are small nektobenthic arthropods that serve as a readily available aquatic food source."
+				""
+				"&o&7\"Trilocaris are small prehistoric arthropods that can be found swimming in the many lakes and pools of the Primordial Caves. They can survive both in and out of water, and will bite if attacked first.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:block/cave_painting/trilocaris"
+				}
+			}
+			id: "280C998E4836D3D4"
+			rewards: [
+				{
+					id: "22A02E3403B5DA0C"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayertrilocaris"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BB92E2FDAFA4B85"
+					item: "alexscaves:trilocaris_tail"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "5306A9D9C9268972"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47350E353A40D9D8"
+					type: "random"
+				}
+			]
+			subtitle: "Trilocaris are common bucketable neutral aquatic mobs found in the Primordial Caves."
+			tasks: [{
+				entity: "alexscaves:trilocaris"
+				id: "0B65B68ABB27EAB9"
+				title: "Kill Trilocaris"
+				type: "kill"
+				value: 50L
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"They are large omnivores that can be aroused into feverishly toppling trees with Primordial Soup."
+				""
+				"&o&7\"The Relicheirus is a massive, neutral omnivorous dinosaur uncommonly found browsing the pewen trees of the Primordial Caves. This feathery dinosaur is immensely strong, and can deal a lot of damage with its dagger-like claws.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:block/cave_painting/relicheirus"
+				}
+			}
+			id: "1E76B784FE5781A4"
+			rewards: [
+				{
+					id: "6B1C55CC3AD1C33C"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerrelicheirus"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35E9221A961ACA4E"
+					item: "alexscaves:heavy_bone"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E0835A635F7EF12"
+					type: "random"
+				}
+				{
+					id: "0EEBC296F9A30BA2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Relicheirus are rare neutral mobs found in the Primordial Caves. "
+			tasks: [{
+				entity: "alexscaves:relicheirus"
+				id: "5E3EE612DAF9BC5C"
+				type: "kill"
+				value: 35L
+			}]
+			title: "Kill Relicherirus"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"They hunt prey in small packs, and will raid chests for food to eat."
+				""
+				"&o&7\"Vallumraptors are pack-hunting dinosaurs found commonly within the Primordial Caves. Ever on the prowl, these beasts will attempt to take down prey big and small - from local golden frogs to even a Grottoceratops, and even the occasional explorer.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:block/cave_painting/vallumraptor_elder"
+				}
+			}
+			id: "383A16F2DEBD4050"
+			rewards: [
+				{
+					id: "4E09E13A0EF474E3"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayervallumraptor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3344D5E2A33F34B7"
+					item: "alexscaves:vallumraptor_egg"
+					type: "item"
+				}
+				{
+					id: "59689A3CF7AA363D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 8
+					id: "7664FD46F28E5C2B"
+					item: "alexscaves:dinosaur_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Vallumraptors are common hostile mobs found in the Primordial Caves."
+			tasks: [{
+				entity: "alexscaves:vallumraptor"
+				id: "6892F835361FA4BD"
+				title: "Kill Vallumraptors"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"They are large, powerful predators that can emit a deafening roar, scaring off most mobs around them."
+				""
+				"&o&7\"The Tremorsaurus is the king of all dinosaurs in the Primordial Caves, where it regularly hunts large prey such as Grottoceratops and Relicheirus.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:block/cave_painting/tremorsaurus"
+				}
+			}
+			id: "609E3DBA87F73EE9"
+			rewards: [
+				{
+					id: "7510BCC49F6129E0"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayertremoraurus"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F151F62A190B71B"
+					item: "alexscaves:heavy_bone"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "10A9712DC529CA7B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7969E580562950B8"
+					type: "random"
+				}
+				{
+					id: "1EECC5191E5CC1B2"
+					item: "alexscaves:dinosaur_pottery_sherd"
+					type: "item"
+				}
+			]
+			subtitle: "Tremorsaurus are rare hostile mobs found in the Primordial Caves."
+			tasks: [{
+				entity: "alexscaves:tremorsaurus"
+				id: "147761ACA7596227"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Tremorsaurus"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"They scan players before displaying an image of them, causing any nearby hostile mobs to home in on them."
+				""
+				"&7&o\"The Notor is a strange, hovering passive creature found in the Magnetic Caves. Although it can not attack, they are definitely nuisances in their own right, as Notors will attempt to scan any foreign beings nearby. \"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:item/notor_gizmo"
+				}
+			}
+			id: "1BF4A6020453D478"
+			rewards: [
+				{
+					id: "11B79704AD6E9195"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayernotor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "350FBB54A4FE9F62"
+					item: "alexscaves:notor_gizmo"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "3979DD339C40C707"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D7283DD12F83180"
+					type: "random"
+				}
+			]
+			subtitle: "Notors are common semi-passive flying mobs found in the Magnetic Caves. "
+			tasks: [{
+				entity: "alexscaves:notor"
+				id: "715CC0C60D3C5D49"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Notors"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			description: ["They are larger and slower &2Creepers&r that take longer to prime themselves for detonation, but cannot be interrupted once they start charging up and create a devastating &2nuclear&r &6explosion&r if allowed to finish."]
+			icon: "enlightened_end:nuclear_bomb"
+			id: "32A3B6BE3CFA637D"
+			rewards: [
+				{
+					id: "56E969698522D99E"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayernucleeper"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07B5D144E32E4A78"
+					type: "random"
+				}
+				{
+					id: "2E7F51EEF6BAB194"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "213DBF33CFFF722E"
+					item: "alexscaves:nuclear_siren"
+					type: "item"
+				}
+			]
+			subtitle: "Nucleepers are rare hostile mobs found in the the Toxic Caves. "
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				icon: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "velox:slayernucleeper"
+						}
+					}
+				}
+				id: "4B8EA06439313AEC"
+				title: "Kill a &2Nucleeper"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &2Nucleeper"
+			x: 22.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"They are powerful undead monsters that use a variety of different attacks to dispatch targets."
+				""
+				"&o&7\"The Brainiac is a monstrous mutant made of several zombies and other unknown monsters. Brainiacs are fast, aggressive, strong, and in possession of a large tongue that can whip targets from a distance. Usually, Brainiacs can be found carrying around a Waste Drum on their backs.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:textures/misc/advancement/icon/defeat_brainiac.png"
+				}
+			}
+			id: "09F7BC0548884C35"
+			rewards: [
+				{
+					id: "5F2FF7F29EA224CD"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerbrainiac"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F894F18E3568C4D"
+					item: "simplehats:bigbrain"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "35419A687B58B918"
+					item: "minecraft:brain_coral_block"
+					type: "item"
+				}
+				{
+					id: "48C27351B3129CC3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "3E984741C360281C"
+					item: "alexscaves:green_soylent"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "Brainiacs are rare hostile mobs found in the Toxic Caves."
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				icon: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "velox:slayerbrainiac"
+						}
+					}
+				}
+				id: "6279E5F23681D21E"
+				title: "Kill Brainiacs"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill &2Brainiacs"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"They are massive, powerful predators that attack &bglowing mobs&r in addition to submarines that have their &efloodlights&r on."
+				""
+				"&o&7\"The Hullbreaker is a colossal fish over fifteen blocks long. Being a predator adapted to hunt exclusively in dark waters, it hunts by seeking out any glowing entity. "
+				""
+				"&o&7It quickly makes a kill by using its massive teeth to bite prey or its head as a battering ram to smash them. The easiest way to avoid the wandering eyes of a Hullbreaker is to stop emitting light, and to remove any glowing effect or entity.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "velox:slayerhullbreaker"
+					}
+				}
+			}
+			id: "109360CB30EB6D6B"
+			rewards: [
+				{
+					id: "21AA7B69821697A3"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerhullbreaker"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3410663CD4BE3E0D"
+					item: "alexscaves:enigmatic_engine"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "455184CDE808B283"
+					type: "random"
+				}
+				{
+					id: "6C3E3621D4516A33"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "454057F581C0C612"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Hullbreakers are rare neutral aquatic mobs found in the Abyssal Chasm."
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				id: "5DA40BEE068C0093"
+				title: "Bounty: &1Hullbreaker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			description: ["&8Deep Ones&r are common neutral mobs found in the &5Abyssal Chasm&r. They will cautiously stalk players at first, but can become &ballies&r or &cenemies&r depending on the players' actions."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:textures/misc/advancement/icon/deep_one_0.png"
+				}
+			}
+			id: "1DA79593F2C260D6"
+			rewards: [
+				{
+					id: "6431354860D63EBC"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerdeepone"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "29F207C14813D2A2"
+					item: "alexscaves:ping_pong_sponge"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3A27B83E43CAA0DE"
+					item: "alexscaves:glow_ink_bomb"
+					type: "item"
+				}
+				{
+					id: "5BF3E74468A04D00"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Uhh... guys.. this thing is following me.."
+			tasks: [{
+				entity: "alexscaves:deep_one"
+				id: "21C8FADFF489A5A6"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Deep Ones"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"They are humanoid angler fish that carry Tridents or Ortholances."
+				""
+				""
+				"&o&7\"The Deep One Knight is an even stronger species of Deep One. Like the other Deep Ones, they all share the same society and opinion of outsiders, and their approval and disapproval is all gained in the same way. Deep One Knights usually carry with them a trident or Orthrolance , which they will use as a weapon during melee combat with opponents.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:textures/misc/advancement/icon/deep_one_1.png"
+				}
+			}
+			id: "43828FF635BEAD19"
+			rewards: [
+				{
+					id: "10B433E95CC9A662"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerdeeponeknight"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69D7F8E6FA0688AC"
+					item: {
+						Count: 1b
+						id: "ageofweapons:trident_netherite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "489F31986C26D48D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Deep One Knights are common neutral mobs found in the Abyssal Chasm. "
+			tasks: [{
+				entity: "alexscaves:deep_one_knight"
+				id: "3979542E616D6C44"
+				title: "Kill Deep One Knights"
+				type: "kill"
+				value: 35L
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"They are translucent and surround themselves in a bubble while out of water."
+				""
+				"&o&7\"The Deep One Mage is the third species of Deep One, and distantly related to the others. Yet they still fulfill an invaluable role in the Deep One society - Mages have control over powerful water magic. Like all Deep Ones, they share the same opinion of outsiders.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:textures/misc/advancement/icon/deep_one_2.png"
+				}
+			}
+			id: "0F091EC806B77C5B"
+			rewards: [
+				{
+					id: "0283C454A741E381"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerdeeponemage"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29977F7DE5F76580"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63A46B1E064C7667"
+					type: "random"
+				}
+				{
+					id: "3E19A83B1A704190"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Deep One Mages are floating neutral mobs found in the Abyssal Chasm. "
+			tasks: [{
+				entity: "alexscaves:deep_one_mage"
+				id: "19751DA0AAEAFFDD"
+				type: "kill"
+				value: 35L
+			}]
+			title: "Kill Deep One Mages"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			description: ["They are bound to an anchor that limits their movement, but they will explode upon approaching their target, destroying blocks underwater and killing players caught in the blast."]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "velox:slayermineguardian"
+					}
+				}
+			}
+			id: "139E495F70D64F76"
+			rewards: [
+				{
+					id: "51DE0AE292CA399D"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayermineguardian"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08647F32C04B719A"
+					item: "alexscaves:depth_charge"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B4121DF01FC5D86"
+					type: "random"
+				}
+				{
+					id: "431B7A2B27C3D58C"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Mine Guardians are hostile aquatic mobs found around ruins in the Abyssal Chasm. "
+			tasks: [{
+				entity: "alexscaves:mine_guardian"
+				id: "1F513BEF800DE1A5"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Mine Guardians"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			description: ["They attack with a slow-charging laser beam, and inflict retaliatory damage when damaged by a melee attack."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/guardian.png"
+				}
+			}
+			id: "495F8ACF76C45451"
+			rewards: [
+				{
+					id: "3CC459A95FDC9567"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:guardian"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Guardian Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3072E7E08DDF57D9"
+					item: "minecraft:sponge"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64D8351403F45601"
+					type: "random"
+				}
+				{
+					id: "07911075C18F0BC1"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0B3A2065041FCD2D"
+					item: "plushies:guardian_plushie"
+					type: "item"
+				}
+			]
+			subtitle: "Guardians are pufferfish-like hostile mobs that spawn in and around ocean monuments."
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "657BDA4D534DB6F6"
+				title: "Kill Guardians"
+				type: "kill"
+				value: 50L
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			description: ["They wear &8black&r robes with &cred&r linings. They are known to worship a&8 god of pure darkness&r that corrupts life within the biome."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:textures/misc/advancement/icon/discover_underzealot.png"
+				}
+			}
+			id: "242FA61C383E2A28"
+			rewards: [
+				{
+					id: "0BB5DA8FC2B7D3A8"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerunderzealot"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F23E5D7C8E66AEA"
+					item: {
+						Count: 1b
+						id: "alexscaves:desolate_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AF827C03A508CE1"
+					item: "vampirism:blood_bucket"
+					type: "item"
+				}
+				{
+					id: "0DFF336C6AB52C92"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "The Underzealots are a race of intelligent, humanoid, mole people of the Forlorn Hollows. "
+			tasks: [{
+				entity: "alexscaves:underzealot"
+				id: "4FB43588AC3B1517"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Kill Underzealots"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Upon spotting a foe, they will possess the player, messing with their &kcamera&r."
+				""
+				"&o&7\"The Watcher is a monster that can be found in the Forlorn Hollows, but only appears as the result of an Underzealot sacrifice of a Gloomoth. Watchers will seek out any adventurer over a great distance, and begin to stalk them.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:textures/misc/advancement/icon/defeat_watcher.png"
+				}
+			}
+			id: "6B07D9B2E5F68ECA"
+			rewards: [
+				{
+					id: "2EDA07C00B5C66F9"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerwatcher"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A45A17A27A4F588"
+					item: "alexscaves:occult_gem"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "34404B7E838C6B91"
+					item: "alexscaves:dark_tatters"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "13ADEBD1BF6869F2"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Watchers are powerful hostile mobs found in the Forlorn Hollows. "
+			tasks: [{
+				entity: "alexscaves:watcher"
+				id: "1E5AE6E8A8EC7962"
+				title: "Kill Watchers"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Watchers"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			description: ["They will &7burrow&r through floors and walls to reach players, and are scared of &elight&r."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:item/corrodent_teeth"
+				}
+			}
+			id: "438338D153316CF8"
+			rewards: [
+				{
+					id: "3FCCD6D7986C5DB7"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayercorrodent"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "697C9DDE7EAED347"
+					item: "alexscaves:corrodent_teeth"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					id: "64B86F006C5B0653"
+					item: "moa_decor_cookery:barrilzanahoria"
+					type: "item"
+				}
+				{
+					id: "75D3F0993D42735B"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Corrodents are burrowing hostile mobs found in the Forlorn Hollows. "
+			tasks: [{
+				entity: "alexscaves:corrodent"
+				id: "4C292B8403102687"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Kill Corrodents"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"They &bdescend&r from the ceilings and travel incredibly far distances to swarm and attack players."
+				""
+				"&o&7\"Vespers are gigantic bats twisted by the darkness of the Forlorn Hollows.. They can either be found in pursuit of Gloomoths, their favorite prey, or roosting, hanging from the ceiling.\"&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:item/vesper_wing"
+				}
+			}
+			id: "47DDD221F84C4ECD"
+			rewards: [
+				{
+					id: "67857CF0ACF5BC19"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayervesper"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "746A2EBA9C539118"
+					item: "alexscaves:vesper_stew"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D61C57022F5953D"
+					type: "random"
+				}
+				{
+					id: "3FCA5C7C1202A584"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Vesper are common flying hostile mobs found in the Forlorn Hollows."
+			tasks: [{
+				entity: "alexscaves:vesper"
+				id: "04AA98003E2E3CCA"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill Vespers"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["They use grabs, biting, and sonic attacks, jump around, and at &clow health&r, while in low light levels, they enter a &8darkness&r mode that allows them to heal."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:textures/misc/advancement/icon/defeat_forsaken.png"
+				}
+			}
+			id: "476AFE02517C7F54"
+			rewards: [
+				{
+					id: "7C30BA92AA8637CB"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerforsaken"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50E70C7C0254BEE0"
+					item: "alexscaves:pure_darkness"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "218F28006BFF7E19"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "The Forsaken are large hostile miniboss mobs summoned in the Forlorn Hollows. "
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "36DC2A65565A6E91"
+				title: "Bounty: &dForsaken"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Similar to Decrepit Skeleton, however, it does not burn in the &esun&r and, when health drops to a certain limit, it starts &cdetonating&r before a big explosion. "
+				""
+				"During this time, it does not move which gives you the opportunity to kill it before the explosion or... you could run away.. &oboring.&r "
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/caverns_and_chasms/skeleton_cat.png"
+				}
+			}
+			id: "29BA08CFAD03ED50"
+			rewards: [
+				{
+					id: "35532FAD715259D4"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerskeletondemoman"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BF8EBC125F4F667"
+					item: "ageofweapons:dynamite"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "360B4F0895A735FA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "\"Oh, they're goin' ta have to glue you back together... IN HELL!\""
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_demoman"
+				id: "3A6E9FEA69ED7002"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Skeleton Demomen"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Appears starting from the &othird&r night of the game so that the player has time to &nprepare&r for the meeting with him. "
+				""
+				"The beginning of the &8Stalker's&r spawn is accompanied by a characteristic &osound&r and a &omessage&r in the chat. "
+				""
+				"Appears completely invisible, and all you can see are two &eglowing&r eyes. While the &8Stalker&r is in invisibility, he moves much faster, and when he receives damage, he loses invisibility."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:item/nightmaremask"
+				}
+			}
+			id: "3489C5FE5C12221B"
+			rewards: [
+				{
+					id: "11E35B2FC507D314"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayernightmarestalker"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A42922F7B92DCDA"
+					type: "random"
+				}
+				{
+					id: "5E3E729456539E6A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "An extremely dangerous spirit."
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				id: "3FEBB65A2084470C"
+				title: "Kill Your Nightmares"
+				type: "kill"
+				value: 20L
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			description: ["The boss has &o3&r main phases with unique and great loot. "]
+			icon: "born_in_chaos_v1:evil_carved_pumpkin"
+			id: "5A1D9D1FE95E93FC"
+			rewards: [
+				{
+					id: "1F6CE42DABA2D849"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayersirpumpkin"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B6FDF5262690687"
+					item: "born_in_chaos_v1:infernal_evil_pumpkin"
+					type: "item"
+				}
+				{
+					id: "6A37A4E13E2D52DC"
+					item: "mcwholidays:pumpkin_wheelbarrow"
+					type: "item"
+				}
+				{
+					id: "6ADE04B2C67EA276"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Mini Boss appears in your world only from October 25 to November 5 in honor of Halloween, or you can summon him by destroying a special pumpkin surrounded by candles that you can meet in the world."
+			tasks: [{
+				entity: "born_in_chaos_v1:sir_pumpkinhead"
+				id: "6B37C6B322AB50FD"
+				title: "Bounty: &6Sir Pumpkinhead"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A1D9D1FE95E93FC"]
+			description: ["In order to summon it, &3right-click&r on the &cInfernal Evil Pumpkin&r (no matter whether created or found) using &5Transmuting Elixir&r. &6Lord Pumpkinhead&r is a &clate game boss&r and requires maximum equipment or good resourcefulness to fight him."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:item/pumpkin_helmet"
+				}
+			}
+			id: "27E70350542EF5B6"
+			rewards: [
+				{
+					id: "5B06ADCF408B597F"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:slayerlordpumpkin"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CBA70FEC64CE3AF"
+					item: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+					type: "item"
+				}
+				{
+					id: "73FD558E8B48F0F0"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			subtitle: "He is a strengthened version of Sir Pumpkinhead, as well as a full-fledged boss."
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				id: "0962626D2D330DEB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bounty: &6Lord Pumpkinhead"
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			description: ["They behave similarly to skeletons, except they fire tipped arrows of &9Slowness&r from their bows."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/skeleton/stray.png"
+				}
+			}
+			id: "322164C5C792A559"
+			rewards: [
+				{
+					id: "6E41FD8EE2A5516B"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:stray"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Stray Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "75BAED89A3E63696"
+					item: {
+						Count: 1b
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:long_slowness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46C267115A088D18"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A5229DF11A209E3"
+					type: "random"
+				}
+			]
+			subtitle: "A stray is a variant of a skeleton that spawns in a few snow-covered biomes."
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "693BC1B9935C4D7C"
+				title: "Kill Strays"
+				type: "kill"
+				value: 80L
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Rocky Rollers are aggressive and will attack by rolling towards their opponent which can inflict a lot of damage on its target."
+				""
+				"If a Rocky Roller falls and lands on the ground during a roll then any nearby players will receive the Earthquake effect for 2 seconds."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:item/rocky_chestplate"
+				}
+			}
+			id: "488862FFF47B8397"
+			rewards: [
+				{
+					id: "6424A4443D2B2022"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/rocky_roller"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Rocky Roller Smasher Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A7A8655C827A0B8"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B8081FC22801A7E"
+					type: "random"
+				}
+			]
+			subtitle: "Rocky Rollers are hostile mobs that can be found rarely in Dripstone Cave biomes."
+			tasks: [{
+				entity: "alexsmobs:rocky_roller"
+				id: "13C7CC8425EB6293"
+				title: "Kill Rocky Rollers"
+				type: "kill"
+				value: 25L
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			description: ["Note: Two catfish mobs are shown above due to compatibility, but only one is required to complete this quest.  "]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:item/bucket_content/medium_catfish"
+				}
+			}
+			id: "39152D3E2DA394D8"
+			rewards: [
+				{
+					id: "3101257F2A785DED"
+					item: {
+						Count: 1b
+						id: "trofers:medium_plate"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/catfish"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Catfish Fisher Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14F0AAA9403BE852"
+					item: "minecraft:bamboo_raft"
+					type: "item"
+				}
+				{
+					id: "4E3BD7539B182517"
+					item: "simplehats:fishing_hat"
+					type: "item"
+				}
+				{
+					id: "3FF08DFC45FB19F8"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Catfish are passive mobs that spawn underwater in River and Swamp biomes."
+			tasks: [
+				{
+					entity: "alexsmobs:catfish"
+					id: "059B1E4775B9BEE9"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "aquaculture:catfish"
+					id: "53C1C2DF4834798A"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "Kill Catfish"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			description: ["Bone Serpents are placatable and will attack unless the player is wearing an &8Unsettling Kimono&r or is riding a &bStraddleboard&r enchanted with &bSerpent Charmer&r."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "productivebees:block/advanced_beehive/tinted/snake_block/front"
+				}
+			}
+			id: "7437C24B4277ECEA"
+			rewards: [
+				{
+					id: "3D359C0AAFCC342C"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/bone_serpent"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Bone Serpent Beheader Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AE6A9114245FBBD"
+					type: "choice"
+				}
+				{
+					id: "4ADE5E6AB40BA7AB"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Bone Serpents are placatable mobs that can be found in The Nether's Lava Seas."
+			tasks: [{
+				entity: "alexsmobs:bone_serpent"
+				id: "08C27C53A9C95FE0"
+				title: "Kill Bone Serpents"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:item/bucket_content/frilled_shark"
+				}
+			}
+			id: "5D6942431ACD600B"
+			rewards: [
+				{
+					id: "13415490BEDB7891"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/frilled_shark"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Frilled Shark Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2AE19184603F1982"
+					item: "alexsmobs:shark_tooth"
+					type: "item"
+				}
+				{
+					id: "7CFA0957FDF85000"
+					item: "minecraft:prismarine_shard"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "57CD3CA6B9CE5892"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Frilled Sharks are neutral mobs that spawn underwater below y-level 25 in Ocean biomes."
+			tasks: [{
+				entity: "alexsmobs:frilled_shark"
+				id: "2F231052233EEF6F"
+				title: "Kill Frilled Sharks"
+				type: "kill"
+				value: 30L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: ["Cod spawn underwater in normal, cold, and lukewarm oceans, and their deep variants, in groups of 3-6, subject to fish spawning requirements."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/fish/cod.png"
+				}
+			}
+			id: "5BA602148E6320CB"
+			rewards: [
+				{
+					id: "2097EEA2B522D322"
+					item: {
+						Count: 1b
+						id: "trofers:small_plate"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:cod"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Cod Fisher Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18FEFA59D0F1AECC"
+					item: "pneumaticcraft:cod_n_chips"
+					type: "item"
+				}
+				{
+					id: "71CCC5D626534958"
+					item: "farmersdelight:baked_cod_stew"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6822BCCC846EBE7D"
+					type: "random"
+				}
+				{
+					id: "7D90A7A20D7FB2FB"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Cod are common bucketable aquatic passive mobs found in oceans."
+			tasks: [{
+				entity: "minecraft:cod"
+				id: "4292A461FBB5C8ED"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill Cod"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			description: ["Salmon spawn in groups of 1–5 in cold or frozen oceans, as well as their deep variants, subject to fish spawning requirements. Like their real-world counterparts, they also spawn in rivers and frozen rivers."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/salmon"
+				}
+			}
+			id: "22CC138783B42C5F"
+			rewards: [
+				{
+					id: "0ABF4FE7ABA7E9DF"
+					item: {
+						Count: 1b
+						id: "trofers:small_plate"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:salmon"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Salmon Fisher Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "386BC7FEC7D058A0"
+					item: "sushigocrafting:tobiko_salmon_california"
+					type: "item"
+				}
+				{
+					id: "6D60D660202D0FF7"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "3882C8D20988DDE6"
+					item: "reevesfurniture:aquarium_empty"
+					type: "item"
+				}
+			]
+			subtitle: "Salmon are common bucketable aquatic passive mobs found in oceans and rivers."
+			tasks: [{
+				entity: "minecraft:salmon"
+				id: "4D892A7B6FB9B129"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Kill Salmon"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&3Warped Toads&r are capable of walking on land along with swimming in Water and Lava."
+				""
+				"&3Warped Toads&r will fight back if the player attacks one. If the player provokes one then the &3Warped Toad&r will use its tongue to damage the player."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:textures/entity_icon/frog.png"
+				}
+			}
+			id: "23E4C4FF0BEEF816"
+			rewards: [
+				{
+					id: "0893EDDE20CE4695"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/warped_toad"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Warped Toad Hater Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0C83CE6730D1C396"
+					item: "alexsmobs:mosquito_larva"
+					type: "item"
+				}
+				{
+					id: "6B0F6CF92E1D6907"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Warped Toads are neutral mobs that can be found in Warped Forest biomes."
+			tasks: [{
+				entity: "alexsmobs:warped_toad"
+				id: "142B213F2B76C778"
+				title: "Kill Warped Toads"
+				type: "kill"
+				value: 25L
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/iceandfire/ghost.png"
+				}
+			}
+			id: "78ECD58C7F19F39B"
+			rewards: [
+				{
+					id: "20312BC3EF2E3581"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/underminer"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Underminer Slayer Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0AAE1113587A3BB5"
+					item: {
+						Count: 1b
+						id: "fairylights:ghost_light"
+						tag: {
+							color: 1481884
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11C0406E63D5975B"
+					type: "random"
+				}
+				{
+					id: "68E04297A71D04F8"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Underminers are neutral mobs that can be found in Abandoned Mineshafts but only if the player spends a lot of time in one."
+			tasks: [{
+				entity: "alexsmobs:underminer"
+				id: "7FD4204E712A2051"
+				title: "Kill Underminers"
+				type: "kill"
+				value: 30L
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:textures/mob_effect/tigers_blessing.png"
+				}
+			}
+			id: "2B40F41FDF6494F2"
+			rewards: [
+				{
+					id: "204AA14430FDE083"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/tiger"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Tiger Hunter Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1633AF7E9D8B1530"
+					item: "botania:tigerseye"
+					type: "item"
+				}
+				{
+					id: "6CBAB02E502AB7C8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Tigers are placatable mobs that can be found in Bamboo Jungle and Cherry Grove biomes."
+			tasks: [{
+				entity: "alexsmobs:tiger"
+				id: "6A7CD6E013103948"
+				title: "Kill Tigers"
+				type: "kill"
+				value: 35L
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Skreechers are defensive but despite this, they will &cattack&r if they spot a player."
+				""
+				"They are classed as defensive because when they &cattack&r, they won't actively attack and will instead make a lot of loud monkey noises and clap loudly with their cymbal arms, which can summon a &8Warden&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:item/fisheye"
+				}
+			}
+			id: "2CB2AD49BD282707"
+			rewards: [
+				{
+					id: "727BDD9AB63043F5"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/skreecher"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Skreecher Muter Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A1390ACE3ED6F4B"
+					item: "simplehats:headphonesblue"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A1B0ED50D2B9719"
+					type: "random"
+				}
+				{
+					id: "2AFDC937F0922C8F"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Skreechers are defensive mobs that can be found rarely in Deep Dark biomes."
+			tasks: [{
+				entity: "alexsmobs:skreecher"
+				id: "1679A2AD7EE2C296"
+				title: "Kill Skreechers"
+				type: "kill"
+				value: 40L
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Shoebills are timid and will fly away if attacked."
+				""
+				"Shoebills will also attack any baby Turtles, Crocodiles, Alligator Snapping Turtles, Terrapins or Caimans that they find."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "exoticbirds:item/nest_full"
+				}
+			}
+			id: "0B9AAEC2F77C1088"
+			rewards: [
+				{
+					id: "0349C7DB2B68E307"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:alexsmobs/shoebill"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Shoebill Hunter Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DF442578413FFE8"
+					type: "random"
+				}
+				{
+					id: "0A8427B2D1EFE710"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Shoebills are passive mobs that can be found in Swamp biomes."
+			tasks: [{
+				entity: "alexsmobs:shoebill"
+				id: "45A65D001ECFC1A6"
+				title: "Kill Shoebills"
+				type: "kill"
+				value: 30L
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"It hides in its shell to protect itself and blend in with its surroundings. "
+				""
+				"It attacks by shooting homing bullets at the player which inflict Levitation. "
+				""
+				"It is the only source of shulker shells, which are used to craft shulker boxes."
+			]
+			icon: "minecraft:shulker_box"
+			id: "29F2F5AA5C640338"
+			rewards: [
+				{
+					id: "34B2FCA68519A8A2"
+					item: {
+						Count: 1b
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:shulker"
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Shulker Smasher Trophy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C690898458C6D05"
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EB95CB5610038C2"
+					type: "random"
+				}
+				{
+					id: "5814F264D12815B8"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5F37F7596AEE94B4"
+					item: "voidtotem:totem_of_void_undying"
+					type: "item"
+				}
+			]
+			subtitle: "A shulker is a box-shaped hostile mob found in end cities. "
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "09E6377A72AE5C08"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Kill Shulkers"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Wilden are hostile creatures that can be commonly found at night around Wilden Dens. "
+				""
+				"While Wilden Defenders may only be found in cold biomes, Stalker and Hunter Dens can be found in any forest biome."
+			]
+			id: "188C66B35838580B"
+			rewards: [
+				{
+					id: "0754AB81A99A7411"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "5267A3E7FD33BAF5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CCF30F66C31914F"
+					type: "random"
+				}
+			]
+			subtitle: "Hunt of all hunts."
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_guardian"
+					icon: "ars_nouveau:wilden_spike"
+					id: "7DA99620AD9B54C1"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "ars_nouveau:wilden_hunter"
+					icon: "ars_nouveau:wilden_horn"
+					id: "0E7A3BD41DA750B2"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "ars_nouveau:wilden_stalker"
+					icon: "ars_nouveau:wilden_wing"
+					id: "39B8FB0FA496D8FC"
+					type: "kill"
+					value: 15L
+				}
+			]
+			title: "The Great Wilden Hunt"
+			x: 9.0d
+			y: -4.0d
+		}
+	]
+	subtitle: ["A collection of your finest skills and information about them."]
+	title: "Bestiary"
+}

@@ -1,0 +1,3257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_life_part_2"
+	group: "4546D7737CBFFD68"
+	icon: "create_confectionery:gingerbread_man"
+	id: "3D2EFC9F42FB7375"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "aquaculture:item/catfish"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.000000000000007d
+			y: -18.732142857142854d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "createaddition:item/chocolate_cake"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.392857142857139d
+			y: -10.660714285714285d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ars_nouveau:items/source_berry"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5738095238095298d
+			y: -20.298809523809517d
+		}
+	]
+	order_index: 50
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "2ABED387992CDF5B"
+			rewards: [{
+				id: "58052A0B3386DF17"
+				item: "upgradednetherite_items:netherite_apple"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3AE843CD57DE0AC1"
+				item: "upgradednetherite_items:netherite_apple"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["2ABED387992CDF5B"]
+			id: "692C0557E8C9D072"
+			rewards: [{
+				id: "3C44AC2E56F000DF"
+				item: "upgradednetherite_items:enchanted_netherite_apple"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "1024FA324F9EA401"
+				item: "upgradednetherite_items:enchanted_netherite_apple"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["2ABED387992CDF5B"]
+			id: "1B46CD93035D526D"
+			rewards: [{
+				id: "22A78186CCF832ED"
+				item: "upgradednetherite_items:gold_upgraded_netherite_apple"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "44540C7A547081AE"
+				item: "upgradednetherite_items:gold_upgraded_netherite_apple"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["692C0557E8C9D072"]
+			id: "15C2A33AA9EDD06E"
+			rewards: [{
+				id: "4BFF27AA61A80C7A"
+				item: "upgradednetherite_items:enchanted_gold_upgraded_netherite_apple"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "479A12D19A16DB3E"
+				item: "upgradednetherite_items:enchanted_gold_upgraded_netherite_apple"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			dependency_requirement: "one_completed"
+			id: "1FB39A8C508003DB"
+			rewards: [{
+				id: "51E4638F99A41C36"
+				item: "aquaculture:fish_fillet_raw"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "399E1E01B9B3030A"
+				item: "aquaculture:fish_fillet_raw"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "2F07876B33C9A76A"
+			rewards: [{
+				id: "2425B60AE85B6CA9"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:lure"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0875FF2C7FE31A0D"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lFishing Rod"
+			x: 11.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7E96C336680F9F05"]
+			id: "31BDEDAE63E6018C"
+			rewards: [{
+				id: "2F2891023DB96A8C"
+				item: "minecraft:gold_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "073BBDD87680B374"
+				item: {
+					Count: 1b
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["31BDEDAE63E6018C"]
+			id: "649FF2CBF02BEEB8"
+			rewards: [{
+				id: "35CDA9370974E161"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F0343FD5307658E"
+				item: {
+					Count: 1b
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"649FF2CBF02BEEB8"
+				"422D71718D73D802"
+			]
+			dependency_requirement: "one_completed"
+			id: "3D271BF14DC60D67"
+			rewards: [{
+				id: "24FFE5BC8964C726"
+				item: "aquaculture:neptunium_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "60588FEF34D7DED5"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "419BAF609DEB93DB"
+			rewards: [{
+				id: "46C00C8DF5A9979A"
+				item: "minecraft:iron_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6F0EA3B0BDA530BE"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["419BAF609DEB93DB"]
+			id: "4F4FF0457633976D"
+			rewards: [{
+				id: "4EA34019AFD323B5"
+				item: "minecraft:gold_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "00532EEEB405A9A4"
+				item: "aquaculture:gold_hook"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["419BAF609DEB93DB"]
+			id: "4B0C00013A1F5B72"
+			rewards: [{
+				id: "70CF533455F15FE5"
+				item: "minecraft:diamond"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BF72D03B0073B85"
+				item: "aquaculture:diamond_hook"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["419BAF609DEB93DB"]
+			id: "638F69290B00DDB6"
+			rewards: [{
+				id: "7A5A046C14237A38"
+				item: "minecraft:feather"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "28A5D70ABBEBAC9A"
+				item: "aquaculture:light_hook"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"1FB39A8C508003DB"
+				"2F07876B33C9A76A"
+			]
+			id: "41432B8A2DB800AC"
+			rewards: [{
+				id: "5FBD7DE394DD946D"
+				item: "aquaculture:fish_fillet_cooked"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C66467CAE014CC8"
+				item: "aquaculture:fish_fillet_cooked"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["419BAF609DEB93DB"]
+			id: "3DCE01B4F870FE90"
+			rewards: [{
+				id: "4E8A5352745499B3"
+				item: "minecraft:iron_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "03149DD9B1F8BC3A"
+				item: "aquaculture:heavy_hook"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["419BAF609DEB93DB"]
+			id: "60F8AFF5D18FA804"
+			rewards: [{
+				id: "344E64DFE8422F96"
+				item: "minecraft:iron_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "624957F0488374FF"
+				item: "aquaculture:double_hook"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["419BAF609DEB93DB"]
+			id: "58CDB6088D1C2B6F"
+			rewards: [{
+				id: "5919B3ED34131AAA"
+				item: "minecraft:redstone"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "2130D55020D8F546"
+				item: "aquaculture:redstone_hook"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["419BAF609DEB93DB"]
+			id: "50EFA6B68C94F143"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FE09A28C036379C"
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2A76BBCD2F75390C"
+				item: "aquaculture:note_hook"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4B0C00013A1F5B72"]
+			id: "4B75FCC4FA8CBCEC"
+			rewards: [{
+				count: 4
+				id: "6E2B6A0D44573C86"
+				item: "minecraft:diamond"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "52047CE5F251133F"
+				item: "aquaculture:nether_star_hook"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "33258AAA4A6527E1"
+			rewards: [{
+				id: "0875F07E7124CCE5"
+				item: "aquaculture:atlantic_cod"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D06F69FA98F33BD"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "650955F55E95BE93"
+			rewards: [{
+				id: "4C165E6AC724C75D"
+				item: "aquaculture:blackfish"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3094DC821B5DBFA5"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "0EED66FA5D04DF3B"
+			rewards: [{
+				id: "3DD19E6FFC14E19E"
+				item: "aquaculture:pacific_halibut"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3832A16EF5C898B4"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "03305D0D6BFA155D"
+			rewards: [{
+				id: "289C67483EF98CC2"
+				item: "aquaculture:atlantic_halibut"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5968C450EE8A2D1C"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "1977146DC49A4949"
+			rewards: [{
+				id: "2B6C13EA7BF17B5F"
+				item: "aquaculture:atlantic_herring"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3291CD1BFEF9C11F"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "13CB8114F5F72B0B"
+			rewards: [{
+				id: "61B7DC72491FBAD0"
+				item: "aquaculture:pink_salmon"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D2F84408A1201AC"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "1F86376A74C0B0B8"
+			rewards: [{
+				id: "2438AA114570EBF0"
+				item: "aquaculture:pollock"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "355023782D5A400C"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "66A4D9FB27617C91"
+			rewards: [{
+				id: "0492BEC068ABD7CD"
+				item: "aquaculture:rainbow_trout"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "26F207C7B22D03AB"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "23AD0619DDFE8F12"
+			rewards: [{
+				id: "2EF0F7B80CC8101E"
+				item: "aquaculture:bayad"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0267484A07206C4E"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "64803ED019248065"
+			rewards: [{
+				id: "36E9631A9E1C244B"
+				item: "aquaculture:boulti"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A46D89298A3BE1D"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "091802A174D56035"
+			rewards: [{
+				id: "59255101FEB07E7D"
+				item: "aquaculture:capitaine"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "189788F0ECB7528F"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "7734B780814AE7CC"
+			rewards: [{
+				id: "5B1D3FA98BB3A073"
+				item: "aquaculture:synodontis"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F7F4F14D4E6C987"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "7907E762479B9C4D"
+			rewards: [{
+				id: "47A1D973C0781EA1"
+				item: "aquaculture:smallmouth_bass"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "322C7421FC92D0A7"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "2AFD1EA101261654"
+			rewards: [{
+				id: "0BA1FC344638678D"
+				item: "aquaculture:bluegill"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0364294282EF5C1D"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "49F33FF211D9798C"
+			rewards: [{
+				id: "68B5CF2B5BD701E4"
+				item: "aquaculture:brown_trout"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "675B78D4AFF97B29"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "42EC074FBB6B730B"
+			rewards: [{
+				id: "6FF855B3EA8D7342"
+				item: "aquaculture:carp"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E292C6555C69DAE"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "56B7566EB3543CF0"
+			rewards: [{
+				id: "335D246A4959CC44"
+				item: "aquaculture:catfish"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DCDE579335CEF4F"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "25A3FC4FD3F5518C"
+			rewards: [{
+				id: "1E52058FDDEFF9C9"
+				item: "aquaculture:gar"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "46B1C53C45773913"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "0EC30F208EC2FB9A"
+			rewards: [{
+				id: "78B62F091F07C5B9"
+				item: {
+					Count: 1b
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C0D7FEAE9DEBC57"
+				item: {
+					Count: 1b
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "63076A98CD08ACE4"
+			rewards: [{
+				id: "0ACCF3BBC90D92D0"
+				item: "aquaculture:muskellunge"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "42A8C20682C30EBC"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "6B63222E8D2604B0"
+			rewards: [{
+				id: "268A96E37B8DDF80"
+				item: "aquaculture:perch"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "626E52DFDABE1596"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "6DA1E8E29350A721"
+			rewards: [{
+				id: "2AA830745DD131C2"
+				item: "aquaculture:arapaima"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "50EF4AADB0CCC3A6"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "5CABD283E69DEF68"
+			rewards: [{
+				id: "6ADC1A7C5FD3FADA"
+				item: "aquaculture:piranha"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "011AD0A3308E4D7B"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "671421FF174D09AC"
+			rewards: [{
+				id: "71ABDF2B6567C220"
+				item: "aquaculture:tambaqui"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "15577799559A1565"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "3CFF9B050F4861C1"
+			rewards: [{
+				id: "2241B385F239932F"
+				item: "aquaculture:brown_shrooma"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AD0525A25124D27"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "044BAF1D91F9548C"
+			rewards: [{
+				id: "722E0E188CD33B51"
+				item: "aquaculture:red_shrooma"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FDB8A804C7171A5"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "05E4CFCCD779493E"
+			rewards: [{
+				id: "2FBF0BFE93FC0D1A"
+				item: "aquaculture:jellyfish"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "666D658CCD72244F"
+				item: "aquaculture:jellyfish"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "799FE3714CA43CC1"
+			rewards: [{
+				id: "31BB59B884C2C24D"
+				item: "aquaculture:red_grouper"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BC3DA7984953D1B"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "0C7549EB83879CB6"
+			rewards: [{
+				id: "43619DA885A91734"
+				item: "aquaculture:tuna"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "08290A877B7B7221"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "7A74A6446E75B333"
+			rewards: [{
+				id: "624FB30D1A06B6B2"
+				item: "aquaculture:turtle_soup"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "01FCBA29442DC824"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "aquaculture:turtle"
+						}
+					}
+					title: "Any #aquaculture:turtle"
+					type: "item"
+				}
+				{
+					id: "3A46D26C3AE0F68B"
+					item: "aquaculture:turtle_soup"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "7DADBABC81CB19C3"
+			rewards: [{
+				id: "6F48E6DF69E0875F"
+				item: "aquaculture:algae"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AB33A67EC011B3B"
+				item: "aquaculture:algae"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7DADBABC81CB19C3"]
+			id: "1C17886FBE3DA831"
+			rewards: [{
+				id: "17944E3A527EE112"
+				item: "aquaculture:sushi"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CFBD842BDD25245"
+				item: "aquaculture:sushi"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["422D71718D73D802"]
+			id: "70782792FB316359"
+			rewards: [{
+				count: 2
+				id: "1F9469F5EF318C65"
+				item: "aquaculture:neptunium_ingot"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C50D48AB9902CCA"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09539519FEA64154"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "584FC881E69F5385"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A5C07B2138C139C"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BF1F6A08D341772"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "616AF70550BC51A2"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Neptunium Equipment"
+			x: 12.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			hide_dependency_lines: true
+			id: "422D71718D73D802"
+			rewards: [{
+				id: "541511933E9C7975"
+				item: "aquaculture:neptunium_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5AB34BA6E3251AA8"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			title: "&lNeptune's Bounty"
+			x: 11.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["422D71718D73D802"]
+			id: "5601570037BEA625"
+			rewards: [{
+				count: 2
+				id: "42CA5EE4A660BC2D"
+				item: "aquaculture:neptunium_ingot"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E8DD6FAB158C13E"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B986AEC91265DBB"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73089EC29D0FA0ED"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C1CAF452B9A442F"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Neptunium Armor"
+			x: 10.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "6DB586AA4D814372"
+			rewards: [{
+				id: "3F11530CA4A48C48"
+				item: "minecraft:nautilus_shell"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Cosmetic, can be Dyed"
+			tasks: [
+				{
+					id: "10D71E239C8A7110"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "0D5641A3F9862C51"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "503D38FB7718F926"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+				{
+					id: "71427E6ADB69D72F"
+					item: {
+						Count: 1b
+						id: "aquaculture:leech"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gobber / Fishing Line"
+			x: 12.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["467D48F5ABB93B55"]
+			id: "1FE498F054700340"
+			rewards: [{
+				id: "32675DA968257223"
+				item: {
+					Count: 1b
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B979550E48BBC0B"
+				item: {
+					Count: 1b
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "467D48F5ABB93B55"
+			rewards: [{
+				id: "57ECE3E1CD918F57"
+				item: "minecraft:wheat_seeds"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BB79017A9615295"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "75FF9E8DA1821EF2"
+			rewards: [{
+				id: "23519CCD3CAC6AAB"
+				item: "mob_grinding_utils:solid_xp_baby"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "404F700AFDAFE734"
+				item: "mob_grinding_utils:solid_xp_baby"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "7D29FE06E851B3C8"
+			rewards: [{
+				id: "2C1E5202F8709CFD"
+				item: "ars_nouveau:source_berry"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Found in Taiga and Archwood Forests"
+			tasks: [{
+				id: "21515A4C710BF4A1"
+				item: "ars_nouveau:source_berry"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["7D29FE06E851B3C8"]
+			id: "5BD8C59EACF0C439"
+			rewards: [{
+				id: "29D8FBB316292CB5"
+				item: "ars_nouveau:mendosteen_pod"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "066F4EB50613EA4B"
+				item: "ars_nouveau:mendosteen_pod"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["7D29FE06E851B3C8"]
+			id: "283A69BBF825BFD8"
+			rewards: [{
+				id: "424F68CDD265467E"
+				item: "ars_nouveau:bastion_pod"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2385808EFC376FE2"
+				item: "ars_nouveau:bastion_pod"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["7D29FE06E851B3C8"]
+			id: "672B865EE1F1E4FC"
+			rewards: [{
+				id: "008D046A7744C6D6"
+				item: "ars_nouveau:bombegranate_pod"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "17A7FB443C30FB2A"
+				item: "ars_nouveau:bombegranate_pod"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["7D29FE06E851B3C8"]
+			id: "14FEBEC0AB3C2A16"
+			rewards: [{
+				id: "23CFA9FD246C02D3"
+				item: "ars_nouveau:frostaya_pod"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "73852AAE7B9C9723"
+				item: "ars_nouveau:frostaya_pod"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["7D29FE06E851B3C8"]
+			id: "49BAD9D8997C2E4E"
+			rewards: [{
+				id: "2B7809FBDC27AC6E"
+				item: "ars_nouveau:source_berry_pie"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "201AB88E97305E67"
+				item: "ars_nouveau:source_berry_pie"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["7D29FE06E851B3C8"]
+			id: "142315C9DD45C57F"
+			rewards: [{
+				id: "4ACB3DC3AE64C7E7"
+				item: "ars_nouveau:source_berry_roll"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "42B04850429FA46B"
+				item: "ars_nouveau:source_berry_roll"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["5C4F0FC7836E260B"]
+			id: "4B29F3C8F7BAD786"
+			rewards: [{
+				id: "71A8E90CCC3A16D0"
+				item: "twilightforest:raw_venison"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E31BAE87F475C83"
+				item: "twilightforest:raw_venison"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["4B29F3C8F7BAD786"]
+			id: "04FD881E0ECD9BC4"
+			rewards: [{
+				id: "1A38DC0ADECBA218"
+				item: "twilightforest:cooked_venison"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "129696E3339AF1A8"
+				item: "twilightforest:cooked_venison"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["5C4F0FC7836E260B"]
+			id: "6F1050C6FEE379D6"
+			rewards: [{
+				id: "2DBB2E5683B52B13"
+				item: "twilightforest:raw_meef"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "24DA389A9C6CE0F2"
+				item: "twilightforest:raw_meef"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["6F1050C6FEE379D6"]
+			id: "3DE5F209F116EEE0"
+			rewards: [{
+				id: "16CDB7AABD0CB145"
+				item: "twilightforest:cooked_meef"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B152BBC873AC1FE"
+				item: "twilightforest:cooked_meef"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["5C4F0FC7836E260B"]
+			id: "59E2C049533DF92D"
+			rewards: [{
+				id: "68E7E38EA0E62BB5"
+				item: "twilightforest:hydra_chop"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "55CE0772FD129C86"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "5C4F0FC7836E260B"
+			rewards: [{
+				id: "23FDCB6FF6434C17"
+				item: "twilightforest:torchberries"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2673EA4D44D450FB"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["5C4F0FC7836E260B"]
+			id: "2D90BA0105D3FAF2"
+			rewards: [{
+				id: "7E94577C0E9F3F8A"
+				item: "twilightforest:maze_wafer"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "61B8BA61B9FE56CD"
+				item: "twilightforest:maze_wafer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["5C4F0FC7836E260B"]
+			id: "28669EC1F6A18B90"
+			rewards: [{
+				id: "12603EE416DE76C8"
+				item: "twilightforest:experiment_115"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "29612E51CD74FD48"
+				item: "twilightforest:experiment_115"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "5FECA4944618229C"
+			rewards: [{
+				id: "6C058D8040277024"
+				item: "create_confectionery:marshmallow"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4A8CE6D8C35610AE"
+				item: "create_confectionery:marshmallow"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5FECA4944618229C"
+				"796978874015D598"
+			]
+			id: "5942704450FE6F73"
+			rewards: [{
+				id: "25C10B90950CAEE4"
+				item: "create_confectionery:chocolate_glazed_marshmallow"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "29D1A320E3D1F267"
+				item: "create_confectionery:chocolate_glazed_marshmallow"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"5FECA4944618229C"
+				"68D0046F552B243D"
+			]
+			id: "21453133FF9E7D4B"
+			rewards: [{
+				id: "5FE0768391D4D14C"
+				item: "create_confectionery:white_chocolate_glazed_marshmallow"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "405E8D9682294575"
+				item: "create_confectionery:white_chocolate_glazed_marshmallow"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"5FECA4944618229C"
+				"50DBBE3F394F9A75"
+			]
+			id: "3F2A68DCDBA81303"
+			rewards: [{
+				id: "04165BA7EF340A1A"
+				item: "create_confectionery:black_chocolate_glazed_marshmallow"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "49FDD2F7A32FAF1F"
+				item: "create_confectionery:black_chocolate_glazed_marshmallow"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"5FECA4944618229C"
+				"4F525A78DBAFD3CA"
+			]
+			id: "71F7F75EBF62E1C0"
+			rewards: [{
+				id: "6698419011BD0ACE"
+				item: "create_confectionery:ruby_chocolate_glazed_marshmallow"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "04DA58EA3AA4F5F1"
+				item: "create_confectionery:ruby_chocolate_glazed_marshmallow"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5FECA4944618229C"]
+			id: "4C62A69C7ADB3B23"
+			rewards: [{
+				id: "4196FBE3429ABC34"
+				item: "create_confectionery:marshmallow_on_a_stick"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1E5119367321F22F"
+				item: "create_confectionery:marshmallow_on_a_stick"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4C62A69C7ADB3B23"]
+			id: "7F0F060C6D0C26F0"
+			rewards: [{
+				id: "60439F7025BEC3F0"
+				item: "create_confectionery:caramelized_marshmellow_on_a_stick"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0729945DE78FDD52"
+				item: "create_confectionery:caramelized_marshmellow_on_a_stick"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "045F9FEB1F73987D"
+			rewards: [{
+				id: "02216695BBFD2812"
+				item: "create_confectionery:gingerdough"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4BE5F85EBB208747"
+				item: "create_confectionery:gingerdough"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["045F9FEB1F73987D"]
+			id: "60A8DA094AB38D8C"
+			rewards: [{
+				id: "1C50423990E0AF24"
+				item: "create_confectionery:gingerbread"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "61A000B8EA620398"
+				item: "create_confectionery:gingerbread"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["045F9FEB1F73987D"]
+			id: "30C000FEDAEE3B24"
+			rewards: [{
+				id: "4A5E2BBA060D1A9F"
+				item: "create_confectionery:gingerbread_man"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "08C6B7F6E88918ED"
+				item: "create_confectionery:gingerbread_man"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "26807B148BBE461C"
+			rewards: [{
+				id: "47B2A611F9D62CFA"
+				item: "create_confectionery:hot_chocolate_bottle"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1BA99729A2C95FA2"
+				item: "create_confectionery:hot_chocolate_bottle"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"26807B148BBE461C"
+				"5FECA4944618229C"
+			]
+			id: "5C61F2B7CDBD2BE0"
+			rewards: [{
+				id: "49DB8C1B77E83744"
+				item: "create_confectionery:soothing_hot_chocolate"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1F4AEB4B0D08F826"
+				item: "create_confectionery:soothing_hot_chocolate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "05699F0CEAB4F17C"
+			rewards: [{
+				id: "2FF73502B627F589"
+				item: "create_confectionery:candy_cane"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2F37BF13EC93973A"
+				item: "create_confectionery:candy_cane"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "3362DCE76D36B4EC"
+			rewards: [{
+				id: "42C122726B7AE96B"
+				item: "create_confectionery:honey_candy"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1DAC2E05CE22C6C0"
+				item: "create_confectionery:honey_candy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"796978874015D598"
+				"4DBB7F08084B882A"
+			]
+			id: "54751DA42F072879"
+			rewards: [{
+				id: "2D5F8EAD10AE421B"
+				item: "create_confectionery:chocolate_candy"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F38FD33A3C472E"
+				item: "create_confectionery:chocolate_candy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["796978874015D598"]
+			id: "7B82D2EF4EFC75A3"
+			rewards: [{
+				id: "0970DD8CE5E155EF"
+				item: "create_confectionery:chocolate_candy_1"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F071862EFBB927A"
+				item: "create_confectionery:chocolate_candy_1"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["796978874015D598"]
+			id: "2FA00E42206858F1"
+			rewards: [{
+				id: "73DDBC62B28E3109"
+				item: "create_confectionery:chocolate_candy_2"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A46CC763729FF4B"
+				item: "create_confectionery:chocolate_candy_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["796978874015D598"]
+			id: "582A02052CA8D0C2"
+			rewards: [{
+				id: "2FC54F55751FBB0B"
+				item: "create_confectionery:chocolate_candy_3"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "045CB3964D948CCD"
+				item: "create_confectionery:chocolate_candy_3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"50DBBE3F394F9A75"
+				"4DBB7F08084B882A"
+			]
+			id: "71C748AF0FFAA92C"
+			rewards: [{
+				id: "5A207D2E9B386039"
+				item: "create_confectionery:black_chocolate_candy"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "09587BC1C5630919"
+				item: "create_confectionery:black_chocolate_candy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["50DBBE3F394F9A75"]
+			id: "1B21216F949EDD26"
+			rewards: [{
+				id: "7EB49ECEBBA5D3E1"
+				item: "create_confectionery:black_chocolate_candy_1"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "761FCB78EDD812C8"
+				item: "create_confectionery:black_chocolate_candy_1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["50DBBE3F394F9A75"]
+			id: "0648B65F42496866"
+			rewards: [{
+				id: "2384D0C5B7D19A0A"
+				item: "create_confectionery:black_chocolate_candy_2"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "11F235BA947E256A"
+				item: "create_confectionery:black_chocolate_candy_2"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["50DBBE3F394F9A75"]
+			id: "490083219653A80E"
+			rewards: [{
+				id: "731BD736345DD21F"
+				item: "create_confectionery:black_chocolate_candy_3"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "28C749EFF8B00F43"
+				item: "create_confectionery:black_chocolate_candy_3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"68D0046F552B243D"
+				"4DBB7F08084B882A"
+			]
+			id: "6A2C8DE29F9923CC"
+			rewards: [{
+				id: "114DD1F84602EA7C"
+				item: "create_confectionery:white_chocolate_candy"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E2A61A76794551D"
+				item: "create_confectionery:white_chocolate_candy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["68D0046F552B243D"]
+			id: "716AF366670F324A"
+			rewards: [{
+				id: "29D70EBE04D49208"
+				item: "create_confectionery:white_chocolate_candy_1"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "23897EE98E49F9CE"
+				item: "create_confectionery:white_chocolate_candy_1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["68D0046F552B243D"]
+			id: "7E50189302193466"
+			rewards: [{
+				id: "1D15A496FEF209D0"
+				item: "create_confectionery:white_chocolate_candy_2"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "601D710F0204B99B"
+				item: "create_confectionery:white_chocolate_candy_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["68D0046F552B243D"]
+			id: "15FECB516CC492BA"
+			rewards: [{
+				id: "23234E0B31A13C88"
+				item: "create_confectionery:white_chocolate_candy_3"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AAE6376E4359048"
+				item: "create_confectionery:white_chocolate_candy_3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"4F525A78DBAFD3CA"
+				"4DBB7F08084B882A"
+			]
+			id: "2F3858C4BA795BEF"
+			rewards: [{
+				id: "3A81A5493426AAD8"
+				item: "create_confectionery:ruby_chocolate_candy"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0666B9173F2AA7D9"
+				item: "create_confectionery:ruby_chocolate_candy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4F525A78DBAFD3CA"]
+			id: "7A112397FABE3E48"
+			rewards: [{
+				id: "513A9BCF7CE818A4"
+				item: "create_confectionery:ruby_chocolate_candy_1"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BF6E2F160753B16"
+				item: "create_confectionery:ruby_chocolate_candy_1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4F525A78DBAFD3CA"]
+			id: "2EBA8C2CA172CF5E"
+			rewards: [{
+				id: "0C7CC14ACD54691E"
+				item: "create_confectionery:ruby_chocolate_candy_2"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "444414B98953B990"
+				item: "create_confectionery:ruby_chocolate_candy_2"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4F525A78DBAFD3CA"]
+			id: "0B8818E3401A58B7"
+			rewards: [{
+				id: "2EAB3AD854CB48D9"
+				item: "create_confectionery:ruby_chocolate_candy_3"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2149577059BCC68A"
+				item: "create_confectionery:ruby_chocolate_candy_3"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["796978874015D598"]
+			id: "167905083E1C2BC3"
+			rewards: [{
+				id: "30B8218E353EA814"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "00DF3D2EC495DB53"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["50DBBE3F394F9A75"]
+			id: "69F2488A320FA6B1"
+			rewards: [{
+				id: "678EDB46034171BF"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_black_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "305E2C6452C574E1"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_black_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["68D0046F552B243D"]
+			id: "77FA370C2E09BDE9"
+			rewards: [{
+				id: "53DC703CCFA3BEE0"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_white_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "285EA077F9C1219E"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_white_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4F525A78DBAFD3CA"]
+			id: "62727324AC34E361"
+			rewards: [{
+				id: "42CC4BDC84689D0A"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_ruby_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "483B111CD35ECD0E"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_ruby_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "50DBBE3F394F9A75"
+			rewards: [{
+				id: "4E3A794A2F26D960"
+				item: "create_confectionery:bar_of_black_chocolate"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0859A2450C7A2D20"
+				item: "create_confectionery:bar_of_black_chocolate"
+				type: "item"
+			}]
+			title: "&lDark Chocolate"
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "68D0046F552B243D"
+			rewards: [{
+				id: "6C77DA14C3ECF47E"
+				item: "create_confectionery:bar_of_white_chocolate"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3791906EB0A96700"
+				item: "create_confectionery:bar_of_white_chocolate"
+				type: "item"
+			}]
+			title: "&lWhite Chocolate"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "4F525A78DBAFD3CA"
+			rewards: [{
+				id: "42A74418078DF1A3"
+				item: "create_confectionery:bar_of_ruby_chocolate"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "66EECB98114EB4DA"
+				item: "create_confectionery:bar_of_ruby_chocolate"
+				type: "item"
+			}]
+			title: "&lRuby Chocolate"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "4DBB7F08084B882A"
+			rewards: [{
+				id: "2F59E7F8D68451D0"
+				item: "create_confectionery:bar_of_caramel"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0DCDCDFBB4905C51"
+				item: "create_confectionery:bar_of_caramel"
+				type: "item"
+			}]
+			title: "&lCaramel"
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "796978874015D598"
+			rewards: [{
+				id: "40B6A50B1C355D22"
+				item: "create:bar_of_chocolate"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "29DD6D2B2034561D"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			title: "&lChocolate"
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"30B70DF98127E312"
+				"75FF9E8DA1821EF2"
+				"62727324AC34E361"
+				"4C62A69C7ADB3B23"
+				"671421FF174D09AC"
+				"33258AAA4A6527E1"
+				"71F7F75EBF62E1C0"
+				"56158FE1646E2495"
+				"64803ED019248065"
+				"14FEBEC0AB3C2A16"
+				"77FA370C2E09BDE9"
+				"7DADBABC81CB19C3"
+				"3DE5F209F116EEE0"
+				"13CB8114F5F72B0B"
+				"044BAF1D91F9548C"
+				"0EED66FA5D04DF3B"
+				"2AFD1EA101261654"
+				"7734B780814AE7CC"
+				"6DA1E8E29350A721"
+				"7B82D2EF4EFC75A3"
+				"26807B148BBE461C"
+				"0648B65F42496866"
+				"582A02052CA8D0C2"
+				"716AF366670F324A"
+				"2ABED387992CDF5B"
+				"4F525A78DBAFD3CA"
+				"49BAD9D8997C2E4E"
+				"49F33FF211D9798C"
+				"23AD0619DDFE8F12"
+				"091802A174D56035"
+				"3F2A68DCDBA81303"
+				"3362DCE76D36B4EC"
+				"796978874015D598"
+				"1FB39A8C508003DB"
+				"2F3858C4BA795BEF"
+				"7A112397FABE3E48"
+				"63076A98CD08ACE4"
+				"3CFF9B050F4861C1"
+				"1C17886FBE3DA831"
+				"7A74A6446E75B333"
+				"672B865EE1F1E4FC"
+				"15C2A33AA9EDD06E"
+				"2FA00E42206858F1"
+				"283A69BBF825BFD8"
+				"490083219653A80E"
+				"56B7566EB3543CF0"
+				"799FE3714CA43CC1"
+				"5942704450FE6F73"
+				"5C61F2B7CDBD2BE0"
+				"5BD8C59EACF0C439"
+				"1F86376A74C0B0B8"
+				"25A3FC4FD3F5518C"
+				"28669EC1F6A18B90"
+				"71C35D67CF6CD95F"
+				"0FD2AE5F090F3D15"
+				"03305D0D6BFA155D"
+				"6A2C8DE29F9923CC"
+				"60A8DA094AB38D8C"
+				"21453133FF9E7D4B"
+				"68D0046F552B243D"
+				"05699F0CEAB4F17C"
+				"167905083E1C2BC3"
+				"66A4D9FB27617C91"
+				"0C7549EB83879CB6"
+				"54751DA42F072879"
+				"2D90BA0105D3FAF2"
+				"7907E762479B9C4D"
+				"7D29FE06E851B3C8"
+				"045F9FEB1F73987D"
+				"2EBA8C2CA172CF5E"
+				"59E2C049533DF92D"
+				"7E50189302193466"
+				"71C748AF0FFAA92C"
+				"3D25CC6A2B1732E7"
+				"692C0557E8C9D072"
+				"42EC074FBB6B730B"
+				"0B8818E3401A58B7"
+				"69F2488A320FA6B1"
+				"1977146DC49A4949"
+				"142315C9DD45C57F"
+				"15FECB516CC492BA"
+				"4DBB7F08084B882A"
+				"6B63222E8D2604B0"
+				"41432B8A2DB800AC"
+				"5CABD283E69DEF68"
+				"4B29F3C8F7BAD786"
+				"50DBBE3F394F9A75"
+				"6F1050C6FEE379D6"
+				"1B46CD93035D526D"
+				"04FD881E0ECD9BC4"
+				"7A4FC72A2C52EDDB"
+				"5C4F0FC7836E260B"
+				"30C000FEDAEE3B24"
+				"1B21216F949EDD26"
+				"650955F55E95BE93"
+				"5FECA4944618229C"
+				"7F0F060C6D0C26F0"
+				"66BCF3427F3B00B7"
+				"7F9455872AA0D8F4"
+				"42BE23037D273716"
+				"37FB0796E1003A61"
+				"4E88A1B01001946F"
+				"6BD5044A0F9F7DD8"
+				"27B0D467A0DBF596"
+				"4D8A9A2DB311324A"
+				"54ABEF35B46638AA"
+				"1F901B9D0EFE65A5"
+				"61C0695E81018AEF"
+				"004680BF4007D784"
+				"37BB45A48ABF8003"
+				"7417BB8019ADECCE"
+				"1303A0FBAC397651"
+				"034CD6BD929E1CBB"
+				"7DB052A93DD150BF"
+				"6D49CC4C8A50765D"
+				"7B896F75C034F9C2"
+				"717C8597BFB7A5C7"
+				"7F3BF82BB27AF816"
+				"2EDAF336088C11E6"
+				"180738CA7309DF58"
+				"56F118B606C3D22B"
+				"7DCBC59F1FE24DF3"
+				"2C7FFC7B54FDC6BF"
+				"53F61980B3C9C2F9"
+				"6196C8B2DC53593D"
+				"2285F986D2AE2EE6"
+				"2432EBB07DF7DDBA"
+				"4F1DA7709F318180"
+				"5AFF5C66EB028DBA"
+				"1AEDA9156A45DCD9"
+			]
+			description: ["Try to craft all foods to unlock the final Age, remember, more you eat, more you get hearts ;)"]
+			hide_dependency_lines: true
+			id: "132167E8D98BB263"
+			rewards: [{
+				count: 16
+				id: "042E7A22F93519BA"
+				item: "upgradednetherite_items:enchanted_gold_upgraded_netherite_apple"
+				random_bonus: 16
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft them all"
+			tasks: [{
+				id: "2051C2F57D6DF450"
+				type: "checkmark"
+			}]
+			title: "&lFood's Lover"
+			x: 4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1F5BB69FB3E757E8"]
+			description: [
+				"This page is only for Age 2 foods, try to eat them all to upgrade your max health."
+				"With the mod \"Spice of Life\", you can get more than 10 permanent hearts just with this page !"
+			]
+			icon: "solcarrot:food_book"
+			id: "30B70DF98127E312"
+			rewards: [{
+				id: "21FFAA0D028EF5BC"
+				item: "create:blaze_cake"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Age 2"
+			tasks: [{
+				id: "3B9B775D6B96DA20"
+				type: "checkmark"
+			}]
+			title: "&lSpice Of Life"
+			x: 2.25d
+			y: -15.0d
+		}
+		{
+			dependencies: ["50DBBE3F394F9A75"]
+			id: "56158FE1646E2495"
+			rewards: [{
+				id: "0A008FAFCC35ECDA"
+				item: "create_confectionery:black_chocolate_glazed_berries"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5AF6920B4DF51E"
+				item: "create_confectionery:black_chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["68D0046F552B243D"]
+			id: "7A4FC72A2C52EDDB"
+			rewards: [{
+				id: "444233D3A5AFF9CC"
+				item: "create_confectionery:white_chocolate_glazed_berries"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "33566C534AFFA596"
+				item: "create_confectionery:white_chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4DBB7F08084B882A"]
+			id: "71C35D67CF6CD95F"
+			rewards: [{
+				id: "3736E29E7E4A4AF9"
+				item: "create_confectionery:caramel_glazed_berries"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5BCB72638421BC98"
+				item: "create_confectionery:caramel_glazed_berries"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4F525A78DBAFD3CA"]
+			id: "3D25CC6A2B1732E7"
+			rewards: [{
+				id: "0F092D5B7A8FDFDB"
+				item: "create_confectionery:ruby_chocolate_glazed_berries"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3C76142A234B97C1"
+				item: "create_confectionery:ruby_chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["796978874015D598"]
+			id: "0FD2AE5F090F3D15"
+			rewards: [{
+				id: "4C379FD4D0BA0856"
+				item: "create:chocolate_glazed_berries"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2A103DFF79E40AA8"
+				item: "create:chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "301C513D7EC0CD53"
+			rewards: [{
+				id: "120C6166A6929B51"
+				item: "botanypots:terracotta_botany_pot"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: "botanypots:terracotta_botany_pot"
+				id: "04ADA2B41ACB2E02"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:basic_botany_pots"
+					}
+				}
+				title: "Any #botanypots:basic_botany_pots"
+				type: "item"
+			}]
+			title: "&lBotany Pot"
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"301C513D7EC0CD53"
+				"26F4FB950E84A8A1"
+			]
+			dependency_requirement: "one_completed"
+			id: "38E10806192CDF7E"
+			rewards: [{
+				id: "0F8EF9FEE3512C6A"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: "botanypots:terracotta_hopper_botany_pot"
+				id: "2CD481C9F3C200A0"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				title: "Any #botanypots:hopper_botany_pots"
+				type: "item"
+			}]
+			title: "&lHopper Botany Pot"
+			x: 5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "7E96C336680F9F05"
+			rewards: [{
+				id: "1F48B2D3A1C0F5AE"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "231B14E5034325C0"
+				item: {
+					Count: 1b
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "54ABEF35B46638AA"
+			rewards: [{
+				id: "1030D3446E029FEC"
+				item: "minecraft:pufferfish"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "441E898BC1E43D40"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "1F901B9D0EFE65A5"
+			rewards: [{
+				id: "3C7A8C226DB02A8F"
+				item: "minecraft:tropical_fish"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "53DE7EEE921044FC"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "6BD5044A0F9F7DD8"
+			rewards: [{
+				id: "7D590755E90EE070"
+				item: "minecraft:cod"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "55A08EBBE81703DA"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6BD5044A0F9F7DD8"]
+			id: "27B0D467A0DBF596"
+			rewards: [{
+				id: "4F0241DA937DEFA5"
+				item: "minecraft:cooked_cod"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F097B6EEF4B25D0"
+				item: "minecraft:cooked_cod"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6BD5044A0F9F7DD8"]
+			id: "4E88A1B01001946F"
+			rewards: [{
+				id: "45796EC1C9E3C918"
+				item: "farmersdelight:cod_slice"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C470F511431A42C"
+				item: "farmersdelight:cod_slice"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"4E88A1B01001946F"
+				"27B0D467A0DBF596"
+			]
+			id: "4D8A9A2DB311324A"
+			rewards: [{
+				id: "4807957C07425256"
+				item: "farmersdelight:cooked_cod_slice"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "78C43320D9822BB1"
+				item: "farmersdelight:cooked_cod_slice"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "7F9455872AA0D8F4"
+			rewards: [{
+				id: "611584A752784000"
+				item: "minecraft:salmon"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "541DCE285DE2411C"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7F9455872AA0D8F4"]
+			id: "42BE23037D273716"
+			rewards: [{
+				id: "09B563008C16F178"
+				item: "minecraft:cooked_salmon"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "47582898E70D65F4"
+				item: "minecraft:cooked_salmon"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7F9455872AA0D8F4"]
+			id: "37FB0796E1003A61"
+			rewards: [{
+				id: "28905A0F576DF1C8"
+				item: "farmersdelight:salmon_slice"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6985E0A442FDB7C4"
+				item: "farmersdelight:salmon_slice"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"42BE23037D273716"
+				"37FB0796E1003A61"
+			]
+			id: "66BCF3427F3B00B7"
+			rewards: [{
+				id: "19B085EFC44453DA"
+				item: "farmersdelight:cooked_salmon_slice"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "712D9A7C82363B89"
+				item: "farmersdelight:cooked_salmon_slice"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "61C0695E81018AEF"
+			rewards: [{
+				id: "63DD993FBF67F673"
+				item: "naturalist:catfish"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DB6E79D06BA82E4"
+				item: "naturalist:catfish"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["61C0695E81018AEF"]
+			id: "004680BF4007D784"
+			rewards: [{
+				id: "16317E1D7EEAEB49"
+				item: "naturalist:cooked_catfish"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "76DB2FE6940C4515"
+				item: "naturalist:cooked_catfish"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "7417BB8019ADECCE"
+			rewards: [{
+				id: "75C3260FAB993378"
+				item: "naturalist:bass"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F2979122068D334"
+				item: "naturalist:bass"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7417BB8019ADECCE"]
+			id: "37BB45A48ABF8003"
+			rewards: [{
+				id: "1954A4F9DFBAEF7D"
+				item: "naturalist:cooked_bass"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DDAB11CDDFC38B6"
+				item: "naturalist:cooked_bass"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "1303A0FBAC397651"
+			rewards: [{
+				id: "1E562B1A5475070D"
+				item: "create_factory:waffle"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "21AF91CDA025A82C"
+				item: "create_factory:waffle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"1303A0FBAC397651"
+				"796978874015D598"
+			]
+			id: "034CD6BD929E1CBB"
+			rewards: [{
+				id: "3012D4AEA8854232"
+				item: "create_factory:chocolate_waffle"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "701EE218D60F14CD"
+				item: "create_factory:chocolate_waffle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1303A0FBAC397651"]
+			id: "6D49CC4C8A50765D"
+			rewards: [{
+				id: "1642034EB21914E6"
+				item: "create_factory:honey_waffle"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2675523159F387A2"
+				item: "create_factory:honey_waffle"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"1303A0FBAC397651"
+				"50DBBE3F394F9A75"
+			]
+			id: "7F3BF82BB27AF816"
+			rewards: [{
+				id: "04682D668906292F"
+				item: "create_factory:dark_chocolate_waffle"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "161239C15308D5EC"
+				item: "create_factory:dark_chocolate_waffle"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"1303A0FBAC397651"
+				"68D0046F552B243D"
+			]
+			id: "7B896F75C034F9C2"
+			rewards: [{
+				id: "06DF7C1E035A8722"
+				item: "create_factory:white_chocolate_waffle"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "101C6DD4363BF3C4"
+				item: "create_factory:white_chocolate_waffle"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"1303A0FBAC397651"
+				"4F525A78DBAFD3CA"
+			]
+			id: "7DB052A93DD150BF"
+			rewards: [{
+				id: "21500A6E1E3640F0"
+				item: "create_factory:ruby_chocolate_waffle"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6745CCED608EEA11"
+				item: "create_factory:ruby_chocolate_waffle"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"1303A0FBAC397651"
+				"4DBB7F08084B882A"
+			]
+			id: "717C8597BFB7A5C7"
+			rewards: [{
+				id: "1463F85158FD7614"
+				item: "create_factory:caramel_waffle"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5B2F3E1DC16FE638"
+				item: "create_factory:caramel_waffle"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "1AEDA9156A45DCD9"
+			rewards: [{
+				id: "5B251320F7FA41FA"
+				item: "create_factory:honey_glazed_berries"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "016D8FC73F880013"
+				item: "create_factory:honey_glazed_berries"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["796978874015D598"]
+			id: "180738CA7309DF58"
+			rewards: [{
+				id: "7BCA49A0F7A53CCF"
+				item: "create_factory:chocolate_apple"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2A481D43AB3FE5A9"
+				item: "create_factory:chocolate_apple"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["50DBBE3F394F9A75"]
+			id: "56F118B606C3D22B"
+			rewards: [{
+				id: "36469847C0C6BCAA"
+				item: "create_factory:dark_chocolate_apple"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "59703ABA2DA6A925"
+				item: "create_factory:dark_chocolate_apple"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["68D0046F552B243D"]
+			id: "2EDAF336088C11E6"
+			rewards: [{
+				id: "6DC25E540EDC72BE"
+				item: "create_factory:white_chocolate_apple"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "74178FFDFEF9244D"
+				item: "create_factory:white_chocolate_apple"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["4F525A78DBAFD3CA"]
+			id: "7DCBC59F1FE24DF3"
+			rewards: [{
+				id: "3948CD4EF732C6FC"
+				item: "create_factory:ruby_chocolate_apple"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "34F592F681C9AA83"
+				item: "create_factory:ruby_chocolate_apple"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["4DBB7F08084B882A"]
+			id: "2C7FFC7B54FDC6BF"
+			rewards: [{
+				id: "055212AF1196B227"
+				item: "create_factory:caramel_apple"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1617F2AFB7523506"
+				item: "create_factory:caramel_apple"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "5AFF5C66EB028DBA"
+			rewards: [{
+				id: "5C06E491D5ABCC66"
+				item: "create_factory:honey_roll"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0786AFADAE056A20"
+				item: "create_factory:honey_roll"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["796978874015D598"]
+			id: "53F61980B3C9C2F9"
+			rewards: [{
+				id: "1F886F871D96577B"
+				item: "create_factory:chocolate_roll"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6903DE155A696B13"
+				item: "create_factory:chocolate_roll"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50DBBE3F394F9A75"]
+			id: "4F1DA7709F318180"
+			rewards: [{
+				id: "37E97F4E66675F57"
+				item: "create_factory:dark_chocolate_roll"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "299FED79489A14C1"
+				item: "create_factory:dark_chocolate_roll"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["68D0046F552B243D"]
+			id: "6196C8B2DC53593D"
+			rewards: [{
+				id: "6DDC8F63BB842452"
+				item: "create_factory:white_chocolate_roll"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7AF2ED7B3280E0E2"
+				item: "create_factory:white_chocolate_roll"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4F525A78DBAFD3CA"]
+			id: "2285F986D2AE2EE6"
+			rewards: [{
+				id: "15ABCDD70CA32F1D"
+				item: "create_factory:ruby_chocolate_roll"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "352A2E4DFB9D4756"
+				item: "create_factory:ruby_chocolate_roll"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4DBB7F08084B882A"]
+			id: "2432EBB07DF7DDBA"
+			rewards: [{
+				id: "37B1D0BAE16F3B42"
+				item: "create_factory:caramel_roll"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3018B08BC8CF8F43"
+				item: "create_factory:caramel_roll"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["30B70DF98127E312"]
+			hide_dependency_lines: true
+			id: "0330620349664966"
+			rewards: [{
+				id: "1C980A8C132559BF"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6FD3AB2607B7BF44"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -13.5d
+		}
+	]
+	title: "Farmer's Life | Part 2"
+}

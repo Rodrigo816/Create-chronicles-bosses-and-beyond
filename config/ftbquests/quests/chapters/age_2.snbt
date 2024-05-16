@@ -1,0 +1,206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age_2"
+	group: "4546D7737CBFFD68"
+	icon: "create_things_and_misc:magnifying_glass"
+	id: "0622BD2DBA9DDEE1"
+	order_index: 22
+	quest_links: [
+		{
+			id: "4DAB70949395A1E1"
+			linked_quest: "509461C4B7CFE7C8"
+			shape: "pentagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "44709D6F12C34E28"
+			linked_quest: "52BBDA297A691EF4"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "2F65BC680AD45CA8"
+			linked_quest: "799B30D7A89075DD"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "1C91049CFD87D904"
+			linked_quest: "6E7366C9CE801A3B"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "7286256A7A27839A"
+			linked_quest: "2E4A8FBD1291E5E2"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "4E3587688023C005"
+			linked_quest: "1B977731DBDDEC54"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "4FE0A94B61C6A76A"
+			linked_quest: "402DD03144304651"
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: "upgradednetherite_items:ender_upgraded_netherite_totem"
+			id: "6BAFC3CFF66D616A"
+			shape: "gear"
+			tasks: [{
+				id: "6836ACA2A704722E"
+				title: "Little Additions"
+				type: "checkmark"
+			}]
+			title: "&lLittle Additions"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: "storagenetwork:request"
+			id: "2AE63B0B6045ECA0"
+			shape: "gear"
+			tasks: [{
+				id: "48A74E8578E94DAF"
+				title: "Simple Storage"
+				type: "checkmark"
+			}]
+			title: "&lSimple Storage"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: "create_confectionery:gingerbread_man"
+			id: "1F5BB69FB3E757E8"
+			shape: "gear"
+			tasks: [{
+				id: "6EDE3E6127DEF72F"
+				title: "Farmer's Life | Part 2"
+				type: "checkmark"
+			}]
+			title: "&lFarmer's Life | Part 2"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: "ars_nouveau:creative_spell_book"
+			id: "13D91B869676071A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "19A5C7F0F130A129"
+				title: "Ars Nouveau"
+				type: "checkmark"
+			}]
+			title: "&lArs Nouveau"
+			x: 2.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["799B30D7A89075DD"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "656BD5473AA4DEEB"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6DABC90999796D4B"
+				title: "Twilight Forest"
+				type: "checkmark"
+			}]
+			title: "&lTwilight Forest"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6E7366C9CE801A3B"
+				"2E4A8FBD1291E5E2"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03F1739AF4FA589A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3A08C38FDF29CA78"
+				title: "Immersive Engineering"
+				type: "checkmark"
+			}]
+			title: "&lImmersive Engineering"
+			x: 0.75d
+			y: 5.25d
+		}
+		{
+			id: "17B36047F8DFB1DD"
+			rewards: [{
+				id: "0FCDA76DE34C1D40"
+				item: "alltheores:brass_dust"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A649C267C8CF028"
+				item: "alltheores:brass_dust"
+				type: "item"
+			}]
+			title: "&lBrass Dust"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52BBDA297A691EF4"]
+			icon: "create_sa:steam_engine"
+			id: "4A4B2D534D4FF6DA"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5E6B03B7351318C7"
+				title: "Twilight Forest"
+				type: "checkmark"
+			}]
+			title: "&lCreate [Addons]"
+			x: 2.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["402DD03144304651"]
+			id: "0E2ECEBD625F5D5A"
+			rewards: [{
+				id: "3A82583ACFA0014F"
+				item: "create:source_tube"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A3F00CC1A1708A8"
+				item: "create:source_tube"
+				type: "item"
+			}]
+			title: "&lSource Tube"
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	subtitle: ["&lShock Therapy"]
+	title: "Chapter 2"
+}

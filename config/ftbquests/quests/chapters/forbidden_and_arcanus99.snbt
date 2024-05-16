@@ -1,0 +1,1821 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forbidden_and_arcanus99"
+	group: "4546D7737CBFFD68"
+	icon: {
+		Count: 1b
+		id: "forbidden_arcanus:smelter_prism"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "36FCD4D3BFBB3E22"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "velox:textures/quests/forbiddenandarcanus.png"
+			order: 1
+			rotation: 0.0d
+			width: 10.15d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "forbidden_arcanus:block/black_hole_aura_0"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			alpha: 150
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "forbidden_arcanus:block/black_hole_aura_1"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "forbidden_arcanus:block/hephaestus_forge/tier_1/side"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "forbidden_arcanus:item/smelter_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.1488095238095326d
+			y: -0.4676870748299251d
+		}
+	]
+	order_index: 59
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Forbidden \\&\\ Arcanus adds new ways to get better armor, enchants, and more!"
+				""
+				"This magic-themed mod has amazing animations, as well as some overpowered items like the &6Eternal Stella&r. "
+			]
+			icon: {
+				Count: 1b
+				id: "forbidden_arcanus:smelter_prism"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "713E16A5C0AD48BF"
+			rewards: [{
+				id: "78151877727626FB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "144F03F12E65C187"
+				item: "forbidden_arcanus:darkstone"
+				type: "item"
+			}]
+			title: "Welcome to &5Forbidden \\&\\ Arcanus!"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: [
+				"Found within the Dark Forest biome, the Edelwood Tree looks like a small tree that has been chopped in half."
+				""
+				"You'll need to break the branches off and collect the logs, as these are used for crafting various items within the mod."
+			]
+			id: "51F4BC0DD972AE50"
+			rewards: [
+				{
+					id: "05576AB573721B19"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A8188C12AF2A678"
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1321877E5E78F498"
+					item: "forbidden_arcanus:edelwood_stick"
+					type: "item"
+				}
+				{
+					id: "6278D2FFE400F855"
+					item: "forbidden_arcanus:edelwood_log"
+					type: "item"
+				}
+			]
+			title: "Edelwood Trees"
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B68E3C046C82860"]
+			id: "5EBE42475234DAF2"
+			rewards: [
+				{
+					id: "37EAE53F8EEA5947"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FE642927BFDB93B"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "A Silk-Touch Pickaxe"
+			tasks: [{
+				id: "71EB029557BBAAC4"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:slimec_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B68E3C046C82860"]
+			description: [
+				"The Mystical Dagger is used to break Dragon Heads down to Dragon Scales."
+				""
+				"When used to kill mobs, it will fill &aTest Tubes&r with &cBlood&r."
+			]
+			id: "269171807AD526F4"
+			rewards: [
+				{
+					id: "7DC08649E42F5851"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "111E0E1EE719D33B"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D3831C8991B6340"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:mystical_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E3B9051503B938C"]
+			description: [
+				"The &2Edelwood Bucket&r can store more than one bucket of liquid, and can also be used to capture small animals like chickens or squids."
+				""
+				"You'll need the Permafrost enchant to use it to carry Lava."
+			]
+			id: "0550E0B4715D9ADD"
+			rewards: [
+				{
+					id: "5EA8AE1FF11CBDF0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "020AE5054B387190"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3BC22AFADEA68E40"
+				item: "forbidden_arcanus:edelwood_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: ["This is the main resource in the mod. Go out and mine some!"]
+			id: "6736842E1A24FC63"
+			rewards: [
+				{
+					id: "6F6C3572CEA1A559"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "581BF9E1A29069FE"
+					item: "forbidden_arcanus:arcane_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "2FF88B50A43D6E06"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			title: "Arcane Crystals"
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["537E39530360AD73"]
+			description: [
+				"You'll find the Stella Arcanum ore deep underground."
+				""
+				"Careful when mining."
+			]
+			id: "7B0CD3D84D91776C"
+			rewards: [
+				{
+					id: "51217AE3DFB997C8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05C695A63EEF5AB2"
+					type: "random"
+				}
+			]
+			subtitle: "This Goes Boom Too"
+			tasks: [{
+				id: "180011E68DA8643B"
+				item: "forbidden_arcanus:stellarite_piece"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: [
+				"Have you seen the random floating island in the sky?"
+				""
+				"These have the Nipa plant on them. You can break these and replant them!"
+				""
+				"They produce Arcane Crystal Dust Specks over time, which can be used to create Arcane Crystal Dust."
+			]
+			id: "67857FEB0705CD60"
+			rewards: [
+				{
+					id: "591F07200E429C4F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "534F55AB312AA20D"
+					item: "forbidden_arcanus:nipa"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16AB9D620334A645"
+				item: "forbidden_arcanus:nipa"
+				type: "item"
+			}]
+			title: "Nipa Plants"
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"29164630E1BD76B5"
+				"260F19B468957BCD"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Smelting down Arcane Crystals will give you Arcane Crystal Dust."
+				""
+				"This is used for most of the items in the mod."
+			]
+			id: "0E4AE945EC4D5573"
+			rewards: [
+				{
+					id: "709E0116AEE049D6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "691F805232DC5DD3"
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "585392523E6CF94E"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: ["Breaking spawners will now drop &9Spawner Scraps&r."]
+			id: "0F20F50CD4117CD1"
+			rewards: [
+				{
+					id: "6B46C7A47D307471"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4301E9BDD5389CB6"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "24902ED154FEE743"
+				item: "forbidden_arcanus:spawner_scrap"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13E5783AD64E3BC2"]
+			description: [
+				"The &9Quantum Catcher&r is used to capture and transport mobs."
+				""
+				"To obtain it, you can combine Spawner Scrap and an Arcane Crystal Block in a Smithing Table."
+			]
+			id: "03D45D53FA8AE4DC"
+			rewards: [
+				{
+					id: "1AF193E78BA7684A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "345E77AB70537CBF"
+					type: "random"
+				}
+			]
+			subtitle: "Gotta catch them all!"
+			tasks: [{
+				id: "2327056804A4EE8F"
+				item: "forbidden_arcanus:quantum_catcher"
+				type: "item"
+			}]
+			title: "Quantum Catcher"
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: [
+				"Found randomly in loot chests from the &5End City&r."
+				""
+				"When used, it grants &b5 minutes&r of &acreative flight&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "595CE4333434E73D"
+			optional: true
+			rewards: [
+				{
+					id: "775EC533EE1FAB6A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64D4620600963347"
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "697CB1E511EFA32E"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B68E3C046C82860"]
+			description: ["This gives X-Ray vision for mobs, highlighting them from afar to make it easier to spot them."]
+			id: "0BC8FE9C083A434B"
+			optional: true
+			rewards: [
+				{
+					id: "157B736225CD409D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F6ED39A56EEA2CC"
+					type: "random"
+				}
+			]
+			subtitle: "Highlights Mobs when Activated"
+			tasks: [{
+				id: "3F2AD339DB5B597B"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:spectral_eye_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2894F11A73335179"]
+			description: [
+				"Using this bone meal on Farmland will convert it to Magical Farmland."
+				""
+				"Crops will produce double the output when grown on Magical Farmland."
+			]
+			id: "2DEEB278BCBFA2FA"
+			optional: true
+			rewards: [
+				{
+					id: "62C80B0E4A7BF099"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "155CC13209FF11BE"
+					item: "forbidden_arcanus:growing_edelwood"
+					type: "item"
+				}
+			]
+			subtitle: "Use on Farmland to make it Magical!"
+			tasks: [{
+				id: "2DDCB1994E79D5AD"
+				item: "forbidden_arcanus:arcane_bone_meal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4D4E037DE67E49A5"
+			optional: true
+			rewards: [
+				{
+					id: "61422C7B7C8414E9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01E7EA348F0B60BE"
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "Can Infect Villagers and Horses"
+			tasks: [{
+				id: "33E1EBECEABAF134"
+				item: "forbidden_arcanus:zombie_arm"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7485F80C04DDB407"
+			optional: true
+			rewards: [
+				{
+					id: "6EFE2F39B54EFABB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F1465DE4A84261E"
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "When you wanna blow up enemies from afar."
+			tasks: [{
+				count: 8L
+				id: "117DE09E2F22C2A6"
+				item: "forbidden_arcanus:boom_arrow"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			hide: true
+			hide_dependency_lines: true
+			id: "21595157F5A85849"
+			optional: true
+			rewards: [
+				{
+					id: "7069E419456D4661"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B2825D7F8535191"
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "Leaves an AoE Cloud that damages living mobs"
+			tasks: [{
+				id: "569DDF455CCA9F2C"
+				item: "forbidden_arcanus:draco_arcanus_arrow"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B68E3C046C82860"]
+			description: [
+				"These can be planted to grow &6Deorum Nuggets&r."
+				""
+				"To create one, you'll need to find Yellow Orchids."
+			]
+			hide_dependency_lines: false
+			id: "4EE85273C5625823"
+			rewards: [
+				{
+					id: "58819607B314D283"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C6E8A0162F2FCA8"
+					type: "random"
+				}
+			]
+			shape: "circle"
+			subtitle: "Growing Gold"
+			tasks: [{
+				id: "54FD45DC931D7950"
+				item: "forbidden_arcanus:golden_orchid_seeds"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: [
+				"Crafted with skulls, bones, and cloth, this armor is slightly stronger than Iron."
+				""
+				"It's also really cool looking."
+			]
+			hide: true
+			id: "1B7090696D1BE524"
+			rewards: [
+				{
+					id: "4201E7FF060AB5A2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "251B00E23FD2C9F5"
+					type: "random"
+				}
+				{
+					id: "1D4481203180175C"
+					item: "graveyard:skeleton_hand"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Armor of the Dead"
+			tasks: [
+				{
+					id: "2F51E6C691A69936"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4094BAC1ACDBA182"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49113611F60793F5"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66ED07BDE30CEA21"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mortem Armor"
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09CCC797BF15ADFC"]
+			description: ["Combining a Dragon Head with a Mystical Dagger will give you &9Dragon Scales&r."]
+			id: "5E2257FB3F7AA9CF"
+			rewards: [
+				{
+					id: "534B8A4C6E1FB727"
+					item: "forbidden_arcanus:dragon_scale"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "58ABF82A784C3648"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49162E5C2747F28B"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DB53C4CBA50D0D7"
+					type: "random"
+				}
+			]
+			subtitle: "Dragon Scales, Dragon Scales....."
+			tasks: [{
+				count: 3L
+				id: "2336106204DA7FCA"
+				item: "forbidden_arcanus:dragon_scale"
+				type: "item"
+			}]
+			title: "Dragon Scales"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["20B495B4B8B95636"]
+			id: "4FC33F04940D7EA0"
+			rewards: [
+				{
+					id: "291F4186A0300827"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13C1D76EFA1B97AC"
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D58AE817B99443C"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Better than Netherite"
+			tasks: [
+				{
+					id: "61B2ECA9052D2A4E"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D331736E45E5E04"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "542DE57869B080D1"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56F9933DD47314EF"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&1Draco Arcanus Armor&r"
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["20B495B4B8B95636"]
+			description: [
+				"The Dragon Scale can be made into a Golden and Aquatic Dragon Scales."
+				""
+				"These are mainly used to craft &dTyr Armor&r."
+			]
+			id: "1A76EE96CCA3775F"
+			rewards: [
+				{
+					id: "7FF365BAB3AE316D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C5001C4D534D6ED"
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0A6F3D41743260BC"
+					item: "forbidden_arcanus:golden_dragon_scale"
+					type: "item"
+				}
+				{
+					id: "0F9A6D1FD4028EEC"
+					item: "forbidden_arcanus:aquatic_dragon_scale"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2894F11A73335179"]
+			description: [
+				"Used to corrupt Souls and Runes. You'll need this for later."
+				""
+				"If you throw down Dark Matter, then throw down Corrupti Dust, it'll create a Black Hole. Feed it small entities like Arrows or Experience Orbs, and it'll produce Xpetrified Orbs."
+			]
+			id: "0F3F6AC1F3F14350"
+			rewards: [
+				{
+					id: "09E73B8D6C46ECFE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "693F09A8CE3CAD7C"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2A087EFA8F698862"
+				item: "forbidden_arcanus:corrupti_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2894F11A73335179"]
+			description: [
+				"Using our Arcane Crystal Dust, we'll need to combine it with other dusts and powders to create &dMundabiter Dust&r."
+				""
+				"This dust is used in several recipes, as well as activating the Hephaestus Forge."
+			]
+			id: "603E2A5BCE3601C2"
+			rewards: [
+				{
+					id: "0C3C65EAB9F9255E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70DF1D1BFE52D20D"
+					type: "random"
+				}
+			]
+			subtitle: "Let the Dusts Combine"
+			tasks: [{
+				count: 4L
+				id: "0BB9E6C322F3353B"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			title: "Mundabitur Dust"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["03E7D73433AB6B7C"]
+			description: [
+				"The &6Deorum Ingot&r is needed to continue your progression in the mod!"
+				""
+				"This is a very important crafting ingot used in a lot of recipes, plus it also makes some pretty blocks!"
+			]
+			id: "7816AD36F2382951"
+			rewards: [
+				{
+					id: "4B4F38CD30E777C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "135398F46BCB0E47"
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "736A5F873C3DDF64"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			title: "&6Deorum"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["744A01000E086CC9"]
+			id: "62F12B116EF9A6DD"
+			rewards: [
+				{
+					id: "52CCA59ABA46D525"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B4F41EFB52F5AD0"
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "778627E50DFDA89B"
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "009FDFD307B3377B"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "372B018566EEA145"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CB1D17C082EA6F5"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29B75FF791C7D885"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5Tyr Armor"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["744A01000E086CC9"]
+			description: ["This Dragon Egg is a cool decoration piece. That's pretty much it."]
+			id: "24261D6C5C5A6CB4"
+			rewards: [
+				{
+					id: "413D504AB03C2837"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66A197044334035E"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "548E998BF89F6713"
+				item: "forbidden_arcanus:arcane_dragon_egg"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3799ACDA92F96FD1"]
+			description: [
+				"Killing passive mobs will increase your corruption. Killing &9Aureal Entities&r has a higher chance to increase your corruption."
+				""
+				"Be careful! At higher levels of corruption, negative things will happen!"
+				""
+				"Making a Sanity Meter will give your UI an upgrade to show your total corruption, for those who want to hit new high scores and such."
+			]
+			id: "12D0129035F82933"
+			rewards: [
+				{
+					id: "72C060E4825CA8D7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B30DDC5C2072886"
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Am I going insane?"
+			tasks: [{
+				id: "55104986FD1A3B90"
+				item: "forbidden_arcanus:sanity_meter"
+				type: "item"
+			}]
+			title: "Sanity"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B68E3C046C82860"]
+			description: ["You've probably already acquired some Darkstone, but we'll need it to craft the forge."]
+			id: "7C1A230B4122B4DD"
+			rewards: [
+				{
+					id: "56404219A611CF0F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49C0F82B57C80D49"
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "39270FD7CFB64023"
+				item: "forbidden_arcanus:darkstone"
+				type: "item"
+			}]
+			title: "Prepping For the Forge"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F5675E30ED046F7"]
+			description: [
+				"We'll be using all of that Darkstone to create the &dHephaestus Forge&r."
+				""
+				"Once you have all of the blocks needed, you'll need to build the platform for the forge!"
+				""
+				""
+				"{image:velox:textures/quests/hephaestus-forge.png width:150 height:100 align:1}"
+				""
+				"The 8 Chiseled Arcane Polished Darkstone blocks on the outer ring of the platform can be used for pedestals or Arcane Cryal Obelisks, with the last block being placed in the center of the platform. "
+				""
+				"On top of the center block, place a Smithing Table and sneak+right-click it with a piece of Mundabitur Dust to convert it to the Forge!"
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "629035A9D750A478"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "39F8081392EAEB79"
+					item: "forbidden_arcanus:aureal_bottle"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0395C64AA3A11F8E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FDA20F0EDDA7933"
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 48L
+					id: "794F7CEB31E08B4A"
+					item: "forbidden_arcanus:polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "3DADA28C1E9A2230"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "05782038FB6AD5F3"
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+					type: "item"
+				}
+				{
+					id: "77B8786896C60E22"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "5EACC73ED2EBCEAA"
+					item: "forbidden_arcanus:mundabitur_dust"
+					type: "item"
+				}
+			]
+			title: "&1The Hephaestus Forge"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13E5783AD64E3BC2"]
+			description: [
+				"The &9Lens of Veritatis&r is used to see Aureal entities."
+				""
+				"These are entities that will grant Aureal when killed, but will also increase your corruption...."
+			]
+			id: "7B07CAC5E19DC60F"
+			rewards: [
+				{
+					id: "74CBEF5CB8BCE46E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CD58A9C8D30C35F"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6A3C0843A020CC69"
+				item: "forbidden_arcanus:lens_of_veritatis"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E3B9051503B938C"]
+			description: [
+				"Smelting &9Edelwood&r will give you Dark Matter."
+				""
+				"You can make Black Holes with this."
+			]
+			id: "47F33B01723515B6"
+			rewards: [
+				{
+					id: "628EDB603248D305"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C0D4EB2807A5D3F"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0EE6C2BF80DBC251"
+				item: "forbidden_arcanus:dark_matter"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0C6719D81DE5A614"]
+			description: [
+				"Blood is collected by crafting Test Tubes, then killing mobs with the Mystical Dagger."
+				""
+				"Note: The Test Tube must be in your inventory when killing mobs."
+				""
+				"&o&7Extra Sidenote: This is seperate from the Vampirism blood. &r"
+			]
+			id: "18B687661173D1BB"
+			rewards: [
+				{
+					id: "157AD6EE1BDCD4EC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ED121C291B1B1A9"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "20A5EC63AFCAD825"
+				item: "forbidden_arcanus:test_tube"
+				type: "item"
+			}]
+			title: "&4Blood"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C6719D81DE5A614"]
+			description: [
+				"&dAureal Bottles&r can be found in loot chests, but they can also be crafted using Arcane Crystal Dust."
+				""
+				"You can also generate Aureal with Arcane Crystal Obelisks."
+			]
+			id: "252D54CD028F54BB"
+			rewards: [
+				{
+					id: "1E2B66879B2262A2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2383B132F83C9CDD"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "When drunk, it will grant 35 Aureal to the player. It can also be used to input Aureal into the Hephaestus Forge."
+			tasks: [{
+				id: "0A8D76468B353F4B"
+				item: "forbidden_arcanus:aureal_bottle"
+				type: "item"
+			}]
+			title: "&9Aureal"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C6719D81DE5A614"]
+			description: ["Souls are gathered by creating a &9Soul Extractor&r, and then using it on Soul Sand."]
+			icon: "forbidden_arcanus:soul"
+			id: "0841E0CE7F3398C9"
+			rewards: [
+				{
+					count: 2
+					id: "76ADB18C1D8B2707"
+					item: "forbidden_arcanus:soul"
+					type: "item"
+				}
+				{
+					id: "1931CC073F051C0D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71F427AAAA53A8F1"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7D3313376BA28A2C"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:soul_extractor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A7FE57BE2BA888B"
+					item: "forbidden_arcanus:soul"
+					type: "item"
+				}
+			]
+			title: "&dSouls"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0C6719D81DE5A614"]
+			description: ["This goes in the right side of the forge."]
+			id: "1F3E0D42567820C0"
+			rewards: [
+				{
+					id: "3EB633EC63DE208E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F63C194EAD77A16"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Experience in a bottle"
+			tasks: [{
+				id: "37931D3F72D506F2"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			title: "&aBottle O' Enchanting"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73349B993DE69954"]
+			description: [
+				""
+				"The Forge requires 4 different items to be powered: Aureal, Souls, Blood, and Experience."
+				""
+				"To learn more about each, follow the corner quests!"
+			]
+			id: "01B87C2792A708AE"
+			rewards: [{
+				id: "2356DFFAF60CB87E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "10742D3A92674C44"
+				title: "Powering the Forge"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73349B993DE69954"]
+			description: [
+				"To enchant items, you'll need &5Darkstone Pedestals&r placed around the Forge."
+				""
+				"Make sure to place these on the &5Arcane Chiseled Polished Darkstone&r."
+			]
+			id: "3E0DB34975748214"
+			rewards: [
+				{
+					id: "7D011A70D7E100F6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B12D935AD021B13"
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "1F60FF5E604F0CBE"
+				item: "forbidden_arcanus:darkstone_pedestal"
+				type: "item"
+			}]
+			title: "Darkstone Pedestals"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C6719D81DE5A614"]
+			description: [
+				"To perform a ritual, place the ingredients on the Arcane Pedestals around the Forge."
+				""
+				"You'll need a &9Blacksmith's Gavel&r to activate the ritual. To do this, right click on the Forge with the Gavel."
+			]
+			id: "726F35FE6807704C"
+			rewards: [
+				{
+					id: "75542FC753915F53"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CC58DE7BA691DA2"
+					type: "random"
+				}
+			]
+			subtitle: "Due to their enhanced mining technique Gavels have a 30% chance of duplicating mined Ores."
+			tasks: [{
+				id: "086CB46C976081A9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forbidden_arcanus:blacksmith_gavel"
+					}
+				}
+				title: "Blacksmith Gavel"
+				type: "item"
+			}]
+			title: "Performing Rituals"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"34592A8F4B661D8D"
+				"1C91BD525C91FD73"
+				"5CF175DA7BDA52F3"
+			]
+			description: [
+				"The &6Eternal Stella&r has 3 charges, and when right-clicked, can fully repair all of your items in your inventory."
+				""
+				"The main purpose of it is to give the enchant &9Unbreakable&r to an item, which is done by combining it with a tool and an &dApply Item Modifier Smithing Template&r in a Smithing Table."
+			]
+			id: "5A4A3F49F7686F3E"
+			rewards: [
+				{
+					id: "4D6EC3BA13F54659"
+					item: "forbidden_arcanus:stellarite_piece"
+					type: "item"
+				}
+				{
+					id: "629C79B4071B31A3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D57F98C5B5A93F0"
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2EBD9769423B2A15"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:eternal_stella"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "58473B04E525807A"
+					item: "forbidden_arcanus:darkstone_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&dEternal Stella"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["537E39530360AD73"]
+			description: [
+				"This stuff is everywhere."
+				""
+				"It can be used to give yourself experience, or used to make the Eternal Stella."
+			]
+			id: "14AE55C0BE41E4C6"
+			rewards: [
+				{
+					id: "5B12316594633566"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3557B7CBFE6DBC98"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7F5B90F15AEB13D3"
+				item: "forbidden_arcanus:xpetrified_orb"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["20B495B4B8B95636"]
+			id: "32C20F05A7FDF4E8"
+			rewards: [
+				{
+					id: "673784889A1263D0"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "496778ACBE293421"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Dragon Tools"
+			tasks: [
+				{
+					id: "5E28120691153EFA"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49E89936C557FE2E"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60FD67F5BBCC8080"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BC7CD7C9B46F2FB"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&1Draco Tools"
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["20B495B4B8B95636"]
+			description: ["The Scepter shoots out energy orbs when charged up with Right-Click. If a mob is hit, it'll strike it with lightning."]
+			id: "4B98EFA3882271A0"
+			rewards: [
+				{
+					id: "0055BE688135FF8A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78D671EA3EF458C5"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Go Pew Pew"
+			tasks: [
+				{
+					id: "1524B7550588749E"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15D8E221CA952C9D"
+					item: "forbidden_arcanus:draco_arcanus_scepter"
+					type: "item"
+				}
+			]
+			title: "&1Draco Weapons"
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["73349B993DE69954"]
+			description: [
+				"To create an Arcane Crystal Obelisk, place down an Arcane Polished Darkstone block, then place two Arcane Crystal Blocks on top of it."
+				""
+				"&bRight-click&r with Mundabitur Dust and you'll create the obelisk."
+				""
+				"When placed on a Arcane Chiseled Polished Darkstone block on the Hephaestus Forge structure, it will slowly generate Aureal over time."
+			]
+			icon: "forbidden_arcanus:arcane_crystal_obelisk"
+			id: "40F3D7717BD98F13"
+			rewards: [
+				{
+					id: "4CCC65A1DCBA71B0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36E780D2B4407DDE"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B64B1638E961ACB"
+				item: "forbidden_arcanus:arcane_crystal_obelisk"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["537E39530360AD73"]
+			description: [
+				"The &dHephaestus Forge&r can be upgraded into higher tiers using things like Spawner Scraps, Arcane Crystals, and more!"
+				""
+				"You'll need higher tiers to make some of the higher tier items, like the &aEternal Stella&r. Make sure to check out JEI for more info!"
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "5CF175DA7BDA52F3"
+			rewards: [{
+				id: "199D2C021342D2B1"
+				item: "create_sa:heap_of_experience"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DCE7B9772542FDB"
+				title: "&dUpgrading The Forge&r"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E3B9051503B938C"]
+			description: [""]
+			id: "42C7B84A607AB64E"
+			rewards: [
+				{
+					id: "1964B503D89CE95B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67384F70536BF43F"
+					type: "random"
+				}
+			]
+			subtitle: "The &2Edelwood Ladder&r can be climbed twice as fast as a vanilla &6Ladder&r. They are craftable like the vanilla &6Ladder&r with &aEdelwood Sticks&r and a&2 Edelwood Planks&r."
+			tasks: [{
+				count: 16L
+				id: "2EA761693DB31756"
+				item: { Count: 16b, id: "forbidden_arcanus:edelwood_ladder" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: ["Strange Root is rarely drop from &7Petrified Root&r, can be used as alternative to &cNether Wart&r in order to brew &aAwkward Potion&r."]
+			id: "42680F5FF3BB951A"
+			rewards: [
+				{
+					id: "3E1D4034671E4723"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:awkward"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "506E864E6784EEAD"
+					item: "ars_nouveau:greater_experience_gem"
+					type: "item"
+				}
+			]
+			subtitle: "Well this is awkward."
+			tasks: [{
+				count: 4L
+				id: "5B8CB59958149AF1"
+				item: { Count: 4b, id: "forbidden_arcanus:strange_root" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7CF76A542529A181"]
+			description: [
+				"You can create a Block Hole by throwing Dark Matter together with Corrupti Dust on the ground. "
+				""
+				"It will attract items and small entities like Arrows or Experience Orbs and delete them. Once it absorbed enough experience points, it will throw out a Xpetrified Orb."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "forbidden_arcanus:block/black_hole_aura_2"
+				}
+			}
+			id: "601A064F42CF90D9"
+			rewards: [
+				{
+					id: "158910D9924F91E9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "790B88DC15839E28"
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "“Black holes might be useful for getting rid of garbage or even some of one's friends.”"
+			tasks: [
+				{
+					id: "09A9C93D94B7EF4F"
+					item: "forbidden_arcanus:dark_matter"
+					type: "item"
+				}
+				{
+					id: "67EB0497273B873E"
+					item: "forbidden_arcanus:corrupti_dust"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			id: "00C412E6BDF598D8"
+			rewards: [
+				{
+					id: "25709E23E5AC3863"
+					item: "oceansdelight:tentacle_on_a_stick"
+					type: "item"
+				}
+				{
+					id: "2BD528E2DF7402EC"
+					item: "farmersdelight:squid_ink_pasta"
+					type: "item"
+				}
+				{
+					id: "11291B9EEEFDE9B5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Ewwww. Slimey!"
+			tasks: [{
+				count: 8L
+				id: "641AAA94991F8516"
+				item: "forbidden_arcanus:tentacle"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+	]
+	subtitle: ["A mod inspired by Roleplaying Games, Fantasy and Supernatural, Magic and the Occult, Mythologies and Legends, with references to Thaumcraft, all of this implemented in an organic and natural way."]
+	title: "&6Forbidden&r and &eArcanus"
+}

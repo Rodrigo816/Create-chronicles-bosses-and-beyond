@@ -1,0 +1,1257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysmRRRR"
+	group: "4546D7737CBFFD68"
+	icon: "cataclysm:the_incinerator"
+	id: "5E2B599B5B36CD46"
+	order_index: 30
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["689F32883C4E9502"]
+			description: ["{atm9.quest.cataclysm.desc.eye}"]
+			id: "4F72DC6CF6BBD7BC"
+			rewards: [{
+				count: 3
+				id: "5C901B8F53D02128"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E5DB742C1B844FA"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.eye}"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["{atm9.quest.cataclysm.desc.mech}"]
+			id: "6746A441DB54A8AB"
+			rewards: [{
+				id: "54B21F6FD008804D"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_regeneration"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FF17DA70A01ED7A"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.mech}"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["{atm9.quest.cataclysm.desc.flame}"]
+			id: "51C45844D889E899"
+			rewards: [{
+				id: "264654C29DB993B6"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E602AF5910E4DEB"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.flame}"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["{atm9.quest.cataclysm.desc.void}"]
+			id: "3CE1C5BBA20EC020"
+			rewards: [{
+				id: "0B3E0D262D86560C"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_slow_falling"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ADDDBE127B0A299"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.void}"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["{atm9.quest.cataclysm.desc.monstrous}"]
+			id: "75BFCD1195EC4DC1"
+			rewards: [{
+				id: "7F125045AD255D12"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23184DBC4BA43F43"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.monstrous}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["{atm9.quest.cataclysm.desc.abyss}"]
+			id: "04F0F61B55148EC5"
+			rewards: [{
+				id: "67D76D65F9FDE51C"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DDC0BE55E2021A6"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.abyss}"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["{atm9.quest.cataclysm.desc.desert}"]
+			id: "183D09783F40F8F3"
+			rewards: [{
+				id: "438E6C7D0E1EEAC0"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_swiftness"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D30C3847D809C0B"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.desert}"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			description: ["{atm9.quest.cataclysm.desc.nether}"]
+			icon: "minecraft:netherrack"
+			id: "74995597ECB5C426"
+			rewards: [{
+				id: "2D1B8E36469706D7"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4870AB026B09CA5F"
+				type: "dimension"
+			}]
+			title: "{atm9.quest.cataclysm.nether}"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			description: ["{atm9.quest.cataclysm.desc.overworld}"]
+			icon: "minecraft:grass_block"
+			id: "7F78AFE080F0B963"
+			rewards: [{
+				id: "2AA7EB91090CB4D4"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "71D8556EC1EA1793"
+				type: "dimension"
+			}]
+			title: "{atm9.quest.cataclysm.overworld}"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			description: ["{atm9.quest.cataclysm.desc.end}"]
+			icon: "minecraft:end_stone"
+			id: "65F361E278B5F318"
+			rewards: [{
+				id: "60A90C75837E7613"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "1DD4E12FE68FAF13"
+				type: "dimension"
+			}]
+			title: "{atm9.quest.cataclysm.end}"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C5EA7D62BAF2108"]
+			description: ["{atm9.quest.cataclysm.desc.leviathan}"]
+			icon: "cataclysm:music_disc_the_leviathan"
+			id: "51185DD219F19D65"
+			rewards: [{
+				id: "7A6F4547EE91FD4B"
+				item: "cataclysm:music_disc_the_leviathan"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "06E882807073F128"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.cataclysm.leviathan}"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AED8FD7FB023AD8"]
+			description: ["{atm9.quest.cataclysm.desc.harbinger}"]
+			icon: "cataclysm:music_disc_the_harbinger"
+			id: "5058D0312FFEE831"
+			rewards: [{
+				id: "0EA52D47D67A4917"
+				item: "cataclysm:music_disc_the_harbinger"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "463A1BC0F0752238"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.cataclysm.harbinger}"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B7F2B63D867D221"]
+			description: ["{atm9.quest.cataclysm.desc.remnant}"]
+			icon: "cataclysm:music_disc_ancient_remnant"
+			id: "572161FE2560678C"
+			rewards: [{
+				id: "08BE664F5CD04649"
+				item: "cataclysm:music_disc_ancient_remnant"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "257079F8F3744297"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.cataclysm.remnant}"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F8F0F7880235BA2"]
+			description: ["{atm9.quest.cataclysm.desc.monstrosity}"]
+			icon: "cataclysm:music_disc_netherite_monstrosity"
+			id: "10792A7E101B0596"
+			rewards: [{
+				id: "4B8F8A1115C355C1"
+				item: "cataclysm:music_disc_netherite_monstrosity"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "3BACD20DFB204016"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.cataclysm.monstrosity}"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F4963FCAE5337EC"]
+			description: ["{atm9.quest.cataclysm.desc.ignis}"]
+			icon: "cataclysm:music_disc_ignis"
+			id: "437A309FED69208D"
+			rewards: [{
+				id: "36800FC8B5DE3A3E"
+				item: "cataclysm:music_disc_ignis"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "3D81FA1D2CBA259A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.cataclysm.ignis}"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["21A0FD474FBB49F7"]
+			description: ["{atm9.quest.cataclysm.desc.EGuardian}"]
+			icon: "cataclysm:music_disc_ender_guardian"
+			id: "7C0ADBC513462C3C"
+			rewards: [{
+				id: "255C863EB59EDFF9"
+				item: "cataclysm:music_disc_ender_guardian"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "7FA65A532B198870"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.cataclysm.EGuardian}"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["565376084F05ED6E"]
+			description: ["{atm9.quest.cataclysm.desc.blacksmith}"]
+			icon: "minecraft:polished_blackstone_bricks"
+			id: "6C40108B28B47375"
+			rewards: [{
+				count: 3
+				id: "0B65EE72AA910180"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "211E33FCD45A7005"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			title: "{atm9.quest.cataclysm.blacksmith}"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["565376084F05ED6E"]
+			description: ["{atm9.quest.cataclysm.desc.arena}"]
+			icon: "minecraft:nether_bricks"
+			id: "64E248F05304A81E"
+			rewards: [{
+				count: 3
+				id: "7A92A744738A9400"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44E7759E6929BFF8"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			title: "{atm9.quest.cataclysm.arena}"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["392EAE8BE71510C1"]
+			description: ["{atm9.quest.cataclysm.desc.citadel}"]
+			icon: "minecraft:purpur_block"
+			id: "5B87080A55833581"
+			rewards: [{
+				count: 3
+				id: "25A9A32976BC5739"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D647E0A4E72B4CC"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			title: "{atm9.quest.cataclysm.citadel}"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			description: ["{atm9.quest.cataclysm.desc.pyramid}"]
+			icon: "minecraft:sandstone"
+			id: "06C098A2A026BD81"
+			rewards: [{
+				count: 3
+				id: "27C0DA3155A135D7"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F948F3D64D22DE4"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			title: "{atm9.quest.cataclysm.pyramid}"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			description: ["{atm9.quest.cataclysm.desc.city}"]
+			icon: "minecraft:stone_bricks"
+			id: "0223E349518E8BF3"
+			rewards: [{
+				count: 3
+				id: "1B214A6ED1EB99A5"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32053D91E0D04A3B"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			title: "{atm9.quest.cataclysm.city}"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			description: ["{atm9.quest.cataclysm.desc.factory}"]
+			icon: "minecraft:redstone_block"
+			id: "24A432D7451DF2F9"
+			rewards: [{
+				count: 3
+				id: "6FF9738D616A9489"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "085699DC4F45D341"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			title: "{atm9.quest.cataclysm.factory}"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["70CDA5F1593DB4B2"]
+			description: ["{atm9.quest.cataclysm.desc.necklace}"]
+			id: "5580CDD697197FBF"
+			subtitle: "{atm9.quest.cataclysm.subt.necklace}"
+			tasks: [{
+				id: "1FF122E6E0A795D3"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.necklace}"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50C9CB8FB16E453D"]
+			description: ["{atm9.quest.cataclysm.desc.ashes}"]
+			id: "287F0E0A728811A6"
+			subtitle: "{atm9.quest.cataclysm.subt.ashes}"
+			tasks: [{
+				id: "55396C2795537C2E"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.ashes}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45FBEABEBA7CC09E"]
+			description: ["{atm9.quest.cataclysm.desc.sacrifice}"]
+			id: "69DE51BDA008F929"
+			subtitle: "{atm9.quest.cataclysm.subt.sacrifice}"
+			tasks: [{
+				id: "04338E9964490B9F"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.sacrifice}"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["747B62A955D0C629"]
+			description: ["{atm9.quest.cataclysm.desc.star}"]
+			id: "11BA36C24F1A1D59"
+			subtitle: "{atm9.quest.cataclysm.subt.star}"
+			tasks: [{
+				id: "3669DD9BCD157DEB"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.star}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53154550397E9704"]
+			description: ["{atm9.quest.cataclysm.desc.IForge}"]
+			hide_dependent_lines: true
+			id: "1D496CF38424CDA7"
+			rewards: [{
+				id: "46317E506BE174B0"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:efficiency"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09FF90EDCE51E95E"
+				item: {
+					Count: 1b
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.IForge}"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["746DE905D45A396C"]
+			description: ["{atm9.quest.cataclysm.desc.claws}"]
+			id: "68B71AFBFF1D209E"
+			rewards: [{
+				id: "2CFBE0B89067ED97"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "evilcraft:life_stealing"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68FF6354DAA8B34D"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.claws}"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17CA9D80D8EC3EF7"]
+			description: ["{atm9.quest.cataclysm.desc.witherite}"]
+			id: "5E37410CAFBCC73D"
+			rewards: [{
+				count: 3
+				id: "463D1522F493C3CD"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.cataclysm.subt.witherite}"
+			tasks: [{
+				count: 9L
+				id: "2D3FBBF2ABC50060"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.witherite}"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["53154550397E9704"]
+			description: ["{atm9.quest.cataclysm.desc.helm}"]
+			id: "3E67D6D3285DA452"
+			rewards: [{
+				id: "40370A49CA7FDCC8"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75F73DFD9C1C49D6"
+				item: {
+					Count: 1b
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.helm}"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["746DE905D45A396C"]
+			description: ["{atm9.quest.cataclysm.desc.egg}"]
+			id: "4330E96EB5F2A86E"
+			rewards: [{
+				id: "50576A176657AE74"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62D4E58C32ED5DEE"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.egg}"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: ["{atm9.quest.cataclysm.desc.gatling}"]
+			id: "17095174AA0E3219"
+			rewards: [{
+				count: 10
+				id: "12F5437549A9B7D0"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.cataclysm.subt.gatling}"
+			tasks: [{
+				id: "7B7F5D2A51785EEC"
+				item: {
+					Count: 1b
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.gatling}"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: ["{atm9.quest.cataclysm.desc.meat}"]
+			id: "4AAAD6B2F8A8417F"
+			rewards: [{
+				id: "6A73DB64CE961F70"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:smite"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.cataclysm.subt.meat}"
+			tasks: [{
+				id: "38D88B189AD3AD20"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.meat}"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: ["{atm9.quest.cataclysm.desc.WASW}"]
+			hide_dependent_lines: true
+			id: "7BE8925FCCBE3F79"
+			rewards: [{
+				id: "28679EBD59794268"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "127353E85959D15F"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.WASW}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: ["{atm9.quest.cataclysm.desc.anvil}"]
+			id: "6A731B9011194080"
+			rewards: [{
+				id: "2A5467CD53AACF22"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "56A2232473CF0738"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.anvil}"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"683C260C854C5AA3"
+				"2A196974431FCC42"
+			]
+			description: ["{atm9.quest.cataclysm.desc.VForge}"]
+			id: "3499AD22DAC102C8"
+			rewards: [{
+				id: "1EBD977263A0370A"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:miners_fervor"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4749B8D14B65E277"
+				item: {
+					Count: 1b
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.VForge}"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"683C260C854C5AA3"
+				"445C9117198936B6"
+			]
+			description: ["{atm9.quest.cataclysm.desc.VASW}"]
+			id: "7A583AE230721F41"
+			rewards: [{
+				id: "4BF62963EB9BA13D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "4D65775992CD1EDF"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.VASW}"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"683C260C854C5AA3"
+				"4D644A9829C240CB"
+				"2CD58FC229BC0C28"
+			]
+			description: ["{atm9.quest.cataclysm.desc.GoB}"]
+			id: "458DA158B56A9618"
+			rewards: [{
+				id: "71487BA85CA01EA3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "3D0CCE658865DFD7"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.GoB}"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D57A14810BC0CBE"]
+			description: ["{atm9.quest.cataclysm.desc.igntium}"]
+			id: "6918E675D9C07116"
+			rewards: [{
+				count: 2
+				id: "25CC5192B68AB384"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.cataclysm.subt.igntium}"
+			tasks: [{
+				id: "1D7332C2C9A7C436"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.igntium}"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["291C76140DE97E3C"]
+			description: ["{atm9.quest.cataclysm.desc.bulwark}"]
+			hide_dependent_lines: true
+			id: "64F8868BCF0AA277"
+			rewards: [{
+				id: "4BE4E30C6463DC9C"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:shield_bash"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F30CBA9F9924B4E"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.bulwark}"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["291C76140DE97E3C"]
+			description: ["{atm9.quest.cataclysm.desc.incinerator}"]
+			id: "498F6B5F32249B17"
+			rewards: [{
+				id: "04D5C25542991A93"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "551002EA06F46DBC"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.incinerator}"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B115519A21F9CB7"]
+			description: ["{atm9.quest.cataclysm.desc.gauntlet}"]
+			hide_dependent_lines: true
+			id: "37FFDFEF925B8EB2"
+			rewards: [{
+				id: "246B4C5B789101E4"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "tombstone:soulbound"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "552E25E16E0A531C"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.gauntlet}"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			description: ["{atm9.quest.cataclysm.desc.minibosses}"]
+			id: "4EB06A8458F9F205"
+			tasks: [{
+				id: "0CB0956C1EF2EF32"
+				title: "Minibosses and Enemies"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.cataclysm.minibosses}"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: ["{atm9.quest.cataclysm.desc.prowler}"]
+			icon: "cataclysm:the_prowler_spawn_egg"
+			id: "11E325ACAA048CF6"
+			rewards: [{
+				count: 3
+				id: "01151EB7D6518750"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				id: "18E9F6B63AC641FE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.cataclysm.prowler}"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: ["{atm9.quest.cataclysm.desc.coralssus}"]
+			icon: "mysticalagriculture:coral_essence"
+			id: "4AAA62734DAAE61C"
+			rewards: [{
+				count: 2
+				id: "231763AC73793A14"
+				item: "cataclysm:crystallized_coral_fragments"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				id: "0C0D88D9DEF90367"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.cataclysm.coralssus}"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: ["{atm9.quest.cataclysm.desc.amethyst}"]
+			icon: "minecraft:amethyst_cluster"
+			id: "301B0D9F88AAE8AC"
+			rewards: [{
+				count: 3
+				id: "68E63B685D616D36"
+				item: "cataclysm:blessed_amethyst_crab_meat"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				id: "70805152C6EAD4C7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.cataclysm.amethyst}"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: ["{atm9.quest.cataclysm.desc.revenant}"]
+			icon: "cataclysm:ignited_revenant_spawn_egg"
+			id: "20443DC4E08A9726"
+			rewards: [{
+				count: 10
+				id: "3B718638A503DC8B"
+				item: "minecraft:fire_charge"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				id: "79E97627E800A98C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.cataclysm.revenant}"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["33B1D3FD4C0B5514"]
+			description: ["{atm9.quest.cataclysm.desc.sandstorm}"]
+			id: "016DF45EB7DFAA52"
+			rewards: [{
+				id: "7EE89EEBC19D6821"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_slow_falling"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73A5009D77C68077"
+				item: "cataclysm:sandstorm_in_a_bottle"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.sandstorm}"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: ["{atm9.quest.cataclysm.desc.EGolem}"]
+			icon: "cataclysm:ender_golem_spawn_egg"
+			id: "10CC59E8694A7677"
+			rewards: [{
+				id: "6A5675CC5A5C1E72"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "20B8BB1DDC03E08A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.cataclysm.EGolem}"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			description: ["{atm9.quest.cataclysm.desc.cataclysm}"]
+			id: "12933676052298F6"
+			tasks: [{
+				id: "1EE094CBB581F37A"
+				title: "{atm9.quest.cataclysm.cataclysm}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.cataclysm.cataclysm}"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33B1D3FD4C0B5514"]
+			description: ["{atm9.quest.cataclysm.desc.skull}"]
+			id: "4230379E611A30A4"
+			rewards: [{
+				id: "368580C794690EB8"
+				item: {
+					Count: 1b
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "096AA5540C4F5708"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			title: "{atm9.quest.cataclysm.skull}"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: ["{atm9.quest.cataclysm.desc.endermaptera}"]
+			icon: "cataclysm:endermaptera_spawn_egg"
+			id: "78E2D5CD1A69FAEF"
+			rewards: [{
+				count: 3
+				id: "3C029C81295E7982"
+				item: "cataclysm:void_jaw"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:endermaptera"
+				id: "33C4DBFB00B79BFF"
+				type: "kill"
+				value: 3L
+			}]
+			title: "{atm9.quest.cataclysm.endermaptera}"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: ["{atm9.quest.cataclysm.desc.koboleton}"]
+			icon: "cataclysm:koboleton_spawn_egg"
+			id: "389AAA9ADD37A9E2"
+			rewards: [{
+				id: "2D4E6555E20E2BAE"
+				item: {
+					Count: 1b
+					id: "cataclysm:khopesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:koboleton"
+				id: "0D7EF2ECB65842BA"
+				type: "kill"
+				value: 3L
+			}]
+			title: "{atm9.quest.cataclysm.koboleton}"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: ["{atm9.quest.cataclysm.desc.watcher}"]
+			icon: "cataclysm:the_watcher_spawn_egg"
+			id: "54D94F305A3F3957"
+			rewards: [{
+				count: 5
+				id: "117B1291A414E227"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_watcher"
+				id: "33014D0D1B5195B6"
+				type: "kill"
+				value: 3L
+			}]
+			title: "{atm9.quest.cataclysm.watcher}"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: ["{atm9.quest.cataclysm.desc.deeplings}"]
+			icon: "cataclysm:deepling_brute_spawn_egg"
+			id: "7FE2F511C5BE161D"
+			rewards: [
+				{
+					id: "3C935C7467B68E96"
+					item: {
+						Count: 1b
+						id: "cataclysm:coral_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40CB0F12524D3955"
+					item: {
+						Count: 1b
+						id: "cataclysm:coral_bardiche"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61FF5ECA43112E5E"
+					item: {
+						Count: 1b
+						id: "cataclysm:athame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:deepling"
+					id: "75A585895A159468"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_angler"
+					id: "597F0C657B04DC22"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_brute"
+					id: "49E5F5B742FD1909"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_priest"
+					id: "0D0741FA4FB2D47C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_warlock"
+					id: "7AC88D268F8FA526"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{atm9.quest.cataclysm.deeplings}"
+			x: 3.5d
+			y: -2.0d
+		}
+	]
+	title: "{atm9.chapters.47.title}"
+}

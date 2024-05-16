@@ -1,0 +1,1415 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refinery_radioactiveness_and_the_beginning_of_the_end"
+	group: "4546D7737CBFFD68"
+	hide_quest_until_deps_visible: true
+	icon: "create_dd:refined_radiance"
+	id: "7D81FB7F2E884684"
+	order_index: 47
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["338D8C035464A390"]
+			icon: "tfmg:kerosene_bucket"
+			id: "1A72426676A917FA"
+			rewards: [{
+				id: "61CB3AE4D9411856"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "0E24E6346CE72962"
+				title: "Ready!"
+				type: "checkmark"
+			}]
+			title: "Welcome to Chapter 4!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A72426676A917FA"]
+			icon: "tfmg:steel_fluid_tank"
+			id: "5C7CB877DB7B86DB"
+			rewards: [
+				{
+					id: "6BB971B44D657AF0"
+					type: "xp"
+					xp: 130
+				}
+				{
+					id: "76910E1E00223593"
+					item: "create_connected:brass_gearbox"
+					type: "item"
+				}
+			]
+			subtitle: "Assemble a Refinery like in the ponder scene!"
+			tasks: [
+				{
+					id: "45933E5D477FA40A"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4481345B4D4FD55B"
+					item: "tfmg:steel_distillation_output"
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "0D3BEC4CD15F7CB8"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "58B92271501ED5D1"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "17E25805B6E8DC04"
+					title: "Assembled!"
+					type: "checkmark"
+				}
+			]
+			title: "Distillation Stuff"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49AE728E11974F00"]
+			id: "71A72837F8B9F78F"
+			rewards: [{
+				id: "52C3B2D8248D2F4D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "449C85CB98654457"
+				item: "create_dd:polished_spectral_ruby"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71A72837F8B9F78F"]
+			id: "38FF748C254B4F65"
+			rewards: [
+				{
+					id: "3D11169D1B968C41"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 10
+					id: "017E65C2FD074DB0"
+					item: "create:blaze_cake"
+					random_bonus: 5
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "0A2270E3390C1E9A"
+				item: "create_dd:chromatic_compound"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A72426676A917FA"]
+			id: "7CFF881167F4022E"
+			rewards: [
+				{
+					id: "47CFE04206EE446C"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					id: "1FFF9683D0702ACF"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "23C3DBCF93893BBD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5F2B8DFB39142F82"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Kill the Wither"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CFF881167F4022E"]
+			id: "2B44173FDFC95A93"
+			rewards: [
+				{
+					id: "358D23ABD3EB167B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 72
+					id: "0B8D96D4E4C8B6D0"
+					item: "create_dd:frozen_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B3C906EE778C4A0"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"38FF748C254B4F65"
+				"2B44173FDFC95A93"
+			]
+			id: "4FA77D9F7FAFBE62"
+			rewards: [
+				{
+					id: "6493E8C91E2E8E12"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 18
+					id: "78F7E35F6FAD1ABB"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Throw chrom. comp. through the beacon's beam!"
+			tasks: [{
+				id: "7D91F167CCD9C39B"
+				item: "create_dd:refined_radiance"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C7CB877DB7B86DB"]
+			icon: "tfmg:crude_oil_fluid_bucket"
+			id: "6B0336D5051BFB4A"
+			rewards: [{
+				id: "22A82EE1C0B8A136"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Refine your crude oil automatically!"
+			tasks: [{
+				id: "2F5539D6A19ED006"
+				title: "Check!"
+				type: "checkmark"
+			}]
+			title: "Oil Refinery"
+			x: -5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A72426676A917FA"]
+			id: "1D9D2FCA20ACE816"
+			rewards: [{
+				id: "1CC64E955C0E57CC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "Find a stronghold and activate the Portal!"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "13AC6211AD94D606"
+				type: "dimension"
+			}]
+			title: "Visit the End!"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D9D2FCA20ACE816"]
+			icon: "minecraft:dragon_head"
+			id: "592039B349C2253D"
+			rewards: [
+				{
+					id: "254DC37C78DDE737"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "313143280AC3564A"
+					item: "tfmg:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "52B4AD29BE944CC3"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "5484376242DA19C5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Ender Dragon!"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"38FF748C254B4F65"
+				"592039B349C2253D"
+			]
+			description: ["Make sure to place blocks over the void so that your Shadow Steel won't fly away!"]
+			id: "6CB8F2C570C459CC"
+			rewards: [
+				{
+					id: "6ADB67F0763FFE43"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6B51BC8A103EEAC5"
+					item: "create_dd:shadow_steel"
+					type: "item"
+				}
+			]
+			subtitle: "Throw chrom. comp. into the void!"
+			tasks: [{
+				id: "29C8B266A5AC7270"
+				item: "create_dd:shadow_steel"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["38FF748C254B4F65"]
+			id: "4490AF73EB3E402C"
+			rewards: [{
+				id: "12FCE3081E94BED3"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "20270408652D0F68"
+					item: "create_dd:compound_base"
+					type: "item"
+				}
+				{
+					id: "6BD107B847B43021"
+					item: "create_dd:chromatic_waste_bucket"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38FF748C254B4F65"]
+			id: "02BA0D7A69586561"
+			rewards: [{
+				count: 12
+				id: "3E05653F3A36BC6E"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Right-click a blaze with your chrom. comp.!"
+			tasks: [{
+				id: "1B77601D75806FDF"
+				item: "create_dd:blaze_gold"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A72426676A917FA"]
+			id: "7C0030AC8A1E8568"
+			rewards: [{
+				id: "378C0C6FEF3FE3F0"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Find it in the Nether!"
+			tasks: [{
+				id: "55D91854CC0E1F9D"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C0030AC8A1E8568"]
+			id: "30EDD312A0670F64"
+			rewards: [{
+				id: "2B560A22525B244F"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "63361E9BDB88CFA5"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["30EDD312A0670F64"]
+			id: "1CF473701DB184D2"
+			rewards: [{
+				count: 7
+				id: "7E33A10FA503697F"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "Find it in Bastions!"
+			tasks: [{
+				id: "1CFCA7BD49C53363"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["592039B349C2253D"]
+			id: "178C74982E76C5B0"
+			optional: true
+			rewards: [{
+				id: "4F669A954DE4DF3E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "1F03C3B7CEB41E44"
+				item: "alexsmobs:capsid"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["178C74982E76C5B0"]
+			id: "4F8B1C58AB5098A2"
+			optional: true
+			rewards: [
+				{
+					id: "18C23A5DCEB26F07"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "4F5F03CB4D19EF6F"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			subtitle: "Throw it into the void!"
+			tasks: [{
+				id: "2D35B1DF925BBBFD"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4F8B1C58AB5098A2"]
+			id: "6C50FA68EA4CEBFB"
+			optional: true
+			rewards: [{
+				id: "2F9EBC2F98B5B4BC"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Only hit the head!"
+			tasks: [
+				{
+					entity: "alexsmobs:void_worm"
+					icon: "alexsmobs:spawn_egg_void_worm"
+					id: "6C279F6A186E5317"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "78D0478B66FFE558"
+					item: "alexsmobs:void_worm_eye"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "27A09BEE25BEEFA0"
+					item: "alexsmobs:void_worm_mandible"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6C50FA68EA4CEBFB"]
+			id: "20C7A4C18415CCCE"
+			optional: true
+			rewards: [
+				{
+					id: "028154997ECCABDB"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "70438B8090B4F08B"
+					item: "create_dd:experience_ingot"
+					random_bonus: 6
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A245A5378FB0DFC"
+				item: {
+					Count: 1b
+					id: "alexsmobs:dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["20C7A4C18415CCCE"]
+			id: "0930A4F0280B4DA5"
+			optional: true
+			rewards: [{
+				id: "6BE356044A289C82"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Only do if you want pls"
+			tasks: [{
+				id: "63AA9DE077D47A32"
+				item: {
+					Count: 1b
+					id: "alexsmobs:shattered_dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1A72426676A917FA"]
+			id: "49AE728E11974F00"
+			rewards: [
+				{
+					id: "25CB6264BD518782"
+					type: "xp"
+					xp: 100
+				}
+				{
+					icon: "design_decor:capitalism_block"
+					id: "1E4934381EE003FF"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3E2EA4977549D5E5"
+				item: "create_dd:bronze_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38FF748C254B4F65"]
+			id: "336D3CF165F96916"
+			rewards: [{
+				id: "57D090E899937901"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3E420D5EBEFB008B"
+				item: "create_dd:mithril_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A72426676A917FA"]
+			id: "7FE7747583CF5F39"
+			optional: true
+			rewards: [
+				{
+					id: "5DD0E4E8305AB8CE"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "65A68993814A98D6"
+					item: "create_dd:ember_alloy"
+					type: "item"
+				}
+				{
+					id: "47F3A63B2C32E4C0"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "576174643AC9F86C"
+				item: "create_dd:ember_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4490AF73EB3E402C"]
+			id: "1F8A2E212660B76E"
+			rewards: [{
+				id: "24B2F971327352A4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FBC9C487E1437C9"
+				item: "create_dd:shimmer_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CB8F2C570C459CC"]
+			id: "2AB12D047683ED8F"
+			optional: true
+			rewards: [{
+				id: "67CC5C061799FEFC"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "4B455E26B4BEAE7B"
+				item: "kubejs:fake_dragon_egg"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AB12D047683ED8F"]
+			id: "113CB01CEC129008"
+			optional: true
+			rewards: [{
+				id: "20496F56C966782B"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "OP Backpack"
+			tasks: [{
+				id: "072166DA5E048FFC"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:dragon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["592039B349C2253D"]
+			id: "2F8FE8DC85FAC4BF"
+			optional: true
+			rewards: [{
+				id: "24CFBD1CB417773B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "To be found in End Cities with ship!"
+			tasks: [{
+				id: "00DF851B4F1DBBE9"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F8FE8DC85FAC4BF"]
+			id: "0F225A41C6F297CD"
+			optional: true
+			rewards: [{
+				id: "0DE6B6C196CC642E"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Better Elytra!"
+			tasks: [{
+				id: "69F2CA1A2208BD37"
+				item: {
+					Count: 1b
+					id: "alexsmobs:tarantula_hawk_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1F8A2E212660B76E"
+				"336D3CF165F96916"
+				"02BA0D7A69586561"
+				"6CB8F2C570C459CC"
+				"4FA77D9F7FAFBE62"
+				"4490AF73EB3E402C"
+			]
+			id: "11C0C02F10C88641"
+			rewards: [
+				{
+					count: 16
+					id: "51894001BF07C6FF"
+					item: "createaddition:capacitor"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "1F0716876EB891D7"
+					item: "create:experience_block"
+					random_bonus: 15
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FC2D1CA67A68598"
+				item: "create_dd:fallen_stargaze_singularity"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["336D3CF165F96916"]
+			id: "53AE931A96B45A34"
+			optional: true
+			rewards: [{
+				id: "5F5DC17E94D85C86"
+				type: "xp"
+				xp: 560
+			}]
+			subtitle: "The best axe in-game!"
+			tasks: [{
+				id: "71F85691622D7B17"
+				item: {
+					Count: 1b
+					id: "create_dd:forest_ravager"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11C0C02F10C88641"]
+			id: "341B27C08A1CCDFE"
+			rewards: [
+				{
+					id: "441E4755C8F32F5D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "32AFCAB543E0DDE3"
+					item: "create_dd:stargaze_singularity"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Trow the fallen stargaze singularity on the ground at least at heigt 255 (at night time)"
+			tasks: [{
+				id: "7A8DF55570781C5B"
+				item: "create_dd:stargaze_singularity"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["341B27C08A1CCDFE"]
+			icon: {
+				Count: 1b
+				id: "create_dd:infadirt"
+				tag: { }
+			}
+			id: "29B4AF70024D0CCF"
+			subtitle: "Place infinite blocks with one item! Deploy a block of your choice (vanilla only) with the stargaze singularity!"
+			tasks: [{
+				id: "02F896514C5A612B"
+				title: "Understood!"
+				type: "checkmark"
+			}]
+			title: "Infinite Blocks!"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FE7747583CF5F39"]
+			id: "38139F5B6F77C4CD"
+			optional: true
+			rewards: [{
+				id: "2029CFEA085D6560"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C1BAA8631B23553"
+				item: "create_dd:infernal_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["38139F5B6F77C4CD"]
+			id: "48323010BB835B75"
+			optional: true
+			rewards: [{
+				id: "3B1EA1031A740B0F"
+				item: "create_power_loader:brass_chunk_loader"
+				type: "item"
+			}]
+			subtitle: "Better fan!"
+			tasks: [{
+				id: "43A44BADE1F35E71"
+				item: "create_dd:industrial_fan"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["38139F5B6F77C4CD"]
+			id: "3A7E931BD4665AE7"
+			optional: true
+			rewards: [{
+				id: "492D01437AE0A6FF"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "72EFFF419E827C47"
+					item: "create_dd:furnace_engine"
+					type: "item"
+				}
+				{
+					id: "7E65C8C59FC1729C"
+					item: "create_dd:flywheel"
+					type: "item"
+				}
+			]
+			title: "Furnace Engine"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1CF473701DB184D2"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2682F729AD4C7380"
+			rewards: [{
+				id: "120E7AEB819F544D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "69F1709FA459260B"
+				title: "Check!"
+				type: "checkmark"
+			}]
+			title: "Upgrade your diamond armour and tools!"
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["592039B349C2253D"]
+			id: "6FD6162F3F178594"
+			optional: true
+			rewards: [{
+				id: "2044F26EEEEE87F0"
+				item: "minecraft:cyan_shulker_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "635CDD4AE8BF1F56"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6B0336D5051BFB4A"]
+			id: "32DC7A44913DA922"
+			rewards: [{
+				id: "15A8871C133C9654"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "119FCC3869B01F54"
+				item: "tfmg:heavy_oil_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B0336D5051BFB4A"]
+			id: "2DA3512FDCD92760"
+			rewards: [{
+				id: "612D038BBE094CCE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "50F3DFD19FBFBACE"
+				item: "tfmg:diesel_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B0336D5051BFB4A"]
+			id: "53A3D18C0E073501"
+			rewards: [{
+				id: "70605AAACC4C507E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "252170553062C8EF"
+				item: "tfmg:kerosene_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B0336D5051BFB4A"]
+			id: "0E25590880DB2700"
+			rewards: [{
+				id: "34347A19DD217E85"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1539951176789F0F"
+				item: "tfmg:naphtha_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B0336D5051BFB4A"]
+			id: "37F6A89784CBC79D"
+			rewards: [{
+				id: "2F1ACD9D3914C1A6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "391464ABE90ABEBB"
+				item: "tfmg:gasoline_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B0336D5051BFB4A"]
+			icon: "minecraft:bucket"
+			id: "4D767BF961AC81FE"
+			rewards: [{
+				id: "7491F3D9D1DC5D3C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "LPG does not have a bucket!"
+			tasks: [{
+				id: "4BAB25890ECF6422"
+				title: "Check!"
+				type: "checkmark"
+			}]
+			title: "LPG"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D767BF961AC81FE"]
+			id: "3BD3232D1CEC7780"
+			rewards: [{
+				id: "620045D5C7D7C2B7"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "71CA33B4CD790C77"
+					item: "tfmg:lpg_engine_back"
+					type: "item"
+				}
+				{
+					id: "25B032694F099268"
+					item: "tfmg:lpg_engine"
+					type: "item"
+				}
+			]
+			title: "LPG Engine"
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37F6A89784CBC79D"]
+			id: "257DC21550FBAFC1"
+			rewards: [{
+				id: "3ADE76906EA5A196"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "428CD201D431B3EA"
+					item: "tfmg:gasoline_engine_back"
+					type: "item"
+				}
+				{
+					id: "4D7B94BF179E71D1"
+					item: "tfmg:gasoline_engine"
+					type: "item"
+				}
+			]
+			title: "Petrol Engine"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0E25590880DB2700"
+				"32DC7A44913DA922"
+			]
+			icon: "tfmg:cast_iron_distillation_controller"
+			id: "3172F5918DE97FBE"
+			rewards: [{
+				id: "476F1F7222F85B3F"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "2BB4F1759C0662A0"
+					item: "tfmg:cast_iron_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5A50EB4452C08050"
+					item: "tfmg:cast_iron_distillation_output"
+					type: "item"
+				}
+				{
+					id: "0BFAAE937D07B1C4"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "5E31246DF33CEBF4"
+					title: "Assembled!"
+					type: "checkmark"
+				}
+			]
+			title: "Smaller Distillation"
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["53A3D18C0E073501"]
+			id: "5CACFE402EFCA6FC"
+			rewards: [{
+				id: "113B85F7153E7796"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "4F4BD8B4FDD9C4ED"
+					item: "tfmg:turbine_engine_back"
+					type: "item"
+				}
+				{
+					id: "48CE141A6580D635"
+					item: "tfmg:turbine_engine"
+					type: "item"
+				}
+			]
+			title: "Turbine Engine"
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2DA3512FDCD92760"]
+			id: "7B9F02872B70B0D6"
+			rewards: [{
+				id: "206629EDC7718592"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "395258CDB60C37BC"
+					item: "tfmg:diesel_engine"
+					type: "item"
+				}
+				{
+					id: "389D8FBA144E79D3"
+					item: "tfmg:air_intake"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B9F02872B70B0D6"]
+			id: "4E14122E04BE32AE"
+			optional: true
+			rewards: [{
+				id: "0F19375E1E4852D1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "216EA886F79DA28A"
+				item: "tfmg:diesel_engine_expansion"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3172F5918DE97FBE"
+				"32DC7A44913DA922"
+			]
+			id: "68516416408523D4"
+			rewards: [{
+				id: "6D02E48DD3BDCFD7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7A6FD19A81A47BAD"
+				item: "tfmg:lubrication_oil_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3172F5918DE97FBE"
+				"0E25590880DB2700"
+			]
+			icon: "kubejs:white_hard_plastic"
+			id: "01F07DA6AD4F3C84"
+			rewards: [{
+				id: "07D7F94538F6E0FB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Create some liquid plastic using ethylene or propylene!"
+			tasks: [{
+				id: "5FFFA5E8A7129F99"
+				item: "tfmg:liquid_plastic_bucket"
+				type: "item"
+			}]
+			title: "Chapter 5 unlock!"
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["257DC21550FBAFC1"]
+			id: "6744877810E35983"
+			optional: true
+			rewards: [{
+				id: "2BB97E03CBF27729"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D4EDF91D4F8FEDD"
+				item: "tfmg:radial_engine"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5CACFE402EFCA6FC"]
+			id: "3377A57A25FB6D5D"
+			optional: true
+			rewards: [{
+				id: "3C870CAAF30E1DDF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "27DADE978BF0C48E"
+				item: "tfmg:large_radial_engine"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A72426676A917FA"]
+			id: "4CB3382468032555"
+			optional: true
+			rewards: [{
+				id: "5BF1EE7D04E5ACD1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Create more for a lower price!"
+			tasks: [{
+				id: "62EAFD9A87C5DA6D"
+				item: "create_dd:inductive_mechanism"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CB3382468032555"]
+			id: "7E1ACED2744809CE"
+			optional: true
+			subtitle: "Only for display boards. Don't ask why."
+			tasks: [{
+				id: "05C7127BC2B04604"
+				item: "create_dd:calculation_mechanism"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CB3382468032555"]
+			id: "5C027196B35478DB"
+			rewards: [{
+				id: "5842E274F7C5C79A"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "More for less money with smart items!"
+			tasks: [{
+				id: "2917E70C6BF393C7"
+				item: "create_dd:integrated_mechanism"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1A72426676A917FA"]
+			id: "61F11EFC1D754EBB"
+			optional: true
+			rewards: [{
+				id: "4EAAEFA255F034E8"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Useful tool, especially with a jetpack"
+			tasks: [{
+				id: "15B616A027C8007A"
+				item: {
+					Count: 1b
+					id: "create_sa:grapplin_whisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A72426676A917FA"]
+			id: "7F735588F2E8FFD2"
+			optional: true
+			rewards: [{
+				id: "3D00FEE7B92F1460"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Use the \"digging\" enchantment to clear a 3x3 area!"
+			tasks: [{
+				id: "6DFD15103BF2B96F"
+				item: {
+					Count: 1b
+					id: "create_sa:portable_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F8FE8DC85FAC4BF"]
+			id: "7AD2818DE13C48F1"
+			rewards: [{
+				id: "6888635F5703FA45"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Use it to fly with the Elytra!"
+			tasks: [{
+				count: 3L
+				id: "5F23AEA9F3F590F0"
+				item: {
+					Count: 1b
+					id: "minecraft:firework_rocket"
+					tag: {
+						Fireworks: {
+							Flight: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["592039B349C2253D"]
+			id: "0FD0E3EA610418C6"
+			optional: true
+			rewards: [{
+				id: "53A64FB3A99ED383"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "The real one!"
+			tasks: [{
+				id: "6F3A8EB0AABBBBE0"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1CF473701DB184D2"]
+			id: "25995B3D816AB5CE"
+			optional: true
+			rewards: [{
+				id: "6CBD6FD95D4FED31"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Expand your backpack's capacity!"
+			tasks: [{
+				id: "7FC73AD5DA72B7A7"
+				item: "travelersbackpack:netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4FA77D9F7FAFBE62"]
+			id: "710DB8A55F11B517"
+			rewards: [{
+				id: "5A62D74E52975DF7"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Best drill in-game!"
+			tasks: [{
+				id: "75B30F40E3783572"
+				item: {
+					Count: 1b
+					id: "create_dd:radiant_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+	]
+	title: "4. Refined!"
+}

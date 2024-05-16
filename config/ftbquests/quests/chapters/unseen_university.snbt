@@ -1,0 +1,2551 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "unseen_university"
+	group: "1FA30C6751C69E7A"
+	id: "7320420485A219A3"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_bottom"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_bottom"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_bottom"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_bottom"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_bottom"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_bottom"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_bottom"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/dark_oak_door/boarded_dark_oak_door_bottom"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/dark_oak_door/boarded_dark_oak_door_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_bottom"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "vinery:block/window_bottom"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/bricks"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/bricks"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/bricks/cracked_bricks_bricks"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/bricks"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/bricks"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/orange_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/orange_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/golden_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/orange_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/orange_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/golden_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/golden_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/golden_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/orange_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/orange_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/golden_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/golden_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/orange_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/blackstone/ctm/edged_blackstone_bricks_ctm/0"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "born_in_chaos_v1:textures/particle/stunstars_6.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "born_in_chaos_v1:textures/particle/stunstars_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "born_in_chaos_v1:textures/particle/stunstars_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "born_in_chaos_v1:textures/particle/stunstars_6.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "born_in_chaos_v1:textures/particle/stunstars_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "born_in_chaos_v1:textures/particle/stunstars_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			color: 16770173
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			order: 1
+			rotation: -90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			color: 16770173
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			order: 1
+			rotation: -90.0d
+			width: 1.0d
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			color: 16770173
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			order: 1
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland_moist_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/golden_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/acacia_leaves/orange_acacia_leaves"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/bricks/cracked_bricks_bricks"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			color: 11184810
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "chipped:block/bricks/cracked_bricks_bricks"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.0d
+			y: 4.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"798C49BF8C6C601D"
+				"5100F90682D4FE24"
+			]
+			id: "48922318F79A8D16"
+			subtitle: "The Inscription Table lets you put Spells from Spell Scrolls into a Spell Book for you to cast. Depending on the rarity of the scroll/spell, it may be too powerful for your tier of Spell Book."
+			tasks: [{
+				id: "3D378F9B16143F18"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Inscription Conniption"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			id: "5FC6BC9599080431"
+			shape: "square"
+			subtitle: "Arcane Essence is quite common and very useful. It can be found all over the world in loot chests. It can also be crafted or dropped from certain magical entities."
+			tasks: [{
+				id: "581BD06F2FBAA6E3"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			title: "Arcane (2021)"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "1E02E646E48BFAB3"
+			subtitle: "Runestones are found in loot chests and can be turned into a Runestone of any of the nine schools of magic. These Runestones can be used in many crafting recipes for Armour and Upgrade Orbs."
+			tasks: [{
+				id: "28475BADADF5896D"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			title: "Rune Scape"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["418237394FFA3D8C"]
+			id: "3363EAF7855BB0A5"
+			shape: "square"
+			subtitle: "The Scroll Forge uses Ink, Paper and a Focus to craft Scrolls. The Ink determines the rarity/level, and the Focus determines what spells you can craft. There are nine Focuses that each represent one school of magic."
+			tasks: [{
+				id: "189388C2230FE67C"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "Forge Mod Loader"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FC6BC9599080431"]
+			id: "418237394FFA3D8C"
+			subtitle: "Different rarities of Ink let you craft different rarities of Scrolls in a Scroll Forge. You can get Inks in chests, through Bounties, or through crafting it in Mixers."
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/ink_root"
+				criterion: ""
+				id: "5EA071016F4581F1"
+				type: "advancement"
+			}]
+			title: "Inky And The Brain"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["418237394FFA3D8C"]
+			id: "430EB077BF07B381"
+			tasks: [{
+				id: "623F4A2B5E8CB65A"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["418237394FFA3D8C"]
+			id: "032757F58FD5D6A3"
+			tasks: [{
+				id: "07AE526284A98487"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["418237394FFA3D8C"]
+			id: "44213753944F4625"
+			tasks: [{
+				id: "222476BDA9B8A894"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["418237394FFA3D8C"]
+			id: "5D91A626724A36CD"
+			tasks: [{
+				id: "369324D7BD5DF3FE"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "7B4BDED6966B007D"
+			subtitle: "Arcane Cloth is used to make all sorts of magical armour sets, as well as a few Spellbooks."
+			tasks: [{
+				id: "2F5398016FB0DF42"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			title: "Man Of The Cloth"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			id: "485CD9445F03629B"
+			shape: "square"
+			subtitle: "Mana is the energy used to cast Spells from your Spell Book. There are various ways to increase your Max Mana and Mana Regeneration Rate; including the Ring of Mana, which gives +100 Max Mana. You replenish Mana slowly over time, but you can use Potions of Mana to replenish it quickly."
+			tasks: [{
+				id: "41C7C88B099C5E20"
+				item: "irons_spellbooks:mana_ring"
+				type: "item"
+			}]
+			title: "Twials of Mana!"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:chain_creeper"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "798C49BF8C6C601D"
+			shape: "rsquare"
+			subtitle: "Scrolls can be found in loot chests across the world. Each scroll contains a spell; either you can consume it to cast that spell without using Mana (once), or you can bring it to an Inscription Table to turn it into a proper Spell. "
+			tasks: [{
+				id: "32E2D367192AFE93"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "Scrolling Up"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "3B7349487DA71B6B"
+			subtitle: "Many armour sets give you benefits to Mana, magic resistance or spellcasting. The Wandering Magician armour set is a cheap early-game way of upping your Max Mana."
+			tasks: [
+				{
+					id: "314DDFB67903C4D2"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48DD14E16544DAE9"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42A7503A6C3D937A"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "447B0222CECB2CE5"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "I'm a Wanderer"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			id: "5100F90682D4FE24"
+			subtitle: "Your first Spellbook will likely be one you can craft, like the Flimsy Journal or Ironbound Tome. Different Spellbooks have different stats, buffs and spell slots. By default, you can hold [X] to open your Spell Wheel to select a spell, and press [V] to cast it!"
+			tasks: [
+				{
+					id: "3120096F0B69BD58"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:copper_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 5
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E42382C9D1FDEBB"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:iron_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 6
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			id: "4CA39BCB1A785535"
+			subtitle: "The Alchemist Cauldron can be used to brew potions, craft elixirs, recycle scrolls, upgrade ink, and make Blood Vials. Make sure to keep a Campfire below it to keep it heated."
+			tasks: [{
+				id: "0C43D11BDDD4C089"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			title: "Bubble Bubble, Toil and Trouble"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3363EAF7855BB0A5"
+				"4CA39BCB1A785535"
+			]
+			id: "16AD25DD1B16152A"
+			subtitle: "The Blood Vial is a Focus for the Blood school of magic. To obtain, put a lit Campfire beneath an Alchemist Cauldron, and put a mob in the cauldron to cook it. You can obtain the resulting Blood with glass bottles."
+			tasks: [{
+				id: "064735C1D7128AB5"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3363EAF7855BB0A5"]
+			id: "075959C45F790F82"
+			subtitle: "The Blaze Rod is a Focus for the Fire school of magic. It is obtained by killing Blazes."
+			tasks: [{
+				id: "18A57E3685EAACD0"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3363EAF7855BB0A5"]
+			id: "4A1FD8E5E915B858"
+			subtitle: "The Frozen Bone is a Focus for the Ice school of magic. It is obtained by killing Strays."
+			tasks: [{
+				id: "62BD9EB2A8067268"
+				item: "irons_spellbooks:frozen_bone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3363EAF7855BB0A5"]
+			id: "0B3D2497614D38F5"
+			subtitle: "The Bottle o' Lightning is a Focus for the Lightning school of magic. It is obtained by right-clicking a Charged Creeper with an empty glass bottle."
+			tasks: [{
+				id: "236035A19B38C334"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3363EAF7855BB0A5"]
+			id: "29B4244FA93D4248"
+			subtitle: "The Ender Pearl is a Focus for the Ender school of magic. It is obtained by killing Endermen."
+			tasks: [{
+				id: "5E69612369C14B9A"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3363EAF7855BB0A5"]
+			id: "5A78EDAFD1F6053C"
+			subtitle: "The Emerald is a Focus for the Evocation school of magic. It's an Emerald. You know how to get it."
+			tasks: [{
+				id: "4C7D9879A112105B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3363EAF7855BB0A5"]
+			id: "6AF70F50A40C6B0B"
+			subtitle: "The Echo Shard is a Focus for the Void school of magic. It is found in Ancient Cities."
+			tasks: [{
+				id: "6C0B586A229B8070"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3363EAF7855BB0A5"]
+			id: "6003FBA524984808"
+			subtitle: "The Poisonous Potato is a Focus for the Poison school of magic. It is occasionally obtained by harvesting potatoes, by crafting, or by Haunting a potato."
+			tasks: [{
+				id: "3DB88443EA60EA19"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3363EAF7855BB0A5"]
+			id: "650F6EFA770FF1AC"
+			subtitle: "The Divine Pearl is a Focus for the Holy school of magic. It is obtained through crafting."
+			tasks: [{
+				id: "0EA8E05D3449229A"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			title: "Holy Guacamole"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"798C49BF8C6C601D"
+				"4CA39BCB1A785535"
+			]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:ascension"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "06BB3E3019D642A6"
+			shape: "rsquare"
+			subtitle: "Scrolls can be placed in an Alchemist Cauldron to recycle them into Inks of equivalent rarity. There's a 50% chance to extract the Ink, but a 50% chance to burn the Scroll."
+			tasks: [{
+				id: "72B4EA8FC4B34E2C"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "Reduce Reuse Recycle"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7A6393C91761BB0E"
+				"3A3D29F0A783745F"
+			]
+			id: "53713D7AFCC7CCDC"
+			subtitle: "Different Upgrade Orbs can be made to increase different magical stats such as Max Mana, Spell Power, Cooldown Reduction, and more, using an Arcane Anvil."
+			tasks: [{
+				id: "31A1672BD30673E8"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			title: "Council of the Orb"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			id: "7A6393C91761BB0E"
+			subtitle: "Arcane Debris can be mined near Bedrock level with a Netherite pickaxe or greater. Use it to make Arcane Salvage that can be used to make Empty Upgrade Orbs."
+			tasks: [{
+				id: "59105B647F65551A"
+				item: "irons_spellbooks:arcane_debris"
+				type: "item"
+			}]
+			title: "Netherwhite"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CA39BCB1A785535"]
+			id: "3A3D29F0A783745F"
+			subtitle: "Arcane Anvils are used to upgrade scrolls and equipment, and imbue weapons with Scrolls."
+			tasks: [{
+				id: "6CF71D6E8A493F58"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "I Think Therefore I Amethyst"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A3D29F0A783745F"]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:blood_needles"
+							index: 0
+							level: 8
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "5FDA18A0215ED6FA"
+			shape: "rsquare"
+			subtitle: "Upgrading Scrolls works just like Enchantments: Put a LVL 1 Scroll + another LVL 1 Scroll in an Arcane Anvil to get a LVL 2 of that Scroll."
+			tasks: [{
+				id: "1C12F7844D9792C8"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "Upgrades, People"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3A3D29F0A783745F"
+				"53713D7AFCC7CCDC"
+			]
+			icon: "irons_spellbooks:lightning_upgrade_orb"
+			id: "403264EBF38AA4E9"
+			shape: "rsquare"
+			subtitle: "You can use Upgrade Orbs to upgrade equipment by them both in an Arcane Anvil, just like you would an enchanting book."
+			tasks: [{
+				id: "7144CA1F0BA2CF5F"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "Pondering Thy Orb"
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3A3D29F0A783745F"]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:counterspell"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "53849F12757FD1A1"
+			shape: "rsquare"
+			subtitle: "Combine any Weapon with a Scroll to imbue that weapon with the Scroll's spell. Whenever you right-click with the weapon, you'll cast the spell!"
+			tasks: [{
+				id: "1C9E90428B8A1ECF"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "Spellslinger"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			id: "5E87C8918EC161CE"
+			rewards: [
+				{
+					id: "25C3ACB4248C6D73"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 5
+					id: "31B30FC407C88138"
+					item: "iceandfire:dragonscales_red"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Higher-tier Spellbooks allow for more spell slots. The Dragonskin Spell Book is one of the highest tier spellbook at 12 spell slots!"
+			tasks: [{
+				id: "5A1AC37B896630C4"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Dragondeez"
+			x: -7.0d
+			y: -3.5d
+		}
+	]
+	subtitle: ["Spells and incantations for those with the talent to cast them!"]
+	title: "&3IRON'S SPELLS'N SPELLBOOKS"
+}

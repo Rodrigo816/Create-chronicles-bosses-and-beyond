@@ -1,0 +1,3518 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "ars_nouveBB"
+	group: "1FA30C6751C69E7A"
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "127AACECD4E9CABC"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "minecraft:textures/cbe/ui/quest_titles/arsnouveau.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: -0.5d
+		y: -12.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"To begin spell casting, you will need to first obtain a spellbook. A spellbook will allow you to create, store, and cast spells using spell mana. FYI: You can also dye your spell book by placing dye next to the spell book in the crafting grid. "
+				"&7Rewards: x4 iron ore, x2 diamond"
+			]
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: false
+			icon: "ars_nouveau:novice_spell_book"
+			id: "214E613632AF1B7C"
+			rewards: [
+				{
+					count: 4
+					id: "0C6224D0AEFFD80E"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6631E2101D7D7A4F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a novice spell book."
+			tasks: [{
+				id: "5EC6B4788342685F"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "Novice Spell Book"
+			x: -0.3999999999999986d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1D05DDF6D2888551"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Source gems can be found in loot chests or created in a crystallizer. Source gems are required for many ars nouveau crafting recipes."
+				"&7Rewards: x8 source gem"
+			]
+			icon: "ars_nouveau:source_gem"
+			id: "2E2A4FA43636CB14"
+			rewards: [{
+				count: 8
+				icon: "ars_nouveau:source_gem"
+				id: "408A16B9B951E318"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			subtitle: "Locate a source gem."
+			tasks: [{
+				id: "02D1C4B7CE3FDDEE"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1D05DDF6D2888551"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Source berry bushes can be found in taiga and archwood biomes. The berries are used for crafting source berry rolls and pies as well as mana regeneration potions."
+				"&7Rewards: x8 source berry rolls"
+			]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:source_berry"
+			id: "351DD22A13FF9AA7"
+			rewards: [{
+				count: 8
+				icon: "ars_nouveau:source_berry_roll"
+				id: "2CEFEFF2C70B6926"
+				item: "ars_nouveau:source_berry_roll"
+				type: "item"
+			}]
+			subtitle: "Locate source berry bushes."
+			tasks: [{
+				count: 8L
+				id: "5ABB969777733602"
+				item: "ars_nouveau:source_berry"
+				type: "item"
+			}]
+			title: "Source Berry Bush"
+			x: -8.2d
+			y: -8.0d
+		}
+		{
+			dependencies: ["214E613632AF1B7C"]
+			description: [
+				"The imbuement chamber is used to create source gems. Place amethyst or lapis into the chamber, but be sure to have source nearby which is used to create source gems. "
+				"&7Rewards: x1 amethyst block, x1 lapis block"
+			]
+			hide: true
+			id: "32E326DA9CA1BD82"
+			rewards: [
+				{
+					id: "73767C6848CEFA64"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+				{
+					id: "27EE0B1D83199952"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an imbuement chamber."
+			tasks: [{
+				id: "2E768044AFE5361E"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -0.3999999999999986d
+			y: -1.3999999999999986d
+		}
+		{
+			dependencies: ["214E613632AF1B7C"]
+			description: [
+				"Source is an important part of Ars Nouveau. Please refer to the worn notebook for all of its uses."
+				"&7Rewards: x8 glass, x1 Loot Bundle Fragment"
+			]
+			id: "516CFC0B5471FE3D"
+			rewards: [
+				{
+					count: 8
+					id: "7A801B0DE4A0BA6D"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3ECD7E0B6202C59E"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "40FB3F2D96C129EC"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a source jar."
+			tasks: [{
+				id: "4EE8FFC04EE21418"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.399999999999999d
+		}
+		{
+			dependencies: ["1D05DDF6D2888551"]
+			description: [
+				"Used for crafting wands, rituals, or decoration."
+				"Archwood Trees can be found generating randomly throughout the world. Archwood Saplings can also be bought in the Market from the mod &7@Farming For Blockheads&f."
+				"&7Rewards: x6 iron ore, x4 xp"
+			]
+			id: "385F201672EBE203"
+			rewards: [
+				{
+					count: 6
+					id: "4C7FF1DDF33A6468"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "1B8522C0BB0ACE46"
+					type: "xp"
+					xp: 4
+				}
+			]
+			subtitle: "Archwood Logs"
+			tasks: [
+				{
+					id: "169BE85AD9EE0785"
+					item: "ars_nouveau:blue_archwood_log"
+					type: "item"
+				}
+				{
+					id: "7DBC0716F6F164C4"
+					item: "ars_nouveau:purple_archwood_log"
+					type: "item"
+				}
+				{
+					id: "2B4AD9244817C779"
+					item: "ars_nouveau:green_archwood_log"
+					type: "item"
+				}
+				{
+					id: "64CA061F5571B56F"
+					item: "ars_nouveau:red_archwood_log"
+					type: "item"
+				}
+			]
+			x: -9.3d
+			y: -6.800000000000001d
+		}
+		{
+			description: [
+				"Ars Nouveau provides spell crafting, magical devices, powerful trinkets, and magical entity automation."
+				"&7Rewards: x1 book, x1 Loot Bundle Fragment"
+			]
+			hide: true
+			id: "1D05DDF6D2888551"
+			rewards: [
+				{
+					id: "6E091A7B6261720F"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "603F52C8771267A4"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a worn notebook to guide you through Ars Nouveau."
+			tasks: [{
+				id: "301DA5A7B4D149E2"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: -9.399999999999999d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2E2A4FA43636CB14"]
+			description: [
+				"Arcane stone is used for crafting items from Ars Nouveau. You may also want to use this in your Ars Nouveau magical area."
+				"&7Rewards: x3 xp"
+			]
+			id: "6F2C846AB59D8767"
+			rewards: [{
+				auto: "no_toast"
+				id: "4CA380E8DACF87DC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Craft Sourcestone"
+			tasks: [{
+				count: 8L
+				id: "087E6DB7ED1FE2B0"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			title: "Sourcestone"
+			x: -12.2d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6F2C846AB59D8767"]
+			description: [
+				"A decorative block from Ars Nouveau to use if you want a little bit of glitz in your magical build."
+				"&7Rewards: x8 arcane gilded stone, x1 gold ingot"
+			]
+			id: "46D55950901BB9D1"
+			rewards: [
+				{
+					count: 8
+					id: "2CE0702B18E19F95"
+					item: "ars_nouveau:gilded_sourcestone_small_bricks"
+					type: "item"
+				}
+				{
+					id: "62DC0566DFB84351"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft Gilded Sourcestone."
+			tasks: [{
+				count: 8L
+				id: "094EF6F9D1B477F5"
+				item: "ars_nouveau:gilded_sourcestone_small_bricks"
+				type: "item"
+			}]
+			x: -13.200000000000003d
+			y: -7.399999999999999d
+		}
+		{
+			dependencies: ["2E2A4FA43636CB14"]
+			description: [
+				"Another decorative block from Ars Nouveau. You can place this on any block or liquid, and it's texture will change."
+				"&7Rewards: x1 lava bucket, x1 Loot Bundle Fragment"
+			]
+			id: "342CE620BF236566"
+			optional: true
+			rewards: [
+				{
+					id: "52CE00B15A037750"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4DA57C0909D5F741"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a lava lily."
+			tasks: [{
+				id: "588E49BA95BAC394"
+				item: "ars_nouveau:lava_lily"
+				type: "item"
+			}]
+			x: -12.100000000000001d
+			y: -6.5d
+		}
+		{
+			dependencies: ["351DD22A13FF9AA7"]
+			description: [
+				"Source berry pie as well as source berry rolls grant mana regeneration."
+				"&7Rewards: x8 source berry, x1 xp"
+			]
+			id: "5F4A9E172D7688E5"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "00074A38CF0ED84F"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+				{
+					id: "07E6F71A2681819F"
+					type: "xp"
+					xp: 1
+				}
+			]
+			subtitle: "Bake up a source berry pie."
+			tasks: [{
+				id: "37C9F5BFB2DAE8CF"
+				item: "ars_nouveau:source_berry_pie"
+				type: "item"
+			}]
+			x: -7.100000000000001d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2E2A4FA43636CB14"]
+			description: [
+				"A decorative lighting choice from Ars Nouveau."
+				"&7Rewards: x1 magelight sconce, x1 gold ingot"
+			]
+			id: "6F7EC513F06458E9"
+			optional: true
+			rewards: [
+				{
+					id: "2E5CA07B09970C5B"
+					item: "ars_nouveau:sconce"
+					type: "item"
+				}
+				{
+					id: "508EA1021A633F90"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a magelight sconce."
+			tasks: [{
+				id: "18F049D334FC3936"
+				item: "ars_nouveau:sconce"
+				type: "item"
+			}]
+			x: -11.100000000000001d
+			y: -5.899999999999999d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"Mage blooms are used to create source and magebloom fiber. They are also used in crafting potions of spell damage."
+				"&7Rewards: x1 magebloom seed, x1 Loot Bundle Fragment"
+			]
+			id: "0186520D081DD15B"
+			rewards: [
+				{
+					id: "13C9CBFACBE11AB5"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "69574C946A7148F2"
+					type: "xp"
+					xp: 2
+				}
+			]
+			subtitle: "Craft a magebloom seed."
+			tasks: [{
+				id: "21C2067E1DB34950"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.600000000000001d
+		}
+		{
+			dependencies: ["214E613632AF1B7C"]
+			description: [
+				"The enchanting apparatus is to be used with arcane pedestals and an arcane core. Please refer to worn notebook for more information."
+				"&7Rewards: x8 Sourcestone, 1 XP Level."
+			]
+			hide: true
+			id: "19E590CFEBB55029"
+			rewards: [
+				{
+					count: 8
+					id: "07C8A7058B27DA07"
+					item: "ars_nouveau:sourcestone"
+					type: "item"
+				}
+				{
+					id: "6B19CD3EBCD4F0AC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Delve deeper, craft an enchanting apparatus."
+			tasks: [{
+				id: "047E8DB9A37DFABD"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.300000000000001d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"Arcane pedestals are used along with the enchanting apparatus to create magical items."
+				"&7Rewards: x2 gold ingots, x1 xp"
+			]
+			id: "7CB4F07299A48C45"
+			rewards: [
+				{
+					count: 2
+					id: "0496755187A4CB67"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "4A0D937312365D49"
+					type: "xp"
+					xp: 1
+				}
+			]
+			subtitle: "Craft an arcane pedestal."
+			tasks: [{
+				id: "08D30F5B4F1025DE"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: 1.8000000000000007d
+			y: -4.199999999999999d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"The arcane core is to be placed beneath the enchanting apparatus to aid in magical endeavors."
+				"&7Rewards: x1 Loot Bundle Fragment, x5 xp"
+			]
+			id: "741E5269E03DC999"
+			rewards: [
+				{
+					count: 3
+					id: "49A0CBCA6DEEF561"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "58CCC151B618F19C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Craft an arcane core."
+			tasks: [{
+				id: "2E65BA0AC73A1090"
+				item: "ars_nouveau:arcane_core"
+				type: "item"
+			}]
+			x: 2.1000000000000014d
+			y: -5.399999999999999d
+		}
+		{
+			dependencies: ["516CFC0B5471FE3D"]
+			description: [
+				"Generates source from nearby potion jars. Refer to worn notebook for more information."
+				"&7Rewards: x2 blaze rod"
+			]
+			id: "7D3FF1738E769221"
+			rewards: [
+				{
+					count: 2
+					id: "4B4B1D2D5719FDC2"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "7D6D19FEF317EE49"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an alchemical sourcelink."
+			tasks: [{
+				id: "5A4BE95C960F5BF1"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: -3.8999999999999986d
+			y: -7.399999999999999d
+		}
+		{
+			dependencies: ["516CFC0B5471FE3D"]
+			description: [
+				"Potion jars store up to 100 potions and may be used to create source when near an alchemical source link. See worn notebook for more information. "
+				"&7Rewards: x2 fermented spider eye, x2 blaze rod"
+			]
+			id: "0F8E94CA26BFA508"
+			rewards: [
+				{
+					count: 2
+					id: "07530E5C9025DD4C"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B123945ABC0EE76"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a potion jar."
+			tasks: [{
+				id: "5B328DB81DCE4728"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			x: -2.8000000000000007d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7D3FF1738E769221"]
+			description: [
+				"Generates source from nearby crop and tree growth. See worn notebook for further information."
+				"&7Rewards: x5 wheat seeds, x2 cascading archwood sapling"
+			]
+			id: "55CB9CC550F9AE74"
+			rewards: [
+				{
+					count: 5
+					id: "438CC56E9D4B9761"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4CE40D6E846839E9"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an agronomic sourcelink."
+			tasks: [{
+				id: "0FDD4222C2F9A9C5"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: -2.8000000000000007d
+			y: -8.399999999999999d
+		}
+		{
+			dependencies: ["7D3FF1738E769221"]
+			description: [
+				"This is used to generate source from nearby food. See worn notebook for more information."
+				"&7Rewards: x9 grass block, x1 source berry pie"
+			]
+			id: "64A2C2148A62A13F"
+			rewards: [
+				{
+					count: 9
+					id: "4BE432B8C986672E"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+				{
+					id: "6C52BFB9774F4F89"
+					item: "ars_nouveau:source_berry_pie"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a mycelial sourcelink."
+			tasks: [{
+				id: "280A82DE272DE049"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: -3.8000000000000007d
+			y: -8.799999999999997d
+		}
+		{
+			dependencies: ["7D3FF1738E769221"]
+			description: [
+				"Generates source by consuming burnables. See worn notebook for more information."
+				"&7Rewards: x5 blazing archwood logs, x1 Loot Bundle Fragment"
+			]
+			id: "29DCD2B494CBE8CD"
+			rewards: [
+				{
+					count: 5
+					id: "4476D61621C19FC8"
+					item: "ars_nouveau:red_archwood_log"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7E8F031B540A4399"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a volcanic sourcelink."
+			tasks: [{
+				id: "13C1B6438D8EB7A2"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: -4.800000000000001d
+			y: -8.399999999999999d
+		}
+		{
+			dependencies: ["7D3FF1738E769221"]
+			description: [
+				"Generates source from nearby mob deaths and animal breeding. See worn notebook for more information."
+				"&7Rewards: x2 cow spawn egg, x1 Loot Bundle Fragment"
+			]
+			id: "610089B9D72A9418"
+			rewards: [
+				{
+					count: 2
+					id: "65797C72B2C2D4D5"
+					item: "minecraft:cow_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "36AB614A89095C38"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a vitalic sourcelink."
+			tasks: [{
+				id: "2EF79E139F3DC231"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.100000000000001d
+		}
+		{
+			dependencies: ["516CFC0B5471FE3D"]
+			description: [
+				"Allows moving of source between source jars and source relays. See worn notebook for more information."
+				"&7Rewards: x2 chest, x1 Loot Bundle Fragment"
+			]
+			id: "1B532888B33CD3B6"
+			rewards: [
+				{
+					count: 2
+					id: "5B39071407286B41"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "26D2E84E780347B1"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a source relay."
+			tasks: [{
+				id: "57868481EE5DB271"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: -3.8999999999999986d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1B532888B33CD3B6"]
+			description: [
+				"Transfers source from jars within 5 blocks that are not linked. See worn notebook for further information."
+				"&7Rewards: x2 hopper, x2 xp"
+			]
+			id: "71FE35ADC31BA921"
+			rewards: [
+				{
+					count: 2
+					id: "1E19FD7D821BD8FA"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "31BBEA69BFBD6610"
+					type: "xp"
+					xp: 2
+				}
+			]
+			subtitle: "Craft a source relay collector."
+			tasks: [{
+				id: "4EF7459778F54B7E"
+				item: "ars_nouveau:relay_collector"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.100000000000001d
+		}
+		{
+			dependencies: ["1B532888B33CD3B6"]
+			description: [
+				"Deposits source to jars not linked within 5 blocks. Refer to worn notebook for more information."
+				"&7Rewards: x2 lapis lazuli, x2 nether quartz"
+			]
+			id: "17E2FA0DBA202351"
+			rewards: [
+				{
+					count: 2
+					id: "3E158A9011BD6F54"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0AC3F041623FB8F1"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a source relay depositor."
+			tasks: [{
+				id: "70E418263D4CAACB"
+				item: "ars_nouveau:relay_deposit"
+				type: "item"
+			}]
+			x: -5.600000000000001d
+			y: -5.100000000000001d
+		}
+		{
+			dependencies: ["1B532888B33CD3B6"]
+			description: [
+				"This allows to and from transfer of source from many jars at once. Refer to worn notebook for more information."
+				"&7Rewards: x2 ender pearl, x2 popped chorus fruit"
+			]
+			id: "364DD2BF7490AF23"
+			rewards: [
+				{
+					count: 2
+					id: "4727EB61308DAB10"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7713C025E5A88D49"
+					item: "minecraft:popped_chorus_fruit"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a source relay splitter."
+			tasks: [{
+				id: "7D5730729E5F1B45"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			x: -5.300000000000001d
+			y: -4.100000000000001d
+		}
+		{
+			dependencies: ["1B532888B33CD3B6"]
+			description: ["Transfers source for an infinite distance between relays, but it has a chance to lose source after 30 blocks. Refer to worn notebook for more information."]
+			id: "55D86E6E805C6293"
+			rewards: [
+				{
+					count: 8
+					id: "411921F8FE73E399"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "09A59CF775174B85"
+					item: "ars_nouveau:source_berry_roll"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a source relay warper."
+			tasks: [{
+				id: "2CD053B2046D93B2"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.300000000000001d
+		}
+		{
+			dependencies: ["0F8E94CA26BFA508"]
+			description: [
+				"Used for conversion and output of potions. Refer to worn notebook for more information."
+				"&7Rewards: x2 gold ingot, x2 source gem"
+			]
+			id: "7BC3CA76905B2AAC"
+			rewards: [
+				{
+					count: 2
+					id: "047FA40B6010DA2B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5B626CC22CA7DCA9"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a potion melder."
+			tasks: [{
+				id: "413DA62DE441E5FE"
+				item: "ars_nouveau:potion_melder"
+				type: "item"
+			}]
+			x: -2.8000000000000007d
+			y: -3.8000000000000007d
+		}
+		{
+			dependencies: ["32E326DA9CA1BD82"]
+			description: [
+				"This is used for decoration or rituals. Refer to worn notebook for more details."
+				"&7Rewards: x4 flourishing archwood log, x4 source gem"
+			]
+			hide: false
+			id: "11A1C5F30AB821AB"
+			rewards: [
+				{
+					count: 4
+					id: "10BA4F9408175012"
+					item: "ars_nouveau:green_archwood_log"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0FB078216DCE7621"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a ritual brazier."
+			tasks: [{
+				id: "3C1E8B90D4205045"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -0.3999999999999986d
+			y: 3.3000000000000007d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"The scribe's table is used to craft glyphs and or a specific spell to parchment or items. Refer to worn notebook for more information."
+				"&7Rewards: x8 paper, x1 Loot Bundle"
+			]
+			id: "415D5A083C7B5549"
+			rewards: [
+				{
+					count: 8
+					id: "3686E458617FE529"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "293F7B11F9AF9F11"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a scribe's table."
+			tasks: [{
+				id: "481F47B8C71F7A85"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.199999999999999d
+		}
+		{
+			dependencies: ["415D5A083C7B5549"]
+			description: [
+				"Parchments are used to create spells at the scribe's table. Refer to worn notebook for more information."
+				"&7Rewards: x4 sugar cane, x1 Loot Bundle Fragment, x1 magebloom seed"
+			]
+			id: "7D748F298E1E9ACC"
+			rewards: [
+				{
+					count: 4
+					id: "098AA16E5B4E67C8"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4FEF473BDA15BE5E"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "12130B91C8972A9E"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a blank parchment."
+			tasks: [{
+				id: "162D7FFEF9FED4B5"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			x: -4.600000000000001d
+			y: 4.699999999999999d
+		}
+		{
+			description: [
+				"Wixie shards can be found in loot chests or created according to the worn notebook. Wixie shards are used to create wixie charms."
+				"&7Rewards: x1 emerald, x1 Loot Bundle Fragment"
+			]
+			hide: true
+			id: "5329CBCAF8C94C82"
+			rewards: [
+				{
+					id: "3C689585A228D9C7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "46661CA7A7DFD296"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain a wixie shard."
+			tasks: [{
+				id: "04A826832F5BD019"
+				item: "ars_nouveau:wixie_shards"
+				type: "item"
+			}]
+			x: -13.200000000000003d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5329CBCAF8C94C82"]
+			description: [
+				"Please refer to the worn notebook to create the charm as well as to learn how wixies can help with potion making."
+				"&7Rewards: x8 bottle, x2 bundle of potion of mana regen, x1 Loot Bundle Fragment"
+			]
+			id: "02718A17D7E3EC8D"
+			rewards: [
+				{
+					count: 8
+					id: "5E8F8C2C69A49101"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "153A343E1447638F"
+					item: {
+						Count: 1b
+						id: "potionbundles:lingering_potion_bundle"
+						tag: {
+							Potion: "ars_nouveau:mana_regen_potion"
+							String: {
+								Count: 1b
+								id: "minecraft:string"
+							}
+							Uses: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3CF63CD2437DB01F"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Create a wixie charm."
+			tasks: [{
+				id: "7C1AB7FFBCE9BF2D"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: -12.2d
+			y: -2.3999999999999986d
+		}
+		{
+			description: [
+				"Starbuncle shards may be obtained in loot chests or by giving a starbuncle a gold nugget. Starbuncle shards are used to create starbuncle charms. Refer to the worn notebook for more details. "
+				"&7Rewards: x9 gold nugget, x1 Loot Bundle Fragment"
+			]
+			hide: true
+			id: "26E6DFAEB57046FD"
+			rewards: [
+				{
+					count: 9
+					id: "171A4C847E058341"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "67BF826DE630903A"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain a starbuncle shard."
+			tasks: [{
+				id: "2F067095E975DF6B"
+				item: "ars_nouveau:starbuncle_shards"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.1000000000000014d
+		}
+		{
+			dependencies: ["26E6DFAEB57046FD"]
+			description: [
+				"Use the starbuncle charm on the ground to create a starbuncle. Please refer to the worn notebook to learn how to use starbuncles to help you organize :p."
+				"&7Rewards: x2 archwood chest, x1 Loot Bundle Fragment"
+			]
+			id: "3A012F3AE5578686"
+			rewards: [
+				{
+					count: 2
+					id: "192D5C93342E563E"
+					item: "ars_nouveau:archwood_chest"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3DC840E18A646111"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Create a starbuncle charm."
+			tasks: [{
+				id: "7B76B2D4E774C79C"
+				item: "ars_nouveau:starbuncle_charm"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.3000000000000007d
+		}
+		{
+			description: [
+				"Drygmy shards can be found in loot chests. Drygmy shards are used to create drygmy charms. Refer to the worn notebook for further details."
+				"&7Rewards: x8 carrot, x1 golden carrot, x1 Loot Bundle Fragment"
+			]
+			hide: true
+			id: "286AC891E2FCFE82"
+			rewards: [
+				{
+					count: 8
+					id: "5E29F9D9AA5FF777"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "6380984E50509CD9"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "633A12B15184C95E"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain a drygmy shard."
+			tasks: [{
+				id: "021B0888EC18E1F0"
+				item: "ars_nouveau:drygmy_shard"
+				type: "item"
+			}]
+			x: -13.299999999999997d
+			y: -0.8999999999999986d
+		}
+		{
+			dependencies: ["286AC891E2FCFE82"]
+			description: [
+				"Use your drygmy charm on mossy cobblestone to bring a drygmy to life, see worn notebook for more details about how the drygmy can help out at your base. Remember, keep your drygmy happy :o)."
+				"&7Rewards: x2 archwood chest, x8 mossy cobblestone, x1 Loot Bundle Fragment"
+			]
+			id: "127D8E5924E63B75"
+			rewards: [
+				{
+					count: 2
+					id: "4B749FD87B314161"
+					item: "ars_nouveau:archwood_chest"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1E0BF37824A3FF73"
+					item: "minecraft:mossy_cobblestone"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "67F4246C6C7BB86D"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Create a drygmy charm."
+			tasks: [{
+				id: "6AF441B619C8B256"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -12.2d
+			y: -0.3000000000000007d
+		}
+		{
+			dependencies: ["7D748F298E1E9ACC"]
+			description: [
+				"Spell parchment is used to write specific spells. Please refer to worn notebook for more information."
+				"&7Rewards: x8 paper, x1 Loot Bundle Fragment, x1 block of redstone"
+			]
+			id: "1746C9FDC6B96D95"
+			rewards: [
+				{
+					count: 8
+					id: "76672911A7B58BDE"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6F9BDAF0001B46D0"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "7604D513EBC55F32"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a spell parchment."
+			tasks: [{
+				id: "6183710E8400A275"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:spell_parchment"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.600000000000001d
+			y: 5.699999999999999d
+		}
+		{
+			dependencies: ["1746C9FDC6B96D95"]
+			description: [
+				"Bookwyrms can come to life by using your charm on a lectern. Refer to worn notebook for more information. PS: Bookwyrms can be dyed."
+				"&7Rewards: x8 paper, x1 bookshelf, x1 Loot Bundle Fragment"
+			]
+			id: "082BC6C3FBE00220"
+			rewards: [
+				{
+					count: 8
+					id: "24FCE374187E8BF2"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "5B5A9169B5EA1F39"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "51543F8A44841D7A"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Create a bookwyrm charm."
+			tasks: [{
+				id: "40D879255A737599"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: -5.699999999999999d
+			y: 6.899999999999999d
+		}
+		{
+			dependencies: ["1746C9FDC6B96D95"]
+			description: [
+				"A spell turret can be used with a redstone signal to cast spells. Refer to worn notebook for more details."
+				"&7Rewards: x2 spell parchment, x1 Loot Bundle Fragment"
+			]
+			id: "16094A38C3C2B628"
+			rewards: [
+				{
+					count: 2
+					id: "235BB6D224FE0BDC"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:spell_parchment"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "42FD297AE25FD962"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a basic spell turret."
+			tasks: [{
+				id: "4A194D337FBD08B8"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			x: -6.800000000000001d
+			y: 6.199999999999999d
+		}
+		{
+			dependencies: ["708EDCD56ABDC95B"]
+			description: [
+				"These magical helpers harvest, collect, and grow amethyst for you. Refer to worn notebook for more details."
+				"&7Rewards: x1 budding amethyst, x8 source berry roll"
+			]
+			id: "64C344F02BCB64EC"
+			rewards: [
+				{
+					id: "608001719DD58DBF"
+					item: "minecraft:budding_amethyst"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0AD932E1FE6B180C"
+					item: "ars_nouveau:source_berry_roll"
+					type: "item"
+				}
+			]
+			subtitle: "Create an amethyst golem charm."
+			tasks: [{
+				id: "58FF2C2941E9F3F2"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.8999999999999986d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Use this tablet to create magical helpers to include the weald walker and amethyst golem. Refer to worn notebook for further instructions."
+				"&7Rewards: x2 source gem block, x1 Loot Bundle Fragment"
+			]
+			id: "708EDCD56ABDC95B"
+			rewards: [
+				{
+					count: 2
+					id: "44F0471F9FF9E33A"
+					item: "ars_nouveau:source_gem_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2EE93B88C698F95B"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a tablet of awakening."
+			tasks: [{
+				id: "58DD6A2F282CD93C"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.8000000000000007d
+		}
+		{
+			dependencies: ["1746C9FDC6B96D95"]
+			description: [
+				"Use this to record your glyphs. Refer to worn notebook for details."
+				"&7Rewards: x8 source gem, x1 blank glyph"
+			]
+			id: "7350C8F76BD231CB"
+			rewards: [
+				{
+					count: 8
+					id: "66EB6C555088DD8E"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "636273C229028AA0"
+					item: "ars_nouveau:blank_glyph"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an annotated codex."
+			tasks: [{
+				id: "393207CE339737FF"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:annotated_codex"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.699999999999999d
+			y: 4.899999999999999d
+		}
+		{
+			dependencies: ["516CFC0B5471FE3D"]
+			description: [
+				"Use this to configure source relays and automation entities. Refer to worn notebook for more details."
+				"&7Rewards: x8 source gem, x8 source berry pie"
+			]
+			id: "3B27A0AA5C9694AC"
+			rewards: [
+				{
+					count: 8
+					id: "17D83C318CB4FA70"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "25E53B0F73FACF5F"
+					item: "ars_nouveau:source_berry_pie"
+					type: "item"
+				}
+			]
+			subtitle: "Create a dominion wand using the enchanting apparatus."
+			tasks: [{
+				id: "4BCF77567DAA4E03"
+				item: "ars_nouveau:dominion_wand"
+				type: "item"
+			}]
+			x: -2.1000000000000014d
+			y: -7.300000000000001d
+		}
+		{
+			dependencies: ["0186520D081DD15B"]
+			description: [
+				"Use these fibers to create your set of magical armor. Refer to worn notebook for more details."
+				"&7Rewards: x2 blaze rod, x1 Loot Bundle"
+			]
+			id: "7521ACED546CC028"
+			rewards: [
+				{
+					count: 2
+					id: "77D2354E161B1C6D"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "11C14743FA61DC27"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain some magebloom fiber."
+			tasks: [{
+				count: 4L
+				id: "0B439F5A43742B34"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: 6.800000000000001d
+			y: -8.0d
+		}
+		{
+			dependencies: ["214E613632AF1B7C"]
+			description: [
+				"Used to cast tier 2 glyphs or lower."
+				"&7Rewards: x1 ender pearl, x1 emerald, x1 Loot Bundle Fragment"
+			]
+			id: "0A8782F5CEB79603"
+			rewards: [
+				{
+					id: "6AC29E41BBAEFAF0"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "5F86C4D838931EAC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "28FCBDF21FD6B293"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a mage's spellbook."
+			tasks: [{
+				id: "08EEF3D19F7AC21E"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -0.3999999999999986d
+			y: -6.800000000000001d
+		}
+		{
+			dependencies: ["0A8782F5CEB79603"]
+			description: [
+				"Used to cast tier 3 glyphs or lower."
+				"&7Rewards: x1 random reward"
+			]
+			id: "3AB0B1AB3C60F003"
+			rewards: [{
+				id: "51FE0A17050B46CB"
+				type: "random"
+			}]
+			subtitle: "Craft an archmage spellbook."
+			tasks: [{
+				id: "745CB1AEDED7BFE5"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: -0.3999999999999986d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7521ACED546CC028"]
+			description: [
+				"These magical items provide additional mana and mana regen. Refer to worn notebook for more details."
+				"&7Rewards: x4 magebloom fiber, x2 blaze rod, x1 Loot Bundle"
+			]
+			id: "76ACE64F27DB3D45"
+			rewards: [
+				{
+					count: 4
+					id: "61E8624E35025C66"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "71C88F0951776CAD"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "28773181187B7E3D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Craft the novice armor set."
+			tasks: [
+				{
+					id: "0BFC16EBFC5C7711"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5920FB94DCDB3920"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07BEBDB36ED55486"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F0E245DBBB8A607"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Magical Novice Armor Set"
+			x: 7.699999999999999d
+			y: -8.799999999999997d
+		}
+		{
+			dependencies: ["7521ACED546CC028"]
+			description: [
+				"Use these fibers to create your next set of magical armor. Refer to worn notebook for more details."
+				"&7Rewards: x2 popped chorus fruit, x4 magebloom fiber"
+				"&7Rewards: x2 popped chorus fruit, x2 blaze fiber"
+			]
+			id: "4A365455010D6D6D"
+			rewards: [
+				{
+					count: 2
+					id: "548EAEDBE4506DA5"
+					item: "minecraft:popped_chorus_fruit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "218D6055777355FC"
+					item: "ars_nouveau:blaze_fiber"
+					type: "item"
+				}
+			]
+			subtitle: "Craft blaze fiber."
+			tasks: [{
+				count: 2L
+				id: "0A60EDD79F89EA22"
+				item: "ars_nouveau:blaze_fiber"
+				type: "item"
+			}]
+			x: 7.6d
+			y: -6.600000000000001d
+		}
+		{
+			dependencies: ["4A365455010D6D6D"]
+			description: [
+				"These magical items provide additional mana and mana regen. Refer to worn notebook for more details."
+				"&7Rewards: x4 magebloom fiber, x4 blaze fiber, x1 Loot Bundle"
+			]
+			id: "520E3B6508940832"
+			rewards: [
+				{
+					count: 4
+					id: "410E6E4930047B31"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "145DC499526DA5A1"
+					item: "ars_nouveau:blaze_fiber"
+					type: "item"
+				}
+				{
+					id: "67ADE9212C13A1DB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Craft the mage armor set."
+			tasks: [
+				{
+					id: "1D0B7B6C4A5D964B"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36F69B5EE6F42AAB"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34ACF60F5D75C691"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38A602E1A3AC53C9"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Magical Mage Armor Set"
+			x: 7.6d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7521ACED546CC028"]
+			description: [
+				"Use these fibers to create your next set of magical armor. Refer to worn notebook for more details."
+				"&7Rewards: x4 magebloom fiber, x4 blaze fiber, x1 Loot Bundle Fragment"
+			]
+			id: "315D3E9976FB2D15"
+			rewards: [
+				{
+					count: 4
+					id: "325FF71F9BE0FDF4"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "553A1A776D597115"
+					item: "ars_nouveau:blaze_fiber"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "09ADF9983FB3D8BA"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft end fiber."
+			tasks: [{
+				id: "01C0073DCBBAFEF3"
+				item: "ars_nouveau:end_fiber"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.699999999999999d
+		}
+		{
+			dependencies: ["315D3E9976FB2D15"]
+			description: [
+				"These magical items provide additional mana and mana regen. Refer to worn notebook for more details."
+				"&7Rewards: x1 Loot Bundle, x5 xp levels, x1 bundle of potion of mana regen"
+			]
+			id: "22BB5636BA5A7C0C"
+			rewards: [
+				{
+					id: "142AC4423D60453B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "470286C2C6C05C35"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "27CF8B9EBA99D73B"
+					item: {
+						Count: 1b
+						id: "potionbundles:lingering_potion_bundle"
+						tag: {
+							Potion: "ars_nouveau:mana_regen_potion_long"
+							String: {
+								Count: 1b
+								id: "minecraft:string"
+							}
+							Uses: 3
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft the archmage armor set."
+			tasks: [
+				{
+					id: "11FA531D5A13496E"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F9EDCE50D00BE5E"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2087CFEAAC306774"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "754937ABBA96B2E8"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Magical Archmage Armor Set"
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7D748F298E1E9ACC"]
+			description: [
+				"Give this scroll to a starbuncle, and it will help keep you further organized :p. Please see worn notebook for further details."
+				"&7Rewards: x1 Loot Bundle Fragment, x4 magebloom fiber"
+			]
+			id: "16BB2882C4FD3D85"
+			rewards: [
+				{
+					count: 3
+					id: "3561E868731FF89A"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2E851CE040C3178D"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an item scroll: allow."
+			tasks: [{
+				id: "4E210AFCAF0D34AE"
+				item: "ars_nouveau:allow_scroll"
+				type: "item"
+			}]
+			x: -4.600000000000001d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D748F298E1E9ACC"]
+			description: [
+				"Give this scroll to a starbuncle, and it will help keep you further organized :p. Please see worn notebook for further details."
+				"&7Rewards: x1 Loot Bundle Fragment, x4 magebloom fiber"
+			]
+			id: "46CCDB94850BB7EC"
+			rewards: [
+				{
+					count: 3
+					id: "7BED4431EF85C13A"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FD776597692EEAB"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an item scroll: deny."
+			tasks: [{
+				id: "64ECDBD280D272A9"
+				item: "ars_nouveau:deny_scroll"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.8999999999999986d
+		}
+		{
+			dependencies: ["7D748F298E1E9ACC"]
+			description: [
+				"This scroll helps with automation. Refer to worn notebook for more details."
+				"&7Rewards: x2 archwood chest, x4 magebloom fiber"
+			]
+			id: "7C2D11F41A5DB9B5"
+			rewards: [
+				{
+					count: 2
+					id: "1950F7308712EA91"
+					item: "ars_nouveau:archwood_chest"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C3F2CC6191A258D"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a mimic scroll."
+			tasks: [{
+				id: "76D0BD2D7A6F48A2"
+				item: "ars_nouveau:mimic_scroll"
+				type: "item"
+			}]
+			x: -5.600000000000001d
+			y: 3.1000000000000014d
+		}
+		{
+			description: [
+				"Obtained by growing a tree near a whirlisprig in the wild or found in loot chests. Whirlisprig shards are used to create whirlisprig charms. Refer to the worn notebook for more details."
+				"&7Rewards: x1 oak sapling, x4 source gem, x1 Loot Bundle Fragment"
+			]
+			hide: true
+			id: "7BE5F5A0273E53B2"
+			rewards: [
+				{
+					id: "2EC72387925027B9"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "239BD2DDCBF7B497"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "070EAC254AD43D34"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain a whirlisprig shard."
+			tasks: [{
+				id: "303AF135C9071B8E"
+				item: "ars_nouveau:whirlisprig_shards"
+				type: "item"
+			}]
+			x: -10.600000000000001d
+			y: -0.8999999999999986d
+		}
+		{
+			dependencies: ["7BE5F5A0273E53B2"]
+			description: [
+				"Use your whirlisprig charm on a flower to bring a whirlisprig to life. Refer to the worn notebook to see how your whirlisprig can help you. PS: You can also use dye on your whirlisprig."
+				"Reward: x1 bundle of potion of mana regen, x1 Loot Bundle Fragment"
+			]
+			id: "3B6B983460D307D0"
+			rewards: [
+				{
+					count: 2
+					id: "14DE24B9A111D85A"
+					item: {
+						Count: 1b
+						id: "potionbundles:lingering_potion_bundle"
+						tag: {
+							Potion: "ars_nouveau:mana_regen_potion"
+							String: {
+								Count: 1b
+								id: "minecraft:string"
+							}
+							Uses: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "78E8EEAC202B8237"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Create a whirlisprig charm."
+			tasks: [{
+				id: "63C318BC111A6A7E"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: -9.399999999999999d
+			y: -0.3000000000000007d
+		}
+		{
+			dependencies: ["32E326DA9CA1BD82"]
+			description: [
+				"Used in the creation of some glyphs."
+				"&7Rewards: x4 source gem, x1 Loot Bundle"
+			]
+			id: "5BD728714FF71515"
+			rewards: [
+				{
+					count: 4
+					id: "7B7E73A4A91A5566"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "03F903FFD4D072D5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Craft abjuration essence."
+			tasks: [{
+				id: "49B543B0476A6E5B"
+				item: "ars_nouveau:abjuration_essence"
+				type: "item"
+			}]
+			x: -1.8999999999999986d
+			y: -1.3999999999999986d
+		}
+		{
+			dependencies: ["32E326DA9CA1BD82"]
+			description: [
+				"Used in the creation of some glyphs."
+				"&7Rewards: x2 wither rose, 1 Loot Bundle Fragment"
+			]
+			id: "33F69A0AEAD92288"
+			rewards: [
+				{
+					count: 2
+					id: "353E0CE9F01F383B"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5C62428017512B15"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft conjuration essence."
+			tasks: [{
+				id: "0C33730A51EEE561"
+				item: "ars_nouveau:conjuration_essence"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.3000000000000007d
+		}
+		{
+			dependencies: ["32E326DA9CA1BD82"]
+			description: [
+				"Used in the creation of some glyphs."
+				"&7Rewards: x8 grass block, x2 air essence"
+			]
+			id: "318FE863FFB73E69"
+			rewards: [
+				{
+					count: 8
+					id: "4BB10914197A8BD3"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5DA6486450DD03BB"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+			]
+			subtitle: "Craft air essence."
+			tasks: [{
+				id: "1D7E8BD66D199EF8"
+				item: "ars_nouveau:air_essence"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.6000000000000014d
+		}
+		{
+			dependencies: ["32E326DA9CA1BD82"]
+			description: [
+				"Used in the creation of some glyphs."
+				"&7Rewards: x8 torch, x1 Loot Bundle Fragment"
+			]
+			id: "37650DCA829B8E3F"
+			rewards: [
+				{
+					count: 8
+					id: "61D138192DE896C4"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "43485A4648E93849"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft earth essence."
+			tasks: [{
+				id: "34685DB3FA7AAD17"
+				item: "ars_nouveau:earth_essence"
+				type: "item"
+			}]
+			x: 1.3999999999999986d
+			y: -2.1999999999999993d
+		}
+		{
+			dependencies: ["32E326DA9CA1BD82"]
+			description: [
+				"Used in the creation of some glyphs."
+				"&7Rewards: x1 water bucket, x1 Loot Bundle Fragment"
+			]
+			id: "26FEBCBBD9B6DB85"
+			rewards: [
+				{
+					id: "5D01296CC65C202E"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "707E974E5FC75E62"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft fire essence."
+			tasks: [{
+				id: "3F316C6CE3DA2AA9"
+				item: "ars_nouveau:fire_essence"
+				type: "item"
+			}]
+			x: 1.1999999999999993d
+			y: -1.1999999999999993d
+		}
+		{
+			dependencies: ["32E326DA9CA1BD82"]
+			description: [
+				"Used in the creation of some glyphs."
+				"&7Rewards: x2 manipulation essence, x1 Loot Bundle Fragment"
+			]
+			id: "289D70C9F6BF3F7A"
+			rewards: [
+				{
+					count: 2
+					id: "26ABBDF6B15499C8"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0603A5A4624C067A"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft manipulation essence."
+			tasks: [{
+				id: "3C8F23BF0FADA6AE"
+				item: "ars_nouveau:manipulation_essence"
+				type: "item"
+			}]
+			x: -1.1000000000000014d
+			y: -0.10000000000000142d
+		}
+		{
+			dependencies: ["32E326DA9CA1BD82"]
+			description: [
+				"Used in the creation of some glyphs."
+				"&7Rewards: x1 block of redstone, x1 Loot Bundle Fragment"
+			]
+			id: "0B3FA8F058B6FF71"
+			rewards: [
+				{
+					id: "3352DB754C035818"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "491266A19051F92B"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft water essence."
+			tasks: [{
+				id: "6459FE389E02806B"
+				item: "ars_nouveau:water_essence"
+				type: "item"
+			}]
+			x: 0.8999999999999986d
+			y: -0.3000000000000007d
+		}
+		{
+			dependencies: ["7D748F298E1E9ACC"]
+			description: [
+				"Used to create spells that can be placed on the ground to affect those walking over it. Refer to worn notebook for details."
+				"&7Rewards: x4 blank parchment, x1 xp level"
+			]
+			id: "5B89F945BA14F202"
+			rewards: [
+				{
+					count: 4
+					id: "6FDA9EA7DAA5CE61"
+					item: "ars_nouveau:blank_parchment"
+					type: "item"
+				}
+				{
+					id: "34F74B1B24DD09B4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft runic chalk."
+			tasks: [{
+				id: "2C4ACDF44BB73B64"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:runic_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.6999999999999993d
+			y: 2.3999999999999986d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"A magical light that follows you. Refer to worn notebook for details."
+				"&7Rewards: x8 source gem, x1 Loot Bundle Fragment"
+			]
+			id: "1E5D996648134990"
+			rewards: [
+				{
+					count: 8
+					id: "38B91E5B113F82AA"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5DC549FBB489D6FB"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Create a jar of light."
+			tasks: [{
+				id: "3B72CF6CBF1B9AA9"
+				item: "ars_nouveau:jar_of_light"
+				type: "item"
+			}]
+			x: 2.8999999999999986d
+			y: -4.600000000000001d
+		}
+		{
+			dependencies: ["32E326DA9CA1BD82"]
+			description: [
+				"This helps locate budding amethyst and magical creaturs within a 75 block radius. Refer to worn notebook for details."
+				"Reward: x4 block of amethyst"
+			]
+			id: "61FAD28793FDD30C"
+			rewards: [{
+				count: 4
+				id: "2ACFF49F3F6FFF4F"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			subtitle: "Craft a dowsing rod."
+			tasks: [{
+				id: "436F65D3E10DFCF9"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.1000000000000014d
+			y: -2.6000000000000014d
+		}
+		{
+			dependencies: ["685FDD255FF32419"]
+			description: [
+				"Provides a bit of a mana boost. Refer to worn notebook for details."
+				"&7Rewards: x4 source gem, x2 diamond"
+			]
+			id: "4B6E70628E970A79"
+			rewards: [
+				{
+					count: 4
+					id: "721C168FAFB10891"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "66B3D612871C3445"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Create an amulet of mana boost."
+			tasks: [{
+				id: "67089D7931763EFE"
+				item: "ars_nouveau:amulet_of_mana_boost"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.799999999999997d
+		}
+		{
+			dependencies: ["685FDD255FF32419"]
+			description: [
+				"Increases max mana by a moderate amount. Refer to worn notebook for more details."
+				"Reward: x1 Loot Bundle"
+			]
+			id: "6E49B62B376EB692"
+			rewards: [{
+				id: "6B320B1B87EA4E96"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Create an amulet of mana boost."
+			tasks: [{
+				id: "7530A46195F5CA41"
+				item: "ars_nouveau:amulet_of_mana_regen"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.899999999999999d
+		}
+		{
+			dependencies: ["76107859FBA6696E"]
+			description: [
+				"Used to levitate a moderate distance above the ground. Refer to worn notebook for more details."
+				"&7Rewards: x2 blaze rod, x1 xp level"
+			]
+			id: "73095637499D89FE"
+			rewards: [
+				{
+					count: 2
+					id: "76CA9444930985F6"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "5952B3527B73210B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Create a belt of levitation."
+			tasks: [{
+				id: "719DE565FC798A4E"
+				item: "ars_nouveau:belt_of_levitation"
+				type: "item"
+			}]
+			x: 3.1999999999999993d
+			y: -9.200000000000003d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"You may need several of these to make magical belts. Refer to worn notebook for more details."
+				"&7Rewards: x4 leather, x1 xp level"
+			]
+			id: "76107859FBA6696E"
+			rewards: [
+				{
+					count: 4
+					id: "3FAAF786B6043C15"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "47F20A765B8D9663"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a mundane belt."
+			tasks: [{
+				id: "5E19A9F4FD4F4B58"
+				item: "ars_nouveau:mundane_belt"
+				type: "item"
+			}]
+			x: 2.8999999999999986d
+			y: -7.899999999999999d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"Used to create magical trinketsk (you may need to make a couple). Refer to worn notebook for more details."
+				"&7Rewards: x1 block of gold, x1 xp level"
+			]
+			id: "685FDD255FF32419"
+			rewards: [
+				{
+					id: "6CC5DD604CC4DE64"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "3069DC2E349F2EEE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a dull trinket."
+			tasks: [{
+				id: "02E8D9BAD5E917C2"
+				item: "ars_nouveau:dull_trinket"
+				type: "item"
+			}]
+			x: 3.8000000000000007d
+			y: -7.699999999999999d
+		}
+		{
+			dependencies: ["76107859FBA6696E"]
+			description: [
+				"Provides an occasional positive position effect that last a little bit. Refer to worn notebook for more details."
+				"&7Rewards: x4 source gem, x1 Loot Bundle"
+			]
+			id: "3F57F0B2DA4C5E35"
+			rewards: [
+				{
+					count: 4
+					id: "7924426B8B4C8FA6"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "02716A0530E87F6B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Create a belt of unstable gifts."
+			tasks: [{
+				id: "611BD1C66193185C"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: 2.3000000000000007d
+			y: -9.0d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"This magical wand holds 1 spell, but refer to worn notebook for more details on its use."
+				"Reward: x1 Loot Bundle"
+			]
+			id: "786E0D21238E63B6"
+			rewards: [{
+				id: "5638B95BDD0172BA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Create a casting wand."
+			tasks: [{
+				id: "50D8A0FD7A1E2564"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.6999999999999993d
+			y: -3.8000000000000007d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"This magical bow can be inscribed with a spell. Refer to worn notebook for more details."
+				"&7Rewards: x1 source gem block, x2 xp levels"
+			]
+			id: "7271A76BE27B1997"
+			rewards: [
+				{
+					id: "0BE48E8C15EDC57B"
+					item: "ars_nouveau:source_gem_block"
+					type: "item"
+				}
+				{
+					id: "762D3AA2073373B8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Create an echanter's bow."
+			tasks: [{
+				id: "0D5C7D8EBA7049E0"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:spell_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.199999999999999d
+			y: -4.600000000000001d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"Used to cast a spell upon yourself. Refer to worn notebook for more details."
+				"&7Rewards: x1 block of gold, x2 source gem block"
+			]
+			id: "00C12B1F1C39E709"
+			rewards: [
+				{
+					id: "266C4ABBCAE46C70"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "572AE810708E3F90"
+					item: "ars_nouveau:source_gem_block"
+					type: "item"
+				}
+			]
+			subtitle: "Create an enchanter's mirror."
+			tasks: [{
+				id: "785A3BF6A229A0E7"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_mirror"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.300000000000001d
+			y: -4.600000000000001d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"When used to block, you gain a small mana boost and spell damage. Refer to worn notebook for more details."
+				"&7Rewards: x1 block of gold, x1 source gem block"
+			]
+			id: "42FB644EC5B67CDA"
+			rewards: [
+				{
+					id: "4EE3D00B6FFC7871"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "630E72FACED09547"
+					item: "ars_nouveau:source_gem_block"
+					type: "item"
+				}
+			]
+			subtitle: "Create an enchanter's shield."
+			tasks: [{
+				id: "74BEC0512D10B41A"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.199999999999999d
+			y: -5.5d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"Provides a touch spell before damaging an entity. Refer to worn notebook for more details."
+				"Reward: x1 Loot Bundle"
+			]
+			id: "7B53E932D2E16475"
+			rewards: [{
+				id: "4F6AE5CE1BD5E9E1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Create an enchanter's sword."
+			tasks: [{
+				id: "2D15C81BEBFEBE45"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.399999999999999d
+		}
+		{
+			dependencies: ["318FE863FFB73E69"]
+			description: [
+				"This spell focus is used with glyphs of the same school for a few bonuses. Refer to worn notebook for more details."
+				"&7Rewards: x2 earth essence, x1 block of amethyst"
+			]
+			id: "5E78D41B3E536F54"
+			rewards: [
+				{
+					count: 2
+					id: "1A4562FAF4E568ED"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "5CCF30D4122AB863"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+			]
+			subtitle: "Create a focus of air."
+			tasks: [{
+				id: "73555504F77532DB"
+				item: "ars_elemental:air_focus"
+				type: "item"
+			}]
+			x: 0.6000000000000014d
+			y: -3.6999999999999993d
+		}
+		{
+			dependencies: ["37650DCA829B8E3F"]
+			description: [
+				"This spell focus is used with glyphs of the same school for a few bonuses. Refer to worn notebook for more details."
+				"&7Rewards: x2 fire essence, x1 block of amethyst"
+			]
+			id: "591CFF3E5EC66238"
+			rewards: [
+				{
+					count: 2
+					id: "48453DCFF4B9CFEF"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "4538F6610F253B3A"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+			]
+			subtitle: "Create a focus of earth."
+			tasks: [{
+				id: "5149B03ADEA0EE3B"
+				item: "ars_elemental:earth_focus"
+				type: "item"
+			}]
+			x: 2.1999999999999993d
+			y: -2.8999999999999986d
+		}
+		{
+			dependencies: ["26FEBCBBD9B6DB85"]
+			description: [
+				"This spell focus is used with glyphs of the same school for a few bonuses. Refer to worn notebook for more details."
+				"&7Rewards: x2 water essence, x2 xp levels"
+			]
+			id: "31D487E347B8D5E4"
+			rewards: [
+				{
+					count: 2
+					id: "23425023D5516AFB"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "5B339C3D148723D8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Create a focus of fire."
+			tasks: [{
+				id: "1BCB77D9FC958E73"
+				item: "ars_elemental:fire_focus"
+				type: "item"
+			}]
+			x: 2.3999999999999986d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B3FA8F058B6FF71"]
+			id: "6B96CCCADF13BE7E"
+			rewards: [
+				{
+					count: 2
+					id: "5975101EBBEA06E8"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+				{
+					id: "311DD58CCCBC113C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "5F0E9A69DFCC439D"
+				item: "ars_elemental:water_focus"
+				type: "item"
+			}]
+			x: 2.1000000000000014d
+			y: -0.3000000000000007d
+		}
+		{
+			dependencies: ["33F69A0AEAD92288"]
+			description: [
+				"Used with the focus of summoning to corrupt its powers. Refer to worn notebook for more details."
+				"&7Rewards: x2 conjuration essence, x1 Loot Bundle Fragment"
+			]
+			id: "661864EAF1899C13"
+			rewards: [
+				{
+					count: 2
+					id: "025535E216434ECB"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "43B66A75D40FBBCB"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Create a focus of necromancy."
+			tasks: [{
+				id: "0ED7CB62FA9D7A90"
+				item: "ars_elemental:necrotic_focus"
+				type: "item"
+			}]
+			x: -3.6000000000000014d
+			y: -0.6999999999999993d
+		}
+		{
+			dependencies: ["0E20A46F7F8E1FFE"]
+			description: [
+				"This is a challenging and destructive mob, be prepared. Refer to worn notebook for details."
+				"&7Rewards: x1 Loot Bundle, x5 xp levels"
+			]
+			id: "2BD3FE2617B85D26"
+			rewards: [
+				{
+					id: "52021B3F920364DE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "091A9003FB9B362A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Defeat the Wilden Chimera."
+			tasks: [{
+				id: "486E9A6DB2B89FC5"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: -1.6999999999999993d
+			y: 1.1000000000000014d
+		}
+		{
+			dependencies: ["33F69A0AEAD92288"]
+			description: [
+				"Used to create focus of necromancy and also provided a few benefits. Refer to worn notebook for more details."
+				"Reward: x1 Loot Bundle"
+			]
+			id: "7595D44E3CA824E9"
+			rewards: [{
+				id: "3AE20E47FBA089DF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Create a focus of summoning."
+			tasks: [{
+				id: "2D7AD1F1C900E508"
+				item: "ars_nouveau:summon_focus"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.3999999999999986d
+		}
+		{
+			dependencies: ["16BB2882C4FD3D85"]
+			description: ["Voids an item that is picked up which then provides a small amount of mana. Refer to worn notebook for more details."]
+			id: "5560F5E3693E07B7"
+			rewards: [
+				{
+					count: 8
+					id: "2A53DB06116A3744"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6D120A3B93508860"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Create a jar of voiding."
+			tasks: [{
+				id: "2A55A8ED25F98D33"
+				item: "ars_nouveau:void_jar"
+				type: "item"
+			}]
+			x: -5.300000000000001d
+			y: 1.8000000000000007d
+		}
+		{
+			dependencies: ["5BD728714FF71515"]
+			description: [
+				"Stores 8 charges of a potion. Refer to worn notebook for more details."
+				"&7Rewards: x1 potion of mana regen, x1 xp level"
+			]
+			id: "76AFD59E30B8BA03"
+			rewards: [
+				{
+					id: "3EF269EE3A0037ED"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "ars_nouveau:mana_regen_potion"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37F4EC1DC52133C8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Create a potion flask."
+			tasks: [{
+				id: "6AFD422AA2777E85"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:potion_flask"
+					tag: {
+						Damage: 8
+					}
+				}
+				type: "item"
+			}]
+			x: -3.1999999999999993d
+			y: -1.8000000000000007d
+		}
+		{
+			dependencies: ["19E590CFEBB55029"]
+			description: [
+				"This is the base ring to create other magical rings. Refer to worn notebook for more details."
+				"&7Rewards: x1 block of diamond"
+			]
+			id: "40B0D07B6B7ED47E"
+			rewards: [{
+				id: "7955FA1DA93C416A"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			subtitle: "Craft a ring of potential."
+			tasks: [{
+				id: "652CFBEBE44C396F"
+				item: "ars_nouveau:ring_of_potential"
+				type: "item"
+			}]
+			x: 2.3000000000000007d
+			y: -6.899999999999999d
+		}
+		{
+			dependencies: ["40B0D07B6B7ED47E"]
+			description: [
+				"Reduces cost of mana for a spell. Refer to worn notebook for more details."
+				"&7Rewards: x1 source gem block, x1 Loot Bundle Fragment"
+			]
+			id: "3AC265241AE9AD05"
+			rewards: [
+				{
+					id: "23C415924D7F192D"
+					item: "ars_nouveau:source_gem_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "51AC4F22BD523F74"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Create a ring of lesser discount."
+			tasks: [{
+				id: "2B9327341AC5270E"
+				item: "ars_nouveau:ring_of_lesser_discount"
+				type: "item"
+			}]
+			x: 1.1999999999999993d
+			y: -6.800000000000001d
+		}
+		{
+			dependencies: ["40B0D07B6B7ED47E"]
+			description: [
+				"Providers a little more benefit than the ring of lesser discount. Refer to worn notebook for more details."
+				"&7Rewards: x1 block of amethyst, x1 Loot Bundle"
+			]
+			id: "3CA4F8E794EE47B2"
+			rewards: [
+				{
+					id: "6F1BECB88BEC4A06"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+				{
+					id: "396D583ACF1179E4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Create a ring of greater discount."
+			tasks: [{
+				id: "3FCAC8444E9F08F7"
+				item: "ars_nouveau:ring_of_greater_discount"
+				type: "item"
+			}]
+			x: 1.6000000000000014d
+			y: -7.899999999999999d
+		}
+		{
+			dependencies: ["7521ACED546CC028"]
+			description: [
+				"Used to store and carry around your magical ars nouveau items. Refer to worn notebook for more details."
+				"&7Rewards: x8 magebloom fiber, x1 Loot Bundle Fragment"
+			]
+			id: "7628DDB2D3E32F04"
+			rewards: [
+				{
+					count: 8
+					id: "282EAFBE57CEE6B0"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0DCBFE16889FE669"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a trinkets pouch."
+			tasks: [{
+				id: "7341B303006556CA"
+				item: "ars_elemental:curio_bag"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.399999999999999d
+		}
+		{
+			dependencies: ["7D748F298E1E9ACC"]
+			description: [
+				"Used for 1 time teleporation. Refer to worn notebook for more details."
+				"&7Rewards: x2 blank parchment, x1 Loot Bundle Fragment"
+			]
+			id: "5A39A085322805C5"
+			rewards: [
+				{
+					count: 2
+					id: "11C038102273C14E"
+					item: "ars_nouveau:blank_parchment"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "70CBE4108C57853F"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a warp scroll."
+			tasks: [{
+				id: "07E06CFB6F7A5433"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.800000000000001d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Use this tablet to summon familiars. Refer to worn notebook for details."
+				"&7Rewards: x1 iron pickaxe, x1 Loot Bundle Fragment"
+			]
+			id: "7CFD13EA2DDE2BD4"
+			rewards: [
+				{
+					id: "75BC657500D62FFC"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6D3381FB0A458908"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a tablet of binding."
+			tasks: [{
+				id: "20EC7CB9D9C0328E"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			x: 0.3999999999999986d
+			y: 1.6999999999999993d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Used to summon several forms of wilden including the Wilden Chimera. Refer to worn notebook for details."
+				"&7Rewards: x1 block of lapis lazuli, x1 xp level"
+			]
+			id: "0E20A46F7F8E1FFE"
+			rewards: [
+				{
+					id: "64FD6DEAC34197ED"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					id: "03F559E6D7E660D3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a tablet of summon wilden."
+			tasks: [{
+				id: "10634AA136F4F169"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: -1.1999999999999993d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Digs 4 surrounding holes to bedrock. Refer to worn notebook for details."
+				"&7Rewards: x1 block of emerald, x1 xp level"
+			]
+			id: "47356847F46611A8"
+			rewards: [
+				{
+					id: "4430DDCE6F3A3017"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "62D2C7CF48F9506D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a tablet of burrowing."
+			tasks: [{
+				id: "6EF3E29A41D94EFC"
+				item: "ars_nouveau:ritual_burrowing"
+				type: "item"
+			}]
+			x: 1.6000000000000014d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Used to bring an illager raid when used within a village."
+				"&7Rewards: x1 source gem block, x1 Loot Bundle Fragment"
+			]
+			id: "0987AFDA8BC98D1A"
+			rewards: [
+				{
+					id: "408036F56A5405A3"
+					item: "ars_nouveau:source_gem_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "05E294F48E4A9C68"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a tablet of challenge."
+			tasks: [{
+				id: "7BE9B045288644FE"
+				item: "ars_nouveau:ritual_challenge"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.3999999999999986d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Used to change the weather. Refer to worn notebook for details."
+				"&7Rewards: x2 gold sword, x1 xp level"
+			]
+			id: "2F264CC69B3D4BEC"
+			rewards: [
+				{
+					count: 2
+					id: "140E577638FDFD82"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0384455EC54CB133"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a tablet of cloudshaping."
+			tasks: [{
+				id: "0E15EE83AABB4587"
+				item: "ars_nouveau:ritual_cloudshaping"
+				type: "item"
+			}]
+			x: 2.3999999999999986d
+			y: 2.8000000000000007d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Destroys nearby monsters providing you with twice as much experience. Refer to worn notebook for details."
+				"&7Rewards: x1 golden apple, x1 blaze rod"
+			]
+			id: "264AACA5A95D4302"
+			rewards: [
+				{
+					id: "4F4CFB4B8D3B9999"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "6C937B373B3819BC"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a tablet of disintegration."
+			tasks: [{
+				id: "3CADE11CEDBA6AB1"
+				item: "ars_nouveau:ritual_disintegration"
+				type: "item"
+			}]
+			x: 1.8000000000000007d
+			y: 3.5d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Occasionally causes nearby animals to breed. Refer to worn notebook for details."
+				"&7Rewards: x3 wilden wing, x1 xp level"
+			]
+			id: "34574C1A8EBAE94F"
+			rewards: [
+				{
+					count: 3
+					id: "0506D8B890F9C66A"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+				{
+					id: "1ACBC480AD3F2F55"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a tablet of fertility."
+			tasks: [{
+				id: "399A1E79E37AE6A9"
+				item: "ars_nouveau:ritual_fertility"
+				type: "item"
+			}]
+			x: 2.3999999999999986d
+			y: 4.300000000000001d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Allows short-term creative flight. Refer to worn notebook for details."
+				"&7Rewards: x1 clock, x1 Loot Bundle Fragment"
+			]
+			id: "700DD344A2DCABEA"
+			rewards: [
+				{
+					id: "40890FF2F197E336"
+					item: "minecraft:clock"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2A63D70076071E5D"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a tablet of flight."
+			tasks: [{
+				id: "075CAD33B28DB0A4"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			x: 2.8000000000000007d
+			y: 5.199999999999999d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Magically turn day into night. Refer to worn notebook for details."
+				"&7Rewards: x2 magebloom, x1 earth essence"
+			]
+			id: "7127E05E6D1D1074"
+			rewards: [
+				{
+					count: 2
+					id: "7BEC263FFFA92F9A"
+					item: "ars_nouveau:magebloom"
+					type: "item"
+				}
+				{
+					id: "494C4BAE81D2BBC2"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a tablet of moonfall."
+			tasks: [{
+				id: "4E1296EAE9B7F873"
+				item: "ars_nouveau:ritual_moonfall"
+				type: "item"
+			}]
+			x: 1.8999999999999986d
+			y: 5.399999999999999d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"This tablet occasionally bone meals nearby plants or causes baby animals to grow. Refer to worn notebook for details."
+				"&7Rewards: x2 abjuration essence, x1 xp level"
+			]
+			id: "120439731CD667E0"
+			rewards: [
+				{
+					count: 2
+					id: "7FDD8874937758FB"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "7E3A4A47BE228A78"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a tablet of overgrowth."
+			tasks: [{
+				id: "136E9512E73C1A54"
+				item: "ars_nouveau:ritual_overgrowth"
+				type: "item"
+			}]
+			x: 0.8000000000000007d
+			y: 5.300000000000001d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Used to heal or harm nearby entities. Also used to cure zombie villages. Refer to worn notebook for details."
+				"&7Rewards: x3 spider eye, x1 Loot Bundle Fragment"
+			]
+			id: "4FBF5BB4443189E2"
+			rewards: [
+				{
+					count: 3
+					id: "6E36E6E0429D273B"
+					item: "minecraft:spider_eye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "44F3DB3FD3C00EFB"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a tablet of restoration."
+			tasks: [{
+				id: "3B8BEF963BB0E806"
+				item: "ars_nouveau:ritual_restoration"
+				type: "item"
+			}]
+			x: 0.3000000000000007d
+			y: 6.199999999999999d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"Allows you to see a certain block for a period of time. Refer to worn notebook for details."
+				"&7Rewards: x8 blazing archwood log, x1 xp level"
+			]
+			id: "36448E5CA5AB47E8"
+			rewards: [
+				{
+					count: 8
+					id: "1D7EE10CB574192D"
+					item: "ars_nouveau:red_archwood_log"
+					type: "item"
+				}
+				{
+					id: "31D5E2C5F6E99EF8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a tablet of scrying."
+			tasks: [{
+				id: "44A9490036C57FFC"
+				item: "ars_nouveau:ritual_scrying"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.600000000000001d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"This tablet is used to create daytime. Refer to worn notebook for details."
+				"&7Rewards: x1 source gem block, x1 blank parchment"
+			]
+			id: "366807F27AC278CC"
+			rewards: [
+				{
+					id: "3B0E9D65F12CC446"
+					item: "ars_nouveau:source_gem_block"
+					type: "item"
+				}
+				{
+					id: "405C42B683E8DD95"
+					item: "ars_nouveau:blank_parchment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a tablet of sunrise."
+			tasks: [{
+				id: "1B7C4731648E3F5B"
+				item: "ars_nouveau:ritual_sunrise"
+				type: "item"
+			}]
+			x: -1.3999999999999986d
+			y: 5.899999999999999d
+		}
+		{
+			dependencies: ["11A1C5F30AB821AB"]
+			description: [
+				"A one-time warp to a specified location. Refer to worn notebook for details."
+				"&7Rewards: x1 tablet of warping, x1 Loot Bundle Fragment"
+			]
+			id: "44C4550D05119C3B"
+			rewards: [
+				{
+					id: "242A12B25B784E51"
+					item: "ars_nouveau:ritual_warping"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2C3F760EDB76527A"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a tablet of warping."
+			tasks: [{
+				id: "7BCB1902268C3E96"
+				item: "ars_nouveau:ritual_warping"
+				type: "item"
+			}]
+			x: -1.6000000000000014d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4A365455010D6D6D"
+				"02718A17D7E3EC8D"
+				"0B3FA8F058B6FF71"
+				"5560F5E3693E07B7"
+				"3AC265241AE9AD05"
+				"37650DCA829B8E3F"
+				"7127E05E6D1D1074"
+				"64C344F02BCB64EC"
+				"32E326DA9CA1BD82"
+				"7D3FF1738E769221"
+				"7CFD13EA2DDE2BD4"
+				"3CA4F8E794EE47B2"
+				"7CB4F07299A48C45"
+				"082BC6C3FBE00220"
+				"1D05DDF6D2888551"
+				"315D3E9976FB2D15"
+				"516CFC0B5471FE3D"
+				"7C2D11F41A5DB9B5"
+				"6B96CCCADF13BE7E"
+				"2F264CC69B3D4BEC"
+				"318FE863FFB73E69"
+				"0E20A46F7F8E1FFE"
+				"364DD2BF7490AF23"
+				"11A1C5F30AB821AB"
+				"16BB2882C4FD3D85"
+				"120439731CD667E0"
+				"7BC3CA76905B2AAC"
+				"5BD728714FF71515"
+				"342CE620BF236566"
+				"46D55950901BB9D1"
+				"1B532888B33CD3B6"
+				"5A39A085322805C5"
+				"36448E5CA5AB47E8"
+				"3B6B983460D307D0"
+				"73095637499D89FE"
+				"5E78D41B3E536F54"
+				"415D5A083C7B5549"
+				"661864EAF1899C13"
+				"71FE35ADC31BA921"
+				"31D487E347B8D5E4"
+				"2BD3FE2617B85D26"
+				"29DCD2B494CBE8CD"
+				"351DD22A13FF9AA7"
+				"26FEBCBBD9B6DB85"
+				"786E0D21238E63B6"
+				"3AB0B1AB3C60F003"
+				"55D86E6E805C6293"
+				"76ACE64F27DB3D45"
+				"7628DDB2D3E32F04"
+				"700DD344A2DCABEA"
+				"76107859FBA6696E"
+				"55CB9CC550F9AE74"
+				"286AC891E2FCFE82"
+				"7521ACED546CC028"
+				"76AFD59E30B8BA03"
+				"610089B9D72A9418"
+				"61FAD28793FDD30C"
+				"0987AFDA8BC98D1A"
+				"7D748F298E1E9ACC"
+				"685FDD255FF32419"
+				"289D70C9F6BF3F7A"
+				"366807F27AC278CC"
+				"1746C9FDC6B96D95"
+				"7595D44E3CA824E9"
+				"3F57F0B2DA4C5E35"
+				"17E2FA0DBA202351"
+				"6E49B62B376EB692"
+				"385F201672EBE203"
+				"5329CBCAF8C94C82"
+				"214E613632AF1B7C"
+				"2E2A4FA43636CB14"
+				"33F69A0AEAD92288"
+				"264AACA5A95D4302"
+				"19E590CFEBB55029"
+				"127D8E5924E63B75"
+				"3B27A0AA5C9694AC"
+				"1E5D996648134990"
+				"34574C1A8EBAE94F"
+				"6F2C846AB59D8767"
+				"47356847F46611A8"
+				"708EDCD56ABDC95B"
+				"7350C8F76BD231CB"
+				"46CCDB94850BB7EC"
+				"26E6DFAEB57046FD"
+				"0A8782F5CEB79603"
+				"7BE5F5A0273E53B2"
+				"40B0D07B6B7ED47E"
+				"0186520D081DD15B"
+				"520E3B6508940832"
+				"5F4A9E172D7688E5"
+				"741E5269E03DC999"
+				"4FBF5BB4443189E2"
+				"42FB644EC5B67CDA"
+				"5B89F945BA14F202"
+				"16094A38C3C2B628"
+				"22BB5636BA5A7C0C"
+				"591CFF3E5EC66238"
+				"6F7EC513F06458E9"
+				"4B6E70628E970A79"
+				"44C4550D05119C3B"
+				"3A012F3AE5578686"
+				"64A2C2148A62A13F"
+				"00C12B1F1C39E709"
+				"0F8E94CA26BFA508"
+				"7B53E932D2E16475"
+				"7271A76BE27B1997"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:earth_globe"
+			id: "7EC720A31547FDE2"
+			rewards: [{
+				count: 8
+				id: "215A2958E1554FD1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Complete all the quests in this chapter."
+			tasks: [{
+				id: "42B58A8B6B69363D"
+				title: "Completionist"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Magical spells, devices, and trinkets."]
+	title: "&3ᴀʀѕ ɴᴏᴜᴠᴇᴀᴜ"
+}

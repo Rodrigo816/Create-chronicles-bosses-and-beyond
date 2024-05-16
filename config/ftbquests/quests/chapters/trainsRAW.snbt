@@ -1,0 +1,425 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trainsRAW"
+	group: "4546D7737CBFFD68"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "create:item/track"
+		}
+	}
+	id: "49F2E957B809EF84"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "minecraft:textures/cbe/ui/quest_titles/createatrain.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 3.0d
+		y: -4.0d
+	}]
+	order_index: 48
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The &6sturdy sheets&r mark the start of the train age, you will benefit from having lava and obsidian generating passively at this point if you plan to have an expansive and grand rail line throughout your world"]
+			id: "4A9D0D014C61CB7B"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "7D5F2EB5174088FB"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "14B31A1DAB4E9B2F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "54CCAA81D14B0965"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+			]
+			subtitle: "The start of the great railways"
+			tasks: [{
+				id: "1A117124D1443A87"
+				item: "create:sturdy_sheet"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A9D0D014C61CB7B"]
+			description: ["The &6train casing&r is the main block use to create all things train related"]
+			id: "4CCDD0283D36BD8A"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "2CFDB3C8D1CCB841"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Almost ready to assemble"
+			tasks: [{
+				id: "4EA6C47E61AF31B8"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["The &6train track&r is the thing that the train need to be assembled on and that they run on. They are integral for a train system to work"]
+			id: "029007D8E8446038"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "282164FA0AFECEA3"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "56F2340474F71E25"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1446707B35B2F2B3"
+					item: "create:track"
+					type: "item"
+				}
+			]
+			subtitle: "The key to train travel"
+			tasks: [{
+				id: "1D1D77B5DD53DA06"
+				item: "create:track"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CCDD0283D36BD8A"]
+			description: ["The &6train station&r is the part that makes trains work. You can create a train from within gui of the train station. It's other job is as the place where the train will stop along a route, these are the place you enter into the &etrain schedule&r as the stopping locations"]
+			id: "2DCF9C41FA7D28E4"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "71ED362795A85202"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "358C029FAB439DA2"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "04780649563F3752"
+					item: "create:track_station"
+					type: "item"
+				}
+			]
+			subtitle: "Waypoints for trains"
+			tasks: [{
+				id: "702ED242796030C8"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCDD0283D36BD8A"]
+			description: [
+				"The &6train signal&r helps with keeping trains from going the wrong way as a train won't pass over a &6train signal&r if it is facing the wrong direction."
+				"The &6signal&r can be made a 2 way &6signal&r by having one on either side of the track, having a 2 way &6signal&r will make it so a train can pass it if the scheduled station is on the other side"
+			]
+			id: "3BF442790F0F281C"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "7EE43030D39391F6"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "5C5CED0BCAD0C47D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1820FEF7991FCACF"
+					item: "create:track_signal"
+					type: "item"
+				}
+			]
+			subtitle: "Help's with train flow"
+			tasks: [{
+				id: "212E4DD4A0063AD0"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CCDD0283D36BD8A"]
+			description: [
+				"The &6train observer&r will look at a specific part of the train track and detect when a train is crossing that specific section of track. It will give out a redstone signal when it detects a train going over that piece of track"
+				""
+				"The &6train observer&r can also only detect when a specific cargo is being held within the train."
+			]
+			id: "049BDED68524411F"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "244F374FEAF803EE"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Watches for trains"
+			tasks: [{
+				id: "67E2B2B90385109F"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCDD0283D36BD8A"]
+			description: ["The train controls are the block that is needed to allow your train to move once it's assembled. If you put 2 &6train controls&r in a single train then the train will be able to travel in both directions "]
+			id: "187518D514B536F4"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "0764115255545413"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "2F8C23C1739B9BBF"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3C4F390A5388FBF3"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			subtitle: "Make a train move"
+			tasks: [{
+				id: "52DFAB64340F5178"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCDD0283D36BD8A"]
+			description: [
+				"The &6train door&r has 3 modes and each of the modes decide how the door will intereact."
+				""
+				"The normal mode lets the player interact with the door but it also will auto open and shut depending on whether the machine is moving or not"
+				""
+				"The manual mode lets the player interact with the door like it's a regular door"
+				""
+				"The special mode doesn't let the player interact and will only open and close when moving or with a redstone signal (shift + right click will override the special mode)"
+			]
+			id: "457F1F059FD8B0CE"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "4A916911D6586448"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "2146028C6749FDD8"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1FCBDE88EBD23A35"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			subtitle: "Fancy door"
+			tasks: [{
+				id: "14E3604550DE3F8C"
+				item: "create:train_door"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCDD0283D36BD8A"]
+			id: "3E10D349E202CC89"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "259772F0458F42E1"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "4FFFD416CF74B9DF"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "7D49B26300A1FD25"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			subtitle: "Aesthetic trapdoor"
+			tasks: [{
+				id: "369CF9C3B545DDFC"
+				item: "create:train_trapdoor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCDD0283D36BD8A"]
+			description: ["The &6red seat&r is helpful to have within the train system, especially when it's next to the train control as it will let you put a mob onto the train and the mob will then be able to controll the train's movements"]
+			id: "27FE80664E75A40D"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "59B5189ADEB7FE0B"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "A seat to sit on in a train"
+			tasks: [{
+				id: "333CE6EF38272291"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:seats"
+					}
+				}
+				title: "Any #create:seats"
+				type: "item"
+			}]
+			title: "Seat"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCDD0283D36BD8A"]
+			description: [
+				"The &6train schedule&r is helpful as you can decide what order a train goes from station to station and how long it is at the station before it departs for the next station."
+				""
+				"You can right click a mob on a &ered seat&r that is next to the train controls to set that mob as the train conductor and they will follow the train schedule"
+			]
+			id: "34C409E6FF596E2A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "6412300EC05FB9F5"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "47B7D21DD1A19699"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "593CCB6884E593A5"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+			]
+			subtitle: "Decide when trains move"
+			tasks: [{
+				id: "13615DD669E0CB81"
+				item: "create:schedule"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"27FE80664E75A40D"
+				"187518D514B536F4"
+				"34C409E6FF596E2A"
+				"3E10D349E202CC89"
+				"029007D8E8446038"
+				"4A9D0D014C61CB7B"
+				"049BDED68524411F"
+				"2DCF9C41FA7D28E4"
+				"4CCDD0283D36BD8A"
+				"457F1F059FD8B0CE"
+				"3BF442790F0F281C"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:earth_globe"
+			id: "238D6849ADE8534E"
+			rewards: [{
+				count: 8
+				id: "1A658043C419D282"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Complete all the quests in this chapter."
+			tasks: [{
+				id: "6BB09BDA4782266F"
+				title: "Completionist"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+	]
+	title: "&73 &3ᴄʀᴇᴀᴛᴇ ᴀ ᴛʀᴀɪɴ"
+}

@@ -1,0 +1,1659 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "assorted_goals"
+	group: "4546D7737CBFFD68"
+	icon: "minecraft:furnace"
+	id: "12D4862FD0A5F7F5"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "minecraft:textures/cbe/ui/quest_titles/part1.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 2.0d
+		y: -4.5d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1AC4A5B8D86CAB0F"]
+			description: ["The Part Builder is where you take a pattern, take your base materials, and craft the individual components of the tool you want to construct."]
+			id: "75B36BB7FE771333"
+			subtitle: "Craft your tool party with this."
+			tasks: [{
+				id: "0793DCFD2EA88A6B"
+				item: {
+					Count: 1b
+					id: "tconstruct:part_builder"
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+				type: "item"
+			}]
+			title: "Part Builder"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1AC4A5B8D86CAB0F"]
+			description: [
+				"The Tinker Station is where you assamble your Tinker's Construct tools, which will be needed to grab stone, copper, and iron. Wooden and stone tools are the first goal, as the canilla recipes of these no longer exist."
+				""
+				"You can also repair Tinker's Construct tools at this station by placing your tool in the right-most slot and it's materials in any other slot. It's super convenient! You can also invest in repair kirs ro repair Tinker's Construct tools right from your inventory!"
+			]
+			id: "584489E0781D5C0C"
+			subtitle: "Assamble your tools with this."
+			tasks: [{
+				id: "7E9FEA64819569DC"
+				item: {
+					Count: 1b
+					id: "tconstruct:tinker_station"
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+				type: "item"
+			}]
+			title: "Tinker Station"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75B36BB7FE771333"]
+			description: ["Make any Tinker's Construct tool part in the Part Builder."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/painting/wasteland.png"
+				}
+			}
+			id: "29AF19492CFCB2DB"
+			rewards: [{
+				id: "292903F1AB1DB1C2"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			subtitle: "Each tool usually consists of three or more components which can be combined into a full tool, give it a go!"
+			tasks: [{
+				advancement: "tconstruct:tools/make_part"
+				criterion: ""
+				id: "0939A1A78118E737"
+				type: "advancement"
+			}]
+			title: "Advancement: &eTool Parts"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"29AF19492CFCB2DB"
+				"584489E0781D5C0C"
+			]
+			description: [
+				"Now that you have mining tools, nothiing is stopping you from skipping ahead and making a Melter with seared bricks. Until then, this encyclopedia will update as you progress in Tinker's Construct, so keep it on hand. We've also thrown in an interesting book about gadgets for you to look around!"
+				""
+				"Other than that, time to start the other half of \"Minecraft\"!"
+				""
+				"Note: Pressing the (V) key (default binding) will switch better combat compatible tools between attacking mode and use mode. Perfect for combat situations."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "createdeco:textures/block/palettes/decal/brown_decal.png"
+				}
+			}
+			id: "0FC0B4E8EC58F791"
+			rewards: [
+				{
+					id: "660CC63F25D4B6C5"
+					item: "tconstruct:tinkers_gadgetry"
+					type: "item"
+				}
+				{
+					id: "540BF27B86E16E58"
+					item: "tconstruct:encyclopedia"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Combine tool parts in the Tinker Station to create your first Tinker's Construct tool."
+			tasks: [{
+				advancement: "tconstruct:tools/tinker_tool"
+				criterion: ""
+				id: "2722741D5C4A6C82"
+				type: "advancement"
+			}]
+			title: "Advancement: &eNovice Tinker"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FC0B4E8EC58F791"]
+			description: ["With access to smelting, the basic copper tools can fill in for where iron would be in your usual progression."]
+			id: "601A619C6E96920A"
+			rewards: [
+				{
+					id: "5D6FD8197D731E3E"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "563798D5608355A7"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Where did the bricks come from..."
+			tasks: [{
+				id: "29288FDE98AD30BB"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["601A619C6E96920A"]
+			description: ["Copper should keep you safe before the ability to process iron has ben discovered."]
+			icon: "minecraft:copper_ingot"
+			id: "11ACD707D7284920"
+			tasks: [{
+				id: "091AFA0FDB6FB307"
+				title: "{chapter.1.quest.8.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "Copper Utilities"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CE5BB6A7B30CA4C"]
+			description: ["Figured out how to make meals, eh? Now, here is a list of crops to automate when you complete the quest."]
+			id: "4F4C278C3A8C0281"
+			optional: true
+			rewards: [{
+				id: "70A134C16BEE9213"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/place_cooking_pot"
+					criterion: ""
+					id: "7CF09198104851C2"
+					type: "advancement"
+				}
+				{
+					id: "52A55DABB4ACFF56"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "26602780EFF4F47D"
+					item: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Let's Get Cooking"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["601A619C6E96920A"]
+			description: ["Why not try and wear a full set of golden armor? Just for the flex i'll give you some mad loot for the deservung chad you are."]
+			id: "5E6B48D6A4254759"
+			optional: true
+			rewards: [
+				{
+					id: "3B8BEA1DD35933B7"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "64B9A4353C49300E"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "4D7B25FD0B84E234"
+					item: {
+						Count: 1b
+						id: "campanion:golden_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Livin' life like Larry!"
+			tasks: [
+				{
+					id: "2CF21C86BDEC17C9"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6147E82FBBFCE6C1"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7807C759C6353BD2"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26B5E87291EAC402"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Golden Armor"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0BCED0F8481E0C21"]
+			description: ["Beginning your brewing journey will allow access to potion effects before potion brewing is available!"]
+			hide_dependency_lines: true
+			id: "05E45A7D1C9927E5"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "2FB3A079A96DE590"
+				item: "create:dough"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Alchoholics Anonymous"
+			tasks: [
+				{
+					id: "06BFB633FC06AF54"
+					item: "drinkbeer:beer_barrel"
+					type: "item"
+				}
+				{
+					id: "1CA938F3C387BA3E"
+					item: "drinkbeer:recipe_board_package"
+					type: "item"
+				}
+			]
+			title: "The Beginning of a Problem."
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05E45A7D1C9927E5"]
+			description: ["Bartering will allow you to obtain loot and spice for your beer. They have a tendency to request stone and wooden tools, which are removed, so when you get to copper age  these can be substituted for 1 copper ingot."]
+			id: "3E499250F88E22DA"
+			optional: true
+			tasks: [{
+				id: "4C08DE69B9F3B0D9"
+				item: "drinkbeer:trade_box_normal"
+				type: "item"
+			}]
+			title: "Amateur Brewery"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"You start in a Vault deep underground, get some underroot seeds from the chest and start producing some wood for your first tinkers tools. (normal tools cant break blocks)"
+				""
+				"escape the bunker, and beginn your journey towards the stars and beyond!"
+				""
+				"&7&othis page is work in progress!"
+			]
+			id: "0BCED0F8481E0C21"
+			rewards: [
+				{
+					id: "10ED69DCCDA4E6C2"
+					item: "minecraft:white_bed"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "033BA9F7707381D5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"falloutcraft:item_radiation": {
+								radiation: 0.0d
+							}
+						}
+						id: "minecraft:torch"
+						tag: {
+							radiation: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "start with tinkers construct."
+			tasks: [
+				{
+					id: "7762F7FD3BD41EA6"
+					item: {
+						Count: 1b
+						id: "tconstruct:crafting_station"
+						tag: {
+							radiation: { }
+							texture: "minecraft:oak_log"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "576B4EA932FC2E16"
+					item: {
+						Count: 1b
+						id: "minecraft:crafting_table"
+						tag: {
+							radiation: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Let's Craft some things!"
+			x: 0.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BCED0F8481E0C21"]
+			description: [
+				"Tinkers's Construct is a mod that allows you to create higly customized tools by allowing you to craft each individual compart with a wide range of material options, each with different effects."
+				""
+				"The early game tools will require you to use a lot of patterns and a few special workbenches. For now, stockpile a couple of patterns."
+				""
+				"The reward for this request will provide you supplemental insights to how the process works, as well as the tool materials you may use and what effects they have."
+				""
+				"&7&oif you want to learn more about tinkers construct, have a look at the quest chapter under tools and armor!"
+			]
+			id: "1AC4A5B8D86CAB0F"
+			rewards: [{
+				id: "1D969A2DAF5418C8"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			subtitle: "Let's get started with the basics of Tinkers Construct."
+			tasks: [{
+				count: 3L
+				id: "0A56270F3A56875F"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			title: "3x Pattern"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FC0B4E8EC58F791"]
+			description: ["Iron and tin: they're essential, but a stone pickaxe from Tinker's Construct is required! Don't use a stone pickaxe though! They are effectivly a wood tier tool!"]
+			id: "6698096C19C55333"
+			subtitle: "We have iron at home:"
+			tasks: [
+				{
+					count: 8L
+					id: "45D6962D76FE0D81"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "753722BA8991D63B"
+					item: "mekanism:raw_tin"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0A51F489FEEE71F0"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+			]
+			title: "Get Those Resources!"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BCED0F8481E0C21"]
+			description: ["You'll need some of this tice too, plant it and get yourself some straw!"]
+			hide_dependency_lines: true
+			id: "2CE5BB6A7B30CA4C"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "11032AC6D056CDC5"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Let's begin with some light cooking."
+			tasks: [{
+				id: "5F1D78666FED176F"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "Begin Your Chef Career"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2CE5BB6A7B30CA4C"]
+			description: ["Lots of new crops in Farmer's Delight, can you automate them all?"]
+			id: "504201C234C38437"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "4BB9B1AC0821A6AD"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F0EB60847E4ECF7"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			title: "Acquiring New Materials."
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0FC0B4E8EC58F791"]
+			description: [
+				"All my homies hate enchanting early game, let's get some REAL man's drip."
+				""
+				"Craft a full set of traveller's gear and I'll bless wih you a gift. You'll need to dig through JEI and the Tinker's Construct books yourself. Fair?"
+			]
+			id: "78E055160B11FC48"
+			optional: true
+			rewards: [
+				{
+					count: 12
+					id: "4D442FD95DEBC09A"
+					item: "minecraft:gray_dye"
+					type: "item"
+				}
+				{
+					id: "003476D34FD33AD5"
+					item: "reinfchest:iron_chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "tconstruct:tools/travelers_gear"
+				criterion: ""
+				id: "100F661313FF3C14"
+				type: "advancement"
+			}]
+			title: "Advancement: &eTraveler"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F4C278C3A8C0281"]
+			id: "6D072F2027D8DFCE"
+			optional: true
+			rewards: [{
+				count: 25
+				id: "70CEAFBC1ED06AAF"
+				item: "minecraft:copper_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "072F87225B252EF0"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			title: "Gather! 64 Melon Blocks"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F4C278C3A8C0281"]
+			id: "1645C544BEBC01EE"
+			optional: true
+			rewards: [{
+				count: 20
+				id: "7EF1AFDAC31ED87C"
+				item: "minecraft:gold_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "1E76A2267860CAB1"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			title: "Gather! 64 Cactus"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F4C278C3A8C0281"]
+			id: "79886A5C435F29E0"
+			optional: true
+			rewards: [{
+				count: 20
+				id: "62BE7175BE9B0DED"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "455B346FB9ADE2BB"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			title: "Gather! 64 Pumpkins"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F4C278C3A8C0281"]
+			hide_dependency_lines: true
+			id: "513E187ADFD4F2A4"
+			optional: true
+			rewards: [{
+				count: 30
+				id: "64C5214D379321F1"
+				item: "minecraft:deepslate_copper_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "1CB5135CDE0FEAB3"
+				item: "farmersdelight:carrot_crate"
+				type: "item"
+			}]
+			title: "Gather! 64 Carrot crates"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F4C278C3A8C0281"]
+			hide_dependency_lines: true
+			id: "09A4CEF0AF68A055"
+			optional: true
+			rewards: [
+				{
+					count: 25
+					id: "3127F7CCD4E19F3F"
+					item: "minecraft:deepslate_gold_ore"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2AD4060B4904CB4D"
+					item: "create:zinc_ore"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "107F3E609ABD62F6"
+				item: "farmersdelight:potato_crate"
+				type: "item"
+			}]
+			title: "Gather! 64 Potato crates"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F4C278C3A8C0281"]
+			hide_dependency_lines: true
+			id: "6FF9501CDF19F0D5"
+			optional: true
+			rewards: [{
+				count: 25
+				id: "52FC831AEA7F2A46"
+				item: "minecraft:deepslate_redstone_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "51D0686E879398CF"
+				item: "farmersdelight:beetroot_crate"
+				type: "item"
+			}]
+			title: "Gather! 64 Beetroot crates"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F4C278C3A8C0281"]
+			hide_dependency_lines: true
+			id: "1858F35E1B7128AA"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "19EF8ED55AE8ABED"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "632EC9B47BD48D61"
+				item: "farmersdelight:rice_bag"
+				type: "item"
+			}]
+			title: "Gather! 64 Bags of Rice"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F4C278C3A8C0281"]
+			hide_dependency_lines: true
+			id: "641D3099B18682CD"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "7DB7488CBDF70735"
+					item: "minecraft:deepslate_copper_ore"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "02A45F4DBF2CD22C"
+					item: "naturalist:cooked_venison"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "371A5F8851677000"
+				item: "farmersdelight:onion_crate"
+				type: "item"
+			}]
+			title: "Gather! 64 Onion crates"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F4C278C3A8C0281"]
+			hide_dependency_lines: true
+			id: "0C6D7B3DCF139FA9"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "504F364ED908935F"
+				item: "minecraft:redstone_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "559246BCCF5EDD0A"
+				item: "farmersdelight:tomato_crate"
+				type: "item"
+			}]
+			title: "Gather! 64 Tomato crates"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F4C278C3A8C0281"]
+			hide_dependency_lines: true
+			id: "4E0B5BFE718A99CD"
+			optional: true
+			rewards: [{
+				count: 25
+				id: "15293C6F9430DA31"
+				item: "minecraft:emerald_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "01BAB43531550385"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"falloutcraft:item_radiation": {
+							radiation: 0.0d
+						}
+					}
+					id: "farmersdelight:cabbage_crate"
+					tag: {
+						radiation: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather! 64 Cabbage crate"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E499250F88E22DA"]
+			description: ["(Oh yeah, it was worth it.)"]
+			id: "69C0C2601F6F79A7"
+			optional: true
+			rewards: [{
+				id: "3415146CCA0548A2"
+				item: {
+					Count: 1b
+					id: "mcdw:axe_encrusted_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Was it worth it?"
+			tasks: [
+				{
+					consume_items: false
+					id: "6E1B4CE64F9E6A8F"
+					item: "drinkbeer:spice_blaze_paprika"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "764CD4323F636BDF"
+					item: "drinkbeer:spice_dried_eglia_bud"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0D98C3FD843D2C07"
+					item: "drinkbeer:spice_smoked_eglia_bud"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0D087B8E65CA9C46"
+					item: "drinkbeer:spice_amethyst_nigella_seeds"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00B2396D3A8C1EE5"
+					item: "drinkbeer:spice_citrine_nigella_seeds"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1E78F09CA1D956AB"
+					item: "drinkbeer:spice_ice_mint"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2D2910BB2441F6E1"
+					item: "drinkbeer:spice_ice_patchouli"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1C2F140FF8B9BBF3"
+					item: "drinkbeer:spice_storm_shards"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1C7B42E48B5032C8"
+					item: "drinkbeer:spice_roasted_red_pine_nuts"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6922A26AAFAB484D"
+					item: "drinkbeer:spice_glace_goji_berries"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5CE763E3FD012D33"
+					item: "drinkbeer:spice_frozen_persimmon"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1B55F8D7A019169A"
+					item: "drinkbeer:spice_roasted_pecans"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4AABA452BC41B753"
+					item: "drinkbeer:spice_silver_needle_white_tea"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4CDF96F4E1232628"
+					item: "drinkbeer:spice_golden_cinnamon_powder"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1D3D2EAD17CF1B00"
+					item: "drinkbeer:spice_dried_selaginella"
+					type: "item"
+				}
+			]
+			title: "Very Nice Spice."
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["504201C234C38437"]
+			description: ["These backpacks are very useful, they have upgrade slots for more capacity, a magnet , or even a furnace!"]
+			id: "501AD44D7875F4D9"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "1E0A00A53BFB7196"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:copper_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Portable Storage? Excellent..."
+			tasks: [{
+				id: "18650A6066610756"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						borderColor: 11546150
+						clothColor: 11546150
+						contentsUuid: [I;
+							865281576
+							1558398733
+							-1378168771
+							-787071755
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "I LOVE BACKPACKS"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"641D3099B18682CD"
+				"0C6D7B3DCF139FA9"
+				"4E0B5BFE718A99CD"
+				"09A4CEF0AF68A055"
+				"6FF9501CDF19F0D5"
+				"513E187ADFD4F2A4"
+				"1858F35E1B7128AA"
+			]
+			description: ["Show me yer' able to complete TWO of these stockpile quests, and i'll be convinced to let you buy er'. A feast for the ages will be enough to convince me... so get cooking'!"]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "automobility:automobile"
+				tag: {
+					Automobile: {
+						engine: "automobility:stone"
+						frame: "automobility:yellow_tractor"
+						wheels: "automobility:standard"
+					}
+				}
+			}
+			id: "0F603C66B0DD9BFB"
+			min_required_dependencies: 2
+			optional: true
+			rewards: [
+				{
+					id: "232350F6BEEC2223"
+					item: {
+						Count: 1b
+						id: "automobility:automobile"
+						tag: {
+							Automobile: {
+								engine: "automobility:stone"
+								frame: "automobility:yellow_tractor"
+								wheels: "automobility:standard"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AF46BEC2356A087"
+					item: {
+						Count: 1b
+						id: "automobility:front_attachment"
+						tag: {
+							attachment: "automobility:crop_harvester"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Look at this beauty, I'll let you have 'er, on one conditions."
+			tasks: [
+				{
+					consume_items: true
+					id: "5B7767AF93468997"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5E5F647D4E1B8FA8"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0F29879D9EF58B97"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4DB6A8FA8649EFCB"
+					item: "farmersdelight:grilled_salmon"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4A755F7357DEB0E3"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0049FAB8BA645AC9"
+					item: "farmersdelight:barbecue_stick"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4A6FBE14B11C4CDB"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0AD30A191611C436"
+					item: "farmersdelight:vegetable_noodles"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "74309904F6073640"
+					item: "farmersdelight:dumplings"
+					type: "item"
+				}
+			]
+			title: "I'd Rather be Tractor!"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"601A619C6E96920A"
+				"6698096C19C55333"
+			]
+			description: [
+				"Tin an Copper will be used for a new metal needed to create the gears of industry, while andesite and clay form the cornerstones of Create. You'll want to stockpile far  more what's needed to clear this quest."
+				""
+				"Feel free to refer back to this tab for basic info on some of the simpler content."
+			]
+			id: "1337920DA45E72AD"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Have a look at the create quest chapter!"
+			tasks: [
+				{
+					count: 8L
+					id: "5ACD13D871B7909B"
+					item: "mekanism:ingot_tin"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "32032BEF96EE21E3"
+					item: {
+						Count: 1b
+						id: "minecraft:copper_ingot"
+						tag: {
+							radiation: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "069C76715AC2E719"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_ingot"
+						tag: {
+							radiation: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6B75A05B669468D5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"falloutcraft:item_radiation": {
+								radiation: 0.0d
+							}
+						}
+						id: "minecraft:andesite"
+						tag: {
+							radiation: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5F9D6891E391AC4E"
+					item: {
+						Count: 1b
+						id: "minecraft:clay"
+						tag: {
+							radiation: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&71. &3Let's Create"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30671A15990F39D8"]
+			id: "791D3292F22706E6"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "37C1156AB1726C5E"
+				item: "minecraft:moss_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40EFAB1EA82C0179"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			title: "Botanist's Workbench"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30671A15990F39D8"]
+			id: "61268E9695C2B0B0"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "412393C0BD8AAFC9"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "686BE4BE4E9EE3FB"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			title: "Glassblower's Workbench"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30671A15990F39D8"]
+			id: "441D6F369B7912E5"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "2C267CF0C88E548F"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F02DF2E116D3E92"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			title: "Carpenter's Workbench"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30671A15990F39D8"]
+			id: "5FFC7DFF4294C81A"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "1F16D277E7B3D5DD"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74EB7FF43AA93703"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			title: "Shepherd's Workbench"
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30671A15990F39D8"]
+			id: "65C0B4100CD88D77"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "5B3D1DB7984B6EA4"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			tasks: [{
+				id: "184486A840B467DE"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			title: "Mason's Workbench"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30671A15990F39D8"]
+			id: "11B2E25F18AD9C35"
+			optional: true
+			rewards: [{
+				id: "302E910F93ECC032"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1077A31DBE0B61EF"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			title: "Philosopher's Workbench"
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"11ACD707D7284920"
+				"6433AD83545428C3"
+			]
+			description: ["Copper chests offer more inventory space than boring noold wooden chests!"]
+			id: "22EDB2C326C53A89"
+			rewards: [{
+				id: "75AB59721C18FE4E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"falloutcraft:item_radiation": {
+							radiation: 0.0d
+						}
+					}
+					id: "sophisticatedstorage:copper_chest"
+					tag: {
+						radiation: { }
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Give me better storage"
+			tasks: [{
+				id: "247A190DDF6719BF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"falloutcraft:item_radiation": {
+							radiation: 0.0d
+						}
+					}
+					id: "sophisticatedstorage:copper_chest"
+					tag: {
+						radiation: { }
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "Copper Chest"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2CE5BB6A7B30CA4C"]
+			description: ["These tiles connect all Cooking for Blockeads blocks between them, so use them as a floor in your kitchens."]
+			id: "3522109BABC7E48B"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "3E69ED9AD85027DE"
+				item: "chipped:white_concrete_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34A0BAA9C0AE7A74"
+				item: "cookingforblockheads:white_kitchen_floor"
+				type: "item"
+			}]
+			title: "Laying the Ground."
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3522109BABC7E48B"]
+			id: "337723130C80CD91"
+			optional: true
+			subtitle: "Important blocks with functionality."
+			tasks: [
+				{
+					id: "7D33C5F208328B37"
+					item: "cookingforblockheads:oven"
+					type: "item"
+				}
+				{
+					id: "5E02F460E91CA16F"
+					item: "cookingforblockheads:fridge"
+					type: "item"
+				}
+				{
+					id: "01F817CDA1FD1EB1"
+					item: "cookingforblockheads:cooking_table"
+					type: "item"
+				}
+			]
+			title: "Everything Including the Kitchen Sink"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3522109BABC7E48B"]
+			id: "18BA6A99120CF00D"
+			optional: true
+			subtitle: "Storage space and water for ingredients."
+			tasks: [
+				{
+					id: "46DDBA57E0E31ED4"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "5DAAA626786D2781"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+			]
+			title: "Kitchen Counter"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3522109BABC7E48B"]
+			id: "3BACB90B72AE7623"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "2727129F435DDB21"
+				item: {
+					Count: 1b
+					id: "minecraft:bread"
+					tag: {
+						CookingForBlockheadsToasted: 1b
+						display: {
+							Name: "{\"translate\":\"tooltip.cookingforblockheads:toasted\",\"with\":[{\"translate\":\"item.minecraft.bread\"}]}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Some foods require extra components."
+			tasks: [
+				{
+					id: "5E8E12E883FDC595"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+				{
+					id: "5AB7422E73C26E76"
+					item: "cookingforblockheads:spice_rack"
+					type: "item"
+				}
+				{
+					id: "591F6C488FB3F775"
+					item: "cookingforblockheads:fruit_basket"
+					type: "item"
+				}
+				{
+					id: "3D63E7309CEE69AA"
+					item: "cookingforblockheads:milk_jar"
+					type: "item"
+				}
+				{
+					id: "6372A49D46ED573E"
+					item: "cookingforblockheads:toaster"
+					type: "item"
+				}
+			]
+			title: "Extra Utilities"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BCED0F8481E0C21"]
+			hide_dependency_lines: true
+			icon: "ad_astra:earth_globe"
+			id: "30671A15990F39D8"
+			optional: true
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "If you are of the building type, you *might* be interested in this. Not only do each of these stations look cool, they also provide hundreds of possible blocks to build with, in any colour."
+			tasks: [{
+				id: "0156EF5B8B50BDB8"
+				title: "{chapter.1.quest.49.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "Let´s Beginn"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05E45A7D1C9927E5"]
+			id: "7D768E5AA9EA358C"
+			optional: true
+			subtitle: "This is the recipe for your first beer."
+			tasks: [
+				{
+					id: "070C4B0598E4F104"
+					item: "drinkbeer:empty_beer_mug"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "479FFE3123D77A5A"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "4D9FB657EA74050E"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "Empty Beer Mug"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D768E5AA9EA358C"]
+			id: "52832D8DA239C017"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "004A64084DE31C6B"
+				item: "drinkbeer:empty_beer_mug"
+				type: "item"
+			}]
+			subtitle: "Slippery slope"
+			tasks: [{
+				id: "67BF890594998248"
+				item: "drinkbeer:beer_mug"
+				type: "item"
+			}]
+			title: "Miner Pale Ale"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52832D8DA239C017"]
+			id: "154EF80FC9B8F0B0"
+			optional: true
+			rewards: [{
+				id: "3093A76BEC813CA5"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			subtitle: "Infuse beer by clicking this table with them."
+			tasks: [{
+				id: "145A72A4C427E775"
+				item: "drinkbeer:bartending_table_normal"
+				type: "item"
+			}]
+			title: "Bartending Table"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3522109BABC7E48B"]
+			id: "152FF1A843FFDDB5"
+			optional: true
+			rewards: [{
+				id: "424A77A5F66DAD47"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "A book, full of food!"
+			tasks: [
+				{
+					id: "17B4104F33DAE09C"
+					item: "cookingforblockheads:recipe_book"
+					type: "item"
+				}
+				{
+					id: "44ABB2A96EF3BC1D"
+					item: "cookingforblockheads:no_filter_edition"
+					type: "item"
+				}
+			]
+			title: "Cooking for Blockheads I"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["601A619C6E96920A"]
+			description: ["Take a look at the Basic Storage Chapter . You'll want to be aware of what storage solutions are available, let's you run into inventory management nightmares."]
+			icon: "minecraft:barrel"
+			id: "6433AD83545428C3"
+			subtitle: "I WANT MORE SPACE"
+			tasks: [{
+				id: "162E460403877286"
+				title: "{chapter.1.quest.54.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "Storage Upgrades"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FC0B4E8EC58F791"]
+			icon: "minecraft:coal_ore"
+			id: "49202443C0D32255"
+			rewards: [{
+				id: "4E42F1996A792ECD"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6EB8E6D54324BC48"
+					type: "custom"
+				}
+				{
+					id: "41A77CD6D1F57669"
+					type: "custom"
+				}
+				{
+					id: "70C8D69321763E59"
+					type: "custom"
+				}
+				{
+					id: "3733F1F2F3E9287F"
+					type: "custom"
+				}
+				{
+					id: "782019AE24810664"
+					type: "custom"
+				}
+				{
+					id: "4C225C712FD24038"
+					type: "custom"
+				}
+				{
+					id: "05C60B12171BD5AA"
+					type: "custom"
+				}
+				{
+					id: "1A8FBC2A7E70326F"
+					type: "custom"
+				}
+				{
+					id: "0461C3BE1A75E733"
+					type: "custom"
+				}
+				{
+					id: "2CAB697E724073A6"
+					title: "{chapter.1.quest.63.task.10.title}"
+					type: "checkmark"
+				}
+			]
+			title: "Ores of the Overworld"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6698096C19C55333"
+				"0BCED0F8481E0C21"
+				"5FFC7DFF4294C81A"
+				"601A619C6E96920A"
+				"1AC4A5B8D86CAB0F"
+				"0F603C66B0DD9BFB"
+				"52832D8DA239C017"
+				"18BA6A99120CF00D"
+				"11ACD707D7284920"
+				"30671A15990F39D8"
+				"6433AD83545428C3"
+				"6FF9501CDF19F0D5"
+				"3BACB90B72AE7623"
+				"78E055160B11FC48"
+				"6D072F2027D8DFCE"
+				"4E0B5BFE718A99CD"
+				"513E187ADFD4F2A4"
+				"584489E0781D5C0C"
+				"441D6F369B7912E5"
+				"75B36BB7FE771333"
+				"29AF19492CFCB2DB"
+				"5E6B48D6A4254759"
+				"61268E9695C2B0B0"
+				"1337920DA45E72AD"
+				"154EF80FC9B8F0B0"
+				"7D768E5AA9EA358C"
+				"4F4C278C3A8C0281"
+				"3E499250F88E22DA"
+				"152FF1A843FFDDB5"
+				"791D3292F22706E6"
+				"641D3099B18682CD"
+				"1645C544BEBC01EE"
+				"1858F35E1B7128AA"
+				"0FC0B4E8EC58F791"
+				"22EDB2C326C53A89"
+				"05E45A7D1C9927E5"
+				"49202443C0D32255"
+				"69C0C2601F6F79A7"
+				"09A4CEF0AF68A055"
+				"0C6D7B3DCF139FA9"
+				"79886A5C435F29E0"
+				"2CE5BB6A7B30CA4C"
+				"504201C234C38437"
+				"11B2E25F18AD9C35"
+				"3522109BABC7E48B"
+				"337723130C80CD91"
+				"501AD44D7875F4D9"
+				"65C0B4100CD88D77"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:earth_globe"
+			id: "3B6400A5E2D72A3E"
+			rewards: [{
+				count: 8
+				id: "0E3347E9CB23E19C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Complete all the quests in this chapter."
+			tasks: [{
+				id: "038F1EEDD90B99E4"
+				title: "Completionist"
+				type: "checkmark"
+			}]
+			x: 0.25d
+			y: 4.0d
+		}
+	]
+	title: "&3part 1: &6Getting Started"
+}

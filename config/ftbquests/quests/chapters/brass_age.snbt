@@ -1,0 +1,316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brass_age"
+	group: "4546D7737CBFFD68"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "create:brass_ingot"
+	id: "761A2DF9CFE0FE89"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "minecraft:textures/cbe/ui/quest_titles/brassage.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -7.0d
+		y: -5.5d
+	}]
+	order_index: 23
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["020941B5E39AD9E5"]
+			id: "339C8644C6943A9B"
+			progression_mode: "linear"
+			size: 2.5d
+			subtitle: "Make brass casing"
+			tasks: [{
+				id: "0E8BC6C510D6F7F6"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Encased in Brass"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["339C8644C6943A9B"]
+			id: "728FE5159F91D024"
+			subtitle: "Craft a content observer"
+			tasks: [{
+				id: "0A8387A81D93A98F"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["339C8644C6943A9B"]
+			id: "590E33A52FE200AB"
+			subtitle: "Craft a mechanical crafter"
+			tasks: [{
+				id: "2FA082F2C4310DE6"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["339C8644C6943A9B"]
+			id: "271658ADF5CA72DC"
+			subtitle: "Craft a sequenced gearshift"
+			tasks: [{
+				id: "6494CE232F0933A8"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["339C8644C6943A9B"]
+			id: "6E23E878AF7498BD"
+			subtitle: "Craft a clockwork bearing"
+			tasks: [{
+				id: "22CF996CC62B16D7"
+				item: "create:clockwork_bearing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26FE32A8F57D5861"]
+			id: "0EC259AE5722DC9E"
+			subtitle: "Make a rotation speed controller"
+			tasks: [{
+				id: "7E34EC45ABB2CA65"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26FE32A8F57D5861"]
+			id: "1E1FEE6DCCACF1A6"
+			subtitle: "Craft a mechanical arm"
+			tasks: [{
+				id: "114C3104C1552D55"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["339C8644C6943A9B"]
+			id: "0040F13809CCEB6B"
+			subtitle: "Craft a redstone link"
+			tasks: [{
+				id: "5EF5E48AE71CB705"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			title: "Wireless redstone?"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["590E33A52FE200AB"]
+			id: "2144085F5EE55D78"
+			shape: "gear"
+			size: 1.25d
+			subtitle: "Craft crushing wheels"
+			tasks: [{
+				id: "06F4F4EA620CDAF7"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "They do be crushing tho"
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7877532D0868E4C9"]
+			id: "26FE32A8F57D5861"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Make a precision mechanism"
+			tasks: [{
+				id: "0BF6FA639AD4AF05"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["339C8644C6943A9B"]
+			id: "4D0D4D1192321CA7"
+			subtitle: "Craft a brass hand"
+			tasks: [{
+				id: "384B1E241A38E199"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			title: "Quite Handy"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D0D4D1192321CA7"]
+			id: "7877532D0868E4C9"
+			shape: "gear"
+			size: 1.25d
+			subtitle: "Craft a deployer"
+			tasks: [{
+				id: "3C8CD5C4066619A5"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Poker"
+			x: -6.875d
+			y: 0.0d
+		}
+		{
+			dependencies: ["590E33A52FE200AB"]
+			id: "543054CD994EADE7"
+			optional: true
+			size: 0.75d
+			subtitle: "Make a extendo grip"
+			tasks: [{
+				id: "1AC8762B1878126C"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["590E33A52FE200AB"]
+			id: "5C77942C2D982055"
+			optional: true
+			size: 0.75d
+			subtitle: "Make a potato cannon"
+			tasks: [{
+				id: "1AB07EF355497EE0"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["590E33A52FE200AB"]
+			id: "1C6E7002DB3F4AEF"
+			optional: true
+			size: 0.75d
+			subtitle: "Make a wand of symmetry"
+			tasks: [{
+				id: "72F929A97AA44E71"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0040F13809CCEB6B"]
+			id: "5B6C50DC7777CA3B"
+			subtitle: "Craft a linked controller"
+			tasks: [{
+				id: "7727B0A39E1E9661"
+				item: "create:linked_controller"
+				type: "item"
+			}]
+			title: "Remote Control"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["339C8644C6943A9B"]
+			id: "06E1208A0EFEB709"
+			tasks: [{
+				id: "7927C1DC9C024F23"
+				item: "create:pulse_repeater"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["339C8644C6943A9B"]
+			id: "2440EE8E5D1324C7"
+			tasks: [{
+				id: "4E78902EBEDD2534"
+				item: "create:pulse_extender"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"590E33A52FE200AB"
+				"2144085F5EE55D78"
+				"4D0D4D1192321CA7"
+				"26FE32A8F57D5861"
+				"271658ADF5CA72DC"
+				"728FE5159F91D024"
+				"0EC259AE5722DC9E"
+				"6E23E878AF7498BD"
+				"543054CD994EADE7"
+				"5C77942C2D982055"
+				"339C8644C6943A9B"
+				"1E1FEE6DCCACF1A6"
+				"2440EE8E5D1324C7"
+				"7877532D0868E4C9"
+				"1C6E7002DB3F4AEF"
+				"5B6C50DC7777CA3B"
+				"06E1208A0EFEB709"
+				"0040F13809CCEB6B"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:earth_globe"
+			id: "0A700433AD9E66A5"
+			rewards: [{
+				count: 8
+				id: "3AD1F7213A2157D4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Complete all the quests in this chapter."
+			tasks: [{
+				id: "405D3DC888954CCD"
+				title: "Completionist"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+	]
+	title: "&71.2 &3ʙʀᴀѕѕ ᴀɢᴇ"
+}

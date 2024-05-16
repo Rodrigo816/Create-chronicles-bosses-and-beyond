@@ -1,0 +1,883 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "the_nether"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "nethersdelight:block/blackstone_stove_front_on"
+		}
+	}
+	id: "07028B8187689EDF"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "velox:textures/quests/the-nether.png"
+		rotation: 0.0d
+		width: 6.792592592592593d
+		x: -3.0d
+		y: -1.5d
+	}]
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			id: "770B6EAA13728FD0"
+			rewards: [
+				{
+					id: "677655EA05F14FE7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "19BF6C2AD753AC45"
+					item: {
+						Count: 1b
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "We must go deeper! Enter the nether from a Nether Portal."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:obsidian"
+				id: "6B4CDB4697631191"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Enter the Nether"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["770B6EAA13728FD0"]
+			description: [""]
+			id: "57AF2993CF91CFF6"
+			subtitle: "Find the towers of the Nether"
+			tasks: [{
+				advancement: "adorabuild_structures:the_lethal_towers"
+				criterion: ""
+				id: "69D48F6E364B75CA"
+				type: "advancement"
+			}]
+			title: "The &cLethal&r Towers"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["770B6EAA13728FD0"]
+			description: [""]
+			id: "317B60725446E8BA"
+			rewards: [
+				{
+					id: "0F556A959345F2CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65727E91C977A793"
+					type: "random"
+				}
+			]
+			subtitle: "Feed a strider in a small warped house."
+			tasks: [{
+				advancement: "adorabuild_structures:hungry_cutie"
+				criterion: ""
+				id: "3F72E1CC74081572"
+				type: "advancement"
+			}]
+			title: "&aHungry&r Cutie"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["770B6EAA13728FD0"]
+			id: "0F19C4BC7F9EDC96"
+			rewards: [
+				{
+					id: "0C67734A81893F37"
+					item: "simplehats:baseballhat"
+					type: "item"
+				}
+				{
+					id: "5602B3F621DF3BFE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Send that projectile back to a Ghast."
+			tasks: [{
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+				id: "27BCCD844A86EC31"
+				type: "advancement"
+			}]
+			title: "Return to Sender"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["770B6EAA13728FD0"]
+			description: [
+				"Ancient debris is a &brare&r ore found in the Nether, and is the main source of netherite scraps. Its high blast resistance makes it immune to normal explosions. "
+				""
+				"In item form, it floats on &6lava&r and cannot be burned by any form of &6fire&r."
+			]
+			id: "7D75B69E0DA8B325"
+			rewards: [
+				{
+					id: "4C59CBF615FD6C4A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2434BE2F4C8F80E9"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "This is old... real old."
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "1A48E50F042A38E7"
+				type: "advancement"
+			}]
+			title: "Hidden in the Depths"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D75B69E0DA8B325"]
+			description: ["Wear a full suit of &8netherite&r armor."]
+			id: "4A0050026496CF10"
+			rewards: [
+				{
+					id: "05B0D93F49A6EE19"
+					item: {
+						Count: 1b
+						id: "simplyswords:netherite_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77349715EE89EF67"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "My suit is fancier!"
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				id: "5B2CF5705B0BF5C6"
+				type: "advancement"
+			}]
+			title: "Cover Me in &8Debris&r"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D75B69E0DA8B325"]
+			description: ["Since in the Nether, the compass doesn't point north; this will help you find your way back to your portal or safe zone."]
+			id: "1FB5298A7BD362EF"
+			rewards: [
+				{
+					id: "4515932E97F186B6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "688AD496C72573A1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Use a compass on a lode stone."
+			tasks: [{
+				advancement: "minecraft:nether/use_lodestone"
+				criterion: ""
+				id: "29F917815E358BF0"
+				type: "advancement"
+			}]
+			title: "Country Lode, Take Me Home"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F19C4BC7F9EDC96"]
+			description: ["Rescue a &bGhast&r from the &cNether&r, bring it safely home to the &2Overworld&r... and then &ckill&r it."]
+			id: "27337D780422FC7B"
+			rewards: [
+				{
+					id: "2E19E588F9FA257C"
+					item: "plushies:ghast_plushie"
+					type: "item"
+				}
+				{
+					id: "43E23C1625622602"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "10DE9B1167F8B1B8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "You thought we were friends?!"
+			tasks: [{
+				advancement: "minecraft:nether/uneasy_alliance"
+				criterion: ""
+				id: "54202128EF2A8A18"
+				type: "advancement"
+			}]
+			title: "Uneasy Alliance"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["770B6EAA13728FD0"]
+			description: ["Bastion remnants are large, castle-like generated structures found in the Nether in all of the biomes except basalt deltas."]
+			id: "7217C7D52029DA26"
+			rewards: [{
+				id: "24D44C3FCFB69B26"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Enter a Bastion Remnant"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "42E40E3DDD319AE2"
+				type: "advancement"
+			}]
+			title: "Those Were the Days"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7217C7D52029DA26"]
+			description: ["Open a naturally generated, never-before opened chest in a bastion remnant."]
+			icon: "wandering_bags:piglin_bag"
+			id: "58349076ED0EFC58"
+			rewards: [
+				{
+					count: 4
+					id: "3C283262B1EDCEC3"
+					item: "ars_nouveau:bastion_pod"
+					type: "item"
+				}
+				{
+					id: "32687DB5AB79C0AA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Loot a Chest in a Bastion Remnant."
+			tasks: [{
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+				id: "2D6554DC113C7823"
+				type: "advancement"
+			}]
+			title: "War Pigs"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["770B6EAA13728FD0"]
+			description: ["Use the Nether to travel between 2 points in the Overworld with a minimum horizontal euclidean distance of 7000 blocks between each other, which is 875 blocks in the Nether."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ad_astra:textures/gui/space_station_icon.png"
+				}
+			}
+			id: "5FDBD53A3F3500BC"
+			rewards: [
+				{
+					id: "4EA0BB85CFDF8B8D"
+					item: "advancementframes:advancement_frame"
+					type: "item"
+				}
+				{
+					id: "6BA18D3BF5BF3750"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Use the Nether to travel 7 km in the Overworld"
+			tasks: [{
+				advancement: "minecraft:nether/fast_travel"
+				criterion: ""
+				id: "0F4390CEF71FC353"
+				type: "advancement"
+			}]
+			title: "Subspace Bubble"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["770B6EAA13728FD0"]
+			description: ["Give them any item that has the #piglin_loved tag, if you have issues seeing tags, make sure advanced tooltips are enabled with f3 and h."]
+			id: "59024766898D84AF"
+			rewards: [
+				{
+					id: "37AE7C7C42EEE6A1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "6871E3814C24297B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Distract Piglins with gold."
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				id: "5F89E402EFD2873C"
+				type: "advancement"
+			}]
+			title: "Oh &aShiney&r"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["770B6EAA13728FD0"]
+			description: ["A &8Citadel&r is a huge nether structure similar to the fortress. A &cWildfire&r can be found inside."]
+			id: "1EC82A83AE99F158"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CDD9CCD8F0BDC99"
+				type: "random"
+			}]
+			subtitle: "Enter a Nether Citadel."
+			tasks: [{
+				advancement: "friendsandfoes:nether/find_citadel"
+				criterion: ""
+				id: "4D808D34700BCC5F"
+				type: "advancement"
+			}]
+			title: "A fortress? No, a citadel!"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EC82A83AE99F158"]
+			description: ["&cWildfire,&r the master of &eblazes&r, which is protected by four shields. This encounter is not a friendly one, watch out for its shield debris barrage and ground-shaking shockwave attack. When cornered, it summons &eblazes&r for reinforcement. "]
+			id: "45982266A2CC7304"
+			rewards: [{
+				id: "16089604B254870A"
+				item: "ars_nouveau:greater_experience_gem"
+				type: "item"
+			}]
+			subtitle: "Kill the wildfire."
+			tasks: [{
+				advancement: "friendsandfoes:nether/kill_wildfire"
+				criterion: ""
+				id: "29F2DC9012DB1CA9"
+				type: "advancement"
+			}]
+			title: "Drop it like it's hot!"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45982266A2CC7304"]
+			description: ["When equipped, a wildfire crown will grant a player &b1 armor points&r, &b1 armour toughness points&r and&b 1 knockback resistance&r and&6 Fire Resistance&r for&b 8 seconds&r, which starts expiring each time the player is in &6lava&r or on &cfire&r."]
+			id: "72A410BD53034FE7"
+			rewards: [
+				{
+					id: "0CEEF12CEC650B6A"
+					item: "exlinefurniture:crimson_adirondack_chair"
+					type: "item"
+				}
+				{
+					id: "31BE306F74B54397"
+					item: "fruitsdelight:lychee_cherry_tea"
+					type: "item"
+				}
+				{
+					id: "47BA9F5AF3F4A516"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Get the wildfire crown."
+			tasks: [{
+				advancement: "friendsandfoes:nether/obtain_wildfire_crown"
+				criterion: ""
+				id: "1FDC316E5057F6D5"
+				type: "advancement"
+			}]
+			title: "Who's da new ruler of hell?"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["770B6EAA13728FD0"]
+			description: ["Enter a nether fortress."]
+			id: "1854CE05739AE26F"
+			rewards: [{
+				id: "0FA9D18C56B9D2DC"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: " FortressBreak your way into a Nether Fortress."
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "1FBBC2224FFE77B6"
+				type: "advancement"
+			}]
+			title: "A Terrible Fortress"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1854CE05739AE26F"]
+			id: "73716F841A3E1E94"
+			rewards: [
+				{
+					id: "4DA531DBF6879304"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "divine_weaponry:wither_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63AED0BF89D50428"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Obtain a Wither Skeleton's skull."
+			tasks: [{
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+				id: "064BB86B2D5E746E"
+				type: "advancement"
+			}]
+			title: "Spooky Scary Skeleton"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1854CE05739AE26F"]
+			id: "5A888FD7673AA77E"
+			rewards: [
+				{
+					id: "245777582DDBD224"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7FDC9C051DD8FACC"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Relieve a Blaze of its rod."
+			tasks: [{
+				advancement: "minecraft:nether/obtain_blaze_rod"
+				criterion: ""
+				id: "19FD0A22DCE14063"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27337D780422FC7B"]
+			description: [
+				"When crafted, a respawn anchor has no (zero) charge and can't yet be used until charged. Using a glowstone block (not glowstone dust) on it adds a charge. The anchor accepts up to 4 charges, and the charge level is indicated by a dial on the side of the block"
+				""
+				"The first charge makes the respawn anchor glow with a light level of 3. Each glowstone after the first increases the light level by 4, up to a maximum of 15."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&6Setting respawn&r"
+				""
+				"To set the player's spawn location to the respawn anchor they must use it, just like one does with a bed. The anchor must at least have one charge, and it must be in the Nether. A confirmation appears when the player's respawn location is set. Other players can also set their spawn point to the same respawn anchor. "
+				""
+				"Each respawn uses up one charge, even if used by another player."
+				""
+				"Using a charged anchor overrides any other spawn location the player might have had, as with a bed. The respawn anchor does not serve as a backup spawn point to a missing or obstructed bed."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&6Respawn upon player death&r"
+				""
+				"Upon death, the player respawns next to the anchor, and it loses one charge."
+				""
+				"If a player's respawn anchor is destroyed, if its charges have been exhausted, or if the area around it is made unsuitable for respawning, a message appears saying \"You have no home bed or charged Respawn Anchor, or it was obstructed\", and the player respawns at the world spawn point. Returning through an end portal is not counted as a respawn against the charges."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&6Exploding&r"
+				""
+				"If the player attempts to set their spawn at a charged respawn anchor in the Overworld, the End, or custom dimensions in which they are disabled, the block explodes (and is destroyed) similar to when a bed is used in the Nether or the End. The explosion has a power of 5 and sets fire to surrounding blocks."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&6Redstone component&r"
+				""
+				"When charged, a redstone comparator gives a signal depending on the number of charges: 3 for one charge, 7 for two charges, 11 for three charges, 15 for four charges. An empty anchor gives a signal of 0."
+				""
+				"The respawn anchor can also be charged with a dispenser."
+				""
+				"The respawn anchor cannot be pushed by a piston."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&6Mobs&r"
+				""
+				"Hoglins run away from respawn anchors."
+				""
+				"&6Note blocks&r"
+				""
+				"Respawn anchors can be placed under note blocks to produce the \"bass drum\" sound."
+			]
+			id: "33F87917F114E7CD"
+			rewards: [
+				{
+					count: 4
+					id: "6857A89D8095A49E"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "334F09CF4A2962E5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Charge a Respawn Anchor to the maximum"
+			tasks: [{
+				advancement: "minecraft:nether/charge_respawn_anchor"
+				criterion: ""
+				id: "57204B38D6ADF8F7"
+				type: "advancement"
+			}]
+			title: "Not Quite \"Nine\" Lives"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"73716F841A3E1E94"
+				"5A888FD7673AA77E"
+			]
+			description: ["This will be &ctough&r if you are unprepared."]
+			id: "471C02F7FC613CA8"
+			rewards: [
+				{
+					id: "4B12A840279BEEFF"
+					item: "fantasyfurniture:decorations/bone_wither_chalices"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36AFAA0A3B55FBA1"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.75d
+			subtitle: "Summon the Wither!"
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				id: "587A1A9046F04CB7"
+				type: "advancement"
+			}]
+			title: "Withering Heights"
+			x: 3.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["5A888FD7673AA77E"]
+			id: "2EDFB14387ADA93D"
+			rewards: [
+				{
+					count: 4
+					id: "7FB4079049BCC819"
+					item: "minecraft:nether_quartz_ore"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "482B40969F2C9818"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Look at the Center of a Ender Watcher"
+			tasks: [{
+				advancement: "quark:watcher_center"
+				criterion: ""
+				id: "345C6C0A3DB85792"
+				type: "advancement"
+			}]
+			title: "Who Watches the Watchers?"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A888FD7673AA77E"]
+			description: ["Use JEI for full list of potions you can craft. "]
+			id: "4DAEDA6CD7BC1D41"
+			rewards: [
+				{
+					id: "5A5F648D1501FE1A"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:mundane"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6F937E7BBF3FB75F"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "41C7B49D413FDD00"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Brew your first potion using the blaze rod you just got."
+			tasks: [
+				{
+					advancement: "minecraft:nether/brew_potion"
+					criterion: ""
+					id: "5663E21A8195F3C8"
+					type: "advancement"
+				}
+				{
+					id: "1D70235461D2083D"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					id: "4CB7490D2251B267"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			title: "Local Brewery"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DAEDA6CD7BC1D41"]
+			id: "35663DE08894F468"
+			rewards: [{
+				id: "6DF0142A66735911"
+				item: "evilcraft:bucket_blood"
+				type: "item"
+			}]
+			subtitle: "Tastes...minty."
+			tasks: [{
+				advancement: "supplementaries:nether/goblet"
+				criterion: ""
+				id: "2AD73B5C81889505"
+				type: "advancement"
+			}]
+			title: "Who left this here?"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DAEDA6CD7BC1D41"]
+			id: "16BA5CD1CCAD7B87"
+			rewards: [
+				{
+					id: "69A817CEE2D86623"
+					item: "simplehats:longfoxears"
+					type: "item"
+				}
+				{
+					id: "20E22A9431E9B9E5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Time a Firehound by feeding it coal while under the effect of Fire Resistance."
+			tasks: [{
+				advancement: "quark:tame_foxhound"
+				criterion: ""
+				id: "0964E06D54C4DD58"
+				type: "advancement"
+			}]
+			title: "Firefox ♥"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["16BA5CD1CCAD7B87"]
+			id: "58D42E70A0DCB200"
+			rewards: [
+				{
+					count: 8
+					id: "1B99E9CA3E4ABD7A"
+					item: "minecraft:coal_block"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0201D503C111EF8F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Speed up a furnance by having your Firehound sleep on top of it to speed it up."
+			tasks: [{
+				advancement: "quark:foxhound_speed_up_furnace"
+				criterion: ""
+				id: "0620A9B7D66AAFF9"
+				type: "advancement"
+			}]
+			title: "Let Flaming Dogs Lie"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["471C02F7FC613CA8"]
+			id: "7E2573B2122546DA"
+			rewards: [{
+				count: 8
+				id: "47FBDD52789B73FA"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Using your Nether Star, construct a beacon and place it."
+			tasks: [{
+				advancement: "minecraft:nether/create_beacon"
+				criterion: ""
+				id: "661D55B778EB443F"
+				type: "advancement"
+			}]
+			title: "BRING ME THE BEACON!"
+			x: 6.044642857142854d
+			y: 1.7678571428571388d
+		}
+		{
+			dependencies: ["7E2573B2122546DA"]
+			id: "224E2DE23595520F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "050F95DEBD216F87"
+					type: "random"
+				}
+				{
+					id: "6808920DB6652A3D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Power your beacon to the max."
+			tasks: [{
+				advancement: "minecraft:nether/create_full_beacon"
+				criterion: ""
+				id: "6174232FB84A1BC3"
+				title: "Beaconator"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E2573B2122546DA"]
+			description: [
+				"When placing the first cystal down, the beam will dissappear intil a cystal point upward is placed."
+				""
+				""
+				"{image:velox:textures/quests/crystalbeams.png width:100 height:100 align:1}"
+			]
+			id: "0AD0E49A1EF09F69"
+			rewards: [
+				{
+					count: 2
+					id: "095A27BF24B08544"
+					item: "quark:red_corundum_cluster"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "48EFED5D91BC0D3A"
+					item: "quark:blue_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "686BFD274434CB7C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Redirect your Beacon beam using Clusters."
+			tasks: [{
+				advancement: "quark:redirect_beacon"
+				criterion: ""
+				id: "0269A3E28F3E8DD9"
+				title: "See the Lights!"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+	]
+	subtitle: ["The Nether is a dangerous, hell-like dimension containing fire, lava, fungal vegetation, many hostile mobs, and exclusive structures and biomes."]
+	title: "&cThe Nether"
+}

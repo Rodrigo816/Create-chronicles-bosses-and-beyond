@@ -1,0 +1,394 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "craft_and_additions"
+	group: "4546D7737CBFFD68"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "createaddition:block/tesla_coil/lightning_new"
+		}
+	}
+	id: "3E18D1F21DFFBEC3"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "velox:textures/quests/crafts-and-additions.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: -2.0d
+		y: -3.0d
+	}]
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "3FFAA633548FA9DD"
+			rewards: [
+				{
+					id: "7D1F4BE3014A7390"
+					item: {
+						Count: 1b
+						id: "alexscaves:dinosaur_nugget"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Puppy Knowledge Nugget\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "664C0FF2047BEF07"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			subtitle: "&6Create&r &bCrafts and Additions&r extends Create and acts as a bridge between &eelectricity&r and kinetic energy from &6Create&r by adding an &eElectric Motor&r which generates kinetic energy from &cForge energy&r and an Alternator which does the opposite at 75% efficiency. "
+			tasks: [{
+				id: "3A7128D74CB013EC"
+				title: "Craft and Addons"
+				type: "checkmark"
+			}]
+			title: "Crafts and Addons"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FFAA633548FA9DD"]
+			description: [
+				"The &8Rolling Mill&r uses rotational force to roll metals into &3Rods&r and &6Wires.&r"
+				""
+				"To manually input items, drop &3Ingots&r or &3Plates&r on the top of the &8Mill&r."
+				""
+				"&7Right-click&r the Mill to manually retrieve the output items."
+			]
+			id: "488283F2EE4832FB"
+			rewards: [
+				{
+					id: "54AB39FA9078BE85"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4E29DD0D8BBC0C43"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Roll With It"
+			tasks: [{
+				id: "390DD67B028A7EFA"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 0.6714285714285708d
+			y: -0.7142857142857153d
+		}
+		{
+			dependencies: ["488283F2EE4832FB"]
+			id: "26F9DC0F6FB73B5F"
+			rewards: [
+				{
+					id: "248B9BD3E182E5E1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "6DAD845468FC1DC6"
+					item: "createaddition:copper_rod"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Use the &8Rolling Mill&r to craft some new rod items."
+			tasks: [{
+				count: 4L
+				id: "02240AB777C2A9C2"
+				item: { Count: 4b, id: "createaddition:copper_rod" }
+				type: "item"
+			}]
+			x: 1.442857142857143d
+			y: -1.4571428571428555d
+		}
+		{
+			dependencies: ["3FFAA633548FA9DD"]
+			description: [
+				"&eElectric&r &8Motors&r are a compact and configurable source of &6Rotational Force&r. "
+				""
+				"Scrolling on the back panel changes the &6RPM&r of the motor's rotational output. "
+				""
+				"The Electric Motor requires a source of energy (&eFE&r). The motor's energy consumption is determined by the set &6RPM.&r"
+			]
+			id: "7637D29A6E6222ED"
+			rewards: [
+				{
+					id: "7669183AEF185F2E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "2F1844304B61B12F"
+					item: "createaddition:electrum_amulet"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Zoom Zoom"
+			tasks: [{
+				id: "31C906E17DE57BCF"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -0.771428571428558d
+			y: 0.7428571428571402d
+		}
+		{
+			dependencies: ["093D052F9F02498C"]
+			description: [
+				"One of the cool functions of the &eTesla Coil&r is that it will charge &6FE&r items below it."
+				""
+				"The Tesla Coil is also able to inflict damage on nearby &3Players&r and &cMobs.&r This can be activated with a &4redstone&r signal."
+			]
+			id: "6AEDE7C9DFCCCE83"
+			rewards: [
+				{
+					id: "4DC7B4B890266398"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "208530B4E0147160"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:createageoftesla"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "It's spicy lightning."
+			tasks: [{
+				id: "2F5E88980919DA83"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: -2.2571428571428314d
+			y: 2.2857142857142847d
+		}
+		{
+			dependencies: ["7637D29A6E6222ED"]
+			description: ["The Alternator requires at least &632&r RPM to operate. It generates electric energy &a(FE)&r from rotational force. Its energy production is determined by the input RPM."]
+			id: "093D052F9F02498C"
+			rewards: [
+				{
+					id: "5509A1D1DAE6ADD2"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "12E867A8CBA9A9A4"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "02B6B16BB2FB1AF2"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "48FCBB4C8E1BBE60"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FFAA633548FA9DD"]
+			description: [
+				"Allows &eFE&r to pass from the &einput connector&r to the &eoutput connector&r when receiving a &credstone signal&r."
+				""
+				"&7Low Current&r:"
+				"Connected with low current wires."
+				""
+				"&7Pull&r:"
+				"Provides &eFE&r to &5wires&r connected to the &econnector&r marked with a upwards arrow."
+				""
+				"&7Push&r:"
+				"Accepts &eFE&r from &5wires&r connected to the &econnector&r marked with a downwards arrow."
+			]
+			id: "2B9D5E0A1CBD680C"
+			rewards: [
+				{
+					count: 4
+					id: "3E1890EDEC2F8142"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "1A72CD8D052512C5"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Can you relay that?"
+			tasks: [{
+				id: "60C99848852810A5"
+				item: "createaddition:redstone_relay"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FFAA633548FA9DD"]
+			description: [""]
+			id: "113348D253DCD9EE"
+			rewards: [
+				{
+					id: "5305079E29AAF00E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "45DC340434EB34D4"
+					item: "simplehats:tvhead"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "A &8Computercraft Peripheral&r which allows computers to interface with &eDisplay Boards&r, &eSpeedometers,&r Stressometers, &eRope Pulley&r, &eHose Pulley&r, &eElevator Pulley&r, &eMechanical Piston&r, &eMechanical Bearing&r, and &eRotational Speed Controllers&r."
+			tasks: [{
+				id: "0185467286B990D1"
+				item: "createaddition:digital_adapter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26F9DC0F6FB73B5F"]
+			id: "76B1B2D23625DEDE"
+			rewards: [
+				{
+					id: "4E280BF130972D3B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "00E8DBEE131B8D6B"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "One of the new &6wire&r forms introduced in this mod."
+			tasks: [{
+				count: 8L
+				id: "7384A9B7C049E5AF"
+				item: "createaddition:iron_wire"
+				type: "item"
+			}]
+			x: 2.20000000000001d
+			y: -2.2285714285714278d
+		}
+		{
+			dependencies: ["76B1B2D23625DEDE"]
+			description: ["Deals &cdamage&r to any mob or player that passes through it."]
+			id: "0F25EFE7A908718F"
+			rewards: [
+				{
+					id: "364C3EBC03AB1FAA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "27E328108CF9E811"
+					item: "createaddition:iron_wire"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E09E3665B6A3B16"
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "STAY AWAY &2CREEPER&r!"
+			tasks: [{
+				count: 4L
+				id: "67DA0902A0415A82"
+				item: "createaddition:barbed_wire"
+				type: "item"
+			}]
+			x: 2.9428571428571573d
+			y: -2.942857142857143d
+		}
+		{
+			dependencies: ["488283F2EE4832FB"]
+			description: [""]
+			hide: true
+			id: "26ACD22E7D0F7BF5"
+			rewards: [
+				{
+					id: "2EC61617C78BBEA7"
+					item: {
+						Count: 1b
+						id: "alexscaves:dinosaur_nugget"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Puppy Knowledge Nugget\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F805EDDCD666C65"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "79DD3A6F6858149F"
+					item: "pamhc2foodextended:strawberrysmoothieitem"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Giving the &eBlaze Burner&r a &bStraw&r will allow it to accept liquid fuels by &bBuckets&r or by &8pipes.&r"
+			tasks: [{
+				id: "6A0ACA131455BD38"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 1.8285714285714647d
+			y: -0.4571428571428626d
+		}
+	]
+	subtitle: ["Expands into the Electrical age."]
+	title: "Crafts and Additions"
+}

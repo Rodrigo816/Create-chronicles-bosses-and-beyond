@@ -1,0 +1,700 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_addons"
+	group: "4546D7737CBFFD68"
+	icon: "create_sa:steam_engine"
+	id: "14515572428C7392"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "create_sa:textures/title.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.480565371024735d
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create_enchantment_industry:item/experience_rotor"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createaddition:block/tesla_coil/lightning_new"
+			rotation: 45.0d
+			width: 1.0d
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create_things_and_misc:items/card"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.5d
+			y: -4.5d
+		}
+	]
+	order_index: 32
+	quest_links: [{
+		id: "2FA46F9A68FF650F"
+		linked_quest: "38E10806192CDF7E"
+		x: -7.0d
+		y: 1.5d
+	}]
+	quests: [
+		{
+			dependencies: ["4A4B2D534D4FF6DA"]
+			id: "26F4FB950E84A8A1"
+			rewards: [{
+				id: "17EEC2568D4F3954"
+				item: "create_things_and_misc:vibration_mechanism"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "3C7BC3D665668836"
+				item: "create_things_and_misc:vibration_mechanism"
+				type: "item"
+			}]
+			title: "&lVibration Mechanism"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A4B2D534D4FF6DA"]
+			id: "1AF30D6CF9698E69"
+			rewards: [{
+				id: "311B02E11E1B00D5"
+				item: "create_sa:steam_engine"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "1001B0931BFA27B3"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			title: "&lSteam Engine"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A4B2D534D4FF6DA"]
+			id: "76757835951E1310"
+			rewards: [{
+				id: "689A92D33EB74153"
+				item: "create_sa:heat_engine"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "60273857A8A57287"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			title: "&lHeat Engine"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A4B2D534D4FF6DA"]
+			id: "72ED97E1F4157B09"
+			rewards: [{
+				id: "1147A06A7BB4BA48"
+				item: "create_sa:hydraulic_engine"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "53F7D4FCFC65A0CB"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			title: "&lHydraulic Engine"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26F4FB950E84A8A1"]
+			id: "6D9403738042644F"
+			rewards: [{
+				count: 4
+				id: "7EA1F642C5218FF4"
+				item: "create:andesite_alloy"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BA4163120BE5567"
+				item: "create_things_and_misc:radar"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26F4FB950E84A8A1"]
+			id: "2ECB09EB3F25EBCF"
+			rewards: [{
+				id: "5C84286A53924240"
+				item: "create_things_and_misc:brass_speaker"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "57F19F719159BD07"
+				item: "create_things_and_misc:brass_speaker"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AF30D6CF9698E69"]
+			id: "2026751A507AFB54"
+			rewards: [{
+				count: 8
+				id: "7554D6612BA331B0"
+				item: "create:cogwheel"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "37F160B7886136B0"
+				item: {
+					Count: 1b
+					id: "create_sa:portable_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1AF30D6CF9698E69"]
+			id: "0E0E5057FE787A84"
+			rewards: [{
+				count: 8
+				id: "1C94FA3D30733AB0"
+				item: "alltheores:brass_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A0FB3BC30184AFE"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1AF30D6CF9698E69"]
+			id: "4F1AE489B172A980"
+			rewards: [{
+				count: 8
+				id: "68CB27B89818105E"
+				item: "alltheores:brass_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B83D6B21EE35FA0"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72ED97E1F4157B09"]
+			id: "042CAB85553F7E89"
+			rewards: [{
+				count: 8
+				id: "728B13F436EA6A04"
+				item: "minecraft:copper_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "221E72ED2578CBA3"
+				item: {
+					Count: 1b
+					id: "create_sa:copper_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72ED97E1F4157B09"]
+			id: "7B0301C40B6DD285"
+			rewards: [{
+				count: 8
+				id: "14B454DC9E1C46E2"
+				item: "minecraft:copper_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "78DD0172D94A652C"
+				item: {
+					Count: 1b
+					id: "create_sa:copper_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72ED97E1F4157B09"]
+			id: "5EAFF55F00DE43F8"
+			rewards: [{
+				count: 8
+				id: "6083A14E51D8A0BE"
+				item: "create:cogwheel"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AAD1A1730205BC9"
+				item: {
+					Count: 1b
+					id: "create_sa:block_picker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76757835951E1310"]
+			id: "21422D9DE8767DDA"
+			rewards: [{
+				count: 8
+				id: "6BBA9A85BAA0C1F3"
+				item: "create:cogwheel"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F5F4C5F6BAF95BF"
+				item: {
+					Count: 1b
+					id: "create_sa:grapplin_whisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"76757835951E1310"
+				"1AF30D6CF9698E69"
+				"26F4FB950E84A8A1"
+				"72ED97E1F4157B09"
+			]
+			id: "05F4963ECFBC8E9A"
+			rewards: [{
+				id: "77B4EF14AAD0BDB5"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "584A99D82388D0E3"
+				item: {
+					Count: 1b
+					id: "create_sa:flamethrower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&4&lFlamethrower"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76757835951E1310"]
+			id: "44B7C4336266F0A3"
+			rewards: [{
+				count: 8
+				id: "6E51D05AC994B27B"
+				item: "create:andesite_alloy"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "235D21B3EB5B9216"
+				item: {
+					Count: 1b
+					id: "create_sa:andesite_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76757835951E1310"]
+			id: "61D134C5141D05B7"
+			rewards: [{
+				count: 8
+				id: "1A4D43297BE24741"
+				item: "create:andesite_alloy"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D7CAA1B4B56BCAE"
+				item: {
+					Count: 1b
+					id: "create_sa:andesite_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["553BB69A0DEB8046"]
+			id: "79912725BBF78D4B"
+			rewards: [{
+				id: "035D951C7490C712"
+				item: {
+					Count: 1b
+					id: "create_sa:large_filling_tank"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CC50D6C922FF2DC"
+				item: {
+					Count: 1b
+					id: "create_sa:large_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["167A43E3881916B0"]
+			id: "553BB69A0DEB8046"
+			rewards: [{
+				id: "213EFBD6DCDBCE47"
+				item: {
+					Count: 1b
+					id: "create_sa:medium_filling_tank"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5035B99E1DEF22B6"
+				item: {
+					Count: 1b
+					id: "create_sa:medium_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A4B2D534D4FF6DA"]
+			id: "167A43E3881916B0"
+			rewards: [{
+				id: "4F6C45AFBDA7CECD"
+				item: {
+					Count: 1b
+					id: "create_sa:small_filling_tank"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "48EC736BFA60CA5E"
+				item: {
+					Count: 1b
+					id: "create_sa:small_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["712C7F296DA947A6"]
+			id: "5301D644C506AEF4"
+			rewards: [{
+				id: "4F68C1225DF65A5E"
+				item: {
+					Count: 1b
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C10D0280BAA399F"
+				item: {
+					Count: 1b
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57291992365E62D3"]
+			id: "712C7F296DA947A6"
+			rewards: [{
+				id: "53843DF501768970"
+				item: {
+					Count: 1b
+					id: "create_sa:medium_fueling_tank"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BCA6F2F7C58DD9D"
+				item: {
+					Count: 1b
+					id: "create_sa:medium_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A4B2D534D4FF6DA"]
+			id: "57291992365E62D3"
+			rewards: [{
+				id: "136B124AECB009F0"
+				item: {
+					Count: 1b
+					id: "create_sa:small_fueling_tank"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "4D80F931D813CFFA"
+				item: {
+					Count: 1b
+					id: "create_sa:small_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A4B2D534D4FF6DA"]
+			description: [
+				"You can use &lCard Inscriber&r to create an &lUnique Card&r."
+				"Unique Cards can be read by &lCard Reader&r to push a &c&lRedstone Signal&r."
+				""
+				"This is useful to make secure places."
+				""
+				"If you want to look the key of the unique card, use the &lMagnifying Glass&r."
+			]
+			icon: "create_things_and_misc:magnifying_glass"
+			id: "7288A5D3F4B2F415"
+			rewards: [{
+				id: "22D861C831DFAE22"
+				item: "create_things_and_misc:empty_card"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "43D02E1A5E1BB4CB"
+					item: "create_things_and_misc:card_press"
+					type: "item"
+				}
+				{
+					id: "11CABA682A78FAD3"
+					item: "create_things_and_misc:card_reader"
+					type: "item"
+				}
+				{
+					id: "0DF049565BC048AC"
+					item: "create_things_and_misc:magnifying_glass"
+					type: "item"
+				}
+			]
+			title: "Encrypted Cards"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4A4B2D534D4FF6DA"]
+			id: "45FE6F8BE43478CF"
+			rewards: [
+				{
+					id: "350F444D92B02CEC"
+					item: "createaddition:connector"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 4
+					id: "092A58EAE7A5C28E"
+					item: "createaddition:copper_spool"
+					random_bonus: 12
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Electron Manipulation"
+			tasks: [
+				{
+					id: "1A09BD80F0C9E04D"
+					item: "createaddition:tesla_coil"
+					type: "item"
+				}
+				{
+					id: "776F0299A7779B60"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+				{
+					id: "39B7DED5EF58C370"
+					item: "createaddition:electric_motor"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A4B2D534D4FF6DA"]
+			description: ["With the &lPrinter&r, you can duplicate any book that you find, including &d&lEnchanted Books&r with &a&lExperience&r."]
+			icon: "create_enchantment_industry:enchanting_guide"
+			id: "15332CB571AD869A"
+			rewards: [{
+				id: "7EB10A0A878FC91C"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "4F1E01560EE46BAB"
+					item: "create_enchantment_industry:printer"
+					type: "item"
+				}
+				{
+					id: "4D64E20BA297B94F"
+					item: "create_enchantment_industry:disenchanter"
+					type: "item"
+				}
+			]
+			title: "Enchant Factory"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4A4B2D534D4FF6DA"]
+			id: "009DE1C36F9A099C"
+			rewards: [{
+				id: "1E515D6AC3392A1E"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Automated Cutting"
+			tasks: [{
+				id: "605AC71C03DF7865"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+	]
+	title: "Create [Addons]"
+}

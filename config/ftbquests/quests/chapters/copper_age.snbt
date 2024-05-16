@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "copper_age"
+	group: "4546D7737CBFFD68"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:copper_ingot"
+	id: "6DDA8E3B870D0F98"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "minecraft:textures/cbe/ui/quest_titles/copperage.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: -1.0d
+		y: -8.0d
+	}]
+	order_index: 31
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"590E33A52FE200AB"
+				"2144085F5EE55D78"
+				"4D0D4D1192321CA7"
+				"26FE32A8F57D5861"
+				"271658ADF5CA72DC"
+				"728FE5159F91D024"
+				"0EC259AE5722DC9E"
+				"6E23E878AF7498BD"
+				"543054CD994EADE7"
+				"5C77942C2D982055"
+				"1E1FEE6DCCACF1A6"
+				"2440EE8E5D1324C7"
+				"7877532D0868E4C9"
+				"1C6E7002DB3F4AEF"
+				"06E1208A0EFEB709"
+				"5B6C50DC7777CA3B"
+				"0040F13809CCEB6B"
+				"31F5CA69E0AD387A"
+			]
+			icon: "minecraft:copper_ingot"
+			id: "1F7E2203E32F10F1"
+			shape: "circle"
+			size: 2.5d
+			subtitle: "Aquire Copper!"
+			tasks: [{
+				id: "27C0AA6CD30FB63F"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Copper Ingot"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F7E2203E32F10F1"]
+			hide_dependency_lines: false
+			id: "740BE0EA166DFC66"
+			subtitle: "Press a copper ingot"
+			tasks: [{
+				id: "052F312E9BB34EBC"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1F7E2203E32F10F1"]
+			id: "6716E17989458658"
+			rewards: [{
+				id: "0052A3BA5F53CBB3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Create copper casing"
+			tasks: [{
+				id: "3AB7A5D34A71F7EA"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6716E17989458658"]
+			id: "0E405D49DB0AE558"
+			subtitle: "Craft a item drain"
+			tasks: [{
+				id: "46960E99A0489352"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6716E17989458658"]
+			id: "18ED9ED1234DF0A5"
+			subtitle: "Craft a rope pulley"
+			tasks: [{
+				id: "4B858DB5DF201E3E"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6716E17989458658"]
+			id: "25618E2974FB4857"
+			subtitle: "Craft a spout"
+			tasks: [{
+				id: "72749219CA653E62"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6716E17989458658"]
+			id: "410212804B72BF53"
+			subtitle: "Craft a portable fluid interface"
+			tasks: [{
+				id: "6CAD160ADBD38008"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1F7E2203E32F10F1"]
+			id: "39D921FAE25C3FFF"
+			subtitle: "Craft a diving helmet"
+			tasks: [{
+				id: "308706D46C8099F5"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F7E2203E32F10F1"]
+			id: "54F74B6C69644989"
+			subtitle: "Craft diving boots"
+			tasks: [{
+				id: "621D3FEC36B39ADD"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F7E2203E32F10F1"]
+			id: "565B5713B1C0F598"
+			subtitle: "Craft a copper backtank"
+			tasks: [{
+				id: "7860F4818574AD34"
+				item: {
+					Count: 1b
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["740BE0EA166DFC66"]
+			id: "5ABF065781655C3E"
+			subtitle: "Craft a fluid pipe"
+			tasks: [{
+				id: "048B916A36F3104E"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["740BE0EA166DFC66"]
+			id: "75EAE9418AFC1ED1"
+			subtitle: "Craft a fluid tank"
+			tasks: [{
+				id: "4E76BA3193DAC69C"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["740BE0EA166DFC66"]
+			id: "748A31515CC4F05F"
+			subtitle: "Craft a copper valve handle"
+			tasks: [{
+				id: "1EA7742F12E56E73"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5ABF065781655C3E"]
+			id: "4633F5182A0BCE2C"
+			subtitle: "Craft a mechanical pump"
+			tasks: [{
+				id: "0C6B18FF277CF2E3"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5ABF065781655C3E"]
+			id: "459EFB58D411AC2E"
+			subtitle: "Craft a fluid valve"
+			tasks: [{
+				id: "4D8BB80E71E07C86"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5ABF065781655C3E"]
+			id: "1024C4C308212CEF"
+			subtitle: "Craft a smart fluid pipe"
+			tasks: [{
+				id: "457FD4FEBB06498A"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39D921FAE25C3FFF"]
+			id: "523F0B257B349C35"
+			subtitle: "Upgrade to Netherite Diving Helmet"
+			tasks: [{
+				id: "0E35CE926AB03AE8"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54F74B6C69644989"]
+			id: "15E8C1B8D2B32F23"
+			subtitle: "Upgrade to Netherite Diving Boots"
+			tasks: [{
+				id: "69B2CBAE8D9FEBAB"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["565B5713B1C0F598"]
+			id: "3678AE9980F8AE5A"
+			subtitle: "Upgrade to Netherite Back Tank"
+			tasks: [{
+				id: "0F4BC0455631BE1A"
+				item: {
+					Count: 1b
+					id: "create:netherite_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"39D921FAE25C3FFF"
+				"748A31515CC4F05F"
+				"15E8C1B8D2B32F23"
+				"1F7E2203E32F10F1"
+				"410212804B72BF53"
+				"3678AE9980F8AE5A"
+				"25618E2974FB4857"
+				"75EAE9418AFC1ED1"
+				"1024C4C308212CEF"
+				"740BE0EA166DFC66"
+				"4633F5182A0BCE2C"
+				"565B5713B1C0F598"
+				"6716E17989458658"
+				"5ABF065781655C3E"
+				"18ED9ED1234DF0A5"
+				"54F74B6C69644989"
+				"459EFB58D411AC2E"
+				"0E405D49DB0AE558"
+				"523F0B257B349C35"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:earth_globe"
+			id: "7B006070DAD01DF6"
+			rewards: [{
+				count: 8
+				id: "59D788D9EB6D2BBA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Complete all the quests in this chapter."
+			tasks: [{
+				id: "7A362FBE4F95176D"
+				title: "Completionist"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+	]
+	title: "&71.3 &3ᴄᴏᴘᴘᴇʀ ᴀɢᴇ"
+}

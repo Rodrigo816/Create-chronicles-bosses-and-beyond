@@ -1,0 +1,680 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_endXX"
+	group: "4546D7737CBFFD68"
+	icon: "minecraft:end_portal_frame"
+	id: "50EEC609E833AB5F"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "velox:textures/quests/the-end.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 4.0d
+		y: -5.5d
+	}]
+	order_index: 55
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4D36AAFE17F5CD9C"
+			rewards: [
+				{
+					count: 64
+					id: "1880DB7D9A47D48C"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					id: "21C05C2D8424F723"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "444AC080F3243355"
+				title: "Enter The End Dimension"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			dependency_requirement: "all_started"
+			description: ["Time to go old school and slay a Dragon"]
+			icon: "minecraft:dragon_head"
+			id: "2A51F2BA00FCA9DF"
+			rewards: [
+				{
+					id: "2142EE70349F1AA8"
+					item: "voidtotem:totem_of_void_undying"
+					type: "item"
+				}
+				{
+					id: "03D5DEF13126F18F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "412B85684482E982"
+				title: "Kill The Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A51F2BA00FCA9DF"]
+			description: ["Use the items from the Ender Guardian Quest to help summon the Void Worm"]
+			id: "43E0AD91C15669D8"
+			rewards: [{
+				id: "431401C91D175B2C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				id: "679295C74DF4AA03"
+				title: "Summon and Kill The Void Worm"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			description: [
+				"Minecraft's End Cities are large structures that only appear in The End, specifically the Outer Islands. To get to the Outer Islands, you need to defeat the Ender Dragon, after which an End Gateway Portal will appear that will take you there. You'll then be able to search the islands for an End City."
+				""
+				"End Cities are not actually cities, but are instead tall towers made from End Stone Bricks and Purpur Blocks; the city part comes from how complex these interconnected towers can be. They can have many different rooms, and are guarded by many Shulkers that disguise themselves as End Stone blocks."
+			]
+			id: "4FDAD85880431EBB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E92C4CB67D60075"
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BF786D07A5C2C0A"
+					type: "random"
+				}
+			]
+			subtitle: "The city"
+			tasks: [{
+				icon: "mcwfences:railing_end_brick_wall"
+				id: "2A17B4F600AC9261"
+				structure: "#minecraft:end_city"
+				title: "City At The End"
+				type: "structure"
+			}]
+			title: "The City in the End"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			description: ["It's a tower enjoy it. It's a pretty tower."]
+			id: "7B81F9A8E1D9D77F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EC8142A7FE6F9A4"
+					type: "loot"
+				}
+				{
+					id: "3F091C53172EB612"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "A Tower at the End of the World."
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_dark_tower"
+				id: "1715059613CABDCF"
+				structure: "totw_additions:end_tower"
+				title: "End Towers"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A51F2BA00FCA9DF"]
+			description: ["Get yourself a good old fashion dragon egg.  Then you can start your journey with &6Dragon Mounts&r by warming that new dragon egg by the fire"]
+			icon: "minecraft:dragon_egg"
+			id: "47430827E148C6B4"
+			rewards: [
+				{
+					id: "2235A8A3EC1BBA61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F0692D02F2E6CD9"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					id: "50FA8794ABBE1570"
+					item: "plushies:dragon_plushie"
+					type: "item"
+				}
+			]
+			subtitle: "Hold the Dragon Egg"
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				id: "7D4E9D0E461EDEC6"
+				type: "advancement"
+			}]
+			title: "Obtain a Dragon Egg"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4FDAD85880431EBB"]
+			description: ["Elytra are found only in end cities in item frames in the treasure room of the end ship. A shulker guards the elytra and the ship's two loot chests"]
+			id: "6D6825408A2690E7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1284E690F31D7A54"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CC2C36666941427"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64FFA643984CA1E4"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F5177025FE4E4EF"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E2210769B9AEE95"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6CD775846433A2F8"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The Sky is the Limit!"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			description: [
+				"Throw an &2ender pearl&r through, fly, or walk into an &5end gateway&r."
+				""
+				""
+				"{image:velox:textures/quests/end-gateway.png width:100 height:200 align:1}"
+				""
+				"&5End&r gateways are intradimensional portals generated in the &5End&r: some are spawned around the central island after each death of the &5ender dragon&r; others are randomly generated throughout the outer islands."
+				""
+				"They provide quick access to the different parts of the &5End&r dimension."
+			]
+			id: "026DA8F018B4B7FE"
+			rewards: [
+				{
+					id: "7A346D10F6C735DE"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "1472F0DDF90543EC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			subtitle: "Escape the island."
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "4F56379B94AFD802"
+				type: "advancement"
+			}]
+			title: "Remote Getaway"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A51F2BA00FCA9DF"]
+			description: ["Time to fight dragons once again."]
+			id: "784C38AC2AB10C65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7329620E97930959"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "Respawn the Ender Dragon."
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "2FE3AF8B680BC589"
+				type: "advancement"
+			}]
+			title: "The End... Again..."
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A51F2BA00FCA9DF"]
+			id: "74F51FEBA755CEC2"
+			rewards: [{
+				id: "387EA526545CC99E"
+				item: "create_sa:heap_of_experience"
+				type: "item"
+			}]
+			subtitle: "Collect Dragon's Breath in a Glass Bottle."
+			tasks: [{
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+				id: "4D7D3ABCE55704AE"
+				type: "advancement"
+			}]
+			title: "You Need a Mint!"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4FDAD85880431EBB"]
+			id: "54B3681FCAC28BF4"
+			rewards: [
+				{
+					id: "4F3BE60692432121"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AE1089E48285F5E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Levitate up 50 blocks from the attacks of a Shulker."
+			tasks: [{
+				advancement: "minecraft:end/levitate"
+				criterion: ""
+				id: "515423BEEA543EE2"
+				type: "advancement"
+			}]
+			title: "Great View From Up Here"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["026DA8F018B4B7FE"]
+			description: ["When ringlings are fed bouncers, they become full and will begin digging through the indigo eylium below them, they will occasionally dig up ancient roots and rarely a rooting blade."]
+			id: "74F56EB611932708"
+			rewards: [
+				{
+					id: "40621E234881269F"
+					item: "enlightened_end:indigo_roots"
+					type: "item"
+				}
+				{
+					id: "16462A2B742B7953"
+					item: "enlightened_end:indigo_sprouts"
+					type: "item"
+				}
+				{
+					id: "222E47112059565B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Feed a ringling a bouncer."
+			tasks: [{
+				advancement: "enlightened_end:feed_ringling_advancement"
+				criterion: ""
+				id: "4C58F1C640910433"
+				type: "advancement"
+			}]
+			title: "Daily Dose of Slop"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74F56EB611932708"]
+			description: [
+				"Ancient roots can be eaten to submerge yourself one block into the ground, it can also be brewed into a rooting potion, which causes this effect for a longer duration. "
+				""
+				"The Rooting Blade will apply that effect on hit for about 3 seconds."
+			]
+			id: "1A412DC7DC975AE8"
+			rewards: [
+				{
+					id: "5778B7CF26810DF3"
+					item: "enlightened_end:ancient_root"
+					type: "item"
+				}
+				{
+					id: "5EE3EA4984640AF6"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "Tastes...rooty."
+			tasks: [{
+				advancement: "enlightened_end:eat_ancient_root"
+				criterion: ""
+				id: "40D374D0244E2EEE"
+				type: "advancement"
+			}]
+			title: "Roots from the Land Down Under"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["026DA8F018B4B7FE"]
+			description: ["Adamantite nodes can be found near the void, mining these with a netherite pickaxe drops adamantite nuggets."]
+			id: "1017B7BAB0B037A5"
+			rewards: [
+				{
+					id: "3A06391FE0A2DBA7"
+					item: "voidtotem:totem_of_void_undying"
+					type: "item"
+				}
+				{
+					id: "7890C46704AB3E3E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Adamantite is a new heavy brittle ore found close to the void on the end islands. It can be used for a variety of things."
+			tasks: [{
+				advancement: "enlightened_end:adamantite_chunk_advancement"
+				criterion: ""
+				id: "7E311D871D058FF0"
+				type: "advancement"
+			}]
+			title: "Heaviest Metals"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1017B7BAB0B037A5"]
+			description: ["Adamantite armor has a speed penalty for each piece, and lower durability, but has higher armor toughness and knockback resistance than netherite."]
+			id: "67EF1950175B532F"
+			rewards: [
+				{
+					id: "7E97E438D00453FC"
+					item: {
+						Count: 1b
+						id: "enlightened_end:adamantite_sword"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 0.25d
+								AttributeName: "generic.attack_speed"
+								Name: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									-1432303132
+									1547650778
+									-1347824379
+									204627997
+								]
+							}]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Voidslayer\",\"color\":\"dark_blue\",\"italic\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43DD0EF733EC9CC6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Full Adamantite armor"
+			tasks: [{
+				advancement: "enlightened_end:full_adamantite_armour"
+				criterion: ""
+				id: "237D9F9E8C0DED6C"
+				type: "advancement"
+			}]
+			title: "Eternal Voidslayer"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54B3681FCAC28BF4"]
+			description: ["Watch your step traveler!"]
+			id: "1A700010DD307CE0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D299ECFC552C3F9"
+					type: "random"
+				}
+				{
+					id: "2D67F187F4D40F27"
+					item: "minecraft:ender_pearl"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Enter the Upper End."
+			tasks: [{
+				advancement: "enlightened_end:upper_end_advancement"
+				criterion: ""
+				id: "61F5018F215E6687"
+				type: "advancement"
+			}]
+			title: "Don't Look Down"
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1A700010DD307CE0"]
+			description: ["Useful for various crafting items."]
+			id: "4FB165283FAB432F"
+			rewards: [
+				{
+					count: 2
+					id: "119DDA7FB69D5074"
+					item: "enlightened_end:gas_jar"
+					type: "item"
+				}
+				{
+					id: "095C078B33F86319"
+					item: "ends_delight:smoked_dragon_leg"
+					type: "item"
+				}
+			]
+			subtitle: "Capture either a distrubed Xexon or Helium in a gas jar."
+			tasks: [
+				{
+					advancement: "enlightened_end:capture_gas"
+					criterion: ""
+					id: "44630CA65BC931FD"
+					type: "advancement"
+				}
+				{
+					id: "24420DEB367DA0E4"
+					item: "enlightened_end:gas_jar"
+					type: "item"
+				}
+			]
+			title: "And the Most Noble Gas Reward goes to..."
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1A700010DD307CE0"]
+			description: ["Explore deeper and find the Freezing End. "]
+			id: "4A2A0D94555E1D5F"
+			rewards: [
+				{
+					id: "3E3F0B4D607013C3"
+					item: "enlightened_end:frost_fruit"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4E517C2AB40AFF13"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Uhhh...captain, should we turn back?"
+			tasks: [{
+				advancement: "enlightened_end:enter_freezing_end"
+				criterion: ""
+				id: "29C90EA6453B439F"
+				type: "advancement"
+			}]
+			title: "Detecting Multiple Leviathan-class Lifeforms!"
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4A2A0D94555E1D5F"]
+			id: "102BC3D06C32A4A4"
+			rewards: [
+				{
+					id: "6E1F849B1A0F03F1"
+					item: "ends_delight:bubble_tea"
+					type: "item"
+				}
+				{
+					id: "25C466CE1557435F"
+					item: "ends_delight:chorus_cookie"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DBEC1FE465B5099"
+					type: "random"
+				}
+			]
+			subtitle: "Give an offering statue the trade it requests."
+			tasks: [{
+				advancement: "enlightened_end:offering_statue_advancement"
+				criterion: ""
+				id: "18D4972DFFDDBDC3"
+				title: "Equal Trade"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["74F56EB611932708"]
+			description: ["Apply the max amount of &cEnnegel Globs&r on a Ennegel block."]
+			id: "5D452F6B6A738F44"
+			rewards: [
+				{
+					id: "201AAE554EB92D41"
+					item: {
+						Count: 1b
+						id: "cfm:trampoline"
+						tag: {
+							BlockEntityTag: {
+								Color: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AA21C876DD6C32F"
+					type: "random"
+				}
+				{
+					id: "4AE23624F2614578"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Now that is what I call bouncy!"
+			tasks: [{
+				advancement: "enlightened_end:super_ennegel_bounce"
+				criterion: ""
+				id: "3BFB9F7ED4F68D83"
+				type: "advancement"
+			}]
+			title: "Bounce ++"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["026DA8F018B4B7FE"]
+			description: ["Throw an ender pearl at the tip of a &5Myalite Crystal&r and travel through it. "]
+			id: "5355784A1DD07DD0"
+			rewards: [
+				{
+					count: 8
+					id: "7DFD53CB7DDAFDCC"
+					item: "quark:myalite_crystal"
+					type: "item"
+				}
+				{
+					id: "448B01BCC7CAD559"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			subtitle: "If you can..."
+			tasks: [{
+				advancement: "quark:use_viaduct"
+				criterion: ""
+				id: "31F2CC3C3E994066"
+				type: "advancement"
+			}]
+			title: "Chase Me!"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["The End is a dark, space-like dimension consisting of separate islands in the void, made out of end stone."]
+	title: "&dThe End"
+}

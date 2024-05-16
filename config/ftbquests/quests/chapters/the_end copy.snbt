@@ -1,0 +1,115 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "2F38421156FE1702"
+	icon: "minecraft:end_stone"
+	id: "12ECD3657F315F2B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "424B329825ACEC18"
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				icon: "minecraft:end_portal_frame"
+				id: "3FC73F2CFADDA6DC"
+				type: "advancement"
+			}]
+			title: "Locate the &2Stronghold"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["424B329825ACEC18"]
+			id: "18E2E294B49E929F"
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "17980E9A6ACE772E"
+				type: "dimension"
+			}]
+			title: "Enter the &5End"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18E2E294B49E929F"]
+			dependency_requirement: "all_started"
+			icon: "minecraft:dragon_head"
+			id: "74BE81F32FEA2DAB"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "56341CA27B98345B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &5Ender Dragon"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18E2E294B49E929F"]
+			id: "5DFF13933E097A0B"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				id: "11ED4B21C4B216BA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &9Void Worm"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18E2E294B49E929F"]
+			id: "17E1C7371C716D20"
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "3F23A98A2953FDC3"
+				type: "advancement"
+			}]
+			title: "Locate a &eRuined Citadel"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["17E1C7371C716D20"]
+			id: "36146870569C4EB0"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				id: "4F008FE4C21B01E7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a &5Ender Golem"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["17E1C7371C716D20"]
+			id: "230E0F33472BBB4A"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "23E43D9B339ACE66"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &5Ender Guardian"
+			x: -0.5d
+			y: 5.0d
+		}
+	]
+	title: " &dThe End"
+}

@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "age_0__get_ready"
+	group: "4546D7737CBFFD68"
+	icon: "minecraft:recovery_compass"
+	id: "502E3A665C2A3281"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "packmenu:textures/gui/techev_discovery_title_2.png"
+		rotation: 0.0d
+		width: 6.823333333333333d
+		x: 0.0d
+		y: -7.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/logo/techevnoback.png"
+				}
+			}
+			id: "213A3F1A58539F79"
+			rewards: [{
+				id: "2C4F8992C6EA6BE9"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Welcome to the first Modpack of the TechEv Series."
+			tasks: [{
+				id: "4B79912DA9338FD8"
+				title: "Welcome to TechEv !"
+				type: "checkmark"
+			}]
+			title: "Welcome to TechEv || Discovery !"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["213A3F1A58539F79"]
+			description: [
+				"Hi, I'm Sanolink, and I'm a french student in digital systems."
+				""
+				"\"TechEv || Discovery\" is my first modpack, and I'm developing it alone. I hope I will succeed in making you enjoy my modpack ;)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:item/slime_in_a_bucket_excited"
+				}
+			}
+			id: "2CA6DD60A9BDE64D"
+			rewards: [{
+				id: "5D9A23E9787DE537"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Personal Infos"
+			tasks: [{
+				id: "15F415863A42FDD8"
+				title: "About Me"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["213A3F1A58539F79"]
+			description: ["Your objective is to achieve to a MEGA Base, with almost all items automated."]
+			disable_toast: true
+			icon: "minecraft:recovery_compass"
+			id: "0005A52540E36926"
+			rewards: [{
+				id: "32AA051B511E3975"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "0BB55C216A88E4C6"
+				title: "Pack's Objective"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["213A3F1A58539F79"]
+			description: ["If you find bugs, or errors in the source code of the pack, feel free to leave me a comment so I can fix these in future updates. "]
+			disable_toast: true
+			icon: "twilightforest:cicada"
+			id: "45B3806435057BED"
+			rewards: [{
+				id: "1ED265C7987815FE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "14D1BEC4D01D3380"
+				title: "Quests Info"
+				type: "checkmark"
+			}]
+			title: "Bugs / Issues / Upgrades"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["213A3F1A58539F79"]
+			description: [
+				"TechEv || Discovery is a challenging modpack that will introduce you to many mods in depth."
+				"You will need to complete the end game of a mod in order to unlock the next age."
+				"You will start with a semi vanilla world with few technologies but the more you advance in the pack, the more you will discover powerful mod."
+				""
+				"This modpack is in Beta right now, so Ages aren't finished yet, but updates will add new mods, and new ages in the few weeks."
+			]
+			disable_toast: true
+			icon: "aquamirae:ship_graveyard_echo"
+			id: "450AB41696CC6AE6"
+			rewards: [{
+				id: "2B57DF8D30B3447C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "180640BCE96DE62C"
+				type: "checkmark"
+			}]
+			title: "Stages Progression"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["213A3F1A58539F79"]
+			description: ["In this pack, quests are optionals, but highly recommanded to get useful tips. To unlock the end game of the pack, you'll need to finish all chapters."]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
+				}
+			}
+			id: "5605A2567A1A65A3"
+			rewards: [{
+				id: "440F293C101D0302"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7AC9758F7E04F074"
+				type: "checkmark"
+			}]
+			title: "Quests Info"
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["213A3F1A58539F79"]
+			description: ["Are you ready to start your Journey and discover mysteries of TechEv ?"]
+			icon: "create:brass_hand"
+			id: "0F8C4C01C5E75A8B"
+			rewards: [
+				{
+					id: "1D7C17F6AB282CA5"
+					item: "akashictome:tome"
+					type: "item"
+				}
+				{
+					id: "24A38EEADA1F5D67"
+					item: "morphtool:tool"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Let's Start This !"
+			tasks: [{
+				id: "1EA2AD4F6EBF0A9A"
+				title: "Start Adventure"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["&lWelcome !"]
+	title: "&l&fAge 0 : Getting started"
+}

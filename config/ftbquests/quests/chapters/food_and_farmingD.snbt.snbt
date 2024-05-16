@@ -1,0 +1,2350 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food_and_farmingD.snbt"
+	group: "4546D7737CBFFD68"
+	icon: "minecraft:cake"
+	id: "29ABCE6CB1233918"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:textures/item/cake.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/wheat.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5102040816326507d
+			y: -3.0714285714285765d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/wheat.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/wheat_seeds.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.48979591836734215d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:textures/block/birch_sapling.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "croptopia:textures/item/cantaloupe_seed.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:textures/item/apple_cider.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/cooked_chicken.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/cooked_porkchop.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:textures/cbe/ui/quest_titles/foodandfarming.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.5d
+			y: -5.5d
+		}
+	]
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to the Food and Farming chapter!"
+				""
+				"Here, you'll find different ways for you to grow and make food!"
+			]
+			icon: "minecraft:emerald"
+			id: "42657FE6FB0FBCF2"
+			rewards: [
+				{
+					id: "0B87A7EBDDC46CFB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0A580E1C6C391A48"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Getting Started"
+			tasks: [{
+				id: "45D4C1FB09936173"
+				title: "Food and Farming"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43021923E220CF68"]
+			description: ["Let's gather some seeds."]
+			id: "6C30157C331D3FA1"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "22460BA8D2F43221"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "42A3A43A94458C23"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "21659E04D3C914F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "458633CA04A34FD7"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			shape: "circle"
+			subtitle: "Block Hand 1, Block Grass 0"
+			tasks: [{
+				count: 8L
+				id: "364CAEF63E727179"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			title: "Punch the Grass."
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18EADBAFC932F864"]
+			description: ["Let's gather some pieces of wool!"]
+			icon: "minecraft:white_wool"
+			id: "5E502B3720605D7A"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "2F7A537478EC11CB"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "452C2D9EE41DCAF6"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "1E231DCDF5DA853D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "3023F557F28631DD"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			subtitle: "Whose fleece was....rainbow?"
+			tasks: [{
+				count: 3L
+				icon: "minecraft:white_wool"
+				id: "4BF03B7093F87579"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "Any #minecraft:wool"
+				type: "item"
+			}]
+			title: "Mary had a Little Lamb"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "5044A47D23C3ECA6"
+			rewards: [
+				{
+					id: "21F10638A1B942DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "56FA67CE29CF04E2"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2BE4C13A75959B92"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "It's Clippin' Time"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E9C035EEE7E5C34"]
+			description: ["I don't wanna know how you got these."]
+			id: "5A9A6E3E727DBF87"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "41514F6D1EF66553"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "2A9753B73C853EE4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "34AA33FAA9F13179"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "2DB6A4D9A84DBDB6"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "But....Cows can't be sheared..."
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EA883C0BB7BD38F"]
+			description: [
+				"Markets provide you with a villager than can sell you anything if you have the right amount of emeralds."
+				""
+				"Spoiler: It's usually just 1 Emerald per item. BUT THEY HAVE EVERYTHING."
+			]
+			id: "0781A1F6012BDB99"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "2C68B0E50C89FDD6"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "0D2360E68AD62D7E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "50FCB4547E2D9C48"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A4759A71B941F51"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "The villager has more than one way to spawn"
+			tasks: [{
+				id: "1C0DCD7094F6BC75"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			title: "Purchasing Farm Supplies"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The classic Lead. Use this to get animals into your farm area."
+				""
+				"This isn't the same thing found in paint."
+			]
+			id: "1ACD8E42157FF972"
+			rewards: [
+				{
+					id: "37CC4EA0AA78108F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "00156B38AF2DBF02"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Get along little doggy."
+			tasks: [{
+				id: "7426C7183DB1E98E"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			title: "We're doing this the old fashioned way."
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["635620A03E3505BF"]
+			description: [
+				"Find a cow and Right Click it with a bucket."
+				""
+				"Seriously, why no bulls?"
+			]
+			id: "49449051E72E01F8"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "2A0BF518AE6459BA"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "5FEC055137B2E6C7"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "556C9D0AFFFF9906"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "38EA9F7985A9A089"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			subtitle: "Why aren't there any bulls in the game?"
+			tasks: [{
+				id: "3B835CFF98DD5956"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			title: "Find a cow. Milk the cow. Profit."
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2E9C035EEE7E5C34"]
+			description: [
+				"Chickens will lay these naturally. I guess it's not really considered naturally..."
+				""
+				"I guess the chickens are just getting... &oEggs-ercise!!!&r."
+				""
+				":)"
+			]
+			id: "68FCE30E9D7DDBB8"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "172557C4E0E49F04"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "52AF90DD6AF30B28"
+					item: "croptopia:scrambled_eggs"
+					type: "item"
+				}
+				{
+					id: "4BAFE0378D109073"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "429953DA340C46C6"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			subtitle: "or am I?"
+			tasks: [{
+				count: 3L
+				id: "258BA5B8417700CA"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			title: "I'm not gonna make an Egg pun."
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D2EF12FD7FDD217"]
+			id: "5299C13ACAE2A21C"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "5658EC3C76D1D97D"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "6F76CE953FE3229B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0E23C922CA6044A3"
+					item: "croptopia:fried_chicken"
+					type: "item"
+				}
+			]
+			subtitle: "How else do you think Fried Chicken is made?"
+			tasks: [
+				{
+					count: 10L
+					id: "0F60EB0066EAC321"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "749117C98D72AC44"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+			]
+			title: "The Chickens Must Go"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "minecraft:wooden_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "561AE9C80232EC8C"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "575FA951FA1690FA"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "614D6082EF2596FE"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "3BB939A4A027D4DE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "1F409A4A6EB6F9BE"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Just wait until you get machines for this."
+			tasks: [{
+				id: "1E2ACBDC0A2563EC"
+				title: "The Planter"
+				type: "checkmark"
+			}]
+			x: -1.5749999999999997d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72717D1135486D7F"]
+			id: "25F5F7F5FD277EF9"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "1077DB78BEA0BE40"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "30AB5BB8ACF2255D"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "7174E6A0D8C790CF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "5EC1494EBB363D39"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			subtitle: "Speedrunners Love This Stuff"
+			tasks: [{
+				count: 3L
+				id: "3ECB9577789A8F6D"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "Wheat."
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A1C2A7A8617D3E4"]
+			id: "23114E0FB75FFF29"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "1E3FCDD6A47BBA36"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "2568B7D494176CD7"
+					item: "croptopia:toast"
+					type: "item"
+				}
+				{
+					id: "02B4CE9CCDD00FEC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "3B8A17FB02223F7A"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			subtitle: "Quick and Simple"
+			tasks: [{
+				count: 3L
+				id: "337A9345C1169BA3"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			title: "The Bread of Life"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72717D1135486D7F"]
+			description: ["&2Flax Seeds&r are a great way to get string in the early game!"]
+			id: "7542EA0F39ACE800"
+			rewards: [
+				{
+					id: "3AFEA3675F0C9B21"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "0924AA8D7537B950"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			subtitle: "Who needs spiders anyway?"
+			tasks: [{
+				id: "7769FC595D778A10"
+				item: "supplementaries:flax_seeds"
+				type: "item"
+			}]
+			title: "Flax Seeds"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72717D1135486D7F"]
+			description: ["Find some sugar cane!"]
+			id: "3E4B64B04CA65817"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "5B04A74C5C279A43"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "41A9BA203B588981"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "225DF563D6387576"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			subtitle: "This grows to the sky now."
+			tasks: [{
+				count: 10L
+				id: "76F1CFCF7F863731"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			title: "Sugar Sugar."
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			description: ["Go ahead. Put a book in a furnace."]
+			id: "3DA4B32EE5B2A321"
+			rewards: [
+				{
+					id: "5A1185AE846D089F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "4EE0C615B34FDAA1"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Smelt a book. Totally won't catch on fire."
+			tasks: [{
+				id: "1758B4166BE4708C"
+				item: "cookingforblockheads:recipe_book"
+				type: "item"
+			}]
+			title: "Making a Kitchen, with a book."
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["45F83C2750F70F9B"]
+			description: [
+				"Craft the next version of the book. I promise you, it's worth it."
+				""
+				"I'll even give you a Diamond back."
+			]
+			id: "4478293BC57B14EB"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "60CF7D21B162DCD5"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "1D7A2E494D0642D8"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "40E507CE0CBD1157"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C38EC7C9A52C741"
+					type: "random"
+				}
+			]
+			subtitle: "This is totally worth it btw"
+			tasks: [{
+				id: "14324252B663A16A"
+				item: "cookingforblockheads:crafting_book"
+				type: "item"
+			}]
+			title: "Cooking with the power of Diamonds"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["58D5BD3106BFD94A"]
+			description: [
+				"This block is part of a multi-block kitchen."
+				""
+				"This will show you every recipe that is available to you with the food you have in your inventory, or stored in the kitchen multi-block."
+				""
+				"You can finally create a nice kitchen in Minecraft."
+			]
+			id: "40E1409C44A12164"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "5CFB45CB89377170"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 8
+					id: "47C811BCBC9E017A"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "6E8EE73F056B39E2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Betty White was born before Sliced Bread"
+			tasks: [{
+				id: "063434EF9DEF1DD7"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			title: "THE BEST THING SINCE SLICED BREAD"
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: [
+				"This works just like the kitchen counter, except in the air."
+				""
+				"And you can't put things on top of it."
+			]
+			hide_dependency_lines: true
+			id: "053CC729DA674067"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "4841D9354214C602"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "2959C298BE42DFEA"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+				{
+					id: "3653F3BE67DA9DBA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13E4DE17C8B6EEC6"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "So much room for activities!"
+			tasks: [{
+				count: 2L
+				id: "610731769F4229CC"
+				item: "cookingforblockheads:cabinet"
+				type: "item"
+			}]
+			title: "Even More Storage"
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: [
+				"This block stores items for cooking."
+				""
+				"You can also place other kitchen multi-block items on it, like toasters and a Cow in a Jar."
+			]
+			hide_dependency_lines: true
+			id: "6D9C5B60BBCCD794"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "15AD2E094301504F"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "3C027796B18A174F"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "1EEBD410D9DFA1D4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49812FBD97B3C910"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&oWe&r need more cooking space."
+			tasks: [{
+				count: 2L
+				id: "6692492A26CE28B1"
+				item: "cookingforblockheads:counter"
+				type: "item"
+			}]
+			title: "I need more cooking space."
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: [
+				"Stores items in the multi-block kitchen. Stack them on top of each other!"
+				""
+				"You can also shift-right click on it to open then door, and you can just right click items right in."
+			]
+			hide_dependency_lines: true
+			id: "70471E55F032AB37"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "57E7DCBA2C7E5673"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "588AC5ADC8017C1E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "40966C097687C5A3"
+					item: "croptopia:vanilla_ice_cream"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68B97D9C2A841D43"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "You'll open it, close it, then open it again, just because you're bored."
+			tasks: [{
+				count: 2L
+				id: "527BE533FE5929B9"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			title: "The Fridge"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: ["This block enables smelting recipes in your kitchen multi-block!"]
+			hide_dependency_lines: true
+			id: "398CCB9DFE109B57"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "223088BBED22DC15"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 8
+					id: "049C952834D04A62"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "182EDFCA02027371"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4324F0C42E412284"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "No Timer Needed"
+			tasks: [{
+				id: "50126B0B77FC434C"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			title: "Honey, there's a Furnace in the Kitchen"
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: [
+				"This block produces milk over time, and enables milk recipes for the kitchen multi-block."
+				""
+				"To get a cow in the jar, place the jar in a hole. Lure the cow to fall in said hole above the jar, then drop an anvil on it."
+				""
+				"I have no clue what this glass is made of, but it's stronger than my relationship with Chicken."
+			]
+			hide_dependency_lines: true
+			id: "2A30CEEA1F5CB92F"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "639DAB7817418691"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "44231A3E2DABF564"
+					item: "minecraft:cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "2F7690E3CFACC3DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E0D7F07F06E6A7C"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Phenomenal Milking Powers....Itty bitty living space."
+			tasks: [{
+				id: "01358FE276A1FAED"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			title: "A Cow in a Jar"
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7CB3FCD789747EF5"]
+			description: ["Allows you to attach power to the Stove."]
+			id: "5FB00B2955003265"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "1805A26234E01526"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "7E7100643B272139"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "41E860D1CBEC7720"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0144A5E622CCE995"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "13267126E9BB8551"
+				item: "cookingforblockheads:heating_unit"
+				type: "item"
+			}]
+			title: "Heating Upgrade"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["66815AB6FDACCAB7"]
+			description: ["Provides Ice and Snow recipes!"]
+			id: "7D491D183444AE64"
+			optional: true
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "7C0033FF7921466A"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 8
+					id: "6B32C72DCB992EE4"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "7D25E13114461847"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E647E174BFB2B28"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "04B89A5351C09D6F"
+				item: "cookingforblockheads:ice_unit"
+				type: "item"
+			}]
+			title: "Ice, Ice, Baby"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A51E26D66D1273B"]
+			description: ["Flax turns into String!"]
+			id: "35953716000766A1"
+			rewards: [
+				{
+					id: "53B5C5F9D8F13109"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "026EEDBFC16FDD36"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "194E7FFEB00B49C9"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			title: "String from Seeds!"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"659A903F97F93BE2"
+				"1D48298525EEADC9"
+			]
+			description: ["Time to bake a cake, if you've got some milk and eggs ready."]
+			id: "1DBBB332100FEF4C"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "7CC0549A25E44014"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "114F5FBFF39356CD"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "4BC0576DE3983F32"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "286DBF313442F188"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "0580C05163C31A5E"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			title: "You can have your Cake and Eat it too."
+			x: -8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["361DFDB1E1352D6B"]
+			description: ["You should have everything you need already."]
+			id: "7F148547DFC52AF7"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "07E9E650262CE299"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "730F8F9A7D93C28F"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "4FE9D8171F80C758"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "26C6FBD0405635A9"
+					title: "&a100$"
+					type: "command"
+				}
+			]
+			subtitle: "Pour some sugar on me."
+			tasks: [{
+				count: 3L
+				id: "4B3B3717B9E1474E"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			title: "You so sweet."
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: [
+				"This block provides water to the multi-block kitchen."
+				""
+				"It can also provide infinite water by pumping water out via cables or pipes."
+			]
+			hide_dependency_lines: true
+			id: "5D71BB2BC6F65CD2"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "7C0737D61CF56593"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "78A9749B09FF9EBE"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "71507451629465B8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "345DBC269E913F2C"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Why Use 3 Block when 1 Block Do Trick"
+			tasks: [{
+				id: "6E0DDBEFD215992D"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "The Sink = Infinite Water"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"&9Botany Pots&r makes it easy to grow your resources!"
+				""
+				"These pots auto-grow almost anything you put into them, and can even be upgraded for automation!"
+			]
+			id: "17A787540BB7CC26"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "7C9056FACA7D5869"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "3EDFDA21656B8E40"
+					item: "minecraft:terracotta"
+					type: "item"
+				}
+				{
+					id: "23FFFAF15DCAF21A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "0AAD194FC869F386"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			title: "Botany Pots"
+			x: 3.125d
+			y: 5.625d
+		}
+		{
+			dependencies: ["01B70A4F230ED036"]
+			description: ["Hopper pots will automatically output into the storage beneath it. This can be used to automate all of your crops!"]
+			id: "71956F2E7E0A4BCC"
+			rewards: [
+				{
+					command: "/eco deposit 100 dollars"
+					icon: "treasure2:gold_coin"
+					id: "038CB865EE232E11"
+					title: "&a100$"
+					type: "command"
+				}
+				{
+					id: "5829FED913AFA789"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "02A6656EB5ED5597"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "3559E8B4C7EEA673"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			title: "Automating the Pots"
+			x: 2.0d
+			y: 5.625d
+		}
+		{
+			dependencies: [
+				"01B70A4F230ED036"
+				"0EFF1AA37772156B"
+				"2E9C035EEE7E5C34"
+				"47764EFC822E462A"
+				"58D5BD3106BFD94A"
+				"73B8A70240E6070E"
+				"2715BECC5E6FFA64"
+				"18EADBAFC932F864"
+				"1697CC05D08B388D"
+				"0A1C2A7A8617D3E4"
+				"5A51E26D66D1273B"
+				"72717D1135486D7F"
+				"3EA883C0BB7BD38F"
+				"1515B32545F51266"
+				"7CB3FCD789747EF5"
+				"43021923E220CF68"
+				"58495CFBF4F20CE9"
+				"1D48298525EEADC9"
+				"1D2EF12FD7FDD217"
+				"66815AB6FDACCAB7"
+				"1F114EB0AAB86DB4"
+				"13AFCD3B6F62B986"
+				"0893EFCAC7031FEA"
+				"28C9EDBF6607E180"
+				"1CBEB3ABB4260CC2"
+				"361DFDB1E1352D6B"
+				"45F83C2750F70F9B"
+				"1827DEEA2DF1B144"
+				"635620A03E3505BF"
+				"37CA6F9F0226F10E"
+				"659A903F97F93BE2"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:earth_globe"
+			id: "34104C12CB2A9295"
+			rewards: [{
+				count: 8
+				id: "63BEAC584CFA4EA1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Complete all the quests in this chapter."
+			tasks: [{
+				id: "67D93662E7399C7E"
+				title: "Completionist"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			id: "7E27AC1D84F5AA52"
+			subtitle: "Hoes can be used to till Farmland, but can also be used to harvest crops in a radius around you. Simply right-click with the Hoe to harvest and automatically replant your crops!"
+			tasks: [{
+				id: "37D71F92A1FE0EDB"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Outta My Way, Hoe"
+			x: 0.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["2CC1255A056F962E"]
+			id: "1FA831156D4D0828"
+			subtitle: "The Plow can be attached to you or your horse by pressing R when nearby it. Shift-right-click to put Hoes in the Plow and right-click it to lower it. Now you can easily plow land for your farms! It also works with Shovels to make Paths."
+			tasks: [{
+				id: "34185E0F40A130BF"
+				item: "astikorcarts:plow"
+				type: "item"
+			}]
+			title: "Before The Cart"
+			x: 2.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["2CC1255A056F962E"]
+			id: "398D409A849E98CC"
+			subtitle: "Higher tier hoes can harvest a larger radius of crops. Diamond hoes can harvest a full 5x5 area in one sweep!"
+			tasks: [{
+				id: "692206FF29DF8345"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Waste Your Diamonds On A Hoe"
+			x: -1.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["2CC1255A056F962E"]
+			id: "7B77C78D37CE9076"
+			subtitle: "Seed Pouches can store a lot of one kind of seed or crop for easy placement. Drag a Seeds in your inventory and right-click it into the Seed Pouch. Right-click on a block with the pouch to place a seed, or shift-right-click to plant a 3x3 square."
+			tasks: [{
+				id: "00215333B0875C01"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			title: "Really Seedy Place"
+			x: -1.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["6EAC267C1EBF25ED"]
+			id: "07FB815978A6C34C"
+			subtitle: "The Straw Hat is sold by Farmer Villagers. When worn (by you or an Armor Stand) it increases the chances of nearby Crops growing into their Overweight variants, and also lets you get duplets or triplets when breeding animals!"
+			tasks: [{
+				id: "230100197415E862"
+				item: {
+					Count: 1b
+					id: "overweight_farming:straw_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Strawman Fallacy"
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["147450C2E47B0847"]
+			id: "2C7501CC217AAEC9"
+			subtitle: "Sprinklers can automatically water Farmland, or can be used to spray Potion effects."
+			tasks: [{
+				id: "54F8ABF4F41C74CB"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			title: "Sprinkled With Love"
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"32A8F8ABBE5759DD"
+				"161D095CEA1B8028"
+			]
+			dependency_requirement: "one_completed"
+			id: "20BB6619A21344EC"
+			subtitle: "Putting Liquid Fertiliser through a Sprinkler will bone meal the crops below it!"
+			tasks: [{
+				id: "4F09F53670454283"
+				item: "sliceanddice:fertilizer_bucket"
+				type: "item"
+			}]
+			title: "Fertilized"
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"147450C2E47B0847"
+				"6EAC267C1EBF25ED"
+			]
+			dependency_requirement: "one_completed"
+			id: "6C03F9E7C81AD08D"
+			subtitle: "Organic Compost can be made into Liquid Fertiliser, or can be placed in sunlight to decompose it into Rich Soil. Having water or decomposing agents like Mushrooms nearby can speed up the decomposition process."
+			tasks: [{
+				id: "0528D4254AA4AC55"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["147450C2E47B0847"]
+			id: "3C96777D5973AA9B"
+			subtitle: "Tree Fertilizer can grow Saplings instantly regardless of their spacing conditions. They can also be turned into Liquid Fertilizer."
+			tasks: [{
+				id: "24CF843DCA139985"
+				item: "create:tree_fertilizer"
+				type: "item"
+			}]
+			title: "Saving The Trees"
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7A28C42BC2A59671"]
+			id: "61609DA1CA032D44"
+			rewards: [{
+				count: 2
+				id: "10CDFB50FC7CE366"
+				item: "unusual_delight:refined_sugar_glass"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Rich Farmland is immune to trampling and automatically bone-meals anything planted on it when hydrated, effectively doubling growing speed! It even works with Saplings!"
+			tasks: [{
+				count: 4L
+				id: "44BFD3B8DFE6072A"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2CC1255A056F962E"]
+			id: "5282F0C3D015212B"
+			subtitle: "Some Crops will rarely mutate into an Overweight variant. These monster crops are coveted by Farmer Villagers, and can be broken with Hoes to break them into multiple of their crop. They seem to grow more often when exposed to moonlight..."
+			tasks: [
+				{
+					id: "3DA47FB4BB71A3C2"
+					item: "overweight_farming:overweight_carrot_block"
+					type: "item"
+				}
+				{
+					id: "7B0ED0B34A380C57"
+					item: "overweight_farming:overweight_beetroot_block"
+					type: "item"
+				}
+				{
+					id: "1A797227465F9912"
+					item: "overweight_farming:overweight_potato_block"
+					type: "item"
+				}
+				{
+					id: "26FFD4558CE2C34D"
+					item: "overweight_farming:overweight_cocoa_block"
+					type: "item"
+				}
+				{
+					id: "7D5FFB5664A6D7A3"
+					item: "overweight_farming:overweight_cabbage_block"
+					type: "item"
+				}
+				{
+					id: "40E3589D20DF3087"
+					item: {
+						Count: 1b
+						id: "overweight_farming:overweight_onion_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "13C2434FE12F7120"
+					item: "overweight_farming:overweight_apple_block"
+					type: "item"
+				}
+			]
+			title: "Big Carrot Small Leaf"
+			x: 2.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["6AFA0C1BF236ACF5"]
+			id: "17F7C1FA633A1F2E"
+			subtitle: "You can peel Overweight Vegetables or Melons with an Axe to get Vegetable Peels. You can use it to make Compost which can be fed to pigs or turned into Organic Compost to make Rich Soil."
+			tasks: [{
+				id: "1BE447B91FF57ED1"
+				item: "overweight_farming:vegetable_peels"
+				type: "item"
+			}]
+			title: "That Peeling Feeling"
+			x: 2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["14F72221133FDB83"]
+			id: "407550F474DFFCB4"
+			subtitle: "Plant a Mushroom on Rich Soil and it'll grow into a Mushroom Colony, which can be sheared every now and then for Mushrooms."
+			tasks: [{
+				icon: "farmersdelight:red_mushroom_colony"
+				id: "04C21034E26DD2DB"
+				observe_type: 0
+				timer: 0L
+				title: "Grow a Red Mushroom Colony"
+				to_observe: "farmersdelight:red_mushroom_colony"
+				type: "observation"
+			}]
+			title: "Colonial Era"
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			icon: "minecraft:wheat_seeds"
+			id: "133806EC1F2F58CE"
+			subtitle: "Automatically farm your crops with Create using Harvesters and Windmills to get the most of your food choices! See the Steampunk Revolution questline for more information."
+			tasks: [{
+				id: "7C938472D1A220FF"
+				title: "Click me when completed!"
+				type: "checkmark"
+			}]
+			title: "Automate Me!"
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2CC1255A056F962E"]
+			disable_toast: true
+			id: "574BEFE062CF412F"
+			subtitle: "Bone Meal can be used on almost any growable block, including Crops, Sugar Cane, Vines and Cacti."
+			tasks: [{
+				count: 3L
+				id: "12FFF2341853E38B"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			title: "Boney Plays"
+			x: 0.5d
+			y: 16.5d
+		}
+		{
+			icon: "supplementaries:globe_sepia"
+			id: "63D28A94D96F23B4"
+			shape: "rsquare"
+			subtitle: "Every now and then, a powerful Lunar event will take place; the Harvest Moon. On these magical nights, crop growth are increased and crop drop rates are doubled!"
+			tasks: [{
+				id: "02EC7F8329F484CC"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "Harvest Moon: Frantic Farming"
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			disable_toast: true
+			id: "2DA0F802C41699C8"
+			subtitle: "Each Season last eighteen days; six days each for 'early', 'mid' and 'late' season. You can keep track of which season it is and it's remaining time with a Calendar."
+			tasks: [{
+				id: "42823166257367C9"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			title: "Mark Your Calendars"
+			x: 8.0d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "04B297AC4AAE0C86"
+			subtitle: "Many Crops grow in Summer, the warmest of the four seasons. Thunderstorms are more common in Summer. It's the only season you can grow Melons, Cocoa, Salmonberries and Cantaloupes in. Summer crops can also grow in tropical biomes."
+			tasks: [
+				{
+					disable_toast: true
+					id: "6CBB09510D350EC7"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6FD732044636D534"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "64273D138302EB24"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5706A218B6FE9E81"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3EE8F7B8B2B1F8D9"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3CF9E6EC4019CD14"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0DD6AD508AAF8016"
+					item: "delightful:salmonberry_pips"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "471BD3EF9C75C118"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "1744D31D6D2C171A"
+					item: "bakery:strawberry_seeds"
+					type: "item"
+				}
+			]
+			title: "Summer Crops"
+			x: 5.5d
+			y: 19.5d
+		}
+		{
+			disable_toast: true
+			id: "61236849ED00BC1D"
+			subtitle: "Spring is the first season of the year. It rains more frequently in Spring as temperatures start warming up. It's the only season you can grow Potatoes or Flax in."
+			tasks: [
+				{
+					disable_toast: true
+					id: "295C271BC61B5109"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0EDF247F762BF106"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "62F3DD1E238B95A5"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2A219B5F1A43D7C5"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7A00CB1C94AE3D32"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5133EF8EB5FD54CC"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "093D360F22C67D63"
+					item: "supplementaries:flax_seeds"
+					type: "item"
+				}
+				{
+					id: "12E1DF337664B139"
+					item: "bakery:strawberry_seeds"
+					type: "item"
+				}
+			]
+			title: "Spring Crops"
+			x: 4.5d
+			y: 19.5d
+		}
+		{
+			disable_toast: true
+			id: "61A7EB02C22EDEF2"
+			subtitle: "These crops can be grown all year round!"
+			tasks: [
+				{
+					disable_toast: true
+					id: "3DAD277B9A1629A3"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "64168CC940D14E68"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "06BC6DBA3FE31161"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "65F1221970B157F4"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "04988D3F330DAF86"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+			]
+			title: "Year-Round Crops"
+			x: 8.5d
+			y: 19.5d
+		}
+		{
+			disable_toast: true
+			id: "269AF1DA9B08F2CB"
+			subtitle: "Autumn gives the world a vibrant orange-ish tint as temperatures cool leading into the harsh cold of Winter. It's the only season that you can grow Pumpkins or Beetroots in."
+			tasks: [
+				{
+					disable_toast: true
+					id: "528CAAC08458488B"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3FC4C476427CCC36"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0D9EFF878DA23642"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5856A4CFCB81BDEC"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "22DBAB68EF690B08"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "355D0A03D602B9A3"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0C3116D3FCE694C4"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7E0777ADD656C9F9"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "1AA6D4CF5B469902"
+					item: "bakery:strawberry_seeds"
+					type: "item"
+				}
+				{
+					id: "584E51DAAA2F7C08"
+					item: "bakery:oat_seeds"
+					type: "item"
+				}
+			]
+			title: "Autumn Crops"
+			x: 6.5d
+			y: 19.5d
+		}
+		{
+			disable_toast: true
+			icon: "sereneseasons:calendar"
+			id: "486EA55A1072DEB1"
+			shape: "rsquare"
+			subtitle: "There are four Seasons that the world will slowly move through. They each affect the grass, trees and world differently, and different Crops can be grown in each season."
+			tasks: [{
+				id: "39B622790F77856B"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "Season's Greetings"
+			x: 5.0d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			icon: "sereneseasons:calendar"
+			id: "21943EAA0F0FBDCD"
+			shape: "rsquare"
+			subtitle: "Each Crop has seasons that it will grow well in. Crops can't grow or be bonemealed outside of their season, but they won't die."
+			tasks: [{
+				id: "2C3E7A2AB7480BE3"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "Crop Rotation"
+			x: 6.5d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "75F886D85381710D"
+			subtitle: "Very few Crops grow in Winter, so it's best to stock up on food beforehand, or rely on your livestock."
+			tasks: [
+				{
+					disable_toast: true
+					id: "3A5686AF58897088"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "365D8BF6B6FC42BF"
+					item: "bakery:oat_seeds"
+					type: "item"
+				}
+			]
+			title: "Winter Crops"
+			x: 7.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1A785AA03F7B27D4"]
+			disable_toast: true
+			icon: "minecraft:deepslate"
+			id: "3DD1FCA1CC8D14A0"
+			shape: "rsquare"
+			subtitle: "Crops can also grow out of season if they're planted underground, below Y 32."
+			tasks: [{
+				id: "3A0493F2B4D2E919"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "Undergrowth"
+			x: 6.0d
+			y: 17.5d
+		}
+		{
+			disable_toast: true
+			icon: "regions_unexplored:palm_sapling"
+			id: "15231D34CCCBF51F"
+			shape: "rsquare"
+			subtitle: "Tropical biomes, such as deserts, jungles, and savannas, will go through Wet and Dry seasons instead of the normal four. In these biomes, only Summer crops are ever in season due to high temperatures."
+			tasks: [{
+				id: "5EAEA1D8741D9B06"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "La Niña"
+			x: 6.5d
+			y: 20.5d
+		}
+		{
+			id: "151274D2FAB28976"
+			subtitle: "Cantaloupes can be found on Beaches and can be cut with a knife to get Cantaloupe Slices. Cantaloupe Seeds can only be planted on Sand."
+			tasks: [
+				{
+					id: "48CDB06550472C88"
+					item: "delightful:cantaloupe"
+					type: "item"
+				}
+				{
+					id: "2075F5C418ECF0D3"
+					item: "delightful:cantaloupe_seeds"
+					type: "item"
+				}
+			]
+			title: "Can't Elope"
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "47BD050723CEECEB"
+			subtitle: "Find Wild Tomatoes in arid climates like Deserts or Savannas."
+			tasks: [
+				{
+					id: "569B51BCA0C50CC7"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					id: "1520640F66D9909E"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+			]
+			title: "Tomato Tomato"
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			disable_toast: true
+			id: "0F50128D561A2908"
+			subtitle: "Find Rice Panicles in shallow water or swamps, and turn it into Rice to plant it again or to cook with it. Crush the Panicles in a Mill to get extra Rice."
+			tasks: [
+				{
+					id: "59EC19B8D8560423"
+					item: "farmersdelight:rice_panicle"
+					type: "item"
+				}
+				{
+					id: "6A82CC32EA221DC8"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			title: "Welcome To The Rice Fields"
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "425BCFABA1B678E9"
+			subtitle: "Find Wild Cabbages on beach coasts and break them to get some Cabbage Seeds. Cut your Cabbages with a Knife to turn them into leaves and double your output."
+			tasks: [
+				{
+					id: "0D2323954B20A1F5"
+					item: "farmersdelight:cabbage_leaf"
+					type: "item"
+				}
+				{
+					id: "7A557A52D6C6D216"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+			]
+			title: "Leafy Greens"
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "412EFADFDD9A1272"
+			subtitle: "Find Wild Onions in Plains or Forests!"
+			tasks: [{
+				id: "6473CC68D1226E22"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			title: "Onions Have Layers"
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "20659E4772B4DF5C"
+			subtitle: "Salmonberries can be found on wild bushes in Forests. They give you a short Water Breathing effect when eaten."
+			tasks: [
+				{
+					id: "71C08DA56748EB02"
+					item: "delightful:salmonberries"
+					type: "item"
+				}
+				{
+					id: "79C1B1BE2C3B9AFE"
+					item: "delightful:salmonberry_pips"
+					type: "item"
+				}
+			]
+			title: "Fishy Little Berries"
+			x: -9.5d
+			y: 13.5d
+		}
+		{
+			id: "632CD8A53196E2FF"
+			subtitle: "Gamerberries are found in Redwood Forests. They don't look exactly edible though..."
+			tasks: [{
+				id: "0ADC6688E183D7C9"
+				item: "regions_unexplored:salmonberry"
+				type: "item"
+			}]
+			title: "Radioactive"
+			x: -8.5d
+			y: 20.5d
+		}
+		{
+			disable_toast: true
+			id: "73997FBBC8C28D69"
+			subtitle: "Obtain Strawberry seeds from Wandering Bakers, bakery structures, or cold and jungle biomes."
+			tasks: [
+				{
+					id: "32C108F13ADB25D7"
+					item: "bakery:strawberry"
+					type: "item"
+				}
+				{
+					id: "7462F7D027731158"
+					item: "bakery:strawberry_seeds"
+					type: "item"
+				}
+			]
+			title: "Very Berry"
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "65F3A23E200A0217"
+			subtitle: "You can find Wild Carrots in forests, or steal them from Villages. They now only grow in Spring and Autumn."
+			tasks: [{
+				id: "56350ADAF30F27C9"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "Captain Carrot"
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			id: "7F2F34B6CFE25C11"
+			subtitle: "You can find Wild Potato plants around the world or steal them from Villages. They can now only be farmed in Spring."
+			tasks: [{
+				id: "5C74D749E63E55DB"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "Hot Potato"
+			x: -9.0d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			id: "78F18339BBD16D15"
+			subtitle: "Beetroots are still just Beetroots. They now only grow in Autumn, and can be milled/crushed into Sugar and Red Dye."
+			tasks: [
+				{
+					id: "35E26F362A6CBDD7"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "432B9DA740ED4856"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+			]
+			title: "Sweet Beets"
+			x: -8.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "7C7483AD21F63A0D"
+			subtitle: "Wheat grows in Summer and Autumn and has a lovely new texture!"
+			tasks: [{
+				id: "39BBDA7B0CF8EA35"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "Smoke Wheat"
+			x: -5.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "7DC4B7E7CB6C7688"
+			subtitle: "Oats are one of the only crops that can be grown in Winter, and can be used as a substitute for Wheat or used to make Grain Milk!"
+			tasks: [
+				{
+					id: "3DD26AF6AA85EF60"
+					item: "bakery:oat"
+					type: "item"
+				}
+				{
+					id: "249B478B9A9C6977"
+					item: "bakery:oat_seeds"
+					type: "item"
+				}
+			]
+			title: "Oat To Joy"
+			x: -6.5d
+			y: 16.5d
+		}
+		{
+			id: "128203CA8889CF4C"
+			subtitle: "Sweet Berries can be found in Taigas and Forests and have a lot more uses in cooking."
+			tasks: [{
+				id: "4868D25A336EE6DF"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			title: "Very Very Berry"
+			x: -6.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1A785AA03F7B27D4"]
+			disable_toast: true
+			icon: "minecraft:bee_nest"
+			id: "60F9A63FE5B33020"
+			shape: "rsquare"
+			subtitle: "Crops can also grow out of season if they're fertilised by Bees."
+			tasks: [{
+				id: "43E2587F0B85E17B"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "Not The Bees"
+			x: 7.0d
+			y: 17.5d
+		}
+		{
+			disable_toast: true
+			id: "436CED3B2F5ADA8F"
+			subtitle: "You can use Knives on Melons, Pumpkins, and Cantaloupes to get Slices. You can also use an axe on a Melon to cut off it's Rind and collect it's juice with Bottles."
+			tasks: [{
+				id: "302F84B36082A9BD"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			title: "Nine Slicing"
+			x: -4.5d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"7225681871A6F17A"
+				"1E624BE55A9476B1"
+				"4425BC587FF21DBC"
+				"01CDEFAEA93018C7"
+				"364E9E2D25713157"
+				"1D6380D3481EFDB8"
+				"061C37573A83600E"
+				"069068158953261E"
+				"211C6346F63735E4"
+				"6FF9854979E54A78"
+				"71C39BD408E7312E"
+				"6F25E0587A704563"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_hoe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "03D22F91175BAEE8"
+			rewards: [{
+				id: "4F133D855301E4C0"
+				item: {
+					Count: 1b
+					id: "etched:etched_music_disc"
+					tag: {
+						DiscColor: 16165312
+						LabelColor: {
+							Primary: 16777215
+							Secondary: 14511283
+						}
+						Music: {
+							Author: "ShaneSh0ckz"
+							Title: "{\"text\":\"Animal Crossing: New Horizons - Official Main Theme\"}"
+							Url: "https://soundcloud.com/kegaltongaming/animal-crossing-new-horizons-1"
+						}
+						Pattern: 4b
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Collect every type of crop!"
+			tasks: [{
+				id: "43547692E4A9CD26"
+				title: "Click me to complete!"
+				type: "checkmark"
+			}]
+			title: "Farmhand"
+			x: -6.5d
+			y: 13.5d
+		}
+	]
+	title: "&3Food and Farming"
+}

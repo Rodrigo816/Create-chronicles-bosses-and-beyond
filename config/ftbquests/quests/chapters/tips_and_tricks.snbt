@@ -1,0 +1,801 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "tips_and_tricks"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	id: "1BE666F01EFFC00D"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "minecraft:textures/cbe/ui/quest_titles/tips.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 1.0d
+		y: 0.5d
+	}]
+	order_index: 27
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Easy item to automate infinite water. Need more water? Make another!"]
+			id: "722978AC0C1B2649"
+			rewards: [
+				{
+					id: "145F9B3A17676EAA"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "1159FE6CDF262C46"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Can be used as Reactor Coolant"
+			tasks: [{
+				id: "6855AE257D62AA37"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "Infinite Water"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["Use this item to shrink. Helpful for working on automation and also just overall fun."]
+			id: "7EC8814940C4C3D7"
+			rewards: [
+				{
+					id: "156D559B0B56BA9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BCF264E89365C5D"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Honey I Shrunk Myself"
+			tasks: [{
+				id: "30C938C85BED7956"
+				item: {
+					Count: 1b
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"The sleeping bag lets you sleep during the night."
+				""
+				"The hammock lets you sleep during the day."
+				""
+				"Neither will reset your spawn-point."
+			]
+			id: "14C8FC3F19190054"
+			rewards: [
+				{
+					count: 2
+					id: "34037270BA530831"
+					item: "comforts:rope_and_nail"
+					type: "item"
+				}
+				{
+					id: "0CA8B7411485A9D0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "ZZZzzz..."
+			tasks: [
+				{
+					id: "450D00C38F5DB42B"
+					item: "comforts:hammock_white"
+					type: "item"
+				}
+				{
+					id: "76BF5183FA92EF4B"
+					item: "comforts:sleeping_bag_white"
+					type: "item"
+				}
+			]
+			title: "Comforts"
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"A quick way to switch between tools."
+				""
+				"Upgrade with belt pouches in an anvil to increase capacity."
+			]
+			id: "378C95C18798D413"
+			rewards: [
+				{
+					count: 2
+					id: "40BCE4D56FE98018"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+				{
+					id: "4E495FC797AED7A4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7FD9A02EA29669F6"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"The Personal Shrinking Device serves as the guide for Compact Machines, as well as the tool needed to teleport into your tiny machine worlds."
+				""
+				"The Compact Machine itself is a small world that you can teleport in and out of to store your farms and machines!"
+			]
+			id: "73F91BF3D424B269"
+			rewards: [
+				{
+					id: "43605B432D1C8172"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "16DBB58D967E5AB0"
+					item: "compactmachines:wall"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46D9E69D9AC4E1A9"
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3B227EED4B839733"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+				{
+					id: "1B529CAA2620B7CC"
+					item: "compactmachines:machine_tiny"
+					type: "item"
+				}
+			]
+			title: "Compact Machines"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Some useful gadgets for building."
+				""
+				"&cDestruction Gadget voids blocks!"
+			]
+			id: "0F75D7B9F4FF2459"
+			rewards: [
+				{
+					id: "2087EBA230655A8C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E0CC06881345FD7"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "358F3A8EA9E5E7E3"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_building"
+						tag: {
+							state: {
+								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "008AD88A1CDCEE5E"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_exchanging"
+						tag: {
+							state: {
+								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4738B22DF26DB2D8"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_copy_paste"
+						tag: {
+							mode: 0b
+							template_id: [I;
+								1687424916
+								-1474150034
+								-1591711937
+								1045183693
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "283D88FA9196A4AC"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_destruction"
+						tag: {
+							fuzzy: 1b
+							overlay: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Building Gadgets"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"The mod &9Construction Wand&r adds helpful wands that are used when building."
+				""
+				"When right-clicking a face of a block with the wand, it will extend that face out as long as you have the blocks in your inventory."
+			]
+			id: "2A2E3D020B1F5126"
+			rewards: [{
+				id: "03F64743F4F59499"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "176150A0FE674662"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+				title: "Construction Wands"
+				type: "item"
+			}]
+			title: "Building Wands"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"On this page, you'll find some useful items and info to help you on your journey!"
+				""
+				"&7&othis page is work in progress"
+			]
+			id: "0C856BBB1679A7DD"
+			rewards: [{
+				id: "5FA6EA3609ABF6BE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "And Other Useful Items!"
+			tasks: [{
+				id: "3DC008A578A93CCF"
+				title: "Tips and Tricks!"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"If you haven't played MC since 1.16, it's important to know that Ore Generation has changed as well as max build level."
+				""
+				"Make sure to check out the \"World Gen\" tab in the ore's recipe to see the Y level the ore generates!"
+				""
+				"Note: This currently only works in Single-player."
+			]
+			icon: "minecraft:iron_ore"
+			id: "7732A4AE58D1315E"
+			rewards: [
+				{
+					id: "259A40A2BD1763AA"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "4ACA4C826FB02CE1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Minecraft Update Changes"
+			tasks: [{
+				id: "599B3277CC40D052"
+				title: "Ore Generation"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"This is a simple magnet!"
+				""
+				"Pro tip: You can set a keybind to toggle this on and off!"
+			]
+			id: "3FC002E5A6C08DCC"
+			rewards: [
+				{
+					id: "0F5B656ED410D441"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36D0962726704052"
+					type: "random"
+				}
+			]
+			subtitle: "A Simple Magnet!"
+			tasks: [{
+				id: "27CB2988681DB62C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplemagnets:basicmagnet"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "simplemagnets:advancedmagnet"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Simple Magnets"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Gives you a list of biomes you can search for."
+				""
+				"Select a biome, then hit \"Search.\" You'll see some info in the top left, and the compass will point in the direction of the biome."
+			]
+			id: "70B6C9409AE69284"
+			rewards: [
+				{
+					id: "554BFA90C78DEDD5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "262AC9191FD415A3"
+					type: "random"
+				}
+			]
+			subtitle: "Helps Find Biomes"
+			tasks: [{
+				id: "595B3FA9F32B712D"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"The &9Time in a Bottle&r is probably one of the most useful items in the game."
+				""
+				"It stores time for every second that passes while it is in your inventory, which you can then spend to speed up any block/entity/almost everything in the game."
+			]
+			id: "02BC692836789920"
+			rewards: [
+				{
+					id: "5D26E923244EBD6F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04C2C8FE21BE2CB7"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "09B5B2E28DD7452C"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"The &9Structure Compass&r can help you locate structures in the world, just like the &eNature's Compass&r!"
+				""
+				"Shift+Right-clicking with the compass in hand will bring up a menu of structures to search for."
+			]
+			id: "5D18D7EFC37DB81E"
+			rewards: [
+				{
+					id: "7B2018A7B911D23F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61DF943E33054D96"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "423F9BB8DC7962F6"
+				item: "structurecompass:structure_compass"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"When placed, the &9Mega Torch&r prevents all hostile mobs from naturally spawning in a 64 block radius."
+				""
+				"Great for stopping hostile spawns in dark parts of your base!"
+			]
+			id: "05F186C95510BD4B"
+			rewards: [
+				{
+					id: "2EA020DC0A263031"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "466A0AFE85E7A5D4"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6418A273A57B203C"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "Preventing Mob Spawns"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"The &9Experience Crystal&r allows you to store experience, either by giving it your levels, or pumping in experience from a tank."
+				""
+				"You can also transfer the experience stored to level yourself up with just a click of a button!"
+			]
+			id: "0060BCEDABC9BE2E"
+			rewards: [{
+				id: "57949E0DF2C7478A"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "189B87AF99321862"
+				item: "utilitix:experience_crystal"
+				type: "item"
+			}]
+			title: "Storing Experience"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"Need a portable crafting table? How about a portable smithing table?"
+				""
+				"&9Crafting On A Stick&r adds portable versions of some of your favorite crafting tables! This is a must have in the early game."
+			]
+			id: "0790D3BB481162A6"
+			rewards: [{
+				id: "2D7265C36210BDDB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "6038387EA35404CD"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+				{
+					id: "0BF4F9C40FF717DE"
+					item: "crafting_on_a_stick:smithing_table"
+					type: "item"
+				}
+				{
+					id: "405411318EA7A80C"
+					item: "crafting_on_a_stick:anvil"
+					type: "item"
+				}
+			]
+			title: "Crafting..... on a Stick!"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"05F186C95510BD4B"
+				"378C95C18798D413"
+				"73F91BF3D424B269"
+				"3FC002E5A6C08DCC"
+				"0F75D7B9F4FF2459"
+				"0060BCEDABC9BE2E"
+				"02BC692836789920"
+				"7EC8814940C4C3D7"
+				"7732A4AE58D1315E"
+				"70B6C9409AE69284"
+				"5D18D7EFC37DB81E"
+				"2A2E3D020B1F5126"
+				"722978AC0C1B2649"
+				"14C8FC3F19190054"
+				"0C856BBB1679A7DD"
+				"0790D3BB481162A6"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:earth_globe"
+			id: "7754C59E4EED2B49"
+			rewards: [{
+				count: 8
+				id: "04B4E979FD9F910C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Complete all the quests in this chapter."
+			tasks: [{
+				id: "0CE9D15D95300D38"
+				title: "Completionist"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0CF6720CE7F4C8D4"]
+			id: "21B9D56A135D5BA0"
+			subtitle: "Blaze Bankers can open bank accounts with a Bank Card that multiple people can use. Have you and another player both use ID Cards, then put a blank Bank Card in the Banker along with your ID Cards. Now you can both share a bank account!"
+			tasks: [{
+				id: "2090968E8440C84D"
+				item: "numismatics:banking_guide"
+				type: "item"
+			}]
+			title: "Fat Banker"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0CF6720CE7F4C8D4"]
+			id: "20AECE995B3015C0"
+			subtitle: "Brass Depositors work like Andesite Depositors, but can take items from the card/coins in your inventory rather than just in your hand."
+			tasks: [{
+				id: "228FF765833AC39C"
+				item: "numismatics:brass_depositor"
+				type: "item"
+			}]
+			title: "Spending Machine"
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0CF6720CE7F4C8D4"]
+			id: "6E79B17D25965464"
+			subtitle: "Depositors work like a shop but instead of giving/taking an item, they emit a redstone pulse whenever money is put into it. Useful for making slot machines, vending machines, tolls and the like. Shift-right-click to configure, right-click to use."
+			tasks: [{
+				id: "6F7AAAEFD0EF8097"
+				item: "numismatics:andesite_depositor"
+				type: "item"
+			}]
+			title: "Vending Machine"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0CF6720CE7F4C8D4"]
+			id: "2B2EB0349AA2A669"
+			subtitle: "ID Cards can be bound to a person by having them right-click it, and can then be placed in the trust list of a Vendor or Depositor to let them configure it. They can also be used with the Blaze Banker to make an account that multiple people can share."
+			tasks: [{
+				id: "58E052CB446B27F3"
+				item: "numismatics:white_id_card"
+				type: "item"
+			}]
+			title: "Papers Please"
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			id: "0CF6720CE7F4C8D4"
+			subtitle: "Coins can be obtained through Bounties and some Villager trades. They are also dropped by hostile mobs; the amount they drop is dependent on their maximum health."
+			tasks: [{
+				id: "12FFA5C5433D1A91"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			title: "Making Money"
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0CF6720CE7F4C8D4"]
+			id: "64061A68459896EF"
+			subtitle: "Bank Terminals are used to exchange physical currency into/out of your bank account to use with your Bank Card, and between different currency types. Right-click it to see your current balance."
+			tasks: [{
+				id: "21CE4490D2F64D58"
+				item: "numismatics:bank_terminal"
+				type: "item"
+			}]
+			title: "Big Banks Won't Fail"
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0CF6720CE7F4C8D4"]
+			id: "2C0CCF2F61FBB087"
+			rewards: [{
+				count: 2
+				id: "63D08EFD82EFB9E2"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "The Spur is the most basic of the coins (like cents), and a Cog is worth 64 Spurs (like dollars). Different coins are worth different amount of Spurs/Cogs, as seen by hovering over them."
+			tasks: [
+				{
+					id: "29D74EA486C7F25A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "3193BFF66D246E68"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "39FCDE8E54028CE5"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "45BC3ECE322376D0"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "0906D2357D2492D2"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					id: "17DD00E83DC1D5E8"
+					item: "numismatics:sun"
+					type: "item"
+				}
+			]
+			title: "Dollars to Donuts"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0CF6720CE7F4C8D4"]
+			id: "19F43B0C2C20C937"
+			subtitle: "Bank Cards can be used as an easy way to access your currency when trading with Vendors or Depositors. Right-click it to bind it to your account, and use a Bank Terminal to deposit/withdraw funds. You can also put it into a Vendor or Depositor to withdraw the funds that you've made."
+			tasks: [{
+				id: "34E386BB1BA07F58"
+				item: "numismatics:white_card"
+				type: "item"
+			}]
+			title: "Credit Card Debt"
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0CF6720CE7F4C8D4"]
+			disable_toast: true
+			id: "3BB2F3E886567CD4"
+			subtitle: "Vendors are easy ways to set up player shops that let you buy or sell items to anyone you'd like. Shift-right-click to configure the shop, and other players (or you) can right-click to trade with it."
+			tasks: [{
+				id: "6D17B64E50FD3560"
+				item: "numismatics:vendor"
+				type: "item"
+			}]
+			title: "Big Spender Vendor"
+			x: 2.0d
+			y: 12.0d
+		}
+	]
+	title: "&eᴛɪᴘѕ \\& ᴛʀɪᴄᴋѕ"
+}

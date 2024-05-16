@@ -1,0 +1,1160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forbidden_and_arcanus55"
+	group: "4546D7737CBFFD68"
+	icon: "forbidden_arcanus:corrupt_soul"
+	id: "1A2F0403D9D33DE1"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "forbidden_arcanus:item/enchanted_soul"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "forbidden_arcanus:block/carved_edelwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "forbidden_arcanus:item/blood_test_tube_5"
+			rotation: 45.0d
+			width: 1.0d
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "forbidden_arcanus:textures/effect/magic_circle/inner_origin.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "forbidden_arcanus:item/soul"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "forbidden_arcanus:item/corrupt_soul"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "forbidden_arcanus:block/stella_arcanum"
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "forbidden_arcanus:block/xpetrified_ore_layer"
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "forbidden_arcanus:block/xpetrified_ore"
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.5d
+			y: -1.0d
+		}
+	]
+	order_index: 45
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2CEB827BD9707450"]
+			id: "1A239CC500328D26"
+			rewards: [{
+				id: "10C8B0CA8498F8F6"
+				item: "forbidden_arcanus:deorum_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3D686046FE4E8287"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "64A96D206C829191"
+			rewards: [{
+				id: "38E037126CB98A90"
+				item: "forbidden_arcanus:arcane_crystal"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "286900EF28F368A8"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			title: "&lForbidden And Arcanus"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64A96D206C829191"]
+			dependency_requirement: "one_completed"
+			id: "65DB8F1D156DB3F3"
+			rewards: [{
+				id: "3E08E040591CBF0F"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0A344AAAAD372884"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"45CFCF0EF50D982C"
+				"3849CD3F94173C68"
+				"319E2F424D32A397"
+			]
+			id: "2F342EBE5B903991"
+			rewards: [{
+				id: "523F11198FDFADC7"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "044890F83EFC430D"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lEternal Stella"
+			x: 8.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A239CC500328D26"]
+			description: [
+				"Put &e&lPedestals&r on &7&lArcane Chiseled Polished Darkstone&r, and the &e&lSmithing Table&r in the center."
+				""
+				"Right click the Smithing Table with a &4&lMundabitur Dust&r to create the &l&6Ephaestus Forge&r."
+				""
+				"{image:techev:textures/misc/quests/forbidden_arcanus/ephaestus_forge.png width:118 height:118 align:1}"
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "45CFCF0EF50D982C"
+			rewards: [{
+				id: "31A6B4FAC8D3ADA4"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					count: 36L
+					id: "23DA7C80456B3DCB"
+					item: "forbidden_arcanus:polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7EB318D611B50B21"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "65162561ED5AA9A9"
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "70F39B1C0C32C71B"
+					item: "forbidden_arcanus:darkstone_pedestal"
+					type: "item"
+				}
+				{
+					id: "08D26EA216757E94"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "74BF7098EBBA2CF1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forbidden_arcanus:blacksmith_gavel"
+						}
+					}
+					title: "Any #forbidden_arcanus:blacksmith_gavel"
+					type: "item"
+				}
+			]
+			title: "&lEphaestus Forge"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45CFCF0EF50D982C"]
+			id: "61730D5D066ED280"
+			rewards: [{
+				id: "4ACF3E640838F3E9"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:smelter_prism"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3DB20A8BE37AC1E5"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:smelter_prism"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45CFCF0EF50D982C"]
+			id: "1592653401FFE0FE"
+			rewards: [{
+				id: "18928035507295BC"
+				item: "forbidden_arcanus:terrastomp_prism"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4BEDE164088A18BF"
+				item: "forbidden_arcanus:terrastomp_prism"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["64A96D206C829191"]
+			hide_dependency_lines: true
+			id: "3849CD3F94173C68"
+			rewards: [{
+				id: "3B3F15E58531D11D"
+				item: "forbidden_arcanus:stellarite_piece"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "029B9239F3A73ADF"
+				item: "forbidden_arcanus:stellarite_piece"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["18AE3BA5D87C1F4D"]
+			icon: {
+				Count: 1b
+				id: "forbidden_arcanus:soul_extractor"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "125F9FF09FC0CAED"
+			rewards: [{
+				count: 4
+				id: "1E15C00C4CFC8DF7"
+				item: "minecraft:soul_sand"
+				random_bonus: 12
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Extracts Souls from Soul Sand"
+			tasks: [
+				{
+					id: "6054F3ED0890990E"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:soul_extractor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D845A363AE01A83"
+					item: "forbidden_arcanus:soul"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["64A96D206C829191"]
+			hide_dependency_lines: true
+			id: "319E2F424D32A397"
+			rewards: [{
+				count: 2
+				id: "4FC07794BDDB3816"
+				item: "forbidden_arcanus:xpetrified_orb"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2D246A4D69A98E75"
+				item: "forbidden_arcanus:xpetrified_orb"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65DB8F1D156DB3F3"]
+			id: "54BF6B4F94D82F46"
+			rewards: [{
+				id: "3D79907036AD677B"
+				item: "forbidden_arcanus:aureal_bottle"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "265FE186FCFE0AA8"
+				item: "forbidden_arcanus:aureal_bottle"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65DB8F1D156DB3F3"]
+			id: "1418D01A2752AA5B"
+			rewards: [{
+				id: "481FE99D941299EE"
+				item: "forbidden_arcanus:arcane_bone_meal"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7ADEF3F5E5D48F92"
+				item: "forbidden_arcanus:arcane_bone_meal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1418D01A2752AA5B"]
+			id: "6349A146FC06CC05"
+			rewards: [{
+				id: "7893EB6609E7AA66"
+				item: "forbidden_arcanus:magical_farmland"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Arcane Bone Meal + Farmland"
+			tasks: [{
+				id: "6054D24794D1ED2B"
+				item: "forbidden_arcanus:magical_farmland"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64A96D206C829191"]
+			hide_dependency_lines: true
+			icon: "forbidden_arcanus:edelwood_stick"
+			id: "18AE3BA5D87C1F4D"
+			rewards: [
+				{
+					id: "5A0B47B590AF11B2"
+					item: "forbidden_arcanus:edelwood_log"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "6523BAA5F3496BE0"
+					item: "forbidden_arcanus:edelwood_stick"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Can be found in Dark Forests"
+			tasks: [
+				{
+					id: "02F712F0414FD4CF"
+					item: "forbidden_arcanus:edelwood_log"
+					type: "item"
+				}
+				{
+					id: "4CA4C6DE4B020C80"
+					item: "forbidden_arcanus:edelwood_stick"
+					type: "item"
+				}
+			]
+			title: "&lEdelwood"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1A239CC500328D26"
+				"6349A146FC06CC05"
+			]
+			id: "0E43B5A01D199F7A"
+			rewards: [{
+				id: "05C4911A0D3EECAF"
+				item: "forbidden_arcanus:golden_orchid_seeds"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Deorum Farmable"
+			tasks: [{
+				id: "5D506210ADA88111"
+				item: "forbidden_arcanus:golden_orchid_seeds"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18AE3BA5D87C1F4D"]
+			id: "199E16FB5E618E22"
+			rewards: [{
+				id: "1586A547A72AB555"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "63277085878F7D20"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:mystical_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["33039AC838EB39BB"]
+			id: "039DBB93711B53BA"
+			rewards: [{
+				id: "3D3B87EC63177F2E"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Lightning Summoner"
+			tasks: [{
+				id: "770CD75428FB3375"
+				item: "forbidden_arcanus:draco_arcanus_scepter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["77640BC2D85E5815"]
+			id: "33039AC838EB39BB"
+			rewards: [{
+				id: "069680FD3C64F3E4"
+				item: "forbidden_arcanus:obsidian_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "50AB5BBEF041D0F0"
+				item: "forbidden_arcanus:draco_arcanus_staff"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"33039AC838EB39BB"
+				"2A831E05E796D800"
+			]
+			icon: {
+				Count: 1b
+				id: "forbidden_arcanus:draco_arcanus_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E329EDD0DE0B024"
+			rewards: [{
+				count: 2
+				id: "2593DF2892CF3800"
+				item: "forbidden_arcanus:dragon_scale"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "30B7B5F50D91E298"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74FBA06E0A86CDB7"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1610871E55AC363A"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "130084439E9EE5E1"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "364ED95D50B20B38"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["54B1E6F258813156"]
+			hide_dependency_lines: true
+			icon: "forbidden_arcanus:obsidian_ingot"
+			id: "77640BC2D85E5815"
+			rewards: [{
+				id: "4FD123466FE7E361"
+				item: "forbidden_arcanus:obsidian_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "191ED8A88B2EA4F9"
+				item: "forbidden_arcanus:obsidian_ingot"
+				type: "item"
+			}]
+			title: "&lObsidian Ingot"
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"77640BC2D85E5815"
+				"2A831E05E796D800"
+			]
+			icon: {
+				Count: 1b
+				id: "forbidden_arcanus:draco_arcanus_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0FE5E2892892D237"
+			rewards: [{
+				count: 2
+				id: "4BB300E125D466FD"
+				item: "forbidden_arcanus:dragon_scale"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "620BBA7B9A49BC77"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3ABC8C2917925484"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BCEB0AD86446686"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "791377058DE0BE54"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["77640BC2D85E5815"]
+			id: "6D4DA9AF73A5ACED"
+			rewards: [{
+				id: "129B23F859E92147"
+				item: {
+					Count: 1b
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Fire Resistant"
+			tasks: [{
+				id: "14B15337F9213CED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							"forbidden_arcanus:tick_counter": {
+								value: 0
+							}
+						}
+					}
+					id: "forbidden_arcanus:obsidian_skull"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["199E16FB5E618E22"]
+			id: "2A831E05E796D800"
+			rewards: [{
+				id: "621B26455EE5C36D"
+				item: "forbidden_arcanus:dragon_scale"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 3L
+				id: "23ADD3E16006EB71"
+				item: "forbidden_arcanus:dragon_scale"
+				type: "item"
+			}]
+			title: "Dragon Scale"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A831E05E796D800"]
+			id: "185AC93E65493E57"
+			rewards: [
+				{
+					id: "64E8BB278E8B17C5"
+					item: "forbidden_arcanus:golden_dragon_scale"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "3441CC8DB738E168"
+					item: "forbidden_arcanus:aquatic_dragon_scale"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "1BA8C535E20D1C34"
+					item: "forbidden_arcanus:golden_dragon_scale"
+					type: "item"
+				}
+				{
+					id: "1F7FE030A0E83FE8"
+					item: "forbidden_arcanus:aquatic_dragon_scale"
+					type: "item"
+				}
+			]
+			title: "Dragon Scales"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["185AC93E65493E57"]
+			icon: {
+				Count: 1b
+				id: "forbidden_arcanus:tyr_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "067D06CF05D543E8"
+			rewards: [{
+				count: 2
+				id: "1BDB2CEA7E55C835"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "7B6414E2CD7DB0DA"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CE9AD37D1E7B712"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "360D69CCD0534B73"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3631D89BD7B9EB6B"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["18AE3BA5D87C1F4D"]
+			id: "097B07F8AD6A6132"
+			rewards: [{
+				id: "234352601CB0F5D3"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Silk Touch"
+			tasks: [{
+				id: "66DDE81D63614739"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:slimec_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A239CC500328D26"]
+			icon: {
+				Count: 1b
+				id: "forbidden_arcanus:deorum_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "65E833AA51D8F398"
+			rewards: [{
+				count: 2
+				id: "0ECA581CB0258DDA"
+				item: "forbidden_arcanus:deorum_ingot"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "7CD8FE03F1A01415"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:deorum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44DDFE882C877571"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:deorum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60FB5F83580493BC"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:deorum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BC0107165317044"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:deorum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Deorum Armor"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65DB8F1D156DB3F3"]
+			id: "2CEB827BD9707450"
+			rewards: [{
+				count: 2
+				id: "510B9DF0DB8A4E13"
+				item: "forbidden_arcanus:mundabitur_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 4L
+				id: "299A58D265A485BC"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			title: "Mundabitur Dust"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64A96D206C829191"]
+			id: "409124E1504EE082"
+			rewards: [{
+				id: "72D80912DE7C5CAB"
+				item: "forbidden_arcanus:quantum_catcher"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Mob Catcher"
+			tasks: [{
+				id: "392B7A37DF355A0D"
+				item: "forbidden_arcanus:quantum_catcher"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["199E16FB5E618E22"]
+			description: ["Kill some mobs with the &6&lMystical Dagger&r to get their &4&lBlood&r."]
+			id: "1335C123F16C3670"
+			rewards: [{
+				count: 2
+				id: "6C9B3CCE5359653A"
+				item: "minecraft:pig_spawn_egg"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Blood Receptacle"
+			tasks: [{
+				id: "5E8B0B589AD81D1F"
+				item: "forbidden_arcanus:test_tube"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["45CFCF0EF50D982C"]
+			description: [
+				"To create this obelisk, place an &7&lArcane Polished Darkstone&r below &b&l2 Arcane Crystal Blocks&r"
+				""
+				"Right click the &e&lMultiblock&r with a &4&lMundabitur Dust&r to create the &6&lObelisk&r."
+				""
+				"You can replace a pedestal by this obelisk to produce &b&lAureal&r automatically."
+			]
+			icon: "forbidden_arcanus:arcane_crystal_obelisk"
+			id: "1F7CFFE4371E7FEB"
+			rewards: [{
+				id: "4D5B6948E510FD47"
+				item: "forbidden_arcanus:arcane_crystal_obelisk"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Auto Aureal Farm"
+			tasks: [
+				{
+					id: "61724432C28B4FAE"
+					item: "forbidden_arcanus:arcane_polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "112550A1460EE240"
+					item: "forbidden_arcanus:arcane_crystal_block"
+					type: "item"
+				}
+				{
+					id: "7CF4771F8576790B"
+					item: "forbidden_arcanus:arcane_crystal_obelisk"
+					type: "item"
+				}
+			]
+			title: "Arcane Crystal Obelisk"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2CEB827BD9707450"]
+			description: [
+				"Right click the Clibano Core with a &4&lMundabitur Dust&r to create the &l&6Clibano Forge&r."
+				""
+				"Here's the pattern for making this Multiblock :"
+				""
+				"Polished Darkstone : &eP&r"
+				"Polished Darkstone Bricks : &bB&r"
+				"Clibano Core : &aC&r"
+				"Air : &7-&r"
+				""
+				"Layer 1 Layer 2 Layer 3"
+				""
+				" [&eP&bB&eP&r]     [&bB&bB&bB&r]     [&eP&bB&eP&r]"
+				" [&bB&bB&bB&r]     [&bB&7-&bB&r]     [&bB&bB&bB&r]"
+				" [&eP&bB&eP&r]     [&bB&aC&bB&r]     [&eP&bB&eP&r]"
+				""
+				" "
+			]
+			icon: "forbidden_arcanus:clibano_core"
+			id: "54B1E6F258813156"
+			rewards: [{
+				id: "13281B52E95F6356"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "3x3x3 Multiblock"
+			tasks: [
+				{
+					id: "6E841C8B362F184F"
+					item: "forbidden_arcanus:clibano_core"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1E5B6274FCEFB972"
+					item: "forbidden_arcanus:polished_darkstone_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "361BBAFF0333B2E9"
+					item: "forbidden_arcanus:polished_darkstone"
+					type: "item"
+				}
+			]
+			title: "&lClibano Forge"
+			x: 1.5d
+			y: -4.5d
+		}
+	]
+	title: "Forbidden And Arcanus"
+}

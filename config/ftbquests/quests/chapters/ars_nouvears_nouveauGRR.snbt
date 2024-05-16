@@ -1,0 +1,3501 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouvears_nouveauGRR"
+	group: "1FA30C6751C69E7A"
+	icon: "ars_nouveau:creative_spell_book"
+	id: "6AEDA2F9BEB57759"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &aArs Nouveau&f!"
+				""
+				"&dArs Nouveau&r is a magic mod that allows you to create custom spells using various Glyphs crafted within the mod!"
+				""
+				"You will learn to harness the latent energy infused in all things to cast powerful spells, drive arcane machinery, and even empower some cute companions along the way."
+				""
+				"With &6Ars Creo&r, you can enhance your magical abilities, automate tasks with spell turrets, and build incredible magical constructs."
+				""
+				"In the bottom left of your screen, you'll see a bar. This bar is your mana pool!"
+				""
+				"There are several ways to increase your mana pool, or increase the efficiency of your spells as you progress through the mod. Upgrading your spellbook can also increase your mana! You can also increase mana within the talent tree."
+				""
+				"These quests will guide you through the mod, but be sure to refer back to &6worn notebook&r for extra information."
+				""
+				"Some default recipes have changed."
+			]
+			id: "6E0E13806F388D7E"
+			rewards: [{
+				id: "24AA489F2E015748"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				icon: "ars_nouveau:creative_spell_book"
+				id: "33CEC23CAF6DA6A6"
+				title: "Ars Nouveau"
+				type: "checkmark"
+			}]
+			x: -6.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D86B2E553503E53"]
+			id: "48D5D9D9AD98409F"
+			optional: true
+			rewards: [
+				{
+					id: "294D038C9C2F7E82"
+					type: "random"
+				}
+				{
+					id: "363F911808E2F53D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1624D71379FBBDA6"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1D86B2E553503E53"]
+			id: "34A173721735401B"
+			optional: true
+			rewards: [
+				{
+					id: "5E430461F78BFD1C"
+					type: "random"
+				}
+				{
+					id: "12374B641E9A7691"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7CB3845C4BCA9F0E"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			description: ["Causes blocks to temporarily turn into air. Can be modified with Amplify for blocks of higher hardness, AOE, Duration Down, and Extend Time."]
+			id: "7ACE7A6A71D3F4D2"
+			rewards: [{
+				id: "06CC6FB96FDA2F42"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "569B0D7ABC091612"
+				item: "ars_nouveau:glyph_intangible"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.0d
+		}
+		{
+			description: ["Sets blocks and mobs on fire for a short time. Sensitive will summon Mage Fire, a shorter lived fire that will not spread or destroy blocks."]
+			id: "58EBEC3DDE47DAC7"
+			rewards: [{
+				id: "2CC33A87CF1F6EF1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "55B5FAA746D6C829"
+				item: "ars_nouveau:glyph_ignite"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			description: ["When used on an entity or block that is on fire or afflicted with Blasting, Cinders will explode around the target, dealing damage and creating Mage Fire nearby. Mage Fire cannot spread to blocks and is short lived. Entities with Blasting will immediately explode for extra strength."]
+			id: "79146466E43A2B99"
+			rewards: [{
+				id: "2A7E9481610EF8CE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "615188F5D6F85423"
+				item: "ars_nouveau:glyph_flare"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.5d
+		}
+		{
+			description: ["Opens the crafting menu."]
+			id: "07D6CC12D577643E"
+			rewards: [{
+				id: "3009A2213F18A2FF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "75FB9F65DDF0403C"
+				item: "ars_nouveau:glyph_craft"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			description: ["Causes wet, slowed, or freezing entities to take a burst of damage and erupt into falling ice. Falling ice will slow and damage nearby entities. Can also be used to erupt a block of ice instead. Falling blocks of ice can be manipulated with the Focus of Block Shaping. Entities afflicted with Freezing will be set to the maximum freeze level immediately."]
+			id: "05C2A6E54898C963"
+			rewards: [{
+				id: "1D22D2CA15F8A4D3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "20E81CE5B5665DAF"
+				item: "ars_nouveau:glyph_cold_snap"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			description: ["Stops entities from moving and jumping. Extend Time will increase the duration of this effect. Snaring a block created from the Focus of Block Shaping will cause it to attempt to place itself immediately."]
+			id: "67A207CF6900F232"
+			rewards: [{
+				id: "4C1EFACFEBA74106"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3472B3099BD5EE5D"
+				item: "ars_nouveau:glyph_snare"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			description: ["Applies the Slow Fall buff."]
+			id: "295703FC5B92D0E6"
+			rewards: [{
+				id: "6DE20BFC516C9D93"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6A60A533BDBCCAD9"
+				item: "ars_nouveau:glyph_slowfall"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			description: ["Freezes water or lava in a small area or slows a target for a short time. Freeze on Ice will turn it into Packed Ice, and Packed Ice into Blue Ice. Sensitive will turn water into Frosted Ice and will vanish after a short time."]
+			id: "5BB155110168DF92"
+			rewards: [{
+				id: "2134B56DB249DD4D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "12CE4920DABD0F98"
+				item: "ars_nouveau:glyph_freeze"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			description: ["Causes multiple projectiles to be cast at once. Each projectile applies a set of effects."]
+			id: "00143D4FC12AEFD9"
+			rewards: [{
+				id: "0611C740983E448E"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2CBB0C0E32E58128"
+				item: "ars_nouveau:glyph_split"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			description: ["Turns stone into gravel, and gravel into sand. Will also crush flowers into bonus dye. Need Sensitive to work on items. For full recipe support, see JEI. Will also harm entities and deals bonus damage to entities that are swimming."]
+			id: "73D19C0C1836CD03"
+			rewards: [{
+				id: "76E52105DFA1D72B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "05AD66530B699FA0"
+				item: "ars_nouveau:glyph_crush"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			description: ["Smelts blocks and items in the world. AOE will increase the number of items and radius of blocks that can be smelted at once, while Amplify will allow Smelt to work on blocks of higher hardness, Sensitive will make it only smelt items and not blocks."]
+			id: "18BC056B55C25EB5"
+			rewards: [{
+				id: "66715F05B72746A8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "21E1D29B5CD3372A"
+				item: "ars_nouveau:glyph_smelt"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			description: ["Increases the speed of projectile spells."]
+			id: "5F75215CB5956290"
+			rewards: [{
+				id: "183520B645B94E0A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "761F5F98E18E824D"
+				item: "ars_nouveau:glyph_accelerate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			description: ["Summons three Vex allies that will attack nearby hostile enemies. These Vex will last a short time until they begin to take damage, but time may be extended with the Extend Time augment."]
+			id: "2714EE46B4DF620E"
+			rewards: [{
+				id: "0E66259E403E2C95"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0AD6A125820795DE"
+				item: "ars_nouveau:glyph_summon_vex"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -13.0d
+		}
+		{
+			description: ["Summons a lightning bolt at the location. Entities struck will be given the Shocked effect. Shocked causes all additional lightning damage to deal bonus damage, and increases the level of Shocked up to III. Lightning also deals bonus damage to entities that are wet or wearing RF powered items. Can be augmented with Amplify, Dampen, and Extend Time."]
+			id: "0EC08C5BBFA83A51"
+			rewards: [{
+				id: "4AF328709D941E3A"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "59CE7EAEA0C25808"
+				item: "ars_nouveau:glyph_lightning"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -13.0d
+		}
+		{
+			description: ["Causes plants to accelerate in growth as if they were bonemealed."]
+			id: "7F97805EE8DFC9F6"
+			rewards: [{
+				id: "75CB1B6486A4A1BA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "54E317444AF31DA0"
+				item: "ars_nouveau:glyph_grow"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			description: ["Decreases the power of most spells."]
+			id: "62A9FD6138446A17"
+			rewards: [{
+				id: "10F069AD9A83E88E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3512BC20229693CD"
+				item: "ars_nouveau:glyph_dampen"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			description: ["Causes the target to turn invisible for a short time."]
+			id: "36183375DAA54408"
+			rewards: [{
+				id: "4A8CCAD32C41B1F0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "05BAF8FF07FD6A10"
+				item: "ars_nouveau:glyph_invisibility"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			description: ["Applies a silk-touch effect to Break and causes Explosion to not destroy blocks that drop. Cannot be combined with Fortune."]
+			id: "46469E3A8AF0CB80"
+			rewards: [{
+				id: "7ED14CED220DB1A0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6E473A397B0824E4"
+				item: "ars_nouveau:glyph_extract"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			description: ["Delays the resolution of effects placed to the right of this spell for a few moments. The delay may be increased with the Extend Time augment, or decreased with Duration Down."]
+			id: "430CAC90C8B34A17"
+			rewards: [{
+				id: "33CBB61F5D1C72FE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "312250C813E89B54"
+				item: "ars_nouveau:glyph_delay"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			description: ["If cast on a block, a permanent light source is created. May be amplified up to Glowstone brightness, or Dampened for a lower light level. When cast on yourself, you will receive night vision. When cast on other entities, they will receive Night Vision and Glowing."]
+			id: "73C9BE065B1F094B"
+			rewards: [{
+				id: "002DBEDD1338DB6E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3F20F6E300F8E095"
+				item: "ars_nouveau:glyph_light"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			description: ["Reduces the duration of spells like potion effects, delay, redstone signal, and others."]
+			id: "5F7A07D0F71044D2"
+			rewards: [{
+				id: "7F198E2F1F196E71"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "353BF5D2B4D53BF5"
+				item: "ars_nouveau:glyph_duration_down"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			description: ["When used on blocks, exchanges the blocks in the players hotbar for the blocks hit as if they were mined with silk touch. Can be augmented with AOE, and Amplify is required for swapping blocks of higher hardness. When used on entities, the locations of the caster and the entity hit are swapped."]
+			id: "2CD1B2BCEDA0D473"
+			rewards: [{
+				id: "37BF85F7140B1BA5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "105A471BB30BD30F"
+				item: "ars_nouveau:glyph_exchange"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.5d
+		}
+		{
+			description: ["Places blocks from the casters inventory. If a player is casting this, this spell will place blocks from the hot bar first."]
+			id: "38E44223347DA798"
+			rewards: [{
+				id: "71384940493358B4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "52234A1EC13FC6A0"
+				item: "ars_nouveau:glyph_place_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			description: ["Places water at a location or extinguishes entities on fire."]
+			id: "0641F45BEA6C67E5"
+			rewards: [{
+				id: "0FFF8CAFF06616E6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5C9BC3699A5762CA"
+				item: "ars_nouveau:glyph_conjure_water"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.5d
+		}
+		{
+			description: ["Simulates using shears on entities and blocks, or damages non-shearable entities for a small amount. Amplify will simulate using an Axe instead of Shears. For simulating breaking with shears, see Break and Sensitive. Costs nothing."]
+			id: "515001313775DCFC"
+			rewards: [{
+				id: "6E6F7FDB76B6718C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "651B06E6873F34CF"
+				item: "ars_nouveau:glyph_cut"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			description: ["A spell you start with. Damages a target. May be increased by Amplify, or applies the Poison debuff when using Extend Time. Note, multiple Harms without a delay will not apply due to invincibility on hit."]
+			id: "00ABBF2CB07D573C"
+			rewards: [{
+				id: "58343DFDAE1210BF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "545B39FB8B2627AD"
+				item: "ars_nouveau:glyph_harm"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			description: ["Interacts with blocks or entities as it were a player. Useful for reaching levers, chests, or animals. Sensitive will use your off-hand item on the block or entity."]
+			id: "2EB88ABC7017D5FE"
+			rewards: [{
+				id: "234238D75E11C869"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B7078A98D08EC1F"
+				item: "ars_nouveau:glyph_interact"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			description: ["Teleports the caster to a location. If an entity is hit and the caster is holding a Warp Scroll in the offhand, the entity will be warped to the location on the Warp Scroll. When used on Self, the caster blinks forward. Spell Turrets and Runes can warp entities using Warp Scrolls from adjacent inventories without consuming the scroll."]
+			id: "7AAD3CE642A34A0C"
+			rewards: [{
+				id: "74B74CC8FDF44689"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "32C20AFC9A4A0E0E"
+				item: "ars_nouveau:glyph_blink"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -12.0d
+		}
+		{
+			description: ["Additively increases the power of most spell effects. Can increase the harvest level of Break and increases the damage of spells."]
+			id: "073FD3884B2B11F7"
+			rewards: [{
+				id: "18A7D6E21342AC84"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "41EF535B718F674F"
+				item: "ars_nouveau:glyph_amplify"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			description: ["Creates a temporary block that will disappear after a short time. Amplify will cause the block to be permanent. Dispelling this block will destroy it instantly."]
+			id: "329B7554AE16FFF7"
+			rewards: [{
+				id: "53A07675437152F5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "405BF1E9FE690938"
+				item: "ars_nouveau:glyph_phantom_block"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Harvests entire trees, mushrooms, cactus, and other vegetation. Can be amplified with Amplify to break materials of higher hardness. AOE will increase the number of blocks that may be broken at one time."]
+			id: "4CAC87774C1B15C0"
+			rewards: [{
+				id: "2483EB293F404A34"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7F2FC5D08E7B548B"
+				item: "ars_nouveau:glyph_fell"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			description: ["Extends the time that spells last, including buffs, fangs, and summons"]
+			id: "1038054E334AC792"
+			rewards: [{
+				id: "56F859C404D06D60"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "56F8DEF68AA8B41C"
+				item: "ars_nouveau:glyph_extend_time"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			description: ["Heals a small amount of health and consumes hunger from the caster. When used on Undead, the spell will deal an equal amount of magic damage."]
+			id: "30B8E8169EAE1C01"
+			rewards: [{
+				id: "4A88E180796EF97D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "53250785A630D303"
+				item: "ars_nouveau:glyph_heal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			description: ["Launches the target in the direction they are looking. Amplification will increase the distance moved."]
+			id: "00D329407250AC7B"
+			rewards: [{
+				id: "78BB5F978CE1F7D5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "38003743B695C5C1"
+				item: "ars_nouveau:glyph_leap"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			description: ["Places a temporary block of redstone with configurable power and duration. Augment with Sensitive to set the target block as a power source for itself and surrounding blocks. Dampen and Amplify will adjust the power from the base value of 10."]
+			id: "495990C8C95A955B"
+			rewards: [{
+				id: "3C9E29A9FC03AF29"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "23921DC99D9F19D8"
+				item: "ars_nouveau:glyph_redstone_signal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			description: ["When applied to the Projectile spell, projectiles may continue through their path an additional time after hitting a mob or block. Causes certain effects to also target the block behind them, like Break. Combines with AOE to provide depth."]
+			id: "290F943A1FF52070"
+			rewards: [{
+				id: "1243EAD7C7EF2671"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "04E0C481BB6ABD87"
+				item: "ars_nouveau:glyph_pierce"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			description: ["When used on grown crops, this spell will obtain the fully grown product without destroying the plant."]
+			id: "496639EC3DC0165C"
+			rewards: [{
+				id: "538981D001CEF01F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "10D3703D3C415FC3"
+				item: "ars_nouveau:glyph_harvest"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			description: ["Increases the drop chance from mobs killed by Damage and blocks that are destroyed by Break. Cannot be combined with Extract."]
+			id: "66D63DC37FCDD268"
+			rewards: [{
+				id: "13807DD4DB0DF579"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "55DA99DF01D9C37C"
+				item: "ars_nouveau:glyph_fortune"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			description: ["A spell you start with. Breaks blocks of an average hardness. Can be amplified to increase the harvest level. Sensitive will simulate breaking blocks with Shears instead of a pickaxe."]
+			id: "1EAE42D3A2162339"
+			rewards: [{
+				id: "157C46CA34F1665F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "696076AA28E02C89"
+				item: "ars_nouveau:glyph_break"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			description: ["Picks up nearby items in a medium radius where this spell is activated. The range may be expanded with AOE."]
+			id: "1EEC5622F2A9A163"
+			rewards: [{
+				id: "3345878DB26C9352"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "44C797F6DFAF95D9"
+				item: "ars_nouveau:glyph_pickup"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Launches an entity or block into the air. Can be used for large jumps, yeeting mobs in the sky or for scaling mountains! Sensitive will stop this spell from launching blocks."]
+			id: "7862778F8424419B"
+			rewards: [{
+				id: "1345D7C50ED45695"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "486CF16F4F5C860E"
+				item: "ars_nouveau:glyph_launch"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			description: ["Removes any potion effects on the target. When used on a witch at half health, the witch will vanish in return for a Wixie shard. Will also dispel tamed summons back into their charm."]
+			id: "0671915D3BDDD07D"
+			rewards: [{
+				id: "2D178271A4983D6D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "54AED59019A9FC16"
+				item: "ars_nouveau:glyph_dispel"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			description: ["Opens your personal ender chest inventory from anywhere."]
+			id: "3A44DCF5B7D5024C"
+			rewards: [{
+				id: "0335AC3EC7F9AFD3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3EBC8A668657B7E1"
+				item: "ars_nouveau:glyph_ender_inventory"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			description: ["Pulls the target closer to the caster. When used on blocks, they become falling blocks with motion towards the side of the block that was hit. Sensitive will stop this spell from pulling blocks."]
+			id: "392869A1DEB7EE20"
+			rewards: [{
+				id: "0DA7CDD79CBEAE32"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "41A6ED0A1538D0A8"
+				item: "ars_nouveau:glyph_pull"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			description: ["Causes an explosion at the location. Amplify increases the damage and size by a small amount, while AOE will increase the size of the explosion by a large amount, but not damage."]
+			id: "5DE36D1C9F29F931"
+			rewards: [{
+				id: "711554480E47E3EE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2626959A926C1054"
+				item: "ars_nouveau:glyph_explosion"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			description: ["Summons Evoker Fangs in the direction where the spell was targeted. Using fangs on your self will spawn them in an area around you."]
+			id: "16C47409C0A411EF"
+			rewards: [{
+				id: "78B74A293DA4C554"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "624F70371F036C65"
+				item: "ars_nouveau:glyph_fangs"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -12.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["Spells will affect a larger area around a targeted block."]
+			id: "3801E818308438FF"
+			rewards: [{
+				id: "5A23E05D4AB7A880"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "03829269308C4BC8"
+				item: "ars_nouveau:glyph_aoe"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			description: ["Causes blocks and entities to fall. When augmented with Extend Time, players will have their flight disabled and will obtain the Gravity effect. While afflicted with Gravity, entities will rapidly fall and take double falling damage."]
+			id: "485EE9E6C6F59826"
+			rewards: [{
+				id: "62E2BDCDD8BD192C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "27987EFDAC19DE52"
+				item: "ars_nouveau:glyph_gravity"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -9.5d
+		}
+		{
+			description: ["Applies the Wither debuff."]
+			id: "4F5FCEBB16B5B6F5"
+			rewards: [{
+				id: "7E0B39C013F2A024"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "589EE0FDB1FB0FA9"
+				item: "ars_nouveau:glyph_wither"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -11.0d
+		}
+		{
+			description: ["Knocks a target or block away a short distance from the caster. Sensitive will stop this spell from launching blocks."]
+			id: "3EAC7600113F9AAB"
+			rewards: [{
+				id: "4E130026AC47622B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3270B8D5C37F7F34"
+				item: "ars_nouveau:glyph_gust"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58EC47584C773B82"]
+			description: [
+				"When your Magebloom seeds.... bloom, you can use the Magebloom to create Fibers."
+				""
+				"These are used to craft several items, including your first set of magical armor!"
+			]
+			id: "542C6D76B579886C"
+			rewards: [
+				{
+					count: 2
+					id: "18BF6731D11BADA5"
+					item: "ars_nouveau:magebloom_fiber"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3942C398C37DE6AA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "561CAB97C346BD65"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18A2FBE2D4133FA2"]
+			description: [
+				"The &6Enchanting Apparatus&r is used to craft various items within the mod and requires Source to work. It is a multiblock structure that utilizes Arcane Pedestals for crafting."
+				""
+				"&4To construct the Enchanting Apparatus:&r"
+				""
+				"&11.&r Place an Arcane Core in the ground."
+				""
+				"&22.&r Place the Enchanting Apparatus on top of the Arcane Core."
+				""
+				"&33.&r Surround the Apparatus with Arcane Pedestals.(The range is 7x7 area centered on the Core.)"
+				""
+				"&d4.&r Ensure a filled Source Jar is present nearby."
+				""
+				"To use the Enchanting Apparatus, place the reagents on the pedestals and the focus item in the Enchanting Apparatus. Then, Sneak Right-Click the Apparatus with an empty hand."
+				""
+				"The Enchanting Apparatus can also apply specific enchantments to tools and armor, making it easier to obtain desired enchantments. The recipes for these enchantments are detailed in the Worn Notebook."
+			]
+			id: "3D862A3D3F83CA26"
+			rewards: [{
+				id: "6A3427733B3CA02B"
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "2C36C64341C6B6F2"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "695EFDD9FC874F04"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			title: "Enchanting Apparatus"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C3FF43CF16BCF30"]
+			description: [
+				"Arcane Pedestals are needed for the Ritual Brazier and crafting items with an Enchanting Apparatus."
+				""
+				"Go ahead and make yourself 8 of them!"
+			]
+			id: "18A2FBE2D4133FA2"
+			rewards: [{
+				id: "7FE30F0CBBB358D5"
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.25d
+			subtitle: "Fancy Tables"
+			tasks: [{
+				count: 8L
+				id: "5B80C1EF5D85EA64"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			title: "Arcane Pedestals"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Summons a saddled horse that will vanish after a few minutes. AOE will increase the amount summoned, while Extend Time will increase the duration of the summon. Applies Summoning Sickness to the caster, and cannot be cast while afflicted by this Sickness."]
+			id: "1D3471FCA8B3BE36"
+			rewards: [{
+				id: "5DDFF0D49AF679D4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5A03F82C6B50D548"
+				item: "ars_nouveau:glyph_summon_steed"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			description: ["Summons two wolves that will fight with you. Extend Time will increase the amount of time on the summons. Applies Summoning Sickness to the caster, preventing other summoning magic."]
+			id: "779C2162C69DAE8E"
+			rewards: [{
+				id: "2903B75395F0A1A8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "29E06B429B4AE176"
+				item: "ars_nouveau:glyph_summon_wolves"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			description: ["Targets the spell on the block beneath the player."]
+			id: "69A04EB462756EED"
+			rewards: [{
+				id: "408EBF04460254C7"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "17413068980A17B1"
+				item: "ars_nouveau:glyph_underfoot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			description: ["Summons a decoy of yourself. Upon summoning, the decoy will attract any nearby mobs to attack it."]
+			id: "29E3DD9A3F85CE80"
+			rewards: [{
+				id: "24B9ED813A6ACDB6"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "72D77A51A69EDA71"
+				item: "ars_nouveau:glyph_summon_decoy"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -11.0d
+		}
+		{
+			description: ["Applies the Hex effect. Hex increases any damage taken by a small amount while the user is afflicted by poison, wither, fire, or when frozen. Additionally, Hex cuts the rate of Mana Regeneration and healing in half."]
+			id: "44D5ABE34271D7FE"
+			rewards: [{
+				id: "43BD5FE7A425EB01"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2A80E3849EB6A71D"
+				item: "ars_nouveau:glyph_hex"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["33682F4B44950123"]
+			description: [
+				"If you want to cast better spells, you'll need a &6Scribe's Table&r to unlock new glyphs for your spellbook."
+				""
+				"There are 3 tiers of glyphs to unlock, and each one requires some experience and items."
+				""
+				"The Scribe's Table is also used to attach spells to Spell Parchments. To do this, place a Spell Parchment on the table, select the spell in your Spellbook, then sneak right-click the book on the table."
+				""
+				"To create a Glyph, right-click on the Scribe's Table with your spellbook. Search for the glyph you want to make, then click Select at the bottom. Right-click the table with the items required, and the glyph will be created. Use the glyph to learn it."
+				""
+				"Note: The table can pull items from nearby inventories."
+			]
+			id: "3D4D88B8BE881351"
+			rewards: [
+				{
+					id: "090A541FA98CD1FD"
+					title: "Random Tier 1 Glyph"
+					type: "random"
+				}
+				{
+					id: "4E42BB4E02799D87"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Upgrading Spells"
+			tasks: [{
+				id: "5ADEEEE0C217B20F"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D86B2E553503E53"]
+			id: "2C47C9B566A63135"
+			optional: true
+			rewards: [
+				{
+					id: "01E441FF9CA844EC"
+					type: "random"
+				}
+				{
+					id: "22F6119959883273"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5646241FF2CF806B"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E0E13806F388D7E"]
+			description: [
+				"To get started, you'll need to craft yourself a &6Novice Spellbook&r."
+				""
+				"A spellbook will allow you to create, store, and cast spells using mana."
+				""
+				"Hitting the &dC&r key will open up the \"Create a Spell\" page. On the left, there are several tabs, but the main 3 are: Spell Creation, Color Picker, and Familiars."
+				""
+				"Hitting &dV&r will open spell wheel"
+				""
+				"This spellbook will only allow you to create and use Tier 1 Glyphs. To create better spells, you'll need to upgrade your Spellbook!"
+				""
+				"You can also dye your spell book by placing dye next to the spell book in the crafting grid. "
+			]
+			id: "64D0E66CB4FBEC82"
+			rewards: [
+				{
+					id: "565501823D60D08C"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "ars_nouveau:mana_regen_potion"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C54AF41C1300895"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Our First Spellbook"
+			tasks: [{
+				id: "6988873450238F30"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64D0E66CB4FBEC82"]
+			description: [
+				"This is the next upgrade to your Spellbook!"
+				""
+				"This will increase your overall mana and mana regen, as well as allowing you to create and use Tier 2 Glyphs."
+			]
+			id: "0D330FAD6C993DBC"
+			rewards: [
+				{
+					id: "26AA78496AAD568F"
+					title: "Random Tier 1 Glyph"
+					type: "random"
+				}
+				{
+					id: "0BC389F7E63D4F9F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0BCFC6422BBF539C"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D330FAD6C993DBC"]
+			description: [
+				"To create the final tier of your Spellbook, you'll need to have killed the &6Wilden Chimera&r."
+				""
+				"This is a Ritual that you'll need to complete using a &9Ritual Brazier&r."
+			]
+			id: "17D7D34F519F7E5F"
+			rewards: [
+				{
+					id: "0069DCEFE2EC5E72"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1B7F1D53028BFD7B"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5E7DBDDD97BA8F13"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18A2FBE2D4133FA2"]
+			description: [
+				"&eThe Ritual Brazier&r is used to cast rituals and can also be used for decoration. If you want to light the Brazier, use a Light spell on it."
+				""
+				"Performing a ritual requires a Ritual Brazier, and a tablet."
+				""
+				"Once you have obtained a tablet and brazier, place your brazier in the world and use a tablet on it. The brazier will ignite, and is awaiting activation."
+				""
+				"In this state, you may throw in any additional items as a way to augment the ritual. If you wish to augment a ritual, simply toss the item on top of the brazier."
+				""
+				"To activate your ritual, interact with the brazier with an empty hand."
+				""
+				"Once activated, your ritual can no longer be augmented and has been consumed permanently."
+				""
+				"If a ritual requires source to operate, the&n brazier will pull from source jars within 6 blocks.&r"
+				""
+				"Information related to rituals and their requirements can be found in Worn Notebook by holding Ctrl on the Ritual Table while the book is in your inventory."
+			]
+			id: "457DE8C154641437"
+			rewards: [{
+				id: "2AB084ECE2D92D7D"
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1E0B9FBF5319CEF6"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["227DBA8836021B0B"]
+			description: [
+				"The &9Potion Jar&r stores up to 100 potions. You can remove them by using an empty bottle or a potion flask on the jar."
+				""
+				"Wixies will use these jars during Potion Autocrafting."
+			]
+			id: "04D9F6587EF8D9B7"
+			rewards: [
+				{
+					id: "4002396BC72C5C53"
+					type: "random"
+				}
+				{
+					id: "57D993FC63FEFE77"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Storing Potions"
+			tasks: [{
+				id: "7F3D9B9E5E4FD3B8"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33682F4B44950123"]
+			description: [
+				"To create one of the main crafting items in Ars, the &9Source Gem&r, we'll need to make an &6Imbuement Chamber&r."
+				""
+				"&6The Imbuement Chamber&r requires &dSource&r to imbue items. It produces a small amount of &dSource&r by itself, or will draw from Source Jars 2 block away."
+				""
+				"Several recipes also require Arcane Pedestals to be placed around it as well."
+			]
+			id: "5766C8B9E850C186"
+			rewards: [
+				{
+					id: "09511C532C90CDE3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "62B7E8C87CCD5E12"
+					item: "ars_nouveau:archwood_planks"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Creating Source Gems"
+			tasks: [{
+				id: "78B5B8F9CE9EC702"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64D0E66CB4FBEC82"]
+			description: [
+				"To gain further knowledge of spells, we'll need a specific type of magical wood!"
+				""
+				"Archwood Trees can be found in the overworld."
+			]
+			id: "33682F4B44950123"
+			rewards: [
+				{
+					id: "33B8442826203713"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "5C16757EA6C22406"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "163A6E303D6F419D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:logs/archwood"
+						}
+					}
+					title: "Archwood Logs"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7508E906C021AB6B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:planks/archwood"
+						}
+					}
+					title: "Archwood Planks"
+					type: "item"
+				}
+			]
+			title: "Archwood logs"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40BC67BDEE15D1DE"]
+			description: [
+				"In Ars Nouveau, the power system for machines is called &dSource.&r"
+				""
+				"To start collecting Source, you'll need a&6 Source Jar.&r"
+				""
+				"Source Jars store the magical energy collected by various &6Sourcelinks.&r Sourcelinks gather Source from their surroundings and redirect it into the Source Jars for storage."
+				""
+				"Most Sourcelinks absorb within a 10 to 15 block radius. "
+			]
+			id: "227DBA8836021B0B"
+			rewards: [
+				{
+					id: "4C615BE675A9F93F"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "58396A9107780E32"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30A9AFEA9B6FA23A"
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Storing Source"
+			tasks: [{
+				id: "55AA5FAABC23709E"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D86B2E553503E53"]
+			id: "04987E54ADC2C057"
+			optional: true
+			rewards: [
+				{
+					id: "4AB7B7452988BB23"
+					type: "random"
+				}
+				{
+					id: "2A2837CD356DA8D3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3BFC384D0B963E6E"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D86B2E553503E53"]
+			id: "6CEAA86EEAAC1203"
+			optional: true
+			rewards: [
+				{
+					id: "249952B8A10FEFA6"
+					type: "random"
+				}
+				{
+					id: "7763E6AF7FF43DB7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "751B3A47FE592B2F"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: [
+				"Using our Enchanting Apparatus structure, we'll want to craft our first seed, the &5Magebloom Seed&r."
+				""
+				"This will be used to create us some magical clothing!"
+			]
+			id: "58EC47584C773B82"
+			rewards: [
+				{
+					count: 2
+					id: "3CA2DD868A5F9D2D"
+					item: "ars_nouveau:magebloom_crop"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "26C30D4557C630DC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Growing Magic"
+			tasks: [{
+				count: 3L
+				id: "6CB12C3C6401287A"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			title: "Magebloom Seed"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			description: ["Summons three orbiting projectiles around the target that will cast a spell on any entities it may hit. Additional projectiles, their speed, radius, and duration may be augmented. Sensitive will cause Orbit to hit blocks."]
+			id: "73C7A44F05AB6FAC"
+			rewards: [{
+				id: "5A905E4BD4F8092C"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0DB8F107D55B420F"
+				item: "ars_nouveau:glyph_orbit"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -12.0d
+		}
+		{
+			description: ["Causes forms to target blocks they normally cannot target. Projectile and Orbit will target grass, and Touch will target fluids and air. Changes targeting rules of certain effects."]
+			id: "2F5AECF5CDC8D8DB"
+			rewards: [{
+				id: "6550E19AA8FD30EE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "21C6D6FA46FCE9E9"
+				item: "ars_nouveau:glyph_sensitive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			description: ["Decreases the speed of projectile spells."]
+			id: "407AD700892ADBF1"
+			rewards: [{
+				id: "34208794F55297FD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3282190E6DF860F4"
+				item: "ars_nouveau:glyph_decelerate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["227DBA8836021B0B"]
+			description: [
+				"The &6Volcanic Sourcelink&r generates Source by consuming burnable items. Archwood logs will generate bonus Source."
+				""
+				"As it burns items, it will convert nearby stone into lava."
+				""
+				"This also generates Lava Lilys."
+			]
+			id: "19D02325579F2AA8"
+			rewards: [
+				{
+					id: "1CF532B01107172F"
+					type: "random"
+				}
+				{
+					id: "770A6318647CD783"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "273385666F3DBB43"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E2AD156E5EF263A"]
+			description: [
+				"Runic Chalk is used to draw permanent Runes on that ground. These runes will cast spells on entities that walk over them."
+				""
+				"To attach a spell to a rune, inscribe a &eSpell Parchment&r using a Scribe's Table."
+				""
+				"Note: The Rune will need Source to operate."
+			]
+			id: "151648179684B088"
+			rewards: [{
+				id: "777EC7631583DFC2"
+				type: "random"
+			}]
+			subtitle: "Placeable Spells"
+			tasks: [{
+				id: "2E649D2172E6D537"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:runic_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			description: ["Grants the Glide effect, allowing the wearer to fly as if they were wearing an Elytra."]
+			id: "4A41FCBFE985D81E"
+			rewards: [{
+				id: "400099F57136829D"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "496294EBE15C66AD"
+				item: "ars_nouveau:glyph_glide"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -13.0d
+		}
+		{
+			description: ["Deals damage to targets in the air, with an increasing amount based on how high the target is off the ground, up to 10 blocks. Targets on the ground take no damage."]
+			id: "790C77898FED4E5D"
+			rewards: [{
+				id: "012CAAC458234260"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6EA660C81B613163"
+				item: "ars_nouveau:glyph_wind_shear"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			description: ["Summons a number of Skeleton allies that will attack nearby hostile enemies. These Skeletons will last a short time until they begin to take damage, but time may be extended with the Extend Time augment. Additionally, their summoned weapons are changed using augments, use Amplify to give it a better sword, or Pierce to give it a bow. Adding Split after the effect will add to the number of summoned skeletons."]
+			id: "7F3EB3F473DF8385"
+			rewards: [{
+				id: "49FE505047D7DA5B"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "598ED65E5C450F82"
+				item: "ars_nouveau:glyph_summon_undead"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -13.0d
+		}
+		{
+			description: ["Creates a lingering field that applies spells on nearby entities for a short time. Applying Sensitive will make this spell target blocks instead. AOE will expand the effective range, Accelerate will cast spells faster, Dampen will ignore gravity, and Extend Time will increase the duration."]
+			id: "08B6FA532A136AF2"
+			rewards: [{
+				id: "730F984D1201E8F4"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "46FA84B093CC1151"
+				item: "ars_nouveau:glyph_linger"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -11.0d
+		}
+		{
+			description: ["Deletes fluids in an area. Can be expanded with AOE."]
+			id: "59BD06DB42E0219F"
+			rewards: [{
+				id: "302E439520101E75"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5DA75E54FF1EFE89"
+				item: "ars_nouveau:glyph_evaporate"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			description: ["Gives players the Bounce effect, causing them to bounce upwards upon falling. Amplification of Bounce will preserve additional forward facing motion per bounce."]
+			id: "12A70E00A63A7154"
+			rewards: [{
+				id: "771FA1C73778FDCB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "024EA8646EFADFF5"
+				item: "ars_nouveau:glyph_bounce"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			description: ["Applies Magic Find to the target, causing magical mobs to glow within 75 blocks of them. Magic Find also reveals spells on Runes."]
+			id: "11C2D56F3D382573"
+			rewards: [{
+				id: "73AC0617FCAE9088"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "352317A2806A9855"
+				item: "ars_nouveau:glyph_sense_magic"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.5d
+		}
+		{
+			description: ["Names an entity after the set Spell Name. Targeting a block will name nearby entities or name inventory blocks directly if possible. Targeting with Self will name the held offhand item. Can be overridden with a name tag in the hotbar."]
+			id: "3D00118E2760D129"
+			rewards: [{
+				id: "00305DC754DB0F35"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "34C8EB5C0EEE98DD"
+				item: "ars_nouveau:glyph_name"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			description: ["Creates a firework at the location or entity. Amplify will add Firework Stars, while Extend Time will add additional flight time. If a firework exists in the casters inventory, the created firework will mimic the held one. Spell Turrets with Touch will create fireworks as if they were dispensed."]
+			id: "7F69A7CD6ACA97D7"
+			rewards: [{
+				id: "584920D123AAE05F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7DCF09E4EFEC5D64"
+				item: "ars_nouveau:glyph_firework"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.5d
+		}
+		{
+			description: ["Causes the caster to place an item from their inventory to a location. If this glyph is used on an inventory, the item will attempt to be inserted into it."]
+			id: "29742AAF8DF419BF"
+			rewards: [{
+				id: "282A4F66165A7A37"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "12EA0487A7DD255B"
+				item: "ars_nouveau:glyph_toss"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64D0E66CB4FBEC82"]
+			description: [
+				"While holding your Spellbook, you can press C to open up the spell creation page."
+				""
+				"Each spell must have a form. You start off with 3 basic forms: Projectile, Self-cast, and Touch."
+				""
+				"For the Effect, this determines what happens when you cast the spell. You can have up to 9 effects per spell."
+				""
+				"For starters, you have Harm and Break."
+				""
+				"Select one Form and one Effect, name your spell, and click create!"
+				""
+			]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:spell_parchment"
+				tag: { }
+			}
+			id: "5CFBA24B3E0CDEDD"
+			rewards: [{
+				id: "7874ECF0E643907B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1B916AE67F84E6D7"
+				title: "Creating Your First Spell"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5766C8B9E850C186"]
+			description: ["To create Source Gems, we'll need to put either Lapis or Amethyst Shards into the Imbuement Chamber. Over time, these will convert to Source Gems!"]
+			id: "40BC67BDEE15D1DE"
+			rewards: [
+				{
+					id: "74A1C83DF8199111"
+					item: "ars_nouveau:source_gem"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "383031B91565B2F6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "505A6922560E5299"
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				count: 2L
+				id: "1344731C799303A3"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "&5Source Gems"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33682F4B44950123"]
+			description: ["A &6Dowsing Rod&r provides the user a short duration of Scrying for Budding Amethyst and Magic Find, which will cause magical creatures to glow within 75 blocks of you. The Dowsing Rod has a limited number of uses."]
+			id: "3142A40E1EAEBAA3"
+			optional: true
+			rewards: [{
+				id: "792570A800671B52"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Magic Finder"
+			tasks: [{
+				id: "07469C1ABB23F686"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["227DBA8836021B0B"]
+			description: ["The &6Vitalic Sourcelink&r generates Source from Mob Deaths and Animal Breeding"]
+			id: "295C77EEC89000FC"
+			rewards: [
+				{
+					id: "6E70639DCCE07AE1"
+					type: "random"
+				}
+				{
+					id: "42C6A17CF858CF08"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "33072A37F4A28A77"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04D9F6587EF8D9B7"]
+			description: [
+				"The &6Alchemical Sourcelink&r produces Source from adjacent potion jars."
+				""
+				"The amount of source varies per potion and complexity."
+			]
+			id: "41A0BE357C8A74E1"
+			rewards: [
+				{
+					id: "0E2CF3992570D242"
+					type: "random"
+				}
+				{
+					id: "5D9B8AC5306D8C48"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D08E66F6D607676"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["227DBA8836021B0B"]
+			description: [
+				"The &6Mycelial sourcelink&r generates Source from Nearby Food"
+				""
+				"Source Berries produce more Source than other sources."
+				""
+				"This will also convert grass or dirt into Mycelium in a 3x3 area around it. It will also grow mushrooms around it if the space is empty."
+			]
+			id: "77145113CD5B26FB"
+			rewards: [
+				{
+					id: "4B9B01B0DE50366F"
+					type: "random"
+				}
+				{
+					id: "5A7B1F43A9CF4B29"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F5621FA53258210"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["227DBA8836021B0B"]
+			description: [
+				"The &6Agronomic Sourcelink&r generates Source using the growth of plants. "
+				""
+				"Place it near growing plants or saplings to provide Source. "
+				""
+				"Archwood trees provide more Source, so planting Archwood saplings near the Agronomic Sourcelink will yield more Source when they grow."
+			]
+			id: "2D0CF18C8B2ABB7D"
+			rewards: [
+				{
+					id: "1670F143BF0992F9"
+					type: "random"
+				}
+				{
+					id: "5FFE6FE428A53B3F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CEAACDBB77206CC"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40BC67BDEE15D1DE"]
+			description: ["With Source Gems, you can get started crafting the various machines by creating &5Sourcestones&r."]
+			id: "5C3FF43CF16BCF30"
+			rewards: [
+				{
+					id: "08FBB04A40CEDD25"
+					type: "random"
+				}
+				{
+					id: "7F5D2F36132692EC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "03EB390E79866058"
+				item: "ars_nouveau:sourcestone"
+				title: "Sourcestone"
+				type: "item"
+			}]
+			title: "Sourcestones"
+			x: 5.199999999999999d
+			y: 0.0d
+		}
+		{
+			dependencies: ["542C6D76B579886C"]
+			description: ["Used to inscribe spells on with the Scribe's Table."]
+			id: "0E2AD156E5EF263A"
+			rewards: [
+				{
+					id: "19F2CD6C0B18C66F"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:spell_parchment"
+						tag: { }
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "31B61E81E7B4F0A6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5D09025968ED4E34"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:spell_parchment"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: ["The Dominion Wand is used for controlling the creatures you might encounter in the world! Each being responds differently to the wand, so make sure to read up in the Worn Notebook!"]
+			id: "1D86B2E553503E53"
+			rewards: [
+				{
+					id: "378CD52D133440FF"
+					type: "random"
+				}
+				{
+					id: "0B37B52A6282A975"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "259C1D84AD3996AF"
+				item: "ars_nouveau:dominion_wand"
+				type: "item"
+			}]
+			title: "Summoning Help!"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: [
+				"The &9Enchanter's Sword&r allows you to attach a Touch Spell to the sword. "
+				""
+				"All spells on the Sword gain 1 additional Amplify augment to the last effect on the spell."
+				""
+				"To apply a spell to the sword, use a Scribe's Table. Create the spell without using a form."
+			]
+			id: "14DB8A515CA50932"
+			rewards: [
+				{
+					id: "5996E283CD21E12C"
+					type: "random"
+				}
+				{
+					id: "2BD5532974AC8144"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "307E429DCDA2A0BC"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: [
+				"When blocking damage, the &9Enchanter's Shield&r will give the user Mana Regen and Spell Damage for a short amount of time."
+				""
+				"Additionally, the shield will repair itself over time using the wearer's mana."
+			]
+			id: "3182E8AF755104E4"
+			rewards: [
+				{
+					id: "37FB2F6CC88AA427"
+					type: "random"
+				}
+				{
+					id: "41D97F7955037DCD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "571B04DAC6DAFDAE"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: [
+				"The &9Enchanter's Mirror&r will apply a self spell when used."
+				""
+				"Spells cast with this mirror are discounted and gain additional bonus duration."
+				""
+				"To apply a spell, use a Scribe's table. Create a spell without using a form."
+			]
+			id: "632BC46928CC9A8C"
+			rewards: [
+				{
+					id: "11761C4A55BE341D"
+					type: "random"
+				}
+				{
+					id: "70B40C2275C05E53"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4B4A171486A31360"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_mirror"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: [
+				"This bow can be inscribed with a spell using a Scribe's Table."
+				""
+				"At the cost of mana, arrows will become Spell Arrows and will apply the spell on their target."
+				""
+				"If you have no arrows, a spell arrow that deals 0 damage will be cast. If there is not enough mana, regular arrows will be fired instead."
+				""
+				"The &9Enchanter's Bow&r can also use special Augment Arrows that empower the inscribed spell."
+			]
+			id: "51162B9185A45BB1"
+			rewards: [
+				{
+					id: "04E1087632270DB0"
+					type: "random"
+				}
+				{
+					id: "685A6C60DD894FDE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7F425E0F613F8B23"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:spell_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: [
+				"The &9Jar of Light&r summons a floating light source that follows you."
+				""
+				"The &6Jar of Voiding&r destroys items you pick up in exchange for mana. This can be filtered."
+				""
+				"To add or remove an item to be destroyed by the jar, use the jar with the item in your off hand, or use an item on the Scribe's Table with the jar placed on it."
+				""
+				"The jar must be on your hotbar to function."
+			]
+			id: "6DAA82B5F94AF9F8"
+			rewards: [
+				{
+					id: "324036A9BE7E242E"
+					type: "random"
+				}
+				{
+					id: "3B2C1E6EB58BA313"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "78C9026D8627D7B7"
+					item: "ars_nouveau:jar_of_light"
+					type: "item"
+				}
+				{
+					id: "1ED244E1CC75D358"
+					item: "ars_nouveau:void_jar"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: ["The Ring of Discount provides a small bonus to max mana and mana regen. It also reduces the total cost to cast a spell."]
+			id: "0A1ABE9CF7740AAA"
+			rewards: [
+				{
+					id: "0681FEB4E91A6F1D"
+					type: "random"
+				}
+				{
+					id: "17A1C1ED868C265F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3F1F4C069415D13A"
+					item: "ars_nouveau:ring_of_lesser_discount"
+					type: "item"
+				}
+				{
+					id: "0A4973ED77865904"
+					item: "ars_nouveau:ring_of_greater_discount"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: ["This belt will give random positive potion effects for a short duration. These will vary in strength. "]
+			id: "088FCB5267CB7A89"
+			rewards: [
+				{
+					id: "7FAFCABED4EBB110"
+					type: "random"
+				}
+				{
+					id: "77A632E3CC0DA81D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "28D8B81E947FCB97"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: [
+				"Have you ever wanted to just hover everywhere you go?"
+				""
+				"This belt allows you to levitate. To activate, just sneak while in the air, either while falling or from jumping."
+			]
+			id: "3FD702B5AB006402"
+			rewards: [
+				{
+					id: "7BA1913458F0B94F"
+					type: "random"
+				}
+				{
+					id: "41F8D938A9DDFA38"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "470AEF18D37A0535"
+				item: "ars_nouveau:belt_of_levitation"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: [
+				"The &9Amulet of Mana Boost&r gives a boost to max mana."
+				""
+				"The &6Amulet of Mana Regen&r gives a boost to your mana regen."
+			]
+			id: "6A1C0B17B22CE50F"
+			rewards: [
+				{
+					id: "3CF12A6C8FE16707"
+					type: "random"
+				}
+				{
+					id: "79DE6BDAB6F800F6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "737E14DCCDDAC4D9"
+					item: "ars_nouveau:amulet_of_mana_boost"
+					type: "item"
+				}
+				{
+					id: "06AFF105FACF7961"
+					item: "ars_nouveau:amulet_of_mana_regen"
+					type: "item"
+				}
+			]
+			title: "The Amulets"
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: [
+				"The &9Caster's Wand&r only accepts a single spell, and is inscribed using the Scribe's Table."
+				""
+				"Wand spells always start with Projectile > Accelerate, and MUST be inscribed with a spell that does not have another method (like touch, self, etc)."
+				""
+				"This allows you to cast spells beyond the 10 spell cap. If you want to use Break, just inscribe the wand with Break by itself."
+			]
+			id: "111649D7E16D869F"
+			rewards: [
+				{
+					id: "02C8DAADC4EB0A90"
+					type: "random"
+				}
+				{
+					id: "60BB52FF66A48FA2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3CF6151060ADB889"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D4D88B8BE881351"]
+			description: ["Tier 1 Glyphs require 3 levels of experience to be made."]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ars_nouveau:textures/gui/filter_tab_tier1_selected.png"
+				}
+			}
+			id: "0AEFDABFF9DD4448"
+			rewards: [{
+				id: "33D8756493DDBFBD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "square"
+			tasks: [{
+				id: "48730AD8E617BAA0"
+				type: "checkmark"
+			}]
+			title: "Tier 1 Glyphs"
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0AEFDABFF9DD4448"]
+			description: [
+				"Tier 2 Glyphs require 5 levels of experience to be made."
+				""
+				"They also require a &6Mage's Spell Book&r to create."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ars_nouveau:textures/gui/filter_tab_tier2_selected.png"
+				}
+			}
+			id: "781AEEC4BD04A33C"
+			rewards: [{
+				id: "1DBCDDD38A1B7DE7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7720171A6D7B5ADF"
+				type: "checkmark"
+			}]
+			title: "Tier 2 Glyphs"
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["781AEEC4BD04A33C"]
+			description: [
+				"Tier 3 Glyphs require 10 levels of experience to be made."
+				""
+				"They also require an &6Archmage's Spell Book&r."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ars_nouveau:textures/gui/filter_tab_tier3_selected.png"
+				}
+			}
+			id: "5A566D7CA9F2793E"
+			rewards: [{
+				id: "31CF855746E09606"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "31910AEE2CBEC3D5"
+				type: "checkmark"
+			}]
+			title: "Tier 3 Glyphs"
+			x: -12.5d
+			y: -12.0d
+		}
+		{
+			description: ["A spell you start with. Summons a projectile that applies spell effects when this projectile hits a target or block. Sensitive will allow Projectiles to break plants or other materials that do not block motion."]
+			id: "1EB5F9696E50C772"
+			shape: "rsquare"
+			tasks: [{
+				id: "7E25CE6E5C7809D5"
+				item: "ars_nouveau:glyph_projectile"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Randomize the behavior of some glyphs. If used with spells like Place Block and Exchange, it will randomize the block that is placed between the blocks in your hotbar."]
+			id: "7F74C1D986D8EAAD"
+			shape: "rsquare"
+			tasks: [{
+				id: "380A46307E06B74F"
+				item: "ars_nouveau:glyph_randomize"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			description: ["Rotates a block or an entity clockwise. If augmented with sensitive it will change the axis of the block (if possible) or force the entity to turn their look. Dampen will rotate counter-clockwise."]
+			id: "67CE499593C48823"
+			shape: "rsquare"
+			tasks: [{
+				id: "43A2390D376FAD64"
+				item: "ars_nouveau:glyph_rotate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			description: ["Places a rune on the ground that will cast the spell on targets that touch the rune. Unlike runes placed by Runic Chalk, these runes are temporary and cannot be recharged. When using Item Pickup, items are deposited into adjacent inventories. Sensitive will cause the rune to use the Owner's inventory for pickup and usage instead. Players with Magic Find will be able to read spells inscribed on runes."]
+			id: "603AD07D6FDA09B7"
+			shape: "rsquare"
+			tasks: [{
+				id: "66552C6334EAE401"
+				item: "ars_nouveau:glyph_rune"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			description: ["A spell you start with. Applies spells on the caster."]
+			id: "19F1BDFAF3697D0F"
+			shape: "rsquare"
+			tasks: [{
+				id: "3963FFE9EBB134DD"
+				item: "ars_nouveau:glyph_self"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			description: ["Applies spells at the block or entity that is targeted."]
+			id: "1427481EB0C9ACF1"
+			shape: "rsquare"
+			tasks: [{
+				id: "6B1786CEB815186A"
+				item: "ars_nouveau:glyph_touch"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			description: ["Resets the spell chain to the original target if it was changed by a previous effect. For example, Burst -> Place Block -> Reset -> Break will cause Burst to place blocks, but only Break will apply to the original location. As a result, using Reset will allow you to bypass combination and duplicate limits on glyphs."]
+			id: "1C3FB2BE438556DF"
+			shape: "rsquare"
+			tasks: [{
+				id: "466622D22F0C1BB9"
+				item: "ars_nouveau:reset"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			description: ["Changes the color of an entity or compatible block to the color of the spell."]
+			id: "219590D3F6A6765A"
+			shape: "rsquare"
+			tasks: [{
+				id: "74D5A8DEF298463D"
+				item: "ars_nouveau:wololo"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			description: ["Infuses a target with a potion or flask from your inventory. If augmented with AOE, a splash potion will spawn at the location. If augmented with Extend Time, a lingering potion will spawn at the location. Caster blocks may pull from adjacent Potion Jars to cast infuse."]
+			id: "0DD52C890412E10F"
+			shape: "rsquare"
+			tasks: [{
+				id: "4DA03A4EC865CD80"
+				item: "ars_nouveau:glyph_infuse"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -9.5d
+		}
+		{
+			description: ["Creates a lingering wall that applies spells on nearby entities for a short time. Applying Sensitive will make this spell target blocks instead. AOE will expand the effective range, Accelerate will cast spells faster, Dampen will ignore gravity, and Extend Time will increase the duration."]
+			id: "43236C7FB1FF35C7"
+			shape: "rsquare"
+			tasks: [{
+				id: "6595B0CAAC14E0A8"
+				item: "ars_nouveau:glyph_wall"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3D4D88B8BE881351"]
+			description: [
+				"The Annoted Codex allows players to share their knowledge of glyphs with other players."
+				""
+				"To record your known glyphs, simply use the codex."
+				""
+				"Recording glyphs requires EXP for each glyph known, and the EXP will be consumed upon using the item. "
+				""
+				"Using the item again will update the list of known glyphs. "
+				""
+				"Other players may use the book to learn the glyphs, consuming the codex in the process."
+			]
+			id: "4D3698E39F1B8EFA"
+			rewards: [
+				{
+					id: "2F1AC25DC876D4BF"
+					item: "ars_nouveau:blank_parchment"
+					type: "item"
+				}
+				{
+					id: "669DFBFDB0012001"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "67A25324784B1B46"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:annotated_codex"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: ["Summon a random variety of wild animals native to the biome it's in."]
+			id: "40AE49689F8F4781"
+			tasks: [{
+				id: "5680B9D2C72AE129"
+				item: "ars_nouveau:ritual_animal_summon"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Awakens nearby Archwood trees into Weald Walkers and Budding Amethyst into Amethyst Golems."
+				""
+				"Weald Walkers can be given a position in the world to guard against hostile mobs."
+				""
+				"They will heal over time, and turn into Weald Waddlers if they die."
+				""
+				"To create a Weald Walker, perform this ritual near the base of an Archwood Tree. "
+				""
+				"Augmenting with Book and Quills will create Bookwyrm Charms."
+			]
+			id: "10D3F8D698951C0F"
+			tasks: [{
+				id: "57B95F9528C2C57C"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"The Table of Binding is a crucial element in forming partnerships with various creatures, allowing sorcerers to harness powerful abilities through these bonds."
+				""
+				"&4&nTo bind a creature:&r&r"
+				""
+				"1. Perform the Ritual of Binding near a creature willing to bond."
+				""
+				"2. If the creature agrees, it will provide a token."
+				""
+				"3. Add this token to your spell book to summon the creature at any time."
+				""
+				"Each familiar grants unique bonuses, which are detailed in the Worn Notebook. Explore the different familiars to find the perfect companion for your magical journey."
+			]
+			id: "280B898AD5495661"
+			tasks: [{
+				id: "2BE249E68CD0242A"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: ["Digs four adjacent holes to bedrock, dropping any blocks."]
+			id: "459992565BCEB0AE"
+			tasks: [{
+				id: "3BCBF8BAD5B7D033"
+				item: "ars_nouveau:ritual_burrowing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Summons an illager raid when used inside a village."
+				""
+				"An Emerald may be used to increase the difficulty of the raid to the maximum amount, making Totems of the Undying accessible on easier difficulties. "
+				""
+				"Augmenting has no effect on Hard difficulty."
+			]
+			id: "706E7C7429260D4B"
+			tasks: [{
+				id: "0E9F366F406FAE04"
+				item: "ars_nouveau:ritual_challenge"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"This ritual can change the weather at a moments notice."
+				""
+				"By default, this ritual will set the weather to clear."
+				""
+				"Augmenting with Gunpowder will cause it to rain, while a Lapis Block will cause it to storm."
+			]
+			id: "42E99272BAB4D015"
+			tasks: [{
+				id: "121836150D673BDA"
+				item: "ars_nouveau:ritual_cloudshaping"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Creates an island of sand and sandstone in a circle around the ritual, converting the area to Desert. "
+				""
+				"The island will generate with a radius of 7 blocks. Augmenting the ritual with Source Gems will increase the radius by 1 for each gem. Source must be provided nearby as blocks are generated. Augmenting with Terracotta will create Badlands instead."
+			]
+			id: "5FC97473590A2841"
+			tasks: [{
+				id: "129E6B894EE515F6"
+				item: "ars_nouveau:ritual_conjure_island_desert"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Creates an island of grass and dirt in a circle around the ritual, converting the area to Plains. "
+				""
+				"Augmenting with a Frostaya with convert to Snow Plains."
+				""
+				"The island will generate with a radius of 7 blocks. Augmenting the ritual with Source Gems will increase the radius by 1 for each gem. Source must be provided nearby as blocks are generated."
+			]
+			id: "5F2BFBE1A8ADDA5B"
+			tasks: [{
+				id: "125ECC63303E5F6C"
+				item: "ars_nouveau:ritual_conjure_island_plains"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			description: ["DELETE FROM MODDPACK"]
+			id: "195DCC86A2E1BBE4"
+			subtitle: "Captures a nearby entity and places it into any nearby placed Containment Jars. After the first capture, this ritual requires additional source to continue. Mobs and jars must be within 3 blocks of the brazier."
+			tasks: [{
+				id: "065F53D7D26B52FB"
+				item: "ars_nouveau:ritual_containment"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Destroys nearby monsters and converts them into Experience Gems worth twice as much experience. "
+				""
+				"Monsters destroyed this way will not drop items. "
+				""
+				"This ritual consumes source each time a monster is destroyed."
+			]
+			id: "7EFF539C6BAF3D52"
+			tasks: [{
+				id: "67DD39F0D2192746"
+				item: "ars_nouveau:ritual_disintegration"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Periodically causes nearby animals to breed if possible."
+				""
+				"This ritual requires source to operate, and will have no effect if there are twenty or more animals nearby."
+			]
+			id: "7C754463FC6D5AF8"
+			tasks: [{
+				id: "0AE1C8F5E64F4511"
+				item: "ars_nouveau:ritual_fertility"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Grants nearby players the Flight effect when they jump, allowing them to creatively fly for a short time. "
+				""
+				"If the player is nearby, this ritual will refresh their flight buff. "
+				""
+				"Each time this ritual grants or refreshes flight, it will expend source from nearby jars."
+			]
+			id: "4849B1EAF8506FE9"
+			tasks: [{
+				id: "13C34D5324CD93E0"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Populates the nearby area with flowers and grass. "
+				""
+				"Augmenting with a source gem will increase the radius by 1 for each gem."
+				""
+				"Augmenting with sand will replace flowers with Cactus and Dead Bushes."
+			]
+			id: "41B3AF96CDA54D03"
+			tasks: [{
+				id: "7D41118739D67FBA"
+				item: "ars_nouveau:ritual_flowering"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Places grown Oak and Birch trees, and applies bonemeal in a 7x7 (circular) area. "
+				""
+				"Augmenting with a source gem will increase the radius by 1 for each gem. "
+				""
+				"Augmenting with a Brown Mushroom will convert the area to Podzol and spawn taiga resources."
+				""
+				"Augmenting with Glow Berries will spawn jungle resources."
+			]
+			id: "4F33B477E025AEFD"
+			tasks: [{
+				id: "65A9341A1AD4E3DF"
+				item: "ars_nouveau:ritual_forestation"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Grants nearby players the Gravity effect, forcing them to the ground for a short time. "
+				""
+				"If the player is nearby, this ritual will refresh their gravity debuff. "
+				""
+				"Each time this ritual grants or refreshes gravity, it will expend source from nearby jars."
+			]
+			id: "19C5BCB80A1B9D9F"
+			tasks: [{
+				id: "0005100B8ACC5B32"
+				item: "ars_nouveau:ritual_gravity"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Casts the Harvest effect on nearby crops."
+				""
+				"Consumes source each time a set of crops are harvested."
+				""
+				"If an inventory is adjacent to the brazier, the items will be deposited in them before dropping on the ground."
+			]
+			id: "1D81546A52676BFC"
+			tasks: [{
+				id: "48B70BB0FB86C292"
+				item: "ars_nouveau:ritual_harvest"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: ["Sets the time to night."]
+			id: "7213BC30CCE6E64B"
+			tasks: [{
+				id: "0B50C54F738EDB56"
+				item: "ars_nouveau:ritual_moonfall"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Occasionally bone meals blocks in the area around it. "
+				""
+				"This ritual requires source to operate. "
+				""
+				"If augmented with a Bone Block, this ritual will instead force baby animals to grow faster."
+			]
+			id: "311FD5C1928EA11B"
+			tasks: [{
+				id: "6179D39B01F7C688"
+				item: "ars_nouveau:ritual_overgrowth"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Heals nearby entities or harms undead over time. Additionally, Zombie Villagers will be instantly cured, and the resulting villager will offer discounts if a player was nearby. "
+				""
+				"This ritual requires source to operate."
+			]
+			id: "38B881F946F5BB3B"
+			tasks: [{
+				id: "41DD0EA3660AB9A4"
+				item: "ars_nouveau:ritual_restoration"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Denies hostile mobs from naturally spawning in a 32 block radius. "
+				""
+				"Augment with rotten flesh to increase the radius by 1 each, up to 128. Costs source once a minute if a spawn is denied."
+			]
+			id: "3F92D1F5583EE2DE"
+			tasks: [{
+				id: "09A5D4304D3A9864"
+				item: "ars_nouveau:ritual_sanctuary"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Grants vision of a given block through any other block for a given time. "
+				""
+				"White particles signify you are very close, green is semi-far, and blue particles are blocks very far from you."
+				""
+				"To complete the ritual, throw any block of your choice before starting. You may also add a Manipulation Essence to increase the duration to 15 minutes."
+			]
+			id: "120F411855A1047F"
+			tasks: [{
+				id: "2CB629B11FABDD08"
+				item: "ars_nouveau:ritual_scrying"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: ["Sets the time to day."]
+			id: "5F7170FA0EAC24F7"
+			tasks: [{
+				id: "0C0F8F8A73E6F0AC"
+				item: "ars_nouveau:ritual_sunrise"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: ["Warps all nearby entities to the location on a warp scroll. Before starting the ritual, you must first augment the ritual with an inscribed Warp Scroll."]
+			id: "3764906DCB6D9FC1"
+			tasks: [{
+				id: "393D8A1C153B5B24"
+				item: "ars_nouveau:ritual_warping"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["457DE8C154641437"]
+			description: [
+				"Without augments, this ritual will summon a random variety of Wilden monsters for a short duration. "
+				""
+				"When augmented with a Wilden Spike, Wilden Horn, and a Wilden Wing, this ritual will summon the &6Wilden Chimera&r, a challenging and destructive monster."
+				""
+				"&nNote: If summoning the chimera, this ritual will destroy blocks around the brazier.&r"
+			]
+			id: "6C60FAFCB36ADD5D"
+			tasks: [{
+				id: "675B1170EB6BF6D2"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["280B898AD5495661"]
+			description: [
+				"Wixies will increase the duration of potions that you apply, and wixies will accept basic potion reagents in exchange for applying the tier 1 potion result. "
+				""
+				"Additionally, the Wixie will apply harmful potions to enemies during combat."
+			]
+			id: "2FAC97162B0EFC8F"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+				icon: "kubejs:alchemists_delight"
+				id: "61D7699EA4B0CC22"
+				title: "Alchemist's Delight"
+				type: "command"
+			}]
+			subtitle: "Obtained by performing the Ritual of Binding near a Wixie."
+			tasks: [{
+				id: "3049AA224D236533"
+				item: "ars_nouveau:familiar_wixie"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["280B898AD5495661"]
+			description: ["A Drygmy familiar will increase the damage of Earth spells by 2, and has a chance to increase the amount of looting when slaying enemies."]
+			id: "0C0939A883F36562"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "419C1ED10827728E"
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			subtitle: "Obtained by performing the Ritual of Binding near a Drygmy."
+			tasks: [{
+				id: "7330933593D2688D"
+				item: "ars_nouveau:familiar_drygmy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["280B898AD5495661"]
+			description: ["Whirlisprigs will reduce the cost of Elemental Earth glyphs by half, and grants bonus saturation when consuming food."]
+			id: "56E0A87C4389ABD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "664EB4811C6E7BE8"
+				type: "random"
+			}]
+			subtitle: "Obtained by performing the Ritual of Binding near a Whirlisprig."
+			tasks: [{
+				id: "7815A06E55EA0A2E"
+				item: "ars_nouveau:familiar_whirlisprig"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["280B898AD5495661"]
+			description: [
+				"A Starbuncle familiar that will grant you Speed 2."
+				""
+				"Additionally, using a Golden Nugget on the starbuncle will consume it and grant the owner a short duration of Scrying for Gold Ore."
+			]
+			id: "08A22C6AEB3C4BAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "452E0AEB7F1296CA"
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Obtained by performing the Ritual of Binding near a Starbuncle."
+			tasks: [{
+				id: "264862031CC290B4"
+				item: "ars_nouveau:familiar_starbuncle"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["280B898AD5495661"]
+			description: [
+				"A Bookwyrm will automatically pickup nearby items and exp orbs within 5 blocks of the player."
+				""
+				"Thrown items will not be picked up. Use of the familiar hotkey is recommended to turn the magnet on and off as needed."
+			]
+			id: "4B5B1FBA8F455852"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "755031E98DF205D4"
+					type: "random"
+				}
+				{
+					id: "2D55DDC03C7E0CFE"
+					item: {
+						Count: 1b
+						id: "eidolon:warlock_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Obtained by performing the Ritual of Binding near a Bookwyrm."
+			tasks: [{
+				id: "73DE60507493C4E2"
+				item: "ars_nouveau:familiar_bookwyrm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			id: "21448BC953054814"
+			rewards: [{
+				count: 2
+				id: "2C7D6D07C909538D"
+				item: "ars_nouveau:magebloom_fiber"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7C339C4BC44D3C1B"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			title: "&lAlteration Table"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			id: "0F5BBE3219E8FE10"
+			rewards: [{
+				count: 6
+				id: "2FADEE320A7A3E70"
+				item: "ars_nouveau:magebloom_fiber"
+				random_bonus: 6
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2FDB8937FCBAB6B2"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			title: "&lBlank Thread"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			description: ["Greatly increases the amount of time you may breathe underwater by reducing the chance your air will decrease. If this perk is in slot 3 or higher, you will no longer lose air and your swim speed is greatly increased. Stacks with Respiration Enchantments."]
+			id: "5930F3CF379C9B71"
+			tasks: [{
+				id: "0BD34F9DF0E386F0"
+				item: "ars_nouveau:thread_depths"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.5d
+		}
+		{
+			description: ["Allows you to jump higher and increases how far you may fall before taking damage."]
+			id: "37204AB2E5CE61DF"
+			tasks: [{
+				id: "406885C6D92351E2"
+				item: "ars_nouveau:thread_heights"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -5.5d
+		}
+		{
+			id: "3B05D287931547AF"
+			tasks: [{
+				id: "1B5A88DA72D4D9A0"
+				item: "ars_elemental:thread_spore"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -5.5d
+		}
+		{
+			description: ["Increases the saturation of consumed food by 30%% each level."]
+			id: "70ACC6D93320D578"
+			tasks: [{
+				id: "7319D55A548D63AD"
+				item: "ars_nouveau:thread_whirlisprig"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -4.5d
+		}
+		{
+			id: "36B3FF63BC459457"
+			tasks: [{
+				id: "4E1FD04E2DC2360F"
+				item: "ars_elemental:thread_shock"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.5d
+		}
+		{
+			description: ["Grants an additional stack of looting."]
+			id: "19E3E79975C0D5BF"
+			tasks: [{
+				id: "488EA523A1BB4B2D"
+				item: "ars_nouveau:thread_drygmy"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.5d
+		}
+		{
+			description: ["Increases step height by one for each level."]
+			id: "7A0AF1D17C6DAC03"
+			tasks: [{
+				id: "20C69D9E9794D84B"
+				item: "ars_nouveau:thread_high_step"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -5.5d
+		}
+		{
+			description: ["Grants an increasing amount of Spell Damage each level."]
+			id: "024B7DB278EAA05C"
+			tasks: [{
+				id: "047D19C50725CE4E"
+				item: "ars_nouveau:thread_spellpower"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			description: ["Dealing damage with spells heals you for 20%% per level of the damage dealt."]
+			id: "562DF208B7A192A4"
+			tasks: [{
+				id: "7B2CEC9863718AFB"
+				item: "ars_nouveau:thread_life_drain"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			description: ["Increases the speed of the player by 20%% each level."]
+			id: "1D52173021FE2719"
+			tasks: [{
+				id: "2A4C07F542F2D08D"
+				item: "ars_nouveau:thread_starbuncle"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			description: ["Damaging effects inflict Freezing on the target before the spell resolves. Freezing lasts for 10 seconds per level, and becomes Freezing 2 at a level 3 slot."]
+			id: "4804FFC5F3E09F6C"
+			tasks: [{
+				id: "622A15136C023EB2"
+				item: "ars_nouveau:thread_chilling"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -5.5d
+		}
+		{
+			description: ["Once every time you sleep, you will nullify death a single time as if holding a Totem of the Undying. Requires a tier 3 slot."]
+			id: "51B3830FA2FA2272"
+			tasks: [{
+				id: "194881AB0F1F1926"
+				item: "ars_nouveau:thread_undying"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -4.5d
+		}
+		{
+			description: ["Decreases the amount of fall damage taken by a percentage. Stacks with Feather Enchantments."]
+			id: "7F8BF74285B22315"
+			tasks: [{
+				id: "413E720E31528599"
+				item: "ars_nouveau:thread_feather"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -3.5d
+		}
+		{
+			description: ["Reduces the amount of magic damage taken by a flat amount each level."]
+			id: "52F533FDD8793D71"
+			tasks: [{
+				id: "5E7BC6FF16AEC3A2"
+				item: "ars_nouveau:thread_warding"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.5d
+		}
+		{
+			description: ["Allows you to glide as if you are wearing an elytra. Must be equipped in a slot of at least level 3."]
+			id: "06A836DB4B2B5E2C"
+			tasks: [{
+				id: "41BF0EA0BF27E827"
+				item: "ars_nouveau:thread_gliding"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -5.5d
+		}
+		{
+			description: ["If the user is on fire or standing in fire, the fire will be extinguished when the user casts a spell and will be granted the Immolation potion effect. Fire spells will deal additional damage and last longer for each level of Immolation."]
+			id: "358E0A44CA3A29B1"
+			tasks: [{
+				id: "62C2956E5F9AAEA7"
+				item: "ars_nouveau:thread_immolation"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -4.5d
+		}
+		{
+			description: ["Grants 15%% knockback resistance per level."]
+			id: "217B94AE20110A2F"
+			tasks: [{
+				id: "2BF2AFFBE3E1E48A"
+				item: "ars_nouveau:thread_amethyst_golem"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -3.5d
+		}
+		{
+			description: ["Increases the users maximum mana by 10%% per level."]
+			id: "2761668ABCE3923A"
+			tasks: [{
+				id: "7C9F8341396B1E1B"
+				item: "ars_nouveau:thread_magic_capacity"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -2.5d
+		}
+		{
+			description: ["Damaging effects cause the target to burn for a short duration before the effect resolves. Burn time is increased by 5 seconds per level."]
+			id: "0F51428B60BE6657"
+			tasks: [{
+				id: "326CBE8BF8087CD2"
+				item: "ars_nouveau:thread_kindling"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -5.5d
+		}
+		{
+			id: "4745926C1A9E4CB9"
+			tasks: [{
+				id: "240F4CD5ACFA83FC"
+				item: "ars_elemental:thread_summon"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -4.5d
+		}
+		{
+			description: ["Increases the duration of potions by 15%% each level."]
+			id: "30967D7D9F46C2EC"
+			tasks: [{
+				id: "7AE6677362255533"
+				item: "ars_nouveau:thread_wixie"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -3.5d
+		}
+		{
+			description: ["Allows the wearer to repair ANY magical armor or enchanters item by consuming Mana over time. Additional levels increase the speed at which the items repair. This perk applies to all relevant items, not only the item with this perk."]
+			id: "7797BA61D9852D24"
+			tasks: [{
+				id: "483F49B377FCB656"
+				item: "ars_nouveau:thread_repairing"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -2.5d
+		}
+	]
+	title: "{atm9.chapters.39.title}"
+}

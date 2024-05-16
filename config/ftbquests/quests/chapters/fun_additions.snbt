@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fun_additions"
+	group: "4546D7737CBFFD68"
+	icon: "create_things_and_misc:slime_cake"
+	id: "5AEA78F0EB1C5190"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			id: "15FA061AA0E7C2E6"
+			rewards: [{
+				id: "6669B098D9452372"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Okay, so this thing, while not as powerful as a magical spawner, this one is actually craftable, but it requires liquid made out of certain mob drops in order to function."
+			tasks: [{
+				id: "5A1032E25F2BF0E4"
+				item: "create_mechanical_spawner:mechanical_spawner"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "205DCDADC7B500B9"
+			rewards: [{
+				id: "5FF3DB5B82086686"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A builder's best friend, this extension is going to be handy when reaching far and is perfect for building not only aesthetically, but also machinery with practicality."
+			tasks: [{
+				id: "5254527325B1F219"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "00F11AE1E586D83D"
+			rewards: [{
+				id: "1297BF7386F047F8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Potato Cannons are a classic weapon to have, just remember to have suitable ammo in your inventory or this thing is useless."
+			tasks: [{
+				id: "07F923188419D3B7"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "2C770179FF6B1F73"
+			rewards: [{
+				id: "3CA4E126998F92EC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "This is not a Star Wars film, don't think you have the Force."
+			tasks: [{
+				id: "60EBF2BAF0AAE553"
+				item: {
+					Count: 1b
+					id: "create_sabers:brass_saber_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Lightsaber!!"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "4E1D2DC78E017E20"
+			rewards: [{
+				id: "7F4B8650A0120F81"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "So this thing is your portable mechanical saw, it only requires air pressure from backtank. Don't forget to plant trees, okay?"
+			tasks: [{
+				id: "2B77AF6FB81ADB03"
+				item: {
+					Count: 1b
+					id: "create_dd:deforester_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "6AAC04F1D0ECC1D5"
+			rewards: [{
+				id: "0BC50BA1D592BF9D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Okay, so this is really complicated to explain, but to narrow it down, this controller is it will take inputs from your gamepad using the layout provided by GLFW. If you don't have a GamePad controller, have fun rebinding your keybinds."
+			tasks: [{
+				id: "58F3629AAB4AEAF9"
+				item: "create_tweaked_controllers:tweaked_linked_controller"
+				type: "item"
+			}]
+			title: "GamePad for MC"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "29651727750CA09A"
+			rewards: [{
+				id: "3475A3DBD3047D0F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "So a Cog Crank is just essentially a Hand Crank, but instead of putting a crank on blocks or machinery, this crank is used for rotational force and direction of cogwheels."
+			tasks: [{
+				id: "43FD093D2FFFDCDF"
+				item: "create_dd:cog_crank"
+				type: "item"
+			}]
+			title: "Crank it all the way!"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "5403A239E1F1C4D3"
+			rewards: [{
+				id: "51907FD9732C7D0D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "So a conductor's cap is actually a very versatile item that allows one to create essentially a Create Golem. Ponder about its uses and consider this golem an assistant you'll need."
+			tasks: [{
+				id: "45AB837D1A05E10E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "railways:conductor_caps"
+					}
+				}
+				title: "Any Conductor Cap"
+				type: "item"
+			}]
+			title: "Conductor's Cap"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5060D68015C969BC"]
+			id: "08FF7A44DC0ACAB3"
+			tasks: [
+				{
+					id: "5CB5A0270B82C69D"
+					item: "estrogen:estrogen_pill"
+					type: "item"
+				}
+				{
+					id: "12585F1B40451C45"
+					item: "estrogen:crystal_estrogen_pill"
+					type: "item"
+				}
+				{
+					id: "3E7B74C4F3F27136"
+					item: "estrogen:estrogen_chip_cookie"
+					type: "item"
+				}
+				{
+					id: "78ADC00A51D6DFCE"
+					item: "estrogen:estrogen_patches"
+					type: "item"
+				}
+			]
+			title: "Estrogen"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "5060D68015C969BC"
+			tasks: [{
+				id: "358E5AEA5A19B51E"
+				item: "estrogen:centrifuge"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "5587E4103EAE9289"
+			subtitle: ":333333333333"
+			tasks: [{
+				id: "51FE91A308831CAE"
+				item: "estrogen:uwu"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	title: " &eFun Additions"
+}

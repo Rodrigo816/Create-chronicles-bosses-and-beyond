@@ -1,0 +1,1195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "backpack"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "sophisticatedbackpacks:backpack"
+	id: "02E530EAF017EAD1"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The basic &6backpack&r has 27 storage slots and can hold 1 upgrade."
+				""
+				"They can also be dyed."
+			]
+			id: "7796359B0F6A6606"
+			rewards: [
+				{
+					id: "637EC0B09221E90B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "41344269EE06BFE2"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			subtitle: "A nice way to store items on the go"
+			tasks: [{
+				id: "059925D472D6263E"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7796359B0F6A6606"]
+			description: ["The &6iron backpack&r is the upgrade of the basic &ebackpack&r. It has 54 slots and can hold 2 upgrades"]
+			id: "0545C4EC83C4D016"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6EF346ED0F3BBB4A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "53DE2A2D875F2FB9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Bigger storage on the go"
+			tasks: [{
+				consume_items: false
+				id: "74F9F5CEBF33AD05"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0545C4EC83C4D016"]
+			description: ["The &6gold backpack&r is the upgrade of the &eiron backpack&r. It has 81 storage slots and can hold 3 upgrades"]
+			id: "58D07759E8539B1E"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "74BA72CC1A30556D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "19641D7C2C80338D"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Even bigger storage on the go"
+			tasks: [{
+				id: "3A2FC03EA9FE8CC6"
+				item: "sophisticatedbackpacks:gold_backpack"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D07759E8539B1E"]
+			description: ["The &6diamond backpack&r is the upgrade of the &egold backpack&r. It has 108 storage slots and can hold 5 upgrades"]
+			id: "328FEEA1A7803F0B"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "1CAB0752F98AED97"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "40B93A4421601307"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Massive storage on the go"
+			tasks: [{
+				id: "62972CF54FF16FDA"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["328FEEA1A7803F0B"]
+			description: ["The &6netherite backpack&r is the upgrade of the &ediamond backpack&r. It has 120 storage slots and can hold 7 upgrades"]
+			id: "7B72B8A2A801BDBE"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "266D9BE86FB0ED61"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "0818F6EB3A4754AF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Insane storage on the go"
+			tasks: [{
+				id: "1C412F65FC3E3F22"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: ["The &6upgrade base&r is the main thing needed for each upgrade that you can use within the mod, it is used to craft every single upgrade"]
+			id: "6B093C1DD6F02BCE"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "7627A6313C9902F9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "425A93AC3F9915C0"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+			]
+			subtitle: "The key to maximising the backpack"
+			tasks: [{
+				id: "1F5302C1225E664C"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			description: [
+				"All &6stack upgrades&r are multiplicative, so having different upgrades in the backpack will increase the stack size."
+				""
+				"Having 1 of each &6stack upgrade&r will give you 1,024x the stack amount within the backpack"
+			]
+			id: "03C2A1DAA831572A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2097F14DBE68C5ED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2D47215ED967335F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "x2 Stack Size"
+			tasks: [{
+				id: "32CB426CF8EDD766"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "607FE56A60D6233E"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "20725EF8800716C9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "438CB2485918102E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Save hotbar slots, only have the tool for the job out. Left click the block to tell it what you want to interact with"
+			tasks: [{
+				id: "648B01BBEF49DF28"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "5F1C371B9CF45003"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "1476368CDC96367B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "44C5224FFC7EFFD8"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Fill up your backpack from your storage"
+			tasks: [{
+				id: "6D777F59CC8663C4"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "46AB6BCAC2CCE419"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "5927AB25A42D9DBF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4A882587B8A305AD"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Will compress anything that can be in a 2x2 craft"
+			tasks: [{
+				id: "70A5CA74B4DAB740"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "5519761745E81CC5"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "404B1994796FD3AE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0440CBA5AE229CB2"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Become the place that items are attracted to"
+			tasks: [{
+				id: "4830C62A00F7B643"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "4B5F93FB8ACD708D"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "4223B3E07AF245D0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7BD8000BF690B44C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Easy way to drop items into your storage system"
+			tasks: [{
+				id: "484156B58B919356"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "5BE1B13E934BBA98"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "130891D9E962F704"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "46AD50AAD0D6F1D9"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Used as well as tank upgrade to move liquids"
+			tasks: [{
+				id: "79A1AD2003413960"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "1F063D68BCDEAE95"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "7B0CC4049BC1B0E3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4B96790E047FDA20"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Sacrifice some storage space to hold liquids"
+			tasks: [{
+				id: "5CE15BD0A568D971"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "2ED982AECD1576C0"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "0099E8DDC0A64F3A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "75F8325B881D5E5E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Be a walking DJ booth by playing music disks"
+			tasks: [{
+				id: "0721778FC340F45D"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "119DB8BE8676C954"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "59F8D1AA48C09DD3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E7BFFA5534583DA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Sacrifice some storage space to hold energy"
+			tasks: [{
+				id: "0D1690C3B16C5B0F"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "65FD004534739EC2"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "685B4A4E6CFE24C0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1ED3F1CAA7BA81BA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "The backpack will last forever"
+			tasks: [{
+				id: "1777936D4D41F6E2"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "11B587849F60CE12"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "10296EC3D087CC5E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2F2A81A2DB863AE0"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1B55B52F59F2645F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Backpacks in backpacks. What is this craziness"
+			tasks: [{
+				id: "0337C6F48FE689F8"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "2910673D07F5CF42"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "192C8213F77CFF36"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7ADB096B3BEECA58"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Items automatically go into your backpack"
+			tasks: [{
+				id: "247DAB01E4C33F2B"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "595816F923175174"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "1A96B8814D54B502"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C7D23F94A8B8CFF"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Destroys excess items that are filtered"
+			tasks: [{
+				id: "6022B2DAD3CB59C0"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "7CB9B1EF0A22B24C"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "5611247FC3B9F444"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7BDE10744D23C7A8"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Let your backpack worry about your hunger instead of you"
+			tasks: [{
+				id: "52CDD8C30D42F282"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "1F224ED4009FDB73"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "0A773A2F7B394404"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5048D50AC5303F21"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Will keep any item in the player inventory as full as possible"
+			tasks: [{
+				id: "7E3DDC5ECF1CCFFD"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "543924673E879C51"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "77906C3945071D74"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FE7EBC29559CC55"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Decides what is piped in or out of the backpack"
+			tasks: [{
+				id: "1F593858769EA03C"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "58681EC1AFD55115"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "21C7FD320430E893"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DA213F5E9BC5A53"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Use a crafting table without placing one down"
+			tasks: [{
+				id: "5C5837E4F7211B65"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "445816396CD02500"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "270FDF3240B553C8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "08C10B9EA85AEBC4"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Use a stonecutter without placing one down"
+			tasks: [{
+				id: "5DE75C17100B2943"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "0A2FEC235F9F58F3"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "3CD64DFDA340C829"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3FEB3A2BD8DB445C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Become a walking furnace"
+			tasks: [{
+				id: "2C10FF56DC1337A7"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "1F08C023EF656B55"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "327F1A513FBB1BC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6AFDFED35E2695C3"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Become a walking food smoker"
+			tasks: [{
+				id: "2A6FBC9547A25790"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B093C1DD6F02BCE"]
+			id: "14FCB5F442B68F9B"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6511F2C209FB02AF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B15D977FFD6E5AC"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Become a walking blast furnace"
+			tasks: [{
+				id: "2C91A2899419977E"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03C2A1DAA831572A"]
+			id: "7E46F131FF61C0EA"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "5DCDF863715B4DE8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "472A28179B8AD885"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "4x Stack Size"
+			tasks: [{
+				id: "75C87496003F3F8C"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E46F131FF61C0EA"]
+			id: "25782DF14CDCCA51"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "68A27D70BD6CC7DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7DEBECA331305F2B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "8x Stack Size"
+			tasks: [{
+				id: "51482C5F7137361D"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25782DF14CDCCA51"]
+			id: "3281BDCB53C2399A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "7501D35D0D1862F2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76FC8AFE40FFEFC7"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "16x Stack Size"
+			tasks: [{
+				id: "1B30B7A48F34FFD1"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5BE1B13E934BBA98"]
+			id: "4F6A42D9A9E00F94"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "476FB22624F7EB65"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "24593606391D11B0"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "A more advanced fluid transporter"
+			tasks: [{
+				id: "7A3F4A1EFA82C348"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F6A42D9A9E00F94"]
+			id: "2B7C2E8511E4C67E"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2AD59EF24BFE10DF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "356703813A7A4B8A"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "An XP source from your own backpack, that you filled up beforehand"
+			tasks: [{
+				id: "63CDB2A169068644"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["607FE56A60D6233E"]
+			id: "38B059A326764C85"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "013E874EBC66B943"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2BE248F29FEA4228"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Automatically changes the tool when looking at a block"
+			tasks: [{
+				id: "19F7F2AD3F28DD42"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F1C371B9CF45003"]
+			id: "27D1011D260DE6D7"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "34584A830FFD28DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7283929FF78D12F5"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Be pickier when filling your backpack back up"
+			tasks: [{
+				id: "56AD117367780CBE"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["46AB6BCAC2CCE419"]
+			id: "17D72340CDE83499"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "38A15A562B8740C1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "27095136049B5611"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Now you can compress in a 3x3"
+			tasks: [{
+				id: "3EFE78CAE9A63A33"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5519761745E81CC5"]
+			id: "41BC665DC213A3C7"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "35D9D8ADCA8B6202"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "466931CF5D8FECF5"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Increase the area in which items come towards you"
+			tasks: [{
+				id: "5856B7143162FAC0"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B5F93FB8ACD708D"]
+			id: "7C53E556EF451A95"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2F65C68E126C9731"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "44AFF7159456B052"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Allows more filtering of what is or isn't depostited"
+			tasks: [{
+				id: "275E10C567B0400E"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2910673D07F5CF42"]
+			id: "4BAACD5ACEDCAB1F"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "255728D5A02AF3E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4A68329249C0E645"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Decide more about what's automatically picked up"
+			tasks: [{
+				id: "16C9F0106690C8BD"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["595816F923175174"]
+			id: "77FB064296CB5CE8"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "214DD3F670F4D3D3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "32387E6D2ED3E8B2"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Be more decicive in what is voided and how"
+			tasks: [{
+				id: "6C1100E7324CBF2D"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CB9B1EF0A22B24C"]
+			id: "14805CAC3DD4BEE8"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6CA466436C9DD00C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4373746E9940B42E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Have more control over when you are fed"
+			tasks: [{
+				id: "498048A2893AF018"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F224ED4009FDB73"]
+			id: "763EC1241C4E9EFA"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "7FC3A05FAA4DD8C2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "657A75AC1975ED30"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Can decide which slot on hotbar is refilled and can pick block items in the backpack"
+			tasks: [{
+				id: "66ECE7C7DA8A4F93"
+				item: "sophisticatedbackpacks:advanced_refill_upgrade"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14FCB5F442B68F9B"]
+			id: "0B06FEF86588FB29"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "5DB86D69F230ADC9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2577B23966C5AE6F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Automatically moves items into and out of the blast furnace"
+			tasks: [{
+				id: "5FCD92B0D0786DB7"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F08C023EF656B55"]
+			id: "2894584EB3C9F40A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "77C4548215906B4E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4B98F86EE954E783"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Automatically moves items into and out of the smoker"
+			tasks: [{
+				id: "0AFD4D314BF2E9E9"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A2FEC235F9F58F3"]
+			id: "55C383C939A63F69"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "547D8F25E438E1A5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "77B8CCD8B5537A50"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Automatically moves items into and out of the furnace"
+			tasks: [{
+				id: "672CF265F4FD94A4"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["543924673E879C51"]
+			id: "0F22EF03C750E879"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "67A9C347FB47B4C1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76AAEBD3CC6D9F72"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Has more options compared to the basic"
+			tasks: [{
+				id: "2BFD652CC3BA542B"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+	]
+	subtitle: [
+		"Learn the power of backpacks! No need to carry all that loot yourself."
+		"Note: This quest contains hidden quests; advance through the quest line to discover more."
+	]
+	title: "tHIS IS THE RIGHT ONE OHHOHOHO"
+}

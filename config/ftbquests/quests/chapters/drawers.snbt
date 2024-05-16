@@ -1,0 +1,881 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "drawers"
+	group: ""
+	icon: "storagedrawers:oak_full_drawers_1"
+	id: "6A8CF7A7E16FBA07"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "velox:textures/quests/drawers.png"
+			rotation: 0.0d
+			width: 6.4d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "twilightforest:item/borer_essence_particles"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "pamhc2trees:block/starfruit_stage_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.457142857142848d
+			y: 1.874999999999993d
+		}
+	]
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			id: "70505F487CE52532"
+			rewards: [
+				{
+					id: "6632F59205CD99C2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "124079D221A121FB"
+					type: "choice"
+				}
+			]
+			subtitle: "Craft any drawer"
+			tasks: [{
+				id: "5CDB8369EA3F6EFF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AC0EC7056C0DCD4"]
+			description: ["The &61x1 drawer&r holds a total of &632 stacks&r of the dedicated item"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "rats:item/psionic_rat_brain"
+				}
+			}
+			id: "54FABCDC1E2CCFAD"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "420E0143D0FA3CF9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "08FFFD649D700AB8"
+					item: {
+						Count: 1b
+						id: "alexscaves:dinosaur_nugget"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Puppy Knowledge Nugget\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38E500905825E1BA"
+					type: "random"
+				}
+			]
+			subtitle: "What it holds"
+			tasks: [{
+				id: "3000F734125EB142"
+				title: "1x1 drawers"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AC0EC7056C0DCD4"]
+			description: ["The &62x1 drawer&r holds &616 stacks&r in each of the option slots"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "rats:item/psionic_rat_brain"
+				}
+			}
+			id: "32D1D78723655A58"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "635A0F10C7A5BCEC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1D7EDB2635F81A20"
+					item: {
+						Count: 1b
+						id: "alexscaves:dinosaur_nugget"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Puppy Knowledge Nugget\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "003F48ACDEC2C8C1"
+					type: "random"
+				}
+			]
+			subtitle: "Information Nugget"
+			tasks: [{
+				id: "22432EFDE8E27069"
+				title: "2x1 drawers"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AC0EC7056C0DCD4"]
+			description: ["The &62x2 drawer&r holds &68 stacks&r in each of the option slots"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "rats:item/psionic_rat_brain"
+				}
+			}
+			id: "75F7BF0DE7B49553"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "52887CA9DFE1B06A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "096A4B6AEA635B09"
+					item: {
+						Count: 1b
+						id: "alexscaves:dinosaur_nugget"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Puppy Knowledge Nugget\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CA3A8D86C68344C"
+					type: "random"
+				}
+			]
+			subtitle: "What it holds"
+			tasks: [{
+				id: "5D96FD065772B420"
+				title: "2x2 drawers"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AC0EC7056C0DCD4"]
+			description: ["The &6half drawers&r hold half of their respective full sized drawers"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "rats:item/psionic_rat_brain"
+				}
+			}
+			id: "4770F991653FD690"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "4CDA43088FBB4D5C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "144475F60873E874"
+					type: "random"
+				}
+			]
+			subtitle: "What it holds"
+			tasks: [{
+				id: "5F71A3AE50E8D261"
+				title: "Half drawers"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AC0EC7056C0DCD4"]
+			id: "2C9421E64DD8153A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "269D4FB7F6D67710"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "50AAD0E9EFF3E276"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+			]
+			subtitle: "The start of upgrading your storage capabilities"
+			tasks: [{
+				id: "63B06F6C9EB6B04A"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "3D788CD50E46FFCE"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "4837FF56C570B5EB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4939BF02F88997A3"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B03B4616F8FC61F"
+					type: "random"
+				}
+			]
+			subtitle: "2x base storage capacity"
+			tasks: [{
+				id: "26443651A04DCBC6"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "76AD7BEFBFEE7350"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "1F2E711068CCCB09"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A7545388AEBA0DF"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E40150E2DD77CC9"
+					type: "random"
+				}
+			]
+			subtitle: "4x base storage capacity"
+			tasks: [{
+				id: "70C3858F5601AD2A"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "4EE1733D56A9E2D9"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "194C513092E5CF5D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C77C22A039A7FA7"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FE808EFCE5E1214"
+					type: "random"
+				}
+			]
+			subtitle: "8x base storage capacity"
+			tasks: [{
+				id: "31A6026F8BD7D144"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "2864A65F28525EEE"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "1B078F506619BFE4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4986CA28066C1F90"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14266356B98A0F86"
+					type: "random"
+				}
+			]
+			subtitle: "16x base storage capacity"
+			tasks: [{
+				id: "04F8A50465FDB969"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "53F715A720863AB4"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "18AA465D42FC534B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FC1E123ECAA3162"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F266BE2B7C7A777"
+					type: "random"
+				}
+			]
+			subtitle: "32x base storage capacity"
+			tasks: [{
+				id: "0FC4B22DC349C3C5"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "0BF9E25F47D12389"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6A5BFDAEC87668FB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E24175D4CA150EA"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F2A865FB660A0B6"
+					type: "random"
+				}
+			]
+			subtitle: "Destroys items when the draw gets full"
+			tasks: [{
+				id: "345BF1E8FE99E38B"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "60B32806925C2DAB"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "1A9FCBA4C8FFB6F8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7C73DC879D292FCC"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12125CA8DA6AFB68"
+					type: "random"
+				}
+			]
+			subtitle: "Gives a redstone signal based on how full the drawer is"
+			tasks: [{
+				id: "37772D5F5F83CD42"
+				item: "storagedrawers:redstone_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "1E145CB6CE966D7F"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "49CC9F091AE1E583"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "081179A25175B0AD"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "422B0DFABB59E8CD"
+					type: "random"
+				}
+			]
+			subtitle: "Gives a redstone signal base on the least full slot"
+			tasks: [{
+				id: "3359D93CBCCF89C9"
+				item: "storagedrawers:min_redstone_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "5A33ED3536E9C527"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "3665F402BC54F771"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DF1F501799ED679"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48626D9940415377"
+					type: "random"
+				}
+			]
+			subtitle: "Gives a redstone signal based on most full slot"
+			tasks: [{
+				id: "6BEE15AF21FB80AF"
+				item: "storagedrawers:max_redstone_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "5A37F93B1882CC32"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "297375A3B1B2CB22"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "49F73215179A1B47"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5ECD9022F64FC77C"
+					type: "random"
+				}
+			]
+			subtitle: "The labels glow in the dark"
+			tasks: [{
+				id: "0BDCC7EC14C0D862"
+				item: "storagedrawers:illumination_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "52537FBEF63BDA15"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2574BC526C178EC0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "78D727B4C7F1AA7F"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12AF22195151B72A"
+					type: "random"
+				}
+			]
+			subtitle: "Adds a bar on the drawer to show how full it is"
+			tasks: [{
+				id: "27CF2216BC12FF4A"
+				item: "storagedrawers:fill_level_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AC0EC7056C0DCD4"]
+			id: "4FC751AC73484F10"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5D0CB366A8560C01"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "The key to lock and unlock drawers."
+			tasks: [{
+				id: "2D413379D5F75A51"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1AC0EC7056C0DCD4"]
+			id: "3E288765E5ECBC40"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2045678A1C50E9B2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47DCB5ED8A8C9AB9"
+					type: "random"
+				}
+			]
+			subtitle: "The key to show or hide labels"
+			tasks: [{
+				id: "4F3CB5984F07A9C2"
+				item: "storagedrawers:shroud_key"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AC0EC7056C0DCD4"]
+			id: "4167479EF47E5FD3"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6AE3475CC5315CBE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "480D65C76D2EA7D5"
+					item: {
+						Count: 1b
+						id: "alexscaves:dinosaur_nugget"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Puppy Knowledge Nugget\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The key to show or hide quanity on drawers"
+			tasks: [{
+				id: "28FD2ACF9F5471BE"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AC0EC7056C0DCD4"]
+			description: [
+				"The &6drawer controller slave&r is kind of like the &eregular drawer controller&r but it needs a &edrawer controller&r within 12 blocks to work."
+				""
+				"It can be used as a secondary input for your drawer system, it's helpful if you need to have your &eregular drawer controller&r is a place that is not directly accessible to the player."
+			]
+			id: "5F77B6E71BDD14F0"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "3BE9DBA0E7D7AF9A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "46521E5131C27E8B"
+					item: "framedcompactdrawers:framed_slave"
+					type: "item"
+				}
+			]
+			subtitle: "Extending Your Network"
+			tasks: [{
+				id: "5A9DE24904D533AD"
+				item: "storagedrawers:controller_slave"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AC0EC7056C0DCD4"]
+			description: [
+				"The &6draw controller&r is the main item you will want to use to automatically put your items into drawers that are linked to the controller."
+				""
+				"It has a range of 12 blocks from each side, a &625x25x25&r cube with the controller as the middle block."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "storagedrawers:block/drawers_controller_front"
+				}
+			}
+			id: "5F9BDA168881B4B8"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "508325E368D2379E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0549752B49819D2D"
+					type: "random"
+				}
+			]
+			subtitle: "The brains of storage drawers"
+			tasks: [{
+				id: "56049B8FD285DBFD"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AC0EC7056C0DCD4"]
+			description: ["The &6trim&r is a really handy utility block within the mod. It is used to link up drawers to eachother when they don't directly touch, it's pretty much a fake drawer as it cannot store any items within it but is still part of your total drawer network"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "rats:item/psionic_rat_brain"
+				}
+			}
+			id: "1794C9358C784761"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "1860A0C70C5C66FC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C7112FE3D4B6D79"
+					type: "random"
+				}
+			]
+			subtitle: "Connect drawer without worrying of loosing items into them"
+			tasks: [{
+				id: "266684B13165CC83"
+				title: "Drawer Trims"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43496DF129AA9132"]
+			id: "77BFB6CF4D78B5CC"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "3A949E857EED45C6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79DDFBBC9BFFE57F"
+					type: "random"
+				}
+			]
+			subtitle: "Reduces the total stack size to 1 stack "
+			tasks: [{
+				id: "13D3BB0D5BD21646"
+				item: "storagedrawers:one_stack_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5D84A485688322A2"
+				"4B3D35E2B7562509"
+				"6B3FCFFD367945DB"
+				"43496DF129AA9132"
+				"4FFE92F9BD1FA9F9"
+				"57BACA91541F39D0"
+				"1AC0EC7056C0DCD4"
+				"6B894F0707B3E19A"
+				"2575193E2B12DED1"
+				"5720A87944651114"
+				"6358A145E9CDFDDA"
+				"76D185BEC0C37EC0"
+				"61B3B50BE9D0A6E5"
+				"1AF4019667A352B1"
+				"2A913D19CDBFCA66"
+				"12BE4EBECF60E611"
+				"03E500405A6CA1FB"
+				"2AA96619167BF9F9"
+				"06CD5DEE6AA5CAD2"
+				"1FE273AE15FB9F43"
+				"39E6CA577F59AB93"
+				"39AD444F5F568CC9"
+				"726B1D91D9DFC698"
+				"6FDD8A97C9F5E461"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "storagedrawers:block/indicator/claim_lock_icon"
+				}
+			}
+			id: "567BFBA803E641F0"
+			rewards: [
+				{
+					id: "3D76233211EF9BBE"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "velox:drawersmasterguru"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: ""
+					id: "7F9351D1BF655EFB"
+					type: "toast"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Master all there is to storage drawers."
+			tasks: [{
+				id: "20E6A9179B4A7882"
+				title: "Drawer Guru"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Drawers are a great way of hiding your loot while being fashionable and very functional. Even has automation!"]
+	title: "Drawers"
+}

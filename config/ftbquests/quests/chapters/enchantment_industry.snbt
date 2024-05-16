@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchantment_industry"
+	group: "4546D7737CBFFD68"
+	icon: "create_enchantment_industry:enchanting_guide"
+	id: "0499D0D75E3C190E"
+	order_index: 44
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4613F6388966DB43"
+				"58D007AD390CBCBB"
+			]
+			id: "64341D7F6E892900"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074DA7859E91283C"
+				type: "random"
+			}]
+			subtitle: "Disenchant item and collect experience as liquid."
+			tasks: [{
+				id: "31110374A3B10D8B"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4613F6388966DB43"]
+			id: "6B5D00440E177092"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31854EDE3B0911B6"
+				type: "random"
+			}]
+			subtitle: "Copy your written book, enchanted book, name tag and train schedule."
+			tasks: [{
+				id: "0578D9C3391F415D"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4613F6388966DB43"]
+			id: "7B90A1A66B750F76"
+			rewards: [
+				{
+					id: "55B436BA9A0EF8C5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CBEB863923CDB45"
+					type: "random"
+				}
+			]
+			subtitle: "Give your Blaze Burner a Enchanting Guide and turn it into a Blaze Enchanter"
+			tasks: [{
+				advancement: "create_enchantment_industry:blazes_new_job"
+				criterion: ""
+				id: "23E7332EAD0FA6C0"
+				type: "advancement"
+			}]
+			title: "Blaze's New Job"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B90A1A66B750F76"]
+			id: "6A0A0001B3574AE8"
+			rewards: [
+				{
+					id: "68C408C1AB473E2C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23D244A6638B678E"
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Add a new enchantment to an unenchanted item using Blaze Enchanter"
+			tasks: [{
+				advancement: "create_enchantment_industry:first_order"
+				criterion: ""
+				id: "2CF8AB9DC61FC6B6"
+				type: "advancement"
+			}]
+			title: "First Order"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "58D007AD390CBCBB"
+			rewards: [
+				{
+					id: "37BDA591A61E3D0D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35EBD97BE6FFEEB2"
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "When Used, Redeems Experience points contained within."
+			tasks: [{
+				id: "58EAC6D3BBB8D1D2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "4613F6388966DB43"
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "Welcome to Create Enchantment Industry, a mod offering more tools and methods to handle experience and enchantment in Create."
+			tasks: [{
+				id: "350189CB8DA1651C"
+				type: "checkmark"
+			}]
+			title: "Enchantment Industry"
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	title: " &eEnchantment Industry"
+}

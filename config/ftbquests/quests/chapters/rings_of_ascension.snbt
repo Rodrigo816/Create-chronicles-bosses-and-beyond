@@ -6,7 +6,7 @@
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: "ringsofascension:ring_slow_falling"
-	id: "000000000000031C"
+	id: "1773A53BB0698605"
 	images: [
 		{
 			click: ""
@@ -173,7 +173,7 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grows nearby crops faster when equipped."]
-			id: "00000000000003AB"
+			id: "0D7D9CF1F00A8963"
 			rewards: [
 				{
 					id: "26821BD139D0B7F3"
@@ -189,7 +189,7 @@
 			size: 1.0d
 			subtitle: "Find a Ring of Growth."
 			tasks: [{
-				id: "00000000000003AC"
+				id: "2F4537A419E399B8"
 				item: "ringsofascension:ring_growth"
 				type: "item"
 			}]
@@ -243,7 +243,7 @@
 			size: 1.0d
 			subtitle: "Find a Ring of Water Breathing."
 			tasks: [{
-				id: "00000000000003B2"
+				id: "651500C07A361B38"
 				item: "ringsofascension:ring_water_breathing"
 				type: "item"
 			}]
@@ -271,7 +271,7 @@
 			size: 1.0d
 			subtitle: "Find a Wither Ring."
 			tasks: [{
-				id: "00000000000003B6"
+				id: "30B6B90D962C0080"
 				item: "ringsofascension:ring_wither"
 				type: "item"
 			}]
@@ -336,7 +336,7 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants Fire Resistance potion effect when equipped."]
-			id: "00000000000003BE"
+			id: "439298A36DF164C1"
 			rewards: [
 				{
 					id: "0020300BD9EF99B9"
@@ -363,7 +363,7 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Pull nearby xp orbs when equipped."]
-			id: "00000000000003C1"
+			id: "61EC8066F1112546"
 			rewards: [
 				{
 					id: "105AA2A3A8E7FD25"
@@ -379,7 +379,7 @@
 			size: 1.0d
 			subtitle: "Find a Ring of Experience."
 			tasks: [{
-				id: "00000000000003C2"
+				id: "35A530205B4C933C"
 				item: "ringsofascension:ring_experience"
 				type: "item"
 			}]
@@ -390,7 +390,7 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Removes all nearby water blocks around the player when equipped."]
-			id: "00000000000003C4"
+			id: "2CA01FDC40580A8D"
 			rewards: [
 				{
 					id: "3161B782D5915B45"
@@ -406,7 +406,7 @@
 			size: 1.0d
 			subtitle: "Find a Ring of Sponge."
 			tasks: [{
-				id: "00000000000003C5"
+				id: "60F0891CAF7F089D"
 				item: "ringsofascension:ring_sponge"
 				type: "item"
 			}]
@@ -417,7 +417,7 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Haste potion effect when equipped."]
-			id: "00000000000003C7"
+			id: "204E9178AF8E4216"
 			rewards: [
 				{
 					id: "0BF341DD10476F47"
@@ -444,7 +444,7 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants five extra hearts when equipped."]
-			id: "00000000000003CA"
+			id: "355971C802A91482"
 			rewards: [
 				{
 					id: "56EA55F689ADA2F7"
@@ -487,7 +487,7 @@
 			size: 1.0d
 			subtitle: "Find a Ring of Slowness Resistance."
 			tasks: [{
-				id: "00000000000003CE"
+				id: "46DEF1DFEF319CC7"
 				item: "ringsofascension:ring_slow_resistance"
 				type: "item"
 			}]
@@ -498,7 +498,7 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Jump Boost potion effect when equipped."]
-			id: "00000000000003D0"
+			id: "2A04A6B7B6F75264"
 			rewards: [
 				{
 					id: "03F6A49BC06FF04D"
@@ -541,7 +541,7 @@
 			size: 1.0d
 			subtitle: "Find a Ring of Luck."
 			tasks: [{
-				id: "00000000000003D3"
+				id: "2C5F7A95815D690A"
 				item: "ringsofascension:ring_luck"
 				type: "item"
 			}]
@@ -552,7 +552,7 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Speed potion effect when equipped."]
-			id: "00000000000003D6"
+			id: "7942E76F14C8FF79"
 			rewards: [
 				{
 					id: "4E6AA0F67D3B13DD"
@@ -568,7 +568,7 @@
 			size: 1.0d
 			subtitle: "Find a Ring of Speed."
 			tasks: [{
-				id: "00000000000003D7"
+				id: "5E9AA25959DC8321"
 				item: "ringsofascension:ring_speed"
 				type: "item"
 			}]
@@ -605,7 +605,6 @@
 		}
 		{
 			dependencies: [
-				"00000000000003C1"
 				"00000000000003A3"
 				"00000000000003C4"
 				"00000000000003A5"

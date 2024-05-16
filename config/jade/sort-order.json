@@ -76,6 +76,7 @@
   "create:filter": null,
   "create:goggles": null,
   "gravestone:grave": null,
+  "corpse:corpse": null,
   "lootr:info": null,
   "lootr:inventory": null,
   "create:blaze_burner": null,
