@@ -1332,14 +1332,6 @@
 			"Is Blacklist" = false
 			Dimensions = ["minecraft:overworld"]
 
-	[world.glimmering_weald]
-		#Experimental, dont change if you dont know what you are doing. Depth min value from which biome will spawn. Decreasing will make biome appear more often
-		#Allowed values: [-2,2]
-		"Min Depth Range" = 1.5499999523162842
-		#Experimental, dont change if you dont know what you are doing. Depth max value until which biome will spawn. Increasing will make biome appear more often
-		#Allowed values: [-2,2]
-		"Max Weirdness Range" = 2.0
-
 [mobs]
 	Crabs = true
 	Forgotten = true
