@@ -1,6 +1,14 @@
 
 ServerEvents.recipes(event => { 
 
+
+  event.remove({mod: 'tombstone'});
+    // Remove all brewing recipes from the specified mod
+  event.remove({type: 'minecraft:brewing', mod: 'tombstone'});
+  
+    // You might need to remove other types of recipes, so check the mod's recipe types
+    // For example, removing smelting recipes
+  event.remove({type: 'minecraft:smelting', mod: 'tombstone'});
     
   event.replaceInput({}, 'epic_samurai:silver_ore', 'iceandfire:silver_ore');
 

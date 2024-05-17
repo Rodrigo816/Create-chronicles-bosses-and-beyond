@@ -25,6 +25,7 @@ config/jei
 /mods/BetterTags*
 /config/bettertags*
 /.mixin.out
+/screenshots/
 
 
 # files
