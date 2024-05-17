@@ -416,11 +416,8 @@
 		#How much more experience (percentage, 36 means +3600%) will Dragon drop at max Difficulty.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Experience" = 36.0
-		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg ìì will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
+		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
 		"Dragon Egg per Player" = true
-		#If true default mod drops are added to the Ender Dragon.
-		#Note that replacing the Ender Dragon loot table (e.g. via DataPack) will automatically remove the Injected loot.
-		"Inject Default Loot" = true
 
 	#Bonus Health and Bonus regeneration.
 	["Ender Dragon".Health]
