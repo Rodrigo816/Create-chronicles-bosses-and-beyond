@@ -77,6 +77,7 @@
 				"46E5565D623C0AC8"
 			]
 			dependency_requirement: "one_started"
+			description: ["When the Casting Spout fills the Mold in the Casting Basin, it takes a few seconds to generate an Ingot/Block."]
 			id: "60A94E3337A26181"
 			rewards: [
 				{
@@ -141,6 +142,19 @@
 				"41F2204F3859C40E"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"&6The Coke Oven&r is a multi block machine. "
+				""
+				"You need a total of 9&e Coke Oven blocks&r to build it. Make sure to use the pounder function (pressing W) to see how to build."
+				""
+				"When you place all the 9 blocks, you need to right click with a Wrench on the Width of the machine to assemble it. Make sure you click on the right width side of the machine. You’ll know when you have assembled it as the texture will change."
+				""
+				"You’ll also need Pipes, Mechanical Pumps, Tanks and an Exhaust for the machine to work."
+				""
+				"The &7Coal Coke&r takes some time to come out of the machine, it’s slow and it comes out automatically. "
+				""
+				"Don’t use a Funnel to try to extract it, that will only take out the Coal fuelling the machine. Just wait and the Machine will spit the Coal Coke by itself."
+			]
 			id: "3786CEBDF1D138A3"
 			progression_mode: "flexible"
 			rewards: [
@@ -156,7 +170,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "build a coke oven"
 			tasks: [{
 				count: 9L
 				id: "2A266B65EE1395FE"
@@ -207,6 +220,7 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
+			description: ["Check the Renewable Ores chapter to see a renewable way to have Crushed Raw Iron."]
 			hide: true
 			hide_dependency_lines: true
 			id: "6AD87BACD480D27B"
@@ -278,6 +292,13 @@
 		{
 			dependencies: ["3786CEBDF1D138A3"]
 			dependency_requirement: "one_completed"
+			description: [
+				"&nThe Coke Oven generates a lot of Creosote&r, more than you might actually need. "
+				""
+				"To combat this, you can use a &cFlarestack to burn the excess of Creosote&r or you can use the Creosote to fuel a&e Low Grade Fuel Engine&r to generate Rotational Power.  "
+				""
+				"You need a redstone signal to start the engine, you can use a Lever to start the engine or use an Analog Lever to start and decide how fast/slow the rotational power goes. "
+			]
 			id: "4529E314F97ED3FA"
 			rewards: [{
 				id: "70B4FE9276461339"
@@ -345,6 +366,12 @@
 			dependencies: [
 				"5429EC5DB7D8429C"
 				"239718D740BF77C5"
+				"2E9E011F51858EF2"
+			]
+			description: [
+				"&6The Blast Furnace&r is a multi block machine. Make sure to use the pounder function (pressing W) to see how to build the Blast Furnace."
+				""
+				"&6Tip:&r You will generate two types of liquids, Molten Slag and Molten Steel. An easy way to separate them is by using just one Smart Pipe and a List Filter. Using JEI (Just Enough Items) search function, you can drag an item, for example the Molden Steel Bucket into the List Filter and then place the List Filter in the Smart Pipe Filter. This way you can separate both liquids without needing to actually have them first"
 			]
 			id: "0AB740B18E5FA805"
 			rewards: [{
@@ -436,6 +463,26 @@
 			dependencies: [
 				"3E42FEEFBC22F7D3"
 				"7682212B86FC5B85"
+			]
+			description: [
+				"To make Bauxite you must use &a5 Mechanical Crafters&r. There’s various ways you can do this such as using a Mechanical Arm to place the items in their correct slots. "
+				""
+				"Or follow the instructions below to make a continuous automated way without having a Mechanical Arm or two having to place the items."
+				""
+				""
+				"Use 9 Mechanical Crafters, making a 9 Slot craft and place on each corner a Crafter Slot Cover. See figure below:"
+				""
+				"{image:kubejs:textures/crafter_fig_1.png width:100 height:100 align:1}"
+				""
+				"Now go to the back of the Mechanical Crafters, with the Wrench in hand, right click on the  touching edges of the crafters to merge them. Do so making a square O shape, leaving the center crafter by itself. See figure below:"
+				""
+				""
+				"{image:kubejs:textures/crafter_fig_2.png width:100 height:100 align:1}"
+				""
+				"Now with 2 Andesite Funnels, you place one in the middle Mechanical Crafter and the other in one of the other Mechanical Crafters. You input the Red Sand into the middle Andesite Funnel and the Cinder Flour into the other Andesite Funnel to which will automatically fill the 4 slots. See figure below:"
+				""
+				""
+				"{image:kubejs:textures/crafter_fig_3.png width:100 height:100 align:1}"
 			]
 			id: "3AB3B4308FA14C9E"
 			rewards: [{
@@ -599,6 +646,7 @@
 		}
 		{
 			dependencies: ["409394CEF9087E88"]
+			description: ["You can also automate this with &n&cnetherack&r&r if you prefer."]
 			id: "3E42FEEFBC22F7D3"
 			rewards: [{
 				id: "6C1DC825E5C0019A"
@@ -673,6 +721,7 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
+			description: ["Although it shows a Honey Bottle, you need to actually use a Honey Bucket. "]
 			hide: true
 			hide_dependency_lines: true
 			id: "184B9A5F983FA7A5"
@@ -714,6 +763,14 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["69D628450626D8D5"]
+			description: [
+				"&6Advanced Wireless Terminals&r are much more useful than basic ones. "
+				""
+				"Bind a Terminal by shift-right-clicking, and as long as you're within 64 blocks and the terminal is loaded, you can access it!"
+				""
+				"&7If you are a veteran, beacon features are &ndisabled&r.&r"
+			]
 			id: "78EC21BDD6AD2300"
 			rewards: [{
 				count: 9
@@ -721,15 +778,29 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
-			shape: "square"
-			subtitle: "Advanced Wireless Terminals are much more useful than basic ones. Bind a Terminal by shift-right-clicking, and as long as you're within 64 blocks and the terminal is loaded, you can access it!"
 			tasks: [{
 				id: "06457036896EEED1"
 				item: "toms_storage:ts.adv_wireless_terminal"
 				type: "item"
 			}]
 			x: 3.0d
-			y: 13.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			description: [
+				"&cFireclay Ball&r comes from a block called &cFireclay&r. "
+				""
+				"Grab your mighty pickaxe and go do some digging! Or build a Drill Machine that works too. You’ll find the Fireclay Block in caves and such in the Overworld."
+			]
+			id: "2E9E011F51858EF2"
+			tasks: [{
+				id: "0E8742FAA0118213"
+				item: "tfmg:fireclay_ball"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
 		}
 	]
 	title: "Chapter V: Steel Mechanism"

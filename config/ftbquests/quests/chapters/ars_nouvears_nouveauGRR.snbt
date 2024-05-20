@@ -122,6 +122,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["04D09899362AFC7A"]
 			description: [
 				"Welcome to &aArs Nouveau&f!"
 				""
@@ -139,6 +140,7 @@
 				""
 				"Some default recipes have changed."
 			]
+			hide: true
 			id: "6E0E13806F388D7E"
 			rewards: [{
 				id: "24AA489F2E015748"

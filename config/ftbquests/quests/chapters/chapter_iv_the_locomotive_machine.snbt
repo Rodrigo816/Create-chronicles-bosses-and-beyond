@@ -11,20 +11,34 @@
 		}
 	}
 	id: "0AF8EE64D6B4516C"
-	images: [{
-		alpha: 200
-		click: ""
-		color: 16672790
-		corner: false
-		dev: false
-		height: 1.2d
-		hover: [ ]
-		image: "chalk:block/mark/arrow"
-		rotation: 180.0d
-		width: 1.2d
-		x: 3.0d
-		y: -20.5d
-	}]
+	images: [
+		{
+			alpha: 200
+			click: ""
+			color: 16672790
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: 3.0d
+			y: -20.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/energy_input"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -8.5d
+		}
+	]
 	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -80,28 +94,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"5C00CCFC83CCE7A4"
-				"784EF4A65242E3FD"
-				"1325CB313B08AB70"
-				"4B91CC0919FE9219"
-			]
-			dependency_requirement: "one_completed"
-			id: "254636A47FC0F2FC"
-			rewards: [{
-				id: "52675BF23D852759"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3070A5BE48E5E14D"
-				item: "tfmg:liquid_concrete_bucket"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -13.0d
-		}
-		{
 			dependencies: ["6F2EA0844769A10A"]
 			hide: true
 			hide_dependency_lines: true
@@ -117,7 +109,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -15.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
@@ -135,7 +127,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -15.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
@@ -153,7 +145,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -15.0d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -173,7 +165,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -15.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["08B00F4FFF4BA13F"]
@@ -189,7 +181,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -17.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
@@ -208,7 +200,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -17.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
@@ -227,7 +219,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -20.5d
+			y: -19.5d
 		}
 		{
 			dependencies: [
@@ -248,7 +240,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -19.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
@@ -296,6 +288,7 @@
 				"6B0D61030092824D"
 				"58DD96B724C875FE"
 				"0AF71B3EB3531CAC"
+				"5D27AE49D1AB4C11"
 			]
 			description: [
 				"Training a Data Model can be done in one of two ways, with a &4Deep Learner&r or with a &6Simulation Chamber&r. "
@@ -314,6 +307,7 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
+			subtitle: "It requires enery to run."
 			tasks: [{
 				id: "5E181D8952DDF478"
 				item: "hostilenetworks:sim_chamber"
@@ -332,9 +326,9 @@
 				""
 				"The fundamental unit of this mod is the &dData Model&r - an item which holds information about an entity that you can utilize to generate their drops. "
 				""
-				"To get a Data Model, you must first craft a &6Data Model Framework&r, and use it on the target entity to build the model. "
+				"To get a Data Model, you must first craft a &6Data Model Framework&r, to start collecting data on a specific mob, &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the&6 Data Model&r of the mob you clicked on."
 				""
-				"Once you have your model, you will have to train it."
+				"To \"gather data\" for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory."
 			]
 			id: "6B0D61030092824D"
 			rewards: [{
@@ -355,7 +349,7 @@
 				"5E60FF6098CB030B"
 				"3DFF1B74E8AADB57"
 			]
-			description: [""]
+			description: ["Please visit chapter &aCreate 101 - Guidebook&r to learn how to build trains."]
 			hide: true
 			id: "143E325CFBC9FAC9"
 			rewards: [
@@ -530,7 +524,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -20.5d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
@@ -552,8 +546,11 @@
 		}
 		{
 			dependencies: [
-				"254636A47FC0F2FC"
 				"0FA7629CCE64385C"
+				"5C00CCFC83CCE7A4"
+				"784EF4A65242E3FD"
+				"1325CB313B08AB70"
+				"4B91CC0919FE9219"
 			]
 			description: [
 				"After creating the Liquid Concrete, use a Mechanical Pump and Pipe to inject the Liquid Concrete into the Formwork Block. After the Formwork Block is full, wait a few seconds for the Liquid Concrete to turn into Concrete. When that happens, the Formwork Block will break and you’ll have to place a new one. "
@@ -596,9 +593,13 @@
 		{
 			dependencies: ["6F2EA0844769A10A"]
 			description: [
-				"&6The deep learner&r allows you to store a few data models within, and kills you receive will begin to train the model. "
+				"The &6Deep Learner&r is one of the core components of HNN."
 				""
-				"You can equip in curious or have in inventory it will work."
+				"With this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs."
+				""
+				"Each Learner can hold 4 Data Models, and as long as you have the Learner anywhere in your inventory, it will collect data for the models placed inside!"
+				""
+				"Note: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners."
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -613,8 +614,8 @@
 				item: "hostilenetworks:deep_learner"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -8.5d
+			x: 4.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
@@ -639,6 +640,58 @@
 			]
 			x: 2.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: ["&6The Alternator&r turns rotational power (Needs at least 32rpm) into energy power. The RPM determines how much energy power is generated."]
+			hide: true
+			hide_dependency_lines: true
+			id: "3BC42BD7940D32EC"
+			tasks: [{
+				id: "132101A9D1B0DF68"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3BC42BD7940D32EC"]
+			description: [
+				"There are 3 types of Connectors, the Small Connector, Small Connector With Light and Large Connector. "
+				""
+				"The difference between the Small Connectors and the Large Connectors is the amount of energy they can output/input and how many can be connected to a single one."
+				""
+				"Use a &nWrench to cycle between Push/Pull and None modes.&r"
+			]
+			id: "7D2CDB926DDBA8C4"
+			tasks: [{
+				id: "74F660B580789CAB"
+				item: "createaddition:connector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D2CDB926DDBA8C4"]
+			description: [
+				"With an &6Empty Spool&r you can turn it into 4 different types using their respective Wires: Copper Spool; Gold Spool; Electrum Spool and Copper Spool With Festive Lights."
+				""
+				"The difference between the Copper Spool and the Gold/Electrum Spool is the connectors they can connect to and the energy they transfer. "
+				""
+				"The Copper connects to Small Connectors while the Gold/Electrum connect to the Large connectors."
+				""
+				"When a Spool is fully used, it will turn into an Empty Spool again."
+			]
+			id: "5D27AE49D1AB4C11"
+			tasks: [{
+				id: "7E6FEF80B97D6254"
+				item: "createaddition:copper_spool"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
 		}
 	]
 	title: "Chapter IV: The Locomotive Machine"

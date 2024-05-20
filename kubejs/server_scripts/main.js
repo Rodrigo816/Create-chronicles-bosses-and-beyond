@@ -239,7 +239,7 @@ ServerEvents.recipes(event => {
         [MC('copper_block'), CR('copper_backtank')],
         [CRTM('sprinkler_head'), CRTM('sprinkler')],
         [MC('slime_block'), CRTM('sticky_launcher')],
-        [CRSA('copper_magnet'), CRSA('block_picker')],
+        //[CRSA('copper_magnet'), CRSA('block_picker')],
         [BS('pyrope_gem'), CRSA('copper_jetpack_chestplate')],
         [MC('emerald_block'), CRSA('copper_exoskeleton_chestplate')],
     ];
@@ -544,7 +544,17 @@ ServerEvents.recipes(event => {
     ]).transitionalItem(transitional)
       .loops(2)
       .id(TFMG('steel_mechanism'))
-    
+
+  //adv wireless terminal
+  event.recipes.createMechanicalCrafting('toms_storage:ts.adv_wireless_terminal', [
+    'A',
+    'B',
+    'C',
+  ], {
+    A: TFMG('steel_mechanism'),
+    B: 'toms_storage:ts.wireless_terminal',
+    C: MC('netherite_ingot'),
+  }) 
 
 
 

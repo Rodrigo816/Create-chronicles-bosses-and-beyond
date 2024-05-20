@@ -5,18 +5,32 @@
 	group: "1FA30C6751C69E7A"
 	icon: "forbidden_arcanus:enchanted_soul"
 	id: "34E8FF3196478229"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "forbidden_arcanus:item/corrupt_soul"
-		rotation: 0.0d
-		width: 1.0d
-		x: -15.5d
-		y: 5.25d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "forbidden_arcanus:item/corrupt_soul"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.5d
+			y: 5.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "forbidden_arcanus:block/clibano_combustion/soul_fire/clibano_center_front"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 1.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -513,7 +527,7 @@
 				{
 					id: "234F00EF412D61B2"
 					type: "xp"
-					xp: 100
+					xp: 1000
 				}
 			]
 			tasks: [
@@ -647,7 +661,7 @@
 				{
 					id: "332909BF099BE23B"
 					type: "xp"
-					xp: 100
+					xp: 1600
 				}
 			]
 			tasks: [
@@ -1213,12 +1227,44 @@
 		}
 		{
 			dependencies: ["0B68E3C046C82860"]
+			description: [
+				"&6The Clibano Core&r is a Smelter on Steroids sort of speaking. "
+				""
+				"You can smelt ores and transform them into blocks too. "
+				""
+				"For example, smelting iron ore, will create Iron Bricks which then will create Iron Blocks. "
+				""
+				"You use coal just like a normal smelter but you can use souls to make the smelting go faster."
+				""
+				""
+				"&nHere’s how you build it:&r"
+				""
+				"&61.&r On a 4 by 4 grid. You place 1 Polished Darkstone in each corner and then fill in between with Polished Darkstone Bricks. See the figure below: "
+				""
+				"{image:kubejs:textures/clibano01.png width:100 height:100 align:1}"
+				""
+				"&62.&r Place Polished Darkstone Bricks on top in a U shape, leaving the center empty and place a Clibano Core on the empty space at the middle edge. See the figure below:"
+				""
+				"{image:kubejs:textures/clibano02.png width:100 height:100 align:1}"
+				""
+				""
+				"&63.&r Do the same as the first step. Place 1 Polished Darkstone in each corner top and then fill in between with Polished Darkstone Bricks. See figure below:"
+				""
+				"{image:kubejs:textures/clibano03.png width:100 height:100 align:1}"
+				""
+				"&64.&r Now grab the Muldabitur Dust, place it on your hand and right click against the Clibano Core and it should transform into the Smelter. See figure below:"
+				""
+				""
+				"{image:kubejs:textures/clibano04.png width:100 height:100 align:1}"
+			]
 			id: "1DB562D431DB8D96"
 			rewards: [{
 				id: "0A78EB6B3A738B5C"
 				type: "xp"
 				xp: 150
 			}]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					id: "536D55312BA87FEC"
@@ -1238,7 +1284,7 @@
 					type: "item"
 				}
 			]
-			title: "Clibano Building"
+			title: "Clibano Core"
 			x: -1.5d
 			y: 3.0d
 		}
@@ -1407,6 +1453,12 @@
 				"7CF76A542529A181"
 			]
 			id: "4C6E398240F6CBC3"
+			rewards: [{
+				id: "65601D6F2FCEEA51"
+				item: "forbidden_arcanus:dark_rune"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "327E47C79C031A98"
 				item: "forbidden_arcanus:dark_rune"
@@ -1419,6 +1471,12 @@
 			dependencies: ["29164630E1BD76B5"]
 			description: ["Runic Stones can be found from the bottom of the world up to y level 2. When mined without Silk Touch they will drop a Rune. "]
 			id: "6DAF38A8CB994147"
+			rewards: [{
+				id: "2C1E5BAEE3FBE39F"
+				item: "forbidden_arcanus:rune"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A0DFF261FAC31DA"
 				item: "forbidden_arcanus:rune"
@@ -1484,6 +1542,11 @@
 		{
 			dependencies: ["0B68E3C046C82860"]
 			id: "757CD00365DF92DB"
+			rewards: [{
+				id: "78180C3C39A82718"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "152961092DFC9625"
 				item: {
@@ -1561,19 +1624,11 @@
 				"It's also really cool looking."
 			]
 			id: "1BF548B905270072"
-			rewards: [
-				{
-					id: "2C250F158E9A891A"
-					item: "lootbundles:loot_bundle"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "10D2D7ECBB793248"
-					item: "chancecubes:chance_cube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2A1A0F259A470E88"
+				type: "xp"
+				xp: 50
+			}]
 			subtitle: "Armor of the Dead"
 			tasks: [
 				{
@@ -1628,19 +1683,11 @@
 		{
 			dependencies: ["29164630E1BD76B5"]
 			id: "6A1F23EFB8B7FA39"
-			rewards: [
-				{
-					id: "1359D2FF945F880F"
-					item: "lootbundles:loot_bundle"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "349434C16418948C"
-					item: "chancecubes:chance_cube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0727C300790B6D00"
+				type: "xp"
+				xp: 50
+			}]
 			subtitle: "Leaves an AoE Cloud that damages living mobs"
 			tasks: [{
 				id: "0712BC011A2533D5"
@@ -1653,19 +1700,11 @@
 		{
 			dependencies: ["29164630E1BD76B5"]
 			id: "5C7F19F06C8DCA46"
-			rewards: [
-				{
-					id: "45D6FD993A38FBE7"
-					item: "lootbundles:loot_bundle"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "4EF9857372E7B128"
-					item: "chancecubes:chance_cube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2701E7F25689A74D"
+				type: "xp"
+				xp: 50
+			}]
 			subtitle: "Arrow Go Boom"
 			tasks: [{
 				id: "043B43DFD70EC504"
@@ -1678,19 +1717,11 @@
 		{
 			dependencies: ["29164630E1BD76B5"]
 			id: "2C70DFC00B22791E"
-			rewards: [
-				{
-					id: "149014B13193CB05"
-					item: "lootbundles:loot_bundle"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "12CDEF2110B59B59"
-					item: "chancecubes:chance_cube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5554BAF1EC771343"
+				type: "xp"
+				xp: 50
+			}]
 			subtitle: "Can Infect Villagers and Horses"
 			tasks: [{
 				id: "5D4A9D2C147CDDE6"
@@ -1708,19 +1739,11 @@
 				"When used, it grants 5 minutes of creative flight."
 			]
 			id: "30D1DBAF41F7D96A"
-			rewards: [
-				{
-					id: "6357119114B34A4C"
-					item: "lootbundles:loot_bundle"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "48F2F5AE00BBE187"
-					item: "chancecubes:chance_cube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "68AE4385F94E2521"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "2B50F2B83CDFA12C"
 				item: "forbidden_arcanus:orb_of_temporary_flight"

@@ -51,6 +51,7 @@ ServerEvents.recipes(event => {
         CR('sequenced_assembly/precision_mechanism'),
         CRDD('sequenced_assembly/inductive_mechanism'),
         CRDD('sequenced_assembly/logistic_mechanism'),
+        CRSA('block_picker'),
 
         // Locomotive
         'alexscaves:metal_rebar',
@@ -66,6 +67,7 @@ ServerEvents.recipes(event => {
 
         // Oil
         TFMG('sequenced_assembly/aluminum_ingot'),
+        'toms_storage:adv_wireless_terminal',
         // Soul Sand Procesing
         CR('haunting/soul_sand'),
         ARS('conjuration_essence_to_soul_sand'),

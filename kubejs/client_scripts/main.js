@@ -16,6 +16,8 @@ JEIEvents.hideItems(event => {
   event.hide('simplyswords:contained_remnant')
   event.hide('simplyswords:tampered_remnant')
 
+  event.hide('create_sa:block_picker')
+
   event.hide('ae2:charger')
   event.hide('ae2:meteorite_compass')
 

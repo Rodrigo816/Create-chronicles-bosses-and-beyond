@@ -1,11 +1,8 @@
 {
 	chapter_groups: [
-		{ id: "09F7A83E053E2E34", title: "Create 101" }
-		{ id: "4546D7737CBFFD68", title: "Others" }
 		{ id: "5237AEA7260D740E", title: "&eProgression" }
 		{ id: "1FA30C6751C69E7A", title: "Magic" }
 		{ id: "53374CFE946B8348", title: "Collectibles" }
 		{ id: "13742BAAC673A80E", title: "Dimensions" }
-		{ id: "75F42DD0EFC42B58", title: "astral stuff" }
 	]
 }

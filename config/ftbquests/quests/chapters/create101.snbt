@@ -1023,6 +1023,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
 			description: [
 				"&6&lWelcome to Create!"
 				""
@@ -1050,7 +1051,13 @@
 				""
 				"-> &6Contraptions:&r Contraptions are builds that can move, either rotationally with Bearings, linearly with Pistons or Gantries, or on rails with Minecarts or Trains. Many appliances are automatically powered when moving on a Contraption."
 			]
+			hide: true
 			id: "57A7A5C79389A96A"
+			rewards: [{
+				id: "3EF952CA2026DC73"
+				item: "createaddition:chocolate_cake"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -1067,7 +1074,7 @@
 			description: ["This will be the main ingredient for most of this mod's items and blocks."]
 			id: "0F16498769DFB3B0"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "50217BC8953EBD3E"
 				item: "minecraft:andesite"
 				type: "item"
@@ -1075,7 +1082,7 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				count: 32L
+				count: 8L
 				id: "5D2B9139C49F5ABA"
 				item: "create:andesite_alloy"
 				type: "item"
@@ -1154,7 +1161,11 @@
 		}
 		{
 			dependencies: ["4F95F00ED78FBAB9"]
-			description: ["The &n&6Speedometer&r&r will show you the speed of the currently connected gear."]
+			description: [
+				"The &n&6Speedometer&r&r shows you the current speed of the attached components. "
+				""
+				"You can use a Redstone Comparator next to the Speedometer to send Redstone signal relative to the Speedometer measurements. "
+			]
 			id: "29917E6196649F5D"
 			rewards: [{
 				count: 5
@@ -1303,6 +1314,11 @@
 			dependencies: ["79C542CA156AB01E"]
 			description: ["&n&6Super Glue&r can be used to attach blocks to each other to move them with pistons or other means."]
 			id: "1F58AA51814C7568"
+			rewards: [{
+				id: "0E2F2593DBDC06FF"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.25d
 			tasks: [{
@@ -1321,13 +1337,16 @@
 		}
 		{
 			dependencies: ["141586825046EA86"]
-			description: ["Please follow &6Chapter I: The Foundation of Machines&r to learn how to craft the rotation mechanism."]
+			description: [
+				"Please follow &6Chapter I: The Foundation of Machines&r to learn how to craft the rotation mechanism."
+				""
+				"&nThese can also be found in village chests.&r"
+			]
 			id: "4E2362A17A68A962"
 			rewards: [{
-				count: 4
 				id: "550DAC417DA6D4E3"
 				item: "kubejs:rotation_mechanism"
-				random_bonus: 6
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "gear"
@@ -1474,12 +1493,20 @@
 				"Make an Empty Chunk Loader and right-click a Ghast to capture it. "
 			]
 			id: "3BE8E697BB54AC03"
-			rewards: [{
-				count: 5
-				id: "1648ED0665EE97DA"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "27AF46A97316FEDC"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4027F4EA7B98CCC8"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "190B17ED82458E7E"
@@ -1499,8 +1526,9 @@
 			]
 			id: "23ED40EF86DD56B9"
 			rewards: [{
-				id: "2BCF57B06E86353A"
-				item: "create:redstone_contact"
+				count: 3
+				id: "15ACC02E905B5DC6"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1517,8 +1545,9 @@
 			description: ["A redstone component that toggles on when recieving a redstone signal on one side and off when recieviing a signal on anoter side."]
 			id: "08C56563442FE079"
 			rewards: [{
-				id: "091B94A02D8291D4"
-				item: "create:powered_latch"
+				count: 3
+				id: "4E6F37C9483BA08A"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1535,8 +1564,9 @@
 			description: ["A redstone component that toggles its state with every redstone pulse."]
 			id: "59AE879BA13AD91D"
 			rewards: [{
-				id: "06B1A87C6D95709A"
-				item: "create:powered_toggle_latch"
+				count: 3
+				id: "7504A7E64760BED4"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1550,11 +1580,18 @@
 		}
 		{
 			dependencies: ["0CED2AC028189316"]
-			description: ["A block that can look for specific items in the world or in inventories."]
+			description: [
+				"A block that can be used to detect a variety of events such as detecting items and fluid inside a container, passing through belts, chutes and pipes."
+				""
+				"You can use the filter slot to only detect a specific item/items or fluid inside a container or any of the other variables. Or you can also place the block matching the filter in front of the Smart Observer. "
+				""
+				"When it detects something it sends a redstone signal. If you place it next to a Funnel, it will send a redstone signal when an item exits or enters the Funnel."
+			]
 			id: "31765D0D7F5E89E0"
 			rewards: [{
-				id: "04E3BD153561F612"
-				item: "create:content_observer"
+				count: 3
+				id: "217FA826289E660F"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1575,9 +1612,9 @@
 			]
 			id: "3CA8E3CDE5F8DAF7"
 			rewards: [{
-				id: "3C3AB40DA3AA2E2F"
-				item: "create:redstone_link"
-				random_bonus: 2
+				count: 3
+				id: "5479AE44980DD026"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1591,11 +1628,16 @@
 		}
 		{
 			dependencies: ["0CED2AC028189316"]
-			description: ["A block that can monitor the fill levels of inventories and tanks."]
+			description: [
+				"A block that can be used to monitor the fill level of inventories and tanks. "
+				""
+				"You can set a threshold to send redstone signal when the inventory/tank reaches a certain point be it low or high."
+			]
 			id: "449F04B9D2D2482B"
 			rewards: [{
-				id: "6374A9AC6DDC70CD"
-				item: "create:stockpile_switch"
+				count: 3
+				id: "799475793A88A9D1"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1612,9 +1654,9 @@
 			description: ["A redstone component that extends a pulse to a configurable amount."]
 			id: "13018D7AC52AF359"
 			rewards: [{
-				id: "17D4016C76657C79"
-				item: "create:pulse_extender"
-				random_bonus: 1
+				count: 3
+				id: "0AD50917DF195825"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1631,9 +1673,9 @@
 			description: ["A repeater that sends a pulse after a configurable amount of time."]
 			id: "5369A4AC170D1D7E"
 			rewards: [{
-				id: "156C0E56448AC7C9"
-				item: "create:pulse_repeater"
-				random_bonus: 1
+				count: 3
+				id: "420DA19A47EAE97F"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1647,15 +1689,12 @@
 		}
 		{
 			dependencies: ["0CED2AC028189316"]
-			description: [
-				"A &n&6lever&r&r that can be set to output any redstone level. "
-				""
-				"It's basically an upgraded version of the basic lever."
-			]
+			description: ["This lever functions like a precise output power of redstone. You can adjust how much redstone strength you wish to output. "]
 			id: "63E05F3657CF988C"
 			rewards: [{
-				id: "5EEAF1377CC23EEC"
-				item: "create:analog_lever"
+				count: 3
+				id: "6A6254F3E289A936"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1677,6 +1716,12 @@
 			]
 			icon: "minecraft:redstone"
 			id: "0CED2AC028189316"
+			rewards: [{
+				count: 3
+				id: "48557FF3BE4848DB"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1695,12 +1740,20 @@
 				"If it has a connected inventory, the items will be stored in it."
 			]
 			id: "139B0F6AB99231C6"
-			rewards: [{
-				id: "2946F3A17EF4F53F"
-				item: "create:mechanical_harvester"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "27982C1B84E41BE7"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6F95EA617F197901"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "61E53C460C52AA73"
@@ -1718,12 +1771,20 @@
 				"If it has a connected inventory, the items will be stored in it."
 			]
 			id: "3C4C4AAB5C69654A"
-			rewards: [{
-				id: "78B68B29C9DB932F"
-				item: "create:mechanical_plough"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "5DA6FD16E340A457"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "26E5765D52B947B5"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "41E1DB2AE3937970"
@@ -1741,12 +1802,20 @@
 				"They will break any block in front of them and store the items in a connected inventory."
 			]
 			id: "4527408738C2E90B"
-			rewards: [{
-				id: "010457AA2ED2E1F9"
-				item: "create:mechanical_drill"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "3ED05C4BF4FF088B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "57B6C96FAED5EEF9"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5E78C8F039EAE2DE"
@@ -1759,21 +1828,29 @@
 		{
 			dependencies: ["16DF65A27C527EC4"]
 			description: [
-				"&6The Saw&r&r can harvest trees and can also be used as a Sawmill. "
+				"&6The Saw&r&r can harvest trees and can also be used as a Sawmill."
 				""
-				"Connecting an inventory to it, like a chest with Glue or a Linear Chassis, will store the items directly into the chest."
+				"Connecting an inventory to it, like a chest with Glue or a Linear Chassis, will store the items directly into the chest when used as a contraption."
 				""
-				"When used as a Sawmill use the Filter slot to make sure you get the item you want. "
+				"When used as a Sawmill use the Filter slot to make sure you get the item you want."
 				""
 				"&o&cTip&r: Using JEI (Just Enough Items) search function, you can drag an item, for example Stripped Wood into the List Filter and then place the List Filter in the Sawmill Filter slot.&r"
 			]
 			id: "0C195F18E1D788F9"
-			rewards: [{
-				id: "2796A6107A4C5D64"
-				item: "create:mechanical_saw"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "15E73938F9B0DE5C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6F4715137ACD1F74"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "357575C17D7B214F"
@@ -1785,12 +1862,21 @@
 		}
 		{
 			dependencies: ["074604E13C7DC3A2"]
-			description: ["An upgrade to the andesite tunnel allowing that allows for filtering."]
+			description: [
+				"The &6Brass Tunnel&r is an upgraded version of the Andesite Tunnel. The Brass Tunnel has filter slots and some control options."
+				""
+				"Like the Andesite variant, if you place a belt connecting from its side, it will split items as well but you can use the filters slots to specify which item goes where. "
+				""
+				"Each filter slot is independent of each other so you can have one item go one way and the other go the other way. "
+				""
+				"You can also configure the distribution mode to make a 64x stack to be split into 32x stack."
+				""
+				"When placed in a row on parallel belts, the Brass Tunnels will form a group and incoming items can be distributed to your preferable configurations through the filters or distribution mod."
+			]
 			id: "718533DAD98B751E"
 			rewards: [{
 				id: "293D0A2D131EFEB8"
 				item: "create:brass_tunnel"
-				random_bonus: 1
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1807,16 +1893,15 @@
 		{
 			dependencies: ["3D0CCD96331F994E"]
 			description: [
-				"The &n&6Tunnels&r can be placed on belts and they will filter items that pass through them. "
+				"The &6Andesite Tunnel&r can be a great way to cover your belts. Whenever an Andesite Tunnel has a belt connecting from its side as well, it will split exactly 1 item off from a stack. "
+				""
 				""
 				"You can link multiple tunnels by placing them next to each other."
 			]
 			id: "074604E13C7DC3A2"
 			rewards: [{
-				count: 2
 				id: "0594DD46716F88F1"
 				item: "create:andesite_tunnel"
-				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1832,12 +1917,15 @@
 		}
 		{
 			dependencies: ["61E1F509FC788092"]
-			description: ["A more advanced funnel that allows for filtering and higher stack sizes."]
+			description: [
+				"A more advanced Funnel that allows for filtering items and to output a specific amount of items up to a full stack at a time."
+				""
+				"&dTip:&r &o&7You can use a Brass Funnel to output a 64x of bread and have a Andesite Funnel input the 64x Bread into a container.&r&r"
+			]
 			id: "756394031B1088DF"
 			rewards: [{
 				id: "7847CDB050D50F27"
 				item: "create:brass_funnel"
-				random_bonus: 1
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1854,18 +1942,21 @@
 		{
 			dependencies: ["3D0CCD96331F994E"]
 			description: [
-				"&n&6Andesite Funnels&r&r transfer items in and out of inventories one item at a time. "
+				"&n&6Andesite Funnels&r&r Outputs one item at a time from a container but it can input a full stack into a container."
 				""
-				"Toggle their direction with a Wrench after placement. "
+				"Use a Wrench to toggle the Funnel going from Output to Input. You have an arrow on the Funnel that indicates which way the items will go."
 				""
-				"They can drop items onto the ground, a belt, or a depot if placed on an inventory."
+				"Funnels can drop items onto the ground, belts, depot, chutes, other funnels, Tunnels or into Portable Storage Interface."
+				""
+				"You can use a redstone signal on a Funnel to stop it from letting items out or in."
+				""
+				"&dTip:&r&o &7You can use a Brass Funnel to output a 64x of bread and have a Andesite Funnel input the 64x Bread into a container.&r"
+				"&r"
 			]
 			id: "61E1F509FC788092"
 			rewards: [{
-				count: 2
 				id: "4945D73A8AEB8B6B"
 				item: "create:andesite_funnel"
-				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1881,7 +1972,15 @@
 		}
 		{
 			dependencies: ["5B36DE3826F26963"]
-			description: ["You can attach &6Belts&r to&b Shafts&r to connect them. They can be used to transfer items horizontally or diagonally with ease. You can also dye them by right-clicking!"]
+			description: [
+				"You can attach &6Belts&r to&b Shafts&r to connect them. They can be used to transfer items horizontally or diagonally with ease. "
+				""
+				"You can also dye them by right-clicking with a dye on the belts."
+				""
+				"The belts can be used to also transfer rotational power be it vertically,horizontally or diagonally. "
+				""
+				"They can even transfer rotation power to shafts in a vertical position with the belt in the horizontal position."
+			]
 			id: "3D0CCD96331F994E"
 			rewards: [{
 				count: 2
@@ -1975,9 +2074,9 @@
 			icon: "create:mechanical_crafter"
 			id: "3C6FD14B4798B294"
 			rewards: [{
-				id: "509FEAD12A2A0EB0"
-				item: "create:mechanical_crafter"
-				random_bonus: 2
+				count: 2
+				id: "5908A3F70AB27F58"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2005,12 +2104,20 @@
 				"To &esmoke&r items you need to put a campire infront of the fan"
 			]
 			id: "0E99CC805F88B787"
-			rewards: [{
-				id: "691A4BA5111B4524"
-				item: "create:encased_fan"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "4E2409D6610AA50C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "521CA7D80E46C0FB"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "059E6476E9246AB3"
@@ -2022,14 +2129,26 @@
 		}
 		{
 			dependencies: ["16DF65A27C527EC4"]
-			description: ["The &n&6Depot&r is used to store items, mainly for the Spout."]
+			description: [
+				"The &6depot&r serves as a stationary place for items. "
+				""
+				"It can be used to have an item go into a chest through a Funnel, have a Spout interact with the item on the depot or have a Mechanical Arm take or place an item of the Depot."
+			]
 			id: "13C42AC0880B379C"
-			rewards: [{
-				id: "1116F350F0409138"
-				item: "create:depot"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "24608FB0FCC2E386"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4D829277C255D8BF"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "47B081A080B908E2"
@@ -2049,11 +2168,20 @@
 				"You can adjust the weight of the ejector by finding the \"X\" on it. Hold right-click while looking at it, then use the scroll wheel to set the number of items you want the ejector to handle."
 			]
 			id: "4AD5F58D4CFEB2DF"
-			rewards: [{
-				id: "596EF8F1F6DAF45C"
-				item: "create:weighted_ejector"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "75262EE95B2C6B34"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "26567779447A8AF7"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "23B08A64465B3E3F"
@@ -2071,11 +2199,20 @@
 				"You can put a powered Fan under them to transfer them upwards."
 			]
 			id: "14E50EA7F97274A2"
-			rewards: [{
-				id: "2E3FB9179333F6BD"
-				item: "create:chute"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "0077FE20F520E926"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "30C838EF5B65DB2D"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "11D904C7CC0B5456"
@@ -2091,8 +2228,9 @@
 			description: ["The &n&6Smart Chute&r is the same as the Chute but with additional functionalities, such as stack size and filters."]
 			id: "4D9BE80EC1D1F792"
 			rewards: [{
-				id: "2F63CBF2D978B800"
-				item: "create:smart_chute"
+				count: 2
+				id: "68A729F96338E0D8"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2112,11 +2250,20 @@
 				"They can transfer items on or off moving Contraptions without stopping them, making them very useful for farms."
 			]
 			id: "64ABED7932C787DB"
-			rewards: [{
-				id: "21840DCE54E7DE13"
-				item: "create:portable_storage_interface"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "2FA031B4A8202870"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "09EDA1D7D39AEA99"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6DE0D0EE606595AE"
@@ -2135,8 +2282,9 @@
 			]
 			id: "2C777980DFC00673"
 			rewards: [{
-				id: "4914902229EE654F"
-				item: "create:portable_fluid_interface"
+				count: 2
+				id: "711A928D47561882"
+				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2174,9 +2322,13 @@
 		{
 			dependencies: ["7CDBC61474CC2C11"]
 			description: [
-				"&6Train Tracks&r transfer items on Trains and can be easily placed, even on hills. "
+				"&6Train tracks&r are a new type of rails designed specifically for Trains."
 				""
-				"They can also run through Nether Portals to transport items, fluids, and mobs between dimensions."
+				"The Train Tracks are what makes you able to place a Train station, a  bogey to build your train and so on."
+				""
+				"Train Tracks can interact with Nether Portals, making it possible to go with a Train into the Nether and transport items/lava through a Train Between the Nether and the Overworld."
+				""
+				"Unfortunately the Nether is the only dimension the Train Tracks interact with."
 			]
 			id: "66428F3633CBBC85"
 			rewards: [
@@ -2221,8 +2373,8 @@
 			]
 			id: "377D64FABCA6D4C0"
 			rewards: [{
-				id: "715A99757B65EC7A"
-				item: "create:controls"
+				id: "54025BB66C3BC4AA"
+				item: "create_dd:experience_ingot"
 				type: "item"
 			}]
 			tasks: [{
@@ -2238,9 +2390,8 @@
 			description: ["The &n&6Clutch&r will stop any rotation if a redstone signal is applied."]
 			id: "5AB5DF09F2F68283"
 			rewards: [{
-				id: "0A79EAF0195A318A"
-				item: "create:clutch"
-				random_bonus: 3
+				id: "290707DEEA3A26D5"
+				item: "create:andesite_casing"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2254,12 +2405,11 @@
 		}
 		{
 			dependencies: ["7A154BE7095012ED"]
-			description: ["The &n&6Chain Drive&r can be linked with others in any direction as long as they are touching. They will relay the rotation sideways."]
+			description: ["he &n&6Chain Drive&r can relay rotation to each other in a row. Any part of the row can be rotated 90 degrees to send rotation upwards or downwards."]
 			id: "063D0C4E3D5DC067"
 			rewards: [{
-				id: "384E052853CE00F6"
-				item: "create:encased_chain_drive"
-				random_bonus: 3
+				id: "74BD53115D4BA077"
+				item: "create:andesite_casing"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2274,17 +2424,16 @@
 		{
 			dependencies: ["063D0C4E3D5DC067"]
 			description: [
-				"The &n&6Adjustable Chain Drive&r works similar to the normal Chain Drive when it has no redstone signal."
+				"he &n&6Adjustable Chain Drive&r works similar to the normal Chain Drive when it has no redstone signal."
 				""
 				"When you apply a redstone signal and it is the block receiving the rotational force, it will double the speed for the connected Chain Drives."
 				""
-				"When you apply a redstone signal and it is not the block receiving the rotational force, it will half the speed for the connected Chain Drives."
+				"When it isn’t the block receiving the rotational force and you apply a redstone signal, it will halfen the speed for the Adjustable Chain Gearshift only. "
 			]
 			id: "34AF9F62C1D9F9EE"
 			rewards: [{
-				id: "3A4559CDF51446A5"
-				item: "create:adjustable_chain_gearshift"
-				random_bonus: 3
+				id: "26166B292C149E3C"
+				item: "create:andesite_casing"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2301,9 +2450,8 @@
 			description: ["The &n&6Gearshift&r will reverse the direction of rotation if a redstone signal is applied."]
 			id: "0317829B7FB5EEC2"
 			rewards: [{
-				id: "434AF7F604C31226"
-				item: "create:gearshift"
-				random_bonus: 3
+				id: "40961031DA6EE10F"
+				item: "create:andesite_casing"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -2320,9 +2468,8 @@
 			description: ["The &n&6Sequence Gearshift&r&r allows you to set up a sequence of rotations that are executed when the block receives a redstone signal."]
 			id: "6C63B932DB2BC31D"
 			rewards: [{
-				id: "3A72AC2B9DB311F7"
-				item: "create:sequenced_gearshift"
-				random_bonus: 3
+				id: "05D0BEEB3F0AA33B"
+				item: "create:andesite_casing"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2379,10 +2526,8 @@
 			icon: "create:gearbox"
 			id: "7A154BE7095012ED"
 			rewards: [{
-				count: 2
-				id: "10AD825DEE749EE8"
-				item: "create:gearbox"
-				random_bonus: 6
+				id: "42163522EBA864BF"
+				item: "create:andesite_casing"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2405,19 +2550,22 @@
 		}
 		{
 			dependencies: ["16DF65A27C527EC4"]
-			description: [
-				"A &n&6Mechanical Bearing&r&r rotates attached structures when supplied with Rotational Power. "
-				""
-				"It is essential for creating rotating contraptions like windmills. "
-				""
-				"Attach blocks to the bearing, and they will move as a single unit when the bearing is powered."
-			]
+			description: ["A &n&6Mechanical Bearing&r&r rotates attached structures when supplied with Rotational Power."]
 			id: "4AB9A1A1223DD0E4"
-			rewards: [{
-				id: "148B2734F3900F58"
-				item: "create:mechanical_bearing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "6BB41D6E852C7ACA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "455875F674C07561"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5F5A214F38350283"
@@ -2431,11 +2579,20 @@
 			dependencies: ["16DF65A27C527EC4"]
 			description: ["The &n&6Rope Pulley&r can move blocks up or down, they can be glued together."]
 			id: "505B5C5846D0E711"
-			rewards: [{
-				id: "61D084BEE0CE743C"
-				item: "create:rope_pulley"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "023781194B76A276"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "153A75F3C54B6D20"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "261F7AFA6B2A0D54"
@@ -2449,12 +2606,20 @@
 			dependencies: ["16DF65A27C527EC4"]
 			description: ["The &6millstone&r has the ability to crush many items"]
 			id: "6265FAB402D76D11"
-			rewards: [{
-				id: "122BCAB96AD5744E"
-				item: "create:millstone"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "3FFB55E017B145C0"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5723CA1C01A78880"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "4AE45DCEB8E4C539"
@@ -2467,26 +2632,21 @@
 		{
 			dependencies: ["16DF65A27C527EC4"]
 			description: [
-				"&6Gantries&r move contraptions linearly, either horizontally or vertically, and can be chained together for multi-axis movement. "
+				"&6Gantries&r move contraptions linearly, either horizontally or vertically, and can be chained together for multi-axis movement."
 				""
 				"&6The Gantry Carriage&r attaches to &eGantry Shafts&r, and when the shaft rotates, it moves the carriage along it."
+				""
+				"If the Gantry Shaft receives redstone signal it will stop the Gantry Carriage from moving and will relay rotational power to the Gantry Carriage output shaft."
 			]
 			icon: "create:gantry_carriage"
 			id: "027C0D2BEA2286B4"
-			rewards: [
-				{
-					id: "551FF3C825A52B86"
-					item: "create:gantry_carriage"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "6F9ADD5953B34754"
-					item: "create:gantry_shaft"
-					random_bonus: 8
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "6F9ADD5953B34754"
+				item: "create:gantry_shaft"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2512,8 +2672,9 @@
 			]
 			id: "547B1BC592ABCBA9"
 			rewards: [{
-				id: "7ABB79DA5BFE33A6"
-				item: "create:crushing_wheel"
+				count: 2
+				id: "7B018907BA10E7F3"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2530,15 +2691,17 @@
 		{
 			dependencies: ["0427B74E71A4115C"]
 			description: [
-				"&6&nDisplay Links&r&r let you update text on text displays automatically. "
+				"&6&nDisplay Links&r&r let you update text on text displays automatically."
 				""
 				"Right-click the target text display (Signs, Display Boards), then attach it to the block to read from."
+				""
+				"It can also interact with Nixie Tubes to display time if attached to a Cuckoo Clock."
 			]
 			id: "2C0E9B0A0453CF9A"
 			rewards: [{
-				id: "36CE190E89C59BDC"
-				item: "create:display_link"
-				random_bonus: 1
+				count: 2
+				id: "392BDAEA73944E2A"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2560,9 +2723,8 @@
 			id: "402A9561ACFC2198"
 			rewards: [{
 				count: 2
-				id: "3C11EF0FC433C29D"
-				item: "create:display_board"
-				random_bonus: 2
+				id: "7FF5173F253F1024"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2581,9 +2743,9 @@
 			hide_dependency_lines: true
 			id: "4E948759E37C7057"
 			rewards: [{
-				id: "5D4A06AD5B1C69DE"
-				item: "create:nixie_tube"
-				random_bonus: 1
+				count: 2
+				id: "1A5BABF4001565C2"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2601,10 +2763,9 @@
 			description: ["&n&6Fluid Pipes&r&r transfer fluid through them. Right-click with a Wrench to add a window and watch the fluids move!"]
 			id: "753B48CB539ACA4E"
 			rewards: [{
-				count: 4
-				id: "52ACC9E101D4E085"
-				item: "create:fluid_pipe"
-				random_bonus: 6
+				count: 2
+				id: "63F5B05079AC17BA"
+				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2621,15 +2782,17 @@
 		{
 			dependencies: ["08847873D33F4388"]
 			description: [
-				"&6&nMechanical Pumps&r&r move fluid into pipes in a specific direction when powered. "
+				"&6&nMechanical Pumps&r&r move fluid into pipes in a specific direction when powered."
 				""
-				"Their pumping distance depends on their RPM. Use a Wrench to change the pump's direction."
+				"The Mechanical Pump can move liquid by 16 tubes away, it’s not affected by RPM/speed. Speeding the rotation of the Mechanical Pump does make the liquid move faster."
+				""
+				"Use a Wrench to change the pump's direction."
 			]
 			id: "7A7D302E0EFDC7CF"
 			rewards: [{
-				id: "7685116FECAB9B33"
-				item: "create:mechanical_pump"
-				random_bonus: 1
+				count: 2
+				id: "39A6C9499312C753"
+				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2646,8 +2809,9 @@
 			description: ["Allows filters"]
 			id: "5AF0D3168EB2AB4C"
 			rewards: [{
-				id: "7B2206C3ECC0BF87"
-				item: "create:smart_fluid_pipe"
+				count: 2
+				id: "059DE03775E4AFDF"
+				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2662,14 +2826,17 @@
 		{
 			dependencies: ["08847873D33F4388"]
 			description: [
-				"&6Fluid Valves&r control the flow of fluids through pipes. "
+				"&6Fluid Valves&r control the flow of fluids through pipes."
 				""
 				"Use a Copper Valve Handle to open or close the valve, regulating fluid movement as needed."
+				""
+				"You can also use rotational power to close or open the valve"
 			]
 			id: "5ACBA63440B75895"
 			rewards: [{
-				id: "26426F1FD3FF0720"
-				item: "create:fluid_valve"
+				count: 2
+				id: "5EEA2CE9EF5AA200"
+				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2690,9 +2857,9 @@
 			]
 			id: "3E837E5555C6B29F"
 			rewards: [{
-				id: "3000CD7C1F16661E"
-				item: "create:copper_valve_handle"
-				random_bonus: 1
+				count: 2
+				id: "15E0DF54D14866D7"
+				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2706,12 +2873,12 @@
 		}
 		{
 			dependencies: ["08847873D33F4388"]
-			description: ["The &n&6Spout&r is used to fill items with liquid. It is best to use a Depot under it to hold the items."]
+			description: ["The &n&6Spout&r is used to fill items with liquid or poured on certain items. It can be used with a &bdepot&r or a &bbelt&r."]
 			id: "50418F41EBF35C53"
 			rewards: [{
-				id: "3C454CDF61FDCA53"
-				item: "create:spout"
-				random_bonus: 1
+				count: 2
+				id: "6F57351D2C542825"
+				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2728,9 +2895,9 @@
 			description: ["The &6hose pulley&r has the ability to pull liquids from the world to be transported, if the source the pulley is pulling from is larger than 10,000 blocks then it classes it as an infinite source of liquid"]
 			id: "3AE96B65B211C2EF"
 			rewards: [{
-				count: 5
-				id: "2DE5F91A208BC345"
-				item: "create:experience_nugget"
+				count: 2
+				id: "48D343EF119C7487"
+				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2751,9 +2918,9 @@
 			]
 			id: "6D75E038AE21C2E5"
 			rewards: [{
-				id: "76566DE43BF4A505"
-				item: "create:fluid_tank"
-				random_bonus: 3
+				count: 2
+				id: "0EFD79BCFF96E669"
+				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2769,11 +2936,20 @@
 			dependencies: ["0E99CC805F88B787"]
 			description: ["&n&6Nozzles&r&r can be attached to the front of a Fan to distribute its effects in all directions."]
 			id: "47DCCE7116DEBDCA"
-			rewards: [{
-				id: "765DF1FAAA704F78"
-				item: "create:nozzle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "757250E4658E674A"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7469AF54E5BC9E1D"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "0166B78C5B1BFAAE"
@@ -2849,8 +3025,9 @@
 			]
 			id: "69DBFE8C98BEAA9C"
 			rewards: [{
-				id: "25200A0F121FCA07"
-				item: "create:rotation_speed_controller"
+				count: 2
+				id: "3195724AA62CE60E"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2867,8 +3044,9 @@
 			description: ["Lets you create your own custom functional clock."]
 			id: "53A9F583ED1CFC6E"
 			rewards: [{
-				id: "0ABBDB696F809881"
-				item: "create:clockwork_bearing"
+				count: 2
+				id: "4E52CD69C7BF4B0A"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2883,11 +3061,13 @@
 		{
 			dependencies: ["16DF65A27C527EC4"]
 			description: [
-				"The &n&6Cart Assembler&r can be placed on tracks. Anything you build on top of it will be picked up by a Minecart if the Assembler has a redstone signal."
+				"Place the Cart Assemble on rails. Anything you build on top of it will be picked up by a Minecart if the Assembler has a redstone signal, turning the assembled build into a contraption."
 				""
-				"The blocks must be glued together and any blocks requiring rotational force will automatically be working."
+				"The blocks must be glued together to be considered a contraption and any blocks requiring rotational force will automatically work."
 				""
-				"To \"unmount\" the blocks from the Minecart, simply turn off the redstone signal and let the Minecart ride through."
+				"Use a Wrench to right click on the contraption after assembled to take it with you."
+				""
+				"To \"unmount\" the contraption, place it back at the Cart Assembler and turn off the redstone signal."
 			]
 			id: "20692FCE89969E9F"
 			rewards: [{
@@ -2954,17 +3134,15 @@
 			id: "70441032159A90E6"
 			rewards: [
 				{
-					count: 2
 					id: "564B0829D20A9173"
 					item: "create:linear_chassis"
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
 				}
 				{
-					count: 2
 					id: "08B0F7CABAE1B6D9"
 					item: "create:radial_chassis"
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -3018,8 +3196,9 @@
 			]
 			id: "210AEB6F1963FA47"
 			rewards: [{
-				id: "6E5B9F5B99AE89A8"
-				item: "create:elevator_pulley"
+				count: 2
+				id: "0738418D0F0BE0DB"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3036,9 +3215,9 @@
 			description: ["&n&6Linked Controllers&r&r allow handheld wireless control over six different Redstone Links."]
 			id: "439F2B2537914CC9"
 			rewards: [{
-				id: "70E9DFAE9804B24E"
-				item: "create:brass_casing"
-				random_bonus: 3
+				count: 3
+				id: "28252EEB6D448C1E"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3054,9 +3233,9 @@
 			dependencies: ["0CED2AC028189316"]
 			id: "023BA6BDECF97CA1"
 			rewards: [{
-				id: "5DE7B0A70FC4FF86"
-				item: "create:rose_quartz_lamp"
-				random_bonus: 2
+				count: 3
+				id: "29725119DB080A7A"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3072,11 +3251,20 @@
 			dependencies: ["16DF65A27C527EC4"]
 			description: ["The &n&6Mixer&r can be used combined with the Basin to craft."]
 			id: "770A23791D7F7DB6"
-			rewards: [{
-				id: "280991658563CE05"
-				item: "create:mechanical_mixer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "66F1E203C9F302A1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B110F4D6989C817"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "7D15865397088635"
@@ -3094,11 +3282,20 @@
 				"It automates various tasks such as crafting Casings, Polishing, Waxing, and Sequenced Assemblies. Deployers can right- or left-click blocks or entities, allowing them to shear sheep, milk cow, place blocks and more!"
 			]
 			id: "1CBE2976A1FBF35D"
-			rewards: [{
-				id: "29E84776379FE961"
-				item: "create:deployer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "0C67DAA63DB4CE56"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22F406174F32D2F4"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5517407568991A3F"
@@ -3111,16 +3308,25 @@
 		{
 			dependencies: ["16DF65A27C527EC4"]
 			description: [
-				"The &n&6mechanical press&r&r is used for a lot of different things, like making sheets or some recipes using a basin"
+				"The &n&6mechanical press&r&r is used for a lot of different things, like making sheets or some recipes using a basin."
 				""
 				"The &6depot&r is used to hold items on one block"
 			]
 			id: "2A8D29FA07E42FE7"
-			rewards: [{
-				id: "11B92835D07CB93F"
-				item: "create:mechanical_press"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "4F5C6FCCC0914499"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22509BA665554C4B"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "1D64AC9D901F620D"
@@ -3141,9 +3347,9 @@
 			]
 			id: "0CAA1F2CB7922740"
 			rewards: [{
-				count: 5
-				id: "1763468BF1674AF4"
-				item: "create:experience_nugget"
+				count: 2
+				id: "0BFDECB28B718541"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3182,11 +3388,20 @@
 			dependencies: ["16DF65A27C527EC4"]
 			description: ["The &n&6Basin&r is used for recipes, mainly including the &3Mechanical Press&r and the &3Mechanical Mixer&r."]
 			id: "3F691828CC609297"
-			rewards: [{
-				id: "2C0B408671DFB302"
-				item: "create:basin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "45558835E8F4EB61"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A819205654D51A3"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "08F02C7B12C944B9"
@@ -3205,8 +3420,9 @@
 			id: "45E04EA612546D02"
 			progression_mode: "flexible"
 			rewards: [{
-				id: "69FC02B3A50A8B29"
-				item: "create:contraption_controls"
+				count: 2
+				id: "1B6F7103ACCE1F57"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3230,15 +3446,15 @@
 			id: "1C36CBFCA193FE7C"
 			rewards: [
 				{
-					count: 3
-					id: "4AE351507BF70A6A"
-					item: "create:linear_chassis"
+					count: 2
+					id: "58A14E37FA620CB3"
+					item: "create:experience_nugget"
 					type: "item"
 				}
 				{
-					count: 3
-					id: "3D81F51FD37ADC12"
-					item: "create:radial_chassis"
+					count: 2
+					id: "07B705F9AF4DD972"
+					item: "kubejs:rotation_mechanism"
 					type: "item"
 				}
 			]
@@ -3282,8 +3498,8 @@
 			id: "7C031AA7A7E697DD"
 			rewards: [{
 				count: 2
-				id: "4C15E7336EBF74AA"
-				item: "create:experience_nugget"
+				id: "38AEA47625CF033B"
+				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3301,8 +3517,9 @@
 			description: [""]
 			id: "5EBB3D715BCB2EC0"
 			rewards: [{
-				id: "13244CAA73818ED4"
-				item: "create:experience_nugget"
+				count: 2
+				id: "7A24942417A758BF"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3486,9 +3703,9 @@
 			]
 			id: "204C3C0E55F2835F"
 			rewards: [{
-				count: 5
-				id: "534E70CC8B5C3752"
-				item: "create:experience_nugget"
+				count: 2
+				id: "4DAF23AE75421687"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3503,7 +3720,7 @@
 		}
 		{
 			dependencies: ["286B180E5031E542"]
-			description: ["The Alternator requires at least &632&r RPM to operate. It generates electric energy &a(FE)&r from rotational force. Its energy production is determined by the input RPM."]
+			description: ["&6The Alternator&r turns rotational power (Needs at least 32rpm) into energy power. The RPM determines how much energy power is generated."]
 			id: "612F6D99772C9805"
 			rewards: [
 				{
@@ -3537,9 +3754,9 @@
 			]
 			id: "79528B0A7A3E05DE"
 			rewards: [{
-				count: 5
-				id: "71B32E9D74CC3651"
-				item: "create:experience_nugget"
+				count: 2
+				id: "47289ED69FFF2454"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3555,11 +3772,13 @@
 		{
 			dependencies: ["16DF65A27C527EC4"]
 			description: [
-				"The &n&6Rolling Mill&r&r uses rotational force to roll metals into &3Rods&r and &6Wires.&r"
+				"he &n&6Rolling Mill&r&r uses rotational force to roll metals into &3Rods&r and &6Wires.&r"
 				""
 				"To manually input items, drop &3Ingots&r or &3Plates&r on the top of the &8Mill&r."
 				""
 				"&7Right-click&r the Mill to manually retrieve the output items."
+				""
+				"This process can be automated with Funnels or Chutes."
 			]
 			id: "2019EABB05F886B5"
 			rewards: [{
@@ -3640,8 +3859,8 @@
 			dependencies: ["0F16498769DFB3B0"]
 			id: "10184A334FAC1C57"
 			rewards: [{
-				id: "0A5BD2A1BAA8A711"
-				item: "create_sa:heat_engine"
+				id: "123A719921F62BCC"
+				item: "create:experience_nugget"
 				type: "item"
 			}]
 			size: 1.25d
@@ -3667,10 +3886,8 @@
 			]
 			id: "597B6EB9A60DB0B1"
 			rewards: [{
-				count: 8
-				id: "3C9E876FBC112A27"
-				item: "create:andesite_alloy"
-				random_bonus: 8
+				id: "01189C6562D6B715"
+				item: "create:experience_nugget"
 				type: "item"
 			}]
 			size: 1.5d
@@ -3692,10 +3909,8 @@
 			dependencies: ["10184A334FAC1C57"]
 			id: "3CD6FD9FC448ADCA"
 			rewards: [{
-				count: 8
-				id: "0E76506BC01E02FA"
-				item: "create:cogwheel"
-				random_bonus: 8
+				id: "032912A53918FF31"
+				item: "create:experience_nugget"
 				type: "item"
 			}]
 			tasks: [{
@@ -3714,10 +3929,8 @@
 			dependencies: ["10184A334FAC1C57"]
 			id: "39ECC55DAB6CA953"
 			rewards: [{
-				count: 8
-				id: "70C0D1AC945E5E0F"
-				item: "create:andesite_alloy"
-				random_bonus: 8
+				id: "6FE88D0D37FEC84D"
+				item: "create:experience_nugget"
 				type: "item"
 			}]
 			tasks: [{
@@ -3756,12 +3969,12 @@
 		{
 			dependencies: ["79C542CA156AB01E"]
 			description: [
-				"&6Steam Engines&r are the best generators in the Create mod, capable of producing thousands of SU with ease. They need heat (e.g., from Fire or Blaze Burners) and water to create steam and generate rotational force. The higher the heat, the more efficient the engine."
+				"&6Steam Engines&r are the best generators in the Create mod, capable of producing thousands of SU with ease. They need heat (e.g., from Fire or Blaze Burners) and a constant flow of water to create steam and generate rotational force. The higher the heat, the more efficient the engine."
 				""
 				""
 				"&nHow to Use:&r"
 				""
-				"&6Setup:&r Place a Steam Engine on the side of a Fluid Tank filled with water."
+				"&6Setup:&r Place a Steam Engine on the side of a Fluid Tank filled with water being pumped into the tank."
 				""
 				"&6Heat Source:&r Ensure there is a heat source below the tank. The higher the heat, the faster the engine will move."
 				""
@@ -3830,9 +4043,8 @@
 			]
 			id: "1997E3F261152BC2"
 			rewards: [{
-				count: 2
-				id: "029AB1D1CBC112C9"
-				item: "create:water_wheel"
+				id: "150FE484B85125A1"
+				item: "create:experience_nugget"
 				type: "item"
 			}]
 			tasks: [{
@@ -3848,8 +4060,8 @@
 			description: ["Generates twice as much SU as the regular water wheel but at a slower RPM. Just know that this thing is bigger and bulkier so have a lot of space for it."]
 			id: "2A43D53F3C3FA699"
 			rewards: [{
-				id: "04EAD7EC77441117"
-				item: "create:large_water_wheel"
+				id: "3C47CEE086475132"
+				item: "create:experience_nugget"
 				type: "item"
 			}]
 			tasks: [{
@@ -3872,6 +4084,11 @@
 				"Once generated, this energy can be transferred through shafts, gears, and other mechanical components to operate your creations."
 			]
 			id: "79C542CA156AB01E"
+			rewards: [{
+				id: "4B2EF17A83D3BE68"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -3915,8 +4132,9 @@
 			description: ["A redstone component that only allows energy(E) to flow when it's receiving a redstone signal."]
 			id: "4F70C070C46D78AB"
 			rewards: [{
-				id: "0015C154C603EB4D"
-				item: "createaddition:redstone_relay"
+				count: 3
+				id: "328AAC0F73D0D130"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3930,7 +4148,20 @@
 		}
 		{
 			dependencies: ["0427B74E71A4115C"]
-			description: ["Connectors insert/extract energy from/into blocks and wires are used to connect between connectors."]
+			description: [
+				"&c&nConnectors&r&r"
+				""
+				"There are 3 types of Connectors, the Small Connector, Small Connector With Light and Large Connector. The difference between the Small Connectors and the Large Connectors is the amount of energy they can output/input and how many can be connected to a single one."
+				""
+				"Use a Wrench to cycle between Push/Pull and None modes."
+				""
+				"&c&nSpools&r&r"
+				""
+				"With an Empty Spool you can turn it into 4 different types using their respective Wires: Copper Spool; Gold Spool; Electrum Spool and Copper Spool With Festive Lights."
+				""
+				"The difference between the Copper Spool and the Gold/Electrum Spool is the connectors they can connect to and the energy they transfer. The Copper connects to Small Connectors while the Gold/Electrum connect to the Large connectors."
+				"When a Spool is fully used, it will turn into an Empty Spool again."
+			]
 			icon: "createaddition:connector"
 			id: "286B180E5031E542"
 			rewards: [{
@@ -4250,8 +4481,9 @@
 			description: ["Use &6Spout Gun&r to shoot &9liquid&r to your &cenemies&r!"]
 			id: "00E8C3B95D0A3373"
 			rewards: [{
-				id: "5FDB4714AC2383EA"
-				item: "create:experience_nugget"
+				count: 2
+				id: "3A328AE7E9186141"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -4463,9 +4695,9 @@
 			description: ["&6Brass Gearboxes&r let you toggle this independently for each side."]
 			id: "55A7089FC773397D"
 			rewards: [{
-				id: "3667E2A81DCF0D45"
-				item: "create_connected:brass_gearbox"
-				random_bonus: 1
+				count: 2
+				id: "6CD3CF692F19C8D4"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -4621,9 +4853,9 @@
 			description: ["&6Mechanical Rollers&r help clean up terrain on and under Train Tracks. It can clear blocks in front of it, or can automatically place blocks under Train Tracks from a Train's on-board inventories."]
 			id: "69416BCA0EB9380A"
 			rewards: [{
-				count: 5
-				id: "468265ADF8021864"
-				item: "create:experience_nugget"
+				count: 2
+				id: "2A513CF94614C994"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -4647,9 +4879,9 @@
 			]
 			id: "1CC5CCEC80EEDBA1"
 			rewards: [{
-				count: 5
-				id: "12ED59C629434C12"
-				item: "create:experience_nugget"
+				count: 2
+				id: "24CEB4DCF0F528E3"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -4783,8 +5015,7 @@
 			]
 			id: "61CCCE7E1910A3FE"
 			rewards: [{
-				count: 5
-				id: "7268DC993BDC7200"
+				id: "5AAD97CE74F06B11"
 				item: "create:experience_nugget"
 				type: "item"
 			}]
@@ -4803,17 +5034,16 @@
 		{
 			dependencies: ["597B6EB9A60DB0B1"]
 			description: [
-				"&6The Fueling Tank&r is used to store Lava to fill/refill your Jetpack which happens automatically when the Fueling Tank is in your inventory. "
+				"The &6The Fueling Tank&r is used to store Lava to fill/refill your Jetpack or any compatible item such as the Grapplin Whisk, which happens automatically when the Fueling Tank is in your inventory."
 				""
-				"To fill the Fueling Tank you must hold it and right click with it on Lava. "
+				"To fill the Fueling Tank you must hold it and right click with it on Lava."
 				""
 				"It's a manual process but you can automate this process with the use of a Deployer."
 			]
 			id: "6FE3DEFFD08C4830"
 			rewards: [{
-				count: 5
-				id: "1F103E80AF143CDF"
-				item: "create_dd:experience_ingot"
+				id: "23B4F832A73960FE"
+				item: "create:experience_nugget"
 				type: "item"
 			}]
 			tasks: [{
@@ -4827,28 +5057,6 @@
 			}]
 			x: -11.0d
 			y: 5.0d
-		}
-		{
-			id: "3212A3D3FED8907B"
-			rewards: [{
-				count: 8
-				id: "0D5BEF01224A277D"
-				item: "create:cogwheel"
-				random_bonus: 8
-				type: "item"
-			}]
-			subtitle: "REMOVE FROM THE GAME"
-			tasks: [{
-				id: "1FE1BB57E268DD34"
-				item: {
-					Count: 1b
-					id: "create_sa:block_picker"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -19.0d
-			y: -3.0d
 		}
 		{
 			dependencies: ["48540220FACDD9F0"]
@@ -4878,9 +5086,9 @@
 			description: ["&6Brass Chunk Loaders&r by default load a single chunk, but can be configured to load 3x3 or even a full 5x5 chunk radius!"]
 			id: "2BD01D6FB442AE94"
 			rewards: [{
-				count: 5
-				id: "348D1F2B6EFA1BD1"
-				item: "create:experience_nugget"
+				count: 2
+				id: "30C68C52D1C69E43"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -4934,8 +5142,8 @@
 			description: ["The &6kinetic motor&r has literally 0 SU. It can power literally nothing other then shafts and cogs and propellers (and other stuff that doesn't take SU) ."]
 			id: "6C3FB10919F1A353"
 			rewards: [{
-				id: "2C5104F6314BB243"
-				item: "create_dd:kinetic_motor"
+				id: "2FA61E1DD41B38BF"
+				item: "create:experience_nugget"
 				type: "item"
 			}]
 			tasks: [{
@@ -4950,8 +5158,8 @@
 			dependencies: ["6C3FB10919F1A353"]
 			id: "2FC6B0EB466ADFE0"
 			rewards: [{
-				id: "5DF59807D92133DD"
-				item: "create_dd:accelerator_motor"
+				id: "0FC2B79413DAFD68"
+				item: "create:experience_nugget"
 				type: "item"
 			}]
 			tasks: [{
@@ -4967,8 +5175,9 @@
 			description: ["Energy transport it on a contraption!"]
 			id: "425DB2C7F1C67A64"
 			rewards: [{
-				id: "77BA322C75E34884"
-				item: "railways:portable_fuel_interface"
+				count: 2
+				id: "1945B51055292556"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -5030,9 +5239,9 @@
 			description: ["By right cliking on the ground, you can summon in a \"mirror\" that will, well, mirror the blocks you place down."]
 			id: "6E2B46D5F2596E20"
 			rewards: [{
-				count: 5
-				id: "2AA8C279FA14D97D"
-				item: "create:experience_nugget"
+				count: 2
+				id: "5C4A082DB0CFE9B4"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -5049,8 +5258,9 @@
 			description: ["Change your fan's processing type more efficiently with Catalysts."]
 			id: "4A799454B6F6443A"
 			rewards: [{
-				id: "07090542030046A3"
-				item: "create_connected:empty_fan_catalyst"
+				count: 2
+				id: "5891084261D42D9F"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -5584,6 +5794,7 @@
 		}
 		{
 			dependencies: ["75DF02727DA03273"]
+			description: ["The Hydraulic Press can press a stack of an item instead of 1 by 1."]
 			id: "1CB094DFF05CB16C"
 			rewards: [{
 				count: 5

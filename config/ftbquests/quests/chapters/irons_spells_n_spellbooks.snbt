@@ -16,19 +16,8 @@
 		}
 	}
 	id: "19BE083ACF488E0F"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.5d
-		hover: [ ]
-		image: "ars_nouveau:block/mage_block_transparent"
-		rotation: 0.0d
-		width: 1.5d
-		x: -21.0d
-		y: -6.0d
-	}]
 	order_index: 2
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -1883,6 +1872,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["04D09899362AFC7A"]
 			description: [
 				"&bIron's Spells 'n Spellbooks&r is a magic mod focused around exploring the world to find magic scrolls in order to cast fantastical magics. "
 				""
@@ -1890,6 +1880,7 @@
 				""
 				"You will fight more gangerous mobs like &2Necromancer&r, collect brand new resources, and most importantly: &6Cast Powerful Spells!&r"
 			]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "patchouli:guide_book"
