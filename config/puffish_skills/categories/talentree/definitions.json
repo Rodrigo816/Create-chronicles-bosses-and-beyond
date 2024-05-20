@@ -2747,7 +2747,7 @@
 	},
 	"jump+5%": {
 		"title": "§d[1P] §a+20% Jump",
-		"cost":3,
+		"cost":1,
 		"frame": {
 			"type": "texture",
 			"data": {
