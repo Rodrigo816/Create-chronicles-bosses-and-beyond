@@ -2,25 +2,25 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "createRTA.snbt"
-	group: "4546D7737CBFFD68"
+	group: ""
 	icon: "create:wrench"
-	id: "5E4A211E64CAA452"
-	order_index: 8
+	id: "1193325B6F6E105A"
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1742597D48E37800"]
 			icon: "create:andesite_casing"
-			id: "537213808055461F"
+			id: "60139A89CFB04CA6"
 			rewards: [
 				{
-					id: "045F353343E0695A"
+					id: "2C1B68020C344146"
 					type: "xp"
 					xp: 50
 				}
 				{
 					count: 8
-					id: "31951F05A85D76F6"
+					id: "71530873D3B840FD"
 					item: "create:andesite_alloy"
 					type: "item"
 				}
@@ -30,7 +30,7 @@
 			subtitle: "Okay so, andesite is a very abundant stone that you can find in large pockets underground, and they blend really well with the stone texture so keep your eyes open for some. You'll need a lot of this stone if you are going to make any machinery around here so dig as much as you can! Mental note as well, Zinc ores are important too as using it with andesite makes the important alloy used to making machinery."
 			tasks: [{
 				count: 10L
-				id: "139B654218BA235C"
+				id: "456A08EB596B8BBC"
 				item: "create:andesite_casing"
 				type: "item"
 			}]
@@ -40,15 +40,15 @@
 		}
 		{
 			dependencies: ["2C8EF8E65133D178"]
-			id: "2A786C6CC9905762"
+			id: "105DCB53A6F5E090"
 			rewards: [{
-				id: "73004CE3A108ED46"
+				id: "3DCA5D4CCF573231"
 				type: "xp"
 				xp: 75
 			}]
 			subtitle: "The basis for more advanced blocks."
 			tasks: [{
-				id: "744A20035318C01D"
+				id: "2B1D28455F72DB1D"
 				item: "create:brass_casing"
 				type: "item"
 			}]
@@ -57,16 +57,16 @@
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			id: "0433BF59C4BB91AA"
+			id: "183C305D00254E4F"
 			rewards: [{
-				id: "46F90498578DD9AF"
+				id: "38522AE95B4F877E"
 				type: "xp"
 				xp: 25
 			}]
 			size: 1.5d
 			subtitle: "The basis of most things fluid related in Create.\\n\\nCan also be used to encase fluid pipes."
 			tasks: [{
-				id: "3993D474BD161E10"
+				id: "57D5786572767B40"
 				item: "create:copper_casing"
 				type: "item"
 			}]
@@ -76,9 +76,9 @@
 		{
 			dependencies: ["408D9361AF8AA499"]
 			icon: "create:railway_casing"
-			id: "793466B65D918636"
+			id: "2C60324A5A64D1D4"
 			rewards: [{
-				id: "76E28C2B0691B3D8"
+				id: "3EF15AE74211167E"
 				type: "xp"
 				xp: 100
 			}]
@@ -87,12 +87,12 @@
 			subtitle: "In order to make a train you're going to need at least:\\n- 1 Train Casing\\n- 1 Train Station\\n- Enough train tracks to make your railroad.\\n\\nIn order to see how you assemble a train \"ponder\" the train station."
 			tasks: [
 				{
-					id: "3A12431E46430862"
+					id: "0C0F52C9A3875B4D"
 					item: "create:sturdy_sheet"
 					type: "item"
 				}
 				{
-					id: "167EA139BE0430E0"
+					id: "61DD4201A0432AD5"
 					item: "create:railway_casing"
 					type: "item"
 				}
@@ -102,16 +102,16 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			id: "7B739588723D8525"
+			id: "3552BB189D322B1C"
 			rewards: [{
-				id: "0A10D4EEDD187443"
+				id: "36734011B60597DE"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "circle"
 			subtitle: "Lets you transfer a redstone signal wirelessly within a range. No, this is not for Wi-Fi."
 			tasks: [{
-				id: "4ED15CF513E60C8F"
+				id: "70C1F739673675E3"
 				item: "create:redstone_link"
 				type: "item"
 			}]
@@ -121,15 +121,15 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			id: "7948E766698C23F6"
+			id: "4C20E83284DCC7CE"
 			rewards: [{
-				id: "7C0BA1B6D0FEFC51"
+				id: "7D9E0B3E25E83596"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "A redstone component that outputs a signal when in contact with another redstone contact. Perticularly useful for building contraptions."
 			tasks: [{
-				id: "1453EBF8916B8A22"
+				id: "1887A627A603C6E3"
 				item: "create:redstone_contact"
 				type: "item"
 			}]
@@ -138,23 +138,23 @@
 		}
 		{
 			dependencies: ["3D11842DDDE1D396"]
-			id: "4D77F20AF26633C6"
+			id: "777E88183F73CA80"
 			rewards: [
 				{
-					id: "42665E48D9197267"
+					id: "6E41A2A7FCEAEB03"
 					type: "xp"
 					xp: 50
 				}
 				{
 					count: 4
-					id: "2AE564E28AE3D304"
+					id: "187D2D8AEAD9254A"
 					item: "create:water_wheel"
 					type: "item"
 				}
 			]
 			subtitle: "A kinetic source that uses the flow of water as its source of energy. Will generate the same amount of SU at the same RPM as long as one block of flowing water is adjacent.\\n\\nYou can also swich the look of your water wheel by right-clicking it with pretty much any wood plank (including ones from other mods)."
 			tasks: [{
-				id: "3921378EB8DEF21C"
+				id: "57BE4125631B43B3"
 				item: "create:water_wheel"
 				type: "item"
 			}]
@@ -163,15 +163,15 @@
 		}
 		{
 			dependencies: ["642172D58E8B11E1"]
-			id: "042C5E124BC6F7B3"
+			id: "2764DA1A03A2BAD4"
 			rewards: [{
-				id: "710ACDEA7BE02C13"
+				id: "707254827C918ABE"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "Generates twice as much SU as the regular water wheel but at a slower RPM. Just know that this thing is bigger and bulkier so have a lot of space for it."
 			tasks: [{
-				id: "38C08BF75E3FB367"
+				id: "7486050765C26679"
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
@@ -180,22 +180,22 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			id: "1C79D049A6DD72EE"
+			id: "78645A714F764DD4"
 			rewards: [
 				{
-					id: "2A97184CEE6D201D"
+					id: "22A7B5B04F4C71C8"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "42DB65D7E2D83973"
+					id: "1817E9BDCA6957E8"
 					type: "random"
 				}
 			]
 			subtitle: "Lets you see the current stress and stress capacity of a kinetic network, not the stress of someone else."
 			tasks: [{
-				id: "5630F50A1B3AE1E8"
+				id: "2A3DE70485332D66"
 				item: "create:stressometer"
 				type: "item"
 			}]
@@ -204,22 +204,22 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			id: "78F1D42C952FB500"
+			id: "624BE5F69DA70632"
 			rewards: [
 				{
-					id: "3575E41AA087CD35"
+					id: "5067F4518D12C538"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2363543883510975"
+					id: "50913E0AEE34BEF4"
 					type: "random"
 				}
 			]
 			subtitle: "Lets you see the rotational speed of a kinetic network."
 			tasks: [{
-				id: "5EDC9BE4B30EA023"
+				id: "1DFE9CBA79724449"
 				item: "create:speedometer"
 				type: "item"
 			}]
@@ -229,15 +229,15 @@
 		{
 			dependencies: ["3D11842DDDE1D396"]
 			icon: "create:steam_engine"
-			id: "42224D33C3AB475D"
+			id: "61CAFCC3EFCC11DE"
 			rewards: [
 				{
-					id: "618E43509A10C0AD"
+					id: "5AD7B8521BB037F2"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "459542F4DF49A8BF"
+					id: "0403D1E030F973D7"
 					item: "minecraft:water_bucket"
 					type: "item"
 				}
@@ -245,13 +245,13 @@
 			subtitle: "The densest kinetic source. Although it also has the highest complexity, requiring a steady source of water and heat, and no this is not a steam locomotive like Thomas the Tank Engine."
 			tasks: [
 				{
-					id: "18502E7FA4E9E21C"
+					id: "043B1C41DBE167BC"
 					item: "create:steam_engine"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "18F515BAE4C76A32"
+					id: "59BDA405857E0535"
 					item: "create:fluid_tank"
 					type: "item"
 				}
@@ -263,22 +263,22 @@
 		{
 			dependencies: ["3D11842DDDE1D396"]
 			icon: "create:white_sail"
-			id: "7A97E410684C42E6"
+			id: "0CB4BC9F492F815E"
 			rewards: [{
-				id: "358950A91A7FC488"
+				id: "681E6385208C714B"
 				type: "xp"
 				xp: 75
 			}]
 			subtitle: "You know what a windmill is, right? This uses wind to spin around and generate SUs for use."
 			tasks: [
 				{
-					id: "650E57717E554B4C"
+					id: "171B3F003F295514"
 					item: "create:windmill_bearing"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "68767148C16DFA39"
+					id: "7A0D5F0EFD2234E4"
 					item: "create:white_sail"
 					type: "item"
 				}
@@ -289,15 +289,15 @@
 		}
 		{
 			dependencies: ["3D11842DDDE1D396"]
-			id: "590411E247E6DF17"
+			id: "578D4F3714BC0F08"
 			rewards: [{
-				id: "0A366D6AF3328D62"
+				id: "61FD59C0FA64FCAF"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "The simplest way to generate kinetic energy, by using yourself as the power source. Get that arm strength!"
 			tasks: [{
-				id: "4A761F15A51F8DE0"
+				id: "6AC81E0DB022C898"
 				item: "create:hand_crank"
 				type: "item"
 			}]
@@ -308,16 +308,16 @@
 		{
 			dependencies: ["798CADF6B8930572"]
 			icon: "create:blaze_burner"
-			id: "27EC8BFD2547A4E5"
+			id: "2FEEBDE6B0C627FB"
 			rewards: [
 				{
-					id: "4B9F0743FDF9A2FD"
+					id: "15D9AC9962B9A1C7"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "42A0D56AA8973074"
+					id: "1EF525FD9B982332"
 					type: "random"
 				}
 			]
@@ -326,17 +326,17 @@
 			subtitle: "In order to get brass you're going to need to heat a mechanical mixer that's mixing copper and zinc.\\n\\n the Empty Blaze burner can be filled by right-clicking it on either a blaze spawner or a blaze."
 			tasks: [
 				{
-					id: "10F03DC694751379"
+					id: "18B91B6E3A7C51DC"
 					item: "create:empty_blaze_burner"
 					type: "item"
 				}
 				{
-					id: "2117C02C2D5DD809"
+					id: "3DB4CFE31CC77A91"
 					item: "create:blaze_burner"
 					type: "item"
 				}
 				{
-					id: "05F91E562F218354"
+					id: "23165863FC305EF3"
 					item: "create:brass_ingot"
 					type: "item"
 				}
@@ -348,21 +348,21 @@
 		{
 			dependencies: ["2C3CD6663D38750A"]
 			icon: "create:mechanical_mixer"
-			id: "3E1DCE1DDF2055C8"
+			id: "12A521B5063894B4"
 			rewards: [{
-				id: "185BF4A3CEDEB803"
+				id: "40AB66C46F75DD79"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "A machine that can autocraft shapeless recepies aswell as mix things like potions.\\n\\nNeeds to rotate at at least 30 rpm to function"
 			tasks: [
 				{
-					id: "59029B93F6FE9126"
+					id: "48D0630315A18439"
 					item: "create:mechanical_mixer"
 					type: "item"
 				}
 				{
-					id: "7F0335A72DE09DB7"
+					id: "5416076B821617B6"
 					item: "create:basin"
 					type: "item"
 				}
@@ -372,22 +372,22 @@
 		}
 		{
 			dependencies: ["666E9828756ADB0C"]
-			id: "5E80AE26D6EF8FD1"
+			id: "50280B8655369B94"
 			rewards: [
 				{
-					id: "179CABCC72553AE8"
+					id: "7D649DA35FBEA241"
 					type: "xp"
 					xp: 50
 				}
 				{
 					exclude_from_claim_all: true
-					id: "77B23E5086041943"
+					id: "1E4A0668DC3569CD"
 					type: "random"
 				}
 			]
 			subtitle: "Can be used to place or extract large bodies of liquid."
 			tasks: [{
-				id: "16597F195C7D5551"
+				id: "50A64CDAA984ED3A"
 				item: "create:hose_pulley"
 				type: "item"
 			}]
@@ -396,22 +396,22 @@
 		}
 		{
 			dependencies: ["666E9828756ADB0C"]
-			id: "42385B82EF7C8247"
+			id: "4E05F9552DBF06F5"
 			rewards: [
 				{
-					id: "781787EEFFDAF0F6"
+					id: "36D9470FAC9636A7"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4D309381A7A75619"
+					id: "76653C2DC2A5180C"
 					type: "random"
 				}
 			]
 			subtitle: "Allows for the extraction of liquids from items."
 			tasks: [{
-				id: "13A59FF522FD7803"
+				id: "546321D6BFE4BFF0"
 				item: "create:item_drain"
 				type: "item"
 			}]
@@ -420,22 +420,22 @@
 		}
 		{
 			dependencies: ["666E9828756ADB0C"]
-			id: "64C87A76AB23D02B"
+			id: "63D28AA4C3A0CEEF"
 			rewards: [
 				{
-					id: "45D7B5FF0AA2068A"
+					id: "6F053AB5FC042575"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "18210CEFAE89E2C2"
+					id: "2FE9D28E88E1D0A3"
 					type: "random"
 				}
 			]
 			subtitle: "Used for filling items with fluids and crafting certain items using fluids."
 			tasks: [{
-				id: "6BD444049A4F051D"
+				id: "484D70AA2482D942"
 				item: "create:spout"
 				type: "item"
 			}]
@@ -444,22 +444,22 @@
 		}
 		{
 			dependencies: ["666E9828756ADB0C"]
-			id: "540AD5125AF208A5"
+			id: "78BD6E60299C6BE1"
 			rewards: [
 				{
-					id: "7A8F8CA9BBBCB3FB"
+					id: "35246C8B7F8832A6"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0673B170264785CB"
+					id: "0BB22D396ADAE5F7"
 					type: "random"
 				}
 			]
 			subtitle: "Allows contraptions to transfer fluids to blocks."
 			tasks: [{
-				id: "79EDF3BECEC58C78"
+				id: "235BA9CCF9EA6906"
 				item: "create:portable_fluid_interface"
 				type: "item"
 			}]
@@ -468,22 +468,22 @@
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
-			id: "365DD5B7F6255656"
+			id: "7EAB4D1272AF5F67"
 			rewards: [
 				{
-					id: "15CC0ACE09D321DC"
+					id: "1750BF1E8FB40559"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "41AFA0F50825783B"
+					id: "6C24DFB69CC1B1BF"
 					type: "random"
 				}
 			]
 			subtitle: "Lets you use SU to break blocks, can also be attached to contraptions to make tunnel bores and the like."
 			tasks: [{
-				id: "090D165C7417EA00"
+				id: "5D3E9A8B87C03E8B"
 				item: "create:mechanical_drill"
 				type: "item"
 			}]
@@ -492,22 +492,22 @@
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
-			id: "0CBD087B12779C3F"
+			id: "481D3400F1117A39"
 			rewards: [
 				{
-					id: "7D827766F88D54AA"
+					id: "6D591284834C9E63"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0EDEF82DD4CBA46B"
+					id: "43620445CCED005A"
 					type: "random"
 				}
 			]
 			subtitle: "Blocks that can fell trees or allow contraptions to fell trees. As well as some crafting recipes like cutting blocks or stripping logs."
 			tasks: [{
-				id: "756F814135558F4B"
+				id: "7D9543D15422151D"
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
@@ -517,22 +517,22 @@
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
-			id: "75CBE3CD13EB739A"
+			id: "6934DF631574E3CF"
 			rewards: [
 				{
-					id: "201136F180BDC1B0"
+					id: "7F782BDDA62E7094"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0E3798BB64D4A05A"
+					id: "1E61A92AAE1291F0"
 					type: "random"
 				}
 			]
 			subtitle: "Blocks that allow contraptions to harvest crops."
 			tasks: [{
-				id: "59B498FCF57EAFDE"
+				id: "7BDC2D5BAE54DDF8"
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
@@ -541,22 +541,22 @@
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
-			id: "6384B2E9258F4F05"
+			id: "663FA3832E80082A"
 			rewards: [
 				{
-					id: "69077D7608E77FA4"
+					id: "72C4AFBCAFAD7983"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "306283C1DE300198"
+					id: "6C748621F670F8AA"
 					type: "random"
 				}
 			]
 			subtitle: "Blocks that allow contraptions to create farmland or launch entities."
 			tasks: [{
-				id: "7B2363FE8A8CE621"
+				id: "1A1C7155DD293EA3"
 				item: "create:mechanical_plough"
 				type: "item"
 			}]
@@ -565,22 +565,22 @@
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			id: "7FA134388A03C5DA"
+			id: "5269DC2D2262FE4D"
 			rewards: [
 				{
-					id: "413B1F0FAD582616"
+					id: "702EE9C81DDD23EB"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "57F3B9280453663C"
+					id: "0B71457184934C44"
 					type: "random"
 				}
 			]
 			subtitle: "Lets you clear and pave whilst riding a train."
 			tasks: [{
-				id: "526F98CFDC16770F"
+				id: "7433E30BBB36065D"
 				item: "create:mechanical_roller"
 				type: "item"
 			}]
@@ -589,22 +589,22 @@
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			id: "3C4F07069A64C20B"
+			id: "7B6506857FC02F3A"
 			rewards: [
 				{
-					id: "2139C5E67546504E"
+					id: "5B7E3ED0FE3253BA"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2E608C74A095AB56"
+					id: "2C5C59927507F165"
 					type: "random"
 				}
 			]
 			subtitle: "Essentially the an upgrade to the millstone, provides some different recipes so it might be worth keeping both around."
 			tasks: [{
-				id: "7CCA6DC1E05EF21F"
+				id: "77C1CAF6C573EDFF"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
@@ -613,16 +613,16 @@
 		}
 		{
 			dependencies: ["67B3D0A82F1BB3EA"]
-			id: "007AB935B6B26EBC"
+			id: "495425CDADE0F228"
 			rewards: [
 				{
-					id: "12C4539EFBCC0694"
+					id: "2F2516A257D893B7"
 					type: "xp"
 					xp: 150
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5551305C6360E208"
+					id: "4DCDA588820CE470"
 					type: "random"
 				}
 			]
@@ -630,7 +630,7 @@
 			size: 1.5d
 			subtitle: "Blocks that both allow for automatic crafting of normal recipes and the crafting of recipes that are bigger than a normal crafting table would allow for."
 			tasks: [{
-				id: "015B8DA5F45268EE"
+				id: "13404E1C31BD616E"
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
@@ -639,22 +639,22 @@
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			id: "786EE0281DCC7D63"
+			id: "6DDA5A867AAE11A9"
 			rewards: [
 				{
-					id: "1A18598463FE80CA"
+					id: "215CA02116820F7B"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6C6BC52B8D225800"
+					id: "509F3B8C581D49B5"
 					type: "random"
 				}
 			]
 			subtitle: "An advanced item distribution machine that works if you make it point to specific points that the arm can reach, if it can't reach, the arm won't work, also requires SUs to move it."
 			tasks: [{
-				id: "55B63C13F460DC99"
+				id: "11040D3007370889"
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
@@ -663,15 +663,15 @@
 		}
 		{
 			dependencies: ["408D9361AF8AA499"]
-			id: "1EA8BAA369A947F6"
+			id: "4A4B0CA1F7226BD1"
 			rewards: [{
-				id: "636920EF3782A7A6"
+				id: "774CC2A025BA5423"
 				type: "xp"
 				xp: 100
 			}]
 			subtitle: "An item used to craft more advanced mechanical items."
 			tasks: [{
-				id: "274072073FE86ECB"
+				id: "312C21928195139E"
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
@@ -680,22 +680,22 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			id: "3163338046548D96"
+			id: "716C2EF1E51D1D97"
 			rewards: [
 				{
-					id: "1AEEE0BDAE48CE25"
+					id: "53807A107DD7E9C0"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "634212E0B1E399FB"
+					id: "2CBB89CA93DD11F8"
 					type: "random"
 				}
 			]
 			subtitle: "Allows for fine tuning of rpm, meaning you can modify how fast or slow it can be."
 			tasks: [{
-				id: "0EE447E70E3C0C4B"
+				id: "49A9854EDD9F98DB"
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
@@ -704,22 +704,22 @@
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			id: "08D5688F6B120AB1"
+			id: "539814C8A02E8185"
 			rewards: [
 				{
-					id: "4162363D70E460BB"
+					id: "45EAC92732F30C64"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1E458990C1636709"
+					id: "65B2D52E9B4ED5ED"
 					type: "random"
 				}
 			]
 			subtitle: "Allows you to control the train."
 			tasks: [{
-				id: "1CB8DBBBDF0CC1FC"
+				id: "5D7B715F07FA1412"
 				item: "create:controls"
 				type: "item"
 			}]
@@ -728,22 +728,22 @@
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			id: "7B1A2D432E04E091"
+			id: "18E1009FE6CB2E85"
 			rewards: [
 				{
-					id: "5D478E366CD3C169"
+					id: "06B3D68DB5FA25A7"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "257271B3C166DC7B"
+					id: "25A3884FA27C8CDC"
 					type: "random"
 				}
 			]
 			subtitle: "Gives off a redstone signal when detecting a train."
 			tasks: [{
-				id: "33666BC62C57378B"
+				id: "712872F2CB8BFE72"
 				item: "create:track_observer"
 				type: "item"
 			}]
@@ -752,22 +752,22 @@
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			id: "73A156FC2F1C3CBC"
+			id: "0F1969BF7E94E981"
 			rewards: [
 				{
-					id: "017BB7905EBF03CB"
+					id: "296D62785761A6C3"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "48D0A9A8A3737446"
+					id: "7C8D38F14627E398"
 					type: "random"
 				}
 			]
 			subtitle: "Used to controll the flow of trains across tracks and intersections of tracks."
 			tasks: [{
-				id: "433635ED0D60F242"
+				id: "6C0A4ED21750AF0C"
 				item: "create:track_signal"
 				type: "item"
 			}]
@@ -776,22 +776,22 @@
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			id: "68EC35349A9F1723"
+			id: "6E7DECD52E5764D8"
 			rewards: [
 				{
-					id: "389C997EC4F24505"
+					id: "6BAA17E39E925B86"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0B82E62D50702C37"
+					id: "049C64945AF8D24D"
 					type: "random"
 				}
 			]
 			subtitle: "The block that deals with train assembly and dissasembly."
 			tasks: [{
-				id: "59448FA9C3A461D4"
+				id: "74C628FC3212DD13"
 				item: "create:track_station"
 				type: "item"
 			}]
@@ -800,15 +800,15 @@
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			id: "56D9DF4CFDEDD1AC"
+			id: "1C8BCAA4DB1B5312"
 			rewards: [{
-				id: "704A0CF5E7D8BA13"
+				id: "3B0D9B5D46299746"
 				type: "xp"
 				xp: 100
 			}]
 			subtitle: "Lets you schedule trains so that mobs or blaze burnders can drive them."
 			tasks: [{
-				id: "46575063A2DEC1BF"
+				id: "381CF18BE7A44FA4"
 				item: "create:schedule"
 				type: "item"
 			}]
@@ -817,15 +817,15 @@
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			id: "5E4BD9B0251FEA09"
+			id: "2E03BEBFF8BBA5A7"
 			rewards: [{
-				id: "1EC1CB468E2218C8"
+				id: "2BC9B3C4924090B6"
 				type: "xp"
 				xp: 100
 			}]
 			subtitle: "The thing your train goes on."
 			tasks: [{
-				id: "732C635AA78EB648"
+				id: "29952A69A125EE6A"
 				item: {
 					Count: 1b
 					id: "itemfilters:or"
@@ -1067,15 +1067,15 @@
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			id: "5907D998FD06183C"
+			id: "63D50C7627C07A20"
 			rewards: [{
-				id: "4FD141836C58553C"
+				id: "398843722A5FC065"
 				type: "xp"
 				xp: 100
 			}]
 			subtitle: "Simply a Potato Cannon."
 			tasks: [{
-				id: "498EA544ACAEBFEC"
+				id: "0E70CC5FDD8A4F17"
 				item: {
 					Count: 1b
 					id: "create:potato_cannon"
@@ -1090,15 +1090,15 @@
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			id: "6C72B0F1219779AB"
+			id: "576F18247A067884"
 			rewards: [{
-				id: "3C448130B99B70C4"
+				id: "207F807FB4569A7D"
 				type: "xp"
 				xp: 100
 			}]
 			subtitle: "Lets you place down a mirror that assists you in building symmetrical things."
 			tasks: [{
-				id: "5FFE134CC4F12628"
+				id: "4A95C8F336BB1FA8"
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
@@ -1107,22 +1107,22 @@
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
-			id: "504FDF7D83E677BA"
+			id: "523438F2B89AC7C9"
 			rewards: [
 				{
-					id: "00F364B39F0B9397"
+					id: "4E2A6F39CD984A7A"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "28984DCEA6577430"
+					id: "4F2B88554116D87D"
 					type: "random"
 				}
 			]
 			subtitle: "Grinding it all down to dust."
 			tasks: [{
-				id: "5D4C5DB15F316902"
+				id: "7029BA20B3D447E4"
 				item: "create:millstone"
 				type: "item"
 			}]
@@ -1131,16 +1131,16 @@
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
-			id: "21F1C51ABF824E17"
+			id: "381134229FFEEB9B"
 			rewards: [
 				{
-					id: "28DE17AAB86DC4D4"
+					id: "791733426CE984F0"
 					type: "xp"
 					xp: 50
 				}
 				{
 					exclude_from_claim_all: true
-					id: "14CCDB646479DA47"
+					id: "637AA1B345C20183"
 					type: "random"
 				}
 			]
@@ -1148,7 +1148,7 @@
 			size: 1.5d
 			subtitle: "A very versitile machine that can pull and push entities aswell as wash, haunt, blast and smoke items. No, this is not for household use."
 			tasks: [{
-				id: "2E7640391517166F"
+				id: "328FF1D0677896F7"
 				item: "create:encased_fan"
 				type: "item"
 			}]
@@ -1157,15 +1157,15 @@
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			id: "1B6EAEDB6E69060B"
+			id: "3A8BD65CEF695C93"
 			rewards: [{
-				id: "376A40CB570C5838"
+				id: "6B828F124693B5A7"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "Stores pressurized air for usage with a diving helmet. In other words, the oxygen needed to breathe underwater."
 			tasks: [{
-				id: "45E1BCB94D2BDF0B"
+				id: "3C83D7294D2B7EB7"
 				item: {
 					Count: 1b
 					id: "create:copper_backtank"
@@ -1180,15 +1180,15 @@
 		}
 		{
 			dependencies: ["385C156051820A7B"]
-			id: "5B22BC19710365E8"
+			id: "791F6FD3D82F8615"
 			rewards: [{
-				id: "3E918B01E1B671C8"
+				id: "70000EC9174962C7"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "An upgraded version of the Copper Backtank. How is there so much defense if you're not protected from the front, though?"
 			tasks: [{
-				id: "08A71CE25AC9EBC0"
+				id: "4078B75B8798C2BB"
 				item: {
 					Count: 1b
 					id: "create:netherite_backtank"
@@ -1203,15 +1203,15 @@
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			id: "4FC9DAE79508DBA4"
+			id: "23451058B91F8AC8"
 			rewards: [{
-				id: "21504F957FB17033"
+				id: "797652000018352F"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "A helmet that lets you use air from an equipped tank to breathe underwater. Don't even think of seeing this work under lava."
 			tasks: [{
-				id: "25064221501DFCED"
+				id: "51B927E825EADFFA"
 				item: {
 					Count: 1b
 					id: "create:copper_diving_helmet"
@@ -1226,15 +1226,15 @@
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			id: "680AB1D94AC76E2C"
+			id: "60F4A1D16C588B57"
 			rewards: [{
-				id: "37D7CF7515A43C27"
+				id: "65AA817E8E4053FE"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "Allows you to walk underwater like you do on land as well as walk on belts without them moving you, if you think about it, must be really slippery."
 			tasks: [{
-				id: "7E1CD2946253B209"
+				id: "75D24EDBFFF971C4"
 				item: {
 					Count: 1b
 					id: "create:copper_diving_boots"
@@ -1249,15 +1249,15 @@
 		}
 		{
 			dependencies: ["4377B43142216C8D"]
-			id: "767BE1FD8ABF6DD3"
+			id: "2EC725284F807FD4"
 			rewards: [{
-				id: "527F0199F39528E1"
+				id: "76C4827E27534066"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "An upgraded version of the Copper Diving Helmet. The icon from afar looks like a helmet for a soldier."
 			tasks: [{
-				id: "1A1907BEA297438D"
+				id: "4E31265F0E5537DD"
 				item: {
 					Count: 1b
 					id: "create:netherite_diving_helmet"
@@ -1272,15 +1272,15 @@
 		}
 		{
 			dependencies: ["7EA4E2D90A0FBC21"]
-			id: "366BBE53269E0EE0"
+			id: "1D21E5317F2D77F9"
 			rewards: [{
-				id: "5AB41630E5DFBF93"
+				id: "45DCE73D83E3BD87"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "An upgraded version of the Copper Diving Boots."
 			tasks: [{
-				id: "3B2CD1D73AB65270"
+				id: "0BB7110E5CD436B0"
 				item: {
 					Count: 1b
 					id: "create:netherite_diving_boots"
@@ -1295,15 +1295,15 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			id: "668A1A856E13BDB5"
+			id: "72ED5F7F8015483D"
 			rewards: [{
-				id: "6480BAA92D41CF57"
+				id: "0DED70369063F0DB"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "A repeater that sends a pulse after a configurable amount of time."
 			tasks: [{
-				id: "0C132BAAE86BE220"
+				id: "1214EEF6760909C6"
 				item: "create:pulse_repeater"
 				type: "item"
 			}]
@@ -1313,15 +1313,15 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			id: "74E44ABE3DBFCE33"
+			id: "62E55FA3BEB07BA6"
 			rewards: [{
-				id: "136964EF776133D8"
+				id: "58722DBF2715558A"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "A redstone component that extends a pulse to a configurable amount."
 			tasks: [{
-				id: "32267BE75EF26C69"
+				id: "78B5385C982CF99D"
 				item: "create:pulse_extender"
 				type: "item"
 			}]
@@ -1330,22 +1330,22 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			id: "5DDE9EB14DF00D66"
+			id: "0A8543F508DDA867"
 			rewards: [
 				{
-					id: "4A21DB290A44E759"
+					id: "55298990C14A408B"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "06457EE8C207B519"
+					id: "3B0A941B1DAE6C3A"
 					type: "random"
 				}
 			]
 			subtitle: "Allows you to setup a sequence of rotations that are executed upon the block receiving a redstone signal."
 			tasks: [{
-				id: "6AE116FD6F506F1B"
+				id: "3BD8A94B11C655DD"
 				item: "create:sequenced_gearshift"
 				type: "item"
 			}]
@@ -1354,15 +1354,15 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			id: "6D65806CC312A2A2"
+			id: "1C779F3F9C9E5BB9"
 			rewards: [{
-				id: "75101E7B6FF0DB91"
+				id: "73B149E0FEF838BD"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "A block that can monitor the fill levels of inventories and tanks."
 			tasks: [{
-				id: "1F72167BCAFAFBCD"
+				id: "5DCAD3895C1052C1"
 				item: "create:stockpile_switch"
 				type: "item"
 			}]
@@ -1371,15 +1371,15 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			id: "5BF1B7581BB65D56"
+			id: "098B373E409995DC"
 			rewards: [{
-				id: "204B4602900F00C4"
+				id: "322401E81C38191C"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "A block that can look for specific items in the world or in inventories."
 			tasks: [{
-				id: "3B374355EF264D6F"
+				id: "33CA9BE259F36DF8"
 				item: "create:content_observer"
 				type: "item"
 			}]
@@ -1389,15 +1389,15 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			id: "02B386815DE96EF5"
+			id: "21C32BF5DC16F74D"
 			rewards: [{
-				id: "4F22411B6BCC99CE"
+				id: "01132B461D9BA8E5"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "A redstone component that toggles its state with every redstone pulse."
 			tasks: [{
-				id: "3AE03A07DE77B41D"
+				id: "21DA070DF2F40D67"
 				item: "create:powered_toggle_latch"
 				type: "item"
 			}]
@@ -1406,15 +1406,15 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			id: "36FD34C6E4C19ED2"
+			id: "1C8446C2171FBCF7"
 			rewards: [{
-				id: "020101E98DD16362"
+				id: "634E8F7D14ED9C76"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "A redstone component that toggles on when recieving a redstone signal on one side and off when recieviing a signal on anoter side."
 			tasks: [{
-				id: "10ECC097D7E94959"
+				id: "615988DC2A1832FD"
 				item: "create:powered_latch"
 				type: "item"
 			}]
@@ -1423,15 +1423,15 @@
 		}
 		{
 			dependencies: ["6AFD022E4050ECB5"]
-			id: "20B71DF7446E57D4"
+			id: "48C117345A4E5289"
 			rewards: [{
-				id: "421973C98BC12A35"
+				id: "3240F622780DD9F9"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "Basically an advanced sign that updates faster if provided with higher RPM. It's like a Bulletin Board you see in train stations that update."
 			tasks: [{
-				id: "285BEDC275C5B935"
+				id: "407E9B3C10B87D3A"
 				item: "create:display_board"
 				type: "item"
 			}]
@@ -1440,15 +1440,15 @@
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			id: "7ED1F28D07FF0A27"
+			id: "5F97A831698A1C99"
 			rewards: [{
-				id: "51C4A90B48559218"
+				id: "55C27635619D039B"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "Lets you display real-time information to a connected display board or nixie tube. Don't share personal info."
 			tasks: [{
-				id: "2E5BDDEC17B3476E"
+				id: "38324124D4468595"
 				item: "create:display_link"
 				type: "item"
 			}]
@@ -1457,15 +1457,15 @@
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
-			id: "7E00FE058EC05E3C"
+			id: "7A2FB5EC908C79B0"
 			rewards: [{
-				id: "183D1B29C2A7A6CF"
+				id: "259540E377560FE3"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "A lever that can be set to output any redstone level. It's basically an upgraded version of the basic lever."
 			tasks: [{
-				id: "5A5557E8DE63188D"
+				id: "2F812D6F27E2D86B"
 				item: "create:analog_lever"
 				type: "item"
 			}]
@@ -1475,15 +1475,15 @@
 		}
 		{
 			dependencies: ["6AFD022E4050ECB5"]
-			id: "7B23FF5BE0BAE97A"
+			id: "447C70B1F10B0AE1"
 			rewards: [{
-				id: "3A486875E4931827"
+				id: "0724B223906F365D"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "Can display text or numbers. This would be useful in making elevators too."
 			tasks: [{
-				id: "1111D38EB8ADD96D"
+				id: "14FFE751A099C8E2"
 				item: "create:nixie_tube"
 				type: "item"
 			}]
@@ -1492,9 +1492,9 @@
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
-			id: "150FED9A188B96FA"
+			id: "43F0F86478CDF22B"
 			rewards: [{
-				id: "60D67E1D059E8443"
+				id: "700B4AEAD15FDB81"
 				type: "xp"
 				xp: 50
 			}]
@@ -1502,7 +1502,7 @@
 			size: 1.5d
 			subtitle: "You know those hydraulic presses in real life? This is basically it. Don't put your hand under it."
 			tasks: [{
-				id: "099BDA919F0963B0"
+				id: "7501AE1EB4834CD6"
 				item: "create:mechanical_press"
 				type: "item"
 			}]
@@ -1511,15 +1511,15 @@
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
-			id: "1C93BE0AA7D92A57"
+			id: "25C4305B3DB4DF32"
 			rewards: [{
-				id: "263909CF36B0C01F"
+				id: "7E3378B3A679E929"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "Lets you instantly break most Create blocks by shift + right-clicking. And rotate them by right-clicking."
 			tasks: [{
-				id: "14682AD7701AE55C"
+				id: "519AF5FBEC0797C5"
 				item: "create:wrench"
 				type: "item"
 			}]
@@ -1529,22 +1529,22 @@
 		}
 		{
 			dependencies: ["5FF617620A38A716"]
-			id: "7DA3F568F3FA03CC"
+			id: "53846F5527201534"
 			rewards: [
 				{
-					id: "6BA236487D6F18BA"
+					id: "14F03B4D5B7F45BE"
 					type: "xp"
 					xp: 50
 				}
 				{
 					exclude_from_claim_all: true
-					id: "61BBEFDDFDB65E89"
+					id: "6BC052EC4292A856"
 					type: "random"
 				}
 			]
 			subtitle: "\"A fancier rope pulley\"\\n\\nAllows for the creation of elevators."
 			tasks: [{
-				id: "23736B5254DDB800"
+				id: "68E5B637FC99CB7F"
 				item: "create:elevator_pulley"
 				type: "item"
 			}]
@@ -1554,9 +1554,9 @@
 		{
 			dependencies: ["6CE47960B6FEF89D"]
 			icon: "minecraft:lava_bucket"
-			id: "071B6BF37596BE3A"
+			id: "2818EDAFAFA1EBD5"
 			rewards: [{
-				id: "48BB19930409D127"
+				id: "11817DADFFAF0069"
 				type: "xp"
 				xp: 50
 			}]
@@ -1564,7 +1564,7 @@
 			tasks: [{
 				advancement: "create:hose_pulley_lava"
 				criterion: ""
-				id: "6178D260F3EB788E"
+				id: "36BDE7BFC296E8C9"
 				type: "advancement"
 			}]
 			x: -7.5d
@@ -1572,22 +1572,22 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			id: "22CE181D23B06809"
+			id: "151241E717BC1EA8"
 			rewards: [
 				{
-					id: "771E33926D70FDAA"
+					id: "7C988E3E657FFE12"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5BB1C88FE30D53D4"
+					id: "710BE7962FD03960"
 					type: "random"
 				}
 			]
 			subtitle: "Allows you to stop rotational force coming through when powered by a redstone signal."
 			tasks: [{
-				id: "1D91BE1320BCDEA3"
+				id: "0D1149DE1A38860D"
 				item: "create:clutch"
 				type: "item"
 			}]
@@ -1596,15 +1596,15 @@
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			id: "7068B1AE358262CE"
+			id: "1559B4CDE6E440F7"
 			rewards: [{
-				id: "65D20EB85E9CC3E5"
+				id: "1D396760238F5C26"
 				type: "xp"
 				xp: 100
 			}]
 			subtitle: "An item that allows for increased reach."
 			tasks: [{
-				id: "533519A01981A854"
+				id: "4DB193AB84CE1EAF"
 				item: {
 					Count: 1b
 					id: "create:extendo_grip"
@@ -1619,16 +1619,16 @@
 		}
 		{
 			dependencies: ["2C8EF8E65133D178"]
-			id: "113179AEC1C44A32"
+			id: "132EE15177D66DDA"
 			rewards: [
 				{
-					id: "7FAEF6D875E436FD"
+					id: "02732C0CD3E0829B"
 					type: "xp"
 					xp: 75
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0DBAB12512958176"
+					id: "27F9A8E7D1B9575C"
 					type: "random"
 				}
 			]
@@ -1636,7 +1636,7 @@
 			size: 1.5d
 			subtitle: "A simple machine with massive potential. Can place blocks but also use items on blocks/entities."
 			tasks: [{
-				id: "60B69450EF5ACA88"
+				id: "7C7725940DECCC1F"
 				item: "create:deployer"
 				type: "item"
 			}]
@@ -1645,22 +1645,22 @@
 		}
 		{
 			dependencies: ["5FF617620A38A716"]
-			id: "65E8F2B672361D52"
+			id: "04F552818916FA69"
 			rewards: [
 				{
-					id: "1C516FFA5B1094E3"
+					id: "34FAB2D023121A26"
 					type: "xp"
 					xp: 50
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2EEE90AF77DA65C0"
+					id: "28FE4DC365363112"
 					type: "random"
 				}
 			]
 			subtitle: "Lets you create your own custom functional clock."
 			tasks: [{
-				id: "442264FBDED04A12"
+				id: "6F2E6DCA3EAA4D29"
 				item: "create:clockwork_bearing"
 				type: "item"
 			}]
@@ -1669,15 +1669,15 @@
 		}
 		{
 			dependencies: ["19183F380B49F31C"]
-			id: "5F412619655BF14B"
+			id: "258A2DFB05D51CE2"
 			rewards: [{
-				id: "34328AE2B283DA6B"
+				id: "0737614103E9C10E"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "When placed in front of the Encased Fan this allows it to haunt items.\\n\\nNotably sand into soul sand."
 			tasks: [{
-				id: "098A759E9A5B7DA1"
+				id: "53B697D3C9AC312F"
 				item: "minecraft:soul_campfire"
 				type: "item"
 			}]
@@ -1686,15 +1686,15 @@
 		}
 		{
 			dependencies: ["19183F380B49F31C"]
-			id: "3A129767A60052C1"
+			id: "0B97229911534E13"
 			rewards: [{
-				id: "136116DED9FF2D6B"
+				id: "70CC27D44187DB53"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "When placed in front of the Encased Fan this allows it to smoke items."
 			tasks: [{
-				id: "5B15AA7088183D15"
+				id: "1CB6F09E9CDCF5EC"
 				item: "minecraft:campfire"
 				type: "item"
 			}]
@@ -1703,15 +1703,15 @@
 		}
 		{
 			dependencies: ["19183F380B49F31C"]
-			id: "60AD5F180D5E62EC"
+			id: "38595EDE4D566695"
 			rewards: [{
-				id: "010B024E889AA9A6"
+				id: "2DC3E4840B47130E"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "When placed in front of the Encased Fan this allows it to blast items."
 			tasks: [{
-				id: "1E0B804491A49D01"
+				id: "5B74AF9605E8A5BB"
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
@@ -1720,15 +1720,15 @@
 		}
 		{
 			dependencies: ["19183F380B49F31C"]
-			id: "13D62FD39CEA0B70"
+			id: "071647DB8246DAC0"
 			rewards: [{
-				id: "0EFD1CA2A91273DD"
+				id: "635D999A9257FC91"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "When placed in front of the Encased Fan this allows it to wash items.\\n\\nNotably soul sand into nether quartz."
 			tasks: [{
-				id: "19FCD3D57E22A83A"
+				id: "3E0DF93B8528AE4C"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
@@ -1737,22 +1737,22 @@
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			id: "2FB195477ED75A8E"
+			id: "02DFCE0B6CDCAD40"
 			rewards: [
 				{
-					id: "008B4DD2668A0790"
+					id: "7C4B4834BAA563E6"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "56F4D9794CAA7020"
+					id: "28BB486B8899FBFA"
 					type: "random"
 				}
 			]
 			subtitle: "A block that allows input and output of inventories 1 item at a time.\\n\\nOne thing not mentioned by the ponder is that the funnel can drop items on the ground when placed on an inventory and will only keep 1 item on the ground if it's close enough to the block the item lands on."
 			tasks: [{
-				id: "09D1547B0ACFC750"
+				id: "19AA409A2F31A908"
 				item: "create:andesite_funnel"
 				type: "item"
 			}]
@@ -1761,22 +1761,22 @@
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			id: "067D2E607C97238B"
+			id: "4065967DD42F3159"
 			rewards: [
 				{
-					id: "12C6ABB8D6A58C40"
+					id: "3BD00D771639F75B"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "73B0E925515A2A7F"
+					id: "6CFA85A522F67356"
 					type: "random"
 				}
 			]
 			subtitle: "Tunnels are used to manage the flow of items on belts."
 			tasks: [{
-				id: "6F613D66D836201E"
+				id: "7A82EC93954CAAB0"
 				item: "create:andesite_tunnel"
 				type: "item"
 			}]
@@ -1785,22 +1785,22 @@
 		}
 		{
 			dependencies: ["52C1D5727A82A72F"]
-			id: "5AFF1E5F04E03E66"
+			id: "18982A4CE09A43B7"
 			rewards: [
 				{
-					id: "06A17600E3312EA5"
+					id: "6B58E7AEDCA63E8C"
 					type: "xp"
 					xp: 50
 				}
 				{
 					exclude_from_claim_all: true
-					id: "54601087178F7BDE"
+					id: "728157FE24525DA8"
 					type: "random"
 				}
 			]
 			subtitle: "An upgrade to the andesite tunnel allowing more configurability in how to deal with items."
 			tasks: [{
-				id: "1725D3F2DAFC3D6B"
+				id: "1EC945B7ACC6EBD2"
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
@@ -1809,22 +1809,22 @@
 		}
 		{
 			dependencies: ["7452A3A5599B09AB"]
-			id: "3F69962CC2604FD8"
+			id: "0F9A754C972EF6B9"
 			rewards: [
 				{
-					id: "0C4780D5B9881191"
+					id: "60E3116F2A567AB7"
 					type: "xp"
 					xp: 50
 				}
 				{
 					exclude_from_claim_all: true
-					id: "581D701EFFBF9A10"
+					id: "19AF6C18DE119077"
 					type: "random"
 				}
 			]
 			subtitle: "A more advanced funnel that allows for filtering and higher stack sizes."
 			tasks: [{
-				id: "2953AA394A17D29D"
+				id: "601A5802C26C3023"
 				item: "create:brass_funnel"
 				type: "item"
 			}]
@@ -1833,9 +1833,9 @@
 		}
 		{
 			dependencies: ["39E865F0D72CF9B8"]
-			id: "03A3DA5C5B7B952D"
+			id: "7C54C6D05492A417"
 			rewards: [{
-				id: "71758534A2D4C798"
+				id: "3E512977D5C969DD"
 				type: "xp"
 				xp: 25
 			}]
@@ -1844,7 +1844,7 @@
 			subtitle: "With the power of dried kelp, mechanical belts are useful in moving items either in a straight line and diagonally. Make sure to stick one shaft on each end to connect so it will work."
 			tasks: [{
 				count: 6L
-				id: "51B1466B2846DB35"
+				id: "5018B15F8E8CDB30"
 				item: "create:belt_connector"
 				type: "item"
 			}]
@@ -1854,9 +1854,9 @@
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			id: "58B6C0CA8BB53B38"
+			id: "3182B4280613113D"
 			rewards: [{
-				id: "7ADD8CD7B9DCD821"
+				id: "1288AA6944583CA2"
 				type: "xp"
 				xp: 25
 			}]
@@ -1864,7 +1864,7 @@
 			size: 1.5d
 			subtitle: "A Shaft is another basic but important machinery part that is required to make anything move with rotation. You can also extend the shaft to make it longer and affect more than one contraption that requires rotation."
 			tasks: [{
-				id: "2EF9DF604A0D017D"
+				id: "49A47C05496DF4F1"
 				item: "create:shaft"
 				type: "item"
 			}]
@@ -1874,22 +1874,22 @@
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			id: "2A02E5B75FC2B283"
+			id: "72371C749662D5FE"
 			rewards: [
 				{
-					id: "2819CF36F383AB94"
+					id: "4A2CB2BA915F67A9"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3D72E92C83C981BB"
+					id: "67AB3102B768565D"
 					type: "random"
 				}
 			]
 			subtitle: "Chutes are used to transfer between inventories vertically."
 			tasks: [{
-				id: "7657B43EE5CE42AE"
+				id: "3E8610FF8DD337B6"
 				item: "create:chute"
 				type: "item"
 			}]
@@ -1898,22 +1898,22 @@
 		}
 		{
 			dependencies: ["1CE6DB5F873483AF"]
-			id: "27F5BB342CAFA5AF"
+			id: "7376ED8C174983E9"
 			rewards: [
 				{
-					id: "0EFD50FDF4E27720"
+					id: "7BB84563A8461433"
 					type: "xp"
 					xp: 50
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3D78752C74ECB869"
+					id: "3D35957F295BAC9E"
 					type: "random"
 				}
 			]
 			subtitle: "A more configurable chute."
 			tasks: [{
-				id: "59925F5D70BB9495"
+				id: "1B8413ADF2868C66"
 				item: "create:smart_chute"
 				type: "item"
 			}]
@@ -1922,15 +1922,15 @@
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			id: "3D9A21237FE528AB"
+			id: "7119761F82F8BF4B"
 			rewards: [{
-				id: "364C6BFCB5E81A08"
+				id: "1D5D9CC81FC207F3"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "A basic filter."
 			tasks: [{
-				id: "404BFF37794120C4"
+				id: "13E1B3D4087ACFAB"
 				item: "create:filter"
 				type: "item"
 			}]
@@ -1939,15 +1939,15 @@
 		}
 		{
 			dependencies: ["2A0F7A2AA1C0E9C1"]
-			id: "53C6B4BC2FDCE5E8"
+			id: "0C5090D09B81D417"
 			rewards: [{
-				id: "1B040FA1B9010332"
+				id: "0B34AE7891F1B451"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "A filter that can filter by attributes like \"can be smelted\" or \"from Create\"."
 			tasks: [{
-				id: "15B12E267C11EDAD"
+				id: "798C8C117B0D1F49"
 				item: "create:attribute_filter"
 				type: "item"
 			}]
@@ -1956,15 +1956,15 @@
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			id: "421A0E8FD9FD1B3C"
+			id: "21030D1DB4A65372"
 			rewards: [{
-				id: "36A1BE248B64BCDE"
+				id: "569E1047608E1A2A"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "It's really just a belt that doesn't move."
 			tasks: [{
-				id: "13AAC99B19D8AC39"
+				id: "19443A5276836A0E"
 				item: "create:depot"
 				type: "item"
 			}]
@@ -1973,15 +1973,15 @@
 		}
 		{
 			dependencies: ["07680D1563629D55"]
-			id: "54890AF34F41C1A1"
+			id: "61B9AD81EE27C874"
 			rewards: [{
-				id: "176BC3D691D4D1EA"
+				id: "1377F03BEB3B12DB"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "Weighted Ejectors can throw items accuratly long distances."
 			tasks: [{
-				id: "3BD81E92EE2BC726"
+				id: "61B1BB3091E10D69"
 				item: "create:weighted_ejector"
 				type: "item"
 			}]
@@ -1990,15 +1990,15 @@
 		}
 		{
 			dependencies: ["4206216A5F414642"]
-			id: "2B8A56C99575BED9"
+			id: "79B94B114FFF54A7"
 			rewards: [{
-				id: "260DD4A28FDB12F5"
+				id: "1EC9BD8058A30D2B"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "A multi-block item storage that can't be accessed manually. Not even a door can open it."
 			tasks: [{
-				id: "5FBB8C6779C1DD73"
+				id: "1E48265E4CEF0DB4"
 				item: "create:item_vault"
 				type: "item"
 			}]
@@ -2008,12 +2008,12 @@
 		{
 			dependencies: ["1742597D48E37800"]
 			icon: "minecraft:redstone"
-			id: "2F66DD9CAC9352F8"
+			id: "3EA92FCE82C03792"
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Okay, I may be exaggerating a little, but redstone also plays a vital role to Create that the blocks in here make redstone contraptions more compact but also a bit more complicated, have fun studying."
 			tasks: [{
-				id: "72FB1C051C1E9730"
+				id: "33688C39FF925AE3"
 				type: "checkmark"
 			}]
 			title: "Redstone + Create = Complicated"
@@ -2022,11 +2022,11 @@
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			id: "24E85DE72759E287"
+			id: "4846B96ACAC7105F"
 			shape: "gear"
 			subtitle: "Terminoloy:\\n\\nStress Units(SU) a number that describes how much stress something generates or requires to run.\\n\\n"
 			tasks: [{
-				id: "1668B362A572D02B"
+				id: "51AEA093335A98AC"
 				type: "checkmark"
 			}]
 			title: "I'm so stressed! I need to measure it!"
@@ -2035,12 +2035,12 @@
 		}
 		{
 			dependencies: ["410BEC9893112A43"]
-			id: "476E9C8078100AD2"
+			id: "05E5404B6205873A"
 			shape: "gear"
 			size: 1.5d
 			subtitle: "The Gearbox is sort of like an extension cord, but for shafts where it can change the direction of the shafts and can have more than one shaft attached in a different side of the gearbox. A vertical gearbox also exists."
 			tasks: [{
-				id: "65B62B787FB4B119"
+				id: "056E203471B8DBCB"
 				item: "create:gearbox"
 				type: "item"
 			}]
@@ -2049,22 +2049,22 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			id: "55EDB76932051D4A"
+			id: "65FFED7EC8C3F4D8"
 			rewards: [
 				{
-					id: "4155C5485F87143B"
+					id: "523FFB517F9F0B85"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "18B1FE4B070E0EF7"
+					id: "59763B8E6BF8C304"
 					type: "random"
 				}
 			]
 			subtitle: "Can be used to halve or double the rotational speed of connected chaindrives when recieving a redstone signal."
 			tasks: [{
-				id: "0F00E595C923CF78"
+				id: "1E20D0A2B7EEB528"
 				item: "create:adjustable_chain_gearshift"
 				type: "item"
 			}]
@@ -2073,22 +2073,22 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			id: "69408543B1E9A753"
+			id: "50A4D2D025BE3D08"
 			rewards: [
 				{
-					id: "164822F85ADBB462"
+					id: "3E5C9213894FD2CB"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0E4D0CF6C9805534"
+					id: "2313BC1098F6C2B6"
 					type: "random"
 				}
 			]
 			subtitle: "Lets you reverse the direction of rotation by applying redstone."
 			tasks: [{
-				id: "0B1E027A348D7344"
+				id: "657EB8F6B71AD4A1"
 				item: "create:gearshift"
 				type: "item"
 			}]
@@ -2097,22 +2097,22 @@
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
-			id: "03DC30EE74D3262C"
+			id: "023504E60A19B672"
 			rewards: [
 				{
-					id: "5C0BF5731A58F6AB"
+					id: "168D0B9C3CBFC432"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1DA1E33E36C90538"
+					id: "6C2DDC57D1E798C6"
 					type: "random"
 				}
 			]
 			subtitle: "Allows for multiple paralell rotational outputs."
 			tasks: [{
-				id: "0DD6E1807F85E190"
+				id: "718E965B6C92A5F6"
 				item: "create:encased_chain_drive"
 				type: "item"
 			}]
@@ -2121,22 +2121,22 @@
 		}
 		{
 			dependencies: ["5FF617620A38A716"]
-			id: "29A64386683A1ADE"
+			id: "44FE08B280E2F90D"
 			rewards: [
 				{
-					id: "3E56E3C057CBF971"
+					id: "232977D28AC8E8C4"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1E78C5C8399EF942"
+					id: "24175F1CD79E5387"
 					type: "random"
 				}
 			]
 			subtitle: "Lets you turn off parts of contraptions while they are formed."
 			tasks: [{
-				id: "71E937A9C1567842"
+				id: "56778515D3E68365"
 				item: "create:contraption_controls"
 				type: "item"
 			}]
@@ -2145,9 +2145,9 @@
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
-			id: "1EB205303EC468AB"
+			id: "63509430599F866A"
 			rewards: [{
-				id: "2412E387B81EAEE5"
+				id: "2C33AF092DBA86D1"
 				type: "xp"
 				xp: 100
 			}]
@@ -2155,7 +2155,7 @@
 			size: 1.5d
 			subtitle: "As the name implies this item allows you to glue blocks together. Perticularly useful when making contraptions. Good thing we don't have fingers or the glue will stick to our hands... wait."
 			tasks: [{
-				id: "4AE545DB47AE6BC5"
+				id: "196CD640A255C989"
 				item: {
 					Count: 1b
 					id: "create:super_glue"
@@ -2170,22 +2170,22 @@
 		}
 		{
 			dependencies: ["5FF617620A38A716"]
-			id: "0708B37243C40077"
+			id: "2FD634D3B16CBBA0"
 			rewards: [
 				{
-					id: "7777676B4A12CF56"
+					id: "3F889AAAA526AF09"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "338C16669FD8FC76"
+					id: "49D1789AAB74C551"
 					type: "random"
 				}
 			]
 			subtitle: "Allows for the creation of contraptions that move up and down."
 			tasks: [{
-				id: "32B5FD3AD1C6F250"
+				id: "6715F9EB172E6755"
 				item: "create:rope_pulley"
 				type: "item"
 			}]
@@ -2194,22 +2194,22 @@
 		}
 		{
 			dependencies: ["5FF617620A38A716"]
-			id: "7D7201C509C8F1CF"
+			id: "5E9CFD2A77EAA3D8"
 			rewards: [
 				{
-					id: "16501FA03FE3C427"
+					id: "75EAA6ABA58ACCEE"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "761CD59B233BAB49"
+					id: "17E45F482A85D4D4"
 					type: "random"
 				}
 			]
 			subtitle: "Allows for contraptions that traverse rails in the same way minecarts do."
 			tasks: [{
-				id: "50FEE42BDBC68F30"
+				id: "4FE0C47FF6D70F40"
 				item: "create:cart_assembler"
 				type: "item"
 			}]
@@ -2218,22 +2218,22 @@
 		}
 		{
 			dependencies: ["5FF617620A38A716"]
-			id: "269612A2FC58E51A"
+			id: "56373330836BA775"
 			rewards: [
 				{
-					id: "3B7BB961C9B2BB17"
+					id: "45069084BBC5E616"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "361E157D043AC8E8"
+					id: "255139B3EE420DFA"
 					type: "random"
 				}
 			]
 			subtitle: "Allows for contraptions that rotate around a point in space, particularly useful for farms."
 			tasks: [{
-				id: "6D7D0F7841AB767B"
+				id: "55F0A9B5319E251E"
 				item: "create:mechanical_bearing"
 				type: "item"
 			}]
@@ -2242,22 +2242,22 @@
 		}
 		{
 			dependencies: ["5FF617620A38A716"]
-			id: "309FEF7D3E8F33D9"
+			id: "4162C78B9265B7ED"
 			rewards: [
 				{
-					id: "71E2A0F7BE1EE52C"
+					id: "109561B20585B5EE"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1B45DF2CA84F8D2D"
+					id: "0B7FBD17C6AEA008"
 					type: "random"
 				}
 			]
 			subtitle: "Allows for movement of structures linearly using rotational force."
 			tasks: [{
-				id: "4718BD0B73C74807"
+				id: "5CF7A1876433C8A1"
 				item: {
 					Count: 1b
 					id: "itemfilters:or"
@@ -2284,28 +2284,28 @@
 		{
 			dependencies: ["5FF617620A38A716"]
 			icon: "create:gantry_carriage"
-			id: "63B32EE05698DD06"
+			id: "432F9A359576733E"
 			rewards: [
 				{
-					id: "118EE13F453B1236"
+					id: "5A683D302DF3F0E7"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3EB6AAA7303D01AD"
+					id: "6E82EE70D804F495"
 					type: "random"
 				}
 			]
 			subtitle: "Allows for contraptions that move across gantries."
 			tasks: [
 				{
-					id: "7773669F76B0C57F"
+					id: "25BEADCA211B710C"
 					item: "create:gantry_carriage"
 					type: "item"
 				}
 				{
-					id: "57FB85F84CC912E4"
+					id: "717DBD92FB440A14"
 					item: "create:gantry_shaft"
 					type: "item"
 				}
@@ -2315,22 +2315,22 @@
 		}
 		{
 			dependencies: ["5FF617620A38A716"]
-			id: "4DB5032505DDF57E"
+			id: "2DB3948541DD78E1"
 			rewards: [
 				{
-					id: "5D67A140F15D5A95"
+					id: "313346BBB540C33B"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "144730F17BE0DBD0"
+					id: "0963B59BB01592BF"
 					type: "random"
 				}
 			]
 			subtitle: "A useful block for building contraptions."
 			tasks: [{
-				id: "28101FF57BA8E308"
+				id: "6371152A8EA39315"
 				item: "create:radial_chassis"
 				type: "item"
 			}]
@@ -2339,22 +2339,22 @@
 		}
 		{
 			dependencies: ["5FF617620A38A716"]
-			id: "66AC2F685D35F87D"
+			id: "506BB7868CFDFC07"
 			rewards: [
 				{
-					id: "63E450D1F3F2468C"
+					id: "709969DFBD3DE64E"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0E0048A09B0E68E2"
+					id: "64F53800672EED96"
 					type: "random"
 				}
 			]
 			subtitle: "Sticks to blocks when powered by redstone."
 			tasks: [{
-				id: "10004E031EFC3FD3"
+				id: "1BD2FDE3ECD8EC89"
 				item: "create:sticker"
 				type: "item"
 			}]
@@ -2364,16 +2364,16 @@
 		{
 			dependencies: ["1742597D48E37800"]
 			icon: "create:schematicannon"
-			id: "116B636F24468788"
+			id: "5B370F86FCF038ED"
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "311A9BC23095D433"
+					id: "5BC630619D2140C5"
 					type: "random"
 				}
 				{
 					count: 8
-					id: "757FD725EF9B7835"
+					id: "241BFD0698988461"
 					item: "minecraft:gunpowder"
 					type: "item"
 				}
@@ -2382,17 +2382,17 @@
 			subtitle: "Ooh, this is a fun contraption! Okay, so this thing is used to build your structures automatically, provided that you have a structure printed out in your schematic paper. You just need to prepare gunpowder and a storage unit with the required materials to build what you want. Also use a clipboard, will ya? It'll take note of the materials for you."
 			tasks: [
 				{
-					id: "127E7E1D27360E34"
+					id: "570CF2AC959E2BAE"
 					item: "create:schematicannon"
 					type: "item"
 				}
 				{
-					id: "11CFAA405AB3EC7C"
+					id: "0EB22DD3243852D9"
 					item: "create:schematic_table"
 					type: "item"
 				}
 				{
-					id: "4E96FA2219CA1BB4"
+					id: "5CF6315E2419F4FE"
 					item: "create:empty_schematic"
 					type: "item"
 				}
@@ -2403,16 +2403,16 @@
 		{
 			dependencies: ["666E9828756ADB0C"]
 			icon: "create:mechanical_pump"
-			id: "6CB9ED792CC2F58B"
+			id: "1CC01CEC2D96AD8B"
 			rewards: [
 				{
-					id: "6EC4F348E3143415"
+					id: "2E93BF8F7F2BAFC3"
 					type: "xp"
 					xp: 25
 				}
 				{
 					count: 6
-					id: "18C521F1CF179052"
+					id: "281CA180597DEC4F"
 					item: "create:fluid_pipe"
 					type: "item"
 				}
@@ -2420,12 +2420,12 @@
 			subtitle: "Since most blocks in Create don't allow for manual extraction and insertion of liquids these pipes are rather useful.\\n\\nCan also be used to create infinite water by extracting from a source-block that has 2 source-blocks adjacent to it."
 			tasks: [
 				{
-					id: "50F6EE940A3411EB"
+					id: "7C4A7DE00151D939"
 					item: "create:mechanical_pump"
 					type: "item"
 				}
 				{
-					id: "6CCAB17C87F026F7"
+					id: "1D688F22BD4D038A"
 					item: "create:fluid_pipe"
 					type: "item"
 				}
@@ -2435,22 +2435,22 @@
 		}
 		{
 			dependencies: ["666E9828756ADB0C"]
-			id: "1027110E3C98A770"
+			id: "731F564CB94DABC1"
 			rewards: [
 				{
-					id: "590D824CC3DBE4A6"
+					id: "15F6AC667EFA4F15"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "70A6EC4B4819EBCD"
+					id: "6E7E50DD583183AA"
 					type: "random"
 				}
 			]
 			subtitle: "The main block used for bulk fluid storage."
 			tasks: [{
-				id: "35FFD8D34FAFE10D"
+				id: "79F2CAFA303426FA"
 				item: "create:fluid_tank"
 				type: "item"
 			}]
@@ -2459,15 +2459,15 @@
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			id: "7C83A21494A25381"
+			id: "08EE6D87BE13AC39"
 			rewards: [{
-				id: "698A0335F430B9D7"
+				id: "58D844E92EEA6821"
 				type: "xp"
 				xp: 10
 			}]
 			subtitle: "It's just a seat, nothing more, nothing less. But if you're in a moving contraption, might as well glue it to the contraption so you can sit and move along with it. Don't superglue yourself to the seat."
 			tasks: [{
-				id: "342F2C26774A2241"
+				id: "6B39380170E83959"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
@@ -2484,15 +2484,15 @@
 		}
 		{
 			dependencies: ["39E865F0D72CF9B8"]
-			id: "575ADAC93D18DE39"
+			id: "38834152C22DC65B"
 			rewards: [{
-				id: "1F214C595E0B861C"
+				id: "3FB41FAD4B8AE918"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "Cogwheels are used to either increase rotational speed or to extend contraptions depending on the way they're facing. Play around with the sizes of the cogwheels and see what you can make out of them."
 			tasks: [{
-				id: "29FE11B4A56549F1"
+				id: "3C6FC4EAA28B79F9"
 				item: {
 					Count: 1b
 					id: "itemfilters:or"
@@ -2518,16 +2518,16 @@
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
-			id: "24FCA48DE0B936CA"
+			id: "472145310740EABE"
 			rewards: [{
-				id: "1F067BB40A75C06E"
+				id: "73E2266DE3647845"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "circle"
 			subtitle: "Essential for any person working with Create. Allows you to see more information about blocks like stress impact."
 			tasks: [{
-				id: "26A2A4C85767F133"
+				id: "5E76AC11CE7614B5"
 				item: "create:goggles"
 				type: "item"
 			}]
@@ -2536,15 +2536,15 @@
 		}
 		{
 			dependencies: ["2C8EF8E65133D178"]
-			id: "5F0B10AA86B4CFAD"
+			id: "61516FAF0256A1AD"
 			rewards: [{
-				id: "4D86F72C06463096"
+				id: "71EE4CE3077CBF07"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "Ever wanted to pipe liquids into your blaze burners? Just hand them a straw and they'll slurp it straight from the pipe.\\n\\nYou can press 'U' on the straw to see what liquids it accepts as well as burn times."
 			tasks: [{
-				id: "280630E26BBFE457"
+				id: "5D5DBF91C8986651"
 				item: "createaddition:straw"
 				type: "item"
 			}]
@@ -2553,22 +2553,22 @@
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			id: "7B97F80FCB3536FD"
+			id: "1839EDC320A534E4"
 			rewards: [
 				{
-					id: "6E740B442042D388"
+					id: "0663281CB7E8EF48"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "78E65432EF69E078"
+					id: "72331B3623490BF6"
 					type: "random"
 				}
 			]
 			subtitle: "A motor that converts energy(E) into kinetic energy(SU) at any rpm."
 			tasks: [{
-				id: "2491AC402C9CBA15"
+				id: "5D50636571E6BBAE"
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
@@ -2577,15 +2577,15 @@
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			id: "61820BA1A48C7959"
+			id: "1D436CD598DF2024"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "0D5EC4383A7F0FE5"
+				id: "23A3AFE01168CB61"
 				type: "random"
 			}]
 			subtitle: "Generates energy(E) from kinetic energy, the amount generated is dependent on the rpm and caps at 256E/t"
 			tasks: [{
-				id: "23DCC6A0C267670A"
+				id: "4CFC0B1448DD830A"
 				item: "createaddition:alternator"
 				type: "item"
 			}]
@@ -2594,22 +2594,22 @@
 		}
 		{
 			dependencies: ["2C3CD6663D38750A"]
-			id: "660255302987B833"
+			id: "24234D10050A4A9A"
 			rewards: [
 				{
-					id: "065CDBC65232E2AA"
+					id: "2D318A5CE9A75764"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "31C373F96910DCFD"
+					id: "560951A1A640C55D"
 					type: "random"
 				}
 			]
 			subtitle: "Crafts plates into rods and rods into wires."
 			tasks: [{
-				id: "75D46FAADA9C359C"
+				id: "494403DCD04AE07D"
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
@@ -2618,22 +2618,22 @@
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
-			id: "49C448496991F4D3"
+			id: "6B948C191BF0B67B"
 			rewards: [
 				{
-					id: "170C21250AF5A8AA"
+					id: "7AA3D907C7D302D3"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1E05B39E37BF44E8"
+					id: "58C16AEA68BB8615"
 					type: "random"
 				}
 			]
 			subtitle: "Lets you charge certain items."
 			tasks: [{
-				id: "790415EA21BD00B7"
+				id: "4E1E3A6D356E0D19"
 				item: "createaddition:tesla_coil"
 				type: "item"
 			}]
@@ -2642,22 +2642,22 @@
 		}
 		{
 			dependencies: ["67B3D0A82F1BB3EA"]
-			id: "6ADAED9C782F892F"
+			id: "5B54231AA4294620"
 			rewards: [
 				{
-					id: "0941D1C8342CDE84"
+					id: "12456B9C91E59758"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "35AC6B4F8B9D1F5E"
+					id: "6B84C9F8657E5668"
 					type: "random"
 				}
 			]
 			subtitle: "A multi-block structure that lets you store large amounts of energy."
 			tasks: [{
-				id: "644784CF69C6712F"
+				id: "0F7309FDC7F17581"
 				item: "createaddition:modular_accumulator"
 				type: "item"
 			}]
@@ -2667,21 +2667,21 @@
 		{
 			dependencies: ["152333F57A5C1913"]
 			icon: "createaddition:connector"
-			id: "7F3F575490373FC0"
+			id: "0E1C268ECC7E46E8"
 			rewards: [{
-				id: "018A779FF84C3A3F"
+				id: "432C4807DE68E680"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "Connectors insert/extract energy from/into blocks and wires are used to connect between connectors."
 			tasks: [
 				{
-					id: "034AF2101684BE18"
+					id: "5A53B24EB14EE681"
 					item: "createaddition:connector"
 					type: "item"
 				}
 				{
-					id: "4659C0690EE3C8CE"
+					id: "07A1D8AC61C1B3BF"
 					item: {
 						Count: 1b
 						id: "itemfilters:or"
@@ -2711,15 +2711,15 @@
 		}
 		{
 			dependencies: ["1ABC2ADBFEF3144D"]
-			id: "58DBF85B21F2E29E"
+			id: "6E591C3140B3AEE3"
 			rewards: [{
-				id: "0091A269C688D964"
+				id: "4B77883ACF45E9EA"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "A redstone component that only allows energy(E) to flow when it's receiving a redstone signal."
 			tasks: [{
-				id: "044E810A7484C2F6"
+				id: "501E42AF79F99168"
 				item: "createaddition:redstone_relay"
 				type: "item"
 			}]
@@ -2728,15 +2728,15 @@
 		}
 		{
 			dependencies: ["408D9361AF8AA499"]
-			id: "76BE44A81B5394F8"
+			id: "13851513A6A0BC95"
 			rewards: [{
-				id: "7F7F9DC6793EC647"
+				id: "1526C5C603626C85"
 				type: "xp"
 				xp: 100
 			}]
 			subtitle: "Conductors allow you to activate redstone whilst looking at them and can also carry your toolbox around."
 			tasks: [{
-				id: "2ACC42B1FFC33E22"
+				id: "6D287A798A270EF5"
 				item: {
 					Count: 1b
 					id: "itemfilters:or"
@@ -2834,14 +2834,14 @@
 		}
 		{
 			dependencies: ["282E21725CEBD4F2"]
-			id: "030C476446479313"
+			id: "3C32863F5C1F16A3"
 			rewards: [{
-				id: "3BD7FC6DB42B8067"
+				id: "32F7FD015FB514AC"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "669D65BA0725DF12"
+				id: "7CE653510EF96A69"
 				item: "railways:conductor_whistle"
 				type: "item"
 			}]
@@ -2850,15 +2850,15 @@
 		}
 		{
 			dependencies: ["282E21725CEBD4F2"]
-			id: "57278BFF5D3BFFA1"
+			id: "45E15FC9D21DD990"
 			rewards: [{
-				id: "48354E58F6F3141C"
+				id: "118EA2AE541DF2CE"
 				type: "xp"
 				xp: 50
 			}]
 			subtitle: "Lets you see through the eyes of a conductor as well as control their movement."
 			tasks: [{
-				id: "249938BE0B6936D5"
+				id: "1CE889B72B7D2B6C"
 				item: "railways:remote_lens"
 				type: "item"
 			}]
@@ -2867,22 +2867,22 @@
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			id: "6B7979DD9F4DE58B"
+			id: "77087FE96F3C2706"
 			rewards: [
 				{
-					id: "3A490B04E6804E72"
+					id: "2ACA143F3BA178F0"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2E4B49C87C3A1FF1"
+					id: "49D79C5AB3715F1D"
 					type: "random"
 				}
 			]
 			subtitle: "Used to visualise and control which direction trains go in intersections."
 			tasks: [{
-				id: "140E757C4E54DD63"
+				id: "480F541F7823638E"
 				item: "railways:track_switch_andesite"
 				type: "item"
 			}]
@@ -2891,22 +2891,22 @@
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			id: "4FC94574EECA3C16"
+			id: "46398561C4BB2A47"
 			rewards: [
 				{
-					id: "3B99617164F2B62D"
+					id: "068C096D68CF4399"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "331F1BB531658EFF"
+					id: "520D3E3DB45C84BE"
 					type: "random"
 				}
 			]
 			subtitle: "Same as the Andesite Track Switch but also allows for switching for scheduled trains."
 			tasks: [{
-				id: "7ABF14E6D477FE59"
+				id: "3365CB651478D46F"
 				item: "railways:track_switch_brass"
 				type: "item"
 			}]
@@ -2915,22 +2915,22 @@
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			id: "25468F6BF4DD1850"
+			id: "528550ABF961863D"
 			rewards: [
 				{
-					id: "6612FE898E105EA6"
+					id: "50D16F1175E294A5"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1024F8607B5B086F"
+					id: "6877467CF47EFAA4"
 					type: "random"
 				}
 			]
 			subtitle: "Lets you couple and decouple trains without dissasembly."
 			tasks: [{
-				id: "25FFF2FF90914B8A"
+				id: "0FD4F6BEB7667909"
 				item: "railways:track_coupler"
 				type: "item"
 			}]
@@ -2939,22 +2939,22 @@
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
-			id: "68C84950E38D6C79"
+			id: "301A4FA7AA4DA67A"
 			rewards: [
 				{
-					id: "2433C3E71DB27709"
+					id: "749362458901F4AD"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4C1DEC06A3D9AA1D"
+					id: "7A1D81072206C130"
 					type: "random"
 				}
 			]
 			subtitle: "Used to visualise valid paths for trains."
 			tasks: [{
-				id: "16623E5EB9419AE3"
+				id: "18745E5B8C93B377"
 				item: "railways:semaphore"
 				type: "item"
 			}]
@@ -2963,21 +2963,21 @@
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
-			id: "0750925CA05D5302"
+			id: "4351E7AE8CFCCD83"
 			rewards: [{
-				id: "79B11B38DB19682D"
+				id: "39480730E039F434"
 				type: "xp"
 				xp: 25
 			}]
 			subtitle: "Copycat blocks allow you to make steps and panels out of things that typically cannot take those shapes."
 			tasks: [
 				{
-					id: "2ACC41D19A86521C"
+					id: "120658D2046E1EDB"
 					item: "create:copycat_panel"
 					type: "item"
 				}
 				{
-					id: "6A730401C32C6D20"
+					id: "112394B5C3449B6B"
 					item: "create:copycat_step"
 					type: "item"
 				}
@@ -3000,16 +3000,16 @@
 					Icon: "allofcreate:textures/logo_full.png"
 				}
 			}
-			id: "5BEAB823C55AB59D"
+			id: "7257D03FD7661F30"
 			rewards: [
 				{
 					count: 10
-					id: "64AEDFD5F532C39A"
+					id: "7FC107322A387842"
 					item: "farmersdelight:fried_rice"
 					type: "item"
 				}
 				{
-					id: "7E533CA758C6CB16"
+					id: "7E7037D688D8DE30"
 					type: "xp"
 					xp: 10
 				}
@@ -3018,7 +3018,7 @@
 			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [{
-				id: "036497203057F557"
+				id: "4D0588D69F1399D1"
 				title: "Continue"
 				type: "checkmark"
 			}]

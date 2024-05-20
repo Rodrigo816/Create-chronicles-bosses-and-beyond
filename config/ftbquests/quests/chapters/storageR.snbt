@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "storageR"
-	group: "4546D7737CBFFD68"
+	group: ""
 	icon: "minecraft:chest"
 	id: "0A3CB77AE4541C08"
 	images: [{
@@ -17,7 +17,7 @@
 		x: 4.5d
 		y: -8.0d
 	}]
-	order_index: 11
+	order_index: 25
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1367,7 +1367,7 @@
 		{
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "4C2A60FC1F1E0328"
 			optional: true
 			rewards: [{

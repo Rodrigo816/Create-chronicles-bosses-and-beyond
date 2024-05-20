@@ -1,0 +1,5829 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create101"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1b
+		id: "create:wrench"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	id: "100C477F4E63F20A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "create:item/andesite_alloy"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "create:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -22.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "create:textures/item/copper_ingot.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create_enchantment_industry:item/experience_rotor"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:block/enchanting_table_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create_enchantment_industry:item/enchanting_guide"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/redstone_torch"
+			rotation: 2.0d
+			width: 1.0d
+			x: -20.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "create:item/brass_ingot"
+			rotation: 0.0d
+			width: 1.25d
+			x: 18.0d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create:item/track"
+			rotation: 0.0d
+			width: 2.0d
+			x: 31.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create:item/clipboard"
+			rotation: 0.0d
+			width: 2.0d
+			x: -18.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:item/pixie_wings"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 35.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create_things_and_misc:item/train_stop_item"
+			rotation: 0.0d
+			width: 2.0d
+			x: 43.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			color: 16737894
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:textures/entity/banner/flags/cross.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 43.7d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -12.0d
+			y: 3.8d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "createaddition:item/chocolate_cake"
+			rotation: 0.0d
+			width: 1.7d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create_central_kitchen:item/cooking_guide"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/lava_bucket"
+			rotation: 0.0d
+			width: 1.0d
+			x: 35.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/coal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 36.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "numismatics:item/banking_guide"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create:item/schedule"
+			rotation: 0.0d
+			width: 2.0d
+			x: 38.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftblibrary:icons/money_bag"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 5.5d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2EB9D59CA0F2E258"]
+			id: "4B398174367A3579"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "2491036B764D2148"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "03D0DE569472411E"
+				item: "create_confectionery:gingerdough"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4B398174367A3579"]
+			id: "094902575F4ACA3E"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "355B14D7FFAECE9A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45DE26C9393EADC4"
+				item: "create_confectionery:gingerbread"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4B398174367A3579"]
+			id: "060209AE355ECD66"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "746C6D18D4FAB68A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FE7D32CE32782BA"
+				item: "create_confectionery:gingerbread_man"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2EB9D59CA0F2E258"]
+			id: "3DB3B4B7241B8B07"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "456D7F516603CF48"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2F339F6DD33F16AB"
+				item: "create_confectionery:crushed_cocoa"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3DB3B4B7241B8B07"]
+			id: "7C27C9116E7B2F52"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "5EAA987730589F96"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2CD99832D76EBB1F"
+				item: "create_confectionery:cocoa_powder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3DB3B4B7241B8B07"]
+			id: "7FB64B1971FB8927"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "06035C6460573C73"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "42F95851E66770AC"
+				item: "create_confectionery:cocoa_butter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7C27C9116E7B2F52"]
+			id: "6082997B781AD4B4"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "2D3D984A73E8A43E"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "541ACA4ABAB09B48"
+				item: "create_confectionery:hot_chocolate_bottle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FB64B1971FB8927"]
+			id: "4BD75B6FBDD9B1BE"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "250AB1363017E9B5"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7CF9632EC46A9F1A"
+				item: "create_confectionery:bar_of_black_chocolate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7FB64B1971FB8927"]
+			id: "095D07B9E0427A50"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "756CBA25E0F71974"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4E582B6460A3BDB2"
+				item: "create_confectionery:bar_of_white_chocolate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["095D07B9E0427A50"]
+			id: "50E7243CC9CEFECB"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "20C9FDF462C3C3F7"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7279ED51EBAEB858"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_white_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["095D07B9E0427A50"]
+			id: "2D8A5D0E7560006B"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "1D42F37BDAA61956"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D64CE70821694EE"
+				item: "create_confectionery:chocolate_candy_1"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["095D07B9E0427A50"]
+			id: "24061F1676DB5303"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "084E4694031FB4BA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EFE026035815363"
+				item: "create_confectionery:black_chocolate_candy_2"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["095D07B9E0427A50"]
+			id: "554A7C2B524EFD31"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "3E1CADEF2C53FCB2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A018C737570CAA7"
+				item: "create_confectionery:ruby_chocolate_candy_2"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4BD75B6FBDD9B1BE"]
+			id: "76A98746E39B4556"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "577D6D2DC74949C3"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "065E9FF5C04C8EB7"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_black_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4BD75B6FBDD9B1BE"]
+			id: "0E0A7BEF1AAEBE52"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "3F75316364846EC9"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "416A55F263B98702"
+				item: "create_confectionery:chocolate_candy_2"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4BD75B6FBDD9B1BE"]
+			id: "192D28B103616DCE"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "20F95E5EB3C067E6"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5267478D53D56FE8"
+				item: "create_confectionery:ruby_chocolate_candy_3"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4BD75B6FBDD9B1BE"]
+			id: "70670E72A6804899"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "6EB7DA2F971992D6"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EA318C996034D75"
+				item: "create_confectionery:white_chocolate_candy_2"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2EB9D59CA0F2E258"]
+			id: "009C8266D3397EDD"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "53755E74170E4944"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0C627804A0F434E3"
+				item: "create_confectionery:bar_of_caramel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2EB9D59CA0F2E258"]
+			id: "1623BFE6F0358514"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "1BC022CEB7BA2841"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "5D017CBBC2016A89"
+				item: "create_confectionery:bar_of_ruby_chocolate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["009C8266D3397EDD"]
+			id: "1B5961E38D1EF437"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "32384D46074C9504"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C7D7B9D86CA37AB"
+				item: "create_confectionery:black_chocolate_candy"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["009C8266D3397EDD"]
+			id: "4078EE3978C7DA63"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "23B47755F22954DB"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FBF6D3E77F70643"
+				item: "create_confectionery:white_chocolate_candy"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["009C8266D3397EDD"]
+			id: "497012672E08C1DF"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "0F354603B1EC24D3"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21348E5DCFEC99D8"
+				item: "create_confectionery:ruby_chocolate_candy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1623BFE6F0358514"]
+			id: "2A65A13409644A80"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "6ECB195AD5944F84"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3204727126D639DC"
+				item: "create_confectionery:black_chocolate_candy_3"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1623BFE6F0358514"]
+			id: "6A572B783042F91C"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "59D126C01EB12DCA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C0C35C97C7C025F"
+				item: "create_confectionery:white_chocolate_candy_3"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1623BFE6F0358514"]
+			id: "7E5C0473A59D2864"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "171A9C30FF418FF9"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "174D74DAD8E8E3B4"
+				item: "create_confectionery:chocolate_candy_3"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6082997B781AD4B4"]
+			id: "4273D72893AF02CC"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "49001E842C0288B5"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B90169AECE2FE31"
+				item: "create_confectionery:soothing_hot_chocolate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2EB9D59CA0F2E258"]
+			id: "157141883F4CCFDD"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "0BFCBB67D339CB10"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "211A88B24E7316D5"
+				item: "create_confectionery:marshmallow"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["157141883F4CCFDD"]
+			id: "65C17DD51C3D8807"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "584DDE1E2D8D6F05"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53D5F6CD00D23B34"
+				item: "create_confectionery:marshmallow_on_a_stick"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["157141883F4CCFDD"]
+			id: "5D0B40C1B8AA4BA1"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "4431EA86FA1D3AFA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "029F66EED509733F"
+				item: "create_confectionery:black_chocolate_glazed_marshmallow"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["157141883F4CCFDD"]
+			id: "4AE61C6DF39ABCDF"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "1023BB9772D62893"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "672E1A31B2916CA6"
+				item: "create_confectionery:chocolate_glazed_marshmallow"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["157141883F4CCFDD"]
+			id: "4BBFAB77FC259BF6"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "641FE3B7451EE68E"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "076B6257FB241F25"
+				item: "create_confectionery:white_chocolate_glazed_marshmallow"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["157141883F4CCFDD"]
+			id: "7E1B009A0960A615"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "3029CD82EF282A80"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7464FB9D4176C3D7"
+				item: "create_confectionery:ruby_chocolate_glazed_marshmallow"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["65C17DD51C3D8807"]
+			id: "1BB9D477D648D1DE"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "099DDD868179AF0C"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B14A71A1E2C89A2"
+				item: "create_confectionery:caramelized_marshmellow_on_a_stick"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2EB9D59CA0F2E258"]
+			id: "2CB16315943406FD"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "656C45C48C66334D"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E5DA89BDE286430"
+				item: "create_confectionery:candy_cane"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2EB9D59CA0F2E258"]
+			id: "0B6EB76152CD649D"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "68149AC454045FDB"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B342C84DEE10100"
+				item: "create_confectionery:honey_candy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D3706462A81436B"]
+			description: [
+				"&6Create Confectionery&r adds a variety of sweet treats and desserts to your Minecraft world. "
+				""
+				"Most of these foods &nprovide useful bonuses.&r"
+			]
+			icon: "create_confectionery:gingerbread_man"
+			id: "2EB9D59CA0F2E258"
+			rewards: [{
+				count: 5
+				id: "6FA9EA3B5740A281"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A1E526216EDD7A3"
+				type: "checkmark"
+			}]
+			title: "&dCreate Confectionery"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1623BFE6F0358514"]
+			id: "6388708F62962B13"
+			rewards: [{
+				count: 5
+				id: "2BF9F9DA27A1A8A8"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32F9113B9DA5FCE1"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_ruby_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["786AB222D8752609"]
+			id: "16A26F15B86076FD"
+			rewards: [{
+				count: 5
+				id: "20CC13968F96219F"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26F72540DBF42D16"
+				item: {
+					Count: 1b
+					id: "create_confectionery:full_chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2EB9D59CA0F2E258"]
+			id: "786AB222D8752609"
+			rewards: [{
+				count: 5
+				id: "552748599BB4B9B5"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "222C20E2FBF322E5"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&6&lWelcome to Create!"
+				""
+				"This chapter is entirely optional and serves as an introduction to the Create mod, teaching you what it has to offer. "
+				""
+				"While it doesn't cover every item, it highlights the important things to get you started. "
+				""
+				"Some items won't be craftable right away, so follow the progression chapters."
+				""
+				"Each chapter unlocks new content as you progress. Use this chapter as a tutorial and guide. "
+				""
+				"&a&nThe quest rewards will also help you in the early game.&r&r"
+				""
+				"&l&nGetting Help&r&r"
+				""
+				"-> &6Ponder:&r If you have doubts about any blocks or items, hold 'W' to ponder and see an amazing 3D in-game wiki!"
+				""
+				"-> &6Recipes:&r Hover over an item in an inventory (or in a Quest) and press 'R' to find out how to make it, or press 'U' to find what recipes it's used in."
+				""
+				"&l&nKey Concepts&r&r"
+				""
+				"-> &6Stress Units (SU):&r Generators can only supply so much energy, or \"Stress Units,\" to a system of appliances before they're overwhelmed."
+				""
+				"-> &6Rotational Speed (RPM):&r Things spin at certain speeds, or 'RPM'. Machines use more Stress Units when they're supplied with higher RPMs."
+				""
+				"-> &6Contraptions:&r Contraptions are builds that can move, either rotationally with Bearings, linearly with Pistons or Gantries, or on rails with Minecarts or Trains. Many appliances are automatically powered when moving on a Contraption."
+			]
+			id: "57A7A5C79389A96A"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				icon: "create:wrench"
+				id: "695A0E0BC4B78AEC"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F95F00ED78FBAB9"]
+			description: ["This will be the main ingredient for most of this mod's items and blocks."]
+			id: "0F16498769DFB3B0"
+			rewards: [{
+				count: 32
+				id: "50217BC8953EBD3E"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 32L
+				id: "5D2B9139C49F5ABA"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F16498769DFB3B0"]
+			description: [
+				"A &n&6Shaft&r is a basic yet crucial machinery part used to transfer rotational power in Create. "
+				""
+				"It can be extended to connect multiple contraptions that require rotation, without changing the speed of the gears."
+			]
+			id: "5B36DE3826F26963"
+			rewards: [{
+				count: 5
+				id: "5139629C16686E9A"
+				item: "create:shaft"
+				random_bonus: 10
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F89C6C2CD322B51"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F16498769DFB3B0"]
+			description: [
+				"The &n&6Cogwheel&r&r transfers rotational power and can also double or halve the speed. "
+				""
+				"Doubling the speed will also double the stress in the system."
+			]
+			id: "3E5E0C768038CDF4"
+			rewards: [{
+				count: 3
+				id: "76537C95327D603D"
+				item: "create:cogwheel"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "68F2BD699AADA753"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F16498769DFB3B0"]
+			description: [
+				"The &n&6Large Cogwheel&r&r transfers rotational power and can change the speed of rotation. "
+				""
+				"Using it with a small cogwheel can either double the speed (and stress) or halve it, depending on the configuration."
+			]
+			id: "23A9617F183C4EB1"
+			rewards: [{
+				count: 2
+				id: "01DCE2A5A57DAEC5"
+				item: "create:large_cogwheel"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E2A4428BDE92738"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F95F00ED78FBAB9"]
+			description: ["The &n&6Speedometer&r&r will show you the speed of the currently connected gear."]
+			id: "29917E6196649F5D"
+			rewards: [{
+				count: 5
+				id: "635EEE12E77B0494"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A5BBAA13F1730F2"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F95F00ED78FBAB9"]
+			description: ["&n&6The Stressometer&r&r will show you how stressed the system is when you connect it."]
+			id: "48BE7DAC5082044D"
+			rewards: [{
+				count: 5
+				id: "6155A7A8D7BDE02F"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10CB6FCDDD3E38D4"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6135016A83A473F6"]
+			description: [""]
+			id: "3F663416E824720C"
+			rewards: [{
+				count: 2
+				id: "635F503473CF3E79"
+				item: "create:copper_casing"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7FE62F264B4FA5DE"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57A7A5C79389A96A"]
+			description: [
+				"&n&6These goggles&r&r will allow you to see your contrations in more detail."
+				""
+				"It will show things as rotation speed and stress."
+			]
+			id: "4F95F00ED78FBAB9"
+			rewards: [{
+				count: 5
+				id: "43C09BCF9A4554E0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6989058FD488CE64"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24F8BCB6A24AD091"]
+			description: ["The &n&6Blaze Cake&r is used to Super-Heat the Blaze Burner."]
+			id: "4C77ABCD41383F32"
+			rewards: [{
+				id: "1012A0FB19029124"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E9A4E9BFFC10819"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57A7A5C79389A96A"]
+			description: [
+				"Use a &6Schematic and Quill&r to save a build as a schematic file. "
+				""
+				"These files can be used across different worlds, allowing you to build in Creative mode and recreate it in Survival or on a server. "
+				""
+				"Saved schematics (stored in the 'schematics' folder) can be copied to &eEmpty Schematics&r for deployment and construction by a &3Schematicannon&r."
+			]
+			id: "0CF69DBA9573A7B3"
+			rewards: [{
+				id: "29BF29F89D624659"
+				item: "create:empty_schematic"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0FB1E9BD14FE8EF8"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "00EF503E42D6DB33"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+			]
+			x: -20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0CF69DBA9573A7B3"]
+			description: ["The &n&6Schematicannon&r&r will build the structures from Schematics, taking materials from nearby chests and using gunpowder as fuel."]
+			id: "7D67058592EE5958"
+			rewards: [{
+				count: 10
+				id: "6E856C3F8A16D63D"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D989C876E9B8AA5"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["79C542CA156AB01E"]
+			description: ["&n&6Super Glue&r can be used to attach blocks to each other to move them with pistons or other means."]
+			id: "1F58AA51814C7568"
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "1A9BC10CDDA9FCF2"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["141586825046EA86"]
+			description: ["Please follow &6Chapter I: The Foundation of Machines&r to learn how to craft the rotation mechanism."]
+			id: "4E2362A17A68A962"
+			rewards: [{
+				count: 4
+				id: "550DAC417DA6D4E3"
+				item: "kubejs:rotation_mechanism"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2A4344686DD965BA"
+				item: "kubejs:rotation_mechanism"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79C542CA156AB01E"]
+			description: [
+				"&6&nCasings&r&r can only be crafted through physically applying a valid alloy or ingot to any Stripped variant of Log or Wood. "
+				""
+				"The logs will convert themselves into the casing, where the player can either mine it with their preferred tool or use a &bWrench &rto place the casing in their inventory."
+			]
+			id: "141586825046EA86"
+			rewards: [{
+				count: 2
+				id: "72823CDE7C8DFCF3"
+				item: "create:andesite_casing"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0DFB957E06141761"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E2362A17A68A962"]
+			description: ["Please follow &6Chapter II: The Valve Machine&r to learn how to craft the valve mechanism."]
+			id: "6135016A83A473F6"
+			rewards: [{
+				count: 4
+				id: "019B108591D85EFD"
+				item: "create_sa:hydraulic_engine"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "599F46D515C6CF22"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CD28EFB5B86F561"]
+			description: ["Please follow &6Chapter III: The Precision Machine&r to learn how to craft the precision mechanism."]
+			id: "1C391F19D41777F9"
+			rewards: [{
+				count: 2
+				id: "1747E879E6067339"
+				item: "create:precision_mechanism"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7B51AF2AA17BBC28"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C391F19D41777F9"]
+			id: "7E6A93A86BA569CE"
+			rewards: [{
+				id: "44596499C817578E"
+				item: "create:brass_casing"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0619217CE5E6F616"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E6A93A86BA569CE"]
+			description: ["Please follow &6Chapter IV: The Locomotive Machine&r to learn how to craft the locomotive mechanism."]
+			id: "48540220FACDD9F0"
+			rewards: [{
+				id: "01A213CDF5AEB2BE"
+				item: "kubejs:locomotive_mechanism"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1A75D38412C35742"
+				item: "kubejs:locomotive_mechanism"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48540220FACDD9F0"]
+			id: "7B6C1B8F80C2AB82"
+			rewards: [{
+				count: 2
+				id: "4FF5DB9F568E2A48"
+				item: "create:railway_casing"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2E0793122930C078"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 22.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"&6Chunk Loader&r load the chunk they're in so your factory or farms can operate while you're away. "
+				""
+				"Make an Empty Chunk Loader and right-click a Ghast to capture it. "
+			]
+			id: "3BE8E697BB54AC03"
+			rewards: [{
+				count: 5
+				id: "1648ED0665EE97DA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "190B17ED82458E7E"
+				item: "create_power_loader:empty_andesite_chunk_loader"
+				type: "item"
+			}]
+			title: "Chunk Loader"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			description: [
+				"A redstone component that outputs a signal when in contact with another redstone contact."
+				""
+				"Perticularly useful for building contraptions."
+			]
+			id: "23ED40EF86DD56B9"
+			rewards: [{
+				id: "2BCF57B06E86353A"
+				item: "create:redstone_contact"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "51FA8A1F79442136"
+				item: "create:redstone_contact"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			description: ["A redstone component that toggles on when recieving a redstone signal on one side and off when recieviing a signal on anoter side."]
+			id: "08C56563442FE079"
+			rewards: [{
+				id: "091B94A02D8291D4"
+				item: "create:powered_latch"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "55309FB14D3863EF"
+				item: "create:powered_latch"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			description: ["A redstone component that toggles its state with every redstone pulse."]
+			id: "59AE879BA13AD91D"
+			rewards: [{
+				id: "06B1A87C6D95709A"
+				item: "create:powered_toggle_latch"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28403D1B7E2000AA"
+				item: "create:powered_toggle_latch"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			description: ["A block that can look for specific items in the world or in inventories."]
+			id: "31765D0D7F5E89E0"
+			rewards: [{
+				id: "04E3BD153561F612"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21B839A48F6624E4"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			description: [
+				"&n&6Redstone Links&r&r let you transmit Redstone signals wirelessly. "
+				""
+				"They can be tuned to different 'Item Frequencies', and can be shift-right-clicked to toggle Recieving modes. "
+			]
+			id: "3CA8E3CDE5F8DAF7"
+			rewards: [{
+				id: "3C3AB40DA3AA2E2F"
+				item: "create:redstone_link"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A225EA387456EDB"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			description: ["A block that can monitor the fill levels of inventories and tanks."]
+			id: "449F04B9D2D2482B"
+			rewards: [{
+				id: "6374A9AC6DDC70CD"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A33058E95606A3B"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			description: ["A redstone component that extends a pulse to a configurable amount."]
+			id: "13018D7AC52AF359"
+			rewards: [{
+				id: "17D4016C76657C79"
+				item: "create:pulse_extender"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2527D8F72F6A9B29"
+				item: "create:pulse_extender"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			description: ["A repeater that sends a pulse after a configurable amount of time."]
+			id: "5369A4AC170D1D7E"
+			rewards: [{
+				id: "156C0E56448AC7C9"
+				item: "create:pulse_repeater"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AE770081829488C"
+				item: "create:pulse_repeater"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			description: [
+				"A &n&6lever&r&r that can be set to output any redstone level. "
+				""
+				"It's basically an upgraded version of the basic lever."
+			]
+			id: "63E05F3657CF988C"
+			rewards: [{
+				id: "5EEAF1377CC23EEC"
+				item: "create:analog_lever"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "528906C01E7E29B0"
+				item: "create:analog_lever"
+				type: "item"
+			}]
+			title: "Levered Up!"
+			x: -21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["57A7A5C79389A96A"]
+			description: [
+				"Redstone plays a crucial role in Create, making contraptions more compact yet slightly more complex. "
+				""
+				"Dive in and enjoy exploring the intricacies of redstone engineering with the new blocks and mechanics. "
+			]
+			icon: "minecraft:redstone"
+			id: "0CED2AC028189316"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6A55F2D80892AD86"
+				type: "checkmark"
+			}]
+			title: "Redstone + Create"
+			x: -20.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"The &n&6Harvester&r will harvest any crops it goes over. "
+				""
+				"If it has a connected inventory, the items will be stored in it."
+			]
+			id: "139B0F6AB99231C6"
+			rewards: [{
+				id: "2946F3A17EF4F53F"
+				item: "create:mechanical_harvester"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61E53C460C52AA73"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"The &n&6Plough&r will destroy any non-solid block, turn dirt into farmland and launch entities without doing damage. "
+				""
+				"If it has a connected inventory, the items will be stored in it."
+			]
+			id: "3C4C4AAB5C69654A"
+			rewards: [{
+				id: "78B68B29C9DB932F"
+				item: "create:mechanical_plough"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41E1DB2AE3937970"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"&6Drills&r mine blocks in front of them when supplied with Rotational Power or when mounted on a moving Contraption, Minecart, or Train. "
+				""
+				"They will break any block in front of them and store the items in a connected inventory."
+			]
+			id: "4527408738C2E90B"
+			rewards: [{
+				id: "010457AA2ED2E1F9"
+				item: "create:mechanical_drill"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E78C8F039EAE2DE"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"&6The Saw&r&r can harvest trees and can also be used as a Sawmill. "
+				""
+				"Connecting an inventory to it, like a chest with Glue or a Linear Chassis, will store the items directly into the chest."
+				""
+				"When used as a Sawmill use the Filter slot to make sure you get the item you want. "
+				""
+				"&o&cTip&r: Using JEI (Just Enough Items) search function, you can drag an item, for example Stripped Wood into the List Filter and then place the List Filter in the Sawmill Filter slot.&r"
+			]
+			id: "0C195F18E1D788F9"
+			rewards: [{
+				id: "2796A6107A4C5D64"
+				item: "create:mechanical_saw"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "357575C17D7B214F"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["074604E13C7DC3A2"]
+			description: ["An upgrade to the andesite tunnel allowing that allows for filtering."]
+			id: "718533DAD98B751E"
+			rewards: [{
+				id: "293D0A2D131EFEB8"
+				item: "create:brass_tunnel"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "5DEDEC693ADACE86"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			title: "Brass Tunnels"
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3D0CCD96331F994E"]
+			description: [
+				"The &n&6Tunnels&r can be placed on belts and they will filter items that pass through them. "
+				""
+				"You can link multiple tunnels by placing them next to each other."
+			]
+			id: "074604E13C7DC3A2"
+			rewards: [{
+				count: 2
+				id: "0594DD46716F88F1"
+				item: "create:andesite_tunnel"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "70EAC2E3A25239E5"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			title: "Andesite Tunnels"
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["61E1F509FC788092"]
+			description: ["A more advanced funnel that allows for filtering and higher stack sizes."]
+			id: "756394031B1088DF"
+			rewards: [{
+				id: "7847CDB050D50F27"
+				item: "create:brass_funnel"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "4B039623EA86F5C0"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			title: "Brass Funnels"
+			x: -12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3D0CCD96331F994E"]
+			description: [
+				"&n&6Andesite Funnels&r&r transfer items in and out of inventories one item at a time. "
+				""
+				"Toggle their direction with a Wrench after placement. "
+				""
+				"They can drop items onto the ground, a belt, or a depot if placed on an inventory."
+			]
+			id: "61E1F509FC788092"
+			rewards: [{
+				count: 2
+				id: "4945D73A8AEB8B6B"
+				item: "create:andesite_funnel"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "551FFEE7E9A1DBB7"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			title: "Andesite Funnels"
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5B36DE3826F26963"]
+			description: ["You can attach &6Belts&r to&b Shafts&r to connect them. They can be used to transfer items horizontally or diagonally with ease. You can also dye them by right-clicking!"]
+			id: "3D0CCD96331F994E"
+			rewards: [{
+				count: 2
+				id: "4FCB24C8EA725485"
+				item: "create:belt_connector"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3622191F1BCC6988"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E2362A17A68A962"]
+			id: "16DF65A27C527EC4"
+			rewards: [{
+				count: 2
+				id: "466193491783B4F4"
+				item: "create:andesite_casing"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "529AF204E6CEE554"
+				item: "kubejs:andesite_machine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E6A93A86BA569CE"]
+			id: "0427B74E71A4115C"
+			rewards: [{
+				count: 2
+				id: "135C727623E5AD55"
+				item: "create:brass_casing"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "63454EA71163DA36"
+				item: "kubejs:brass_machine"
+				type: "item"
+			}]
+			title: "&lBrass Casing"
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7B6C1B8F80C2AB82"]
+			id: "7CDBC61474CC2C11"
+			rewards: [{
+				count: 2
+				id: "7850647CE4C76FB4"
+				item: "create:railway_casing"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1A9D7891FEC3FF62"
+				item: "kubejs:obsidian_machine"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: [
+				"The &n&6Mechanical Crafters&r can be connected to each other to form a huge in-world crafting table."
+				""
+				"The arrows on the Mechanical Crafters must eventually converge on the same Mechanical Crafter slot to finish the recipe. You can turn the arrows by R-Clicking it with the Wrench."
+				""
+				"If there is a recepe that uses less slots than the ones you have, you can use a Cafter Slot Cover to avoid items going into them."
+				""
+				"Tip:If you make the arrow on the last slot go into a chest, the item will automatically be store in it"
+			]
+			icon: "create:mechanical_crafter"
+			id: "3C6FD14B4798B294"
+			rewards: [{
+				id: "509FEAD12A2A0EB0"
+				item: "create:mechanical_crafter"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1527843F45CE0B56"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "&lMechanical Crafter"
+			x: 18.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"The &6encased fan&r has many different uses, it can be used to blast, wash, haunt and smoke items. The rotation will mean it either pushes or pulls air"
+				""
+				"To &cblast&r items you need to put a lava source infront of the fan"
+				""
+				"To &9wash&r items you need to put a water source infront of the fan"
+				""
+				"To &bhaunt&r items you need to put a soul campfire infront of the fan"
+				""
+				"To &esmoke&r items you need to put a campire infront of the fan"
+			]
+			id: "0E99CC805F88B787"
+			rewards: [{
+				id: "691A4BA5111B4524"
+				item: "create:encased_fan"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "059E6476E9246AB3"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: ["The &n&6Depot&r is used to store items, mainly for the Spout."]
+			id: "13C42AC0880B379C"
+			rewards: [{
+				id: "1116F350F0409138"
+				item: "create:depot"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47B081A080B908E2"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["13C42AC0880B379C"]
+			description: [
+				"The &6Weighted Ejector&r lets you send items through the air. "
+				""
+				"To select the target location, shift right-click the block where you want the items to land. Then, place the ejector where you want the items to be flung from."
+				""
+				"You can adjust the weight of the ejector by finding the \"X\" on it. Hold right-click while looking at it, then use the scroll wheel to set the number of items you want the ejector to handle."
+			]
+			id: "4AD5F58D4CFEB2DF"
+			rewards: [{
+				id: "596EF8F1F6DAF45C"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "23B08A64465B3E3F"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"The &n&6Chute&r is used to insert/extract from inventories, or to place/take items from a belt."
+				""
+				"You can put a powered Fan under them to transfer them upwards."
+			]
+			id: "14E50EA7F97274A2"
+			rewards: [{
+				id: "2E3FB9179333F6BD"
+				item: "create:chute"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11D904C7CC0B5456"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "Chute"
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: ["The &n&6Smart Chute&r is the same as the Chute but with additional functionalities, such as stack size and filters."]
+			id: "4D9BE80EC1D1F792"
+			rewards: [{
+				id: "2F63CBF2D978B800"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3FD804EA8597A0B1"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"&n&6Portable Interfaces&r&r work in pairs. Place one in the world and another on a moving entity, like a Minecart. When they face each other, they link and transfer items. "
+				""
+				"They can transfer items on or off moving Contraptions without stopping them, making them very useful for farms."
+			]
+			id: "64ABED7932C787DB"
+			rewards: [{
+				id: "21840DCE54E7DE13"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DE0D0EE606595AE"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["08847873D33F4388"]
+			description: [
+				"The &n&6Portable Interface&r works in pairs. You need to have one placed in the world and another one on a moving entity, like a Minecart."
+				""
+				"When the two interfaces are facing each other, they will link and transfer liquids between each other."
+			]
+			id: "2C777980DFC00673"
+			rewards: [{
+				id: "4914902229EE654F"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "46E5CD0915E6CC44"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2749A7BA16C50828"]
+			description: [
+				"The &6train schedule&r is helpful as you can decide what order a train goes from station to station and how long it is at the station before it departs for the next station."
+				""
+				"You can right click a mob on a &ered seat&r that is next to the train controls to set that mob as the train conductor and they will follow the train schedule"
+			]
+			id: "058C9035FE584EA6"
+			rewards: [{
+				id: "122AD07C695FB81D"
+				item: "create_dd:experience_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "110D891BF425041E"
+				item: "create:schedule"
+				type: "item"
+			}]
+			title: "Train Schedule"
+			x: 38.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CDBC61474CC2C11"]
+			description: [
+				"&6Train Tracks&r transfer items on Trains and can be easily placed, even on hills. "
+				""
+				"They can also run through Nether Portals to transport items, fluids, and mobs between dimensions."
+			]
+			id: "66428F3633CBBC85"
+			rewards: [
+				{
+					count: 16
+					id: "383FC3E350A076CC"
+					item: "create:track"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7DA89F384C2EBC1C"
+					item: "railways:track_create_andesite_narrow"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 16
+					id: "40D336D687A6778E"
+					item: "railways:track_create_andesite_wide"
+					random_bonus: 16
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0121DA9F9728AA95"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49AA58282AF31AB4"]
+			description: [
+				"On a Train, &l&6Train Controls&r&r can be right clicked to take control of the Train. The player's ordinary movement options will affect the Train instead. "
+				""
+				"Use the controls again or sneak to stop. Hold &oleft or right&r at a fork to choose a path. Use the &oscroll wheel&r to adjust maximum speed. Hold &ojump&r to approach and align at a Station. "
+				""
+				"If a Steam Whistle is attached, press the sprint key to blow it."
+			]
+			id: "377D64FABCA6D4C0"
+			rewards: [{
+				id: "715A99757B65EC7A"
+				item: "create:controls"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01C4789613269654"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 33.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A154BE7095012ED"]
+			description: ["The &n&6Clutch&r will stop any rotation if a redstone signal is applied."]
+			id: "5AB5DF09F2F68283"
+			rewards: [{
+				id: "0A79EAF0195A318A"
+				item: "create:clutch"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1CE13C821E12294A"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7A154BE7095012ED"]
+			description: ["The &n&6Chain Drive&r can be linked with others in any direction as long as they are touching. They will relay the rotation sideways."]
+			id: "063D0C4E3D5DC067"
+			rewards: [{
+				id: "384E052853CE00F6"
+				item: "create:encased_chain_drive"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75C3F80271590A66"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["063D0C4E3D5DC067"]
+			description: [
+				"The &n&6Adjustable Chain Drive&r works similar to the normal Chain Drive when it has no redstone signal."
+				""
+				"When you apply a redstone signal and it is the block receiving the rotational force, it will double the speed for the connected Chain Drives."
+				""
+				"When you apply a redstone signal and it is not the block receiving the rotational force, it will half the speed for the connected Chain Drives."
+			]
+			id: "34AF9F62C1D9F9EE"
+			rewards: [{
+				id: "3A4559CDF51446A5"
+				item: "create:adjustable_chain_gearshift"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F134B8FCE722CB9"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A154BE7095012ED"]
+			description: ["The &n&6Gearshift&r will reverse the direction of rotation if a redstone signal is applied."]
+			id: "0317829B7FB5EEC2"
+			rewards: [{
+				id: "434AF7F604C31226"
+				item: "create:gearshift"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "4E1E81AEEC8FDE7A"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A154BE7095012ED"]
+			description: ["The &n&6Sequence Gearshift&r&r allows you to set up a sequence of rotations that are executed when the block receives a redstone signal."]
+			id: "6C63B932DB2BC31D"
+			rewards: [{
+				id: "3A72AC2B9DB311F7"
+				item: "create:sequenced_gearshift"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20ADE2EA110B8C95"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: ["The &n&6Mechanical Piston&r is similar to the Piston, it can push blocks, but you can add as many Extension Poles as you wish."]
+			id: "3B8703C3C4518847"
+			rewards: [{
+				count: 5
+				id: "3E7CD74F3C655DF0"
+				item: "create:piston_extension_pole"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "405ACE0B16968629"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:mechanical_piston"
+							}
+							{
+								Count: 1b
+								id: "create:sticky_mechanical_piston"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5B36DE3826F26963"]
+			description: [
+				"A &n&6Gearbox&r&r is used to change the direction of rotation for shafts. "
+				""
+				"It can have multiple shafts attached on different sides"
+			]
+			icon: "create:gearbox"
+			id: "7A154BE7095012ED"
+			rewards: [{
+				count: 2
+				id: "10AD825DEE749EE8"
+				item: "create:gearbox"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3177CD17FFA23A12"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "2C11751CD8687D3C"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			title: "&lGearbox"
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"A &n&6Mechanical Bearing&r&r rotates attached structures when supplied with Rotational Power. "
+				""
+				"It is essential for creating rotating contraptions like windmills. "
+				""
+				"Attach blocks to the bearing, and they will move as a single unit when the bearing is powered."
+			]
+			id: "4AB9A1A1223DD0E4"
+			rewards: [{
+				id: "148B2734F3900F58"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F5A214F38350283"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: ["The &n&6Rope Pulley&r can move blocks up or down, they can be glued together."]
+			id: "505B5C5846D0E711"
+			rewards: [{
+				id: "61D084BEE0CE743C"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "261F7AFA6B2A0D54"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: ["The &6millstone&r has the ability to crush many items"]
+			id: "6265FAB402D76D11"
+			rewards: [{
+				id: "122BCAB96AD5744E"
+				item: "create:millstone"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4AE45DCEB8E4C539"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"&6Gantries&r move contraptions linearly, either horizontally or vertically, and can be chained together for multi-axis movement. "
+				""
+				"&6The Gantry Carriage&r attaches to &eGantry Shafts&r, and when the shaft rotates, it moves the carriage along it."
+			]
+			icon: "create:gantry_carriage"
+			id: "027C0D2BEA2286B4"
+			rewards: [
+				{
+					id: "551FF3C825A52B86"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6F9ADD5953B34754"
+					item: "create:gantry_shaft"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "128643413B8B560A"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					id: "22139C81AB775187"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3C6FD14B4798B294"]
+			description: [
+				"&6Crushing Wheels&r grind items much, much faster than a Millstone, and can grind more items into useful materials. "
+				""
+				"You can also change their appearance with different Stone types."
+			]
+			id: "547B1BC592ABCBA9"
+			rewards: [{
+				id: "7ABB79DA5BFE33A6"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "37E52829DB50C4AD"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "&lCrushing Wheels"
+			x: 19.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: [
+				"&6&nDisplay Links&r&r let you update text on text displays automatically. "
+				""
+				"Right-click the target text display (Signs, Display Boards), then attach it to the block to read from."
+			]
+			id: "2C0E9B0A0453CF9A"
+			rewards: [{
+				id: "36CE190E89C59BDC"
+				item: "create:display_link"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "616FE5C5741DB93E"
+				item: "create:display_link"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C0E9B0A0453CF9A"]
+			description: [
+				"&6Display Boards&r are like scaleable aesthetic Signs. "
+				""
+				"Right-click them with a Nametag to set their text, or use Display Links to update it automatically."
+			]
+			id: "402A9561ACFC2198"
+			rewards: [{
+				count: 2
+				id: "3C11EF0FC433C29D"
+				item: "create:display_board"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "474C6D8D424A79F5"
+				item: "create:display_board"
+				type: "item"
+			}]
+			title: "Display Board"
+			x: 20.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: ["Can display text or numbers. This would be useful in making elevators too."]
+			hide_dependency_lines: true
+			id: "4E948759E37C7057"
+			rewards: [{
+				id: "5D4A06AD5B1C69DE"
+				item: "create:nixie_tube"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2477564B391BC5EC"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			title: "Nixie Tube"
+			x: 17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A7D302E0EFDC7CF"]
+			description: ["&n&6Fluid Pipes&r&r transfer fluid through them. Right-click with a Wrench to add a window and watch the fluids move!"]
+			id: "753B48CB539ACA4E"
+			rewards: [{
+				count: 4
+				id: "52ACC9E101D4E085"
+				item: "create:fluid_pipe"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "1477E575915C2069"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			title: "Fluid Pipe"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["08847873D33F4388"]
+			description: [
+				"&6&nMechanical Pumps&r&r move fluid into pipes in a specific direction when powered. "
+				""
+				"Their pumping distance depends on their RPM. Use a Wrench to change the pump's direction."
+			]
+			id: "7A7D302E0EFDC7CF"
+			rewards: [{
+				id: "7685116FECAB9B33"
+				item: "create:mechanical_pump"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "45F22A8BDBAFBF19"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["08847873D33F4388"]
+			description: ["Allows filters"]
+			id: "5AF0D3168EB2AB4C"
+			rewards: [{
+				id: "7B2206C3ECC0BF87"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "444688590157B116"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["08847873D33F4388"]
+			description: [
+				"&6Fluid Valves&r control the flow of fluids through pipes. "
+				""
+				"Use a Copper Valve Handle to open or close the valve, regulating fluid movement as needed."
+			]
+			id: "5ACBA63440B75895"
+			rewards: [{
+				id: "26426F1FD3FF0720"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "625003A88D180343"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5ACBA63440B75895"]
+			description: [
+				"&6Copper Valve&r Handles manually control the flow of fluids through pipes. "
+				""
+				"Rotate the handle to open or close the valve, allowing or stopping fluid movement."
+			]
+			id: "3E837E5555C6B29F"
+			rewards: [{
+				id: "3000CD7C1F16661E"
+				item: "create:copper_valve_handle"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "29A2B526447490B9"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["08847873D33F4388"]
+			description: ["The &n&6Spout&r is used to fill items with liquid. It is best to use a Depot under it to hold the items."]
+			id: "50418F41EBF35C53"
+			rewards: [{
+				id: "3C454CDF61FDCA53"
+				item: "create:spout"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A4BEC446CB766C6"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["08847873D33F4388"]
+			description: ["The &6hose pulley&r has the ability to pull liquids from the world to be transported, if the source the pulley is pulling from is larger than 10,000 blocks then it classes it as an infinite source of liquid"]
+			id: "3AE96B65B211C2EF"
+			rewards: [{
+				count: 5
+				id: "2DE5F91A208BC345"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E6E346435431A29"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["08847873D33F4388"]
+			description: [
+				"The &6fluid tank&r is a easy way to store a large amount of liquid. "
+				""
+				"The biggest it can be is a 3x3 base and upto 30 tall, which stores a crazy amount"
+			]
+			id: "6D75E038AE21C2E5"
+			rewards: [{
+				id: "76566DE43BF4A505"
+				item: "create:fluid_tank"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26DAB7B790CE4D48"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0E99CC805F88B787"]
+			description: ["&n&6Nozzles&r&r can be attached to the front of a Fan to distribute its effects in all directions."]
+			id: "47DCCE7116DEBDCA"
+			rewards: [{
+				id: "765DF1FAAA704F78"
+				item: "create:nozzle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0166B78C5B1BFAAE"
+				item: "create:nozzle"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"718533DAD98B751E"
+				"756394031B1088DF"
+			]
+			description: [
+				"Many blocks have Filter Slots. Use Filters to sort multiple items. "
+				""
+				"&n&6List Filters&r&r sort specific items you put into them, while &6&nAttribute Filters&r&r sort items by tags or attributes."
+				""
+				"&4Tip:&r You can use the JEI search funciton, to look for an item you want and drag it into the Filter slot. This way you can set your filter in advance without having the items itself to filter."
+			]
+			icon: "create:attribute_filter"
+			id: "050581D9E93C3DE0"
+			rewards: [
+				{
+					id: "323DCE9FB9BF46C7"
+					item: {
+						Count: 1b
+						id: "create:filter"
+						tag: {
+							Items: { }
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4F61EC5F7F7894DD"
+					item: "create:attribute_filter"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "12E052BAB7D5E1EE"
+					item: {
+						Count: 1b
+						id: "create:filter"
+						tag: {
+							Items: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5830ACEAA3F92989"
+					item: "create:attribute_filter"
+					type: "item"
+				}
+			]
+			title: "Filters"
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: [
+				"Easily change RPM with the &6Rotation Speed Controller&r. "
+				""
+				"Put a Large Cogwheel in the top, power the Controller and change it to whatever speed you like."
+			]
+			id: "69DBFE8C98BEAA9C"
+			rewards: [{
+				id: "25200A0F121FCA07"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6FCB420362704E37"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: ["Lets you create your own custom functional clock."]
+			id: "53A9F583ED1CFC6E"
+			rewards: [{
+				id: "0ABBDB696F809881"
+				item: "create:clockwork_bearing"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47FD476896FABE34"
+				item: "create:clockwork_bearing"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"The &n&6Cart Assembler&r can be placed on tracks. Anything you build on top of it will be picked up by a Minecart if the Assembler has a redstone signal."
+				""
+				"The blocks must be glued together and any blocks requiring rotational force will automatically be working."
+				""
+				"To \"unmount\" the blocks from the Minecart, simply turn off the redstone signal and let the Minecart ride through."
+			]
+			id: "20692FCE89969E9F"
+			rewards: [{
+				id: "4235E366F16B652C"
+				item: "minecraft:minecart"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "474BB1E4118A3628"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["20692FCE89969E9F"]
+			id: "4DB0AE85BB0E17A3"
+			rewards: [{
+				id: "269A71AC2102C726"
+				item: "create:minecart_coupling"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Chains together individual Minecarts, causing them to move as a group"
+			tasks: [{
+				id: "5DB8DC69DEA24FD5"
+				item: "create:minecart_coupling"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["20692FCE89969E9F"]
+			id: "6BBEAFA9701FA502"
+			rewards: [{
+				count: 6
+				id: "6298B082F343CAA1"
+				item: "create:controller_rail"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59ABEB92C9D4AC30"
+				item: "create:controller_rail"
+				type: "item"
+			}]
+			title: "Controller Rail"
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"The &n&6Radial Chassis&r can be used similar to the &3Super Glue&r. It will connect blocks in a line, on the sides, without the need for glue."
+				""
+				"The &n&6Linear Chassis&r can be used similar to the &3Super Glue&r. It will connect blocks in a line without the need for glue."
+			]
+			icon: "create:linear_chassis"
+			id: "70441032159A90E6"
+			rewards: [
+				{
+					count: 2
+					id: "564B0829D20A9173"
+					item: "create:linear_chassis"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "08B0F7CABAE1B6D9"
+					item: "create:radial_chassis"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 3L
+					id: "39144E45F14CB910"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "32205DE0062B6253"
+					item: "create:radial_chassis"
+					type: "item"
+				}
+			]
+			title: "Chassis"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D0CCD96331F994E"]
+			description: [
+				"&n&6Vaults&r&r are large containers that can only be accessed by Funnels, Hoppers, and similar devices. "
+				""
+				"They can be connected and scaled up to a size of 3x3x9, storing up to 103,680 items."
+			]
+			id: "0641287E9700DE63"
+			rewards: [{
+				id: "53B078B197039372"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3AD537B3DA0C29C0"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: [
+				"&6Elevator Pulleys&r are like Rope Pulleys but are a bit more suited to Elevators. "
+				""
+				"They can be controlled remotely more easily and can have floors programmed in them with Redstone Contacts."
+			]
+			id: "210AEB6F1963FA47"
+			rewards: [{
+				id: "6E5B9F5B99AE89A8"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2049A25B9C4A4E65"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			description: ["&n&6Linked Controllers&r&r allow handheld wireless control over six different Redstone Links."]
+			id: "439F2B2537914CC9"
+			rewards: [{
+				id: "70E9DFAE9804B24E"
+				item: "create:brass_casing"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4A116AA5689D2E94"
+				item: "create:linked_controller"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			id: "023BA6BDECF97CA1"
+			rewards: [{
+				id: "5DE7B0A70FC4FF86"
+				item: "create:rose_quartz_lamp"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "04D73F4BDC53805D"
+				item: "create:rose_quartz_lamp"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: ["The &n&6Mixer&r can be used combined with the Basin to craft."]
+			id: "770A23791D7F7DB6"
+			rewards: [{
+				id: "280991658563CE05"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D15865397088635"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"&n&6The Deployer&r&r is essential for automation, used in multi-step crafts like mechanisms. "
+				""
+				"It automates various tasks such as crafting Casings, Polishing, Waxing, and Sequenced Assemblies. Deployers can right- or left-click blocks or entities, allowing them to shear sheep, milk cow, place blocks and more!"
+			]
+			id: "1CBE2976A1FBF35D"
+			rewards: [{
+				id: "29E84776379FE961"
+				item: "create:deployer"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5517407568991A3F"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"The &n&6mechanical press&r&r is used for a lot of different things, like making sheets or some recipes using a basin"
+				""
+				"The &6depot&r is used to hold items on one block"
+			]
+			id: "2A8D29FA07E42FE7"
+			rewards: [{
+				id: "11B92835D07CB93F"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D64AC9D901F620D"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: [
+				"The &n&6Arm&r is a machine that can take items from a Depot or a Belt and place them into a different Depot, Belt, Crafter or into a chest that has a Funnel attached."
+				""
+				"To select input/output hold the Arm in your hand and R-Click the blocks you want to assign."
+				""
+				"To deselect a block, L-Click it with the Arm in your hand."
+			]
+			id: "0CAA1F2CB7922740"
+			rewards: [{
+				count: 5
+				id: "1763468BF1674AF4"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1071247F85A8A1CA"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["35CB3E93AD19F975"]
+			description: [
+				"To get the &n&6Blaze Burner&r, you need to make an Empty Blaze Burner and R-Click it on a Blaze."
+				""
+				"This is used under a Basin to heat it or super-heat it for different recipes."
+			]
+			id: "24F8BCB6A24AD091"
+			rewards: [{
+				count: 30
+				id: "6DAA336E32458227"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "381FA7D62E04A1A0"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: ["The &n&6Basin&r is used for recipes, mainly including the &3Mechanical Press&r and the &3Mechanical Mixer&r."]
+			id: "3F691828CC609297"
+			rewards: [{
+				id: "2C0B408671DFB302"
+				item: "create:basin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08F02C7B12C944B9"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["210AEB6F1963FA47"]
+			description: [
+				"The &6contraption control&r is used as the interface of the elevator for the player to look at and scroll up or "
+				"down on the mouse to select the level"
+			]
+			id: "45E04EA612546D02"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "69FC02B3A50A8B29"
+				item: "create:contraption_controls"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Part of the elevator"
+			tasks: [{
+				id: "52CF22F380D5B3E8"
+				item: "create:contraption_controls"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 19.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"Place the &2Sticker&r on a Contraption facing towards what it should stick to. "
+				""
+				"When the contraption stops and the &2Sticker&r is toggled with a &credstone&r signal, the affected block will move along with the contraption."
+			]
+			id: "1C36CBFCA193FE7C"
+			rewards: [
+				{
+					count: 3
+					id: "4AE351507BF70A6A"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3D81F51FD37ADC12"
+					item: "create:radial_chassis"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Used to stick and unstick things to moving Contraptions."
+			tasks: [{
+				id: "0C6412B571E6C631"
+				item: "create:sticker"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C36CBFCA193FE7C"]
+			id: "3A3B46B0A93CDE0A"
+			rewards: [{
+				count: 2
+				id: "6213C6D3A038F122"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "When you wanna get high."
+			tasks: [{
+				id: "5159E101EB5C44DE"
+				item: {
+					Count: 1b
+					id: "create_things_and_misc:sticky_boots_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["08847873D33F4388"]
+			description: ["Ever wanted to jump like a bunny? Now you can! "]
+			id: "7C031AA7A7E697DD"
+			rewards: [{
+				count: 2
+				id: "4C15E7336EBF74AA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Bong!"
+			tasks: [{
+				id: "3CF12F23D0F30F3F"
+				item: "create_things_and_misc:sticky_launcher"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: [""]
+			id: "5EBB3D715BCB2EC0"
+			rewards: [{
+				id: "13244CAA73818ED4"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19E77C55FCA4A83C"
+				item: "create_things_and_misc:brass_sticky_launcher"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["14F1FF3CB61083E3"]
+			description: ["Throwable &eTorch,&r allows you to explore &8caves&r and decorate your &6builds&r!"]
+			id: "5A3ECED26AC9242B"
+			rewards: [{
+				id: "786A1C0CE12D6E17"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C56A0C90A85C18B"
+				item: {
+					Count: 1b
+					id: "create_things_and_misc:neon_tube"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FE8BF89339153CB"]
+			description: [""]
+			id: "54C49D7172911C1F"
+			rewards: [{
+				count: 2
+				id: "54287C0515F5FDE2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "It vibrates slightly in your hands."
+			tasks: [{
+				id: "3E68F5F563FB04C0"
+				item: "create_things_and_misc:vibration_mechanism"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2FE8BF89339153CB"]
+			description: ["Repairs items when held in your main hand."]
+			icon: {
+				Count: 1b
+				id: "create_things_and_misc:mending_rune"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72C2CE78978F5FF7"
+			rewards: [{
+				id: "44B74D0C0A5AB6F5"
+				item: "create_dd:experience_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46982559FA7AB4D2"
+				item: {
+					Count: 1b
+					id: "create_things_and_misc:mending_rune"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54C49D7172911C1F"]
+			description: [
+				"&6The Radar&r detects entities within its range. "
+				""
+				"It can be used to track mobs, players, or other moving objects, providing valuable information about nearby activity."
+			]
+			id: "1B2120DA73C86650"
+			rewards: [{
+				count: 5
+				id: "12197B86D529D3A7"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "I have him spotted!"
+			tasks: [{
+				id: "2F7EAACD7A9DD439"
+				item: "create_things_and_misc:radar"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14F1FF3CB61083E3"]
+			description: ["Useful in creating a create alternative to &5mending&r or a &dVibration Mechanism&r."]
+			id: "2FE8BF89339153CB"
+			rewards: [{
+				count: 2
+				id: "6CD64F6977886D04"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "2F809BB9FB605207"
+				item: "create_things_and_misc:rose_quartz_sheet"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: ["&n&6Empty Blaze Burners&r&r can be used to capture &cBlazes&r to make &4Blaze Burners&r, or can be lit with a Flint and Steel to make a brazier!"]
+			id: "35CB3E93AD19F975"
+			rewards: [{
+				count: 5
+				id: "4818F72008E80C14"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10FF69DF5920CCF7"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"24F8BCB6A24AD091"
+				"2019EABB05F886B5"
+			]
+			description: [
+				"Ever wanted to pipe liquids into your blaze burners? "
+				""
+				"Just hand them a straw and they'll slurp it straight from the pipe."
+				""
+				"You can press &a'U'&r on the straw to see what liquids it accepts as well as burn times."
+			]
+			id: "754B0D662D8780C9"
+			rewards: [{
+				count: 5
+				id: "0E7027407330A384"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "226170BC77E8DBA7"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["286B180E5031E542"]
+			description: [
+				"&eElectric&r &8Motors&r are a compact and configurable source of &6Rotational Force&r. "
+				""
+				"Scrolling on the back panel changes the &6RPM&r of the motor's rotational output. "
+				""
+				"The Electric Motor requires a source of energy (&eFE&r). The motor's energy consumption is determined by the set &6RPM.&r"
+			]
+			id: "204C3C0E55F2835F"
+			rewards: [{
+				count: 5
+				id: "534E70CC8B5C3752"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Zoom Zoom"
+			tasks: [{
+				id: "694AFA03C589E3A1"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["286B180E5031E542"]
+			description: ["The Alternator requires at least &632&r RPM to operate. It generates electric energy &a(FE)&r from rotational force. Its energy production is determined by the input RPM."]
+			id: "612F6D99772C9805"
+			rewards: [
+				{
+					count: 4
+					id: "19F65AACF90C6EC0"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "336CE091E99D5F69"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C18CEDF12770C6D"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["286B180E5031E542"]
+			description: [
+				"One of the cool functions of the &eTesla Coil&r is that it will charge &6FE&r items below it."
+				""
+				"The Tesla Coil is also able to inflict damage on nearby &3Players&r and &cMobs.&r This can be activated with a &4redstone&r signal."
+			]
+			id: "79528B0A7A3E05DE"
+			rewards: [{
+				count: 5
+				id: "71B32E9D74CC3651"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "It's spicy lightning."
+			tasks: [{
+				id: "3059FE85EF8FC029"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16DF65A27C527EC4"]
+			description: [
+				"The &n&6Rolling Mill&r&r uses rotational force to roll metals into &3Rods&r and &6Wires.&r"
+				""
+				"To manually input items, drop &3Ingots&r or &3Plates&r on the top of the &8Mill&r."
+				""
+				"&7Right-click&r the Mill to manually retrieve the output items."
+			]
+			id: "2019EABB05F886B5"
+			rewards: [{
+				count: 8
+				id: "20CBD87A8FEC2397"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Roll With It"
+			tasks: [{
+				id: "7219C1A46B06514F"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2019EABB05F886B5"]
+			description: ["Use the &6&nRolling Mill&r&r to craft some new rod items."]
+			id: "66694D12CB49FD69"
+			rewards: [{
+				count: 4
+				id: "4AF6FEF6AD134823"
+				item: "createaddition:copper_rod"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "06C1ED4F917EB452"
+				item: "createaddition:copper_rod"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["66694D12CB49FD69"]
+			description: ["One of the new &6wire&r forms."]
+			id: "5B1DED129F765EB2"
+			rewards: [{
+				count: 4
+				id: "2E378428A26EA04A"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C06AA1C9AC5C013"
+				item: "createaddition:iron_wire"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B1DED129F765EB2"]
+			description: ["Deals &cdamage&r to any mob or player that passes through it."]
+			id: "51A98E4349E463B8"
+			rewards: [{
+				count: 16
+				id: "2BA6436F039F9FDE"
+				item: "createaddition:iron_wire"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "STAY AWAY &2CREEPER&r!"
+			tasks: [{
+				id: "2BA6A756276A3FD6"
+				item: "createaddition:barbed_wire"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F16498769DFB3B0"]
+			id: "10184A334FAC1C57"
+			rewards: [{
+				id: "0A5BD2A1BAA8A711"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "229043E4A368FE9C"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			title: "&lHeat Engine"
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10184A334FAC1C57"]
+			description: [
+				"&6The Jetpack&r is a great early game flight. "
+				""
+				"You can 3 types of Jetpack: Copper, Andesite and Brass. "
+				""
+				"Each Jetpack uses Fuel to function which is Water, Lava or both. "
+				""
+				"To Fill your Jetpacks with Water or Lava first place your Jetpack on your Off-Hand (shield icon) then select a bucket with Water/Lava and press Q to drop the bucket, it will fill the Jetpack in your off-hand. Ideally you'll want to use the Fueling Tank and the Filling Tank."
+			]
+			id: "597B6EB9A60DB0B1"
+			rewards: [{
+				count: 8
+				id: "3C9E876FBC112A27"
+				item: "create:andesite_alloy"
+				random_bonus: 8
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "08BD44C23AEE822C"
+				item: {
+					Count: 1b
+					id: "create_sa:andesite_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["10184A334FAC1C57"]
+			id: "3CD6FD9FC448ADCA"
+			rewards: [{
+				count: 8
+				id: "0E76506BC01E02FA"
+				item: "create:cogwheel"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "06C6061C16125A1D"
+				item: {
+					Count: 1b
+					id: "create_sa:grapplin_whisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["10184A334FAC1C57"]
+			id: "39ECC55DAB6CA953"
+			rewards: [{
+				count: 8
+				id: "70C0D1AC945E5E0F"
+				item: "create:andesite_alloy"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "13E402C962CB0624"
+				item: {
+					Count: 1b
+					id: "create_sa:andesite_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79C542CA156AB01E"]
+			description: ["The &n&6Hand Crank&r&r is the simplest way to generate kinetic energy, by using yourself as the power source. Get that arm strength!"]
+			id: "31C539FC15F26208"
+			rewards: [{
+				count: 5
+				id: "2DB4F2051472BDA2"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40712AAAAE4E5E26"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Crank it all the way!"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79C542CA156AB01E"]
+			description: [
+				"&6Steam Engines&r are the best generators in the Create mod, capable of producing thousands of SU with ease. They need heat (e.g., from Fire or Blaze Burners) and water to create steam and generate rotational force. The higher the heat, the more efficient the engine."
+				""
+				""
+				"&nHow to Use:&r"
+				""
+				"&6Setup:&r Place a Steam Engine on the side of a Fluid Tank filled with water."
+				""
+				"&6Heat Source:&r Ensure there is a heat source below the tank. The higher the heat, the faster the engine will move."
+				""
+				"&6Optimal Heat Source:&r Use Blaze Burners fed with Blaze Cakes to superheat the water for the highest output."
+				""
+				"&6Capacity:&r You can attach up to 8 Steam Engines to a single tank for maximum efficiency."
+			]
+			icon: "create:steam_engine"
+			id: "1A6C36E59385A2D3"
+			rewards: [{
+				id: "13F9D6B1562D1ADC"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "688A416F16ECF5B3"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2897D7E593266D9F"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			title: "Steam Engines"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79C542CA156AB01E"]
+			description: ["&6Windmills&r are great power generators. Place a Radial Chassis in front of the Bearing, attach it to at least 8 Wool Blocks (or Sails), and right-click the Bearing to assemble the Contraption and start the windmill!"]
+			icon: "create:white_sail"
+			id: "372818524C1822A0"
+			rewards: [{
+				count: 2
+				id: "33315AE9B73016C6"
+				item: "create:white_sail"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00BCB0F2EC9CFC05"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "2DC7F4ACCCF7D478"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Don't get blown away"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79C542CA156AB01E"]
+			description: [
+				"The &n&6Water Wheel&r is one of the most basic ways of generating rotational force. You can hook up multiple wheels by placing them next to each other."
+				""
+				"You can also swich the look of your water wheel by right-clicking it with pretty much any wood plank (including ones from other mods)."
+			]
+			id: "1997E3F261152BC2"
+			rewards: [{
+				count: 2
+				id: "029AB1D1CBC112C9"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "327D0C5703F81459"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1997E3F261152BC2"]
+			description: ["Generates twice as much SU as the regular water wheel but at a slower RPM. Just know that this thing is bigger and bulkier so have a lot of space for it."]
+			id: "2A43D53F3C3FA699"
+			rewards: [{
+				id: "04EAD7EC77441117"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B2A3F069A4EBBD0"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F16498769DFB3B0"]
+			description: [
+				"In the Create mod,&6 &lkinetic energy&r&r is the power generated by moving parts. "
+				""
+				"This energy is used to run various machines and contraptions."
+				""
+				"You can generate kinetic energy using devices like Water Wheels, Windmills etc. "
+				""
+				"Once generated, this energy can be transferred through shafts, gears, and other mechanical components to operate your creations."
+			]
+			id: "79C542CA156AB01E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5F8BAF405174A7C7"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Generate Energy"
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57A7A5C79389A96A"]
+			description: [
+				"&7When right-clicked:&r"
+				"Opens the &6Interface.&r &7Sneak-Click&r to place it on a surface."
+				""
+				"&7When used on Blocks:&r"
+				"Some blocks' &6settings,&r such as filters, can be &bcopied (right-click)&r and &6applied (left-click)&r elsewhere."
+			]
+			id: "24912ED9E4920E5A"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "76FC1E7BB10D6063"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Keep track of what you want to do"
+			tasks: [{
+				id: "6196CA10A85E2B0F"
+				item: "create:clipboard"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -18.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0CED2AC028189316"]
+			description: ["A redstone component that only allows energy(E) to flow when it's receiving a redstone signal."]
+			id: "4F70C070C46D78AB"
+			rewards: [{
+				id: "0015C154C603EB4D"
+				item: "createaddition:redstone_relay"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D0BBC469D128B41"
+				item: "createaddition:redstone_relay"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: ["Connectors insert/extract energy from/into blocks and wires are used to connect between connectors."]
+			icon: "createaddition:connector"
+			id: "286B180E5031E542"
+			rewards: [{
+				count: 2
+				id: "07684C00F18CF24C"
+				item: "createaddition:copper_spool"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "108B9B4664D40664"
+					item: "createaddition:connector"
+					type: "item"
+				}
+				{
+					id: "33F3F3E33888F976"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "createaddition:copper_spool"
+								}
+								{
+									Count: 1b
+									id: "createaddition:gold_spool"
+								}
+								{
+									Count: 1b
+									id: "createaddition:festive_spool"
+								}
+							]
+						}
+					}
+					title: "Any Wire Spool"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4CD28EFB5B86F561"]
+			description: [
+				"The &6printer&r will take any enchanted book by right clicking on it to save the enchantments you want to print onto new books."
+				""
+				"As long as the printer is given enough liquid xp it will make a duplicate of the book you have given it"
+				""
+				"You can also duplicate books you have written in by giving it the written book, then giving the &6printer&r liquid ink &a(made in the mixer)&r"
+			]
+			id: "2537CFB64471951F"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "290FE55877D7B4AC"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Enchanted Book Duplication"
+			tasks: [{
+				id: "2028D30FBEFF751F"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CD28EFB5B86F561"]
+			description: ["The &6item drain&r has the ability to take liquid out of a container and then it stores it until it it is piped out into a container"]
+			id: "3BC9D3B6BAF2C477"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "17BF3E77D6E1067A"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "073DE21FEAFA4939"
+					item: "create:copper_casing"
+					type: "item"
+				}
+			]
+			subtitle: "Fluid extraction"
+			tasks: [{
+				id: "55D7343BDCC09788"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BC9D3B6BAF2C477"]
+			description: ["To get the liquid xp from the &6bottle o' enchanting&r you need the item drain, it will give you back the bottle after it has drained the xp"]
+			id: "7C80752635A0BAD6"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "55096462421997C1"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Stealing the precious liquid xp"
+			tasks: [{
+				id: "6878EBBFE2D7E61C"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CD28EFB5B86F561"]
+			description: [
+				"The &n&6Disenchanter&r&r removes enchants from armor and stores the XP as liquid XP, which can be solidified for later use. "
+				""
+				"It's useful for mob farms to handle armor drops. Standing on a Disenchanter will also convert player levels into liquid XP."
+			]
+			id: "1B6AA26ACA2BC3DE"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "220C3FC9EAE3CD9D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "58AC73638AA6A508"
+					item: "create:copper_casing"
+					type: "item"
+				}
+			]
+			subtitle: "Liquid xp?"
+			tasks: [{
+				id: "09C4C80B340E415E"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B6AA26ACA2BC3DE"]
+			description: ["Either &6nuggets of experience&r or &6heaps of experience&r will be fully consumed and turned into their liquid form"]
+			id: "62984B2002961EEF"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "58F456F5E3E8AFCC"
+				item: "create_sa:heap_of_experience"
+				type: "item"
+			}]
+			subtitle: "4 Nuggets of Experience"
+			tasks: [{
+				id: "12A9EE38D625EDB3"
+				item: "create_sa:heap_of_experience"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B6AA26ACA2BC3DE"]
+			description: ["Any &6enchanted item&r can be placed on a disenchanted and it will take the xp and store it as liquid and you will get what you put that was enchanted back, so &6enchanted book&r will give you a book back, or &6an enchanted piece of armour&r will give you the armour piece without any enchantments"]
+			id: "512322517816BBDB"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "70F2FB3733BE9693"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Any enchanted book"
+			tasks: [{
+				id: "02879C791154EBEC"
+				item: "minecraft:enchanted_book"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Disenchanting Enchanted Items"
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3BC9D3B6BAF2C477"
+				"1B6AA26ACA2BC3DE"
+			]
+			description: [
+				"With the &6enchanting guide&r you can give it a book that you want it to store the enchantment of."
+				""
+				"Once you have done that, you can then shift and click a &ablaze burner&r to turn it into a &ablaze enchanter&r this will make it so it can receive liquid xp to be able to enchant items."
+				""
+				"To give it the item you want it to enchant you can either right click the &ablaze enchanter&r or setup a belt line with it placed somewhere in the middle of it"
+			]
+			id: "6E7BCB29DADBF655"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "0F027FCDA5FE4235"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Enchanting with create"
+			tasks: [{
+				id: "43ADCF7B88CC5515"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E7BCB29DADBF655"]
+			description: [
+				"&bHyper enchanting&r let's you go above the normal enchantment limit in the base game."
+				""
+				"To be able to mix it you will need to super heart a &6blaze burner below the basin and mixer&r you do this by feeding the &6blaze burner&r a blaze cake. You will get 10% of the liquid xp back in &bhyper experience liquid&r"
+				""
+				"You can pump the &bhyper experience liquid&r into the blaze enchanter and then give when enchanting it will enchant the tool 1 level higher than the book given to the &6blaze enchanter&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "create_enchantment_industry:item/hyper_experience_bottle"
+				}
+			}
+			id: "33834ABAB2BEE83A"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "20AF1DA419E43476"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "In a mixer you need liquid xp, a lapis and a glow ink sac"
+			tasks: [{
+				id: "3FACEAC0E9D87A64"
+				title: "Hyper Enchanting"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6E7BCB29DADBF655"]
+			description: ["With a spout attached to the tank of liquid xp via pipes, you will be able to put the liquid back into bottles either by right clicking bottles onto a depot or having bottles put on a belt line underneath the spout"]
+			id: "0C09A77E15438295"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "2C31E11617C08766"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Making Bottles o' Enchanting"
+			tasks: [{
+				id: "5E035F36BEE7610A"
+				title: "Spouting XP back into bottles"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E7BCB29DADBF655"]
+			description: ["Once you have the xp stored in a tank, all you need to get the xp orbs to fall back onto the player all you need is a pump and pipe with nothing on the end this will pull the liquid xp down and dispense the orbs for the player to pick up"]
+			id: "543F60744F864D03"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "3DC00895AC8BB918"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Getting back the xp"
+			tasks: [{
+				id: "7CFB52A608598979"
+				title: "Dispencing XP"
+				type: "checkmark"
+			}]
+			title: "Dispensing XP onto the player"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F663416E824720C"]
+			description: ["&6Welcome to Create Enchantment Industry&r, a mod offering more tools and methods to handle experience and enchantment in Create."]
+			id: "4CD28EFB5B86F561"
+			rewards: [{
+				count: 5
+				id: "5E20D39320F06097"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Start of the exp journey"
+			tasks: [{
+				id: "2FA68B741463DE85"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			title: "&l&aEnchantment Industries"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: ["Use &6Spout Gun&r to shoot &9liquid&r to your &cenemies&r!"]
+			id: "00E8C3B95D0A3373"
+			rewards: [{
+				id: "5FDB4714AC2383EA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E6E9797DB605298"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create_things_and_misc:spout_gun"
+							}
+							{
+								Count: 1b
+								id: "create_things_and_misc:spout_gun_water"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "create_things_and_misc:spout_gun_lava"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "create_things_and_misc:spout_gun_chocolate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "create_things_and_misc:spout_gun_honey"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "create_things_and_misc:spout_gun_slime"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Spout Gun"
+			x: 20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F663416E824720C"]
+			description: [
+				"&n&6The Backtank&r&r stores pressurized air, providing oxygen for underwater breathing with a diving helmet. "
+				""
+				"It can be powered by rotation to collect pressurized air, which is also used by equipment like Extendo Grips, Potato Cannons, and Diving Helmets."
+			]
+			id: "6FB5BB638FCCE5A6"
+			rewards: [{
+				count: 5
+				id: "35A0EE04CB9D438B"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "341EF96A0BA2B691"
+				item: {
+					Count: 1b
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6FB5BB638FCCE5A6"]
+			description: ["An upgraded version of the Copper Backtank. How is there so much defense if you're not protected from the front, though?"]
+			id: "72CCC3706ED918F0"
+			rewards: [{
+				count: 5
+				id: "49CC82FF902FBC10"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D38E8BFF56A258D"
+				item: {
+					Count: 1b
+					id: "create:netherite_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F663416E824720C"]
+			description: ["A helmet that lets you use air from an equipped tank to breathe underwater. "]
+			id: "7F1A89396E466A62"
+			rewards: [{
+				count: 5
+				id: "13E84FE562531BA6"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AD8EA1AD5C2753E"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F1A89396E466A62"]
+			description: ["An upgraded version of the Copper Diving Helmet. The icon from afar looks like a helmet for a soldier."]
+			id: "695D86B08337B586"
+			rewards: [{
+				count: 5
+				id: "50CC70DE76990E1C"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "424CFF437C6A3CEC"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F663416E824720C"]
+			description: ["Allows you to walk underwater like you do on land as well as walk on belts without them moving you, if you think about it, must be really slippery."]
+			id: "2AFC93D91EE19439"
+			rewards: [{
+				count: 5
+				id: "451EADCB6938EEEB"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1712D012913765FB"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AFC93D91EE19439"]
+			description: ["An upgraded version of the Copper Diving Boots."]
+			id: "0F875C6440C21D88"
+			rewards: [{
+				count: 5
+				id: "4191A164189E7F6D"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FA54882AAAB67C8"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: ["&6Brass Gearboxes&r let you toggle this independently for each side."]
+			id: "55A7089FC773397D"
+			rewards: [{
+				id: "3667E2A81DCF0D45"
+				item: "create_connected:brass_gearbox"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A7E8495E8EFA568"
+				item: "create_connected:brass_gearbox"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E6A93A86BA569CE"]
+			description: [
+				"Ever wanted to make your own personal keycard for secure access? Now you can."
+				""
+				"&6Unique Cards:&r Create these using a Card Inscriber. They can't be faked because the player's name is registered."
+				""
+				"&6Card Reader:&r Reads Unique Cards to push a redstone signal, ideal for securing places."
+				""
+				"&6Magnifying Glass:&r Use this to view the key of the Unique Card."
+			]
+			icon: "create_things_and_misc:empty_card"
+			id: "2E246E0CDC79020B"
+			rewards: [{
+				id: "36657D9DDB1285A0"
+				item: "create_things_and_misc:empty_card"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "54561F2491E7B47A"
+					item: "create_things_and_misc:card_reader"
+					type: "item"
+				}
+				{
+					id: "40CAC0A785DF8D29"
+					item: "create_things_and_misc:card_press"
+					type: "item"
+				}
+				{
+					id: "04E3EA4DD87EFD92"
+					item: "create_things_and_misc:empty_card"
+					type: "item"
+				}
+				{
+					id: "7BA1D60F4371444B"
+					item: "create_things_and_misc:magnifying_glass"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CD28EFB5B86F561"]
+			description: ["You will polish the &drose quartz&r to use in making electron tubes"]
+			id: "14F1FF3CB61083E3"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "6D5B63D47F80B9EF"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "09F9BD53671C0D99"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			subtitle: "Off hand the sand paper and then right click with the &drose quartz&r"
+			tasks: [
+				{
+					id: "5D1559E27822E7AD"
+					item: "create:rose_quartz"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "4A67A727C2A672F3"
+					item: {
+						Count: 1b
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "689CF9562E5D811D"
+					item: "create:polished_rose_quartz"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "&dPolished Rose Quartz&r"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: ["Throw potatos on your friends with this potato cannon."]
+			id: "63B4347F61566BF9"
+			rewards: [{
+				count: 16
+				id: "3629C98575CBF45F"
+				item: "minecraft:potato"
+				random_bonus: 16
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C930DB26B648AD7"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F663416E824720C"]
+			id: "08847873D33F4388"
+			rewards: [{
+				count: 2
+				id: "701DBED6A05D303C"
+				item: "create:copper_casing"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "49F84E7D6A736D1A"
+				item: "kubejs:copper_machine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: ["&6Mechanical Rollers&r help clean up terrain on and under Train Tracks. It can clear blocks in front of it, or can automatically place blocks under Train Tracks from a Train's on-board inventories."]
+			id: "69416BCA0EB9380A"
+			rewards: [{
+				count: 5
+				id: "468265ADF8021864"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05AF40076910585F"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			title: "Rolling A Fat One"
+			x: 19.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: [
+				"The &6Extendo Grip&r increases your reach distance, thus allowing you to place and break blocks at a larger distance."
+				""
+				"To use the Extendo Grip, put it in your Off-Hand, and then use blocks or tools in your Main-Hand as you normally would."
+				""
+				"While wearing a Copper Tank, the Extendo Grip loses no Durability and instead uses some of the air pressure you have stored in your tank."
+			]
+			id: "1CC5CCEC80EEDBA1"
+			rewards: [{
+				count: 5
+				id: "12ED59C629434C12"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71BBDDD26D9CE66A"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Go Go Gadget"
+			x: 20.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["31C539FC15F26208"]
+			description: ["So a Cog Crank is just essentially a Hand Crank, but instead of putting a crank on blocks or machinery, this crank is used for rotational force and direction of cogwheels."]
+			id: "439FA5EBC730A6A0"
+			rewards: [{
+				count: 5
+				id: "4797AEAA1607DEC7"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B8A85365BD16851"
+				item: "create_dd:cog_crank"
+				type: "item"
+			}]
+			title: "Crank it all the way!"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E6A93A86BA569CE"]
+			id: "0A1175A62C935658"
+			rewards: [{
+				id: "645600F918F4069B"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "68B3D0ABF0C0DBF5"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			title: "&lSteam Engine"
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A1175A62C935658"]
+			id: "71F7AC6582E87E83"
+			rewards: [{
+				count: 3
+				id: "6D22B2B4D330E86D"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A1EC5CF8AC80485"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A1175A62C935658"]
+			id: "31D44E97DEB1F7E2"
+			rewards: [{
+				count: 3
+				id: "4BCA9AC609300CB9"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5273BBBF09BF9222"
+				item: {
+					Count: 1b
+					id: "create_sa:portable_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A1175A62C935658"]
+			id: "695BC8D5BAF143A1"
+			rewards: [{
+				count: 3
+				id: "43D1F1F0D85BACD2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03A36530DEB3AE71"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["597B6EB9A60DB0B1"]
+			description: [
+				"The &6Filling Tank&r is used to store Water to fill/refill your Jetpack which happens automatically when the Filling Tank is in your inventory. "
+				""
+				"To fill the Filling Tank you must hold it and right click with it on Water. "
+				""
+				"It's a manual process but you can automate this process with the use of a Deployer."
+			]
+			id: "61CCCE7E1910A3FE"
+			rewards: [{
+				count: 5
+				id: "7268DC993BDC7200"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0156CC63E094F170"
+				item: {
+					Count: 1b
+					id: "create_sa:large_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["597B6EB9A60DB0B1"]
+			description: [
+				"&6The Fueling Tank&r is used to store Lava to fill/refill your Jetpack which happens automatically when the Fueling Tank is in your inventory. "
+				""
+				"To fill the Fueling Tank you must hold it and right click with it on Lava. "
+				""
+				"It's a manual process but you can automate this process with the use of a Deployer."
+			]
+			id: "6FE3DEFFD08C4830"
+			rewards: [{
+				count: 5
+				id: "1F103E80AF143CDF"
+				item: "create_dd:experience_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09171DB6C7B30ED2"
+				item: {
+					Count: 1b
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			id: "3212A3D3FED8907B"
+			rewards: [{
+				count: 8
+				id: "0D5BEF01224A277D"
+				item: "create:cogwheel"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "REMOVE FROM THE GAME"
+			tasks: [{
+				id: "1FE1BB57E268DD34"
+				item: {
+					Count: 1b
+					id: "create_sa:block_picker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["48540220FACDD9F0"]
+			id: "5C8CDEE8C7870055"
+			rewards: [{
+				id: "0270E8C9BCD2740E"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "56C3BF05AD5CE1AB"
+				item: {
+					Count: 1b
+					id: "create_sa:flamethrower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&4&lFlamethrower"
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: ["&6Brass Chunk Loaders&r by default load a single chunk, but can be configured to load 3x3 or even a full 5x5 chunk radius!"]
+			id: "2BD01D6FB442AE94"
+			rewards: [{
+				count: 5
+				id: "348D1F2B6EFA1BD1"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "618008CDE30A5C1B"
+				item: "create_power_loader:empty_brass_chunk_loader"
+				type: "item"
+			}]
+			title: "Ain't Nothin' Like A Chunky Beat"
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["286B180E5031E542"]
+			description: ["A multi-block structure that lets you store large amounts of energy."]
+			id: "4792BA3DF070E24E"
+			rewards: [{
+				id: "4DBE55EA4315C7D8"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "02FD100C41FA6D09"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0641287E9700DE63"]
+			id: "20FE94FD076BC58C"
+			rewards: [{
+				id: "16168F18BCE7CED8"
+				item: "create_connected:item_silo"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Vertical Vaults"
+			tasks: [{
+				id: "139B2730C11079C3"
+				item: "create_connected:item_silo"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["79C542CA156AB01E"]
+			description: ["The &6kinetic motor&r has literally 0 SU. It can power literally nothing other then shafts and cogs and propellers (and other stuff that doesn't take SU) ."]
+			id: "6C3FB10919F1A353"
+			rewards: [{
+				id: "2C5104F6314BB243"
+				item: "create_dd:kinetic_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F48A0D9DDEA8B1"
+				item: "create_dd:kinetic_motor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C3FB10919F1A353"]
+			id: "2FC6B0EB466ADFE0"
+			rewards: [{
+				id: "5DF59807D92133DD"
+				item: "create_dd:accelerator_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D8CB8B0738144B6"
+				item: "create_dd:accelerator_motor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["286B180E5031E542"]
+			description: ["Energy transport it on a contraption!"]
+			id: "425DB2C7F1C67A64"
+			rewards: [{
+				id: "77BA322C75E34884"
+				item: "railways:portable_fuel_interface"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D1421AFBD00EC4C"
+				item: "createaddition:portable_energy_interface"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["57A7A5C79389A96A"]
+			description: [
+				"Especially useful while building new contraptions, the&6 Toolbox&r keeps your pockets free of clutter. Simply take the toolbox from your workshop and bring it with you. "
+				""
+				"Toolboxes can store up to 256 of 8 different items and can be accessed remotely when placed nearby."
+			]
+			id: "25C0A807C856BF8A"
+			rewards: [{
+				count: 5
+				id: "7A43FFC75264D80F"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59504E6426FE480F"
+				item: "create:brown_toolbox"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57A7A5C79389A96A"]
+			description: [
+				"These &6Blueprints &rcan be given one or more crafting recipes, which they then apply to your held items whenever you right-click them."
+				""
+				"The quickest and most effective way to assign recipes is to locate the recipe in JEI while the blueprint UI is open. Clicking the '+' in the JEI recipe view will transfer the recipe ingredients to the blueprint for you."
+			]
+			id: "0EA2E8537E17C0EA"
+			rewards: [{
+				id: "7FEBC91E3246FD5A"
+				item: "minecraft:painting"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "659A2F9BB938C589"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			title: "Big Plans"
+			x: -21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: ["By right cliking on the ground, you can summon in a \"mirror\" that will, well, mirror the blocks you place down."]
+			id: "6E2B46D5F2596E20"
+			rewards: [{
+				count: 5
+				id: "2AA8C279FA14D97D"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0375988F14F88429"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0427B74E71A4115C"]
+			description: ["Change your fan's processing type more efficiently with Catalysts."]
+			id: "4A799454B6F6443A"
+			rewards: [{
+				id: "07090542030046A3"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E7FFF2D636DBCB5"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			title: "Little Tippy-Tap Kitty Catalyst"
+			x: 20.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["377D64FABCA6D4C0"]
+			description: ["&n&l&cTrains need fuel to run!&r&r&r Use Lava in a Fuel Tank or Coal inside a Chest to be consumed to power the train"]
+			id: "1CBDE7EDBC42B8E4"
+			rewards: [{
+				id: "005521E5489AA742"
+				item: "create_dd:experience_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0FF67CD1099C1ABA"
+					item: "railways:fuel_tank"
+					type: "item"
+				}
+				{
+					id: "1C44755219864018"
+					item: "railways:portable_fuel_interface"
+					type: "item"
+				}
+			]
+			title: "Fuel"
+			x: 35.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66428F3633CBBC85"]
+			id: "50825590FBA47281"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "2DA24FED521EE238"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Practical alternative to 'real' trains"
+			tasks: [{
+				id: "5E007953E3CFAB1A"
+				item: "railways:handcar"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66428F3633CBBC85"]
+			description: [
+				"Phantom Train Tracks are like normal Tracks, but they're invisible! "
+				""
+				"Useful for 'flying' Trains! Hold the item to see ones you've already placed."
+			]
+			id: "2EE457AAF3EF5BAF"
+			rewards: [{
+				count: 5
+				id: "22155B525B8B648E"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AAEB0E4B009A211"
+				item: "railways:track_phantom"
+				type: "item"
+			}]
+			title: "It's Like Magic, Magic Trains"
+			x: 26.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66428F3633CBBC85"]
+			description: [
+				"Train Stations are used to create, disassemble, and guide Trains."
+				""
+				"&oRight-click&r a Train Track, then place the Station within &o15&r blocks of the track. "
+				""
+				"Stations can be placed on any Track so long as it isn't occupied by a Train Signal or Train Observer, &ohowever&r it can only create Trains if placed on a straight Track, and Bogeys may only be placed on a &o3&r long straight track."
+			]
+			id: "27EE348B6DDCCD0D"
+			rewards: [
+				{
+					count: 3
+					id: "5B5093741110ED80"
+					item: "create:train_door"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4718CB7F7B1BCB0E"
+					item: "create:train_trapdoor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43FAF88F18027E6F"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27EE348B6DDCCD0D"]
+			description: [
+				"The &6speaker&r emits a &bsound&r and also sends a custom message in the chat. "
+				""
+				"The perfect block for a &btrain station&r!"
+			]
+			id: "7EDD2769836E51E5"
+			rewards: [
+				{
+					count: 3
+					id: "227E3F2AE6BCDD4B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1ED4F0CF91B9DF15"
+					item: "create_things_and_misc:train_sing_yellow_4"
+					type: "item"
+				}
+				{
+					id: "781A95DF0C41A86A"
+					item: "create_things_and_misc:green_sing_1"
+					type: "item"
+				}
+			]
+			subtitle: "ALL ABOARD!"
+			tasks: [{
+				id: "1A8FA5425978AAE5"
+				item: "create_things_and_misc:brass_speaker"
+				type: "item"
+			}]
+			x: 28.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EDD2769836E51E5"]
+			description: ["Any aspiring station masters need this!"]
+			id: "505DCBCA99EA1647"
+			rewards: [{
+				count: 2
+				id: "32F1064407872169"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Choo choo!"
+			tasks: [{
+				id: "15EB6F0DAD3C81C2"
+				item: "create_things_and_misc:portable_whistle"
+				type: "item"
+			}]
+			x: 28.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CBDE7EDBC42B8E4"]
+			description: [
+				"Place the track and right-click it with a station block. Place the station block near the track."
+				""
+				""
+				"Right click on the station and select \"Create Train\" to enter assembly mode (blue flag shown on station)."
+				""
+				"Place one or more Train Casings on the track where indicated with blue. The casings will turn into bogeys (wheeled undercarriages.)"
+				""
+				"When assembled, each bogey will automatically become coupled together as part of the train. To create a carriage, build a platform around two bogeys' bases."
+				""
+				"Place a Train Controls block facing the direction dictated by the station. This is shown as an arrow on the Station's selected track. Place another set of Train Controls facing the opposite way to make the engine bi-directional (able to travel in both directions) and place a Seat or Blaze Burner behind the controls for the driver."
+				""
+				"Use Block Attachment Utilities such as Super Glue to connect all parts together (green highlight)."
+				""
+				"When finished, use the Station's interface to attempt to assemble the Train."
+				""
+				"If a Train fails to assemble, an error will be shown in the Station's interface. Common errors are detailed below."
+				""
+				"When assembled, the Train can be named in the Station's interface."
+			]
+			id: "2749A7BA16C50828"
+			rewards: [{
+				id: "6B106527E5EF7C1C"
+				item: "create_dd:experience_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1F4E41DFCF6D942D"
+				title: "All aboard"
+				type: "checkmark"
+			}]
+			title: "All Aboard!"
+			x: 37.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["058C9035FE584EA6"]
+			description: [
+				"Right-click a Train Track with a Train Signal while facing the direction Trains are intended to go, then place the signal within 15 blocks of the selected Track. "
+				""
+				"An arrow will appear on the selected Track indicating which way Trains can pass it."
+				""
+				"&6&l-->&r&r"
+				""
+				"{@pagebreak}"
+				""
+				"&nTwo-way Tracks&r"
+				""
+				"Conductors will never cross a Train Signal from the opposite direction. "
+				""
+				"Unlike other Railway Equipment, multiple Train Signals can select one track. "
+				""
+				"A Train Signal can be made two-way by having two opposite facing Train Signals linked to the same place. "
+				""
+				"Train Signals facing the same way on the same Track will be synchronized."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&nTrack Segments&r"
+				""
+				"Train Signals divide the track network into segments."
+				""
+				" The segments can be viewed by holding a Signal while looking at the Track. "
+				""
+				"Conductors will not enter a track segment occupied by another Train, regardless of how large the Train or the segment is."
+				""
+				"In order to divide a Track into sections, each section must be separated either by a Train Signal or a lack of connected Tracks."
+				""
+				"{@pagebreak}"
+				""
+				"A circular loop of Tracks requires two Train Signals to divide it, otherwise the Train Signals will have no effect. "
+				""
+				"A straight track only needs one Train Signal to divide it into two. If a section was successfully defined, the line ahead of the Signal should become a different color. The color has no significance aside from serving to differentiate segments."
+				""
+				"{@pagebreak}"
+				""
+				"&nChain Signal&r"
+				""
+				"Use a Wrench on the signal to activate chain mode. "
+				""
+				"This mode will stop the train before the denoted segment if the segment ahead that the train is attempting to path to is occupied. Chain mode is useful at junction locations, where a train could potentially sit in the middle of a junction while waiting for the proceeding segment to become free."
+				""
+				""
+				"{@pagebreak}"
+				"&nDisplay&r"
+				""
+				"Nixie Tubes can be attached to make the signal more visible, as well as convey additional information."
+				""
+				""
+				"{@pagebreak}"
+				"&nRedstone"
+				"&r"
+				"Signals give a Redstone Comparator signal while red. Signals can also be forced red by being activated with Redstone."
+			]
+			id: "18690E17CDF023D8"
+			rewards: [{
+				id: "0747EB35069001F5"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			subtitle: "Train Signals are used to control the flow of Trains not driven by players."
+			tasks: [{
+				id: "4DEFA0D56A520539"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18690E17CDF023D8"]
+			description: [
+				"Make your train yards and junctions pop with our new Semaphore blocks! "
+				""
+				"They serve the same purpose as nixie tubes, but do so in a far more aesthetically pleasing way."
+			]
+			id: "62534F090B59C3E3"
+			rewards: [{
+				count: 16
+				id: "26FE6A70DD11B7BF"
+				item: "create:track"
+				type: "item"
+			}]
+			subtitle: "Controll Moving Trains"
+			tasks: [{
+				id: "7D1B174D0130A88A"
+				item: "railways:semaphore"
+				type: "item"
+			}]
+			x: 41.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["058C9035FE584EA6"]
+			description: [
+				"Craft a &6Steam Whistle&r and combine with your train and activate it. "
+				""
+				"While driving the train, use the sprint key to blow the whistle. The Whistle's pitch will be accounted for. Non-player conductors will also blow the whistles shortly before arriving at distant stations."
+				""
+				"Note: &oIf multiple whistles are on a Train, a player can only blow the Whistle at the frontmost of the Train. NPC Conductors can play every Whistle, however.&r"
+			]
+			id: "7124FD269AE128F1"
+			rewards: [{
+				count: 15
+				id: "68C50CFEAE15C25C"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B9272878A16B4F6"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			x: 38.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7124FD269AE128F1"]
+			description: ["With &3&oCreate: Steam and Rails&r&r you can add various smoke stacks to add some flair to your train without having to use campfires. "]
+			id: "1F95201C8B7DACC4"
+			rewards: [{
+				count: 15
+				id: "46915C1A25D65370"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Puff Puff"
+			tasks: [{
+				id: "79E1CE3FB16EEDB9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railways:smokestack_woodburner"
+							}
+							{
+								Count: 1b
+								id: "railways:smokestack_streamlined"
+							}
+							{
+								Count: 1b
+								id: "railways:smokestack_oilburner"
+							}
+							{
+								Count: 1b
+								id: "railways:smokestack_coalburner"
+							}
+							{
+								Count: 1b
+								id: "railways:smokestack_caboosestyle"
+							}
+							{
+								Count: 1b
+								id: "railways:smokestack_long"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Smokestacks"
+			x: 40.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F95201C8B7DACC4"]
+			description: ["Useful for sepeating trains/carts that bump up against each other or to add an extra flair for your train."]
+			id: "307473D6106D7C4C"
+			rewards: [
+				{
+					id: "7A7FC0BB84836F9F"
+					item: "create_things_and_misc:train_sing_yellow_5"
+					type: "item"
+				}
+				{
+					id: "556BEC180D909776"
+					item: "create_things_and_misc:train_sing_yellow_4"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "525B37FD019D6D09"
+					item: "railways:conductor_vent"
+					type: "item"
+				}
+			]
+			subtitle: "Give me some space."
+			tasks: [{
+				count: 2L
+				id: "45557F4E077A7177"
+				item: "create_things_and_misc:train_buffer"
+				type: "item"
+			}]
+			title: "Train Buffers"
+			x: 41.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["058C9035FE584EA6"]
+			description: [
+				"The &6train observer&r will look at a specific part of the train track and detect when a train is crossing that specific section of track. It will give out a redstone signal when it detects a train going over that piece of track"
+				""
+				"The &6train observer&r can also only detect when a specific cargo is being held within the train."
+			]
+			id: "5FF54D91DD9438A3"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "2E0B1CBEB93BF31B"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Watches for trains"
+			tasks: [{
+				id: "362938446F1E97B8"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: 40.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["058C9035FE584EA6"]
+			description: ["Used to visualise and control which direction trains go in intersections."]
+			id: "2FD2B1E101481B4A"
+			rewards: [{
+				count: 5
+				id: "5E0259FF602970B2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23C238C18C90FB31"
+				item: "railways:track_switch_andesite"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2FD2B1E101481B4A"]
+			description: ["Same as the Andesite Track Switch but also allows for switching for scheduled trains."]
+			id: "7259701778971E87"
+			rewards: [{
+				count: 5
+				id: "201E24242B29BF86"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "260D98D794BA010D"
+				item: "railways:track_switch_brass"
+				type: "item"
+			}]
+			x: 41.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["276AFF6A055FA969"]
+			description: [
+				"Conductors are perfect for driving Trains. "
+				""
+				"Right-click an Andesite Casing with a &6Conductor's Cap&r to make one! You can wear them too."
+			]
+			id: "49AA58282AF31AB4"
+			rewards: [{
+				id: "707578F8C28D4BC7"
+				item: "create_dd:experience_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "733EA4656A5BDE81"
+				item: "railways:red_conductor_cap"
+				type: "item"
+			}]
+			title: "The Tiniest Conductor"
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27EE348B6DDCCD0D"]
+			description: ["&6Seats! &rYou can sit on them, and so can mobs if you use a Lead on them and right-click on the seat."]
+			id: "276AFF6A055FA969"
+			rewards: [{
+				id: "5931D25FFCA67B71"
+				item: "create_dd:experience_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59CB37726F74C8BE"
+				item: "create:red_seat"
+				type: "item"
+			}]
+			title: "Take A Seat"
+			x: 30.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49AA58282AF31AB4"]
+			description: [
+				"Give a Conductor a pair of Engineer's Goggles and right-click it with a Remote Lens to be able to remotely control the Conductor like a little robot! "
+				""
+				"Your actions as a Conductor are limited but you can use Trains and Buttons."
+			]
+			id: "06DCE1D48E7A8D08"
+			rewards: [{
+				id: "6CD45A51A7A86EE0"
+				item: "create_dd:experience_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "348018A1CE64BD31"
+				item: "railways:remote_lens"
+				type: "item"
+			}]
+			title: "Fuckin' Small, Like One Inch Tall"
+			x: 32.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75DF02727DA03273"]
+			id: "1CB094DFF05CB16C"
+			rewards: [{
+				count: 5
+				id: "62AD78AC5CFC2A17"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12835FED31B5A016"
+				item: "create_dd:hydraulic_press"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6135016A83A473F6"]
+			id: "75DF02727DA03273"
+			rewards: [{
+				id: "0BA1E29FD152C03A"
+				item: "create_dd:bronze_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BEC40F93A74D7B5"
+				item: "create_dd:sealed_mechanism"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E2362A17A68A962"]
+			description: ["&6Cooking Guides&r can be used on Blaze Burners to easily automate Cooking Pot recipes."]
+			id: "4D3706462A81436B"
+			rewards: [{
+				id: "3D58C30471234EE6"
+				item: "create_dd:experience_ingot"
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "7F8F870FC78C8F9C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_central_kitchen:cooking_guide"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C391F19D41777F9"]
+			description: [
+				"Simply press &6\"H\"&r to access your current missions. Completing these will reward you with money that can be used in multiplayer environments or at the &l&0Black Market.&r&l&r"
+				""
+				"&5Understanding Currency in the Game:&r"
+				""
+				"• &6Spur:&r The most basic coin, similar to cents."
+				"• &6Cog:&r A higher value coin, similar to dollars. One Cog is worth 64 Spurs."
+				""
+				"Different coins are worth different amounts of Spurs and Cogs. You can see the exact value by hovering over each coin in your inventory."
+				""
+				"&e&l"
+			]
+			id: "432D36983BC11115"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "5DFBA12CA6E3DF63"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			title: "&e&l$$$ Making Money $$$"
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["432D36983BC11115"]
+			description: [
+				"&6Depositors&r work like a shop but instead of giving/taking an item, they emit a redstone pulse whenever money is put into it. "
+				""
+				"Useful for making slot machines, vending machines, tolls and the like. Shift-right-click to configure, right-click to use."
+			]
+			id: "40223F942D395C3C"
+			rewards: [{
+				count: 3
+				id: "4B2660E551F0E619"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45BEBDBE41754435"
+				item: "numismatics:andesite_depositor"
+				type: "item"
+			}]
+			title: "Vending Machine"
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["432D36983BC11115"]
+			description: ["&6Brass Depositors&r work like Andesite Depositors, but can take items from the card/coins in your inventory rather than just in your hand."]
+			id: "3C342B80CF63A563"
+			rewards: [{
+				count: 3
+				id: "261E5EB30291FC0C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "436850FAB2487D05"
+				item: "numismatics:brass_depositor"
+				type: "item"
+			}]
+			title: "Spending Machine"
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["432D36983BC11115"]
+			description: [
+				"Blaze Bankers can open bank accounts with a Bank Card that multiple people can use. "
+				""
+				"Have you and another player both use ID Cards, then put a blank Bank Card in the Banker along with your ID Cards. Now you can both share a bank account!"
+			]
+			id: "3C6D9766219149C7"
+			rewards: [{
+				count: 3
+				id: "7F648B50B1FED8EE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3806994A49214F1F"
+				item: "numismatics:banking_guide"
+				type: "item"
+			}]
+			title: "Fat Banker"
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["432D36983BC11115"]
+			description: [
+				"&6Bank Terminals&r are used to exchange physical currency into/out of your bank account to use with your Bank Card, and between different currency types. "
+				""
+				"Right-click it to see your current balance."
+			]
+			id: "6D81951184038483"
+			rewards: [{
+				count: 3
+				id: "4DCD2735A634B08B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58EA7E6B2DD313CA"
+				item: "numismatics:bank_terminal"
+				type: "item"
+			}]
+			title: "Big Banks Won't Fail"
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["432D36983BC11115"]
+			description: [
+				"&6ID Cards&r can be bound to a person by having them right-click it, and can then be placed in the trust list of a Vendor or Depositor to let them configure it. "
+				""
+				"They can also be used with the Blaze Banker to make an account that multiple people can share."
+			]
+			id: "02E2AB4922433F79"
+			rewards: [{
+				count: 3
+				id: "42FDBFFC77CD3F6C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E81837EF2AB78E9"
+				item: "numismatics:white_id_card"
+				type: "item"
+			}]
+			title: "Papers Please"
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["432D36983BC11115"]
+			description: [
+				"&6Bank Cards&r can be used as an easy way to access your currency when trading with Vendors or Depositors. "
+				""
+				"Right-click it to bind it to your account, and use a Bank Terminal to deposit/withdraw funds. You can also put it into a Vendor or Depositor to withdraw the funds that you've made."
+			]
+			id: "6167C2BC77E3194C"
+			rewards: [{
+				count: 3
+				id: "45BFF056C2E5D691"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55B64A4D0C3A5694"
+				item: "numismatics:white_card"
+				type: "item"
+			}]
+			title: "Credit Card Debt"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["432D36983BC11115"]
+			description: [
+				"&6Vendors&r are easy ways to set up player shops that let you buy or sell items to anyone you'd like. "
+				""
+				"Shift-right-click to configure the shop, and other players (or you) can right-click to trade with it."
+			]
+			disable_toast: true
+			id: "37BDB790224B5D75"
+			rewards: [{
+				count: 3
+				id: "6C1AFB374E5736DB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "388641B9662061E8"
+				item: "numismatics:vendor"
+				type: "item"
+			}]
+			title: "Big Spender Vendor"
+			x: 15.5d
+			y: 3.5d
+		}
+	]
+	title: "&aCreate 101 - Guidebook"
+}

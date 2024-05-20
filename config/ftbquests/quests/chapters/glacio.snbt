@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "glacio"
-	group: "4546D7737CBFFD68"
+	group: "75F42DD0EFC42B58"
 	icon: "ad_astra:glacio_globe"
 	id: "35E93C492B4BEDFA"
 	images: [{
@@ -17,7 +17,7 @@
 		x: 1.5d
 		y: -2.5d
 	}]
-	order_index: 46
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

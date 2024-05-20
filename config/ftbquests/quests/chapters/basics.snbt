@@ -11,19 +11,47 @@
 		}
 	}
 	id: "09B56D111668F538"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 6.0d
-		hover: [ ]
-		image: "kubejs:textures/logo.png"
-		rotation: 0.0d
-		width: 8.0d
-		x: -27.0d
-		y: 18.0d
-	}]
-	order_index: 9
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "kubejs:textures/logo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -27.0d
+			y: 18.0d
+		}
+		{
+			click: ""
+			color: 14522965
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -14.5d
+			y: 17.5d
+		}
+		{
+			click: ""
+			color: 14522965
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -10.0d
+			y: 17.5d
+		}
+	]
+	order_index: 24
 	quest_links: [ ]
 	quests: [
 		{
@@ -915,7 +943,7 @@
 				type: "item"
 			}]
 			x: -16.5d
-			y: 14.5d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -946,7 +974,7 @@
 				type: "item"
 			}]
 			x: -16.5d
-			y: 14.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -977,7 +1005,7 @@
 				type: "item"
 			}]
 			x: -16.5d
-			y: 13.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["7261FED43BDDEFA8"]
@@ -1002,7 +1030,7 @@
 				item: "sophisticatedbackpacks:upgrade_base"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -13.0d
 			y: 13.0d
 		}
 		{
@@ -1035,8 +1063,8 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 11.5d
+			x: -11.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1063,8 +1091,8 @@
 				item: "sophisticatedbackpacks:tool_swapper_upgrade"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 11.5d
+			x: -14.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1091,8 +1119,8 @@
 				item: "sophisticatedbackpacks:restock_upgrade"
 				type: "item"
 			}]
-			x: -20.0d
-			y: 11.5d
+			x: -14.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1119,8 +1147,8 @@
 				item: "sophisticatedbackpacks:compacting_upgrade"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 11.5d
+			x: -14.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1147,8 +1175,8 @@
 				item: "sophisticatedbackpacks:magnet_upgrade"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 11.5d
+			x: -14.0d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -1175,8 +1203,8 @@
 				item: "sophisticatedbackpacks:deposit_upgrade"
 				type: "item"
 			}]
-			x: -23.0d
-			y: 11.5d
+			x: -14.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -1203,8 +1231,8 @@
 				item: "sophisticatedbackpacks:pump_upgrade"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 11.5d
+			x: -11.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1231,8 +1259,8 @@
 				item: "sophisticatedbackpacks:tank_upgrade"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 11.5d
+			x: -11.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -1259,8 +1287,8 @@
 				item: "sophisticatedbackpacks:jukebox_upgrade"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 11.5d
+			x: -11.5d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -1287,8 +1315,8 @@
 				item: "sophisticatedbackpacks:battery_upgrade"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 11.5d
+			x: -11.5d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -1315,8 +1343,8 @@
 				item: "sophisticatedbackpacks:everlasting_upgrade"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 11.5d
+			x: -11.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1349,8 +1377,8 @@
 				item: "sophisticatedbackpacks:inception_upgrade"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 11.5d
+			x: -11.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1377,8 +1405,8 @@
 				item: "sophisticatedbackpacks:pickup_upgrade"
 				type: "item"
 			}]
-			x: -24.0d
-			y: 11.5d
+			x: -14.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1405,7 +1433,7 @@
 				item: "sophisticatedbackpacks:void_upgrade"
 				type: "item"
 			}]
-			x: -25.0d
+			x: -14.0d
 			y: 11.5d
 		}
 		{
@@ -1433,8 +1461,8 @@
 				item: "sophisticatedbackpacks:feeding_upgrade"
 				type: "item"
 			}]
-			x: -26.0d
-			y: 11.5d
+			x: -14.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -1461,8 +1489,8 @@
 				item: "sophisticatedbackpacks:refill_upgrade"
 				type: "item"
 			}]
-			x: -27.0d
-			y: 11.5d
+			x: -14.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1489,8 +1517,8 @@
 				item: "sophisticatedbackpacks:filter_upgrade"
 				type: "item"
 			}]
-			x: -28.0d
-			y: 11.5d
+			x: -14.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -1517,8 +1545,8 @@
 				item: "sophisticatedbackpacks:crafting_upgrade"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 11.5d
+			x: -11.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -1545,7 +1573,7 @@
 				item: "sophisticatedbackpacks:stonecutter_upgrade"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 11.5d
 		}
 		{
@@ -1573,8 +1601,8 @@
 				item: "sophisticatedbackpacks:smelting_upgrade"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 11.5d
+			x: -14.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1601,8 +1629,8 @@
 				item: "sophisticatedbackpacks:smoking_upgrade"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 11.5d
+			x: -11.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1629,8 +1657,8 @@
 				item: "sophisticatedbackpacks:blasting_upgrade"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 11.5d
+			x: -11.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1657,8 +1685,8 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 10.5d
+			x: -10.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1685,8 +1713,8 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 9.5d
+			x: -9.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1713,8 +1741,8 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 8.5d
+			x: -8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1741,8 +1769,8 @@
 				item: "sophisticatedbackpacks:advanced_pump_upgrade"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 10.5d
+			x: -10.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1769,8 +1797,8 @@
 				item: "sophisticatedbackpacks:xp_pump_upgrade"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 9.5d
+			x: -9.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1797,8 +1825,8 @@
 				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 10.5d
+			x: -15.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1825,8 +1853,8 @@
 				item: "sophisticatedbackpacks:advanced_restock_upgrade"
 				type: "item"
 			}]
-			x: -20.0d
-			y: 10.5d
+			x: -15.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1853,8 +1881,8 @@
 				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 10.5d
+			x: -15.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1881,8 +1909,8 @@
 				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 10.5d
+			x: -15.0d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -1909,8 +1937,8 @@
 				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
 				type: "item"
 			}]
-			x: -23.0d
-			y: 10.5d
+			x: -15.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -1937,8 +1965,8 @@
 				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
 				type: "item"
 			}]
-			x: -24.0d
-			y: 10.5d
+			x: -15.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1965,8 +1993,8 @@
 				item: "sophisticatedbackpacks:advanced_void_upgrade"
 				type: "item"
 			}]
-			x: -25.0d
-			y: 10.5d
+			x: -15.0d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -1993,7 +2021,7 @@
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
 				type: "item"
 			}]
-			x: -26.0d
+			x: -15.0d
 			y: 10.5d
 		}
 		{
@@ -2021,8 +2049,8 @@
 				item: "sophisticatedbackpacks:advanced_refill_upgrade"
 				type: "item"
 			}]
-			x: -27.0d
-			y: 10.5d
+			x: -15.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -2049,8 +2077,8 @@
 				item: "sophisticatedbackpacks:auto_blasting_upgrade"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 10.5d
+			x: -10.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -2077,8 +2105,8 @@
 				item: "sophisticatedbackpacks:auto_smoking_upgrade"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 10.5d
+			x: -10.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -2105,8 +2133,8 @@
 				item: "sophisticatedbackpacks:auto_smelting_upgrade"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 10.5d
+			x: -15.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -2133,8 +2161,8 @@
 				item: "sophisticatedbackpacks:advanced_filter_upgrade"
 				type: "item"
 			}]
-			x: -28.0d
-			y: 10.5d
+			x: -15.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
@@ -2317,6 +2345,8 @@
 				"Looking to soar through the skies without venturing into the End for an Elytra? Consider crafting a jetpack instead."
 				""
 				"You'll gain access to mechanical crafters in Chapter 3, paving the way for your aerial adventure."
+				""
+				"You can also dive into magic for alternative methods of flight."
 			]
 			id: "0C7046AD65831DAC"
 			rewards: [{
@@ -2374,7 +2404,7 @@
 				""
 				"Keep an eye out for &ewaystones&r early in your adventure, as they significantly ease the exploration of the map."
 				""
-				"Moreover, there are numerous mods available that introduce various methods of creating teleportation points around the world!"
+				"Moreover, there are &dmagical&r methods available to create teleportation points around the world!"
 			]
 			icon: "waystones:waystone"
 			id: "67FA8896AD563A77"
@@ -2767,218 +2797,6 @@
 			title: "&l&4The world is dangerous"
 			x: -7.0d
 			y: 20.0d
-		}
-		{
-			dependencies: ["7FA5CDC0F616D2C5"]
-			description: [
-				"&dIron's Spells 'n Spellbooks&r is a magic mod focused around exploring the world to find magic scrolls in order to cast fantastical magics. "
-				""
-				"Craft the magic scrolls yourself, or seek out mage towers or deadly crypts around the world and take their loot as your own."
-				""
-				"You will fight more gangerous mobs like &2Necromancer&r, collect brand new resources, and most importantly: &6Cast Powerful Spells!&r"
-			]
-			icon: {
-				Count: 1b
-				id: "patchouli:guide_book"
-				tag: {
-					"patchouli:book": "irons_spellbooks:iss_guide_book"
-				}
-			}
-			id: "4B378FB1C1B2C9B6"
-			rewards: [{
-				id: "0DE40E0CC958DE8B"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "rsquare"
-			size: 1.2d
-			subtitle: "Magic and towers"
-			tasks: [{
-				id: "2393F7F99A9D5A39"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "irons_spellbooks:iss_guide_book"
-					}
-				}
-				type: "item"
-			}]
-			title: "&aGetting&r &dMagical II&r "
-			x: 2.0d
-			y: 20.0d
-		}
-		{
-			dependencies: ["203A551C239270CC"]
-			description: [
-				"You may quickly notice as your explore your world that you will be finding scrolls. "
-				""
-				"Each scroll contains a spell, similar to an enchanted book. "
-				""
-				"The scroll can be consumed to cast that spell without consuming mana or triggering a cooldown, or brought to the first new workstation added: the Inscription Table."
-				""
-				"At the inscription table, you are allowed to place a spell book, one either found or crafted, and slot the scroll into it."
-				""
-				"However, depending on the rarity of the scroll (determined by the spell’s level), it may be too powerful for your spell book."
-				""
-				"In this case, you need a better spell book."
-			]
-			id: "5B77391C5522B8FD"
-			rewards: [{
-				id: "10628D069DE82A16"
-				type: "xp"
-				xp: 20
-			}]
-			subtitle: "Inscribing spells"
-			tasks: [{
-				id: "4760248725EA6AFE"
-				item: "irons_spellbooks:inscription_table"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 24.5d
-		}
-		{
-			dependencies: ["4B378FB1C1B2C9B6"]
-			description: [
-				"It's hard to keep finding single use scrolls, but by putting the scrolls into a spell book using the inscription table, one can keep using the spell without consuming the scroll."
-				""
-				"Default key is &6\"x\"&r to open wheel."
-				""
-				"Default cast key is &6\"r\"&r"
-			]
-			id: "203A551C239270CC"
-			rewards: [{
-				id: "3C19DC8A4E206C87"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Your first Spellbook"
-			tasks: [{
-				id: "57756789D0E642A1"
-				item: {
-					Count: 1b
-					id: "irons_spellbooks:copper_spell_book"
-					tag: {
-						ISB_spellbook: {
-							activeSpellIndex: -1
-							spellSlots: 4
-							spells: [ ]
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 22.0d
-		}
-		{
-			dependencies: [
-				"7F100A2BD0FCDF83"
-				"36F0F4CB2DB0DC6F"
-				"5B77391C5522B8FD"
-			]
-			description: ["The Arcane Anvil allows you to place 2 scrolls of the same type/level and combine them into the next level up. By placing a weapon and a spell scroll into th Arcane Anvil you can also imbue the effects of the used scroll into said weapon (consumes scroll,) making the weapon able to cast the spell. A Shriving Stone can be used to take off an imbued spell from a weapon."]
-			id: "25F182EEFE41CFAB"
-			rewards: [
-				{
-					id: "391A333A7E3687F0"
-					item: "irons_spellbooks:shriving_stone"
-					type: "item"
-				}
-				{
-					id: "318A3F601957723A"
-					type: "xp"
-					xp: 200
-				}
-			]
-			subtitle: "Upgrading and Imbuement"
-			tasks: [{
-				id: "489E87CAFFF7045B"
-				item: "irons_spellbooks:arcane_anvil"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 27.0d
-		}
-		{
-			dependencies: ["203A551C239270CC"]
-			description: ["Runestones are a more rare find in magical structures, and are always found as blank runestones. Using 8 focuses, you can craft a runestone to a specific school, and use your inscribed runestone to craft gear related to that school."]
-			id: "7F100A2BD0FCDF83"
-			rewards: [{
-				id: "1E00ABF3337012D9"
-				type: "xp"
-				xp: 20
-			}]
-			tasks: [{
-				id: "5D93C698ECD2F59D"
-				item: "irons_spellbooks:blank_rune"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 24.5d
-		}
-		{
-			dependencies: ["4B378FB1C1B2C9B6"]
-			description: ["Arcane essence is the most common and most important magical material. It can be found in magical structures, or looted from killing magical enemies. Low amounts of it may craft weak magic items, but its primary purpose is to be condensed into Arcane Cloth or Arcane Ingots, and used in more powerful crafting recipes."]
-			id: "4BF4F782BB659567"
-			rewards: [{
-				id: "1F9589A29691F3A3"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "5CD67234CAD3B746"
-				item: "irons_spellbooks:arcane_essence"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 22.0d
-		}
-		{
-			dependencies: ["4B378FB1C1B2C9B6"]
-			description: [
-				"Ink can be found in magic structures, such as wizard towers, and is the key to crafting scrolls. "
-				""
-				"There are 5 variants, one for each rarity of scroll."
-				""
-				"When using ink in the Scroll Forge, it will allow you to craft a spell of the corresponding rarity, at the lowest level available. If the minimum rarity of a spell is higher than the ink provided, you will not be able to craft it at all, instead needing a higher quality ink to craft its first level."
-			]
-			id: "06B922A788EDDEC4"
-			rewards: [{
-				id: "715E6F4F64E208E5"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "31E0D91ADE40BCF9"
-				item: "irons_spellbooks:common_ink"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 22.0d
-		}
-		{
-			dependencies: ["203A551C239270CC"]
-			description: [
-				"The Scroll Forge is a new crafting station that allows the player to craft scrolls by using ink, paper, and a focus. "
-				""
-				"The ink determines the rarity/level, and the focus determines what school of spells you can craft."
-			]
-			id: "36F0F4CB2DB0DC6F"
-			rewards: [{
-				id: "00C545839245671B"
-				type: "xp"
-				xp: 20
-			}]
-			subtitle: "Making Spells"
-			tasks: [{
-				id: "51298BAF518C7A9E"
-				item: "irons_spellbooks:scroll_forge"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 24.5d
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
@@ -3608,29 +3426,6 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"These Blueprints can be given one or more crafting recipes, which they then apply to your held items whenever you right-click them."
-				""
-				"The quickest and most effective way to assign recipes is to locate the recipe in JEI while the blueprint UI is open. Clicking the '+' in the JEI recipe view will transfer the recipe ingredients to the blueprint for you."
-			]
-			id: "6D990A142A2A015B"
-			rewards: [{
-				id: "4B5BFE5506677409"
-				item: "minecraft:painting"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: false
-				id: "1F623C90349DE761"
-				item: "create:crafting_blueprint"
-				type: "item"
-			}]
-			title: "Big Plans"
-			x: 14.5d
-			y: 15.5d
-		}
-		{
-			dependencies: ["21FB9D855FA9D2DF"]
 			description: ["With the help of Schematicannons, any .nbt Schematic can be built into your world. Use it to replicate parts of your Building, or even to prepare it in a completely different World ahead of time."]
 			id: "64BDD35062B9FAF8"
 			rewards: [
@@ -3654,33 +3449,6 @@
 			title: "House Building Cannon"
 			x: 16.0d
 			y: 18.0d
-		}
-		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			description: ["Especially while building new Contraptions, this gadget is incredibly handy. Instead of filling up your pockets with components, simply pick up the toolbox from the workshop and bring it with you."]
-			id: "65553C55D7325C86"
-			rewards: [{
-				id: "618BA373B8A1D655"
-				item: "create:golden_sheet"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: false
-				icon: "create:blue_toolbox"
-				id: "1D1961EB37334B54"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "create:toolboxes"
-					}
-				}
-				title: "Any Toolbox"
-				type: "item"
-			}]
-			title: "Engineer's Companion"
-			x: 15.5d
-			y: 16.0d
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
@@ -3965,48 +3733,13 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["7FA5CDC0F616D2C5"]
+			dependencies: ["3D93780758BA7194"]
 			description: [
-				"With basic iron tools, you can get started on a brand new adventure into &dMagic&r using the mod &6Ars Nouveau&r."
+				"&2Archaeology&r is a new feature in Minecraft v1.20 that allows players to find items inside Suspicious blocks like Sand and Gravel. These blocks can be found in structures such as Warm Ocean Ruins, Desert Pyramids, Desert Wells."
 				""
-				"Creating this &2Novice Spellbook&r allows you to create beginner spells like casting projectiles to mine or damage mobs."
+				"To uncover items from Suspicious blocks, create a Brush to gently remove the block and reveal the item. Use the &bArchaeology Table&r to analyze Unidentified Artifacts with any type of brush."
 				""
-				"To learn more about the mod, check out the documentation in the Book!"
-				""
-				"Default key is \"v\" to open wheel and \"c\" to acess book."
-			]
-			id: "7CCB17165A8E0D43"
-			rewards: [{
-				id: "7E8541C1EC17E521"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [
-				{
-					id: "69CC3EFC64B0D5F6"
-					item: "ars_nouveau:novice_spell_book"
-					type: "item"
-				}
-				{
-					id: "2BDDEEDE78044DB7"
-					item: "ars_nouveau:worn_notebook"
-					type: "item"
-				}
-			]
-			title: "&aGetting&r &dMagical I&r "
-			x: 2.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["28B245505F91D21C"]
-			description: [
-				"&2Achaeology&r is a brand new feature for MC v1.20 that allows a player to find items inside of &aSuspicious&r blocks like Sand and Gravel."
-				""
-				"These blocks can be found in various structures like Warm Ocean Ruins, Desert Pyramids, Desert Wells, and the brand new &eTrail Ruins&r."
-				""
-				"To uncover an item from a Suspicious block, you need to create a &aBrush&r to brush away the block to unveil an item."
+				"Craft the Archaeology Table using 4 Wood Planks, a Brush, and Artifact Shards. It outputs one of three different Identified Artifacts, each with unique special powers."
 			]
 			hide: false
 			id: "0C4974DE21CEDF4B"
@@ -4016,23 +3749,30 @@
 				xp: 10
 			}]
 			size: 1.0d
-			tasks: [{
-				id: "0C5834C0899BEF2B"
-				item: {
-					Count: 1b
-					id: "minecraft:brush"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0C5834C0899BEF2B"
+					item: {
+						Count: 1b
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "39B21E1D56517ADD"
+					item: "betterarcheology:archeology_table"
+					type: "item"
+				}
+			]
 			title: "&2Archaeology&r!"
 			x: -2.0d
-			y: 20.0d
+			y: 23.0d
 		}
 		{
-			dependencies: ["0C4974DE21CEDF4B"]
+			dependencies: ["7FA5CDC0F616D2C5"]
 			description: [
 				"&aSmithing Templates&r are brand new items used to add trims to your armor! This can be done in Smithing Tables."
 				""
@@ -4058,11 +3798,11 @@
 				type: "item"
 			}]
 			title: "&dArmor Trims&r"
-			x: -3.0d
-			y: 21.5d
+			x: 1.5d
+			y: 20.0d
 		}
 		{
-			dependencies: ["0C4974DE21CEDF4B"]
+			dependencies: ["7FA5CDC0F616D2C5"]
 			description: [
 				"To find this egg, you'll need to brush away &aSuspicious Sand&r in Warm Ocean Ruins."
 				""
@@ -4085,8 +3825,8 @@
 				type: "item"
 			}]
 			title: "&aThe&r &5Sniffer&r"
-			x: -1.0d
-			y: 21.5d
+			x: 2.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["04D09899362AFC7A"]
@@ -4143,68 +3883,6 @@
 			title: "&cTo The Nether&r!"
 			x: 6.5d
 			y: 21.5d
-		}
-		{
-			dependencies: ["7CCB17165A8E0D43"]
-			description: [
-				"While holding your Spellbook, you can press C to open up the spell creation page."
-				""
-				"Each spell must have a form. You start off with 3 basic forms: Projectile, Self-cast, and Touch."
-				""
-				"For the Effect, this determines what happens when you cast the spell. You can have up to 9 effects per spell."
-				""
-				"For starters, you have Harm and Break."
-				""
-				"Select one Form and one Effect, name your spell, and click create!"
-				""
-			]
-			icon: {
-				Count: 1b
-				id: "ars_nouveau:spell_parchment"
-				tag: { }
-			}
-			id: "7698E4E7CDD66E0D"
-			rewards: [{
-				id: "620DD854667CEFD0"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "7F40C616C71144B5"
-				title: "Creating Your First Spell"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["7CCB17165A8E0D43"]
-			description: [
-				"In the bottom left of your screen, you'll see a bar. This bar is your mana pool!"
-				""
-				"There are several ways to increase your mana pool, or increase the efficiency of your spells as you progress through the mod. Upgrading your spellbook can also increase your mana!"
-			]
-			icon: {
-				Count: 1b
-				id: "minecraft:potion"
-				tag: {
-					Potion: "ars_nouveau:mana_regen_potion"
-				}
-			}
-			id: "119EBE265E39757C"
-			rewards: [{
-				id: "2FA068BB2914BAE8"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Mage Power"
-			tasks: [{
-				id: "5128619AB7EB8CFE"
-				title: "Mana"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 14.5d
 		}
 		{
 			dependencies: ["06267D7C266DE215"]
@@ -4302,324 +3980,6 @@
 			title: "Storage"
 			x: 13.5d
 			y: 15.5d
-		}
-		{
-			dependencies: ["06267D7C266DE215"]
-			id: "64407A1BC7A1761B"
-			rewards: [{
-				count: 5
-				id: "2EAC8AD1D4DA625F"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
-			subtitle: "Start of the exp journey"
-			tasks: [{
-				id: "738762F3C4D13F40"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
-			title: "&l&aEnchantment Industries"
-			x: 8.5d
-			y: 14.0d
-		}
-		{
-			dependencies: ["64407A1BC7A1761B"]
-			description: ["The &6item drain&r has the ability to take liquid out of a container and then it stores it until it it is piped out into a container"]
-			id: "21B2D54BEC60EEBA"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					count: 5
-					id: "020BB8FA670ACDBF"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
-					id: "614AB7D1376A35D8"
-					item: "create:copper_casing"
-					type: "item"
-				}
-			]
-			subtitle: "Fluid extraction"
-			tasks: [{
-				id: "2EF839E376CC3794"
-				item: "create:item_drain"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["64407A1BC7A1761B"]
-			description: ["The &6disenchanter&r has the ability to take enchants off of armour and store the xp it collects as liquid xp that can then be solidified to be consumed to be used again, it will be really helpful to have at a mob farm for armour drops. Standing on a &6disenchanter&r will take levels from the player and turn them into liquid"]
-			id: "53BB590289D14A36"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					count: 5
-					id: "3FF4EB7206190740"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
-					id: "107E63D536FD86FF"
-					item: "create:copper_casing"
-					type: "item"
-				}
-			]
-			subtitle: "Liquid xp?"
-			tasks: [{
-				id: "441FDC9E0D83D1CE"
-				item: "create_enchantment_industry:disenchanter"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["53BB590289D14A36"]
-			description: ["When placing an &6Enchanted golden apple&r onto a &6disenchanter&r it will remove the enchanted aspect and give you a &eregular golden apple&r back and store the xp as liquid xp, that xp can be tranfered into a tank for later storage"]
-			id: "56BE267CE6F7C4F9"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					count: 5
-					id: "31D8A6E3B108C83E"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
-					id: "71076F11E5C2A69A"
-					item: "minecraft:enchanted_golden_apple"
-					type: "item"
-				}
-			]
-			subtitle: "Notch Apple"
-			tasks: [{
-				id: "1299CA8805944EDF"
-				item: "minecraft:enchanted_golden_apple"
-				only_from_crafting: false
-				type: "item"
-			}]
-			title: "Disenchanting Enchanted Golden Apples"
-			x: 11.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["53BB590289D14A36"]
-			description: ["Either &6nuggets of experience&r or &6heaps of experience&r will be fully consumed and turned into their liquid form"]
-			id: "7FB0DDE93B00A9C2"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "6E08FF739B22213E"
-				item: "create_sa:heap_of_experience"
-				type: "item"
-			}]
-			subtitle: "4 Nuggets of Experience"
-			tasks: [{
-				id: "26DECED4032B66AB"
-				item: "create_sa:heap_of_experience"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["53BB590289D14A36"]
-			description: ["Any &6enchanted item&r can be placed on a disenchanted and it will take the xp and store it as liquid and you will get what you put that was enchanted back, so &6enchanted book&r will give you a book back, or &6an enchanted piece of armour&r will give you the armour piece without any enchantments"]
-			id: "4D55A7ABD7557FF1"
-			progression_mode: "flexible"
-			rewards: [{
-				count: 5
-				id: "44E85A96EE9EBEAD"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
-			subtitle: "Any enchanted book"
-			tasks: [{
-				id: "553B43AE4BF55FB0"
-				item: "minecraft:enchanted_book"
-				only_from_crafting: false
-				type: "item"
-			}]
-			title: "Disenchanting Enchanted Items"
-			x: 11.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["21B2D54BEC60EEBA"]
-			description: ["To get the liquid xp from the &6bottle o' enchanting&r you need the item drain, it will give you back the bottle after it has drained the xp"]
-			id: "7A39A5B9E3CAC840"
-			progression_mode: "flexible"
-			rewards: [{
-				count: 5
-				id: "3B14AED412DF53F4"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
-			subtitle: "Stealing the precious liquid xp"
-			tasks: [{
-				id: "5012467FACC9F5E3"
-				item: "minecraft:experience_bottle"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 12.0d
-		}
-		{
-			description: ["Once you have the xp stored in a tank, all you need to get the xp orbs to fall back onto the player all you need is a pump and pipe with nothing on the end this will pull the liquid xp down and dispense the orbs for the player to pick up"]
-			id: "70457BBE36DC7C91"
-			progression_mode: "flexible"
-			rewards: [{
-				count: 5
-				id: "12FE535737531924"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
-			subtitle: "Getting back the xp"
-			tasks: [{
-				id: "71F5A6C3DE6C00C3"
-				title: "Dispencing XP"
-				type: "checkmark"
-			}]
-			title: "Dispensing XP onto the player"
-			x: 10.0d
-			y: 10.0d
-		}
-		{
-			description: ["With a spout attached to the tank of liquid xp via pipes, you will be able to put the liquid back into bottles either by right clicking bottles onto a depot or having bottles put on a belt line underneath the spout"]
-			id: "4AD661C0A10ABD3B"
-			progression_mode: "flexible"
-			rewards: [{
-				count: 5
-				id: "582357A8F43D5FFC"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
-			subtitle: "Making Bottles o' Enchanting"
-			tasks: [{
-				id: "63240FE48620A116"
-				title: "Spouting XP back into bottles"
-				type: "checkmark"
-			}]
-			x: 7.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["64407A1BC7A1761B"]
-			description: [
-				"The &6printer&r will take any enchanted book by right clicking on it to save the enchantments you want to print onto new books."
-				""
-				"As long as the printer is given enough liquid xp it will make a duplicate of the book you have given it"
-				""
-				"You can also duplicate books you have written in by giving it the written book, then giving the &6printer&r liquid ink &a(made in the mixer)&r"
-			]
-			id: "1D267ADE18DD9817"
-			progression_mode: "flexible"
-			rewards: [{
-				count: 5
-				id: "29A5BDA41604E94B"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
-			subtitle: "Enchanted Book Duplication kind of"
-			tasks: [{
-				id: "5C555DA2B31F56BC"
-				item: "create_enchantment_industry:printer"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 12.0d
-		}
-		{
-			dependencies: [
-				"21B2D54BEC60EEBA"
-				"53BB590289D14A36"
-				"70457BBE36DC7C91"
-				"4AD661C0A10ABD3B"
-			]
-			description: [
-				"With the &6enchanting guide&r you can give it a book that you want it to store the enchantment of."
-				""
-				"Once you have done that, you can then shift and click a &ablaze burner&r to turn it into a &ablaze enchanter&r this will make it so it can receive liquid xp to be able to enchant items."
-				""
-				"To give it the item you want it to enchant you can either right click the &ablaze enchanter&r or setup a belt line with it placed somewhere in the middle of it"
-			]
-			id: "1511BEF5725A6F63"
-			progression_mode: "flexible"
-			rewards: [{
-				count: 5
-				id: "05540232F32AFC18"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
-			subtitle: "Enchanting with create"
-			tasks: [{
-				id: "0B7EC5C104467478"
-				item: "create_enchantment_industry:enchanting_guide"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["1511BEF5725A6F63"]
-			description: [
-				"&bHyper enchanting&r let's you go above the normal enchantment limit in the base game."
-				""
-				"To be able to mix it you will need to super heart a &6blaze burner below the basin and mixer&r you do this by feeding the &6blaze burner&r a blaze cake. You will get 10% of the liquid xp back in &bhyper experience liquid&r"
-				""
-				"You can pump the &bhyper experience liquid&r into the blaze enchanter and then give when enchanting it will enchant the tool 1 level higher than the book given to the &6blaze enchanter&r"
-			]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "create_enchantment_industry:item/hyper_experience_bottle"
-				}
-			}
-			id: "35BB0498DD5DC544"
-			progression_mode: "flexible"
-			rewards: [{
-				count: 5
-				id: "309B0914D0411478"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
-			subtitle: "In a mixer you need liquid xp, a lapis and a glow ink sac"
-			tasks: [{
-				id: "7732B5DC114EB3F3"
-				title: "Hyper Enchanting"
-				type: "checkmark"
-			}]
-			x: 8.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["35BB0498DD5DC544"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:block/enchanting_table_top"
-				}
-			}
-			id: "43D4387F9D3CCF41"
-			progression_mode: "flexible"
-			rewards: [{
-				count: 5
-				id: "525AEA381574F1D1"
-				item: "create:experience_nugget"
-				type: "item"
-			}]
-			subtitle: "Full enchanting with liquid XP"
-			tasks: [{
-				id: "314FD37C28AAF053"
-				title: "Auto Enchanting Line"
-				type: "checkmark"
-			}]
-			x: 8.5d
-			y: 7.0d
 		}
 		{
 			dependencies: ["7FA5CDC0F616D2C5"]
@@ -4724,23 +4084,6 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			description: ["By right cliking on the ground, you can summon in a \"mirror\" that will, well, mirror the blocks you place down."]
-			id: "6A532E6DD8742675"
-			rewards: [{
-				id: "0F7A0972D7B3E32F"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "73FB56BC99572AE8"
-				item: "create:wand_of_symmetry"
-				type: "item"
-			}]
-			x: 16.0d
-			y: 19.0d
-		}
-		{
 			dependencies: ["05B32DE12868C6DE"]
 			description: [
 				"The Abacus can be used to count the distance between two blocks in a much faster and efficient way."
@@ -4758,54 +4101,6 @@
 			title: "The Abacus"
 			x: -8.0d
 			y: 16.0d
-		}
-		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"You can sell and buy stuff from other players using a &6vendor&r."
-				""
-				"You have 6 different coins of various values to choose from."
-				"Spur < Bevel < Sprocket < Cog < Crown < Sun"
-				""
-				""
-				"&c-> Bank Terminal&r"
-				"Access your virtual bank account to deposit and withdraw coins."
-				""
-				"&c-> Depositor&r"
-				"Set a price and the depositor will emit a 1 redstone tick pulse once a player deposits money, either by having coins in their inventory or by using a card."
-				""
-				""
-				"&c-> Bank and ID Cards&r"
-				"Bank Cards can be placed in a Depositor or Vendor to have funds go directly into the associated account. Additionally, using a Bank Card on a Vendor or Depositor extracts funds from your account instead of taking coins from your inventory."
-				" "
-				""
-				"ID Cards are used to allow other players access to Numismatics' protected blocks (Vendors, Depositors, and Blaze Bankers), allowing you to easily give access to your business partners."
-				""
-				""
-				"&c-> Blaze Banker&r"
-				"Is one bank account not enough for your tax evasion business needs? Create another and use ID Cards to allow your business partners to withdraw funds."
-			]
-			id: "27B45F8E0C5718F7"
-			rewards: [
-				{
-					id: "595571ED03CEC951"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "441B153A78EF64E0"
-					item: "numismatics:crown"
-					type: "item"
-				}
-			]
-			subtitle: "Create numismatics"
-			tasks: [{
-				id: "6C1DAB2B662BFCAB"
-				item: "numismatics:vendor"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 20.5d
 		}
 		{
 			dependencies: ["05DF598DEBADABC3"]
@@ -5037,23 +4332,6 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			id: "42CDB69FF6A817D1"
-			rewards: [{
-				id: "132C946C438CC7A1"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "go vroom!"
-			tasks: [{
-				id: "5E16A1B18678318C"
-				item: "moped:copper_moped_item"
-				type: "item"
-			}]
-			x: 15.5d
-			y: 20.0d
-		}
-		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
 			dependency_requirement: "one_completed"
 			description: [
@@ -5148,8 +4426,8 @@
 				item: "minecraft:spyglass"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 15.0d
+			x: 3.0d
+			y: 16.0d
 		}
 		{
 			description: [""]
@@ -5181,8 +4459,8 @@
 				type: "advancement"
 			}]
 			title: "&lIron Man"
-			x: -0.5d
-			y: 15.5d
+			x: 1.5d
+			y: 16.5d
 		}
 		{
 			id: "6DEB9B9B1D825430"
@@ -5526,6 +4804,166 @@
 			title: "Glassblower's Workbench"
 			x: 16.0d
 			y: 25.0d
+		}
+		{
+			description: [
+				"The &9Task Screen&r can be crafted using x8 pieces of Stone and a Book in the Crafting Table, it can be used to automate selling items into the &eShop&r. "
+				""
+				"This process will require you to configure what items you want to sell, for example if you wanted to sell &ax16 Cobblestone&r for &dx2 Iron Coins&r you would search up \"&aCobblestone&r\" in the task section box."
+				""
+				"&7*see pictures below;&r"
+				""
+				"{image:beyondearth:textures/questpics/task_screen_help.png width:200 height:100 align:1}"
+				""
+				"{image:beyondearth:textures/questpics/cobblestone_task_screen.png width:200 height:125 align:1}"
+				""
+				""
+				"In order to feed items into &9Task Screens&r you'll need to use things that can transfer items into them."
+				""
+				"&7*see next page for examples...&r"
+				"{@pagebreak}"
+				"&7Here's some pictures to give you an idea of how to do this...&r"
+				""
+				"*using a Chicken Stasis Chamber"
+				"{image:beyondearth:textures/questpics/chicken_task_screen.png width:100 height:125 align:1}"
+				"*using a vanilla Hopper on top"
+				"{image:beyondearth:textures/questpics/hopper_task_screen.png width:75 height:125 align:1}"
+				"*using a Wooden Hopper on the side"
+				"{image:beyondearth:textures/questpics/wooden_hopper_task_screen.png width:125 height:75 align:1}"
+				"*using Create with Andesite Funnels"
+				"{image:beyondearth:textures/questpics/create_task_screen.png width:200 height:75 align:1}"
+			]
+			disable_toast: true
+			hide: true
+			id: "724FA30C24E9579D"
+			rewards: [{
+				id: "49254FEA5275C1D9"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "2820A5B60449157B"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			title: "&eHow to Automate Selling Items&r"
+			x: 12.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0C4974DE21CEDF4B"]
+			description: ["Using your brush, you can brush away the dirt to find the fossils hidden underneath. "]
+			id: "2A6FF2B5860DA901"
+			rewards: [{
+				count: 2
+				id: "539773C01850F296"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1744774CD4C3B85D"
+				item: { Count: 4b, id: "betterarcheology:fossiliferous_dirt" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0C4974DE21CEDF4B"]
+			description: ["Using your brush, you can brush away the loose sand to find the fossils hidden underneath. "]
+			id: "28774B25CD320D9A"
+			rewards: [
+				{
+					count: 2
+					id: "37FA6393252EEA50"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "42FC0A35A7AB3548"
+					item: "ecologics:sandcastle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "35496C9EA7213E5A"
+				item: { Count: 4b, id: "betterarcheology:suspicious_red_sand" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["1FF26858DB8E88F8"]
+			description: ["Perhaps you can&b put these back together&r, or maybe make&o &6something else&r with it."]
+			id: "3D93780758BA7194"
+			rewards: [
+				{
+					id: "13053AB2FDCD8A93"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5C068927E5D6A95C"
+					item: "betterarcheology:artifact_shards"
+					type: "item"
+				}
+			]
+			subtitle: "Find an Artifact Shard."
+			tasks: [{
+				advancement: "betterarcheology:artifact_shards"
+				criterion: ""
+				id: "363673AB8FDB53A7"
+				type: "advancement"
+			}]
+			title: "&8Shattered&r Knowledge"
+			x: -2.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["0C4974DE21CEDF4B"]
+			description: ["Craft an Unidentified Artifact from Shards. Now the identifying begins!"]
+			id: "3570097E250F33B0"
+			rewards: [{
+				count: 2
+				id: "0A387743D6AD3654"
+				item: "betterarcheology:artifact_shards"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "betterarcheology:unidentified_artifact"
+				criterion: ""
+				id: "63314573E77F41FE"
+				type: "advancement"
+			}]
+			title: "It's All Coming Together"
+			x: -0.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: ["Obtain loot by breaking a vase."]
+			id: "1FF26858DB8E88F8"
+			rewards: [{
+				id: "2BBC5A13DD6DD333"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Who broke my vase?"
+			tasks: [{
+				advancement: "betterarcheology:loot_vase_broken"
+				criterion: ""
+				id: "0C2CD08A3CAF07C5"
+				type: "advancement"
+			}]
+			title: "Smashing"
+			x: -2.0d
+			y: 20.0d
 		}
 	]
 	title: "&6&nGetting Started!"

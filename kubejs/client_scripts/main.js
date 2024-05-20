@@ -13,6 +13,10 @@ ClientEvents.lang('en_us', event => {
 })
 
 JEIEvents.hideItems(event => {
+  event.hide('simplyswords:contained_remant')
+  event.hide('simplyswords:tampered_remnant')
+  event.hide('simplyswords:decaying_relic')
+  event.hide('missions:mechanical_exchanger')
   event.hide('missions:mechanical_exchanger')
   event.hide('twilightforest:uncrafting_table')
   event.hide('create_dd:chocolate_milkshake')

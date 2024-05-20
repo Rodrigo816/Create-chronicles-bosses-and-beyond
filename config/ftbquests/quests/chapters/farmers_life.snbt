@@ -103,12 +103,11 @@
 			y: -3.5d
 		}
 	]
-	order_index: 33
+	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["713AADDE8ADDE4B9"]
 			description: ["Craft a hoe to start your farm industry"]
 			hide_dependency_lines: true
 			id: "478D1E1CB1AAFA71"

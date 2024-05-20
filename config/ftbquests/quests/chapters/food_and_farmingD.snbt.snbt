@@ -127,7 +127,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -163,7 +163,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["43021923E220CF68"]
 			description: ["Let's gather some seeds."]
 			id: "6C30157C331D3FA1"
 			rewards: [
@@ -205,7 +204,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["18EADBAFC932F864"]
 			description: ["Let's gather some pieces of wool!"]
 			icon: "minecraft:white_wool"
 			id: "5E502B3720605D7A"
@@ -255,7 +253,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2E9C035EEE7E5C34"]
 			id: "5044A47D23C3ECA6"
 			rewards: [
 				{
@@ -287,7 +284,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2E9C035EEE7E5C34"]
 			description: ["I don't wanna know how you got these."]
 			id: "5A9A6E3E727DBF87"
 			rewards: [
@@ -320,7 +316,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["3EA883C0BB7BD38F"]
 			description: [
 				"Markets provide you with a villager than can sell you anything if you have the right amount of emeralds."
 				""
@@ -396,7 +391,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["635620A03E3505BF"]
 			description: [
 				"Find a cow and Right Click it with a bucket."
 				""
@@ -441,7 +435,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2E9C035EEE7E5C34"]
 			description: [
 				"Chickens will lay these naturally. I guess it's not really considered naturally..."
 				""
@@ -489,7 +482,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1D2EF12FD7FDD217"]
 			id: "5299C13ACAE2A21C"
 			rewards: [
 				{
@@ -578,7 +570,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["72717D1135486D7F"]
 			id: "25F5F7F5FD277EF9"
 			rewards: [
 				{
@@ -619,7 +610,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0A1C2A7A8617D3E4"]
 			id: "23114E0FB75FFF29"
 			rewards: [
 				{
@@ -660,7 +650,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["72717D1135486D7F"]
 			description: ["&2Flax Seeds&r are a great way to get string in the early game!"]
 			id: "7542EA0F39ACE800"
 			rewards: [
@@ -688,7 +677,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["72717D1135486D7F"]
 			description: ["Find some sugar cane!"]
 			id: "3E4B64B04CA65817"
 			rewards: [
@@ -751,7 +739,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["45F83C2750F70F9B"]
 			description: [
 				"Craft the next version of the book. I promise you, it's worth it."
 				""
@@ -793,7 +780,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["58D5BD3106BFD94A"]
 			description: [
 				"This block is part of a multi-block kitchen."
 				""
@@ -835,7 +821,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["28C9EDBF6607E180"]
 			description: [
 				"This works just like the kitchen counter, except in the air."
 				""
@@ -880,7 +865,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["28C9EDBF6607E180"]
 			description: [
 				"This block stores items for cooking."
 				""
@@ -925,7 +909,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["28C9EDBF6607E180"]
 			description: [
 				"Stores items in the multi-block kitchen. Stack them on top of each other!"
 				""
@@ -971,7 +954,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["28C9EDBF6607E180"]
 			description: ["This block enables smelting recipes in your kitchen multi-block!"]
 			hide_dependency_lines: true
 			id: "398CCB9DFE109B57"
@@ -1012,7 +994,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["28C9EDBF6607E180"]
 			description: [
 				"This block produces milk over time, and enables milk recipes for the kitchen multi-block."
 				""
@@ -1058,7 +1039,6 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["7CB3FCD789747EF5"]
 			description: ["Allows you to attach power to the Stove."]
 			id: "5FB00B2955003265"
 			rewards: [
@@ -1097,7 +1077,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["66815AB6FDACCAB7"]
 			description: ["Provides Ice and Snow recipes!"]
 			id: "7D491D183444AE64"
 			optional: true
@@ -1137,7 +1116,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["5A51E26D66D1273B"]
 			description: ["Flax turns into String!"]
 			id: "35953716000766A1"
 			rewards: [
@@ -1165,10 +1143,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"659A903F97F93BE2"
-				"1D48298525EEADC9"
-			]
 			description: ["Time to bake a cake, if you've got some milk and eggs ready."]
 			id: "1DBBB332100FEF4C"
 			rewards: [
@@ -1207,7 +1181,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["361DFDB1E1352D6B"]
 			description: ["You should have everything you need already."]
 			id: "7F148547DFC52AF7"
 			rewards: [
@@ -1249,7 +1222,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["28C9EDBF6607E180"]
 			description: [
 				"This block provides water to the multi-block kitchen."
 				""
@@ -1331,7 +1303,6 @@
 			y: 5.625d
 		}
 		{
-			dependencies: ["01B70A4F230ED036"]
 			description: ["Hopper pots will automatically output into the storage beneath it. This can be used to automate all of your crops!"]
 			id: "71956F2E7E0A4BCC"
 			rewards: [
@@ -1364,39 +1335,6 @@
 			y: 5.625d
 		}
 		{
-			dependencies: [
-				"01B70A4F230ED036"
-				"0EFF1AA37772156B"
-				"2E9C035EEE7E5C34"
-				"47764EFC822E462A"
-				"58D5BD3106BFD94A"
-				"73B8A70240E6070E"
-				"2715BECC5E6FFA64"
-				"18EADBAFC932F864"
-				"1697CC05D08B388D"
-				"0A1C2A7A8617D3E4"
-				"5A51E26D66D1273B"
-				"72717D1135486D7F"
-				"3EA883C0BB7BD38F"
-				"1515B32545F51266"
-				"7CB3FCD789747EF5"
-				"43021923E220CF68"
-				"58495CFBF4F20CE9"
-				"1D48298525EEADC9"
-				"1D2EF12FD7FDD217"
-				"66815AB6FDACCAB7"
-				"1F114EB0AAB86DB4"
-				"13AFCD3B6F62B986"
-				"0893EFCAC7031FEA"
-				"28C9EDBF6607E180"
-				"1CBEB3ABB4260CC2"
-				"361DFDB1E1352D6B"
-				"45F83C2750F70F9B"
-				"1827DEEA2DF1B144"
-				"635620A03E3505BF"
-				"37CA6F9F0226F10E"
-				"659A903F97F93BE2"
-			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ad_astra:earth_globe"

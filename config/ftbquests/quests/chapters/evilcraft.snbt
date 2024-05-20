@@ -272,7 +272,7 @@
 			y: -3.5d
 		}
 	]
-	order_index: 11
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -308,7 +308,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["31FD9EA513E0D010"]
 			description: [
 				"To start collecting blood, we need to craft the &cBlood Extractor&r. "
 				""
@@ -384,7 +383,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["31FD9EA513E0D010"]
 			description: [
 				"These are hard to miss, considering they have a massive beam coming from the center."
 				""
@@ -432,7 +430,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7E79F52147B606F9"]
 			description: [
 				"To progress, we'll need to create our first &5Dark Power Gem&r."
 				""
@@ -463,7 +460,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["7E79F52147B606F9"]
 			description: [
 				"If you leave a bucket of blood on the ground long enough, it will dry into &cHardened Blood&r."
 				""
@@ -495,7 +491,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["68318811CCC28320"]
 			description: [
 				"We won't be creating Dark Power Gems using pools of blood anymore."
 				""
@@ -539,10 +534,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"64EC182B81BD8B86"
-				"1E3471513C75CC54"
-			]
 			description: [
 				"Combining &aHardened Blood Shards&r with &9Dark Power Gems&r will make Blood Infusion Cores."
 				""
@@ -573,7 +564,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["62A262A706CFCAF0"]
 			description: [
 				"Using the Blood Infuser, you can create &cUndead Saplings&r that grow into &dUndead Trees&r."
 				""
@@ -610,7 +600,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["62A262A706CFCAF0"]
 			description: [
 				"EvilCraft machines can be upgraded using &6Promises&r. Each Promise will have different effects, but first, we'll want to upgrade our Blood Infuser to unlock more recipes."
 				""
@@ -648,7 +637,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["68318811CCC28320"]
 			description: [
 				"The &cBlood Chest&r can be used to repair items using &cBlood&r."
 				""
@@ -694,7 +682,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["62CE0FFAF6352287"]
 			description: [
 				"Need to remove &dEnchantments&r from an item you've found? Maybe you want to remove a Curse? This can be done using the &cPurifier&r."
 				""
@@ -754,7 +741,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["62CE0FFAF6352287"]
 			id: "1DE128F53C182826"
 			rewards: [
 				{
@@ -778,7 +764,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["62CE0FFAF6352287"]
 			id: "39CC5A9AE9604889"
 			rewards: [
 				{
@@ -802,7 +787,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["7E79F52147B606F9"]
 			description: [
 				"Sometimes when you kill a mob, a &dVengeance Spirit&r will spawn."
 				""
@@ -841,7 +825,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["62CE0FFAF6352287"]
 			icon: "evilcraft:promise_tier_2"
 			id: "060031C2304EA298"
 			rewards: [
@@ -880,7 +863,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["4978A9B616362CCE"]
 			id: "04930D844D25796C"
 			rewards: [
 				{
@@ -918,10 +900,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"1D794DE95C9FF6C7"
-				"12F3A604329EC604"
-			]
 			description: ["Gives you a speed boost + step height!"]
 			id: "26CEBB75C9B9A161"
 			rewards: [
@@ -947,7 +925,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7E79F52147B606F9"]
 			description: [
 				"Using the power of &9Dark Gems&r, we can create &aDark Tanks&r."
 				""
@@ -996,7 +973,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["40888A2C17D8FFF6"]
 			description: [
 				"It's a pickaxe with Fortune V on it. That's all."
 				""
@@ -1042,10 +1018,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"4978A9B616362CCE"
-				"066438B01655D866"
-			]
 			description: [
 				"&cEvilCraft&r has its own Mob Farm!"
 				""
@@ -1108,7 +1080,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["51B24CC5E9332C1E"]
 			description: [
 				"While their &dEssence&r is useful, we can also capture these Spirits for later use. That sounds evil, doesn't it?"
 				""
@@ -1148,7 +1119,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["74B0308336F5E017"]
 			description: [
 				"Is the &cBlood Chest&r not working fast enough? Do you have too many items that need to be repaired? You can make a &cColossal Blood Chest&r to solve these problems."
 				""
@@ -1217,7 +1187,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["1DA0A87C471A38AC"]
 			description: [
 				"Want to create a mob egg from the spirit you have trapped in that box?"
 				""
@@ -1261,7 +1230,6 @@
 			y: -0.125d
 		}
 		{
-			dependencies: ["31FD9EA513E0D010"]
 			hide_dependency_lines: true
 			id: "7AEAA09658B8EAA7"
 			rewards: [
@@ -1304,7 +1272,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2CB69634F6A6E53E"]
 			description: ["Holding right click will charge up the Mace to do an AoE attack using &cBlood&r. Sneak-right clicking will change the power level. The higher the power level, the more damage it will do at a higher cost of Blood."]
 			hide_dependency_lines: true
 			id: "405608CCC1A9FB2C"
@@ -1347,7 +1314,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["62CE0FFAF6352287"]
 			description: [
 				"The &9Kineticator&r works like a magnet for items and experience."
 				""
@@ -1419,7 +1385,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["2CB69634F6A6E53E"]
 			hide_dependency_lines: true
 			id: "763A312AB7D9F5FC"
 			rewards: [
@@ -1462,7 +1427,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["68318811CCC28320"]
 			hide_dependency_lines: true
 			id: "3B432A975AEAA20F"
 			rewards: [
@@ -1505,7 +1469,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["62CE0FFAF6352287"]
 			hide_dependency_lines: true
 			id: "07BD4B40DFEB0751"
 			rewards: [
@@ -1531,10 +1494,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"026A71F98A52E3A5"
-				"753B3EF7CC94A6DD"
-			]
 			dependency_requirement: "one_completed"
 			description: ["Either with the flesh of &aPlayers&r or &dWerewolves&r, you can create an &aInfinite Food Source&r using the power of Garmonbozia!"]
 			id: "6959A8545BB58115"
@@ -1578,7 +1537,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["35FA55BE8DF49EE8"]
 			description: ["To insert the desired potion, just right click with the &2Primed Pendant&r in hand to open its inventory."]
 			hide_dependency_lines: true
 			id: "2861868F13F43027"
@@ -1623,7 +1581,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["35FA55BE8DF49EE8"]
 			description: ["Works like the &aMace of Distortion&r, except it causes an AoE explosion instead."]
 			hide_dependency_lines: true
 			id: "7DEA60369283749A"
@@ -1666,7 +1623,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7E79F52147B606F9"]
 			description: [
 				"Have you ever wanted to be able to attack things with a Shovel, and it hurt? I would ask why, but this is EvilCraft."
 				""
@@ -1703,7 +1659,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["4EBED8ABC8C863A4"]
 			description: [
 				"The &6Entangled Chalice&r is just like an Ender Tank."
 				""
@@ -1757,7 +1712,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["4EBED8ABC8C863A4"]
 			description: [
 				"Using the power of a slain &9Vengeance Spirit&r, we can use the Blood Infuser to create &dGarmonbozia&r."
 				""
@@ -1793,7 +1747,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["35FA55BE8DF49EE8"]
 			description: ["With &dGarmonbozia&r, we can now create our own &aEnvironmental Accumulator&r. That's a lot to type out, I'm gonna be honest."]
 			id: "260EC5D74F62F0D0"
 			rewards: [
@@ -1819,7 +1772,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["2CB69634F6A6E53E"]
 			description: [
 				"When it's raining, throwing in a &aWeather Container&r will harness the power of the rain."
 				""
@@ -1868,7 +1820,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["2CB69634F6A6E53E"]
 			description: [
 				"When it's a thunderstorm, throwing in a &aWeather Container&r into the &aEnvironmental Accumulator&r will harness the power of the storm."
 				""
@@ -1917,7 +1868,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["7E79F52147B606F9"]
 			description: [
 				"Did a mob hit the floor too hard and get its &cBlood&r everywhere? Oh no!"
 				""
@@ -2002,7 +1952,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["35FA55BE8DF49EE8"]
 			description: [
 				"This is a unique drop from &aPlayers&r, including when you die!"
 				""
@@ -2031,7 +1980,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["35FA55BE8DF49EE8"]
 			description: [
 				"Within villages, there are &ointeresting&r villagers that just so happen to be &dWerewolves&r."
 				""
@@ -2059,7 +2007,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["40888A2C17D8FFF6"]
 			description: [
 				"Need more blood from your enemies? Of course you do!"
 				""
@@ -2099,7 +2046,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["40888A2C17D8FFF6"]
 			description: [
 				"&dBrooms&r can be made using Broom Parts. Every Broom is made up of 3 parts: a Rod, a Cap, and a Brush."
 				""
@@ -2227,51 +2173,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"68318811CCC28320"
-				"1E3471513C75CC54"
-				"753B3EF7CC94A6DD"
-				"62CE0FFAF6352287"
-				"0104C2E2E30B966B"
-				"6CA1D90CCE17097D"
-				"1D794DE95C9FF6C7"
-				"7B524DAD8A33BF85"
-				"40888A2C17D8FFF6"
-				"74B0308336F5E017"
-				"1F8BC2A4CF055038"
-				"4D7B6842B9F53459"
-				"0EAF01037BB20BCB"
-				"7E79F52147B606F9"
-				"35FA55BE8DF49EE8"
-				"75CF9EAB75C3907E"
-				"7A93F07BE2E6EC97"
-				"2CB69634F6A6E53E"
-				"51B24CC5E9332C1E"
-				"600F66B13B29708B"
-				"674E2690D66ECD6E"
-				"4DF7E2149F4BD8CC"
-				"63AE4568375DD1BF"
-				"026A71F98A52E3A5"
-				"066438B01655D866"
-				"28BF66D1B8CD4D44"
-				"31FD9EA513E0D010"
-				"290FAB3DE8FD04E7"
-				"59036A2741E7A8AA"
-				"1DA0A87C471A38AC"
-				"199E7C89584C3DB1"
-				"12F3A604329EC604"
-				"77B5B23A2C01ED7E"
-				"0BB0DF36B079558F"
-				"5A8F4CA0F09F4842"
-				"0B9F2B443813F43C"
-				"525517F1625A9BCB"
-				"4978A9B616362CCE"
-				"4EBED8ABC8C863A4"
-				"56FB82DEB944F758"
-				"62A262A706CFCAF0"
-				"10EF30B919EBA5C6"
-				"64EC182B81BD8B86"
-			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ad_astra:earth_globe"

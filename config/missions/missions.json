@@ -1,23 +1,14 @@
 {
   "cut": {
     "reward": {
-      "amount": "5-15",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "create:brass_scaffolding": "100-400",
-      "create:brass_bars": "200-800",
-      "create:brass_ladder": "100-400",
-      "create:industrial_iron_block": "500-1500",
-      "create:rose_quartz_block": "300-900",
-      "create:rose_quartz_tiles": "200-700",
-      "create:copper_tiles": "300-700",
-      "create:andesite_scaffolding": "200-800",
-      "create:andesite_bars": "300-1200",
-      "create:andesite_ladder": "200-800",
-      "create:framed_glass": "500-2500",
-      "create:copycat_panel": "600-1800",
-      "create:copycat_step": "600-1800"
+      "#create:ladders": "300-1500",
+      "#create:bars": "200-1000",
+      "#create:scaffoldings": "200-4000"
     },
     "titles": [
       "Cutting edge technology",
@@ -33,32 +24,32 @@
   },
   "compact": {
     "reward": {
-      "amount": "1-15",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "polished_blackstone": "500-1500",
-      "create:andesite_alloy_block": "200-700",
-      "create:experience_block": "150-800",
-      "blue_ice": "300-800",
-      "twilightforest:mazestone": "300-1500",
-      "twilightforest:deadrock": "300-1500",
-      "twilightforest:underbrick": "300-1500",
-      "quark:jasper": "500-1200",
-      "quark:shale": "500-1200",
-      "quark:myalite": "250-500",
-      "farmersdelight:sweet_berry_cookie": "500-700",
-      "farmersdelight:honey_cookie": "500-700",
-      "ink_sac": "700-1200",
-      "diorite": "700-1200",
-      "create_dd:crystallized_sap": "700-1200",
       "iron_block": "100-600",
       "iron_ingot": "1000-3000",
-      "gold_ingot": "500-1500",
+      "gold_block": "100-600",
+      "gold_ingot": "1000-3000",
+      "create:zinc_block": "100-600",
+      "create:zinc_ingot": "100-600",
+      "redstone_block": "100-600",
+      "emerald_block": "100-600",
+      "lapis_block": "100-600",
+      "diamond_block": "100-600",
+      "netherite_block": "100-600",
+      "create:andesite_alloy_block": "100-600",
+      "create:experience_block": "100-600",
+      "create:industrial_iron_block": "100-600",
+      "polished_blackstone": "500-1500",
+      "blue_ice": "300-800",
       "packed_ice": "500-1200"
     },
     "titles": [
       "Dense topic",
+      "Industrial diamonds",
       "Pack n' go",
       "Wall-e works",
       "Compact and conquer",
@@ -73,17 +64,24 @@
   },
   "break": {
     "reward": {
-      "amount": "5-30",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
       "andesite": "500-3000",
       "create:ochrum": "500-2000",
       "calcite": "500-1500",
       "create:asurine": "500-2000",
       "create:scoria": "500-2000",
+      "create:scorchia": "500-2000",
+      "create:veridium": "500-2000",
+      "create:crimsite": "500-2000",
       "blackstone": "1000-3000",
-      "netherrack": "2000-5000"
+      "netherrack": "2000-5000",
+      "dirt": "1000-3000",
+      "tuff": "1000-3000",
+      "create:limestone": "500-2000"
     },
     "titles": [
       "Block buster",
@@ -98,18 +96,21 @@
   },
   "craft": {
     "reward": {
-      "amount": "10-30",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
       "create:crushing_wheel": "10-100",
       "stick": "500-1500",
       "create:gearbox": "300-1000",
       "create:shaft": "1000-5000",
       "create:gearshift": "100-500",
-      "create:mechanical_arm": "100-500",
-      "create:brass_funnel": "200-800",
-      "create:large_water_wheel": "20-50"
+      "create:mechanical_arm": "30-50",
+      "create:brass_funnel": "50-150",
+      "create:large_water_wheel": "20-50",
+      "paper": "200-500",
+      "create:item_vault": "100-400"
     },
     "titles": [
       "Masterful manufacture",
@@ -125,25 +126,24 @@
   },
   "kill": {
     "reward": {
-      "amount": "1-3",
-      "item": "numismatics:bevel"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "minecraft:wither_skeleton": "50-150",
+      "wither_skeleton": "50-150",
       "zombie": "100-300",
+      "cave_spider": "50-100",
       "skeleton": "100-250",
-      "ender_dragon": "1-10",
+      "ender_dragon": "1-2",
       "hoglin": "15-40",
-      "minecraft:cave_spider": "100-200",
-      "born_in_chaos_v1:fallen_chaos_knight": "15-40",
-      "born_in_chaos_v1:door_knight": "15-40",
-      "orn_in_chaos_v1:bonescaller": "15-40",
-      "born_in_chaos_v1:decripit_skeleton": "15-40",
-      "born_in_chaos_v1:zombie_lumberjack": "15-40",
-      "quark:wraith": "50-100",
-      "bborn_in_chaos_v1:swarmer": "15-80",
-      "born_in_chaos_v1:dark_vortex": "15-80",
-      "born_in_chaos_v1:restless_spirit": "15-80"
+      "creeper": "70-120",
+      "ghast": "20-50",
+      "stray": "70-170",
+      "wither": "1-3",
+      "blaze": "50-100",
+      "enderman": "50-100",
+      "#minecraft:animals": "30-80"
     },
     "titles": [
       "Plague extermination",
@@ -156,9 +156,10 @@
   },
   "ride": {
     "reward": {
-      "amount": "15-35",
-      "item": "numismatics:bevel"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
       "missions:statistic": "3-10"
     },
@@ -178,11 +179,12 @@
   },
   "sail": {
     "reward": {
-      "amount": "1-8",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "missions:statistic": "5-20"
+      "missions:statistic": "3-10"
     },
     "titles": [
       "Sea of pirates",
@@ -196,11 +198,12 @@
   },
   "fly": {
     "reward": {
-      "amount": "1-6",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "missions:statistic": "5-30"
+      "missions:statistic": "7-30"
     },
     "titles": [
       "Cloud skipping",
@@ -213,68 +216,14 @@
       "Ascension"
     ]
   },
-  "mill": {
-    "reward": {
-      "amount": "15-30",
-      "item": "numismatics:spur"
-    },
-    "missions": {
-      "gravel": "200-400",
-      "red_sand": "200-400",
-      "string": "200-400",
-      "ae2:ender_dust": "30-100",
-      "ae2:certus_quartz_crystal": "200-500",
-      "create:sand": "200-400",
-      "sugar": "400-800",
-      "bone_meal": "100-200",
-      "black_dye": "100-200",
-      "green_dye": "100-200",
-      "clay_ball": "100-200",
-      "yellow_dye": "100-200",
-      "red_dye": "100-200"
-    },
-    "titles": [
-      "Soft crushing",
-      "Starter machinery",
-      "Mill of fortune",
-      "Almost as fun as Crushing Wheels",
-      "Flour power",
-      "Milling marvels",
-      "Wheat whirlwind"
-    ]
-  },
-  "minecart": {
-    "reward": {
-      "amount": "5-10",
-      "item": "numismatics:spur"
-    },
-    "missions": {
-      "missions:statistic": "1-3"
-    },
-    "titles": [
-      "Roller coaster",
-      "Rudimentary transport",
-      "Smol tracks",
-      "Minecart mania",
-      "Rails to riches",
-      "Minecart magic",
-      "Rollercoaster roadtrip",
-      "Cartwheel carnival"
-    ]
-  },
   "crush": {
     "reward": {
-      "amount": "5-13",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "create:crushed_raw_iron": "150-300",
-      "create:crushed_raw_copper": "150-300",
-      "create:crushed_raw_gold": "150-300",
-      "create:crushed_raw_zinc": "150-300",
-      "create:crushed_raw_tin": "150-300",
-      "quark:moss_paste": "150-300",
-      "create_confectionery:cocoa_powder": "800-2000",
+      "#create:crushed_raw_materials": "150-300",
       "quartz": "200-500",
       "create:experience_nugget": "300-1000",
       "string": "200-500",
@@ -293,9 +242,10 @@
   },
   "fish": {
     "reward": {
-      "amount": "5-27",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
       "minecraft:cod": "20-50",
       "salmon": "15-40",
@@ -317,13 +267,11 @@
   },
   "eat": {
     "reward": {
-      "amount": "1-15",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "farmersdelight:sweet_berry_cookie": "100-600",
-      "farmersdelight:honey_cookie": "100-600",
-      "farmersdelight:hamburger": "100-600",
       "create:chocolate_glazed_berries": "100-300",
       "create:honeyed_apple": "100-300",
       "create:sweet_roll": "100-300",
@@ -346,14 +294,17 @@
   },
   "place": {
     "reward": {
-      "amount": "1-8",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
+      "#c:glass_blocks": "20-100",
       "create:track_signal": "20-50",
-      "coarse_dirt": "100-300",
+      "#minecraft:dirt": "100-300",
       "fern": "50-100",
-      "grass": "50-100"
+      "grass": "50-100",
+      "#c:flowers": "5-20"
     },
     "titles": [
       "Master builder",
@@ -367,18 +318,13 @@
   },
   "press": {
     "reward": {
-      "amount": "5-35",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "minecraft:paper": "200-700",
-      "createaddition:electrum_sheet": "200-700",
-      "create_dd:lapis_sheet": "200-700",
-      "create:iron_sheet": "200-700",
-      "create:copper_sheet": "200-700",
-      "create:brass_sheet": "100-500",
-      "create:golden_sheet": "100-300",
-      "create_dd:mithril_sheet": "100-300"
+      "#c:plates": "100-600",
+      "create:track": "300-600"
     },
     "titles": [
       "Bonk",
@@ -392,24 +338,15 @@
   },
   "mix": {
     "reward": {
-      "amount": "5-30",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "createaddition:biomass": "400-2000",
-      "create_confectionery:honey_candy": "400-2000",
-      "minecraft:end_stone": "400-2000",
-      "twilightforest:fluffy_cloud": "400-2000",
-      "twilightforest:castle_brick": "400-2000",
-      "twilightforest:raw_ironwood": "400-2000",
-      "create_confectionery:marshmallow": "400-2000",
-      "ae2:small_quartz_bud": "400-2000",
-      "createaddition:electrum_ingot": "400-2000",
-      "blue_skies:horizonite_ingot": "100-500",
-      "create_dd:bronze_ingot": "100-500",
       "create:brass_ingot": "400-2000",
       "create:andesite_alloy": "300-1500",
-      "create:dough": "300-600"
+      "create:dough": "300-600",
+      "mud": "300-600"
     },
     "titles": [
       "Stressful mix",
@@ -424,9 +361,10 @@
   },
   "walk": {
     "reward": {
-      "amount": "1-9",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
       "missions:statistic": "5-20"
     },
@@ -442,29 +380,12 @@
       "The walking dead"
     ]
   },
-  "swim": {
-    "reward": {
-      "amount": "5-15",
-      "item": "numismatics:spur"
-    },
-    "missions": {
-      "missions:statistic": "3-15"
-    },
-    "titles": [
-      "Squid hunter",
-      "Trident believer",
-      "Dolphin manners",
-      "Dive into adventure",
-      "Waterworld wanderlust",
-      "Deep dive discovery",
-      "Submerged saga"
-    ]
-  },
   "train-driver": {
     "reward": {
-      "amount": "5-15",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
       "missions:distance": "3-10"
     },
@@ -479,9 +400,10 @@
   },
   "train-passenger": {
     "reward": {
-      "amount": "5-13",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
       "missions:distance": "3-10"
     },
@@ -499,9 +421,10 @@
   },
   "train-driver-passenger": {
     "reward": {
-      "amount": "8-25",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
       "missions:distance": "3-10"
     },
@@ -520,9 +443,10 @@
   },
   "dive": {
     "reward": {
-      "amount": "30-50",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
       "lava": "10-80",
       "water": "30-120"
@@ -536,19 +460,25 @@
   },
   "drill": {
     "reward": {
-      "amount": "5-20",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "stone": "1400-6000",
-      "cobblestone": "300-1500",
-      "andesite": "500-2000",
-      "create:ochrum": "500-3000",
-      "calcite": "500-2500",
-      "create:asurine": "500-3000",
-      "create:scoria": "500-3000",
-      "blackstone": "1000-2000",
-      "netherrack": "2000-7000"
+      "stone": "1000-3000",
+      "andesite": "500-3000",
+      "create:ochrum": "500-2000",
+      "calcite": "500-1500",
+      "create:asurine": "500-2000",
+      "create:scoria": "500-2000",
+      "create:scorchia": "500-2000",
+      "create:veridium": "500-2000",
+      "create:crimsite": "500-2000",
+      "blackstone": "1000-3000",
+      "netherrack": "2000-5000",
+      "dirt": "1000-3000",
+      "tuff": "1000-3000",
+      "create:limestone": "500-2000"
     },
     "titles": [
       "Never-ending breaking",
@@ -559,13 +489,13 @@
   },
   "saw": {
     "reward": {
-      "amount": "2-10",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "oak_log": "400-2000",
-      "spruce_log": "1000-3000",
-      "spruce_leaves": "500-1000",
+      "#c:logs": "400-2000",
+      "#c:leaves": "500-1000",
       "bamboo": "500-2000"
     },
     "titles": [
@@ -576,17 +506,12 @@
   },
   "harvester": {
     "reward": {
-      "amount": "8-30",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
-      "wheat_seeds": "1000-3000",
-      "carrot": "1000-3000",
-      "potato": "1000-3000",
-      "cocoa_beans": "400-1200",
-      "kelp": "500-1300",
-      "sugar_cane": "400-1000",
-      "nether_wart": "300-800"
+      "#c:crops": "300-800"
     },
     "titles": [
       "Becoming sufficient",
@@ -596,15 +521,58 @@
   },
   "drink": {
     "reward": {
-      "amount": "8-30",
-      "item": "numismatics:spur"
+      "amount": "2-23",
+      "item": "diamond"
     },
+    "weight": 1.0,
     "missions": {
       "#c:drinks": "30-100"
     },
     "titles": [
       "Sköl",
       "Refreshing moment"
+    ]
+  },
+  "relocate": {
+    "reward": {
+      "amount": "2-23",
+      "item": "diamond"
+    },
+    "weight": 1.0,
+    "missions": {
+      "missions:distance": "170-350"
+    },
+    "titles": [
+      "I'd walk 500 miles",
+      "Towing towers"
+    ]
+  },
+  "feed": {
+    "reward": {
+      "amount": "2-23",
+      "item": "diamond"
+    },
+    "weight": 1.0,
+    "missions": {
+      "wheat": "1-3"
+    },
+    "titles": [
+      "Sharing is caring",
+      "Feeding the masses",
+      "Feeder but in a good way"
+    ]
+  },
+  "belt-walk": {
+    "reward": {
+      "amount": "2-23",
+      "item": "diamond"
+    },
+    "weight": 1.0,
+    "missions": {
+      "missions:distance": "500-1000"
+    },
+    "titles": [
+      "Luggage companionship"
     ]
   }
 }

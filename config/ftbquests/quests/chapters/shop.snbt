@@ -87,8 +87,8 @@
 			image: "ftbquests:item/lootcrate/front_outline"
 			rotation: 0.0d
 			width: 12.0d
-			x: 3.1300000000000003d
-			y: -11.97d
+			x: 3.0d
+			y: -12.0d
 		}
 		{
 			alpha: 100
@@ -368,7 +368,7 @@
 			y: -17.5d
 		}
 	]
-	order_index: 19
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

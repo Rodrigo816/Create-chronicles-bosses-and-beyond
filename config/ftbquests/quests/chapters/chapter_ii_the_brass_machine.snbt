@@ -26,7 +26,7 @@
 		x: -5.5d
 		y: 10.5d
 	}]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -932,12 +932,13 @@
 				""
 				"&nHow it works:&r"
 				""
-				"&2Step 1:&r  First, you place down a block called the Inventory Connector. This is like a better brain than yours. It knows where everything is kept. Then you either place a Storage Terminal or a Crafting Terminal on the Inventory Connector to access the chests contents. Make sure to use Shift when doing so."
+				"&2Step 1:&r  First, you place down a block called the &6Inventory Connector&r. This is like a better brain than yours. It knows where everything is kept. Then you either place a &6Storage Terminal&r or a &6Crafting Terminal&r on the&6 Inventory Connector&r to access the chests contents. Make sure to use Shift when doing so."
+				"&c&nNote: It also works with Item Vaults&r&r"
 				""
-				"&2Step 2:&r You can place a chest on either side of the Inventory Connector and it will read its contents. You can even stack the chests on top of each other and the Inventory Connector will still read their contents as long as one chest is touching the Inventory Connector."
+				"&2Step 2:&r You can place a chest on either side of the&6 Inventory Connector&r and it will read its contents. You can even stack the chests on top of each other and the Inventory Connector will still read their contents as long as one chest is touching the Inventory Connector."
 				""
-				"&2Step 3:&r If you have Chests that are in a further location, you can use an item called Inventory Cable Connector against the chest, make sure to use Shift to do so and then you use another item called Inventory Cable to make a connection from the Cable Connector to the Inventory Connector to read the chests contents even though it’s further away."
-				"Note: It also works with Item Vaults"
+				""
+				"&2Step 3:&r If you have Chests that are in a further location, you can use an item &6called Inventory Cable Connector&r against the chest, make sure to use Shift to do so and then you use another item called&6 Inventory Cable&r to make a connection from the &6Cable Connector&r to the I&6nventory Connector&r to read the chests contents even though it’s further away."
 				""
 				"That’s just the basics on how this mod works. It has many more features for you to discover!"
 			]
@@ -956,12 +957,8 @@
 					item: "toms_storage:ts.inventory_cable"
 					type: "item"
 				}
-				{
-					id: "578F3DC2FE2278F8"
-					item: "numismatics:spur"
-					type: "item"
-				}
 			]
+			size: 1.0d
 			tasks: [
 				{
 					id: "44E8C65FC73DF7B5"
@@ -1033,26 +1030,248 @@
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "52EBF9F28358429D"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 18.75d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			description: [
+				"The Wireless Terminal lets you wirelessly access system Terminals. "
+				""
+				"It requires you to look at the Terminal you want to access, and it only has a range of 16 blocks."
+			]
+			id: "77BBCB5B0ED47F06"
+			size: 1.0d
 			tasks: [
 				{
-					id: "3A5588665BD2BBD2"
-					item: "buildinggadgets2:gadget_building"
+					id: "1AC9DFB9976FC800"
+					item: "toms_storage:ts.inventory_cable"
 					type: "item"
 				}
 				{
-					id: "52EBF9F28358429D"
-					item: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "buildinggadgets2:buildinggadgets2book"
-						}
-					}
+					id: "10F2D8797ABEE6F9"
+					item: "toms_storage:ts.inventory_cable_connector"
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 18.8d
+			x: 0.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["77BBCB5B0ED47F06"]
+			description: ["Framed storage items can be painted with a Paint Kit to disguise them as any full block while maintaining functionality."]
+			id: "07E522F440A317AA"
+			tasks: [
+				{
+					id: "229F1D341BDC9216"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "4CC9B1F5F66C483F"
+					item: "toms_storage:ts.inventory_cable_connector_framed"
+					type: "item"
+				}
+			]
+			title: "Framed Inventory Cables"
+			x: 2.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["07E522F440A317AA"]
+			description: [
+				"Use a paint kit to disguise Framed storage blocks. "
+				""
+				"Shift-right click any full block to pick it and then right-click a Framed storage block to disguise it."
+			]
+			id: "3C5651A758797922"
+			tasks: [{
+				id: "1E4812D002D387A0"
+				item: {
+					Count: 1b
+					id: "toms_storage:ts.paint_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			description: [
+				"The Wireless Terminal lets you wirelessly access system Terminals. "
+				""
+				"It requires you to look at the Terminal you want to access, and it only has a range of 16 blocks."
+			]
+			id: "078236AFE937C60D"
+			tasks: [{
+				id: "4724BF6D9BC02EB8"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			id: "0B177BE0E648B743"
+			rewards: [{
+				id: "251E50566266FCD1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "A hopper with filters"
+			tasks: [{
+				id: "7B0C645CD0806C68"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			id: "7F8C4AC998EA00CF"
+			rewards: [{
+				id: "28DC90A314E0A18F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "31ADF72D76B71816"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			id: "71A6E188F736F35E"
+			tasks: [{
+				id: "5B0F3BD56E98F22E"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["62E69747ECE312C3"]
+			description: [
+				"&6&lNote:&r&r &oTo charge this Gadget you must use a Tesla Coil and have eletricity. &r"
+				""
+				"&3Build to Me:&r Build from the block  and blockface you're looking at to the players current position. This is the only mode that does not use the Range modifier, as it always builds to the player's current position."
+				""
+				"&3Vertical Column:&r Build a vertical column of blocks of height equal to the range modifier.  If you look at the Top of a blockface it builds up, bottom of the blockface it builds down, and side of a blockface builds half of the blocks above, and half below."
+				""
+				"&3Horizontal Column:&r Otherwise known as a row. Builds Horizontally away from the blockface you're looking at.  If you look at the top/bottom of a block, it builds in the direction your player is looking."
+				""
+				"&3Vertical Wall:&r Builds a wall of size Range x Range (Example: &63x3&r, &65x5&r, etc). Like the vertical column, looking at the top of a block builds up, bottom of a block builds down, and middle of a block builds around it."
+				""
+				"&3Horizontal Wall&r: Builds a wall of blocks towards the player off of the blockface the player is looking at. If looking at the top/bottom of a block, it builds around that block."
+				""
+				"&3Stairs&r: Will build a set of stairs. If the block you are looking at is above you, the stairs will be built downwards and towards the player. If the block you look at is below you, they are built upwards away from the player."
+				""
+				"&3Checkerboard&r: Otherwise known as the Torch mode, this mode will build in a checkered pattern allowing you to place in the pattern of &2[]&r-&2[]&r-&2[]&r-&2[]&r []: being blocks and -: being air."
+			]
+			id: "147ED68A6F29842F"
+			rewards: [{
+				count: 2
+				id: "54AEB651A5F41895"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "The Building Gadget allows you to build structures using a set of different Building Modes."
+			tasks: [{
+				id: "74D0FD27B92E59B4"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.75d
+		}
+		{
+			dependencies: ["147ED68A6F29842F"]
+			description: [
+				"Some of the functions of the Copy Paste Gadget are listed below."
+				""
+				"◘ Ability to copy large areas of blocks"
+				""
+				"◘ Visual Preview"
+				""
+				"◘ Visual Selection"
+				""
+				"◘ Ability to offset templates from the block you're looking at."
+				""
+				"◘ Ability to rotate templates"
+				""
+				"◘ Ability to copy Templates from other users using the&6&l &nTemplate Manager.&r&r&r"
+				""
+				"◘ Ability to undo your last build"
+			]
+			hide: true
+			id: "700F1EEA44663AF4"
+			rewards: [{
+				count: 2
+				id: "5A3FB5392B3E560A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."
+			tasks: [{
+				id: "1D1ADBD79BEDAD05"
+				item: {
+					Count: 1b
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["147ED68A6F29842F"]
+			description: [
+				"&3Wall&r - Exchanges in a Range x Range (Example: 3x3 or 5x5), around the block you're looking at. It will only exchange blocks that match the block you are looking at."
+				""
+				"&3Horizontal Column&r - Horizontal with respect to the players look vector. This will be a straight line typically left and right of the block you're looking at."
+				""
+				"&3Vertical Column&r - Vertical with respect to the players look vector. This will be a straight line typically up and down of the block you're looking at."
+				""
+				"&3Checkerboard&r - this mode will build in a checkered pattern allowing you to place in the pattern of &2[]&r-&2[]&r-&2[]&r-&2[]&r []: being blocks and -: being air."
+			]
+			hide: true
+			id: "35436126527BB3F7"
+			rewards: [{
+				count: 2
+				id: "221542A2EAE2986E"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."
+			tasks: [{
+				id: "09C13AF160A31BB0"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 18.0d
 		}
 	]
 	title: "Chapter III: The Precision Machine"

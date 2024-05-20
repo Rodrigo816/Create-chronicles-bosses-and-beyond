@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aeza"
-	group: "4546D7737CBFFD68"
+	group: ""
 	icon: "minecraft:ender_eye"
 	id: "65D4062281B5E14D"
 	images: [{
@@ -17,11 +17,10 @@
 		x: -4.642857142857146d
 		y: -8.642857142857139d
 	}]
-	order_index: 61
+	order_index: 22
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["35798B290A1A4F7F"]
 			description: ["Like Vanilla, chop your first tree."]
 			id: "4169F3CB261CE8D0"
 			rewards: [{

@@ -105,7 +105,7 @@
 			y: 9.5d
 		}
 	]
-	order_index: 17
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
@@ -343,7 +343,11 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["072DA448D144179C"]
+			dependencies: [
+				"072DA448D144179C"
+				"09C33BB3342632B4"
+				"4B630597BCFA97AC"
+			]
 			description: ["This boss can be baited out of the void by tossing a Msyerious Worm into the End's void."]
 			icon: "alexsmobs:void_worm_eye"
 			id: "7696990D3ED40A1B"

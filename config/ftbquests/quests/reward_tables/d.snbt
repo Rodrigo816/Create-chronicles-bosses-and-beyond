@@ -1,0 +1,171 @@
+{
+	id: "57F2D323BDCCAB1E"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "d"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:enigma"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.30999997f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:magiscythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.30999997f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:magispear"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.30999997f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:magiblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.30999997f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:iron_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 1.8f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:iron_twinblade"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:iron_rapier"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:iron_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:iron_halberd"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:iron_greathammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:iron_greataxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:iron_warglaive"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:iron_glaive"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:gold_chakram"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.9f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:diamond_chakram"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.59999996f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simplyswords:runic_chakram"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.40000004f
+		}
+		{ item: "simplyswords:runic_tablet", random_bonus: 2, weight: 0.6999999f }
+	]
+	title: "&lSpellblade Crate"
+	use_title: true
+}

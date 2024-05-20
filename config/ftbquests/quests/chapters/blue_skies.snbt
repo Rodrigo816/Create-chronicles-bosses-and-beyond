@@ -3,8 +3,52 @@
 	default_quest_shape: ""
 	filename: "blue_skies"
 	group: "13742BAAC673A80E"
-	icon: "blue_skies:everbright_portal"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "blue_skies:item/misc/portal_mix"
+		}
+	}
 	id: "7739373308A83503"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "blue_skies:item/misc/portal_mix"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:textures/particle/everbright_portal_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:textures/particle/everdawn_portal_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 3.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -37,6 +81,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 2.0d
 			subtitle: "Living a simple life...."
 			tasks: [{
 				id: "0C6C12DEFB35A5C8"
@@ -44,7 +90,7 @@
 				type: "item"
 			}]
 			title: "Finding the Gatekeeper"
-			x: 0.5d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -75,6 +121,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "5971D3F2F9D07D81"
 				item: {
@@ -86,7 +134,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -109,6 +157,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				advancement: "blue_skies:everbright/enter"
 				criterion: ""
@@ -116,8 +166,8 @@
 				title: "To &9Everbright&r!"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 3.6d
+			y: -0.75d
 		}
 		{
 			dependencies: ["13BB7347D271D29C"]
@@ -128,6 +178,7 @@
 				""
 				"Are you prepared for the poison and fire?"
 			]
+			hide: false
 			id: "20ECBCF42E1B0660"
 			rewards: [
 				{
@@ -141,6 +192,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				advancement: "blue_skies:everdawn/enter"
 				criterion: ""
@@ -148,8 +201,8 @@
 				title: "To &6Everdawn&r!"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 3.6d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -188,6 +241,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1E8B8C302718AFB5"
 				item: {
@@ -240,7 +295,7 @@
 				type: "item"
 			}]
 			title: "A New Mining Adventure"
-			x: 6.5d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -269,6 +324,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "First Wood, then Stone... then.. what?"
 			tasks: [{
 				id: "18DBE4B1BAAA5CC8"
@@ -336,7 +393,7 @@
 				type: "item"
 			}]
 			title: "Making a New Weapon"
-			x: 6.5d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -414,6 +471,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				count: 3L
 				id: "78CAF1897A5DE4F1"
@@ -421,7 +480,7 @@
 				type: "item"
 			}]
 			title: "Metal Tools"
-			x: 11.5d
+			x: 12.0d
 			y: 0.5d
 		}
 		{
@@ -460,7 +519,7 @@
 				type: "item"
 			}]
 			title: "Diopside"
-			x: 12.5d
+			x: 13.0d
 			y: -1.0d
 		}
 		{
@@ -585,7 +644,7 @@
 				type: "item"
 			}]
 			title: "Charoite"
-			x: 10.5d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -803,7 +862,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
 				count: 4L
@@ -842,7 +901,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "circle"
 			tasks: [{
 				count: 5L
 				id: "1F25F2E80A98D691"
@@ -850,7 +909,7 @@
 				type: "item"
 			}]
 			title: "Structures and Dungeons"
-			x: 11.5d
+			x: 12.0d
 			y: 2.0d
 		}
 		{
@@ -858,10 +917,7 @@
 			description: [
 				"Deep within the Tower of Everbright, you'll find the Summoner."
 				""
-				"This boss will use lightning, energy attacks, and of course his summoned golem guards to protect the tower."
-				""
-				"Can you best the Summoner?"
-				""
+				"The Summoner fights with lightning, energy attacks, and his golem guards. Be sure to watch your back as these golems can quickly overwhelm you if not properly tended to. Defeating him will allow you to access the Nature Dungeon."
 			]
 			icon: "blue_skies:summoner_spawn_egg"
 			id: "3C1212AA4663C39B"
@@ -888,7 +944,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "The Guardian of the Everbright Tower"
 			tasks: [{
 				entity: "blue_skies:summoner"
@@ -898,17 +955,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 17.5d
-			y: 0.0d
+			x: 18.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1F82DBE75059C139"]
 			description: [
 				"In the Everdawn Tower, you'll find the Alchemist boss fight. Collect some Blinding Dungeon Keys to unlock the fight!"
 				""
-				"Prepare to be hit with potions, as well as fighting the minions of the Alchemist."
-				""
-				""
+				"The Alchemist uses potions and physical constructs to fight. Many of his attacks can be predicted by looking out for visual queues, but missing those queues may result in heavy damage. Once defeated, you’ll gain access to the Poison Dungeon."
 			]
 			icon: "blue_skies:alchemist_spawn_egg"
 			id: "6832C9E6D2E2949E"
@@ -935,7 +990,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "The Guardian of the Everdawn Tower"
 			tasks: [{
 				entity: "blue_skies:alchemist"
@@ -945,8 +1001,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 17.5d
-			y: 1.0d
+			x: 18.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3C1212AA4663C39B"]
@@ -957,6 +1013,7 @@
 				""
 				"Note: You can trade with the Gatekeeper in case you can't find all of the keys, but only after you right click the gate for the boss fight."
 				""
+				"Starlit Crusher may not move much, but makes up for it by rooting into the ground to produce wide area attacks from below and enough brutal strength to cause the ground itself to shake. Seeing as it’s still a tree, axes deal far more damage against it and are required to bypass its defenses. Look out for opportunities to stun it with a spear for an opening to attack."
 			]
 			id: "1F944EEA0F397B95"
 			rewards: [
@@ -982,7 +1039,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
 			size: 1.5d
 			subtitle: "The Boss of the Nature Dungeon"
 			tasks: [{
@@ -993,8 +1050,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 19.5d
-			y: -0.5d
+			x: 21.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6832C9E6D2E2949E"]
@@ -1005,6 +1062,7 @@
 				""
 				"Gather some Poison Dungeon Keys within to unlock the final boss fight!"
 				""
+				"The Arachnarch lunges at targets and sprays poison from the ceiling above. Being the queen of this nest, expect reinforcements to come crawling from the walls. With such an aggressive method of attacking, you may be able to stun her when she lunges by blocking with your shield."
 			]
 			id: "0DB1A5763EDD6A7F"
 			rewards: [
@@ -1030,7 +1088,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
 			size: 1.5d
 			subtitle: "The Boss of the Poison Dungeon"
 			tasks: [{
@@ -1041,8 +1099,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 19.5d
-			y: 1.5d
+			x: 21.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3C1212AA4663C39B"]
@@ -1078,8 +1136,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: -1.5d
+			x: 18.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6832C9E6D2E2949E"]
@@ -1103,7 +1161,6 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
 			tasks: [{
 				id: "6450012E3F4FD5C2"
 				item: {
@@ -1115,8 +1172,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 2.5d
+			x: 18.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1F944EEA0F397B95"]
@@ -1139,7 +1196,6 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
 			subtitle: "Drops from the Starlit Crusher's Loot Bag"
 			tasks: [{
 				id: "5977FC8CB2A6A46D"
@@ -1152,8 +1208,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: -0.5d
+			x: 22.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0DB1A5763EDD6A7F"]
@@ -1171,7 +1227,6 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
 			subtitle: "Drops from the Arachnarch's Loot Bag"
 			tasks: [{
 				id: "05294380E82BC3FE"
@@ -1184,8 +1239,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
-			y: 1.5d
+			x: 22.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0DB1A5763EDD6A7F"]
@@ -1203,7 +1258,6 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
 			subtitle: "Drops from the Arachnarch's Loot Bag"
 			tasks: [{
 				id: "7EF8FD8790E83FD4"
@@ -1216,8 +1270,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: 2.0d
+			x: 22.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0DB1A5763EDD6A7F"]
@@ -1240,7 +1294,6 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
 			subtitle: "Drops from the Arachnarch's Loot Bag"
 			tasks: [{
 				id: "0E4B7B4DF6E4B7AA"
@@ -1253,8 +1306,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: 1.0d
+			x: 22.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1F944EEA0F397B95"]
@@ -1276,7 +1329,6 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
 			subtitle: "Drops from the Starlit Crusher's Loot Bag"
 			tasks: [{
 				id: "29405FD946DEC4F1"
@@ -1289,8 +1341,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
-			y: -0.5d
+			x: 22.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7E124E6EFC7E8ADD"]
@@ -1308,7 +1360,6 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
 			tasks: [{
 				id: "3E1D8A917D2C81A4"
 				item: {
@@ -1321,7 +1372,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -2.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7E124E6EFC7E8ADD"]
@@ -1339,14 +1390,13 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
 			tasks: [{
 				id: "6351A3DAD00BAE5E"
 				item: "blue_skies:summoning_table"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -2.5d
+			x: 19.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0515422E36E4E9A3"]
@@ -1364,7 +1414,6 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
 			tasks: [{
 				id: "53573EE98943693F"
 				item: {
@@ -1376,9 +1425,35 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 3.5d
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E1A86A6D2155B53"]
+			description: ["With this creation, I was able to harness the Snowcap Mushroom’s heating and cooling power. By sapping the heat out of warm objects, it can cook whatever you put inside, occasionally leaving the frozen byproduct of the fuel behind. It even allows for things such as water to be used as a fuel source, albeit not a very good one."]
+			id: "76A6385DA264F372"
+			rewards: [
+				{
+					count: 3
+					id: "0939CA5C8F5C3287"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "127DBFEECB4C6CDC"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "It cooks with cold?"
+			tasks: [{
+				id: "7656671BB6D48106"
+				item: "blue_skies:snowcap_oven"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
 		}
 	]
-	title: "&9Blue Skies&r"
+	title: "&bBlue &cSkies"
 }

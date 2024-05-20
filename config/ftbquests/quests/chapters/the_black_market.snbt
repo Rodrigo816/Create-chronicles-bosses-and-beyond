@@ -337,8 +337,20 @@
 			x: 2.0d
 			y: 3.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 7.5d
+		}
 	]
-	order_index: 19
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
@@ -592,6 +604,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: ["So this thing is your portable mechanical saw, it only requires air pressure from backtank."]
 			icon: {
 				Count: 1b
 				id: "create_dd:deforester_saw"
@@ -1886,6 +1899,76 @@
 			title: "Redstone Dust"
 			x: 2.0d
 			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"&6->&r Right-click with the Explorer's Compass to open a GUI through which you can select a structure or group of structures to search for"
+				""
+				"&6->&r Shift-right-click to reset the state of the compass"
+				"I"
+				"&6->&r Information about a structure search is displayed on the HUD"
+				""
+				"&6->&r When the compass is not pointing at a structure, it will point at the world spawn"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+			id: "7FC8BC831F13549F"
+			rewards: [{
+				id: "59E71AA42ECF7E60"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "The Explorer Compass lets you select a structure you want to find."
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3CA987AA256E37D8"
+				item: "numismatics:sun"
+				type: "item"
+			}]
+			title: "Explorer Compass"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					Enchantments: [{ }]
+				}
+			}
+			id: "77B3ACDE27EE769F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6861F13C78A18B49"
+				table_id: 6337359776125332254L
+				type: "loot"
+			}]
+			subtitle: "Let the gamble begin..."
+			tasks: [{
+				consume_items: true
+				id: "0B247F230C1D8B23"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "&l&4Lootbox&r&r of weapons"
+			x: 0.0d
+			y: 7.0d
 		}
 	]
 	title: "&0&l The Black Market"

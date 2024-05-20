@@ -25,7 +25,7 @@
 		x: 2.5d
 		y: -7.0d
 	}]
-	order_index: 4
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -712,6 +712,24 @@
 			title: "cast iron ingot"
 			x: 2.5d
 			y: -6.0d
+		}
+		{
+			id: "78EC21BDD6AD2300"
+			rewards: [{
+				count: 9
+				id: "29BAA95D54AC0727"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Advanced Wireless Terminals are much more useful than basic ones. Bind a Terminal by shift-right-clicking, and as long as you're within 64 blocks and the terminal is loaded, you can access it!"
+			tasks: [{
+				id: "06457036896EEED1"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
 		}
 	]
 	title: "Chapter V: Steel Mechanism"

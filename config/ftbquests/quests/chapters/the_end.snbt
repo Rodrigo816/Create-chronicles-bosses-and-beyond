@@ -1,22 +1,36 @@
 {
-	default_hide_dependency_lines: true
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_end"
 	group: "13742BAAC673A80E"
 	icon: "minecraft:dragon_head"
 	id: "53FAA75157389DE5"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 9.0d
-		hover: [ ]
-		image: "kubejs:textures/enderportal.png"
-		rotation: 0.0d
-		width: 9.0d
-		x: -1.0d
-		y: -2.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "kubejs:textures/enderportal.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:textures/thaumcraft/dragon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -7.5d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -596,6 +610,596 @@
 			title: "Enter &ethe end&f"
 			x: -1.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["401AFF46C83AAEB8"]
+			dependency_requirement: "all_started"
+			description: ["Time to go old school and slay a Dragon"]
+			icon: "minecraft:dragon_head"
+			id: "4B630597BCFA97AC"
+			rewards: [
+				{
+					id: "72ACDA77FC12D983"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6E205092C9A3D220"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "432F4520E99A0F94"
+				title: "Kill The Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09C33BB3342632B4"]
+			id: "401AFF46C83AAEB8"
+			rewards: [{
+				id: "264B01D022391CBA"
+				item: "create_sa:heap_of_experience"
+				type: "item"
+			}]
+			subtitle: "Collect Dragon's Breath in a Glass Bottle."
+			tasks: [{
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+				id: "7C1BC5069A6D0A4D"
+				type: "advancement"
+			}]
+			title: "You Need a Mint!"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B630597BCFA97AC"]
+			description: ["Warm that new dragon egg by the fire."]
+			icon: "minecraft:dragon_egg"
+			id: "59B3E2C267D8B567"
+			rewards: [
+				{
+					id: "11471F5EDC137FFA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0EA1EBB6868536B9"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hold the Dragon Egg"
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				id: "241749A7DC2B998B"
+				type: "advancement"
+			}]
+			title: "Obtain a Dragon Egg"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B630597BCFA97AC"]
+			id: "597F01E378266CC3"
+			optional: true
+			rewards: [
+				{
+					id: "19B07BE7D8CE1CB6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 164
+					id: "4E22CA0F6FA5207C"
+					item: {
+						Count: 1b
+						id: "minecraft:firework_rocket"
+						tag: {
+							Fireworks: {
+								Flight: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E2090C85E94AC4E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "To be found in End Cities with ship!"
+			tasks: [{
+				id: "7A9B3ECE0B875213"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["597F01E378266CC3"]
+			id: "36883441EF93976F"
+			optional: true
+			rewards: [
+				{
+					id: "1E7B706C877EA035"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "4513341E157C3D34"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Better Elytra!"
+			tasks: [{
+				id: "7C36BE09B248BC10"
+				item: {
+					Count: 1b
+					id: "alexsmobs:tarantula_hawk_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"7696990D3ED40A1B"
+				"4B630597BCFA97AC"
+			]
+			id: "2699917C42D48985"
+			optional: true
+			rewards: [
+				{
+					id: "2A7A791BDA578792"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "78033C5D22F0E8B0"
+					item: "create_dd:experience_ingot"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "3D26323A716B4E83"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "27A979724FD5C041"
+				item: {
+					Count: 1b
+					id: "alexsmobs:dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B630597BCFA97AC"]
+			description: ["Throw an ender pearl at the tip of a &5Myalite Crystal&r and travel through it. "]
+			id: "71482AB41A355486"
+			rewards: [
+				{
+					count: 8
+					id: "6FBDF9A15234D299"
+					item: "quark:myalite_crystal"
+					type: "item"
+				}
+				{
+					id: "332AB45B7DCCC18D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6E58067A323AF966"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "If you can..."
+			tasks: [{
+				advancement: "quark:use_viaduct"
+				criterion: ""
+				id: "209658AE50E28B2A"
+				type: "advancement"
+			}]
+			title: "Chase Me!"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B630597BCFA97AC"]
+			description: ["When ringlings are fed bouncers, they become full and will begin digging through the indigo eylium below them, they will occasionally dig up ancient roots and rarely a rooting blade."]
+			id: "3F78D54A0837414B"
+			rewards: [
+				{
+					id: "206B9C57B9F2152B"
+					item: "enlightened_end:indigo_roots"
+					type: "item"
+				}
+				{
+					id: "4D04BA35A37EB541"
+					item: "enlightened_end:indigo_sprouts"
+					type: "item"
+				}
+				{
+					id: "75AD1455C759936F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "7E3D484E999E124A"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Feed a ringling a bouncer."
+			tasks: [{
+				advancement: "enlightened_end:feed_ringling_advancement"
+				criterion: ""
+				id: "0F9E863F78140555"
+				type: "advancement"
+			}]
+			title: "Daily Dose of Slop"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F78D54A0837414B"]
+			description: [
+				"Ancient roots can be eaten to submerge yourself one block into the ground, it can also be brewed into a rooting potion, which causes this effect for a longer duration. "
+				""
+				"The Rooting Blade will apply that effect on hit for about 3 seconds."
+			]
+			id: "032F0505A878511C"
+			rewards: [
+				{
+					id: "171A434C25ADF520"
+					item: "enlightened_end:ancient_root"
+					type: "item"
+				}
+				{
+					id: "139DB089CB342509"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "25921F733AA850EA"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Tastes...rooty."
+			tasks: [{
+				advancement: "enlightened_end:eat_ancient_root"
+				criterion: ""
+				id: "1C40692F6A1D3194"
+				type: "advancement"
+			}]
+			title: "Roots from the Land Down Under"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F78D54A0837414B"]
+			description: ["Apply the max amount of &cEnnegel Globs&r on a Ennegel block."]
+			id: "40DBC0788332A241"
+			rewards: [
+				{
+					id: "47B8A1B01CB5BFBE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3E5867591349BCB7"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Now that is what I call bouncy!"
+			tasks: [{
+				advancement: "enlightened_end:super_ennegel_bounce"
+				criterion: ""
+				id: "116100B23462554A"
+				type: "advancement"
+			}]
+			title: "Bounce ++"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4B630597BCFA97AC"]
+			description: ["Adamantite nodes can be found near the void, mining these with a netherite pickaxe drops adamantite nuggets."]
+			id: "21ACD80EAC4D228C"
+			rewards: [
+				{
+					id: "419ED8050597F7C0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1762397BCE3ACA40"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Adamantite is a new heavy brittle ore found close to the void on the end islands. It can be used for a variety of things."
+			tasks: [{
+				advancement: "enlightened_end:adamantite_chunk_advancement"
+				criterion: ""
+				id: "3570C89FAB59A26E"
+				type: "advancement"
+			}]
+			title: "Heaviest Metals"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["21ACD80EAC4D228C"]
+			description: ["Adamantite armor has a speed penalty for each piece, and lower durability, but has higher armor toughness and knockback resistance than netherite."]
+			id: "488F8E5B49E9E9AA"
+			rewards: [
+				{
+					id: "5062BF275A4A7293"
+					item: {
+						Count: 1b
+						id: "enlightened_end:adamantite_sword"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 0.25d
+								AttributeName: "generic.attack_speed"
+								Name: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									-1432303132
+									1547650778
+									-1347824379
+									204627997
+								]
+							}]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Voidslayer\",\"color\":\"dark_blue\",\"italic\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54C457E77F437D05"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3F29E9206D786208"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Full Adamantite armor"
+			tasks: [{
+				advancement: "enlightened_end:full_adamantite_armour"
+				criterion: ""
+				id: "667A55F30854901B"
+				type: "advancement"
+			}]
+			title: "Eternal Voidslayer"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4B630597BCFA97AC"]
+			description: ["Watch your step traveler!"]
+			id: "447EC50E7ADDD78B"
+			rewards: [
+				{
+					id: "5401A6BDC27B0752"
+					item: "minecraft:ender_pearl"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "71EAA604F620EAEB"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Enter the Upper End."
+			tasks: [{
+				advancement: "enlightened_end:upper_end_advancement"
+				criterion: ""
+				id: "17242EA35422E08D"
+				type: "advancement"
+			}]
+			title: "Don't Look Down"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["447EC50E7ADDD78B"]
+			description: ["Useful for various crafting items."]
+			id: "5BD5777AEC198BD8"
+			rewards: [
+				{
+					count: 2
+					id: "165829FB938D1203"
+					item: "enlightened_end:gas_jar"
+					type: "item"
+				}
+				{
+					id: "0F490602951CC322"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Capture either a distrubed Xexon or Helium in a gas jar."
+			tasks: [
+				{
+					advancement: "enlightened_end:capture_gas"
+					criterion: ""
+					id: "1327702B9535352B"
+					type: "advancement"
+				}
+				{
+					id: "37EAB69455E9EF90"
+					item: "enlightened_end:gas_jar"
+					type: "item"
+				}
+			]
+			title: "And the Most Noble Gas Reward goes to..."
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["447EC50E7ADDD78B"]
+			description: ["Explore deeper and find the Freezing End. "]
+			id: "19B23A4A380336E9"
+			rewards: [
+				{
+					id: "1EA3BEF8FF427AE3"
+					item: "enlightened_end:frost_fruit"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "380F9F5F097A381F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "41CFA59DD46BC7AB"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Uhhh...captain, should we turn back?"
+			tasks: [{
+				advancement: "enlightened_end:enter_freezing_end"
+				criterion: ""
+				id: "0DD7B4AA3B55FCD6"
+				type: "advancement"
+			}]
+			title: "Detecting Multiple Leviathan-class Lifeforms!"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["19B23A4A380336E9"]
+			id: "0B08D1300380B026"
+			rewards: [
+				{
+					id: "559887107F06EA0E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "5BE8D35B39E7F5E8"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Give an offering statue the trade it requests."
+			tasks: [{
+				advancement: "enlightened_end:offering_statue_advancement"
+				criterion: ""
+				id: "07CE3AC863BD0CB9"
+				title: "Equal Trade"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["597F01E378266CC3"]
+			id: "112F3359CF96132C"
+			rewards: [{
+				id: "3CBBCE91FFC9C7D6"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Better Elytra!"
+			tasks: [{
+				id: "1D41115CFB8110E4"
+				item: {
+					Count: 1b
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["597F01E378266CC3"]
+			id: "74AD39A0B9CB46CF"
+			rewards: [{
+				id: "41C1ECC7B2E1DE29"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Better Elytra!"
+			tasks: [{
+				id: "63D2DF9115587C17"
+				item: {
+					Count: 1b
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
 		}
 	]
 	title: "&eThe End"

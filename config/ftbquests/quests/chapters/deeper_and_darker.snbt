@@ -227,6 +227,39 @@
 			x: 4.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			description: [""]
+			id: "2807106C369DF042"
+			rewards: [
+				{
+					id: "442957F1DE63455B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "46198BF25D4A90D3"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "deeperdarker:sculk_affinity"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Get your hands on a Sculk Transmitter."
+			tasks: [{
+				advancement: "deeperdarker:main/obtain_sculk_transmitter"
+				criterion: ""
+				id: "3CEA97C6362C740A"
+				type: "advancement"
+			}]
+			title: "Remote Storage"
+			x: 9.5d
+			y: 2.0d
+		}
 	]
 	title: " &3The Otherside: &0Deeper and Darker"
 }

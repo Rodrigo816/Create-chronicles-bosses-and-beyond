@@ -5,18 +5,44 @@
 	group: "13742BAAC673A80E"
 	icon: "aether:aether_portal_frame"
 	id: "6BB184607658994D"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.7d
-		hover: [ ]
-		image: "aether:textures/gui/menu_api/menu_icon_aether.png"
-		rotation: 0.0d
-		width: 1.7d
-		x: -23.0d
-		y: 1.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "aether:textures/gui/menu_api/menu_icon_aether.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: -23.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "attributeslib:textures/mob_effect/flying.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -20.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "attributeslib:textures/mob_effect/flying.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -21.75d
+			y: 0.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -183,14 +209,11 @@
 				}
 			]
 			title: "Holystone Tool Set"
-			x: -25.0d
+			x: -25.5d
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"527CA86A6BEAE9F4"
-				"7686D66200E518B3"
-			]
+			dependencies: ["7686D66200E518B3"]
 			description: [
 				"As strong as Iron gear from the Overworld."
 				""
@@ -255,13 +278,10 @@
 			]
 			title: "Zanite Tool Set"
 			x: -27.0d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
-			dependencies: [
-				"4B51836028C8BDE8"
-				"5A8DA19AF6406B75"
-			]
+			dependencies: ["5A8DA19AF6406B75"]
 			description: [
 				"The best obtainable gear in the line of progression."
 				""
@@ -269,7 +289,7 @@
 				""
 				"It also has another interesting mechanic, when attacking mobs for example they'll be flung into the sky!"
 				""
-				"&o&7Woosh!"
+				"&5Gravitite&r armor grants you higher jumps and &ono&r fall damage."
 			]
 			id: "14BD495887E26D7B"
 			rewards: [
@@ -325,7 +345,7 @@
 				}
 			]
 			title: "Gravitite Tool Set"
-			x: -27.0d
+			x: -30.0d
 			y: -5.0d
 		}
 		{
@@ -355,8 +375,8 @@
 				type: "item"
 			}]
 			title: "Golden Coal"
-			x: -16.5d
-			y: -6.5d
+			x: -18.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["586483D57C8A463E"]
@@ -391,8 +411,8 @@
 				type: "item"
 			}]
 			title: "Light is Required"
-			x: -16.5d
-			y: -8.3875d
+			x: -18.5d
+			y: -6.887499999999999d
 		}
 		{
 			dependencies: ["63B670F3227A2A53"]
@@ -428,8 +448,8 @@
 				type: "item"
 			}]
 			title: "Please don't fry!"
-			x: -18.5d
-			y: -9.0d
+			x: -20.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["63B670F3227A2A53"]
@@ -471,8 +491,8 @@
 				type: "item"
 			}]
 			title: "Best friends"
-			x: -15.75d
-			y: -10.0d
+			x: -17.75d
+			y: -8.5d
 		}
 		{
 			dependencies: ["63B670F3227A2A53"]
@@ -513,8 +533,8 @@
 				type: "item"
 			}]
 			title: "The Rarest plant!"
-			x: -17.5d
-			y: -10.0d
+			x: -19.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["63B670F3227A2A53"]
@@ -547,8 +567,8 @@
 				type: "item"
 			}]
 			title: "Should be in Vanilla..."
-			x: -14.75d
-			y: -9.0d
+			x: -16.75d
+			y: -7.5d
 		}
 		{
 			dependencies: ["63B35ED12D525A4F"]
@@ -576,7 +596,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "316AC35D8E5A1A06"
 				item: "aether:gold_dungeon_key"
@@ -612,7 +633,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "604830DA1C0956C9"
 				item: "lost_aether_content:platinum_key"
@@ -651,7 +673,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				icon: "aether:sentry_stone"
 				id: "18985B3D64F209F7"
@@ -692,7 +715,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				icon: "aether:light_angelic_stone"
 				id: "1CF9173BA1C781F8"
@@ -733,7 +757,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				icon: "aether:light_hellfire_stone"
 				id: "1A686BDA89487BCE"
@@ -774,7 +799,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				icon: "lost_aether_content:light_gale_stone"
 				id: "0B0C10CF52F7C55B"
@@ -816,8 +842,8 @@
 				type: "item"
 			}]
 			title: "T-rex?"
-			x: -15.0d
-			y: -6.5d
+			x: -17.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7C32DED450405D92"]
@@ -845,7 +871,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "2DFB32E0B0435146"
 				item: "aether:silver_dungeon_key"
@@ -881,7 +908,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "0A295054B1A869F8"
 				item: "aether:bronze_dungeon_key"
@@ -985,7 +1013,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
 			tasks: [{
 				id: "2E5ED23101FB6CAA"
 				item: "aether:sun_altar"
@@ -1296,8 +1324,8 @@
 				type: "item"
 			}]
 			title: "What goes up, must..."
-			x: -29.0d
-			y: -4.5d
+			x: -28.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5CE831834AEB8CCE"]
@@ -1398,7 +1426,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
 			tasks: [{
 				id: "53E5A1301109264C"
 				item: {
@@ -1469,7 +1497,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
 			tasks: [{
 				id: "7C8EDD850E46525C"
 				item: {
@@ -1514,7 +1542,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "434077B116C32C95"
@@ -1554,8 +1582,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
-			size: 1.7d
+			shape: "rsquare"
+			size: 2.0d
 			subtitle: "The sky is the limit"
 			tasks: [{
 				advancement: "aether:enter_aether"
@@ -1607,7 +1635,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "Getting started!"
 			tasks: [{
 				id: "4D50BDF0F9811D61"

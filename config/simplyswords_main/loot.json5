@@ -6,7 +6,7 @@
 	"rareLootTableWeight": 0.009999999776482582,
 	"runicLootTableWeight": 0.012229995802044868,
 	"uniqueLootTableWeight": 0.003999999724328518,
-	"enableContainedRemnants": true,
+	"enableContainedRemnants": false,
 	"enableWatchingWarglaive": false,
 	"enableLongswordOfThePlague": false,
 	"enableSwordOnAStick": false,

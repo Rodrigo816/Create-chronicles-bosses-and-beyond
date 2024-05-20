@@ -5,7 +5,7 @@
 	group: "4546D7737CBFFD68"
 	icon: "cataclysm:the_incinerator"
 	id: "5E2B599B5B36CD46"
-	order_index: 30
+	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
