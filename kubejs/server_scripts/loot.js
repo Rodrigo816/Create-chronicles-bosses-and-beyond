@@ -1,5 +1,40 @@
 LootJS.modifiers((event) => {
 
+    // List of village loot tables
+    const villageLootTables = [
+      'minecraft:chests/village/village_armorer',
+      'minecraft:chests/village/village_butcher',
+      'minecraft:chests/village/village_cartographer',
+      'minecraft:chests/village/village_desert_house',
+      'minecraft:chests/village/village_fisher',
+      'minecraft:chests/village/village_fletcher',
+      'minecraft:chests/village/village_mason',
+      'minecraft:chests/village/village_plains_house',
+      'minecraft:chests/village/village_savanna_house',
+      'minecraft:chests/village/village_shepherd',
+      'minecraft:chests/village/village_snowy_house',
+      'minecraft:chests/village/village_taiga_house',
+      'minecraft:chests/village/village_tannery',
+      'minecraft:chests/village/village_temple',
+      'minecraft:chests/village/village_toolsmith',
+      'minecraft:chests/village/village_weaponsmith'
+  ];
+
+  function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  // Add mechanisms to all village loot tables
+  villageLootTables.forEach(lootTable => {
+    event.addLootTableModifier(lootTable)
+    .addWeightedLoot(
+      [1, 3],
+      [
+        Item.of("kubejs:rotation_mechanism").withChance(5)
+      ]
+    );
+  });
+
 
   //corail tombstone
   event
