@@ -15,7 +15,7 @@
 	#Range: 1 ~ 1000000
 	BossMusicVolume = 2
 	#AddedServerlist(on/off)
-	"AddedServerlist(on/off)" = true
+	"AddedServerlist(on/off)" = false
 
 [Weapon]
 	#Armor Infinity Durability(on/off)
