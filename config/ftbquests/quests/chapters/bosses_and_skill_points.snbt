@@ -343,11 +343,7 @@
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"072DA448D144179C"
-				"09C33BB3342632B4"
-				"4B630597BCFA97AC"
-			]
+			dependencies: ["072DA448D144179C"]
 			description: ["This boss can be baited out of the void by tossing a Msyerious Worm into the End's void."]
 			icon: "alexsmobs:void_worm_eye"
 			id: "7696990D3ED40A1B"
@@ -370,10 +366,10 @@
 			shape: "square"
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
-				entity: "alexsmobs:void_worm_part"
-				id: "56332C3B671B9F70"
-				type: "kill"
-				value: 1L
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+				id: "69AE2E63F3A9982D"
+				type: "advancement"
 			}]
 			title: "&eEnd&f: Void Worm"
 			x: -3.0d
@@ -1361,9 +1357,9 @@
 			shape: "square"
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
-				entity: "iceandfire:dragon_egg"
+				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
-				id: "01631A62DF9E28CB"
+				id: "3E5D6E0A612102C0"
 				type: "kill"
 				value: 1L
 			}]

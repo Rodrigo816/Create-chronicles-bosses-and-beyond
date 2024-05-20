@@ -5,32 +5,18 @@
 	group: "13742BAAC673A80E"
 	icon: "minecraft:dragon_head"
 	id: "53FAA75157389DE5"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 9.0d
-			hover: [ ]
-			image: "kubejs:textures/enderportal.png"
-			rotation: 0.0d
-			width: 9.0d
-			x: -1.0d
-			y: -2.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "iceandfire:textures/thaumcraft/dragon.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
-			y: -7.5d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 9.0d
+		hover: [ ]
+		image: "kubejs:textures/enderportal.png"
+		rotation: 0.0d
+		width: 9.0d
+		x: -1.0d
+		y: -2.0d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -769,10 +755,7 @@
 			y: 8.5d
 		}
 		{
-			dependencies: [
-				"7696990D3ED40A1B"
-				"4B630597BCFA97AC"
-			]
+			dependencies: ["4B630597BCFA97AC"]
 			id: "2699917C42D48985"
 			optional: true
 			rewards: [
@@ -795,6 +778,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "where it leads?"
 			tasks: [{
 				id: "27A979724FD5C041"
 				item: {

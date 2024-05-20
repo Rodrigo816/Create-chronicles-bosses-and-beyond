@@ -501,9 +501,9 @@
 			shape: "rsquare"
 			size: 1.3d
 			tasks: [{
-				advancement: "lootr:100loot"
+				advancement: "twilightforest:progression_end"
 				criterion: ""
-				id: "6EF6E4EBDFA4C012"
+				id: "407342A7335D03B1"
 				type: "advancement"
 			}]
 			title: "The End?"

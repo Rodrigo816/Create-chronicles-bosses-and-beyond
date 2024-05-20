@@ -3308,8 +3308,8 @@
 				item: "minecraft:totem_of_undying"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 20.5d
+			x: 15.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2F1F1047E8A734EC"]
@@ -3423,32 +3423,6 @@
 			}]
 			x: -11.5d
 			y: 24.5d
-		}
-		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			description: ["With the help of Schematicannons, any .nbt Schematic can be built into your world. Use it to replicate parts of your Building, or even to prepare it in a completely different World ahead of time."]
-			id: "64BDD35062B9FAF8"
-			rewards: [
-				{
-					id: "074A88EAA4BABA31"
-					item: "create:empty_schematic"
-					type: "item"
-				}
-				{
-					id: "35890285183CAF11"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				consume_items: false
-				id: "7C520AF11FE6262D"
-				item: "create:schematicannon"
-				type: "item"
-			}]
-			title: "House Building Cannon"
-			x: 16.0d
-			y: 18.0d
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]

@@ -64,9 +64,9 @@ LootJS.modifiers((event) => {
     .addLoot(Item.of("waystones:warp_dust",1))
  
     // SIMPLE SWORDS STUFF
-    const normalChance =0.02
-    const highChance =0.1
-    const mdChance =0.04
+    const normalChance =0.03
+    const highChance =0.12
+    const mdChance =0.05
   event
     .addEntityLootModifier("twilightforest:snow_queen")
     .randomChance(normalChance)
