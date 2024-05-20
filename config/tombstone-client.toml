@@ -2,27 +2,27 @@
 #Personal Options that can be edited even on server
 [client]
 	#Shows the magic circles when using some items [false/true|default:true]
-	show_magic_circle = true
+	show_magic_circle = false
 	#Shows all the infos in the tooltip of items [false/true|default:true]
-	show_enhanced_tooltips = true
+	show_enhanced_tooltips = false
 	#Highlights the tomb from far when holding the key [false/true|default:true]
-	highlight = true
+	highlight = false
 	#Skips the Respawn Screen [false/true|default:false]
 	skip_respawn_screen = false
 	#Shows shield particles on villager [false/true|default:true]
-	show_shield_particle = true
+	show_shield_particle = false
 	#Allows the ghost to appear around you during Halloween [false/true|default:true]
-	allow_halloween_ghost = true
+	allow_halloween_ghost = false
 	#Shows only the elapsed minecraft days since the death on graves [false/true|default:false]
 	date_in_mc_time = false
 	#Display or not the messages of gain of points in knowledge of death [false/true|default:true]
-	display_knowledge_message = true
+	display_knowledge_message = false
 	#Equips elytra in priority when recovering your lost items [false/true|default:false]
 	equip_elytra_in_priority = false
 	#Automatically equip magic books in Curios slot [false/true|default:false]
 	equip_curio_slot_magic_book = false
 	#Shows the use of the Tombstone's enchantments in tooltip [false/true|default:true]
-	show_info_on_enchantment = true
+	show_info_on_enchantment = false
 	#Favor the tools on the hotbar when recovering a grave [false/true|default:false]
 	priorize_tool_on_hotbar = false
 	#Allows to activate a grave by sneaking [false/true|default:true]

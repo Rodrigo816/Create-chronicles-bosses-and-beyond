@@ -4,5 +4,5 @@
 {
 	max_claimed_chunks: 200
   max_force_loaded_chunks: 15
-  force_disable_minimap: true
+  force_disable_minimap: false
 }

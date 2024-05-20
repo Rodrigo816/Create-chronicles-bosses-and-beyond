@@ -46,7 +46,7 @@
 	#Allows Plague Bringer to combine with Magic Siphon [false/true|default:false]
 	plague_bringer_combining_magic_siphon = false
 	#Allows Frostbite to combine with Fire Aspect [false/true|default:false]
-	frostbite_combining_fire_aspect = true
+	frostbite_combining_fire_aspect = false
 
 #Allows to customize or disable the perks
 [allowed_perks]

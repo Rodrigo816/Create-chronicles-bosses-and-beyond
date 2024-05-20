@@ -83,5 +83,5 @@ removeAdvancement([
   'tombstone:adventure/eat_lollipop',
   'tombstone:adventure/enchant_grave_key',
   'tombstone:adventure/enchant_voodoo_poppet',
-  'tombstone:adventure/ally_enchancer'
+  
 ])

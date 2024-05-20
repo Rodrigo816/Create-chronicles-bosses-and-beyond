@@ -111,6 +111,9 @@ ServerEvents.recipes(event => {
        // AE2
        AE2('transform/fluix_crystals'),
        AE2('transform/fluix_crystal'),
+       AE2('charger/guide'),
+       AE2('charger/meteorite_compass'),
+       AE2('charger/charged_certus_quartz_crystal'),
        CR('compat/ae2/milling/sky_stone_block'),
 
        CR('fil_minecraft_bucket_with_create_dd_hot_chocolate'),
@@ -210,6 +213,7 @@ ServerEvents.recipes(event => {
          ASTRA('ostrum_fluid_pipe'),
          ASTRA('fuel_refinery'),
          AE2('condenser'),
+         AE2('charger'),
          'moped:tiny_copper_moped_item',
          'aquamirae:divider',
          'aquamirae:terrible_sword',

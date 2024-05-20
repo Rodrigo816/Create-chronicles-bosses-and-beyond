@@ -310,8 +310,8 @@
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: 3.0d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			click: ""

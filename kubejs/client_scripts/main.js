@@ -13,8 +13,12 @@ ClientEvents.lang('en_us', event => {
 })
 
 JEIEvents.hideItems(event => {
-  event.hide('simplyswords:contained_remant')
+  event.hide('simplyswords:contained_remnant')
   event.hide('simplyswords:tampered_remnant')
+
+  event.hide('ae2:charger')
+  event.hide('ae2:meteorite_compass')
+
   event.hide('simplyswords:decaying_relic')
   event.hide('missions:mechanical_exchanger')
   event.hide('missions:mechanical_exchanger')

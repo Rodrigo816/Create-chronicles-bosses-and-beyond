@@ -1,4 +1,14 @@
 LootJS.modifiers((event) => {
+
+
+  //corail tombstone
+  event
+    .addLootTypeModifier(LootType.ENTITY)
+    .removeLoot('tombstone:grave_dust')
+  event
+    .addLootTypeModifier(LootType.FISHING)
+    .removeLoot('tombstone:grave_dust')
+
   event
       .addLootTableModifier("ad_astra:chests/dungeon/moon/dungeon_chest")
       .addWeightedLoot(
