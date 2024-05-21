@@ -617,11 +617,6 @@
 			id: "50AF4D784A28D585"
 			rewards: [
 				{
-					id: "1EDBC85149C2AE74"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
 					id: "4C3D40FA7F779A9B"
 					type: "xp"
 					xp: 10
@@ -630,6 +625,11 @@
 					count: 64
 					id: "26A614B123169F18"
 					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "760EE40935A7F4F2"
+					item: "numismatics:bevel"
 					type: "item"
 				}
 			]

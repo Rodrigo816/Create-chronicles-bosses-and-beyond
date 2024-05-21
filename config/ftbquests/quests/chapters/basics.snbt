@@ -823,7 +823,7 @@
 				type: "structure"
 			}]
 			title: "Alex's Caves"
-			x: -9.0d
+			x: -8.5d
 			y: 21.5d
 		}
 		{
@@ -841,7 +841,7 @@
 				item: "alexscaves:spelunkery_table"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -8.5d
 			y: 26.0d
 		}
 		{
@@ -865,7 +865,7 @@
 				type: "item"
 			}]
 			title: "Magnetic Caves"
-			x: -9.0d
+			x: -8.5d
 			y: 27.5d
 		}
 		{
@@ -889,7 +889,7 @@
 				type: "item"
 			}]
 			title: "Primordial Caves"
-			x: -10.5d
+			x: -10.0d
 			y: 26.0d
 		}
 		{
@@ -913,7 +913,7 @@
 				type: "item"
 			}]
 			title: "Toxic Caves"
-			x: -10.5d
+			x: -10.0d
 			y: 27.5d
 		}
 		{
@@ -937,7 +937,7 @@
 				type: "item"
 			}]
 			title: "Abyssal Chasm"
-			x: -7.5d
+			x: -7.0d
 			y: 26.0d
 		}
 		{
@@ -961,7 +961,7 @@
 				type: "item"
 			}]
 			title: "Forlorn Caves"
-			x: -7.5d
+			x: -7.0d
 			y: 27.5d
 		}
 		{
@@ -992,7 +992,7 @@
 				type: "biome"
 			}]
 			title: "Visit a Primordial Cave"
-			x: -12.5d
+			x: -12.0d
 			y: 26.0d
 		}
 		{
@@ -1016,7 +1016,7 @@
 				type: "biome"
 			}]
 			title: "Visit a Toxic Cave"
-			x: -12.0d
+			x: -11.5d
 			y: 29.0d
 		}
 		{
@@ -1047,7 +1047,7 @@
 				type: "biome"
 			}]
 			title: "Visit a Magnetic Cave"
-			x: -9.0d
+			x: -8.5d
 			y: 29.0d
 		}
 		{
@@ -1078,7 +1078,7 @@
 				type: "biome"
 			}]
 			title: "Visit a Forlorn Cave"
-			x: -6.0d
+			x: -5.5d
 			y: 29.0d
 		}
 		{
@@ -1109,7 +1109,7 @@
 				type: "biome"
 			}]
 			title: "Find an Abyssal Chasm"
-			x: -5.5d
+			x: -5.0d
 			y: 26.0d
 		}
 		{
@@ -1864,6 +1864,13 @@
 				"You can use a &9task screen&r and a &9task screen configurator&r to automate."
 			]
 			id: "21FB9D855FA9D2DF"
+			rewards: [{
+				id: "022D8647985E1388"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "0D128D27E6FC641D"
 				title: "&l&6Unlock Chapter: The Black Market"
@@ -2336,7 +2343,7 @@
 				type: "item"
 			}]
 			title: "Label It!"
-			x: -10.5d
+			x: -11.0d
 			y: 20.0d
 		}
 		{
@@ -2355,7 +2362,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 14.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["0D05759E84652BAA"]
@@ -2373,7 +2380,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 14.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["0C4974DE21CEDF4B"]

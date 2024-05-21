@@ -2,7 +2,7 @@
 	autofocus_id: "7D5075B4E1DF5015"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "ars_nouvears_nouveauGRR"
+	filename: "ars_nouveau"
 	group: "1FA30C6751C69E7A"
 	icon: "ars_nouveau:creative_spell_book"
 	id: "6AEDA2F9BEB57759"
@@ -117,7 +117,7 @@
 			y: -5.0d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

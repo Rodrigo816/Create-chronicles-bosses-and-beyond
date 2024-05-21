@@ -1047,15 +1047,6 @@
 			invisible: true
 			rewards: [
 				{
-					id: "181ECA8ED4C122FD"
-					item: {
-						Count: 1b
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
 					id: "4443BADF7DDA2981"
 					item: {
 						Count: 1b

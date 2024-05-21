@@ -310,8 +310,8 @@
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: 7.5d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			click: ""
@@ -323,7 +323,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			click: ""
@@ -335,7 +335,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			click: ""
@@ -346,8 +346,212 @@
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.25d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.25d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.75d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.25d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
 			x: -1.0d
-			y: 7.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.75d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.25d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dustrial_decor:item/gold_chain"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 5.5d
 		}
 	]
 	order_index: 3
@@ -1714,6 +1918,7 @@
 				"33DB2CA9D5E90864"
 				"0B4CF106789A624F"
 			]
+			hide: false
 			hide_dependency_lines: true
 			icon: "ringsofascension:ring_flight"
 			id: "35026166839C8E4C"
@@ -1833,74 +2038,6 @@
 			y: -2.0d
 		}
 		{
-			can_repeat: false
-			dependencies: ["21FB9D855FA9D2DF"]
-			icon: "waystones:waystone"
-			id: "09C84FAE1A3E0921"
-			rewards: [{
-				id: "73C444536086D53D"
-				item: "waystones:waystone"
-				type: "item"
-			}]
-			subtitle: "one time only"
-			tasks: [{
-				consume_items: true
-				count: 5L
-				id: "47EED6DE252AE2E7"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			title: "Waystone"
-			x: -1.0d
-			y: 2.5d
-		}
-		{
-			can_repeat: false
-			dependencies: ["21FB9D855FA9D2DF"]
-			icon: "minecraft:iron_ingot"
-			id: "465EAD8B006329BC"
-			rewards: [{
-				count: 30
-				id: "2DA580D37E828D33"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			subtitle: "one time only"
-			tasks: [{
-				consume_items: true
-				count: 30L
-				id: "5749B61DF5453F62"
-				item: "minecraft:copper_ingot"
-				type: "item"
-			}]
-			title: "Iron Ingots"
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			can_repeat: false
-			dependencies: ["21FB9D855FA9D2DF"]
-			icon: "minecraft:redstone"
-			id: "44CAAD01A22E405D"
-			rewards: [{
-				count: 64
-				id: "6D4BDA2EFAAC27C6"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
-			subtitle: "one time only"
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "72EFC6C93ED7AAE2"
-				item: "minecraft:glowstone_dust"
-				type: "item"
-			}]
-			title: "Redstone Dust"
-			x: 2.0d
-			y: 2.5d
-		}
-		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: [
@@ -1938,7 +2075,7 @@
 			}]
 			title: "Explorer Compass"
 			x: -1.0d
-			y: 7.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -1967,8 +2104,149 @@
 				type: "item"
 			}]
 			title: "&l&4Lootbox&r&r of weapons"
-			x: 0.0d
-			y: 7.0d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide: true
+			icon: "waystones:waystone"
+			id: "139CC6647BFD6E2A"
+			rewards: [{
+				id: "3C40DA19ABBEEBD8"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "76520579CB36AA65"
+				item: "numismatics:sun"
+				type: "item"
+			}]
+			title: "Waystone"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide: true
+			icon: "kubejs:rotation_mechanism"
+			id: "2B9B0F825B99A2DB"
+			rewards: [{
+				count: 9
+				id: "220A692B1695FBD1"
+				item: "kubejs:rotation_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "63BC328B6EFE7BCA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			title: "Rotation Mechanism"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide: true
+			icon: "create_sa:hydraulic_engine"
+			id: "6414E9238DCDE275"
+			rewards: [{
+				count: 9
+				id: "00AC93466688587D"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "110E20C34B935E07"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			title: "Valve Mechanism"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide: true
+			icon: "create:precision_mechanism"
+			id: "1A5395915A7B2FCE"
+			rewards: [{
+				count: 9
+				id: "6A8EFF768E9107FD"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "7C08A49774258283"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			title: "Precision Mechanism"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide: true
+			icon: "create:zinc_ingot"
+			id: "6EF98F7CF9F54F76"
+			rewards: [{
+				count: 20
+				id: "21954C12FAF28026"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4716EDC0E1398BB2"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			title: "Zinc Ingot"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide: true
+			icon: "minecraft:redstone"
+			id: "24FEA3646AD4F483"
+			rewards: [{
+				count: 20
+				id: "6F67C96FCF58D8E3"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "29B4C8C00A293C00"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			title: "Redstone Dust"
+			x: 8.0d
+			y: 5.0d
 		}
 	]
 	title: "&0&l The Black Market"
