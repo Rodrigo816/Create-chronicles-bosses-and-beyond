@@ -909,7 +909,7 @@
 					type: "choice"
 				}
 				{
-					count: 40
+					count: 20
 					id: "4A1566AA979782BC"
 					item: "numismatics:spur"
 					type: "item"

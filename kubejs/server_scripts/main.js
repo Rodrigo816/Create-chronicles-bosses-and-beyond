@@ -168,14 +168,11 @@ ServerEvents.recipes(event => {
       Item.of(CRA('rolling_mill'), 2),
       Item.of(CR('windmill_bearing'), 2),
       Item.of(CR('mechanical_bearing'), 2),
-      Item.of(CR('portable_storage_interface'), 1),
-      Item.of(CR('analog_lever'), 1),
+      Item.of(CR('portable_storage_interface'), 2),
+      Item.of(CR('analog_lever'), 2),
       Item.of(CRDD('reversed_gearshift'), 1),
       Item.of(CRDD('kinetic_motor'), 1),
       Item.of('create_connected:freewheel_clutch', 1),
-      Item.of(CRDD('kinetic_motor'), 1),
-
-
   ];
   const andesite_shapes = [
       //["thermal:drill_head", "create:mechanical_drill"],
@@ -376,7 +373,6 @@ ServerEvents.recipes(event => {
     Item.of(CR('sequenced_gearshift'), 2),
     Item.of(CR('rotation_speed_controller'), 1),
     Item.of(CR('mechanical_arm'), 1),
-    Item.of(CR('stockpile_switch'), 2),
     Item.of(CR('content_observer'), 2),
     Item.of(CR('stockpile_switch'), 2),
     Item.of(CR('brass_funnel'), 4),
@@ -514,6 +510,18 @@ ServerEvents.recipes(event => {
   
     multicut(locomotive_machines_cutting, KJ('obsidian_machine'), true);
 
+  //adv wireless terminal
+  event.recipes.createMechanicalCrafting('toms_storage:ts.adv_wireless_terminal', [
+    'A',
+    'B',
+    'C',
+  ], {
+    A: KJ('locomotive_mechanism'),
+    B: 'toms_storage:ts.wireless_terminal',
+    C: MC('netherite_ingot'),
+  }) 
+
+
 
    
   /*
@@ -545,17 +553,6 @@ ServerEvents.recipes(event => {
       .loops(2)
       .id(TFMG('steel_mechanism'))
 
-  //adv wireless terminal
-  event.recipes.createMechanicalCrafting('toms_storage:ts.adv_wireless_terminal', [
-    'A',
-    'B',
-    'C',
-  ], {
-    A: TFMG('steel_mechanism'),
-    B: 'toms_storage:ts.wireless_terminal',
-    C: MC('netherite_ingot'),
-  }) 
-
 
 
   /*
@@ -563,7 +560,7 @@ ServerEvents.recipes(event => {
     ---->Chp 6 Rocket Fuel
     ==============================
   */
-  event.recipes.createMixing(Fluid.of(ASTRA('fuel'), 400),[Fluid.of(TFMG('diesel'), 700),Fluid.of(TFMG('kerosene'), 200),Fluid.of(CRA('bioethanol'), 400)]).superheated()
+  event.recipes.createMixing(Fluid.of(ASTRA('fuel'), 400),[Fluid.of(TFMG('diesel'), 700),Fluid.of(CRA('bioethanol'), 400)]).superheated()
 
   /*
     ===============================
@@ -609,14 +606,18 @@ ServerEvents.recipes(event => {
             "ingredients": [
               {
                 "fluid": KJ('mystic_coal_liquid'),
-                "amount": 900
+                "amount": 1
               }
             ],
-            "processingTime": 300,
+            "processingTime": 150,
             "results": [
               {
                 "count": 1,
                 "item": KJ('ingot_mystic_coal')
+              },
+              {
+                "count": 1,
+                "item": KJ('mystic_coal_block')
               }
             ]
         }
@@ -714,7 +715,7 @@ ServerEvents.recipes(event => {
         ], {
         F: ASTRA('rocket_fin'),
         T: ASTRA('steel_tank'),
-        R: TFMG('large_radial_engine'),
+        R: TFMG('radial_engine'),
         X: TFMG('turbine_engine'),
         E: ASTRA('steel_engine'),
         B: KJ('tier_1_plating'),

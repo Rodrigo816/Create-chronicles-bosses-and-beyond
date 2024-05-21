@@ -11,9 +11,11 @@
 		{
 			dependencies: ["123D70CA4959F172"]
 			description: [
-				"Twilight forest is a mod thats centered in another dimension called the Twilight Forest. It has it's own progression system, and it starts by visiting the twilight forest dimension! "
+				"&2Twilight forest&r is a mod thats centered in another dimension called the Twilight Forest. It has it's own progression system, and it starts by visiting the twilight forest dimension! "
 				""
-				"You can make a portal to the Twilight Forest by making a 2x2 hole in the ground, filling it with water, and surrounding it with flowers. Once that's done. Throw a single diamond into the water, and lightning will strike it, opening the portal to the Twilight Forest."
+				"You can make a&6 portal&r to the &2Twilight Forest&r by making a 2x2 hole in the ground, filling it with water, and surrounding it with flowers. Once that's done. Throw a single &l&6jar of light&r&r into the water, and lightning will strike it, opening the portal to the Twilight Forest."
+				""
+				"&7Fallow ars noveau chapter to learn how to craft the Jar of light.&r"
 			]
 			hide: true
 			id: "2F0F635C06E8D307"
@@ -31,7 +33,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "The twilight zone"
+			subtitle: "The twilight zone, throw a Jar of Light to open the portal"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				icon: "twilightforest:twilight_portal_miniature_structure"

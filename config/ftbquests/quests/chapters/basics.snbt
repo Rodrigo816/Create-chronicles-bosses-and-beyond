@@ -1686,6 +1686,8 @@
 				"To uncover items from Suspicious blocks, create a Brush to gently remove the block and reveal the item. Use the &bArchaeology Table&r to analyze Unidentified Artifacts with any type of brush."
 				""
 				"Craft the Archaeology Table using 4 Wood Planks, a Brush, and Artifact Shards. It outputs one of three different Identified Artifacts, each with unique special powers."
+				""
+				"You can also find artifacts using archaeology."
 			]
 			hide: false
 			id: "0C4974DE21CEDF4B"
@@ -1862,11 +1864,13 @@
 				"The &0&kBlack Market&r&r is the ultimate testing ground for your ingenious Create automations. Here, you can exchange the fruits of your mechanical mastery for unique items &cnot found anywhere else&r."
 				""
 				"You can use a &9task screen&r and a &9task screen configurator&r to automate."
+				""
+				"You can also buy stuff using Create currency. Currency can be earned via quests for doing weekly missions (Press H). Here is some money to get you started, so spend it wisely."
 			]
 			id: "21FB9D855FA9D2DF"
 			rewards: [{
-				id: "022D8647985E1388"
-				item: "numismatics:crown"
+				id: "50F4EC485372FEF2"
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -2008,11 +2012,11 @@
 			description: [
 				"You're able to claim chunks to protect your base(s). "
 				""
-				"Open your inventory with &3\"e\"&r key and click on the map icon that is located top left in your inventory that says &bFTB Chunks Claimed Manager&r."
+				"Open your world map with the &6\"M\"&r key and click on the map icon that is located on the top left corner that says &bClaimed Chunks&r."
 				""
-				"Here yo can freely claim available chunks by just drawing on the map with your mouse."
+				"Here you can freely claim available chunks by just drawing on the map with your mouse."
 				""
-				"To unclmaim a chunk you do the opposite, just draw but hold right click instead."
+				"To unclaim a chunk, you do the opposite, just draw by holding right click instead."
 				""
 				"For force loading chunks hold &a'leftshift'&r"
 			]
@@ -2279,6 +2283,8 @@
 			dependencies: ["1F6BC8C2A5B8F9B2"]
 			dependency_requirement: "one_completed"
 			description: [
+				"&l&cCreate Missions has been disabled for now due to some crash issues. It will be added back later.&r&r"
+				""
 				"Simply press &6\"H\"&r to access your current missions. Completing these will reward you with money that can be used in multiplayer environments or at the &l&0Black Market.&r&l&r"
 				""
 				"&5Understanding Currency in the Game:&r"

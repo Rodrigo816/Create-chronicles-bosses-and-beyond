@@ -2174,6 +2174,9 @@
 		{
 			dependencies: ["1D86B2E553503E53"]
 			description: [
+				"&l&cDRYGMYS ARE DISABLED FOR NOW! USE HOSTILE NEURAL NETWORKS FOR MOBS FARMS UNLOCKED AT CHAPTER 3.&r&r"
+				""
+				""
 				"Drygmys are often found following and tending to animals around it."
 				""
 				"They can be found anywhere, though somewhat rarely. Drygmys can be given a home in the world, and will produce items from nearby monsters and animals as if they were slain, without harming them. "
@@ -4561,7 +4564,7 @@
 			description: [
 				"Without augments, this ritual will summon a random variety of Wilden monsters for a short duration. "
 				""
-				"When augmented with a Wilden Spike, Wilden Horn, and a Wilden Wing, this ritual will summon the &6Wilden Chimera&r, a challenging and destructive monster."
+				"When augmented with a &9Wilden Spike&r, &9Wilden Horn&r, and a &9Wilden Wing&r, this ritual will summon the &6Wilden Chimera&r, a challenging and destructive monster."
 				""
 				"&nNote: If summoning the chimera, this ritual will destroy blocks around the brazier.&r"
 			]

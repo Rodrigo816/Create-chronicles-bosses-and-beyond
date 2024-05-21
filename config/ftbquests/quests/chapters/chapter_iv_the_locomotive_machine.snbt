@@ -693,6 +693,33 @@
 			x: 1.0d
 			y: -8.5d
 		}
+		{
+			dependencies: [
+				"69D628450626D8D5"
+				"3DFF1B74E8AADB57"
+			]
+			description: [
+				"&6Advanced Wireless Terminals&r are much more useful than basic ones. "
+				""
+				"Bind a Terminal by shift-right-clicking, and as long as you're within 64 blocks and the terminal is loaded, you can access it!"
+				""
+				"&7If you are a veteran, beacon features are &ndisabled&r.&r"
+			]
+			id: "521189A0069D8262"
+			rewards: [{
+				count: 9
+				id: "5CA8AC8B541BA0A7"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06F21B2BC81D446C"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
 	]
 	title: "Chapter IV: The Locomotive Machine"
 }

@@ -2,7 +2,7 @@
   "cut": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -25,7 +25,7 @@
   "compact": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -65,7 +65,7 @@
   "break": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -97,7 +97,7 @@
   "craft": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -127,7 +127,7 @@
   "kill": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -157,7 +157,7 @@
   "ride": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -180,7 +180,7 @@
   "sail": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -199,7 +199,7 @@
   "fly": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -219,7 +219,7 @@
   "crush": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -243,7 +243,7 @@
   "fish": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -268,7 +268,7 @@
   "eat": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -295,7 +295,7 @@
   "place": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -319,7 +319,7 @@
   "press": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -339,7 +339,7 @@
   "mix": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -362,7 +362,7 @@
   "walk": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -383,7 +383,7 @@
   "train-driver": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -401,7 +401,7 @@
   "train-passenger": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -422,7 +422,7 @@
   "train-driver-passenger": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -444,7 +444,7 @@
   "dive": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -461,7 +461,7 @@
   "drill": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -490,7 +490,7 @@
   "saw": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -507,7 +507,7 @@
   "harvester": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -522,7 +522,7 @@
   "drink": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -536,7 +536,7 @@
   "relocate": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -550,7 +550,7 @@
   "feed": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {
@@ -565,7 +565,7 @@
   "belt-walk": {
     "reward": {
       "amount": "2-23",
-      "item": "diamond"
+      "item": "numismatics:spur"
     },
     "weight": 1.0,
     "missions": {

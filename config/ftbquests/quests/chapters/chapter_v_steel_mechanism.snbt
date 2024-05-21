@@ -763,30 +763,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["69D628450626D8D5"]
-			description: [
-				"&6Advanced Wireless Terminals&r are much more useful than basic ones. "
-				""
-				"Bind a Terminal by shift-right-clicking, and as long as you're within 64 blocks and the terminal is loaded, you can access it!"
-				""
-				"&7If you are a veteran, beacon features are &ndisabled&r.&r"
-			]
-			id: "78EC21BDD6AD2300"
-			rewards: [{
-				count: 9
-				id: "29BAA95D54AC0727"
-				item: "create:item_vault"
-				type: "item"
-			}]
-			tasks: [{
-				id: "06457036896EEED1"
-				item: "toms_storage:ts.adv_wireless_terminal"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 12.0d
-		}
-		{
 			dependencies: ["3DFF1B74E8AADB57"]
 			description: [
 				"&cFireclay Ball&r comes from a block called &cFireclay&r. "

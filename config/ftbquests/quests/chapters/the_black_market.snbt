@@ -553,6 +553,18 @@
 			x: 8.0d
 			y: 5.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 5.5d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -1188,13 +1200,6 @@
 				{
 					consume_items: true
 					count: 500L
-					id: "4583483447375859"
-					item: "quark:beetroot_crate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 500L
 					id: "4CA18C4182AEF2AB"
 					item: "farmersdelight:tomato_crate"
 					type: "item"
@@ -1520,7 +1525,7 @@
 			icon: "waystones:warp_dust"
 			id: "49F5334F500A9615"
 			rewards: [{
-				count: 10
+				count: 3
 				id: "6F1F125BAD198674"
 				item: "waystones:warp_dust"
 				type: "item"
@@ -2068,7 +2073,7 @@
 			subtitle: "The Explorer Compass lets you select a structure you want to find."
 			tasks: [{
 				consume_items: true
-				count: 4L
+				count: 5L
 				id: "3CA987AA256E37D8"
 				item: "numismatics:sun"
 				type: "item"
@@ -2122,7 +2127,7 @@
 			tasks: [{
 				consume_items: true
 				id: "76520579CB36AA65"
-				item: "numismatics:sun"
+				item: "numismatics:crown"
 				type: "item"
 			}]
 			title: "Waystone"
@@ -2144,8 +2149,8 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 8L
-				id: "63BC328B6EFE7BCA"
+				count: 14L
+				id: "5BD4EF0423DCD8C9"
 				item: "numismatics:spur"
 				type: "item"
 			}]
@@ -2158,22 +2163,22 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: [""]
 			hide: true
-			icon: "create_sa:hydraulic_engine"
+			icon: "minecraft:iron_ingot"
 			id: "6414E9238DCDE275"
 			rewards: [{
-				count: 9
-				id: "00AC93466688587D"
-				item: "create_sa:hydraulic_engine"
+				count: 20
+				id: "556F51177CE4D4A7"
+				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 24L
 				id: "110E20C34B935E07"
 				item: "numismatics:spur"
 				type: "item"
 			}]
-			title: "Valve Mechanism"
+			title: "Iron Ingot"
 			x: 5.0d
 			y: 3.5d
 		}
@@ -2182,22 +2187,22 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: [""]
 			hide: true
-			icon: "create:precision_mechanism"
+			icon: "minecraft:copper_ingot"
 			id: "1A5395915A7B2FCE"
 			rewards: [{
-				count: 9
-				id: "6A8EFF768E9107FD"
-				item: "create:precision_mechanism"
+				count: 20
+				id: "008783A82841D2F9"
+				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
-				count: 32L
+				count: 28L
 				id: "7C08A49774258283"
 				item: "numismatics:spur"
 				type: "item"
 			}]
-			title: "Precision Mechanism"
+			title: "Copper Ingot"
 			x: 6.5d
 			y: 3.5d
 		}
@@ -2216,8 +2221,8 @@
 			}]
 			tasks: [{
 				consume_items: true
-				id: "4716EDC0E1398BB2"
-				item: "numismatics:sprocket"
+				id: "4CF201B893979C27"
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			title: "Zinc Ingot"
@@ -2239,13 +2244,37 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 2L
+				count: 36L
 				id: "29B4C8C00A293C00"
-				item: "numismatics:bevel"
+				item: "numismatics:spur"
 				type: "item"
 			}]
 			title: "Redstone Dust"
 			x: 8.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide: true
+			icon: "create:belt_connector"
+			id: "7056902C17FED0D5"
+			rewards: [{
+				count: 10
+				id: "024991AFD31BA4F5"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "6ABF41DA37695542"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			title: "Mechanical Belt"
+			x: 6.5d
 			y: 5.0d
 		}
 	]

@@ -1692,9 +1692,8 @@
 			description: ["This lever functions like a precise output power of redstone. You can adjust how much redstone strength you wish to output. "]
 			id: "63E05F3657CF988C"
 			rewards: [{
-				count: 3
-				id: "6A6254F3E289A936"
-				item: "minecraft:redstone"
+				id: "2A85FF5A62B4B5B0"
+				item: "design_decor:stepped_lever"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -5142,8 +5141,8 @@
 			description: ["The &6kinetic motor&r has literally 0 SU. It can power literally nothing other then shafts and cogs and propellers (and other stuff that doesn't take SU) ."]
 			id: "6C3FB10919F1A353"
 			rewards: [{
-				id: "2FA61E1DD41B38BF"
-				item: "create:experience_nugget"
+				id: "2B4D4CC047A60886"
+				item: "create_dd:2_blade_fan"
 				type: "item"
 			}]
 			tasks: [{
@@ -6034,6 +6033,27 @@
 			title: "Big Spender Vendor"
 			x: 15.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["141586825046EA86"]
+			description: [
+				"&6Copycats&r allow you to make steps and panels out of things that typically cannot take those shapes."
+				""
+				"Some blocks have texture variations, for example an Oak Log has multiple textures on a Copy Cat item, to cycle through the textures of the block, just right click with the block in hand on the copy cat to cycle."
+			]
+			id: "1C26806DC29E4DB4"
+			rewards: [{
+				id: "6F76B6ACC6DDD7F0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B3E8BA0B4206E0B"
+				item: "create_dd:copycat_block"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
 		}
 	]
 	title: "&aCreate 101 - Guidebook"

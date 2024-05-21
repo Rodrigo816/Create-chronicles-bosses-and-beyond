@@ -1440,8 +1440,8 @@
 				weak_nbt_match: true
 			}]
 			title: "&cNether&f: The Hovering Inferno"
-			x: -1.0d
-			y: 7.5d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2187,53 +2187,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["072DA448D144179C"]
-			description: [
-				"The first encounter with the Pumpkillager. He'll appear randomly after breaking a pumpkin that doesn't have any blocks surrounding it. You'll be given a quest book."
-				""
-				"Follow the quest book in order to process the next steps."
-			]
-			icon: "minecraft:pumpkin"
-			id: "18951CEFEE6CDB8F"
-			rewards: [
-				{
-					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
-					icon: "kubejs:skill_add_point"
-					id: "6EB15BC8D12B9F3F"
-					silent: true
-					title: "+1 Skill Point"
-					type: "command"
-				}
-				{
-					id: "1A1C4FA4B3BD1118"
-					item: "numismatics:cog"
-					type: "item"
-				}
-			]
-			shape: "square"
-			subtitle: "&6⭐⭐&7⭐⭐⭐"
-			tasks: [{
-				id: "00168A16EE93A334"
-				item: {
-					Count: 1b
-					id: "minecraft:netherite_sword"
-					tag: {
-						Damage: 0
-						display: {
-							Name: "{\"text\":\"Pumpkalibur\"}"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-				weak_nbt_match: true
-			}]
-			title: "&2Overworld&f: Pumpkillager"
-			x: 4.0d
-			y: 4.5d
-		}
-		{
 			dependencies: [
 				"6C426E483987130D"
 				"09D25A60964E517F"
@@ -2246,7 +2199,6 @@
 				"7FE615B1AB39CFFA"
 				"40DD304B90046084"
 				"466E95094802C572"
-				"18951CEFEE6CDB8F"
 				"360D7D51B8827142"
 				"66CCB8E61772D9C5"
 				"0561992D26000F6C"
