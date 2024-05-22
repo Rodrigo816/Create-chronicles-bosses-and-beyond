@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
     //Remove by recipe ID
     [
         'twilightforest:uncrafting_table',
+        'explorerscompass:explorers_compass',
          //Chapter 1
         ASTRA('recipes/hammering/iron_plate'),
         CR('crafting/materials/andesite_alloy_from_zinc'),

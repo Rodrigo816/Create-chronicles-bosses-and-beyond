@@ -732,7 +732,7 @@
 			description: [
 				"Locate and discover a &6Gold&r Dungeon."
 				""
-				"If you are well prepared, this fight will be more annoying then hard..."
+				"If you are well prepared, this fight will be more annoying than hard..."
 				""
 				"This dungeon can be found on a floating sphere shape island that has Golden Skyroot trees growing on top of it anywhere in the &bAether&r."
 				""
@@ -1407,7 +1407,11 @@
 		}
 		{
 			dependencies: ["5F808832927F1A31"]
-			description: ["This is a &n&eMUST HAVE&r Weapon for the early game bosses."]
+			description: [
+				"This weapon is &6&nvery helpful&r&r for early game bosses. "
+				""
+				"There's a chance you'll find this weapon inside the Chests that you can open with a key after defeating a boss "
+			]
 			id: "4859B7F2F440CD07"
 			rewards: [
 				{
@@ -1427,6 +1431,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "Big hands"
 			tasks: [{
 				id: "53E5A1301109264C"
 				item: {

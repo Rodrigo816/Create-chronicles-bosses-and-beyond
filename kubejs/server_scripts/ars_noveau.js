@@ -33,4 +33,15 @@ ServerEvents.recipes(event => {
     "minecraft:lectern",
     "ars_nouveau:storage_lectern", 0,
   );
+  // MysticCoalBlock
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+        "forbidden_arcanus:arcane_crystal_dust",
+        "minecraft:prismarine_crystals",
+        "minecraft:glow_ink_sac",
+    ],
+    "minecraft:coal_block",
+    "kubejs:mystic_coal_block",
+    500,
+  );
 })

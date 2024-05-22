@@ -1,10 +1,20 @@
 
 ServerEvents.recipes(event => { 
 
+  // andesite sheet
+  event.remove({output: 'createdeco:andesite_sheet'});
+  event.replaceInput({}, 'createdeco:andesite_sheet', 'create_dd:andesite_sheet');
 
+
+  event.remove({output: 'ad_astra:steel_nugget'});
+  event.replaceInput({}, 'ad_astra:steel_nugget', 'create_dd:steel_nugget');
+  event.remove({output: 'epicsamurai:steel_nugget'});
+  event.replaceInput({}, 'picsamurai:steel_nugget', 'create_dd:steel_nugget');
+
+
+  // CORAIL STUFF
   event.remove({mod: 'tombstone'});
-    // Remove all brewing recipes from the specified mod
-  event.remove({type: 'minecraft:brewing', mod: 'tombstone'});
+  event.remove({type: 'minecraft:brewing', mod: 'tombstone'}); 
   
     // You might need to remove other types of recipes, so check the mod's recipe types
     // For example, removing smelting recipes
@@ -50,6 +60,4 @@ ServerEvents.recipes(event => {
 
   event.remove({output: 'create_confectionery:caramel_glazed_berries'});
   event.recipes.createFilling('create_confectionery:caramel_glazed_berries',  [Fluid.of("create_dd:caramel", 250), 'minecraft:sweet_berries'])
-
-
 })

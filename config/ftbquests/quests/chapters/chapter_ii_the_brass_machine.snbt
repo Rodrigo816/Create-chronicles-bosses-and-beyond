@@ -1072,6 +1072,11 @@
 			dependencies: ["77BBCB5B0ED47F06"]
 			description: ["Framed storage items can be painted with a Paint Kit to disguise them as any full block while maintaining functionality."]
 			id: "07E522F440A317AA"
+			rewards: [{
+				id: "0D8EFAE620D1FF15"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "229F1D341BDC9216"
@@ -1096,6 +1101,11 @@
 				"Shift-right click any full block to pick it and then right-click a Framed storage block to disguise it."
 			]
 			id: "3C5651A758797922"
+			rewards: [{
+				id: "1F142E3420718EBE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E4812D002D387A0"
 				item: {
@@ -1118,6 +1128,11 @@
 				"It requires you to look at the Terminal you want to access, and it only has a range of 16 blocks."
 			]
 			id: "078236AFE937C60D"
+			rewards: [{
+				id: "4C3407301FF30F37"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4724BF6D9BC02EB8"
 				item: "toms_storage:ts.wireless_terminal"
@@ -1162,6 +1177,11 @@
 		{
 			dependencies: ["738E4BA03DA3D655"]
 			id: "71A6E188F736F35E"
+			rewards: [{
+				id: "3DC80616496AD193"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B0F3BD56E98F22E"
 				item: "toms_storage:ts.trim"

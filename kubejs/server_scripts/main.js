@@ -568,7 +568,7 @@ ServerEvents.recipes(event => {
     ==============================
   */
 
-    transitional = MC('coal_block')
+  /*  transitional = MC('coal_block')
     event.recipes.createSequencedAssembly([
 		KJ('mystic_coal_block'),
 	], MC('coal_block'), [
@@ -599,7 +599,7 @@ ServerEvents.recipes(event => {
               }
             ]
         }
-	)
+	)*/
     event.custom(
         {
             "type": TFMG('casting'),

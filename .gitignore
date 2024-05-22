@@ -29,6 +29,7 @@ config/jei
 
 
 # files
+cherishedworlds-favorites.dat
 .curseclient
 usernamecache.json
 usercache.json

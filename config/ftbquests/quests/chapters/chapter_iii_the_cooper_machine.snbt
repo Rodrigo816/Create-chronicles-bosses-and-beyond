@@ -140,6 +140,11 @@
 					item: "moped:copper_moped_item"
 					type: "item"
 				}
+				{
+					id: "7142CF6B3E1295F1"
+					item: "moped:moped_key"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7A340C67ECB502E3"

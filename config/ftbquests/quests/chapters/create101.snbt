@@ -4084,8 +4084,9 @@
 			]
 			id: "79C542CA156AB01E"
 			rewards: [{
-				id: "4B2EF17A83D3BE68"
-				item: "create:experience_nugget"
+				count: 2
+				id: "56A5A34299FC6888"
+				item: "minecraft:slime_ball"
 				type: "item"
 			}]
 			shape: "gear"

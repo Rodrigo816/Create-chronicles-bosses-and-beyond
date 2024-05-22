@@ -324,18 +324,11 @@
 				"Build a house, build a farm, do the usual."
 			]
 			id: "0C49795E134A27E0"
-			rewards: [
-				{
-					id: "6C864251A2E6384F"
-					item: "minecraft:slime_ball"
-					type: "item"
-				}
-				{
-					id: "37AB800E7789E9C7"
-					item: "minecraft:map"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1388C1348A74DF51"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -1625,9 +1618,9 @@
 			description: ["I'm going to assume you've been out mining, right? It is &4Minecraft&r after all."]
 			id: "28B245505F91D21C"
 			rewards: [{
-				id: "2CABA399E7A9D8B1"
+				id: "73FD6CD9F16B0FDC"
 				type: "xp"
-				xp: 25
+				xp: 10
 			}]
 			shape: "rsquare"
 			size: 1.5d

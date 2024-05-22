@@ -544,6 +544,17 @@
 					item: "create:goggles"
 					type: "item"
 				}
+				{
+					id: "15260D3E5D01A927"
+					item: {
+						Count: 1b
+						id: "create_sabers:copper_saber_lime"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d

@@ -64,6 +64,7 @@
 				"0179452F07812322"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Please visit &6magic chapter Ars Nouveau&r to learn how to use &cEnchanting Apparatus&r"]
 			id: "5690FCED46349207"
 			tasks: [{
 				id: "6F136A019E348CD4"
