@@ -71,14 +71,14 @@
 #Miscellaneous options
 [general]
 	#Allows teleportation to other dimensions [false/true|default:true]
-	teleport_dim = true
+	teleport_dim = false
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
 	knowledge_reduce_phantom_spawn = false
 	#Allows players to be hurt by special damages related to some items [false/true|default:true]
 	allow_beyond_the_grave_damage = false
 	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
 	#Range: > 1200
-	time_for_phantom_spawn = 1200
+	time_for_phantom_spawn = 72000
 	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_request_teleport = -1

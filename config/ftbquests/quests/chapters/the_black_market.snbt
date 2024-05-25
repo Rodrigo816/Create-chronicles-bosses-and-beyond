@@ -1927,11 +1927,18 @@
 			hide_dependency_lines: true
 			icon: "ringsofascension:ring_flight"
 			id: "35026166839C8E4C"
-			rewards: [{
-				id: "2F1857C01CA4EB32"
-				item: "ringsofascension:ring_flight"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2F1857C01CA4EB32"
+					item: "ringsofascension:ring_flight"
+					type: "item"
+				}
+				{
+					id: "2C93C1EF9203849B"
+					item: "create_sa:creative_filling_tank"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "The most overpowered item ever made in a survival world, having completed all that the pack has to offer, right? So, claim your overpowered item for all the hard work. Congratulations!"
@@ -2149,7 +2156,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 14L
+				count: 16L
 				id: "5BD4EF0423DCD8C9"
 				item: "numismatics:spur"
 				type: "item"
@@ -2268,7 +2275,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 20L
+				count: 10L
 				id: "6ABF41DA37695542"
 				item: "numismatics:spur"
 				type: "item"

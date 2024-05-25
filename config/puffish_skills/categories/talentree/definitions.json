@@ -1936,9 +1936,9 @@
 		}
 	},
 	"bigMasterOfDodge": {
-		"title": "§d[2P] §e§lThe Art of Dodging",
+		"title": "§d[10P] §e§lThe Art of Dodging",
 		"const": 10,
-		"description": "§a+2 Extra rolls\n§a+30% Dodge Roll Distance\n§a+100% Dodge Roll Recharge Rate\n§a+20% Movement Speed\n§a+20% Attack Speed",
+		"description": "§a+2 Extra rolls\n§a+30% Dodge Roll Distance\n§a+120% Dodge Roll Recharge Rate\n§a+20% Movement Speed\n§a+10% Attack Speed",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1974,7 +1974,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "combatroll:recharge",
-					"value": 1,
+					"value": 1.2,
 					"operation": "multiply_base"
 				}
 			},
@@ -1982,7 +1982,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.attack_speed",
-					"value": 0.2,
+					"value": 0.1,
 					"operation": "multiply_base"
 				}
 			},
@@ -2452,7 +2452,7 @@
 	"bigBreserk": {
 		"title": "§d[10P] §e§lBerserk",
 		"cost": 10,
-		"description": "§a+30% Attack Damage\n§a+20% Attack Speed\n§ +20% Crit Chance\n§ +50% Crit Damage\n§c-50% Armor Efficency \n§c-30% Health",
+		"description": "§a+30% Attack Damage\n§a+10% Attack Speed\n§ +20% Crit Chance\n§ +50% Crit Damage\n§c-50% Armor Efficency \n§c-30% Health",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2512,7 +2512,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.attack_speed",
-					"value": 0.2,
+					"value": 0.1,
 					"operation": "multiply_total"
 				}
 			},

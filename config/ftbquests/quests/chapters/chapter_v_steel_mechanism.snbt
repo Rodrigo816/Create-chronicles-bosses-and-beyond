@@ -769,6 +769,7 @@
 				""
 				"Grab your mighty pickaxe and go do some digging! Or build a Drill Machine that works too. You’ll find the Fireclay Block in caves and such in the Overworld."
 			]
+			hide: true
 			id: "2E9E011F51858EF2"
 			tasks: [{
 				id: "0E8742FAA0118213"
