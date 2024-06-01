@@ -8,11 +8,7 @@
 	id: "6AEDA2F9BEB57759"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ars_nouveau:block/mage_block_transparent"
 			rotation: 0.0d
 			width: 1.0d
@@ -20,11 +16,7 @@
 			y: -5.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ars_nouveau:block/mage_block_transparent"
 			rotation: 0.0d
 			width: 1.0d
@@ -32,11 +24,7 @@
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ars_nouveau:block/warp_portal"
 			rotation: 0.0d
 			width: 0.03125d
@@ -44,11 +32,7 @@
 			y: -4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ars_nouveau:block/mage_block_transparent"
 			rotation: 0.0d
 			width: 1.0d
@@ -56,11 +40,7 @@
 			y: -3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ars_nouveau:block/mage_block_transparent"
 			rotation: 0.0d
 			width: 1.0d
@@ -68,11 +48,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:textures/map_marker/twilight_portal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -80,11 +56,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "kubejs:item/golden_hand"
 			rotation: 0.0d
 			width: 1.0d
@@ -92,11 +64,7 @@
 			y: -3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ars_nouveau:block/mage_block_transparent"
 			rotation: 0.0d
 			width: 1.0d
@@ -104,11 +72,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ars_nouveau:block/mana_still"
 			order: -1
 			rotation: 0.0d
@@ -192,7 +156,7 @@
 					count: 5
 					id: "6DF30985447AD7A6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:starby_gift"
 						tag: { }
 					}
@@ -204,7 +168,7 @@
 			tasks: [{
 				id: "1624D71379FBBDA6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:starbuncle_charm"
 					tag: { }
 				}
@@ -1896,7 +1860,7 @@
 				{
 					id: "565501823D60D08C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "ars_nouveau:mana_regen_potion"
@@ -2110,7 +2074,7 @@
 				{
 					id: "163A6E303D6F419D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:logs/archwood"
@@ -2123,7 +2087,7 @@
 					count: 2L
 					id: "7508E906C021AB6B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:planks/archwood"
@@ -2416,7 +2380,7 @@
 			tasks: [{
 				id: "2E649D2172E6D537"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:runic_chalk"
 					tag: {
 						Damage: 0
@@ -2705,7 +2669,7 @@
 				"&nSelect one Form and one Effect, name your spell, and click create!&r"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ars_nouveau:spell_parchment"
 				tag: { }
 			}
@@ -2767,7 +2731,7 @@
 			tasks: [{
 				id: "07469C1ABB23F686"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:dowsing_rod"
 					tag: {
 						Damage: 0
@@ -2932,7 +2896,7 @@
 				{
 					id: "19F2CD6C0B18C66F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:spell_parchment"
 						tag: { }
 					}
@@ -3018,7 +2982,7 @@
 			tasks: [{
 				id: "307E429DCDA2A0BC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_sword"
 					tag: {
 						Damage: 0
@@ -3054,7 +3018,7 @@
 			tasks: [{
 				id: "571B04DAC6DAFDAE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_shield"
 					tag: {
 						Damage: 0
@@ -3092,7 +3056,7 @@
 			tasks: [{
 				id: "4B4A171486A31360"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_mirror"
 					tag: { }
 				}
@@ -3130,7 +3094,7 @@
 			tasks: [{
 				id: "7F425E0F613F8B23"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:spell_bow"
 					tag: { }
 				}
@@ -3322,7 +3286,7 @@
 			tasks: [{
 				id: "3CF6151060ADB889"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:wand"
 					tag: { }
 				}
@@ -3336,7 +3300,7 @@
 			description: ["Tier 1 Glyphs require 3 levels of experience to be made."]
 			hide_dependent_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ars_nouveau:textures/gui/filter_tab_tier1_selected.png"
@@ -3373,7 +3337,7 @@
 			]
 			hide_dependent_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ars_nouveau:textures/gui/filter_tab_tier2_selected.png"
@@ -3412,7 +3376,7 @@
 			]
 			hide_dependent_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ars_nouveau:textures/gui/filter_tab_tier3_selected.png"
@@ -3727,7 +3691,7 @@
 			tasks: [{
 				id: "67A25324784B1B46"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:annotated_codex"
 					tag: { }
 				}
@@ -5376,7 +5340,7 @@
 				{
 					id: "471A08AE99105D95"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:sorcerer_hood"
 						tag: {
 							Damage: 0
@@ -5387,7 +5351,7 @@
 				{
 					id: "7E8BB0E53876D545"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:sorcerer_robes"
 						tag: {
 							Damage: 0
@@ -5398,7 +5362,7 @@
 				{
 					id: "68BA136A223514A9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:sorcerer_leggings"
 						tag: {
 							Damage: 0
@@ -5409,7 +5373,7 @@
 				{
 					id: "204899B0FB995165"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:sorcerer_boots"
 						tag: {
 							Damage: 0
@@ -5435,7 +5399,7 @@
 				{
 					id: "6B6CE8B1279DCD60"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:arcanist_hood"
 						tag: {
 							Damage: 0
@@ -5446,7 +5410,7 @@
 				{
 					id: "51EEDDA2177B2026"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:arcanist_robes"
 						tag: {
 							Damage: 0
@@ -5457,7 +5421,7 @@
 				{
 					id: "5A2C81A92E6DF26C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:arcanist_leggings"
 						tag: {
 							Damage: 0
@@ -5468,7 +5432,7 @@
 				{
 					id: "0777E6AF3353A20D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:arcanist_boots"
 						tag: {
 							Damage: 0
@@ -5495,7 +5459,7 @@
 				{
 					id: "5BF57DE6FB1346F6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:battlemage_hood"
 						tag: {
 							Damage: 0
@@ -5506,7 +5470,7 @@
 				{
 					id: "0E728EBE2D0D563B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:battlemage_robes"
 						tag: {
 							Damage: 0
@@ -5517,7 +5481,7 @@
 				{
 					id: "6658FAB4BBADCE54"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:battlemage_leggings"
 						tag: {
 							Damage: 0
@@ -5528,7 +5492,7 @@
 				{
 					id: "4484FABA9180FC1A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:battlemage_boots"
 						tag: {
 							Damage: 0
@@ -5574,7 +5538,7 @@
 			tasks: [{
 				id: "4C157499644B4388"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:spell_crossbow"
 					tag: { }
 				}
@@ -5635,7 +5599,7 @@
 			tasks: [{
 				id: "584CBC8CA6CD8402"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:scryer_scroll"
 					tag: { }
 				}
@@ -5664,7 +5628,7 @@
 			tasks: [{
 				id: "2E112246C21AE8A3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_eye"
 					tag: { }
 				}
@@ -5784,7 +5748,7 @@
 					count: 5
 					id: "36D999CDFADCC9CE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:starby_gift"
 						tag: { }
 					}
@@ -5949,7 +5913,7 @@
 			tasks: [{
 				id: "3B3CF1CE40EB8805"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:potion_flask"
 					tag: {
 						Damage: 8
@@ -5967,7 +5931,7 @@
 				{
 					id: "6924D5C5F0FF4B51"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:potion_flask_extend_time"
 						tag: {
 							Damage: 8
@@ -5985,7 +5949,7 @@
 			tasks: [{
 				id: "324CECBCC31785FF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:lingering_flask_cannon"
 					tag: { }
 				}
@@ -6001,7 +5965,7 @@
 				{
 					id: "2924488D4A4B36D0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:potion_flask_amplify"
 						tag: {
 							Damage: 8
@@ -6019,7 +5983,7 @@
 			tasks: [{
 				id: "08D6BD0D5BA74ABA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:splash_flask_cannon"
 					tag: { }
 				}
@@ -6092,7 +6056,7 @@
 			tasks: [{
 				id: "016C4BBFA749811D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:warp_scroll"
 					tag: { }
 				}
@@ -6120,7 +6084,7 @@
 			tasks: [{
 				id: "14D2AAC13EF82C8D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:stable_warp_scroll"
 					tag: { }
 				}
@@ -7446,7 +7410,7 @@
 					disable_toast: true
 					id: "7D77740D38BBCDE8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:earth_hat"
 						tag: {
 							Damage: 0
@@ -7458,7 +7422,7 @@
 					disable_toast: true
 					id: "2A4621B9858E1810"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:earth_robes"
 						tag: {
 							Damage: 0
@@ -7470,7 +7434,7 @@
 					disable_toast: true
 					id: "6D369F896C114DA3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:earth_leggings"
 						tag: {
 							Damage: 0
@@ -7482,7 +7446,7 @@
 					disable_toast: true
 					id: "0718992FCFC647A8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:earth_boots"
 						tag: {
 							Damage: 0
@@ -7547,7 +7511,7 @@
 					disable_toast: true
 					id: "178D5DD4FB30AB59"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:fire_hat"
 						tag: {
 							Damage: 0
@@ -7559,7 +7523,7 @@
 					disable_toast: true
 					id: "347B871D36E86115"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:fire_robes"
 						tag: {
 							Damage: 0
@@ -7571,7 +7535,7 @@
 					disable_toast: true
 					id: "6BA2D35C0CCDB57A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:fire_leggings"
 						tag: {
 							Damage: 0
@@ -7583,7 +7547,7 @@
 					disable_toast: true
 					id: "3300413B18E94694"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:fire_boots"
 						tag: {
 							Damage: 0
@@ -7648,7 +7612,7 @@
 					disable_toast: true
 					id: "664EB7EA46AC7A05"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:aqua_hat"
 						tag: {
 							Damage: 0
@@ -7660,7 +7624,7 @@
 					disable_toast: true
 					id: "29146A9569C4E6E8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:aqua_robes"
 						tag: {
 							Damage: 0
@@ -7672,7 +7636,7 @@
 					disable_toast: true
 					id: "707D45655EC73D6B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:aqua_leggings"
 						tag: {
 							Damage: 0
@@ -7684,7 +7648,7 @@
 					disable_toast: true
 					id: "2F59D1BD5E6464E1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:aqua_boots"
 						tag: {
 							Damage: 0
@@ -7749,7 +7713,7 @@
 					disable_toast: true
 					id: "732F1AAFF2DA5E29"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:air_hat"
 						tag: {
 							Damage: 0
@@ -7761,7 +7725,7 @@
 					disable_toast: true
 					id: "63D42C45E8DCD444"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:air_robes"
 						tag: {
 							Damage: 0
@@ -7773,7 +7737,7 @@
 					disable_toast: true
 					id: "50CBF860EB44E0A5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:air_leggings"
 						tag: {
 							Damage: 0
@@ -7785,7 +7749,7 @@
 					disable_toast: true
 					id: "10406B447A971D50"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_elemental:air_boots"
 						tag: {
 							Damage: 0
@@ -7838,7 +7802,7 @@
 			rewards: [{
 				id: "7667FBD89E30756C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_elemental:anima_caster_tome"
 					tag: {
 						RepairCost: 0
@@ -8169,7 +8133,6 @@
 				item: "ars_nouveau:greater_experience_gem"
 				type: "item"
 			}]
-			subtitle: "Is peculiar..."
 			tasks: [{
 				disable_toast: true
 				id: "70BC20C9FCF6CB14"
@@ -8197,7 +8160,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Do your magic wizard"
 			tasks: [
 				{
 					disable_toast: true

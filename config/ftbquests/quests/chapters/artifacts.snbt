@@ -9,10 +9,7 @@
 	id: "464FB437D5DF7824"
 	images: [
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["Head"]
 			image: "curios:slot/empty_head_slot"
@@ -22,10 +19,7 @@
 			y: -4.0d
 		}
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["Necklace"]
 			image: "curios:slot/empty_necklace_slot"
@@ -35,10 +29,7 @@
 			y: -2.5d
 		}
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["Belt"]
 			image: "curios:slot/empty_belt_slot"
@@ -48,10 +39,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["Hands"]
 			image: "curios:slot/empty_hands_slot"
@@ -61,10 +49,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["Feet"]
 			image: "minecraft:item/empty_armor_slot_boots"
@@ -74,12 +59,8 @@
 			y: 2.0d
 		}
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "curios:slot/empty_curio_slot"
 			rotation: 0.0d
 			width: 1.0d
@@ -87,12 +68,8 @@
 			y: 3.5d
 		}
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "curios:slot/empty_ring_slot"
 			rotation: 0.0d
 			width: 1.0d
@@ -1036,20 +1013,14 @@
 				"7F1AB8E8DA7BFD77"
 			]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lootr:textures/item/crown.png"
-				}
-			}
+			icon: "lootr:trophy"
 			id: "703CC46FAC00A5D9"
 			invisible: true
 			rewards: [
 				{
 					id: "4443BADF7DDA2981"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:dormant_relic"
 						tag: {
 							Damage: 0
@@ -1064,7 +1035,7 @@
 				}
 				{
 					id: "75C99BE6CCC96D15"
-					item: "numismatics:sun"
+					item: "numismatics:crown"
 					type: "item"
 				}
 			]

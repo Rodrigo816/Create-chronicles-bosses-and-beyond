@@ -4,7 +4,7 @@
 	filename: "chapter_vi_rocket_fuel"
 	group: "5237AEA7260D740E"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ad_astra:fuel_bucket"
 		tag: {
 			Enchantments: [{ }]
@@ -13,17 +13,13 @@
 	id: "6754C36555B56724"
 	images: [{
 		alpha: 200
-		click: ""
 		color: 16672790
-		corner: false
-		dev: false
 		height: 1.2d
-		hover: [ ]
 		image: "chalk:block/mark/arrow"
-		rotation: 180.0d
+		rotation: 90.0d
 		width: 1.2d
-		x: 1.5d
-		y: -6.5d
+		x: -9.5d
+		y: -2.0d
 	}]
 	order_index: 6
 	progression_mode: "flexible"
@@ -37,6 +33,8 @@
 				"The oil source is found at the bedrock."
 				""
 				"The &6surface scanner&f isn't very accurate, it’s recommended to do a search around the bedrock where the scanner pointed or to look in another location. Good luck"
+				""
+				"The objetive of this chapter is to make &9&lAstral rocket fuel&r in order to progress."
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -56,7 +54,7 @@
 				{
 					id: "23053778A07D231F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_pickaxe"
 						tag: {
 							Damage: 0
@@ -67,7 +65,7 @@
 				{
 					id: "0F170CD9F195E01C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create:super_glue"
 						tag: {
 							Damage: 0
@@ -76,6 +74,7 @@
 					type: "item"
 				}
 				{
+					count: 5
 					id: "14CE5ABE72CBB952"
 					item: "numismatics:spur"
 					type: "item"
@@ -87,15 +86,15 @@
 				type: "item"
 			}]
 			title: "Finding the ore deposit"
-			x: 1.5d
-			y: -5.5d
+			x: -8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["333CCE71E8979C07"]
 			description: [
 				"Run an &3industrial pipe&f from the oil source at the bedrock to where you want to pump. Then place a &9pumpjack base&f on top the industrial pipe."
 				""
-				"If the pumpjack doesn't work, make sure EVERYTHING is glued together. "
+				"If the pumpjack doesn't work, make sure&l &cEVERYTHING is glued together&r&r. "
 				""
 				"After the Oil Pump machine is built and running, you may extract the oil with a &cmechanical pump&f attached to the &9pumpjack base&f."
 			]
@@ -113,6 +112,7 @@
 					xp_levels: 5
 				}
 				{
+					count: 3
 					id: "39C7BE5CF0DBA5E5"
 					item: "numismatics:spur"
 					type: "item"
@@ -159,8 +159,8 @@
 				}
 			]
 			title: "Pumpjack"
-			x: 1.5d
-			y: -3.5d
+			x: -5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["683EC98909A058CD"]
@@ -179,6 +179,7 @@
 					type: "item"
 				}
 				{
+					count: 5
 					id: "1EE23E2C17152C7A"
 					item: "numismatics:spur"
 					type: "item"
@@ -216,15 +217,16 @@
 				}
 			]
 			title: "Distilation"
-			x: 1.5d
-			y: -1.5d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["615126E9C29AA0F1"]
 			id: "20218B68C748F8E8"
 			optional: true
 			rewards: [{
-				id: "62D9D938927C9CB8"
+				count: 2
+				id: "54F0BA0FAEF1C88B"
 				item: "numismatics:spur"
 				type: "item"
 			}]
@@ -233,8 +235,8 @@
 				item: "tfmg:heavy_oil_bucket"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["615126E9C29AA0F1"]
@@ -249,15 +251,16 @@
 				item: "tfmg:kerosene_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: -1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["615126E9C29AA0F1"]
 			id: "1EA7C3F726EAC443"
 			optional: true
 			rewards: [{
-				id: "76FD74C754BAAA70"
+				count: 2
+				id: "0558F42E3F860AF6"
 				item: "numismatics:spur"
 				type: "item"
 			}]
@@ -266,8 +269,8 @@
 				item: "tfmg:naphtha_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["615126E9C29AA0F1"]
@@ -283,14 +286,15 @@
 				item: "tfmg:gasoline_bucket"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: -1.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["20218B68C748F8E8"]
+			dependencies: ["0EE3CB9530FA662C"]
 			id: "026770210A6EBDB4"
 			rewards: [{
-				id: "6D5F0B36B190295A"
+				count: 2
+				id: "3B88BC74975EFBA9"
 				item: "numismatics:spur"
 				type: "item"
 			}]
@@ -299,8 +303,8 @@
 				item: "tfmg:lubrication_oil_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["615126E9C29AA0F1"]
@@ -315,14 +319,15 @@
 				item: "tfmg:diesel_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["20218B68C748F8E8"]
+			dependencies: ["0EE3CB9530FA662C"]
 			id: "4DA9294ABB244D04"
 			rewards: [{
-				id: "312CEC283AEEA1B8"
+				count: 2
+				id: "1A2FF98261F39E8E"
 				item: "numismatics:spur"
 				type: "item"
 			}]
@@ -331,14 +336,15 @@
 				item: "tfmg:sulfur_dust"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["20218B68C748F8E8"]
+			dependencies: ["0EE3CB9530FA662C"]
 			id: "077DDA2EE4C3603D"
 			rewards: [{
-				id: "5830D2051112C109"
+				count: 2
+				id: "64F0885E7454F1AA"
 				item: "numismatics:spur"
 				type: "item"
 			}]
@@ -347,14 +353,15 @@
 				item: "tfmg:bitumen"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2A662FA99B21BFB3"]
 			id: "2679F3B882A0DAB5"
 			rewards: [{
-				id: "39D53A37C57B6D74"
+				count: 4
+				id: "6132A65572E6433D"
 				item: "numismatics:spur"
 				type: "item"
 			}]
@@ -363,14 +370,15 @@
 				item: "tfmg:napalm_bucket"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["1EA7C3F726EAC443"]
+			dependencies: ["7B74A0DC11227EFF"]
 			id: "1E6D5B2997075953"
 			rewards: [{
-				id: "379C05C922F4BEDC"
+				count: 2
+				id: "180EBAB97674E740"
 				item: "numismatics:spur"
 				type: "item"
 			}]
@@ -379,14 +387,15 @@
 				item: "tfmg:liquid_plastic_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1E6D5B2997075953"]
 			id: "660362D67075EA49"
 			rewards: [{
-				id: "434B0616F3C628E8"
+				count: 2
+				id: "5764BE0145DC7DA5"
 				item: "numismatics:spur"
 				type: "item"
 			}]
@@ -396,12 +405,15 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["69D628450626D8D5"]
-			hide: true
-			hide_dependency_lines: true
+			dependencies: [
+				"69D628450626D8D5"
+				"730E3804B6D5B7F7"
+				"7CD2C7A5223D2A7E"
+				"4060586D158C1952"
+			]
 			id: "4AF468B735AE6B79"
 			rewards: [{
 				id: "2C7E53A9E48AE499"
@@ -413,14 +425,15 @@
 				item: "createaddition:bioethanol_bucket"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"0387186A7791A953"
 				"4AF468B735AE6B79"
 			]
+			description: [""]
 			id: "7EEB0092E87627F1"
 			rewards: [{
 				count: 30
@@ -430,14 +443,295 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "this will be the fuel you use on your rocket"
+			subtitle: "This will be the fuel you use on your rocket!"
 			tasks: [{
 				id: "58A9A0AFD66E7527"
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
+			title: "&9&lAstral rocket fuel&r"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["798D36A2126D8313"]
+			id: "172F5C6299B3F16B"
+			rewards: [{
+				count: 4
+				id: "10DCCE4AE9670C1A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "380EB6A3931A4EB7"
+					item: "tfmg:lpg_engine_back"
+					type: "item"
+				}
+				{
+					id: "3AFAFF5DD22A5469"
+					item: "tfmg:lpg_engine"
+					type: "item"
+				}
+			]
+			title: "LPG Engine"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A662FA99B21BFB3"]
+			id: "5AEF548F7EE34193"
+			rewards: [{
+				count: 4
+				id: "0588B6371E26E58F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F7953698C65F7A2"
+					item: "tfmg:gasoline_engine_back"
+					type: "item"
+				}
+				{
+					id: "38C686BA7037EA1D"
+					item: "tfmg:gasoline_engine"
+					type: "item"
+				}
+			]
+			title: "Petrol Engine"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5AEF548F7EE34193"]
+			id: "62B3EE1FE1FA7AB2"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "4F854ACBE1AD88E7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B1E0887223F2B19"
+				item: "tfmg:radial_engine"
+				type: "item"
+			}]
 			x: 1.5d
-			y: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["17695F39F46DA92C"]
+			id: "3A2648E4FAE7626B"
+			rewards: [{
+				count: 4
+				id: "5B4FDB2B2E71B59F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "397A17B9DF5F6DB4"
+					item: "tfmg:turbine_engine_back"
+					type: "item"
+				}
+				{
+					id: "116BE6ACCC83EB39"
+					item: "tfmg:turbine_engine"
+					type: "item"
+				}
+			]
+			title: "Turbine Engine"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3A2648E4FAE7626B"]
+			id: "7674B1F60D154B22"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "6B4356386F0DAC60"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "487D41159B870B08"
+				item: "tfmg:large_radial_engine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0387186A7791A953"]
+			id: "02BE54113CFCBBF4"
+			rewards: [{
+				count: 2
+				id: "1980AE7D79475484"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6E87B53F36AF6A62"
+					item: "tfmg:diesel_engine"
+					type: "item"
+				}
+				{
+					id: "262E8887E1AE8296"
+					item: "tfmg:air_intake"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02BE54113CFCBBF4"]
+			id: "438A569390D74082"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "6FDFADD8469CA0EE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44862073BC0A576E"
+				item: "tfmg:diesel_engine_expansion"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["20218B68C748F8E8"]
+			icon: "tfmg:cast_iron_distillation_controller"
+			id: "0EE3CB9530FA662C"
+			rewards: [{
+				count: 2
+				id: "28FDBF24EB6A17E0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "04566E57DD9C8615"
+					item: "tfmg:cast_iron_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7487D0F954A2B56A"
+					item: "tfmg:cast_iron_distillation_output"
+					type: "item"
+				}
+			]
+			title: "Smaller Distillation"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["615126E9C29AA0F1"]
+			icon: "minecraft:bucket"
+			id: "798D36A2126D8313"
+			rewards: [{
+				count: 4
+				id: "3B1FB4F9B632F612"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "LPG does not have a bucket!"
+			tasks: [{
+				id: "38C0957C1094BC64"
+				title: "Check!"
+				type: "checkmark"
+			}]
+			title: "LPG"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1EA7C3F726EAC443"]
+			icon: "tfmg:cast_iron_distillation_controller"
+			id: "7B74A0DC11227EFF"
+			rewards: [{
+				count: 2
+				id: "7CBA61B985556939"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7AFC481DC5C66A89"
+					item: "tfmg:cast_iron_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "63AA4275869B5373"
+					item: "tfmg:cast_iron_distillation_output"
+					type: "item"
+				}
+			]
+			title: "Smaller Distillation"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2679F3B882A0DAB5"]
+			id: "2FACB47C9CF7B31E"
+			rewards: [{
+				count: 4
+				id: "2CA2625934A39D08"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0780D36B425F0E0C"
+				item: "tfmg:napalm_bomb"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			hide: true
+			id: "730E3804B6D5B7F7"
+			tasks: [{
+				id: "61AF4AC48E9270F5"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			hide: true
+			id: "7CD2C7A5223D2A7E"
+			tasks: [{
+				id: "0CBDCD4244171ABF"
+				item: "createaddition:biomass"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			hide: true
+			id: "4060586D158C1952"
+			tasks: [{
+				id: "2A008ED4E04CFC2B"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
 		}
 	]
 	title: "Chapter VI: Rocket Fuel"

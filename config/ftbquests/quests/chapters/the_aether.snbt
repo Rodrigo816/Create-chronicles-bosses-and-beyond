@@ -7,11 +7,7 @@
 	id: "6BB184607658994D"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "aether:textures/gui/menu_api/menu_icon_aether.png"
 			rotation: 0.0d
 			width: 1.7d
@@ -19,11 +15,7 @@
 			y: 1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "attributeslib:textures/mob_effect/flying.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -31,11 +23,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "attributeslib:textures/mob_effect/flying.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -111,7 +99,7 @@
 				{
 					id: "10F374DAFA91F3CD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:skyroot_sword"
 						tag: {
 							Damage: 0
@@ -122,7 +110,7 @@
 				{
 					id: "3FF2838DE1AB475F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:skyroot_axe"
 						tag: {
 							Damage: 0
@@ -133,7 +121,7 @@
 				{
 					id: "360FFB8D20408305"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:skyroot_pickaxe"
 						tag: {
 							Damage: 0
@@ -177,7 +165,7 @@
 				{
 					id: "3E674C7DEA51ECCE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:holystone_sword"
 						tag: {
 							Damage: 0
@@ -188,7 +176,7 @@
 				{
 					id: "7906D3B582AF8584"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:holystone_axe"
 						tag: {
 							Damage: 0
@@ -199,7 +187,7 @@
 				{
 					id: "4518546732DDE697"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:holystone_pickaxe"
 						tag: {
 							Damage: 0
@@ -245,7 +233,7 @@
 				{
 					id: "13A96C598F1C4D7E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_sword"
 						tag: {
 							Damage: 0
@@ -256,7 +244,7 @@
 				{
 					id: "0C4B050440E8BBA5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_axe"
 						tag: {
 							Damage: 0
@@ -267,7 +255,7 @@
 				{
 					id: "55E809D4F42D4E50"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_pickaxe"
 						tag: {
 							Damage: 0
@@ -313,7 +301,7 @@
 				{
 					id: "24D6F75537F3FEB8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_sword"
 						tag: {
 							Damage: 0
@@ -324,7 +312,7 @@
 				{
 					id: "488C300525A5B3D9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_axe"
 						tag: {
 							Damage: 0
@@ -335,7 +323,7 @@
 				{
 					id: "681A70E8FA0C11F4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_pickaxe"
 						tag: {
 							Damage: 0
@@ -481,7 +469,7 @@
 			tasks: [{
 				id: "41C5382BAD2E94CB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "aether:moa_eggs"
@@ -1393,7 +1381,7 @@
 			tasks: [{
 				id: "24530566F9EC1AEB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "lost_aether_content:flaming_gemstone"
 					tag: {
 						Damage: 0
@@ -1435,7 +1423,7 @@
 			tasks: [{
 				id: "53E5A1301109264C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aether:valkyrie_lance"
 					tag: {
 						Damage: 0
@@ -1506,7 +1494,7 @@
 			tasks: [{
 				id: "7C8EDD850E46525C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "lost_aether_content:phoenix_tools"

@@ -6,13 +6,55 @@
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "simplyswords:awakened_lichblade"
 		tag: {
 			Damage: 0
 		}
 	}
 	id: "784A6CC38A657526"
+	images: [
+		{
+			height: 1.0d
+			image: "simplyswords:item/runic_tablet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			height: 1.3d
+			image: "simplyswords:item/unique_longsword_dull"
+			rotation: 0.0d
+			width: 1.3d
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/unique_longsword_tainted_whole_32x32"
+			rotation: 0.0d
+			width: 0.008333333333333333d
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/unique_longsword_tainted_whole_32x32"
+			rotation: 0.0d
+			width: 0.008333333333333333d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.3d
+			image: "simplyswords:item/unique_longsword_dull"
+			rotation: -90.0d
+			width: 1.3d
+			x: 1.5d
+			y: -5.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -61,13 +103,7 @@
 				"5F9DC6A4D253217D"
 			]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lootr:textures/item/crown.png"
-				}
-			}
+			icon: "lootr:trophy"
 			id: "6C71E2ABAA99C005"
 			invisible: true
 			rewards: [
@@ -78,7 +114,7 @@
 				}
 				{
 					id: "32C9D3E3426ECB82"
-					item: "numismatics:sun"
+					item: "numismatics:crown"
 					type: "item"
 				}
 			]
@@ -89,7 +125,7 @@
 				title: "Completionist"
 				type: "checkmark"
 			}]
-			x: -1.25d
+			x: 1.5d
 			y: -7.5d
 		}
 		{
@@ -112,7 +148,7 @@
 			tasks: [{
 				id: "544C8E47301FBF06"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:livyatan"
 					tag: {
 						Damage: 0
@@ -120,8 +156,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -143,7 +179,7 @@
 			tasks: [{
 				id: "62C60ACAB6FAC733"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:watching_warglaive"
 					tag: {
 						Damage: 0
@@ -152,13 +188,13 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: [""]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "simplyswords:mjolnir"
 				tag: {
 					Damage: 0
@@ -181,7 +217,7 @@
 			tasks: [{
 				id: "615CA90709AF9EE2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:mjolnir"
 					tag: {
 						Damage: 0
@@ -189,8 +225,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -212,7 +248,7 @@
 			tasks: [{
 				id: "2A81AAFE840CE232"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:emberblade"
 					tag: {
 						Damage: 0
@@ -220,8 +256,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -243,7 +279,7 @@
 			tasks: [{
 				id: "23A8A396BF645CF9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:stormbringer"
 					tag: {
 						Damage: 0
@@ -251,12 +287,12 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["&e"]
 			id: "0040CDCBC2EB8DDF"
 			rewards: [
 				{
@@ -274,7 +310,7 @@
 			tasks: [{
 				id: "396C308DB975ED6F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:storms_edge"
 					tag: {
 						Damage: 0
@@ -282,8 +318,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -305,7 +341,7 @@
 			tasks: [{
 				id: "5BB01416CA7AADDD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:sword_on_a_stick"
 					tag: {
 						Damage: 0
@@ -313,8 +349,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.5d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -336,7 +372,7 @@
 			tasks: [{
 				id: "790454D72C1B21E1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:bramblethorn"
 					tag: {
 						Damage: 0
@@ -344,8 +380,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -367,7 +403,7 @@
 			tasks: [{
 				id: "486EF4C783BE7F96"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:toxic_longsword"
 					tag: {
 						Damage: 0
@@ -376,7 +412,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -398,7 +434,7 @@
 			tasks: [{
 				id: "18B20B0FEE835CA8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:emberlash"
 					tag: {
 						Damage: 0
@@ -406,8 +442,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.5d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -429,7 +465,7 @@
 			tasks: [{
 				id: "21BCAC1F8B3099B7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:twisted_blade"
 					tag: {
 						Damage: 0
@@ -437,8 +473,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -460,7 +496,7 @@
 			tasks: [{
 				id: "783D2C2A78F4EDBD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:frostfall"
 					tag: {
 						Damage: 0
@@ -468,8 +504,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -491,7 +527,7 @@
 			tasks: [{
 				id: "0942D01457DACB76"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:hearthflame"
 					tag: {
 						Damage: 0
@@ -499,8 +535,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -522,7 +558,7 @@
 			tasks: [{
 				id: "2357EC02C1AAD0A9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:soulpyre"
 					tag: {
 						Damage: 0
@@ -530,8 +566,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -553,7 +589,7 @@
 			tasks: [{
 				id: "6D27F59148737DEE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:soulkeeper"
 					tag: {
 						Damage: 0
@@ -561,8 +597,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -584,7 +620,7 @@
 			tasks: [{
 				id: "00BD83810F5237FB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:soulstealer"
 					tag: {
 						Damage: 0
@@ -592,8 +628,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -607,7 +643,7 @@
 			tasks: [{
 				id: "3B75A36B924354CC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:soulrender"
 					tag: {
 						Damage: 0
@@ -615,8 +651,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -638,7 +674,7 @@
 			tasks: [{
 				id: "7B71BF8CE5F0A295"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:molten_edge"
 					tag: {
 						Damage: 0
@@ -669,7 +705,7 @@
 			tasks: [{
 				id: "07C0CB7E2D17495E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:icewhisper"
 					tag: {
 						Damage: 0
@@ -677,8 +713,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -700,7 +736,7 @@
 			tasks: [{
 				id: "6960BCBD0925D522"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:thunderbrand"
 					tag: {
 						Damage: 0
@@ -708,8 +744,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -731,7 +767,7 @@
 			tasks: [{
 				id: "3D69FE85ABD4867C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:slumbering_lichblade"
 					tag: {
 						Damage: 0
@@ -740,8 +776,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.5d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -763,7 +799,7 @@
 			tasks: [{
 				id: "701B110644804178"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:brimstone_claymore"
 					tag: {
 						Damage: 0
@@ -771,8 +807,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.5d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["34BBF229D598EC32"]
@@ -796,7 +832,7 @@
 			tasks: [{
 				id: "5B8B8B2DADA0CFED"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:waking_lichblade"
 					tag: {
 						Damage: 0
@@ -804,7 +840,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: -1.5d
 		}
 		{
@@ -820,8 +856,8 @@
 					xp: 10
 				}
 				{
-					id: "712B62C82EEB46A9"
-					item: "numismatics:bevel"
+					id: "2F480228991A18E7"
+					item: "numismatics:cog"
 					type: "item"
 				}
 			]
@@ -829,7 +865,7 @@
 			tasks: [{
 				id: "7ACF3D014BD2DE0E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:awakened_lichblade"
 					tag: {
 						Damage: 0
@@ -837,8 +873,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -860,7 +896,7 @@
 			tasks: [{
 				id: "1B9718F5C45C4436"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:tempest"
 					tag: {
 						Damage: 0
@@ -868,8 +904,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.5d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -891,7 +927,7 @@
 			tasks: [{
 				id: "1D25B90CB61CBC58"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:wickpiercer"
 					tag: {
 						Damage: 0
@@ -899,8 +935,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -922,7 +958,7 @@
 			tasks: [{
 				id: "1857617ECD147F54"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:stars_edge"
 					tag: {
 						Damage: 0
@@ -930,8 +966,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -953,7 +989,7 @@
 			tasks: [{
 				id: "0CC32E25243D7C93"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:arcanethyst"
 					tag: {
 						Damage: 0
@@ -961,8 +997,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -984,7 +1020,7 @@
 			tasks: [{
 				id: "2CCAE40045618CB3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:hiveheart"
 					tag: {
 						Damage: 0
@@ -992,8 +1028,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -1015,7 +1051,7 @@
 			tasks: [{
 				id: "1FF119266D0CF297"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:waxweaver"
 					tag: {
 						Damage: 0
@@ -1023,12 +1059,12 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["&0"]
 			id: "7162B0D58650037E"
 			rewards: [
 				{
@@ -1046,7 +1082,7 @@
 			tasks: [{
 				id: "7F51BF61124D9AEA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:whisperwind"
 					tag: {
 						Damage: 0
@@ -1054,8 +1090,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -1077,7 +1113,7 @@
 			tasks: [{
 				id: "6A1F1AF0140A0449"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:dormant_relic"
 					tag: {
 						Damage: 0
@@ -1085,8 +1121,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -3.5d
+			x: -8.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -1108,7 +1144,7 @@
 			tasks: [{
 				id: "77B0C8E916D8A023"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:shadowsting"
 					tag: {
 						Damage: 0
@@ -1117,7 +1153,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -1139,7 +1175,7 @@
 			tasks: [{
 				id: "13DB3044B0654389"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:flamewind"
 					tag: {
 						Damage: 0
@@ -1147,8 +1183,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -1170,7 +1206,7 @@
 			tasks: [{
 				id: "08D042463711C681"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:watcher_claymore"
 					tag: {
 						Damage: 0
@@ -1178,8 +1214,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["10E6A5CCEA7AF675"]
@@ -1195,7 +1231,7 @@
 			tasks: [{
 				id: "2A0E9CCCD60F8194"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:righteous_relic"
 					tag: {
 						Damage: 0
@@ -1203,7 +1239,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: -1.5d
 		}
 		{
@@ -1220,7 +1256,7 @@
 			tasks: [{
 				id: "017458DDFC9008D0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:tainted_relic"
 					tag: {
 						Damage: 0
@@ -1228,7 +1264,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: -1.5d
 		}
 		{
@@ -1245,7 +1281,7 @@
 			tasks: [{
 				id: "06372236CE378E5C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:harbinger"
 					tag: {
 						Damage: 0
@@ -1253,8 +1289,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -0.5d
+			x: -9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0AA8A1F80F280ABD"]
@@ -1270,7 +1306,7 @@
 			tasks: [{
 				id: "3E4A2914C5A72DEB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:sunfire"
 					tag: {
 						Damage: 0
@@ -1278,8 +1314,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: -0.5d
+			x: -7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -1301,7 +1337,7 @@
 			tasks: [{
 				id: "368303B0BE27A94E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:enigma"
 					tag: {
 						Damage: 0
@@ -1309,8 +1345,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -0.5d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -1332,7 +1368,7 @@
 			tasks: [{
 				id: "0C36008AAFB550DF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:magiblade"
 					tag: {
 						Damage: 0
@@ -1340,8 +1376,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 8.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -1363,7 +1399,7 @@
 			tasks: [{
 				id: "72EE061DCB97C997"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:magispear"
 					tag: {
 						Damage: 0
@@ -1371,8 +1407,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -1394,7 +1430,7 @@
 			tasks: [{
 				id: "295C48F0C13D9C37"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:magiscythe"
 					tag: {
 						Damage: 0
@@ -1402,9 +1438,9 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.0d
+			x: 8.5d
+			y: -1.0d
 		}
 	]
-	title: "Simply Swords"
+	title: "&cSimply Swords"
 }

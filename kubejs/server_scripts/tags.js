@@ -13,6 +13,19 @@ ServerEvents.tags("entity_type", (event) => {
 
 ServerEvents.tags("entity_type", (event) => {
     event.add("forbidden_arcanus:quantum_catcher_blacklisted", ["#forge:bosses"]);
+    event.add('ad_astra:entities/lives_without_oxygen', [
+        'iceandfire:lightning_dragon',
+        "mowziesmobs:umvuthi",
+        "mowziesmobs:umvuthana",
+        "mowziesmobs:umvuthana_follower_raptor",
+        "mowziesmobs:umvuthana_follower_player",
+        "mowziesmobs:umvuthana_crane_player",
+        "mowziesmobs:umvuthana_raptor",
+        "mowziesmobs:umvuthana_crane"
+    ]);
+    event.add('ad_astra:entities/fire_immune', [
+        'iceandfire:lightning_dragon'
+    ]);    
 });
  /*ServerEvents.tags("entity_type", (event) => {
     event.add("ars_nouveau:drygmy_blacklist", [/minecraft:.+/]);

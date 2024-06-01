@@ -17,7 +17,7 @@ BlockEvents.modification(event => {
  */
 StartupEvents.registry("block", (event) => {
     event.create("mystic_coal_block")
-    .displayName("§bMystic Coal Block") 
+    .displayName("Mystic Coal Block") 
     .hardness(1.0) 
     .resistance(1.0)
     .requiresTool(true) 
@@ -76,7 +76,7 @@ StartupEvents.registry('item', event => {
         .texture("kubejs:item/reset_points")
         .rarity('Epic')
     // Blaze
-    event.create('dormant_dust_mystic_coal').texture("kubejs:item/mystic_dust").displayName('Mystic Dormant Coal Dust')
+    //event.create('dormant_dust_mystic_coal').texture("kubejs:item/mystic_dust").displayName('Mystic Dormant Coal Dust')
     //event.create('dust_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Coal Dust')
     event.create('ingot_mystic_coal').texture("kubejs:item/mystic_ingot").displayName('Mystic Coal Ingot')
     event.create('rod_mystic_coal').texture("kubejs:item/rod_mystic_coal").displayName('Mystic Coal Rod')

@@ -5,7 +5,7 @@
 	group: ""
 	hide_quest_until_deps_visible: true
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "forbidden_arcanus:reinforced_deorum_blacksmith_gavel"
 		tag: {
 			Damage: 0
@@ -14,11 +14,7 @@
 	id: "48B8B88CBA0E14DC"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -26,11 +22,7 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -38,11 +30,7 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -50,11 +38,7 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -62,11 +46,7 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -74,11 +54,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -86,11 +62,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -98,11 +70,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -110,11 +78,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -122,11 +86,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -134,11 +94,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -146,11 +102,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -158,11 +110,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -170,11 +118,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -182,11 +126,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -194,23 +134,7 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftbquests:textures/gui/shop.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.0d
-			y: -3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -218,11 +142,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -230,11 +150,7 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -242,35 +158,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "minecraft:textures/particle/goldheart_0.png"
-			rotation: 0.0d
-			width: 1.1428571428571428d
-			x: 3.0d
-			y: -3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:textures/particle/goldheart_0.png"
-			rotation: 0.0d
-			width: 1.1428571428571428d
-			x: 5.0d
-			y: -3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -278,11 +166,7 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -290,11 +174,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -302,11 +182,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -314,11 +190,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -326,11 +198,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -338,11 +206,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -350,11 +214,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -362,11 +222,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -374,11 +230,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -386,11 +238,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -398,11 +246,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -410,11 +254,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -422,11 +262,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -434,11 +270,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -446,11 +278,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -458,11 +286,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -470,11 +294,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -482,11 +302,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -494,11 +310,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -506,11 +318,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "dustrial_decor:item/gold_chain"
 			rotation: 90.0d
 			width: 1.0d
@@ -518,11 +326,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -530,11 +334,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -542,11 +342,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
@@ -554,16 +350,76 @@
 			y: 5.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
 			x: 6.5d
 			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/blackmarket.png"
+			rotation: 0.0d
+			width: 8.194513715710723d
+			x: 3.7d
+			y: -3.5d
+		}
+		{
+			height: 1.94d
+			image: "kubejs:textures/monthly.png"
+			rotation: 0.0d
+			width: 6.195761856710393d
+			x: 3.5d
+			y: 7.25d
 		}
 	]
 	order_index: 3
@@ -573,7 +429,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "constructionwand:infinity_wand"
 				tag: {
 					wand_options: { }
@@ -583,7 +439,7 @@
 			rewards: [{
 				id: "26972A098A65C655"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "constructionwand:infinity_wand"
 					tag: {
 						wand_options: { }
@@ -594,16 +450,21 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 5000L
+					count: 3000L
 					id: "79A960D3689E9CEA"
 					item: "create_things_and_misc:vibration_mechanism"
 					type: "item"
 				}
 				{
+					count: 3000L
+					id: "6D400563DE8E6D33"
+					item: "create_dd:sealed_mechanism"
+					type: "item"
+				}
+				{
 					consume_items: true
-					count: 5000L
-					id: "1B6DB269DBABF375"
-					item: "create_dd:overcharge_alloy"
+					id: "6F06393341F0A665"
+					item: "aquamirae:rune_of_the_storm"
 					type: "item"
 				}
 			]
@@ -623,24 +484,24 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "01AF0790C14FA6FE"
 					item: "farmersdelight:roast_chicken_block"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "2EA2E027A1AF3DB5"
 					item: "farmersdelight:shepherds_pie_block"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "612E7FC77B474C12"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_confectionery:full_chocolate_bar"
 						tag: {
 							Damage: 0
@@ -650,10 +511,10 @@
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "4BE9FA92FDE58654"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_confectionery:full_black_chocolate_bar"
 						tag: {
 							Damage: 0
@@ -663,10 +524,10 @@
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "246FE87A9886C784"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_confectionery:full_white_chocolate_bar"
 						tag: {
 							Damage: 0
@@ -676,10 +537,10 @@
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "560D125CA5B87793"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_confectionery:full_ruby_chocolate_bar"
 						tag: {
 							Damage: 0
@@ -689,64 +550,72 @@
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "5E31C851BAE72252"
 					item: "farmersdelight:hamburger"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "53C9C12E3FD5AB4C"
 					item: "farmersdelight:barbecue_stick"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "7A64492C5B918C4D"
 					item: "farmersdelight:sweet_berry_cheesecake"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "63185AF56548BB44"
 					item: "farmersdelight:honey_glazed_ham_block"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "4BE74D799B2163F1"
 					item: "farmersdelight:dumplings"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "4F7F4D6B9D4FEE25"
 					item: "farmersdelight:dog_food"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "535F990F4E1C4A0B"
 					item: "createaddition:chocolate_cake"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 500L
 					id: "1E44FB445F56A225"
 					item: "ars_nouveau:source_berry_pie"
 					type: "item"
 				}
 				{
-					count: 5000L
+					consume_items: true
+					count: 500L
 					id: "786FE7A68C2B2E68"
 					item: "alexscaves:spelunkie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "0CA29B48954AC360"
+					item: "farmersdelight:bacon_sandwich"
 					type: "item"
 				}
 			]
@@ -758,7 +627,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create_dd:forest_ravager"
 				tag: {
 					Damage: 0
@@ -768,7 +637,7 @@
 			rewards: [{
 				id: "25D17CFEAF4CCD48"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_dd:forest_ravager"
 					tag: {
 						Damage: 0
@@ -779,37 +648,16 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 5000L
-					id: "449493037D1D8EDF"
-					item: "create_dd:mithril_ingot"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 1000L
-					id: "2A005AA3838B2B00"
-					item: "create_dd:caramel_milkshake"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 1000L
-					id: "2B8C513628BAAA50"
-					item: "create_dd:glowberry_milkshake"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 1000L
-					id: "6FBCB1CC3EF82B53"
-					item: "create_dd:strawberry_milkshake"
-					type: "item"
-				}
-				{
-					consume_items: true
 					count: 1000L
 					id: "0BF968D502A9703B"
 					item: "twilightforest:aurora_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "4616810AE17D40A4"
+					item: "alexscaves:acidic_radrock"
 					type: "item"
 				}
 			]
@@ -822,7 +670,7 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: ["So this thing is your portable mechanical saw, it only requires air pressure from backtank."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create_dd:deforester_saw"
 				tag: {
 					Damage: 0
@@ -832,7 +680,7 @@
 			rewards: [{
 				id: "557636EC4333A2C2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_dd:deforester_saw"
 					tag: {
 						Damage: 0
@@ -843,14 +691,14 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 500L
+					count: 200L
 					id: "3140E0AAF3001ADD"
 					item: "create_sa:steam_engine"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 500L
+					count: 200L
 					id: "698097D401632C38"
 					item: "farmersdelight:chocolate_pie"
 					type: "item"
@@ -864,7 +712,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "simplyswords:shadowsting"
 				tag: {
 					Damage: 0
@@ -874,7 +722,7 @@
 			rewards: [{
 				id: "2AEB1DE320946845"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:shadowsting"
 					tag: {
 						Damage: 0
@@ -892,14 +740,14 @@
 				}
 				{
 					consume_items: true
-					count: 400L
+					count: 200L
 					id: "243134B49A5C68FC"
 					item: "create:sweet_roll"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 400L
+					count: 200L
 					id: "45AB8759C882E4E1"
 					item: "farmersdelight:fruit_salad"
 					type: "item"
@@ -912,7 +760,7 @@
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "simplyswords:slumbering_lichblade"
 				tag: {
 					Damage: 0
@@ -922,7 +770,7 @@
 			rewards: [{
 				id: "2D25F28A40935B5C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:slumbering_lichblade"
 					tag: {
 						Damage: 0
@@ -933,72 +781,58 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 10000L
-					id: "20DA32772A263FD3"
-					item: "twilightforest:knightmetal_ingot"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 10000L
+					count: 3000L
 					id: "07EE5B3A4B5C4BBB"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 10000L
-					id: "046E23F86269B7A0"
-					item: "quark:golden_carrot_crate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 10000L
-					id: "5A8D29D34D8F6542"
-					item: "supplementaries:ash_brick"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 10000L
+					count: 3000L
 					id: "644253090D3FCE4A"
 					item: "twilightforest:ironwood_ingot"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 10000L
+					count: 3000L
 					id: "333335A0064EB1FC"
 					item: "twilightforest:fiery_ingot"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 10000L
+					count: 3000L
 					id: "1915C91D1BD971A3"
 					item: "irons_spellbooks:arcane_ingot"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 30000L
+					count: 3000L
 					id: "42B1D1356B6D6B68"
 					item: "create_dd:experience_mass"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 10000L
+					count: 3000L
 					id: "584300D656F07686"
 					item: "iceandfire:silver_ingot"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 10000L
+					count: 3000L
 					id: "3E1502652ED26112"
 					item: "create_dd:tin_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 800L
+					id: "72F671FCDCFB0865"
+					item: "iceandfire:dragonsteel_fire_ingot"
 					type: "item"
 				}
 			]
@@ -1011,7 +845,7 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "simplyswords:sword_on_a_stick"
 				tag: {
 					Damage: 0
@@ -1021,7 +855,7 @@
 			rewards: [{
 				id: "425647B6866D2F49"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:sword_on_a_stick"
 					tag: {
 						Damage: 0
@@ -1032,14 +866,14 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 400L
+					count: 300L
 					id: "1EA070431FD7ECF7"
 					item: "minecraft:stick"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 200L
+					count: 100L
 					id: "7CAD3A98FB94B3A5"
 					item: "minecraft:apple"
 					type: "item"
@@ -1053,7 +887,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "simplyswords:bramblethorn"
 				tag: {
 					Damage: 0
@@ -1063,7 +897,7 @@
 			rewards: [{
 				id: "08A4585C1007B571"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:bramblethorn"
 					tag: {
 						Damage: 0
@@ -1071,13 +905,36 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				consume_items: true
-				count: 800L
-				id: "4FB2D7EB5F235835"
-				item: "create_confectionery:caramelized_marshmellow_on_a_stick"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 800L
+					id: "4FB2D7EB5F235835"
+					item: "create_confectionery:caramelized_marshmellow_on_a_stick"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 300L
+					id: "0370BAC25566EE0E"
+					item: "create_dd:strawberry_milkshake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 300L
+					id: "1109EAF2AF2B28EB"
+					item: "create_dd:glowberry_milkshake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 800L
+					id: "6D578DB5911A7589"
+					item: "create_confectionery:honey_candy"
+					type: "item"
+				}
+			]
 			title: "Brambletorn"
 			x: 0.5d
 			y: -2.0d
@@ -1086,7 +943,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "simplyswords:soulstealer"
 				tag: {
 					Damage: 0
@@ -1096,7 +953,7 @@
 			rewards: [{
 				id: "3FFCA35DF1595D88"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:soulstealer"
 					tag: {
 						Damage: 0
@@ -1107,7 +964,7 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 1000L
+					count: 200L
 					id: "29909475FEA9D27C"
 					item: "blue_skies:winter_leaves"
 					type: "item"
@@ -1121,7 +978,7 @@
 				}
 				{
 					consume_items: true
-					count: 4000L
+					count: 500L
 					id: "460CD348C6E6B558"
 					item: "minecraft:cookie"
 					type: "item"
@@ -1135,7 +992,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create_sabers:double_zinc_saber_red"
 				tag: {
 					Damage: 0
@@ -1145,7 +1002,7 @@
 			rewards: [{
 				id: "056F201136D5F446"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sabers:double_zinc_saber_red"
 					tag: {
 						AttributeModifiers: [
@@ -1185,51 +1042,23 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 2000L
-					id: "20DB540CCB6A4497"
-					item: "minecraft:twisting_vines"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2000L
-					id: "7D9BD8B452220413"
-					item: "minecraft:weeping_vines"
-					type: "item"
-				}
-				{
-					consume_items: true
 					count: 500L
-					id: "4CA18C4182AEF2AB"
-					item: "farmersdelight:tomato_crate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 500L
-					id: "4454BEE3551651D3"
-					item: "farmersdelight:beetroot_crate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2000L
-					id: "73649DE2D93D4972"
-					item: "minecraft:red_nether_bricks"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 1000L
 					id: "760508C218912913"
 					item: "blue_skies:scalefruit"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 2000L
+					count: 500L
 					id: "1D7FBBE20DEB3F7A"
 					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 200L
+					id: "1649E0B1DC6864FB"
+					item: "create_dd:bronze_casing"
 					type: "item"
 				}
 			]
@@ -1241,7 +1070,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create_sabers:copper_saber_yellow"
 				tag: {
 					Damage: 0
@@ -1251,7 +1080,7 @@
 			rewards: [{
 				id: "6BEEE45C81FB8B80"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sabers:copper_saber_yellow"
 					tag: {
 						AttributeModifiers: [
@@ -1317,21 +1146,21 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 1000L
+					count: 500L
 					id: "55131DF058DEB8FB"
 					item: "twilightforest:torchberries"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 2000L
+					count: 200L
 					id: "3A558B0CC01C3C0C"
 					item: "blue_skies:comet_berry_pie"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
+					count: 200L
 					id: "259F4FBA76119E4C"
 					item: "farmersdelight:cabbage_crate"
 					type: "item"
@@ -1345,7 +1174,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create_sabers:brass_saber_blue"
 				tag: {
 					Damage: 0
@@ -1355,7 +1184,7 @@
 			rewards: [{
 				id: "5D38EC2AB59448F6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sabers:brass_saber_blue"
 					tag: {
 						AttributeModifiers: [
@@ -1408,23 +1237,23 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 2000L
-					id: "18D87F93A58E9E8E"
-					item: "farmersdelight:roasted_mutton_chops"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2000L
+					count: 500L
 					id: "42F6AE5A3CA62614"
 					item: "supplementaries:pancake"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
-					id: "38BB6F1BCB6A2726"
-					item: "farmersdelight:vegetable_noodles"
+					count: 400L
+					id: "5E91B22D2EACE3B5"
+					item: "minecraft:packed_ice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 200L
+					id: "445784B160BF6B42"
+					item: "ars_nouveau:water_essence"
 					type: "item"
 				}
 			]
@@ -1445,23 +1274,16 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 6000L
+					count: 1000L
 					id: "2D40B147082856CA"
 					item: "ae2:wireless_booster"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 20L
-					id: "3539554F7379E0EB"
-					item: "minecraft:diamond_block"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 60000L
-					id: "74A1078D88B3227C"
-					item: "minecraft:snow_block"
+					count: 1000L
+					id: "78A7799CE2437130"
+					item: "ad_astra:cheese_block"
 					type: "item"
 				}
 			]
@@ -1509,9 +1331,9 @@
 				}
 				{
 					consume_items: true
-					count: 50000L
-					id: "45286C88E5E65595"
-					item: "minecraft:netherrack"
+					count: 64L
+					id: "11CD677A5611152E"
+					item: "minecraft:ancient_debris"
 					type: "item"
 				}
 			]
@@ -1545,7 +1367,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create_sabers:zinc_saber_red"
 				tag: {
 					Damage: 0
@@ -1555,7 +1377,7 @@
 			rewards: [{
 				id: "54F82FD19844412E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sabers:zinc_saber_red"
 					tag: {
 						AttributeModifiers: [
@@ -1621,30 +1443,23 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 2000L
+					count: 300L
 					id: "25F21076D00B3F9D"
 					item: "blue_skies:crescent_fruit"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 5000L
-					id: "0D2B19D2663FFF57"
-					item: "farmersdelight:carrot_crate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 3000L
-					id: "1EC567BF476FBD66"
-					item: "minecraft:cake"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2000L
+					count: 300L
 					id: "789C92EE3AC71B35"
 					item: "farmersdelight:ratatouille"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 350L
+					id: "0DAEC1027B440856"
+					item: "ars_nouveau:fire_essence"
 					type: "item"
 				}
 			]
@@ -1656,7 +1471,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create_sabers:brass_saber_galaxy"
 				tag: {
 					Damage: 0
@@ -1666,7 +1481,7 @@
 			rewards: [{
 				id: "4E560886AF35D361"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sabers:brass_saber_galaxy"
 					tag: {
 						AttributeModifiers: [
@@ -1758,49 +1573,35 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 2000L
+					count: 500L
 					id: "5B11B317A53C4879"
 					item: "blue_skies:black_brewberry"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 2000L
+					count: 500L
 					id: "367F2351D09900A5"
 					item: "farmersdelight:melon_popsicle"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 2000L
-					id: "2A5CF75659651DEC"
-					item: "farmersdelight:potato_crate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2000L
+					count: 500L
 					id: "7EDB0CB0C18AA202"
 					item: "minecraft:dried_kelp_block"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 2000L
+					count: 500L
 					id: "0226811D920A8359"
 					item: "blue_skies:solnut"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 2000L
-					id: "5E5047CE68F8E59E"
-					item: "farmersdelight:bacon_sandwich"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2000L
+					count: 500L
 					id: "52EE900EC9C7AB33"
 					item: "minecraft:gilded_blackstone"
 					type: "item"
@@ -1814,7 +1615,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create_sabers:brass_saber_lime"
 				tag: {
 					Damage: 0
@@ -1824,7 +1625,7 @@
 			rewards: [{
 				id: "53B9F841DC48371D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sabers:brass_saber_lime"
 					tag: {
 						AttributeModifiers: [
@@ -1873,26 +1674,27 @@
 				}
 				type: "item"
 			}]
+			subtitle: "changing the saber color loses the effects."
 			tasks: [
 				{
 					consume_items: true
-					count: 6000L
+					count: 300L
 					id: "6F207968CED030F8"
 					item: "create:sweet_roll"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4000L
+					count: 300L
 					id: "502F7881B0DBA682"
 					item: "create_things_and_misc:slime_cake"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 2000L
-					id: "446CBB27FE4FB608"
-					item: "farmersdelight:onion_crate"
+					count: 200L
+					id: "2296FD78F77AB25C"
+					item: "ars_nouveau:earth_essence"
 					type: "item"
 				}
 			]
@@ -1936,6 +1738,84 @@
 				{
 					id: "2C93C1EF9203849B"
 					item: "create_sa:creative_filling_tank"
+					type: "item"
+				}
+				{
+					id: "125D6FDA9E4DC777"
+					item: {
+						Count: 1
+						id: "create_sabers:brass_saber_black"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 20
+									AttributeName: "generic.attack_damage"
+									Name: "generic.attack_damage"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										463728609
+										-892124506
+										-1979896846
+										-1457971414
+									]
+								}
+								{
+									Amount: -2.9d
+									AttributeName: "generic.attack_speed"
+									Name: "generic.attack_speed"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										-463728610
+										892124507
+										1979896847
+										1457971415
+									]
+								}
+								{
+									Amount: 0.02d
+									AttributeName: "generic.movement_speed"
+									Name: "generic.movement_speed"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										778899011
+										223344556
+										-445566778
+										-889900112
+									]
+								}
+								{
+									Amount: 0.35d
+									AttributeName: "attributeslib:crit_chance"
+									Name: "attributeslib:crit_chance"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										112233445
+										-556677889
+										998877665
+										-554433221
+									]
+								}
+								{
+									Amount: 0.8d
+									AttributeName: "attributeslib:crit_damage"
+									Name: "attributeslib:crit_damage"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										334455667
+										-778899001
+										1122334455
+										-667788999
+									]
+								}
+							]
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -1982,7 +1862,7 @@
 			can_repeat: false
 			dependencies: ["21FB9D855FA9D2DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "simplyswords:ribboncleaver"
 				tag: {
 					Damage: 0
@@ -1992,7 +1872,7 @@
 			rewards: [{
 				id: "518D5740ACA9CF0E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:ribboncleaver"
 					tag: {
 						Damage: 0
@@ -2003,21 +1883,21 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 2000L
+					count: 500L
 					id: "5530E56CC01AC160"
 					item: "create_confectionery:ruby_chocolate_candy_3"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 10000L
+					count: 1000L
 					id: "74CA8190969F889B"
 					item: "create_confectionery:candy_cane_block"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 20000L
+					count: 1000L
 					id: "3C3EDB0BFA30237F"
 					item: "supplementaries:candy"
 					type: "item"
@@ -2063,7 +1943,7 @@
 			]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "explorerscompass:explorerscompass"
 				tag: { }
 			}
@@ -2071,7 +1951,7 @@
 			rewards: [{
 				id: "59E71AA42ECF7E60"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "explorerscompass:explorerscompass"
 					tag: { }
 				}
@@ -2080,7 +1960,7 @@
 			subtitle: "The Explorer Compass lets you select a structure you want to find."
 			tasks: [{
 				consume_items: true
-				count: 5L
+				count: 2L
 				id: "3CA987AA256E37D8"
 				item: "numismatics:sun"
 				type: "item"
@@ -2095,7 +1975,7 @@
 			description: [""]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					Enchantments: [{ }]
@@ -2162,8 +2042,8 @@
 				type: "item"
 			}]
 			title: "Rotation Mechanism"
-			x: 3.5d
-			y: 3.5d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			can_repeat: true
@@ -2186,8 +2066,8 @@
 				type: "item"
 			}]
 			title: "Iron Ingot"
-			x: 5.0d
-			y: 3.5d
+			x: 0.5d
+			y: 5.0d
 		}
 		{
 			can_repeat: true
@@ -2210,8 +2090,8 @@
 				type: "item"
 			}]
 			title: "Copper Ingot"
-			x: 6.5d
-			y: 3.5d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			can_repeat: true
@@ -2233,8 +2113,8 @@
 				type: "item"
 			}]
 			title: "Zinc Ingot"
-			x: 8.0d
-			y: 3.5d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
 			can_repeat: true
@@ -2257,7 +2137,7 @@
 				type: "item"
 			}]
 			title: "Redstone Dust"
-			x: 8.0d
+			x: 6.5d
 			y: 5.0d
 		}
 		{
@@ -2281,8 +2161,62 @@
 				type: "item"
 			}]
 			title: "Mechanical Belt"
-			x: 6.5d
+			x: 5.0d
 			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:wayward_compass"
+				tag: { }
+			}
+			id: "155DE1212B25CF2C"
+			rewards: [{
+				id: "3726C4BE7697940B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wayward_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Used to locate The Catacombs."
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "247C98C6017EBCA4"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "The Wayward compass"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "6C61BAD912514C5F"
+			rewards: [{
+				id: "049826CE3A65BBB2"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "From 1 June till 30 June"
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "617E0F6D00827698"
+				item: "quark:myalite"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
 		}
 	]
 	title: "&0&l The Black Market"

@@ -7,9 +7,7 @@ console.info('Hello, World! (Loaded client scripts)')
 ClientEvents.lang('en_us', event => {
   event.renameItem('create:brass_hand', 'Golden Hand')
   event.renameItem('create_sa:hydraulic_engine', 'Valve Mechanism')
-  event.renameItem('ad_astra:fuel', 'Astral Fuel')
-  event.renameItem('ad_astra:fuel_bucket', 'Astral Fuel Bucket')
-  event.renameItem('handcrafted:hammer', 'Handcrafted Tool')
+
 })
 
 JEIEvents.hideItems(event => {

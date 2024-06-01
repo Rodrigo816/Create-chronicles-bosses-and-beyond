@@ -1,6 +1,6 @@
 #Inventory Connector Range
 #Range: 4 ~ 256
-inventoryConnectorRange = 16
+inventoryConnectorRange = 32
 #Only Allow Trims to Connect Inventories
 onlyTrimsConnect = false
 #Inventory Cable Connector Maximum number of cables
@@ -8,10 +8,10 @@ onlyTrimsConnect = false
 invCableConnectorMaxScanSize = 2048
 #Wireless terminal reach
 #Range: 4 ~ 64
-wirelessReach = 16
+wirelessReach = 32
 #Wireless terminal reach
 #Range: 16 ~ 512
-advWirelessRange = 64
+advWirelessRange = 96
 #Adv Wireless terminal requied beacon level for infinite range
 #Value of 0 only requires a single beacon block nearby
 #Value of -1 disables this feature entirely

@@ -5,7 +5,7 @@
 	filename: "chapter_ii_the_brass_machine"
 	group: "5237AEA7260D740E"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "kubejs:brass_machine"
 		tag: {
 			Enchantments: [{ }]
@@ -14,12 +14,8 @@
 	id: "3E77E18FC0D1193E"
 	images: [{
 		alpha: 200
-		click: ""
 		color: 16672790
-		corner: false
-		dev: false
 		height: 1.2d
-		hover: [ ]
 		image: "chalk:block/mark/arrow"
 		rotation: 180.0d
 		width: 1.2d
@@ -1033,7 +1029,7 @@
 			tasks: [{
 				id: "52EBF9F28358429D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "buildinggadgets2:buildinggadgets2book"
@@ -1109,7 +1105,7 @@
 			tasks: [{
 				id: "1E4812D002D387A0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "toms_storage:ts.paint_kit"
 					tag: {
 						Damage: 0
@@ -1125,7 +1121,7 @@
 			description: [
 				"The Wireless Terminal lets you wirelessly access system Terminals. "
 				""
-				"It requires you to look at the Terminal you want to access, and it only has a range of 16 blocks."
+				"It requires you to look at the Terminal you want to access, and it only has a range of 32 blocks."
 			]
 			id: "078236AFE937C60D"
 			rewards: [{
@@ -1244,7 +1240,6 @@
 				""
 				"◘ Ability to undo your last build"
 			]
-			hide: true
 			id: "700F1EEA44663AF4"
 			rewards: [{
 				count: 2
@@ -1256,7 +1251,7 @@
 			tasks: [{
 				id: "1D1ADBD79BEDAD05"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "buildinggadgets2:gadget_copy_paste"
 					tag: { }
 				}
@@ -1276,7 +1271,6 @@
 				""
 				"&3Checkerboard&r - this mode will build in a checkered pattern allowing you to place in the pattern of &2[]&r-&2[]&r-&2[]&r-&2[]&r []: being blocks and -: being air."
 			]
-			hide: true
 			id: "35436126527BB3F7"
 			rewards: [{
 				count: 2
@@ -1292,6 +1286,32 @@
 			}]
 			x: 4.5d
 			y: 18.0d
+		}
+		{
+			dependencies: ["700F1EEA44663AF4"]
+			description: [
+				"The Template Manager is a block that enables you to save your copies forever. Place down the Template Manager and right click it. "
+				""
+				"In the left slot, place a Copy-Paste Gadget that has a copied build. Place a piece of vanilla paper in the right slot."
+				""
+				" You can type a name for the template you are about to create in the black bar at the top of the GUI. Now hit save. Your piece of paper will turn into a Template. "
+				""
+				"The Template will store the name you gave it, and the copied build that was in the Copy-Paste Gadget. Now, you can load any template onto your Copy-Paste Gadget by placing the gadget in the left slot, placing the template in the right slot, and clicking Load."
+				""
+				" A preview of what is currently loaded on the Copy-Paste Gadget can be seen on the left side of the GUI."
+				""
+				"If you press Copy, text will be copied to your clipboard that corresponds to creating a template for what is saved in the Copy-Paste Gadget. "
+				""
+				"You can send this text to anyone in the world and other people can copy it as well. With this text copied, you, or anyone with the copied text, can hit paste to create a template that is exactly the same as if you had followed the above process."
+			]
+			id: "471D399F03EDCF9C"
+			tasks: [{
+				id: "6FB8C24917C94CE0"
+				item: "buildinggadgets2:template_manager"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.5d
 		}
 	]
 	title: "Chapter III: The Precision Machine"

@@ -7,11 +7,7 @@
 	id: "34E8FF3196478229"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "forbidden_arcanus:item/corrupt_soul"
 			rotation: 0.0d
 			width: 1.0d
@@ -19,11 +15,7 @@
 			y: 5.25d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "forbidden_arcanus:block/clibano_combustion/soul_fire/clibano_center_front"
 			rotation: 0.0d
 			width: 2.0d
@@ -108,7 +100,7 @@
 			tasks: [{
 				id: "2DE570337D6E8368"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:slimec_pickaxe"
 					tag: {
 						Damage: 0
@@ -142,7 +134,7 @@
 			tasks: [{
 				id: "3CCC73D361A4A5D6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:mystical_dagger"
 					tag: {
 						Damage: 0
@@ -214,12 +206,10 @@
 		{
 			dependencies: ["29164630E1BD76B5"]
 			description: [
-				"Have you seen the random floating island in the sky?"
+				"Nipas can be found in &2&n&aPrimordial Caves from Alex's Caves&r&r&r, so keep your eyes open—they are rare to find."
 				""
-				"These have the Nipa plant on them. You can break these and relocate them."
-				""
-				"They produce Arcane Crystal Dust Specks over time, which can be used to create Arcane Crystal Dust."
-				""
+				"They produce Arcane Crystal Dust Specks over time, which can be used to create &eArcane Crystal Dust."
+				"&r"
 				"You can automate a nipa farm with create or ars."
 			]
 			id: "260F19B468957BCD"
@@ -347,7 +337,7 @@
 			tasks: [{
 				id: "35004413DAFA1C58"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:spectral_eye_amulet"
 					tag: { }
 				}
@@ -386,7 +376,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0B68E3C046C82860"]
@@ -462,7 +452,7 @@
 				{
 					id: "4F68A985DED494B6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_helmet"
 						tag: {
 							Damage: 0
@@ -473,7 +463,7 @@
 				{
 					id: "51FBF0E6CAAF10EB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_chestplate"
 						tag: {
 							Damage: 0
@@ -484,7 +474,7 @@
 				{
 					id: "2D69FAD94A981FCD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_leggings"
 						tag: {
 							Damage: 0
@@ -495,7 +485,7 @@
 				{
 					id: "528B85B2554A3691"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_boots"
 						tag: {
 							Damage: 0
@@ -513,7 +503,7 @@
 			description: [
 				"The Dragon Scale can be made into a Golden and Aquatic Dragon Scales."
 				""
-				"These are mainly used to craft &dTyr Armor&r. It is also needed in the ATM Star recipe."
+				"These are mainly used to craft &6Tyr Armor&r."
 			]
 			id: "744A01000E086CC9"
 			rewards: [
@@ -668,7 +658,7 @@
 				{
 					id: "1837D97833619166"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_helmet"
 						tag: {
 							Damage: 0
@@ -679,7 +669,7 @@
 				{
 					id: "679C3B7915C403AC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_chestplate"
 						tag: {
 							Damage: 0
@@ -690,7 +680,7 @@
 				{
 					id: "2B5AFD104DE50D5F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_leggings"
 						tag: {
 							Damage: 0
@@ -701,7 +691,7 @@
 				{
 					id: "11795A1BD0916EC2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_boots"
 						tag: {
 							Damage: 0
@@ -758,7 +748,7 @@
 				""
 				"{image:kubejs:textures/forge.png width:100 height:100 align:1 fit:true}"
 				""
-				"Once built, place a Smithing Table in the center, then sneak+right-click with a piece of Mundabitur Dust."
+				"Once built, place a Smithing Table in the center, then sneak+right-click with a piece of &cMundabitur Dust.&r"
 			]
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "73349B993DE69954"
@@ -878,7 +868,7 @@
 		{
 			dependencies: ["0C6719D81DE5A614"]
 			description: [
-				"Blood is collected by crafting Test Tubes, then killing mobs with the Mystical Dagger."
+				"Blood is collected by crafting Test Tubes, then killing mobs with the &6Mystical Dagger.&r"
 				""
 				"Note: The Test Tube must be in your inventory when killing mobs."
 			]
@@ -969,7 +959,7 @@
 				{
 					id: "6558C3AA159F57D6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:soul_extractor"
 						tag: {
 							Damage: 0
@@ -1016,12 +1006,7 @@
 		}
 		{
 			dependencies: ["73349B993DE69954"]
-			description: [
-				""
-				"The Forge requires 4 different items to be powered: Aureal, Souls, Blood, and Experience."
-				""
-				"To learn more, follow the corner quests."
-			]
+			description: ["The Forge requires 4 different items to be powered:&b Aureal&r, &6Souls&r, &cBlood&r, and &aExperience&r."]
 			id: "0C6719D81DE5A614"
 			rewards: [{
 				id: "4361C7754AB234B0"
@@ -1079,7 +1064,7 @@
 			tasks: [{
 				id: "0309B0EB29771EC0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forbidden_arcanus:blacksmith_gavel"
@@ -1114,7 +1099,7 @@
 				{
 					id: "6B1B4574299B7E42"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_shovel"
 						tag: {
 							Damage: 0
@@ -1125,7 +1110,7 @@
 				{
 					id: "7AC6974CDDE401B1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_pickaxe"
 						tag: {
 							Damage: 0
@@ -1136,7 +1121,7 @@
 				{
 					id: "1EC5573A12A3B7F7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_axe"
 						tag: {
 							Damage: 0
@@ -1147,7 +1132,7 @@
 				{
 					id: "70CEF00CFA26E97A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_hoe"
 						tag: {
 							Damage: 0
@@ -1183,7 +1168,7 @@
 				{
 					id: "49FEFEC69106EFFA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_sword"
 						tag: {
 							Damage: 0
@@ -1234,7 +1219,11 @@
 				""
 				"For example, smelting iron ore, will create Iron Bricks which then will create Iron Blocks. "
 				""
-				"You use coal just like a normal smelter but you can use souls to make the smelting go faster."
+				"You use &0coal &rjust like a normal smelter but you can use souls to make the smelting go faster."
+				""
+				"&9Souls&r increase the speed of the &6Clibano&r and add a chance to gain residue (essentially ore duplication). The &cEnchanted Soul&r brings the best smelting speed."
+				""
+				"&6The clibano&r will generate &7residue&r when using a &9soul&r. After collecting enough residue it turns into &eadditional items&r."
 				""
 				""
 				"&nHere’s how you build it:&r"
@@ -1247,6 +1236,8 @@
 				""
 				"{image:kubejs:textures/clibano02.png width:100 height:100 align:1}"
 				""
+				"The clibano can be fully automated the top and sideways are inputs while bottom on the clibano is output"
+				""
 				""
 				"&63.&r Do the same as the first step. Place 1 Polished Darkstone in each corner top and then fill in between with Polished Darkstone Bricks. See figure below:"
 				""
@@ -1256,6 +1247,8 @@
 				""
 				""
 				"{image:kubejs:textures/clibano04.png width:100 height:100 align:1}"
+				""
+				"&7&oThe Clibano can be fully automated. The top and sideways are inputs, while the bottom of the Clibano is an output&r&r"
 			]
 			id: "1DB562D431DB8D96"
 			rewards: [{
@@ -1406,7 +1399,7 @@
 			tasks: [{
 				id: "17E6FB18EEBAC122"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:smelter_prism"
 					tag: {
 						Damage: 0
@@ -1437,7 +1430,7 @@
 			tasks: [{
 				id: "1D469AD59ADE1EAF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:eternal_stella"
 					tag: { }
 				}
@@ -1500,7 +1493,6 @@
 				item: "forbidden_arcanus:obsidian_ingot"
 				type: "item"
 			}]
-			title: "&lObsidian Ingot"
 			x: -5.5d
 			y: 10.5d
 		}
@@ -1508,15 +1500,9 @@
 			dependencies: ["68E99397ACEEFFDA"]
 			id: "7A02B3FFB2FF1A2B"
 			rewards: [{
-				id: "7AB831ED8CC544BE"
-				item: {
-					Count: 1b
-					id: "apotheosis:potion_charm"
-					tag: {
-						Damage: 0
-						Potion: "minecraft:long_fire_resistance"
-					}
-				}
+				count: 2
+				id: "06162018608CD62E"
+				item: "numismatics:bevel"
 				type: "item"
 			}]
 			shape: "circle"
@@ -1524,7 +1510,7 @@
 			tasks: [{
 				id: "28A89ED2F1ECCB06"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							"forbidden_arcanus:tick_counter": {
@@ -1550,7 +1536,7 @@
 			tasks: [{
 				id: "152961092DFC9625"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1595,22 +1581,15 @@
 			dependencies: ["6E3B9051503B938C"]
 			description: ["The &2Edelwood Ladder&r can be climbed twice as fast as a vanilla &6Ladder&r. "]
 			id: "0B4B4ECB8EC65ECD"
-			rewards: [
-				{
-					id: "7A3DD7084F5F96FE"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6C77EAFAF3E383FE"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "7A3DD7084F5F96FE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 16L
 				id: "763F1F13570524F6"
-				item: { Count: 16b, id: "forbidden_arcanus:edelwood_ladder" }
+				item: { Count: 16, id: "forbidden_arcanus:edelwood_ladder" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -1634,7 +1613,7 @@
 				{
 					id: "66799C294E310705"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:mortem_helmet"
 						tag: {
 							Damage: 0
@@ -1645,7 +1624,7 @@
 				{
 					id: "7C04EE75C7416993"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:mortem_chestplate"
 						tag: {
 							Damage: 0
@@ -1656,7 +1635,7 @@
 				{
 					id: "1E4F402AC1AF6190"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:mortem_leggings"
 						tag: {
 							Damage: 0
@@ -1667,7 +1646,7 @@
 				{
 					id: "4D1AB0C5A14C2987"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:mortem_boots"
 						tag: {
 							Damage: 0

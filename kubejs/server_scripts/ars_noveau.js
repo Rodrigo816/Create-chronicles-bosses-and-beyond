@@ -42,6 +42,6 @@ ServerEvents.recipes(event => {
     ],
     "minecraft:coal_block",
     "kubejs:mystic_coal_block",
-    500,
+    4000,
   );
 })

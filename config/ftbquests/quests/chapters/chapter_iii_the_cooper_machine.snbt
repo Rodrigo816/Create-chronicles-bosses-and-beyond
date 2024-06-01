@@ -4,7 +4,7 @@
 	filename: "chapter_iii_the_cooper_machine"
 	group: "5237AEA7260D740E"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "kubejs:copper_machine"
 		tag: {
 			Enchantments: [{ }]
@@ -13,12 +13,8 @@
 	id: "6BD4C23A62382692"
 	images: [{
 		alpha: 200
-		click: ""
 		color: 16672790
-		corner: false
-		dev: false
 		height: 1.2d
-		hover: [ ]
 		image: "chalk:block/mark/arrow"
 		rotation: 180.0d
 		width: 1.2d
@@ -228,7 +224,7 @@
 			tasks: [{
 				id: "2B3D3E600A72681E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "supplementaries:wrench"
 					tag: {
 						Damage: 0
@@ -280,7 +276,7 @@
 			tasks: [{
 				id: "126E49041133AFF7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "smelts_to_glass"

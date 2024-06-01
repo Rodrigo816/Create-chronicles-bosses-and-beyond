@@ -1,5 +1,15 @@
 
 ServerEvents.recipes(event => { 
+  
+  // spellsbooks
+  event.replaceInput({id:'irons_spellbooks:netherite_spell_book'}, 'irons_spellbooks:blood_vial', 'alexscaves:pure_darkness')
+  event.replaceInput({id:'irons_spellbooks:dragonskin_spell_book'}, 'minecraft:obsidian', 'twilightforest:magic_beans')
+
+  // jar ice and fire vs utrem jar forbbiden arcanus
+  event.replaceInput({id:'iceandfire:jar_empty'}, '#minecraft:planks', 'granite_slab')
+
+  // epic samurai
+  event.replaceInput({mod:'epicsamurai'}, '#forge:ingots/steel', 'tfmg:cast_iron_ingot')
 
   // andesite sheet
   event.remove({output: 'createdeco:andesite_sheet'});
@@ -15,11 +25,9 @@ ServerEvents.recipes(event => {
   // CORAIL STUFF
   event.remove({mod: 'tombstone'});
   event.remove({type: 'minecraft:brewing', mod: 'tombstone'}); 
-  
-    // You might need to remove other types of recipes, so check the mod's recipe types
-    // For example, removing smelting recipes
   event.remove({type: 'minecraft:smelting', mod: 'tombstone'});
     
+  
   event.replaceInput({}, 'epic_samurai:silver_ore', 'iceandfire:silver_ore');
 
   event.remove({output: 'create_dd:industrial_iron_ingot'});

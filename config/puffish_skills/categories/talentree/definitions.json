@@ -2572,7 +2572,7 @@
 	"bigIronSkin": {
 		"title": "§d[10P] §e§lIron Skin",
 		"cost": 10,
-		"description": "§a+50% Resistance\n§a+30% Max Health\n§c-40% Attack Damage\n§c-60% Mana \n§c-60% Movement Speed",
+		"description": "§a+50% Resistance\n§a+30% Max Health\n§c-40% Attack Damage\n§c-60% Mana \n§c-40% Movement Speed",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2624,7 +2624,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.movement_speed",
-					"value": -0.6,
+					"value": -0.4,
 					"operation": "multiply_base"
 				}
 			},

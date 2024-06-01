@@ -4,7 +4,7 @@
 	filename: "chapter_i_the_andesite_machine"
 	group: "5237AEA7260D740E"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "kubejs:andesite_machine"
 		tag: {
 			Enchantments: [{ }]
@@ -13,12 +13,8 @@
 	id: "0459D6A74275DD3C"
 	images: [{
 		alpha: 200
-		click: ""
 		color: 16672790
-		corner: false
-		dev: false
 		height: 1.2d
-		hover: [ ]
 		image: "chalk:block/mark/arrow"
 		rotation: 180.0d
 		width: 1.2d
@@ -60,7 +56,7 @@
 			tasks: [{
 				id: "6570B0CBBB61B903"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:saplings"
@@ -99,7 +95,7 @@
 			tasks: [{
 				id: "49A349EDC9F68F2B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:logs"
@@ -132,7 +128,7 @@
 			tasks: [{
 				id: "38C48144798950D8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "create:vanilla_stripped_logs"
@@ -165,7 +161,7 @@
 			tasks: [{
 				id: "0472A7BE9E04C326"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:planks"
@@ -198,7 +194,7 @@
 			tasks: [{
 				id: "7EDC0295D42294EE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:wooden_slabs"
@@ -469,14 +465,14 @@
 				""
 				"&cRumor:&r &oI’ve heard that you can turn the Hammer into an unbreakable Hammer just like Mjölnir! Not the Marvel one though, that one still breaks.&r"
 				""
-				"&c&nYou should check on Forbbiden Arcanus Chapter to follow up on this rumour.&r"
+				"{ \"text\": \"☞ Click here to learn more about the rumour.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"685A56030D996A81\" } }"
 			]
 			hide_dependency_lines: true
 			id: "0BEFDBD8AC519539"
 			rewards: [{
 				id: "548242B73EC0D05F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:hammer"
 					tag: {
 						Damage: 0
@@ -491,7 +487,7 @@
 			tasks: [{
 				id: "7C657F9C765B5184"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:hammer"
 					tag: {
 						Damage: 0
@@ -547,7 +543,7 @@
 				{
 					id: "15260D3E5D01A927"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_sabers:copper_saber_lime"
 						tag: {
 							Damage: 0
@@ -573,6 +569,8 @@
 				"The start might be hard because there aren't many materials and machines, but keep going—your hard work will pay off. Remember, exploring is important."
 				""
 				"At start you will have to make some manual work. It's more expensive to craft &6Rotation Mechanism&r at crafting table so as soon you can automate it."
+				""
+				"You can also find some &erotation mechanisms&r in village chests to help you along the way."
 				""
 				"As you progress further into chapters of this modpack, It'll become quite challenging if you don't automate things."
 				""

@@ -1,0 +1,43 @@
+{
+	"conditions": [
+	{
+		"modid": "quark",
+		"type": "forge:mod_loaded"
+	}
+	],
+    "entity": "quark:forgotten",
+    "variants": [],
+    "name": "entity.quark.forgotten",
+    "name_color": "#423636",
+    "gui_scale": 0.8,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+		"count": 2
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.forgotten",
+    "fabricator_drops": [
+        {
+            "item": "quark:forgotten_hat",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+        2,
+        20,
+        222,
+        2000
+    ],
+    "data_per_kill": [
+        2,
+        10,
+        74,
+        500
+    ]
+}

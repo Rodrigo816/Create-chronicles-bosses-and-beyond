@@ -9,11 +9,7 @@
 	id: "16389783F38DFDED"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -21,11 +17,7 @@
 			y: 9.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 11.5d
-			hover: [ ]
 			image: "forbidden_arcanus:block/arcane_polished_darkstone"
 			rotation: 0.0d
 			width: 12.0d
@@ -33,11 +25,7 @@
 			y: 5.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "createdeco:block/palettes/decals/decal_skull"
 			rotation: 0.0d
 			width: 1.0d
@@ -45,11 +33,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "irons_spellbooks:textures/gui/spell_icons/wither_skull.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -57,11 +41,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -69,11 +49,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "createdeco:block/palettes/decals/decal_skull"
 			rotation: 0.0d
 			width: 1.0d
@@ -81,11 +57,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "createdeco:block/palettes/decals/decal_skull"
 			rotation: 0.0d
 			width: 1.0d
@@ -93,11 +65,7 @@
 			y: 9.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "createdeco:block/palettes/decals/decal_skull"
 			rotation: 0.0d
 			width: 1.0d
@@ -113,9 +81,18 @@
 			description: [
 				"You can craft an eye of desert to locate the structure"
 				""
-				"In Minecraft's depths, the Remnant, last of the ancient dinosaurs, slumbers. Awakened by players, this colossal creature challenges them in a monumental battle, symbolizing a lost era. "
+				"In Minecraft's depths, the Remnant, last of the ancient dinosaurs, slumbers. Awakened by players, this colossal creature challenges them in a monumental battle, symbolizing a lost era. Its defeat marks the end of a prehistoric legacy."
 				""
-				"Its defeat marks the end of a prehistoric legacy."
+				"Once you get to the bottom of the &6Cursed Pyramid&r, you might notice that the &4Ancient Remnant&r doesn't move. "
+				""
+				"That's because you will need a &eNecklace of the Desert&r to resurrect the beast. To find it, you will need to brush the suspicious sand in the &6Cursed Pyramid.&r"
+				""
+				"When defeated, it can drop its skull and a Sandstorm in a Bottle."
+				""
+				""
+				"&6Sandstorm in a Bottle:&r This item is worn for a special effect. It goes in the belt slot, and when you press X, you will turn into a sandstorm."
+				""
+				"&6The Remnant Skull:&r You can use it to spawn a Modern Revenant. You can tame it by feeding it a Sniffer Egg, and it will act like a dog."
 			]
 			icon: "cataclysm:desert_eye"
 			id: "07C2D6E01B241F73"
@@ -130,30 +107,38 @@
 					type: "command"
 				}
 				{
-					count: 10
+					count: 6
 					id: "0FCCD8AE586C9C71"
 					item: "numismatics:cog"
 					type: "item"
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐⭐⭐⭐&7"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:desert_eye"
 				id: "312D9F500E45CDCC"
 				type: "kill"
 				value: 1L
 			}]
 			title: "&2Overworld&f: Extinction was a lie"
-			x: 0.0d
-			y: 2.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
 			description: [
 				"You can craft an eye of abyss to locate the structure"
 				""
-				"Found in the &2Suken City&r, use an &dAbyssal Sacrifice&r on the Abyssal Altar to summon the creature."
+				"The Leviathan can be found in the &3Sunken City&r. To summon and fight the Leviathan, you need to locate the &5Altar of the Abyssal&r."
+				""
+				"Place the following items in the altar: a&e Nautilus Shell&r, &eHeart of the Sea&r, &eAthame&r, and &eCrystallized Coral&r. All of these items can be found in the Sunken City."
+				""
+				"If you defeat the Leviathan, you will be granted a &9Tidal Claw&r and an &9Abyssal Egg&r."
+				""
+				""
+				"&6The Abyssal Egg:&r Place the egg down and wait a while, and you'll have your own baby Leviathan. Like its mother, it will attack other sea creatures but will not attack you."
 			]
 			icon: "cataclysm:abyss_eye"
 			id: "681E9EE350CD6791"
@@ -168,7 +153,7 @@
 					type: "command"
 				}
 				{
-					count: 4
+					count: 6
 					id: "3A4BEFB0D1A615D1"
 					item: "numismatics:cog"
 					type: "item"
@@ -178,20 +163,23 @@
 			subtitle: "&6⭐⭐⭐⭐&7⭐"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:abyss_eye"
 				id: "1C2969AF75334559"
 				type: "kill"
 				value: 1L
 			}]
 			title: "&2Overworld&f: From the Abyss"
-			x: 1.0d
-			y: 2.5d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
 			description: [
 				"You can craft an eye of the void to locate the structure."
 				""
-				"In the End's desolate expanse, stands the Ender Guardian Golem, a formidable sentinel crafted by the Endermen to protect their realm. Imbued with mysterious powers, it fiercely defends the End's secrets against any intruder."
+				"In the End's desolate expanse, stands the &dEnder Guardian Golem&r, a formidable sentinel crafted by the Endermen to protect their realm. Imbued with mysterious powers, it fiercely defends the End's secrets against any intruder."
+				""
+				"Once defeated, it can drop the &aGauntlet of the Guard.&r"
 			]
 			icon: "cataclysm:void_eye"
 			id: "6AC1E375CA7DA676"
@@ -206,7 +194,7 @@
 					type: "command"
 				}
 				{
-					count: 4
+					count: 2
 					id: "55EC396C9E9F65EF"
 					item: "numismatics:cog"
 					type: "item"
@@ -216,22 +204,25 @@
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_eye"
 				id: "35A1226A30729B1F"
 				type: "kill"
 				value: 1L
 			}]
 			title: "&eEnd&f: Protector of the end"
-			x: 0.0d
-			y: 3.5d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
 			description: [
 				"You can craft a flame eye to locate the structure"
 				""
-				"Found at the last floor of the &2Burning Arena&r. Use &8burning ashes&r dropped from Ignited Revenant into the Altar of Fire"
+				"Found at the last floor of the &cBurning Arena&r. Use &8burning ashes&r dropped from Ignited Revenant into the Altar of Fire"
 				""
 				"Not being able to be deafened by a single human"
+				""
+				"Upon defeat, if you manage to overcome it, the Ignis can drop &6Ignitium&r, which can be used to craft the &3Bulwark of the Flame&r or the &3Incinerator&r."
 			]
 			icon: "cataclysm:flame_eye"
 			id: "40DD304B90046084"
@@ -261,17 +252,22 @@
 			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
 				entity: "cataclysm:ignis"
+				icon: "cataclysm:flame_eye"
 				id: "20A6B8D66C22E1BC"
 				type: "kill"
 				value: 1L
 			}]
 			title: "&cNether&f: The immortal "
-			x: 1.0d
-			y: 1.5d
+			x: -1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["You can craft an eye of netherite monstrosity to locate the structure"]
+			description: [
+				"You can craft an eye of netherite monstrosity to locate the structure"
+				""
+				"When defeated, it can drop an &aInfernal Forge&r and a &aMonstrous Helm&r."
+			]
 			id: "09D25A60964E517F"
 			rewards: [
 				{
@@ -284,7 +280,7 @@
 					type: "command"
 				}
 				{
-					count: 4
+					count: 2
 					id: "239A4701D7CDC24B"
 					item: "numismatics:cog"
 					type: "item"
@@ -300,17 +296,21 @@
 				value: 1L
 			}]
 			title: "&cNether&f: The Monstrosity of lava"
-			x: 1.0d
-			y: 3.5d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
 			description: [
 				"You can craft an eye of mech to locate the structure"
 				""
-				"Found in the &2Ancient Factory&r deep in the overworld."
+				"Found in the &cAncient Factory&r deep in the overworld."
 				""
 				"Use a nether star to wake him up."
+				""
+				"Once defeated, you might get some &7Witherite Ingots&r. You can craft various items with them, such as the Laser Gatling, Meat Shredder, Wither Assault Shoulder Weapon, and most importantly, a &6Mechanical Fusion Anvil.&r"
+				""
+				"&6The Mechanical Fusion Anvil&r is needed to make Void and Fused weapons. It is placed like a normal anvil but does not have durability."
 			]
 			icon: "cataclysm:mech_eye"
 			id: "1A9BD3105BC4C13B"
@@ -334,17 +334,22 @@
 			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:mech_eye"
 				id: "0253F7F29DE5086C"
 				type: "kill"
 				value: 1L
 			}]
 			title: "&2Overworld&f: Who needs to build one?"
 			x: 0.0d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["This boss can be baited out of the void by tossing a Msyerious Worm into the End's void."]
+			description: [
+				"This boss can be baited out of the void by tossing a&e Msyerious Worm&r into the End's void."
+				""
+				"This can only be done if the &5Ender Dragon&r has been defeated."
+			]
 			icon: "alexsmobs:void_worm_eye"
 			id: "7696990D3ED40A1B"
 			rewards: [
@@ -398,7 +403,7 @@
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
 				entity: "alexsmobs:warped_mosco"
-				icon: "alexsmobs:spawn_egg_warped_mosco"
+				icon: "alexsmobs:warped_muscle"
 				id: "5968A07BF617433F"
 				type: "kill"
 				value: 1L
@@ -450,8 +455,9 @@
 		{
 			dependencies: ["072DA448D144179C"]
 			description: [
+				"&l&4--bugged for now--&r&r"
 				"You can use a void lily to track the boss structure."
-				"--bugged for now--"
+				"&l&4--bugged for now--&r&r"
 			]
 			id: "342B9E3297CC4309"
 			rewards: [
@@ -593,9 +599,10 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "minecraft:wither"
+				icon: "forbidden_arcanus:dark_nether_star"
 				id: "2D907589532D85C9"
 				type: "kill"
 				value: 1L
@@ -612,7 +619,7 @@
 				"It doesn't matter if you use ranged or melee attacks, because it will found you, If you go too far, it'll burrow into the ground and come up next to you!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "deeperdarker:warden_helmet"
 				tag: {
 					Damage: 0
@@ -639,6 +646,13 @@
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "minecraft:warden"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "0DCD8A33E321FA0F"
 				type: "kill"
 				value: 1L
@@ -650,7 +664,7 @@
 		{
 			can_repeat: false
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["Be careful with the bite attack."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
@@ -672,11 +686,11 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "iceandfire:cyclops"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "iceandfire:cyclops_eye"
 					tag: {
 						Damage: 0
@@ -754,7 +768,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "iceandfire:sea_serpent"
 				icon: "iceandfire:sea_serpent_fang"
@@ -797,14 +811,14 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Lord Pumpkinhead"
-			x: 1.0d
-			y: 6.5d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Lightning dragons can be found in the overworld or undergound in certain warm biomes: badlands, savanna. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
+			description: ["&9Lightning dragons&r can be found in space at &6Venus.&r This is the only dragon that can survive without oxygen in space and the most deadly one to."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "iceandfire:dragonsteel_lightning_helmet"
 				tag: {
 					Damage: 0
@@ -828,22 +842,33 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐⭐⭐⭐&7"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
 			tasks: [{
 				entity: "iceandfire:lightning_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_amythest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "73E1E3F465E1915A"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&2Overworld&f: Lightning Dragon Slayer"
-			x: -3.0d
+			title: "&6Space-Venus&f: Lightning Dragon Slayer"
+			x: -1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Ice dragons can be found in the overworld or undergound in cold biomes. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
+			description: [
+				"&bIce dragons&r can be found in the overworld or undergound in cold biomes. "
+				""
+				"These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."
+			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "iceandfire:dragonsteel_ice_helmet"
 				tag: {
 					Damage: 0
@@ -861,15 +886,23 @@
 					type: "command"
 				}
 				{
+					count: 4
 					id: "0CFB472A487E479A"
-					item: "numismatics:crown"
+					item: "numismatics:cog"
 					type: "item"
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐⭐⭐⭐&7"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
 			tasks: [{
 				entity: "iceandfire:ice_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_blue_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "1C57AF3602B65340"
 				type: "kill"
 				value: 1L
@@ -880,9 +913,13 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Fire dragons can be found in the overworld or undergound in warm biomes. These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."]
+			description: [
+				"&4Fire dragons&r can be found in the overworld or undergound in warm biomes. "
+				""
+				"These beasts are not to be taken lightly, and you'll want to gear up tremendously before attempting to fight one."
+			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "iceandfire:dragonsteel_fire_helmet"
 				tag: {
 					Damage: 0
@@ -900,21 +937,29 @@
 					type: "command"
 				}
 				{
+					count: 4
 					id: "01F849D80A1D7D0E"
-					item: "numismatics:crown"
+					item: "numismatics:cog"
 					type: "item"
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐⭐⭐⭐&7"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
 			tasks: [{
 				entity: "iceandfire:fire_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_red_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "00828F2360910CF8"
 				type: "kill"
 				value: 1L
 			}]
 			title: "&2Overworld&f: Fire Dragon Slayer"
-			x: -1.0d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -925,7 +970,7 @@
 			hide_dependent_lines: true
 			hide_details_until_startable: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "iceandfire:myrmex_desert_helmet"
 				tag: {
 					Damage: 0
@@ -952,6 +997,13 @@
 			subtitle: "&6⭐&7⭐⭐⭐⭐"
 			tasks: [{
 				entity: "iceandfire:myrmex_queen"
+				icon: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "68D8EC4BF1BBB2DD"
 				type: "kill"
 				value: 1L
@@ -1055,13 +1107,13 @@
 			}]
 			title: "&2Overworld&f: Sir Pumpkinhead"
 			x: 0.0d
-			y: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["mini-boss"]
+			description: ["&6The Ender Golem&r is a miniboss guarding the &dEnder Guardian.&r"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "obtrophies:trophy"
 				tag: {
 					BlockEntityTag: {
@@ -1088,11 +1140,11 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "cataclysm:ender_golem"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
@@ -1106,13 +1158,22 @@
 				value: 1L
 			}]
 			title: "&eEnd&f: Ender Golem"
-			x: 1.0d
-			y: 4.5d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["mini-boss"]
-			icon: "cataclysm:the_prowler_spawn_egg"
+			description: ["&6The Prowler&r is a miniboss guarding the &cAncient Factory.&r"]
+			icon: {
+				Count: 1
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "cataclysm:the_prowler"
+					}
+				}
+			}
 			id: "186D1014F748B001"
 			rewards: [
 				{
@@ -1131,21 +1192,40 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "cataclysm:the_prowler"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "cataclysm:the_prowler"
+						}
+					}
+				}
 				id: "5058F5131FFDC6DE"
 				type: "kill"
 				value: 1L
 			}]
 			title: "&2Overworld&f: The Prowler"
-			x: 0.0d
-			y: 4.5d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["mini-boss"]
-			icon: "cataclysm:amethyst_crab_spawn_egg"
+			description: ["The &6Amethyst Crab&r lives in the &2Lush Caves&r."]
+			icon: {
+				Count: 1
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "cataclysm:amethyst_crab"
+					}
+				}
+			}
 			id: "188968771B831DCE"
 			rewards: [
 				{
@@ -1164,20 +1244,35 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "cataclysm:amethyst_crab"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "cataclysm:amethyst_crab"
+						}
+					}
+				}
 				id: "7ACEBCB47E3AD999"
 				type: "kill"
 				value: 1L
 			}]
 			title: "&2Overworld&f: Amethyst Crab"
-			x: 1.0d
-			y: 5.5d
+			x: 5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Found in Forlorn caves"]
+			description: [
+				"The &6Forsaken&r is a boss summoned in the &cForlorn Hollows&r created from an &3Underzealot ritual&r performed on a &5Vesper&r."
+				""
+				""
+				"They use grabs, biting, and sonic attacks, jump around, and at &alow health&r, while in low light levels, they enter a &8darkness&r mode that allows them to heal."
+			]
 			icon: "alexscaves:forsaken_idol"
 			id: "11DB96D8FC52617B"
 			rewards: [
@@ -1197,7 +1292,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "alexscaves:forsaken"
 				icon: "alexscaves:forsaken_idol"
@@ -1206,14 +1301,18 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Forsaken"
-			x: 4.0d
-			y: 6.5d
+			x: -2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Found in Abyssal chasms"]
+			description: [
+				"&dHullbreakers&r are rare neutral aquatic boss found in the &9Abyssal Chasm.&r"
+				""
+				"They are massive, powerful predators that attack &bglowing mobs&r in addition to submarines that have their &efloodlights&r on."
+			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "obtrophies:trophy"
 				tag: {
 					BlockEntityTag: {
@@ -1240,11 +1339,11 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "alexscaves:hullbreaker"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
@@ -1258,12 +1357,21 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Hullbreaker"
-			x: 5.0d
-			y: 6.5d
+			x: -3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Found in Toxic caves"]
+			description: [
+				"Craft a &6Tremorzilla&r egg. Safely detonate a &6Nuclear Bomb&r near the placed egg to hatch it. "
+				""
+				"You can tame the Tremorzilla by feeding him with waste drum."
+				"{image:alexscaves:block/waste_drum width:20 height:20 align:1} "
+				""
+				"Once matured, Tremorzilla becomes a mountable force of destruction, capable of crushing obstacles underfoot or annihilating them with a potent energy beam."
+				""
+				"Now you have to sacrifice your pet in order to complete the quest."
+			]
 			icon: "alexscaves:tremorzilla_egg"
 			id: "138E94B1FC310502"
 			rewards: [
@@ -1300,7 +1408,7 @@
 			description: [
 				"Found in promordial caves"
 				""
-				"Trow a ominous catalysm into the volcano."
+				"Trow a &cominous catalysm&r into the volcano."
 			]
 			icon: "alexscaves:ominous_catalyst"
 			id: "5E8607FE394E659A"
@@ -1335,7 +1443,20 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: [
+				"The &5ender dragon&r is a giant flying hostile boss mob found when first entering &5the End&r. It is the largest naturally spawning mob in the game. "
+				""
+				"It guards access to the end gateways that provide entry to the outer end islands in addition to the exit portal that allows return to the &2Overworld&r as well as access to the end credits of Minecraft. "
+				""
+				"Its attacks involve charging at the player and its unique dragon acid attacks."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Players can &bre-summon&r the dragon by placing four end crystals on the edges of the exit portal, one on each side. "
+				""
+				"When it is re-summoned, the four end crystals point to the tops of each pillar setting off a series of explosions that resets the obsidian pillars, iron bars, and end crystals."
+			]
 			icon: "minecraft:dragon_head"
 			id: "4FCD7C734E04EC59"
 			rewards: [
@@ -1427,7 +1548,7 @@
 			tasks: [{
 				id: "45F44F82B7A7A783"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:bow"
 					tag: {
 						CustomModelData: 1450104
@@ -1445,7 +1566,13 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: [
+				"The Mutant Creeper is a true nightmare, wreaking havoc whereever it goes. "
+				""
+				"Just make sure to keep it away from anything you hold dear! But finally it leaves behind a mysterious egg. "
+				""
+				"It won't hatch for a long time, but when it does, you'll be in for quite a surprise to be sure."
+			]
 			icon: "minecraft:creeper_head"
 			id: "5590F8A33E7C7EBA"
 			rewards: [
@@ -1479,7 +1606,13 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: [
+				"The Mutant Enderman is by far the most powerful mutant. "
+				""
+				"It won't just fight by fair means, using ender-magic, the terrain and much more, anything is possible. "
+				""
+				"What's in it for you then? Maybe you'll be able to cut off one of its hands, and the mutant's power to use the terrain will be yours."
+			]
 			icon: "supplementaries:enderman_head"
 			id: "0FA6D29FC55F9AEC"
 			rewards: [
@@ -1513,7 +1646,11 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: [
+				"The most skilled archer you will ever encounter. "
+				""
+				"If you manage to defeat this foe, you may be able to utilize its skeleton parts for your own protection..."
+			]
 			icon: "minecraft:skeleton_skull"
 			id: "12540DE2AD46BD25"
 			rewards: [
@@ -1547,7 +1684,11 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: [
+				"Be careful of his smash attacks! And quickly burn the corpse, or it will awaken again. "
+				""
+				"Your victory will be rewarded with a mystical hammer unleashing a unique power when used on the ground beneath you..."
+			]
 			icon: "minecraft:zombie_head"
 			id: "466E95094802C572"
 			rewards: [
@@ -1581,7 +1722,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Follow twilight quest chapter for more details."]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"043A32CFAF07245A\" } }"]
 			icon: "twilightforest:naga_trophy"
 			id: "1118D777AFDEABF1"
 			rewards: [
@@ -1613,7 +1754,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Follow twilight quest chapter for more details."]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"65E6F43E380A343B\" } }"]
 			icon: "twilightforest:lich_trophy"
 			id: "360D7D51B8827142"
 			rewards: [
@@ -1645,7 +1786,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Follow twilight quest chapter for more details."]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"249A0EC5DB167A5A\" } }"]
 			id: "66CCB8E61772D9C5"
 			rewards: [
 				{
@@ -1664,7 +1805,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				id: "0E832BF18FE8B67D"
 				item: "twilightforest:hydra_trophy"
@@ -1676,7 +1817,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Follow twilight quest chapter for more details."]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"546A5B881F8F6A29\" } }"]
 			id: "6C426E483987130D"
 			rewards: [
 				{
@@ -1695,7 +1836,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				id: "69EBB0CA8881552E"
 				item: "twilightforest:ur_ghast_trophy"
@@ -1707,7 +1848,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Follow twilight quest chapter for more details."]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C964425741DFA07\" } }"]
 			id: "0561992D26000F6C"
 			rewards: [
 				{
@@ -1726,7 +1867,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				id: "347585336B761168"
 				item: "twilightforest:snow_queen_trophy"
@@ -1738,9 +1879,9 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6832C9E6D2E2949E\" } }"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "blue_skies:alchemy_scroll"
 				tag: {
 					Damage: 0
@@ -1768,7 +1909,7 @@
 			tasks: [{
 				entity: "blue_skies:alchemist"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:alchemy_scroll"
 					tag: {
 						Damage: 0
@@ -1784,9 +1925,9 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3C1212AA4663C39B\" } }"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "blue_skies:summoner_trophy"
 				tag: {
 					BlockStateTag: {
@@ -1816,7 +1957,7 @@
 			tasks: [{
 				entity: "blue_skies:summoner"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:summoner_trophy"
 					tag: {
 						BlockStateTag: {
@@ -1834,9 +1975,9 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DB1A5763EDD6A7F\" } }"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "blue_skies:arachnarch_trophy"
 				tag: {
 					BlockStateTag: {
@@ -1862,11 +2003,11 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "blue_skies:arachnarch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:arachnarch_trophy"
 					tag: {
 						BlockStateTag: {
@@ -1879,12 +2020,12 @@
 				value: 1L
 			}]
 			title: "&9Blue Skies&f: The Arachnarch"
-			x: 3.0d
-			y: 6.5d
+			x: 1.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F944EEA0F397B95\" } }"]
 			icon: "blue_skies:starlit_leaves"
 			id: "4473A6FB1DD04B33"
 			rewards: [
@@ -1904,7 +2045,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "blue_skies:starlit_crusher"
 				icon: "blue_skies:starlit_leaves"
@@ -1913,12 +2054,12 @@
 				value: 1L
 			}]
 			title: "&9Blue Skies&f: Starlit crusher"
-			x: 2.0d
-			y: 6.5d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5A143952EAB7643E\" } }"]
 			id: "1B579FA633476F4B"
 			rewards: [
 				{
@@ -1949,7 +2090,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C32DED450405D92\" } }"]
 			id: "0990BE5505F823C2"
 			rewards: [
 				{
@@ -1980,7 +2121,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"63B35ED12D525A4F\" } }"]
 			id: "70D8E200F5040BA9"
 			rewards: [
 				{
@@ -2011,7 +2152,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50CC54774B835A50\" } }"]
 			id: "7FE615B1AB39CFFA"
 			rewards: [
 				{
@@ -2042,7 +2183,11 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: [
+				"&8&oThe once endless ocean, the waters of which were raised from the depths by gusty winds, the ocean that was sailed by brave voyagers and fearsome flotillas of pillagers, is now chained in ice and snow."
+				""
+				"&8&oFrozen in time... The ships of those who were unlucky froze in the merciless ice, at the same moment terrible creatures crawled out of the abyss into the light of day. Through the blizzard, only the rare sounds of the horns of those who still hope for rescue are heard. What could transform the once unbridled ocean so drastically?&r&r"
+			]
 			icon: "aquamirae:rune_of_the_storm"
 			id: "44DCD0A86F67612E"
 			rewards: [
@@ -2076,9 +2221,9 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["&6The Conjurer&r is a magician inspired Illager miniboss. He owns a&c theater&r deep in the roofed forest biome. He has plenty of tricks up his sleve, so don’t take him lightly!"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "conjurer_illager:conjurer_hat"
 				tag: {
 					Damage: 0
@@ -2106,7 +2251,7 @@
 			tasks: [{
 				entity: "conjurer_illager:conjurer"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "conjurer_illager:conjurer_hat"
 					tag: {
 						Damage: 0
@@ -2122,7 +2267,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C60FAFCB36ADD5D\" } }"]
 			icon: "ars_nouveau:wilden_tribute"
 			id: "3316608227ABBD2E"
 			rewards: [
@@ -2142,7 +2287,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				id: "2B4BE55FF05CB23C"
 				item: "ars_nouveau:wilden_tribute"
@@ -2154,7 +2299,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: ["Can be found at &6the Catacombs&r. You can use &eWayward Compass&r to locate them. "]
 			icon: "irons_spellbooks:blood_staff"
 			id: "034ADBF4EC3738DD"
 			rewards: [
@@ -2183,8 +2328,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: The Death King"
-			x: -1.0d
-			y: 3.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -2247,7 +2392,7 @@
 			hide: false
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "lootr:textures/item/crown.png"
@@ -2273,9 +2418,15 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
+			description: [
+				"An &3elder guardian&r is a stronger and larger variant of the &7guardian&r, and the &olargest aquatic mob in default minecraft&r. "
+				""
+				"It attacks the same way as a normal &7guardian&r, but also applies&c Mining Fatigue&r to players in a large radius around itself. They are only found in &9ocean monuments&r; three of them generate in each one."
+				""
+				"&3Three&r elder guardians spawn naturally during the generation of each ocean monument: &oone in the top room of the monument&r and the &oother two&r in each wing section of the&9 monument&r. "
+			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "obtrophies:trophy"
 				tag: {
 					BlockEntityTag: {
@@ -2302,11 +2453,11 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "minecraft:elder_guardian"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
@@ -2322,6 +2473,555 @@
 			title: "&2Overworld&f: Elder Guardian"
 			x: 5.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["&cThe Coralssus&r serves as both a guard and steed for the &3Sunken City.&r"]
+			icon: {
+				Count: 1
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "cataclysm:coralssus"
+					}
+				}
+			}
+			id: "4E0B638C20CF9FD7"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "20E3B4D45A460401"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "39804DE0D2B85E3C"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "cataclysm:coralssus"
+						}
+					}
+				}
+				id: "4575473642B942E6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Coralssus"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Can spawn in the ocean after defeating the &6Leviathan.&r"]
+			icon: "minecraft:fire_coral"
+			id: "125E3B2F9B728E17"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "04D4620DE0A8CABD"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "06A49743AD8B8895"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:coral_golem"
+				icon: "cataclysm:coral_golem_spawn_egg"
+				id: "644534B34DE6ED2B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Coral Golem"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["The Wadjet is a mini-boss guarding the &6Cursed Pyramid.&r"]
+			icon: "cataclysm:wadjet_spawn_egg"
+			id: "722A585C044A2097"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "60E322FC49B8BA1C"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "0FC6BEB1378879E1"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				icon: "cataclysm:wadjet_spawn_egg"
+				id: "648869C44DD79B93"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Wadjet"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["The Kobolediator is a mini-boss guarding the &6Cursed Pyramid.&r"]
+			icon: "cataclysm:kobolediator_skull"
+			id: "7FEA004E872EF175"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "3E41FB3E78E17E89"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "5C72A506FD278742"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				icon: "cataclysm:kobolediator_skull"
+				id: "661A8B435FD5A845"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Kobolediator "
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Gorgons can be located deep down in &6Labyrinth of the Serpent&r."
+				""
+				"It is recommended that one should bring many buckets of milk, should they get poisoned by her attacks. Note that you must be blinded to avoid petrification; having anything that counters the blindfold's effect will not protect you from the Gorgon's gaze."
+				""
+				"Alternatively, one can take on the gorgon without a blindfold by simply looking down and hitting her tail."
+				""
+				"It is important to note that any equipped&n armor cannot be retrieved if the wearer gets petrified&r; the items will get \"stuck\" inside the statue instead of dropping on the ground."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "iceandfire:gorgon_head"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6AE021028ABF4B31"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "64E8294554ED7DDA"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "7FD1CB5F4366365D"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "596A70E8F9DD380A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Gorgon"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"These jungle-lurking plant monsters want nothing more than to eat anything that moves! "
+				""
+				"They may seem like ordinary ferns, but they'll emerge if you come close."
+				""
+				"You can't get close enough to strike them, so find some other way of killing them! They drop foliaath seeds."
+				""
+				"To grow a foliaath, obtain a seed and plant it by right clicking on grass or dirt."
+				""
+				"Every half-day for two days, feed the baby foliaath by tossing it a meat item. Then, it will emerge as a fully grown foliaath. Be careful: grown foliaaths aren't tamed and will still attack you!"
+			]
+			icon: "mowziesmobs:foliaath_seed"
+			id: "34D165EDB1371398"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5481B822C2C73756"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "78BBD1DC65475561"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				icon: "mowziesmobs:foliaath_seed"
+				id: "1163129088914CCB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Foliaath"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Lost underground many years ago, these heavily armored knights are not men nor are they statues. Are they guarding something? "
+				""
+				"They have forgotten what. Are they waiting for something? They have forgotten when. "
+				""
+				"Are they mourning someone? They have forgotten whom. All they know is to slay those who approach their chambers. There is only one way to damage a Ferrous Wroughtnaut; its weakness is for you to discover."
+				""
+				"Only the bravest of adventurers would dare to challenge a Ferrous Wroughtnaut. Upon defeat, the Wroughtnaut will drop its Wrought Helm and its Axe of a Thousand Metals for the victor. "
+				""
+				"Right clicking with the axe attacks in a large arc, and shift-right clicking will create a shockwave that brings targets closer to you. Neither tool can break."
+			]
+			icon: "mowziesmobs:wrought_helmet"
+			id: "0BDFC9BF558C42FE"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5A64090E5D610608"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "66AE924CEC4FD756"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "5AE1885CE6D3142B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Ferrous Wroughtnaut"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&bFrostmaws&r are dangerous beasts found rarely in &n&bGlacio.&r &r"
+				""
+				"Their massive size, impressive speed, and powerful ice breath make them near-impossible opponents. "
+				""
+				"If, on your travels, you encounter one sleeping in your path, it's likely best to take a different route and let it lay. "
+				""
+				"The beast guards a precious ice crystal that can unleash pure winter energy when wielded."
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "04454A60FDCA0BB2"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5583003A20C5447B"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "54121C6E1BC34324"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "TBA"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5C4B5A061267C2B8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Space-&bGlacio&r&f: Frostmaw"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&4Umvuthi&r is the creator of the &eAbavuthana&r, residing in a stationary seat upon a throne in &n&cMars.&r&r"
+				""
+				"He draws his &6power from the sun&r, calling forth sunstrikes, solar flares, and massive solar beams. "
+				""
+				"He can also create Umvuthana followers - including healers called Umvuthana Cranes - from masks to defend him during combat. "
+				""
+				"As such, his masked children revere him as a god. Unequipped travelers should keep their distance from his grove, lest they be smitten by his heliomancy."
+				""
+				"Those strong enough to face and defeat him, however, are rewarded with his mask: the Sol Visage. This mask allows its wearers to breathe life into masks to create Umvuthana followers. Unfortunately, the mask does not bestow heliomancy upon its bearer; this power is innately carried by Umvuthi, and thus dies with him. Perhaps there is another way...?"
+			]
+			icon: "mowziesmobs:sol_visage"
+			id: "15AFBC9FC568CD57"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "2FA24CF304E3C9A8"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "08E05366519B04C5"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "TBA"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "43705394BF2FD181"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Space-Mars&f: Umvuthi"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&cThe Magnetrom&r can be found at &emagnetic caves.&r"
+				""
+				"It constructs a massive body from nearby blocks, with its electromagnetic nature sparking to life as lightning connects the blocks."
+				""
+				"Magnetrons prioritize magnetic blocks for their construction, using sawmills and anvils as weapons to enhance their attack if available. Defeating a Magnetron causes it to disassemble, releasing its blocks and dropping the &6Heart of Iron&r."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves_torpedoes:magnetic_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4597C15E8D4FE8C0"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "658C1F6C9F49D3B6"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "60303FF895A79C68"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: {
+					Count: 1
+					id: "alexscaves_torpedoes:magnetic_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "660E51AA402EFF8F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Magnetron"
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Appears starting from the &c&othird&r night&r of the game so that the player has time to &nprepare&r for the meeting with him. "
+				""
+				"The beginning of the &8Stalker's&r spawn is accompanied by a characteristic &osound&r and a &omessage&r in the chat. "
+				""
+				"Appears completely invisible, and all you can see are two &eglowing&r eyes. While the &8Stalker&r is in invisibility, he moves much faster, and when he receives damage, he loses invisibility."
+			]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "38DE8D7E98D6AA48"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "79682C9F759C4216"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "48BFFF2BCBC5E75A"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "11F88FE1D7C2E4A6"
+				title: "Kill Your Nightmares"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&2Overworld&f: Kill Your Nightmares"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"He is a undead that you can meet starting from the &atenth night of the game&r. "
+				""
+				"At first it is hidden under the mantle, it is able to notice the player at a distance of 100 blocks, and begins to follow from a distance of 30 blocks. "
+				""
+				"After making an attack or receiving enough damage, he reveals his true form by screaming. "
+				""
+				"When attacking a player, he steals the player’s health, causing, in addition to the main damage, special piercing damage which, regardless of armor or any source of damage reduction, deals consistently one unit of damage, and also imposes a lifestealing effect that wither the player and heals the Lifestealer himself. "
+				""
+				"Repeatedly attacking a player under the lifestealing effect will apply a Death Grip effect, which in turn will slow down the player extremely if he is not under the lifestealing effect. From a certain point, Lifestealer periodically begins to cause a dark splash that pushes the player and all nearby creatures to the side, causing them piercing damage and applying the lifesteal effect."
+			]
+			icon: "born_in_chaos_v1:lifestealer_bone"
+			id: "25A159F2A8B9340B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "712FD48036365160"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "69542F032F888080"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer_true_form"
+				icon: "born_in_chaos_v1:lifestealer_bone"
+				id: "19DC5BFD7C6928BE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Lifestealer"
+			x: 1.0d
+			y: 8.5d
 		}
 	]
 	title: "&9&l Bosses and Skill Points"

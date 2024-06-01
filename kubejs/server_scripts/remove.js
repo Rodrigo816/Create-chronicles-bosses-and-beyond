@@ -28,8 +28,11 @@ ServerEvents.recipes(event => {
 
     //Remove by recipe ID
     [
+        'ars_nouveau:glyph_animate_block',
+        'ars_nouveau:burst',
         'twilightforest:uncrafting_table',
         'explorerscompass:explorers_compass',
+        IS('wayward_compass'),
          //Chapter 1
         ASTRA('recipes/hammering/iron_plate'),
         CR('crafting/materials/andesite_alloy_from_zinc'),
@@ -95,6 +98,11 @@ ServerEvents.recipes(event => {
        ASTRA('nasa_workbench/tier_3_rocket'),
        ASTRA('nasa_workbench/tier_4_rocket'),
        ASTRA('recipes/compressor'),
+       ASTRA('recipes/space_helmet'),
+       ASTRA('recipes/space_suit'),
+       ASTRA('recipes/space_pants'),
+       ASTRA('recipes/space_boots'),
+       //
 
        // CHP9
        AE2('transform/entangled_singularity_from_pearl'),
@@ -212,8 +220,6 @@ ServerEvents.recipes(event => {
          AE2('growth_accelerator'),
          'waystones:warp_dust',
          ASTRA('coal_generator'),
-         ASTRA('desh_fluid_pipe'),
-         ASTRA('ostrum_fluid_pipe'),
          ASTRA('fuel_refinery'),
          AE2('condenser'),
          AE2('charger'),

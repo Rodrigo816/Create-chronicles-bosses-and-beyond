@@ -58,7 +58,7 @@
 			tasks: [{
 				id: "42CA7AAF304767E7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "deeperdarker:warden_helmet"
 					tag: {
 						Damage: 0
@@ -190,7 +190,7 @@
 			dependencies: ["704CCA2CEAB23B4D"]
 			description: ["Can be tamed with enchanted &cNetherite Chestplates&r. When tamed, they will occasionally drop enchanted books. "]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:netherite_chestplate"
 				tag: {
 					Damage: 0
@@ -211,7 +211,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:netherite_chestplate"
 					tag: {
 						Damage: 0
@@ -240,7 +240,7 @@
 				{
 					id: "46198BF25D4A90D3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "deeperdarker:sculk_affinity"

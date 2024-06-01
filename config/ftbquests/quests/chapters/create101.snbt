@@ -4,7 +4,7 @@
 	filename: "create101"
 	group: "5237AEA7260D740E"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "create:wrench"
 		tag: {
 			Enchantments: [{ }]
@@ -13,11 +13,7 @@
 	id: "100C477F4E63F20A"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "create:item/andesite_alloy"
 			rotation: 0.0d
 			width: 1.5d
@@ -25,11 +21,7 @@
 			y: -9.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "create:textures/gui/logo.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -37,11 +29,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "create:textures/item/copper_ingot.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -49,11 +37,7 @@
 			y: -9.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "create_enchantment_industry:item/experience_rotor"
 			rotation: 0.0d
 			width: 1.0d
@@ -61,11 +45,7 @@
 			y: -3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/enchanting_table_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -73,11 +53,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "create_enchantment_industry:item/enchanting_guide"
 			rotation: 0.0d
 			width: 2.0d
@@ -85,11 +61,7 @@
 			y: -3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:block/redstone_torch"
 			rotation: 2.0d
 			width: 1.0d
@@ -97,11 +69,7 @@
 			y: -9.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.25d
-			hover: [ ]
 			image: "create:item/brass_ingot"
 			rotation: 0.0d
 			width: 1.25d
@@ -109,11 +77,7 @@
 			y: -9.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "create:item/track"
 			rotation: 0.0d
 			width: 2.0d
@@ -121,11 +85,7 @@
 			y: -3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "create:item/clipboard"
 			rotation: 0.0d
 			width: 2.0d
@@ -133,11 +93,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "iceandfire:item/pixie_wings"
 			rotation: 0.0d
 			width: 1.0d
@@ -145,11 +101,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:block/cannon_arrow"
 			rotation: 0.0d
 			width: 1.0d
@@ -157,11 +109,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "create_things_and_misc:item/train_stop_item"
 			rotation: 0.0d
 			width: 2.0d
@@ -169,12 +117,8 @@
 			y: 0.0d
 		}
 		{
-			click: ""
 			color: 16737894
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:textures/entity/banner/flags/cross.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -182,11 +126,7 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.5d
-			hover: [ ]
 			image: "alexsmobs:textures/entity/sunbird_shine.png"
 			rotation: 0.0d
 			width: 2.5d
@@ -194,11 +134,7 @@
 			y: 3.8d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "createaddition:item/chocolate_cake"
 			rotation: 0.0d
 			width: 1.7d
@@ -206,11 +142,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "create_central_kitchen:item/cooking_guide"
 			rotation: 0.0d
 			width: 2.0d
@@ -218,11 +150,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:item/lava_bucket"
 			rotation: 0.0d
 			width: 1.0d
@@ -230,11 +158,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:item/coal"
 			rotation: 0.0d
 			width: 1.0d
@@ -242,11 +166,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "numismatics:item/banking_guide"
 			rotation: 0.0d
 			width: 2.0d
@@ -254,11 +174,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "create:item/schedule"
 			rotation: 0.0d
 			width: 2.0d
@@ -266,11 +182,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:icons/money_bag"
 			rotation: 0.0d
 			width: 1.0d
@@ -463,7 +375,7 @@
 			tasks: [{
 				id: "7279ED51EBAEB858"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_confectionery:full_white_chocolate_bar"
 					tag: {
 						Damage: 0
@@ -541,7 +453,7 @@
 			tasks: [{
 				id: "065E9FF5C04C8EB7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_confectionery:full_black_chocolate_bar"
 					tag: {
 						Damage: 0
@@ -912,8 +824,8 @@
 				item: "create_confectionery:candy_cane"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 9.0d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2EB9D59CA0F2E258"]
@@ -970,7 +882,7 @@
 			tasks: [{
 				id: "32F9113B9DA5FCE1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_confectionery:full_ruby_chocolate_bar"
 					tag: {
 						Damage: 0
@@ -993,7 +905,7 @@
 			tasks: [{
 				id: "26F72540DBF42D16"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_confectionery:full_chocolate_bar"
 					tag: {
 						Damage: 0
@@ -1324,7 +1236,7 @@
 			tasks: [{
 				id: "1A9BC10CDDA9FCF2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:super_glue"
 					tag: {
 						Damage: 0
@@ -2495,7 +2407,7 @@
 			tasks: [{
 				id: "405ACE0B16968629"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2976,7 +2888,7 @@
 				{
 					id: "323DCE9FB9BF46C7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create:filter"
 						tag: {
 							Items: { }
@@ -2997,7 +2909,7 @@
 				{
 					id: "12E052BAB7D5E1EE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create:filter"
 						tag: {
 							Items: { }
@@ -3480,7 +3392,7 @@
 			tasks: [{
 				id: "5159E101EB5C44DE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_things_and_misc:sticky_boots_boots"
 					tag: {
 						Damage: 0
@@ -3542,7 +3454,7 @@
 			tasks: [{
 				id: "7C56A0C90A85C18B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_things_and_misc:neon_tube"
 					tag: {
 						Damage: 0
@@ -3576,7 +3488,7 @@
 			dependencies: ["2FE8BF89339153CB"]
 			description: ["Repairs items when held in your main hand."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create_things_and_misc:mending_rune"
 				tag: {
 					Damage: 0
@@ -3591,7 +3503,7 @@
 			tasks: [{
 				id: "46982559FA7AB4D2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_things_and_misc:mending_rune"
 					tag: {
 						Damage: 0
@@ -3893,7 +3805,7 @@
 			tasks: [{
 				id: "08BD44C23AEE822C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:andesite_jetpack_chestplate"
 					tag: {
 						Damage: 0
@@ -3915,7 +3827,7 @@
 			tasks: [{
 				id: "06C6061C16125A1D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:grapplin_whisk"
 					tag: { }
 				}
@@ -3935,7 +3847,7 @@
 			tasks: [{
 				id: "13E402C962CB0624"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:andesite_exoskeleton_chestplate"
 					tag: {
 						Damage: 0
@@ -4180,7 +4092,7 @@
 				{
 					id: "33F3F3E33888F976"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -4390,7 +4302,7 @@
 				"You can pump the &bhyper experience liquid&r into the blaze enchanter and then give when enchanting it will enchant the tool 1 level higher than the book given to the &6blaze enchanter&r"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "create_enchantment_industry:item/hyper_experience_bottle"
@@ -4490,7 +4402,7 @@
 			tasks: [{
 				id: "4E6E9797DB605298"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -4559,7 +4471,7 @@
 			tasks: [{
 				id: "341EF96A0BA2B691"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_backtank"
 					tag: {
 						Air: 900
@@ -4583,7 +4495,7 @@
 			tasks: [{
 				id: "3D38E8BFF56A258D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:netherite_backtank"
 					tag: {
 						Air: 900
@@ -4607,7 +4519,7 @@
 			tasks: [{
 				id: "3AD8EA1AD5C2753E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_diving_helmet"
 					tag: {
 						Damage: 0
@@ -4631,7 +4543,7 @@
 			tasks: [{
 				id: "424CFF437C6A3CEC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:netherite_diving_helmet"
 					tag: {
 						Damage: 0
@@ -4655,7 +4567,7 @@
 			tasks: [{
 				id: "1712D012913765FB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_diving_boots"
 					tag: {
 						Damage: 0
@@ -4679,7 +4591,7 @@
 			tasks: [{
 				id: "7FA54882AAAB67C8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:netherite_diving_boots"
 					tag: {
 						Damage: 0
@@ -4782,7 +4694,7 @@
 				{
 					id: "4A67A727C2A672F3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create:sand_paper"
 						tag: {
 							Damage: 0
@@ -4817,7 +4729,7 @@
 			tasks: [{
 				id: "4C930DB26B648AD7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:potato_cannon"
 					tag: {
 						Damage: 0
@@ -4888,7 +4800,7 @@
 			tasks: [{
 				id: "71BBDDD26D9CE66A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:extendo_grip"
 					tag: {
 						Damage: 0
@@ -4949,7 +4861,7 @@
 			tasks: [{
 				id: "0A1EC5CF8AC80485"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:brass_exoskeleton_chestplate"
 					tag: {
 						Damage: 0
@@ -4972,7 +4884,7 @@
 			tasks: [{
 				id: "5273BBBF09BF9222"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:portable_drill"
 					tag: { }
 				}
@@ -4993,7 +4905,7 @@
 			tasks: [{
 				id: "03A36530DEB3AE71"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:brass_jetpack_chestplate"
 					tag: {
 						Damage: 0
@@ -5022,7 +4934,7 @@
 			tasks: [{
 				id: "0156CC63E094F170"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:large_filling_tank"
 					tag: { }
 				}
@@ -5049,7 +4961,7 @@
 			tasks: [{
 				id: "09171DB6C7B30ED2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:large_fueling_tank"
 					tag: { }
 				}
@@ -5071,7 +4983,7 @@
 			tasks: [{
 				id: "56C3BF05AD5CE1AB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:flamethrower"
 					tag: { }
 				}
@@ -5600,7 +5512,7 @@
 			tasks: [{
 				id: "79E1CE3FB16EEDB9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -5808,10 +5720,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["6135016A83A473F6"]
+			dependencies: ["7B85045C6A699792"]
 			id: "75DF02727DA03273"
 			rewards: [{
 				id: "0BA1E29FD152C03A"
@@ -5825,7 +5737,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 2.0d
+			y: 2.75d
 		}
 		{
 			dependencies: ["4E2362A17A68A962"]
@@ -5840,7 +5752,7 @@
 			tasks: [{
 				id: "7F8F870FC78C8F9C"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: { }
 					}
@@ -6055,6 +5967,121 @@
 			}]
 			x: -4.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["1A6C36E59385A2D3"]
+			description: [
+				"Flywheel Engine: Do you have too much wood from your tree farms? Don't know what to do? Then the Flywheel Engine is your solution! You can use your wood as fuel to burn wood or to smelt ores to generate rotational power. You can also use coal, charcoal or a lava bucket as fuel if you prefer."
+				""
+				"You can use a Furnace or a Blast Furnace. Either one will work although be aware that the ponder function shows  a blast furnace burning wood with coal, that's incorrect, a blast furnace cannot burn wood. "
+				""
+				"To buildthe Flywheen Engine, you first choose your preferred furnace. Place it and then with the Flywheel Engine on hand, right-click on your furnace of choice to combite them. After that, grab a Flywheel Component and place it 1 block away from the side extruding from the furnace. Now depending on the furnace of you chose, let's say a blast furnace, just place some wood as fuel, some iron ores and as it starts smelting the ore into ingots, it generates rotational power"
+				""
+				"You can automate the process with the help of Hoppers"
+			]
+			id: "5ABA837830F22CFC"
+			rewards: [{
+				id: "215DC5A5524AE50D"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "795F1BFC6E8CAA88"
+					item: "create_dd:furnace_engine"
+					type: "item"
+				}
+				{
+					id: "617DA66FC1982B94"
+					item: "create_dd:flywheel"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B85045C6A699792"]
+			id: "090961C9921E1950"
+			rewards: [{
+				count: 2
+				id: "3202C65737CAD819"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "faster saw can bulk process"
+			tasks: [{
+				id: "4274CDD8D16DB72F"
+				item: "create_dd:bronze_saw"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B85045C6A699792"]
+			id: "32DCDF3EDBE6544E"
+			rewards: [{
+				count: 2
+				id: "6FB8D58B9CFADB99"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "faster drill"
+			tasks: [{
+				id: "4E6C5BA71AE8C784"
+				item: "create_dd:bronze_drill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6135016A83A473F6"]
+			id: "7B85045C6A699792"
+			rewards: [{
+				count: 2
+				id: "6C0D74ADE8CE66FA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1813FE14120ED18E"
+				item: "create_dd:bronze_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CB16315943406FD"]
+			id: "6D1EA003AA96BFEF"
+			tasks: [{
+				id: "654773DBEBB42A02"
+				item: "create_confectionery:candy_cane_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["08847873D33F4388"]
+			description: ["Horizontal fluid tanks! Work on trains, work as boilers, and feature multiple window shapes."]
+			id: "0899D56FE2572D21"
+			rewards: [{
+				count: 2
+				id: "5671AB37EEA1F785"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "670DDEB21EB2689A"
+				item: "create_connected:fluid_vessel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
 		}
 	]
 	title: "&aCreate 101 - Guidebook"

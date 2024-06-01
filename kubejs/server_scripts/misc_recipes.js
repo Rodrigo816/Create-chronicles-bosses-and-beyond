@@ -20,9 +20,8 @@ ServerEvents.recipes(event => {
 
   // Netherrack
   let transitional = 'kubejs:incomplete_netherrack'
-  event.recipes.createSequencedAssembly('4x minecraft:netherrack', 'twilightforest:deadrock', [
+  event.recipes.createSequencedAssembly('1x minecraft:netherrack', 'twilightforest:deadrock', [
     event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:soul']),
-    event.recipes.createDeploying(transitional, [transitional, 'create_things_and_misc:crushed_magma']),
     event.recipes.createDeploying(transitional, [transitional, 'minecraft:nether_wart']),
   ]).transitionalItem(transitional)
     .loops(1)

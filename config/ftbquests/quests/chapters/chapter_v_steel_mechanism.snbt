@@ -4,7 +4,7 @@
 	filename: "chapter_v_steel_mechanism"
 	group: "5237AEA7260D740E"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "tfmg:steel_mechanism"
 		tag: {
 			Enchantments: [{ }]
@@ -13,12 +13,8 @@
 	id: "38FE3E0C86FF237B"
 	images: [{
 		alpha: 200
-		click: ""
 		color: 16672790
-		corner: false
-		dev: false
 		height: 1.2d
-		hover: [ ]
 		image: "chalk:block/mark/arrow"
 		rotation: 180.0d
 		width: 1.2d
@@ -388,7 +384,7 @@
 				{
 					count: 8L
 					id: "6D060A1C93359038"
-					item: { Count: 8b, id: "tfmg:fireproof_brick_reinforcement" }
+					item: { Count: 8, id: "tfmg:fireproof_brick_reinforcement" }
 					type: "item"
 				}
 				{
@@ -576,7 +572,7 @@
 			tasks: [{
 				id: "102F142498C5F88D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tfmg:screwdriver"
 					tag: {
 						Damage: 0
