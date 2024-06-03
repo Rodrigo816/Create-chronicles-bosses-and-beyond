@@ -1,7 +1,33 @@
 
 ServerEvents.recipes(event => { 
+  
+  // spellsbooks
+  event.replaceInput({id:'irons_spellbooks:netherite_spell_book'}, 'irons_spellbooks:blood_vial', 'alexscaves:pure_darkness')
+  event.replaceInput({id:'irons_spellbooks:dragonskin_spell_book'}, 'minecraft:obsidian', 'twilightforest:magic_beans')
 
+  // jar ice and fire vs utrem jar forbbiden arcanus
+  event.replaceInput({id:'iceandfire:jar_empty'}, '#minecraft:planks', 'granite_slab')
+
+  // epic samurai
+  event.replaceInput({mod:'epicsamurai'}, '#forge:ingots/steel', 'tfmg:cast_iron_ingot')
+
+  // andesite sheet
+  event.remove({output: 'createdeco:andesite_sheet'});
+  event.replaceInput({}, 'createdeco:andesite_sheet', 'create_dd:andesite_sheet');
+
+
+  event.remove({output: 'ad_astra:steel_nugget'});
+  event.replaceInput({}, 'ad_astra:steel_nugget', 'create_dd:steel_nugget');
+  event.remove({output: 'epicsamurai:steel_nugget'});
+  event.replaceInput({}, 'picsamurai:steel_nugget', 'create_dd:steel_nugget');
+
+
+  // CORAIL STUFF
+  event.remove({mod: 'tombstone'});
+  event.remove({type: 'minecraft:brewing', mod: 'tombstone'}); 
+  event.remove({type: 'minecraft:smelting', mod: 'tombstone'});
     
+  
   event.replaceInput({}, 'epic_samurai:silver_ore', 'iceandfire:silver_ore');
 
   event.remove({output: 'create_dd:industrial_iron_ingot'});
@@ -42,6 +68,4 @@ ServerEvents.recipes(event => {
 
   event.remove({output: 'create_confectionery:caramel_glazed_berries'});
   event.recipes.createFilling('create_confectionery:caramel_glazed_berries',  [Fluid.of("create_dd:caramel", 250), 'minecraft:sweet_berries'])
-
-
 })

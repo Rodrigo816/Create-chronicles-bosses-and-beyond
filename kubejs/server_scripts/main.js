@@ -72,10 +72,6 @@ ServerEvents.recipes(event => {
   event.recipes.createCrushing([
     Item.of(CRDD('potassic_cobble')).withChance(0.70),
     Item.of(CR('crushed_raw_silver')).withChance(0.20),
-    Item.of('enlightened_end:adamantite_nugget').withChance(0.70),
-    Item.of('enlightened_end:bismuth_nugget').withChance(0.70),
-    Item.of('enlightened_end:adamantite_nugget').withChance(0.50),
-    Item.of('enlightened_end:bismuth_nugget').withChance(0.50),
   ], CR('scoria'))
 /*
 ===============================
@@ -168,14 +164,11 @@ ServerEvents.recipes(event => {
       Item.of(CRA('rolling_mill'), 2),
       Item.of(CR('windmill_bearing'), 2),
       Item.of(CR('mechanical_bearing'), 2),
-      Item.of(CR('portable_storage_interface'), 1),
-      Item.of(CR('analog_lever'), 1),
+      Item.of(CR('portable_storage_interface'), 2),
+      Item.of(CR('analog_lever'), 2),
       Item.of(CRDD('reversed_gearshift'), 1),
       Item.of(CRDD('kinetic_motor'), 1),
       Item.of('create_connected:freewheel_clutch', 1),
-      Item.of(CRDD('kinetic_motor'), 1),
-
-
   ];
   const andesite_shapes = [
       //["thermal:drill_head", "create:mechanical_drill"],
@@ -231,15 +224,16 @@ ServerEvents.recipes(event => {
         Item.of(CR('steam_engine'), 1),
         Item.of(CR('copper_valve_handle'), 6),
         Item.of(CR('steam_whistle'), 4),
+        Item.of(CR('fluid_tank'), 2),
+        Item.of('create_connected:fluid_vessel', 2),
     ];
     const copper_shapes = [
         [MC('iron_bars'), CR('item_drain')],
         [MC('bucket'), CR('spout')],
-        [MC('glass'), CR('fluid_tank')],
         [MC('copper_block'), CR('copper_backtank')],
         [CRTM('sprinkler_head'), CRTM('sprinkler')],
         [MC('slime_block'), CRTM('sticky_launcher')],
-        [CRSA('copper_magnet'), CRSA('block_picker')],
+        //[CRSA('copper_magnet'), CRSA('block_picker')],
         [BS('pyrope_gem'), CRSA('copper_jetpack_chestplate')],
         [MC('emerald_block'), CRSA('copper_exoskeleton_chestplate')],
     ];
@@ -376,7 +370,6 @@ ServerEvents.recipes(event => {
     Item.of(CR('sequenced_gearshift'), 2),
     Item.of(CR('rotation_speed_controller'), 1),
     Item.of(CR('mechanical_arm'), 1),
-    Item.of(CR('stockpile_switch'), 2),
     Item.of(CR('content_observer'), 2),
     Item.of(CR('stockpile_switch'), 2),
     Item.of(CR('brass_funnel'), 4),
@@ -514,6 +507,18 @@ ServerEvents.recipes(event => {
   
     multicut(locomotive_machines_cutting, KJ('obsidian_machine'), true);
 
+  //adv wireless terminal
+  event.recipes.createMechanicalCrafting('toms_storage:ts.adv_wireless_terminal', [
+    'A',
+    'B',
+    'C',
+  ], {
+    A: KJ('locomotive_mechanism'),
+    B: 'toms_storage:ts.wireless_terminal',
+    C: MC('netherite_ingot'),
+  }) 
+
+
 
    
   /*
@@ -544,7 +549,6 @@ ServerEvents.recipes(event => {
     ]).transitionalItem(transitional)
       .loops(2)
       .id(TFMG('steel_mechanism'))
-    
 
 
 
@@ -553,7 +557,7 @@ ServerEvents.recipes(event => {
     ---->Chp 6 Rocket Fuel
     ==============================
   */
-  event.recipes.createMixing(Fluid.of(ASTRA('fuel'), 400),[Fluid.of(TFMG('diesel'), 700),Fluid.of(TFMG('kerosene'), 200),Fluid.of(CRA('bioethanol'), 400)]).superheated()
+  event.recipes.createMixing(Fluid.of(ASTRA('fuel'), 400),[Fluid.of(TFMG('diesel'), 700),Fluid.of(CRA('bioethanol'), 400)]).superheated()
 
   /*
     ===============================
@@ -561,56 +565,6 @@ ServerEvents.recipes(event => {
     ==============================
   */
 
-    transitional = MC('coal_block')
-    event.recipes.createSequencedAssembly([
-		KJ('mystic_coal_block'),
-	], MC('coal_block'), [
-		event.recipes.createDeploying(transitional, [transitional, 'forbidden_arcanus:arcane_crystal_dust']),
-		event.recipes.createDeploying(transitional, [transitional, MC('prismarine_crystals')]),
-    event.recipes.createDeploying(transitional, [transitional, MC('glow_ink_sac')]),
-	]).transitionalItem(transitional)
-		.loops(1)
-    event.recipes.createCrushing('9x '+KJ('dormant_dust_mystic_coal'), KJ('mystic_coal_block')).processingTime(500)
-    event.custom(
-        {
-            "type": TFMG('industrial_blasting'),
-            "ingredients": [
-              {
-                "count": 1,
-                "item": KJ('dormant_dust_mystic_coal')
-              }
-            ],
-            "processingTime": 320,
-            "results": [
-              {
-                "fluid": KJ('mystic_coal_liquid'),
-                "amount": 333
-              },
-              {
-                "fluid": TFMG('molten_slag'),
-                "amount": 65
-              }
-            ]
-        }
-	)
-    event.custom(
-        {
-            "type": TFMG('casting'),
-            "ingredients": [
-              {
-                "fluid": KJ('mystic_coal_liquid'),
-                "amount": 900
-              }
-            ],
-            "processingTime": 300,
-            "results": [
-              {
-                "count": 1,
-                "item": KJ('ingot_mystic_coal')
-              }
-            ]
-        }
-	)
     event.custom({
         "type": CRA('rolling'),
         "input": {
@@ -638,14 +592,13 @@ ServerEvents.recipes(event => {
    transitional = CRDD('incomplete_infernal_mechanism')
    event.recipes.createSequencedAssembly([
      Item.of(CRDD('infernal_mechanism')).withChance(100.0),
-     Item.of(KJ('rod_mystic_coal')).withChance(10.0),
-     Item.of(KJ('dormant_dust_mystic_coal')).withChance(5.0),
-     Item.of(CRTM('crushed_magma')).withChance(10.0),
-     Item.of(CR('cinder_flour')).withChance(10.0),
+     Item.of(KJ('rod_mystic_coal')).withChance(5.0),
+     Item.of(CRTM('crushed_magma')).withChance(5.0),
+     Item.of(CR('cinder_flour')).withChance(5.0),
    ], TFMG('steel_mechanism'), [
+     event.recipes.createFilling(transitional, [transitional,Fluid.of(TFMG('gasoline'), 25)]),
      event.recipes.createDeploying(transitional, [transitional, CRTM('crushed_magma')]),
      event.recipes.createDeploying(transitional, [transitional, CRDD('ember_alloy')]),
-     event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
      event.recipes.createPressing(transitional, transitional)
    ]).transitionalItem(transitional)
      .loops(2)
@@ -658,23 +611,26 @@ ServerEvents.recipes(event => {
     ==============================
   */
 
-    event.replaceInput(
-      { id: ASTRA('recipes/oxygen_loader') }, 
-      MC('redstone_block'),               
-      CRDD('infernal_mechanism')          
+  event.replaceInput(
+    { id: ASTRA('recipes/oxygen_loader') }, 
+    MC('redstone_block'),               
+    CRDD('infernal_mechanism')          
   )
-    // NASA pro
-    event.replaceInput(
-        { id: ASTRA('recipes/rocket_nose_cone') }, 
-        MC('lightning_rod'),               
-        FA('whirlwind_prism')         
-    )
 
-    event.replaceInput(
-      { id: ASTRA('recipes/steel_engine') }, 
-      '#forge:plates/steel',               
-      CRDD('infernal_mechanism')         
+  // NASA pro
+  event.replaceInput(
+    { id: ASTRA('recipes/rocket_nose_cone') }, 
+    MC('lightning_rod'),               
+    FA('whirlwind_prism')         
   )
+
+  event.replaceInput(
+    { id: ASTRA('recipes/steel_engine') }, 
+    '#forge:plates/steel',               
+    CRDD('infernal_mechanism')         
+  )
+
+
 
   // t1 plate
   transitional = CRDD('infernal_mechanism')
@@ -704,34 +660,49 @@ ServerEvents.recipes(event => {
         ], {
         F: ASTRA('rocket_fin'),
         T: ASTRA('steel_tank'),
-        R: TFMG('large_radial_engine'),
+        R: TFMG('radial_engine'),
         X: TFMG('turbine_engine'),
         E: ASTRA('steel_engine'),
-        B: KJ('tier_1_plating'),
+        B: KJ('tier_2_plating'),
         S: '#create:seats',
         N: ASTRA('rocket_nose_cone')
-       
-        })
-      /*  event.recipes.createMechanicalCrafting('ad_astra:tier_2_rocket', [
-        '   N   ',
-        '  BBB  ',
-        '  BCB  ',
-        '  BGB  ',
-        '  BSB  ',
-        '  BWB  ',
-        ' FTBTF ',
-        ' F E F ',
-        ], {
-        F: 'ad_astra:rocket_fin',
-        E: 'ad_astra:desh_engine',
-        T: 'ad_astra:desh_tank',
-        B: 'kubejs:tier_2_plating',
-        C: 'ad_astra:vent',
-        S: '#create:seats',
-        G: '#forge:glass',
-        W: 'kubejs:guidance_mechanism',
-        N: 'ad_astra:rocket_nose_cone'
-        })
+      })
+
+
+    // t2 plate
+    // skystone bust + algumas coisas via mixing para dar o ingot desh //moonstone
+    /*transitional = KJ('tier_1_plating')
+    event.recipes.createSequencedAssembly([
+      KJ('tier_2_plating')
+    ], KJ('tier_1_plating'), [
+      event.recipes.createDeploying(transitional, [transitional, ASTRA('cheese')]),
+      event.recipes.createDeploying(transitional, [transitional, ASTRA('desh_plate')]),
+      event.recipes.createPressing(transitional, transitional)
+    ]).transitionalItem(transitional)
+      .loops(2)
+      .id(KJ('tier_2_plating'))*/
+
+/*      event.recipes.createMechanicalCrafting('ad_astra:tier_2_rocket', [
+          '   N   ',
+          '  BBB  ',
+          '  BCB  ',
+          '  BGB  ',
+          '  BSB  ',
+          '  BWB  ',
+          ' FTBTF ',
+          ' F E F ',
+          ], {
+          F: 'ad_astra:rocket_fin',
+          E: 'ad_astra:desh_engine',
+          T: 'ad_astra:desh_tank',
+          B: 'kubejs:tier_2_plating',
+          C: 'ad_astra:vent',
+          S: '#create:seats',
+          G: '#forge:glass',
+          W: 'kubejs:guidance_mechanism',
+          N: 'ad_astra:rocket_nose_cone'
+      })*/
+      /* 
         event.recipes.createMechanicalCrafting('ad_astra:tier_3_rocket', [
         '   N   ',
         '  BBB  ',
@@ -954,9 +925,6 @@ ServerEvents.recipes(event => {
     AE2('printed_engineering_processor')
   ], CRDD('integrated_circuit'), [
     event.recipes.createDeploying(transitional, [transitional, MC('diamond')]),
-    event.recipes.createDeploying(transitional, [transitional, CRA('diamond_grit')]),
-    event.recipes.createDeploying(transitional, [transitional, CRA('diamond_grit')]),
-    event.recipes.createDeploying(transitional, [transitional, CRA('diamond_grit')]),
     event.recipes.createDeploying(transitional, [transitional, AE2('engineering_processor_press')]).keepHeldItem(),
     event.recipes.createPressing(transitional, transitional)
   ]).transitionalItem(transitional)

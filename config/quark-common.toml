@@ -227,6 +227,11 @@
 		#Note that ropes will still use the same blacklist.
 		"Force Enable Move Tile Entities" = false
 		"Enable Dispenser Behavior" = true
+		#This feature disables itself if any of the following mods are loaded:
+		# - supplementaries
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[building.thatch]
 		#Allowed values: [0,1]
@@ -242,6 +247,7 @@
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -261,6 +267,7 @@
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -549,6 +556,7 @@
 	"Zombie Villagers On Normal" = true
 	"Magma Keeps Concrete Powder" = true
 	"Petals On Water" = true
+	"Beach Villagers" = true
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
@@ -1114,14 +1122,6 @@
 		[world.fairy_rings.dimensions]
 			"Is Blacklist" = false
 			Dimensions = ["minecraft:overworld"]
-
-	[world.glimmering_weald]
-		#Experimental, dont change if you dont know what you are doing. Depth min value from which biome will spawn. Decreasing will make biome appear more often
-		#Allowed values: [-2,2]
-		"Min Depth Range" = 1.5499999523162842
-		#Experimental, dont change if you dont know what you are doing. Depth max value until which biome will spawn. Increasing will make biome appear more often
-		#Allowed values: [-2,2]
-		"Max Weirdness Range" = 2.0
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk. 0 is 0%, 1 is 100%
@@ -1830,11 +1830,21 @@
 	[oddities.magnets]
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable
 		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore"]
-		#Block IDs to force-allow magnetism on, regardless of their crafting recipe
+		#Block/Item IDs to force-allow magnetism on, regardless of their crafting recipe
 		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
-		#Block IDs to force-disable magnetism on, regardless of their crafting recipe
+		#Block/Item IDs to force-disable magnetism on, regardless of their crafting recipe
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
 		"Use Pre End Recipe" = false
+		#Makes magnet particles use the old green color
+		"Green Magnet Particles" = false
+		#Allows magnets to push and pull entities in the 'affected_by_magnets' tag (edit it with datapack). Turning off can reduce lag
+		"Affect Entities" = true
+		#Allows magnets to push and pull entities having magnetic armor. Requires 'magnetic_entities' config ON
+		"Affects Armor" = true
+		#Determines how fast entities are pulled by magnets. Still follows the inverse square law
+		"Entities Pull Force" = 0.15000000596046448
+		#Stonecutters pulled by magnets will silk touch the blocks they cut.
+		"Stone Cutter Silk Touch" = true
 
 	[oddities.matrix_enchanting]
 		#The maximum enchanting power the matrix enchanter can accept

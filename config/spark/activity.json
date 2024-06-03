@@ -1,15 +1,1 @@
-[
-  {
-    "user": {
-      "type": "player",
-      "name": "Volumia",
-      "uniqueId": "e5c5a8fc-739c-415d-ba8b-2591614e30fb"
-    },
-    "time": 1709071263231,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/wYOEiRP7uV"
-    }
-  }
-]
+[]

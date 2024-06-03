@@ -1,23 +1,192 @@
 {
-	default_hide_dependency_lines: true
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_end"
 	group: "13742BAAC673A80E"
 	icon: "minecraft:dragon_head"
 	id: "53FAA75157389DE5"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 9.0d
-		hover: [ ]
-		image: "kubejs:textures/enderportal.png"
-		rotation: 0.0d
-		width: 9.0d
-		x: -1.0d
-		y: -2.0d
-	}]
-	order_index: 3
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/portal_barrier"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 5.0d
+			image: "ars_nouveau:block/mana_still"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			alpha: 200
+			color: 16672790
+			height: 1.2d
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: -1.0d
+			y: -7.5d
+		}
+	]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -41,7 +210,7 @@
 			tasks: [{
 				id: "1A729831B2C6D804"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:black_eye"
 					tag: {
 						Damage: 0
@@ -50,7 +219,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -73,7 +242,7 @@
 			tasks: [{
 				id: "3C6A1B486768BB94"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:cold_eye"
 					tag: {
 						Damage: 0
@@ -81,8 +250,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: -2.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -105,7 +274,7 @@
 			tasks: [{
 				id: "1EBBF31125F4D187"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:corrupted_eye"
 					tag: {
 						Damage: 0
@@ -113,8 +282,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -3.0d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -137,7 +306,7 @@
 			tasks: [{
 				id: "74DD9F7281936F2E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:lost_eye"
 					tag: {
 						Damage: 0
@@ -145,8 +314,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.5d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -169,7 +338,7 @@
 			tasks: [{
 				id: "2EBD7434762970D0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:nether_eye"
 					tag: {
 						Damage: 0
@@ -178,8 +347,8 @@
 				type: "item"
 			}]
 			title: "Nether Eye"
-			x: 1.5d
-			y: -1.0d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -202,7 +371,7 @@
 			tasks: [{
 				id: "20C9F4D0C3D85835"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:old_eye"
 					tag: {
 						Damage: 0
@@ -210,8 +379,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -234,7 +403,7 @@
 			tasks: [{
 				id: "6B27D02922CBE257"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:rogue_eye"
 					tag: {
 						Damage: 0
@@ -242,8 +411,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -266,7 +435,7 @@
 			tasks: [{
 				id: "2560EE369A9298B7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:cursed_eye"
 					tag: {
 						Damage: 0
@@ -274,8 +443,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -298,7 +467,7 @@
 			tasks: [{
 				id: "0EED6B0CA7E5C945"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:evil_eye"
 					tag: {
 						Damage: 0
@@ -306,8 +475,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.5d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -330,7 +499,7 @@
 			tasks: [{
 				id: "0851A0649877E349"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:guardian_eye"
 					tag: {
 						Damage: 0
@@ -338,8 +507,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.0d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -362,7 +531,7 @@
 			tasks: [{
 				id: "0C82B40849F15F55"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:magical_eye"
 					tag: {
 						Damage: 0
@@ -370,8 +539,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -394,7 +563,7 @@
 			tasks: [{
 				id: "287BB9E7276751F7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:wither_eye"
 					tag: {
 						Damage: 0
@@ -402,7 +571,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -426,7 +595,7 @@
 			tasks: [{
 				id: "7DA4E17AB988FAD8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:witch_eye"
 					tag: {
 						Damage: 0
@@ -434,8 +603,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: 0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -458,7 +627,7 @@
 			tasks: [{
 				id: "20A121DA1AC34CD3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:undead_eye"
 					tag: {
 						Damage: 0
@@ -466,7 +635,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -490,7 +659,7 @@
 			tasks: [{
 				id: "4542CE1355D29B3B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:exotic_eye"
 					tag: {
 						Damage: 0
@@ -499,7 +668,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
@@ -518,11 +687,11 @@
 					type: "item"
 				}
 			]
-			subtitle: "ave a small chance to get it when enchanting"
+			subtitle: "small chance to get it when enchanting"
 			tasks: [{
 				id: "6D134B2D3A3BE8AA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:cryptic_eye"
 					tag: {
 						Damage: 0
@@ -530,8 +699,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.5d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["123D70CA4959F172"]
@@ -596,6 +765,289 @@
 			title: "Enter &ethe end&f"
 			x: -1.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["401AFF46C83AAEB8"]
+			dependency_requirement: "all_started"
+			description: [
+				"The &5ender dragon&r is a giant flying hostile boss mob found when first entering &5the End&r. It is the largest naturally spawning mob in the game. "
+				""
+				"It guards access to the end gateways that provide entry to the outer end islands in addition to the exit portal that allows return to the &2Overworld&r as well as access to the end credits of Minecraft. "
+				""
+				"Its attacks involve charging at the player and its unique dragon acid attacks."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Players can &bre-summon&r the dragon by placing four end crystals on the edges of the exit portal, one on each side. "
+				""
+				"When it is re-summoned, the four end crystals point to the tops of each pillar setting off a series of explosions that resets the obsidian pillars, iron bars, and end crystals."
+			]
+			icon: "minecraft:dragon_head"
+			id: "4B630597BCFA97AC"
+			rewards: [
+				{
+					id: "72ACDA77FC12D983"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6E205092C9A3D220"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "432F4520E99A0F94"
+				title: "Kill The Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09C33BB3342632B4"]
+			id: "401AFF46C83AAEB8"
+			rewards: [{
+				id: "264B01D022391CBA"
+				item: "create_sa:heap_of_experience"
+				type: "item"
+			}]
+			subtitle: "Collect Dragon's Breath in a Glass Bottle."
+			tasks: [{
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+				id: "7C1BC5069A6D0A4D"
+				type: "advancement"
+			}]
+			title: "You Need a Mint!"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B630597BCFA97AC"]
+			description: ["Warm that new dragon egg by the fire."]
+			icon: "minecraft:dragon_egg"
+			id: "59B3E2C267D8B567"
+			rewards: [
+				{
+					id: "11471F5EDC137FFA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0EA1EBB6868536B9"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hold the Dragon Egg"
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				id: "241749A7DC2B998B"
+				type: "advancement"
+			}]
+			title: "Obtain a Dragon Egg"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B630597BCFA97AC"]
+			description: ["&nYou can make a copy&r with dragon scale."]
+			id: "597F01E378266CC3"
+			optional: true
+			rewards: [
+				{
+					id: "19B07BE7D8CE1CB6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 164
+					id: "4E22CA0F6FA5207C"
+					item: {
+						Count: 1
+						id: "minecraft:firework_rocket"
+						tag: {
+							Fireworks: {
+								Flight: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E2090C85E94AC4E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "To be found in End Cities with ship!"
+			tasks: [{
+				id: "7A9B3ECE0B875213"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["597F01E378266CC3"]
+			id: "36883441EF93976F"
+			optional: true
+			rewards: [{
+				id: "4513341E157C3D34"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Better Elytra!"
+			tasks: [{
+				id: "7C36BE09B248BC10"
+				item: {
+					Count: 1
+					id: "alexsmobs:tarantula_hawk_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4B630597BCFA97AC"]
+			id: "2699917C42D48985"
+			optional: true
+			rewards: [
+				{
+					id: "2A7A791BDA578792"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "78033C5D22F0E8B0"
+					item: "create_dd:experience_ingot"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "3D26323A716B4E83"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "where it leads?"
+			tasks: [{
+				id: "27A979724FD5C041"
+				item: {
+					Count: 1
+					id: "alexsmobs:dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B630597BCFA97AC"]
+			description: ["Throw an ender pearl at the tip of a &5Myalite Crystal&r and travel through it. "]
+			id: "71482AB41A355486"
+			rewards: [
+				{
+					count: 8
+					id: "6FBDF9A15234D299"
+					item: "quark:myalite_crystal"
+					type: "item"
+				}
+				{
+					id: "332AB45B7DCCC18D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6E58067A323AF966"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "If you can..."
+			tasks: [{
+				advancement: "quark:use_viaduct"
+				criterion: ""
+				id: "209658AE50E28B2A"
+				type: "advancement"
+			}]
+			title: "Chase Me!"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["597F01E378266CC3"]
+			id: "112F3359CF96132C"
+			rewards: [{
+				id: "3CBBCE91FFC9C7D6"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Better Elytra!"
+			tasks: [{
+				id: "1D41115CFB8110E4"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["597F01E378266CC3"]
+			id: "74AD39A0B9CB46CF"
+			rewards: [{
+				id: "41C1ECC7B2E1DE29"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Better Elytra!"
+			tasks: [{
+				id: "63D2DF9115587C17"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
 		}
 	]
 	title: "&eThe End"

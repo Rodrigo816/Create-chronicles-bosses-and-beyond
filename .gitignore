@@ -25,9 +25,12 @@ config/jei
 /mods/BetterTags*
 /config/bettertags*
 /.mixin.out
+/screenshots/
+/immersive_paintings_cache/
 
 
 # files
+cherishedworlds-favorites.dat
 .curseclient
 usernamecache.json
 usercache.json

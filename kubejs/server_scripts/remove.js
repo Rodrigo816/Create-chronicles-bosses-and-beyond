@@ -28,7 +28,11 @@ ServerEvents.recipes(event => {
 
     //Remove by recipe ID
     [
+        'ars_nouveau:glyph_animate_block',
+        'ars_nouveau:burst',
         'twilightforest:uncrafting_table',
+        'explorerscompass:explorers_compass',
+        IS('wayward_compass'),
          //Chapter 1
         ASTRA('recipes/hammering/iron_plate'),
         CR('crafting/materials/andesite_alloy_from_zinc'),
@@ -51,6 +55,7 @@ ServerEvents.recipes(event => {
         CR('sequenced_assembly/precision_mechanism'),
         CRDD('sequenced_assembly/inductive_mechanism'),
         CRDD('sequenced_assembly/logistic_mechanism'),
+        CRSA('block_picker'),
 
         // Locomotive
         'alexscaves:metal_rebar',
@@ -66,6 +71,7 @@ ServerEvents.recipes(event => {
 
         // Oil
         TFMG('sequenced_assembly/aluminum_ingot'),
+        'toms_storage:adv_wireless_terminal',
         // Soul Sand Procesing
         CR('haunting/soul_sand'),
         ARS('conjuration_essence_to_soul_sand'),
@@ -92,6 +98,11 @@ ServerEvents.recipes(event => {
        ASTRA('nasa_workbench/tier_3_rocket'),
        ASTRA('nasa_workbench/tier_4_rocket'),
        ASTRA('recipes/compressor'),
+       ASTRA('recipes/space_helmet'),
+       ASTRA('recipes/space_suit'),
+       ASTRA('recipes/space_pants'),
+       ASTRA('recipes/space_boots'),
+       //
 
        // CHP9
        AE2('transform/entangled_singularity_from_pearl'),
@@ -111,6 +122,9 @@ ServerEvents.recipes(event => {
        // AE2
        AE2('transform/fluix_crystals'),
        AE2('transform/fluix_crystal'),
+       AE2('charger/guide'),
+       AE2('charger/meteorite_compass'),
+       AE2('charger/charged_certus_quartz_crystal'),
        CR('compat/ae2/milling/sky_stone_block'),
 
        CR('fil_minecraft_bucket_with_create_dd_hot_chocolate'),
@@ -206,10 +220,9 @@ ServerEvents.recipes(event => {
          AE2('growth_accelerator'),
          'waystones:warp_dust',
          ASTRA('coal_generator'),
-         ASTRA('desh_fluid_pipe'),
-         ASTRA('ostrum_fluid_pipe'),
          ASTRA('fuel_refinery'),
          AE2('condenser'),
+         AE2('charger'),
          'moped:tiny_copper_moped_item',
          'aquamirae:divider',
          'aquamirae:terrible_sword',

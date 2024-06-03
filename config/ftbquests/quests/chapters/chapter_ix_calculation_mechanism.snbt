@@ -4,7 +4,7 @@
 	filename: "chapter_ix_calculation_mechanism"
 	group: "5237AEA7260D740E"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "create_dd:calculation_mechanism"
 		tag: {
 			Enchantments: [{ }]
@@ -13,19 +13,15 @@
 	id: "6183184A27691A5F"
 	images: [{
 		alpha: 200
-		click: ""
 		color: 16672790
-		corner: false
-		dev: false
 		height: 1.2d
-		hover: [ ]
 		image: "chalk:block/mark/arrow"
 		rotation: 180.0d
 		width: 1.2d
 		x: 9.0d
 		y: 4.0d
 	}]
-	order_index: 8
+	order_index: 9
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

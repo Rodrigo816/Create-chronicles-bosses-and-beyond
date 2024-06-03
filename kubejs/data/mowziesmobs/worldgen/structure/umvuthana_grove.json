@@ -1,0 +1,10 @@
+{
+  "type": "mowziesmobs:umvuthana_grove",
+  "biomes": [
+    "ad_astra:martian_wastelands",
+    "ad_astra:martian_canyon_creek"
+  ],
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin"
+}

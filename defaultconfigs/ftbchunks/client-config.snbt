@@ -3,6 +3,10 @@
 
 { 
   minimap: {
-    enabled: false
+    enabled: true
+    font_scale: 0.4d
+    scale: 0.9d
+		zoom: 1.0d
+    square: true
   }
 }

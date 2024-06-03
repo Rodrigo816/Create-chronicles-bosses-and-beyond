@@ -4,7 +4,7 @@
 	filename: "chapter_vii_infernal_mechanism"
 	group: "5237AEA7260D740E"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "create_dd:infernal_mechanism"
 		tag: {
 			Enchantments: [{ }]
@@ -13,19 +13,15 @@
 	id: "20497405FCFCFADA"
 	images: [{
 		alpha: 200
-		click: ""
 		color: 16672790
-		corner: false
-		dev: false
 		height: 1.2d
-		hover: [ ]
 		image: "chalk:block/mark/arrow"
 		rotation: 180.0d
 		width: 1.2d
 		x: 9.0d
 		y: -10.0d
 	}]
-	order_index: 6
+	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -52,7 +48,6 @@
 				item: "minecraft:coal_block"
 				type: "item"
 			}]
-			title: "OPTIONAL"
 			x: 9.0d
 			y: -7.0d
 		}
@@ -64,6 +59,11 @@
 				"0179452F07812322"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"Please visit &6magic chapter Ars Nouveau&r to learn how to use &cEnchanting Apparatus&r"
+				""
+				"{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3D862A3D3F83CA26\" } }"
+			]
 			id: "5690FCED46349207"
 			tasks: [{
 				id: "6F136A019E348CD4"
@@ -87,7 +87,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C52531E3B0CCB60"]
@@ -98,45 +98,24 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5690FCED46349207"]
-			id: "440BB8DB69B930F5"
-			tasks: [{
-				id: "6DA15926138E55D1"
-				item: "kubejs:dormant_dust_mystic_coal"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -3.5d
-		}
-		{
-			dependencies: [
-				"2D42E5A8299941E1"
-				"440BB8DB69B930F5"
+			description: [
+				"You will need a special furnace to convert the block into an ingot: a &4Clibano Furnace&r from &6Forbidden Arcanus.&r"
+				""
+				""
+				"{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1DB562D431DB8D96\" } }"
 			]
-			id: "2D2E2028EBB92BF6"
-			subtitle: "Industrial Blasting"
-			tasks: [{
-				id: "61ACAD180F4BF9F0"
-				item: "kubejs:mystic_coal_liquid_bucket"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2D2E2028EBB92BF6"]
 			id: "466F43B18F0D1B7E"
-			subtitle: "Casting"
 			tasks: [{
 				id: "54052EC191B72E3C"
 				item: "kubejs:ingot_mystic_coal"
 				type: "item"
 			}]
 			x: 9.0d
-			y: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["466F43B18F0D1B7E"]
@@ -148,7 +127,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
@@ -161,7 +140,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0706D3B957259D7B"]
@@ -200,7 +179,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["312D4E8EBE475538"]
@@ -227,6 +206,11 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
+			description: [
+				"Nipas can be found in &2&n&aPrimordial Caves from Alex's Caves&r&r&r, so keep your eyes open—they are rare to find."
+				""
+				"{ \"text\": \"☞ Click here to learn more\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"260F19B468957BCD\" } }"
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "312D4E8EBE475538"
@@ -263,7 +247,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 11.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["438AFB85E4605DF6"]
@@ -273,8 +257,8 @@
 				item: "create_things_and_misc:crushed_magma"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.0d
+			x: 11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
@@ -282,25 +266,12 @@
 			hide_dependency_lines: true
 			id: "7F5486A6318789B5"
 			tasks: [{
-				id: "5525D9787719CB17"
-				item: "minecraft:lava_bucket"
+				id: "3CCF81064E6397BE"
+				item: "tfmg:gasoline_bucket"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
-			id: "2D42E5A8299941E1"
-			tasks: [{
-				id: "1E3E6BF49B227CEF"
-				item: "tfmg:coal_coke_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -319,7 +290,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
@@ -331,8 +302,8 @@
 				item: "minecraft:magma_block"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 4.5d
+			x: 11.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
@@ -362,6 +333,7 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7739373308A83503\" } }"]
 			hide: true
 			hide_dependency_lines: true
 			id: "453F0E5926BA4AB1"
@@ -372,7 +344,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
@@ -385,7 +357,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 1.5d
+			y: -1.5d
 		}
 	]
 	title: "Chapter VII: Infernal Mechanism"

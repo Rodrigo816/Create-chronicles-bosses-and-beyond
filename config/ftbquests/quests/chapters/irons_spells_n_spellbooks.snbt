@@ -1,0 +1,2446 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells_n_spellbooks"
+	group: "1FA30C6751C69E7A"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:dragonskin_spell_book"
+		tag: {
+			ISB_Spells: {
+				data: [ ]
+				maxSpells: 12
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "19BE083ACF488E0F"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "2B524B4891820A07"
+			rewards: [
+				{
+					id: "7CF2B20DED9809D0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "73C9255E5EA60E19"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "46E6407492DB7FA0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 8
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "4799E956A4E85D39"
+			rewards: [
+				{
+					id: "15B47C439D55B7BD"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "13E774A285AFC490"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "399AC774760713FE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 6
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "5C38AF82CEFB8015"
+			rewards: [
+				{
+					id: "18DA1951B4455C19"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55F2D250239B48D3"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Rare random world loot."
+			tasks: [{
+				id: "68B5A894CEE8D8D2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 3
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "0976D8BCAFC42400"
+			rewards: [
+				{
+					count: 2
+					id: "7A61E34EB1270F7D"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6C4E7EFDF98DC038"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0C566B1657F7498D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -18.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3E6E9C53FBE836FB"]
+			description: ["Runestones are a more rare find in magical structures, and are always found as blank runestones. Using 8 focuses, you can craft a runestone to a specific school, and use your inscribed runestone to craft gear related to that school."]
+			id: "704435187B4BD245"
+			rewards: [
+				{
+					id: "25663118827DD06F"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4342C413B2DA20BB"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "76B6CB1733A91A21"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			title: "Obtain a &bBlank Runestone"
+			x: -15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "6073AB1A816E845F"
+			rewards: [
+				{
+					id: "0034A244FC33F34F"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6207A1E5E73D5697"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &4fire&r. Increased &4fire spell power&r or &4armor&r."
+			tasks: [
+				{
+					id: "29EE3AB26C3A5F23"
+					item: "irons_spellbooks:fire_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0F1EB600ADB01BAB"
+					item: { Count: 8, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			title: "Craft a &bFire Rune"
+			x: -15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "3D0F9F9B2B945E7A"
+			rewards: [
+				{
+					id: "75E4B72C513FD604"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7F9FEB1D240BCCE5"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &bfrost&r. Increased &bfrost spell power&r or &barmor&r."
+			tasks: [
+				{
+					id: "169AACD09A8634F3"
+					item: "irons_spellbooks:ice_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3AD71C6EC344C7F7"
+					item: { Count: 8, id: "irons_spellbooks:frozen_bone" }
+					type: "item"
+				}
+			]
+			title: "Craft an &bIce Rune"
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "1C60254EAE960673"
+			rewards: [
+				{
+					id: "6CCBD2F0454E4667"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2BB957A17B956525"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &blightning&r. Increased &blightning spell power&r or &barmor&r."
+			tasks: [
+				{
+					id: "3EA6DDAC7FE1FBDE"
+					item: "irons_spellbooks:lightning_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0F674C309D3A8C43"
+					item: { Count: 8, id: "irons_spellbooks:lightning_bottle" }
+					type: "item"
+				}
+			]
+			title: "Craft a&b Lightning Rune"
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "43B06E3FFE5FE8EB"
+			rewards: [
+				{
+					id: "027674F4278656E4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68033161AB1FA993"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of the &8shadows&r. Increased &8shadow magic spell power&r or &8armor&r."
+			tasks: [
+				{
+					id: "35BA3FA71D4732D5"
+					item: "irons_spellbooks:ender_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "21A043BCF2CAD62B"
+					item: { Count: 8, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			title: "Craft an &bEnder Rune"
+			x: -18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			id: "66630803C9EA0DEA"
+			rewards: [
+				{
+					id: "7DB9498E96F125FD"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "597B767984D47C7D"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: +3% Holy Spell Power"
+			tasks: [
+				{
+					id: "66F408FE1245070A"
+					item: "irons_spellbooks:holy_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "614E0C8B117B252A"
+					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+			]
+			title: "Craft a &bHoly Rune"
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "12506A200E56E7E9"
+			rewards: [
+				{
+					id: "48C36084EB968D04"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5D8ADD9C3B8D7DB4"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &cblood&r. Increased &cblood spell power&r or &carmor&r."
+			tasks: [
+				{
+					id: "4EB5D19837656068"
+					item: "irons_spellbooks:blood_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "372146ACB33443BD"
+					item: { Count: 8, id: "irons_spellbooks:blood_vial" }
+					type: "item"
+				}
+			]
+			title: "Craft&b Blood Rune"
+			x: -16.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "2E4D0196673FCE5A"
+			rewards: [
+				{
+					id: "30C9352D449F8712"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3914BAEA59D088EA"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &aevocation&r. Increased &aevocation magic spell power&r or &aarmor&r."
+			tasks: [
+				{
+					id: "2309D4CB01927EE9"
+					item: "irons_spellbooks:evocation_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "00D75629FAB50D6B"
+					item: { Count: 8, id: "minecraft:emerald" }
+					type: "item"
+				}
+			]
+			title: "Craft an &bEvocation Rune"
+			x: -18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			id: "30378E9E82826E3A"
+			rewards: [
+				{
+					id: "5DA6A630E2DC8BCE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1EA720B8BED1DE1D"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Need more mana? This is needed for that upgrade."
+			tasks: [
+				{
+					id: "671257C95B1A1228"
+					item: "irons_spellbooks:arcane_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4FCD6A1260A5682F"
+					item: { Count: 8, id: "irons_spellbooks:arcane_essence" }
+					type: "item"
+				}
+			]
+			title: "Craft an &bArcane Rune"
+			x: -18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			id: "52E5DCC3089180F3"
+			rewards: [
+				{
+					id: "501CAE4C83E42C8B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "53C69578F6133A5A"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Sometimes you can't wait, reduce the cool-down. "
+			tasks: [
+				{
+					id: "77251D2620D15A71"
+					item: "irons_spellbooks:cooldown_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0719E0E11F207196"
+					item: { Count: 8, id: "minecraft:phantom_membrane" }
+					type: "item"
+				}
+			]
+			title: "Craft a &bRecovery Rune"
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			id: "17C649AD8C23444B"
+			rewards: [
+				{
+					id: "290176BF3FFEC524"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1106BDA3CD75A5AF"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Useful for spell resistance. "
+			tasks: [
+				{
+					id: "38444B55BC8317E5"
+					item: "irons_spellbooks:protection_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "60BA73AA9C7F6860"
+					item: { Count: 8, id: "minecraft:pufferfish" }
+					type: "item"
+				}
+			]
+			title: "Craft a &bProtective Rune"
+			x: -16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "5EC30214D9EE2A0C"
+			rewards: [
+				{
+					id: "27CC88A66C917949"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6CEFAC79DFC8BA3A"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &anature&r. Increased &anature spell power&r or &aarmor&r."
+			tasks: [
+				{
+					id: "4E4A7A84F888B67D"
+					item: "irons_spellbooks:nature_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "278B094BB42173B4"
+					item: { Count: 8, id: "minecraft:poisonous_potato" }
+					type: "item"
+				}
+			]
+			title: "Craft a&b Nature Rune"
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6073AB1A816E845F"]
+			id: "07E12DA2B3EC76D1"
+			rewards: [
+				{
+					id: "24FE7614AEC4D5CA"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6C50C26D4275C7A6"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "38C066F8D63DB439"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AA6A1DF0D770836"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "675D8EF9480C3CD8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "337E6D8716DF102B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &bPyromancer Armor Set"
+			x: -15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C60254EAE960673"]
+			id: "4BC65D4005C17D9F"
+			rewards: [
+				{
+					id: "4C1F66A44723387D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "31F0D4878DF0E260"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Just a spark."
+			tasks: [
+				{
+					id: "0E5E6E6EA3FDC02F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21B60A26124F794C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1578F2E1F8683C55"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60B7DD33A066F391"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft an&b Electromancer Armor Set"
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E4D0196673FCE5A"]
+			id: "56F1F049F20B29A7"
+			rewards: [
+				{
+					id: "0F18ECD69C754EA3"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3334BEB3BF79371C"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "5ECC6124C1281C36"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "222E06138BF9D788"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FA865BBC36599A2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "256787BE26305504"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft an &bArchevoker Armor Set"
+			x: -19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["12506A200E56E7E9"]
+			id: "1C267CC53FD04C88"
+			rewards: [
+				{
+					id: "567F119F6EBCD2E1"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0694D207A72B5125"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "794BB27EE7FAF913"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C5DCEE093B3A31D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F79DA30FF601DE9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "234FB27E4F9190B7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &bCultist Armor Set"
+			x: -16.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3D0F9F9B2B945E7A"]
+			id: "313B26E365615526"
+			rewards: [
+				{
+					id: "32AC48EA3EB3A249"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "197EF76A90CEA556"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "They call me Mr. Freeze."
+			tasks: [
+				{
+					id: "336C6CD2DE6AA5FB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13DD23D0A0F2EBAF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AD94CE4384B41AC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D3170390D0FDF5E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a&b Cryomancer Armor Set"
+			x: -13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43B06E3FFE5FE8EB"]
+			id: "01219DEB95032DC7"
+			rewards: [
+				{
+					id: "1C2538B276F7DC5F"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4FB9D4A86D4E3BF8"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "0385DE00EA37FC97"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26FAE9B3A8E3E1A9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "518435FFFC447F93"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "551CC4CE3966AF02"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a&b Shadow-Walker Armor Set"
+			x: -19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["66630803C9EA0DEA"]
+			id: "3714D5CA2A2A69EC"
+			rewards: [
+				{
+					id: "6E31B814C3919491"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4471E02DBE607694"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "419BC32D0018FD35"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C69626FAF20A3B7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18F5F326BBFFCE60"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7234918E52A9D21B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a&b Priest Armor Set"
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5EC30214D9EE2A0C"]
+			id: "5BF082062143531B"
+			rewards: [
+				{
+					id: "45C5B92EC363E12B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "28C05587FF84D954"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "5E7F56601A8C7BCF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29413EB4CA47CB8B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CAD7BC3BA935B2B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47BBE15149828AC8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &bPlagued Armor Set"
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["357E9B952643A99D"]
+			id: "25F8D49B732EF7C7"
+			rewards: [
+				{
+					id: "23C775ACADD99991"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5BEDF93157E8BF9F"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Once crafted, it finds the&2 nearest Catacombs&r and &3leads you towards it&r. The trapped soul points toward its home"
+			tasks: [{
+				id: "615B5BD499A95CCE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wayward_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a &bWayward Compass"
+			x: -16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "391E94F1938AC865"
+			rewards: [{
+				count: 2
+				id: "233108760ABAF769"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "When around neck: &4+15% Spell Resistance"
+			tasks: [{
+				id: "61D1BADBF45C2982"
+				item: "irons_spellbooks:heavy_chain_necklace"
+				type: "item"
+			}]
+			title: "Obtain a &bHeavy Chain"
+			x: -23.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "0051AD1BF14F9EC9"
+			rewards: [{
+				count: 2
+				id: "35114BA893DDC2B7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "When arnoud neck: &4+10% Summon Damage"
+			tasks: [{
+				id: "7FFF4B00C3A4D205"
+				item: "irons_spellbooks:conjurers_talisman"
+				type: "item"
+			}]
+			title: "Obtain a &bConjurer's Talisman"
+			x: -27.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "203CEDAC6E1CAB91"
+			rewards: [{
+				count: 2
+				id: "7DB6F6FE60F8B654"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "When worn as ring: &4+100 Max Mana"
+			tasks: [{
+				id: "770A01BA267E113B"
+				item: "irons_spellbooks:mana_ring"
+				type: "item"
+			}]
+			title: "Obtain a &bRing of Mana"
+			x: -24.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["175F9319E9507B83"]
+			id: "1AC0396518806B66"
+			rewards: [
+				{
+					count: 5
+					id: "6FB7D650AD044A6A"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "77295491947883A5"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "The base for all other &4upgrade orbs&r to be crafted from"
+			tasks: [{
+				id: "447DA1334A5BB7BF"
+				item: "irons_spellbooks:upgrade_orb"
+				title: "Craft an &bEmpty Upgrade Orb"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "422A888D3F7C4665"
+			rewards: [
+				{
+					count: 5
+					id: "20835F7C47C364E7"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2DF987CE74E7EDCE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+3% Fire Spell Power"
+			tasks: [{
+				id: "3D350BF17045AF6B"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a&b Fire Upgrade Orb"
+			x: -7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "7EF4A265C25EFF12"
+			rewards: [
+				{
+					count: 5
+					id: "1D85746D76CC12C9"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "39C058C46D38BA95"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+3% Ice Spell Power"
+			tasks: [{
+				id: "14D6C2660C93E4E3"
+				item: "irons_spellbooks:ice_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft an &bIce Upgrade Orb"
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "4D308AD544372410"
+			rewards: [
+				{
+					count: 5
+					id: "0EB9DA14537A6AE5"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "54A0E04FA28675E8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+3% Lightning Spell Power"
+			tasks: [{
+				id: "21A55AD1E51B55BC"
+				item: "irons_spellbooks:lightning_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a&b Lightning Upgrade Orb"
+			x: -10.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "6C90039BB1651603"
+			rewards: [
+				{
+					count: 5
+					id: "0212C818489BB1F3"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "159D489C93E8B79C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+3% Holy Spell Power"
+			tasks: [{
+				id: "74E398F946B1E6D7"
+				item: "irons_spellbooks:holy_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a &bHoly Upgrade Orb"
+			x: -12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "544A301047565927"
+			rewards: [
+				{
+					count: 5
+					id: "620DBA30DAE9ECF3"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A5C684E1487C867"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+3% Ender Spell Power"
+			tasks: [{
+				id: "75E04291D457EA03"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft an &bEnder Upgrade Orb"
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "14E9C287665C6AD4"
+			rewards: [
+				{
+					count: 5
+					id: "3C87BAB81A484100"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "505E437D8890B2FC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+3% Blood Spell Power"
+			tasks: [{
+				id: "59AE68357B7EDD47"
+				item: "irons_spellbooks:blood_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a&b Blood Upgrade Orb"
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "0DDCE73E115DCE86"
+			rewards: [
+				{
+					count: 5
+					id: "01C19940F4F8B0E9"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0F86CDA5F98898E1"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+3% Evocation Spell Power"
+			tasks: [{
+				id: "17863785F3BE648C"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft an &bEvocation Upgrade Orb"
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "4070652999DD3249"
+			rewards: [
+				{
+					count: 5
+					id: "61719DE8266008C3"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "16A87F84CAEF4234"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+3% Nature Spell Power"
+			tasks: [{
+				id: "3AD588AC34CBE61F"
+				item: "irons_spellbooks:nature_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a&b Nature Upgrade Orb"
+			x: -8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "20EAD0D76E8C2683"
+			rewards: [
+				{
+					count: 5
+					id: "1D7F9F0B24BE83AB"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "18586FD8A5B2D97B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+50 Max Mana"
+			tasks: [{
+				id: "1CB9B5FDAA60B570"
+				item: "irons_spellbooks:mana_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a &bMana Upgrade Orb"
+			x: -9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "5391C1240C677127"
+			rewards: [
+				{
+					count: 5
+					id: "3FD9E938B422CB7E"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "26218A6ADCEBA025"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+6% Cooldown Reduction"
+			tasks: [{
+				id: "65D4BF8C649C51A8"
+				item: "irons_spellbooks:cooldown_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a &bCooldown Upgrade Orb"
+			x: -11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "75813E7A5E88D3B8"
+			rewards: [
+				{
+					count: 5
+					id: "665C29C9954470DC"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "794CABD9CFD8F739"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+6% Spell Resistance"
+			tasks: [{
+				id: "2A36D50F582A1EBD"
+				item: "irons_spellbooks:protection_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a&b Protection Upgrade Orb"
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "5D284522BCE51032"
+			rewards: [{
+				count: 2
+				id: "6C7A86F797670E17"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "When worn as ring: &4+25 Max Mana"
+			tasks: [{
+				id: "43BBA1146DB39E63"
+				item: "irons_spellbooks:silver_ring"
+				type: "item"
+			}]
+			title: "Obtain a &bSilver Ring"
+			x: -27.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "50A74C04350493E0"
+			rewards: [{
+				count: 2
+				id: "75C14453535C13F6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "When worn as ring: &4+15% Cooldown Reduction"
+			tasks: [{
+				id: "72F13FB06F43CA5B"
+				item: "irons_spellbooks:cooldown_ring"
+				type: "item"
+			}]
+			title: "Obtain a&b Ring of Recovery"
+			x: -26.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "153FB224571B339A"
+			rewards: [{
+				count: 2
+				id: "2A8189521F941DC6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "When worn as ring: &4+15% Cast Time Reduction"
+			tasks: [{
+				id: "3DC23A4D52A4DAC6"
+				item: "irons_spellbooks:cast_time_ring"
+				type: "item"
+			}]
+			title: "Obtain a&b Ring of Expediency"
+			x: -25.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "26FB758B3706B935"
+			rewards: [{
+				count: 2
+				id: "077BA8AED307D49B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "When worn as ring: Slain creatures drop &4+25% experience."
+			tasks: [{
+				id: "4609A0ABAC9884D8"
+				item: "irons_spellbooks:emerald_stoneplate_ring"
+				type: "item"
+			}]
+			title: "Obtain an &bEmerald Stoneplate Ring"
+			x: -23.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "5F7FBCB758D54981"
+			rewards: [{
+				count: 2
+				id: "62E5C48D2B3E18DB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "When worn as ring: Grants &bfreezing immunity."
+			tasks: [{
+				id: "4AAA00B24C0164EB"
+				item: "irons_spellbooks:frostward_ring"
+				type: "item"
+			}]
+			title: "Obtain a &bFrostward Ring"
+			x: -26.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "6423F47740F77C70"
+			rewards: [{
+				count: 2
+				id: "05FEFB3F07E2D47D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "When worn as ring: Grants &2poison immunity."
+			tasks: [{
+				id: "746556E09BF7D7A9"
+				item: "irons_spellbooks:poisonward_ring"
+				type: "item"
+			}]
+			title: "Obtain a &bPoisonward Ring"
+			x: -25.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74370B84A072E947"]
+			id: "0206507E91CB74CB"
+			subtitle: "Use in Smithing Table to remove &4Imbuement or Upgrades"
+			tasks: [{
+				id: "08F5ED1EF47CC3E2"
+				item: "irons_spellbooks:shriving_stone"
+				type: "item"
+			}]
+			title: "Craft a &bShriving Stone"
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "1BBEBBEF28E330ED"
+			rewards: [
+				{
+					count: 2
+					id: "233D028CC372A814"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0483C7F8ED7B3B7C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "279E9D275A8941B6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "1EF59D0BD79D63EC"
+			rewards: [
+				{
+					id: "74E8A81A6C6225B2"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61623BEF7903D476"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1C85EDD8F248DAEC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 5
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "216E2ED7D793F72A"
+			rewards: [
+				{
+					id: "7441753CEE12E9F0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "15E16ADD4F282261"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Rare random drop from Evokers or Archevokers."
+			tasks: [{
+				id: "3ADF63391157FBFF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: 0
+							spellSlots: 3
+							spells: [
+								{
+									id: 19
+									level: 6
+									slot: 0
+								}
+								{
+									id: 20
+									level: 4
+									slot: 1
+								}
+								{
+									id: 9
+									level: 4
+									slot: 2
+								}
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "594EDA0BA8DFB743"
+			rewards: [
+				{
+					id: "220CE2523620C03C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "26F62D8E02B9C595"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "The Priest mob will trade one for a written book that can be found in the Evoker Fort. The written book must be translated by a captive wandering trader from the Evoker Fort first."
+			tasks: [{
+				id: "6B526935D37198C3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 6
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "03A09B606040AD2E"
+			rewards: [
+				{
+					id: "56C3A6C1F5403A12"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B04297497A08DAB"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Rare random drop from Blazes."
+			tasks: [{
+				id: "1E3FFCBD614CED8F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_spellbooFk: {
+							activeSpellIndex: -1
+							spellSlots: 5
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "44B16905ABBF3A52"
+			rewards: [{
+				count: 2
+				id: "71BD4903B2EA4274"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Grant &4Fire Resistance"
+			tasks: [{
+				id: "6EB9D2511D7A3C9E"
+				item: "irons_spellbooks:fireward_ring"
+				type: "item"
+			}]
+			title: "Obtain a &bFireward Ring"
+			x: -24.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04D09899362AFC7A"]
+			description: [
+				"&bIron's Spells 'n Spellbooks&r is a magic mod focused around exploring the world to find magic scrolls in order to cast fantastical magics. "
+				""
+				"Craft the magic scrolls yourself, or seek out mage towers or deadly crypts around the world and take their loot as your own."
+				""
+				"You will fight more gangerous mobs like &2Necromancer&r, collect brand new resources, and most importantly: &6Cast Powerful Spells!&r"
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "53C9B66BEC667ED0"
+			rewards: [{
+				id: "2190059956B83665"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "irons_spellbooks:iss_guide_book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Magic and towers"
+			tasks: [{
+				id: "2E6B59E012937797"
+				title: "Iron's Spells 'n Spellbooks"
+				type: "checkmark"
+			}]
+			title: "&bIron's Spells 'n Spellbooks&r"
+			x: -25.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			description: [
+				"&6Arcane essence&r is the most common and most important magical material."
+				""
+				"It can be found in magical structures, looted from magical enemies, or produced automatically with Create."
+				""
+				"Small amounts of arcane essence can be used to craft weak magic items, but its primary purpose is to be condensed into &6Arcane Cloth&r or &6Arcane Ingots&r for use in more powerful crafting recipes."
+			]
+			id: "357E9B952643A99D"
+			rewards: [
+				{
+					id: "5C9AE622A6C0CDDC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "75638D70E98F893F"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "688C8BDC9AE15C75"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["357E9B952643A99D"]
+			description: [
+				"Ink can be found in magic structures, such as wizard towers, and is the key to crafting scrolls. "
+				""
+				"There are 5 variants, one for each rarity of scroll."
+				""
+				"When using &6ink&r in the&6 Scroll Forge&r, it will allow you to craft a spell of the corresponding rarity, at the lowest level available. If the minimum rarity of a spell is higher than the ink provided, you will not be able to craft it at all, instead needing a higher quality ink to craft its first level."
+			]
+			id: "75709A3CC301B8A4"
+			rewards: [
+				{
+					id: "23841E1608F5F11A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E46B2A718AE3D86"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Ink can be automated using create mod."
+			tasks: [{
+				id: "454013D974ABB289"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6E8031A380EB37C8"]
+			description: [
+				"It's hard to keep finding single use scrolls, but by putting the scrolls into a spell book using the inscription table, one can keep using the spell without consuming the scroll."
+				""
+				"Default key is &6\"x\"&r to open wheel."
+				""
+				"Default cast key is &6\"r\"&r"
+			]
+			id: "594A8459AD944A3B"
+			rewards: [
+				{
+					id: "0A38205DEE2AC049"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "76145E857B0827BE"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Your first Spellbook"
+			tasks: [{
+				id: "6AFFD884C384B3C4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 4
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			description: [
+				"You may quickly notice as your explore your world that you will be finding scrolls. "
+				""
+				"Each scroll contains a spell, similar to an enchanted book. "
+				""
+				"The scroll can be consumed to cast that spell without consuming mana or triggering a cooldown, or brought to the first new workstation added: the Inscription Table."
+				""
+				"At the inscription table, you are allowed to place a spell book, one either found or crafted, and slot the scroll into it."
+				""
+				"However, depending on the rarity of the scroll (determined by the spell’s level), it may be too powerful for your spell book."
+				""
+				"In this case, you need a better spell book."
+			]
+			id: "6E8031A380EB37C8"
+			rewards: [{
+				count: 20
+				id: "7F8DDA74C9C2AB67"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Inscribing spells"
+			tasks: [{
+				id: "3AB544B96545EBAB"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6E8031A380EB37C8"
+				"75709A3CC301B8A4"
+			]
+			description: [
+				"The Scroll Forge is a new crafting station that allows the player to craft scrolls by using ink, paper, and a focus. "
+				""
+				"The ink determines the rarity/level, and the focus determines what school of spells you can craft."
+				""
+				"Scrolls can be automated using the Create mod. You can also use &6Crushing Wheels&r to process any scroll to get some &ncommon ink back&r, with a 10% chance of getting uncommon ink."
+			]
+			id: "3E6E9C53FBE836FB"
+			rewards: [{
+				id: "1274DEB91423CCA7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:recall"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Making Spells"
+			tasks: [{
+				id: "584B58B561635224"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E6E9C53FBE836FB"]
+			description: [
+				"The &6Arcane Anvil&r allows you to place 2 scrolls of the same type/level and combine them into the next level up. "
+				""
+				"By placing a weapon and a spell scroll into th &6Arcane Anvil&r you can also imbue the effects of the used scroll into said weapon (consumes scroll,) making the weapon able to cast the spell. "
+				""
+				"A &eShriving Stone&r can be used to take off an imbued spell from a weapon."
+			]
+			id: "74370B84A072E947"
+			rewards: [
+				{
+					id: "457C8100381291D4"
+					item: "irons_spellbooks:shriving_stone"
+					type: "item"
+				}
+				{
+					id: "0DDD12047239E82B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "14753DF36ECAEDAE"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Upgrading and Imbuement"
+			tasks: [{
+				id: "69D29C1524C0D36A"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E6E9C53FBE836FB"]
+			description: [
+				"&6The Alchemist Cauldron&r is a versatile tool used for various magical tasks. Here are its main functions:"
+				""
+				"&nBrewing Potions:&r Use it to brew a variety of potions."
+				""
+				"&nCrafting Elixirs&r: Create powerful elixirs with special ingredients."
+				""
+				"&nRecycling Scrolls:&r Place scrolls in the cauldron to recycle them into Inks of equivalent rarity."
+				""
+				"There's a 50% chance to extract the Ink and a 50% chance to burn the Scroll."
+				""
+				"&nUpgrading Ink:&r Improve the quality of your Ink."
+				""
+				"&nMaking Blood Vials:&r Craft Blood Vials for different purposes."
+				""
+				"&6Special Note:&r You can also use crushing wheels from Create on any scroll to get 100% common ink and a small chance of obtaining uncommon ink."
+				""
+				"&2Important:&r Keep a Campfire below the cauldron to keep it heated."
+			]
+			id: "17F840E5ABDF3FD4"
+			rewards: [
+				{
+					id: "529BCB840E67EE2C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3FA774A5FEF152D0"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "11AC1721B9BAF141"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			title: "The Alchemist Cauldron"
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75709A3CC301B8A4"]
+			id: "6001FE0BF3EBB861"
+			rewards: [
+				{
+					id: "606D74028D902F00"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14B6220330000E08"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52ABBDA161BAE038"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["75709A3CC301B8A4"]
+			id: "24B94BD1775216B5"
+			rewards: [
+				{
+					id: "5EE66125BADF51A0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6118686D6EE3DBD9"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CD054E1FC893964"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["75709A3CC301B8A4"]
+			id: "20411FD8C1F8A1BA"
+			rewards: [
+				{
+					id: "581BAD25A75D4E8E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0DB8B2AA932D6257"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72E94D300B437E1A"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["75709A3CC301B8A4"]
+			id: "425768C75AB098D8"
+			rewards: [
+				{
+					id: "290B889E7263013C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "194359CF546B96DA"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55DA3BDBE21AB5EC"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["357E9B952643A99D"]
+			description: ["Use your newly aquired arcane dust to make yourself some Magicians armor using it and iron armor at a smithing table."]
+			id: "6AFEDCF1CF22972F"
+			rewards: [
+				{
+					id: "54E31D69994FC31F"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "053ACA14FF44286F"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "An early game source of &3additional mana"
+			tasks: [
+				{
+					id: "7CD09931BAFC9CDA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18997AB9AF4F2098"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4451FF19A0E51374"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "559F2F85DFC7DF4C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &bWandering Magician"
+			x: -16.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["74370B84A072E947"]
+			id: "175F9319E9507B83"
+			rewards: [{
+				count: 6
+				id: "1F0DA43EFD1FC46C"
+				item: "irons_spellbooks:arcane_salvage"
+				type: "item"
+			}]
+			subtitle: "Arcane Debris can be mined near Bedrock level with a Netherite pickaxe or greater. Use it to make Arcane Salvage that can be used to make Empty Upgrade Orbs."
+			tasks: [{
+				id: "1EBC386D147BA254"
+				item: "irons_spellbooks:arcane_debris"
+				type: "item"
+			}]
+			title: "Netherwhite"
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6AFEDCF1CF22972F"]
+			description: [""]
+			id: "494585CCA8720FB2"
+			rewards: [
+				{
+					count: 3
+					id: "54A00D52452ACD89"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "304DC6F6BB16A896"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "14AB7E8EE1225B15"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6568327983AC7D49"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FB83FF55DA7D402"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5484350C5CC891CA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &bNetherite Battle Mage"
+			x: -16.0d
+			y: -9.75d
+		}
+	]
+	subtitle: ["Iron’s Spells ‘n Spellbooks is a magic mod that is inspired by classic RPG games, and aims to introduce the classic spellcasting fantasy to the game. With an emphasis on progression, you can gain power by fighting dangerous wizards, raiding a plethora of structures, delving through dungeons, collecting resources, and finding powerful magical items."]
+	title: "&bIron's Spells 'n Spellbooks&r"
+}

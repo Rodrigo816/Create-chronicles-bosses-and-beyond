@@ -1,0 +1,31 @@
+{
+	"conditions": [
+	{
+		"modid": "quark",
+		"type": "forge:mod_loaded"
+	}
+	],
+    "entity": "quark:stoneling",
+    "variants": [],
+    "name": "entity.quark.stoneling",
+    "name_color": "#838383",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 384,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+		"count": 2
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.stoneling",
+	"fabricator_drops": [
+		{
+            "item": "quark:diamond_heart",
+            "count": 1
+        }
+    ]
+}

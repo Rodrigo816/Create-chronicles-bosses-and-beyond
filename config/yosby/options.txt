@@ -163,7 +163,7 @@ key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
 key_key.cataclysm.ability:key.keyboard.x
 key_key.next_image:key.keyboard.down
 key_key.previous_image:key.keyboard.up
-key_key.spyglass-improvements.use:key.keyboard.z
+key_key.spyglass-improvements.use:key.keyboard.c
 key_key.curios.open.desc:key.keyboard.g
 key_key.ars_nouveau.open_book:key.keyboard.c
 key_key.ars_nouveau.selection_hud:key.keyboard.v

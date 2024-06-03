@@ -9,10 +9,7 @@
 	id: "464FB437D5DF7824"
 	images: [
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["Head"]
 			image: "curios:slot/empty_head_slot"
@@ -22,10 +19,7 @@
 			y: -4.0d
 		}
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["Necklace"]
 			image: "curios:slot/empty_necklace_slot"
@@ -35,10 +29,7 @@
 			y: -2.5d
 		}
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["Belt"]
 			image: "curios:slot/empty_belt_slot"
@@ -48,10 +39,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["Hands"]
 			image: "curios:slot/empty_hands_slot"
@@ -61,10 +49,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["Feet"]
 			image: "minecraft:item/empty_armor_slot_boots"
@@ -74,17 +59,22 @@
 			y: 2.0d
 		}
 		{
-			click: ""
 			color: 15333359
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "curios:slot/empty_curio_slot"
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.0d
 			y: 3.5d
+		}
+		{
+			color: 15333359
+			height: 1.0d
+			image: "curios:slot/empty_ring_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 5.0d
 		}
 	]
 	order_index: 0
@@ -1023,29 +1013,14 @@
 				"7F1AB8E8DA7BFD77"
 			]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lootr:textures/item/crown.png"
-				}
-			}
+			icon: "lootr:trophy"
 			id: "703CC46FAC00A5D9"
 			invisible: true
 			rewards: [
 				{
-					id: "181ECA8ED4C122FD"
-					item: {
-						Count: 1b
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
 					id: "4443BADF7DDA2981"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:dormant_relic"
 						tag: {
 							Damage: 0
@@ -1060,7 +1035,7 @@
 				}
 				{
 					id: "75C99BE6CCC96D15"
-					item: "numismatics:sun"
+					item: "numismatics:crown"
 					type: "item"
 				}
 			]
@@ -1073,6 +1048,174 @@
 			}]
 			x: 0.0d
 			y: -6.25d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Allows walking on powdered snow and makes ice less slippery"]
+			id: "409E9857A7494319"
+			rewards: [
+				{
+					id: "5FA81D0187415F6B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A725888117475C7"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D62BAD6B4C83E2F"
+				item: "artifacts:snowshoes"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Slowly replenishes hunger while walking on grass"]
+			id: "37D5E493E9DB64D4"
+			rewards: [
+				{
+					id: "0168CDB4F1E5FEF9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "73816F2AEA2034A8"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21D7D7A5EA397DA5"
+				item: "artifacts:rooted_boots"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Automatically smelts mined ores"]
+			id: "5590204A473913AC"
+			rewards: [
+				{
+					id: "7EB0CC651CDC94DF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "665989C96CAF43D2"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "509B0BEC6B28E229"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Applies a temporary haste effect after eating food"]
+			id: "4F734FC470276106"
+			rewards: [
+				{
+					id: "672E188E3886C3AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3BC3C9A12D55E5FC"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "503ED9E5B1EC5719"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["A fatal hit teleports the player somewhere else instead"]
+			id: "37D3986933A263DB"
+			rewards: [
+				{
+					id: "7649B3A622B75F2B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2ECCA84FB0F18DAD"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "491B091BBB272AF5"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [" Increases Lure and Luck of the Sea by 1 level"]
+			id: "681E258AB577FF73"
+			rewards: [
+				{
+					id: "74703E79714C90D0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4D191932B282F859"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10D69FEA1C976555"
+				item: "artifacts:anglers_hat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Increases the speed of ridden mounts"]
+			id: "65663D9E051280F2"
+			rewards: [
+				{
+					id: "2BF4F3E5C9199201"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "651CF43401301B47"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B8834EE76FD1549"
+				item: "artifacts:cowboy_hat"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Treasures from The Zone"]

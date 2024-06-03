@@ -6,59 +6,15 @@
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: "ringsofascension:ring_slow_falling"
-	id: "000000000000031C"
-	images: [
-		{
-			click: ""
-			color: 3434985
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:textures/particle/spark_0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.5d
-			y: 6.0d
-		}
-		{
-			click: ""
-			color: 13004288
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:textures/particle/spark_0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 0.8d
-			hover: [ ]
-			image: "enlightened_end:textures/particle/teleporter_spark_1.png"
-			rotation: 0.0d
-			width: 0.8d
-			x: -1.5d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 14.0d
-			hover: [ ]
-			image: "kubejs:textures/rings.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: 0.0d
-			y: 3.5d
-		}
-	]
+	id: "1773A53BB0698605"
+	images: [{
+		height: 1.0d
+		image: "aether:slot/ring"
+		rotation: 0.0d
+		width: 1.0d
+		x: -9.0d
+		y: 4.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -78,6 +34,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Night Vision."
 			tasks: [{
@@ -86,8 +43,8 @@
 				type: "item"
 			}]
 			title: "Bravo Six, Going Dark"
-			x: 1.0d
-			y: 0.0d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -105,6 +62,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Regeneration."
 			tasks: [{
@@ -113,8 +71,8 @@
 				type: "item"
 			}]
 			title: "A Helping Hand"
-			x: 0.5d
-			y: 1.5d
+			x: -8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -132,6 +90,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Poison Resistance."
 			tasks: [{
@@ -140,8 +99,8 @@
 				type: "item"
 			}]
 			title: "Cave Spiders? Pfft.."
-			x: -2.5d
-			y: 6.0d
+			x: -8.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -159,6 +118,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Strength."
 			tasks: [{
@@ -167,13 +127,13 @@
 				type: "item"
 			}]
 			title: "Johnny Bravo"
-			x: 3.5d
-			y: 6.5d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grows nearby crops faster when equipped."]
-			id: "00000000000003AB"
+			id: "0D7D9CF1F00A8963"
 			rewards: [
 				{
 					id: "26821BD139D0B7F3"
@@ -186,16 +146,17 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Growth."
 			tasks: [{
-				id: "00000000000003AC"
+				id: "2F4537A419E399B8"
 				item: "ringsofascension:ring_growth"
 				type: "item"
 			}]
 			title: "The Plant Whisperer"
-			x: -3.0d
-			y: 2.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -213,6 +174,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Invisibility."
 			tasks: [{
@@ -221,8 +183,8 @@
 				type: "item"
 			}]
 			title: "The Invisibility Ring"
-			x: -3.0d
-			y: 4.0d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -240,16 +202,17 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Water Breathing."
 			tasks: [{
-				id: "00000000000003B2"
+				id: "651500C07A361B38"
 				item: "ringsofascension:ring_water_breathing"
 				type: "item"
 			}]
 			title: "Like breathing air!"
-			x: 2.5d
-			y: 7.5d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -268,16 +231,17 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Wither Ring."
 			tasks: [{
-				id: "00000000000003B6"
+				id: "30B6B90D962C0080"
 				item: "ringsofascension:ring_wither"
 				type: "item"
 			}]
 			title: "Down with the Sickness"
-			x: -1.0d
-			y: 1.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -295,6 +259,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Dolphin Ring."
 			tasks: [{
@@ -303,8 +268,8 @@
 				type: "item"
 			}]
 			title: "Great Minds"
-			x: -0.5d
-			y: 0.5d
+			x: -5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -322,6 +287,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Knockback Resistance."
 			tasks: [{
@@ -330,13 +296,13 @@
 				type: "item"
 			}]
 			title: "Knockback? No more!"
-			x: 2.5d
-			y: 2.5d
+			x: -0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants Fire Resistance potion effect when equipped."]
-			id: "00000000000003BE"
+			id: "439298A36DF164C1"
 			rewards: [
 				{
 					id: "0020300BD9EF99B9"
@@ -349,6 +315,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Fire Resistance."
 			tasks: [{
@@ -357,13 +324,13 @@
 				type: "item"
 			}]
 			title: "Extinguished"
-			x: 4.5d
-			y: 2.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Pull nearby xp orbs when equipped."]
-			id: "00000000000003C1"
+			id: "61EC8066F1112546"
 			rewards: [
 				{
 					id: "105AA2A3A8E7FD25"
@@ -376,21 +343,22 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Experience."
 			tasks: [{
-				id: "00000000000003C2"
+				id: "35A530205B4C933C"
 				item: "ringsofascension:ring_experience"
 				type: "item"
 			}]
 			title: "Sweet XP"
-			x: -2.0d
-			y: 1.0d
+			x: -6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Removes all nearby water blocks around the player when equipped."]
-			id: "00000000000003C4"
+			id: "2CA01FDC40580A8D"
 			rewards: [
 				{
 					id: "3161B782D5915B45"
@@ -403,21 +371,22 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Sponge."
 			tasks: [{
-				id: "00000000000003C5"
+				id: "60F0891CAF7F089D"
 				item: "ringsofascension:ring_sponge"
 				type: "item"
 			}]
 			title: "Water's Gone"
-			x: -4.0d
-			y: 5.0d
+			x: -8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Haste potion effect when equipped."]
-			id: "00000000000003C7"
+			id: "204E9178AF8E4216"
 			rewards: [
 				{
 					id: "0BF341DD10476F47"
@@ -430,6 +399,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Mining."
 			tasks: [{
@@ -438,13 +408,13 @@
 				type: "item"
 			}]
 			title: "Gotta Mine Fast"
-			x: 3.5d
-			y: 1.5d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants five extra hearts when equipped."]
-			id: "00000000000003CA"
+			id: "355971C802A91482"
 			rewards: [
 				{
 					id: "56EA55F689ADA2F7"
@@ -457,6 +427,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Health."
 			tasks: [{
@@ -465,8 +436,8 @@
 				type: "item"
 			}]
 			title: "1-UP"
-			x: 2.0d
-			y: 1.5d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -484,21 +455,22 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Slowness Resistance."
 			tasks: [{
-				id: "00000000000003CE"
+				id: "46DEF1DFEF319CC7"
 				item: "ringsofascension:ring_slow_resistance"
 				type: "item"
 			}]
 			title: "Feel Fast"
-			x: -2.0d
-			y: 2.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Jump Boost potion effect when equipped."]
-			id: "00000000000003D0"
+			id: "2A04A6B7B6F75264"
 			rewards: [
 				{
 					id: "03F6A49BC06FF04D"
@@ -511,6 +483,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Jump Boost."
 			tasks: [{
@@ -519,8 +492,8 @@
 				type: "item"
 			}]
 			title: "Bugs Bunny is that you?"
-			x: 2.0d
-			y: 5.5d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -538,21 +511,22 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Luck."
 			tasks: [{
-				id: "00000000000003D3"
+				id: "2C5F7A95815D690A"
 				item: "ringsofascension:ring_luck"
 				type: "item"
 			}]
 			title: "Feeling Lucky?"
 			x: 2.5d
-			y: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants the Speed potion effect when equipped."]
-			id: "00000000000003D6"
+			id: "7942E76F14C8FF79"
 			rewards: [
 				{
 					id: "4E6AA0F67D3B13DD"
@@ -565,15 +539,16 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Speed."
 			tasks: [{
-				id: "00000000000003D7"
+				id: "5E9AA25959DC8321"
 				item: "ringsofascension:ring_speed"
 				type: "item"
 			}]
 			title: "Gotta Go Fast"
-			x: -3.5d
+			x: -6.5d
 			y: 3.0d
 		}
 		{
@@ -592,6 +567,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Slow Fall."
 			tasks: [{
@@ -600,50 +576,36 @@
 				type: "item"
 			}]
 			title: "Great View!"
-			x: -3.5d
-			y: 7.0d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
-				"00000000000003C1"
 				"00000000000003A3"
-				"00000000000003C4"
 				"00000000000003A5"
-				"00000000000003C7"
 				"00000000000003A9"
 				"000000000000032A"
-				"00000000000003CA"
-				"00000000000003AB"
 				"00000000000003CD"
 				"00000000000003AF"
-				"00000000000003D0"
 				"00000000000003B1"
 				"00000000000003D2"
 				"00000000000003B5"
-				"00000000000003D6"
 				"00000000000003B8"
 				"00000000000003D9"
 				"00000000000003BB"
-				"00000000000003BE"
 				"0D3F7751B579353F"
 				"64157A1BC3E09963"
 			]
 			hide: false
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lootr:textures/item/crown.png"
-				}
-			}
+			icon: "lootr:trophy"
 			id: "67B117317EB077BA"
 			invisible: true
 			rewards: [
 				{
 					id: "64337688FD649BE8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:dormant_relic"
 						tag: {
 							Damage: 0
@@ -658,7 +620,7 @@
 				}
 				{
 					id: "42653208ADDF81FE"
-					item: "numismatics:sun"
+					item: "numismatics:crown"
 					type: "item"
 				}
 			]
@@ -670,8 +632,8 @@
 				title: "Completionist"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -688,6 +650,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			subtitle: "Find a Ring of Water Walking."
 			tasks: [{
 				id: "3C6522DEFC6EAD3C"
@@ -695,8 +658,8 @@
 				type: "item"
 			}]
 			title: "Its like walking on the park"
-			x: 3.5d
-			y: 5.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -713,6 +676,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			subtitle: "Find a Ring of Magnetism."
 			tasks: [{
 				id: "37948693F35D0718"
@@ -720,8 +684,8 @@
 				type: "item"
 			}]
 			title: "Why is my inventory full again?"
-			x: 3.5d
-			y: 3.5d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
@@ -739,6 +703,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "Find a Ring of Steadfast steps"
 			tasks: [{
@@ -747,8 +712,8 @@
 				type: "item"
 			}]
 			title: "Step Assist"
-			x: -2.0d
-			y: 7.5d
+			x: -6.5d
+			y: 4.5d
 		}
 	]
 	subtitle: ["Rings can be in chests found randomly around the world."]

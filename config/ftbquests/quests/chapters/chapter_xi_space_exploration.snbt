@@ -8,11 +8,7 @@
 	id: "19ECD475E94E145F"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "ad_astra:textures/painting/mars.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -20,11 +16,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "ad_astra:textures/painting/mercury.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -32,11 +24,7 @@
 			y: 13.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "ad_astra:textures/painting/venus.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -44,11 +32,7 @@
 			y: 13.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "ad_astra:textures/painting/glacio.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -56,7 +40,7 @@
 			y: 20.0d
 		}
 	]
-	order_index: 10
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -67,8 +51,8 @@
 				item: "create_dd:mithril_ingot"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -0.5d
+			x: -15.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6BADF9AAB7413162"]
@@ -78,8 +62,8 @@
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 1.0d
+			x: -10.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6BADF9AAB7413162"]
@@ -120,7 +104,7 @@
 			tasks: [{
 				id: "2A200C751A2E195B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_2_rocket"
 					tag: {
 						BotariumData: { }
@@ -161,7 +145,7 @@
 				{
 					count: 4L
 					id: "2EFBE3EBC9DD9F49"
-					item: { Count: 4b, id: "ad_astra:ostrum_ingot" }
+					item: { Count: 4, id: "ad_astra:ostrum_ingot" }
 					type: "item"
 				}
 			]
@@ -210,7 +194,7 @@
 				{
 					id: "100C464B60B4AD0B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:oxygen_tank"
 						tag: {
 							BotariumData: { }
@@ -235,25 +219,7 @@
 		}
 		{
 			dependencies: ["06895558802135C9"]
-			description: ["The &6energizer&r is a machine capable of &apowering items&r and storing large amounts of &benergy&r. To &echarge an item&r, &apower the energizer&r and then right-click on the energizer with that item. It stores 2 million &benergy&r, making it capable of &ccharging machines for a very long time&r. It also retains its &benergy&r when &bbroken&r."]
-			id: "66950008C971D439"
-			rewards: [{
-				id: "5F0B8ADD03797C02"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [{
-				id: "1731E28C5612E75C"
-				item: "ad_astra:energizer"
-				title: "Craft an &eEnergizer"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["06895558802135C9"]
-			description: ["The &6netherite space suit&f is an upgraded version of the &6standard space suit&r, featuring permanent fire resistance, more protection and the ability to survive on &6Venus&f and &6Mercury&f. Before you travel to these planets, you must craft the &6netherite space suit armour&f or else you will burn to death."]
+			description: ["The &6netherite space suit&f is an upgraded version of the &6standard space suit&r, featuring permanent fire resistance, more protection and the ability to survive on &2Venus&r and &bMercury&r. Before you travel to these planets, you must craft the &6netherite space suit armour&f or else you will burn to death."]
 			id: "69640701C10FEE8B"
 			rewards: [
 				{
@@ -272,7 +238,7 @@
 				{
 					id: "2546CFB38BDFD90D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_helmet"
 						tag: {
 							Damage: 0
@@ -283,7 +249,7 @@
 				{
 					id: "13FC302EA93F7B07"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_suit"
 						tag: {
 							BotariumData: { }
@@ -295,7 +261,7 @@
 				{
 					id: "7BA9563948C28D19"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_pants"
 						tag: {
 							Damage: 0
@@ -306,7 +272,7 @@
 				{
 					id: "0B2DE4EA4AF2388F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_boots"
 						tag: {
 							Damage: 0
@@ -317,7 +283,7 @@
 			]
 			title: "Craft a &4Netherite Space Helmet"
 			x: -11.5d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["69640701C10FEE8B"]
@@ -346,7 +312,7 @@
 			tasks: [{
 				id: "30B0234A80EE725B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_3_rocket"
 					tag: {
 						BotariumData: { }
@@ -355,8 +321,8 @@
 				title: "Craft a &8Tier 3 &3Rocket"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 11.0d
+			x: -11.25d
+			y: 9.0d
 		}
 		{
 			dependencies: ["43FF852CA94FBCE5"]
@@ -397,8 +363,8 @@
 				type: "dimension"
 			}]
 			title: "to &eVenus"
-			x: -13.0d
-			y: 12.5d
+			x: -9.75d
+			y: 11.25d
 		}
 		{
 			dependencies: ["43FF852CA94FBCE5"]
@@ -426,8 +392,8 @@
 				title: "to &cMer&6cury"
 				type: "dimension"
 			}]
-			x: -15.75d
-			y: 12.0d
+			x: -12.75d
+			y: 11.25d
 		}
 		{
 			dependencies: ["141FA9DD077B27BE"]
@@ -519,7 +485,7 @@
 				{
 					id: "514D68788F222A25"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit_helmet"
 						tag: {
 							Damage: 0
@@ -530,7 +496,7 @@
 				{
 					id: "1FFAEA5536AA4CCB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit"
 						tag: {
 							BotariumData: { }
@@ -542,7 +508,7 @@
 				{
 					id: "67D681589F85BB2D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit_pants"
 						tag: {
 							Damage: 0
@@ -553,7 +519,7 @@
 				{
 					id: "7BEB84FFB2C33D15"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit_boots"
 						tag: {
 							Damage: 0
@@ -592,7 +558,7 @@
 			tasks: [{
 				id: "3DA889311DB85E17"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_4_rocket"
 					tag: {
 						BotariumData: { }
@@ -628,6 +594,60 @@
 			title: "The End"
 			x: -12.0d
 			y: 22.0d
+		}
+		{
+			description: [
+				"Mars is a cold, desert planet with a thin atmosphere. "
+				""
+				"The planet has deep canyons, and polar ice caps. Beware of low temperatures and ensure you have an adequate supply of oxygen before visiting."
+				""
+				"Mercury Info:"
+				"Gravity: 3.7 m/s"
+				"Oxygen: none"
+				"Temperature: -65.0 °C"
+			]
+			hide: true
+			icon: "ad_astra:mars_globe"
+			id: "506FAD15C9ECB3A8"
+			rewards: [
+				{
+					count: 5
+					id: "0F2BBCC8940C9376"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					id: "754FF11305AAC53F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C17C0725FC94ABC"
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "730A971151EEC9E0"
+				type: "dimension"
+			}]
+			title: "Mars"
+			x: -14.0d
+			y: 3.0d
+		}
+		{
+			id: "469D30DE1979CDFE"
+			tasks: [{
+				id: "1F4C252F38D12286"
+				item: "create_dd:aethersite_asphalt_block"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
 		}
 	]
 	title: "WIP: Chapter XI: Space Exploration"

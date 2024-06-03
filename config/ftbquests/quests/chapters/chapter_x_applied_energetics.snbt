@@ -4,28 +4,62 @@
 	filename: "chapter_x_applied_energetics"
 	group: "5237AEA7260D740E"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ae2:controller"
 		tag: {
 			Enchantments: [{ }]
 		}
 	}
 	id: "00B2BB3A1CF3EA69"
-	images: [{
-		alpha: 200
-		click: ""
-		color: 16672790
-		corner: false
-		dev: false
-		height: 1.2d
-		hover: [ ]
-		image: "chalk:block/mark/arrow"
-		rotation: 180.0d
-		width: 1.2d
-		x: -1.5d
-		y: -4.0d
-	}]
-	order_index: 9
+	images: [
+		{
+			alpha: 200
+			color: 16672790
+			height: 1.2d
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			color: 13004288
+			height: 1.0d
+			image: "minecraft:textures/particle/spark_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			color: 13004288
+			height: 1.0d
+			image: "minecraft:textures/particle/spark_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			color: 13004288
+			height: 1.0d
+			image: "minecraft:textures/particle/spark_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			color: 13004288
+			height: 1.0d
+			image: "minecraft:textures/particle/spark_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 11.5d
+		}
+	]
+	order_index: 10
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -235,7 +269,7 @@
 			tasks: [{
 				id: "4F8C0625674B4C26"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "ae2:quartz_wrench"
@@ -300,7 +334,7 @@
 				{
 					id: "73F78F34C037FF02"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:energy_cell"
 						tag: { }
 					}
@@ -309,7 +343,7 @@
 				{
 					id: "65D871400D4B5C22"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:dense_energy_cell"
 						tag: { }
 					}
@@ -500,7 +534,7 @@
 				{
 					id: "02603EEC37FE0012"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:glass_cable"
@@ -512,7 +546,7 @@
 				{
 					id: "1C2E3C609A8DFD6D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:covered_cable"
@@ -524,7 +558,7 @@
 				{
 					id: "0BEEDF43E748F047"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:covered_dense_cable"
@@ -606,7 +640,7 @@
 				{
 					id: "2C451A484DE8CB1B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:knife"
@@ -623,7 +657,7 @@
 				{
 					id: "3C8112F63761713A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:name_press"
 						tag: { }
 					}
@@ -661,7 +695,7 @@
 				{
 					id: "186E974B0E4A0EF6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:smart_cable"
@@ -673,7 +707,7 @@
 				{
 					id: "3D5C2226F8539904"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:smart_dense_cable"
@@ -710,7 +744,7 @@
 			tasks: [{
 				id: "572862A2DE10F1C2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:color_applicator"
 					tag: { }
 				}
@@ -933,7 +967,7 @@
 				{
 					id: "6EAF9118DB909B9B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:pattern_provider"
@@ -1173,7 +1207,7 @@
 			tasks: [{
 				id: "585856CE2186DE81"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: "(.*)crafting_storage"
@@ -1209,7 +1243,7 @@
 			tasks: [{
 				id: "4556BCEDA60FD43A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: "(.*)crafting_accelerator"
@@ -1245,7 +1279,7 @@
 			tasks: [{
 				id: "5E8BAFC4CC8E2FC7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: "(ae2|mega)(.*)crafting_monitor"
@@ -1321,7 +1355,7 @@
 			tasks: [{
 				id: "714DADB6776DEE49"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_1k"
 					tag: { }
 				}
@@ -1357,7 +1391,7 @@
 			tasks: [{
 				id: "3DC2851D386057E8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: ":fluid_storage_cell_"
@@ -1393,7 +1427,7 @@
 			tasks: [{
 				id: "356C92DD277FF662"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: ":portable_(.*)_cell_"
@@ -1565,7 +1599,7 @@
 			tasks: [{
 				id: "657AA1244E52A5D5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: "ae2:spatial_storage_cell_"
@@ -1629,7 +1663,7 @@
 			tasks: [{
 				id: "0B18DCF021EC9073"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "ae2:interface"
@@ -1664,7 +1698,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "This has a use outside of crafting cables."
 			tasks: [{
 				id: "476E409D90EB00C5"
 				item: "ae2:quartz_fiber"
@@ -1696,7 +1729,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Cut out the middleman"
 			tasks: [{
 				id: "208221CDB756CA4B"
 				item: "ae2:me_p2p_tunnel"
@@ -1730,7 +1762,7 @@
 			tasks: [{
 				id: "25CF2279A5441A33"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:memory_card"
 					tag: { }
 				}
@@ -1781,7 +1813,7 @@
 				{
 					id: "3B955CD45F3262E1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:matter_cannon"
 						tag: { }
 					}
@@ -1808,7 +1840,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "The O"
 			tasks: [{
 				id: "4D63710BA4C15D8F"
 				item: "ae2:export_bus"
@@ -1866,7 +1897,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "The spare chest"
 			tasks: [{
 				id: "73D7CBA681E498CF"
 				item: "ae2:storage_bus"
@@ -1949,7 +1979,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "The I"
 			tasks: [{
 				id: "36A17738A12B4633"
 				item: "ae2:import_bus"

@@ -7,12 +7,8 @@
 	id: "01299364BAF193B6"
 	images: [{
 		alpha: 200
-		click: ""
 		color: 16672790
-		corner: false
-		dev: false
 		height: 1.2d
-		hover: [ ]
 		image: "chalk:block/mark/arrow"
 		rotation: 180.0d
 		width: 1.2d
@@ -748,7 +744,7 @@
 				item: "create_dd:potassic_cobble"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -759,7 +755,7 @@
 				item: "create:crushed_raw_tin"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.0d
 			y: 1.5d
 		}
 		{
@@ -770,7 +766,7 @@
 				item: "create_dd:tin_nugget"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 13.5d
 			y: 1.5d
 		}
 		{
@@ -787,7 +783,7 @@
 		{
 			dependencies: ["67145CE26EFAD16D"]
 			description: [
-				"{image:kubejs:textures/molten_vents.png width:350 height:200 align:1}"
+				"{image:kubejs:textures/vent.png width:350 height:200 align:1}"
 				""
 				"&6Molten Vents&r is a mod which adds a renewable source of the orestones."
 				""
@@ -887,28 +883,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["3FDA4ADCC08B6CFB"]
-			id: "1236C986845D0C1F"
-			tasks: [{
-				id: "1977D67F683D6C7C"
-				item: "enlightened_end:bismuth_nugget"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3FDA4ADCC08B6CFB"]
-			id: "6FD212897ED80389"
-			tasks: [{
-				id: "5337C6F84DC11DC7"
-				item: "enlightened_end:adamantite_nugget"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["2AA838B09218F700"]
 			hide_dependency_lines: true
 			id: "64E747B93D74A16E"
@@ -928,7 +902,7 @@
 				item: "create:crushed_raw_silver"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: 0.0d
 		}
 	]

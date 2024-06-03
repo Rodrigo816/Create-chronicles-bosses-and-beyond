@@ -11,9 +11,11 @@
 	"custombossbar(on/off)" = true
 	#BossMusic(on/off)
 	"BossMusic(on/off)" = true
-	#BossMusicVolume
+	#BossMusicVolume(denominator)
 	#Range: 1 ~ 1000000
 	BossMusicVolume = 2
+	#AddedServerlist(on/off)
+	"AddedServerlist(on/off)" = false
 
 [Weapon]
 	#Armor Infinity Durability(on/off)
@@ -55,17 +57,17 @@
 ["Entity damage"]
 	#Void Rune's Damage
 	#Range: 0.0 ~ 1000000.0
-	Voidrunedamage = 20.0
+	Voidrunedamage = 12.0
 	#Ashen Breath's Damage
 	#Range: 0.0 ~ 1000000.0
-	Ashenbreathdamage = 8.0
+	Ashenbreathdamage = 7.0
 	#Death Laser's Damage
 	#Range: 0.0 ~ 1000000.0
-	DeathLaserdamage = 11.0
+	DeathLaserdamage = 9.0
 	#Death Laser's Hp Damage
 	#Range: 0.0 ~ 1.0
 	DeathLaserHpdamage = 0.2
-	#Laser's Damage
+	#Player's Laser's Damage
 	#Range: 0.0 ~ 1000000.0
 	Laserdamage = 9.0
 	#Blazing Bone's Damage
@@ -73,13 +75,13 @@
 	BlazingBonedamage = 10.0
 	#Lionfish Spike's Damage
 	#Range: 0.0 ~ 1000000.0
-	LionfishSpikedamage = 8.0
+	LionfishSpikedamage = 6.0
 	#Wither Howizter's Damage
 	#Range: 0.0 ~ 1000000.0
-	WitherHowizterdamage = 16.0
+	WitherHowizterdamage = 14.0
 	#Dimensional Rift's Damage
 	#Range: 0.0 ~ 1000000.0
-	DimensionalRiftdamage = 20.0
+	DimensionalRiftdamage = 15.0
 	#Wither Homing Missile's Damage
 	#Range: 0.0 ~ 1000000.0
 	WitherHomingMissiledamage = 6.0
@@ -97,13 +99,13 @@
 	Lavabombradius = 6
 	#Amethyst Cluster's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Amethyst Cluster Damage" = 30.0
+	"Amethyst Cluster Damage" = 16.0
 	#Sandstorm's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Sandstorm Damage" = 20.0
+	"Sandstorm Damage" = 8.0
 	#Ancient Desert Stele's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Ancient Desert Stele Damage" = 50.0
+	"Ancient Desert Stele Damage" = 30.0
 
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
@@ -111,9 +113,9 @@
 	EnderGuardianHealthMultiplier = 2.5
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 3.0
+	EnderGuardianDamageMultiplier = 1.7
 	#EnderGuardian's DamageCap
-	#Range: 0 ~ 1000000
+	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageCap = 22
 	#Ender guardian's block breaking ignore the MobGriefing
 	EnderguardianBlockBreaking = true
@@ -147,6 +149,9 @@
 	#EnderGuardianBlockBreaking radius
 	#Range: 0 ~ 20
 	"EnderGuardianBlockBreaking Z" = 15
+	#EnderGuardian's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	EnderGuardianNatureHealing = 10.0
 
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
@@ -157,15 +162,15 @@
 	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 2.5
+	MonstrosityHealthMultiplier = 1.7
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 3.0
+	MonstrosityDamageMultiplier = 1.6
 	#Monstrosity's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
 	#Monstrosity's DamageCap
-	#Range: 0 ~ 1000000
+	#Range: 0.0 ~ 1000000.0
 	MonstrosityDamageCap = 222
 	#Monstrosity's bodyBlocking verdict
 	NetheritemonstrosityBodyBloking = true
@@ -175,6 +180,9 @@
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Monstrosity's prevent attacks from far away Range" = 18.0
+	# Monstrosity's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	MonstrosityNatureHealing = 10.0
 
 ["Ender Golem"]
 	#Ender Golem's block breaking ignore the MobGriefing
@@ -184,10 +192,10 @@
 	"Endergolem's prevent attacks from far away Range" = 6.0
 	#Golem's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemHealthMultiplier = 2.0
+	GolemHealthMultiplier = 3.0
 	#Golem's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemDamageMultiplier = 3.0
+	GolemDamageMultiplier = 1.5
 
 [Ignis]
 	#Ignis's Health Multiplier
@@ -195,7 +203,7 @@
 	IgnisHealthMultiplier = 5.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 7.0
+	IgnisDamageMultiplier = 6.0
 	#Ignis's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisHealingMultiplier = 15.0
@@ -203,10 +211,13 @@
 	#Range: 1.0 ~ 1000000.0
 	"Ignis's prevent attacks from far away Range" = 15.0
 	#Ignis's DamageCap
-	#Range: 0 ~ 1000000
+	#Range: 0.0 ~ 1000000.0
 	IgnisDamageCap = 999
 	#Ignis's cracked block breaking ignore the MobGriefing
 	IgnisBlockBreaking = true
+	#Ignis's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	IgnisNatureHealing = 10.0
 
 [revenant]
 	#Revenant's Health Multiplier
@@ -225,7 +236,7 @@
 	ProwlerHealthMultiplier = 2.0
 	#Prowler's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ProwlerDamageMultiplier = 3.0
+	ProwlerDamageMultiplier = 1.3
 
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
@@ -233,10 +244,10 @@
 	HarbingerHealthMultiplier = 2.0
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerDamageMultiplier = 2.0
+	HarbingerDamageMultiplier = 1.7
 	#Harbinger's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealingMultiplier = 2.0
+	HarbingerHealingMultiplier = 1.7
 	#Harbinger's Wither Missile's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Harbinger's WitherMissiledamage" = 16.0
@@ -244,21 +255,24 @@
 	#Range: 1.0 ~ 1000000.0
 	"The Harbinger's prevent attacks from far away Range" = 35.0
 	#Harbinger's DamageCap
-	#Range: 0 ~ 1000000
+	#Range: 0.0 ~ 1000000.0
 	"The Harbinger DamageCap" = 99
 	#Harbinger's lasers can light a fire in MobGriefing
 	"The Harbinger Light A Fire" = true
 	#The Harbinger's charge attack Hp Damage
 	#Range: 0.0 ~ 1.0
 	"The Harbinger's charge attack Hp Damage" = 0.1
+	#Harbinger's laser's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Harbinger's laser damage" = 5.0
 
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 4.0
+	LeviathanHealthMultiplier = 2.0
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 5.0
+	LeviathanDamageMultiplier = 1.7
 	#Leviathan's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Leviathan's prevent attacks from far away Range" = 38.0
@@ -275,28 +289,31 @@
 	#Range: 0.0 ~ 1.0
 	"Leviathan's Tentacle Hp Damage" = 1
 	#Leviathan's DamageCap
-	#Range: 0 ~ 1000000
+	#Range: 0.0 ~ 1000000.0
 	LeviathanDamageCap = 99
 	#Leviathan's block breaking ignore the MobGriefing
 	LeviathanBlockBreaking = true
 	#Leviathan Immune Out of Water
 	LeviathanImmuneOutofWater = true
+	#Leviathan's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	LeviathanNatureHealing = 10.0
 
 ["The Baby Leviathan"]
 	#BabyLeviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	BabyLeviathanHealthMultiplier = 1.0
+	BabyLeviathanHealthMultiplier = 1.4
 	#BabyLeviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	BabyLeviathanDamageMultiplier = 1.0
+	BabyLeviathanDamageMultiplier = 1.4
 
 ["Modern Remnant"]
 	#Modern Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ModernRemnantHealthMultiplier = 1.5
+	ModernRemnantHealthMultiplier = 1.4
 	#Modern Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ModernRemnantDamageMultiplier = 3.0
+	ModernRemnantDamageMultiplier = 1.4
 
 ["Amethyst Crab"]
 	#Amethyst Crab's Health Multiplier
@@ -304,20 +321,23 @@
 	AmethystCrabHealthMultiplier = 1.5
 	#Amethyst Crab's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabDamageMultiplier = 4.0
+	AmethystCrabDamageMultiplier = 2.9
+	#Amethyst Crab's EarthQuake Damage
+	#Range: 0.0 ~ 1000000.0
+	AmethystCrabEarthQuakeDamage = 6.0
 
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 3.5
+	AncientRemnantHealthMultiplier = 3.0
 	#Ancient Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantDamageMultiplier = 4.0
+	AncientRemnantDamageMultiplier = 1.8
 	#Ancient Remnant's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Ancient Remnant's prevent attacks from far away Range" = 15.0
 	#Ancient Remnant's DamageCap
-	#Range: 0 ~ 1000000
+	#Range: 0.0 ~ 1000000.0
 	AncientRemnantCap = 99
 	#Ancient Remnant's block breaking ignore the MobGriefing
 	AncientRemnantBlockBreaking = true
@@ -330,6 +350,12 @@
 	#Remnant's Stomp Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Remnant's Stomp Hp Damage" = 0.1
+	#Remnant's EarthQuake Damage
+	#Range: 0.0 ~ 1000000.0
+	"Remnant's EarthQuakeDamage" = 8.0
+	#AncientRemnant's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	AncientRemnantNatureHealing = 10.0
 
 [Koboleton]
 	#Cause Koboleton to Drop Item In Hand Percent
@@ -367,4 +393,80 @@
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
 	KoboletonSpawnRolls = 30
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	DeeplingPriestSpawnWeight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	DeeplingPriestSpawnRolls = 70
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	DeeplingWarlockSpawnWeight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	DeeplingWarlockSpawnRolls = 70
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	CoralgolemSpawnWeight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	CoralgolemSpawnRolls = 70
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	IgnitedBerserkerSpawnWeight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	IgnitedBerserkerSpawnRolls = 30
+
+[Kobolediator]
+	#Kobolediator's block breaking ignore the MobGriefing
+	KobolediatorBlockBreaking = false
+	#Kobolediator's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	KobolediatorHealthMultiplier = 2.0
+	#Kobolediator's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	KobolediatorDamageMultiplier = 1.7
+
+[wadjet]
+	#Wadjet's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	WadjetHealthMultiplier = 2.0
+	#Wadjet's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	WadjetDamageMultiplier = 1.7
+
+[Maledictus]
+	#Maledictus's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MaledictusHealthMultiplier = 10.0
+	#Maledictus's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MaledictusDamageMultiplier = 1.0
+	#Maledictus's DamageCap
+	#Range: 0.0 ~ 1000000.0
+	MaledictusDamageCap = 20.0
+	#Maledictus's melee Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Maledictus's melee Hp Damage" = 0.03
+	#Maledictus's Shock wave Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Maledictus's Shock Wave Hp Damage" = 0.02
+	#Maledictus's AOE Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Maledictus's AOE Hp Damage" = 0.15
+	#Maledictus's flying Smash Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Maledictus's Flying Smash Hp Damage" = 0.1
+	#Maledictus's Jump Smash Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Maledictus's Jump Smash Hp Damage" = 0.06
+
+["World Generation"]
+	#Defines the area in which the structure check for height variances (1 means 9 chunks will be checked (center + area around it)) - 0 disables this check
+	#Range: 0 ~ 5
+	cursedPyramidCheckRange = 2
+	#Allowed height variance for the check - if the variance is lower than this value the structure will not spawn (has no effect if the are check is disabled)
+	#Range: 0 ~ 32
+	cursedPyramidHeightVariance = 2
 

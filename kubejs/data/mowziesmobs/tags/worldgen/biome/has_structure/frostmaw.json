@@ -1,0 +1,7 @@
+{
+  "//NOTE": "Any biome you want Mowzie's Mobs structures to spawn in must appear here. By default, this includes all overworld biomes and tags. Modded biomes may not by included by default. During placement, biomes are restricted by the dictionary tags from the Mowzie's Mobs config.",
+  "replace": false,
+  "values": [
+    "ad_astra:glacio_snowy_barrens"
+  ]
+}

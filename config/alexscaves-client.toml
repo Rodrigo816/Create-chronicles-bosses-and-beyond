@@ -1,5 +1,7 @@
 
 [visuals]
+	#whether to cave maps are visible when held by players from the third-person perspective.
+	cave_maps_visible_in_third_person = true
 	#whether to shake the screen from tremorsaurus stomping, nuclear explosions, etc.
 	screen_shaking = true
 	#true if some block models, like uranium ore or abyssmarine bricks render as fullbright. May increase load time, no gameplay performance impact.
@@ -24,8 +26,6 @@
 	#determines how far from bottom the subterranodon flight indicator renders on the screen when mounted.
 	#Range: -12000 ~ 12000
 	subterranodon_indicator_y = 6
-	#whether to cave maps are visible when held by players from the third-person perspective.
-	cave_maps_visible_in_third_person = true
 
 [audio]
 	#whether nuclear explosions briefly muffle other sounds.

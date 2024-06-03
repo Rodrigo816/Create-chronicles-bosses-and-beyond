@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "alexscaves:polymer_plate"
+    },
+    "P": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "pattern": [
+    "###",
+    "#P#"
+  ],
+  "result": {
+    "item": "ad_astra:space_helmet"
+  }
+}

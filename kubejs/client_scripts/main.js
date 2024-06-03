@@ -7,12 +7,20 @@ console.info('Hello, World! (Loaded client scripts)')
 ClientEvents.lang('en_us', event => {
   event.renameItem('create:brass_hand', 'Golden Hand')
   event.renameItem('create_sa:hydraulic_engine', 'Valve Mechanism')
-  event.renameItem('ad_astra:fuel', 'Astral Fuel')
-  event.renameItem('ad_astra:fuel_bucket', 'Astral Fuel Bucket')
-  event.renameItem('handcrafted:hammer', 'Handcrafted Tool')
+
 })
 
 JEIEvents.hideItems(event => {
+  event.hide('simplyswords:contained_remnant')
+  event.hide('simplyswords:tampered_remnant')
+
+  event.hide('create_sa:block_picker')
+
+  event.hide('ae2:charger')
+  event.hide('ae2:meteorite_compass')
+
+  event.hide('simplyswords:decaying_relic')
+  event.hide('missions:mechanical_exchanger')
   event.hide('missions:mechanical_exchanger')
   event.hide('twilightforest:uncrafting_table')
   event.hide('create_dd:chocolate_milkshake')

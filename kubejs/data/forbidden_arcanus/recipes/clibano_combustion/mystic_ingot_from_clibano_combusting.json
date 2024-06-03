@@ -1,0 +1,16 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 500,
+  "experience": 0,
+  "ingredient": {
+    "item": "kubejs:mystic_coal_block"
+  },
+  "residue": {
+    "chance": 0,
+    "name": "ingot_mystic_coal"
+  },
+  "result": {
+    "item": "kubejs:ingot_mystic_coal",
+    "count": 9
+  }
+}

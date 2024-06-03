@@ -1,4 +1,133 @@
 LootJS.modifiers((event) => {
+
+    // List of village loot tables
+    const villageLootTables = [
+      'minecraft:chests/village/village_armorer',
+      'minecraft:chests/village/village_butcher',
+      'minecraft:chests/village/village_cartographer',
+      'minecraft:chests/village/village_desert_house',
+      'minecraft:chests/village/village_fisher',
+      'minecraft:chests/village/village_fletcher',
+      'minecraft:chests/village/village_mason',
+      'minecraft:chests/village/village_plains_house',
+      'minecraft:chests/village/village_savanna_house',
+      'minecraft:chests/village/village_shepherd',
+      'minecraft:chests/village/village_snowy_house',
+      'minecraft:chests/village/village_taiga_house',
+      'minecraft:chests/village/village_tannery',
+      'minecraft:chests/village/village_temple',
+      'minecraft:chests/village/village_toolsmith',
+      'minecraft:chests/village/village_weaponsmith'
+  ];
+
+  function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  // Add mechanisms to all village loot tables
+  villageLootTables.forEach(lootTable => {
+    event.addLootTableModifier(lootTable)
+    .addWeightedLoot(
+      [1, 3],
+      [
+        Item.of("kubejs:rotation_mechanism").withChance(5)
+      ]
+    );
+  });
+
+  //Aether Loot
+  event.addLootTableModifier("aether:chests/dungeon/bronze/bronze_dungeon_loot")
+  .addWeightedLoot(
+    [1, 3],
+    [
+      Item.of("kubejs:rotation_mechanism",4).withChance(5),
+      Item.of("create:zinc_ingot",5).withChance(5)
+    ]
+  );
+  event.addLootTableModifier("aether:chests/dungeon/gold/gold_dungeon_treasure")
+  .addWeightedLoot(
+    [1, 3],
+    [
+      Item.of("create:zinc_ingot",15).withChance(5)
+    ]
+  );
+  event.addLootTableModifier("aether:chests/dungeon/silver/silver_dungeon_loot")
+  .addWeightedLoot(
+    [1, 3],
+    [
+      Item.of("kubejs:rotation_mechanism",8).withChance(5),
+      Item.of("create:zinc_ingot",10).withChance(7)
+    ]
+  );
+
+  // Twilight Loot
+  event
+    .addEntityLootModifier("twilightforest:snow_queen")
+    .addWeightedLoot(
+      [1, 4],
+      [Item.of("kubejs:rotation_mechanism",15).withChance(50)]
+    );
+
+  event
+    .addEntityLootModifier("twilightforest:hydra")
+    .addWeightedLoot(
+      [1, 4],
+      [Item.of("kubejs:rotation_mechanism",8).withChance(50),Item.of("minecraft:redstone",15).withChance(70)]
+    );
+
+  event
+    .addEntityLootModifier("twilightforest:ur_ghast")
+    .addWeightedLoot(
+      [1, 4],
+      [Item.of("kubejs:rotation_mechanism",8).withChance(50),Item.of("minecraft:quartz",15).withChance(70)]
+    );
+
+  event
+    .addEntityLootModifier("twilightforest:naga")
+    .addWeightedLoot(
+      [1, 3],
+      [Item.of("kubejs:rotation_mechanism",6).withChance(50)]
+    );
+
+  event
+    .addEntityLootModifier("twilightforest:snow_queen")
+    .addWeightedLoot(
+      [1, 3],
+      [Item.of("kubejs:rotation_mechanism",10).withChance(50)]
+    );      
+  /*event
+    .addEntityLootModifier("twilightforest:hydra")
+    .randomChance(normalChance)
+    .addLoot("simplyswords:frostfall")
+
+  event
+    .addEntityLootModifier("twilightforest:naga")
+    .randomChance(normalChance)
+    .addLoot("simplyswords:frostfall")
+
+  event
+    .addEntityLootModifier("twilightforest:snow_queen")
+    .randomChance(normalChance)
+    .addLoot("simplyswords:frostfall")*/
+
+
+
+
+
+  //corail tombstone
+  event
+    .addLootTypeModifier(LootType.ENTITY)
+    .removeLoot('tombstone:grave_dust')
+  event
+    .addLootTypeModifier(LootType.ENTITY)
+    .removeLoot('tombstone:essence_of_undeath')  
+  event
+    .addLootTypeModifier(LootType.ENTITY)
+    .removeLoot('tombstone:soul_receptacle')  
+  event
+    .addLootTypeModifier(LootType.FISHING)
+    .removeLoot('tombstone:grave_dust')
+
   event
       .addLootTableModifier("ad_astra:chests/dungeon/moon/dungeon_chest")
       .addWeightedLoot(
@@ -19,9 +148,9 @@ LootJS.modifiers((event) => {
     .addLoot(Item.of("waystones:warp_dust",1))
  
     // SIMPLE SWORDS STUFF
-    const normalChance =0.02
-    const highChance =0.1
-    const mdChance =0.04
+    const normalChance =0.03
+    const highChance =0.12
+    const mdChance =0.05
   event
     .addEntityLootModifier("twilightforest:snow_queen")
     .randomChance(normalChance)

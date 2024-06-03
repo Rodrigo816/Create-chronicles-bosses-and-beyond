@@ -4,18 +4,14 @@
 	filename: "chapter_vii_building_a_rocket"
 	group: "5237AEA7260D740E"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ad_astra:tier_1_rocket"
 		tag: { }
 	}
 	id: "1DBBA282D8932456"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "ad_astra:textures/painting/earth.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -23,11 +19,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
-			hover: [ ]
 			image: "ad_astra:textures/painting/moon.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -35,7 +27,7 @@
 			y: 11.0d
 		}
 	]
-	order_index: 7
+	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -59,6 +51,7 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"52BB4427D9F5163D\" } }"]
 			hide: true
 			hide_dependency_lines: true
 			id: "5F8B17F4A8CF47C7"
@@ -186,19 +179,13 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You should bring multiple &ffull oxygen tanks&r, plentiful &ffood&r, &csoul torches&r or &eglowstone&r, &aweapons&r and &atools&r. Once you have this, you are ready to launch! Enter the &erocket&r and press &aSpace&r!&r"
+				"You should bring multiple full &bOxygen Tanks&r,&6 plenty of food, Soul Torches or Glowstone, weapons, and tools&r. Once you have these, you're ready to launch! Enter the rocket and press Space!"
 				""
-				"Crouch and right click to pen its UI."
+				"Crouch and right-click to open its UI. From there, you can deposit &9Astral Fuel&r. It can store up to three buckets, so it's a smart idea to keep some spare. Being stranded is the worst thing that can happen to you."
 				""
-				"From there, &6Astral Fuel&r can be deposited."
+				"Right-click to enter the rocket. After holding Space for a while, you'll launch and access the planetary selection system. You can't explore every planet yet, but you'll have some new options."
 				""
-				"It can store up to three buckets, its a smart ideia to keep some spare. Being stranded is the worst thing that can happen yo you."
-				""
-				"Right-click to enter the rocket. Adter holding space for awhile you'll launch off and gain acess to a planetary selection system. You can't expore every planet just yet, but you'll still have some new options."
-				""
-				"After selecting a location, you'll descend on the planet in a lander."
-				""
-				"Space will decelerate it. Make sure you do not hit the ground too fast: the lander will explode and you'll be left with no way home. The truly paranoind will take two rockets. F5 can help with the landing process."
+				"After selecting a location, you'll descend on the planet in a lander. Press Space to decelerate. Make sure you don't hit the ground too fast, or the lander will explode, leaving you stranded. &aF5 can help with the landing process.&r"
 			]
 			id: "7148FF0A0F2F9890"
 			rewards: [{
@@ -213,7 +200,7 @@
 			tasks: [{
 				id: "76C26ADF57608504"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_1_rocket"
 					tag: { }
 				}
@@ -323,9 +310,13 @@
 		{
 			dependencies: ["1084B343FEEBB88E"]
 			description: [
-				"If you're planning on going to space, you better believe that you need a new set of gear for the journey."
+				"If you're planning to go to space, you'll need a new set of gear for the journey."
 				""
-				"You'll need to make a full &aSpace Suit&r for your first trip, which will be to the &bMoon&r. Come to find out, the Moon is kind of cold and lacks Oxygen. Without a Suit, you won't last long. :)"
+				"For your first trip to the &3Moon&r, you'll need to make a full&n&a Space Suit.&r&r The &3Moon&r is cold and lacks oxygen, so without a suit, you won't last long."
+				""
+				"To craft &n&cpolymer plates&r&r, the materials can be found in the &aToxic Caves&r from Alex's Caves."
+				""
+				"{ \"text\": \"☞ Click here to learn more.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"52034A3AD5A347C8\" } }"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -346,7 +337,7 @@
 				{
 					id: "1645E38B9254D660"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_helmet"
 						tag: {
 							Damage: 0
@@ -357,7 +348,7 @@
 				{
 					id: "4CCE98B05AA6111E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_suit"
 						tag: {
 							BotariumData: { }
@@ -369,7 +360,7 @@
 				{
 					id: "7059377306B67AE6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_pants"
 						tag: {
 							Damage: 0
@@ -380,7 +371,7 @@
 				{
 					id: "5B7EFFD09E4B0DB5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_boots"
 						tag: {
 							Damage: 0
@@ -396,13 +387,13 @@
 		{
 			dependencies: ["1084B343FEEBB88E"]
 			description: [
-				"Fun Fact: You cannot breathe on the Moon without &bOxygen&r. Actually, you can't breathe anywhere without Oxygen. Guess what the Moon doesn't have?"
+				"You can't breathe on the Moon without &3Oxygen&r. Actually, you can't breathe anywhere without &3Oxygen&r. Guess what the &9Moon&r doesn't have?"
 				""
-				"So we're going to make us some. Start by crafting an &aOxygen Loader&r and giving it water and power. This will begin to convert the Water into &bOxygen&r for us to use."
+				"So, let's make some. Start by crafting an &dOxygen Loader&r and giving it water and power. This will convert the water into &3Oxygen&r for us to use."
 				""
-				"To collect it, you can either place an &bOxygen Tank&r, an empty bucket, or a Space Suit inside."
+				"To collect it, place an &3Oxygen Tank&r, an empty bucket, or a &6Space Suit&r inside."
 				""
-				"Pro Tip: It's always a good idea to have extra &bOxygen&r on hand... just in case."
+				"&6Tip:&r &7&oIt's always a good idea to have extra Oxygen on hand... just in case.&r&r"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -430,7 +421,7 @@
 				{
 					id: "6DA3662083D3873D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:oxygen_tank"
 						tag: { }
 					}
@@ -475,11 +466,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"If you want to make a base outside of the Earth, you'll most likely need a way to get &bOxygen&r."
+				"If you want to make a base outside Earth, you'll need &4Oxygen.&r&l"
 				""
-				"The &dOxygen Distributor&r is a machine that distributes oxygen in a &asealed&r room. When given water and power, it will automatically distribute the oxygen into the sealed room."
+				"The &6Oxygen Distributor&r is a machine that distributes oxygen in a sealed room. When given water and power, it automatically distributes oxygen."
 				""
-				"The &9Water Pump&r is used to pump water from an infinite water source below it into the Distributor. You can also pump water in using a sink or an &dEternal Water Block&r."
+				"The &bWater Pump&r pumps water from an infinite water source below it into the Distributor."
 			]
 			id: "01B1F88F57961B10"
 			optional: true
@@ -495,15 +486,18 @@
 			}]
 			title: "Oxygen for your Bases!"
 			x: 0.0d
-			y: 16.5d
+			y: 17.0d
 		}
 		{
-			dependencies: ["47A6ACAA667AD14A"]
-			description: ["Its power generation depends on the planet's distance from the &csun &6and &bfog&r. Because of this, it is more efficient to place &bsolar panels&r close to the &csun&r. &bsolar panels&r also produce more energy in &borbit&r, as there is no &catmosphere&r blocking the &dlight&r.&r"]
-			hide: true
-			hide_dependency_lines: true
+			dependencies: ["509BB6BF39848F5B"]
+			description: [
+				"Its power generation depends on the planet's distance from the sun and fog. "
+				""
+				"Solar panels are more efficient when placed closer to the sun. "
+				""
+				"They also produce more energy in orbit because there's no atmosphere blocking the light."
+			]
 			id: "37D437BA68D6864C"
-			optional: true
 			rewards: [
 				{
 					id: "56C2799476D03572"
@@ -523,16 +517,19 @@
 				type: "item"
 			}]
 			title: "Craft a &2Solar Panel"
-			x: 2.0d
-			y: 16.5d
+			x: 1.0d
+			y: 15.5d
 		}
 		{
-			dependencies: ["47A6ACAA667AD14A"]
-			description: ["The &bwater pump&r is essential for keeping the &boxygen distributor&r running infinitely. To use it, place an &binfinite water source&r below, then place the &bwater pump&r above one of the water blocks, and then place the &boxygen distributor&r adjacent to it. Make sure to supply both the &bwater pump&r and the &boxygen distributor&r with sufficient &cpower&r.&r"]
-			hide: true
-			hide_dependency_lines: true
+			dependencies: ["509BB6BF39848F5B"]
+			description: [
+				"The&b Water Pump&r is essential for keeping the &aOxygen Distributor&r running indefinitely. "
+				""
+				"To use it, place an infinite water source below, then place the &bWater Pump&r above one of the water blocks, and the &aOxygen Distributor&r next to it. "
+				""
+				"Make sure to supply both the &bWater Pump&r and the &aOxygen Distributor&r with enough power."
+			]
 			id: "29A64A556C101D83"
-			optional: true
 			rewards: [
 				{
 					id: "496CCA723B67B909"
@@ -551,13 +548,13 @@
 				title: "Craft a &bWater Pump"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 16.5d
+			x: -1.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
 			dependency_requirement: "one_completed"
-			description: ["The &6rover&r is a land vehicle capable of driving on the rough terrain of &emoons &6and &bplanets&r. It's &aexceptionally fast&r, has an &binventory &6capable of &astoring eight items &6and has &atwo seats &6for &cmultiple riders&r. To use it, fill the rover with &cfuel &6(&eshift-click&r and place &cfuel buckets &6in the &cleft input slot&r).&r"]
+			description: ["&6The Rover&r is a land vehicle that can drive on rough terrain of moons and planets. It's very fast, has an inventory for&9 eight items&r, and has two seats for multiple riders. To use it, fill it with fuel by shift-clicking and placing &aastral fuel buckets&r in the left input slot."]
 			hide: true
 			id: "694646586C18C609"
 			optional: true
@@ -592,7 +589,7 @@
 			tasks: [{
 				id: "451EC360A3F38231"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_1_rover"
 					tag: {
 						BotariumData: { }
