@@ -35,6 +35,205 @@ LootJS.modifiers((event) => {
     );
   });
 
+
+  //Dragon Chests - LIGHTNING
+  event.addLootTableModifier("mowziesmobs:chests/umvuthana_grove_chest")
+  .addWeightedLoot(
+    [1, 8],
+    [
+      Item.of("2x create_dd:calculation_mechanism").withChance(4),
+      Item.of("2x minecraft:diamond").withChance(1),
+    ]
+  )
+
+  //Dragon Chests - LIGHTNING
+  event.addLootTableModifier("iceandfire:chest/lightning_dragon_roost")
+  .addWeightedLoot(
+    [1, 3],
+    [
+      Item.of("5x create_dd:integrated_circuit").withChance(5),
+      Item.of("1x paraglider:spirit_orb").withChance(0.05),
+    ]
+  )
+  .removeLoot('iceandfire:silver_ingot');
+
+  event.addLootTableModifier("iceandfire:chest/lightning_dragon_female_cave")
+  .addWeightedLoot(
+    [1, 3],
+    [
+      Item.of("10x create_dd:integrated_circuit").withChance(5),
+      Item.of("1x paraglider:spirit_orb").withChance(1),
+    ]
+  )
+  .removeLoot('iceandfire:silver_ingot');
+
+  event.addLootTableModifier("iceandfire:chest/lightning_dragon_male_cave")
+  .addWeightedLoot(
+    [1, 3],
+    [
+      Item.of("10x create_dd:integrated_circuit").withChance(5),
+      Item.of("1x paraglider:spirit_orb").withChance(1),
+    ]
+  )
+  .removeLoot('iceandfire:silver_ingot');
+
+  //Dragon Chests - FIRE
+  event.addLootTableModifier("iceandfire:chest/fire_dragon_roost")
+    .addWeightedLoot(
+      [1, 3],
+      [
+        Item.of("10x kubejs:rotation_mechanism").withChance(5),
+        Item.of("1x paraglider:spirit_orb").withChance(0.06),
+        Item.of("5x minecraft:redstone").withChance(5),
+        Item.of("5x minecraft:quartz").withChance(5),
+        Item.of("5x minecraft:copper_ingot").withChance(5),
+        Item.of("5x create:zinc_ingot").withChance(5),
+        Item.of("10x quark:soul_bead").withChance(4),
+      ]
+    )
+    .removeLoot('iceandfire:silver_ingot');
+
+  event.addLootTableModifier("iceandfire:chest/fire_dragon_female_cave")
+    .addWeightedLoot(
+      [1, 3],
+      [
+        Item.of("10x kubejs:rotation_mechanism").withChance(5),
+        Item.of("1x paraglider:spirit_orb").withChance(0.1),
+        Item.of("5x minecraft:redstone").withChance(5),
+        Item.of("5x minecraft:quartz").withChance(5),
+        Item.of("5x minecraft:copper_ingot").withChance(5),
+        Item.of("5x create:zinc_ingot").withChance(5),
+        Item.of("10x quark:soul_bead").withChance(4),
+      ]
+    )
+    .removeLoot('iceandfire:silver_ingot');
+
+  event.addLootTableModifier("iceandfire:chest/fire_dragon_male_cave")
+    .addWeightedLoot(
+      [1, 3],
+      [
+        Item.of("10x kubejs:rotation_mechanism").withChance(5),
+        Item.of("1x paraglider:spirit_orb").withChance(0.1),
+        Item.of("5x minecraft:redstone").withChance(5),
+        Item.of("5x minecraft:quartz").withChance(5),
+        Item.of("5x minecraft:copper_ingot").withChance(5),
+        Item.of("5x create:zinc_ingot").withChance(5),
+        Item.of("10x quark:soul_bead").withChance(4),
+      ]
+    )
+    .removeLoot('iceandfire:silver_ingot');
+
+  //Dragon Chests - ICE
+  event.addLootTableModifier("iceandfire:chest/ice_dragon_roost")
+    .addWeightedLoot(
+      [1, 3],
+      [
+        Item.of("10x kubejs:rotation_mechanism").withChance(5),
+        Item.of("1x paraglider:spirit_orb").withChance(0.06),
+        Item.of("5x minecraft:redstone").withChance(5),
+        Item.of("5x minecraft:quartz").withChance(5),
+        Item.of("5x minecraft:copper_ingot").withChance(5),
+        Item.of("5x create:zinc_ingot").withChance(5),
+        Item.of("10x quark:soul_bead").withChance(4),
+      ]
+    )
+    .removeLoot('iceandfire:silver_ingot');
+
+  event.addLootTableModifier("iceandfire:chest/ice_dragon_female_cave")
+    .addWeightedLoot(
+      [1, 3],
+      [
+        Item.of("10x kubejs:rotation_mechanism").withChance(5),
+        Item.of("1x paraglider:spirit_orb").withChance(0.1),
+        Item.of("5x minecraft:redstone").withChance(5),
+        Item.of("5x minecraft:quartz").withChance(5),
+        Item.of("5x minecraft:copper_ingot").withChance(5),
+        Item.of("5x create:zinc_ingot").withChance(5),
+        Item.of("10x quark:soul_bead").withChance(4),
+      ]
+    )
+    .removeLoot('iceandfire:silver_ingot');
+  event.addLootTableModifier("iceandfire:chest/ice_dragon_male_cave")
+    .addWeightedLoot(
+      [1, 3],
+      [
+        Item.of("10x kubejs:rotation_mechanism").withChance(5),
+        Item.of("1x paraglider:spirit_orb").withChance(0.1),
+        Item.of("5x minecraft:redstone").withChance(5),
+        Item.of("5x minecraft:quartz").withChance(5),
+        Item.of("5x minecraft:copper_ingot").withChance(5),
+        Item.of("5x create:zinc_ingot").withChance(5),
+        Item.of("10x quark:soul_bead").withChance(4),
+      ]
+    )
+    .removeLoot('iceandfire:silver_ingot');
+
+  //Spirits Orbs
+  event.addLootTableModifier("irons_spellbooks:chests/catacombs/crypt_loot")
+  .addWeightedLoot(
+    [1, 2],
+    [
+      Item.of("paraglider:spirit_orb").withChance(2),
+    ]
+  );
+
+  //starlit
+  event.addLootTableModifier("blue_skies:loot_bags/starlit_crusher/common")
+  .addWeightedLoot(
+    [1, 2],
+    [
+      Item.of("paraglider:spirit_orb").withChance(0.02),
+      Item.of("20x kubejs:rotation_mechanism").withChance(5),
+    ]
+  );
+
+  event.addLootTableModifier("blue_skies:loot_bags/starlit_crusher/uncommon")
+  .addWeightedLoot(
+    [1, 2],
+    [
+      Item.of("paraglider:spirit_orb").withChance(0.02),
+      Item.of("25x kubejs:rotation_mechanism").withChance(5),
+    ]
+  );
+
+  event.addLootTableModifier("blue_skies:loot_bags/starlit_crusher/rare")
+  .addWeightedLoot(
+    [1, 2],
+    [
+      Item.of("paraglider:spirit_orb").withChance(0.02),
+      Item.of("30x kubejs:rotation_mechanism").withChance(8),
+    ]
+  );
+
+  //arachnarch
+  event.addLootTableModifier("blue_skies:loot_bags/arachnarch/common")
+  .addWeightedLoot(
+    [1, 2],
+    [
+      Item.of("paraglider:spirit_orb").withChance(0.02),
+      Item.of("20x kubejs:rotation_mechanism").withChance(5),
+    ]
+  );
+
+  event.addLootTableModifier("blue_skies:loot_bags/arachnarch/uncommon")
+  .addWeightedLoot(
+    [1, 2],
+    [
+      Item.of("paraglider:spirit_orb").withChance(0.02),
+      Item.of("25x kubejs:rotation_mechanism").withChance(5),
+    ]
+  );
+
+  event.addLootTableModifier("blue_skies:loot_bags/arachnarch/rare")
+  .addWeightedLoot(
+    [1, 2],
+    [
+      Item.of("paraglider:spirit_orb").withChance(0.02),
+      Item.of("30x kubejs:rotation_mechanism").withChance(8),
+    ]
+  );
+
+
   //Aether Loot
   event.addLootTableModifier("aether:chests/dungeon/bronze/bronze_dungeon_loot")
   .addWeightedLoot(
@@ -146,6 +345,8 @@ LootJS.modifiers((event) => {
   event
     .addBlockLootModifier(/waystones\:.*waystone/)
     .addLoot(Item.of("waystones:warp_dust",1))
+
+
  
     // SIMPLE SWORDS STUFF
     const normalChance =0.03
@@ -166,23 +367,23 @@ LootJS.modifiers((event) => {
   // ---
   event
   .addEntityLootModifier("cataclysm:the_leviathan")
-  .randomChance(normalChance)
+  .randomChance(mdChance)
   .addLoot("simplyswords:icewhisper")
 event
   .addEntityLootModifier("cataclysm:the_leviathan")
-  .randomChance(normalChance)
+  .randomChance(mdChance)
   .addLoot("simplyswords:frostfall");
 event
   .addEntityLootModifier("cataclysm:the_leviathan")
-  .randomChance(normalChance)
+  .randomChance(mdChance)
   .addLoot("simplyswords:whisperwind");   
 event
   .addEntityLootModifier("cataclysm:the_leviathan")
-  .randomChance(normalChance)
+  .randomChance(mdChance)
   .addLoot("simplyswords:watching_warglaive"); 
 event
   .addEntityLootModifier("cataclysm:the_leviathan")
-  .randomChance(normalChance)
+  .randomChance(mdChance)
   .addLoot("simplyswords:twisted_blade");   
 // ---
 event
@@ -290,6 +491,14 @@ event
   event
     .addEntityLootModifier("alexscaves:forsaken")
     .randomChance(normalChance)
+    .addLoot("simplyswords:watching_warglaive");  
+  event
+    .addEntityLootModifier("alexscaves:forsaken")
+    .randomChance(normalChance)
+    .addLoot("simplyswords:tempest");
+  event
+    .addEntityLootModifier("alexscaves:forsaken")
+    .randomChance(normalChance)
     .addLoot("simplyswords:watching_warglaive");    
   // --
   event
@@ -307,10 +516,6 @@ event
   event
     .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead_head")
     .randomChance(normalChance)
-    .addLoot("simplyswords:flamewind")  
-  event
-    .addEntityLootModifier("born_in_chaos_v1:lord_pumpkinhead_head")
-    .randomChance(normalChance)
     .addLoot("simplyswords:mjolnir");   
   // ---
   event
@@ -319,13 +524,13 @@ event
     .addLoot("simplyswords:whisperwind");
 
   event
-    .addEntityLootModifier("irons_spellbooks:dead_king_corpse")
-    .randomChance(normalChance)
+    .addEntityLootModifier("conjurer_illager:conjurer")
+    .randomChance(0.20)
     .addLoot("simplyswords:tempest");
   event
-    .addEntityLootModifier("irons_spellbooks:dead_king_corpse")
-    .randomChance(normalChance)
-    .addLoot("simplyswords:watching_warglaive");   
+    .addEntityLootModifier("conjurer_illager:conjurer")
+    .randomChance(0.20)
+    .addLoot("simplyswords:watching_warglaive");  
   // ---
 
   event
@@ -623,5 +828,11 @@ event
 event
   .addEntityLootModifier("minecraft:warden")
   .randomChance(normalChance)
-  .addLoot("simplyswords:soulrender")
+  .addLoot("simplyswords:soulrender");
+
+event
+  .addEntityLootModifier("alexscaves:magnetron")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:flamewind")  
 });
+

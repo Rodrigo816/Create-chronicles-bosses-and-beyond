@@ -1,0 +1,26 @@
+{
+	"conditions": [
+	{
+		"modid": "ad_astra",
+		"type": "forge:mod_loaded"
+	}
+	],
+    "entity": "ad_astra:martian_raptor",
+    "variants": [],
+    "name": "entity.ad_astra.martian_raptor",
+    "name_color": "#48a33e",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 161,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.martian_raptor",
+    "fabricator_drops": [
+    ]
+}

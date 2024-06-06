@@ -1,0 +1,10 @@
+{
+  "type":"createaddition:liquid_burning",
+  "input": {
+        "fluid": "tfmg:kerosene",
+
+        "amount": 1000
+  },
+  "burnTime": 24000,
+  "superheated": false
+}

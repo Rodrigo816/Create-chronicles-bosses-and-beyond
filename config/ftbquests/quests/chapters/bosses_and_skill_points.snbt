@@ -133,7 +133,7 @@
 				""
 				"The Leviathan can be found in the &3Sunken City&r. To summon and fight the Leviathan, you need to locate the &5Altar of the Abyssal&r."
 				""
-				"Place the following items in the altar: a&e Nautilus Shell&r, &eHeart of the Sea&r, &eAthame&r, and &eCrystallized Coral&r. All of these items can be found in the Sunken City."
+				"Place the following items in the altar: &l&6Abyssal Sacrifice.&r&r"
 				""
 				"If you defeat the Leviathan, you will be granted a &9Tidal Claw&r and an &9Abyssal Egg&r."
 				""
@@ -287,7 +287,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			subtitle: "&6⭐⭐⭐&7⭐⭐&6+&7"
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:monstrous_eye"
@@ -440,7 +440,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			subtitle: "&6⭐⭐⭐&7⭐⭐&6+&7"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: "bosses_of_mass_destruction:obsidian_heart"
@@ -749,7 +749,7 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
-			icon: "iceandfire:sea_serpent_fang"
+			icon: "iceandfire:seaserpent_skull"
 			id: "1AB94A49F0A4427D"
 			rewards: [
 				{
@@ -771,7 +771,7 @@
 			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "iceandfire:sea_serpent"
-				icon: "iceandfire:sea_serpent_fang"
+				icon: "iceandfire:seaserpent_skull"
 				id: "39A127619B88417C"
 				type: "kill"
 				value: 1L
@@ -2391,20 +2391,28 @@
 			]
 			hide: false
 			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lootr:textures/item/crown.png"
-				}
-			}
+			icon: "lootr:trophy"
 			id: "025314CC80D7286F"
 			invisible: true
-			rewards: [{
-				id: "45D461EBEE406919"
-				item: "kubejs:slayer_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "45D461EBEE406919"
+					item: "kubejs:slayer_badge"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "7FB2074001EED448"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 200
+					id: "1C177252F0050B6E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.5d
 			subtitle: "Complete all the quests in this chapter."
@@ -2804,14 +2812,13 @@
 					type: "command"
 				}
 				{
-					count: 4
 					id: "54121C6E1BC34324"
-					item: "numismatics:cog"
+					item: "numismatics:crown"
 					type: "item"
 				}
 			]
 			shape: "square"
-			subtitle: "TBA"
+			subtitle: "&6⭐⭐⭐⭐⭐&7"
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
 				icon: {
@@ -2862,7 +2869,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "TBA"
+			subtitle: "&6⭐⭐⭐&7⭐⭐&6+&7"
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				icon: "mowziesmobs:sol_visage"
@@ -3022,6 +3029,44 @@
 			title: "&2Overworld&f: Lifestealer"
 			x: 1.0d
 			y: 8.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"All bosses are rated with a number of &6yellow stars&r indicating the difficulty level from 1 to 5. "
+				""
+				"This star system should set your expectations before facing the boss, as some of the &c4-5 star bosses&r are intended to be &4challenging end game&r."
+				""
+				"Make sure to prepare yourself accordingly. Here are some&d general expectations&r for each star rating:"
+				""
+				""
+				"&6⭐&7 - Iron level or similar armor with some enchantments.&r"
+				""
+				"&6⭐⭐&7 - Diamond level or similar armor with some enchantments.&r"
+				""
+				"&6⭐⭐⭐&7 - Netherite level or similar with full Protection IV and at least &c20 ❤&r"
+				""
+				"&6⭐⭐⭐⭐&7 - Full Darkmetal level armor or similar with full Protection V and at least &c30 ❤.&r &7Some food with bonuses is also recommended. At least 30 Skill points used.&r"
+				""
+				"&6⭐⭐⭐⭐⭐&7 - Full Darkmetal level armor or similar with full Protection V and at least &c40 ❤.&r &7and everyting that can boost you ^_^. At least 50 Skill points used.&r"
+			]
+			icon: "create:clipboard"
+			id: "50CDD784C02C35CE"
+			rewards: [{
+				id: "15A3B6F803572A9D"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "229AF62A0A0E0EDB"
+				title: "I acknowledge this!"
+				type: "checkmark"
+			}]
+			title: "&l&6Rating System"
+			x: 1.1d
+			y: 0.45d
 		}
 	]
 	title: "&9&l Bosses and Skill Points"

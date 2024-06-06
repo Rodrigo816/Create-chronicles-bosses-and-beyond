@@ -308,8 +308,8 @@
 			id: "3FDA4ADCC08B6CFB"
 			subtitle: "crush it"
 			tasks: [{
-				id: "1CBD5C0070846DCE"
-				item: "create:scoria"
+				id: "128F9FDC1B585D22"
+				item: "create_dd:potassic"
 				type: "item"
 			}]
 			x: 13.5d
@@ -333,7 +333,7 @@
 		}
 		{
 			dependencies: ["64E747B93D74A16E"]
-			icon: "molten_vents:active_molten_scoria"
+			icon: "molten_vents:dormant_molten_potassic"
 			id: "1D22D77A69AFEA20"
 			subtitle: "Activate with tnt them place napalm bomb near it."
 			tasks: [{
@@ -341,6 +341,7 @@
 				title: "Dormant Molten Scoria"
 				type: "checkmark"
 			}]
+			title: "Dormant Molten Potassic"
 			x: 13.5d
 			y: -3.0d
 		}
@@ -738,28 +739,17 @@
 		}
 		{
 			dependencies: ["3FDA4ADCC08B6CFB"]
-			id: "72E9DC33E526DADA"
-			tasks: [{
-				id: "2DAE1F8A13158384"
-				item: "create_dd:potassic_cobble"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["72E9DC33E526DADA"]
 			id: "40102220F51B35B6"
 			tasks: [{
 				id: "5FD619E6A4E60B71"
 				item: "create:crushed_raw_tin"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.5d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["72E9DC33E526DADA"]
+			dependencies: ["3FDA4ADCC08B6CFB"]
 			id: "20A8242D2D7277A2"
 			tasks: [{
 				id: "3CE120D5EB545C78"
@@ -767,7 +757,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["507B899E6467E189"]
@@ -904,6 +894,45 @@
 			}]
 			x: 14.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["2AA838B09218F700"]
+			hide_dependency_lines: true
+			id: "3BC3FE0A42564D1D"
+			subtitle: "Chocolate from Create"
+			tasks: [{
+				id: "11389E6FD6660C6C"
+				title: "Chocolate"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2AA838B09218F700"]
+			hide_dependency_lines: true
+			id: "08BA0F4F88612CBC"
+			tasks: [{
+				id: "3164FC4D9FC2E805"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3BC3FE0A42564D1D"
+				"08BA0F4F88612CBC"
+			]
+			id: "2485C10AD3B7F71B"
+			tasks: [{
+				id: "2DB8B9755697B2AF"
+				item: "create:scoria"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
 		}
 	]
 	title: "&o&l&aRenewable ores&r&r"

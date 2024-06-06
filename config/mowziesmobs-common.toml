@@ -1,7 +1,7 @@
 
 [tools_and_abilities]
 	#Range: 0.0 ~ 1.7976931348623157E308
-	geomancy_attack_multiplier = 1.0
+	geomancy_attack_multiplier = 1.6
 	#Cost in minutes of using the supernova ability.
 	#Range: > 0
 	supernova_cost = 60
@@ -11,10 +11,10 @@
 		#Range: > 0
 		suns_blessing_duration = 60
 		#Range: 0.0 ~ 1.7976931348623157E308
-		suns_blessing_attack_multiplier = 1.0
+		suns_blessing_attack_multiplier = 4.0
 		#Cost in minutes of using the solar beam ability.
 		#Range: > 0
-		solar_beam_cost = 5
+		solar_beam_cost = 2
 
 	[tools_and_abilities.wrought_helm]
 		#Set to true for the Wrought Helm to have limited durability.
@@ -35,7 +35,7 @@
 		[tools_and_abilities.axe_of_a_thousand_metals.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 9.0
+			attack_damage = 11.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 0.8999999761581421
@@ -43,6 +43,9 @@
 	[tools_and_abilities.sol_visage]
 		#Set to true for the Sol Visage to have limited durability.
 		breakable = false
+		#Maximum number of Umvuthana followers a player can summon at once using the Sol Visage
+		#Range: 0 ~ 300
+		max_followers = 10
 
 		[tools_and_abilities.sol_visage.armor_config]
 			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
@@ -50,12 +53,12 @@
 			damage_reduction = 2
 			#See official Minecraft Wiki for an explanation of how armor toughness works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness = 0.0
+			toughness = 5.0
 
 	[tools_and_abilities.ice_crystal]
 		#Multiply all damage done with the ice crystal by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 1.0
+		attack_multiplier = 6.0
 		#Set to true for the ice crystal to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
@@ -177,10 +180,10 @@
 		[mobs.frostmaw.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 15.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 12.0
 
 	[mobs.umvuthi]
 		#Disable/enable Umvuthi's boss health bar
@@ -235,10 +238,10 @@
 		[mobs.umvuthi.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 8.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 8.0
 
 	[mobs.ferrous_wroughtnaut]
 		#Disable/enable Ferrous Wroughtnaut's boss health bar
@@ -515,10 +518,10 @@
 		[mobs.umvuthana.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 3.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 10.0
 
 	[mobs.naga]
 
@@ -532,7 +535,7 @@
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
 			biome_tags = ["minecraft:is_beach,minecraft:is_mountain", "minecraft:is_beach,minecraft:is_hill"]
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = ["minecraft:stony_shore"]
+			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 
@@ -540,13 +543,13 @@
 		[mobs.naga.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 15
+			spawn_rate = 10
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
-			min_group_size = 2
+			min_group_size = 1
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
-			max_group_size = 4
+			max_group_size = 2
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
@@ -577,7 +580,7 @@
 			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 	[mobs.foliaath]
 
@@ -636,5 +639,5 @@
 			health_multiplier = 1.2
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.1
+			attack_multiplier = 1.2
 

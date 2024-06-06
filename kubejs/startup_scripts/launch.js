@@ -48,6 +48,8 @@ StartupEvents.registry("block", (event) => {
  */
 StartupEvents.registry('item', event => {
 
+    //space
+    event.create('sol_ingot').texture("kubejs:item/sol_ingot").displayName('Sol Ingot')
 
     let mechanism = (name, rarity) => {
 		let id = name.toLowerCase()
@@ -130,5 +132,11 @@ StartupEvents.registry('item', event => {
     event.create('unfinished_evocation_scroll', 'create:sequenced_assembly').rarity("RARE")
     event.create('unfinished_eldritch_scroll', 'create:sequenced_assembly').rarity("RARE")
     event.create('incomplete_netherrack', 'create:sequenced_assembly')
+    event.create('incomplete_t1_plating', 'create:sequenced_assembly')
+    event.create('incomplete_t2_plating', 'create:sequenced_assembly')
+    event.create('incomplete_t3_plating', 'create:sequenced_assembly')
+    event.create('incomplete_t4_plating', 'create:sequenced_assembly')
+    event.create('incomplete_blaze_rod', 'create:sequenced_assembly')
+
 
 })

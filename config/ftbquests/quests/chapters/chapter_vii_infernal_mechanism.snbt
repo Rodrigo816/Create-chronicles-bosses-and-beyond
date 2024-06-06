@@ -294,6 +294,7 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
+			description: ["It's not recommended to use &bIndustrial Fan&r to make this as it doesn't work on belts and depots for some reason, but you can use a smart chute to make it work if you want."]
 			hide: true
 			hide_dependency_lines: true
 			id: "438AFB85E4605DF6"

@@ -116,7 +116,7 @@
 		"Dragon Hunger Tick Rate" = 3000
 		#Every interval of this number in ticks, dragon allowed to break blocks.
 		#Range: 0 ~ 10000
-		"Dragon Block Break Cooldown" = 15
+		"Dragon Block Break Cooldown" = 10
 		#True if villagers should run away and hide from dragons and other hostile Ice and Fire mobs.
 		"Villagers Fear Dragons" = true
 		#True if animals should run away and hide from dragons and other hostile Ice and Fire mobs.
@@ -291,7 +291,7 @@
 	[Mobs.SeaSerpents]
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 700
+		"Spawn Sea Serpent Chance" = 800
 		#Whether or not sea serpents can break weak blocks in their way
 		"Sea Serpent Griefing" = false
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
@@ -299,7 +299,7 @@
 		"Sea Serpent Base Health" = 60.0
 		#Default sea serpent attack strength, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Attack Strength" = 15.0
+		"Sea Serpent Base Attack Strength" = 10.0
 
 	[Mobs.Hippocampus]
 		#1 out of this number chance per chunk for generation

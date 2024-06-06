@@ -1,0 +1,42 @@
+{
+	"conditions": [
+	{
+		"modid": "iceandfire",
+		"type": "forge:mod_loaded"
+	}
+	],
+    "entity": "iceandfire:lightning_dragon",
+    "variants": [],
+    "name": "entity.iceandfire.lightning_dragon",
+    "name_color": "#87afbf",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 9000,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.lightning_dragon",
+    "fabricator_drops": [
+        {
+            "item": "iceandfire:lightning_dragon_blood",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+		    4,
+        16,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        2,
+        4,
+        50,
+        200
+    ]
+}

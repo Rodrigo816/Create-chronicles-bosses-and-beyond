@@ -12,7 +12,7 @@
 		#Range: 0.0 ~ 1000.0
 		armor = 30.0
 		#Range: 1.0 ~ 1000.0
-		attackDamage = 60.0
+		attackDamage = 54.0
 		#Range: 0.0 ~ 10.0
 		knockbackResistance = 0.5
 		#Range: 0.0 ~ 10.0
@@ -69,7 +69,7 @@
 		#Range: 0.0 ~ 10.0
 		knockbackResistance = 0.0
 		#Range: 1.0 ~ 1000.0
-		attackDamage = 25.0
+		attackDamage = 17.0
 		#Range: 0.0 ~ 10.0
 		attackKnockback = 0.7
 		#Range: 1.0 ~ 256.0
@@ -85,7 +85,7 @@
 		#Range: 0.0 ~ 10.0
 		knockbackResistance = 0.2
 		#Range: 1.0 ~ 1000.0
-		attackDamage = 29.0
+		attackDamage = 22.0
 		#Range: 0.0 ~ 10.0
 		attackKnockback = 0.5
 		#Range: 1.0 ~ 256.0
@@ -97,7 +97,7 @@
 		#Range: 0.0 ~ 1000.0
 		armor = 20.0
 		#Range: 1.0 ~ 1000.0
-		attackDamage = 40.0
+		attackDamage = 27.0
 		#Range: 0.0 ~ 10.0
 		attackKnockback = 2.0
 		#Range: 1.0 ~ 256.0

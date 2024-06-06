@@ -137,6 +137,7 @@ ServerEvents.recipes(event => {
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:heat_surge", index:0, level:3, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:flaming_strike", index:0, level:2, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:magma_bomb", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
+			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:scorch", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		], 'kubejs:uncommon_paper',
 		[
 			event.recipes.createDeploying('kubejs:unfinished_fire_scroll', ['kubejs:unfinished_fire_scroll', 'minecraft:blaze_rod']),
@@ -153,6 +154,7 @@ ServerEvents.recipes(event => {
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:heat_surge", index:0, level:5, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:flaming_strike", index:0, level:3, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:magma_bomb", index:0, level:3, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
+			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:scorch", index:0, level:4, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		], 'kubejs:rare_paper',
 		[
 			event.recipes.createDeploying('kubejs:unfinished_fire_scroll', ['kubejs:unfinished_fire_scroll', 'minecraft:blaze_rod']),
@@ -171,6 +173,7 @@ ServerEvents.recipes(event => {
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:flaming_strike", index:0, level:4, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:magma_bomb", index:0, level:6, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:fireball", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
+			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:scorch", index:0, level:7, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		], 'kubejs:epic_paper',
 		[
 			event.recipes.createDeploying('kubejs:unfinished_fire_scroll', ['kubejs:unfinished_fire_scroll', 'minecraft:blaze_rod']),
@@ -189,6 +192,7 @@ ServerEvents.recipes(event => {
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:flaming_strike", index:0, level:5, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:magma_bomb", index:0, level:7, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:fireball", index:0, level:2, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
+			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:scorch", index:0, level:9, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		], 'kubejs:legendary_paper',
 		[
 			event.recipes.createDeploying('kubejs:unfinished_fire_scroll', ['kubejs:unfinished_fire_scroll', 'minecraft:blaze_rod']),
@@ -307,6 +311,7 @@ ServerEvents.recipes(event => {
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:portal", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:counterspell", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:magic_arrow", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
+			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:echoing_strikes", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		], 'kubejs:rare_paper',
 		[
 			event.recipes.createDeploying('kubejs:unfinished_ender_scroll', ['kubejs:unfinished_ender_scroll', 'minecraft:ender_pearl']),
@@ -326,6 +331,7 @@ ServerEvents.recipes(event => {
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:magic_arrow", index:0, level:5, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:summon_ender_chest", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:evasion", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
+			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:echoing_strikes", index:0, level:3, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		], 'kubejs:epic_paper',
 		[
 			event.recipes.createDeploying('kubejs:unfinished_ender_scroll', ['kubejs:unfinished_ender_scroll', 'minecraft:ender_pearl']),
@@ -346,6 +352,7 @@ ServerEvents.recipes(event => {
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:summon_ender_chest", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:evasion", index:0, level:4, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:black_hole", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
+			Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:echoing_strikes", index:0, level:4, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		], 'kubejs:legendary_paper',
 		[
 			event.recipes.createDeploying('kubejs:unfinished_ender_scroll', ['kubejs:unfinished_ender_scroll', 'minecraft:ender_pearl']),
@@ -562,6 +569,7 @@ ServerEvents.recipes(event => {
 		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:chain_lightning", index:0, level:4, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:lightning_lance", index:0, level:4, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:ascension", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
+		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:charge", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:charge", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0)
 	], 'kubejs:rare_paper',
 	[
@@ -578,7 +586,8 @@ ServerEvents.recipes(event => {
 		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:lightning_lance", index:0, level:7, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:ascension", index:0, level:5, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:charge", index:0, level:2, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
-		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:lightning_bolt", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0)
+		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:lightning_bolt", index:0, level:1, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
+		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:charge", index:0, level:4, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0)
 	], 'kubejs:epic_paper',
 	[
 		event.recipes.createDeploying('kubejs:unfinished_lightning_scroll', ['kubejs:unfinished_lightning_scroll', 'irons_spellbooks:lightning_bottle']),
@@ -594,7 +603,8 @@ ServerEvents.recipes(event => {
 		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:lightning_lance", index:0, level:9, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:ascension", index:0, level:8, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
 		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:charge", index:0, level:3, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
-		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:lightning_bolt", index:0, level:7, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0)
+		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:lightning_bolt", index:0, level:7, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0),
+		Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:charge", index:0, level:7, locked:1b}], maxSpells:1, mustEquip:0b, spellWheel:0b}}').withChance(2.0)
 	], 'kubejs:legendary_paper',
 	[
 		event.recipes.createDeploying('kubejs:unfinished_lightning_scroll', ['kubejs:unfinished_lightning_scroll', 'irons_spellbooks:lightning_bottle']),

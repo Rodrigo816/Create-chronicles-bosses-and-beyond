@@ -1,0 +1,43 @@
+{
+	"conditions": [
+	{
+		"modid": "alexscaves",
+		"type": "forge:mod_loaded"
+	}
+	],
+    "entity": "alexscaves:nucleeper",
+    "variants": [],
+    "name": "entity.alexscaves.nucleeper",
+    "name_color": "#2a591e",
+    "gui_scale": 0.5,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 3500,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+		"count": 2
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.nucleeper",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:fissile_core",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+		16,
+        64,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        8,
+        16,
+        16,
+        32
+    ]
+}

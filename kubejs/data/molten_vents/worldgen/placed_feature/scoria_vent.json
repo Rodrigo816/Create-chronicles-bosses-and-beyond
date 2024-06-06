@@ -1,20 +1,4 @@
 {
-    "feature": "molten_vents:scoria_vent",
-    "placement": [
-      {
-        "type": "minecraft:rarity_filter",
-        "chance": 9000
-      },
-      {
-        "type": "minecraft:in_square"
-      },
-      {
-        "type": "minecraft:heightmap",
-        "heightmap": "WORLD_SURFACE_WG"
-      },
-  
-      {
-        "type": "minecraft:biome"
-      }
-    ]
-  }
+  "feature": "molten_vents:scoria_vent",
+  "placement": []
+}

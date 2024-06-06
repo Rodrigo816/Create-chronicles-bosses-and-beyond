@@ -7,44 +7,76 @@ console.info('Hello, World! (Loaded client scripts)')
 ClientEvents.lang('en_us', event => {
   event.renameItem('create:brass_hand', 'Golden Hand')
   event.renameItem('create_sa:hydraulic_engine', 'Valve Mechanism')
+  event.renameItem('create_sa:incomplete_hydraulic_engine', 'Incomplete Valve Mechanism')
 
 })
 
 JEIEvents.hideItems(event => {
+  event.hide(/^tombstone:/)
+
+  event.hide('create_dd:potassic_cobble')
   event.hide('simplyswords:contained_remnant')
   event.hide('simplyswords:tampered_remnant')
 
   event.hide('create_sa:block_picker')
 
+  event.hide('forbidden_arcanus:netherite_blacksmith_gavel')
+
+  event.hide('ae2:flawless_budding_quartz')
+  event.hide('ae2:flawled_budding_quartz')
+  event.hide('ae2:chipped_budding_quartz')
+  event.hide('ae2:damaged_budding_quartz')
+
+  event.hide('create_dd:shadow_steel')
+  event.hide('create_dd:shadow_steel_casing')
+
+  
+  event.hide('ars_nouveau:glyph_animate_block')
+  event.hide('ars_nouveau:burst')
+
   event.hide('ae2:charger')
   event.hide('ae2:meteorite_compass')
+  event.hide('ae2:condenser')
+
+  event.hide('ad_astra:coal_generator')
+  event.hide('ad_astra:compressor')
+  event.hide('ad_astra:fuel_refinery')
 
   event.hide('simplyswords:decaying_relic')
   event.hide('missions:mechanical_exchanger')
   event.hide('missions:mechanical_exchanger')
   event.hide('twilightforest:uncrafting_table')
   event.hide('create_dd:chocolate_milkshake')
+  event.hide('create_dd:vanilla_milkshake')
   event.hide('create_dd:vanilla_milkshake_bucket')
+  event.hide('create_dd:chocolate_milkshake')
   event.hide('create_dd:chocolate_milkshake_bucket')
   event.hide('create_confectionery:caramel_bucket')
   event.hide('create_dd:hot_chocolate')
   event.hide('create_dd:hot_chocolate_bucket')
-  'aquamirae:divider',
-  'aquamirae:terrible_sword',
-  'alexscaves:sulfur',
-  'alexscaves:sulfur_dust',
-  'alexscaves:sulfur_bud_small',
-  'alexscaves:sulfur_bud_medium',
-  'alexscaves:sulfur_bud_large',
-  'alexscaves:sulfur_cluster',
-  'moped:tiny_copper_moped_item',
-  'create_dd:stargaze_singularity',
-  'create_dd:stargaze_singularity_sheet',
-  'create_dd:stargaze_singularity_scaffolding',
-  'create_dd:stargaze_singularity_casing',
-  'create_dd:stargaze_singularity_block',
-  'create_dd:fallen_stargaze_singularity',
-  'moped:tiny_copper_moped_item'
+  event.hide('aquamirae:divider')
+  event.hide('aquamirae:terrible_sword')
+  event.hide('alexscaves:sulfur')
+  event.hide('alexscaves:sulfur_dust')
+  event.hide('alexscaves:sulfur_bud_small')
+  event.hide('alexscaves:sulfur_bud_medium')
+  event.hide('alexscaves:sulfur_bud_large')
+  event.hide('alexscaves:sulfur_cluster')
+  event.hide('moped:tiny_copper_moped_item')
+  event.hide('create_dd:stargaze_singularity')
+  event.hide('create_dd:stargaze_singularity_sheet')
+  event.hide('create_dd:stargaze_singularity_scaffolding')
+  event.hide('create_dd:stargaze_singularity_casing')
+  event.hide('create_dd:stargaze_singularity_block')
+  event.hide('create_dd:fallen_stargaze_singularity')
+  event.hide('moped:tiny_copper_moped_item')
+
+  event.hide('forbidden_arcanus:reinforced_deorum_blacksmith_gavel')
+  event.hide('forbidden_arcanus:reinforced_deorum_sword')
+  event.hide('forbidden_arcanus:reinforced_deorum_shovel')
+  event.hide('forbidden_arcanus:reinforced_deorum_pickaxe')
+  event.hide('forbidden_arcanus:reinforced_deorum_hoe')
+  event.hide('forbidden_arcanus:reinforced_deorum_axe')
 })
 
 
@@ -81,7 +113,11 @@ ItemEvents.tooltip(event => {
 })
 
 JEIEvents.information(e => {
-  /*e.addItem('blue_skies:alchemy_table', [
-    'Cross-dimensional wireless item transfer to any chest on the same channel.',
-  ])*/
+  e.addItem('forbidden_arcanus:stellarite_piece', [
+    'This very rare ore can be found in the Overworld (Y=42 to -42). Known to be very volatile and will explode when mined using conventional techniques.',
+  ])
+  e.addItem('minecraft:firework_star', [
+    'Crafted with a gunpowder and at least one dye in a crafting table, You can also add extra ingredients such as feathers, gold nuggets, etc for extra effects.',
+    'Used to make fireworks! Combine the star with paper and gunpowder.',
+  ])
 })

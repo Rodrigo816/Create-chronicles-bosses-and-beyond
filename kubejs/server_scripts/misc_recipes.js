@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
     'forbidden_arcanus:eternal_stella')
     .withNBT({Unbreakable:1});*/
 
+
   // added crushed magma back
   event.recipes.createCrushing([
     Item.of('2x create_things_and_misc:crushed_magma').withChance(1),
@@ -279,7 +280,74 @@ ServerEvents.recipes(event => {
     '2x minecraft:iron_ingot',
 		'2x minecraft:gold_nugget',
   ])
+  
+  // bricks
+  event.shaped('twilightforest:pink_castle_rune_brick', [
+    'AAA',
+    'ADA',
+    'AAA'
+  ], {
+      A: 'twilightforest:castle_brick',
+      D: 'quark:red_corundum_cluster',
+  })
+  event.shaped('twilightforest:yellow_castle_rune_brick', [
+    'AAA',
+    'ADA',
+    'AAA'
+  ], {
+      A: 'twilightforest:castle_brick',
+      D: 'quark:yellow_corundum_cluster',
+  })
+  event.shaped('twilightforest:blue_castle_rune_brick', [
+    'AAA',
+    'ADA',
+    'AAA'
+  ], {
+      A: 'twilightforest:castle_brick',
+      D: 'quark:blue_corundum_cluster',
+  })
+  event.shaped('twilightforest:violet_castle_rune_brick', [
+    'AAA',
+    'ADA',
+    'AAA'
+  ], {
+      A: 'twilightforest:castle_brick',
+      D: 'quark:violet_corundum_cluster',
+  })
 
+  // doors
+  event.shaped('twilightforest:pink_castle_door', [
+    'AB ',
+    'AB ',
+    'AB '
+  ], {
+      A: 'twilightforest:castle_brick',
+      B: 'quark:red_corundum_cluster',
+  })
+  event.shaped('twilightforest:yellow_castle_door', [
+    'AB ',
+    'AB ',
+    'AB '
+  ], {
+      A: 'twilightforest:castle_brick',
+      B: 'quark:yellow_corundum_cluster',
+  })
+  event.shaped('twilightforest:blue_castle_door', [
+    'AB ',
+    'AB ',
+    'AB '
+  ], {
+      A: 'twilightforest:castle_brick',
+      B: 'quark:blue_corundum_cluster',
+  })
+  event.shaped('twilightforest:violet_castle_door', [
+    'AB ',
+    'AB ',
+    'AB '
+  ], {
+      A: 'twilightforest:castle_brick',
+      B: 'quark:violet_corundum_cluster',
+  })
 
   // sulfur unify
   event.replaceInput({},'alexscaves:sulfur_dust','tfmg:sulfur_dust');

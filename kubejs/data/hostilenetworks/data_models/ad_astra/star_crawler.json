@@ -1,0 +1,30 @@
+{
+	"conditions": [
+	{
+		"modid": "ad_astra",
+		"type": "forge:mod_loaded"
+	}
+	],
+    "entity": "ad_astra:star_crawler",
+    "variants": [],
+    "name": "entity.ad_astra.star_crawler",
+    "name_color": "#72878D",
+    "gui_scale": 0.47,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 164,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.star_crawler",
+    "fabricator_drops": [
+        {
+			"item": "ad_astra:cheese",
+            "count": 8
+        }
+    ]
+}

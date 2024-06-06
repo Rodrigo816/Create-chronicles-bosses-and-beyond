@@ -179,11 +179,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You should bring multiple full &bOxygen Tanks&r,&6 plenty of food, Soul Torches or Glowstone, weapons, and tools&r. Once you have these, you're ready to launch! Enter the rocket and press Space!"
+				"You should bring multiple full &6xygen Tanks&r, plenty of food, Soul Torches or Glowstone, weapons, and tools. I would recommend getting a &nwaystone&r so you don't need an extra rocket to get back to Earth. Once you have these, you're ready to launch! Enter the rocket and press Space!"
 				""
 				"Crouch and right-click to open its UI. From there, you can deposit &9Astral Fuel&r. It can store up to three buckets, so it's a smart idea to keep some spare. Being stranded is the worst thing that can happen to you."
 				""
-				"Right-click to enter the rocket. After holding Space for a while, you'll launch and access the planetary selection system. You can't explore every planet yet, but you'll have some new options."
+				"Right-click to enter the rocket. After holding Space for a while, you'll launch and access the planetary selection system."
 				""
 				"After selecting a location, you'll descend on the planet in a lander. Press Space to decelerate. Make sure you don't hit the ground too fast, or the lander will explode, leaving you stranded. &aF5 can help with the landing process.&r"
 			]
@@ -559,21 +559,6 @@
 			id: "694646586C18C609"
 			optional: true
 			rewards: [
-				{
-					id: "47210264186C3DFA"
-					item: "ad_astra:fuel_bucket"
-					type: "item"
-				}
-				{
-					id: "02518CE7883A9C6E"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "263DA1AE14291C4C"
-					type: "xp_levels"
-					xp_levels: 3
-				}
 				{
 					count: 5
 					id: "465BA134DD240761"

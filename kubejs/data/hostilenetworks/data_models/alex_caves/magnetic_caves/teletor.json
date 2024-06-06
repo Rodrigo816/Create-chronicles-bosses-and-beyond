@@ -1,0 +1,50 @@
+{
+	"conditions": [
+	{
+		"modid": "alexscaves",
+		"type": "forge:mod_loaded"
+	}
+	],
+    "entity": "alexscaves:teletor",
+    "variants": [],
+    "name": "entity.alexscaves.teletor",
+    "name_color": "#3e5cd7",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": -0.5,
+    "gui_z_offset": 0,
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.teletor",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:raw_azure_neodymium",
+            "count": 3
+        },
+        {
+            "item": "alexscaves:raw_scarlet_neodymium",
+            "count": 3
+        },
+        {
+            "item": "alexscaves:telecore",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+		16,
+        64,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        4,
+        8,
+        8,
+        16
+    ]
+}

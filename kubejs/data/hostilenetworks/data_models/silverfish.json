@@ -1,0 +1,24 @@
+{
+  "entity": "minecraft:silverfish",
+  "variants": [],
+  "name": "entity.minecraft.silverfish",
+  "name_color": "#aaaaaa",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 32,
+  "input": {
+      "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+      "item": "hostilenetworks:end_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.silverfish",
+  "fabricator_drops": [
+      {
+          "item": "create:experience_nugget",
+          "count": 2
+      }
+  ]
+}

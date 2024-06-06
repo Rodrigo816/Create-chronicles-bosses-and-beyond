@@ -491,7 +491,7 @@
 				item: "ringsofascension:ring_jump_boost"
 				type: "item"
 			}]
-			title: "Bugs Bunny is that you?"
+			title: "Bunny hopper"
 			x: -3.5d
 			y: 4.5d
 		}
@@ -581,23 +581,32 @@
 		}
 		{
 			dependencies: [
+				"2CA01FDC40580A8D"
+				"2A04A6B7B6F75264"
+				"439298A36DF164C1"
 				"00000000000003A3"
+				"0D7D9CF1F00A8963"
 				"00000000000003A5"
+				"10FB619223F0AEBF"
 				"00000000000003A9"
 				"000000000000032A"
 				"00000000000003CD"
+				"64157A1BC3E09963"
+				"204E9178AF8E4216"
 				"00000000000003AF"
+				"7B8E7F4A2D5BB1F0"
 				"00000000000003B1"
 				"00000000000003D2"
 				"00000000000003B5"
 				"00000000000003B8"
 				"00000000000003D9"
+				"355971C802A91482"
 				"00000000000003BB"
-				"0D3F7751B579353F"
-				"64157A1BC3E09963"
+				"7942E76F14C8FF79"
+				"61EC8066F1112546"
+				"08913D75A611396B"
 			]
 			hide: false
-			hide_dependency_lines: true
 			icon: "lootr:trophy"
 			id: "67B117317EB077BA"
 			invisible: true
@@ -714,6 +723,34 @@
 			title: "Step Assist"
 			x: -6.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Removes all nearby lava blocks around the player when equipped."]
+			id: "10FB619223F0AEBF"
+			rewards: [
+				{
+					id: "77CE4AA6F82B2A07"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "48FAFCABED145C5F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Find a Ring of Lava."
+			tasks: [{
+				id: "724A9A66A7D9F4EE"
+				item: "ringsofascension:ring_lava_sponge"
+				type: "item"
+			}]
+			title: "Lava's Gone"
+			x: 2.5d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Rings can be in chests found randomly around the world."]

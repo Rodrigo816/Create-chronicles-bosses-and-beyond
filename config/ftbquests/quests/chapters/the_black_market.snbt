@@ -1331,9 +1331,8 @@
 				}
 				{
 					consume_items: true
-					count: 64L
-					id: "11CD677A5611152E"
-					item: "minecraft:ancient_debris"
+					id: "7B3275D2486BA34D"
+					item: "mowziesmobs:grant_suns_blessing"
 					type: "item"
 				}
 			]
@@ -1359,7 +1358,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "x10 Wrap dust"
+			title: "x10 Warp dust"
 			x: 3.5d
 			y: 1.0d
 		}
@@ -2200,14 +2199,22 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide: true
 			id: "6C61BAD912514C5F"
-			rewards: [{
-				id: "049826CE3A65BBB2"
-				item: "numismatics:crown"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "049826CE3A65BBB2"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "033E4E6B608094DF"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "From 1 June till 30 June"
+			subtitle: "From 1 June till 16 July"
 			tasks: [{
 				consume_items: true
 				count: 10000L
@@ -2217,6 +2224,52 @@
 			}]
 			x: 3.5d
 			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide: true
+			icon: "dimdungeons:item_secret_bell"
+			id: "437795B131AF223B"
+			rewards: [{
+				id: "77E1E776A41E6BFA"
+				item: "dimdungeons:item_secret_bell"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0EBFB73D7CF555C9"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Bell of secrets"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide: true
+			icon: "mowziesmobs:earth_talisman"
+			id: "7020BE898C53E474"
+			rewards: [{
+				id: "36D5D3E82A69D613"
+				item: "mowziesmobs:earth_talisman"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 42L
+				id: "3469EFC16C17BCFF"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "&l&dEarth Talisman"
+			x: 6.5d
+			y: 3.5d
 		}
 	]
 	title: "&0&l The Black Market"

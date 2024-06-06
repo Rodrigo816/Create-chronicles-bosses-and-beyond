@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create_dd:potassic",
+    "molten_vents:dormant_molten_potassic",
+    "molten_vents:active_molten_potassic"
+  ]
+}

@@ -1483,7 +1483,7 @@
 			description: [""]
 			id: "108EA49E8421CCC7"
 			rewards: [{
-				count: 60
+				count: 30
 				id: "60C6CCE1DDC0B26A"
 				item: "numismatics:bevel"
 				type: "item"

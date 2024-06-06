@@ -1,0 +1,59 @@
+{
+  "type": "molten_vents:molten_vent",
+  "config": {
+    "decorativeBlock": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 3,
+          "data": {
+            "Name": "create_dd:cut_potassic_wall"
+          }
+        },
+        {
+          "weight": 7,
+          "data": {
+            "Name": "create_dd:cut_potassic_slab"
+          }
+        }
+      ]
+    },
+    "outerBlock": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 2,
+          "data": {
+            "Name": "create_dd:cut_potassic"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "create_dd:potassic"
+          }
+        }
+      ]
+    },
+    "innerBlock": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "molten_vents:dormant_molten_potassic"
+      }
+    },
+    "liquidBlock": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:lava"
+      }
+    },
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 80,
+        "max_inclusive": 100
+      }
+    },
+    "underwater": false
+  }
+}

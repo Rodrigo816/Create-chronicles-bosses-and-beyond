@@ -1,0 +1,46 @@
+{
+	"conditions": [
+	{
+		"modid": "alexscaves",
+		"type": "forge:mod_loaded"
+	}
+	],
+    "entity": "alexscaves:vesper",
+    "variants": [],
+    "name": "entity.alexscaves.vesper",
+    "name_color": "#592235",
+    "gui_scale": 0.45,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 192,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.vesper",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:vesper_wing",
+            "count": 2
+        },
+        {
+            "item": "alexscaves:guano",
+            "count": 4
+        }
+    ],
+    "tier_data": [
+		16,
+        64,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        4,
+        8,
+        8,
+        16
+    ]
+}
