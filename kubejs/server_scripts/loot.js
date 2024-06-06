@@ -45,6 +45,19 @@ LootJS.modifiers((event) => {
       Item.of("2x minecraft:diamond").withChance(1),
     ]
   )
+  // ALL WHEN DUGEONS ARISE CHEST'S
+  event
+    .addLootTableModifier(/dungeons_arise:chests.*/)
+    .addWeightedLoot(
+      [1, 3],
+      [
+        Item.of("2x kubejs:rotation_mechanism").withChance(5),
+        Item.of("2x minecraft:iron_ingot").withChance(3),
+        Item.of("2x minecraft:redstone").withChance(2),
+        Item.of("2x create:zinc_ingot").withChance(0.05),
+        Item.of("2x minecraft:copper_ingot").withChance(2),
+      ]
+  )
 
   //Dragon Chests - LIGHTNING
   event.addLootTableModifier("iceandfire:chest/lightning_dragon_roost")
