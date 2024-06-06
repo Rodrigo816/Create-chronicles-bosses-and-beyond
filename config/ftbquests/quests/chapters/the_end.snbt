@@ -860,7 +860,11 @@
 		}
 		{
 			dependencies: ["4B630597BCFA97AC"]
-			description: ["&nYou can make a copy&r with dragon scale."]
+			description: [
+				"&nYou can make a copy&r with dragon scale."
+				""
+				"&6&nYou should put your elytra in the Curios slot&r&r, as using it as equipment bugs the inventory hitboxes."
+			]
 			id: "597F01E378266CC3"
 			optional: true
 			rewards: [

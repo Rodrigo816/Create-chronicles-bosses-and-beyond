@@ -11,7 +11,7 @@
 			"damage": 40.0
 		},
 		"comet": {
-			"explosionStrength": 15.0
+			"explosionStrength": 4.0
 		},
 		"summonMechanic": {
 			"isEnabled": true,

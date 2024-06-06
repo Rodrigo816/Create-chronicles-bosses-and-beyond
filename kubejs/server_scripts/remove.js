@@ -32,7 +32,10 @@ ServerEvents.recipes(event => {
         'ars_nouveau:burst',
         'twilightforest:uncrafting_table',
         'explorerscompass:explorers_compass',
+        'create:crafting/palettes/scorchia',
         IS('wayward_compass'),
+        CRDD('crushing/potassic_recycling'),
+        CRDD('crushing/potassic'),
          //Chapter 1
         ASTRA('recipes/hammering/iron_plate'),
         CR('crafting/materials/andesite_alloy_from_zinc'),
@@ -144,6 +147,7 @@ ServerEvents.recipes(event => {
         'create_dd:veridium_cobble',
         'create_dd:crimsite_cobble',
         'create_dd:ochrum_cobble',
+        'create_dd:potassic_cobble',
         //CRDD('industrial_iron_ingot'),
         //CRDD('steel_ingot'),
         CRDD('industrial_iron_nugget'),

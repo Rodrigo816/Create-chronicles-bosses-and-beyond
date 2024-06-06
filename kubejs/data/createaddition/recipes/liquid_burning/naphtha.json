@@ -1,0 +1,10 @@
+{
+  "type":"createaddition:liquid_burning",
+  "input": {
+        "fluid": "tfmg:naphtha",
+
+        "amount": 1000
+  },
+  "burnTime": 14000,
+  "superheated": false
+}

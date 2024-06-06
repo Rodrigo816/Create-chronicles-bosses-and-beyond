@@ -1,6 +1,9 @@
 
 ServerEvents.recipes(event => { 
-  
+
+  // Replace all instances of minecraft:glass with forge:glass
+  event.replaceInput({}, 'minecraft:glass', '#forge:glass')
+    
   // spellsbooks
   event.replaceInput({id:'irons_spellbooks:netherite_spell_book'}, 'irons_spellbooks:blood_vial', 'alexscaves:pure_darkness')
   event.replaceInput({id:'irons_spellbooks:dragonskin_spell_book'}, 'minecraft:obsidian', 'twilightforest:magic_beans')
@@ -26,9 +29,15 @@ ServerEvents.recipes(event => {
   event.remove({mod: 'tombstone'});
   event.remove({type: 'minecraft:brewing', mod: 'tombstone'}); 
   event.remove({type: 'minecraft:smelting', mod: 'tombstone'});
-    
   
-  event.replaceInput({}, 'epic_samurai:silver_ore', 'iceandfire:silver_ore');
+  //silver uni
+  event.replaceInput({}, '#forge:ingots/silver', 'epicsamurai:silver_ingot')
+  event.replaceInput({}, '#forge:nuggets/silver', 'epicsamurai:silver_nugget')
+  //event.remove({output: 'epic_samurai:silver_ingot'});
+  //event.replaceInput({}, 'iceandfire:silver_ingot', 'epic_samurai:silver_ingot');
+  //event.replaceInput({}, 'iceandfire:silver_ore', 'epic_samurai:silver_ore');
+  //event.remove({id: 'iceandfire:silver_nugget_to_silver_ingot'});
+  
 
   event.remove({output: 'create_dd:industrial_iron_ingot'});
   event.replaceInput({}, 'create_dd:industrial_iron_ingot', 'tfmg:cast_iron_ingot');

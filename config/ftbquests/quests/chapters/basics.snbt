@@ -56,6 +56,24 @@
 			x: -30.5d
 			y: 15.0d
 		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -16.0d
+			y: 15.0d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -18.0d
+			y: 15.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -785,7 +803,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Your nightmares will fallow you..."
+			subtitle: "Your nightmares will follow you..."
 			tasks: [{
 				id: "10C9EC641579B9FA"
 				title: "&l&aI'm not a coward, I'll beat them all"
@@ -1842,12 +1860,19 @@
 				"Here is some money to get you started, so spend it wisely."
 			]
 			id: "21FB9D855FA9D2DF"
-			rewards: [{
-				count: 2
-				id: "50F4EC485372FEF2"
-				item: "numismatics:cog"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "50F4EC485372FEF2"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "3AABBBEC1097C9A2"
+					item: "numismatics:bank_terminal"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -1918,7 +1943,7 @@
 				"&c-> Dogge Roll&r"
 				"Press &6\"caps lock\"&r (default key) to roll. You can roll into any direction you are heading. This is crucial to dodge attacks during boss fights!"
 				""
-				"The combat roll ability has 14 seconds cooldown by default."
+				"The combat roll ability has 10 seconds cooldown by default."
 				""
 				"Cooldown of your combat roll ability can be seen on the main UI."
 				""
@@ -2006,6 +2031,8 @@
 				"&nSave it your map you will need it later and they are rare to find.&r "
 			]
 			id: "67145CE26EFAD16D"
+			shape: "rsquare"
+			size: 1.2d
 			tasks: [{
 				id: "2705180D70FA1C18"
 				title: "&l&6Unlock Chapter: Renewable ores"
@@ -2027,9 +2054,7 @@
 				""
 				"The items added by this mod can be found in chests in vanilla structures."
 				""
-				"All artifacts only have a few chests in which they can be found, so go out and explore! Additionally, a new underground campsite structure has been added. "
-				""
-				"&5Mimics&r occasionally spawn in these campsites instead of a chests, which are dangerous enemies that attack players that get too close. Mimics always drop a random artifact when killed."
+				"All artifacts only have a few chests in which they can be found, so go out and explore!"
 				""
 				""
 				"&c-> Rings of Ascension&r"
@@ -2038,6 +2063,8 @@
 				"Rings from this mod don't have a recipe and can only be found in specific locations."
 			]
 			id: "0D0118FCEFE0A8E2"
+			shape: "rsquare"
+			size: 1.2d
 			tasks: [{
 				id: "3F0F062B13DBD93A"
 				title: "&l&6Unlock Chapter: Collectibles"
@@ -4484,7 +4511,11 @@
 		}
 		{
 			dependencies: ["70068CFDA790A856"]
-			description: ["&eThe Bell of Secrets &rlets you know if there is a chest or barrel in the room. So you can be sure you've completely cleaned out a dungeon."]
+			description: [
+				"&eThe Bell of Secrets &rlets you know if there is a chest or barrel in the room. So you can be sure you've completely cleaned out a dungeon."
+				""
+				"{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"437795B131AF223B\" } }"
+			]
 			id: "65704FFF9C380E29"
 			rewards: [{
 				id: "157D4506D95666D3"
@@ -4588,7 +4619,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Some usefull stuff I guess?"
+			subtitle: "Some useful stuff, I guess?"
 			tasks: [{
 				id: "280744313571F573"
 				type: "checkmark"

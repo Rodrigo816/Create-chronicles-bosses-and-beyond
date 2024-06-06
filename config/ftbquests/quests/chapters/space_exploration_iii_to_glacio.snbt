@@ -1,0 +1,394 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_exploration_iii_to_glacio"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1
+		id: "ad_astra:glacio_globe"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	id: "0D777D1DC30F6C2F"
+	images: [
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/glacio.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "ftblibrary:icons/heart"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			color: 16721411
+			height: 3.0d
+			image: "mowziesmobs:particle/sparks_ring"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: 12.0d
+		}
+	]
+	order_index: 13
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["70E4055A00E54568"]
+			description: [""]
+			icon: "ad_astra:calorite_ingot"
+			id: "06ACC1F7C8FA8282"
+			rewards: [{
+				count: 4
+				id: "6A1A4D76D43F55F3"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "326F5D87A6C8114F"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60D4B65B545C9248"]
+			description: [
+				"The &bJet Suit&r is an upgraded version of the &cNetherite Space Suit&r, offering more protection, additional oxygen storage, and &eflight&r. It's expensive to craft, but it provides high-speed flight, making travel easy."
+				""
+				"It has two modes of flight: ascending (&aSpace&r) and boosted (&aSpace + Left&r). "
+				""
+				"Ascending makes the wearer fly upwards, while boosted is similar to an elytra constantly propelled by fireworks."
+				""
+				"The &bJet Suit&r is powered by energy and must be charged to fly."
+			]
+			id: "15B89C8C50319904"
+			rewards: [{
+				count: 4
+				id: "1DD947C46073ECC5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06FC3BF5759286B2"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34E88135135FB6DB"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "501239814C783E04"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0145B1CF544F81DF"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &4Jet Suit"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["15B89C8C50319904"]
+			id: "6E3A87DE859101FE"
+			rewards: [{
+				count: 4
+				id: "7E0EACD45BE0EF68"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "0F930E22FAE0EFC0"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				title: "Craft a &5Tier 4 &dRocket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6E3A87DE859101FE"]
+			description: [
+				"This is the furthest our current technology can take us. &bGlacio&r is a cold planet, but has oxygen for us to breathe!"
+				""
+				"Glacio Info:"
+				"Gravity: 3.721 m/s"
+				"Oxygen: Yes"
+				"Temperature: -20.0 °C"
+			]
+			icon: "ad_astra:glacio_globe"
+			id: "6103E3BB9E716F56"
+			rewards: [{
+				count: 4
+				id: "5A4DE388818033BC"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "ad_astra:interstellar"
+				criterion: ""
+				id: "40068C63D3C7311E"
+				type: "advancement"
+			}]
+			title: "to &bGlacio"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6103E3BB9E716F56"]
+			description: [
+				"You have completed everything the pack has to offer, building crazy factories with Create and making the impossible possible. "
+				""
+				"This was a free-time project I dedicated a lot of time to. I know some things could be better, but everything has to come to an end, has been a journey for me."
+				""
+				"&eCongratulations and thank you for playing the pack&r &c❤.&r I hope you enjoyed your adventure with Create."
+				""
+				"&7&o - Rodrigo Borba, from Azores, Portugal.&r&r"
+			]
+			id: "28D0EEACC8402E6C"
+			rewards: [{
+				id: "0C736B8FD3C2C168"
+				item: "kubejs:engineer_badge"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 2.0d
+			tasks: [{
+				id: "3FCD23A2F91BFA72"
+				title: "&aSee you on the next adventure!"
+				type: "checkmark"
+			}]
+			title: "&l&4THE END!!!!&r&r"
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4CC4587F308B6B37"]
+			description: [
+				"On &6Venus&r, you will find&9 Lightning Dragons&r. To progress, you need to kill a &5level 4-5 dragon&r, which can only be &nfound in caves.&r These dragons will drop a &9Lightning Dragon Egg.&r"
+				""
+				"&dLightning Dragon Eggs&r must be placed in rain to start the hatching process. "
+				""
+				"Once the egg starts moving, it will take a few minutes to hatch. "
+				""
+				"The rain must continue until the egg hatches. When the egg hatches, a bolt of lightning will strike it, and the dragon will burn. It's best to keep watch and have water on hand."
+				""
+				"&eBaby dragons&r are very small, no longer than a single block. It takes &n25 days for a dragon to progress from one stage to the next&r, and 125 days to reach maximum size. "
+				""
+				"Their growth can be accelerated with &cDragon Meal&r, which adds a day to their age, or stopped altogether with &aSickly Dragon Meal&r. "
+				""
+				"Each piece of Dragon Meal grows the dragon by one day. For males, wing spots appear on day 10 of stage 1."
+				""
+				"After they are fully grown, they still age and can eat Dragon Meals, but they do not gain size or health."
+			]
+			hide: true
+			icon: "iceandfire:dragonegg_amythest"
+			id: "6FFEF416B3BD6877"
+			rewards: [{
+				count: 4
+				id: "1D3FF63ACC2840A0"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Time to hatch a egg."
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:dragonegg_amythest"
+				id: "6ED23A618F54CC1F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6FFEF416B3BD6877"]
+			description: [
+				"A &6Dragon Command Staff&r can be used to order the dragon to either stay, wander, or escort their owner from above. "
+				""
+				"&6Dragon Horns&r can be used to summon and desummon the dragon via an item. "
+				""
+				"A &6Dragon Bone Flute &rcan be used to call a flying dragon down to the ground. "
+				""
+				"A &6Dragon Summoning Crystal&r can bind the dragon to itself, so that the owner can teleport the dragon should it wander off into the distance."
+			]
+			id: "295EC99EB13A4C20"
+			rewards: [{
+				count: 4
+				id: "353E0200A72DD103"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B2A1A78FE350CB9"
+					item: "iceandfire:dragon_stick"
+					type: "item"
+				}
+				{
+					id: "396E17C430C05F48"
+					item: "iceandfire:dragon_horn"
+					type: "item"
+				}
+				{
+					id: "010063DECD90AB21"
+					item: "iceandfire:dragon_flute"
+					type: "item"
+				}
+				{
+					id: "7C5C593CB4DB20F5"
+					item: "iceandfire:summoning_crystal_lightning"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["295EC99EB13A4C20"]
+			description: [
+				"It's time to build a Lightning Dragon Forge. &6Please visit your bestiary book&r to learn how to build a dragon forge."
+				""
+				"Dragons Stage 2 and up will breath lightning at an active &6Lightning Dragonforge&r if near one, powering the multi-block structure and allowing it to turn iron ingots into &4Lightning Dragonsteel Ingots.&r"
+			]
+			id: "1F756EE99ADC8A1E"
+			rewards: [{
+				count: 4
+				id: "4DE2E009F9AB1AA4"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7DB8B14F5728CBA5"
+					item: "iceandfire:dragonforge_lightning_input"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "174EDE45D471A92A"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "432C333E92531932"
+					item: "iceandfire:dragonforge_lightning_brick"
+					type: "item"
+				}
+				{
+					id: "782A387FF4ECFF74"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+					type: "item"
+				}
+			]
+			title: "Build a Dragonforge"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"42EC4A0DF273348D"
+				"1F756EE99ADC8A1E"
+			]
+			id: "70E4055A00E54568"
+			rewards: [{
+				count: 4
+				id: "19ECFC9361E9405A"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23D1630E29397224"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CC4587F308B6B37"]
+			hide: true
+			id: "42EC4A0DF273348D"
+			rewards: [{
+				count: 4
+				id: "1081BFD44DC6A2AF"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Can be farm using HNN"
+			tasks: [{
+				id: "498C631785A8095D"
+				item: "iceandfire:lightning_dragon_blood"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06ACC1F7C8FA8282"]
+			id: "60D4B65B545C9248"
+			tasks: [{
+				id: "1C28B47380FDC3A4"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+	title: "Space Exploration III: To Glacio"
+}

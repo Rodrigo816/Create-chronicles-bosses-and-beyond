@@ -20,7 +20,7 @@ maxHyperEnchantingLevelExtension = 2
 #.
 #The Chance of whether Deployer-killed entities will drop Experience Nugget
 #Range: 0.0 ~ 1.0
-deployerXpDropChance = 0
+deployerXpDropChance = 1.0
 #.
 enableHyperEnchant = true
 #.

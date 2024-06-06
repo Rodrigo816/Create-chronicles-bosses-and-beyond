@@ -48,7 +48,7 @@
 				title: "Welcome to Forbidden \\&\\ Arcanus!"
 				type: "checkmark"
 			}]
-			title: "Welcome to &5Forbidden \\&\\ Arcanus!"
+			title: "Welcome to &6Forbidden \\&\\ Arcanus!"
 			x: -14.0d
 			y: 5.25d
 		}
@@ -211,6 +211,10 @@
 				"They produce Arcane Crystal Dust Specks over time, which can be used to create &eArcane Crystal Dust."
 				"&r"
 				"You can automate a nipa farm with create or ars."
+				""
+				""
+				""
+				"{image:kubejs:textures/nipa.png width:100 height:100 align:1}"
 			]
 			id: "260F19B468957BCD"
 			rewards: [
@@ -567,7 +571,7 @@
 		{
 			dependencies: ["2894F11A73335179"]
 			description: [
-				"Using our Arcane Crystal Dust, we'll need to combine it with other dusts and powders to create Mundabiter Dust."
+				"Using our &bArcane Crystal Dust&r, we'll need to combine it with other dusts and powders to create&c Mundabiter Dust&r."
 				""
 				"This dust is used in several recipes, as well as activating the Hephaestus Forge."
 			]
@@ -1524,58 +1528,6 @@
 			}]
 			x: -5.5d
 			y: 12.0d
-		}
-		{
-			dependencies: ["0B68E3C046C82860"]
-			id: "757CD00365DF92DB"
-			rewards: [{
-				id: "78180C3C39A82718"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "152961092DFC9625"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "forbidden_arcanus:reinforced_deorum_pickaxe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "forbidden_arcanus:reinforced_deorum_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "forbidden_arcanus:reinforced_deorum_shovel"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "forbidden_arcanus:reinforced_deorum_hoe"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				title: "&6Reinforced Deorum Tools"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.0d
 		}
 		{
 			dependencies: ["6E3B9051503B938C"]

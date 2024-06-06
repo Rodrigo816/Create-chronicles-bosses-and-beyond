@@ -1,0 +1,336 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_exploration_ii_to_venus"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1
+		id: "ad_astra:venus_globe"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	id: "3ABD86E9549DA7BA"
+	images: [
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/venus.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/mercury.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			alpha: 200
+			color: 16672790
+			height: 1.2d
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: 1.5d
+			y: 8.5d
+		}
+	]
+	order_index: 12
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["506FAD15C9ECB3A8"]
+			hide: true
+			id: "54BDAB6C8F125B1E"
+			rewards: [{
+				count: 2
+				id: "67931419EFEA7E7F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Did you ever think it would be that easy?"
+			tasks: [{
+				id: "21AA7E1BB25A5B9A"
+				item: "create_dd:mithril_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54BDAB6C8F125B1E"]
+			description: ["The &6Umvuthi Sunbird&r can be found on this planet. You need to kill it to obtain its mask."]
+			id: "2770889CDAABBD5C"
+			rewards: [{
+				count: 2
+				id: "720234038D7C29C3"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E6B0E79D14936D6"
+				item: "mowziesmobs:sol_visage"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2770889CDAABBD5C"]
+			id: "1634E09874D00AFF"
+			rewards: [{
+				count: 2
+				id: "05A21EEB77BF3DA3"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "747D8AECBE82523D"
+				item: "kubejs:sol_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1634E09874D00AFF"]
+			id: "7C056525139CEE2D"
+			rewards: [{
+				count: 2
+				id: "010CDB1A1C08346F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "via imbuement chamber"
+			tasks: [{
+				id: "3308E459076032CE"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7C056525139CEE2D"]
+			id: "75D3E9EA5C619D47"
+			rewards: [{
+				count: 2
+				id: "7CBB57F7DEF4768F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0069539477ECFF25"
+				item: "ad_astra:ostrum_plate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75D3E9EA5C619D47"]
+			description: [
+				"The &6Cyro Freezer&r when given power, this machine will convert cold items like &bIce, Packed Ice, Blue Ice, or Ice Shards&r into &dCryo Fuel&r."
+				""
+				"Instead of needing 3 buckets per launch of &9Astral Fuel&r, you will only need 1 of &dCryo Fuel&r. "
+			]
+			id: "17FCB16F672F3E35"
+			rewards: [{
+				count: 2
+				id: "521ED204E7CC0065"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FDD5334F6F2FC94"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			title: "&aEfficient Fuel&r"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["75D3E9EA5C619D47"]
+			description: [
+				"The &6netherite space suit&f is a better version of the standard space suit. "
+				""
+				"It offers fire resistance, more protection, and lets you survive on &2Venus&r and &bMercury&r. "
+				""
+				"Before traveling to these planets, craft the &6netherite space suit armour&f, or you will burn to death."
+			]
+			id: "3A2840A8D7A92BCD"
+			rewards: [{
+				count: 2
+				id: "603DC3A672C41B72"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "31D25D94651E8CA1"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0583BABDC1690814"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E0D18DE34ACBEDE"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ECAB61F986A9967"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &4Netherite Space Helmet"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["75D3E9EA5C619D47"]
+			description: ["&6Oxygen Sensor&r is a machine that produces a &credstone signal&r when oxygen is detected."]
+			id: "08C3F9EFB6255BE6"
+			rewards: [{
+				id: "3289190F16DC9E7A"
+				item: {
+					Count: 1
+					id: "ad_astra:oxygen_tank"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C2288131295C034"
+				item: "ad_astra:oxygen_sensor"
+				title: "Craft an &bOxygen Sensor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A2840A8D7A92BCD"]
+			description: [""]
+			id: "7D82C36C04BDDB73"
+			rewards: [{
+				count: 2
+				id: "55EB9E98522A7912"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4D6E4BABB887C04D"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				title: "Craft a &8Tier 3 &3Rocket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D82C36C04BDDB73"]
+			description: [
+				"We need to make a trip out to Venus!"
+				""
+				"Venus Info:"
+				"Gravity: 8.87 m/s"
+				"Oxygen: none"
+				"Temperature: 464.0 °C"
+			]
+			id: "4CC4587F308B6B37"
+			rewards: [{
+				count: 2
+				id: "55912726010C17B8"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "721AD4C6EF9B67EE"
+				title: "Venus"
+				type: "dimension"
+			}]
+			title: "to &eVenus"
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7D82C36C04BDDB73"]
+			description: [
+				"A hot barren world with large lava plains."
+				""
+				"Mercury Info:"
+				"Gravity: 3.7 m/s"
+				"Oxygen: none"
+				"Temperature: 167.0 °C"
+			]
+			id: "2BC190CA0169D057"
+			rewards: [{
+				count: 2
+				id: "15E3068A72BA9422"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "0562FEECD8303A00"
+				title: "to &cMer&6cury"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+	]
+	title: "Space Exploration II: To Venus"
+}

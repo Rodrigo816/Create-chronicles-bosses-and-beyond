@@ -70,9 +70,10 @@ ServerEvents.recipes(event => {
   ], CR('asurine'))
 
   event.recipes.createCrushing([
-    Item.of(CRDD('potassic_cobble')).withChance(0.70),
-    Item.of(CR('crushed_raw_silver')).withChance(0.20),
-  ], CR('scoria'))
+    Item.of(CR('crushed_raw_silver')).withChance(0.50),
+    Item.of(CR('crushed_raw_tin')).withChance(0.50),
+    Item.of(CRDD('tin_nugget')).withChance(0.50),
+  ], CRDD('potassic'))
 /*
 ===============================
   ---->Chapter 1 Andesite Rotation
@@ -171,8 +172,7 @@ ServerEvents.recipes(event => {
       Item.of('create_connected:freewheel_clutch', 1),
   ];
   const andesite_shapes = [
-      //["thermal:drill_head", "create:mechanical_drill"],
-      //["thermal:saw_blade", "create:mechanical_saw"],r
+      [MC('compass'), CR('speedometer')],
       [CR('propeller'), CR('encased_fan')],
       [MC('iron_block'), CR('mechanical_press')],
       [CR('whisk'), CR('mechanical_mixer')],
@@ -183,6 +183,7 @@ ServerEvents.recipes(event => {
   multicut(andesite_machines_cutting, "kubejs:andesite_machine", true);
   machine_shape(andesite_shapes, "kubejs:andesite_machine", true);
 
+  event.shapeless(CR('speedometer'), [CR('stressometer')])
   event.shapeless(CR('gearbox'), [CR('vertical_gearbox')])
 
 
@@ -197,7 +198,7 @@ ServerEvents.recipes(event => {
     CRSA('hydraulic_engine'),
   ], KJ('rotation_mechanism'), [
         event.recipes.createDeploying(transitional, [transitional, CR('copper_sheet')]),
-        event.recipes.createDeploying(transitional, [transitional, MC('glass')]),
+        event.recipes.createDeploying(transitional, [transitional, '#forge:glass']),
         event.recipes.createDeploying(transitional, [transitional, SP('wrench')]),
         event.recipes.createPressing(transitional, transitional)
   ]).transitionalItem(transitional)
@@ -409,7 +410,6 @@ ServerEvents.recipes(event => {
   const brass_shapes = [
       [MC('crafting_table'), Item.of('create:mechanical_crafter', 3)],
       [MC('glowstone_dust'), 'torchmaster:feral_flare_lantern'],
-      [MC('compass'), CR('speedometer')],
       [CR('crushing_wheel'), CR('mechanical_roller')],
       [CR('speedometer'),'create_connected:centrifugal_clutch'],
 
@@ -575,7 +575,7 @@ ServerEvents.recipes(event => {
             "count": 3
         }
     })
-    transitional = MC('blaze_rod')
+    transitional = KJ('incomplete_blaze_rod')
 	event.recipes.createSequencedAssembly([
 		MC('blaze_rod'),
 	], KJ('rod_mystic_coal'), [
@@ -630,10 +630,8 @@ ServerEvents.recipes(event => {
     CRDD('infernal_mechanism')         
   )
 
-
-
   // t1 plate
-  transitional = CRDD('infernal_mechanism')
+  transitional = KJ('incomplete_t1_plating')
   event.recipes.createSequencedAssembly([
     KJ('tier_1_plating')
   ], CRDD('infernal_mechanism'), [
@@ -648,113 +646,140 @@ ServerEvents.recipes(event => {
     .id(KJ('tier_1_plating'))
 
 
-      event.recipes.createMechanicalCrafting('ad_astra:tier_1_rocket', [
-        '   N   ',
-        '  BBB  ',
-        '  BTB  ',
-        '  BTB  ',
-        '  BSB  ',
-        '  BXB  ',
-        ' FRXRF ',
-        ' F E F ',
-        ], {
-        F: ASTRA('rocket_fin'),
-        T: ASTRA('steel_tank'),
-        R: TFMG('radial_engine'),
-        X: TFMG('turbine_engine'),
-        E: ASTRA('steel_engine'),
-        B: KJ('tier_2_plating'),
-        S: '#create:seats',
-        N: ASTRA('rocket_nose_cone')
-      })
+  event.recipes.createMechanicalCrafting('ad_astra:tier_1_rocket', [
+    '   N   ',
+    '  BBB  ',
+    '  BTB  ',
+    '  BTB  ',
+    '  BSB  ',
+    '  BXB  ',
+    ' FRXRF ',
+    ' F E F ',
+    ], {
+    F: ASTRA('rocket_fin'),
+    T: ASTRA('steel_tank'),
+    R: TFMG('radial_engine'),
+    X: TFMG('turbine_engine'),
+    E: ASTRA('steel_engine'),
+    B: KJ('tier_1_plating'),
+    S: '#create:seats',
+    N: ASTRA('rocket_nose_cone')
+  })
+
+  event.recipes.createCompacting(ASTRA("moon_stone"),[MC('stone'), AE2('sky_dust')])
+  event.recipes.createCrushing([
+    Item.of(ASTRA('moon_sand')).withChance(1),
+  ], ASTRA("moon_stone"))
+  event.recipes.createMixing(ASTRA("desh_ingot"),[ASTRA('cheese'), MC('iron_ingot'), ASTRA('moon_sand')]).heated()
+
+  transitional = KJ('incomplete_t2_plating')
+  event.recipes.createSequencedAssembly([
+    Item.of(KJ('tier_2_plating')).withChance(75.0),
+    Item.of(ASTRA('desh_plate')).withChance(30.0),
+  ], KJ('tier_1_plating'), [
+    event.recipes.createDeploying(transitional, [transitional, ASTRA('desh_plate')]),
+    event.recipes.createPressing(transitional, transitional)
+  ]).transitionalItem(transitional)
+    .loops(8)
+    .id(KJ('tier_2_plating'))
+
+  event.recipes.createMechanicalCrafting('ad_astra:tier_2_rocket', [
+      '   N   ',
+      '  BBB  ',
+      '  BTB  ',
+      '  BTB  ',
+      '  BSB  ',
+      '  BAB  ',
+      ' FRXRF ',
+      ' F E F ',
+      ], {
+      A: AE2('controller'),
+      F: ASTRA('rocket_fin'),
+      T: ASTRA('desh_tank'),
+      R: TFMG('radial_engine'),
+      X: TFMG('turbine_engine'),
+      E: ASTRA('desh_engine'),
+      B: KJ('tier_2_plating'),
+      S: '#create:seats',
+      N: ASTRA('rocket_nose_cone')
+    })
+  
+
+  event.recipes.createDeploying(KJ('sol_ingot'), [CRDD('mithril_ingot'),'mowziesmobs:sol_visage']).keepHeldItem(),  
+  event.recipes.ars_nouveau.imbuement(
+    KJ('sol_ingot'), // input item
+    ASTRA('ostrum_ingot'), // output
+    4000, // source cost
+    []
+  )
+
+  
+  transitional = KJ('incomplete_t3_plating')
+  event.recipes.createSequencedAssembly([
+    Item.of(KJ('tier_3_plating')).withChance(40.0),
+    Item.of(ASTRA('ostrum_plate')).withChance(60.0),
+  ], KJ('tier_2_plating'), [
+    event.recipes.createDeploying(transitional, [transitional, ASTRA('ostrum_plate')]),
+    event.recipes.createPressing(transitional, transitional)
+  ]).transitionalItem(transitional)
+    .loops(16)
+    .id(KJ('tier_3_plating'))
+  event.recipes.createMechanicalCrafting('ad_astra:tier_3_rocket', [
+      '   N   ',
+      '  BBB  ',
+      '  BTB  ',
+      '  BTB  ',
+      ' BBSBB ',
+      ' BBABB ',
+      ' BXAXB ',
+      ' FRARF ',
+      ' E E E ',
+      ], {
+      R: TFMG('large_radial_engine'),
+      F: 'ad_astra:rocket_fin',
+      E: 'ad_astra:ostrum_engine',
+      T: 'ad_astra:ostrum_tank',
+      B: 'kubejs:tier_3_plating',
+      S: '#create:seats',
+      A: AE2('controller'),
+      N: 'ad_astra:rocket_nose_cone',
+      X: TFMG('turbine_engine'),
+  })
 
 
-    // t2 plate
-    // skystone bust + algumas coisas via mixing para dar o ingot desh //moonstone
-    /*transitional = KJ('tier_1_plating')
-    event.recipes.createSequencedAssembly([
-      KJ('tier_2_plating')
-    ], KJ('tier_1_plating'), [
-      event.recipes.createDeploying(transitional, [transitional, ASTRA('cheese')]),
-      event.recipes.createDeploying(transitional, [transitional, ASTRA('desh_plate')]),
-      event.recipes.createPressing(transitional, transitional)
-    ]).transitionalItem(transitional)
-      .loops(2)
-      .id(KJ('tier_2_plating'))*/
+  transitional = KJ('incomplete_t4_plating')
+  event.recipes.createSequencedAssembly([
+    Item.of(KJ('tier_4_plating')).withChance(90.0),
+    Item.of(ASTRA('calorite_plate')).withChance(10.0),
+  ], KJ('tier_3_plating'), [
+    event.recipes.createDeploying(transitional, [transitional, ASTRA('calorite_plate')]),
+    event.recipes.createPressing(transitional, transitional)
+  ]).transitionalItem(transitional)
+    .loops(2)
+    .id(KJ('tier_4_plating'))
+  event.smoking('ad_astra:calorite_ingot', 'iceandfire:dragonsteel_lightning_ingot').cookingTime(1500)
+  event.recipes.createMechanicalCrafting('ad_astra:tier_4_rocket', [
+      '   N   ',
+      '  BBB  ',
+      '  BTB  ',
+      '  BTB  ',
+      'F BSB F',
+      'RBBABBR',
+      'XBAAABX',
+      'R RXR R',
+      'E  E  E',
+      ], {
+      A: AE2('controller'),
+      R: TFMG('large_radial_engine'),
+      F: 'ad_astra:rocket_fin',        
+      E: 'ad_astra:calorite_engine',
+      T: 'ad_astra:calorite_tank',
+      B: 'kubejs:tier_4_plating', 
+      S: '#create:seats',
+      N: 'ad_astra:rocket_nose_cone',
+      X: TFMG('turbine_engine'),
+ })
 
-/*      event.recipes.createMechanicalCrafting('ad_astra:tier_2_rocket', [
-          '   N   ',
-          '  BBB  ',
-          '  BCB  ',
-          '  BGB  ',
-          '  BSB  ',
-          '  BWB  ',
-          ' FTBTF ',
-          ' F E F ',
-          ], {
-          F: 'ad_astra:rocket_fin',
-          E: 'ad_astra:desh_engine',
-          T: 'ad_astra:desh_tank',
-          B: 'kubejs:tier_2_plating',
-          C: 'ad_astra:vent',
-          S: '#create:seats',
-          G: '#forge:glass',
-          W: 'kubejs:guidance_mechanism',
-          N: 'ad_astra:rocket_nose_cone'
-      })*/
-      /* 
-        event.recipes.createMechanicalCrafting('ad_astra:tier_3_rocket', [
-        '   N   ',
-        '  BBB  ',
-        '  BCB  ',
-        '  BGB  ',
-        ' TBSBT ',
-        ' TBWBT ',
-        ' TCCCT ',
-        ' FTBTF ',
-        ' E E E ',
-        ], {
-        F: 'ad_astra:rocket_fin',
-        E: 'ad_astra:ostrum_engine',
-        T: 'ad_astra:ostrum_tank',
-        B: 'kubejs:tier_3_plating',
-        C: 'ad_astra:vent',
-        S: '#create:seats',
-        G: 'mekanism:structural_glass',
-        W: 'kubejs:guidance_mechanism',
-        N: 'ad_astra:rocket_nose_cone'
-        })
-        event.recipes.createMechanicalCrafting('ad_astra:tier_4_rocket', [
-        '   N   ',
-        '  BBB  ',
-        '  BGB  ',
-        '  BSB  ',
-        'N BWB N',
-        'TPBABPT',
-        'BPBBBPB',
-        'T CBC T',
-        'E  E  E',
-        ], {
-        E: 'ad_astra:calorite_engine',
-        T: 'ad_astra:calorite_tank',
-        B: 'kubejs:tier_4_plating',
-        C: 'ad_astra:vent',
-        S: '#create:seats',
-        G: 'mekanism:structural_glass',
-        W: 'kubejs:guidance_mechanism',
-        N: 'ad_astra:rocket_nose_cone',
-        P: 'ad_astra:steel_plate',
-        A: 'mekanism:pellet_antimatter'
-        })
-        event.recipes.createMechanicalCrafting('ad_astra:launch_pad', [
-        ' BPB ',
-        ' PSP ',
-        ' BPB ',
-        ], {
-        B: 'mekanism:block_steel',
-        S: 'create:shadow_steel',
-        P: 'create:iron_sheet'
-        })*/
 
 
   /*
@@ -860,7 +885,7 @@ ServerEvents.recipes(event => {
   transitional = CRDD('incomplete_calculation_mechanism')
   event.recipes.createSequencedAssembly([
     Item.of(CRDD('calculation_mechanism')).withChance(100.0),
-    Item.of(CRA('copper_spool')).withChance(50.0),
+    Item.of(CRA('copper_spool')).withChance(20.0),
   ], CRDD('infernal_mechanism'), [
     event.recipes.createDeploying(transitional, [transitional, CRDD('refined_radiance_sheet')]),
     event.recipes.createDeploying(transitional, [transitional, CRDD('tin_sheet')]),
@@ -868,18 +893,18 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
     event.recipes.createPressing(transitional, transitional)
   ]).transitionalItem(transitional)
-    .loops(10)
+    .loops(6)
     .id(CRDD('calculation_mechanism'))
 
   
     transitional = CRDD('incomplete_integrated_circuit')
     event.recipes.createSequencedAssembly([
       Item.of(CRDD('integrated_circuit')).withChance(100.0),
-      Item.of(MC('glowstone_dust')).withChance(15.0),
-      Item.of(CRA('copper_wire')).withChance(15.0),
-      Item.of(CR('brass_nugget')).withChance(15.0),
-      Item.of(CRA('electrum_nugget')).withChance(15.0),
-      Item.of('create_connected:control_chip').withChance(15.0),
+      Item.of(MC('glowstone_dust')).withChance(8.0),
+      Item.of(CRA('copper_wire')).withChance(8.0),
+      Item.of(CR('brass_nugget')).withChance(8.0),
+      Item.of(CRA('electrum_nugget')).withChance(8.0),
+      Item.of('create_connected:control_chip').withChance(8.0),
     ], CRDD('calculation_mechanism'), [
       event.recipes.createDeploying(transitional, [transitional, CRDD('overcharge_alloy_sheet')]),
       event.recipes.createDeploying(transitional, [transitional, 'create_connected:control_chip']),
@@ -887,7 +912,7 @@ ServerEvents.recipes(event => {
       event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
       event.recipes.createDeploying(transitional, [transitional, CRA('electrum_wire')]),
     ]).transitionalItem(transitional)
-      .loops(10)
+      .loops(8)
       .id(CRDD('integrated_circuit'))
 
 

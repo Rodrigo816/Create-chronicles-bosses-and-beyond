@@ -23,40 +23,13 @@
 			y: -4.0d
 		}
 		{
-			color: 13004288
-			height: 1.0d
-			image: "minecraft:textures/particle/spark_0.png"
+			color: 16584378
+			height: 2.5d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
 			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: 11.5d
-		}
-		{
-			color: 13004288
-			height: 1.0d
-			image: "minecraft:textures/particle/spark_0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 12.5d
-		}
-		{
-			color: 13004288
-			height: 1.0d
-			image: "minecraft:textures/particle/spark_0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: 12.5d
-		}
-		{
-			color: 13004288
-			height: 1.0d
-			image: "minecraft:textures/particle/spark_0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 11.5d
+			width: 2.5d
+			x: -5.0d
+			y: 12.0d
 		}
 	]
 	order_index: 10
@@ -127,9 +100,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["108EA49E8421CCC7"]
-			hide: true
-			hide_dependency_lines: true
+			dependencies: [
+				"108EA49E8421CCC7"
+				"603AE60A02A3F9EB"
+			]
 			id: "5F99D59B31FF34D4"
 			rewards: [{
 				id: "7236BE2E9397A1F5"
@@ -141,7 +115,7 @@
 				item: "ae2:silicon"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -182,6 +156,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "From previous chapter"
 			tasks: [{
 				id: "678BE1D28085C785"
 				item: "create_dd:integrated_circuit"
@@ -196,7 +171,7 @@
 				"76CB692248EAF336"
 			]
 			dependency_requirement: "one_completed"
-			description: ["It's time to start making some &eProcessors&f. These are an important crafting ingredient used to make the large majority of ME-connected devices."]
+			description: ["&3Processors&r are essential crafting ingredients used to make the majority of ME-connected devices."]
 			id: "3026C7FFA3B230FA"
 			rewards: [{
 				id: "52E564CE18CB8C1D"
@@ -225,7 +200,11 @@
 		}
 		{
 			dependencies: ["108EA49E8421CCC7"]
-			description: ["Applied Energistics 2 (or &oAE2&r for short) is an incredibly versatile &bdigital storage&f mod, allowing for extremely efficient storage and all sorts of automation capabilities to greatly augment your modded Minecraft experience from as early as you want to the very endgame."]
+			description: [
+				"&eApplied Energistics 2 (AE2)&r is a versatile digital storage mod, offering efficient storage and automation for your Minecraft experience."
+				""
+				"This chapter explains how AE2 works, with the goal of crafting an &cME Controller&r to progress to the next chapter."
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "78425DC3875B9854"
@@ -265,7 +244,6 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Does exactly what you'd expect."
 			tasks: [{
 				id: "4F8C0625674B4C26"
 				item: {
@@ -284,9 +262,11 @@
 		{
 			dependencies: ["3026C7FFA3B230FA"]
 			description: [
-				"While the Charger will natively accept RF/FE, the vast majority of an ME network uses its own dedicated power system called AE."
+				"Most of an ME network uses its own dedicated power system called AE. "
 				""
-				"RF/FE can be converted into the native AE at a ratio of 2:1 RF:AE, either directly through an ME Controller, or through the &bEnergy Acceptor&f, which can instead be connected to any part of the network."
+				"RF/FE can be converted into AE at a 2:1 ratio through an &6ME Controller&r or an &eEnergy Acceptor&r, which can connect to any part of the network. "
+				""
+				"You can also use an &cEnergy Provider&r to convert rotational power from Create into AE."
 			]
 			id: "79A7417475A593C6"
 			rewards: [
@@ -302,11 +282,18 @@
 				}
 			]
 			subtitle: "Plug in"
-			tasks: [{
-				id: "73BB99DDF4F2A850"
-				item: "ae2:energy_acceptor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "73BB99DDF4F2A850"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+				{
+					id: "13C034E9409A4F80"
+					item: "createappliedkinetics:energy_provider"
+					type: "item"
+				}
+			]
 			x: -9.5d
 			y: 7.0d
 		}
@@ -355,7 +342,7 @@
 		}
 		{
 			dependencies: ["25F281C3D8849819"]
-			description: ["The &bEnergy Card&f can be applied to most chargeable devices like Portable Cells and Wireless Terminals (covered later) to also increase &otheir&r energy buffer."]
+			description: ["The &bEnergy Card&r can be applied to most chargeable devices like Portable Cells and Wireless Terminals to increase their energy buffer."]
 			id: "738C5CDEA3283099"
 			rewards: [
 				{
@@ -421,49 +408,6 @@
 			title: "Quantum Network Bridge"
 			x: -8.0d
 			y: 7.0d
-		}
-		{
-			dependencies: ["3B06C0FF8E28AC91"]
-			description: [
-				"When using a 64k storage component or higher, the Matter Condenser becomes able to condense significantly more to produce a &bSingularity&f. A single singularity requires 256000 items to be voided. That's exactly &o4000 stacks&r!"
-				""
-				"See what happens when you throw this singularity on the ground with a piece of &eender dust&f. You'll have to deal some damage to the surroundings while you're at it, but thankfully AE2 offers its own &bTiny TNT&f to minimise that."
-			]
-			icon: "ae2:singularity"
-			id: "229F5549A476E523"
-			rewards: [
-				{
-					id: "0FFEA304CBC22EBB"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "70F5470162410280"
-					item: "numismatics:bevel"
-					type: "item"
-				}
-			]
-			subtitle: "Not quite antimatter"
-			tasks: [
-				{
-					id: "09FD675161F2C509"
-					item: "ae2:singularity"
-					type: "item"
-				}
-				{
-					id: "171A0F119D939289"
-					item: "ae2:ender_dust"
-					type: "item"
-				}
-				{
-					id: "1A582B97C30A3E08"
-					item: "ae2:tiny_tnt"
-					type: "item"
-				}
-			]
-			title: "Hyper-Condensed Matter"
-			x: -8.0d
-			y: 8.5d
 		}
 		{
 			dependencies: ["3026C7FFA3B230FA"]
@@ -635,7 +579,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Under the knife"
 			tasks: [
 				{
 					id: "2C451A484DE8CB1B"
@@ -690,7 +633,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "\"S.M.R.T.\""
 			tasks: [
 				{
 					id: "186E974B0E4A0EF6"
@@ -755,37 +697,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["229F5549A476E523"]
-			description: [
-				"As for wirelessly expanding the ME Network itself, the first step is admittedly somewhat unorthodox."
-				""
-				"The &bMatter Condenser&f is AE2's take on a trash can, voiding any items inserted into it. When fitted with a &eStorage Component&f, however, the condenser can harness some left-over energy from the item being voided and store it to make two special crafting items out of enough concentrated energy."
-				""
-				"The first of these two items is the &bMatter Ball&f, requiring at least a 1k storage component and 256 items' worth of voided material."
-			]
-			id: "093F71164A80A452"
-			rewards: [{
-				id: "1DC317549D5CB8AA"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "7DD5364D658B121F"
-					item: "ae2:condenser"
-					type: "item"
-				}
-				{
-					id: "674CDB46BEBDFE83"
-					item: "ae2:matter_ball"
-					type: "item"
-				}
-			]
-			title: "Condensed Matter"
-			x: -8.0d
-			y: 10.0d
-		}
-		{
 			dependencies: ["3D2DDC65DED45F4A"]
 			description: [
 				"Arguably the most important aspect of Applied Energistics 2 is its storage system, making use of digital &eStorage Cells&f. These cells are accessible through either an &eME Chest&r for single cells, or an &eME Drive&r for multiple cells."
@@ -846,7 +757,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Defragmentation"
 			tasks: [{
 				id: "506040CF7E3A171A"
 				item: "ae2:io_port"
@@ -929,7 +839,6 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "ME Storage &mCells&r Drawers"
 			tasks: [{
 				id: "53B1EAB52C41910A"
 				item: "ae2:equal_distribution_card"
@@ -941,11 +850,11 @@
 		{
 			dependencies: ["3026C7FFA3B230FA"]
 			description: [
-				"Storage is nice and all that, but what good is a storage system if it's clogged up with raw materials needing to be crafted and processed into something and you're still stuck with having to do so manually?"
+				"AE2’s &eauto-crafting&r system starts with the &6ME Pattern Provider&r, which holds up to 9 &bpatterns&r for recipes. "
 				""
-				"AE2's &eauto-crafting&f system begins with the &bME Pattern Provider&f. The Pattern Provider holds certain items called &bPatterns&f (covered in the next quest) which are programmed to hold some recipe that turns input items into a certain output. Up to 9 patterns can fit in one provider."
+				"These &bpatterns&r automate crafting by turning input items into output items. "
 				""
-				"You'll often be making use of multiple pattern providers scattered all throughout your base, which is why it's useful to have a &bPattern Access Terminal&f to remotely access the contents of any and all providers on your wider ME network."
+				"You'll use multiple &3Pattern Providers&r across your base, and the &cPattern Access Terminal&r lets you access all providers on your ME network remotely."
 			]
 			icon: "ae2:pattern_provider"
 			id: "130A80D8B3E4EA98"
@@ -1032,11 +941,13 @@
 		{
 			dependencies: ["2F40B3F9E34F9B1F"]
 			description: [
-				"The &bMolecular Assembler&f is AE2's equivalent of an automatic crafting table, required to fulfil any and all &ecrafting&f pattern jobs."
+				"The &bMolecular Assembler&r is AE2's automatic crafting table, essential for all crafting pattern jobs. "
 				""
-				"Molecular Assemblers are capable of transferring power and channels to other ME devices connected to it, but will not themselves take up a channel. Up to 6 MAs can be connected to a single Pattern Provider (if employed) to allow for more crafts to be done in parallel."
+				"It transfers power and channels to connected ME devices without taking up a channel itself. "
 				""
-				"MAs also each have their own dedicated slot for a single crafting pattern, allowing them to function standalone when powered. When operated in this way, any matching items inserted into the MA will be automatically crafted into the result of the pattern."
+				"Up to 6 Assemblers can be connected to a single Pattern Provider for parallel crafting. "
+				""
+				"Each Assembler has a slot for a crafting pattern and can operate standalone when powered."
 			]
 			id: "2506598B0A22BE75"
 			rewards: [
@@ -1091,9 +1002,9 @@
 		{
 			dependencies: ["130A80D8B3E4EA98"]
 			description: [
-				"The &bME Level Emitter&f, when configured with a specific item and quantity of it to respond to, will emit a redstone signal depending on whether that item stored in the network either falls below, goes above or equals the given quantity."
+				"The &bME Level Emitter&r emits a redstone signal based on the quantity of a specific item in the network. It activates when the item count falls below, exceeds, or matches the set quantity. "
 				""
-				"This can be used, for example, to automatically switch certain machines on with redstone to auto-craft a resource when it falls below a given minimum amount."
+				"This can automate machines to craft resources when they fall below a specified amount."
 			]
 			id: "4BEC405C5EC58218"
 			rewards: [
@@ -1174,7 +1085,6 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Automation in upgrade form!"
 			tasks: [{
 				id: "2249408CD4DC0409"
 				item: "ae2:crafting_card"
@@ -1313,7 +1223,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "The first kilobyte."
 			tasks: [{
 				id: "677ABDA7C9E27E54"
 				item: "ae2:cell_component_1k"
@@ -1441,7 +1350,7 @@
 		}
 		{
 			dependencies: ["3026C7FFA3B230FA"]
-			description: ["The next thing to make to allow for wireless network access is the &bME Wireless Access Point&f. The Access Point is used to open the network to wireless access via a &ewireless terminal&f, and has a set (finite) range depending on how many &bWireless Boosters&f are inserted into the access point."]
+			description: ["To enable wireless network access, create the &eME Wireless Access Point&r. It allows access to the network via a wireless terminal, with range determined by the number of &aWireless Boosters&r inserted."]
 			hide: false
 			id: "630BDF564F7516D7"
 			rewards: [
@@ -1493,7 +1402,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "This is what you're here for"
 			tasks: [
 				{
 					id: "7E96C873B5618844"
@@ -1638,11 +1546,13 @@
 		{
 			dependencies: ["3026C7FFA3B230FA"]
 			description: [
-				"To make life that much easier, AE2 provides a whole suite of devices for the manipulation of ME data, i.e. moving stored items around the world."
+				"AE2 provides devices to manage ME data and move stored items around the world. "
 				""
-				"The &bME Interface&f is one of these devices. As an input device, the Interface allows any item/fluid/etc to be piped externally through it, which is then automatically stored in the ME Network that the interface is connected to."
+				"&bThe ME Interface&r serves as both an input and output device. "
 				""
-				"As an output device, the Interface can be configured to keep a certain available amount of a stored item in stock, from the ME network to its own internal inventory. This allows items to then be received by some external source like another player or some pipe."
+				"As an input, it pipes items/fluids into the ME Network. "
+				""
+				"As an output, it can be configured to keep a specified amount of an item in stock, allowing external sources to receive items from the ME Network."
 			]
 			icon: "ae2:interface"
 			id: "109FBFA37FF99341"
@@ -1659,7 +1569,6 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "OI, OI, OI!"
 			tasks: [{
 				id: "0B18DCF021EC9073"
 				item: {
@@ -1777,7 +1686,7 @@
 			description: [
 				"These last three items are more or less some extra toys provided by AE2 and don't necessarily fit under any of these quest trees."
 				""
-				"The &bCharged Staff&f is just a simple powered staff which deals 3 hearts of damage and consumes 300AE per hit. It also uses pre-1.9 combat mechanics, meaning that you can spam-click with this like in the good old days."
+				"The &6Charged Staff&f is just a simple powered staff which deals 3 hearts of damage and consumes 300AE per hit. It also uses pre-1.9 combat mechanics, meaning that you can spam-click with this like in the good old days."
 				""
 				"The &bEntropy Manipulator&f, when &oused&r on certain blocks in the world, will smelt them in-place, such as sand to glass and metal ores to metal ingots. If not, it will simply light a fire on the block."
 				""
@@ -1798,7 +1707,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Too hot for the ATF"
 			tasks: [
 				{
 					id: "393B5909E4888AA4"
@@ -1826,7 +1734,7 @@
 		}
 		{
 			dependencies: ["109FBFA37FF99341"]
-			description: ["The &bME Export Bus&f periodically spits items in its whitelist filter out to whatever external storage the bus is facing. Unlike the Import Bus, the Export Bus cannot work without being filtered."]
+			description: ["The &bME Export Bus&r periodically transfers items from its whitelist filter to external storage. Unlike the Import Bus, the Export Bus requires a filter to function."]
 			id: "725685829EF53BA4"
 			rewards: [
 				{
@@ -1946,7 +1854,6 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "The remaining two IO cards"
 			tasks: [
 				{
 					id: "0BAA444349326DB2"
@@ -1959,7 +1866,6 @@
 					type: "item"
 				}
 			]
-			title: "Loosely Speaking"
 			x: 11.5d
 			y: 10.0d
 		}
@@ -2009,7 +1915,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "GET IN"
 			tasks: [{
 				id: "5DA6B4FC9F5ECB33"
 				item: "ae2:annihilation_plane"
@@ -2017,6 +1922,44 @@
 			}]
 			x: 12.5d
 			y: 10.0d
+		}
+		{
+			dependencies: [
+				"1BA814DF86A91263"
+				"391126B065758DCB"
+			]
+			id: "603AE60A02A3F9EB"
+			tasks: [{
+				id: "5C75CC3A6B6C86CB"
+				item: "kubejs:siliceous_compound"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["108EA49E8421CCC7"]
+			hide: true
+			id: "1BA814DF86A91263"
+			tasks: [{
+				id: "15DA0FF5AA3BCCEA"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["108EA49E8421CCC7"]
+			hide: true
+			id: "391126B065758DCB"
+			tasks: [{
+				id: "4DB559947AFC3420"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
 		}
 	]
 	title: "Chapter X: Applied Energetics 2"

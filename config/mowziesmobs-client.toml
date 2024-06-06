@@ -10,4 +10,8 @@
 	custom_boss_bar = true
 	#Use custom player animations.
 	custom_player_anims = true
+	#Toggles the Umvuthana footprint effects, which may decrease performance.
+	umvuthana_footprints = true
+	#Play Umvuthana Crane heal sounds. Turn this off if you are experiencing crashes when Cranes appear during Umvuthi's boss battle.
+	crane_heal_sounds = true
 

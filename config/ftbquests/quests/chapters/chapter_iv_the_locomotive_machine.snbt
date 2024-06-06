@@ -553,7 +553,7 @@
 				"4B91CC0919FE9219"
 			]
 			description: [
-				"After creating the Liquid Concrete, use a Mechanical Pump and Pipe to inject the Liquid Concrete into the Formwork Block. After the Formwork Block is full, wait a few seconds for the Liquid Concrete to turn into Concrete. When that happens, the Formwork Block will break and you’ll have to place a new one. "
+				"After creating the Liquid Concrete, use a Mechanical Pump and Pipe to inject the Liquid Concrete into the Formwork Block. After the Formwork Block is full, wait a &n&dfew minuts&r&r &o&7(can take a while sometimes)&r&r for the Liquid Concrete to turn into Concrete. When that happens, the Formwork Block will break and you’ll have to place a new one. "
 				""
 				""
 				"&2&lNote:&r &r&oYou can use a bucket of Liquid Concrete on the floor. The Liquid Concrete will turn into Concrete as if you used a Formwork Block but if you wish to do the Rebar Concrete then you have to use the process of injecting the Liquid Concrete into the Rebar Formwork Block.&r"
@@ -619,6 +619,15 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
+			description: [
+				"The &6Travel Staff&r allows the player to teleport by using &7SHIFT+Right-click&r and aiming at the desired location. Aim the staff at the &ctravel anchor&r to teleport into it."
+				""
+				"The &3Travel Anchor&r is block that allows for teleportation over greater distances when you stand on it, even through obstacles as long as the anchor can be selected."
+				""
+				"You can right-click the  &3Travel Anchor&r with any block in you offhand to change it's appearance and model."
+				""
+				"You can also name the &3Travel Anchor&r whatever you want."
+			]
 			hide: true
 			id: "33274B5D531EF9B7"
 			rewards: [{
@@ -720,6 +729,29 @@
 			}]
 			x: -2.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["1360D8CD2949E41B"]
+			description: [
+				"You can farm &aexperience&r using Hostile Neural Networks with models from &n&6Silverfish&r&r or &n&6Mimics&r&r."
+				""
+				"Mimics consume significantly more energy to produce experience."
+			]
+			id: "795A1C6CA55A1261"
+			rewards: [{
+				count: 5
+				id: "339B5CF18FA67E0E"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A9A634693791843"
+				title: "I acknowledge this!"
+				type: "checkmark"
+			}]
+			title: "Exp Farm"
+			x: 4.5d
+			y: -7.0d
 		}
 	]
 	title: "Chapter IV: The Locomotive Machine"

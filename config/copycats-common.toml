@@ -1,0 +1,28 @@
+
+#.
+#Enable/disable features. Values on server override clients
+[features]
+	#.
+	copycat_board = false
+	copycat_wooden_button = true
+	copycat_trapdoor = true
+	copycat_stone_pressure_plate = true
+	copycat_byte = true
+	copycat_half_panel = true
+	copycat_vertical_slice = false
+	copycat_slice = true
+	copycat_wooden_pressure_plate = true
+	copycat_block = false
+	copycat_beam = false
+	copycat_fence = false
+	copycat_wall = false
+	copycat_vertical_step = false
+	copycat_light_weighted_pressure_plate = true
+	copycat_heavy_weighted_pressure_plate = true
+	copycat_half_layer = true
+	copycat_stairs = false
+	copycat_fence_gate = false
+	copycat_stone_button = true
+	copycat_layer = true
+	copycat_slab = false
+

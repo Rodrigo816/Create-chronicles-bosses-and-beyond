@@ -1,0 +1,42 @@
+{
+	"conditions": [
+	{
+		"modid": "alexscaves",
+		"type": "forge:mod_loaded"
+	}
+	],
+    "entity": "alexscaves:gossamer_worm",
+    "variants": [],
+    "name": "entity.alexscaves.gossamer_worm",
+    "name_color": "#87afbf",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.gossamer_worm",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:bioluminesscence",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+		16,
+        64,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        4,
+        8,
+        8,
+        16
+    ]
+}

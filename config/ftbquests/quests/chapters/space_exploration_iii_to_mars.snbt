@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_exploration_iii_to_mars"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1
+		id: "ad_astra:mars_globe"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	id: "19ECD475E94E145F"
+	images: [
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/mars.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			alpha: 200
+			color: 16672790
+			height: 1.2d
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: -10.5d
+			y: -7.0d
+		}
+	]
+	order_index: 11
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"391856026F7F7404"
+				"426AE7ED2C0D5BC9"
+				"2AB50A68249EFCFF"
+			]
+			id: "1C780BFC6939C692"
+			rewards: [{
+				count: 2
+				id: "4A7244540A256F23"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "You can also mine if you prefer."
+			tasks: [{
+				id: "45FB9E932E894AF0"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["186D4CB5DDB04646"]
+			description: [
+				"You'll need a LOT of &cDesh&r to make the &aTier 2 Rocket&r."
+				""
+				"With this rocket, you can fly all the way to &cMars&r! Just remember to stock up on extra &bOxygen&r and &eFuel&r."
+			]
+			id: "0CD89C878F66F782"
+			rewards: [{
+				count: 2
+				id: "43CA681285AA38D0"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "2A200C751A2E195B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0CD89C878F66F782"]
+			description: [
+				"Mars is a cold, desert planet with a thin atmosphere. "
+				""
+				"The planet has deep canyons, and polar ice caps. Beware of low temperatures and ensure you have an adequate supply of oxygen before visiting."
+				""
+				"Mercury Info:"
+				"Gravity: 3.7 m/s"
+				"Oxygen: none"
+				"Temperature: -65.0 °C"
+			]
+			icon: "ad_astra:mars_globe"
+			id: "506FAD15C9ECB3A8"
+			rewards: [{
+				count: 2
+				id: "18B291F5B4485B8C"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "730A971151EEC9E0"
+				type: "dimension"
+			}]
+			title: "Mars"
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D2DDC65DED45F4A"]
+			hide: true
+			id: "426AE7ED2C0D5BC9"
+			rewards: [{
+				count: 2
+				id: "4062F4F687CEEB1B"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "You can farm cheese using HNN from star crawler's"
+			tasks: [{
+				id: "2A3697A7E3978C7A"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D2DDC65DED45F4A"]
+			hide: true
+			id: "2AB50A68249EFCFF"
+			rewards: [{
+				count: 2
+				id: "5685F12FC15219C2"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2358965F1BAA45FE"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["350CC18A873810DB"]
+			id: "391856026F7F7404"
+			rewards: [{
+				count: 2
+				id: "53BFB0870FDEC3EA"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19C990C899980374"
+				item: "ad_astra:moon_sand"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C780BFC6939C692"]
+			id: "186D4CB5DDB04646"
+			rewards: [{
+				count: 2
+				id: "561A67242EE05E9B"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "673CABFA40F64D23"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"52D70E5A3A7A7954"
+				"1E52D08A62B60528"
+			]
+			id: "350CC18A873810DB"
+			rewards: [{
+				count: 2
+				id: "4B0E43DF48172433"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D12EC1134CE0233"
+				item: "ad_astra:moon_stone"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D2DDC65DED45F4A"]
+			hide: true
+			id: "1E52D08A62B60528"
+			rewards: [{
+				count: 2
+				id: "39B9CD05BA10EB75"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A0D486C14032B01"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3D2DDC65DED45F4A"]
+			hide: true
+			id: "52D70E5A3A7A7954"
+			rewards: [{
+				count: 2
+				id: "7B140AAB68D1510B"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79115D4DCC21581F"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+	]
+	title: "Space Exploration I: To Mars"
+}

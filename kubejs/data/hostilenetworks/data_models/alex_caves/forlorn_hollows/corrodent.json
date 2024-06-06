@@ -1,0 +1,42 @@
+{
+	"conditions": [
+	{
+		"modid": "alexscaves",
+		"type": "forge:mod_loaded"
+	}
+	],
+    "entity": "alexscaves:corrodent",
+    "variants": [],
+    "name": "entity.alexscaves.corrodent",
+    "name_color": "#261513",
+    "gui_scale": 0.75,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.corrodent",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:corrodent_teeth",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+		16,
+        64,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        4,
+        8,
+        8,
+        16
+    ]
+}
