@@ -72,6 +72,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "Use coarse dirt to make mud."
 			tasks: [{
 				id: "66D70BAD34C8F7C8"
 				item: "minecraft:dirt"
