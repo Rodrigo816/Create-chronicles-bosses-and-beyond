@@ -1274,16 +1274,16 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 1000L
+					count: 256L
 					id: "2D40B147082856CA"
 					item: "ae2:wireless_booster"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 1000L
+					count: 3000L
 					id: "78A7799CE2437130"
-					item: "ad_astra:cheese_block"
+					item: "ad_astra:desh_plate"
 					type: "item"
 				}
 			]
@@ -1303,36 +1303,31 @@
 			}]
 			tasks: [
 				{
-					amount: 100000L
-					fluid: "ad_astra:cryo_fuel"
-					id: "21C946C4A2E57B17"
-					type: "fluid"
-				}
-				{
 					consume_items: true
-					count: 500L
+					count: 256L
 					id: "428CA91CF5D09A04"
 					item: "ae2:logic_processor"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 500L
+					count: 256L
 					id: "4EC022C1001BAB7F"
 					item: "ae2:calculation_processor"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 500L
+					count: 256L
 					id: "09C7B59472CB928C"
 					item: "ae2:engineering_processor"
 					type: "item"
 				}
 				{
 					consume_items: true
-					id: "7B3275D2486BA34D"
-					item: "mowziesmobs:grant_suns_blessing"
+					count: 2000L
+					id: "4FE1ABC06A28DB4D"
+					item: "ad_astra:ostrum_plate"
 					type: "item"
 				}
 			]
@@ -1959,7 +1954,6 @@
 			subtitle: "The Explorer Compass lets you select a structure you want to find."
 			tasks: [{
 				consume_items: true
-				count: 2L
 				id: "3CA987AA256E37D8"
 				item: "numismatics:sun"
 				type: "item"
@@ -2262,7 +2256,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 42L
+				count: 30L
 				id: "3469EFC16C17BCFF"
 				item: "numismatics:cog"
 				type: "item"

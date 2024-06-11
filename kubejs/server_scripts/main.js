@@ -670,7 +670,7 @@ ServerEvents.recipes(event => {
   event.recipes.createCrushing([
     Item.of(ASTRA('moon_sand')).withChance(1),
   ], ASTRA("moon_stone"))
-  event.recipes.createMixing(ASTRA("desh_ingot"),[ASTRA('cheese'), MC('iron_ingot'), ASTRA('moon_sand')]).heated()
+  event.recipes.createMixing(ASTRA("desh_ingot"),[ASTRA('cheese'), 'twilightforest:ironwood_ingot', ASTRA('moon_sand')]).heated()
 
   transitional = KJ('incomplete_t2_plating')
   event.recipes.createSequencedAssembly([
@@ -788,21 +788,16 @@ ServerEvents.recipes(event => {
     ==============================
   */
 
-  event.custom({
-    "type": "create_dd:superheating",
-    "ingredients": [
-      {
-        "item": "minecraft:blackstone"
-      }
-    ],
-    "results": [
-      {
-        "item": "forbidden_arcanus:darkstone",
-        "count": 1
-      }
-    ]
+  event.recipes.createHaunting('forbidden_arcanus:darkstone',MC('blackstone'))
+  //arcane crystal
+  event.recipes.createMechanicalCrafting('forbidden_arcanus:arcane_crystal', [
+      ' D ',
+      'DAD',
+      ' D '
+    ], {
+      D: 'forbidden_arcanus:arcane_crystal_dust',
+      A: MC('iron_ingot')
   })
-
   event.recipes.createCrushing([
     Item.of(AE2('singularity')).withChance(0.40),
   ], 'forbidden_arcanus:arcane_crystal_obelisk').processingTime(800)

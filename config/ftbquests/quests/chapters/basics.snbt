@@ -790,9 +790,9 @@
 				""
 				"&cBeyond 1200 blocks, dangerous mobs from&r &bIce&r and &cFire&r, such as dragon roosts and sea serpents, will spawn anywhere. Proceed at your own risk."
 				""
-				"Starting from the &n&6third night&r&r, a dangerous mob, the &0Stalker&r, will appear. You’ll hear a characteristic sound and see a message in the chat when it spawns. "
+				"Starting from the &n&6fifth night&r&r, a dangerous mob, the &0Stalker&r, will appear. You’ll hear a characteristic sound and see a message in the chat when it spawns. "
 				""
-				"The &0Lifestealer&r undead can appear from the &n&6tenth night&r&r. It hides under a cloak, notices players from 100 blocks away, and starts following from 30 blocks. After attacking or taking enough damage, it reveals its true form with a scream."
+				"The &0Lifestealer&r undead can appear from the &n&6fifteenth night&r&r. It hides under a cloak, notices players from 100 blocks away, and starts following from 30 blocks. After attacking or taking enough damage, it reveals its true form with a scream."
 			]
 			id: "05DF598DEBADABC3"
 			rewards: [{
@@ -2604,11 +2604,11 @@
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
 			description: [
-				"Did you know you can use the &cNether&r to travel between 2 points in the &aOverworld&r at a much shorter distance? "
+				"Did you know you can use the &cNether&r to travel between two points in the &aOverworld&r at a much shorter distance?"
 				""
-				"Placing 2 portals with a distance of just 10 blocks between them in the &cNether&r, gives you a distance of 223 blocks in the &aOverworld&r between portals."
+				"Placing two portals with a distance of just 10 blocks between them in the &cNether&r gives you a distance of 80 blocks in the &aOverworld&r between portals."
 				""
-				"This can be used to make the trains travel a vast distance in the &aOverworld&r by a short distance in the &cNether&r"
+				"This can be used to make trains travel vast distances in the &aOverworld&r by covering a short distance in the &cNether&r."
 			]
 			icon: {
 				Count: 1
@@ -4313,54 +4313,6 @@
 			}]
 			x: 24.5d
 			y: 15.5d
-		}
-		{
-			description: [
-				"The &9Task Screen&r can be crafted using x8 pieces of Stone and a Book in the Crafting Table, it can be used to automate selling items into the &eShop&r. "
-				""
-				"This process will require you to configure what items you want to sell, for example if you wanted to sell &ax16 Cobblestone&r for &dx2 Iron Coins&r you would search up \"&aCobblestone&r\" in the task section box."
-				""
-				"&7*see pictures below;&r"
-				""
-				"{image:beyondearth:textures/questpics/task_screen_help.png width:200 height:100 align:1}"
-				""
-				"{image:beyondearth:textures/questpics/cobblestone_task_screen.png width:200 height:125 align:1}"
-				""
-				""
-				"In order to feed items into &9Task Screens&r you'll need to use things that can transfer items into them."
-				""
-				"&7*see next page for examples...&r"
-				"{@pagebreak}"
-				"&7Here's some pictures to give you an idea of how to do this...&r"
-				""
-				"*using a Chicken Stasis Chamber"
-				"{image:beyondearth:textures/questpics/chicken_task_screen.png width:100 height:125 align:1}"
-				"*using a vanilla Hopper on top"
-				"{image:beyondearth:textures/questpics/hopper_task_screen.png width:75 height:125 align:1}"
-				"*using a Wooden Hopper on the side"
-				"{image:beyondearth:textures/questpics/wooden_hopper_task_screen.png width:125 height:75 align:1}"
-				"*using Create with Andesite Funnels"
-				"{image:beyondearth:textures/questpics/create_task_screen.png width:200 height:75 align:1}"
-			]
-			disable_toast: true
-			hide: true
-			id: "0CB58EA5A14AEE43"
-			rewards: [{
-				id: "3872C276AB9ACA1B"
-				item: "coinsje:copper_coin"
-				type: "item"
-			}]
-			shape: "square"
-			size: 2.0d
-			tasks: [{
-				consume_items: true
-				id: "562215FF05A371C9"
-				item: "ftbquests:screen_1"
-				type: "item"
-			}]
-			title: "&eHow to Automate Selling Items&r"
-			x: 10.08d
-			y: -11.2d
 		}
 		{
 			dependencies: ["05B32DE12868C6DE"]

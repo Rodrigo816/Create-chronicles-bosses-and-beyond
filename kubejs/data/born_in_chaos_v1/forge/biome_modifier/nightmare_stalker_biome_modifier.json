@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "born_in_chaos_v1:nightmare_stalker",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}
