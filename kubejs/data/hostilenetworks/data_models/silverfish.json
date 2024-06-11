@@ -12,7 +12,7 @@
       "item": "hostilenetworks:prediction_matrix"
   },
   "base_drop": {
-      "item": "hostilenetworks:end_prediction"
+    "item": "hostilenetworks:overworld_prediction"
   },
   "trivia": "hostilenetworks.trivia.silverfish",
   "fabricator_drops": [

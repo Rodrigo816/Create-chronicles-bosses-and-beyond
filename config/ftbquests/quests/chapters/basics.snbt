@@ -271,7 +271,7 @@
 		{
 			dependencies: ["0C49795E134A27E0"]
 			description: [
-				"&6Sophisticated Backpacks&r andd some of the most useful Backpacks to Minecraft!"
+				"&6Sophisticated Backpacks&r add some of the most useful Backpacks to Minecraft!"
 				""
 				"To equip a &9backpack&r, click the Equip icon in the &9backpack&r menu."
 				""
@@ -1940,7 +1940,7 @@
 			description: [
 				"Combat mechanics were altered by the &6Better Combat&r, &6Dodge Roll&r, &6Shield overhaul&r and&6 Shield Expansion&r mod."
 				""
-				"&c-> Dogge Roll&r"
+				"&c-> Dodge Roll&r"
 				"Press &6\"caps lock\"&r (default key) to roll. You can roll into any direction you are heading. This is crucial to dodge attacks during boss fights!"
 				""
 				"The combat roll ability has 10 seconds cooldown by default."
@@ -1951,7 +1951,7 @@
 				"Weapons each weapon has its own attack animation and time, comsecutive attacks will perform combos and you can hold attakc button to keep attacking continuosly."
 				""
 				"&c-> Shield Overhaul&r"
-				"Shields have new mechanics and like bashing: Attack while blocking to perform a shield bash. This will stun the target for 1 second, unless it's a boss"
+				"Shields have new mechanics like bashing: Attack while blocking to perform a shield bash. This will stun the target for 1 second, unless it's a boss"
 				""
 				"&c-> Shield Expansion&r"
 				"The mod adds traditional tiers to shields and introduces two new mechanics, Off-Guard Cooldown and Parrying!"

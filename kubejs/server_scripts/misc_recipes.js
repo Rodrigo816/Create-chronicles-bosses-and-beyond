@@ -7,6 +7,8 @@ ServerEvents.recipes(event => {
     'forbidden_arcanus:eternal_stella')
     .withNBT({Unbreakable:1});*/
 
+  // dirt renew
+  event.recipes.createMixing('2x minecraft:dirt',['minecraft:mud','minecraft:gravel','minecraft:clay_ball'])
 
   // added crushed magma back
   event.recipes.createCrushing([
