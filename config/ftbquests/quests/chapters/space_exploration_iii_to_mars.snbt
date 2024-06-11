@@ -148,7 +148,7 @@
 			}]
 			tasks: [{
 				id: "2358965F1BAA45FE"
-				item: "minecraft:iron_ingot"
+				item: "twilightforest:ironwood_ingot"
 				type: "item"
 			}]
 			x: -12.0d

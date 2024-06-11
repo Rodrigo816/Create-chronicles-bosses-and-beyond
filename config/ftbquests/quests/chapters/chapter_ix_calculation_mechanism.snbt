@@ -392,7 +392,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-			subtitle: "bulk super heated"
+			subtitle: "Mechanical Crafting"
 			tasks: [{
 				id: "46933D45063DFDED"
 				item: "forbidden_arcanus:arcane_crystal"

@@ -2936,7 +2936,7 @@
 		{
 			dependencies: ["072DA448D144179C"]
 			description: [
-				"Appears starting from the &c&othird&r night&r of the game so that the player has time to &nprepare&r for the meeting with him. "
+				"Appears starting from the &c&ofifth&r night&r of the game so that the player has time to &nprepare&r for the meeting with him. "
 				""
 				"The beginning of the &8Stalker's&r spawn is accompanied by a characteristic &osound&r and a &omessage&r in the chat. "
 				""
@@ -2989,7 +2989,7 @@
 		{
 			dependencies: ["072DA448D144179C"]
 			description: [
-				"He is a undead that you can meet starting from the &atenth night of the game&r. "
+				"He is a undead that you can meet starting from the &afifteen night of the game&r. "
 				""
 				"At first it is hidden under the mantle, it is able to notice the player at a distance of 100 blocks, and begins to follow from a distance of 30 blocks. "
 				""
@@ -3018,7 +3018,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "born_in_chaos_v1:lifestealer_true_form"
 				icon: "born_in_chaos_v1:lifestealer_bone"
