@@ -244,6 +244,11 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
+			description: [
+				"There are various ways you can create an amethyst shard farm. First, you need to find an amethyst cluster, as one cluster can grow in all directions. You can set up a smart observer to detect when the clusters are ready to harvest, then use a deployer with a pickaxe enchanted with Fortune to get extra drops."
+				""
+				"Another alternative is to set up an amethyst farm in your base without the need to find a cluster. You can use an&d amethyst golem&r from Ars Nouveau for this purpose."
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "4ECA82782988ACB9"

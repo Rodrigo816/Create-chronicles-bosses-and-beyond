@@ -167,9 +167,9 @@ ServerEvents.recipes(event => {
       Item.of(CR('mechanical_bearing'), 2),
       Item.of(CR('portable_storage_interface'), 2),
       Item.of(CR('analog_lever'), 2),
-      Item.of(CRDD('reversed_gearshift'), 1),
-      Item.of(CRDD('kinetic_motor'), 1),
-      Item.of('create_connected:freewheel_clutch', 1),
+      Item.of(CRDD('reversed_gearshift'), 2),
+      Item.of(CRDD('kinetic_motor'), 2),
+      Item.of('create_connected:freewheel_clutch', 2),
   ];
   const andesite_shapes = [
       [MC('compass'), CR('speedometer')],
@@ -222,7 +222,7 @@ ServerEvents.recipes(event => {
         Item.of(CR('fluid_valve'), 3),
         Item.of(CR('hose_pulley'), 2),
         Item.of(CR('portable_fluid_interface'), 2),
-        Item.of(CR('steam_engine'), 1),
+        Item.of(CR('steam_engine'), 2),
         Item.of(CR('copper_valve_handle'), 6),
         Item.of(CR('steam_whistle'), 4),
         Item.of(CR('fluid_tank'), 2),
@@ -298,7 +298,7 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(MC('soul_sand'), [FA('soulless_sand'), 'quark:soul_bead'])
     event.recipes.createDeploying(MC('soul_sand'), [FA('soulless_sand'), CHAOS('ethereal_spirit')])
  
-    event.recipes.createMixing(AE2('small_quartz_bud'),[Fluid.water(100),MC('sand'), "9x "+MC('sugar'), MC('quartz')])
+    event.recipes.createMixing(AE2('small_quartz_bud'),[Fluid.water(100),MC('sand'), "2x "+MC('sugar'), MC('quartz')])
     
     transitional = AE2('small_quartz_bud')
     event.recipes.createSequencedAssembly([
@@ -345,16 +345,16 @@ ServerEvents.recipes(event => {
   transitional = CR('incomplete_precision_mechanism')
 	event.recipes.createSequencedAssembly([
 		Item.of(CR('precision_mechanism')).withChance(100.0),
-		Item.of('create:brass_sheet').withChance(6.0),
-		Item.of('create:rose_quartz').withChance(6.0),
-    Item.of('minecraft:quartz').withChance(6.0),
+		Item.of('create:brass_sheet').withChance(4.0),
+		Item.of('create:rose_quartz').withChance(4.0),
+    Item.of('minecraft:quartz').withChance(4.0),
 	], CRSA('hydraulic_engine'), [
       event.recipes.createDeploying(transitional, [transitional, CR('brass_sheet')]),
       event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
       event.recipes.createDeploying(transitional, [transitional, CR('cogwheel')]),
       event.recipes.createPressing(transitional, transitional)
 	]).transitionalItem(transitional)
-		.loops(3)
+		.loops(2)
 		.id(CR('precision_mechanism'))
 
   // Brass Machine
@@ -393,12 +393,12 @@ ServerEvents.recipes(event => {
     Item.of(CR('contraption_controls'), 2),
     Item.of(CR('redstone_contact'), 2),
     Item.of(CR('nixie_tube'), 2),
-    Item.of(CRA('redstone_relay'), 1),
-    Item.of(CRA('portable_energy_interface'), 1),
+    Item.of(CRA('redstone_relay'), 2),
+    Item.of(CRA('portable_energy_interface'), 2),
     Item.of(CRDD('accelerator_motor'), 1),
     Item.of(CRDD('flywheel'), 1),
     Item.of('create_connected:overstress_clutch', 1),
-    Item.of('create_connected:sequenced_pulse_generator', 1),
+    Item.of('create_connected:sequenced_pulse_generator', 2),
     Item.of('create_connected:empty_fan_catalyst', 2),
 
 
@@ -564,6 +564,11 @@ ServerEvents.recipes(event => {
     ---->Chp 7 Infernal
     ==============================
   */
+    event.recipes.createHaunting([
+      Item.of(CRDD('diamond_shard')).withChance(0.4),
+      Item.of(CRDD('diamond_shard',2)).withChance(0.2),
+      Item.of(CRDD('diamond_shard',3)).withChance(0.05),
+    ], MC('coal_block'))
 
     event.custom({
         "type": CRA('rolling'),
@@ -888,7 +893,7 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
     event.recipes.createPressing(transitional, transitional)
   ]).transitionalItem(transitional)
-    .loops(6)
+    .loops(4)
     .id(CRDD('calculation_mechanism'))
 
   
@@ -907,7 +912,7 @@ ServerEvents.recipes(event => {
       event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
       event.recipes.createDeploying(transitional, [transitional, CRA('electrum_wire')]),
     ]).transitionalItem(transitional)
-      .loops(8)
+      .loops(6)
       .id(CRDD('integrated_circuit'))
 
 

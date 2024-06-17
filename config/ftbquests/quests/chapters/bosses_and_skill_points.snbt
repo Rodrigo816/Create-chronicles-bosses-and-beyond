@@ -201,7 +201,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			subtitle: "&6⭐⭐⭐&7⭐⭐&6+&7"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				icon: "cataclysm:void_eye"
@@ -559,7 +559,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			subtitle: "&6⭐⭐⭐&7⭐⭐&6+&7"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: "bosses_of_mass_destruction:blazing_eye"
@@ -2980,7 +2980,7 @@
 				id: "11F88FE1D7C2E4A6"
 				title: "Kill Your Nightmares"
 				type: "kill"
-				value: 10L
+				value: 5L
 			}]
 			title: "&2Overworld&f: Kill Your Nightmares"
 			x: 0.0d
@@ -3044,9 +3044,9 @@
 				""
 				"&6⭐⭐&7 - Diamond level or similar armor with some enchantments.&r"
 				""
-				"&6⭐⭐⭐&7 - Netherite level or similar with full Protection IV and at least &c20 ❤&r"
+				"&6⭐⭐⭐&7 - Diamond level or similar with full Protection IV and at least &c20 ❤&r"
 				""
-				"&6⭐⭐⭐⭐&7 - Full Darkmetal level armor or similar with full Protection V and at least &c30 ❤.&r &7Some food with bonuses is also recommended. At least 30 Skill points used.&r"
+				"&6⭐⭐⭐⭐&7 - Full Netherite level armor or similar with full Protection V and at least &c30 ❤.&r &7Some food with bonuses is also recommended. At least 30 Skill points used.&r"
 				""
 				"&6⭐⭐⭐⭐⭐&7 - Full Darkmetal level armor or similar with full Protection V and at least &c40 ❤.&r &7and everyting that can boost you ^_^. At least 50 Skill points used.&r"
 			]

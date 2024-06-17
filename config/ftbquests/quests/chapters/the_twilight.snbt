@@ -646,9 +646,9 @@
 			description: ["This item will let you keep all of your items in your inventory when you die."]
 			id: "619ED52038647A5A"
 			rewards: [{
-				id: "4ECBC990435D5A6C"
-				type: "xp_levels"
-				xp_levels: 100
+				id: "55C60AB1C968965A"
+				type: "xp"
+				xp: 100
 			}]
 			size: 1.0d
 			tasks: [{

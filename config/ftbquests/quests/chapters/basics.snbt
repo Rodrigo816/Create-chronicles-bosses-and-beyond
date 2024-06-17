@@ -316,7 +316,7 @@
 				""
 				"This world is full of adventure and danger, with grand structures, tough bosses, and diverse worlds to explore. Be prepared for the challenges ahead."
 				""
-				"&dThanks for playing the pack <3&r"
+				"&dThanks for playing the pack ❤&r"
 				""
 				"&b&lIn Create Chronicles: Bosses and Beyond, your saga awaits!&r&r"
 			]
@@ -1234,7 +1234,7 @@
 				item: "camera:camera"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.0d
 			y: 20.0d
 		}
 		{
@@ -1932,7 +1932,7 @@
 				type: "checkmark"
 			}]
 			title: "&dUnlocking the Arcane&r "
-			x: 1.25d
+			x: 1.5d
 			y: 18.0d
 		}
 		{
@@ -2254,16 +2254,15 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: 20.0d
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&l&cCreate Missions has been disabled for now due to some crash issues. It will be added back later.&r&r"
-				""
 				"Simply press &6\"H\"&r to access your current missions. Completing these will reward you with money that can be used in multiplayer environments or at the &l&0Black Market.&r&l&r"
+				"You get two free rolls per week."
 				""
 				"&5Understanding Currency in the Game:&r"
 				""
@@ -5942,6 +5941,32 @@
 			}]
 			x: 10.0d
 			y: 22.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"&cFramedBlocks&r adds versatile blocks of various shapes that can mimic almost any other block in the game. "
+				""
+				"Customize these blocks by right-clicking with solid blocks or Glowstone Dust for lighting."
+				""
+				"Use the &6Framed Hammer&r to remove camouflage or toggle texture offsets on prism corners."
+				""
+				"Rotate blocks with the &6Framed Wrench&r or cycle through states with the &eFramed Screwdriver&r. Copy blocks using the &3Framed Blueprint&r."
+			]
+			id: "68D7F888BF6332F3"
+			rewards: [{
+				id: "59D451F7754DD0B4"
+				item: "framedblocks:framed_wrench"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C9F375956085552"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			title: "Framed Blocks"
+			x: -6.0d
+			y: 20.0d
 		}
 	]
 	title: "&6&nGetting Started!"

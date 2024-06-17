@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableDelayedExpansion
 
-set FORGE_VERSION=47.2.20
+set FORGE_VERSION=47.3.0
 :: Update these variables if needed
 set INSTALLER=forge-1.20.1-%FORGE_VERSION%-installer.jar
 set FORGE_URL=https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.20.1-%FORGE_VERSION%/forge-1.20.1-%FORGE_VERSION%-installer.jar

@@ -82,6 +82,7 @@ ServerEvents.recipes(event => {
         CHAOS('solsendk'),
         // Blaze Rod
        CRDD('crafting/diamond_shard_compacting'),
+       CRDD('superheating/diamond_shard'),
 
        // Neural Network
        HNN('living_matter/overworldian/gunpower'),

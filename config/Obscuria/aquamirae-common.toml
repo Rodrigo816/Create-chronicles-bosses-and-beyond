@@ -8,11 +8,11 @@
 		#Range: 0.0 ~ 10.0
 		movementSpeed = 0.2
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 1000.0
+		maxHealth = 2000.0
 		#Range: 0.0 ~ 1000.0
 		armor = 30.0
 		#Range: 1.0 ~ 1000.0
-		attackDamage = 54.0
+		attackDamage = 57.0
 		#Range: 0.0 ~ 10.0
 		knockbackResistance = 0.5
 		#Range: 0.0 ~ 10.0

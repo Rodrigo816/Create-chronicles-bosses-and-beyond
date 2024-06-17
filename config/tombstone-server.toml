@@ -22,7 +22,7 @@
 	#Enables the enchantment Magic Siphon [false/true|default:true]
 	enable_enchantment_magic_siphon = true
 	#Enables the enchantment Plague Bringer [false/true|default:true]
-	enable_enchantment_plague_bringer = true
+	enable_enchantment_plague_bringer = false
 	#Enables the enchantment Curse of Bones [false/true|default:true]
 	enable_enchantment_curse_of_bones = true
 	#Enables the enchantment Blessing [false/true|default:true]
