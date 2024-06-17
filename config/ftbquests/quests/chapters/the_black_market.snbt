@@ -1353,7 +1353,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "x10 Warp dust"
+			title: "x3 Warp dust"
 			x: 3.5d
 			y: 1.0d
 		}
@@ -2077,7 +2077,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 28L
+				count: 24L
 				id: "7C08A49774258283"
 				item: "numismatics:spur"
 				type: "item"
@@ -2101,8 +2101,9 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 42L
 				id: "4CF201B893979C27"
-				item: "numismatics:cog"
+				item: "numismatics:spur"
 				type: "item"
 			}]
 			title: "Zinc Ingot"
@@ -2124,7 +2125,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 36L
+				count: 32L
 				id: "29B4C8C00A293C00"
 				item: "numismatics:spur"
 				type: "item"
@@ -2256,7 +2257,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 30L
+				count: 26L
 				id: "3469EFC16C17BCFF"
 				item: "numismatics:cog"
 				type: "item"

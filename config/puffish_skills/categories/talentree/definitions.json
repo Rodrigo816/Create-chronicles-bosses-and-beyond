@@ -208,8 +208,8 @@
 		}
 	},
 	"ironsEnder%F": {
-		"title": "§d[10P] §e§lMaster of Ender",
-		"cost": 10,
+		"title": "§d[15P] §e§lMaster of Ender",
+		"cost": 15,
 		"description": "§a+25% Ender Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -336,8 +336,8 @@
 		}
 	},
 	"ironsEvocation%F": {
-		"title": "§d[10P] §e§lMaster of Evocation",
-		"cost": 10,
+		"title": "§d[15P] §e§lMaster of Evocation",
+		"cost": 15,
 		"description": "§a+25% Evocation Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -464,8 +464,8 @@
 		}
 	},
 	"ironsBlood%F": {
-		"title": "§d[10P] §e§lMaster of Blood",
-		"cost": 10,
+		"title": "§d[15P] §e§lMaster of Blood",
+		"cost": 15,
 		"description": "§a+25% Blood Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -592,8 +592,8 @@
 		}
 	},
 	"ironsFire%F": {
-		"title": "§d[10P] §e§lMaster of Fire",
-		"cost": 10,
+		"title": "§d[15P] §e§lMaster of Fire",
+		"cost": 15,
 		"description": "§a+25% Fire Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -720,8 +720,8 @@
 		}
 	},
 	"ironsHoly%F": {
-		"title": "§d[10P] §e§lMaster of Holy",
-		"cost": 10,
+		"title": "§d[15P] §e§lMaster of Holy",
+		"cost": 15,
 		"description": "§a+25% Holy Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -848,8 +848,8 @@
 		}
 	},
 	"ironsIce%F": {
-		"title": "§d[10P] §e§lMaster of Ice",
-		"cost": 10,
+		"title": "§d[15P] §e§lMaster of Ice",
+		"cost": 15,
 		"description": "§a+25% Ice Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -976,8 +976,8 @@
 		}
 	},
 	"ironsLight%F": {
-		"title": "§d[10P] §e§lMaster of Lightning",
-		"cost": 10,
+		"title": "§d[15P] §e§lMaster of Lightning",
+		"cost": 15,
 		"description": "§a+25% Lightning Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -1104,8 +1104,8 @@
 		}
 	},
 	"ironsNature%F": {
-		"title": "§d[10P] §e§lMaster of Nature",
-		"cost": 10,
+		"title": "§d[15P] §e§lMaster of Nature",
+		"cost": 15,
 		"description": "§a+25% Nature Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
@@ -1201,8 +1201,8 @@
 		}
 	},
 	"ironsSpellCastTime%F": {
-		"title": "§d[4P] §a+20% Casting Time Reduction",
-		"cost": 4,
+		"title": "§d[5P] §a+20% Casting Time Reduction",
+		"cost": 5,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1462,7 +1462,7 @@
 		}
 	},
 	"lifeSteal%": {
-		"title": "§d[3P] §a+5% Life Steal",
+		"title": "§d[5P] §a+5% Life Steal",
 		"cost": 5,
 		"frame": {
 			"type": "texture",
@@ -1494,8 +1494,8 @@
 		}
 	},
 	"experienceGained%small": {
-		"title": "§d[3P] §a+20% Experience Gained",
-		"cost":3,
+		"title": "§d[5P] §a+20% Experience Gained",
+		"cost":5,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1526,7 +1526,8 @@
 		}
 	},
 	"arsManaRegen%sm": {
-		"title": "§d[1P] §a+2% Ars Noveau Mana Regen",
+		"title": "§d[2P] §a+2% Ars Noveau Mana Regen",
+		"cost":2,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1557,8 +1558,8 @@
 		}
 	},
 	"arsMaxMana%Big": {
-		"title": "§d[4P] §a+10% Ars Noveau Max Mana",
-		"cost": 4,
+		"title": "§d[5P] §a+10% Ars Noveau Max Mana",
+		"cost": 5,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1778,8 +1779,8 @@
 		}
 	},
 	"health%md": {
-		"title": "§d[4P] §a+5.0% Maximum Health",
-		"cost": 4,
+		"title": "§d[5P] §a+5.0% Maximum Health",
+		"cost": 5,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1842,7 +1843,8 @@
 		}
 	},
 	"resistance+1%": {
-		"title": "§d[1P] §a+5% Resistance",
+		"title": "§d[3P] §a+5% Resistance",
+		"cost":3,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1862,7 +1864,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.resistance",
-					"value": 0.01,
+					"value":  0.05,
 					"operation": "multiply_total"
 				}
 			}
@@ -1936,8 +1938,8 @@
 		}
 	},
 	"bigMasterOfDodge": {
-		"title": "§d[10P] §e§lThe Art of Dodging",
-		"const": 10,
+		"title": "§d[15P] §e§lThe Art of Dodging",
+		"const": 15,
 		"description": "§a+2 Extra rolls\n§a+30% Dodge Roll Distance\n§a+120% Dodge Roll Recharge Rate\n§a+20% Movement Speed\n§a+10% Attack Speed",
 		"frame": {
 			"type": "texture",
@@ -2001,7 +2003,8 @@
 		}
 	},
 	"movement_speed%sm": {
-		"title": "§d[1P] §a+2% Movement Speed",
+		"title": "§d[2P] §a+2% Movement Speed",
+		"cost":2,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2032,7 +2035,8 @@
 		}
 	},
 	"sprintSpeed%sm": {
-		"title": "§d[1P] §a+3% Sprinting Speed",
+		"title": "§d[2P] §a+3% Sprinting Speed",
+		"cost":2,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2063,7 +2067,7 @@
 		}
 	},
 	"healing%sm": {
-		"title": "§d[1P] §a+8% Natural Healing Recovery",
+		"title": "§d[1P] §a+5% Natural Healing Recovery",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2083,7 +2087,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.healing",
-					"value": 0.08,
+					"value": 0.05,
 					"operation": "multiply_base"
 				}
 			}
@@ -2094,7 +2098,7 @@
 		}
 	},
 	"healing%md": {
-		"title": "§d[2P] §a+20% Natural Healing Recovery",
+		"title": "§d[2P] §a+10% Natural Healing Recovery",
 		"cost": 2,
 		"frame": {
 			"type": "texture",
@@ -2115,7 +2119,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.healing",
-					"value": 0.2,
+					"value": 0.1,
 					"operation": "multiply_base"
 				}
 			}
@@ -2189,8 +2193,8 @@
 		}
 	},
 	"bigArcher": {
-		"title": "§d[10P] §e§lDeadly Bows",
-		"cost": 10,
+		"title": "§d[15P] §e§lDeadly Bows",
+		"cost": 15,
 		"description": "§a+40% Ranged Damage\n§a+150% Draw Speed \n§a+50% Arrow Velocity\n§c-100% Knockback Resistance\n§c+20% Damage Taken\n§c-100% Armor Efficency",
 		"frame": {
 			"type": "texture",
@@ -2450,8 +2454,8 @@
 		}
 	},
 	"bigBreserk": {
-		"title": "§d[10P] §e§lBerserk",
-		"cost": 10,
+		"title": "§d[15P] §e§lBerserk",
+		"cost": 15,
 		"description": "§a+30% Attack Damage\n§a+10% Attack Speed\n§ +20% Crit Chance\n§ +50% Crit Damage\n§c-50% Armor Efficency \n§c-30% Health",
 		"frame": {
 			"type": "texture",
@@ -2530,8 +2534,8 @@
 		}
 	},
 	"critMaster": {
-		"title": "§d[10P] §e§lDeadly Crit's",
-		"cost": 10,
+		"title": "§d[15P] §e§lDeadly Crit's",
+		"cost": 15,
 		"description": "§a+25% Crit Chance\n§+80% Crit Damage",
 		"frame": {
 			"type": "texture",
@@ -2570,8 +2574,8 @@
 		}
 	},
 	"bigIronSkin": {
-		"title": "§d[10P] §e§lIron Skin",
-		"cost": 10,
+		"title": "§d[15P] §e§lIron Skin",
+		"cost": 15,
 		"description": "§a+50% Resistance\n§a+30% Max Health\n§c-40% Attack Damage\n§c-60% Mana \n§c-40% Movement Speed",
 		"frame": {
 			"type": "texture",
@@ -2746,8 +2750,8 @@
 		}
 	},
 	"jump+5%": {
-		"title": "§d[1P] §a+20% Jump",
-		"cost":1,
+		"title": "§d[3P] §a+20% Jump",
+		"cost":2,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2777,7 +2781,8 @@
 		}
 	},
 	"luckAll": {
-		"title": "§d[1P] §a+0.25 Luck",
+		"title": "§d[2P] §a+0.25 Luck",
+		"cost":2,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2807,7 +2812,8 @@
 		}
 	},
 	"fortune+0.1": {
-		"title": "§d[1P] §a+0.1 Fortune",
+		"title": "§d[2P] §a+0.1 Fortune",
+		"cost": 2,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2867,8 +2873,8 @@
 		}
 	},
 	"hydro_excavator": {
-		"title": "§d[10P] §e§lHydro Excavator",
-		"cost": 10,
+		"title": "§d[15P] §e§lHydro Excavator",
+		"cost": 15,
 		"description": "§a+80% Mining Speed\n§a+80% Swimming Speed\n§a+0.5 Fortune",
 		"frame": {
 			"type": "texture",

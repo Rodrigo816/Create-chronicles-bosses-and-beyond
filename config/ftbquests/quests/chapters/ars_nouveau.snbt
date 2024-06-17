@@ -2140,6 +2140,8 @@
 			description: [
 				"&l&cDRYGMYS ARE DISABLED! USE HOSTILE NEURAL NETWORKS FOR MOBS FARMS UNLOCKED AT CHAPTER 3.&r&r"
 				""
+				"&l&2UPDATE 2.1 - You can now farm some passive vanilla mobs.&r&r Please check the next page for the allowed list of passive mobs."
+				""
 				""
 				"Drygmys are often found following and tending to animals around it."
 				""
@@ -2155,6 +2157,27 @@
 				""
 				"&2> Production&r"
 				"Each Drygmy working around a henge contributes progress. Once maximum progress has been reached, the henge will generate items and experience gems and deposit them into adjacent chests. Each time this occurs, the henge will require Source to recharge. The number of drops and experience gems is equal to the Drygmy happiness and experience value of the entities. To get started, place a chest and jar of Source next to the Henge."
+				"{@pagebreak}"
+				"&n&2Allowed mobs to be used in Drygmy:&r&r"
+				"- Bat"
+				"- Chicken"
+				"- Cow"
+				"- Donkey"
+				"- Fox"
+				"- Frog"
+				"- Horse"
+				"- Mooshroom"
+				"- Mule"
+				"- Parrot"
+				"- Pig"
+				"- Rabbit"
+				"- Sheep"
+				"- Squid"
+				"- Turtle"
+				"- Cod"
+				"- Dolphin"
+				"- Pufferfish"
+				"- Salmon"
 			]
 			id: "04987E54ADC2C057"
 			optional: true
@@ -6330,7 +6353,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
@@ -6354,8 +6377,8 @@
 				item: "ars_elemental:glyph_aquatic_filter"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -7.5d
+			x: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
@@ -6384,7 +6407,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
@@ -6408,8 +6431,8 @@
 				item: "ars_elemental:glyph_insect_filter"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -8.5d
+			x: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
@@ -6459,7 +6482,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -6.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
@@ -6483,8 +6506,8 @@
 				item: "ars_elemental:glyph_not_insect_filter"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -7.5d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
@@ -6509,7 +6532,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
@@ -6533,8 +6556,8 @@
 				item: "ars_elemental:glyph_not_summon_filter"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -8.0d
+			x: -2.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
@@ -6559,7 +6582,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
@@ -6584,7 +6607,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
@@ -6613,56 +6636,6 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Removes any potion effects on the target. When used on a witch at half health, the witch will vanish in return for a Wixie shard. Will also dispel tamed summons back into their charm."]
-			id: "3899B97A5ECE2B82"
-			rewards: [
-				{
-					id: "28AA16DA9F0DF82D"
-					item: "create_dd:experience_ingot"
-					type: "item"
-				}
-				{
-					id: "49A1A5A240E8CAB7"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "64F84D405F5977E8"
-				item: "ars_nouveau:glyph_dispel"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Removes any potion effects on the target. When used on a witch at half health, the witch will vanish in return for a Wixie shard. Will also dispel tamed summons back into their charm."]
-			id: "49FBEA525E19C669"
-			rewards: [
-				{
-					id: "5CB0D26087C68F75"
-					item: "create_dd:experience_ingot"
-					type: "item"
-				}
-				{
-					id: "1A2E14E44809D3AD"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "4C848557BA9E4958"
-				item: "ars_nouveau:glyph_dispel"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["0AEFDABFF9DD4448"]
 			description: ["Stops the spell from resolving unless it targets an undead creature."]
 			id: "7FE4B0785D9CF4FC"
 			rewards: [
@@ -6683,8 +6656,8 @@
 				item: "ars_elemental:glyph_undead_filter"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -7.0d
+			x: -2.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
@@ -6738,7 +6711,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -17.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
@@ -7044,7 +7017,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -18.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
@@ -8253,6 +8226,33 @@
 			}]
 			x: 10.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["5A566D7CA9F2793E"]
+			description: ["Causes multiple projectiles to be cast at once. Each projectile applies a set of effects."]
+			id: "3E2EF1C744C498F0"
+			rewards: [
+				{
+					count: 3
+					id: "6C1B67B42761A212"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3AD6633D3C7757C4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "76A1482CE28D58C9"
+				item: "ars_nouveau:rewind"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -18.5d
 		}
 	]
 	title: "&dArs Nouveau"

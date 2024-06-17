@@ -8,7 +8,7 @@
 	#Range: 0 ~ 1000000
 	maxRadius = 10000
 	#A list of structures that the compass will not display in the GUI and will not be able to search for. Wildcard character * can be used to match any number of characters, and ? can be used to match one character. Ex: ["minecraft:stronghold", "minecraft:endcity", "minecraft:*village*"]
-	structureBlacklist = []
+	structureBlacklist = ["alexscaves:abyssal_ruins", "alexscaves:acid_pit", "alexscaves:acid_pit", "alexscaves:dino_bowl", "alexscaves:ferrocave", "alexscaves:forlorn_bridge", "alexscaves:forlorn_canyon", "alexscaves:ocean_trench", "alexscaves:underground_cabin", "alexscaves:volcano", "twilightforest:aurora_palace", "twilightforest:dark_tower", "twilightforest:final_castle", "twilightforest:hedge_maze", "twilightforest:hydra_lair", "twilightforest:knight_stronghold", "twilightforest:labyrinth", "twilightforest:large_hollow_hill", "twilightforest:lich_tower", "twilightforest:medium_hollow_hill", "twilightforest:mushroom_tower", "twilightforest:naga_courtyard", "twilightforest:quest_grove", "twilightforest:small_hollow_hill", "twilightforest:troll_cave", "twilightforest:yeti_cave", "cataclysm:ancient_factory", "cataclysm:ancient_factory", "cataclysm:burning_arena", "cataclysm:cursed_pyramid", "cataclysm:ruined_citadel", "cataclysm:soul_black_smith", "cataclysm:sunken_city", "bosses_of_mass_destruction:void_blossom", "irons_spellbooks:catacombs"]
 	#The maximum number of samples to be taken when searching for a structure.
 	#Range: 0 ~ 100000000
 	maxSamples = 100000

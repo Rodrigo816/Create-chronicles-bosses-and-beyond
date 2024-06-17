@@ -684,7 +684,6 @@
 				""
 				"The structure looks like a greek ancient building with many pillars around it."
 			]
-			hide: true
 			id: "7C32DED450405D92"
 			rewards: [
 				{
@@ -726,7 +725,6 @@
 				""
 				"Talk multiple times to the &4Sun Spirit&r to start the boss battle."
 			]
-			hide: true
 			id: "63B35ED12D525A4F"
 			rewards: [
 				{
@@ -768,7 +766,6 @@
 				""
 				"This dungeon has the Aerwhale King flying around a large tower in the sky, by \"Right Clicking\" the &3Songstone&r it'll start the Boss battle."
 			]
-			hide: true
 			id: "50CC54774B835A50"
 			rewards: [
 				{
@@ -1516,7 +1513,6 @@
 				""
 				"A Total of &ax5&r Life Shards can be Consumed."
 			]
-			hide: true
 			id: "61B4D6EE4FF48831"
 			rewards: [
 				{

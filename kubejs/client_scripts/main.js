@@ -12,6 +12,19 @@ ClientEvents.lang('en_us', event => {
 })
 
 JEIEvents.hideItems(event => {
+  //Steel
+  event.hide('create_dd:steel_ingot')
+  event.hide('ad_astra:steel_ingot')
+  event.hide('ad_astra:steel_nugget')
+  event.hide('epicsamurai:steel_ingot')
+  event.hide('epicsamurai:steel_nugget')
+  event.hide('create_dd:steel_sheet')
+  event.hide('ad_astra:steel_plate')
+  // shadow
+  event.hide('create_dd:shadow_steel_block')
+  event.hide('create_dd:shadow_steel_scaffolding')
+  event.hide('create_dd:shadow_steel_sheet')
+
   event.hide(/^tombstone:/)
 
   event.hide('create_dd:potassic_cobble')
@@ -87,7 +100,15 @@ JEIEvents.hideFluids((event) => {
 });
 
 ItemEvents.tooltip(event => {
+  // remove tooltip from bundle
+  event.addAdvanced(['minecraft:bundle'], (item, advanced, text) => {
+    text.remove(1)
+  })
+
   event.add('blue_skies:alchemy_table',[
+    Text.of('§4This item cannot be obtained by any means.').red()
+  ])
+  event.add('minecraft:alchemy_table',[
     Text.of('§4This item cannot be obtained by any means.').red()
   ])
   event.add('forbidden_arcanus:soul',[

@@ -1287,6 +1287,12 @@
 		}
 		{
 			dependencies: ["537E39530360AD73"]
+			description: [
+				"If you are playing on a &6server&r, enchanters currently do not sync from the server to the client. You will need &l&6Elementarium&r&r to complete the craft."
+				""
+				""
+				"{image:kubejs:textures/elementarium.png width:40 height:96 align:1}"
+			]
 			id: "52BB4427D9F5163D"
 			rewards: [
 				{
@@ -1311,6 +1317,12 @@
 		}
 		{
 			dependencies: ["537E39530360AD73"]
+			description: [
+				"If you are playing on a &6server&r, enchanters currently do not sync from the server to the client. You will need &l&6Elementarium&r&r to complete the craft."
+				""
+				""
+				"{image:kubejs:textures/elementarium.png width:40 height:96 align:1}"
+			]
 			id: "4E93F14CE6E7AE09"
 			rewards: [
 				{
@@ -1336,6 +1348,12 @@
 		}
 		{
 			dependencies: ["537E39530360AD73"]
+			description: [
+				"If you are playing on a &6server&r, enchanters currently do not sync from the server to the client. You will need &l&6Elementarium&r&r to complete the craft."
+				""
+				""
+				"{image:kubejs:textures/elementarium.png width:40 height:96 align:1}"
+			]
 			id: "5AC2BD87BB92F27B"
 			rewards: [
 				{
@@ -1386,6 +1404,12 @@
 		}
 		{
 			dependencies: ["537E39530360AD73"]
+			description: [
+				"If you are playing on a &6server&r, enchanters currently do not sync from the server to the client. You will need &l&6Elementarium&r&r to complete the craft."
+				""
+				""
+				"{image:kubejs:textures/elementarium.png width:40 height:96 align:1}"
+			]
 			id: "1BA5E38444CAF02B"
 			rewards: [
 				{

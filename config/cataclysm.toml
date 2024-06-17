@@ -162,10 +162,10 @@
 	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 1.7
+	MonstrosityHealthMultiplier = 1.9
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 1.6
+	MonstrosityDamageMultiplier = 1.7
 	#Monstrosity's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
@@ -200,7 +200,7 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 5.0
+	IgnisHealthMultiplier = 7.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 3.0
@@ -269,10 +269,10 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 2.0
+	LeviathanHealthMultiplier = 2.6
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 1.7
+	LeviathanDamageMultiplier = 1.8
 	#Leviathan's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Leviathan's prevent attacks from far away Range" = 38.0

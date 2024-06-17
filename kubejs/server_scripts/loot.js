@@ -30,7 +30,7 @@ LootJS.modifiers((event) => {
     .addWeightedLoot(
       [1, 3],
       [
-        Item.of("kubejs:rotation_mechanism").withChance(5)
+        Item.of("kubejs:rotation_mechanism").withChance(6)
       ]
     );
   });
@@ -51,8 +51,9 @@ LootJS.modifiers((event) => {
     .addWeightedLoot(
       [1, 3],
       [
-        Item.of("2x kubejs:rotation_mechanism").withChance(5),
+        Item.of("3x kubejs:rotation_mechanism").withChance(5),
         Item.of("2x minecraft:iron_ingot").withChance(3),
+        Item.of("2x minecraft:comparator").withChance(1),
         Item.of("2x minecraft:redstone").withChance(2),
         Item.of("2x create:zinc_ingot").withChance(0.05),
         Item.of("2x minecraft:copper_ingot").withChance(2),
@@ -379,38 +380,38 @@ LootJS.modifiers((event) => {
     .addLoot("simplyswords:twisted_blade");   
   // ---
   event
-  .addEntityLootModifier("cataclysm:the_leviathan")
-  .randomChance(mdChance)
-  .addLoot("simplyswords:icewhisper")
-event
-  .addEntityLootModifier("cataclysm:the_leviathan")
-  .randomChance(mdChance)
-  .addLoot("simplyswords:frostfall");
-event
-  .addEntityLootModifier("cataclysm:the_leviathan")
-  .randomChance(mdChance)
-  .addLoot("simplyswords:whisperwind");   
-event
-  .addEntityLootModifier("cataclysm:the_leviathan")
-  .randomChance(mdChance)
-  .addLoot("simplyswords:watching_warglaive"); 
-event
-  .addEntityLootModifier("cataclysm:the_leviathan")
-  .randomChance(mdChance)
-  .addLoot("simplyswords:twisted_blade");   
-// ---
-event
-  .addEntityLootModifier("twilightforest:hydra")
-  .randomChance(normalChance)
-  .addLoot("simplyswords:ember_blade");
-event
-  .addEntityLootModifier("twilightforest:hydra")
-  .randomChance(normalChance)
-  .addLoot("simplyswords:emberlash");
-event
-  .addEntityLootModifier("twilightforest:hydra")
-  .randomChance(normalChance)
-  .addLoot("simplyswords:emberblade");  
+    .addEntityLootModifier("cataclysm:the_leviathan")
+    .randomChance(mdChance)
+    .addLoot("simplyswords:icewhisper")
+  event
+    .addEntityLootModifier("cataclysm:the_leviathan")
+    .randomChance(mdChance)
+    .addLoot("simplyswords:frostfall");
+  event
+    .addEntityLootModifier("cataclysm:the_leviathan")
+    .randomChance(mdChance)
+    .addLoot("simplyswords:whisperwind");   
+  event
+    .addEntityLootModifier("cataclysm:the_leviathan")
+    .randomChance(mdChance)
+    .addLoot("simplyswords:watching_warglaive"); 
+  event
+    .addEntityLootModifier("cataclysm:the_leviathan")
+    .randomChance(mdChance)
+    .addLoot("simplyswords:twisted_blade");   
+  // ---
+  event
+    .addEntityLootModifier("twilightforest:hydra")
+    .randomChance(normalChance)
+    .addLoot("simplyswords:ember_blade");
+  event
+    .addEntityLootModifier("twilightforest:hydra")
+    .randomChance(normalChance)
+    .addLoot("simplyswords:emberlash");
+  event
+    .addEntityLootModifier("twilightforest:hydra")
+    .randomChance(normalChance)
+    .addLoot("simplyswords:emberblade");  
   // ---
   event
     .addEntityLootModifier("twilightforest:naga")
@@ -429,22 +430,22 @@ event
   .addEntityLootModifier("minecraft:ender_dragon")
   .randomChance(normalChance)
   .addLoot("simplyswords:stars_edge");
-event
-  .addEntityLootModifier("minecraft:ender_dragon")
-  .randomChance(normalChance)
-  .addLoot("simplyswords:tempest");
-event
-  .addEntityLootModifier("minecraft:ender_dragon")
-  .randomChance(normalChance)
-  .addLoot("simplyswords:soulkeeper");
-event
-  .addEntityLootModifier("minecraft:ender_dragon")
-  .randomChance(normalChance)
-  .addLoot("simplyswords:waxweaver");
-event
-  .addEntityLootModifier("minecraft:ender_dragon")
-  .randomChance(normalChance)
-  .addLoot("simplyswords:whisperwind");   
+  event
+    .addEntityLootModifier("minecraft:ender_dragon")
+    .randomChance(normalChance)
+    .addLoot("simplyswords:tempest");
+  event
+    .addEntityLootModifier("minecraft:ender_dragon")
+    .randomChance(normalChance)
+    .addLoot("simplyswords:soulkeeper");
+  event
+    .addEntityLootModifier("minecraft:ender_dragon")
+    .randomChance(normalChance)
+    .addLoot("simplyswords:waxweaver");
+  event
+    .addEntityLootModifier("minecraft:ender_dragon")
+    .randomChance(normalChance)
+    .addLoot("simplyswords:whisperwind");   
   // ---
   event
     .addEntityLootModifier("aquamirae:captain_cornelia")
@@ -656,15 +657,15 @@ event
   //---
   event
     .addEntityLootModifier("mutantmonsters:mutant_enderman")
-    .randomChance(normalChance)
+    .randomChance(0.01)
     .addLoot("simplyswords:watching_warglaive");
   event
     .addEntityLootModifier("mutantmonsters:mutant_enderman")
-    .randomChance(normalChance)
+    .randomChance(0.01)
     .addLoot("simplyswords:stormbringer");  
   event
     .addEntityLootModifier("mutantmonsters:mutant_enderman")
-    .randomChance(normalChance)
+    .randomChance(0.01)
     .addLoot("simplyswords:wickpiercer"); 
   //--
 

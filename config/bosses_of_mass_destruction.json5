@@ -44,9 +44,9 @@
 		"anvilAttackExplosionStrength": 4.0
 	},
 	"gauntletConfig": {
-		"health": 600.0,
+		"health": 800.0,
 		"armor": 8.0,
-		"attack": 30.0,
+		"attack": 35.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"spawnAncientDebrisOnDeath": true,

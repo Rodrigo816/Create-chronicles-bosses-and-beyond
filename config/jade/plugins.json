@@ -1,10 +1,12 @@
 {
+  "framedblocks": {
+    "framed_item_frame": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
-    "animal_owner.fetch_names": true,
     "harvest_tool.effective_tool": true,
     "item_storage.normal_amount": 9,
     "item_storage": true,
