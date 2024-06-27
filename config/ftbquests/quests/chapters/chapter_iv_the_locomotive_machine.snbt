@@ -703,10 +703,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"69D628450626D8D5"
-				"3DFF1B74E8AADB57"
-			]
+			dependencies: ["3DFF1B74E8AADB57"]
 			description: [
 				"&6Advanced Wireless Terminals&r are much more useful than basic ones. "
 				""

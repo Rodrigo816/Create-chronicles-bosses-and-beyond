@@ -606,10 +606,11 @@
 				"61EC8066F1112546"
 				"08913D75A611396B"
 			]
-			hide: false
+			dependency_requirement: "all_started"
+			hide: true
+			hide_dependency_lines: true
 			icon: "lootr:trophy"
 			id: "67B117317EB077BA"
-			invisible: true
 			rewards: [
 				{
 					id: "64337688FD649BE8"

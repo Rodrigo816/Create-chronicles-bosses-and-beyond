@@ -422,7 +422,7 @@
 			y: 7.25d
 		}
 	]
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -2209,7 +2209,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "From 1 June till 16 July"
+			subtitle: "From 1 June till 23 July"
 			tasks: [{
 				consume_items: true
 				count: 10000L

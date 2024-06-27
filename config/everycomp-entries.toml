@@ -435,3 +435,20 @@
 			window_pane = true
 			window = true
 
+		[entries.wood_type.handcrafted]
+			fancy_bed = true
+			dining_bench = true
+			drawer = true
+			couch = true
+			bench = true
+			counter = true
+			corner_trim = true
+			desk = true
+			side_table = true
+			table = true
+			chair = true
+			shelf = true
+			cupboard = true
+			pillar_trim = true
+			nightstand = true
+

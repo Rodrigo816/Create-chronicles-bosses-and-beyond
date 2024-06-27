@@ -250,25 +250,6 @@
 			y: 19.5d
 		}
 		{
-			dependencies: ["28B245505F91D21C"]
-			description: ["Craft a &6iron chest&r - upgradeable via the &5Iron Chests&r mod!"]
-			id: "185BE49AE8B53CBD"
-			rewards: [{
-				id: "1F4E5A434D150857"
-				item: "ironchest:wood_to_iron_chest_upgrade"
-				type: "item"
-			}]
-			subtitle: " 54 Inventory slots"
-			tasks: [{
-				id: "4EFDAB97918B546C"
-				item: "ironchest:iron_chest"
-				type: "item"
-			}]
-			title: "Irons Chests"
-			x: -8.5d
-			y: 16.0d
-		}
-		{
 			dependencies: ["0C49795E134A27E0"]
 			description: [
 				"&6Sophisticated Backpacks&r add some of the most useful Backpacks to Minecraft!"
@@ -424,7 +405,7 @@
 				type: "item"
 			}]
 			title: "&6Early Game Flight"
-			x: -6.5d
+			x: -7.0d
 			y: 16.0d
 		}
 		{
@@ -1434,7 +1415,7 @@
 				item: "toolbelt:belt"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.0d
 			y: 16.0d
 		}
 		{
@@ -2290,46 +2271,6 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["7EF948B39FBEA377"]
-			description: [
-				"By &7shift-clicking&r on a &6Label&r with an item you'll be able to change its&b image&r, showing that &bitem&r you selected. "
-				""
-				"Clicking on a Label will let the player interact with the block behind, making it perfect for your storage systems. "
-				""
-				"&bImages&r shown by &6Labels&r are pixelated and colored to better fit Minecraft style. This works seamlessly for &oany item&r."
-				""
-				"Can accept&3 Glow Ink Sacks&r to make them glow in the dark. "
-				""
-				"Can be colored with any &2d&4y&ee&r. "
-				""
-				"Using a &7Feather&r on them will display the item name. "
-			]
-			id: "5C79E72AAE068A73"
-			rewards: [
-				{
-					id: "50BA575AC26C8337"
-					item: "labels:label"
-					type: "item"
-				}
-				{
-					id: "3FEEE208A4B23300"
-					item: "create:experience_nugget"
-					random_bonus: 3
-					team_reward: false
-					type: "item"
-				}
-			]
-			subtitle: "&6Labels&r functions similar to &o&aItem Frames&r but can adapt to all surfaces and be physically connected to any solid block &lno&r matter the shape."
-			tasks: [{
-				id: "33D72D695C4202D7"
-				item: "labels:label"
-				type: "item"
-			}]
-			title: "Label It!"
-			x: -21.0d
-			y: 20.0d
-		}
-		{
 			dependencies: ["0D05759E84652BAA"]
 			description: ["Destroy blocks (excluding tile entities) on the side facing you. The maximum number of blocks destroyed depends on the wand tier. Restrictions work just like with the Construction core. Destroyed blocks disappear into the void, but you can use the undo feature if you've made a mistake."]
 			id: "234E978A14BA9630"
@@ -2579,7 +2520,7 @@
 				type: "item"
 			}]
 			title: "Amethyst"
-			x: -5.5d
+			x: -6.0d
 			y: 16.0d
 		}
 		{
@@ -2782,10 +2723,10 @@
 			}]
 			title: "Decoration and Building Options."
 			x: 10.0d
-			y: 20.5d
+			y: 15.5d
 		}
 		{
-			dependencies: ["5BAE6CD47D4ABF2D"]
+			dependencies: ["21FB9D855FA9D2DF"]
 			description: [
 				"&6Chipped&r offers a massive collection of carved Vanilla blocks, whether it is decorative glass, quilted wool for nice carpet design, or even an ominous chisled gilded blackstone. &6Chipped&r has got you covered."
 				""
@@ -2808,7 +2749,7 @@
 			}]
 			title: "Chipped"
 			x: 10.0d
-			y: 24.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["1CA36734A9127D0C"]
@@ -2826,7 +2767,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 23.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["1CA36734A9127D0C"]
@@ -2844,7 +2785,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 23.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["1CA36734A9127D0C"]
@@ -2862,7 +2803,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 24.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["1CA36734A9127D0C"]
@@ -2880,7 +2821,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 25.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["1CA36734A9127D0C"]
@@ -2898,7 +2839,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 24.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["1CA36734A9127D0C"]
@@ -2916,7 +2857,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 25.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["1CA36734A9127D0C"]
@@ -2934,7 +2875,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 26.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["5BAE6CD47D4ABF2D"]
@@ -2979,7 +2920,7 @@
 			}]
 			title: "MrCrayfish's Furniture Mod"
 			x: 11.5d
-			y: 20.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["5BAE6CD47D4ABF2D"]
@@ -3006,7 +2947,7 @@
 			}]
 			title: "Bridges"
 			x: 9.0d
-			y: 19.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["5BAE6CD47D4ABF2D"]
@@ -3035,7 +2976,7 @@
 			}]
 			title: "Additional Lights"
 			x: 11.0d
-			y: 19.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["5BAE6CD47D4ABF2D"]
@@ -3082,7 +3023,7 @@
 			]
 			title: "'Dustrial Decor"
 			x: 9.0d
-			y: 21.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["5BAE6CD47D4ABF2D"]
@@ -3109,8 +3050,8 @@
 				type: "item"
 			}]
 			title: "Cosmetic Armor Statues"
-			x: 8.75d
-			y: 20.5d
+			x: 8.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["05B32DE12868C6DE"]
@@ -3182,471 +3123,6 @@
 			title: "Let's Get Cooking"
 			x: -13.0d
 			y: 23.0d
-		}
-		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"&3Drawers&r are a very useful alternative to chests, not only can they hold more items and have upgrades,&c&n you can use them as filters! &r&r"
-				""
-				"To use a Drawer as a filter, first craft a Drawer Key to lock the Drawer and then place an item inside, like for example an Iron Nugget. "
-				""
-				"With it being locked, the Drawer will only accept Iron Nuggets even if the drawer goes empty or has an Andesite Funnel as input. "
-				""
-				"This way the Drawer functions as a filter that also stores items inside."
-			]
-			id: "12DF0A1F79BE59ED"
-			rewards: [
-				{
-					id: "64F15A0BCF341AE2"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "71149B15C46E93B4"
-					item: "storagedrawers:upgrade_template"
-					random_bonus: 3
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4D88A086645416FA"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "storagedrawers:drawers"
-					}
-				}
-				title: "Any #storagedrawers:drawers"
-				type: "item"
-			}]
-			title: "Storage Solutions"
-			x: 10.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["12DF0A1F79BE59ED"]
-			id: "59F4C81C3D6B2B41"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "15FC0DE66652386D"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "The key to lock and unlock drawers."
-			tasks: [{
-				id: "150A1EE0D0584DBF"
-				item: "storagedrawers:drawer_key"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["12DF0A1F79BE59ED"]
-			description: [
-				"The &6drawer controller slave&r is kind of like the &eregular drawer controller&r but it needs a &edrawer controller&r within 12 blocks to work."
-				""
-				"It can be used as a secondary input for your drawer system, it's helpful if you need to have your &eregular drawer controller&r is a place that is not directly accessible to the player."
-			]
-			id: "65A67BD28B423115"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "429445BA6BC24648"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Extending Your Network"
-			tasks: [{
-				id: "22953903B74BD70B"
-				item: "storagedrawers:controller_slave"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["12DF0A1F79BE59ED"]
-			description: [
-				"Combine multiple drawers with a&6 Drawer Controller&r to easily manage and access all your stored items from a single point."
-				""
-				"It has a range of 12 blocks from each side, a &625x25x25&r cube with the controller as the middle block."
-			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "storagedrawers:block/drawers_controller_front"
-				}
-			}
-			id: "0147152D111554CF"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "66057E4408DC4533"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "The brains of storage drawers"
-			tasks: [{
-				id: "0F607D15BD627CE1"
-				item: "storagedrawers:controller"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["12DF0A1F79BE59ED"]
-			description: ["The &61x1 drawer&r holds a total of &632 stacks&r of the dedicated item"]
-			id: "501670380A3092B4"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "2857D31F6D6E5CB1"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "What it holds"
-			tasks: [{
-				id: "2C8A21F55B2DE83D"
-				item: "storagedrawers:oak_full_drawers_1"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["12DF0A1F79BE59ED"]
-			id: "54BEBC52D9AFD67A"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "16808DA3823A96A3"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "The key to show or hide labels"
-			tasks: [{
-				id: "38E513724CA2197C"
-				item: "storagedrawers:shroud_key"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["12DF0A1F79BE59ED"]
-			description: ["The &61x2 drawer&r holds &616 stacks&r in each of the option slots"]
-			id: "10A33654EDA86FCB"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "5A54CCA3E9E4AD35"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Information Nugget"
-			tasks: [{
-				id: "7ED7A0C8077BF238"
-				item: "storagedrawers:oak_full_drawers_2"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["12DF0A1F79BE59ED"]
-			id: "3A24EF5128FB0470"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "0616B6DDBB0EE8A6"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "The key to show or hide quanity on drawers"
-			tasks: [{
-				id: "0D5D2BD7DF05C3A2"
-				item: "storagedrawers:quantify_key"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["12DF0A1F79BE59ED"]
-			description: ["The &62x2 drawer&r holds &68 stacks&r in each of the option slots"]
-			id: "039877DC34C68931"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "170D6D683E302F18"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "What it holds"
-			tasks: [{
-				id: "160980889C8545DD"
-				item: "storagedrawers:oak_full_drawers_4"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["12DF0A1F79BE59ED"]
-			description: ["The &6trim&r is a really handy utility block within the mod. It is used to link up drawers to eachother when they don't directly touch, it's pretty much a fake drawer as it cannot store any items within it but is still part of your total drawer network"]
-			id: "4964D6D8C575DDB5"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "64430CB3AFD59E2A"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Connect drawer without worrying of loosing items into them"
-			tasks: [{
-				id: "699AD996F830E16E"
-				item: "storagedrawers:oak_trim"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "4A508DC865EDF295"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "20770F84AA0AE6E4"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Reduces the total stack size to 1 stack "
-			tasks: [{
-				id: "043250C3D0152B88"
-				item: "storagedrawers:one_stack_upgrade"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "799521A8C007CB33"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "05E7756B1B376048"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Gives a redstone signal based on how full the drawer is"
-			tasks: [{
-				id: "6BDE9246C6BFA370"
-				item: "storagedrawers:redstone_upgrade"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "7936905C1C85B596"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "67C0D7283ACB4E4B"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Gives a redstone signal base on the least full slot"
-			tasks: [{
-				id: "24011ED9C76C2506"
-				item: "storagedrawers:min_redstone_upgrade"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "23D7D040956E5B0C"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "2FB80C377CB1A089"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Gives a redstone signal based on most full slot"
-			tasks: [{
-				id: "3064A3D7FF6AD3E4"
-				item: "storagedrawers:max_redstone_upgrade"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "29CBD6C125953452"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "135F83057B81FE1D"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Adds a bar on the drawer to show how full it is"
-			tasks: [{
-				id: "75CC8DF385512A59"
-				item: "storagedrawers:fill_level_upgrade"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "019EDAEA515142FB"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "22E96D7FC54C3830"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "The labels glow in the dark"
-			tasks: [{
-				id: "5FB21A47DB8401A8"
-				item: "storagedrawers:illumination_upgrade"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "6491283BF241DE0B"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "015F41BA4904FDE4"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Destroys items when the draw gets full"
-			tasks: [{
-				id: "4C479AAE08E671F2"
-				item: "storagedrawers:void_upgrade"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "7A6178B5428E1AC6"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "453ED69B194DF9FA"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "32x base storage capacity"
-			tasks: [{
-				id: "7480B4078614473E"
-				item: "storagedrawers:emerald_storage_upgrade"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "08C4945EC6949F89"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "22881EB6CAD297F2"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "16x base storage capacity"
-			tasks: [{
-				id: "101661A4048075C8"
-				item: "storagedrawers:diamond_storage_upgrade"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "5605F00936F8B748"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "028662B3BC23391E"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "8x base storage capacity"
-			tasks: [{
-				id: "4EA8B48724B49C6A"
-				item: "storagedrawers:gold_storage_upgrade"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "5500ADB9B15FCEAC"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "131868684A4C01A7"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "4x base storage capacity"
-			tasks: [{
-				id: "4C2556519A16A7EE"
-				item: "storagedrawers:iron_storage_upgrade"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["607D1EC7FEC8B487"]
-			id: "226E2191FD6169FF"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "5E670EF1D4DB969D"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "2x base storage capacity"
-			tasks: [{
-				id: "567BBF9AB82FBF4A"
-				item: "storagedrawers:obsidian_storage_upgrade"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["12DF0A1F79BE59ED"]
-			id: "607D1EC7FEC8B487"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "0FB51900A27CBE8E"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "3CAEDECFB0AA8633"
-					item: "storagedrawers:upgrade_template"
-					type: "item"
-				}
-			]
-			subtitle: "The start of upgrading your storage capabilities"
-			tasks: [{
-				id: "6A77C547AF96A94B"
-				item: "storagedrawers:upgrade_template"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 9.5d
 		}
 		{
 			dependencies: ["3D1AC201E82A3A87"]
@@ -3727,76 +3203,8 @@
 				item: "minecraft:spyglass"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 14.5d
-		}
-		{
-			dependencies: ["185BE49AE8B53CBD"]
-			id: "3414A6EDB1D7B78E"
-			rewards: [{
-				id: "2FCB7ACB91511C80"
-				item: "ironchest:iron_to_gold_chest_upgrade"
-				type: "item"
-			}]
-			subtitle: " 81 Inventory slots"
-			tasks: [{
-				id: "43A056A3A33220F1"
-				item: "ironchest:gold_chest"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 14.5d
-		}
-		{
-			dependencies: ["3414A6EDB1D7B78E"]
-			id: "1F67A00B29A8F80A"
-			rewards: [{
-				id: "4DD4E24F4A118B47"
-				item: "ironchest:gold_to_diamond_chest_upgrade"
-				type: "item"
-			}]
-			subtitle: " 108 Inventory slots"
-			tasks: [{
-				id: "560D339B523E2CD5"
-				item: "ironchest:diamond_chest"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["1F67A00B29A8F80A"]
-			id: "126A4F3AFFA4FC42"
-			rewards: [{
-				id: "53028E2B6D01AEDA"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "108 inventory slots (transparent)"
-			tasks: [{
-				id: "53969AAE7EDD337E"
-				item: "ironchest:crystal_chest"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["1F67A00B29A8F80A"]
-			id: "4F28E2E4E5714AD6"
-			rewards: [{
-				id: "0D88D55C4338298B"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "108 inventory slots (explosive resistant)"
-			tasks: [{
-				id: "093A2FE55BB3E978"
-				item: "ironchest:obsidian_chest"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 11.5d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
@@ -4458,7 +3866,7 @@
 			}]
 			title: "Handcrafted  Mod"
 			x: 11.0d
-			y: 21.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["70068CFDA790A856"]
@@ -5940,7 +5348,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 22.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["28B245505F91D21C"]
