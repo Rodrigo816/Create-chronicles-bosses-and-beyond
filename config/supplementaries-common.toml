@@ -215,7 +215,6 @@
 	doormat = true
 	flint_block = true
 	candle_holder = true
-	fire_pit = true
 
 	[building.blackboard]
 		enabled = true

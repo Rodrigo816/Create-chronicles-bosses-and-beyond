@@ -12,6 +12,9 @@ ClientEvents.lang('en_us', event => {
 })
 
 JEIEvents.hideItems(event => {
+  event.hide('@storagedrawers');
+  event.hide('@ironchest');
+
   //Steel
   event.hide('create_dd:steel_ingot')
   event.hide('ad_astra:steel_ingot')

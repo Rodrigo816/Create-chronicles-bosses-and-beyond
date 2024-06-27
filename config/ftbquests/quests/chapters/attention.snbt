@@ -1,0 +1,50 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "attention"
+	group: ""
+	icon: "createdeco:decal_warning"
+	id: "66E46A25196CBA02"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"&aIf your starting the pack now for the 1st time you have nothing to worry.&r"
+			""
+			"&eThe modpack is currently transitioning to a new storage system.&r &cThe Drawers mod and Iron Chest mod will be removed on July 23 with the next big patch.&r &6You need to transition to the new storage system: Sophisticated Storage. This change is necessary for the long-term improvement of the modpack.&r"
+			""
+			"During this period, you won't be able to craft drawers or iron chests. "
+			""
+			"&l&cPlease transfer the contents of your existing drawers to the new storage system, as any items left in drawers or iron chests will be lost when these mods are removed. &r&r"
+			""
+			"For vanilla chests, you can convert them into Sophisticated Storage versions using the tier upgrades."
+			""
+			"We appreciate your understanding and cooperation during this transition."
+		]
+		id: "13A3D7D703ECA280"
+		rewards: [
+			{
+				id: "5980071D1333A371"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}
+			{
+				id: "0C68CBC3A3B31076"
+				item: "forbidden_arcanus:elementarium"
+				type: "item"
+			}
+		]
+		shape: "gear"
+		size: 5.0d
+		subtitle: "&l&4!!!IMPORTANT!!!&r&r"
+		tasks: [{
+			id: "2E20504805C55210"
+			title: "&l&4!Ok I understand I have to change my chest!"
+			type: "checkmark"
+		}]
+		title: "&l&4Transitional phase"
+		x: 0.5d
+		y: -0.5d
+	}]
+	title: "&c&l!!Attention please!!"
+}

@@ -1,0 +1,1097 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_solutions"
+	group: ""
+	icon: {
+		Count: 1
+		id: "sophisticatedstorage:barrel"
+		tag: {
+			Enchantments: [{ }]
+			woodType: "spruce"
+		}
+	}
+	id: "734C4C2CDBC52F6C"
+	images: [{
+		color: 14522965
+		height: 1.0d
+		image: "chalk:block/mark/arrow"
+		rotation: 90.0d
+		width: 1.0d
+		x: -7.0d
+		y: -1.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["41329FF8F96017A9"]
+			description: [
+				"&dSophisticated Storage&r upgrades your chests and barrels, increasing their capacity and adding functionalities like magnets, built-in smelting, compacting, and more."
+				""
+				"This mod introduces multiple tiers of barrels, chests, and shulker boxes, each customizable with various color combinations and wood varieties."
+				""
+				"It also adds &a&lLimited Barrels&r&r that work like drawers, holding large amounts of storage."
+				""
+				"Enhance your storage solutions with a range of upgrades to augment their functionality."
+			]
+			id: "7226FB66C2B28ACB"
+			rewards: [{
+				id: "48FA46DAC9678503"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "240D7C33B64FFE69"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sophisticatedstorage:base_tier_wooden_storage"
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Welcome to Sophisticated Storage!"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53084CB2BEA9253E"]
+			description: [
+				"The &6Storage Controller&r allows you to manage multiple storages as if they were one large storage multiblock. Though it lacks a user interface, it's a crucial tool for your &aSophisticated Storage system&r, enabling automatic deposit of items into any connected storage container within its network."
+				""
+				"Containers placed directly next to each other form this \"storage network.\" Simply right-click the &6Storage Controller&r with an item, and it will be efficiently sorted into the appropriate container within the network."
+				""
+				"Additionally, the &6Storage Controller&r can connect to any storage link within a &n&crange of 15 blocks.&r&r"
+			]
+			id: "3BFAF2034D6C99BC"
+			rewards: [{
+				count: 3
+				id: "461F3AE77A8EBF94"
+				item: "numismatics:spur"
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "31BC457A4075451A"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: [
+				"The Storage Tool is an essential core tool of the Sophisticated Storage mod, designed to streamline your storage management."
+				""
+				"&nInstructions:&r"
+				""
+				"&6Shift Scroll:&r Change mode."
+				""
+				""
+				"&nModes:&r"
+				""
+				"&aLinking:&r Right-click the Controller to start linking, then right-click storages or Storage Links to connect them. To unlink, shift right-click in the air to enter unlink mode, then select the green connection you want to remove."
+				""
+				"&aLocking:&r Right-click a storage or Controller to lock/unlock either a single storage or all connected storages."
+				""
+				"&aToggling Visibility:&r Right-click a storage or Controller to toggle the visibility of locks and item counts."
+			]
+			id: "53084CB2BEA9253E"
+			rewards: [{
+				id: "1F87B84E39A4B0C7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7393E98A653B68F5"
+				item: "sophisticatedstorage:storage_tool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1FCC2D01626EF71E"]
+			description: [
+				"&6!!&r&cYou will need to finish Chapter 3 to be able to craft a Storage Terminal.&r&6!!&r"
+				""
+				"Having a centralized storage system is fantastic, but easy access to your items is crucial. "
+				""
+				"Enter the &6Storage Terminal&r, your solution for quick and easy retrieval. "
+				""
+				"Just attach this handy device directly to your&c Storage Controller&r, and instantly gain searchable access to all your stored items as if they were in one giant, magical chest."
+			]
+			id: "24CCCB9E1A91695D"
+			rewards: [{
+				id: "515627BA47E811F6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B0FFE26A5148577"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: [
+				"The &6Upgrade Base&r is the foundational component for crafting all the various upgrades for Sophisticated Storage."
+				""
+				"It serves as the essential starting point for enhancing your storage functionality and capacity."
+				""
+				"To explore all available upgrades, use JEI and type `&d@sophisticatedstorage upgrade&r`."
+			]
+			id: "08838CFB8BF290E5"
+			rewards: [{
+				id: "40D4CB083D17E5D1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F6C7C390184B4E"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08838CFB8BF290E5"]
+			description: ["This &6Stack Upgrade&r allows each slot in your Sophisticated Storage to hold &6double&r its normal capacity, accommodating &62 stacks&r of items per slot."]
+			id: "761D029F52BA267B"
+			rewards: [{
+				id: "00AA466E54F18783"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F59C1AC3DC09B6F"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["761D029F52BA267B"]
+			id: "4FE2B38F21E965E8"
+			rewards: [{
+				id: "20DF97DE4EA1FACC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DFFAD49CC9A7BDF"
+				item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FE2B38F21E965E8"]
+			id: "3F565733F3E8BEBD"
+			rewards: [{
+				id: "6DCE89B8DA074129"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09B7DBB49F8D3982"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F565733F3E8BEBD"]
+			id: "3F7E6AE9B71BCE7E"
+			rewards: [{
+				count: 3
+				id: "6EDE7F4DCE01314E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A7312D844E648BD"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F7E6AE9B71BCE7E"]
+			id: "2F957F552CB5A245"
+			rewards: [{
+				count: 8
+				id: "3C92AEA61D82DCBC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AFBC309253698D4"
+				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F957F552CB5A245"]
+			id: "79D7109441F5540F"
+			rewards: [{
+				count: 20
+				id: "7F468EFDAF9829B1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "740F362FBB2DE650"
+				item: "sophisticatedstorage:stack_upgrade_tier_5"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "46B61220B6945CF4"
+			rewards: [{
+				id: "67AF0512F1124C15"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft a Chest or a Barrel"
+			tasks: [{
+				id: "64E0ED859C60F407"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:barrel"
+							}
+							{
+								Count: 1b
+								id: "minecraft:chest"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Chest"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46B61220B6945CF4"]
+			description: [
+				"The &eBasic Tier Upgrade&r is the entry-level upgrade for&6 Sophisticated Storage&r. "
+				""
+				"&aIt allows you to convert all your vanilla chests, barrels, and shulker boxes into \"Sophisticated Storage\" versions. &r"
+				""
+				"Upgrade your vanilla storage to unlock the advanced features and benefits of Sophisticated Storage."
+			]
+			id: "41329FF8F96017A9"
+			rewards: [{
+				id: "1FEA4241E27F19CE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78DBC9F0420B7F42"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: [
+				"When you break any sophisticated storage, all its contents &cwill drop as individual items&r, which can be inconvenient. To avoid this, you can use&6 Packing Tape&r. "
+				""
+				"Applying &6Packing Tape&r to a chest will keep all its items inside when you break it. This is especially useful if you want to move your entire storage setup to a new location without having to reorganize everything."
+			]
+			id: "44C007DC2C98C7B5"
+			rewards: [{
+				id: "2C237EE9F8D02ED2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Moving chests around!"
+			tasks: [{
+				id: "6A87074AD8DAF9D5"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: [
+				"&eLimited Barrels&r come in different formats: I, II, III, and IV. "
+				""
+				"These formats represent the number of individual items each barrel can hold. "
+				""
+				"Limited Barrels can store a large amount of items and function similarly to drawers, providing efficient and organized storage solutions for your inventory needs."
+				""
+				"&n&bInteraction Instructions:&r&r"
+				""
+				"&aSingle Right Click:&r Deposit your items."
+				""
+				"&aDouble Right Click: &rDeposit all items in your inventory."
+				""
+				"&aLeft Click:&r Retrieve one item."
+				""
+				"&aShift Left Click:&r Retrieve one stack of items."
+				""
+				"You can use Limited Barrels as filters! To use a Limited Barrel as a filter, cycle your &6storage tool&r to &7Locking/Unlocking&r mode, then right-click on the barrel to apply a lock. A lock icon will appear on the barrel Next, place an item inside, for exemple an Iron Nugget. The barrel will only accept Iron Nuggets even if it goes empty or has an Andesite Funnel as input. This way, the Limited Barrel functions as a filter that also stores items inside."
+				""
+				"Another option is to use the barrel settings. Go to the settings of the barrel, navigate to the slot memory settings, and click to memorize that slot. Note that you must have at least one item inside to enable the memory function."
+				""
+				"Both methods ensure the Limited Barrel functions as a filter that also stores items inside."
+			]
+			id: "4BC707D6FBE8FF09"
+			rewards: [{
+				id: "0C9B8592D6A64FAA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "&6Your new drawers!"
+			tasks: [{
+				id: "29A8C84EE2F6A476"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_1"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3BFAF2034D6C99BC"]
+			description: [
+				"If you need to integrate storage from different areas into your main system, the &6Storage Link&r is your solution."
+				""
+				"Place it on any Sophisticated Storage multiblock, then use the &bStorage Tool&r to establish a connection to your&d Storage Controller&r. "
+				""
+				"By right-clicking the &dController&r with the &bTool&r and then the Link, you seamlessly connect separate storage units into one cohesive network."
+			]
+			id: "1FCC2D01626EF71E"
+			rewards: [{
+				id: "6ED5B824F25CA8AE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "446E469A9B245043"
+				item: "sophisticatedstorage:storage_link"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			id: "59E937483DE3A78D"
+			rewards: [{
+				id: "14F99D4DF95E5DB8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Upgrades a Basic storage to iron tier."
+			tasks: [{
+				id: "6D640E5FBF05D025"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59E937483DE3A78D"]
+			id: "396DA8B3E8A23C6D"
+			rewards: [{
+				count: 3
+				id: "29EB7963249C5DED"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Upgrades a Iron tier to gold tier."
+			tasks: [{
+				id: "5508DF4601BDFF7E"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["396DA8B3E8A23C6D"]
+			id: "5CDB898FBFF026F2"
+			rewards: [{
+				count: 8
+				id: "54E95D479FDDB5BE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Upgrades a Gold tier to a diamond tier."
+			tasks: [{
+				id: "0559C017004C3679"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CDB898FBFF026F2"]
+			id: "4980B1E559CB90C6"
+			rewards: [{
+				count: 20
+				id: "0C3CF1611D111585"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Upgrades a Diamond tier to netherite tier."
+			tasks: [{
+				id: "14F92DED563FB547"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "2B4E5F59E5625ADF"
+			rewards: [{
+				id: "2AE5588FBF0A375D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Iron Shulker Box type."
+			tasks: [{
+				id: "1611AEA22643B17B"
+				item: "sophisticatedstorage:iron_shulker_box"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B4E5F59E5625ADF"]
+			id: "3E7413B4D1A55B58"
+			rewards: [{
+				count: 3
+				id: "27A9EEBE99E671BF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Golden Shulker Box type."
+			tasks: [{
+				id: "134CB3C637227601"
+				item: "sophisticatedstorage:gold_shulker_box"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E7413B4D1A55B58"]
+			id: "2AA436F021EDDC48"
+			rewards: [{
+				count: 8
+				id: "38F746332AD1FCCD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Diamond Shulker Box type."
+			tasks: [{
+				id: "14213F98C255215A"
+				item: "sophisticatedstorage:diamond_shulker_box"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "32F8B69C66723910"
+			rewards: [{
+				id: "6B2B11C1445D8ACA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Iron Barrel type."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				id: "70C9DE5DBB05BE87"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Any Sophisticated Iron Barrel"
+				type: "item"
+			}]
+			title: "Iron Barrel"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["32F8B69C66723910"]
+			id: "7F5DCDCFFD24ABE7"
+			rewards: [{
+				count: 3
+				id: "7AD2D9AC9F87C11E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Golden Barrel type."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				id: "371DC6582571CE5E"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Any Sophisticated Gold Barrel"
+				type: "item"
+			}]
+			title: "Gold Barrel"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2AA436F021EDDC48"]
+			id: "41E439ED3FAAAA94"
+			rewards: [{
+				count: 20
+				id: "3BAC743C41E0AFA4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Netherite Shulker Box type."
+			tasks: [{
+				id: "0755CC4773AB095C"
+				item: "sophisticatedstorage:netherite_shulker_box"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F5DCDCFFD24ABE7"]
+			id: "52092833009BDC49"
+			rewards: [{
+				count: 8
+				id: "7045666DDF822607"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Diamond Barrel type."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				id: "7F0E3774A3968B87"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Any Sophisticated Diamond Barrel"
+				type: "item"
+			}]
+			title: "Diamond Barrel"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["52092833009BDC49"]
+			id: "4E22392BDC9FF135"
+			rewards: [{
+				count: 20
+				id: "33C3789F88376C3B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Netherite Barrel type."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				id: "6ED42B9265F7B723"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Any Sophisticated Netherite Barrel"
+				type: "item"
+			}]
+			title: "Netherite Barrel"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			id: "34174F45D62D0D6E"
+			rewards: [{
+				id: "4B932A2997953C71"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Iron Chest type."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				id: "762DF121BC7DE081"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Any Sophisticated Iron Chest"
+				type: "item"
+			}]
+			title: "Iron Chest"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34174F45D62D0D6E"]
+			id: "1A2605092B8B7F37"
+			rewards: [{
+				count: 3
+				id: "552332FB2BE96D72"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Golden Chest type."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				id: "4ED0E0DDB979E996"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Any Sophisticated Gold Chest"
+				type: "item"
+			}]
+			title: "Gold Chest"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A2605092B8B7F37"]
+			id: "0562F21AA82B2961"
+			rewards: [{
+				count: 8
+				id: "74CFE937AA9E0320"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Diamond Chest type."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				id: "75048424B06919E5"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Any Sophisticated Diamond Chest"
+				type: "item"
+			}]
+			title: "Diamond Chest"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0562F21AA82B2961"]
+			id: "3488B3847D0D01DC"
+			rewards: [{
+				count: 20
+				id: "368BDC919FFB6225"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Craft any Netherite Chest type."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				id: "42C6BA851F231C10"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Any Sophisticated Netherite Chest"
+				type: "item"
+			}]
+			title: "Netherite Chest"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			id: "7A36AA33AB12EE37"
+			rewards: [{
+				id: "0763D5B4B4BC86D5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F6641BEB7AB3660"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_iron_barrel_1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7A36AA33AB12EE37"]
+			id: "703D0E0BD4F9DC4F"
+			rewards: [{
+				count: 3
+				id: "6E19AA159B184F02"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "595573A6016C006A"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_gold_barrel_1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["703D0E0BD4F9DC4F"]
+			id: "51ECBE8030E9D801"
+			rewards: [{
+				count: 8
+				id: "3525DBF1089151FE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FD28108CB3F5EE4"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_diamond_barrel_1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["51ECBE8030E9D801"]
+			id: "46BFA878FE03C07E"
+			rewards: [{
+				count: 20
+				id: "33DFC2AA347F2CAC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "233F47AC8DF036A4"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_netherite_barrel_1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4BC707D6FBE8FF09"]
+			id: "57ADB28DF447C621"
+			rewards: [{
+				id: "34C0EBF69D404C0F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "1x1"
+			tasks: [{
+				id: "39F1CB7EDA8E4FB7"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_2"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4BC707D6FBE8FF09"]
+			id: "341CBC06BAA8D3DF"
+			rewards: [{
+				id: "7D8016DD066D21FA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "1x2"
+			tasks: [{
+				id: "57E15E73BBA35E26"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_3"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4BC707D6FBE8FF09"]
+			id: "53F91F18C2045A1A"
+			rewards: [{
+				id: "799DEF3AABF0A54D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "2x2"
+			tasks: [{
+				id: "7BA77CBD86E4C652"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_4"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3BFAF2034D6C99BC"]
+			description: [
+				"&6Storage Input&r allows items to be stored into the network by placing them next to the network or linking them to the network within a 15-block range. "
+				""
+				"Note that items cannot be inputted by hand; you need to use funnels or hoppers to transfer items into the storage system."
+			]
+			id: "7A8D89E446B6FBE8"
+			rewards: [{
+				id: "40A260D42D7FDFB1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EE8A29D14566138"
+				item: "sophisticatedstorage:storage_input"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BFAF2034D6C99BC"]
+			description: [
+				"&6Storage Output&r allows items to be extracted from the network by placing the Storage Output block next to the network or linking it to the network within a 15-block range."
+				""
+				"You need to use funnels, hoppers, or chutes to extract the items."
+			]
+			id: "574BACFBD270FD8F"
+			rewards: [{
+				id: "5EC13C506A0D5AE5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E42B7D44854C32D"
+				item: "sophisticatedstorage:storage_output"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BFAF2034D6C99BC"]
+			description: ["&6Storage I/O&r combines the functionalities of both Storage Input and Storage Output into a single block. This allows items to be both inserted into and extracted from the network seamlessly."]
+			id: "0E2DD647FACCEE2A"
+			rewards: [{
+				id: "717CFC7387D5907E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "642D8A1A60E93C16"
+				item: "sophisticatedstorage:storage_io"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: [
+				"Dyeing the storage blocks in crafting table"
+				""
+				"Color of multiple dyes in recipe gets combined similar to how it works for coloring leather armor except each of these can have two colors - main and accent"
+				""
+				"Dyes to the left of the storage in the recipe apply to the main color"
+				""
+				"Dyes to the right apply to the accent color of the storage"
+				""
+				"Dyes in the same column apply to both"
+				""
+				"And once dyed you can continue adding dyes which combine with the current main color, accent color or both"
+				""
+				"&4&lAdditionally you can use block instead of dyes with barells!&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_barrel_1"
+				tag: {
+					materials: {
+						bottom: "create:andesite_casing"
+						bottom_trim: "chipped:layered_gold_block"
+						side: "create:andesite_casing"
+						side_trim: "chipped:layered_gold_block"
+						top: "chipped:gold_block_panels"
+						top_inner_trim: "create:andesite_casing"
+						top_trim: "create:andesite_casing"
+					}
+					woodType: "birch"
+				}
+			}
+			id: "16116FCD6A662C0D"
+			rewards: [{
+				id: "0C3C710E48A1A592"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ABB21055E1BDBCC"
+				title: "Customizing looks of your storage"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: [
+				"You can display items outside of chests to better organize your storage. For example, a food chest can display a carrot to indicate its contents."
+				""
+				"To do this, go to the settings of the chest and navigate to the Item Display Settings. Left-click on an item inside the chest to display it. The selected item will be marked with a border square. To remove the display, right-click on the square."
+			]
+			id: "0BD070E54EF86FDA"
+			rewards: [{
+				id: "27BF0F87FC1D43DC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3271FA975F0D1EB5"
+				title: "Display labels"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+	]
+	title: "&d&lSophesticated Storage"
+}

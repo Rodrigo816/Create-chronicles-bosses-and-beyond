@@ -101,11 +101,13 @@
 				"51E18D8B67394EC2"
 				"624E99A4E08167EA"
 				"5F9DC6A4D253217D"
+				"1A4EF2745BD2163D"
 			]
+			dependency_requirement: "all_started"
+			hide: true
 			hide_dependency_lines: true
 			icon: "lootr:trophy"
 			id: "6C71E2ABAA99C005"
-			invisible: true
 			rewards: [
 				{
 					id: "4C106559A388027E"

@@ -73,7 +73,7 @@
 			y: 9.5d
 		}
 	]
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -2388,12 +2388,23 @@
 				"4B8AA887F0B4664E"
 				"1B579FA633476F4B"
 				"0990BE5505F823C2"
+				"25A159F2A8B9340B"
+				"125E3B2F9B728E17"
+				"4597C15E8D4FE8C0"
+				"722A585C044A2097"
+				"38DE8D7E98D6AA48"
+				"4E0B638C20CF9FD7"
+				"7FEA004E872EF175"
+				"0BDFC9BF558C42FE"
+				"34D165EDB1371398"
+				"04454A60FDCA0BB2"
+				"15AFBC9FC568CD57"
 			]
-			hide: false
+			dependency_requirement: "all_started"
+			hide: true
 			hide_dependency_lines: true
 			icon: "lootr:trophy"
 			id: "025314CC80D7286F"
-			invisible: true
 			rewards: [
 				{
 					id: "45D461EBEE406919"

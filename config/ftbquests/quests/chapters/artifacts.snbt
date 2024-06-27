@@ -131,6 +131,8 @@
 		{
 			dependencies: ["78DFD8815E2AE291"]
 			description: ["An infinite steak"]
+			hide: false
+			hide_dependency_lines: false
 			id: "1ADACCB1A8BB9E7E"
 			rewards: [
 				{
@@ -1011,11 +1013,19 @@
 				"10CDACBCA03AEDF7"
 				"6E98473128936047"
 				"7F1AB8E8DA7BFD77"
+				"37D3986933A263DB"
+				"681E258AB577FF73"
+				"4F734FC470276106"
+				"65663D9E051280F2"
+				"409E9857A7494319"
+				"37D5E493E9DB64D4"
+				"5590204A473913AC"
 			]
+			dependency_requirement: "all_started"
+			hide: true
 			hide_dependency_lines: true
 			icon: "lootr:trophy"
 			id: "703CC46FAC00A5D9"
-			invisible: true
 			rewards: [
 				{
 					id: "4443BADF7DDA2981"
