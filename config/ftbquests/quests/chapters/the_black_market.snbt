@@ -402,7 +402,7 @@
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.5d
+			x: 3.0d
 			y: 9.5d
 		}
 		{
@@ -421,8 +421,16 @@
 			x: 3.5d
 			y: 7.25d
 		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 9.5d
+		}
 	]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -2161,7 +2169,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: {
 				Count: 1
@@ -2191,39 +2198,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
-			id: "6C61BAD912514C5F"
-			rewards: [
-				{
-					id: "049826CE3A65BBB2"
-					item: "numismatics:crown"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "033E4E6B608094DF"
-					item: "paraglider:spirit_orb"
-					type: "item"
-				}
-			]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "From 1 June till 23 July"
-			tasks: [{
-				consume_items: true
-				count: 10000L
-				id: "617E0F6D00827698"
-				item: "quark:myalite"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 9.0d
-		}
-		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "dimdungeons:item_secret_bell"
 			id: "437795B131AF223B"
@@ -2246,7 +2222,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "mowziesmobs:earth_talisman"
 			id: "7020BE898C53E474"
@@ -2264,6 +2239,107 @@
 			}]
 			title: "&l&dEarth Talisman"
 			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "12DC75D60C72334A"
+			rewards: [
+				{
+					count: 2
+					id: "0D088DC7023DF1AA"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5BA6470FCF956006"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					id: "7F12169B7C5E4BB9"
+					item: "aether:life_shard"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "736E90A361A8165F"
+					item: "forbidden_arcanus:elementarium"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "From 23 July till 13 September "
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "22FAD9F57DA73221"
+				item: "minecraft:tuff"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "352F19D5F52D012C"
+			rewards: [
+				{
+					count: 4
+					id: "001E6FCD8CAAE39E"
+					item: "irons_spellbooks:lesser_spell_slot_upgrade"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2653FD91B42592AD"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17DAA9F98E4B4A25"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "From 23 July till 13 September "
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "7A032913A74B22E6"
+				item: "blue_skies:crescent_fruit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			icon: "forbidden_arcanus:elementarium"
+			id: "171CB5A1A635913D"
+			rewards: [{
+				id: "60B4E6362F9E6F72"
+				item: "forbidden_arcanus:elementarium"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "44F1530F1CFAB89D"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Elementarium"
+			x: 8.0d
 			y: 3.5d
 		}
 	]

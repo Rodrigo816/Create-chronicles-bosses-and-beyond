@@ -21,7 +21,7 @@
 		x: -7.0d
 		y: -1.0d
 	}]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -315,34 +315,6 @@
 			}]
 			x: -4.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["7226FB66C2B28ACB"]
-			description: [
-				"When you break any sophisticated storage, all its contents &cwill drop as individual items&r, which can be inconvenient. To avoid this, you can use&6 Packing Tape&r. "
-				""
-				"Applying &6Packing Tape&r to a chest will keep all its items inside when you break it. This is especially useful if you want to move your entire storage setup to a new location without having to reorganize everything."
-			]
-			id: "44C007DC2C98C7B5"
-			rewards: [{
-				id: "2C237EE9F8D02ED2"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "Moving chests around!"
-			tasks: [{
-				id: "6A87074AD8DAF9D5"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:packing_tape"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["7226FB66C2B28ACB"]
@@ -1065,7 +1037,7 @@
 			}]
 			tasks: [{
 				id: "0ABB21055E1BDBCC"
-				title: "Customizing looks of your storage"
+				title: "&aCustomizing&r&b looks&r &cof&r &dyour&r &estorage&r"
 				type: "checkmark"
 			}]
 			x: -1.0d

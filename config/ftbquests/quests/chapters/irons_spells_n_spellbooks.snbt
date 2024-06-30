@@ -655,7 +655,6 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Just a spark."
 			tasks: [
 				{
 					id: "0E5E6E6EA3FDC02F"
@@ -857,7 +856,6 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "They call me Mr. Freeze."
 			tasks: [
 				{
 					id: "336C6CD2DE6AA5FB"

@@ -38,9 +38,6 @@
 			coconut = true
 			walnut = true
 
-		[types.leaves_type.ad_astra]
-			glacian = true
-
 		[types.leaves_type.create_dd]
 			rubber = true
 
@@ -141,6 +138,9 @@
 		[types.leaves_type.ars_elemental]
 			yellow_archwood = true
 
+		[types.leaves_type.ad_astra]
+			glacian = true
+
 	[types.wood_type]
 
 		[types.wood_type.ars_nouveau]
@@ -166,11 +166,6 @@
 			azalea = true
 			ancient = true
 			blossom = true
-
-		[types.wood_type.ad_astra]
-			aeronos = true
-			strophar = true
-			glacian = true
 
 		[types.wood_type.create_dd]
 			rose = true
@@ -214,6 +209,11 @@
 
 		[types.wood_type.betterarcheology]
 			rotten = true
+
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
 
 	[types.cake]
 
@@ -421,15 +421,6 @@
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
-
-		[entries.wood_type.storagedrawers]
-			full_drawers_2 = true
-			full_drawers_4 = true
-			full_drawers_1 = true
-			half_drawers_1 = true
-			half_drawers_4 = true
-			half_drawers_2 = true
-			trim = true
 
 		[entries.wood_type.create]
 			window_pane = true
