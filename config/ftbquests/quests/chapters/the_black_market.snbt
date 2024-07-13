@@ -1973,7 +1973,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: {
 				Count: 1
@@ -2003,7 +2002,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "waystones:waystone"
 			id: "139CC6647BFD6E2A"
@@ -2025,7 +2023,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "kubejs:rotation_mechanism"
 			id: "2B9B0F825B99A2DB"
@@ -2049,7 +2046,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "minecraft:iron_ingot"
 			id: "6414E9238DCDE275"
@@ -2073,7 +2069,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "minecraft:copper_ingot"
 			id: "1A5395915A7B2FCE"
@@ -2097,7 +2092,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "create:zinc_ingot"
 			id: "6EF98F7CF9F54F76"
@@ -2121,7 +2115,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "minecraft:redstone"
 			id: "24FEA3646AD4F483"
@@ -2145,7 +2138,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "create:belt_connector"
 			id: "7056902C17FED0D5"

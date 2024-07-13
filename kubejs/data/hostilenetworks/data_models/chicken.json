@@ -23,6 +23,14 @@
       {
           "item": "minecraft:feather",
           "count": 12
+      },
+      {
+        "item": "minecraft:chicken",
+        "count": 4
+      },
+      {
+        "item": "minecraft:egg",
+        "count": 2
       }
   ],
   "tier_data": [
