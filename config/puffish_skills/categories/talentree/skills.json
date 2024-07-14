@@ -618,7 +618,7 @@
 		"root": false
 	},
 	"fwgocm0eybq2747b": {
-		"definition": "armourPen%md",
+		"definition": "lifeSteal%",
 		"x": -128,
 		"y": 443.4050067376325,
 		"root": false
@@ -750,7 +750,7 @@
 		"root": false
 	},
 	"owsd1oh3ejuj8ck6": {
-		"definition": "armourPen%md",
+		"definition": "lifeSteal%",
 		"x": -448,
 		"y": 36.950417228136075,
 		"root": false

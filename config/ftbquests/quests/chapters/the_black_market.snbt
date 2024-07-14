@@ -402,7 +402,7 @@
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
+			x: 2.0d
 			y: 9.5d
 		}
 		{
@@ -426,11 +426,19 @@
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
 			y: 9.5d
 		}
 	]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -467,12 +475,6 @@
 					count: 3000L
 					id: "6D400563DE8E6D33"
 					item: "create_dd:sealed_mechanism"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "6F06393341F0A665"
-					item: "aquamirae:rune_of_the_storm"
 					type: "item"
 				}
 			]
@@ -2272,7 +2274,7 @@
 				item: "minecraft:tuff"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 9.0d
 		}
 		{
@@ -2309,7 +2311,7 @@
 				item: "blue_skies:crescent_fruit"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 9.0d
 		}
 		{
@@ -2333,6 +2335,54 @@
 			title: "Elementarium"
 			x: 8.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "1C33DE8E1D7D8577"
+			rewards: [
+				{
+					id: "4FC0BC65E8BB49A6"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4995193483BE9DCA"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "627464398F2267DB"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "494E32FF28694952"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3705BDD892470FC5"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "From 23 July till 13 September "
+			tasks: [{
+				consume_items: true
+				count: 2000L
+				id: "39DD34AE09FCCB70"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
 		}
 	]
 	title: "&0&l The Black Market"

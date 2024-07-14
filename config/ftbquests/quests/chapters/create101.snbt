@@ -37,14 +37,6 @@
 			y: -9.0d
 		}
 		{
-			height: 1.0d
-			image: "create_enchantment_industry:item/experience_rotor"
-			rotation: 0.0d
-			width: 1.0d
-			x: 9.0d
-			y: -3.0d
-		}
-		{
 			height: 2.0d
 			image: "minecraft:block/enchanting_table_top"
 			rotation: 0.0d
@@ -126,12 +118,13 @@
 			y: -1.5d
 		}
 		{
-			height: 2.5d
+			color: 2975999
+			height: 1.3d
 			image: "alexsmobs:textures/entity/sunbird_shine.png"
 			rotation: 0.0d
-			width: 2.5d
-			x: -12.0d
-			y: 3.8d
+			width: 1.3d
+			x: 19.0d
+			y: 3.0d
 		}
 		{
 			height: 1.7d
@@ -4322,7 +4315,7 @@
 				title: "Hyper Enchanting"
 				type: "checkmark"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: -5.0d
 		}
 		{
@@ -4874,6 +4867,11 @@
 		}
 		{
 			dependencies: ["0A1175A62C935658"]
+			description: [
+				"&cThe Portable Drill&r lets you mine certain blocks faster as long it has Fuel and Water. "
+				""
+				"You can upgrade it by enchanting with the &eDigging Enchantment&r, allowing you to mine 3x3 blocks. "
+			]
 			id: "31D44E97DEB1F7E2"
 			rewards: [{
 				count: 3
@@ -4881,6 +4879,7 @@
 				item: "create:experience_nugget"
 				type: "item"
 			}]
+			subtitle: "your 3x3 pickaxe"
 			tasks: [{
 				id: "5273BBBF09BF9222"
 				item: {
@@ -6082,6 +6081,32 @@
 			}]
 			x: 8.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["6E7BCB29DADBF655"]
+			description: [
+				"&aExperience Rotor: &rThis item lets you convert the normal “liquid” experience that you gather in your Backpack with the Tank Upgrade and convert it to the Liquid Experience used for enchantment book copying or with a Blaze Burner to enchant items."
+				""
+				"You just need to craft the Experience Rotor once. "
+				""
+				"After that place it inside a Basin along with the normal “liquid” experience, add a Mechanical Mixer and it will convert the experience to the Liquid Experience. "
+				""
+				"To pump out the Liquid Experience use a Smart Fluid Pipe and place a Bottle o' Enchanting in the filter slot or use a List Filter with a Bottle o' Enchanting, so it pumps out only the Liquid Experience."
+			]
+			id: "586042863545548A"
+			rewards: [{
+				count: 5
+				id: "54470FE575B05FE5"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68DDB2DA71E5DAFF"
+				item: "create_enchantment_industry:experience_rotor"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
 		}
 	]
 	title: "&aCreate 101 - Guidebook"

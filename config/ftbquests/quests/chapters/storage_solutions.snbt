@@ -18,10 +18,10 @@
 		image: "chalk:block/mark/arrow"
 		rotation: 90.0d
 		width: 1.0d
-		x: -7.0d
+		x: -5.0d
 		y: -1.0d
 	}]
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -262,39 +262,7 @@
 			y: 2.0d
 		}
 		{
-			id: "46B61220B6945CF4"
-			rewards: [{
-				id: "67AF0512F1124C15"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "Craft a Chest or a Barrel"
-			tasks: [{
-				id: "64E0ED859C60F407"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:barrel"
-							}
-							{
-								Count: 1b
-								id: "minecraft:chest"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "Craft a Chest"
-			x: -6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["46B61220B6945CF4"]
+			dependencies: ["261651FB7B600587"]
 			description: [
 				"The &eBasic Tier Upgrade&r is the entry-level upgrade for&6 Sophisticated Storage&r. "
 				""
@@ -302,6 +270,7 @@
 				""
 				"Upgrade your vanilla storage to unlock the advanced features and benefits of Sophisticated Storage."
 			]
+			hide: true
 			id: "41329FF8F96017A9"
 			rewards: [{
 				id: "1FEA4241E27F19CE"
@@ -457,6 +426,9 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["261651FB7B600587"]
+			hide: true
+			hide_dependency_lines: true
 			id: "2B4E5F59E5625ADF"
 			rewards: [{
 				id: "2AE5588FBF0A375D"
@@ -509,6 +481,9 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["261651FB7B600587"]
+			hide: true
+			hide_dependency_lines: true
 			id: "32F8B69C66723910"
 			rewards: [{
 				id: "6B2B11C1445D8ACA"
@@ -657,6 +632,9 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["261651FB7B600587"]
+			hide: true
+			hide_dependency_lines: true
 			id: "34174F45D62D0D6E"
 			rewards: [{
 				id: "4B932A2997953C71"
@@ -787,6 +765,9 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["261651FB7B600587"]
+			hide: true
+			hide_dependency_lines: true
 			id: "7A36AA33AB12EE37"
 			rewards: [{
 				id: "0763D5B4B4BC86D5"

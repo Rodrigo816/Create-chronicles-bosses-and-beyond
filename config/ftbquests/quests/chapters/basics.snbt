@@ -831,22 +831,22 @@
 				"To get started you'll need to find an underground cabin to acquire some cave tablets, as well as a spelunkers table."
 			]
 			icon: "alexscaves:cave_book"
-			id: "7928A20D0045F639"
+			id: "3A5D5C4FBFAFB109"
 			rewards: [
 				{
-					id: "17219D3B2ADE76CA"
+					id: "7EA0167D03EE2A7C"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 				{
-					id: "6D121B48D7120E2B"
+					id: "312039C027C5E676"
 					item: "alexscaves:cave_book"
 					type: "item"
 				}
 			]
 			subtitle: "New Cave Biomes"
 			tasks: [{
-				id: "1F3B75CF4A9081C1"
+				id: "1C23290C04C44FB9"
 				structure: "alexscaves:underground_cabin"
 				type: "structure"
 			}]
@@ -855,7 +855,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["7928A20D0045F639"]
+			dependencies: ["3A5D5C4FBFAFB109"]
 			description: [
 				"By placing a piece of&2 paper&r and a &ecave tablet&r into the spelunkers table, you can play a minigame to unlock some of the secrets the tablet holds."
 				""
@@ -865,15 +865,15 @@
 				""
 				"If any level is failed, or the process of translation is interrupted, the cave tablet will be destroyed."
 			]
-			id: "0B33930363EA8EA6"
+			id: "26D860BF5D02586C"
 			rewards: [{
-				id: "5B5D750CDEF200EC"
+				id: "017B47440E473808"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			subtitle: "Cave Research"
 			tasks: [{
-				id: "7BE42DB0963CD12C"
+				id: "2AEBADAF7BD0BDDE"
 				item: "alexscaves:spelunkery_table"
 				type: "item"
 			}]
@@ -881,7 +881,7 @@
 			y: 21.5d
 		}
 		{
-			dependencies: ["0B33930363EA8EA6"]
+			dependencies: ["26D860BF5D02586C"]
 			description: [
 				"Once a &6Cave Codex&r is researched, it can be used for two purposes. "
 				""
@@ -890,14 +890,15 @@
 				""
 				"2-> They can be crafted into &6Cave Biome Maps.&r"
 			]
-			id: "44B09D1387E6E869"
+			id: "2F7BB458FD5AFF19"
 			rewards: [{
-				id: "427CA655869197C1"
+				id: "56F6A58BE40B3D37"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "&6🔓 Unlocks Alex's caves chapter&r"
 			tasks: [{
-				id: "2D1D2A4F4DD151B1"
+				id: "37EFDE1A242FC6ED"
 				item: {
 					Count: 1
 					id: "alexscaves:cave_codex"
@@ -910,178 +911,6 @@
 			title: "Research any cave codex"
 			x: -17.0d
 			y: 23.0d
-		}
-		{
-			dependencies: ["24416D60F9757C16"]
-			description: [
-				"Deep below the lush Jungles lie the &6Primordial Caves&r, isolated for millions of years. These limestone caves have unique geology, and flora and fauna thought to be extinct."
-				""
-				"Dinosaurs dominate this realm, illuminated by &eAmbersol&r, a radiant form of &eamber&r. This natural light makes the caves as bright as daytime, casting ancient shadows in this prehistoric enclave."
-			]
-			icon: {
-				Count: 1
-				id: "alexscaves:cave_tablet"
-				tag: {
-					CaveBiome: "alexscaves:primordial_caves"
-				}
-			}
-			id: "5952AF93B95E494C"
-			rewards: [{
-				id: "03758069E07A3BC9"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				biome: "alexscaves:primordial_caves"
-				icon: {
-					Count: 1
-					id: "alexscaves:cave_tablet"
-					tag: {
-						CaveBiome: "alexscaves:primordial_caves"
-					}
-				}
-				id: "7E61FA3DE51F62FD"
-				type: "biome"
-			}]
-			title: "Visit a Primordial Cave"
-			x: -25.0d
-			y: 25.5d
-		}
-		{
-			dependencies: ["24416D60F9757C16"]
-			description: [
-				"The &aToxic Caves&r, a vast underground wasteland, are the result of unchecked scientific ambition. This hostile zone is filled with dangerous creatures and lethal threats."
-				""
-				"Radiation fills the area from &eRadrock, Uranium Ore, and Acid pools&r, with ruins of old industrial sites scattered around."
-				""
-				"In the &aToxic Caves&r, you risk getting the&c Irradiated&r effect, which stops natural healing and causes continuous damage at higher levels, highlighting the deadly nature of this place."
-			]
-			id: "52034A3AD5A347C8"
-			rewards: [{
-				id: "3B1D85DD7A963E14"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				biome: "alexscaves:toxic_caves"
-				icon: {
-					Count: 1
-					id: "alexscaves:cave_tablet"
-					tag: {
-						CaveBiome: "alexscaves:toxic_caves"
-					}
-				}
-				id: "4F2577E08520A4D9"
-				type: "biome"
-			}]
-			title: "Visit a Toxic Cave"
-			x: -19.0d
-			y: 25.5d
-		}
-		{
-			dependencies: ["24416D60F9757C16"]
-			description: ["The &6Magnetic Caves&r are distinguished by towering &6Neodymium&r crystals set against a backdrop of &6Galena&r, lending the cave its magnetic moniker. These crystals exist in &6Scarlet&r and &6Azure&r varieties, with the former &6attracting&r and the latter &6repelling&r metallic items. To navigate safely, it's wise to use non-metallic gear."]
-			icon: {
-				Count: 1
-				id: "alexscaves:cave_tablet"
-				tag: {
-					CaveBiome: "alexscaves:magnetic_caves"
-				}
-			}
-			id: "073F2FEC3D06AC0E"
-			rewards: [{
-				id: "2CE48CE5B2B5AF71"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				biome: "alexscaves:magnetic_caves"
-				icon: {
-					Count: 1
-					id: "alexscaves:cave_tablet"
-					tag: {
-						CaveBiome: "alexscaves:magnetic_caves"
-					}
-				}
-				id: "0B39CDF045054E4F"
-				type: "biome"
-			}]
-			title: "Visit a Magnetic Cave"
-			x: -9.5d
-			y: 25.5d
-		}
-		{
-			dependencies: ["24416D60F9757C16"]
-			description: [
-				"The&2 Forlorn Hollows&r is a network of underground caverns shrouded in darkness. Light rarely penetrates this shadowy place."
-				""
-				"&nBe cautious with light sources, as they can attract unwelcome entities.&r"
-				""
-				"Inhabitants of the &aForlorn Hollows&r have been touched by darkness and can summon sinister forces from the shadows."
-			]
-			icon: {
-				Count: 1
-				id: "alexscaves:cave_tablet"
-				tag: {
-					CaveBiome: "alexscaves:forlorn_hollows"
-				}
-			}
-			id: "724179DC4605ECC2"
-			rewards: [{
-				id: "786BAB17DE916D06"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				biome: "alexscaves:forlorn_hollows"
-				icon: {
-					Count: 1
-					id: "alexscaves:cave_tablet"
-					tag: {
-						CaveBiome: "alexscaves:forlorn_hollows"
-					}
-				}
-				id: "3D5A5EFAB3166B8B"
-				type: "biome"
-			}]
-			title: "Visit a Forlorn Cave"
-			x: -14.0d
-			y: 25.5d
-		}
-		{
-			dependencies: ["24416D60F9757C16"]
-			description: [
-				"The Abyssal chasm this giant cave is found underwater and is extremely dark down there, so you need a new effect called &6Deep Sight.&r"
-				"The exterior wall of the cavern is made of abyssmarine"
-			]
-			icon: {
-				Count: 1
-				id: "alexscaves:cave_tablet"
-				tag: {
-					CaveBiome: "alexscaves:abyssal_chasm"
-				}
-			}
-			id: "5782F8A43B93FC7D"
-			rewards: [{
-				id: "425CD370CF7E2B69"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				biome: "alexscaves:abyssal_chasm"
-				icon: {
-					Count: 1
-					id: "alexscaves:cave_tablet"
-					tag: {
-						CaveBiome: "alexscaves:abyssal_chasm"
-					}
-				}
-				id: "56B9DE98CE2C4DB4"
-				type: "biome"
-			}]
-			title: "Find an Abyssal Chasm"
-			x: -4.5d
-			y: 25.5d
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
@@ -3697,7 +3526,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["535A8A11EFC7DB00"]
+			dependencies: ["597BBC9933D7BC9E"]
 			description: ["Safes are harder to break shulker boxes that can be only be opened by the player who placed them."]
 			id: "7C8FD4693FE20947"
 			rewards: [{
@@ -3718,7 +3547,7 @@
 				}
 				type: "item"
 			}]
-			x: 24.5d
+			x: 24.0d
 			y: 15.5d
 		}
 		{
@@ -4052,1282 +3881,6 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["44B09D1387E6E869"]
-			description: [
-				"&cCave Biome Maps&r can be crafted with just a single codex, and can be used to find the nearest biome of the codex's type. "
-				""
-				"Since the biomes added by Alex's Caves are all somewhat rare, these Maps can take a while to load and will display ellipses on their texture while doing so. "
-				""
-				"Once this is done, they will fill up, and if held indicate the rotation of the player relative to the targeted biome."
-			]
-			id: "24416D60F9757C16"
-			tasks: [{
-				id: "06AE88FECE363A9E"
-				item: {
-					Count: 1
-					id: "alexscaves:cave_map"
-					tag: {
-						BiomeTargetResourceKey: "alexscaves:magnetic_caves"
-					}
-				}
-				type: "item"
-			}]
-			x: -17.0d
-			y: 24.5d
-		}
-		{
-			dependencies: ["4CB998ED5BAAF25C"]
-			description: [
-				"Abyssal Altars are interactive, and can hold a single item. "
-				""
-				"If a Pearl is placed upon the altar and any of the 'Deep Ones race' see it, they will swim over to the alter and pick up the Pearl. "
-				""
-				"They will inspect it, then place an item on the alter in return, lighting up the cracks on the Abyssal Altar with strange white lines. "
-				""
-				"A successful trade will slightly increase your reputation with the 'Deep Ones race'."
-				""
-				"Any item can be placed upon the Abyssal Alter for trading, but the 'Deep Ones race' will only accept Pearls."
-			]
-			id: "773A0ACF6CC25768"
-			rewards: [{
-				id: "6DABBF8471E604F5"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "60B744F3C912EF13"
-				item: "alexscaves:abyssal_altar"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 29.0d
-		}
-		{
-			dependencies: ["5782F8A43B93FC7D"]
-			description: ["&2A Floater&r is a rideable entity primarily used to save yourself from drowning by rapidly ascending yourself above the surface of water."]
-			id: "10DA24F96BA7A28E"
-			rewards: [{
-				id: "6A6056EF6329BFE6"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7FD0A178724F98C8"
-				item: "alexscaves:floater"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 27.0d
-		}
-		{
-			dependencies: ["5782F8A43B93FC7D"]
-			description: [""]
-			id: "641682361C82AC65"
-			rewards: [{
-				id: "2E774194484BB219"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "Can not be crafted."
-			tasks: [
-				{
-					id: "5F450817ACC04AA9"
-					item: {
-						Count: 1
-						id: "alexscaves:diving_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "26D73FBBD9675252"
-					item: {
-						Count: 1
-						id: "alexscaves:diving_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "24CC0FA0AC71E906"
-					item: {
-						Count: 1
-						id: "alexscaves:diving_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "042D9010FEA5BF56"
-					item: {
-						Count: 1
-						id: "alexscaves:diving_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 27.0d
-		}
-		{
-			dependencies: ["5782F8A43B93FC7D"]
-			description: [
-				"Submarine is a vehicle entity that can be driven underwater, granting its rider water breathing. It can be found naturally in the Oxidized Seabase in the Abyssal Chasms, or it can be made by creating the formation shown below for that you need a &3Enigmatic Engine&r a drop from &bHullbreaker&r"
-				""
-				"The Floodlight activated using the Special Ability Key (Default G) projects a light directed towards the rider's cursor, subsequently Hullbreakers become aggressive towards the vehicle. The Jump Key ascends the Submarine while Left Control descends it."
-				""
-				"Copper ingots can be used on damaged Submarines to restore their health. Lost health is indicated by cracks present on the Submarine."
-				""
-				"While a Submarine is submerged in water it will oxidize over time, this has no effect on its stats or behavior. Using a honeycomb on the Submarine waxes it, preventing it from oxidizing further."
-				""
-				""
-				"{image:kubejs:textures/submarine1.png width:200 height:200 align:1}"
-				""
-				"{image:kubejs:textures/submarine2.png width:200 height:200 align:1}"
-				""
-				"{image:kubejs:textures/submarine3.png width:200 height:200 align:1}"
-			]
-			id: "727700F323905A1E"
-			rewards: [{
-				id: "4701CF3313DFD411"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3B59E7697E722AB2"
-				item: "alexscaves:submarine"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 27.0d
-		}
-		{
-			dependencies: ["773A0ACF6CC25768"]
-			description: [
-				"The &bSea staff&r is a unique item that is received in trade with the Deep Ones. It is a black staff with a crab like pincer on top and two gems, one at the base and one at the head."
-				""
-				"When used, one durability is consumed and a water bolt is cast. These bolts have a heavy fall that is not impeded by water. Aim is not great, bolts can land anywhere around a target. However, when a bolt lands on a block or on a target, it splashes out and does some area of effect damage. The water bolts pass through Deep ones."
-			]
-			id: "78A9DD332ACE9BFD"
-			rewards: [{
-				id: "6F206E65F74D075B"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "66DB7685FB947531"
-				item: {
-					Count: 1
-					id: "alexscaves:sea_staff"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: 31.0d
-		}
-		{
-			dependencies: ["773A0ACF6CC25768"]
-			description: ["Unique melee weapon obtained through trading with Deep One Knights. It is similar to a trident, in that it is a melee weapon with a right click ability."]
-			id: "6BB561AF24722175"
-			rewards: [{
-				id: "24D98F891D4035BA"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "36074C4ADEFE1E34"
-				item: {
-					Count: 1
-					id: "alexscaves:ortholance"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.5d
-			y: 31.0d
-		}
-		{
-			dependencies: ["773A0ACF6CC25768"]
-			description: ["The Magic Conch is an extremely magical weapon capable of summoning loyal Deep Ones to aid you in battle."]
-			id: "54D9E80AD12E1F7D"
-			rewards: [{
-				id: "4CB0772BD7A42F37"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "50F3F5814620781F"
-				item: {
-					Count: 1
-					id: "alexscaves:magic_conch"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: 31.0d
-		}
-		{
-			dependencies: ["5782F8A43B93FC7D"]
-			description: [
-				"Scattered around the walls and on Deepstone rocks are groups of up to 5 Mussels. They can be mined with a pickaxe and drop either themself or a &dPearl.&r"
-				""
-				"Every time you mine a group of mussels, it drops one and the number of mussels in the group lowers by one. "
-				""
-				"They can be placed on the floor and on walls. They can also be cooked and eaten."
-			]
-			id: "7B9B86D4F1133C89"
-			rewards: [{
-				id: "61F96DDAA2C16384"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "237FE5CDFFE47F5B"
-				item: "alexscaves:mussel"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 27.0d
-		}
-		{
-			dependencies: ["7B9B86D4F1133C89"]
-			id: "4CB998ED5BAAF25C"
-			rewards: [{
-				id: "257B892E2EA3EAC5"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "179DD7CE479927B6"
-				item: "alexscaves:pearl"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 28.0d
-		}
-		{
-			dependencies: ["5782F8A43B93FC7D"]
-			description: [
-				"In the shadowy realms of the Abyssal Chasm, where sunlight fails to penetrate, the ocean floor and its creatures remain enshrouded in darkness. "
-				""
-				"These luminescent beings can be used to brew &6Potions of Deepsight&r, granting you a special buff that clears the water fog, illuminating your underwater exploration with clarity."
-			]
-			id: "663B00FD79A7D188"
-			rewards: [{
-				id: "2FCA9D2EEE9494B8"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "6A82CE52C35E80C7"
-					item: "alexscaves:lanternfish"
-					type: "item"
-				}
-				{
-					id: "466CA9203F9C3107"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "alexscaves:deepsight"
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: 27.0d
-		}
-		{
-			dependencies: ["5782F8A43B93FC7D"]
-			id: "1D2D3BDA65537C43"
-			rewards: [{
-				id: "2F9043723456ADE9"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "underwater torches"
-			tasks: [{
-				id: "2D226023032FEDE7"
-				item: "alexscaves:bioluminescent_torch"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 27.0d
-		}
-		{
-			dependencies: ["5782F8A43B93FC7D"]
-			description: [
-				"Drain blocks are found in Oxidized Seabases and through crafting. They are crafted with two Depth Charges, six Buckets, and one Redstone Dust."
-				""
-				"Drains are Redstone-conductive blocks, that when activated, drain an area of water one block layer per second. If one is placed in the floor of a room surrounded by water and filled with water, it will drain the water from the room it is in when powered. If one is placed in the ceiling of a room surrounded by water but not filled with water, it will fill the room with water, taking it from the water above it. It will not work if the top of the block is not exposed to water or if the bottom of the block is not exposed to air or water."
-			]
-			id: "535A7CBC4E22C265"
-			rewards: [{
-				id: "2287508E8542BA3A"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "514B2988F4EE1C48"
-				item: "alexscaves:drain"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 27.0d
-		}
-		{
-			dependencies: ["773A0ACF6CC25768"]
-			description: [
-				"The Gazing Pearl is a mysterious and rare item that constantly shows your reputation with the Deep Ones."
-				""
-				"A Gazing Pearl can be obtained from bartering with a regular Deep One, which has a 4.02% chance to place it on an Abyssal Altar in exchange for a Pearl."
-				""
-				"&c&nReputation&r&r"
-				"The Gazing Pearl will change its color and cryptic message displayed in its item tooltip depending on the reputation between the Deep Ones and the player who has the pearl. If a Gazing Pearl has never been held by a player before, it will constantly change and sipher through the colors of the rainbow."
-				""
-				"Below are the colors and messages the Gazing Pearl will display depending on the player's reputation with the Deep Ones:"
-				""
-				"&nStalking&r"
-				"The Gazing Pearl will wane between a cerulean blue to a bright teal. The message it will display is: \"The gleam of the pearl wanes cautiously...\""
-				""
-				""
-				"&nAggression&r"
-				"The Gazing Pearl will glisten various colors depending on how much healing needs to be done on your reputation for the Deep Ones to be cautious around you. The message it will display is: \"The pearl glistens with malevolence...\""
-				""
-				"If the pearl glistens between a cerulean blue to a dark rich blue, not much healing needs to be done to your reputation."
-				""
-				"If the pearl glistens between a cool purple to a magenta tone, some healing needs to be done to your reputation."
-				""
-				"If the pearl glistens between a neon pink to a vibrant red, much healing needs to be done to your reputation."
-				""
-				""
-				"&nNeutrality&r"
-				"The Gazing Pearl will reflect between a bright teal to an emerald green. The message it will display is: \"The pearl reflects a neutral light...\""
-				""
-				""
-				"&nHelpfulness&r"
-				"The Gazing Pearl will glisten various colors depending on how highly the Deep Ones think of you. The message it will display is: \"The pearl beams with a joyous shine...\""
-				""
-				"If the pearl beams between an emerald green to a greenish yellow, it will be easy for you to lower your reputation with the Deep Ones back down."
-				""
-				"If the pearl beams between a greenish yellow to a warm orange, it will take some effort for you to lower your reputation with the Deep Ones back down."
-				""
-				"If the pearl beams between a warm orange to a vibrant red, it will take much effort for you to lower your reputation with the Deep Ones back down."
-			]
-			id: "68FA6D8701E7FD0E"
-			rewards: [{
-				id: "77B3C8CE41D766BD"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "654EB5D8D8BAC444"
-				item: "alexscaves:gazing_pearl"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 31.0d
-		}
-		{
-			dependencies: ["073F2FEC3D06AC0E"]
-			description: [
-				"The &6Notor&r, a peculiar and passive entity, floats within the Magnetic Caves. Incapable of attacking, Notors still pose a nuisance by scanning nearby beings. "
-				""
-				"They use these scans to construct holograms, alerting other monsters in the biome to potential intruders."
-			]
-			id: "67497B2F16C53C69"
-			rewards: [{
-				id: "453D21B05C513B6B"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "A projector gadget"
-			tasks: [{
-				id: "34607CA6312313D7"
-				item: "alexscaves:notor_gizmo"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 27.0d
-		}
-		{
-			dependencies: ["073F2FEC3D06AC0E"]
-			id: "5D5AF7240033CD4A"
-			rewards: [{
-				id: "14A29F4A4DC574AD"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "Project your favorite mob using the Holocoder."
-			tasks: [
-				{
-					id: "288F72E6544D682B"
-					item: "alexscaves:hologram_projector"
-					type: "item"
-				}
-				{
-					id: "19D44207CD105BB6"
-					item: "alexscaves:holocoder"
-					type: "item"
-				}
-			]
-			x: -10.5d
-			y: 27.0d
-		}
-		{
-			dependencies: ["073F2FEC3D06AC0E"]
-			description: [
-				"You are olding &7iron metals&r objects the &cScarlets&r blocks will drag you to it while &1Azure&r will push you away from it."
-				""
-				"If you wear iron boots you can climb &cScarlet&r blocks"
-			]
-			id: "16EEB94284FA163B"
-			rewards: [{
-				id: "246F5813C15F779D"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "346CCBA66126177F"
-					item: "alexscaves:scarlet_neodymium_ingot"
-					type: "item"
-				}
-				{
-					id: "4DB60ACAD8CD0BC0"
-					item: "alexscaves:azure_neodymium_ingot"
-					type: "item"
-				}
-			]
-			title: "Neodymiums Ingots"
-			x: -9.5d
-			y: 27.0d
-		}
-		{
-			dependencies: ["16EEB94284FA163B"]
-			description: ["Obtain the Heart of Iron by killing the Magnetron."]
-			id: "0D5BFDD982438E57"
-			rewards: [{
-				id: "0BD3F303EA5F3348"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			shape: "octagon"
-			subtitle: "Pull and push your enemies."
-			tasks: [{
-				id: "43CB00DF38862751"
-				item: {
-					Count: 1
-					id: "alexscaves:resistor_shield"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -8.5d
-			y: 28.5d
-		}
-		{
-			dependencies: ["16EEB94284FA163B"]
-			id: "03FF34CE5EAD0556"
-			rewards: [{
-				id: "592ECAF400FB8BD2"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			shape: "octagon"
-			subtitle: "Wifi attacks"
-			tasks: [{
-				id: "1FB154DB66104764"
-				item: {
-					Count: 1
-					id: "alexscaves:galena_gauntlet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -9.5d
-			y: 28.5d
-		}
-		{
-			dependencies: ["16EEB94284FA163B"]
-			description: ["Obtain the Hearth of Iron by killing the &aMagnetron.&r"]
-			id: "618DBBF502E14043"
-			rewards: [{
-				id: "30E17AEEE31E5633"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			shape: "octagon"
-			subtitle: "Automated mining system."
-			tasks: [
-				{
-					id: "64630CCD303FF238"
-					item: "alexscaves:quarry_smasher"
-					type: "item"
-				}
-				{
-					id: "47A69B8D90F48124"
-					item: "alexscaves:quarry"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "024BCEFBB1DC1B75"
-					item: "alexscaves:magnetic_light"
-					type: "item"
-				}
-			]
-			title: "Quarry"
-			x: -10.5d
-			y: 28.5d
-		}
-		{
-			dependencies: ["16EEB94284FA163B"]
-			description: [""]
-			id: "1997A43692ABDAFB"
-			rewards: [{
-				id: "2F2C06F306BDDA43"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "018B735F2EE8FFE0"
-				item: "alexscaves:magnetic_levitation_rail"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 28.5d
-		}
-		{
-			dependencies: ["16EEB94284FA163B"]
-			id: "5CEE9A9A313448AE"
-			rewards: [{
-				id: "56FA3408CB0628B2"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5AD541D3B505C50F"
-				item: "alexscaves:magnetic_activator"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 28.5d
-		}
-		{
-			dependencies: ["5CEE9A9A313448AE"]
-			description: [
-				"&6Scarlet&r and &6Azure Magnets&r, created from their respective Neodymium blocks, become dynamic when energized by &6redstone&r. Activated, they embody the unique properties of their Neodymium type, either attracting or repelling &6metal blocks&r in a specific direction over a fixed distance. Enhance their range by applying &6Neodymium Ingots&r directly to them."
-				""
-				"With the capacity to shift up to &627 adjacent metallic blocks&r, these magnets open up a realm of possibilities for creating moving platforms and inventive contraptions, adding a layer of creativity and functionality to your builds."
-			]
-			id: "3883F54E2F6B06C4"
-			rewards: [{
-				id: "10ACEDB84869EF49"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "7EC58C1C66FD4823"
-					item: "alexscaves:azure_magnet"
-					type: "item"
-				}
-				{
-					id: "79FED170091387BE"
-					item: "alexscaves:scarlet_magnet"
-					type: "item"
-				}
-			]
-			x: -7.5d
-			y: 30.0d
-		}
-		{
-			dependencies: ["677A980276088747"]
-			id: "2932C738EE60499A"
-			rewards: [{
-				id: "58DB36249DCC222C"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "60215D76BDD1EF46"
-				item: "alexscaves:pure_darkness"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 28.5d
-		}
-		{
-			dependencies: ["677A980276088747"]
-			description: [
-				"The &6Occult Gem&r, a rare drop from defeating a &6Watcher&r, pulsates with sinister magic. "
-				""
-				"This gem serves as a cornerstone for crafting potent &6ritualistic totems&r."
-			]
-			id: "5B47F475817876A4"
-			rewards: [{
-				id: "54FC797098AF185F"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "why is he looking at me ?!"
-			tasks: [{
-				id: "3A0DD6E8B5020ADD"
-				item: "alexscaves:occult_gem"
-				type: "item"
-			}]
-			x: -15.0d
-			y: 28.5d
-		}
-		{
-			dependencies: ["5B47F475817876A4"]
-			description: [
-				"The &6Totem of Possession&r, imbued with dark magic, allows for the binding and control of any creature you hit with it."
-				""
-				"By holding down on the totem and directing your gaze, you can &6steer the movements&r of the bound entity. "
-			]
-			id: "3A2A00DC172F8F4F"
-			rewards: [{
-				id: "5767ED7BF771484A"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "possess a mob"
-			tasks: [{
-				id: "5601D3097A7BCEF0"
-				item: {
-					Count: 1
-					id: "alexscaves:totem_of_possession"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -14.5d
-			y: 30.0d
-		}
-		{
-			dependencies: ["2932C738EE60499A"]
-			id: "4839CC6DD5B80AA4"
-			rewards: [{
-				id: "1A7AC30109DF75C1"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "Press G when your meter is filled at pure darkness."
-			tasks: [
-				{
-					id: "566E297379D75B06"
-					item: {
-						Count: 1
-						id: "alexscaves:hood_of_darkness"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "78C90F112C032D59"
-					item: {
-						Count: 1
-						id: "alexscaves:cloak_of_darkness"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -13.5d
-			y: 30.0d
-		}
-		{
-			dependencies: ["2932C738EE60499A"]
-			id: "57162294623F2AC4"
-			rewards: [{
-				id: "5911F06D4F51C134"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2E91E2079C568262"
-				item: {
-					Count: 1
-					id: "alexscaves:dreadbow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -12.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["724179DC4605ECC2"]
-			description: ["Moth balls can be used to repel mobs."]
-			id: "2D0FAC539F548968"
-			rewards: [{
-				id: "6B4AB0921E519CC8"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1170CBDFF0E40AAB"
-				item: "alexscaves:moth_ball"
-				type: "item"
-			}]
-			x: -15.5d
-			y: 27.0d
-		}
-		{
-			dependencies: ["724179DC4605ECC2"]
-			description: [""]
-			id: "0A8B482AE8010C48"
-			rewards: [{
-				id: "20F78D5925523538"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "x2 Attacks per swing"
-			tasks: [{
-				id: "2DEA2A4A834A7FBE"
-				item: {
-					Count: 1
-					id: "alexscaves:desolate_dagger"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -12.5d
-			y: 27.0d
-		}
-		{
-			dependencies: ["5B47F475817876A4"]
-			description: [
-				"The &6Beholder&r acts as an arcane surveillance system. "
-				""
-				"Install the totem where you wish to monitor, then bind it with an &6Occult Gem&r through a right-click. Activating the Gem elsewhere lets you peer through the Beholder's eye, offering a unique vantage point. "
-			]
-			id: "2F0CC4EB0F9262C8"
-			rewards: [{
-				id: "03C3DCA67E66E5C1"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "teleports"
-			tasks: [{
-				id: "1A9A6CD24C9D07FB"
-				item: "alexscaves:beholder"
-				type: "item"
-			}]
-			x: -16.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["724179DC4605ECC2"]
-			description: [
-				"&6Underzealots&r, resembling mole-like cultists, roam the Forlorn Hollows with their limited vision, harboring an aversion to light and diligently destroying any light sources they encounter. Their most unsettling behavior involves conducting ominous &6group rituals&r."
-				""
-				"Upon encountering a &6Gloomoth&r, especially one attracted to a torch, they endeavor to capture it. Should they succeed and if &6at least three Underzealots gather&r, a ritual commences, summoning a sinister, otherworldly presence. The ritual culminates in the sacrifice of the Gloomoth, transforming it into a new, &6monstrous&r entity..."
-			]
-			id: "677A980276088747"
-			rewards: [{
-				id: "25F439DA853743AA"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "alexscaves:alexscaves/underzealot_sacrifice"
-				criterion: ""
-				id: "57BFBFB76BB0417A"
-				type: "advancement"
-			}]
-			x: -14.0d
-			y: 27.5d
-		}
-		{
-			dependencies: ["4839CC6DD5B80AA4"]
-			id: "038D9645C681523D"
-			rewards: [{
-				id: "73CD14B3F2907C2F"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "extend the duration"
-			tasks: [{
-				id: "6AAED4EB26925119"
-				item: "alexscaves:darkened_apple"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 31.0d
-		}
-		{
-			dependencies: ["6B2047D7A9D2E35E"]
-			description: [
-				"After a few minuts it spawns a mob."
-				""
-				"You can also use to change the skin of all of dinossourous in the caves."
-			]
-			id: "3E8A748C1116277D"
-			rewards: [{
-				id: "4D290FDCF459D621"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			subtitle: "Ensure the survival of a species."
-			tasks: [{
-				id: "2E10B6B3FA51A611"
-				item: "alexscaves:amber_monolith"
-				type: "item"
-			}]
-			x: -27.0d
-			y: 30.5d
-		}
-		{
-			dependencies: ["5952AF93B95E494C"]
-			id: "65CC2F06272495DB"
-			min_required_dependencies: 1
-			rewards: [{
-				id: "0164D87540B2C9A8"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "054B89268AF3526D"
-				item: "alexscaves:heavy_bone"
-				type: "item"
-			}]
-			x: -25.0d
-			y: 28.5d
-		}
-		{
-			dependencies: ["65CC2F06272495DB"]
-			id: "0CFA5E7959BB11C3"
-			rewards: [{
-				id: "333AE8AF00F7EC98"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			shape: "octagon"
-			subtitle: "Perfect against big dino"
-			tasks: [{
-				id: "07B1B821FC3519CD"
-				item: {
-					Count: 1
-					id: "alexscaves:primitive_club"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -23.0d
-			y: 28.5d
-		}
-		{
-			dependencies: ["65CC2F06272495DB"]
-			id: "6BFF6EBA40A86EB1"
-			rewards: [{
-				id: "57AE3A1C036DFA33"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [
-				{
-					id: "05B0E28CF1FFBC4A"
-					item: {
-						Count: 1
-						id: "alexscaves:primordial_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2C8F13F9281C7FE0"
-					item: {
-						Count: 1
-						id: "alexscaves:primordial_tunic"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "26E6B19B698EF7C5"
-					item: {
-						Count: 1
-						id: "alexscaves:primordial_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -25.0d
-			y: 30.5d
-		}
-		{
-			dependencies: [
-				"6B2047D7A9D2E35E"
-				"65CC2F06272495DB"
-			]
-			description: ["Used to summon &cLuxtructosauros&r"]
-			id: "0AB7F0D505BA018B"
-			rewards: [{
-				id: "699514F052E70146"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "29B04C519E55589C"
-				item: "alexscaves:ominous_catalyst"
-				type: "item"
-			}]
-			x: -26.0d
-			y: 29.0d
-		}
-		{
-			dependencies: [
-				"6B2047D7A9D2E35E"
-				"65CC2F06272495DB"
-			]
-			id: "6D4D367E160FA5FE"
-			rewards: [{
-				id: "06AF674E00C4C8A1"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "invoke the prehistoric fauna to fight with you!"
-			tasks: [{
-				id: "2141931FD59CD279"
-				item: {
-					Count: 1
-					id: "alexscaves:extinction_spear"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -26.0d
-			y: 28.0d
-		}
-		{
-			dependencies: ["5952AF93B95E494C"]
-			id: "5F97E930E7B908AB"
-			rewards: [{
-				id: "479D7EB411E8470E"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "203CB0886EAE8EFB"
-				item: "alexscaves:limestone_spear"
-				type: "item"
-			}]
-			x: -23.0d
-			y: 27.0d
-		}
-		{
-			dependencies: ["5952AF93B95E494C"]
-			description: ["Upon mining Amber, there is a chance that &6Amber Curiosity&r will drop."]
-			id: "3E1E7BDF07F26798"
-			rewards: [{
-				id: "704922CD66DED068"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "35F18AFCEFF57CF6"
-				item: "alexscaves:amber"
-				type: "item"
-			}]
-			x: -27.0d
-			y: 27.0d
-		}
-		{
-			dependencies: ["3E1E7BDF07F26798"]
-			id: "6B2047D7A9D2E35E"
-			rewards: [{
-				id: "1C3C820F16A3E13B"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3F80847D296D5A12"
-				item: "alexscaves:amber_curiosity"
-				type: "item"
-			}]
-			x: -27.0d
-			y: 28.5d
-		}
-		{
-			dependencies: ["0CFA5E7959BB11C3"]
-			description: [
-				"The &6Tremorsaurus&r, the mightiest dinosaur in the Primordial Caves, causes the ground to shake with each step. "
-				""
-				"Though formidable, it can be tamed by stunning it with a &6Primitive Club&r and quickly feeding it &6Serene Salad&r. This process, repeated enough times, eventually tames the creature. "
-				""
-				"A tamed Tremorsaurus allows for riding and breeding. Feeding them &6Dinosaur Chops&r results in an egg, which requires \"&6Silk Touch&r\" to collect without damage."
-			]
-			id: "68BCDC5045F09E16"
-			rewards: [{
-				id: "30B2BE7AEA278A5E"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B047987B04AD080"
-				item: "alexscaves:tremorsaurus_egg"
-				type: "item"
-			}]
-			x: -23.0d
-			y: 30.5d
-		}
-		{
-			dependencies: [
-				"39CA1FF1D5F74761"
-				"3D2650CB3F913539"
-			]
-			description: [
-				"To construct the &6Nuclear Furnace&r, arrange 8 components into a cube. Unlike traditional furnaces that burn coal, this advanced model uses &6Uranium Rods&r for fuel, producing &6Unrefined Waste&r as a byproduct. To prevent the furnace from reaching criticality and exploding, insert &6Metal Barrels&r into the furnace, which will be converted into &6Waste Drums&r filled with the byproduct."
-				""
-				"Disposing of these Waste Drums is challenging due to their potential to explode and contaminate the area with radiation. It might be safer to &6securely store them indefinitely&r, avoiding the risks associated with their destruction."
-			]
-			id: "345E35BCF0E07FE7"
-			rewards: [{
-				id: "08F895AA28E599AF"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				count: 8L
-				id: "66BA084B8FD8A7C9"
-				item: "alexscaves:nuclear_furnace_component"
-				type: "item"
-			}]
-			x: -20.0d
-			y: 28.5d
-		}
-		{
-			dependencies: ["38325B285FDE9576"]
-			description: ["Hazmat Armor uses many layers to reduce damage from Acid and the Irradiated effect."]
-			id: "5DF0DC8F642AA126"
-			rewards: [{
-				id: "6FA6029D4797B98B"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "350AFB1EF0E99E8A"
-					item: {
-						Count: 1
-						id: "alexscaves:hazmat_mask"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "01305FA43524C198"
-					item: {
-						Count: 1
-						id: "alexscaves:hazmat_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "67777786F3210299"
-					item: {
-						Count: 1
-						id: "alexscaves:hazmat_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "67296CEA61D9CF3D"
-					item: {
-						Count: 1
-						id: "alexscaves:hazmat_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Hazmat Suit"
-			x: -17.0d
-			y: 28.5d
-		}
-		{
-			dependencies: ["52034A3AD5A347C8"]
-			id: "39CA1FF1D5F74761"
-			rewards: [{
-				id: "393B069D4647E41C"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2C6CB9DC4CE7211E"
-				item: "alexscaves:uranium_rod"
-				type: "item"
-			}]
-			x: -19.0d
-			y: 27.0d
-		}
-		{
-			dependencies: ["39CA1FF1D5F74761"]
-			id: "1D7887F2DD464E2C"
-			rewards: [{
-				id: "535DCCA3ECBF4C3B"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			shape: "octagon"
-			subtitle: "A big explosion with a cool animation."
-			tasks: [{
-				id: "4CCAB928236CD6F9"
-				item: "alexscaves:nuclear_bomb"
-				type: "item"
-			}]
-			x: -18.5d
-			y: 28.5d
-		}
-		{
-			dependencies: ["1D7887F2DD464E2C"]
-			id: "60F134732D603EDE"
-			rewards: [{
-				id: "2B1FF23AAB9949A5"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			shape: "octagon"
-			subtitle: "fast damage it uses uranium rod as fuel"
-			tasks: [{
-				id: "32E7188CD54F93CB"
-				item: "alexscaves:raygun"
-				type: "item"
-			}]
-			x: -18.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["52034A3AD5A347C8"]
-			description: ["&6Radon Gas&r, collectable by using a &6glass bottle&r on the fumes from &6Geothermal Vents&r, serves a dual purpose. "]
-			id: "38325B285FDE9576"
-			rewards: [{
-				id: "034C4203E47B2431"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1D9AD64A66E3E8AA"
-				item: "alexscaves:radon_bottle"
-				type: "item"
-			}]
-			x: -17.5d
-			y: 27.0d
-		}
-		{
-			dependencies: ["52034A3AD5A347C8"]
-			description: ["The &6Brainiac&r, a formidable mutant born from zombies and other cryptic creatures, is known for its speed, aggression, and strength. Its long tongue allows it to lash out at targets from afar. Notably, Brainiacs carry &6Waste Drums&r on their backs, using them both for self-healing and as projectiles in attacks. Defeating a Brainiac may yield a &6Charred Remnant&r."]
-			id: "3D2650CB3F913539"
-			rewards: [{
-				id: "4E9DC4B2D6F17EED"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "27451E43348027CA"
-				item: "alexscaves:charred_remnant"
-				type: "item"
-			}]
-			x: -20.5d
-			y: 27.0d
-		}
-		{
-			dependencies: ["3D2650CB3F913539"]
-			description: ["&6The nuclear siren&r will emit a loud sound if any imminent nuclear explosion is going to happen. The siren will make a sound within a range of 128 blocks."]
-			id: "14A5FF0F3BCF9C41"
-			rewards: [{
-				id: "3CD22CD86CB0BF9E"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "55442F20DA7F96C7"
-				item: "alexscaves:nuclear_siren"
-				type: "item"
-			}]
-			x: -21.5d
-			y: 28.5d
-		}
-		{
-			dependencies: ["1D7887F2DD464E2C"]
-			description: ["The remote detonator allows you to detonate any type of TNT from a certain distance."]
-			id: "73F56AA993211D9E"
-			rewards: [{
-				id: "6FA59B744705F7CE"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2650BD2D77B434BF"
-				item: "alexscaves:remote_detonator"
-				type: "item"
-			}]
-			x: -19.0d
-			y: 30.0d
-		}
-		{
 			dependencies: ["5BAE6CD47D4ABF2D"]
 			description: [
 				"Enhance your Minecraft experience with &cImmersive Paintings&r. "
@@ -5374,6 +3927,78 @@
 			}]
 			title: "Framed Blocks"
 			x: -6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["04D09899362AFC7A"]
+			description: [
+				"A new village civilization has been discovered in &6the Swamps&r. We have named them &aRibbits&r as the habitants of this new village are Frogs. "
+				""
+				"Further studies are needed to find their origin but some researchers believe a Witch might have dropped some Ooze by mistake in the waters, turning the frogs into &aRibbits&r. "
+				""
+				"The &aRibbits&r have an enjoyment for music, they can be found playing various instruments by themselves or in groups, like a Frog band, makes me wonder if they are playing the Frog Choir? At least the moon is not falling in 3 days haha."
+				""
+				"Researchers have found that if you play with Maracas, the &aRibbits&r will join you and play their instruments. "
+				""
+				"&eJobs:&r Surprisingly &aRibbits&r have developed jobs. There are a few being the follow:"
+				""
+				"&b->Witches: &rThey may occasionally give you random potion effects."
+				""
+				"&b->Fisher:&r They can be found fishing near the lake swamps and you can trade with them and curiously they give out &ccolorful corundum&r. How do they get it? Researchers are still looking into that."
+				""
+				"&b->Farmers:&r They make crops grow faster. They have a formula that the water they pour is just like bone meal! Fascinating! "
+				""
+				"&b->Merchants:&r They are merchants, you can spot them by their backpack and they trade with you. Surprisingly they &ctrade corundum in various colors&r and a&d Maraca&r. We don’t know where they get the corundum from but the colors of corundum they have for trade changes from Merchant to Merchant."
+			]
+			id: "1278600075A14600"
+			rewards: [{
+				id: "7FA853760C14AB69"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "ribbits:swamp_daisy"
+				id: "3F7B2CF420C184B0"
+				structure: "ribbits:ribbit_village"
+				type: "structure"
+			}]
+			title: "&2Find a Ribbit village"
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0C49795E134A27E0"]
+			description: ["&6🔓 Unlocks Sophisticated Storage chapter&r"]
+			id: "261651FB7B600587"
+			rewards: [{
+				count: 4
+				id: "64DBDCF395159258"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			subtitle: "Craft a Chest or a Barrel"
+			tasks: [{
+				id: "0A4067255335AACF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:barrel"
+							}
+							{
+								Count: 1b
+								id: "minecraft:chest"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Chest"
+			x: -27.0d
 			y: 20.0d
 		}
 	]

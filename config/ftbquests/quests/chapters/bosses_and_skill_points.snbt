@@ -73,7 +73,7 @@
 			y: 9.5d
 		}
 	]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -2183,44 +2183,6 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [
-				"&8&oThe once endless ocean, the waters of which were raised from the depths by gusty winds, the ocean that was sailed by brave voyagers and fearsome flotillas of pillagers, is now chained in ice and snow."
-				""
-				"&8&oFrozen in time... The ships of those who were unlucky froze in the merciless ice, at the same moment terrible creatures crawled out of the abyss into the light of day. Through the blizzard, only the rare sounds of the horns of those who still hope for rescue are heard. What could transform the once unbridled ocean so drastically?&r&r"
-			]
-			icon: "aquamirae:rune_of_the_storm"
-			id: "44DCD0A86F67612E"
-			rewards: [
-				{
-					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
-					icon: "kubejs:skill_add_point"
-					id: "4183F285584DF8D4"
-					silent: true
-					title: "+1 Skill Point"
-					type: "command"
-				}
-				{
-					id: "05E1AF818FCD9FF0"
-					item: "numismatics:cog"
-					type: "item"
-				}
-			]
-			shape: "square"
-			subtitle: "&6⭐⭐⭐⭐&7⭐"
-			tasks: [{
-				entity: "aquamirae:captain_cornelia"
-				icon: "aquamirae:rune_of_the_storm"
-				id: "7CCBCB6DC88FB248"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&2Overworld&f: Captain King Cornelia"
-			x: 4.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
 			description: ["&6The Conjurer&r is a magician inspired Illager miniboss. He owns a&c theater&r deep in the roofed forest biome. He has plenty of tricks up his sleve, so don’t take him lightly!"]
 			icon: {
 				Count: 1
@@ -2357,7 +2319,6 @@
 				"188968771B831DCE"
 				"065A5A976F0D8FF9"
 				"485FA783FD36FB50"
-				"44DCD0A86F67612E"
 				"6AC1E375CA7DA676"
 				"1118D777AFDEABF1"
 				"079641D681493C48"
@@ -3038,8 +2999,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Lifestealer"
-			x: 1.0d
-			y: 8.5d
+			x: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]

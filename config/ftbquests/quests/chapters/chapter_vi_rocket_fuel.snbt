@@ -732,6 +732,26 @@
 			x: 4.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["615126E9C29AA0F1"]
+			description: ["&6The Flarestack&r is an item that burns the excess liquids produced by the&b Distillation&r or by the &cCoke Oven&r by pumping the liquids with a Mechanical Pump to the &6Flarestack&r."]
+			id: "2CE24FDF53DE273B"
+			rewards: [{
+				count: 2
+				id: "618C069B5CAF6E84"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "54F13ECC4CDADE55"
+				item: "tfmg:flarestack"
+				type: "item"
+			}]
+			title: "What to do with excess liquids?"
+			x: -1.5d
+			y: -0.5d
+		}
 	]
 	title: "Chapter VI: Rocket Fuel"
 }
