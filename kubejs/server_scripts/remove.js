@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
     //Remove by recipe ID
     [
         'irons_spellbooks:lesser_spell_slot_upgrade',
+        'create_dd:acompat/createaddition/charging/overcharge_alloy',
         'ars_nouveau:glyph_animate_block',
         'ars_nouveau:burst',
         'twilightforest:uncrafting_table',

@@ -18,12 +18,12 @@
 	small_connector_wire_length = 18
 	#Large Connector max input in FE/t (Energy transfer).
 	#Range: > 0
-	large_connector_max_input = 5000
+	large_connector_max_input = 10000
 	#Allows blocks attached to a connector to freely pass energy to and from the connector network.
 	connector_allow_passive_io = true
 	#Large Connector max output in FE/t (Energy transfer).
 	#Range: > 0
-	large_connector_max_output = 5000
+	large_connector_max_output = 10000
 	#Ignore checking if block face can support connector.
 	connector_ignore_face_check = true
 
@@ -44,22 +44,22 @@
 [portable_energy_interface]
 	#PEI max output in FE/t (Energy transfer).
 	#Range: > 0
-	pei_max_output = 5000
+	pei_max_output = 10000
 	#PEI max input in FE/t (Energy transfer).
 	#Range: > 0
-	pei_max_input = 5000
+	pei_max_input = 10000
 
 #Electric Motor
 [electric_motor]
 	#Electric Motor internal capacity in FE.
 	#Range: > 0
-	motor_capacity = 5000
+	motor_capacity = 10000
 	#Electric Motor minimum required energy consumption in FE/t.
 	#Range: > 0
 	motor_min_consumption = 8
 	#Electric Motor max input in FE (Energy transfer not consumption).
 	#Range: > 0
-	motor_max_input = 5000
+	motor_max_input = 10000
 	#Electric Motor min/max RPM.
 	#Range: > 1
 	motor_rpm_range = 256
@@ -68,7 +68,7 @@
 [tesla_coil]
 	#Tesla Coil charge rate in FE/t.
 	#Range: > 0
-	tesla_coil_charge_rate = 5000
+	tesla_coil_charge_rate = 2000000
 	#Tesla Coil fire interval (in ticks).
 	#Range: > 0
 	tesla_coil_fire_cooldown = 20
@@ -77,7 +77,7 @@
 	tesla_coil_hurt_range = 3
 	#Tesla Coil internal capacity in FE.
 	#Range: > 0
-	tesla_coil_capacity = 40000
+	tesla_coil_capacity = 2000000
 	#Energy consumed when Tesla Coil is fired (in FE).
 	#Range: > 0
 	tesla_coil_hurt_energy_required = 1000
@@ -95,10 +95,10 @@
 	tesla_coil_recipe_charge_rate = 2000
 	#Damaged dealt to mobs when Tesla Coil is fired (in half hearts).
 	#Range: > 0
-	tesla_coil_hurt_mob = 3
+	tesla_coil_hurt_mob = 5
 	#Damaged dealt to players when Tesla Coil is fired (in half hearts).
 	#Range: > 0
-	tesla_coil_hurt_player = 2
+	tesla_coil_hurt_player = 4
 
 #Alternator
 [alternator]
@@ -107,28 +107,28 @@
 	generator_efficiency = 0.75
 	#Alternator internal capacity in FE.
 	#Range: > 0
-	generator_capacity = 5000
+	generator_capacity = 10000
 	#Alternator max input in FE (Energy transfer, not generation).
 	#Range: > 0
-	generator_max_output = 5000
+	generator_max_output = 10000
 
 #Accumulator
 [accumulator]
 	#Accumulator internal capacity per block in FE.
 	#Range: > 0
-	accumulator_capacity = 2000000
+	accumulator_capacity = 4000000
 	#Accumulator max output in FE/t (Energy transfer).
 	#Range: > 0
-	accumulator_max_output = 5000
+	accumulator_max_output = 100000
 	#Accumulator max input in FE/t (Energy transfer).
 	#Range: > 0
-	accumulator_max_input = 5000
+	accumulator_max_input = 10000
 	#Accumulator max multiblock height.
 	#Range: 1 ~ 8
-	accumulator_max_height = 5
+	accumulator_max_height = 8
 	#Accumulator max multiblock width.
 	#Range: 1 ~ 8
-	accumulator_max_width = 3
+	accumulator_max_width = 5
 
 #Rolling Mill
 [rolling_mill]
@@ -146,5 +146,5 @@
 	diamond_grit_sandpaper_uses = 1024
 	#Barbed Wire Damage.
 	#Range: 0.0 ~ 3.4028234663852886E38
-	barbed_wire_damage = 2.0
+	barbed_wire_damage = 4.0
 

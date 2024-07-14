@@ -2150,7 +2150,7 @@
 				"&nWild drygmy may be befriended by throwing a&r &eWilden Horn near it!&r You may dye a Drygmy Cyan, Orange, or Brown."
 				""
 				"&2> Summoning&r"
-				"To summon a Drygmy, use a Drymy Charm on a block of Mossy Cobblestone. After a short time, the cobblestone will transform into a Drygmy Henge and summon your Drgymy! To summon additional drygmys, use more charms on the henge. Casting dispel or killing the Drygmy will return your charm."
+				"To summon a Drygmy, use a Drymy Charm on a block of &aMossy Cobblestone&r. After a short time, the cobblestone will transform into a Drygmy Henge and summon your Drgymy! To summon additional drygmys, use more charms on the henge. Casting dispel or killing the Drygmy will return your charm."
 				""
 				"&2> Happiness&r"
 				"A Drygmy considers its home to be 10 blocks in every direction from its home. The drygmy will use this area to produce items from any entities nearby. Your drgymy's efficiency is dependent on its happiness. This may be increased for each entity nearby, with a bonus for each unique type in its home. Nearby Containment Jars will also count as an entity."

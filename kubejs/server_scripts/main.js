@@ -153,7 +153,7 @@ ServerEvents.recipes(event => {
       Item.of(CR('mechanical_plough'), 1),
       Item.of(CR('mechanical_saw'), 1),
       Item.of(CR('mechanical_drill'), 1),
-      Item.of(CR('encased_chain_drive'), 3),
+      Item.of(CR('encased_chain_drive'), 4),
       Item.of(CR('adjustable_chain_gearshift'), 2),
       Item.of(CR('gearshift'), 2),
       Item.of(CR('clutch'), 2),
@@ -792,7 +792,28 @@ ServerEvents.recipes(event => {
     ---->Chp 9 Calculation Mechanism
     ==============================
   */
-
+    event.custom({
+      "type": CRA('rolling'),
+      "input": {
+            "item": KJ('ingot_mystic_coal')
+      },
+      "result": {
+          "item": KJ('rod_mystic_coal'),
+          "count": 3
+      }
+  })
+  event.custom({
+    "type": CRA('charging'),
+    "input": {
+          "item": CRDD('chromatic_compound'),
+          "count": 1
+    },
+    "result": {
+        "item": CRDD('overcharge_alloy'),
+        "count": 1
+    },
+    "energy": 5000000,
+})
   event.recipes.createHaunting('forbidden_arcanus:darkstone',MC('blackstone'))
   //arcane crystal
   event.recipes.createMechanicalCrafting('forbidden_arcanus:arcane_crystal', [

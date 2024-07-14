@@ -1,5 +1,12 @@
 LootJS.modifiers((event) => {
 
+  const DRYGMY_UUID = "[I;1946194541,268914259,-2012236738,1743961897]";
+  const onlyDrygmy = (builder) =>
+  builder.matchKiller((entity) => entity.nbt(`{UUID:${DRYGMY_UUID}}`));
+  onlyDrygmy(event.addEntityLootModifier("minecraft:chicken")).addLoot(
+    "minecraft:egg",
+  );
+
     // List of village loot tables
     const villageLootTables = [
       'minecraft:chests/village/village_armorer',
