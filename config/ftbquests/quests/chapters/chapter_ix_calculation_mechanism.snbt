@@ -1326,6 +1326,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "You can find corundum in caves or by trading with Ribbits."
 			tasks: [{
 				id: "75C843ADAA77974C"
 				item: "quark:red_corundum_cluster"
@@ -1344,6 +1345,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "You can find corundum in caves or by trading with Ribbits."
 			tasks: [{
 				id: "385736B84922A6AE"
 				item: "quark:orange_corundum_cluster"
@@ -1362,6 +1364,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "You can find corundum in caves or by trading with Ribbits."
 			tasks: [{
 				id: "7EF38417438E1FF9"
 				item: "quark:yellow_corundum_cluster"
@@ -1380,6 +1383,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "You can find corundum in caves or by trading with Ribbits."
 			tasks: [{
 				id: "5B09A686F862388E"
 				item: "quark:green_corundum_cluster"
@@ -1398,6 +1402,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "You can find corundum in caves or by trading with Ribbits."
 			tasks: [{
 				id: "4FD7822593A67917"
 				item: "quark:blue_corundum_cluster"
@@ -1416,6 +1421,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "You can find corundum in caves or by trading with Ribbits."
 			tasks: [{
 				id: "52A48E3C059C1B04"
 				item: "quark:indigo_corundum_cluster"
@@ -1434,6 +1440,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "You can find corundum in caves or by trading with Ribbits."
 			tasks: [{
 				id: "69C1DB59CCC51C37"
 				item: "quark:violet_corundum_cluster"
@@ -1452,6 +1459,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "You can find corundum in caves or by trading with Ribbits."
 			tasks: [{
 				id: "7054C30FB69EE656"
 				item: "quark:white_corundum_cluster"
@@ -1470,6 +1478,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "You can find corundum in caves or by trading with Ribbits."
 			tasks: [{
 				id: "30AF44076DFD1A95"
 				item: "quark:black_corundum_cluster"
@@ -1563,6 +1572,7 @@
 			dependencies: ["12B028C021E25ED0"]
 			id: "0DECC9938E6EB5D4"
 			rewards: [{
+				count: 5
 				id: "561C62E154350235"
 				item: "numismatics:bevel"
 				type: "item"
@@ -1620,6 +1630,7 @@
 			dependency_requirement: "one_completed"
 			id: "56C3DE7F230ED103"
 			rewards: [{
+				count: 5
 				id: "439CA42D34255D39"
 				item: "numismatics:bevel"
 				type: "item"
@@ -1634,8 +1645,10 @@
 		}
 		{
 			dependencies: ["78344EA2C9E89AD9"]
+			description: ["This takes around &b2 minuts&r per alloy to charge with tesla coil."]
 			id: "12B028C021E25ED0"
 			rewards: [{
+				count: 5
 				id: "44CC526EBF3E033B"
 				item: "numismatics:bevel"
 				type: "item"

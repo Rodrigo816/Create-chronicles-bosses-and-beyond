@@ -199,11 +199,19 @@
 				"&7&o - Rodrigo Borba, from Azores, Portugal.&r&r"
 			]
 			id: "28D0EEACC8402E6C"
-			rewards: [{
-				id: "0C736B8FD3C2C168"
-				item: "kubejs:engineer_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0C736B8FD3C2C168"
+					item: "kubejs:engineer_badge"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3D796706944FA60C"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
 			shape: "heart"
 			size: 2.0d
 			tasks: [{

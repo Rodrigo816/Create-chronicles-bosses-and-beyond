@@ -367,6 +367,8 @@
 			description: [
 				"&6The Blast Furnace&r is a multi block machine. Make sure to use the pounder function (pressing W) to see how to build the Blast Furnace."
 				""
+				"If it doesn't work, try breaking the blast furnace output and placing it again. If this still doesn't work, you might be doing something wrong."
+				""
 				"&6Tip:&r You will generate two types of liquids, Molten Slag and Molten Steel. An easy way to separate them is by using just one Smart Pipe and a List Filter. Using JEI (Just Enough Items) search function, you can drag an item, for example the Molden Steel Bucket into the List Filter and then place the List Filter in the Smart Pipe Filter. This way you can separate both liquids without needing to actually have them first"
 			]
 			id: "0AB740B18E5FA805"

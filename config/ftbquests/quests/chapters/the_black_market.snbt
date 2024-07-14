@@ -472,9 +472,16 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 3000L
 					id: "6D400563DE8E6D33"
 					item: "create_dd:sealed_mechanism"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4B613196A93FBC2F"
+					item: "mowziesmobs:sol_visage"
 					type: "item"
 				}
 			]
@@ -1335,7 +1342,7 @@
 				}
 				{
 					consume_items: true
-					count: 2000L
+					count: 3000L
 					id: "4FE1ABC06A28DB4D"
 					item: "ad_astra:ostrum_plate"
 					type: "item"
@@ -2367,6 +2374,12 @@
 				{
 					exclude_from_claim_all: true
 					id: "3705BDD892470FC5"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C531064CA8F5F91"
 					table_id: 6337359776125332254L
 					type: "loot"
 				}

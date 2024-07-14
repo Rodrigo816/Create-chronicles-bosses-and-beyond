@@ -30,6 +30,7 @@ ServerEvents.recipes(event => {
     [
         'irons_spellbooks:lesser_spell_slot_upgrade',
         'create_dd:acompat/createaddition/charging/overcharge_alloy',
+        'forbidden_arcanus:arcane_crystal_dust',
         'ars_nouveau:glyph_animate_block',
         'ars_nouveau:burst',
         'twilightforest:uncrafting_table',

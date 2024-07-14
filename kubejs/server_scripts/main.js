@@ -679,8 +679,8 @@ ServerEvents.recipes(event => {
 
   transitional = KJ('incomplete_t2_plating')
   event.recipes.createSequencedAssembly([
-    Item.of(KJ('tier_2_plating')).withChance(75.0),
-    Item.of(ASTRA('desh_plate')).withChance(30.0),
+    Item.of(KJ('tier_2_plating')).withChance(80.0),
+    Item.of(ASTRA('desh_plate')).withChance(20.0),
   ], KJ('tier_1_plating'), [
     event.recipes.createDeploying(transitional, [transitional, ASTRA('desh_plate')]),
     event.recipes.createPressing(transitional, transitional)
@@ -721,8 +721,8 @@ ServerEvents.recipes(event => {
   
   transitional = KJ('incomplete_t3_plating')
   event.recipes.createSequencedAssembly([
-    Item.of(KJ('tier_3_plating')).withChance(40.0),
-    Item.of(ASTRA('ostrum_plate')).withChance(60.0),
+    Item.of(KJ('tier_3_plating')).withChance(80.0),
+    Item.of(ASTRA('ostrum_plate')).withChance(20.0),
   ], KJ('tier_2_plating'), [
     event.recipes.createDeploying(transitional, [transitional, ASTRA('ostrum_plate')]),
     event.recipes.createPressing(transitional, transitional)
@@ -815,6 +815,9 @@ ServerEvents.recipes(event => {
     "energy": 5000000,
 })
   event.recipes.createHaunting('forbidden_arcanus:darkstone',MC('blackstone'))
+
+  //easy arcane crystal dust
+  event.shapeless('forbidden_arcanus:arcane_crystal_dust', ['forbidden_arcanus:arcane_crystal_dust_speck','forbidden_arcanus:arcane_crystal_dust_speck','forbidden_arcanus:arcane_crystal_dust_speck','forbidden_arcanus:arcane_crystal_dust_speck'])
   //arcane crystal
   event.recipes.createMechanicalCrafting('forbidden_arcanus:arcane_crystal', [
       ' D ',
@@ -825,7 +828,7 @@ ServerEvents.recipes(event => {
       A: MC('iron_ingot')
   })
   event.recipes.createCrushing([
-    Item.of(AE2('singularity')).withChance(0.40),
+    Item.of(AE2('singularity')).withChance(0.80),
   ], 'forbidden_arcanus:arcane_crystal_obelisk').processingTime(800)
 
   //shimmer
@@ -906,7 +909,9 @@ ServerEvents.recipes(event => {
   transitional = CRDD('incomplete_calculation_mechanism')
   event.recipes.createSequencedAssembly([
     Item.of(CRDD('calculation_mechanism')).withChance(100.0),
-    Item.of(CRA('copper_spool')).withChance(20.0),
+    Item.of(CRA('copper_spool')).withChance(5.0),
+    Item.of(CRDD('chromatic_compound')).withChance(5.0),
+    Item.of(CR('electron_tube')).withChance(5.0),
   ], CRDD('infernal_mechanism'), [
     event.recipes.createDeploying(transitional, [transitional, CRDD('refined_radiance_sheet')]),
     event.recipes.createDeploying(transitional, [transitional, CRDD('tin_sheet')]),
@@ -921,11 +926,10 @@ ServerEvents.recipes(event => {
     transitional = CRDD('incomplete_integrated_circuit')
     event.recipes.createSequencedAssembly([
       Item.of(CRDD('integrated_circuit')).withChance(100.0),
-      Item.of(MC('glowstone_dust')).withChance(8.0),
-      Item.of(CRA('copper_wire')).withChance(8.0),
-      Item.of(CR('brass_nugget')).withChance(8.0),
-      Item.of(CRA('electrum_nugget')).withChance(8.0),
-      Item.of('create_connected:control_chip').withChance(8.0),
+      Item.of(CRDD('overcharge_alloy_sheet')).withChance(2.0),
+      Item.of(CR('brass_nugget')).withChance(1.0),
+      Item.of(CRA('electrum_nugget')).withChance(1.0),
+      Item.of('create_connected:control_chip').withChance(1.0),
     ], CRDD('calculation_mechanism'), [
       event.recipes.createDeploying(transitional, [transitional, CRDD('overcharge_alloy_sheet')]),
       event.recipes.createDeploying(transitional, [transitional, 'create_connected:control_chip']),
@@ -933,7 +937,7 @@ ServerEvents.recipes(event => {
       event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
       event.recipes.createDeploying(transitional, [transitional, CRA('electrum_wire')]),
     ]).transitionalItem(transitional)
-      .loops(6)
+      .loops(2)
       .id(CRDD('integrated_circuit'))
 
 
