@@ -1,5 +1,30 @@
 Platform.mods.kubejs.name = 'Create Chronicles: Bosses and Beyond'
 
+//Stack Sizes
+ItemEvents.modification(event => {
+    event.modify('minecraft:ender_pearl', item => {
+      item.maxStackSize = 64
+    })
+    event.modify('minecraft:egg', item => {
+        item.maxStackSize = 64
+    })
+    event.modify('create_dd:chromatic_compound', item => {
+        item.maxStackSize = 64
+    })
+    event.modify('create_dd:overcharge_alloy', item => {
+        item.maxStackSize = 64
+    })
+    event.modify('create_dd:overcharge_alloy_sheet', item => {
+        item.maxStackSize = 64
+    })
+    event.modify('create_dd:refined_radiance', item => {
+        item.maxStackSize = 64
+    })
+    event.modify('create_dd:refined_radiance_sheet', item => {
+        item.maxStackSize = 64
+    })
+})
+
 BlockEvents.modification(event => {
     event.modify('waystones:waystone', block =>{
         block.destroySpeed = 50

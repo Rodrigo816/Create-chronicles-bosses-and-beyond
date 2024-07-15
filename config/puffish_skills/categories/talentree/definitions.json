@@ -945,7 +945,7 @@
 	},
 	"ironsLight%md": {
 		"title": "§d[4P] §a+4% Lightning Spell Power",
-		"cost": 5,
+		"cost": 4,
 		"frame": {
 			"type": "texture",
 			"data": {

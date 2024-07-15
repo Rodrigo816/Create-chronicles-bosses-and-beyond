@@ -13,4 +13,8 @@
 		# Default: true
 		#
 		"Apply Mining Fatigue" = true
+		# Whether or not the vanilla Desert Pyramid should be disabled.
+		# Default: true
+		#
+		"Disable Vanilla Desert Pyramid" = false
 

@@ -208,6 +208,8 @@
 			description: [
 				"Nipas can be found in &2&n&aPrimordial Caves from Alex's Caves&r&r&r, so keep your eyes open—they are rare to find."
 				""
+				"Killing luxtructosaurus also drops x10 nipa."
+				""
 				"They produce Arcane Crystal Dust Specks over time, which can be used to create &eArcane Crystal Dust."
 				"&r"
 				"You can automate a nipa farm with create or ars."
@@ -387,7 +389,7 @@
 			description: [
 				"These can be planted to grow Arcane Gold Nuggets."
 				""
-				"To create one, you'll need to find Yellow Orchids."
+				"To create one, you'll need to find Yellow Orchids that can be found in Flower Forest."
 			]
 			hide_dependency_lines: false
 			id: "5ED1896F1986BD2B"

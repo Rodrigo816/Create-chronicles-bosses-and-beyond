@@ -7,6 +7,18 @@ ServerEvents.recipes(event => {
     'forbidden_arcanus:eternal_stella')
     .withNBT({Unbreakable:1});*/
 
+  // convert ice and fire silver nuggets to samurai
+  event.shaped('epicsamurai:silver_ingot', [
+    'AAA',
+    'AAA',
+    'AAA'
+  ], {
+      A:'iceandfire:silver_nugget',
+  })
+  event.shapeless('epicsamurai:silver_ingot',[
+    'iceandfire:silver_ingot',
+  ])
+
   // dirt renew
   event.recipes.createMixing('2x minecraft:dirt',['minecraft:mud','minecraft:gravel','minecraft:clay_ball'])
 
@@ -264,7 +276,7 @@ ServerEvents.recipes(event => {
   event.recipes.createMixing('twilightforest:aurora_block',[
 		'minecraft:ice',
 		'minecraft:ender_pearl',
-    Fluid.of("create_dd:shimmer", 300),
+    Fluid.of("kubejs:shimmer", 300),
 	])
   event.recipes.createMixing('twilightforest:castle_brick',[
 		'minecraft:bricks',

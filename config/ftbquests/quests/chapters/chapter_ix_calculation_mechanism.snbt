@@ -1133,8 +1133,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1CD5DEBDA7F62527"
-				item: "create_dd:shimmer_bucket"
+				id: "6659A320DF24643C"
+				item: "kubejs:shimmer_bucket"
 				type: "item"
 			}]
 			x: 9.0d
@@ -1645,7 +1645,7 @@
 		}
 		{
 			dependencies: ["78344EA2C9E89AD9"]
-			description: ["This takes around &b2 minuts&r per alloy to charge with tesla coil."]
+			description: ["This takes around &b50 seconds&r per alloy to charge with tesla coil. (with proper energy generation)"]
 			id: "12B028C021E25ED0"
 			rewards: [{
 				count: 5

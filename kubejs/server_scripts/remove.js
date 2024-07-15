@@ -28,6 +28,12 @@ ServerEvents.recipes(event => {
 
     //Remove by recipe ID
     [
+        //Shimer
+        CRDD('filling/aethersite'),
+        CRDD('filling/fronzen_nugget'),
+        'irons_spellbooks:lesser_spell_slot_upgrade',
+        'irons_spellbooks:lesser_spell_slot_upgrade',
+
         'irons_spellbooks:lesser_spell_slot_upgrade',
         'create_dd:acompat/createaddition/charging/overcharge_alloy',
         'forbidden_arcanus:arcane_crystal_dust',

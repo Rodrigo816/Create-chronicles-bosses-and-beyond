@@ -12,6 +12,9 @@ ClientEvents.lang('en_us', event => {
 })
 
 JEIEvents.hideItems(event => {
+  //temp
+  event.hide('forbidden_arcanus:orb_of_temporary_flight')
+
 
   //Steel
   event.hide('create_dd:steel_ingot')
@@ -66,6 +69,7 @@ JEIEvents.hideItems(event => {
   event.hide('create_dd:chocolate_milkshake')
   event.hide('create_dd:chocolate_milkshake_bucket')
   event.hide('create_confectionery:caramel_bucket')
+  event.hide('create_dd:shimmer_bucket')
   event.hide('create_dd:hot_chocolate')
   event.hide('create_dd:hot_chocolate_bucket')
   event.hide('aquamirae:divider')
@@ -98,6 +102,7 @@ JEIEvents.hideFluids((event) => {
   event.hide('create_confectionery:caramel')
   event.hide('create_dd:hot_chocolate')
   event.hide('create_dd:vanilla_milkshake')
+  event.hide('create_dd:shimmer')
 });
 
 ItemEvents.tooltip(event => {

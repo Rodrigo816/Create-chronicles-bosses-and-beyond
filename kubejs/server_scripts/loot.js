@@ -26,12 +26,50 @@ LootJS.modifiers((event) => {
       'minecraft:chests/village/village_toolsmith',
       'minecraft:chests/village/village_weaponsmith'
   ];
+  const dim = [
+    'dimdungeons:chests/chestloot_advanced_easy',
+    'dimdungeons:chests/chestloot_basic_easy',
+    'dimdungeons:chests/chestloot_crazy',
+    'dimdungeons:chests/chestloot_lucky',
+    'dimdungeons:chests/kit_random',
+    'dimdungeons:chests/chestloot_advanced_hard',
+    'dimdungeons:chests/chestloot_basic_hard'
+  ];
+
+  const ribbits = [
+    'ribbits:chests/fisherman_main',
+    'ribbits:chests/merchant',
+    'ribbits:chests/nitwit',
+    'ribbits:chests/sorcerer',
+  ];
 
   function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
-  // Add mechanisms to all village loot tables
+  // dimensional
+  dim.forEach(lootTable => {
+    event.addLootTableModifier(lootTable)
+    .addWeightedLoot(
+      [1, 8],
+      [
+        Item.of("kubejs:rotation_mechanism").withChance(7)
+      ]
+    );
+  });
+
+  // ribbits
+  ribbits.forEach(lootTable => {
+    event.addLootTableModifier(lootTable)
+    .addWeightedLoot(
+      [1, 5],
+      [
+        Item.of("kubejs:rotation_mechanism").withChance(7)
+      ]
+    );
+  });
+
+  // DimDungeons
   villageLootTables.forEach(lootTable => {
     event.addLootTableModifier(lootTable)
     .addWeightedLoot(
@@ -42,6 +80,12 @@ LootJS.modifiers((event) => {
     );
   });
 
+  event
+  .addEntityLootModifier("alexscaves:luxtructosaurus")
+  .addLoot(Item.of("10x forbidden_arcanus:nipa"));  
+
+
+  
 
   //Dragon Chests - LIGHTNING
   event.addLootTableModifier("mowziesmobs:chests/umvuthana_grove_chest")
