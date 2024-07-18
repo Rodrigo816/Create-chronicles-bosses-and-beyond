@@ -719,7 +719,7 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
-			description: ["Although it shows a Honey Bottle, you need to actually use a Honey Bucket. "]
+			description: ["Although it shows a Honey Bottle, you need to actually use a&n Honey Bucket with filling by spout.&r&c "]
 			hide: true
 			hide_dependency_lines: true
 			id: "184B9A5F983FA7A5"

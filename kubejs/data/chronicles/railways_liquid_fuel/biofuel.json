@@ -1,0 +1,7 @@
+{
+  "fluids": [
+    "createaddition:flowing_bioethanol",
+    "createaddition:bioethanol"
+  ],
+  "fuel_ticks": 800
+}

@@ -4001,6 +4001,24 @@
 			x: -27.0d
 			y: 20.0d
 		}
+		{
+			dependencies: ["478DE12D3EF8C22A"]
+			description: ["When placed, the &9Dread Lamp&r prevents all passive mobs from naturally spawning in a &d96 block radius&r."]
+			id: "256C0855A1AD720B"
+			rewards: [{
+				count: 5
+				id: "1B0A6375471607B5"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A80939497557BD4"
+				item: "torchmaster:dreadlamp"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.5d
+		}
 	]
 	title: "&6&nGetting Started!"
 }

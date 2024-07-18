@@ -48,7 +48,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-			subtitle: "You can also mine if you prefer."
+			subtitle: "It doesn't generate with the world."
 			tasks: [{
 				id: "45FB9E932E894AF0"
 				item: "ad_astra:desh_ingot"

@@ -479,10 +479,10 @@
 					type: "item"
 				}
 				{
-					consume_items: true
-					id: "4B613196A93FBC2F"
-					item: "mowziesmobs:sol_visage"
-					type: "item"
+					amount: 1000L
+					fluid: "ad_astra:cryo_fuel"
+					id: "3AE293593FC08811"
+					type: "fluid"
 				}
 			]
 			title: "Infinity Wand"

@@ -5186,7 +5186,21 @@
 		}
 		{
 			dependencies: ["377D64FABCA6D4C0"]
-			description: ["&n&l&cTrains need fuel to run!&r&r&r Use Lava in a Fuel Tank or Coal inside a Chest to be consumed to power the train"]
+			description: [
+				"&n&l&cTrains need fuel to run!&r&r&r Use &4Lava&r in a&d Fuel Tank&r or &0Coal&r inside a Chest to be consumed to power the train."
+				""
+				"&nOther types of fuel:&r"
+				""
+				"&eDiesel: &r2.4x more efficient than lava"
+				""
+				"&eGasoline:&r 1.8x more efficient than lava"
+				""
+				"&eKerosene:&r 1.6x more efficient than lava"
+				""
+				"&eBiofuel: &r1.6x more efficient than lava"
+				""
+				"&eNaphtha:&r 1.3x more efficient than lava"
+			]
 			id: "1CBDE7EDBC42B8E4"
 			rewards: [{
 				id: "005521E5489AA742"

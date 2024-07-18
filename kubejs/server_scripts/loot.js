@@ -391,7 +391,26 @@ LootJS.modifiers((event) => {
   event
     .addLootTypeModifier(LootType.FISHING)
     .removeLoot('tombstone:grave_dust')
-
+  
+  //Space
+  event
+    .addLootTableModifier("ad_astra:chests/village/moon/blacksmith")
+    .addWeightedLoot(
+      [1,2],
+      [
+        Item.of("create_dd:refined_radiance",10).withChance(70),
+        Item.of("minecraft:diamond",5).withChance(70),
+      ]
+      );
+  event
+    .addLootTableModifier("ad_astra:chests/village/moon/house")
+    .addWeightedLoot(
+      [1,2],
+      [
+        Item.of("create_dd:refined_radiance",10).withChance(60),
+        Item.of("minecraft:diamond",5).withChance(30),
+      ]
+      );  
   event
       .addLootTableModifier("ad_astra:chests/dungeon/moon/dungeon_chest")
       .addWeightedLoot(
@@ -403,7 +422,7 @@ LootJS.modifiers((event) => {
           Item.of("ae2:logic_processor_press").withChance(15),
           Item.of("ae2:silicon_press").withChance(15)
         ]
-    );
+      );      
   event
     .addBlockLootModifier(/waystones\:.*waystone/)
     .removeLoot(/waystones\:.*waystone/)
