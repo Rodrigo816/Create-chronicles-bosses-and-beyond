@@ -99,6 +99,7 @@
 		}
 		{
 			dependencies: ["1634E09874D00AFF"]
+			description: ["Ostrum ore was been removed from world generation."]
 			id: "7C056525139CEE2D"
 			rewards: [{
 				count: 2

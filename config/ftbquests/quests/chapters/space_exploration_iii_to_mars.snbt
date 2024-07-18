@@ -48,7 +48,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-			subtitle: "It doesn't generate with the world."
+			subtitle: "Desh ore was been removed from world generation."
 			tasks: [{
 				id: "45FB9E932E894AF0"
 				item: "ad_astra:desh_ingot"

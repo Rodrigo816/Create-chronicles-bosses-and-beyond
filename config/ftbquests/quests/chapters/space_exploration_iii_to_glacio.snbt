@@ -44,7 +44,6 @@
 	quests: [
 		{
 			dependencies: ["70E4055A00E54568"]
-			description: [""]
 			icon: "ad_astra:calorite_ingot"
 			id: "06ACC1F7C8FA8282"
 			rewards: [{
@@ -55,6 +54,7 @@
 			}]
 			shape: "circle"
 			size: 1.0d
+			subtitle: "Calorite ore was been removed from world generation."
 			tasks: [{
 				id: "326F5D87A6C8114F"
 				item: "ad_astra:calorite_ingot"

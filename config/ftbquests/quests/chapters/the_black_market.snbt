@@ -2397,6 +2397,45 @@
 			x: 5.0d
 			y: 9.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "veinmining:vein_mining"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "2FDDCF94BCDC0EA1"
+			rewards: [{
+				id: "269CCAF4178C5FB8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "veinmining:vein_mining"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1810510D4A7D747A"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			title: "Vein Mining"
+			x: 8.0d
+			y: 5.0d
+		}
 	]
 	title: "&0&l The Black Market"
 }
