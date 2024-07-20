@@ -28,7 +28,8 @@ ServerEvents.recipes(event => {
 
     //Remove by recipe ID
     [
-
+        'create:crushing/asurine',
+        'create:crushing/asurine_recycling',
         //Refurbished
         'refurbished_furniture:dough',
         //Shimer
@@ -167,7 +168,7 @@ ServerEvents.recipes(event => {
         CRDD('integrated_mechanism'),
         AE2('small_quartz_bud'),
         CRDD('inductive_mechanism'),
-        CR('asurine'),
+       // CR('asurine'),
         CRDD('shadow_steel'),
         CRDD('blaze_gold'),
         ASTRA('hammer'),
