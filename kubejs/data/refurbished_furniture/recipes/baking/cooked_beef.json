@@ -1,0 +1,8 @@
+{
+  "type": "refurbished_furniture:oven_baking",
+  "ingredient": {
+    "item": "minecraft:beef"
+  },
+  "result": "minecraft:cooked_beef",
+  "time": 300
+}

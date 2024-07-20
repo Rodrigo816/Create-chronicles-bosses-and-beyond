@@ -1,0 +1,8 @@
+{
+  "type": "refurbished_furniture:oven_baking",
+  "ingredient": {
+    "item": "minecraft:cod"
+  },
+  "result": "minecraft:cooked_cod",
+  "time": 100
+}

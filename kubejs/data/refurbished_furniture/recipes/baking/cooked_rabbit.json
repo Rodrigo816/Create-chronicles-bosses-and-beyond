@@ -1,0 +1,8 @@
+{
+  "type": "refurbished_furniture:oven_baking",
+  "ingredient": {
+    "item": "minecraft:rabbit"
+  },
+  "result": "minecraft:cooked_rabbit",
+  "time": 160
+}

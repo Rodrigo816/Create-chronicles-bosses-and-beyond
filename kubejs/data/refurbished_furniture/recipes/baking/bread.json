@@ -1,0 +1,8 @@
+{
+  "type": "refurbished_furniture:oven_baking",
+  "input": {
+    "item": "create:dough"
+  },
+  "result": "minecraft:bread",
+  "time": 500
+}

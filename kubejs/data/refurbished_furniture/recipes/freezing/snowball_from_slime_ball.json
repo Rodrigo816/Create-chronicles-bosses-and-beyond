@@ -1,0 +1,10 @@
+{
+  "type": "refurbished_furniture:freezer_solidifying",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "minecraft:slime_ball"
+  },
+  "result": "minecraft:snowball"
+}

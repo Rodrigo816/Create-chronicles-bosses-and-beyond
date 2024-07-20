@@ -1,0 +1,19 @@
+{
+  "type": "refurbished_furniture:cutting_board_combining",
+  "count": 1,
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    }
+  ],
+  "result": "farmersdelight:mixed_salad"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "refurbished_furniture:cutting_board_combining",
+  "count": 1,
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "farmersdelight:cooked_bacon"
+    },
+    {
+      "tag": "forge:salad_ingredients/cabbage"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    }
+  ],
+  "result": "farmersdelight:bacon_sandwich"
+}

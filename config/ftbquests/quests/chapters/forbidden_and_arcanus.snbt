@@ -242,7 +242,7 @@
 			}]
 			title: "Nipa Plants"
 			x: -10.5d
-			y: 3.5d
+			y: 1.25d
 		}
 		{
 			dependencies: ["29164630E1BD76B5"]
@@ -1634,8 +1634,8 @@
 				}
 			]
 			title: "Mortem Armor"
-			x: -10.5d
-			y: 2.0d
+			x: -9.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["29164630E1BD76B5"]
@@ -1668,7 +1668,7 @@
 				item: "forbidden_arcanus:boom_arrow"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -12.0d
 			y: 3.5d
 		}
 		{
@@ -1685,28 +1685,7 @@
 				item: "forbidden_arcanus:zombie_arm"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["29164630E1BD76B5"]
-			description: [
-				"Found randomly in loot chests from the End City."
-				""
-				"When used, it grants 5 minutes of creative flight."
-			]
-			id: "30D1DBAF41F7D96A"
-			rewards: [{
-				id: "68AE4385F94E2521"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "2B50F2B83CDFA12C"
-				item: "forbidden_arcanus:orb_of_temporary_flight"
-				type: "item"
-			}]
-			x: -12.0d
+			x: -9.0d
 			y: 3.5d
 		}
 	]

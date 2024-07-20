@@ -13,8 +13,12 @@ ClientEvents.lang('en_us', event => {
 
 JEIEvents.hideItems(event => {
   //temp
+  event.hide('refurbished_furniture:wheat_flour')
+  event.hide('refurbished_furniture:dough')
+
   event.hide('forbidden_arcanus:orb_of_temporary_flight')
   event.hide('irons_spellbooks:lesser_spell_slot_upgrade')
+  
 
 
   //Steel

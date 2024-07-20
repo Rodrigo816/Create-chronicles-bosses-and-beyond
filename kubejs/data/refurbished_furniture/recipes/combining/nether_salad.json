@@ -1,0 +1,16 @@
+{
+  "type": "refurbished_furniture:cutting_board_combining",
+  "count": 1,
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    }
+  ],
+  "result": "farmersdelight:nether_salad"
+}

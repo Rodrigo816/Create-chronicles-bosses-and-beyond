@@ -1,0 +1,109 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:witch_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:cave_spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:zombie_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:spawn_egg_farseer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "alexsmobs:spawn_egg_murmur"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "epicsamurai:akaname_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "epicsamurai:enenra_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "epicsamurai:oni_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "epicsamurai:jorogumo_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "born_in_chaos_v1:barrel_zombie_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "born_in_chaos_v1:door_knight_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "born_in_chaos_v1:zombie_lumberjack_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "born_in_chaos_v1:zombie_clown_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "born_in_chaos_v1:bonescaller_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "born_in_chaos_v1:supreme_bonescaller_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ars_nouveau:wilden_guardian_se"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ars_nouveau:wilden_stalker_se"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "graveyard:wraith_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "graveyard:nightmare_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "irons_spellbooks:necromancer_spawn_egg"
+        }
+      ]
+    }
+  ]
+}

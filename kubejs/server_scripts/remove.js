@@ -28,6 +28,9 @@ ServerEvents.recipes(event => {
 
     //Remove by recipe ID
     [
+
+        //Refurbished
+        'refurbished_furniture:dough',
         //Shimer
         CRDD('filling/aethersite'),
         CRDD('filling/fronzen_nugget'),

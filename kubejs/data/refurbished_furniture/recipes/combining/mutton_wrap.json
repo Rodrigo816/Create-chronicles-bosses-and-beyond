@@ -1,0 +1,19 @@
+{
+  "type": "refurbished_furniture:cutting_board_combining",
+  "count": 1,
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "tag": "forge:cooked_mutton"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "result": "farmersdelight:mutton_wrap"
+}

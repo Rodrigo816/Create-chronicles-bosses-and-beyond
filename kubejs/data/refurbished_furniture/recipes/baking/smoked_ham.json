@@ -1,0 +1,8 @@
+{
+  "type": "refurbished_furniture:oven_baking",
+  "ingredient": {
+    "item": "farmersdelight:ham"
+  },
+  "result": "farmersdelight:smoked_ham",
+  "time": 500
+}

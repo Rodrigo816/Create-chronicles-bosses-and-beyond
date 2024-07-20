@@ -1,0 +1,10 @@
+{
+  "type": "refurbished_furniture:freezer_solidifying",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "minecraft:poisonous_potato"
+  },
+  "result": "minecraft:potato"
+}

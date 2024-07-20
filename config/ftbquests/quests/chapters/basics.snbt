@@ -2411,7 +2411,6 @@
 				""
 				""
 				"{@pagebreak}"
-				""
 				"&6Setting respawn&r"
 				""
 				"To set the player's spawn location to the respawn anchor they must use it, just like one does with a bed. The anchor must at least have one charge, and it must be in the Nether. A confirmation appears when the player's respawn location is set. Other players can also set their spawn point to the same respawn anchor. "
@@ -2422,7 +2421,6 @@
 				""
 				""
 				"{@pagebreak}"
-				""
 				"&6Respawn upon player death&r"
 				""
 				"Upon death, the player respawns next to the anchor, and it loses one charge."
@@ -2431,14 +2429,12 @@
 				""
 				""
 				"{@pagebreak}"
-				""
 				"&6Exploding&r"
 				""
 				"If the player attempts to set their spawn at a charged respawn anchor in the Overworld, the End, or custom dimensions in which they are disabled, the block explodes (and is destroyed) similar to when a bed is used in the Nether or the End. The explosion has a power of 5 and sets fire to surrounding blocks."
 				""
 				""
 				"{@pagebreak}"
-				""
 				"&6Redstone component&r"
 				""
 				"When charged, a redstone comparator gives a signal depending on the number of charges: 3 for one charge, 7 for two charges, 11 for three charges, 15 for four charges. An empty anchor gives a signal of 0."
@@ -2449,7 +2445,6 @@
 				""
 				""
 				"{@pagebreak}"
-				""
 				"&6Mobs&r"
 				""
 				"Hoglins run away from respawn anchors."
@@ -2709,47 +2704,31 @@
 		{
 			dependencies: ["5BAE6CD47D4ABF2D"]
 			description: [
-				"Are you building a kitchen and wish you had sinks and counters with different wood and stone options to match your build, including both Vanilla and Modded materials? What about adding a small backyard or garden with a grill for BBQing your meats?"
+				"Experience the &6Refurbished MrCrayfish's Furniture&r Mod, and &afurnish&r your house with hundreds of new and original decorative and functional blocks. "
 				""
-				"&6MrCrayfish's Furniture&r has you covered. This mod offers a massive collection of decorative and functional blocks to spice up your living space."
+				"Jump into new gameplay mechanics with its own electricity system to power appliances and electronics, including generators, light switches, lights, and more! "
+				""
+				"Enjoy a working mail delivery system that allows you to send and receive items into your own mailbox. "
+				""
+				"It also has compatibility with Farmer's Delight: Pot and Skillet can be used on the Stove."
+				""
+				"&e@refurbished&r"
 			]
-			icon: "cfm:oak_chair"
+			icon: "refurbished_furniture:pink_kitchen_sink"
 			id: "0CAD67E9B2DC3B59"
 			rewards: [{
-				id: "34F3A45B484C7088"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "3687E15941DA7C90"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "itemfilters:mod"
-								tag: {
-									value: "cfm"
-								}
-							}
-							{
-								Count: 1b
-								id: "itemfilters:mod"
-								tag: {
-									value: "morecfm"
-								}
-							}
-						]
-					}
-				}
-				title: "Any MrCrayfish Item"
+				id: "5695E0B24E93746C"
+				item: "refurbished_furniture:wrench"
 				type: "item"
 			}]
-			title: "MrCrayfish's Furniture Mod"
-			x: 11.5d
-			y: 15.5d
+			tasks: [{
+				id: "73C3D3A6CE522B19"
+				item: "refurbished_furniture:workbench"
+				type: "item"
+			}]
+			title: "&6MrCrayfish's Refurbished"
+			x: 10.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5BAE6CD47D4ABF2D"]
@@ -3900,8 +3879,8 @@
 				item: "immersive_paintings:painting"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 14.0d
+			x: 11.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["28B245505F91D21C"]
@@ -4018,6 +3997,36 @@
 			}]
 			x: 6.0d
 			y: 14.5d
+		}
+		{
+			dependencies: ["0CAD67E9B2DC3B59"]
+			description: [
+				"&cThe electricity system in this mod is exclusively for its own components and cannot be used with other mods.&r"
+				""
+				"To start, you will need a &agenerator&r. Simply put &afuel&r in it, and it will start generating &cpower&r."
+				""
+				"Some machines require &cpower&r to work, so you need to use a &3wrench&r to connect a line from the generator to the machine you want to power."
+				""
+				"Keep in mind that this works like circuits. "
+				""
+				"For example, you can make a line like: Generator > Lightswitch > connect to other components."
+				""
+				"So power up your &6workbench&r and start crafting the amazing furniture to decorate your house!"
+			]
+			id: "0ADF7E30D7F5B61E"
+			rewards: [{
+				id: "62B451B57B6D95A2"
+				item: "refurbished_furniture:oak_mail_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AC6A6DB3DEB7E3D"
+				item: "refurbished_furniture:light_electricity_generator"
+				type: "item"
+			}]
+			title: "POWER UP!!!"
+			x: 10.0d
+			y: 12.5d
 		}
 	]
 	title: "&6&nGetting Started!"
