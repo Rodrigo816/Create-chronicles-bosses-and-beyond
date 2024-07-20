@@ -7,6 +7,10 @@ ServerEvents.recipes(event => {
     'forbidden_arcanus:eternal_stella')
     .withNBT({Unbreakable:1});*/
 
+  event.shapeless('additional_lights:fire_for_standing_torch_s',[
+    'create_dd:coal_piece',
+  ])
+
   // convert ice and fire silver nuggets to samurai
   event.shaped('epicsamurai:silver_ingot', [
     'AAA',

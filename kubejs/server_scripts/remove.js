@@ -28,6 +28,8 @@ ServerEvents.recipes(event => {
 
     //Remove by recipe ID
     [
+        'shieldexp:griefer_shield',
+        'additional_lights:fire_for_standing_torch_s',
         'create:crushing/asurine',
         'create:crushing/asurine_recycling',
         //Refurbished
