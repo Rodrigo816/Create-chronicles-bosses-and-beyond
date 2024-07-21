@@ -13,6 +13,6 @@
 	},
 	"ftbchunks": {
 		"chunks": true,
-		"claim_chunks": true
+		"claim_chunks": false
 	}
 }

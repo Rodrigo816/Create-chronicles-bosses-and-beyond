@@ -1443,6 +1443,7 @@
 		}
 		{
 			dependencies: ["537E39530360AD73"]
+			description: ["&cMending&r and &cunbreakable&r are not compatible with eternal stella."]
 			id: "685A56030D996A81"
 			rewards: [
 				{

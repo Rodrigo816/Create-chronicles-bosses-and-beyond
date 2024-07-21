@@ -1037,20 +1037,6 @@
 			x: -3.0d
 			y: -2.5d
 		}
-		{
-			id: "585B87989F0DFC8D"
-			tasks: [{
-				id: "3B110D59DB40CAEE"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:limited_iron_barrel_1"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: -4.5d
-		}
 	]
 	title: "&d&lSophisticated Storage"
 }
