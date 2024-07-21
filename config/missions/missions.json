@@ -299,6 +299,12 @@
       "farmersdelight:sweet_berry_cookie": "100-300",
       "farmersdelight:honey_cookie": "100-300",
       "farmersdelight:hamburger": "100-300",
+      "farmersdelight:egg_sandwich": "100-300",
+      "farmersdelight:chicken_sandwich": "100-300",
+      "farmersdelight:bacon_sandwich": "100-300",
+      "farmersdelight:dumplings": "100-300",
+      "farmersdelight:melon_popsicle": "100-300",
+      "refurbished_furniture:cheese_toastie": "10-20",
       "create_confectionery:honey_candy": "100-300",
       "ars_nouveau:mendosteen_pod": "40-100"
     },
@@ -320,7 +326,7 @@
       "amount": "4-15",
       "item": "numismatics:spur"
     },
-    "weight": 6.0,
+    "weight": 1.0,
     "missions": {
       "minecraft:torch": "100-200"
     },
