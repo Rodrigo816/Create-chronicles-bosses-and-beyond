@@ -589,13 +589,6 @@
 				{
 					consume_items: true
 					count: 500L
-					id: "63185AF56548BB44"
-					item: "farmersdelight:honey_glazed_ham_block"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 500L
 					id: "4BE74D799B2163F1"
 					item: "farmersdelight:dumplings"
 					type: "item"
@@ -633,6 +626,13 @@
 					count: 500L
 					id: "0CA29B48954AC360"
 					item: "farmersdelight:bacon_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "418CABBCB6D218DB"
+					item: { Count: 500, id: "farmersdelight:rice_roll_medley_block" }
 					type: "item"
 				}
 			]
@@ -2273,10 +2273,10 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "From 23 July till 13 September "
+			subtitle: "From 23 July till 20 September "
 			tasks: [{
 				consume_items: true
-				count: 10000L
+				count: 15000L
 				id: "22FAD9F57DA73221"
 				item: "minecraft:tuff"
 				type: "item"
@@ -2310,7 +2310,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "From 23 July till 13 September "
+			subtitle: "From 23 July till 20 September "
 			tasks: [{
 				consume_items: true
 				count: 5000L
@@ -2349,6 +2349,7 @@
 			id: "1C33DE8E1D7D8577"
 			rewards: [
 				{
+					count: 3
 					id: "4FC0BC65E8BB49A6"
 					item: "numismatics:cog"
 					type: "item"
@@ -2386,12 +2387,12 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "From 23 July till 13 September "
+			subtitle: "From 23 July till 20 September "
 			tasks: [{
 				consume_items: true
 				count: 2000L
 				id: "39DD34AE09FCCB70"
-				item: "farmersdelight:kelp_roll_slice"
+				item: "farmersdelight:rice_roll_medley_block"
 				type: "item"
 			}]
 			x: 5.0d

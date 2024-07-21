@@ -247,7 +247,7 @@
 			}]
 			title: "Progression: The Talent Tree"
 			x: -33.5d
-			y: 19.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["0C49795E134A27E0"]
@@ -426,7 +426,7 @@
 			}]
 			title: "Loot Chests"
 			x: -33.5d
-			y: 17.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
@@ -821,7 +821,7 @@
 			}]
 			title: "Why I have less hearts?"
 			x: -33.5d
-			y: 18.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["05DF598DEBADABC3"]
@@ -988,35 +988,6 @@
 			}]
 			x: 18.5d
 			y: 18.5d
-		}
-		{
-			dependencies: ["1F6BC8C2A5B8F9B2"]
-			description: [
-				"Want to &eshow off&r your skin rather than whatever armor you're currently wearing? You can create the &aClear Armor&r and put in the &3cosmetic armor slots&r to hide the armor you're wearing!"
-				""
-				"You can also show off your items to chat using&3 shift + T&r"
-			]
-			icon: {
-				Count: 1
-				id: "epicsamurai:diamond_samurai_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "0AC9C73D4060AE29"
-			rewards: [{
-				id: "10090314F2EBAC8B"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "6F0C9FDD4263D695"
-				title: "Click to Acknowledge"
-				type: "checkmark"
-			}]
-			title: "Clear Armor"
-			x: -30.5d
-			y: 20.0d
 		}
 		{
 			dependencies: ["28B245505F91D21C"]
@@ -1204,6 +1175,8 @@
 				"Go to options, controls and bind whatever key you need on your desired button."
 				""
 				"This is to prevent annoying cases were some mods uses the same button."
+				""
+				"You can also show off your items to chat using&3 shift + T&r"
 			]
 			icon: "supplementaries:key"
 			id: "660C3D5CB407247F"
@@ -2096,8 +2069,8 @@
 				type: "checkmark"
 			}]
 			title: "&6Multiplayer:&r Weekly Missions"
-			x: -33.5d
-			y: 16.5d
+			x: -30.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["0D05759E84652BAA"]
