@@ -945,7 +945,7 @@
 	},
 	"ironsLight%md": {
 		"title": "§d[4P] §a+4% Lightning Spell Power",
-		"cost": 5,
+		"cost": 4,
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -2533,46 +2533,6 @@
 			"icon": "5ymc8r1rzp5askbx"
 		}
 	},
-	"critMaster": {
-		"title": "§d[15P] §e§lDeadly Crit's",
-		"cost": 15,
-		"description": "§a+25% Crit Chance\n§+80% Crit Damage",
-		"frame": {
-			"type": "texture",
-			"data": {
-				"available": "kubejs:textures/diamond_skill_frame_available.png",
-				"unlocked": "kubejs:textures/diamond_skill_frame_active.png",
-				"locked": "kubejs:textures/diamond_skill_frame_locked.png"
-			}
-		},
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "obscure_api:fury"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:crit_damage",
-					"value": 0.8,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:crit_chance",
-					"value": 0.25,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "5ymc8r1rzp5askbx"
-		}
-	},
 	"bigIronSkin": {
 		"title": "§d[15P] §e§lIron Skin",
 		"cost": 15,
@@ -2715,38 +2675,6 @@
 		"editor-color": "#7f7f7f",
 		"metadata": {
 			"icon": "u9sxq1mim3bnzubk"
-		}
-	},
-	"armourPen%md": {
-		"title": "§d[3P] §a +5% Armour Penetration",
-		"const": 3,
-		"frame": {
-			"type": "texture",
-			"data": {
-				"available": "kubejs:textures/normal_skill_frame_available.png",
-				"unlocked": "kubejs:textures/normal_skill_frame_active.png",
-				"locked": "kubejs:textures/normal_skill_frame_locked.png"
-			}
-		},
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "attributeslib:sundering"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "obscure_api:penetration",
-					"value": 5,
-					"operation": "addition"
-				}
-			}
-		],
-		"editor-color": "#7f7f7f",
-		"metadata": {
-			"icon": "m8nd3t327jsczqnb"
 		}
 	},
 	"jump+5%": {

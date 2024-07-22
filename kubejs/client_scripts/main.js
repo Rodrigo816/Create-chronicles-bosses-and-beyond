@@ -12,8 +12,47 @@ ClientEvents.lang('en_us', event => {
 })
 
 JEIEvents.hideItems(event => {
-  event.hide('@storagedrawers');
-  event.hide('@ironchest');
+  //temp
+
+  event.hide('kubejs:unfinished_fire_scroll')
+  event.hide('kubejs:unfinished_ice_scroll')
+  event.hide('kubejs:unfinished_blood_scroll')
+  event.hide('kubejs:unfinished_ender_scroll')
+  event.hide('kubejs:unfinished_nature_scroll')
+  event.hide('kubejs:unfinished_lightning_scroll')
+  event.hide('kubejs:unfinished_holy_scroll')
+  event.hide('kubejs:unfinished_evocation_scroll')
+  event.hide('kubejs:unfinished_eldritch_scroll')
+  event.hide('kubejs:incomplete_netherrack')
+  event.hide('kubejs:incomplete_t1_plating')
+  event.hide('kubejs:incomplete_t2_plating')
+  event.hide('kubejs:incomplete_t3_plating')
+  event.hide('kubejs:incomplete_t4_plating')
+  event.hide('kubejs:incomplete_blaze_rod')
+  event.hide('kubejs:incomplete_barbecue_stick')
+  event.hide('kubejs:incomplete_cod_roll')
+  event.hide('kubejs:incomplete_kelp_roll')
+  event.hide('kubejs:incomplete_melon_popsicle')
+  event.hide('kubejs:incomplete_mutton_wrap')
+  event.hide('kubejs:incomplete_salmon_roll')
+  event.hide('kubejs:incomplete_stuffed_potato')
+  event.hide('kubejs:incomplete_bacon_and_eggs')
+  event.hide('kubejs:incomplete_grilled_salmon')
+  event.hide('kubejs:incomplete_rice_roll_medley_block')
+  event.hide('kubejs:incomplete_roast_chicken_block')
+  event.hide('kubejs:incomplete_roasted_mutton_chops')
+  event.hide('kubejs:incomplete_shepherds_pie_block')
+  event.hide('kubejs:incomplete_steak_and_potatoes')
+  
+  event.hide('refurbished_furniture:wheat_flour')
+  event.hide('refurbished_furniture:dough')
+  event.hide('shieldexp:griefer_shield')
+  event.hide('shieldexp:paragon_shield')
+
+  event.hide('forbidden_arcanus:orb_of_temporary_flight')
+  event.hide('irons_spellbooks:lesser_spell_slot_upgrade')
+  
+
 
   //Steel
   event.hide('create_dd:steel_ingot')
@@ -68,6 +107,7 @@ JEIEvents.hideItems(event => {
   event.hide('create_dd:chocolate_milkshake')
   event.hide('create_dd:chocolate_milkshake_bucket')
   event.hide('create_confectionery:caramel_bucket')
+  event.hide('create_dd:shimmer_bucket')
   event.hide('create_dd:hot_chocolate')
   event.hide('create_dd:hot_chocolate_bucket')
   event.hide('aquamirae:divider')
@@ -100,6 +140,7 @@ JEIEvents.hideFluids((event) => {
   event.hide('create_confectionery:caramel')
   event.hide('create_dd:hot_chocolate')
   event.hide('create_dd:vanilla_milkshake')
+  event.hide('create_dd:shimmer')
 });
 
 ItemEvents.tooltip(event => {

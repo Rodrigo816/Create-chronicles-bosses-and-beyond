@@ -1,0 +1,8 @@
+{
+  "type": "refurbished_furniture:oven_baking",
+  "ingredient": {
+    "item": "minecraft:porkchop"
+  },
+  "result": "minecraft:cooked_porkchop",
+  "time": 300
+}

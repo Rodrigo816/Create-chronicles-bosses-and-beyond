@@ -73,7 +73,12 @@
 				"46E5565D623C0AC8"
 			]
 			dependency_requirement: "one_started"
-			description: ["When the Casting Spout fills the Mold in the Casting Basin, it takes a few seconds to generate an Ingot/Block."]
+			description: [
+				"When the Casting Spout fills the Mold in the Casting Basin, it takes a few seconds to generate an Ingot/Block."
+				""
+				""
+				"&l&cTroubleshoot:&r&r If it's not working try break the &n&ccasting basing&r&r and mold and place it again."
+			]
 			id: "60A94E3337A26181"
 			rewards: [
 				{
@@ -367,7 +372,17 @@
 			description: [
 				"&6The Blast Furnace&r is a multi block machine. Make sure to use the pounder function (pressing W) to see how to build the Blast Furnace."
 				""
-				"&6Tip:&r You will generate two types of liquids, Molten Slag and Molten Steel. An easy way to separate them is by using just one Smart Pipe and a List Filter. Using JEI (Just Enough Items) search function, you can drag an item, for example the Molden Steel Bucket into the List Filter and then place the List Filter in the Smart Pipe Filter. This way you can separate both liquids without needing to actually have them first"
+				"If it doesn't work, try breaking the blast furnace output and placing it again. If this still doesn't work, you might be doing something wrong."
+				""
+				"&l&6Tip:&r&r You will generate two types of liquids, Molten Slag and Molten Steel. An easy way to separate them is by using just one Smart Pipe and a List Filter. Using JEI (Just Enough Items) search function, you can drag an item, for example the Molden Steel Bucket into the List Filter and then place the List Filter in the Smart Pipe Filter. This way you can separate both liquids without needing to actually have them first."
+				""
+				"&l&cTroubleshoot:&r&r This multiblock machine might become your arch-enemy. If it doesn’t work after you build like the Ponder (W) tells you. Don’t worry, just break the \"Blast Furnace Output\" block and place it again. If it still doesn’t work, try building it at a different location.  "
+				""
+				"&l&dAutomation Tip:&r&r This machine is a bit tricky to automate. You should use a &9Threshold Switch&r under the Blast Furnace Output and place a Blasting Mixture in the filter slot. Then fine tune the percentage of the Threshold to the following: 20% on the top to turn on the signal and 5% on the bottom to turn off the signal (see the img below). If you input more than 64 items into the Blast Furnace they will be lost.      "
+				""
+				"{image:kubejs:textures/blastfurnace.png width:100 height:100 align:center}"
+				""
+				"{image:kubejs:textures/blastfurnace_switch.png width:130 height:48 align:center}"
 			]
 			id: "0AB740B18E5FA805"
 			rewards: [{
@@ -717,7 +732,7 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
-			description: ["Although it shows a Honey Bottle, you need to actually use a Honey Bucket. "]
+			description: ["Although it shows a Honey Bottle, you need to actually use a&n Honey Bucket with filling by spout.&r&c "]
 			hide: true
 			hide_dependency_lines: true
 			id: "184B9A5F983FA7A5"

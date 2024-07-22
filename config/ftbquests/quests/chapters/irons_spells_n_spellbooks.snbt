@@ -346,7 +346,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "When used for Upgrade: +3% Holy Spell Power"
+			subtitle: "When used for Upgrade: +5% Holy Spell Power"
 			tasks: [
 				{
 					id: "66F408FE1245070A"
@@ -401,7 +401,6 @@
 		}
 		{
 			dependencies: ["704435187B4BD245"]
-			description: [""]
 			id: "2E4D0196673FCE5A"
 			rewards: [
 				{
@@ -655,7 +654,6 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Just a spark."
 			tasks: [
 				{
 					id: "0E5E6E6EA3FDC02F"
@@ -857,7 +855,6 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "They call me Mr. Freeze."
 			tasks: [
 				{
 					id: "336C6CD2DE6AA5FB"
@@ -1243,7 +1240,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "When used for Upgrade: &4+3% Fire Spell Power"
+			subtitle: "When used for Upgrade: &4+5% Fire Spell Power"
 			tasks: [{
 				id: "3D350BF17045AF6B"
 				item: "irons_spellbooks:fire_upgrade_orb"
@@ -1270,7 +1267,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "When used for Upgrade: &4+3% Ice Spell Power"
+			subtitle: "When used for Upgrade: &4+5% Ice Spell Power"
 			tasks: [{
 				id: "14D6C2660C93E4E3"
 				item: "irons_spellbooks:ice_upgrade_orb"
@@ -1297,7 +1294,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "When used for Upgrade: &4+3% Lightning Spell Power"
+			subtitle: "When used for Upgrade: &4+5% Lightning Spell Power"
 			tasks: [{
 				id: "21A55AD1E51B55BC"
 				item: "irons_spellbooks:lightning_upgrade_orb"
@@ -1324,7 +1321,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "When used for Upgrade: &4+3% Holy Spell Power"
+			subtitle: "When used for Upgrade: &4+5% Holy Spell Power"
 			tasks: [{
 				id: "74E398F946B1E6D7"
 				item: "irons_spellbooks:holy_upgrade_orb"
@@ -1351,7 +1348,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "When used for Upgrade: &4+3% Ender Spell Power"
+			subtitle: "When used for Upgrade: &4+5% Ender Spell Power"
 			tasks: [{
 				id: "75E04291D457EA03"
 				item: "irons_spellbooks:ender_upgrade_orb"
@@ -1378,7 +1375,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "When used for Upgrade: &4+3% Blood Spell Power"
+			subtitle: "When used for Upgrade: &4+5% Blood Spell Power"
 			tasks: [{
 				id: "59AE68357B7EDD47"
 				item: "irons_spellbooks:blood_upgrade_orb"
@@ -1405,7 +1402,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "When used for Upgrade: &4+3% Evocation Spell Power"
+			subtitle: "When used for Upgrade: &4+5% Evocation Spell Power"
 			tasks: [{
 				id: "17863785F3BE648C"
 				item: "irons_spellbooks:evocation_upgrade_orb"
@@ -1432,7 +1429,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "When used for Upgrade: &4+3% Nature Spell Power"
+			subtitle: "When used for Upgrade: &4+5% Nature Spell Power"
 			tasks: [{
 				id: "3AD588AC34CBE61F"
 				item: "irons_spellbooks:nature_upgrade_orb"
@@ -1486,7 +1483,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "When used for Upgrade: &4+6% Cooldown Reduction"
+			subtitle: "When used for Upgrade: &4+5% Cooldown Reduction"
 			tasks: [{
 				id: "65D4BF8C649C51A8"
 				item: "irons_spellbooks:cooldown_upgrade_orb"
@@ -1513,7 +1510,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "When used for Upgrade: &4+6% Spell Resistance"
+			subtitle: "When used for Upgrade: &4+5% Spell Resistance"
 			tasks: [{
 				id: "2A36D50F582A1EBD"
 				item: "irons_spellbooks:protection_upgrade_orb"

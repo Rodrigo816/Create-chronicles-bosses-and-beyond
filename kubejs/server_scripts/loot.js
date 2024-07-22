@@ -1,5 +1,12 @@
 LootJS.modifiers((event) => {
 
+  const DRYGMY_UUID = "[I;1946194541,268914259,-2012236738,1743961897]";
+  const onlyDrygmy = (builder) =>
+  builder.matchKiller((entity) => entity.nbt(`{UUID:${DRYGMY_UUID}}`));
+  onlyDrygmy(event.addEntityLootModifier("minecraft:chicken")).addLoot(
+    "minecraft:egg",
+  );
+
     // List of village loot tables
     const villageLootTables = [
       'minecraft:chests/village/village_armorer',
@@ -19,12 +26,50 @@ LootJS.modifiers((event) => {
       'minecraft:chests/village/village_toolsmith',
       'minecraft:chests/village/village_weaponsmith'
   ];
+  const dim = [
+    'dimdungeons:chests/chestloot_advanced_easy',
+    'dimdungeons:chests/chestloot_basic_easy',
+    'dimdungeons:chests/chestloot_crazy',
+    'dimdungeons:chests/chestloot_lucky',
+    'dimdungeons:chests/kit_random',
+    'dimdungeons:chests/chestloot_advanced_hard',
+    'dimdungeons:chests/chestloot_basic_hard'
+  ];
+
+  const ribbits = [
+    'ribbits:chests/fisherman_main',
+    'ribbits:chests/merchant',
+    'ribbits:chests/nitwit',
+    'ribbits:chests/sorcerer',
+  ];
 
   function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
-  // Add mechanisms to all village loot tables
+  // dimensional
+  dim.forEach(lootTable => {
+    event.addLootTableModifier(lootTable)
+    .addWeightedLoot(
+      [1, 8],
+      [
+        Item.of("kubejs:rotation_mechanism").withChance(7)
+      ]
+    );
+  });
+
+  // ribbits
+  ribbits.forEach(lootTable => {
+    event.addLootTableModifier(lootTable)
+    .addWeightedLoot(
+      [1, 5],
+      [
+        Item.of("kubejs:rotation_mechanism").withChance(7)
+      ]
+    );
+  });
+
+  // DimDungeons
   villageLootTables.forEach(lootTable => {
     event.addLootTableModifier(lootTable)
     .addWeightedLoot(
@@ -35,6 +80,12 @@ LootJS.modifiers((event) => {
     );
   });
 
+  event
+  .addEntityLootModifier("alexscaves:luxtructosaurus")
+  .addLoot(Item.of("10x forbidden_arcanus:nipa"));  
+
+
+  
 
   //Dragon Chests - LIGHTNING
   event.addLootTableModifier("mowziesmobs:chests/umvuthana_grove_chest")
@@ -340,7 +391,26 @@ LootJS.modifiers((event) => {
   event
     .addLootTypeModifier(LootType.FISHING)
     .removeLoot('tombstone:grave_dust')
-
+  
+  //Space
+  event
+    .addLootTableModifier("ad_astra:chests/village/moon/blacksmith")
+    .addWeightedLoot(
+      [1,2],
+      [
+        Item.of("create_dd:refined_radiance",10).withChance(70),
+        Item.of("minecraft:diamond",5).withChance(70),
+      ]
+      );
+  event
+    .addLootTableModifier("ad_astra:chests/village/moon/house")
+    .addWeightedLoot(
+      [1,2],
+      [
+        Item.of("create_dd:refined_radiance",10).withChance(60),
+        Item.of("minecraft:diamond",5).withChance(30),
+      ]
+      );  
   event
       .addLootTableModifier("ad_astra:chests/dungeon/moon/dungeon_chest")
       .addWeightedLoot(
@@ -352,7 +422,7 @@ LootJS.modifiers((event) => {
           Item.of("ae2:logic_processor_press").withChance(15),
           Item.of("ae2:silicon_press").withChance(15)
         ]
-    );
+      );      
   event
     .addBlockLootModifier(/waystones\:.*waystone/)
     .removeLoot(/waystones\:.*waystone/)

@@ -6,7 +6,7 @@
     "displayTooltip": true,
     "displayBlocks": true,
     "displayEntities": true,
-    "displayBosses": true,
+    "displayBosses": false,
     "displayMode": "TOGGLE",
     "hideFromDebug": true,
     "hideFromTabList": true,

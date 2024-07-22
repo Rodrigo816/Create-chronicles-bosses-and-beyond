@@ -1,0 +1,8 @@
+{
+  "type": "refurbished_furniture:oven_baking",
+  "ingredient": {
+    "item": "minecraft:salmon"
+  },
+  "result": "minecraft:cooked_salmon",
+  "time": 100
+}

@@ -1,0 +1,8 @@
+{
+  "type": "refurbished_furniture:oven_baking",
+  "ingredient": {
+    "item": "minecraft:chicken"
+  },
+  "result": "minecraft:cooked_chicken",
+  "time": 200
+}

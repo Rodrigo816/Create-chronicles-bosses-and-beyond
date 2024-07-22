@@ -38,9 +38,6 @@
 			coconut = true
 			walnut = true
 
-		[types.leaves_type.ad_astra]
-			glacian = true
-
 		[types.leaves_type.create_dd]
 			rubber = true
 
@@ -141,6 +138,9 @@
 		[types.leaves_type.ars_elemental]
 			yellow_archwood = true
 
+		[types.leaves_type.ad_astra]
+			glacian = true
+
 	[types.wood_type]
 
 		[types.wood_type.ars_nouveau]
@@ -166,11 +166,6 @@
 			azalea = true
 			ancient = true
 			blossom = true
-
-		[types.wood_type.ad_astra]
-			aeronos = true
-			strophar = true
-			glacian = true
 
 		[types.wood_type.create_dd]
 			rose = true
@@ -215,6 +210,11 @@
 		[types.wood_type.betterarcheology]
 			rotten = true
 
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
+
 	[types.cake]
 
 		[types.cake.blue_skies]
@@ -233,46 +233,10 @@
 			hedge = true
 			leaf_carpet = true
 
-		[entries.leaves_type.cfm]
+		[entries.leaves_type.refurbished_furniture]
 			hedge = true
 
 	[entries.wood_type]
-
-		[entries.wood_type.cfm]
-			stripped_kitchen_sink_light = true
-			table = true
-			coffee_table = true
-			park_bench = true
-			stripped_kitchen_counter = true
-			stripped_bedside_cabinet = true
-			desk_cabinet = true
-			upgraded_fence = true
-			kitchen_counter = true
-			upgraded_gate = true
-			stripped_park_bench = true
-			cabinet = true
-			mail_box = true
-			crate = true
-			chair = true
-			stripped_mail_box = true
-			stripped_blinds = true
-			bedside_cabinet = true
-			stripped_upgraded_fence = true
-			stripped_cabinet = true
-			kitchen_drawer = true
-			desk = true
-			stripped_kitchen_drawer = true
-			kitchen_sink_dark = true
-			stripped_desk_cabinet = true
-			stripped_table = true
-			blinds = true
-			stripped_chair = true
-			stripped_kitchen_sink_dark = true
-			stripped_desk = true
-			kitchen_sink_light = true
-			stripped_coffee_table = true
-			stripped_crate = true
-			stripped_upgraded_gate = true
 
 		[entries.wood_type.chipped]
 			fine_planks = true
@@ -422,15 +386,6 @@
 		[entries.wood_type.farmersdelight]
 			cabinet = true
 
-		[entries.wood_type.storagedrawers]
-			full_drawers_2 = true
-			full_drawers_4 = true
-			full_drawers_1 = true
-			half_drawers_1 = true
-			half_drawers_4 = true
-			half_drawers_2 = true
-			trim = true
-
 		[entries.wood_type.create]
 			window_pane = true
 			window = true
@@ -451,4 +406,26 @@
 			cupboard = true
 			pillar_trim = true
 			nightstand = true
+
+		[entries.wood_type.refurbished_furniture]
+			storage_cabinet = true
+			storage_jar = true
+			desk = true
+			cutting_board = true
+			drawer = true
+			kitchen_sink = true
+			toilet = true
+			lattice_fence = true
+			basin = true
+			kitchen_drawer = true
+			kitchen_cabinetry = true
+			crate = true
+			chair = true
+			light_ceiling_fan = true
+			table = true
+			mail_box = true
+			dark_ceiling_fan = true
+			lattice_fence_gate = true
+			bath = true
+			kitchen_storage_cabinet = true
 

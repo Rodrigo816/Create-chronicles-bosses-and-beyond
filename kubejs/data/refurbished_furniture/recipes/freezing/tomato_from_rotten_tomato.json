@@ -1,0 +1,10 @@
+{
+  "type": "refurbished_furniture:freezer_solidifying",
+  "category": "misc",
+  "cookingtime": 280,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "farmersdelight:rotten_tomato"
+  },
+  "result": "farmersdelight:tomato"
+}

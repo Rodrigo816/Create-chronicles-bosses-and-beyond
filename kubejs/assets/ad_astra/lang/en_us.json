@@ -1,4 +1,6 @@
 {
   "item.ad_astra.fuel_bucket": "§bAstral Fuel Bucket",
+  "item.ad_astra.cheese": "Moon Cheese",
+  "block.ad_astra.cheese_block": "Moon Cheese Block",
   "fluid_type.ad_astra.fuel": "§bAstral Fuel"
 }

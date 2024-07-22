@@ -15,4 +15,14 @@ StartupEvents.registry('fluid', (event) => {
             event.create(fluid.id).thinTexture(fluid.color).bucketColor(fluid.color).displayName(fluid.display);
         }
     });
+    event.create('shimmer')
+        .displayName('Shimmer')
+        .bucketColor(0xFFC0CB) 
+        .stillTexture('kubejs:fluid/shimmer_still')  // Path to the still texture
+        .flowingTexture('kubejs:fluid/shimmer_flow') // Path to the flowing texture
+        .viscosity(6000)
+        .density(50)
+        .rarity("EPIC")
+        .luminosity(15)
+        .temperature(-1000)
 });

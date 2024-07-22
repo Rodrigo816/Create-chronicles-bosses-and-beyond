@@ -58,6 +58,11 @@ ServerEvents.tags('item', event => {
     event.get('minecraft:logs_that_burn')
          .add('forbidden_arcanus:aurum_log');
 });
+
+
+ServerEvents.tags('block', event => {
+    event.add("ftbchunks:interact_whitelist", ['#minecraft:doors','create_things_and_misc:card_reader','refurbished_furniture:post_box','numismatics:blaze_banker','create:contraption_controls',"numismatics:andesite_depositor", "numismatics:brass_depositor", "numismatics:bank_terminal", "numismatics:vendor"]);
+})
  /*ServerEvents.tags("entity_type", (event) => {
     event.add("ars_nouveau:drygmy_blacklist", [/minecraft:.+/]);
     event.add("ars_nouveau:drygmy_blacklist", [/cataclysm:.+/]);

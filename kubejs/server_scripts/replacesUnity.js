@@ -13,6 +13,11 @@ ServerEvents.recipes(event => {
 
   // epic samurai
   event.replaceInput({mod:'epicsamurai'}, '#forge:ingots/steel', 'tfmg:cast_iron_ingot')
+  event.replaceInput(
+    { id: 'epicsamurai:steel_block' },         
+    'tfmg:cast_iron_ingot',
+    'tfmg:steel_ingot',         
+  )
 
   // andesite sheet
   event.remove({output: 'createdeco:andesite_sheet'});

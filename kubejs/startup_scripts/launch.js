@@ -1,5 +1,30 @@
 Platform.mods.kubejs.name = 'Create Chronicles: Bosses and Beyond'
 
+//Stack Sizes
+ItemEvents.modification(event => {
+    event.modify('minecraft:ender_pearl', item => {
+      item.maxStackSize = 64
+    })
+    event.modify('minecraft:egg', item => {
+        item.maxStackSize = 64
+    })
+    event.modify('create_dd:chromatic_compound', item => {
+        item.maxStackSize = 64
+    })
+    event.modify('create_dd:overcharge_alloy', item => {
+        item.maxStackSize = 64
+    })
+    event.modify('create_dd:overcharge_alloy_sheet', item => {
+        item.maxStackSize = 64
+    })
+    event.modify('create_dd:refined_radiance', item => {
+        item.maxStackSize = 64
+    })
+    event.modify('create_dd:refined_radiance_sheet', item => {
+        item.maxStackSize = 64
+    })
+})
+
 BlockEvents.modification(event => {
     event.modify('waystones:waystone', block =>{
         block.destroySpeed = 50
@@ -138,5 +163,20 @@ StartupEvents.registry('item', event => {
     event.create('incomplete_t4_plating', 'create:sequenced_assembly')
     event.create('incomplete_blaze_rod', 'create:sequenced_assembly')
 
+    //Farmer's Stuff
+    event.create('incomplete_barbecue_stick', 'create:sequenced_assembly')
+    event.create('incomplete_cod_roll', 'create:sequenced_assembly')
+    event.create('incomplete_kelp_roll', 'create:sequenced_assembly')
+    event.create('incomplete_melon_popsicle', 'create:sequenced_assembly')
+    event.create('incomplete_mutton_wrap', 'create:sequenced_assembly')
+    event.create('incomplete_salmon_roll', 'create:sequenced_assembly')
+    event.create('incomplete_stuffed_potato', 'create:sequenced_assembly')
+    event.create('incomplete_bacon_and_eggs', 'create:sequenced_assembly')
+    event.create('incomplete_grilled_salmon', 'create:sequenced_assembly')
+    event.create('incomplete_rice_roll_medley_block', 'create:sequenced_assembly')
+    event.create('incomplete_roast_chicken_block', 'create:sequenced_assembly')
+    event.create('incomplete_roasted_mutton_chops', 'create:sequenced_assembly')
+    event.create('incomplete_shepherds_pie_block', 'create:sequenced_assembly')
+    event.create('incomplete_steak_and_potatoes', 'create:sequenced_assembly')
 
 })

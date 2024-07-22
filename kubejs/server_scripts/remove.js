@@ -28,6 +28,21 @@ ServerEvents.recipes(event => {
 
     //Remove by recipe ID
     [
+        'shieldexp:griefer_shield',
+        'additional_lights:fire_for_standing_torch_s',
+        'create:crushing/asurine',
+        'create:crushing/asurine_recycling',
+        //Refurbished
+        'refurbished_furniture:dough',
+        //Shimer
+        CRDD('filling/aethersite'),
+        CRDD('filling/fronzen_nugget'),
+        'irons_spellbooks:lesser_spell_slot_upgrade',
+        'irons_spellbooks:lesser_spell_slot_upgrade',
+
+        'irons_spellbooks:lesser_spell_slot_upgrade',
+        'create_dd:acompat/createaddition/charging/overcharge_alloy',
+        'forbidden_arcanus:arcane_crystal_dust',
         'ars_nouveau:glyph_animate_block',
         'ars_nouveau:burst',
         'twilightforest:uncrafting_table',
@@ -155,7 +170,7 @@ ServerEvents.recipes(event => {
         CRDD('integrated_mechanism'),
         AE2('small_quartz_bud'),
         CRDD('inductive_mechanism'),
-        CR('asurine'),
+       // CR('asurine'),
         CRDD('shadow_steel'),
         CRDD('blaze_gold'),
         ASTRA('hammer'),

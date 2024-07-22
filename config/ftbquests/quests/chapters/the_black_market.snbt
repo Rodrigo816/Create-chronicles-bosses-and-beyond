@@ -402,7 +402,7 @@
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.5d
+			x: 2.0d
 			y: 9.5d
 		}
 		{
@@ -421,8 +421,24 @@
 			x: 3.5d
 			y: 7.25d
 		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 9.5d
+		}
 	]
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -456,16 +472,17 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 3000L
 					id: "6D400563DE8E6D33"
 					item: "create_dd:sealed_mechanism"
 					type: "item"
 				}
 				{
-					consume_items: true
-					id: "6F06393341F0A665"
-					item: "aquamirae:rune_of_the_storm"
-					type: "item"
+					amount: 1000L
+					fluid: "ad_astra:cryo_fuel"
+					id: "3AE293593FC08811"
+					type: "fluid"
 				}
 			]
 			title: "Infinity Wand"
@@ -572,13 +589,6 @@
 				{
 					consume_items: true
 					count: 500L
-					id: "63185AF56548BB44"
-					item: "farmersdelight:honey_glazed_ham_block"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 500L
 					id: "4BE74D799B2163F1"
 					item: "farmersdelight:dumplings"
 					type: "item"
@@ -616,6 +626,13 @@
 					count: 500L
 					id: "0CA29B48954AC360"
 					item: "farmersdelight:bacon_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "418CABBCB6D218DB"
+					item: { Count: 500, id: "farmersdelight:rice_roll_medley_block" }
 					type: "item"
 				}
 			]
@@ -1325,7 +1342,7 @@
 				}
 				{
 					consume_items: true
-					count: 2000L
+					count: 3000L
 					id: "4FE1ABC06A28DB4D"
 					item: "ad_astra:ostrum_plate"
 					type: "item"
@@ -1965,7 +1982,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: {
 				Count: 1
@@ -1995,7 +2011,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "waystones:waystone"
 			id: "139CC6647BFD6E2A"
@@ -2017,7 +2032,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "kubejs:rotation_mechanism"
 			id: "2B9B0F825B99A2DB"
@@ -2041,7 +2055,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "minecraft:iron_ingot"
 			id: "6414E9238DCDE275"
@@ -2065,7 +2078,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "minecraft:copper_ingot"
 			id: "1A5395915A7B2FCE"
@@ -2089,7 +2101,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "create:zinc_ingot"
 			id: "6EF98F7CF9F54F76"
@@ -2113,7 +2124,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "minecraft:redstone"
 			id: "24FEA3646AD4F483"
@@ -2137,7 +2147,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "create:belt_connector"
 			id: "7056902C17FED0D5"
@@ -2161,7 +2170,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: {
 				Count: 1
@@ -2191,39 +2199,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
-			id: "6C61BAD912514C5F"
-			rewards: [
-				{
-					id: "049826CE3A65BBB2"
-					item: "numismatics:crown"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "033E4E6B608094DF"
-					item: "paraglider:spirit_orb"
-					type: "item"
-				}
-			]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "From 1 June till 23 July"
-			tasks: [{
-				consume_items: true
-				count: 10000L
-				id: "617E0F6D00827698"
-				item: "quark:myalite"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 9.0d
-		}
-		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "dimdungeons:item_secret_bell"
 			id: "437795B131AF223B"
@@ -2246,7 +2223,6 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide: true
 			icon: "mowziesmobs:earth_talisman"
 			id: "7020BE898C53E474"
@@ -2265,6 +2241,201 @@
 			title: "&l&dEarth Talisman"
 			x: 6.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "12DC75D60C72334A"
+			rewards: [
+				{
+					count: 2
+					id: "0D088DC7023DF1AA"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5BA6470FCF956006"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					id: "7F12169B7C5E4BB9"
+					item: "aether:life_shard"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "736E90A361A8165F"
+					item: "forbidden_arcanus:elementarium"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "From 23 July till 20 September "
+			tasks: [{
+				consume_items: true
+				count: 15000L
+				id: "22FAD9F57DA73221"
+				item: "minecraft:tuff"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "352F19D5F52D012C"
+			rewards: [
+				{
+					count: 4
+					id: "001E6FCD8CAAE39E"
+					item: "irons_spellbooks:lesser_spell_slot_upgrade"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2653FD91B42592AD"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17DAA9F98E4B4A25"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "From 23 July till 20 September "
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "7A032913A74B22E6"
+				item: "blue_skies:crescent_fruit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			icon: "forbidden_arcanus:elementarium"
+			id: "171CB5A1A635913D"
+			rewards: [{
+				id: "60B4E6362F9E6F72"
+				item: "forbidden_arcanus:elementarium"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "44F1530F1CFAB89D"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Elementarium"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "1C33DE8E1D7D8577"
+			rewards: [
+				{
+					count: 3
+					id: "4FC0BC65E8BB49A6"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4995193483BE9DCA"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "627464398F2267DB"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "494E32FF28694952"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3705BDD892470FC5"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C531064CA8F5F91"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "From 23 July till 20 September "
+			tasks: [{
+				consume_items: true
+				count: 2000L
+				id: "39DD34AE09FCCB70"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "veinmining:vein_mining"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "2FDDCF94BCDC0EA1"
+			rewards: [{
+				id: "269CCAF4178C5FB8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "veinmining:vein_mining"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1810510D4A7D747A"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			title: "Vein Mining"
+			x: 8.0d
+			y: 5.0d
 		}
 	]
 	title: "&0&l The Black Market"
