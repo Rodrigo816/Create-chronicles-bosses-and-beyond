@@ -1004,7 +1004,6 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
 			id: "591452E3ABF5CE04"
 			rewards: [
 				{
@@ -1066,7 +1065,6 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["&0"]
 			id: "7162B0D58650037E"
 			rewards: [
 				{

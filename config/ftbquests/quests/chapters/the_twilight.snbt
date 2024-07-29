@@ -344,7 +344,7 @@
 			]
 			shape: "rsquare"
 			size: 1.3d
-			subtitle: "Found in Dark Towers in The Dark Forest."
+			subtitle: "Found in Goblin Knight Stronghold in The Dark Forest."
 			tasks: [{
 				id: "26CF924E1688280A"
 				item: "twilightforest:knight_phantom_trophy"

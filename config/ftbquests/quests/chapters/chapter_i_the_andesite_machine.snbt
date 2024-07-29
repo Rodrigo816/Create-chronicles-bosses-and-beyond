@@ -372,7 +372,7 @@
 			}]
 			title: "Andesite Production"
 			x: 7.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7FE2DE6213FF326A"]
@@ -658,6 +658,46 @@
 			title: "Stonecutter"
 			x: 6.75d
 			y: 12.0d
+		}
+		{
+			dependencies: ["5E60FF6098CB030B"]
+			description: [
+				"Remember that annoying block that tells you “YOU SHALL NOT PASS!”? &bYes, the Gravel&r, it hides useful resources awaiting to be harvested, such as Flint (25% chance) and most importantly &eIron Nuggets (12% chance).&r"
+				""
+				"To harvest the &3Iron Nuggets&r from within the depths of the &8Gravel Block&r, you need to use an &6Encased Fan&r with a &bwater&r source to wash the &8Gravel&r until it gives &6Flint and or Iron Nugget&r. "
+				""
+				"This can be used as an early&6 Iron Farm&r until you have a more advanced way to farm Iron. For a better infinite source of Iron, please check &2Renewable Ores chapter&r."
+				""
+				""
+				"&l&6Tip:&r&r &oYou can use a slab or a shaft to stop the water from flowing everywhere while allowing the fan to blow the water to wash the gravel.&r"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "0219E3A871B9029E"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [{
+				count: 20
+				id: "1558F99EB6B4E3B6"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "OPTIONAL QUEST"
+			tasks: [
+				{
+					id: "56A627000A9D9F01"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "3BE46B32187869F6"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			title: "Early Iron Production (OPTIONAL)"
+			x: 8.5d
+			y: 2.0d
 		}
 	]
 	title: "Chapter I: The Foundation of Machines"

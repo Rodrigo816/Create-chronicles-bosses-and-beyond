@@ -1,0 +1,29 @@
+{
+  "type": "ad_astra:space_station",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "create_dd:sealed_mechanism"
+      },
+      "count": 32
+    },
+    {
+      "ingredient": {
+        "item": "create_dd:integrated_circuit"
+      },
+      "count": 32
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:desh_ingot"
+      },
+      "count": 64
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:desh_plate"
+      },
+      "count": 64
+    }
+  ]
+}
