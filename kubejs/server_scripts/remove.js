@@ -28,6 +28,7 @@ ServerEvents.recipes(event => {
 
     //Remove by recipe ID
     [
+        'epicsamurai:steel_ingot_from_blasting_iron_ingot',
         'tfmg:milling/charcoal_dust',
         'shieldexp:griefer_shield',
         'additional_lights:fire_for_standing_torch_s',

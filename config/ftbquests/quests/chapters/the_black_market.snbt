@@ -479,7 +479,7 @@
 					type: "item"
 				}
 				{
-					amount: 1000L
+					amount: 100000L
 					fluid: "ad_astra:cryo_fuel"
 					id: "3AE293593FC08811"
 					type: "fluid"
