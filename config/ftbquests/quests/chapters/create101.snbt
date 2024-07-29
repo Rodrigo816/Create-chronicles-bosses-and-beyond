@@ -4994,7 +4994,14 @@
 		}
 		{
 			dependencies: ["0427B74E71A4115C"]
-			description: ["&6Brass Chunk Loaders&r by default load a single chunk, but can be configured to load 3x3 or even a full 5x5 chunk radius!"]
+			description: [
+				"&6Brass Chunk Loaders&r by default load a single chunk, but can be configured to load 3x3 or even a full 5x5 chunk radius!"
+				""
+				"&6Tip:&r &eIf you use a Brass Chunk Loader connected to a Train Station, it will activate when a Train is at the station without the need of rotational power. It will stay active as long as the Train is at the station. This can be used to reduce lag on farms that are too far away and need a Train to grab items.&r"
+				""
+				""
+				"{image:kubejs:textures/loader.png width:100 height:191 align:center}"
+			]
 			id: "2BD01D6FB442AE94"
 			rewards: [{
 				count: 2

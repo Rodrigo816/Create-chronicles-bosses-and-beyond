@@ -28,6 +28,7 @@ ServerEvents.recipes(event => {
 
     //Remove by recipe ID
     [
+        'tfmg:milling/charcoal_dust',
         'shieldexp:griefer_shield',
         'additional_lights:fire_for_standing_torch_s',
         'create:crushing/asurine',

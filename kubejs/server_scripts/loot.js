@@ -517,7 +517,7 @@ LootJS.modifiers((event) => {
     .randomChance(normalChance)
     .addLoot("simplyswords:whisperwind");   
   // ---
-  event
+ /* event
     .addEntityLootModifier("aquamirae:captain_cornelia")
     .randomChance(mdChance)
     .addLoot("simplyswords:frostfall");
@@ -528,7 +528,7 @@ LootJS.modifiers((event) => {
   event
     .addEntityLootModifier("aquamirae:captain_cornelia")
     .randomChance(mdChance)
-    .addLoot("simplyswords:whisperwind");
+    .addLoot("simplyswords:whisperwind");*/
   // ---
 
   event

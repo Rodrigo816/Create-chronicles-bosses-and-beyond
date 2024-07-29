@@ -13,6 +13,7 @@ ClientEvents.lang('en_us', event => {
 
 JEIEvents.hideItems(event => {
   //temp
+  event.hide('tfmg:charcoal_dust')
 
   event.hide('kubejs:unfinished_fire_scroll')
   event.hide('kubejs:unfinished_ice_scroll')
