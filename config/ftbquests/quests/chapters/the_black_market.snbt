@@ -347,7 +347,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 8.0d
-			y: 5.5d
+			y: 14.0d
 		}
 		{
 			height: 1.0d
@@ -414,8 +414,8 @@
 			y: -3.5d
 		}
 		{
-			height: 1.94d
-			image: "kubejs:textures/monthly.png"
+			height: 1.82d
+			image: "kubejs:textures/monthly_challenges.png"
 			rotation: 0.0d
 			width: 6.195761856710393d
 			x: 3.5d
@@ -436,6 +436,70 @@
 			width: 1.0d
 			x: 5.0d
 			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			height: 1.82d
+			image: "kubejs:textures/previous_challenges.png"
+			rotation: 0.0d
+			width: 6.195761856710393d
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 14.0d
 		}
 	]
 	order_index: 3
@@ -2436,6 +2500,29 @@
 			title: "Vein Mining"
 			x: 8.0d
 			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "14E52F88F5AAC10C"
+			rewards: [{
+				count: 3
+				id: "4E347E65A43AE352"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "For historical reference, the challenge ran from June 1 to July 16, 2024. Of course, the reward has been nerfed now."
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "014BDE5884870728"
+				item: "quark:myalite"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.5d
 		}
 	]
 	title: "&0&l The Black Market"

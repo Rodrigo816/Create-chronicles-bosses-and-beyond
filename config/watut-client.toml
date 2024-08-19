@@ -44,4 +44,6 @@
 	screenTypingCharacterLimit = 50
 	#String to use when too many people are typing determined by screenTypingCharacterLimit
 	screenTypingMultiplePlayersText = "Several people are typing"
+	#String to use next to the typing player(s) name
+	screenTypingText = " is typing"
 

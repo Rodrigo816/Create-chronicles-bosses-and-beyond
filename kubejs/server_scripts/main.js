@@ -542,6 +542,7 @@ ServerEvents.recipes(event => {
       Item.of(TFMG('steel_mechanism')).withChance(100.0),
       Item.of(TFMG('screw')).withChance(20.0),
     ], KJ('locomotive_mechanism'), [
+      event.recipes.createDeploying(transitional, [transitional, TFMG('heavy_plate')]),
       event.recipes.createDeploying(transitional, [transitional, TFMG('steel_ingot')]),
       event.recipes.createDeploying(transitional, [transitional, TFMG('aluminum_ingot')]),
       event.recipes.createDeploying(transitional, [transitional, TFMG('screw')]),

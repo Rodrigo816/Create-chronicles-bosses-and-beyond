@@ -80,6 +80,7 @@ ServerEvents.recipes(event => {
         // Locomotive
         'alexscaves:metal_rebar',
         // Steel
+        TFMG('sequenced_assembly/steel_mechanism'),
         CR('blasting/limestone'),
         CR('haunting/glow_ink_sac'),
         CRDD('smelting/gabbro'),

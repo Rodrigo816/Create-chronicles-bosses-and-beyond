@@ -112,6 +112,7 @@
 	"enigma_damageModifier": 5.0,
 	"magispear_damageModifier": 2.0,
 	"magiblade_damageModifier": 1.0,
+	"caelestis_damageModifier": 6.0,
 	"brimstone_attackSpeed": -3.0,
 	"thewatcher_attackSpeed": -2.799999952316284,
 	"stormsedge_attackSpeed": -2.0,
@@ -151,5 +152,6 @@
 	"magiscythe_attackSpeed": -2.4000000953674316,
 	"enigma_attackSpeed": -3.200000047683716,
 	"magispear_attackSpeed": -2.5,
-	"magiblade_attackSpeed": -2.0
+	"magiblade_attackSpeed": -2.0,
+	"caelestis_attackSpeed": -2.9000000953674316
 }
