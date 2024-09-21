@@ -225,7 +225,7 @@
 				""
 				"To reassign your talents, use the consumable item &cTalent Tree Reset&f, which refunds all your skill points upon use. The means to acquire a &cTalent Tree Reset&f are unlocked at later stage. "
 				""
-				"&eSkill points&f are primarily earned through challenging boss battles, with a max of &668 skills&r in total, all obtainable via quests. "
+				"&eSkill points&f are primarily earned through challenging boss battles, with a max of &665 skills&r in total, all obtainable via quests. "
 				""
 				"For a comprehensive guide on acquiring &eskill points&f, refer to the &2'Bosses and Skill Points'&f chapter."
 			]
@@ -771,9 +771,9 @@
 				""
 				"&cBeyond 1200 blocks, dangerous mobs from&r &bIce&r and &cFire&r, such as dragon roosts and sea serpents, will spawn anywhere. Proceed at your own risk."
 				""
-				"Starting from the &n&6fifth night&r&r, a dangerous mob, the &0Stalker&r, will appear. You’ll hear a characteristic sound and see a message in the chat when it spawns. "
+				"Starting from the &n&6third night&r&r, a dangerous mob, the &0Stalker&r, will appear. You’ll hear a characteristic sound and see a message in the chat when it spawns. "
 				""
-				"The &0Lifestealer&r undead can appear from the &n&6fifteenth night&r&r. It hides under a cloak, notices players from 100 blocks away, and starts following from 30 blocks. After attacking or taking enough damage, it reveals its true form with a scream."
+				"The &0Lifestealer&r undead can appear from the &n&6tenth night&r&r. It hides under a cloak, notices players from 100 blocks away, and starts following from 30 blocks. After attacking or taking enough damage, it reveals its true form with a scream."
 			]
 			id: "05DF598DEBADABC3"
 			rewards: [{
@@ -942,35 +942,6 @@
 			title: "Shaders"
 			x: -32.5d
 			y: 20.0d
-		}
-		{
-			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"&aCalculators &rare a key to success. With the &dCrafting Calculator&r you can determine how many raw resources a recipe will cost, and how much materials you will need to craft the items in bulk. There is a bit of a &3learning curve&r to the calculator, but it has some helpful tips in it's own UI."
-				""
-				"The &2Math Calculator&r works as a general calculator for addition, subtraction, etc."
-			]
-			id: "6CC91D69D83DE57A"
-			rewards: [{
-				id: "7D802B495A5417A8"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "7AECB6D5CFF7AA77"
-					item: "jecalculation:item_calculator_craft"
-					type: "item"
-				}
-				{
-					id: "53DEC28362333950"
-					item: "jecalculation:item_calculator_math"
-					type: "item"
-				}
-			]
-			title: "Calculators"
-			x: 18.5d
-			y: 15.5d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
@@ -2044,8 +2015,7 @@
 			dependencies: ["1F6BC8C2A5B8F9B2"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Simply press &6\"H\"&r to access your current missions. Completing these will reward you with money that can be used in multiplayer environments or at the &l&0Black Market.&r&l&r"
-				"You get two free rolls per week."
+				"In this modpack, you can&a earn currency&r by completing certain quests, defeating bosses, and participating in Black Market challenges."
 				""
 				"&5Understanding Currency in the Game:&r"
 				""
@@ -2062,13 +2032,12 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
-			subtitle: "Embark on Weekly Missions to Earn Valuable Currency!"
 			tasks: [{
 				id: "65A099F8209103AE"
 				title: "Click to Acknowledge"
 				type: "checkmark"
 			}]
-			title: "&6Multiplayer:&r Weekly Missions"
+			title: "&6Mastering Currency"
 			x: -30.5d
 			y: 20.0d
 		}
@@ -2906,71 +2875,6 @@
 			y: 23.0d
 		}
 		{
-			dependencies: ["3D1AC201E82A3A87"]
-			description: [""]
-			id: "4F8B022ABCB3181E"
-			rewards: [{
-				id: "507C42D464A46968"
-				item: {
-					Count: 1
-					id: "epicsamurai:katana"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "3748659A68D06692"
-					item: {
-						Count: 1
-						id: "epicsamurai:iron_samurai_helmet_light"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "47C0C70F3E672A78"
-					item: {
-						Count: 1
-						id: "epicsamurai:iron_samurai_chestplate_light"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "318CA49765E92A17"
-					item: {
-						Count: 1
-						id: "epicsamurai:iron_samurai_leggings_light"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3A14D08C27B59A78"
-					item: {
-						Count: 1
-						id: "epicsamurai:iron_samurai_boots_light"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Epic Samurai"
-			x: -2.5d
-			y: 14.5d
-		}
-		{
 			dependencies: ["77CB99E12D41EFF3"]
 			description: ["A &6spyglass&r can be equipped in your Curios slot. The default key to access it is&2 \"C\".&r"]
 			id: "15B432E69AB118B5"
@@ -3035,7 +2939,7 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
+			x: 20.0d
 			y: 15.5d
 		}
 		{
@@ -3340,7 +3244,7 @@
 				}
 				type: "item"
 			}]
-			x: 23.0d
+			x: 21.5d
 			y: 15.5d
 		}
 		{
@@ -3420,7 +3324,7 @@
 					type: "item"
 				}
 			]
-			x: 22.5d
+			x: 21.0d
 			y: 14.5d
 		}
 		{
@@ -3445,7 +3349,7 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
+			x: 22.0d
 			y: 14.5d
 		}
 		{
@@ -3474,7 +3378,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
+			x: 18.5d
 			y: 15.5d
 		}
 		{
@@ -3499,7 +3403,7 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.0d
 			y: 15.5d
 		}
 		{

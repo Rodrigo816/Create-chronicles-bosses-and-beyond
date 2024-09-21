@@ -12,9 +12,9 @@ ServerEvents.recipes(event => {
   event.replaceInput({id:'iceandfire:jar_empty'}, '#minecraft:planks', 'granite_slab')
 
   // epic samurai
-  event.replaceInput({mod:'epicsamurai'}, '#forge:ingots/steel', 'tfmg:cast_iron_ingot')
+  event.replaceInput({mod:'samurai_dynasty'}, '#forge:ingots/steel', 'tfmg:cast_iron_ingot')
   event.replaceInput(
-    { id: 'epicsamurai:steel_block' },         
+    { id: 'samurai_dynasty:steel_block' },         
     'tfmg:cast_iron_ingot',
     'tfmg:steel_ingot',         
   )
@@ -26,8 +26,8 @@ ServerEvents.recipes(event => {
 
   event.remove({output: 'ad_astra:steel_nugget'});
   event.replaceInput({}, 'ad_astra:steel_nugget', 'create_dd:steel_nugget');
-  event.remove({output: 'epicsamurai:steel_nugget'});
-  event.replaceInput({}, 'picsamurai:steel_nugget', 'create_dd:steel_nugget');
+  event.remove({output: 'samurai_dynasty:steel_nugget'});
+  event.replaceInput({}, 'samurai_dynasty:steel_nugget', 'create_dd:steel_nugget');
 
 
   // CORAIL STUFF
@@ -36,8 +36,8 @@ ServerEvents.recipes(event => {
   event.remove({type: 'minecraft:smelting', mod: 'tombstone'});
   
   //silver uni
-  event.replaceInput({}, '#forge:ingots/silver', 'epicsamurai:silver_ingot')
-  event.replaceInput({}, '#forge:nuggets/silver', 'epicsamurai:silver_nugget')
+  event.replaceInput({}, '#forge:ingots/silver', 'samurai_dynasty:silver_ingot')
+  event.replaceInput({}, '#forge:nuggets/silver', 'samurai_dynasty:silver_nugget')
   //event.remove({output: 'epic_samurai:silver_ingot'});
   //event.replaceInput({}, 'iceandfire:silver_ingot', 'epic_samurai:silver_ingot');
   //event.replaceInput({}, 'iceandfire:silver_ore', 'epic_samurai:silver_ore');
@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
   event.remove({output: 'ad_astra:steel_ingot'});
   event.replaceInput({}, 'ad_astra:steel_ingot', 'tfmg:steel_ingot');
 
-  event.replaceOutput({}, 'epicsamurai:steel_ingot', 'tfmg:steel_ingot');
+  event.replaceOutput({}, 'samurai_dynasty:steel_ingot', 'tfmg:steel_ingot');
 
 
   // Create Confectionery

@@ -26,7 +26,7 @@
 	#Potion duration, in seconds
 	#Range: > 0
 	potion_time = 5
-	#Extend time duration, in seconds
+	#Extend time duration, in ticks
 	#Range: > 0
 	extend_time = 5
 

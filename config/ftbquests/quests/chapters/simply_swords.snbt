@@ -132,7 +132,15 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Twilight Forest: Snow Queen"
+				""
+				"- Cataclysm: Ancient Remnant"
+				""
+				"- Cataclysm: The Harbinger"
+				""
+				"- Bosses of Mass Destruction: Gauntlet"
+			]
 			id: "53B2E9A6E5B325ED"
 			rewards: [
 				{
@@ -163,7 +171,21 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Twilight Forest: Naga"
+				""
+				"- Cataclysm: The Leviathan"
+				""
+				"- Ender Dragon"
+				""
+				"- Mutant Monsters: Mutant Enderman"
+				""
+				"- Graveyard: Lich"
+				""
+				"- Bosses of Mass Destruction: Obsidilith"
+				""
+				"- Conjurer Illager: Conjurer"
+			]
 			id: "0E07548D03860CCF"
 			rewards: [
 				{
@@ -194,7 +216,17 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Born in Chaos: Lord Pumpkinhead Head"
+				""
+				"- Cataclysm: Ender Guardian"
+				""
+				"- Mutant Monsters: Mutant Skeleton"
+				""
+				"- Mutant Monsters: Mutant Creeper"
+				""
+				"- Wither"
+			]
 			icon: {
 				Count: 1
 				id: "simplyswords:mjolnir"
@@ -232,7 +264,13 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Twilight Forest: Hydra"
+				""
+				"- Cataclysm: Netherite Monstrosity"
+				""
+				"- Alex's Caves: Luxtructosaurus"
+			]
 			id: "2169375E832C2F25"
 			rewards: [
 				{
@@ -263,7 +301,15 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Mutant Monsters: Mutant Skeleton"
+				""
+				"- Mutant Monsters: Mutant Enderman"
+				""
+				"- Mutant Monsters: Mutant Creeper"
+				""
+				"- Ars Nouveau: Wilden Boss"
+			]
 			id: "455B5BE4799E7BA1"
 			rewards: [
 				{
@@ -294,7 +340,13 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["&e"]
+			description: [
+				"- Wither"
+				""
+				"- Ars Nouveau: Wilden Boss"
+				""
+				"- Warden"
+			]
 			id: "0040CDCBC2EB8DDF"
 			rewards: [
 				{
@@ -325,7 +377,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["Purchased from the black market."]
 			id: "7EF5B971BE033641"
 			rewards: [
 				{
@@ -356,7 +408,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["Purchased from the black market."]
 			id: "53603CD7E6CA3F0B"
 			rewards: [
 				{
@@ -387,7 +439,13 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Twilight Forest: Naga"
+				""
+				"- Mutant Monsters: Mutant Creeper"
+				""
+				"- Wither"
+			]
 			id: "2D063400687C0A32"
 			rewards: [
 				{
@@ -418,7 +476,11 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Twilight Forest: Hydra"
+				""
+				"- Cataclysm: Netherite Monstrosity"
+			]
 			id: "2097C3E4ED7D5F02"
 			rewards: [
 				{
@@ -449,7 +511,15 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Twilight Forest: Snow Queen"
+				""
+				"- Twilight Forest: Naga"
+				""
+				"- Cataclysm: The Leviathan"
+				""
+				"- Bosses of Mass Destruction: Obsidilith"
+			]
 			id: "5DC857771CA38E30"
 			rewards: [
 				{
@@ -480,7 +550,13 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Twilight Forest: Snow Queen"
+				""
+				"- Cataclysm: The Leviathan"
+				""
+				"- Alex's Caves: Hullbreaker"
+			]
 			id: "693EF5F1A82287C2"
 			rewards: [
 				{
@@ -511,7 +587,11 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Cataclysm: Ignis"
+				""
+				"- Alex's Caves: Luxtructosaurus"
+			]
 			id: "48BA8279B7803935"
 			rewards: [
 				{
@@ -542,7 +622,11 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Cataclysm: Ancient Remnant"
+				""
+				"- Cataclysm: Ignis"
+			]
 			id: "5CEB5D0A9457C85F"
 			rewards: [
 				{
@@ -573,7 +657,13 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Ender Dragon"
+				""
+				"- Bosses of Mass Destruction: Obsidilith"
+				""
+				"- Cataclysm: Ignis"
+			]
 			id: "699E000B5857A250"
 			rewards: [
 				{
@@ -604,7 +694,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["Purchased from the black market."]
 			id: "738B384E5DA0FE51"
 			rewards: [
 				{
@@ -635,6 +725,15 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [
+				"- Graveyard: Lich"
+				""
+				"- Wither"
+				""
+				"- Bosses of Mass Destruction: Lich"
+				""
+				"- Warden"
+			]
 			id: "0D05510497DF52AB"
 			rewards: [{
 				id: "59F6CFE0225F2011"
@@ -658,7 +757,15 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Cataclysm: Netherite Monstrosity"
+				""
+				"- Cataclysm: Ancient Remnant"
+				""
+				"- Cataclysm: The Harbinger"
+				""
+				"- Bosses of Mass Destruction: Gauntlet"
+			]
 			id: "3183E4BFE858CACC"
 			rewards: [
 				{
@@ -689,7 +796,11 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Cataclysm: The Leviathan"
+				""
+				"- Graveyard: Lich"
+			]
 			id: "722AF20B25C73434"
 			rewards: [
 				{
@@ -720,7 +831,19 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Graveyard: Lich"
+				""
+				"- Cataclysm: Ender Guardian"
+				""
+				"- Bosses of Mass Destruction: Lich"
+				""
+				"- Bosses of Mass Destruction: Obsidilith"
+				""
+				"- Bosses of Mass Destruction: Gauntlet"
+				""
+				"- Warden"
+			]
 			id: "1E84A488F5E570E4"
 			rewards: [
 				{
@@ -751,7 +874,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["Purchased from the black market."]
 			id: "34BBF229D598EC32"
 			rewards: [
 				{
@@ -783,7 +906,11 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Born in Chaos: Lord Pumpkinhead Head"
+				""
+				"- Alex's Caves: Luxtructosaurus"
+			]
 			id: "54281D0166F4A2B7"
 			rewards: [
 				{
@@ -880,7 +1007,15 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Ender Dragon"
+				""
+				"- Alex's Caves: Forsaken"
+				""
+				"- Conjurer Illager: Conjurer"
+				""
+				"- Ars Nouveau: Wilden Boss"
+			]
 			id: "44DFABF9753C695A"
 			rewards: [
 				{
@@ -911,7 +1046,17 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Alex's Caves: Hullbreaker"
+				""
+				"- Alex's Caves: Forsaken"
+				""
+				"- Mutant Monsters: Mutant Enderman"
+				""
+				"- Bosses of Mass Destruction: Void Blossom"
+				""
+				"- Graveyard: Lich"
+			]
 			id: "15ACAC042E5DC5A9"
 			rewards: [
 				{
@@ -942,7 +1087,17 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Ender Dragon"
+				""
+				"- Cataclysm: Ender Guardian"
+				""
+				"- Cataclysm: Ancient Remnant"
+				""
+				"- Bosses of Mass Destruction: Lich"
+				""
+				"- Warden"
+			]
 			id: "0B77600C1CF9D04D"
 			rewards: [
 				{
@@ -973,7 +1128,11 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Graveyard: Lich"
+				""
+				"- Ars Nouveau: Wilden Boss"
+			]
 			id: "6A397DDAD1FEB62D"
 			rewards: [
 				{
@@ -1004,6 +1163,17 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [
+				"- Born in Chaos: Lord Pumpkinhead Head"
+				""
+				"- Bosses of Mass Destruction: Void Blossom"
+				""
+				"- Alex's Caves: Luxtructosaurus"
+				""
+				"- Warden"
+				""
+				"- Bosses of Mass Destruction: Obsidilith"
+			]
 			id: "591452E3ABF5CE04"
 			rewards: [
 				{
@@ -1034,7 +1204,15 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Ender Dragon"
+				""
+				"- Cataclysm: Netherite Monstrosity"
+				""
+				"- Wither"
+				""
+				"- Warden"
+			]
 			id: "710E685F9C267299"
 			rewards: [
 				{
@@ -1065,6 +1243,13 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [
+				"- Cataclysm: The Leviathan"
+				""
+				"- Alex's Caves: Hullbreaker"
+				""
+				"- Conjurer Illager: Conjurer"
+			]
 			id: "7162B0D58650037E"
 			rewards: [
 				{
@@ -1095,7 +1280,11 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Reward for complete artifacts chapter"
+				""
+				"- Reward for complete ring of ascension chapter"
+			]
 			id: "10E6A5CCEA7AF675"
 			rewards: [
 				{
@@ -1126,7 +1315,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["Purchased from the black market."]
 			id: "020EF6BAC6E7BD52"
 			rewards: [
 				{
@@ -1157,7 +1346,17 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: [
+				"- Cataclysm: Netherite Monstrosity"
+				""
+				"- Cataclysm: Ancient Remnant"
+				""
+				"- Cataclysm: The Harbinger"
+				""
+				"- Cataclysm: Ignis"
+				""
+				"- Alex's Caves: Magnetron"
+			]
 			id: "2BD02102AED25BBD"
 			rewards: [
 				{
@@ -1188,7 +1387,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["- Warden"]
 			id: "0793903EFDA666D9"
 			rewards: [
 				{
@@ -1319,7 +1518,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["Purchased from the black market."]
 			id: "1A4EF2745BD2163D"
 			rewards: [
 				{
@@ -1350,7 +1549,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["Purchased from the black market."]
 			id: "51E18D8B67394EC2"
 			rewards: [
 				{
@@ -1377,11 +1576,11 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["Purchased from the black market."]
 			id: "5F9DC6A4D253217D"
 			rewards: [
 				{
@@ -1408,11 +1607,11 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [""]
+			description: ["Purchased from the black market."]
 			id: "624E99A4E08167EA"
 			rewards: [
 				{
@@ -1439,7 +1638,69 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Purchased from the black market."]
+			id: "06C66D21CB3CB5C7"
+			rewards: [
+				{
+					id: "7A35547D9172E0F7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FE88EFFA9BF343F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6B7F2E73ACBD64C5"
+				item: {
+					Count: 1
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["&4Will be added in a future boss, not available at the moment.&r"]
+			id: "6FAD2E8780C8F445"
+			rewards: [
+				{
+					id: "383758F5D8934D07"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "09A35F931CF796FB"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2A9F70E8E8EDD70D"
+				item: {
+					Count: 1
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
 		}
 	]
 	title: "&cSimply Swords"

@@ -28,7 +28,22 @@ ServerEvents.recipes(event => {
 
     //Remove by recipe ID
     [
-        'epicsamurai:steel_ingot_from_blasting_iron_ingot',
+        'bosses_of_mass_destruction:brimstone_nectar',
+        'sophisticatedbackpacks:everlasting_upgrade',
+        'create_dd:mixing/asphalt',
+
+        'irons_spellbooks:curios/affinity_ring',
+        'alexsmobs:transmutation_table',
+        'create:mechanical_crafting/ascended_flight_ring',
+        'balancedflight:sequenced_assembly/flight_anchor',
+        'create_dd:industrial_iron/cauldron',
+        
+           // blze
+        'ars_elemental:blaze_crush',
+        'create:crushing/blaze_rod',
+        'minecraft:blaze_powder',
+
+        'samurai_dynasty:steel_ingot_from_blasting_iron_ingot',
         'tfmg:milling/charcoal_dust',
         'shieldexp:griefer_shield',
         'additional_lights:fire_for_standing_torch_s',
@@ -88,7 +103,7 @@ ServerEvents.recipes(event => {
         CR('filling/calcite'),
         'forbidden_arcanus:enchanted_golden_apple',
         TFMG('sequenced_assembly/aluminum_ingot'),
-        'epicsamurai:steel_ingot_create_compat',
+        'samurai_dynasty:steel_ingot_create_compat',
 
         // Oil
         TFMG('sequenced_assembly/aluminum_ingot'),
@@ -257,5 +272,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'create_dd:stargaze_singularity'});
     event.remove({input: 'create_dd:stargaze_singularity'});
     event.remove({output: 'create_dd:fallen_stargaze_singularity'});
+
+    event.remove({mod: 'eyesoficeandfire'});
 
 })

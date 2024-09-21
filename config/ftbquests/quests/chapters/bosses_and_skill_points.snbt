@@ -1301,8 +1301,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Forsaken"
-			x: -2.0d
-			y: 8.5d
+			x: -3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1438,8 +1438,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Luxtructosauros"
-			x: -3.0d
-			y: 7.5d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2152,37 +2152,6 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50CC54774B835A50\" } }"]
-			id: "7FE615B1AB39CFFA"
-			rewards: [
-				{
-					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
-					icon: "kubejs:skill_add_point"
-					id: "24C7C537994F50C8"
-					silent: true
-					title: "+1 Skill Point"
-					type: "command"
-				}
-				{
-					id: "772647D456D37BFC"
-					item: "numismatics:cog"
-					type: "item"
-				}
-			]
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				id: "099E3A9375FD853E"
-				item: "lost_aether_content:platinum_key"
-				type: "item"
-			}]
-			title: "&6The Aether&f: The Platinum Key!"
-			x: -1.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
 			description: ["&6The Conjurer&r is a magician inspired Illager miniboss. He owns a&c theater&r deep in the roofed forest biome. He has plenty of tricks up his sleve, so don’t take him lightly!"]
 			icon: {
 				Count: 1
@@ -2303,7 +2272,6 @@
 				"0FA6D29FC55F9AEC"
 				"138E94B1FC310502"
 				"3316608227ABBD2E"
-				"7FE615B1AB39CFFA"
 				"40DD304B90046084"
 				"466E95094802C572"
 				"360D7D51B8827142"
@@ -2349,9 +2317,7 @@
 				"4B8AA887F0B4664E"
 				"1B579FA633476F4B"
 				"0990BE5505F823C2"
-				"25A159F2A8B9340B"
 				"125E3B2F9B728E17"
-				"4597C15E8D4FE8C0"
 				"722A585C044A2097"
 				"38DE8D7E98D6AA48"
 				"4E0B638C20CF9FD7"
@@ -2856,59 +2822,7 @@
 		{
 			dependencies: ["072DA448D144179C"]
 			description: [
-				"&cThe Magnetrom&r can be found at &emagnetic caves.&r"
-				""
-				"It constructs a massive body from nearby blocks, with its electromagnetic nature sparking to life as lightning connects the blocks."
-				""
-				"Magnetrons prioritize magnetic blocks for their construction, using sawmills and anvils as weapons to enhance their attack if available. Defeating a Magnetron causes it to disassemble, releasing its blocks and dropping the &6Heart of Iron&r."
-			]
-			icon: {
-				Count: 1
-				id: "alexscaves_torpedoes:magnetic_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "4597C15E8D4FE8C0"
-			rewards: [
-				{
-					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
-					icon: "kubejs:skill_add_point"
-					id: "658C1F6C9F49D3B6"
-					silent: true
-					title: "+1 Skill Point"
-					type: "command"
-				}
-				{
-					id: "60303FF895A79C68"
-					item: "numismatics:cog"
-					type: "item"
-				}
-			]
-			shape: "square"
-			subtitle: "&6⭐&7⭐⭐⭐⭐"
-			tasks: [{
-				entity: "alexscaves:magnetron"
-				icon: {
-					Count: 1
-					id: "alexscaves_torpedoes:magnetic_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "660E51AA402EFF8F"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&2Overworld&f: Magnetron"
-			x: -1.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
-			description: [
-				"Appears starting from the &c&ofifth&r night&r of the game so that the player has time to &nprepare&r for the meeting with him. "
+				"Appears starting from the &c&othird&r night&r of the game so that the player has time to &nprepare&r for the meeting with him. "
 				""
 				"The beginning of the &8Stalker's&r spawn is accompanied by a characteristic &osound&r and a &omessage&r in the chat. "
 				""
@@ -2955,50 +2869,6 @@
 				value: 5L
 			}]
 			title: "&2Overworld&f: Kill Your Nightmares"
-			x: 0.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["072DA448D144179C"]
-			description: [
-				"He is a undead that you can meet starting from the &afifteen night of the game&r. "
-				""
-				"At first it is hidden under the mantle, it is able to notice the player at a distance of 100 blocks, and begins to follow from a distance of 30 blocks. "
-				""
-				"After making an attack or receiving enough damage, he reveals his true form by screaming. "
-				""
-				"When attacking a player, he steals the player’s health, causing, in addition to the main damage, special piercing damage which, regardless of armor or any source of damage reduction, deals consistently one unit of damage, and also imposes a lifestealing effect that wither the player and heals the Lifestealer himself. "
-				""
-				"Repeatedly attacking a player under the lifestealing effect will apply a Death Grip effect, which in turn will slow down the player extremely if he is not under the lifestealing effect. From a certain point, Lifestealer periodically begins to cause a dark splash that pushes the player and all nearby creatures to the side, causing them piercing damage and applying the lifesteal effect."
-			]
-			icon: "born_in_chaos_v1:lifestealer_bone"
-			id: "25A159F2A8B9340B"
-			rewards: [
-				{
-					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
-					icon: "kubejs:skill_add_point"
-					id: "712FD48036365160"
-					silent: true
-					title: "+1 Skill Point"
-					type: "command"
-				}
-				{
-					id: "69542F032F888080"
-					item: "numismatics:cog"
-					type: "item"
-				}
-			]
-			shape: "square"
-			subtitle: "&6⭐⭐&7⭐⭐⭐"
-			tasks: [{
-				entity: "born_in_chaos_v1:lifestealer_true_form"
-				icon: "born_in_chaos_v1:lifestealer_bone"
-				id: "19DC5BFD7C6928BE"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&2Overworld&f: Lifestealer"
 			x: 4.0d
 			y: 5.5d
 		}

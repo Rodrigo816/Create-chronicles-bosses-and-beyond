@@ -42,12 +42,20 @@ BlockEvents.modification(event => {
  */
 StartupEvents.registry("block", (event) => {
     event.create("mystic_coal_block")
-    .displayName("Mystic Coal Block") 
-    .hardness(1.0) 
-    .resistance(1.0)
-    .requiresTool(true) 
-    .tagBlock("mineable/pickaxe") 
-    .tagBlock('minecraft:needs_diamond_tool')
+        .displayName("Mystic Coal Block") 
+        .hardness(1.0) 
+        .resistance(1.0)
+        .requiresTool(true) 
+        .tagBlock("mineable/pickaxe") 
+        .tagBlock('minecraft:needs_diamond_tool')
+        
+    event.create("battery_ore")
+        .displayName("Battery Ore") 
+        .hardness(1.0) 
+        .resistance(1.0)
+        .requiresTool(true) 
+        .tagBlock("mineable/pickaxe") 
+        .tagBlock('minecraft:needs_diamond_tool')
 
 
    let machine = (name, display, layer) => {

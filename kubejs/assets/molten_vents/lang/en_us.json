@@ -6,6 +6,7 @@
   "block.molten_vents.active_molten_scorchia": "Active Molten Scorchia",
   "block.molten_vents.active_molten_scoria": "Active Molten Scoria",
   "block.molten_vents.active_molten_potassic": "Active Molten Potassic",
+  "block.molten_vents.active_molten_battery": "Active Molten Battery",
 
   "block.molten_vents.dormant_molten_asurine": "Dormant Molten Asurine",
   "block.molten_vents.dormant_molten_veridium": "Dormant Molten Veridium",
@@ -13,5 +14,6 @@
   "block.molten_vents.dormant_molten_ochrum": "Dormant Molten Ochrum",
   "block.molten_vents.dormant_molten_scorchia": "Dormant Molten Scorchia",
   "block.molten_vents.dormant_molten_scoria": "Dormant Molten Scoria",
-  "block.molten_vents.dormant_molten_potassic": "Dormant Molten Potassic"
+  "block.molten_vents.dormant_molten_potassic": "Dormant Molten Potassic",
+  "block.molten_vents.dormant_molten_battery": "Dormant Molten Battery"
 }

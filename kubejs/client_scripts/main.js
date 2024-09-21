@@ -12,8 +12,19 @@ ClientEvents.lang('en_us', event => {
 })
 
 JEIEvents.hideItems(event => {
+  event.hide('balancedflight:ascended_flight_ring')
+  event.hide('ringsofascension:ring_undying')
+  event.hide('alexsmobs:transmutation_table')
+
   //temp
   event.hide('tfmg:charcoal_dust')
+  event.hide('tfmg:polarizer')
+  event.hide('tfmg:creative_generator')
+
+  //dnd update pending
+  event.hide('create_connected:fan_seething_catalyst')
+  event.hide('create_connected:fan_freezing_catalyst')
+  event.hide('create_connected:fan_sanding_catalyst')
 
   event.hide('kubejs:unfinished_fire_scroll')
   event.hide('kubejs:unfinished_ice_scroll')
@@ -59,8 +70,8 @@ JEIEvents.hideItems(event => {
   event.hide('create_dd:steel_ingot')
   event.hide('ad_astra:steel_ingot')
   event.hide('ad_astra:steel_nugget')
-  event.hide('epicsamurai:steel_ingot')
-  event.hide('epicsamurai:steel_nugget')
+  event.hide('samurai_dynasty:steel_ingot')
+  event.hide('samurai_dynasty:steel_nugget')
   event.hide('create_dd:steel_sheet')
   event.hide('ad_astra:steel_plate')
   // shadow

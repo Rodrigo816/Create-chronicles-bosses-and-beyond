@@ -14,6 +14,8 @@ ServerEvents.recipes(event => {
   event.recipes.createMixing('farmersdelight:mixed_salad',['#forge:salad_ingredients','farmersdelight:tomato','minecraft:beetroot','minecraft:bowl'])
   event.recipes.createMixing('farmersdelight:nether_salad',['minecraft:crimson_fungus','minecraft:warped_fungus','minecraft:bowl'])
 
+  event.recipes.createMixing('create_dd:asphalt_block',['2x create:scorchia',Fluid.of('tfmg:liquid_asphalt', 250)])
+
   transitional = 'kubejs:incomplete_melon_popsicle'
   event.recipes.createSequencedAssembly([
     'farmersdelight:melon_popsicle',
@@ -180,14 +182,14 @@ ServerEvents.recipes(event => {
   ])
 
   // convert ice and fire silver nuggets to samurai
-  event.shaped('epicsamurai:silver_ingot', [
+  event.shaped('samurai_dynasty:silver_ingot', [
     'AAA',
     'AAA',
     'AAA'
   ], {
       A:'iceandfire:silver_nugget',
   })
-  event.shapeless('epicsamurai:silver_ingot',[
+  event.shapeless('samurai_dynasty:silver_ingot',[
     'iceandfire:silver_ingot',
   ])
 

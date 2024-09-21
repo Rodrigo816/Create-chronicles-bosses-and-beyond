@@ -91,7 +91,9 @@
 		}
 		{
 			dependencies: ["6C52531E3B0CCB60"]
+			description: ["{ \"text\": \"☞ Click here for more information about beams visit Chapter V at the end.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"265960CE3104527E\" } }"]
 			id: "1D9D2E1FF9BD8A91"
+			subtitle: "It uses a &6Beam Focuser&r"
 			tasks: [{
 				id: "20A855B3B2E0B5A7"
 				item: "minecraft:blaze_powder"
@@ -246,7 +248,7 @@
 				item: "create_dd:industrial_fan"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: 8.0d
 		}
 		{
@@ -359,6 +361,17 @@
 			}]
 			x: 10.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			id: "53A0688E8472A4BD"
+			tasks: [{
+				id: "19F53D1A096940D3"
+				item: "balancedflight:flight_anchor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
 		}
 	]
 	title: "Chapter VII: Infernal Mechanism"

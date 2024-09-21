@@ -7,6 +7,6 @@
 			"item": "kubejs:create_chronicles"
 		}
 	},
-	"spent_points_limit":67,
+	"spent_points_limit":65,
 	"background": "kubejs:textures/color_solid_2.png"
 }
