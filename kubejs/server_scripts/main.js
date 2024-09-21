@@ -1013,8 +1013,8 @@ ServerEvents.recipes(event => {
       event.recipes.createDeploying(transitional, [transitional, CRDD('overcharge_alloy_sheet')]),
       event.recipes.createDeploying(transitional, [transitional, 'create_connected:control_chip']),
       event.recipes.createDeploying(transitional, [transitional, MC('glowstone_dust')]),
-      event.recipes.createDeploying(transitional, [transitional, TFMG('resistor')]),
-      event.recipes.createDeploying(transitional, [transitional, TFMG('capacitor')]),
+      event.recipes.createDeploying(transitional, [transitional, TFMG('resistor_')]),
+      event.recipes.createDeploying(transitional, [transitional, TFMG('capacitor_')]),
     ]).transitionalItem(transitional)
       .loops(2)
       .id(CRDD('integrated_circuit'))
@@ -1027,7 +1027,7 @@ ServerEvents.recipes(event => {
       event.recipes.createDeploying(transitional, [transitional, CR('brass_nugget')]),
       event.recipes.createDeploying(transitional, [transitional, CRA('electrum_nugget')]),
     ]).transitionalItem(transitional)
-      .loops(64)
+      .loops(32)
       .id('create_connected:control_chip')
 
     // readd crushed raw zinc washing
