@@ -597,7 +597,18 @@ ServerEvents.recipes(event => {
     CR('andesite_casing'),               
     TFMG('steel_mechanism')         
   )
-
+  event.custom({
+    "type": CRA('charging'),
+    "input": {
+          "item": TFMG('steel_ingot'),
+          "count": 1
+    },
+    "result": {
+        "item": TFMG('magnetic_ingot'),
+        "count": 1
+    },
+    "energy": 15000,
+  })
   /*
     ===============================
     ---->Chp 6 Rocket Fuel
@@ -889,7 +900,7 @@ ServerEvents.recipes(event => {
         "count": 1
     },
     "energy": 2000000,
-})
+  })
   event.recipes.createHaunting('forbidden_arcanus:darkstone',MC('blackstone'))
 
   //easy arcane crystal dust
