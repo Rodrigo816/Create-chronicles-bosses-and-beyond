@@ -2641,6 +2641,12 @@
 					item: "waystones:waystone"
 					type: "item"
 				}
+				{
+					count: 20
+					id: "47158C6B67135BFC"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -2807,6 +2813,7 @@
 			}]
 			subtitle: "only resets boss of mass destruction"
 			tasks: [{
+				consume_items: true
 				count: 2L
 				id: "7BB42459DD0CD980"
 				item: "numismatics:cog"
@@ -2842,22 +2849,21 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide: true
-			icon: "minecraft:slime_ball"
+			icon: "minecraft:blaze_powder"
 			id: "1A0BB70FFA6531C3"
 			rewards: [{
 				count: 10
-				id: "20BC62FBF2934FAE"
-				item: "minecraft:slime_ball"
+				id: "30528D1F72BC4189"
+				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
-				count: 20L
 				id: "44136CDB430B3610"
-				item: "numismatics:spur"
+				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "Slimeball"
+			title: "Blaze Powder"
 			x: -1.0d
 			y: 6.5d
 		}
