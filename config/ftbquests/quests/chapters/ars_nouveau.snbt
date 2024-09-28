@@ -2917,19 +2917,15 @@
 			id: "0E2AD156E5EF263A"
 			rewards: [
 				{
-					id: "19F2CD6C0B18C66F"
-					item: {
-						Count: 1
-						id: "ars_nouveau:spell_parchment"
-						tag: { }
-					}
-					random_bonus: 1
-					type: "item"
-				}
-				{
 					count: 5
 					id: "77C57AFB595F2053"
 					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "57D7BE37855DC98A"
+					item: "numismatics:spur"
 					type: "item"
 				}
 			]

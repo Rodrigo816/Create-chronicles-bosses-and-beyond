@@ -34,7 +34,7 @@ ServerEvents.tags("entity_type", (event) => {
     // Remove passive mobs from the blacklist
     event.remove("ars_nouveau:drygmy_blacklist", passiveMobs);
 
-    event.add("ars_nouveau:jar_blacklist", ["#forge:bosses","iceandfire:lightning_dragon","iceandfire:fire_dragon","iceandfire:ice_dragon"]);
+    event.add("ars_nouveau:jar_blacklist", [" eg","iceandfire:lightning_dragon","iceandfire:fire_dragon","iceandfire:ice_dragon"]);
 });
 
 ServerEvents.tags("entity_type", (event) => {

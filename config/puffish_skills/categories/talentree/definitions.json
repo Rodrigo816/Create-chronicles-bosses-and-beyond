@@ -1484,7 +1484,7 @@
 				"data": {
 					"attribute": "attributeslib:life_steal",
 					"value": 0.05,
-					"operation": "multiply_base"
+					"operation": "addition"
 				}
 			}
 		],
@@ -1939,7 +1939,7 @@
 	},
 	"bigMasterOfDodge": {
 		"title": "§d[15P] §e§lThe Art of Dodging",
-		"const": 15,
+		"cost": 15,
 		"description": "§a+2 Extra rolls\n§a+30% Dodge Roll Distance\n§a+120% Dodge Roll Recharge Rate\n§a+20% Movement Speed\n§a+10% Attack Speed",
 		"frame": {
 			"type": "texture",

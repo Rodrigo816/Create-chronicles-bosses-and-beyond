@@ -1492,7 +1492,7 @@
 				"05629E7F780A315D"
 				"2DAF8F2EBB74DDE8"
 				"03BCAD5BFB9DA32C"
-				"53EC81CE0F98EB86"
+				"12D05844B1E04C5A"
 			]
 			dependency_requirement: "one_completed"
 			description: [""]
@@ -1586,42 +1586,6 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
-			id: "6B99D6C0A6FBA697"
-			rewards: [{
-				id: "087AB14A496D2BDC"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6D9E555894A11931"
-				item: "createaddition:electrum_wire"
-				type: "item"
-			}]
-			x: 32.0d
-			y: 22.0d
-		}
-		{
-			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
-			id: "47CF120182269404"
-			rewards: [{
-				id: "4D77856F8A8BFE07"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "28BA547D448A24AF"
-				item: "create:electron_tube"
-				type: "item"
-			}]
-			x: 30.5d
-			y: 22.0d
-		}
-		{
 			dependencies: [
 				"11E236BCD6DE38E5"
 				"16952288925225D2"
@@ -1665,10 +1629,10 @@
 			dependencies: [
 				"56C3DE7F230ED103"
 				"0DECC9938E6EB5D4"
-				"6B99D6C0A6FBA697"
-				"47CF120182269404"
 				"108EA49E8421CCC7"
 				"66C6FAD9FBDE1094"
+				"6EB84A16A8D76BE7"
+				"38BD2C6227F76457"
 			]
 			dependency_requirement: "one_completed"
 			description: [""]
@@ -1781,24 +1745,6 @@
 			dependencies: ["47A6ACAA667AD14A"]
 			hide: true
 			hide_dependency_lines: true
-			id: "53EC81CE0F98EB86"
-			rewards: [{
-				id: "55A1116843C12D1E"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "171C84B8345DEB30"
-				item: "create:electron_tube"
-				type: "item"
-			}]
-			x: 22.0d
-			y: 22.0d
-		}
-		{
-			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
 			id: "16952288925225D2"
 			rewards: [{
 				id: "7119ED269B6B2A98"
@@ -1847,6 +1793,42 @@
 				type: "item"
 			}]
 			x: 29.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			hide: true
+			id: "12D05844B1E04C5A"
+			tasks: [{
+				id: "7AE9AF2A3BEE4677"
+				item: "create_optical:optical_device"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			hide: true
+			id: "6EB84A16A8D76BE7"
+			tasks: [{
+				id: "6ACE00657488EDD0"
+				item: "tfmg:resistor_"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			hide: true
+			id: "38BD2C6227F76457"
+			tasks: [{
+				id: "0A868024344885B9"
+				item: "tfmg:capacitor_"
+				type: "item"
+			}]
+			x: 32.0d
 			y: 22.0d
 		}
 	]

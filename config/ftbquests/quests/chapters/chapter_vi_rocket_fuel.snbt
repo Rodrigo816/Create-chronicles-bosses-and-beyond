@@ -236,7 +236,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["615126E9C29AA0F1"]
@@ -290,7 +290,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["0EE3CB9530FA662C"]
+			dependencies: ["20218B68C748F8E8"]
 			id: "026770210A6EBDB4"
 			rewards: [{
 				count: 2
@@ -303,8 +303,8 @@
 				item: "tfmg:lubrication_oil_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["615126E9C29AA0F1"]
@@ -323,7 +323,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0EE3CB9530FA662C"]
+			dependencies: ["20218B68C748F8E8"]
 			id: "4DA9294ABB244D04"
 			rewards: [{
 				count: 2
@@ -336,11 +336,11 @@
 				item: "tfmg:sulfur_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["0EE3CB9530FA662C"]
+			dependencies: ["20218B68C748F8E8"]
 			id: "077DDA2EE4C3603D"
 			rewards: [{
 				count: 2
@@ -353,8 +353,8 @@
 				item: "tfmg:bitumen"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2A662FA99B21BFB3"]
@@ -374,7 +374,10 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["7B74A0DC11227EFF"]
+			dependencies: [
+				"5893486848C8931C"
+				"556E94E1F0E9AFAA"
+			]
 			id: "1E6D5B2997075953"
 			rewards: [{
 				count: 2
@@ -606,35 +609,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["20218B68C748F8E8"]
-			icon: "tfmg:cast_iron_distillation_controller"
-			id: "0EE3CB9530FA662C"
-			rewards: [{
-				count: 2
-				id: "28FDBF24EB6A17E0"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "04566E57DD9C8615"
-					item: "tfmg:cast_iron_distillation_controller"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "7487D0F954A2B56A"
-					item: "tfmg:cast_iron_distillation_output"
-					type: "item"
-				}
-			]
-			title: "Smaller Distillation"
-			x: 0.0d
-			y: 3.5d
-		}
-		{
 			dependencies: ["615126E9C29AA0F1"]
-			icon: "minecraft:bucket"
 			id: "798D36A2126D8313"
 			rewards: [{
 				count: 4
@@ -644,40 +619,13 @@
 			}]
 			subtitle: "LPG does not have a bucket!"
 			tasks: [{
-				id: "38C0957C1094BC64"
-				title: "Check!"
-				type: "checkmark"
+				id: "74B9A56C5A897ED9"
+				item: "tfmg:lpg_bucket"
+				type: "item"
 			}]
 			title: "LPG"
 			x: -1.5d
 			y: -4.0d
-		}
-		{
-			dependencies: ["1EA7C3F726EAC443"]
-			icon: "tfmg:cast_iron_distillation_controller"
-			id: "7B74A0DC11227EFF"
-			rewards: [{
-				count: 2
-				id: "7CBA61B985556939"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "7AFC481DC5C66A89"
-					item: "tfmg:cast_iron_distillation_controller"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "63AA4275869B5373"
-					item: "tfmg:cast_iron_distillation_output"
-					type: "item"
-				}
-			]
-			title: "Smaller Distillation"
-			x: 0.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["2679F3B882A0DAB5"]
@@ -751,6 +699,40 @@
 			title: "What to do with excess liquids?"
 			x: -1.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["1EA7C3F726EAC443"]
+			id: "5893486848C8931C"
+			rewards: [{
+				count: 3
+				id: "1D4632F36AA6CBF1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09A2FE570532796A"
+				item: "tfmg:ethylene_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EA7C3F726EAC443"]
+			id: "556E94E1F0E9AFAA"
+			rewards: [{
+				count: 3
+				id: "7555B4AC5A001182"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7002E59E7A1AAE76"
+				item: "tfmg:propylene_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "Chapter VI: Rocket Fuel"

@@ -790,6 +790,324 @@
 			x: 4.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			description: [
+				"&6The Optical Source&r transforms &cRotational Power&r into&6 Light rays. &r"
+				""
+				"You can use these Light Rays to transfer Rotational Power optically or to transfer Redstone Signal Optically as well."
+				""
+				"There are 4 types of Light Rays depending on the RPM speed the Optical Source is receiving, with only 1 of the rays being visible."
+				""
+				"&nThe 4 types are:&r"
+				"1-4 RPM = Radio Waves (128 block range) Invisible; "
+				"5 - 16 RPM = Microwave (96 block range) Invisible;"
+				"17 - 64 RPM = Visible Light (64 block range) Visible;"
+				"65 + = Gamma Ray (32 block range) Invisible and deals damage."
+				""
+				"The Light rays can pass Glass Blocks but cannot pass Tinted Glass. Placing a colored Glass in front of the Visible Light, will turn the ray into the color of the glass."
+				""
+				"Also only the Gamma Rays can pass through the Player and Mobs, any other kind of Light Ray will be blocked if a Player/Mob stands in front of it."
+				""
+				"You also have an option to change the Polarization of the Light Ray, the basics of this is that changing this setting will affect how the Light Rays interact with certain blocks."
+			]
+			id: "078DF329C409A210"
+			rewards: [{
+				id: "7764E61BE272D4D3"
+				item: "create_optical:copper_coil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65AC19D0F36432C1"
+				item: "create_optical:optical_source"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: ["&6The Optical Receptor&r converts the &3Light Rays&r that output from the Optical Source back into &aRotational Power&r."]
+			hide: true
+			id: "07FDCB535DE4C4BA"
+			rewards: [
+				{
+					count: 10
+					id: "7A020EC041D21875"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "25F359D6089B6F13"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "709095C73F42E099"
+				item: "create_optical:optical_receptor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"&6The Optical Sensor&r transforms the Light rays that receive from the Optical Source into RedStone Signal outputting Redstone Signal from all 4 sides and also emits light. "
+				""
+				"Right-clicking with empty hand changes the Optical Sensor mode between: Intensity; Digital; Color. "
+				""
+				"&eNote: I recommend checking the Ponder menu for further information on each mode.&r"
+			]
+			hide: true
+			id: "26BEA55560AE0368"
+			rewards: [
+				{
+					count: 10
+					id: "26FFACBD6397F111"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "57B482CA2856A8A5"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E2C090C3BF4ACAC"
+				item: "create_optical:optical_sensor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"&6The Encased Mirror&r lets you change the direction of the Light Ray. "
+				""
+				"You can rotate the Encased Mirror to choose the direction you wish the Light Ray to be redirected to. "
+			]
+			hide: true
+			id: "0730951B2B34EA50"
+			rewards: [
+				{
+					count: 10
+					id: "17EF8E60D42D1C6E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "49AFD8428357DF8A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3475F30C2C1C02C1"
+				item: "create_optical:encased_mirror"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"This block can split the Light Ray into 2 different Polarized Rays. "
+				""
+				"One Ray will continue going straight while the other will split to one of the sides. "
+				""
+				"Changing the Polarization option in the&6 Optical Source&r, will affect how the Light Ray splits with the Polarizing Beam Splitter so I encourage you to play around with it."
+			]
+			hide: true
+			id: "549427B0BBA24445"
+			rewards: [
+				{
+					count: 10
+					id: "2FC13AE25708E8CD"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2E9E0A0FA1B6729D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DEAFDFC73A5B378"
+				item: "create_optical:polarizing_beam_splitter_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"This block lets you polarize the &eLight Ray&r &nreducing its intensity to half&r, which will affect the &cRedstone Signal Strength&r from the &eLight Ray&r. "
+				""
+				"You can change the &aPolarizer&r type with the &5Wrench&r and you can stack these filters to reduce the intensity even more."
+				""
+				"Changing the type of Polarization in the Optical Source can also have an effect on how the Light Ray interacts with this block so I encourage you to play around with this."
+			]
+			hide: true
+			id: "1DBB6264A5603E04"
+			rewards: [
+				{
+					count: 10
+					id: "6F38773C46936D3B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "50B35C1035948F06"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E18A9C3C8A0E4FB"
+				item: "create_optical:absorption_polarizing_filter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"&cBeam Focuser&r allows you to process certain items using rotational power and the light  beam power. "
+				""
+				"The light beam needs to enter from the top (Check ponder for reference) and the beam type changes the type of process you can do. "
+				""
+				"Microwave beam allows you to cook items and visible light along with the Filter slot on the Beam Focuser allows you to process certain items. "
+				""
+				"For example: Setting a Sand Block in the filter slot and using a visible light beam, allows you to process rose quartz into polished rose quartz as if using sand paper."
+				""
+				"&o&eNote: Press U on the Beam Focuser to see all the recipes allowed.&r&r"
+			]
+			hide: true
+			id: "265960CE3104527E"
+			rewards: [{
+				count: 5
+				id: "4A2019042ACE7975"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1030C79A2EB3B32E"
+				item: "create_optical:beam_focuser"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"In short, this allows you to combine up to 3 light ray beams and outputs a much faster beam. To  transform the combined beam into rotational power, you’ll need to use the Heavy Optical Receptor."
+				""
+				"&e&oNote: I highly recommend checking the Ponder for all the nuances this Beam Condenser allows with its configurations with the different beam types.&r&r"
+			]
+			hide: true
+			id: "70D34C00E2006C09"
+			rewards: [{
+				count: 5
+				id: "2C1ADBA1AF1683C3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "108AC256A3922B60"
+				item: "create_optical:beam_condenser"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			description: [
+				"The &6Create: The Factory Must Grow &rmod introduces new energy and voltage mechanics to Minecraft! This update is still in progress, so if you encounter any issues, please report them directly to the TFMG Discord."
+				""
+				"Your goal is to build a large generator to efficiently produce electricity. You can use cables and accumulators from &ccrafts and addictions&r, or, if you prefer, utilize the items provided by &6Create: The Factory Must Grow&r for your energy system."
+				""
+				"If your accumulator explodes its because you have too much rotational energy."
+				""
+				"Below is an example of how to pass the energy to Craft and Addictions."
+				"{image:kubejs:textures/electricity.png width:200 height:123 align:center}"
+				""
+				"For more information about TFMG electricity, visit their official Discord:"
+				""
+				"&6https://discord.gg/Dm4B7UfhXd&r"
+			]
+			hide: true
+			id: "2CBF8CC3EB107804"
+			rewards: [
+				{
+					count: 2
+					id: "0EBE50541D09FAF6"
+					item: "tfmg:cable_connector"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "60983F267823F271"
+					item: "tfmg:copper_cable"
+					type: "item"
+				}
+				{
+					id: "1BEA10C631A511AB"
+					item: "tfmg:accumulator"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [
+				{
+					count: 8L
+					id: "1462670603157B89"
+					item: "tfmg:stator"
+					type: "item"
+				}
+				{
+					id: "2DF12354504191DE"
+					item: "tfmg:rotor"
+					type: "item"
+				}
+			]
+			title: "&l&6Better Energy Production"
+			x: 5.3999999999999995d
+			y: 10.0d
+		}
+		{
+			dependencies: ["07FDCB535DE4C4BA"]
+			description: ["This receptor works just like the Optical Receptor. It transforms the light rays into rotational power but allows for higher stress support and the speed will be one third of the speed of the light beam."]
+			id: "23D03CB4F4382DDA"
+			rewards: [{
+				count: 5
+				id: "50E59DB32CA8CC47"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FE4DA6A70AB96C8"
+				item: "create_optical:heavy_optical_receptor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.0d
+		}
 	]
 	title: "Chapter V: Steel Mechanism"
 }

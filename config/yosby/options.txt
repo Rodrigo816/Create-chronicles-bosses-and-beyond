@@ -138,6 +138,7 @@ key_key.toggleCarriedItemTooltips:key.keyboard.unknown
 key_key.cycleLeft:key.keyboard.g
 key_key.cycleRight:key.keyboard.h
 key_keybinds.bettercombat.feint:key.keyboard.unknown
+key_key.veinmining.activate.desc:key.keyboard.grave.accent
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_keybinds.combatroll.roll:key.keyboard.caps.lock
 key_cos.key.opencosarmorinventory:key.keyboard.unknown

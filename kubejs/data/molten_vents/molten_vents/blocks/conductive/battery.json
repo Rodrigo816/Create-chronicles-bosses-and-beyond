@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "kubejs:battery_ore",
+    "molten_vents:dormant_molten_battery",
+    "molten_vents:active_molten_battery"
+  ]
+}

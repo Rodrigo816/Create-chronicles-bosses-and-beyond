@@ -74,6 +74,13 @@ ServerEvents.recipes(event => {
     Item.of(CR('crushed_raw_tin')).withChance(0.50),
     Item.of(CRDD('tin_nugget')).withChance(0.50),
   ], CRDD('potassic'))
+
+  event.recipes.createCrushing([
+    Item.of(CR('crushed_raw_lead')).withChance(0.35),
+    Item.of(CR('crushed_raw_nickel')).withChance(0.35),
+    Item.of(TFMG('raw_lithium')).withChance(0.35),
+  ], KJ('battery_ore'))
+
 /*
 ===============================
   ---->Chapter 1 Andesite Rotation
@@ -327,7 +334,7 @@ ServerEvents.recipes(event => {
       .loops(3)
       .id(AE2('quartz_cluster'))
 
-  event.recipes.createMilling([AE2('certus_quartz_crystal'), AE2('certus_quartz_crystal')], AE2('quartz_cluster'))
+  event.recipes.createMilling([AE2('certus_quartz_crystal'), AE2('certus_quartz_crystal'), AE2('certus_quartz_crystal')], AE2('quartz_cluster'))
 
   event.recipes.createMixing(Fluid.of(KJ("destabilized_redstone"), 600),["3x "+MC('redstone'), "4x "+MC('nether_wart')]).heated()
 
@@ -400,10 +407,8 @@ ServerEvents.recipes(event => {
     Item.of('create_connected:overstress_clutch', 1),
     Item.of('create_connected:sequenced_pulse_generator', 2),
     Item.of('create_connected:empty_fan_catalyst', 2),
-
-
-    
-
+    Item.of('create_connected:inventory_access_port', 2),  
+    Item.of('create_connected:inventory_bridge', 2),  
     Item.of('quark:redstone_randomizer', 2),
   ];
 
@@ -464,10 +469,10 @@ ServerEvents.recipes(event => {
    transitional = KJ('incomplete_locomotive_mechanism')
     event.recipes.createSequencedAssembly([
       Item.of(KJ('locomotive_mechanism')).withChance(100.0),
-      Item.of(MC('smile_ball')).withChance(8.0),
-      Item.of('alexscaves:metal_rebar').withChance(8.0),
-      Item.of('alexscaves:ferrousslime_ball').withChance(8.0),
-      Item.of(CR('powdered_obsidian')).withChance(8.0),
+      Item.of(MC('smile_ball')).withChance(6.0),
+      Item.of('alexscaves:metal_rebar').withChance(6.0),
+      Item.of('alexscaves:ferrousslime_ball').withChance(6.0),
+      Item.of(CR('powdered_obsidian')).withChance(6.0),
     ], CR('precision_mechanism'), [
       event.recipes.createDeploying(transitional, [transitional, CR('sturdy_sheet')]),
       event.recipes.createDeploying(transitional, [transitional, MC('slime_ball')]),
@@ -475,7 +480,7 @@ ServerEvents.recipes(event => {
       event.recipes.createDeploying(transitional, [transitional, 'alexscaves:metal_rebar']),
       event.recipes.createPressing(transitional, transitional)
     ]).transitionalItem(transitional)
-      .loops(3)
+      .loops(2)
       .id(KJ('locomotive_mechanism'))
   
   
@@ -540,8 +545,9 @@ ServerEvents.recipes(event => {
     transitional = TFMG('unfinished_steel_mechanism')
     event.recipes.createSequencedAssembly([
       Item.of(TFMG('steel_mechanism')).withChance(100.0),
-      Item.of(TFMG('screw')).withChance(20.0),
+      Item.of(TFMG('screw')).withChance(12.0),
     ], KJ('locomotive_mechanism'), [
+      event.recipes.createDeploying(transitional, [transitional, TFMG('heavy_plate')]),
       event.recipes.createDeploying(transitional, [transitional, TFMG('steel_ingot')]),
       event.recipes.createDeploying(transitional, [transitional, TFMG('aluminum_ingot')]),
       event.recipes.createDeploying(transitional, [transitional, TFMG('screw')]),
@@ -550,8 +556,59 @@ ServerEvents.recipes(event => {
       .loops(2)
       .id(TFMG('steel_mechanism'))
 
-
-
+  // optical
+  event.replaceInput(
+    { id: 'create_optical:optical_source' }, 
+    CR('andesite_casing'),               
+    TFMG('steel_mechanism')         
+  )
+  event.replaceInput(
+    { id: 'create_optical:optical_receptor' }, 
+    CR('andesite_casing'),               
+    TFMG('steel_mechanism')         
+  )
+  event.replaceInput(
+    { id: 'create_optical:heavy_optical_receptor' }, 
+    CR('andesite_casing'),               
+    TFMG('steel_mechanism')         
+  )
+  event.replaceInput(
+    { id: 'create_optical:encased_mirror' }, 
+    CR('andesite_casing'),               
+    TFMG('steel_mechanism')         
+  )
+  event.replaceInput(
+    { id: 'create_optical:polarizing_beam_splitter_block' }, 
+    CR('andesite_casing'),               
+    TFMG('steel_mechanism')         
+  )
+  event.replaceInput(
+    { id: 'create_optical:absorpion_polarizing_filter' }, 
+    CR('andesite_casing'),               
+    TFMG('steel_mechanism')         
+  )
+  event.replaceInput(
+    { id: 'create_optical:beam_condenser' }, 
+    CR('andesite_casing'),               
+    TFMG('steel_mechanism')         
+  )
+  event.replaceInput(
+    { id: 'create_optical:beam_focuser' }, 
+    CR('andesite_casing'),               
+    TFMG('steel_mechanism')         
+  )
+  event.custom({
+    "type": CRA('charging'),
+    "input": {
+          "item": TFMG('steel_ingot'),
+          "count": 1
+    },
+    "result": {
+        "item": TFMG('magnetic_ingot'),
+        "count": 1
+    },
+    "energy": 15000,
+  })
   /*
     ===============================
     ---->Chp 6 Rocket Fuel
@@ -593,6 +650,23 @@ ServerEvents.recipes(event => {
 		.id(KJ('rod_mystic_coal'))
 
 
+  event.custom({
+    "type": "create_optical:focusing",
+    "ingredients": [
+      {
+        "item": "minecraft:blaze_rod"
+      }
+    ],
+    "processingTime": 50,
+    "required_beam_type": 2,
+    "results": [
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 3
+      }
+    ]
+  })
+
     // Infernal Mechanism
    transitional = CRDD('incomplete_infernal_mechanism')
    event.recipes.createSequencedAssembly([
@@ -609,6 +683,19 @@ ServerEvents.recipes(event => {
      .loops(2)
      .id(CRDD('infernal_mechanism'))
 
+    transitional = MC('beacon')
+    event.recipes.createSequencedAssembly([
+      'balancedflight:flight_anchor'
+    ], MC('beacon'), [
+          event.recipes.createDeploying(transitional, [transitional, CR('precision_mechanism')]),
+          event.recipes.createDeploying(transitional, [transitional, CRDD('sealed_mechanism')]),
+          event.recipes.createDeploying(transitional, [transitional, CRDD('infernal_mechanism')]),
+          event.recipes.createDeploying(transitional, [transitional, CR('railway_casing')]),
+          event.recipes.createDeploying(transitional, [transitional, '#forge:glass']),
+          event.recipes.createDeploying(transitional, [transitional, FA('golden_feather')]),
+    ]).transitionalItem(transitional)
+      .loops(1)
+      .id('chrono:flightanchor')
 
        /*
     ===============================
@@ -679,13 +766,13 @@ ServerEvents.recipes(event => {
 
   transitional = KJ('incomplete_t2_plating')
   event.recipes.createSequencedAssembly([
-    Item.of(KJ('tier_2_plating')).withChance(80.0),
-    Item.of(ASTRA('desh_plate')).withChance(20.0),
+    Item.of(KJ('tier_2_plating')).withChance(90.0),
+    Item.of(ASTRA('desh_plate')).withChance(10.0),
   ], KJ('tier_1_plating'), [
     event.recipes.createDeploying(transitional, [transitional, ASTRA('desh_plate')]),
     event.recipes.createPressing(transitional, transitional)
   ]).transitionalItem(transitional)
-    .loops(8)
+    .loops(4)
     .id(KJ('tier_2_plating'))
 
   event.recipes.createMechanicalCrafting('ad_astra:tier_2_rocket', [
@@ -721,13 +808,13 @@ ServerEvents.recipes(event => {
   
   transitional = KJ('incomplete_t3_plating')
   event.recipes.createSequencedAssembly([
-    Item.of(KJ('tier_3_plating')).withChance(80.0),
-    Item.of(ASTRA('ostrum_plate')).withChance(20.0),
+    Item.of(KJ('tier_3_plating')).withChance(90.0),
+    Item.of(ASTRA('ostrum_plate')).withChance(10.0),
   ], KJ('tier_2_plating'), [
     event.recipes.createDeploying(transitional, [transitional, ASTRA('ostrum_plate')]),
     event.recipes.createPressing(transitional, transitional)
   ]).transitionalItem(transitional)
-    .loops(16)
+    .loops(8)
     .id(KJ('tier_3_plating'))
   event.recipes.createMechanicalCrafting('ad_astra:tier_3_rocket', [
       '   N   ',
@@ -754,13 +841,13 @@ ServerEvents.recipes(event => {
 
   transitional = KJ('incomplete_t4_plating')
   event.recipes.createSequencedAssembly([
-    Item.of(KJ('tier_4_plating')).withChance(90.0),
-    Item.of(ASTRA('calorite_plate')).withChance(10.0),
+    Item.of(KJ('tier_4_plating')).withChance(95.0),
+    Item.of(ASTRA('calorite_plate')).withChance(5.0),
   ], KJ('tier_3_plating'), [
     event.recipes.createDeploying(transitional, [transitional, ASTRA('calorite_plate')]),
     event.recipes.createPressing(transitional, transitional)
   ]).transitionalItem(transitional)
-    .loops(2)
+    .loops(1)
     .id(KJ('tier_4_plating'))
   event.smoking('ad_astra:calorite_ingot', 'iceandfire:dragonsteel_lightning_ingot').cookingTime(1500)
   event.recipes.createMechanicalCrafting('ad_astra:tier_4_rocket', [
@@ -813,7 +900,7 @@ ServerEvents.recipes(event => {
         "count": 1
     },
     "energy": 2000000,
-})
+  })
   event.recipes.createHaunting('forbidden_arcanus:darkstone',MC('blackstone'))
 
   //easy arcane crystal dust
@@ -919,10 +1006,10 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(transitional, [transitional, CRDD('refined_radiance_sheet')]),
     event.recipes.createDeploying(transitional, [transitional, CRDD('tin_sheet')]),
     event.recipes.createDeploying(transitional, [transitional, CRA('copper_spool')]),
-    event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
+    event.recipes.createDeploying(transitional, [transitional, ('create_optical:optical_device')]),
     event.recipes.createPressing(transitional, transitional)
   ]).transitionalItem(transitional)
-    .loops(4)
+    .loops(3)
     .id(CRDD('calculation_mechanism'))
 
   
@@ -937,8 +1024,8 @@ ServerEvents.recipes(event => {
       event.recipes.createDeploying(transitional, [transitional, CRDD('overcharge_alloy_sheet')]),
       event.recipes.createDeploying(transitional, [transitional, 'create_connected:control_chip']),
       event.recipes.createDeploying(transitional, [transitional, MC('glowstone_dust')]),
-      event.recipes.createDeploying(transitional, [transitional, CR('electron_tube')]),
-      event.recipes.createDeploying(transitional, [transitional, CRA('electrum_wire')]),
+      event.recipes.createDeploying(transitional, [transitional, TFMG('resistor_')]),
+      event.recipes.createDeploying(transitional, [transitional, TFMG('capacitor_')]),
     ]).transitionalItem(transitional)
       .loops(2)
       .id(CRDD('integrated_circuit'))
@@ -951,7 +1038,7 @@ ServerEvents.recipes(event => {
       event.recipes.createDeploying(transitional, [transitional, CR('brass_nugget')]),
       event.recipes.createDeploying(transitional, [transitional, CRA('electrum_nugget')]),
     ]).transitionalItem(transitional)
-      .loops(64)
+      .loops(32)
       .id('create_connected:control_chip')
 
     // readd crushed raw zinc washing

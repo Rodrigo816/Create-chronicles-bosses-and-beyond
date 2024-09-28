@@ -347,7 +347,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 8.0d
-			y: 5.5d
+			y: 15.5d
 		}
 		{
 			height: 1.0d
@@ -403,7 +403,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.0d
-			y: 9.5d
+			y: 11.5d
 		}
 		{
 			height: 1.0d
@@ -414,12 +414,12 @@
 			y: -3.5d
 		}
 		{
-			height: 1.94d
-			image: "kubejs:textures/monthly.png"
+			height: 1.82d
+			image: "kubejs:textures/monthly_challenges.png"
 			rotation: 0.0d
 			width: 6.195761856710393d
 			x: 3.5d
-			y: 7.25d
+			y: 9.0d
 		}
 		{
 			height: 1.0d
@@ -427,7 +427,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.5d
-			y: 9.5d
+			y: 11.5d
 		}
 		{
 			height: 1.0d
@@ -435,7 +435,127 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.0d
-			y: 9.5d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 15.5d
+		}
+		{
+			height: 1.82d
+			image: "kubejs:textures/previous_challenges.png"
+			rotation: 0.0d
+			width: 6.195761856710393d
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 7.0d
 		}
 	]
 	order_index: 3
@@ -798,58 +918,37 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 3000L
+					count: 2000L
 					id: "07EE5B3A4B5C4BBB"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 3000L
-					id: "644253090D3FCE4A"
-					item: "twilightforest:ironwood_ingot"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 3000L
+					count: 2000L
 					id: "333335A0064EB1FC"
 					item: "twilightforest:fiery_ingot"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 3000L
+					count: 2000L
 					id: "1915C91D1BD971A3"
 					item: "irons_spellbooks:arcane_ingot"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 3000L
-					id: "42B1D1356B6D6B68"
-					item: "create_dd:experience_mass"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 3000L
+					count: 2000L
 					id: "584300D656F07686"
 					item: "iceandfire:silver_ingot"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 3000L
-					id: "3E1502652ED26112"
-					item: "create_dd:tin_ingot"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 800L
-					id: "72F671FCDCFB0865"
-					item: "iceandfire:dragonsteel_fire_ingot"
+					count: 5000L
+					id: "4E35763DB74AB89F"
+					item: "ad_astra:desh_ingot"
 					type: "item"
 				}
 			]
@@ -1742,16 +1841,6 @@
 			id: "35026166839C8E4C"
 			rewards: [
 				{
-					id: "2F1857C01CA4EB32"
-					item: "ringsofascension:ring_flight"
-					type: "item"
-				}
-				{
-					id: "2C93C1EF9203849B"
-					item: "create_sa:creative_filling_tank"
-					type: "item"
-				}
-				{
 					id: "125D6FDA9E4DC777"
 					item: {
 						Count: 1
@@ -1759,7 +1848,7 @@
 						tag: {
 							AttributeModifiers: [
 								{
-									Amount: 20
+									Amount: 40
 									AttributeName: "generic.attack_damage"
 									Name: "generic.attack_damage"
 									Operation: 0
@@ -1829,10 +1918,20 @@
 					}
 					type: "item"
 				}
+				{
+					id: "08726D4C5F69E5A4"
+					item: "balancedflight:ascended_flight_ring"
+					type: "item"
+				}
+				{
+					id: "17F78B7192758C0C"
+					item: "ringsofascension:ring_undying"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "The most overpowered item ever made in a survival world, having completed all that the pack has to offer, right? So, claim your overpowered item for all the hard work. Congratulations!"
+			subtitle: "The most overpowered item ever made in a survival world, having completed all that the pack has to offer, right? So, claim your overpowered items for all the hard work. Congratulations!"
 			tasks: [
 				{
 					consume_items: true
@@ -1894,21 +1993,21 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 500L
+					count: 200L
 					id: "5530E56CC01AC160"
 					item: "create_confectionery:ruby_chocolate_candy_3"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 1000L
+					count: 800L
 					id: "74CA8190969F889B"
 					item: "create_confectionery:candy_cane_block"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 1000L
+					count: 800L
 					id: "3C3EDB0BFA30237F"
 					item: "supplementaries:candy"
 					type: "item"
@@ -1971,6 +2070,7 @@
 			subtitle: "The Explorer Compass lets you select a structure you want to find."
 			tasks: [{
 				consume_items: true
+				count: 2L
 				id: "3CA987AA256E37D8"
 				item: "numismatics:sun"
 				type: "item"
@@ -2021,8 +2121,9 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 10L
 				id: "76520579CB36AA65"
-				item: "numismatics:crown"
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			title: "Waystone"
@@ -2043,7 +2144,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 20L
 				id: "5BD4EF0423DCD8C9"
 				item: "numismatics:spur"
 				type: "item"
@@ -2066,7 +2167,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 24L
+				count: 28L
 				id: "110E20C34B935E07"
 				item: "numismatics:spur"
 				type: "item"
@@ -2089,7 +2190,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 24L
+				count: 28L
 				id: "7C08A49774258283"
 				item: "numismatics:spur"
 				type: "item"
@@ -2112,7 +2213,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 42L
+				count: 48L
 				id: "4CF201B893979C27"
 				item: "numismatics:spur"
 				type: "item"
@@ -2135,7 +2236,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 32L
+				count: 38L
 				id: "29B4C8C00A293C00"
 				item: "numismatics:spur"
 				type: "item"
@@ -2158,7 +2259,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 10L
+				count: 15L
 				id: "6ABF41DA37695542"
 				item: "numismatics:spur"
 				type: "item"
@@ -2189,7 +2290,7 @@
 			subtitle: "Used to locate The Catacombs."
 			tasks: [{
 				consume_items: true
-				count: 5L
+				count: 6L
 				id: "247C98C6017EBCA4"
 				item: "numismatics:cog"
 				type: "item"
@@ -2211,7 +2312,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 5L
+				count: 6L
 				id: "0EBFB73D7CF555C9"
 				item: "numismatics:cog"
 				type: "item"
@@ -2233,7 +2334,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 26L
+				count: 40L
 				id: "3469EFC16C17BCFF"
 				item: "numismatics:cog"
 				type: "item"
@@ -2241,85 +2342,6 @@
 			title: "&l&dEarth Talisman"
 			x: 6.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
-			id: "12DC75D60C72334A"
-			rewards: [
-				{
-					count: 2
-					id: "0D088DC7023DF1AA"
-					item: "numismatics:crown"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5BA6470FCF956006"
-					item: "paraglider:spirit_orb"
-					type: "item"
-				}
-				{
-					id: "7F12169B7C5E4BB9"
-					item: "aether:life_shard"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "736E90A361A8165F"
-					item: "forbidden_arcanus:elementarium"
-					type: "item"
-				}
-			]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "From 23 July till 20 September "
-			tasks: [{
-				consume_items: true
-				count: 15000L
-				id: "22FAD9F57DA73221"
-				item: "minecraft:tuff"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
-			id: "352F19D5F52D012C"
-			rewards: [
-				{
-					count: 4
-					id: "001E6FCD8CAAE39E"
-					item: "irons_spellbooks:lesser_spell_slot_upgrade"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "2653FD91B42592AD"
-					item: "numismatics:cog"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "17DAA9F98E4B4A25"
-					item: "irons_spellbooks:legendary_ink"
-					type: "item"
-				}
-			]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "From 23 July till 20 September "
-			tasks: [{
-				consume_items: true
-				count: 5000L
-				id: "7A032913A74B22E6"
-				item: "blue_skies:crescent_fruit"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -2334,7 +2356,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 4L
+				count: 6L
 				id: "44F1530F1CFAB89D"
 				item: "numismatics:cog"
 				type: "item"
@@ -2342,61 +2364,6 @@
 			title: "Elementarium"
 			x: 8.0d
 			y: 3.5d
-		}
-		{
-			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
-			id: "1C33DE8E1D7D8577"
-			rewards: [
-				{
-					count: 3
-					id: "4FC0BC65E8BB49A6"
-					item: "numismatics:cog"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4995193483BE9DCA"
-					table_id: 6337359776125332254L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "627464398F2267DB"
-					table_id: 6337359776125332254L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "494E32FF28694952"
-					table_id: 6337359776125332254L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3705BDD892470FC5"
-					table_id: 6337359776125332254L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3C531064CA8F5F91"
-					table_id: 6337359776125332254L
-					type: "loot"
-				}
-			]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "From 23 July till 20 September "
-			tasks: [{
-				consume_items: true
-				count: 2000L
-				id: "39DD34AE09FCCB70"
-				item: "farmersdelight:rice_roll_medley_block"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -2429,13 +2396,476 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 14L
 				id: "1810510D4A7D747A"
-				item: "numismatics:crown"
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			title: "Vein Mining"
 			x: 8.0d
 			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "14E52F88F5AAC10C"
+			rewards: [
+				{
+					count: 16
+					id: "4E347E65A43AE352"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "4D4C8908AFD5C75D"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "For historical reference, the challenge ran from June 1 to July 22, 2024. Of course, the reward has been nerfed now."
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "014BDE5884870728"
+				item: "quark:myalite"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "7339ED3D12600BDF"
+			rewards: [
+				{
+					count: 16
+					id: "61CF4F3F2BB21B20"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "487AD74BCFE7D103"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "For historical reference, the challenge ran from 23 July till 20 September, 2024. Of course, the reward has been nerfed now."
+			tasks: [{
+				consume_items: true
+				count: 15000L
+				id: "687FAD506123B020"
+				item: "minecraft:tuff"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "56C3AF461DA8C053"
+			rewards: [
+				{
+					count: 2
+					id: "71EFF8ACD09E0BC4"
+					item: "irons_spellbooks:lesser_spell_slot_upgrade"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "52AB62C04686485C"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "701025846FF4C01F"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "For historical reference, the challenge ran from 23 July till 20 September, 2024. Of course, the reward has been nerfed now."
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "7C941BDAC5AFD017"
+				item: "blue_skies:crescent_fruit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "73828F0D2C7084A7"
+			rewards: [
+				{
+					count: 3
+					id: "66F10F1D3133FEEB"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AB8FDD1C458666E"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56C791159C019ADF"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59E8768E990E6FD3"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "032862D5E73E9CBC"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			subtitle: "For historical reference, the challenge ran from 23 July till 20 September, 2024. Of course, the reward has been nerfed now."
+			tasks: [{
+				consume_items: true
+				count: 2000L
+				id: "729652071DE87D3A"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "5C012EC7707187FA"
+			rewards: [
+				{
+					count: 3
+					id: "408C33CD0253A53F"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6365FAF827BD8EB2"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:eternal_stella"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "42C3FFD8CB0405A4"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "7381CBA00625D478"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "veinmining:vein_mining"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "TBA"
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "32F1835DE2D2F0C0"
+				item: "create_dd:asphalt_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "1EC0BCBFA72BA522"
+			rewards: [
+				{
+					count: 5
+					id: "35485CA8ADB971AE"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CA7172610A4361D"
+					table_id: 4880289861207512209L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "7A49A92EA8B45EF8"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "526559BFBE440A16"
+					item: {
+						Count: 1
+						id: "ars_nouveau:warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "28B43DE07007F046"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "47158C6B67135BFC"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "TBA"
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "75FEC009691F1EF0"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			id: "26C6BBDCE6D047F4"
+			rewards: [
+				{
+					count: 2
+					id: "19B22CA33A48BBC8"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "381A069B484C8454"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					id: "3F49CBEB9F90B2D6"
+					item: "forbidden_arcanus:elementarium"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1E5A81CAB518553B"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3ABF595C40D55BCE"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "TBA"
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "2A146F63E0B092FD"
+				item: "alexscaves:spelunkie"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			icon: "irons_spellbooks:affinity_ring"
+			id: "4EAA5847E8566913"
+			rewards: [{
+				id: "24F98905D41432FE"
+				item: "irons_spellbooks:affinity_ring"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "735555B985664F58"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Ring of No Affinity"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			icon: "eyesoficeandfire:eye_of_fire_dragon"
+			id: "41CF721D51B7C637"
+			rewards: [{
+				id: "1C59545213A686FF"
+				item: "eyesoficeandfire:eye_of_fire_dragon"
+				type: "item"
+			}]
+			subtitle: "used to locate dragons can cause lag on use."
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "1B1E0D0B64209315"
+				item: { Count: 3, id: "numismatics:cog" }
+				type: "item"
+			}]
+			title: "Eye of Fire Dragon"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			icon: "eyesoficeandfire:eye_of_ice_dragon"
+			id: "531663DC97A794D8"
+			rewards: [{
+				id: "0C1B9D4554838293"
+				item: "eyesoficeandfire:eye_of_ice_dragon"
+				type: "item"
+			}]
+			subtitle: "used to locate dragons can cause lag on use."
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "04CFA571C0FB3208"
+				item: { Count: 3, id: "numismatics:cog" }
+				type: "item"
+			}]
+			title: "Eye of Ice Dragon"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			icon: "eyesoficeandfire:eye_of_lightning_dragon"
+			id: "1FF356C9C75FB0E1"
+			rewards: [{
+				id: "378827739BDC20A0"
+				item: "eyesoficeandfire:eye_of_lightning_dragon"
+				type: "item"
+			}]
+			subtitle: "used to locate dragons can cause lag on use."
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "6286E3AC63F5BCC6"
+				item: { Count: 3, id: "numismatics:cog" }
+				type: "item"
+			}]
+			title: "Eye of Lightning Dragon"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			icon: "bosses_of_mass_destruction:brimstone_nectar"
+			id: "61B36D5AB0327C54"
+			rewards: [{
+				id: "03A0A693BA3978FC"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			subtitle: "only resets boss of mass destruction"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7BB42459DD0CD980"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Brimstone Nectar"
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			icon: "sophisticatedbackpacks:everlasting_upgrade"
+			id: "0E441CD20BAA260D"
+			rewards: [{
+				id: "07C2FCD1C20E1E2B"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2E250F12EC8E2BF0"
+				item: { Count: 3, id: "numismatics:sun" }
+				type: "item"
+			}]
+			title: "Everblasting upgrade"
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide: true
+			icon: "minecraft:blaze_powder"
+			id: "1A0BB70FFA6531C3"
+			rewards: [{
+				count: 10
+				id: "30528D1F72BC4189"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "44136CDB430B3610"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Blaze Powder"
+			x: -1.0d
+			y: 6.5d
 		}
 	]
 	title: "&0&l The Black Market"

@@ -6129,6 +6129,27 @@
 			x: 10.5d
 			y: -5.0d
 		}
+		{
+			dependencies: ["0CF69DBA9573A7B3"]
+			description: [
+				"These&6 pattern schematics&r can be used to extend existing designs, such as lengthening a bridge by repeating its schematic. Simply load them into a schematicannon to start building!"
+				""
+				"&6Pattern Schematics&r can also be placed on trains, gantry carriages, or any other contraptions to infinitely replicate the schematic. Schematics mounted on deployers will continuously repeat their structure."
+			]
+			id: "7E4215B970A84153"
+			rewards: [{
+				id: "598750D22345323C"
+				item: "create_pattern_schematics:empty_pattern_schematic"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60BF549E023E4BEE"
+				item: "create_pattern_schematics:empty_pattern_schematic"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 3.0d
+		}
 	]
 	title: "&aCreate 101 - Guidebook"
 }

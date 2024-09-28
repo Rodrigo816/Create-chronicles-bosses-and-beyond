@@ -735,7 +735,7 @@ LootJS.modifiers((event) => {
     .addLoot("simplyswords:stormbringer");  
   event
     .addEntityLootModifier("mutantmonsters:mutant_enderman")
-    .randomChance(0.01)
+    .randomChance(0.005)
     .addLoot("simplyswords:wickpiercer"); 
   //--
 

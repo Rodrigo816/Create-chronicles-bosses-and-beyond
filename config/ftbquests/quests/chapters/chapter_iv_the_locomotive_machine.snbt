@@ -554,7 +554,7 @@
 				"4B91CC0919FE9219"
 			]
 			description: [
-				"After creating the Liquid Concrete, use a Mechanical Pump and Pipe to inject the Liquid Concrete into the Formwork Block. After the Formwork Block is full, wait a &n&dfew minuts&r&r &o&7(can take a while sometimes)&r&r for the Liquid Concrete to turn into Concrete. When that happens, the Formwork Block will break and you’ll have to place a new one. "
+				"After creating the Liquid Concrete, use a Mechanical Pump and Pipe to inject the Liquid Concrete into the Formwork Block. After the Formwork Block is full, wait a &n&dfew minutes&r&r &o&7(can take a while sometimes)&r&r for the Liquid Concrete to turn into Concrete. When that happens, the Formwork Block will break and you’ll have to place a new one. "
 				""
 				""
 				"&2&lNote:&r &r&oYou can use a bucket of Liquid Concrete on the floor. The Liquid Concrete will turn into Concrete as if you used a Formwork Block but if you wish to do the Rebar Concrete then you have to use the process of injecting the Liquid Concrete into the Rebar Formwork Block.&r"

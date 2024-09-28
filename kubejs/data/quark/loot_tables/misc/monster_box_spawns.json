@@ -31,22 +31,22 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "epicsamurai:akaname_spawn_egg"
+          "name": "samurai_dynasty:akaname_spawn_egg"
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "epicsamurai:enenra_spawn_egg"
+          "name": "samurai_dynasty:enenra_spawn_egg"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "epicsamurai:oni_spawn_egg"
+          "name": "samurai_dynasty:oni_spawn_egg"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "epicsamurai:jorogumo_spawn_egg"
+          "name": "samurai_dynasty:jorogumo_spawn_egg"
         },
         {
           "type": "minecraft:item",
