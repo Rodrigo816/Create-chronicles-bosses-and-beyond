@@ -1877,7 +1877,7 @@
 				""
 				"You will fight more gangerous mobs like &2Necromancer&r, collect brand new resources, and most importantly: &6Cast Powerful Spells!&r"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"

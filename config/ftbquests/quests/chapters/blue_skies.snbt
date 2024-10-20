@@ -54,7 +54,7 @@
 				""
 				"Acquire the &9Blue Journal&r. You'll also need the Zeal Lighter in the next quest. "
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "blue_skies:blue_journal"
 			id: "198EB5AE0E18E6C3"
 			rewards: [
@@ -166,7 +166,7 @@
 				""
 				"Are you prepared for the poison and fire?"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "20ECBCF42E1B0660"
 			rewards: [
 				{

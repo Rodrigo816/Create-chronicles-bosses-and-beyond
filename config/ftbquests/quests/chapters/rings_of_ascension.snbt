@@ -217,7 +217,7 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants immunity to the Wither Potion effect when equipped."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "00000000000003B5"
 			rewards: [
 				{
@@ -607,8 +607,8 @@
 				"08913D75A611396B"
 			]
 			dependency_requirement: "all_started"
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "lootr:trophy"
 			id: "67B117317EB077BA"
 			rewards: [

@@ -959,7 +959,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "simplyswords:sword_on_a_stick"
@@ -1835,8 +1835,8 @@
 				"33DB2CA9D5E90864"
 				"0B4CF106789A624F"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: "ringsofascension:ring_flight"
 			id: "35026166839C8E4C"
 			rewards: [
@@ -2051,7 +2051,7 @@
 				""
 				"&6->&r When the compass is not pointing at a structure, it will point at the world spawn"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "explorerscompass:explorerscompass"
@@ -2082,7 +2082,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2111,7 +2111,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "waystones:waystone"
 			id: "139CC6647BFD6E2A"
 			rewards: [{
@@ -2133,7 +2133,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "kubejs:rotation_mechanism"
 			id: "2B9B0F825B99A2DB"
 			rewards: [{
@@ -2156,7 +2156,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "minecraft:iron_ingot"
 			id: "6414E9238DCDE275"
 			rewards: [{
@@ -2179,7 +2179,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "minecraft:copper_ingot"
 			id: "1A5395915A7B2FCE"
 			rewards: [{
@@ -2202,7 +2202,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "create:zinc_ingot"
 			id: "6EF98F7CF9F54F76"
 			rewards: [{
@@ -2225,7 +2225,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "minecraft:redstone"
 			id: "24FEA3646AD4F483"
 			rewards: [{
@@ -2248,7 +2248,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "create:belt_connector"
 			id: "7056902C17FED0D5"
 			rewards: [{
@@ -2271,7 +2271,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:wayward_compass"
@@ -2302,7 +2302,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "dimdungeons:item_secret_bell"
 			id: "437795B131AF223B"
 			rewards: [{
@@ -2324,7 +2324,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "mowziesmobs:earth_talisman"
 			id: "7020BE898C53E474"
 			rewards: [{
@@ -2346,7 +2346,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "forbidden_arcanus:elementarium"
 			id: "171CB5A1A635913D"
 			rewards: [{
@@ -2368,7 +2368,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "minecraft:enchanted_book"
@@ -2408,7 +2408,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "14E52F88F5AAC10C"
 			rewards: [
 				{
@@ -2437,7 +2437,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7339ED3D12600BDF"
 			rewards: [
 				{
@@ -2466,7 +2466,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "56C3AF461DA8C053"
 			rewards: [
 				{
@@ -2502,7 +2502,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "73828F0D2C7084A7"
 			rewards: [
 				{
@@ -2550,7 +2550,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5C012EC7707187FA"
 			rewards: [
 				{
@@ -2605,7 +2605,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1EC0BCBFA72BA522"
 			rewards: [
 				{
@@ -2663,7 +2663,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "26C6BBDCE6D047F4"
 			rewards: [
 				{
@@ -2712,7 +2712,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "irons_spellbooks:affinity_ring"
 			id: "4EAA5847E8566913"
 			rewards: [{
@@ -2734,7 +2734,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "eyesoficeandfire:eye_of_fire_dragon"
 			id: "41CF721D51B7C637"
 			rewards: [{
@@ -2757,7 +2757,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "eyesoficeandfire:eye_of_ice_dragon"
 			id: "531663DC97A794D8"
 			rewards: [{
@@ -2780,7 +2780,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "eyesoficeandfire:eye_of_lightning_dragon"
 			id: "1FF356C9C75FB0E1"
 			rewards: [{
@@ -2803,7 +2803,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "bosses_of_mass_destruction:brimstone_nectar"
 			id: "61B36D5AB0327C54"
 			rewards: [{
@@ -2826,7 +2826,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "sophisticatedbackpacks:everlasting_upgrade"
 			id: "0E441CD20BAA260D"
 			rewards: [{
@@ -2848,7 +2848,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "minecraft:blaze_powder"
 			id: "1A0BB70FFA6531C3"
 			rewards: [{

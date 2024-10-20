@@ -225,7 +225,7 @@
 				""
 				"To reassign your talents, use the consumable item &cTalent Tree Reset&f, which refunds all your skill points upon use. The means to acquire a &cTalent Tree Reset&f are unlocked at later stage. "
 				""
-				"&eSkill points&f are primarily earned through challenging boss battles, with a max of &665 skills&r in total, all obtainable via quests. "
+				"&eSkill points&f are primarily earned through challenging boss battles, with a max of &667 skills&r in total, all obtainable via quests. "
 				""
 				"For a comprehensive guide on acquiring &eskill points&f, refer to the &2'Bosses and Skill Points'&f chapter."
 			]
@@ -1434,7 +1434,7 @@
 				""
 				"You can also find &6artifacts&r using archaeology."
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "0C4974DE21CEDF4B"
 			rewards: [{
 				id: "2029C4079E097488"

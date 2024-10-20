@@ -242,6 +242,14 @@ LootJS.modifiers((event) => {
     ]
   );
 
+  event.addLootTableModifier("cataclysm:chests/frosted_prison_treasure")
+  .addWeightedLoot(
+    [1, 2],
+    [
+      Item.of("paraglider:spirit_orb").withChance(1),
+    ]
+  );
+
   //starlit
   event.addLootTableModifier("blue_skies:loot_bags/starlit_crusher/common")
   .addWeightedLoot(
@@ -385,6 +393,9 @@ LootJS.modifiers((event) => {
   event
     .addLootTypeModifier(LootType.ENTITY)
     .removeLoot('tombstone:essence_of_undeath')  
+  event
+    .addLootTypeModifier(LootType.ENTITY)
+    .removeLoot('tombstone:lollipop')      
   event
     .addLootTypeModifier(LootType.ENTITY)
     .removeLoot('tombstone:soul_receptacle')  
@@ -918,5 +929,10 @@ event
   .addEntityLootModifier("alexscaves:magnetron")
   .randomChance(normalChance)
   .addLoot("simplyswords:flamewind")  
+
+event
+  .addEntityLootModifier("cataclysm:maledictus")
+  .randomChance(0.16)
+  .addLoot("simplyswords:caelestis")    
 });
 

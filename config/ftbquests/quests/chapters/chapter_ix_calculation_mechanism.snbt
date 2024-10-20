@@ -64,8 +64,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "496C8280CF77787E"
 			rewards: [{
 				id: "09635C7AE7DE8411"
@@ -99,8 +99,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "55E6E99D3CEF6003"
 			rewards: [{
 				id: "1E3916DD8A087C24"
@@ -168,8 +168,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "1548E2F07EAD637F"
 			rewards: [{
 				id: "5F4EA668AA9C161D"
@@ -249,8 +249,8 @@
 				""
 				"Another alternative is to set up an amethyst farm in your base without the need to find a cluster. You can use an&d amethyst golem&r from Ars Nouveau for this purpose."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4ECA82782988ACB9"
 			rewards: [{
 				id: "0C676AE14DB8FAD7"
@@ -373,8 +373,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "34ADDB9018231BCA"
 			rewards: [{
 				id: "10E93D6CC75A8BB7"
@@ -1318,8 +1318,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "582E68291A96A9E7"
 			rewards: [{
 				id: "6C285C2ECC62E595"
@@ -1337,8 +1337,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "73D579268007A8C7"
 			rewards: [{
 				id: "52701F0D6B151C49"
@@ -1356,8 +1356,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "3F0E651F191CD81F"
 			rewards: [{
 				id: "2DF4C7C679084AB1"
@@ -1375,8 +1375,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "2A0B07555EC8D47E"
 			rewards: [{
 				id: "3C15C752CE98941B"
@@ -1394,8 +1394,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "08277642FD16A56E"
 			rewards: [{
 				id: "64829E491A655AFD"
@@ -1413,8 +1413,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "44A8B31CD719B906"
 			rewards: [{
 				id: "31EC832198FFCE63"
@@ -1432,8 +1432,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "137CC533B864B25F"
 			rewards: [{
 				id: "1B26BB197574967A"
@@ -1451,8 +1451,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "32CEB5F5DA7E08E5"
 			rewards: [{
 				id: "50C19EE722C80505"
@@ -1470,8 +1470,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4A5C011878F7BB63"
 			rewards: [{
 				id: "38DDCEAC169B1D63"
@@ -1515,8 +1515,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "05629E7F780A315D"
 			rewards: [{
 				id: "7F06E6D4DA756216"
@@ -1533,8 +1533,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "64D7956A3E6681A5"
 			rewards: [{
 				id: "7D84E0B1F50E7C04"
@@ -1552,8 +1552,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "41444693F75F309B"
 			rewards: [{
 				id: "70EB0AA3470869BC"
@@ -1655,8 +1655,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "03BCAD5BFB9DA32C"
 			rewards: [{
 				id: "617931AABAF3F56F"
@@ -1673,8 +1673,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "11E236BCD6DE38E5"
 			rewards: [{
 				id: "22DB497A396C7140"
@@ -1691,8 +1691,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "535537D880A5C63B"
 			rewards: [{
 				id: "1AA7A3DFB9F76987"
@@ -1709,8 +1709,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "683BD9B4E6116735"
 			rewards: [{
 				id: "0021C37C266793F5"
@@ -1743,8 +1743,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "16952288925225D2"
 			rewards: [{
 				id: "7119ED269B6B2A98"
@@ -1761,8 +1761,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "3C0427C75D2CA7F2"
 			rewards: [{
 				id: "1536F074B27BB459"
@@ -1779,8 +1779,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "66C6FAD9FBDE1094"
 			rewards: [{
 				id: "6451E4F5ADC09E27"
@@ -1797,7 +1797,7 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "12D05844B1E04C5A"
 			tasks: [{
 				id: "7AE9AF2A3BEE4677"
@@ -1809,7 +1809,7 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6EB84A16A8D76BE7"
 			tasks: [{
 				id: "6ACE00657488EDD0"
@@ -1821,7 +1821,7 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "38BD2C6227F76457"
 			tasks: [{
 				id: "0A868024344885B9"

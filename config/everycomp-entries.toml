@@ -224,6 +224,162 @@
 			chocolate_cake = true
 			honey_cake = true
 
+	[types.stone_type]
+
+		[types.stone_type.additional_lights]
+			al_torch_stone = true
+			al_torch_end_stone = true
+			al_wall_torch_stone = true
+			al_wall_torch_end_stone = true
+			standing_torch_s_stone = true
+			standing_torch_s_end_stone = true
+			standing_torch_l_stone = true
+			standing_torch_l_end_stone = true
+			fire_pit_s_stone = true
+			fire_pit_s_end_stone = true
+			fire_pit_l_stone = true
+			fire_pit_l_end_stone = true
+
+		[types.stone_type.ad_astra]
+			moon_stone = true
+			mars_stone = true
+			mercury_stone = true
+			venus_stone = true
+			venus_sandstone = true
+			glacio_stone = true
+			permafrost = true
+
+		[types.stone_type.blue_skies]
+			polished_brumble = true
+
+		[types.stone_type.create_dd]
+			cut_aethersite = true
+			cut_potassic = true
+			cut_weathered_limestone = true
+			cut_gabbro = true
+
+		[types.stone_type.aether]
+			holystone = true
+
+		[types.stone_type.iceandfire]
+			dread_stone = true
+
+		[types.stone_type.chipped]
+			crying_obsidian = true
+			mud_bricks = true
+			angled_mud_bricks = true
+			angry_mud = true
+			arrow_mud = true
+			button_mud = true
+			carved_mud = true
+			centered_mud = true
+			chiseled_mud = true
+			cracked_mud_bricks = true
+			crunched_mud_bricks = true
+			crying_mud = true
+			cut_blank_mud = true
+			double_mud_bricks = true
+			duh_mud = true
+			engraved_mud = true
+			etched_mud_bricks = true
+			eye_mud = true
+			fancy_mud = true
+			fancy_chiseled_mud = true
+			glad_mud = true
+			heart_mud = true
+			horned_mud = true
+			inlayed_mud = true
+			keyhole_mud = true
+			large_tiled_mud = true
+			leaning_mud = true
+			mini_tiled_mud = true
+			offset_mud_bricks = true
+			pancake_mud = true
+			panelled_mud = true
+			placed_mud = true
+			polished_mud = true
+			quad_mud = true
+			rough_mud = true
+			rough_panelled_mud = true
+			rune_mud = true
+			sad_mud = true
+			sigil_mud = true
+			small_mud_bricks = true
+			smooth_mud = true
+			smooth_ringed_mud = true
+			smoothed_double_inlayed_mud = true
+			spiral_mud = true
+			stacked_mud_bricks = true
+			star_mud = true
+			symbol_mud = true
+			thick_inlayed_mud = true
+			tiled_mud_bricks = true
+			tiny_mud_bricks = true
+			tiny_layered_mud_bricks = true
+			unamused_mud = true
+			vertical_cut_mud = true
+			vertical_disordered_mud_bricks = true
+			bordered_mud = true
+			brick_bordered_mud = true
+			edged_mud_bricks = true
+			hard_mud = true
+			scaly_mud = true
+			tiled_bordered_mud = true
+			massive_mud_bricks = true
+			diamond_mud_bricks = true
+			loreful_mud = true
+
+		[types.stone_type.deeperdarker]
+			sculk_stone = true
+			sculk_grime = true
+			gloomslate = true
+
+		[types.stone_type.create]
+			cut_granite = true
+			cut_diorite = true
+			cut_andesite = true
+			cut_calcite = true
+			cut_dripstone = true
+			cut_deepslate = true
+			cut_tuff = true
+			cut_asurine = true
+			cut_crimsite = true
+			cut_limestone = true
+			cut_ochrum = true
+			cut_scoria = true
+			cut_scorchia = true
+			cut_veridium = true
+
+		[types.stone_type.create_confectionery]
+			black_chocolate = true
+			white_chocolate = true
+			ruby_chocolate = true
+			caramel = true
+
+		[types.stone_type.tfmg]
+			cut_bauxite = true
+			cut_galena = true
+
+		[types.stone_type.alexscaves]
+			galena = true
+			radrock = true
+			abyssmarine = true
+			guanostone = true
+
+		[types.stone_type.forbidden_arcanus]
+			polished_darkstone = true
+
+		[types.stone_type.quark]
+			soul_sandstone = true
+			permafrost = true
+			limestone = true
+			jasper = true
+			shale = true
+			myalite = true
+
+		[types.stone_type.supplementaries]
+			ash = true
+
 #Disables specific entries
 [entries]
 

@@ -27,8 +27,8 @@
 	quests: [
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "0CFFF58986CE7733"
 			subtitle: "you know how to make coal don't you? "
 			tasks: [{
@@ -133,8 +133,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "1A36CF8C1DF5DEC4"
 			tasks: [{
 				id: "1B61CF2AEB5A536E"
@@ -157,8 +157,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "0706D3B957259D7B"
 			tasks: [{
 				id: "026F73EBCA345E92"
@@ -213,8 +213,8 @@
 				""
 				"{ \"text\": \"☞ Click here to learn more\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"260F19B468957BCD\" } }"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "312D4E8EBE475538"
 			tasks: [{
 				id: "38C4815C1D5E7A60"
@@ -241,7 +241,7 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4D391FCA01F6D795"
 			tasks: [{
 				id: "632939ADDADCC2A2"
@@ -264,8 +264,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7F5486A6318789B5"
 			tasks: [{
 				id: "3CCF81064E6397BE"
@@ -297,8 +297,8 @@
 		{
 			dependencies: ["7EEB0092E87627F1"]
 			description: ["It's not recommended to use &bIndustrial Fan&r to make this as it doesn't work on belts and depots for some reason, but you can use a smart chute to make it work if you want."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "438AFB85E4605DF6"
 			tasks: [{
 				id: "73730D3EF2168510"
@@ -310,8 +310,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "029C392AD3BA76AD"
 			tasks: [{
 				id: "221C56497902B8AA"
@@ -323,8 +323,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7E56F2B931A55A36"
 			tasks: [{
 				id: "30138F8F0234319D"
@@ -337,8 +337,8 @@
 		{
 			dependencies: ["7EEB0092E87627F1"]
 			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7739373308A83503\" } }"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "453F0E5926BA4AB1"
 			subtitle: "This can be found in blue skies dimension"
 			tasks: [{
@@ -351,8 +351,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "0CD56ADF87F8799B"
 			tasks: [{
 				id: "5EB7E246748365C2"

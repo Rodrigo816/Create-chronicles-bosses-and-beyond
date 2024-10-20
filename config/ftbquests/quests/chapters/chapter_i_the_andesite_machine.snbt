@@ -508,7 +508,7 @@
 				" "
 				"Now into &6Chapter 2!&r New challenges await you there."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3AEFFAED564130A6"
 			rewards: [
 				{
@@ -580,8 +580,8 @@
 				""
 				"Let's go on an adventure and build some amazing machines!"
 			]
-			hide: true
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			id: "342BCE36CF749057"
 			rewards: [
 				{
@@ -632,7 +632,7 @@
 				""
 				"&lNote:&r &oNot all items are available on the Stonecutter/Mechanical Saw. Some Items require crafting of other parts. Make sure to use the JEI in such cases to know the recipe. &r"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1EEB1C5C7801D8D0"
 			rewards: [
 				{
@@ -671,8 +671,8 @@
 				""
 				"&l&6Tip:&r&r &oYou can use a slab or a shaft to stop the water from flowing everywhere while allowing the fan to blow the water to wash the gravel.&r"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "0219E3A871B9029E"
 			optional: true
 			progression_mode: "flexible"

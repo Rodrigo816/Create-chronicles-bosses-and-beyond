@@ -242,7 +242,7 @@
 				""
 				"After they are fully grown, they still age and can eat Dragon Meals, but they do not gain size or health."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "iceandfire:dragonegg_amythest"
 			id: "6FFEF416B3BD6877"
 			rewards: [{
@@ -369,7 +369,7 @@
 		}
 		{
 			dependencies: ["4CC4587F308B6B37"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "42EC4A0DF273348D"
 			rewards: [{
 				count: 4

@@ -45,7 +45,7 @@
 	quests: [
 		{
 			dependencies: ["506FAD15C9ECB3A8"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "54BDAB6C8F125B1E"
 			rewards: [{
 				count: 2

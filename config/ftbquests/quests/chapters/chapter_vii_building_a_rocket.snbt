@@ -52,8 +52,8 @@
 		{
 			dependencies: ["1084B343FEEBB88E"]
 			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"52BB4427D9F5163D\" } }"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "5F8B17F4A8CF47C7"
 			rewards: [{
 				id: "721DC53FF2796F54"
@@ -70,8 +70,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "2F520B59F10123D2"
 			rewards: [{
 				id: "7B21D24982D37EAD"
@@ -89,8 +89,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "778AEC1710A4E237"
 			rewards: [{
 				id: "07FE8BE80975ABF7"
@@ -108,8 +108,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "08ED76082CFF1D16"
 			rewards: [{
 				id: "25E4ADA9A8433B4D"
@@ -127,8 +127,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "797DCA89A0B3FBB8"
 			rewards: [{
 				id: "10CE28573E2AAE93"
@@ -145,8 +145,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "0D1A3BE5396104F7"
 			rewards: [{
 				id: "06D96115AF487ADD"
@@ -230,8 +230,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "2CCB9C223585FA23"
 			rewards: [{
 				id: "11F1F5B4C046DB71"
@@ -249,8 +249,8 @@
 		{
 			dependencies: ["1084B343FEEBB88E"]
 			dependency_requirement: "one_completed"
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4EE82272D412DB9C"
 			rewards: [{
 				id: "2561488F73A82985"
@@ -273,8 +273,8 @@
 				""
 				"To use it, place it down wherever you want to launch from with a clear view of the sky. Once you have a Rocket, you can place it down in the middle of the Launch Pad."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "75BD9E93A6143DC7"
 			rewards: [{
 				id: "1D84CCC85A0ACFE5"
@@ -291,8 +291,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "72EC381A9B79EF64"
 			rewards: [{
 				id: "04857F1FAB3823E6"
@@ -318,8 +318,8 @@
 				""
 				"{ \"text\": \"☞ Click here to learn more.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"52034A3AD5A347C8\" } }"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "086223FF8861479F"
 			rewards: [
 				{
@@ -395,8 +395,8 @@
 				""
 				"&6Tip:&r &7&oIt's always a good idea to have extra Oxygen on hand... just in case.&r&r"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ad_astra:oxygen_loader"
 			id: "6CE8C3410296E977"
 			min_width: 300
@@ -439,7 +439,7 @@
 				""
 				"These are prebuilt structures that serve as a mini-base in the galaxy. Home away from home kinda thing."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "ad_astra:space_painting"
 			id: "509BB6BF39848F5B"
 			optional: true
@@ -555,7 +555,7 @@
 			dependencies: ["47A6ACAA667AD14A"]
 			dependency_requirement: "one_completed"
 			description: ["&6The Rover&r is a land vehicle that can drive on rough terrain of moons and planets. It's very fast, has an inventory for&9 eight items&r, and has two seats for multiple riders. To use it, fill it with fuel by shift-clicking and placing &aastral fuel buckets&r in the left input slot."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "694646586C18C609"
 			optional: true
 			rewards: [

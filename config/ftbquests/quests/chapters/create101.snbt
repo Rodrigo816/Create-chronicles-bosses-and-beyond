@@ -956,7 +956,7 @@
 				""
 				"-> &6Contraptions:&r Contraptions are builds that can move, either rotationally with Bearings, linearly with Pistons or Gantries, or on rails with Minecarts or Trains. Many appliances are automatically powered when moving on a Contraption."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "57A7A5C79389A96A"
 			rewards: [{
 				id: "3EF952CA2026DC73"

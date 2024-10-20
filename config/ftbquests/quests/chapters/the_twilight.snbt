@@ -19,7 +19,7 @@
 				""
 				"{ \"text\": \"🔗 Click here for more info.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6DAA82B5F94AF9F8\" } }"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2F0F635C06E8D307"
 			rewards: [
 				{

@@ -1394,7 +1394,7 @@
 				""
 				"You can make a portal to the &6The Aether&r by making portal with the same format as nether portal instead you use &cglowstone blocks&r, and &nuse water bucket to activate it&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4E43DC757C08068B"
 			rewards: [
 				{

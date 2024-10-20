@@ -33,7 +33,7 @@
 				""
 				"This magic-themed mod has amazing animations, as well as some overpowered items like the &3Eternal Stella&r. "
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "forbidden_arcanus:arcane_edelwood_door"
 			id: "5523A71F1688EA88"
 			rewards: [{
