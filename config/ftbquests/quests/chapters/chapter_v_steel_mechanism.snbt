@@ -223,7 +223,7 @@
 			dependencies: ["3DFF1B74E8AADB57"]
 			description: ["Check the Renewable Ores chapter to see a renewable way to have Crushed Raw Iron."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "6AD87BACD480D27B"
 			optional: true
 			rewards: [{
@@ -242,7 +242,7 @@
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "0D2D729534CC797F"
 			rewards: [{
 				id: "3072BE1C255F3304"
@@ -448,7 +448,7 @@
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "46E5565D623C0AC8"
 			rewards: [{
 				id: "169DC08818C80F38"
@@ -637,7 +637,7 @@
 			dependencies: ["3DFF1B74E8AADB57"]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "409394CEF9087E88"
 			optional: true
 			progression_mode: "linear"
@@ -675,7 +675,7 @@
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "7682212B86FC5B85"
 			rewards: [{
 				id: "39F9903A2C348E03"
@@ -714,7 +714,7 @@
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "1DBA19EB422182AF"
 			optional: true
 			rewards: [{
@@ -734,7 +734,7 @@
 			dependencies: ["3DFF1B74E8AADB57"]
 			description: ["Although it shows a Honey Bottle, you need to actually use a&n Honey Bucket with filling by spout.&r&c "]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "184B9A5F983FA7A5"
 			optional: true
 			rewards: [{
@@ -780,7 +780,7 @@
 				""
 				"Grab your mighty pickaxe and go do some digging! Or build a Drill Machine that works too. You’ll find the Fireclay Block in caves and such in the Overworld."
 			]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "2E9E011F51858EF2"
 			tasks: [{
 				id: "0E8742FAA0118213"
@@ -828,7 +828,7 @@
 		{
 			dependencies: ["078DF329C409A210"]
 			description: ["&6The Optical Receptor&r converts the &3Light Rays&r that output from the Optical Source back into &aRotational Power&r."]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "07FDCB535DE4C4BA"
 			rewards: [
 				{
@@ -861,7 +861,7 @@
 				""
 				"&eNote: I recommend checking the Ponder menu for further information on each mode.&r"
 			]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "26BEA55560AE0368"
 			rewards: [
 				{
@@ -892,7 +892,7 @@
 				""
 				"You can rotate the Encased Mirror to choose the direction you wish the Light Ray to be redirected to. "
 			]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "0730951B2B34EA50"
 			rewards: [
 				{
@@ -925,7 +925,7 @@
 				""
 				"Changing the Polarization option in the&6 Optical Source&r, will affect how the Light Ray splits with the Polarizing Beam Splitter so I encourage you to play around with it."
 			]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "549427B0BBA24445"
 			rewards: [
 				{
@@ -958,7 +958,7 @@
 				""
 				"Changing the type of Polarization in the Optical Source can also have an effect on how the Light Ray interacts with this block so I encourage you to play around with this."
 			]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "1DBB6264A5603E04"
 			rewards: [
 				{
@@ -995,7 +995,7 @@
 				""
 				"&o&eNote: Press U on the Beam Focuser to see all the recipes allowed.&r&r"
 			]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "265960CE3104527E"
 			rewards: [{
 				count: 5
@@ -1018,7 +1018,7 @@
 				""
 				"&e&oNote: I highly recommend checking the Ponder for all the nuances this Beam Condenser allows with its configurations with the different beam types.&r&r"
 			]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "70D34C00E2006C09"
 			rewards: [{
 				count: 5
@@ -1050,7 +1050,7 @@
 				""
 				"&6https://discord.gg/Dm4B7UfhXd&r"
 			]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "2CBF8CC3EB107804"
 			rewards: [
 				{

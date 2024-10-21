@@ -786,7 +786,7 @@
 				"This will explode the visual debris on the texture of the block and convert it into a molten orestone, allowing it to make contact with and begin converting the required material into the orestones."
 			]
 			hide_dependent_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "2AA838B09218F700"
 			rewards: [
 				{

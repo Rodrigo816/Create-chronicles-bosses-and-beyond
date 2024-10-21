@@ -199,7 +199,7 @@
 				""
 				"Once this is done, they will fill up, and if held indicate the rotation of the player relative to the targeted biome."
 			]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "24416D60F9757C16"
 			tasks: [{
 				id: "06AE88FECE363A9E"

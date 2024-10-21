@@ -1434,7 +1434,7 @@
 				""
 				"You can also find &6artifacts&r using archaeology."
 			]
-			hide_until_deps_visible: false
+			hide_until_deps_complete: false
 			id: "0C4974DE21CEDF4B"
 			rewards: [{
 				id: "2029C4079E097488"

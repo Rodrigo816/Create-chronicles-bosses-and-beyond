@@ -715,7 +715,7 @@
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "5B9C1D10A217657D"
 			rewards: [{
 				id: "15BBB24830C1B4A8"

@@ -33,7 +33,7 @@
 				"To gather &6Sap&r you need to use an Item Drain made with a Iron Fence and a Valve Machine to extract the &6Sap&r from Wood Logs. To put the &6Sap&r into a Bucket you need to use a Spout and an Empty Bucket."
 			]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "6C54D9FC570E8C23"
 			rewards: [
 				{
@@ -161,7 +161,7 @@
 				"&o&dTrivia:&r&r &oNearly 80 percent of the copper that has been mined to date is still in use.&r"
 			]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "469BCDA1AD3D80FA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -213,7 +213,7 @@
 				"&o&dNote:&r&r &oIf you recognize the name Winry, you Rock like a Bell!&r"
 			]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "48413A6A0A9BFFA7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -265,7 +265,7 @@
 				"&o&dTrivia:&r&r &oDeserts aren't the world's largest sandboxes, Minecraft is! No seriously, deserts aren’t the largest, the world's largest sand deposits are actually found on the ocean floor. &r"
 			]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "15777779AE0400E3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -297,7 +297,7 @@
 				""
 				"&6Now into Chapter 3!&r New challenges await you there!"
 			]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "5012AE3E688F40D7"
 			rewards: [
 				{

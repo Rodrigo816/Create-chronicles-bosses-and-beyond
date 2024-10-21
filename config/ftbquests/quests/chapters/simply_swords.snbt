@@ -4,7 +4,7 @@
 	filename: "simply_swords"
 	group: "53374CFE946B8348"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		id: "simplyswords:awakened_lichblade"
@@ -107,7 +107,7 @@
 			]
 			dependency_requirement: "all_started"
 			hide_dependent_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			icon: "lootr:trophy"
 			id: "6C71E2ABAA99C005"
 			rewards: [
@@ -945,7 +945,7 @@
 			dependencies: ["34BBF229D598EC32"]
 			description: [""]
 			hide_dependency_lines: false
-			hide_until_deps_visible: false
+			hide_until_deps_complete: false
 			id: "3818BF7AAFFFF348"
 			rewards: [
 				{
@@ -978,7 +978,7 @@
 			dependencies: ["3818BF7AAFFFF348"]
 			description: [""]
 			hide_dependency_lines: false
-			hide_until_deps_visible: false
+			hide_until_deps_complete: false
 			id: "7E05746BAA2DFC51"
 			rewards: [
 				{
@@ -1421,7 +1421,7 @@
 		{
 			dependencies: ["10E6A5CCEA7AF675"]
 			hide_dependency_lines: false
-			hide_until_deps_visible: false
+			hide_until_deps_complete: false
 			id: "0AA8A1F80F280ABD"
 			rewards: [{
 				id: "6DB867FB896E78CC"
@@ -1446,7 +1446,7 @@
 		{
 			dependencies: ["10E6A5CCEA7AF675"]
 			hide_dependency_lines: false
-			hide_until_deps_visible: false
+			hide_until_deps_complete: false
 			id: "6D240A5EFE38CB75"
 			rewards: [{
 				id: "326B8581F88C4027"
@@ -1471,7 +1471,7 @@
 		{
 			dependencies: ["6D240A5EFE38CB75"]
 			hide_dependency_lines: false
-			hide_until_deps_visible: false
+			hide_until_deps_complete: false
 			id: "2C73BC02BBEBC431"
 			rewards: [{
 				id: "7E769296B8E91FCE"
@@ -1496,7 +1496,7 @@
 		{
 			dependencies: ["0AA8A1F80F280ABD"]
 			hide_dependency_lines: false
-			hide_until_deps_visible: false
+			hide_until_deps_complete: false
 			id: "4BFEA32C76691954"
 			rewards: [{
 				id: "0F0F5EA5CB74B2D2"
