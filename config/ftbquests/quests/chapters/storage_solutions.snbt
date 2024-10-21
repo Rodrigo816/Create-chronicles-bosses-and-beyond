@@ -270,7 +270,7 @@
 				""
 				"Upgrade your vanilla storage to unlock the advanced features and benefits of Sophisticated Storage."
 			]
-			hide: true
+			hide_until_deps_complete: true
 			id: "41329FF8F96017A9"
 			rewards: [{
 				id: "1FEA4241E27F19CE"
@@ -425,8 +425,8 @@
 		}
 		{
 			dependencies: ["261651FB7B600587"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "2B4E5F59E5625ADF"
 			rewards: [{
 				id: "2AE5588FBF0A375D"
@@ -480,8 +480,8 @@
 		}
 		{
 			dependencies: ["261651FB7B600587"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "32F8B69C66723910"
 			rewards: [{
 				id: "6B2B11C1445D8ACA"
@@ -631,8 +631,8 @@
 		}
 		{
 			dependencies: ["261651FB7B600587"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "34174F45D62D0D6E"
 			rewards: [{
 				id: "4B932A2997953C71"
@@ -764,8 +764,8 @@
 		}
 		{
 			dependencies: ["261651FB7B600587"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "7A36AA33AB12EE37"
 			rewards: [{
 				id: "0763D5B4B4BC86D5"

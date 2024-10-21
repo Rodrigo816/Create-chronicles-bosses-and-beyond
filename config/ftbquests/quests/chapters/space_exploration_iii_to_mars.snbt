@@ -119,7 +119,7 @@
 		}
 		{
 			dependencies: ["3D2DDC65DED45F4A"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "426AE7ED2C0D5BC9"
 			rewards: [{
 				count: 2
@@ -138,7 +138,7 @@
 		}
 		{
 			dependencies: ["3D2DDC65DED45F4A"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "2AB50A68249EFCFF"
 			rewards: [{
 				count: 2
@@ -210,7 +210,7 @@
 		}
 		{
 			dependencies: ["3D2DDC65DED45F4A"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "1E52D08A62B60528"
 			rewards: [{
 				count: 2
@@ -228,7 +228,7 @@
 		}
 		{
 			dependencies: ["3D2DDC65DED45F4A"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "52D70E5A3A7A7954"
 			rewards: [{
 				count: 2

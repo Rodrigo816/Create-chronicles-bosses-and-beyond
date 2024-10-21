@@ -4,7 +4,7 @@
 	filename: "rings_of_ascension"
 	group: "53374CFE946B8348"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "ringsofascension:ring_slow_falling"
 	id: "1773A53BB0698605"
 	images: [{
@@ -217,7 +217,6 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["Grants immunity to the Wither Potion effect when equipped."]
-			hide: true
 			id: "00000000000003B5"
 			rewards: [
 				{
@@ -607,8 +606,8 @@
 				"08913D75A611396B"
 			]
 			dependency_requirement: "all_started"
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "lootr:trophy"
 			id: "67B117317EB077BA"
 			rewards: [

@@ -4,7 +4,7 @@
 	filename: "bosses_and_skill_points"
 	group: ""
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "kubejs:skill_add_point"
 	id: "16389783F38DFDED"
 	images: [
@@ -258,8 +258,8 @@
 				value: 1L
 			}]
 			title: "&cNether&f: The immortal "
-			x: -1.0d
-			y: 7.5d
+			x: 2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -340,7 +340,7 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Who needs to build one?"
-			x: 0.0d
+			x: -1.0d
 			y: 7.5d
 		}
 		{
@@ -959,7 +959,7 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Fire Dragon Slayer"
-			x: -3.0d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -1066,8 +1066,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Corrupted Champion"
-			x: 0.0d
-			y: 1.5d
+			x: 1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1210,7 +1210,7 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: The Prowler"
-			x: 1.0d
+			x: 0.0d
 			y: 7.5d
 		}
 		{
@@ -1263,7 +1263,7 @@
 			}]
 			title: "&2Overworld&f: Amethyst Crab"
 			x: 5.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1357,8 +1357,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Hullbreaker"
-			x: -3.0d
-			y: 8.5d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1601,7 +1601,7 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Mutant Creeper"
-			x: 3.0d
+			x: 2.0d
 			y: 3.5d
 		}
 		{
@@ -1641,7 +1641,7 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Mutant Enderman"
-			x: 2.0d
+			x: 1.0d
 			y: 3.5d
 		}
 		{
@@ -1718,7 +1718,7 @@
 			}]
 			title: "&2Overworld&f: Mutant Zombie"
 			x: 3.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2193,7 +2193,7 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Conjurer"
-			x: 5.0d
+			x: 4.0d
 			y: 5.5d
 		}
 		{
@@ -2328,8 +2328,8 @@
 				"15AFBC9FC568CD57"
 			]
 			dependency_requirement: "all_started"
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "lootr:trophy"
 			id: "025314CC80D7286F"
 			rewards: [
@@ -2572,7 +2572,7 @@
 			}]
 			title: "&2Overworld&f: Kobolediator "
 			x: 5.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
 			can_repeat: false
@@ -2771,8 +2771,8 @@
 				value: 1L
 			}]
 			title: "&6Space-&bGlacio&r&f: Frostmaw"
-			x: 1.0d
-			y: 3.5d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2869,8 +2869,8 @@
 				value: 5L
 			}]
 			title: "&2Overworld&f: Kill Your Nightmares"
-			x: 4.0d
-			y: 5.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2909,6 +2909,75 @@
 			title: "&l&6Rating System"
 			x: 1.1d
 			y: 0.45d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["You can craft an eye of curse to locate the structure."]
+			icon: "cataclysm:cursed_eye"
+			id: "17F953D448E7B6FD"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "63716EEE09186573"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "21235CE6E886B8B0"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursed_eye"
+				id: "01D93AE41131FBF9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Maledictus"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Can be found in &3Frosted Prison&r"]
+			icon: "cataclysm:aptrgangr_head"
+			id: "2A7455826CF9F976"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "136FF4D60C71C097"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "24405F1A35C16796"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:aptrgangr"
+				icon: "cataclysm:aptrgangr_head"
+				id: "316AB4A77AC902CD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Aptrgangr"
+			x: 5.0d
+			y: 7.5d
 		}
 	]
 	title: "&9&l Bosses and Skill Points"

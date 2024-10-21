@@ -17,6 +17,7 @@ LootJS.modifiers((event) => {
     "cataclysm:ancient_remnant": [12, 33],
     "cataclysm:the_harbinger": [5, 9],
     "cataclysm:ignis": [20, 40],
+    "cataclysm:maledictus": [10, 30],
     "mutantmonsters:mutant_skeleton": [1, 4],
     "mutantmonsters:mutant_creeper": [1, 4],
     "mutantmonsters:mutant_zombie": [1, 4],

@@ -231,8 +231,8 @@
 				""
 				"There are recipes to automate the process of getting &4Redstone Dust&r. By washing Crushed Raw Iron."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "64A476C01D1C4742"
 			rewards: [
 				{
@@ -266,8 +266,8 @@
 				""
 				"Now for game facts, you can get&6 sugar&r by cultivating&a Sugar Canes&r or some honey from the bees."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "1C5DFA2AD6DEE1B2"
 			rewards: [
 				{
@@ -302,8 +302,8 @@
 				""
 				"&aNote:&r &oYou probably already know how to get a Water Bucket by now.&r"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "05836C34CD66A56F"
 			rewards: [
 				{
@@ -329,8 +329,8 @@
 		{
 			dependencies: ["646C119DC7AC80AB"]
 			description: ["You probably already know how to get some Sand by now."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "671ABB3F4DDF8A89"
 			optional: true
 			rewards: [
@@ -507,8 +507,8 @@
 		{
 			dependencies: ["646C119DC7AC80AB"]
 			description: ["You probably already know how to get some&d copper ingots&r by now."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "555CE8F6001EF8E7"
 			rewards: [
 				{
@@ -540,8 +540,8 @@
 				""
 				"Please check &nRenewable Ores chapter&r for information on how to get a renewable source of &9Raw Zinc&r."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "14ADA913C53709AE"
 			rewards: [
 				{
@@ -598,8 +598,8 @@
 		{
 			dependencies: ["646C119DC7AC80AB"]
 			description: ["The &cNether Wart&r can be found in the Nether or you can farm like you farm wheat. Instead of dirt you need to plant the &cNether Wart&r in &6Soul Sand&r and the &rNether Wart&r doesn’t need light to grow."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "5167DEF3903D6CFD"
 			rewards: [
 				{
@@ -664,8 +664,8 @@
 				""
 				"&l&2Note:&r&r &oIn the next chapter you’ll learn how to automate monster drops.&r"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "70FE285006F6632F"
 			optional: true
 			rewards: [
@@ -728,8 +728,8 @@
 				""
 				"&l&2Note:&r&r &oIn the next chapter you’ll learn how to automate monster drops.&r"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "7A50893172D43878"
 			optional: true
 			rewards: [
@@ -826,8 +826,8 @@
 				""
 				"Use a &6Mechanical Press&r to flatten the Iron Ingots into Iron Sheets."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "588F642CD467FC64"
 			rewards: [
 				{
@@ -865,7 +865,7 @@
 				""
 				"&6&lTip:&r&r &oIf you feel like you’re running out of certain materials, make sure to check the Chapter Renewable Ores.&r"
 			]
-			hide: true
+			hide_until_deps_complete: true
 			id: "637D976589937434"
 			rewards: [
 				{
@@ -938,7 +938,7 @@
 				""
 				"That’s just the basics on how this mod works. It has many more features for you to discover!"
 			]
-			hide: true
+			hide_until_deps_complete: true
 			id: "738E4BA03DA3D655"
 			rewards: [
 				{
@@ -979,8 +979,8 @@
 		{
 			dependencies: ["646C119DC7AC80AB"]
 			description: ["You know how to craft one… Fine… For consistency's sake… Grab a Shaft, grab a Wood Plank and either use a Deployer to place the Wood Plank on a Shaft, or a Mechanical Mixer with a Basin to mix both or use the trusty Crafting Table to make the Cog Wheel. "]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "7F75BF2B511A2B14"
 			rewards: [
 				{
@@ -1011,7 +1011,7 @@
 				""
 				"&6&lNote:&r&r &oTo charge this Gadget you must use a Tesla Coil and have eletricity. &r"
 			]
-			hide: true
+			hide_until_deps_complete: true
 			id: "62E69747ECE312C3"
 			rewards: [
 				{

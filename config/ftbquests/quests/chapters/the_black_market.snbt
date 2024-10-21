@@ -564,6 +564,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "constructionwand:infinity_wand"
@@ -611,6 +612,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: "ringsofascension:ring_hungerless"
 			id: "2146B907572F18E7"
 			rewards: [{
@@ -763,6 +765,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "create_dd:forest_ravager"
@@ -806,6 +809,7 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: ["So this thing is your portable mechanical saw, it only requires air pressure from backtank."]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "create_dd:deforester_saw"
@@ -848,6 +852,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "simplyswords:shadowsting"
@@ -896,6 +901,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "simplyswords:slumbering_lichblade"
@@ -959,7 +965,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "simplyswords:sword_on_a_stick"
@@ -1002,6 +1008,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "simplyswords:bramblethorn"
@@ -1058,6 +1065,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "simplyswords:soulstealer"
@@ -1107,6 +1115,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "create_sabers:double_zinc_saber_red"
@@ -1185,6 +1194,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "create_sabers:copper_saber_yellow"
@@ -1289,6 +1299,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "create_sabers:brass_saber_blue"
@@ -1380,6 +1391,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: "aeinfinitybooster:infinity_card"
 			id: "1FB255BADD1BE35E"
 			rewards: [{
@@ -1410,6 +1422,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: "aeinfinitybooster:dimension_card"
 			id: "4238FA580B3DA9D9"
 			rewards: [{
@@ -1454,6 +1467,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: "waystones:warp_dust"
 			id: "49F5334F500A9615"
 			rewards: [{
@@ -1476,6 +1490,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "create_sabers:zinc_saber_red"
@@ -1580,6 +1595,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "create_sabers:brass_saber_galaxy"
@@ -1724,6 +1740,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "create_sabers:brass_saber_lime"
@@ -1835,8 +1852,8 @@
 				"33DB2CA9D5E90864"
 				"0B4CF106789A624F"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_complete: false
 			icon: "ringsofascension:ring_flight"
 			id: "35026166839C8E4C"
 			rewards: [
@@ -1971,6 +1988,7 @@
 		{
 			can_repeat: false
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "simplyswords:ribboncleaver"
@@ -2020,6 +2038,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
 			icon: "kubejs:skill_reset"
 			id: "4EEDE7245553A616"
 			rewards: [{
@@ -2051,7 +2070,7 @@
 				""
 				"&6->&r When the compass is not pointing at a structure, it will point at the world spawn"
 			]
-			hide: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "explorerscompass:explorerscompass"
@@ -2082,7 +2101,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2111,7 +2130,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "waystones:waystone"
 			id: "139CC6647BFD6E2A"
 			rewards: [{
@@ -2133,7 +2152,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "kubejs:rotation_mechanism"
 			id: "2B9B0F825B99A2DB"
 			rewards: [{
@@ -2156,7 +2175,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "minecraft:iron_ingot"
 			id: "6414E9238DCDE275"
 			rewards: [{
@@ -2179,7 +2198,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "minecraft:copper_ingot"
 			id: "1A5395915A7B2FCE"
 			rewards: [{
@@ -2202,7 +2221,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "create:zinc_ingot"
 			id: "6EF98F7CF9F54F76"
 			rewards: [{
@@ -2225,7 +2244,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "minecraft:redstone"
 			id: "24FEA3646AD4F483"
 			rewards: [{
@@ -2248,7 +2267,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "create:belt_connector"
 			id: "7056902C17FED0D5"
 			rewards: [{
@@ -2271,7 +2290,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:wayward_compass"
@@ -2302,7 +2321,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "dimdungeons:item_secret_bell"
 			id: "437795B131AF223B"
 			rewards: [{
@@ -2324,7 +2343,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "mowziesmobs:earth_talisman"
 			id: "7020BE898C53E474"
 			rewards: [{
@@ -2346,7 +2365,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "forbidden_arcanus:elementarium"
 			id: "171CB5A1A635913D"
 			rewards: [{
@@ -2368,7 +2387,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "minecraft:enchanted_book"
@@ -2408,7 +2427,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "14E52F88F5AAC10C"
 			rewards: [
 				{
@@ -2437,7 +2456,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "7339ED3D12600BDF"
 			rewards: [
 				{
@@ -2466,7 +2485,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "56C3AF461DA8C053"
 			rewards: [
 				{
@@ -2502,7 +2521,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "73828F0D2C7084A7"
 			rewards: [
 				{
@@ -2550,7 +2569,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "5C012EC7707187FA"
 			rewards: [
 				{
@@ -2605,7 +2624,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "1EC0BCBFA72BA522"
 			rewards: [
 				{
@@ -2663,7 +2682,7 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "26C6BBDCE6D047F4"
 			rewards: [
 				{
@@ -2712,7 +2731,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "irons_spellbooks:affinity_ring"
 			id: "4EAA5847E8566913"
 			rewards: [{
@@ -2734,7 +2753,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "eyesoficeandfire:eye_of_fire_dragon"
 			id: "41CF721D51B7C637"
 			rewards: [{
@@ -2757,7 +2776,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "eyesoficeandfire:eye_of_ice_dragon"
 			id: "531663DC97A794D8"
 			rewards: [{
@@ -2780,7 +2799,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "eyesoficeandfire:eye_of_lightning_dragon"
 			id: "1FF356C9C75FB0E1"
 			rewards: [{
@@ -2803,7 +2822,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "bosses_of_mass_destruction:brimstone_nectar"
 			id: "61B36D5AB0327C54"
 			rewards: [{
@@ -2826,7 +2845,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "sophisticatedbackpacks:everlasting_upgrade"
 			id: "0E441CD20BAA260D"
 			rewards: [{
@@ -2848,7 +2867,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			hide: true
+			hide_until_deps_complete: true
 			icon: "minecraft:blaze_powder"
 			id: "1A0BB70FFA6531C3"
 			rewards: [{

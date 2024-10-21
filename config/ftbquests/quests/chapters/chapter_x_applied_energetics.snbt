@@ -148,8 +148,8 @@
 		}
 		{
 			dependencies: ["108EA49E8421CCC7"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "4919AEB1300D63B7"
 			rewards: [{
 				id: "1B570C90802E9EEE"
@@ -205,8 +205,8 @@
 				""
 				"This chapter explains how AE2 works, with the goal of crafting an &cME Controller&r to progress to the next chapter."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "78425DC3875B9854"
 			rewards: [{
 				id: "3816472B177457ED"
@@ -1351,7 +1351,7 @@
 		{
 			dependencies: ["3026C7FFA3B230FA"]
 			description: ["To enable wireless network access, create the &eME Wireless Access Point&r. It allows access to the network via a wireless terminal, with range determined by the number of &aWireless Boosters&r inserted."]
-			hide: false
+			hide_until_deps_complete: false
 			id: "630BDF564F7516D7"
 			rewards: [
 				{
@@ -1939,7 +1939,7 @@
 		}
 		{
 			dependencies: ["108EA49E8421CCC7"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "1BA814DF86A91263"
 			tasks: [{
 				id: "15DA0FF5AA3BCCEA"
@@ -1951,7 +1951,7 @@
 		}
 		{
 			dependencies: ["108EA49E8421CCC7"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "391126B065758DCB"
 			tasks: [{
 				id: "4DB559947AFC3420"

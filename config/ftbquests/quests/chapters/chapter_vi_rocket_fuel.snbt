@@ -36,8 +36,8 @@
 				""
 				"The objetive of this chapter is to make &9&lAstral rocket fuel&r in order to progress."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "333CCE71E8979C07"
 			rewards: [
 				{
@@ -646,7 +646,7 @@
 		}
 		{
 			dependencies: ["69D628450626D8D5"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "730E3804B6D5B7F7"
 			tasks: [{
 				id: "61AF4AC48E9270F5"
@@ -658,7 +658,7 @@
 		}
 		{
 			dependencies: ["69D628450626D8D5"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "7CD2C7A5223D2A7E"
 			tasks: [{
 				id: "0CBDCD4244171ABF"
@@ -670,7 +670,7 @@
 		}
 		{
 			dependencies: ["69D628450626D8D5"]
-			hide: true
+			hide_until_deps_complete: true
 			id: "4060586D158C1952"
 			tasks: [{
 				id: "2A008ED4E04CFC2B"

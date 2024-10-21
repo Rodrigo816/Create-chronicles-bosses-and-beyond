@@ -104,7 +104,7 @@
 				""
 				"Some default recipes have changed."
 			]
-			hide: true
+			hide_until_deps_complete: true
 			id: "6E0E13806F388D7E"
 			rewards: [{
 				id: "24AA489F2E015748"

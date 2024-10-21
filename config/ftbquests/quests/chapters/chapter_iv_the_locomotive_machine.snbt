@@ -69,8 +69,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "174567332B8DE8C1"
 			rewards: [{
 				id: "51A2B9110A53CB75"
@@ -87,8 +87,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "1325CB313B08AB70"
 			rewards: [{
 				id: "71DC15A34CEE02F3"
@@ -105,8 +105,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "784EF4A65242E3FD"
 			rewards: [{
 				id: "30C3926A43672E89"
@@ -123,8 +123,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "5C00CCFC83CCE7A4"
 			rewards: [{
 				id: "00C1432798EB30E0"
@@ -178,8 +178,8 @@
 		{
 			dependencies: ["6F2EA0844769A10A"]
 			dependency_requirement: "one_started"
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "4B78BB8B294461A9"
 			rewards: [{
 				id: "784E38EC380896AC"
@@ -196,8 +196,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "4D774B40DB2BEA38"
 			optional: true
 			rewards: [{
@@ -236,8 +236,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "07EE6AFA3FE693E1"
 			rewards: [{
 				id: "33D129BFFF3DE9E7"
@@ -348,7 +348,7 @@
 				""
 				"{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"66428F3633CBBC85\" } }"
 			]
-			hide: true
+			hide_until_deps_complete: true
 			id: "143E325CFBC9FAC9"
 			rewards: [
 				{
@@ -510,8 +510,8 @@
 		{
 			dependencies: ["6F2EA0844769A10A"]
 			description: ["Although it shows a Honey Bottle, you need to actually use a&n Honey Bucket with filling by spout.&r&c "]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "42CFF547BDAB44B1"
 			optional: true
 			rewards: [{
@@ -529,8 +529,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "0FA7629CCE64385C"
 			rewards: [{
 				id: "173D98907050B4C6"
@@ -575,8 +575,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "58DD96B724C875FE"
 			rewards: [{
 				id: "7EC39768269FF1AF"
@@ -602,8 +602,8 @@
 				""
 				"Note: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "0AF71B3EB3531CAC"
 			rewards: [{
 				id: "22EE923AEC44F07E"
@@ -629,7 +629,7 @@
 				""
 				"You can also name the &3Travel Anchor&r whatever you want."
 			]
-			hide: true
+			hide_until_deps_complete: true
 			id: "33274B5D531EF9B7"
 			rewards: [{
 				id: "76C8CF873148521B"
@@ -654,8 +654,8 @@
 		{
 			dependencies: ["6F2EA0844769A10A"]
 			description: ["&6The Alternator&r turns rotational power (Needs at least 32rpm) into energy power. The RPM determines how much energy power is generated."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "3BC42BD7940D32EC"
 			tasks: [{
 				id: "132101A9D1B0DF68"
@@ -712,7 +712,7 @@
 				""
 				"&7If you are a veteran, beacon features are &ndisabled&r.&r"
 			]
-			hide: true
+			hide_until_deps_complete: true
 			id: "521189A0069D8262"
 			rewards: [{
 				count: 9

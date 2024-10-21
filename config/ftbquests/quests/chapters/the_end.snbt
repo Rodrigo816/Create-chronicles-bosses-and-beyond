@@ -713,9 +713,9 @@
 				""
 				"Make your way to the Stronghold, find the End Portal and complete the frame using the 12 custom eyes in order to open it. If there's a vanilla eye of ender in one of the frames, you can remove it by right clicking on it with a custom eye."
 			]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			id: "5B9C1D10A217657D"
 			rewards: [{
 				id: "15BBB24830C1B4A8"

@@ -4,7 +4,7 @@
 	filename: "artifacts"
 	group: "53374CFE946B8348"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "artifacts:mimic_spawn_egg"
 	id: "464FB437D5DF7824"
 	images: [
@@ -131,8 +131,8 @@
 		{
 			dependencies: ["78DFD8815E2AE291"]
 			description: ["An infinite steak"]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_complete: false
 			id: "1ADACCB1A8BB9E7E"
 			rewards: [
 				{
@@ -1022,8 +1022,8 @@
 				"5590204A473913AC"
 			]
 			dependency_requirement: "all_started"
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "lootr:trophy"
 			id: "703CC46FAC00A5D9"
 			rewards: [
