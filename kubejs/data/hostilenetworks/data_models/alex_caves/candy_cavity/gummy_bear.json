@@ -1,0 +1,57 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "alexscaves"
+		}
+	],
+    "entity": "alexscaves:gummy_bear",
+    "name": "entity.alexscaves.gummy_bear",
+    "name_color": "#46518E",
+    "gui_scale": 0.67,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 192,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.gummy_bear",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:gelatin_blue",
+            "count": 2
+        },
+        {
+            "item": "alexscaves:gelatin_green",
+            "count": 2
+        },
+        {
+            "item": "alexscaves:gelatin_pink",
+            "count": 2
+        },
+        {
+            "item": "alexscaves:gelatin_red",
+            "count": 2
+        },
+        {
+            "item": "alexscaves:gelatin_yellow",
+            "count": 2
+        }
+    ],
+    "tier_data": [
+		16,
+        64,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        4,
+        8,
+        8,
+        16
+    ]
+}

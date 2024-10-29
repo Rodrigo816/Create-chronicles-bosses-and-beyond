@@ -477,8 +477,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"16ECD7E9532D07D8"
 				"626F4A677E1EA22E"
+				"193A1546BFF1F561"
 			]
 			id: "67AFC8E796A93DFD"
 			rewards: [{
@@ -497,8 +497,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"163C88A35ABA9978"
 				"67AFC8E796A93DFD"
+				"04E2655509E5EF93"
 			]
 			id: "324002E5427D6953"
 			rewards: [{
@@ -517,8 +517,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"1550F3D77ED9B07F"
 				"324002E5427D6953"
+				"1BD40A7D7A74C122"
 			]
 			id: "2365C37AA7F866C8"
 			rewards: [{
@@ -537,8 +537,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"72D767C3679FB4D9"
 				"2365C37AA7F866C8"
+				"17832E61F427897D"
 			]
 			id: "187392F9F27D6ACB"
 			rewards: [{
@@ -557,8 +557,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"198ADF175143C673"
 				"187392F9F27D6ACB"
+				"22E9733FE276393E"
 			]
 			id: "1F0BED9674B0445A"
 			rewards: [{
@@ -577,8 +577,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"30758067160FA462"
 				"2F6B55425D8D9FBB"
+				"2D73733E084F24CB"
 			]
 			id: "7C38A9E38509C547"
 			rewards: [{
@@ -597,8 +597,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"105B54F48BA0F4B1"
 				"7C38A9E38509C547"
+				"5DFDBE09D1867DEF"
 			]
 			id: "18C86D856767C8B8"
 			rewards: [{
@@ -617,8 +617,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"1712137F6310A959"
 				"18C86D856767C8B8"
+				"026A027AC9B1F849"
 			]
 			id: "4BD4B9CC03466702"
 			rewards: [{
@@ -637,8 +637,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"4A36BC7DF0E28956"
 				"1F0BED9674B0445A"
+				"2691B5A7A8B8D31D"
 			]
 			id: "29C39D1955A121D2"
 			rewards: [{
@@ -657,8 +657,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"6FBB8B0221ADD42A"
 				"29C39D1955A121D2"
+				"18E8A8CA7A55863E"
 			]
 			id: "5BFA620B6424D8DF"
 			rewards: [{
@@ -693,8 +693,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"5D4344DB77B6EBA2"
 				"5119E810608CC419"
+				"51488A1FA72C90DB"
 			]
 			id: "029CDDBE80C888C8"
 			rewards: [{
@@ -713,7 +713,7 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"64C1D53837287550"
+				"308000803FE0ADBC"
 			]
 			id: "5119E810608CC419"
 			rewards: [{
@@ -746,250 +746,10 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["0986F2B411CBEB5D"]
-			id: "64C1D53837287550"
-			rewards: [{
-				id: "351C980175FE3525"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0CAC79295DFC384F"
-				item: "minecraft:white_dye"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["1A315558B8D1DE35"]
-			id: "5D4344DB77B6EBA2"
-			rewards: [{
-				id: "38C3D9D365F781EF"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "508EA2801DF06A8B"
-				item: "minecraft:light_gray_dye"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["743E440E6D6EA92B"]
-			id: "1F4D22B135B8ED2D"
-			rewards: [{
-				id: "016B641DB6995316"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "69A708F73C13F35A"
-				item: "minecraft:gray_dye"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["5C364B372D32CB11"]
-			id: "30758067160FA462"
-			rewards: [{
-				id: "04FEDD830DB4FF4E"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5D40818F81087572"
-				item: "minecraft:pink_dye"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["36C1D65FBB93F373"]
-			id: "105B54F48BA0F4B1"
-			rewards: [{
-				id: "7AA5E482BA311C95"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B66900405CFB8A0"
-				item: "minecraft:red_dye"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["120811B4D25A3731"]
-			id: "1712137F6310A959"
-			rewards: [{
-				id: "1B70D55237E8422F"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "18F4BE7F736FF255"
-				item: "minecraft:orange_dye"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["323651421CB88312"]
-			id: "6CCBE6872A535A36"
-			rewards: [{
-				id: "7014D0E2FE1A0F7F"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "668017C44BC1904D"
-				item: "minecraft:yellow_dye"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["56B560D4CC6F13DD"]
-			id: "2F91AA28EEDD0A03"
-			rewards: [{
-				id: "7EABACF7ED6918DD"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "37AD9890555432CB"
-				item: "minecraft:lime_dye"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["721DB13270EF3201"]
-			id: "1F4C52698004EC82"
-			rewards: [{
-				id: "4089A9338BC7FB2A"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6E6E6D4ADAB58C0D"
-				item: "minecraft:green_dye"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["46DA22CAB8F73819"]
-			id: "16ECD7E9532D07D8"
-			rewards: [{
-				id: "0AB9E190BFB146A6"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "003B43BDAD507781"
-				item: "minecraft:cyan_dye"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["7B319516D507F5CC"]
-			id: "163C88A35ABA9978"
-			rewards: [{
-				id: "49045BC6A740204B"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0E8B951D70671577"
-				item: "minecraft:light_blue_dye"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["3970F1FF1594DB8F"]
-			id: "1550F3D77ED9B07F"
-			rewards: [{
-				id: "60AE4D38AC7105D0"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5FE90C47D2E66E17"
-				item: "minecraft:blue_dye"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["09128B2426041E1E"]
-			id: "72D767C3679FB4D9"
-			rewards: [{
-				id: "08326C77148F3526"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "332373B2A223306C"
-				item: "minecraft:purple_dye"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["62DCDDA1F4471798"]
-			id: "198ADF175143C673"
-			rewards: [{
-				id: "7B42F8FB99416D81"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "143964CE8BC4A45F"
-				item: "minecraft:magenta_dye"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["04E36595A8ECEEBA"]
-			id: "4A36BC7DF0E28956"
-			rewards: [{
-				id: "6CCF7EB67E704ED6"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0D1352BE6DA8DB0D"
-				item: "minecraft:brown_dye"
-				type: "item"
-			}]
-			x: 16.0d
-			y: 13.5d
-		}
-		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"1F4D22B135B8ED2D"
 				"029CDDBE80C888C8"
+				"5FEC6B3578700FDF"
 			]
 			id: "2F6B55425D8D9FBB"
 			rewards: [{
@@ -1004,22 +764,6 @@
 			}]
 			x: 4.0d
 			y: 15.0d
-		}
-		{
-			dependencies: ["743D5A200AA402B1"]
-			id: "6FBB8B0221ADD42A"
-			rewards: [{
-				id: "472AADC9CBC956C8"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7AAA6A237F8A0B9D"
-				item: "minecraft:black_dye"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -1057,8 +801,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"6CCBE6872A535A36"
 				"4BD4B9CC03466702"
+				"7B99037BD9742056"
 			]
 			id: "03DFA9BB90FE42E9"
 			rewards: [{
@@ -1077,8 +821,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"2F91AA28EEDD0A03"
 				"03DFA9BB90FE42E9"
+				"054BAD01CB62F161"
 			]
 			id: "03B75E1470F38700"
 			rewards: [{
@@ -1097,8 +841,8 @@
 		{
 			dependencies: [
 				"0D4844DE023FCFA4"
-				"1F4C52698004EC82"
 				"03B75E1470F38700"
+				"7AF484C339CDBD8C"
 			]
 			id: "626F4A677E1EA22E"
 			rewards: [{
@@ -1830,6 +1574,182 @@
 			}]
 			x: 32.0d
 			y: 22.0d
+		}
+		{
+			dependencies: ["0986F2B411CBEB5D"]
+			id: "308000803FE0ADBC"
+			tasks: [{
+				id: "7343A034D254974D"
+				item: "alexscaves:rock_candy_white"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1A315558B8D1DE35"]
+			id: "51488A1FA72C90DB"
+			tasks: [{
+				id: "49B89D7AF1F51470"
+				item: "alexscaves:rock_candy_light_gray"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["743E440E6D6EA92B"]
+			id: "5FEC6B3578700FDF"
+			tasks: [{
+				id: "73CAA4738644305E"
+				item: "alexscaves:rock_candy_gray"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5C364B372D32CB11"]
+			id: "2D73733E084F24CB"
+			tasks: [{
+				id: "425354A6A06E1D29"
+				item: "alexscaves:rock_candy_pink"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["36C1D65FBB93F373"]
+			id: "5DFDBE09D1867DEF"
+			tasks: [{
+				id: "13226B1622FE71D5"
+				item: "alexscaves:rock_candy_red"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["120811B4D25A3731"]
+			id: "026A027AC9B1F849"
+			tasks: [{
+				id: "1672E1AEB5CD8043"
+				item: "alexscaves:rock_candy_orange"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["323651421CB88312"]
+			id: "7B99037BD9742056"
+			tasks: [{
+				id: "01CE439FAE53EAE8"
+				item: "alexscaves:rock_candy_yellow"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["56B560D4CC6F13DD"]
+			id: "054BAD01CB62F161"
+			tasks: [{
+				id: "5E65CA13E33BA8C4"
+				item: "alexscaves:rock_candy_lime"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["721DB13270EF3201"]
+			id: "7AF484C339CDBD8C"
+			tasks: [{
+				id: "78A86F82403135E0"
+				item: "alexscaves:rock_candy_green"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["46DA22CAB8F73819"]
+			id: "193A1546BFF1F561"
+			tasks: [{
+				id: "1F6E96F9C4B3A616"
+				item: "alexscaves:rock_candy_cyan"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7B319516D507F5CC"]
+			id: "04E2655509E5EF93"
+			tasks: [{
+				id: "6484FCDEA6F021F0"
+				item: "alexscaves:rock_candy_light_blue"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3970F1FF1594DB8F"]
+			id: "1BD40A7D7A74C122"
+			tasks: [{
+				id: "04791CD1CF6426DF"
+				item: "alexscaves:rock_candy_blue"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["09128B2426041E1E"]
+			id: "17832E61F427897D"
+			tasks: [{
+				id: "74DBBDECDB3D840A"
+				item: "alexscaves:rock_candy_purple"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["62DCDDA1F4471798"]
+			id: "22E9733FE276393E"
+			tasks: [{
+				id: "18E2E15AB58CF37A"
+				item: "alexscaves:rock_candy_magenta"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["04E36595A8ECEEBA"]
+			id: "2691B5A7A8B8D31D"
+			tasks: [{
+				id: "7515CB421CEF01B4"
+				item: "alexscaves:rock_candy_brown"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["743D5A200AA402B1"]
+			id: "18E8A8CA7A55863E"
+			tasks: [{
+				id: "5B9E0479A26D1F1E"
+				item: "alexscaves:rock_candy_black"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 13.5d
 		}
 	]
 	title: "Chapter IX: Calculation Mechanism"

@@ -78,6 +78,8 @@
 				""
 				""
 				"&l&cTroubleshoot:&r&r If it's not working try break the &n&ccasting basing&r&r and mold and place it again."
+				""
+				"&o&7There is also an alternative recipe if you are having problems running it the intended way on a server.&r&r"
 			]
 			id: "60A94E3337A26181"
 			rewards: [

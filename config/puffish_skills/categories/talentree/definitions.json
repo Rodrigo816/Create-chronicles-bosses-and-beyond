@@ -1547,7 +1547,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
-					"value": 0.01,
+					"value": 0.02,
 					"operation": "multiply_base"
 				}
 			}

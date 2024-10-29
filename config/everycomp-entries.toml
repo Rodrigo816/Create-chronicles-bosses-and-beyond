@@ -38,9 +38,6 @@
 			coconut = true
 			walnut = true
 
-		[types.leaves_type.create_dd]
-			rubber = true
-
 		[types.leaves_type.aether]
 			skyroot = true
 			golden_oak = true
@@ -141,6 +138,9 @@
 		[types.leaves_type.ad_astra]
 			glacian = true
 
+		[types.leaves_type.create_dd]
+			rubber = true
+
 	[types.wood_type]
 
 		[types.wood_type.ars_nouveau]
@@ -166,12 +166,6 @@
 			azalea = true
 			ancient = true
 			blossom = true
-
-		[types.wood_type.create_dd]
-			rose = true
-			smoked = true
-			spirit = true
-			rubber = true
 
 		[types.wood_type.aether]
 			skyroot = true
@@ -215,6 +209,12 @@
 			strophar = true
 			glacian = true
 
+		[types.wood_type.create_dd]
+			rose = true
+			smoked = true
+			spirit = true
+			rubber = true
+
 	[types.cake]
 
 		[types.cake.blue_skies]
@@ -253,10 +253,10 @@
 			polished_brumble = true
 
 		[types.stone_type.create_dd]
-			cut_aethersite = true
-			cut_potassic = true
 			cut_weathered_limestone = true
 			cut_gabbro = true
+			cut_aethersite = true
+			cut_potassic = true
 
 		[types.stone_type.aether]
 			holystone = true

@@ -1,0 +1,41 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "alexscaves"
+		}
+	],
+    "entity": "alexscaves:gum_worm",
+    "name": "entity.alexscaves.gum_worm",
+    "name_color": "#51B489",
+    "gui_scale": 0.4,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 384,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.gum_worm",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:sweet_tooth",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+		16,
+        64,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        4,
+        8,
+        8,
+        16
+    ]
+}

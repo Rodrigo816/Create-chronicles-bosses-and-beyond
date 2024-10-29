@@ -1,0 +1,53 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "alexscaves"
+		}
+	],
+    "entity": "alexscaves:licowitch",
+    "name": "entity.alexscaves.licowitch",
+    "name_color": "#661180",
+    "gui_scale": 0.8,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.licowitch",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:radiant_essence",
+            "count": 1
+        },
+        {
+            "item": "alexscaves:chocolate_ice_cream_scoop",
+            "count": 1
+        },
+        {
+            "item": "alexscaves:sweetberry_ice_cream_scoop",
+            "count": 1
+        },
+        {
+            "item": "alexscaves:vanilla_ice_cream_scoop",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+		16,
+        64,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        4,
+        8,
+        8,
+        16
+    ]
+}

@@ -612,6 +612,11 @@
 					item: "create:hand_crank"
 					type: "item"
 				}
+				{
+					id: "501E705E75020F6D"
+					item: "quark:slime_in_a_bucket"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7970E483F81A6425"
