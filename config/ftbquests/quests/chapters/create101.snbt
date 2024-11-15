@@ -3989,7 +3989,7 @@
 			]
 			id: "79C542CA156AB01E"
 			rewards: [{
-				count: 2
+				count: 20
 				id: "56A5A34299FC6888"
 				item: "minecraft:slime_ball"
 				type: "item"

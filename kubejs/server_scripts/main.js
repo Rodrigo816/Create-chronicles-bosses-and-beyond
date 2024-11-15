@@ -1,4 +1,5 @@
 
+
 // Mod shortcuts
 let MOD = (domain, id, x) => (x ? `${x}x ` : "") + (id.startsWith('#') ? '#' : "") + domain + ":" + id.replace('#', '')
 let AE2 = (id, x) =>MOD("ae2", id, x)
@@ -528,7 +529,7 @@ ServerEvents.recipes(event => {
    
   /*
     ===============================
-    ---->Chp 5 Steel Mechanism
+    ---->Chapter 5 Steel Mechanism
     ==============================
   */
      // bauxite renew
@@ -540,6 +541,12 @@ ServerEvents.recipes(event => {
       A: CR('cinder_flour'),
       B: MC('red_sand')
   })
+
+  event.recipes.createFilling(TFMG('steel_ingot'), [TFMG('ingot_mold'),Fluid.of(TFMG("molten_steel"), 224)]).id('cc:alternative_steel'),
+
+
+  event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
+
 
     // Steel Mechanism
     transitional = TFMG('unfinished_steel_mechanism')
@@ -919,7 +926,7 @@ ServerEvents.recipes(event => {
   ], 'forbidden_arcanus:arcane_crystal_obelisk').processingTime(800)
 
   //shimmer
-  event.recipes.createMixing(Fluid.of(KJ("shimmer"), 500),[
+  event.recipes.createMixing(Fluid.of(KJ("shimmer"), 850),[
     'quark:red_corundum_cluster',
     'quark:orange_corundum_cluster',
     'quark:yellow_corundum_cluster',
@@ -954,39 +961,39 @@ ServerEvents.recipes(event => {
     Item.of(AE2('black_paint_ball')).withChance(chance)
   ], AE2('quantum_entangled_singularity'))
 
-  event.recipes.createMixing(AE2('white_lumen_paint_ball'),[AE2('white_paint_ball'),MC('white_dye'),Fluid.of(KJ("shimmer"), 185)]).superheated()
-  event.recipes.createMixing(AE2('light_gray_lumen_paint_ball'),[AE2('light_gray_paint_ball'),MC('light_gray_dye'),Fluid.of(KJ("shimmer"), 150)]).superheated()
-  event.recipes.createMixing(AE2('gray_lumen_paint_ball'),[AE2('gray_paint_ball'),MC('gray_dye'),Fluid.of(KJ("shimmer"), 129)]).superheated()
-  event.recipes.createMixing(AE2('pink_lumen_paint_ball'),[AE2('pink_paint_ball'),MC('pink_dye'),Fluid.of(KJ("shimmer"), 180)]).superheated()
-  event.recipes.createMixing(AE2('red_lumen_paint_ball'),[AE2('red_paint_ball'),MC('red_dye'),Fluid.of(KJ("shimmer"), 125)]).superheated()
-  event.recipes.createMixing(AE2('orange_lumen_paint_ball'),[AE2('orange_paint_ball'),MC('orange_dye'),Fluid.of(KJ("shimmer"), 175)]).superheated()
-  event.recipes.createMixing(AE2('yellow_lumen_paint_ball'),[AE2('yellow_paint_ball'),MC('yellow_dye'),Fluid.of(KJ("shimmer"), 194)]).superheated()
-  event.recipes.createMixing(AE2('lime_lumen_paint_ball'),[AE2('lime_paint_ball'),MC('lime_dye'),Fluid.of(KJ("shimmer"), 111)]).superheated()
-  event.recipes.createMixing(AE2('green_lumen_paint_ball'),[AE2('green_paint_ball'),MC('green_dye'),Fluid.of(KJ("shimmer"), 187)]).superheated()
-  event.recipes.createMixing(AE2('cyan_lumen_paint_ball'),[AE2('cyan_paint_ball'),MC('cyan_dye'),Fluid.of(KJ("shimmer"), 159)]).superheated()
-  event.recipes.createMixing(AE2('light_blue_lumen_paint_ball'),[AE2('light_blue_paint_ball'),MC('light_blue_dye'),Fluid.of(KJ("shimmer"), 159)]).superheated()
-  event.recipes.createMixing(AE2('blue_lumen_paint_ball'),[AE2('blue_paint_ball'),MC('blue_dye'),Fluid.of(KJ("shimmer"), 189)]).superheated()
-  event.recipes.createMixing(AE2('purple_lumen_paint_ball'),[AE2('purple_paint_ball'),MC('purple_dye'),Fluid.of(KJ("shimmer"), 123)]).superheated()
-  event.recipes.createMixing(AE2('magenta_lumen_paint_ball'),[AE2('magenta_paint_ball'),MC('magenta_dye'),Fluid.of(KJ("shimmer"), 90)]).superheated()
-  event.recipes.createMixing(AE2('brown_lumen_paint_ball'),[AE2('brown_paint_ball'),MC('brown_dye'),Fluid.of(KJ("shimmer"), 112)]).superheated()
-  event.recipes.createMixing(AE2('black_lumen_paint_ball'),[AE2('black_paint_ball'),MC('black_dye'),Fluid.of(KJ("shimmer"), 70)]).superheated()
+  event.recipes.createMixing(AE2('white_lumen_paint_ball'),[AE2('white_paint_ball'),'alexscaves:rock_candy_white',Fluid.of(KJ("shimmer"), 185)]).superheated()
+  event.recipes.createMixing(AE2('light_gray_lumen_paint_ball'),[AE2('light_gray_paint_ball'),'alexscaves:rock_candy_light_gray',Fluid.of(KJ("shimmer"), 150)]).superheated()
+  event.recipes.createMixing(AE2('gray_lumen_paint_ball'),[AE2('gray_paint_ball'),'alexscaves:rock_candy_gray',Fluid.of(KJ("shimmer"), 129)]).superheated()
+  event.recipes.createMixing(AE2('pink_lumen_paint_ball'),[AE2('pink_paint_ball'),'alexscaves:rock_candy_pink',Fluid.of(KJ("shimmer"), 180)]).superheated()
+  event.recipes.createMixing(AE2('red_lumen_paint_ball'),[AE2('red_paint_ball'),'alexscaves:rock_candy_red',Fluid.of(KJ("shimmer"), 125)]).superheated()
+  event.recipes.createMixing(AE2('orange_lumen_paint_ball'),[AE2('orange_paint_ball'),'alexscaves:rock_candy_orange',Fluid.of(KJ("shimmer"), 175)]).superheated()
+  event.recipes.createMixing(AE2('yellow_lumen_paint_ball'),[AE2('yellow_paint_ball'),'alexscaves:rock_candy_yellow',Fluid.of(KJ("shimmer"), 194)]).superheated()
+  event.recipes.createMixing(AE2('lime_lumen_paint_ball'),[AE2('lime_paint_ball'),'alexscaves:rock_candy_lime',Fluid.of(KJ("shimmer"), 111)]).superheated()
+  event.recipes.createMixing(AE2('green_lumen_paint_ball'),[AE2('green_paint_ball'),'alexscaves:rock_candy_green',Fluid.of(KJ("shimmer"), 187)]).superheated()
+  event.recipes.createMixing(AE2('cyan_lumen_paint_ball'),[AE2('cyan_paint_ball'),'alexscaves:rock_candy_cyan',Fluid.of(KJ("shimmer"), 159)]).superheated()
+  event.recipes.createMixing(AE2('light_blue_lumen_paint_ball'),[AE2('light_blue_paint_ball'),'alexscaves:rock_candy_light_blue',Fluid.of(KJ("shimmer"), 159)]).superheated()
+  event.recipes.createMixing(AE2('blue_lumen_paint_ball'),[AE2('blue_paint_ball'),'alexscaves:rock_candy_blue',Fluid.of(KJ("shimmer"), 189)]).superheated()
+  event.recipes.createMixing(AE2('purple_lumen_paint_ball'),[AE2('purple_paint_ball'),'alexscaves:rock_candy_purple',Fluid.of(KJ("shimmer"), 123)]).superheated()
+  event.recipes.createMixing(AE2('magenta_lumen_paint_ball'),[AE2('magenta_paint_ball'),'alexscaves:rock_candy_magenta',Fluid.of(KJ("shimmer"), 90)]).superheated()
+  event.recipes.createMixing(AE2('brown_lumen_paint_ball'),[AE2('brown_paint_ball'),'alexscaves:rock_candy_brown',Fluid.of(KJ("shimmer"), 112)]).superheated()
+  event.recipes.createMixing(AE2('black_lumen_paint_ball'),[AE2('black_paint_ball'),'alexscaves:rock_candy_black',Fluid.of(KJ("shimmer"), 70)]).superheated()
   
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('light_gray_lumen_paint_ball')],  AE2('white_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('gray_lumen_paint_ball')],  AE2('light_gray_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('pink_lumen_paint_ball')],  AE2('gray_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('red_lumen_paint_ball')],  AE2('pink_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('orange_lumen_paint_ball')],  AE2('red_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('yellow_lumen_paint_ball')],  AE2('orange_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('lime_lumen_paint_ball')],  AE2('yellow_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('green_lumen_paint_ball')],  AE2('lime_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('cyan_lumen_paint_ball')],  AE2('green_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('light_blue_lumen_paint_ball')],  AE2('cyan_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('blue_lumen_paint_ball')],  AE2('light_blue_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('purple_lumen_paint_ball')],  AE2('blue_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('magenta_lumen_paint_ball')],  AE2('purple_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('brown_lumen_paint_ball')],  AE2('magenta_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('black_lumen_paint_ball')],  AE2('brown_lumen_paint_ball'))
-  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),100),AE2('matter_ball')],  AE2('black_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),90),AE2('light_gray_lumen_paint_ball')],  AE2('white_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),73),AE2('gray_lumen_paint_ball')],  AE2('light_gray_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),63),AE2('pink_lumen_paint_ball')],  AE2('gray_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),87),AE2('red_lumen_paint_ball')],  AE2('pink_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),61),AE2('orange_lumen_paint_ball')],  AE2('red_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),85),AE2('yellow_lumen_paint_ball')],  AE2('orange_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),94),AE2('lime_lumen_paint_ball')],  AE2('yellow_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),54),AE2('green_lumen_paint_ball')],  AE2('lime_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),91),AE2('cyan_lumen_paint_ball')],  AE2('green_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),77),AE2('light_blue_lumen_paint_ball')],  AE2('cyan_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),77),AE2('blue_lumen_paint_ball')],  AE2('light_blue_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),92),AE2('purple_lumen_paint_ball')],  AE2('blue_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),60),AE2('magenta_lumen_paint_ball')],  AE2('purple_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),44),AE2('brown_lumen_paint_ball')],  AE2('magenta_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),54),AE2('black_lumen_paint_ball')],  AE2('brown_lumen_paint_ball'))
+  event.recipes.createEmptying([Fluid.of(CRDD("chromatic_waste"),34),AE2('matter_ball')],  AE2('black_lumen_paint_ball'))
 
 
   event.recipes.createMixing('2x '+CRDD('chromatic_compound'),[
