@@ -4116,6 +4116,11 @@
 				"33628061006314AB"
 			]
 			id: "7DE83E440B507868"
+			rewards: [{
+				id: "78659A692469BB1D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "x1.5"
 			tasks: [{
 				id: "386F37C32E7F15B4"
@@ -4131,6 +4136,11 @@
 				"7DE83E440B507868"
 			]
 			id: "2C9E13E2196DC6D7"
+			rewards: [{
+				id: "1A2F3ED62762F666"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "x2"
 			tasks: [{
 				id: "7F00E0DAD385F572"
@@ -4146,6 +4156,12 @@
 				"2C9E13E2196DC6D7"
 			]
 			id: "7A516A80B0491E03"
+			rewards: [{
+				count: 3
+				id: "144A748CD1EDB6FC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "x4"
 			tasks: [{
 				id: "7E8B3935EBFC749B"
@@ -4161,6 +4177,12 @@
 				"7A516A80B0491E03"
 			]
 			id: "746AE4CA7CE83847"
+			rewards: [{
+				count: 8
+				id: "2E3B40763DFAAA9E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "x8"
 			tasks: [{
 				id: "6D6485EA0B0835E2"
@@ -4176,6 +4198,12 @@
 				"746AE4CA7CE83847"
 			]
 			id: "3CE1281049B4B14B"
+			rewards: [{
+				count: 20
+				id: "205F898E67677AE2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "x16"
 			tasks: [{
 				id: "084840E3C345607A"
@@ -4223,6 +4251,226 @@
 			title: "Do you miss Compacting Drawers?"
 			x: 1.2d
 			y: -7.2d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: [
+				"Using EITHER the &6Magnet Upgrade&r or the &6Pickup Upgrade&r, you can make it so any item you pick up goes straight into your backpack!"
+				""
+				"Great for pairing with &6Stack Upgrades&r, &6Void Upgrades&r, and going strip mining!"
+			]
+			id: "4CED308848726E28"
+			subtitle: "Make the Backpack do the work"
+			tasks: [{
+				id: "7AC1E4B7C223CFA7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:magnet_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:pickup_upgrade"
+							}
+						]
+					}
+				}
+				title: "Pick Up Upgrades"
+				type: "item"
+			}]
+			title: "Pick Up"
+			x: 4.1d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: [
+				"When the &6Eating Upgrade&r is in your backpack, it will automatically feed you when you start to get hungry!"
+				""
+				"If you make the &badvanced&r version of the upgrade, you can set it to feed you where you won't waste ANY food!"
+			]
+			id: "6659EBA759E55BD5"
+			subtitle: "A Waiter on demand!"
+			tasks: [{
+				id: "7CB84A8A7C1E1147"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			title: "Pesky Eating"
+			x: 3.2d
+			y: 6.2d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: [
+				"With the &6deposit upgrade&r, you can shift-right-click on any storage, and it will instantly deposit the backpack contents!"
+				""
+				"If you use the &badvanced&r upgrade, you can filter to match contents of the storage!"
+			]
+			id: "723F98AC017A4F8C"
+			subtitle: "Drop 'n Go!"
+			tasks: [{
+				id: "428BA6F8008F97AD"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			title: "Deposit"
+			x: 2.3d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: [
+				"The &8Furnace Upgrade&r, &8Smoking Upgrade&r, and &8Blasting Upgrade&r allow you to smelt stuff in your backpack!"
+				""
+				"The &6Crafting Upgrade&r gives you a crafting table anywhere you have your backpack."
+				"Same with the &6anvil&r, and &6stonecutter upgrades&r!"
+				""
+				"There is also &bChipped Mod&r table integration! You can make the &bChipped&r &6Upgrade&r to take your &bChipped Tables &ranywhere!"
+			]
+			id: "5FA9D6B1B66399AC"
+			subtitle: "Crafting... on the go!"
+			tasks: [
+				{
+					id: "704199736D977632"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:blasting_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:smoking_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:smelting_upgrade"
+								}
+							]
+						}
+					}
+					title: "Smelting Workstations"
+					type: "item"
+				}
+				{
+					id: "6153C16C7E2100CD"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:crafting_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:stonecutter_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:anvil_upgrade"
+								}
+							]
+						}
+					}
+					title: "Workstations"
+					type: "item"
+				}
+				{
+					id: "776AA39D5A48176F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/carpenters_table_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/mason_table_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/botanist_workbench_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/tinkering_table_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/glassblower_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/alchemy_bench_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/loom_table_upgrade"
+								}
+							]
+						}
+					}
+					title: "Chipped Worktables"
+					type: "item"
+				}
+			]
+			title: "Workstation Upgrades"
+			x: 1.7d
+			y: 5.3d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: [
+				"With the &6Everlasting Upgrade&r, your backpack won't get destroyed by anything!"
+				""
+				"This includes, but is not limited to:"
+				"> &4Lava"
+				"> &8Void"
+				"> &2Creepers"
+				"> &bDespawning"
+				"> &6And more!"
+			]
+			id: "7B2E2427787A55A7"
+			rewards: [{
+				count: 2
+				id: "6AFD052C5D6B7D48"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			subtitle: "Don't ever leave me"
+			tasks: [{
+				id: "4093FF181A482903"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 3.2d
+			y: 3.2d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: ["With the &6Inception Upgrade&r, you can put backpacks in your backpacks!"]
+			id: "5BC526ACC0046B20"
+			subtitle: "Backs on Backs on Backs"
+			tasks: [{
+				id: "1FF82C9B0DACDF82"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: 4.7d
+			y: 5.3d
 		}
 	]
 	title: "&d&lSophisticated Storage"
