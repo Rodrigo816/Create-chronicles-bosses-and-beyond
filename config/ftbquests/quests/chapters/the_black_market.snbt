@@ -754,7 +754,7 @@
 					consume_items: true
 					count: 500L
 					id: "418CABBCB6D218DB"
-					item: { Count: 500, id: "farmersdelight:rice_roll_medley_block" }
+					item: "farmersdelight:rice_roll_medley_block"
 					type: "item"
 				}
 			]
@@ -2425,8 +2425,13 @@
 			y: 5.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from June 1st to July 22, 2024!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "14E52F88F5AAC10C"
 			rewards: [
@@ -2443,7 +2448,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "For historical reference, the challenge ran from June 1 to July 22, 2024. Of course, the reward has been nerfed now."
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 10000L
@@ -2456,6 +2461,11 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from July 23rd to September 20th, 2024!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "7339ED3D12600BDF"
 			rewards: [
@@ -2472,7 +2482,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "For historical reference, the challenge ran from 23 July till 20 September, 2024. Of course, the reward has been nerfed now."
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 15000L
@@ -2485,6 +2495,11 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from July 23rd to September 20th, 2024!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "56C3AF461DA8C053"
 			rewards: [
@@ -2508,7 +2523,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "For historical reference, the challenge ran from 23 July till 20 September, 2024. Of course, the reward has been nerfed now."
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 5000L
@@ -2521,6 +2536,11 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from July 23rd to September 20th, 2024!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "73828F0D2C7084A7"
 			rewards: [
@@ -2556,7 +2576,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "For historical reference, the challenge ran from 23 July till 20 September, 2024. Of course, the reward has been nerfed now."
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 2000L
@@ -2569,27 +2589,15 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from September 21st to [Date]!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "5C012EC7707187FA"
 			rewards: [
 				{
-					count: 3
-					id: "408C33CD0253A53F"
-					item: "numismatics:crown"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6365FAF827BD8EB2"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:eternal_stella"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 5
 					id: "42C3FFD8CB0405A4"
 					item: "waystones:waystone"
 					type: "item"
@@ -2608,10 +2616,16 @@
 					}
 					type: "item"
 				}
+				{
+					count: 5
+					id: "5C5A5586766F2E67"
+					item: "numismatics:cog"
+					type: "item"
+				}
 			]
 			shape: "gear"
-			size: 1.5d
-			subtitle: "TBA"
+			size: 1.0d
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 10000L
@@ -2619,34 +2633,32 @@
 				item: "create_dd:asphalt_block"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.0d
+			x: 5.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from September 21st to [Date]!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "1EC0BCBFA72BA522"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "35485CA8ADB971AE"
-					item: "numismatics:cog"
+					item: "numismatics:sprocket"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2CA7172610A4361D"
-					table_id: 4880289861207512209L
-					type: "loot"
-				}
-				{
-					count: 2
 					id: "7A49A92EA8B45EF8"
 					item: "paraglider:spirit_orb"
 					type: "item"
 				}
 				{
-					count: 20
+					count: 5
 					id: "526559BFBE440A16"
 					item: {
 						Count: 1
@@ -2661,15 +2673,15 @@
 					type: "item"
 				}
 				{
-					count: 20
+					count: 5
 					id: "47158C6B67135BFC"
 					item: "minecraft:blaze_powder"
 					type: "item"
 				}
 			]
 			shape: "gear"
-			size: 1.5d
-			subtitle: "TBA"
+			size: 1.0d
+			subtitle: "Retired"
 			tasks: [{
 				consume_items: true
 				count: 5000L
@@ -2677,47 +2689,46 @@
 				item: "farmersdelight:cabbage_rolls"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.0d
+			x: 8.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from September 21st to [Date]!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "26C6BBDCE6D047F4"
 			rewards: [
 				{
-					count: 2
+					count: 5
 					id: "19B22CA33A48BBC8"
-					item: "numismatics:crown"
+					item: "numismatics:cog"
 					type: "item"
 				}
 				{
-					count: 2
 					id: "381A069B484C8454"
 					item: "paraglider:spirit_orb"
 					type: "item"
 				}
 				{
-					id: "3F49CBEB9F90B2D6"
-					item: "forbidden_arcanus:elementarium"
-					type: "item"
-				}
-				{
-					count: 10
+					count: 2
 					id: "1E5A81CAB518553B"
 					item: "irons_spellbooks:blank_rune"
 					type: "item"
 				}
 				{
-					count: 10
+					count: 5
 					id: "3ABF595C40D55BCE"
-					item: "irons_spellbooks:legendary_ink"
+					item: "irons_spellbooks:epic_ink"
 					type: "item"
 				}
 			]
 			shape: "gear"
-			size: 1.5d
-			subtitle: "TBA"
+			size: 1.0d
+			subtitle: "Retired"
 			tasks: [{
 				consume_items: true
 				count: 5000L
@@ -2725,8 +2736,8 @@
 				item: "alexscaves:spelunkie"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 11.0d
+			x: 6.5d
+			y: 15.0d
 		}
 		{
 			can_repeat: true
@@ -2766,7 +2777,7 @@
 				consume_items: true
 				count: 3L
 				id: "1B1E0D0B64209315"
-				item: { Count: 3, id: "numismatics:cog" }
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			title: "Eye of Fire Dragon"
@@ -2789,7 +2800,7 @@
 				consume_items: true
 				count: 3L
 				id: "04CFA571C0FB3208"
-				item: { Count: 3, id: "numismatics:cog" }
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			title: "Eye of Ice Dragon"
@@ -2812,7 +2823,7 @@
 				consume_items: true
 				count: 5L
 				id: "6286E3AC63F5BCC6"
-				item: { Count: 3, id: "numismatics:cog" }
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			title: "Eye of Lightning Dragon"
@@ -2857,7 +2868,7 @@
 				consume_items: true
 				count: 2L
 				id: "2E250F12EC8E2BF0"
-				item: { Count: 3, id: "numismatics:sun" }
+				item: "numismatics:sun"
 				type: "item"
 			}]
 			title: "Everblasting upgrade"
@@ -2886,6 +2897,135 @@
 			x: -1.0d
 			y: 6.5d
 		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			id: "0E0BF38BE954BE5D"
+			rewards: [
+				{
+					id: "389B42CA07B1791F"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					id: "756D8267CC0F9D02"
+					item: "artifacts:snowshoes"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5ABF347BCE27437A"
+					item: "eyesoficeandfire:eye_of_ice_dragon"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35E901441E173FE7"
+					table_id: 4902539736743094778L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 15000L
+				id: "3FE61B343EE7C0B6"
+				item: { Count: 15000, id: "minecraft:blue_ice" }
+				type: "item"
+			}]
+			x: 1.9500000000000002d
+			y: 10.950000000000001d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			id: "7293F2FC9F63DC6C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "770581454F1BEA1C"
+					table_id: 8674998444894269447L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FC8C61190110BE6"
+					table_id: 8674998444894269447L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "06437FD367C2C8F7"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "5C7AC7E2D86F6E0F"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "aether:zephyr"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 10000L
+				id: "118D8C4C4F4634E2"
+				item: { Count: 10000, id: "twilightforest:snowy_cloud" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 10.950000000000001d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			id: "27C2901036362B31"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08E83616DFC399AE"
+					table_id: 8674998444894269447L
+					type: "choice"
+				}
+				{
+					count: 5
+					id: "6AEC0260AB524062"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "26C922EEAC9A5694"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "66CE30EF28CE7911"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 10000L
+				id: "5051515B30441B0B"
+				item: { Count: 10000, id: "minecraft:campfire" }
+				type: "item"
+			}]
+			x: 4.95d
+			y: 10.950000000000001d
+		}
 	]
-	title: "&0&l The Black Market"
+	title: "&0&lThe Black Market"
 }

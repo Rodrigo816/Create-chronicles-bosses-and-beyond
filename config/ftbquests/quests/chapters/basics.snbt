@@ -79,144 +79,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7261FED43BDDEFA8"]
-			description: ["The &6iron backpack&r is the upgrade of the basic &ebackpack&r. It has 54 slots and can hold 2 upgrades"]
-			id: "1DDD74A012CDE699"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "7A4861821BD8BD90"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 2
-					id: "0E19C3B23372DDE3"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-			]
-			subtitle: "Bigger storage on the go"
-			tasks: [{
-				consume_items: false
-				id: "130C92A47DB62AE9"
-				item: "sophisticatedbackpacks:iron_backpack"
-				type: "item"
-			}]
-			x: -27.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["1DDD74A012CDE699"]
-			description: ["The &6gold backpack&r is the upgrade of the &eiron backpack&r. It has 81 storage slots and can hold 3 upgrades"]
-			id: "5A52E77204B42646"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "0C794234AE18DE04"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 2
-					id: "773667476D698A0A"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-			]
-			subtitle: "Even bigger storage on the go"
-			tasks: [{
-				id: "4098258C289F8988"
-				item: "sophisticatedbackpacks:gold_backpack"
-				only_from_crafting: false
-				type: "item"
-			}]
-			x: -27.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["5A52E77204B42646"]
-			description: ["The &6diamond backpack&r is the upgrade of the &egold backpack&r. It has 108 storage slots and can hold 5 upgrades"]
-			id: "0C28D365031DFBB9"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "7C8113E9BCA529CB"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 2
-					id: "14BF8C46FBB8503F"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-			]
-			subtitle: "Massive storage on the go"
-			tasks: [{
-				id: "675716D8D49F9E79"
-				item: "sophisticatedbackpacks:diamond_backpack"
-				only_from_crafting: false
-				type: "item"
-			}]
-			x: -27.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["0C28D365031DFBB9"]
-			description: ["The &6netherite backpack&r is the upgrade of the &ediamond backpack&r. It has 120 storage slots and can hold 7 upgrades"]
-			id: "0E10A137480D309E"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "6D639DB5C178E21B"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 2
-					id: "611B12280CBAC9A2"
-					item: "minecraft:netherite_scrap"
-					type: "item"
-				}
-			]
-			subtitle: "Insane storage on the go"
-			tasks: [{
-				id: "2DE5EFAC7AA9FF4F"
-				item: "sophisticatedbackpacks:netherite_backpack"
-				only_from_crafting: false
-				type: "item"
-			}]
-			x: -27.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["7261FED43BDDEFA8"]
-			description: ["The &6upgrade base&r is the main thing needed for each upgrade that you can use within the mod, it is used to craft every single upgrade"]
-			id: "33628061006314AB"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "0A2AAF7CDC6E921F"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "4DF8DD43EA31523F"
-					item: "sophisticatedbackpacks:upgrade_base"
-					type: "item"
-				}
-			]
-			subtitle: "The key to maximising the backpack"
-			tasks: [{
-				id: "6AF91F57CF082BC7"
-				item: "sophisticatedbackpacks:upgrade_base"
-				type: "item"
-			}]
-			x: -25.5d
-			y: 16.0d
-		}
-		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
 			description: [
 				"The &5Talent Tree&r is the most important method of player progression strength."
@@ -248,42 +110,6 @@
 			title: "Progression: The Talent Tree"
 			x: -33.5d
 			y: 19.0d
-		}
-		{
-			dependencies: ["0C49795E134A27E0"]
-			description: [
-				"&6Sophisticated Backpacks&r add some of the most useful Backpacks to Minecraft!"
-				""
-				"To equip a &9backpack&r, click the Equip icon in the &9backpack&r menu."
-				""
-				"Once a &9backpack&r is equipped, you can open it by pressing &bB&r"
-				""
-				"&9Backpacks&r can be upgraded through several tiers."
-				""
-				"To see all &9backpack&r variants, search &d@sophisticated&r in the &eJEI&r search bar."
-				""
-				"You can find this search bar at the bottom right. "
-				""
-				"Clicking on items in the item list to the right of your inventory will show their recipes and uses."
-				""
-				"You can also press &bR&r and &bU&r while hovering over any item to see their Recipe and Uses"
-			]
-			id: "7261FED43BDDEFA8"
-			rewards: [{
-				id: "6936CD16F9688A12"
-				item: "sophisticatedbackpacks:upgrade_base"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "28DECE967CE74AD2"
-				item: "sophisticatedbackpacks:backpack"
-				type: "item"
-			}]
-			title: "Upgrading: Inventory"
-			x: -27.0d
-			y: 16.0d
 		}
 		{
 			description: [
@@ -1559,7 +1385,7 @@
 				{
 					count: 10L
 					id: "50E50067EA492EBE"
-					item: { Count: 10, id: "minecraft:obsidian" }
+					item: "minecraft:obsidian"
 					type: "item"
 				}
 				{
@@ -1609,7 +1435,7 @@
 				""
 				"You can also buy stuff using &6Create currency.&r "
 				""
-				"Currency can be earned &5via quests&r or for doing &5weekly missions&r (Press H). "
+				"Currency can be earned &5via quests&r or by &5killing bosses&r. "
 				""
 				"Here is some money to get you started, so spend it wisely."
 			]
@@ -1619,6 +1445,7 @@
 					count: 2
 					id: "50F4EC485372FEF2"
 					item: "numismatics:cog"
+					title: "Your allowance"
 					type: "item"
 				}
 				{
@@ -2090,7 +1917,7 @@
 			tasks: [{
 				count: 4L
 				id: "1744774CD4C3B85D"
-				item: { Count: 4, id: "betterarcheology:fossiliferous_dirt" }
+				item: "betterarcheology:fossiliferous_dirt"
 				type: "item"
 			}]
 			x: 3.0d
@@ -2109,7 +1936,7 @@
 			tasks: [{
 				count: 4L
 				id: "35496C9EA7213E5A"
-				item: { Count: 4, id: "betterarcheology:suspicious_red_sand" }
+				item: "betterarcheology:suspicious_red_sand"
 				type: "item"
 			}]
 			x: 5.0d
@@ -3796,6 +3623,7 @@
 				""
 				"Researchers have found that if you play with Maracas, the &aRibbits&r will join you and play their instruments. "
 				""
+				"{@pagebreak}"
 				"&eJobs:&r Surprisingly &aRibbits&r have developed jobs. There are a few being the follow:"
 				""
 				"&b->Witches: &rThey may occasionally give you random potion effects."

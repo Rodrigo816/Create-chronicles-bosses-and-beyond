@@ -2967,7 +2967,11 @@
 			size: 1.2d
 			tasks: [{
 				id: "259C1D84AD3996AF"
-				item: "ars_nouveau:dominion_wand"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Summoning Help!"
