@@ -2591,7 +2591,7 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: [
 				"For historical reference:"
-				"This challenge ran from September 21st to [Date]!"
+				"This challenge ran from September 21st to December 21st!"
 				"Of course, the reward has been nerfed now."
 			]
 			hide_until_deps_complete: true
@@ -2640,7 +2640,7 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: [
 				"For historical reference:"
-				"This challenge ran from September 21st to [Date]!"
+				"This challenge ran from September 21st to December 21st!"
 				"Of course, the reward has been nerfed now."
 			]
 			hide_until_deps_complete: true
@@ -2681,7 +2681,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "Retired"
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 5000L
@@ -2696,7 +2696,7 @@
 			dependencies: ["21FB9D855FA9D2DF"]
 			description: [
 				"For historical reference:"
-				"This challenge ran from September 21st to [Date]!"
+				"This challenge ran from September 21st to December 21st!"
 				"Of course, the reward has been nerfed now."
 			]
 			hide_until_deps_complete: true
@@ -2928,9 +2928,9 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				count: 15000L
-				id: "3FE61B343EE7C0B6"
-				item: { Count: 15000, id: "minecraft:blue_ice" }
+				count: 5000L
+				id: "623158969F101E54"
+				item: { Count: 5000, id: "create_confectionery:soothing_hot_chocolate" }
 				type: "item"
 			}]
 			x: 1.9500000000000002d
@@ -2973,13 +2973,20 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "2D873363F70E2BBB"
+					table_id: 6337359776125332254L
+					type: "random"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
+				consume_items: true
 				count: 10000L
 				id: "118D8C4C4F4634E2"
-				item: { Count: 10000, id: "twilightforest:snowy_cloud" }
+				item: "twilightforest:snowy_cloud"
 				type: "item"
 			}]
 			x: 3.45d
@@ -3018,9 +3025,10 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
+				consume_items: true
 				count: 10000L
 				id: "5051515B30441B0B"
-				item: { Count: 10000, id: "minecraft:campfire" }
+				item: "minecraft:campfire"
 				type: "item"
 			}]
 			x: 4.95d
