@@ -443,7 +443,7 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			subtitle: "This will be the fuel you use on your rocket!"
 			tasks: [{

@@ -1,0 +1,16 @@
+{
+	id: "0F82556E44479447"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "minecraft:rose_bush", weight: 0.5f }
+		{ item: "minecraft:cornflower" }
+		{ item: "minecraft:poppy" }
+		{ item: "minecraft:blue_orchid", weight: 1.5f }
+		{ item: "minecraft:allium", weight: 1.5f }
+		{ item: "minecraft:dandelion" }
+		{ item: "minecraft:lilac", weight: 0.5f }
+		{ item: "minecraft:peony", weight: 0.5f }
+	]
+	title: "Flowers"
+}

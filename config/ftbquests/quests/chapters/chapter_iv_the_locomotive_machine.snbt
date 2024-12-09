@@ -426,7 +426,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "0902CB56133DA394"

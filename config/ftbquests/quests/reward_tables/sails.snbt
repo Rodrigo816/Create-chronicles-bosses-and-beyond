@@ -1,0 +1,13 @@
+{
+	id: "7863C91F9EFD3007"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "create_dd:splashing_sail" }
+		{ item: "create_dd:haunting_sail" }
+		{ item: "create_dd:smoking_sail" }
+		{ item: "create_dd:blasting_sail" }
+		{ item: "create_dd:freezing_sail" }
+	]
+	title: "Sails"
+}

@@ -1,0 +1,11 @@
+{
+	id: "4C5E32B3669B67F4"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "numismatics:spur", weight: 100.0f }
+		{ item: "numismatics:bevel", weight: 10.0f }
+		{ item: "numismatics:sprocket" }
+	]
+	title: "Kill Reward"
+}

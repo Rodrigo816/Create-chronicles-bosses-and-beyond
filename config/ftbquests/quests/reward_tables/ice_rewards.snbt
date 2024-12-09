@@ -1,0 +1,26 @@
+{
+	id: "440951EA71CF29FA"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonsteel_ice_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Ice Rewards"
+}

@@ -194,7 +194,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			subtitle: "Space Engineers"
 			tasks: [{

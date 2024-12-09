@@ -777,7 +777,7 @@
 				""
 				"&6Molten Vents&r is a mod which adds a renewable source of the orestones."
 				""
-				"These ore stones include: &2Veridium,&r &3Asurine&r, &4Crimsite,&r &6Ochrum,&r &0Scorchia&r and &8Scoria.&r"
+				"These ore stones include: &2Veridium,&r &3Asurine&r, &4Crimsite,&r and more!"
 				""
 				"The vents contain immovable dormant orestones in them, which when exploded will convert into molten orestones place the required material into the corresponding orestone when near it."
 				""
@@ -822,7 +822,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "If you find one mark it on map cus you will need it later :)"
+			subtitle: "If you find one, mark it on map! You will need it later"
 			tasks: [{
 				id: "7C93AC02F8D93AA3"
 				title: "Click to Acknowledge"
