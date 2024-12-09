@@ -1247,7 +1247,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "3CDE85F4454E1E23"

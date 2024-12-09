@@ -53,8 +53,8 @@
 			image: "supplementaries:textures/gui/book/icon/discord.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -30.5d
-			y: 15.0d
+			x: -29.7d
+			y: 15.2d
 		}
 		{
 			color: 14522965
@@ -1385,7 +1385,7 @@
 				{
 					count: 10L
 					id: "50E50067EA492EBE"
-					item: "minecraft:obsidian"
+					item: { Count: 10, id: "minecraft:obsidian" }
 					type: "item"
 				}
 				{
@@ -1429,7 +1429,8 @@
 		{
 			dependencies: ["06267D7C266DE215"]
 			description: [
-				"The &0&lBlack Market&r&r is the ultimate testing ground for your ingenious Create automations. Here, you can exchange the fruits of your mechanical mastery for unique items &cnot found anywhere else&r."
+				"{ \"text\": \"The Black Market\", \"underlined\": \"true\", \"color\": \"black\", \"bold\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21FB9D855FA9D2DF\" } } "
+				"is the ultimate testing ground for your ingenious Create automations. Here, you can exchange the\"  fruits of your mechanical mastery for unique items &cnot found anywhere else. "
 				""
 				"You can use a &9task screen&r and a &9task screen configurator&r to automate."
 				""
@@ -1438,6 +1439,13 @@
 				"Currency can be earned &5via quests&r or by &5killing bosses&r. "
 				""
 				"Here is some money to get you started, so spend it wisely."
+				""
+				"{@pagebreak}"
+				"There's also a rumor of a"
+				""
+				"{ \"text\": \"Space Captain [click me!]\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4D995A3D7DC968C7\" } }"
+				""
+				"who is wanting some help!"
 			]
 			id: "21FB9D855FA9D2DF"
 			rewards: [
@@ -1917,7 +1925,7 @@
 			tasks: [{
 				count: 4L
 				id: "1744774CD4C3B85D"
-				item: "betterarcheology:fossiliferous_dirt"
+				item: { Count: 4, id: "betterarcheology:fossiliferous_dirt" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -1936,7 +1944,7 @@
 			tasks: [{
 				count: 4L
 				id: "35496C9EA7213E5A"
-				item: "betterarcheology:suspicious_red_sand"
+				item: { Count: 4, id: "betterarcheology:suspicious_red_sand" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -3632,7 +3640,7 @@
 				""
 				"&b->Farmers:&r They make crops grow faster. They have a formula that the water they pour is just like bone meal! Fascinating! "
 				""
-				"&b->Merchants:&r They are merchants, you can spot them by their backpack and they trade with you. Surprisingly they &ctrade corundum in various colors&r and a&d Maraca&r. We don’t know where they get the corundum from but the colors of corundum they have for trade changes from Merchant to Merchant."
+				"&b->Merchants:&r They are merchants, you can spot them by their backpack and they trade with you. Surprisingly they &ctrade corundum in various colors&r and a&d Maraca&r. We don’t know where they get the corundum from but the colors of corundum they have for trade changes from Merchant to Merchant. &l&o&nThis is nice since you know you'll need all the colors of corundum later!"
 			]
 			id: "1278600075A14600"
 			rewards: [{
@@ -3732,6 +3740,140 @@
 			title: "POWER UP!!!"
 			x: 10.0d
 			y: 12.5d
+		}
+		{
+			dependencies: ["1278600075A14600"]
+			description: [
+				"&cC&6o&er&au&bn&9d&du&5m&r is gonna be used later on! You can find it underground, or trade with some &aRibbits&r!"
+				""
+				"You won't need to use it until &bChapter IX&r though. So you have some time"
+			]
+			id: "1F2F6591E18F3023"
+			rewards: [{
+				count: 3
+				id: "2E76D28D719A5D37"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "You'll need this later"
+			tasks: [
+				{
+					id: "6B3DEB7111D8477D"
+					item: "quark:black_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "59B9E0934A77BC4A"
+					item: "quark:white_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "2F269F6BFCB8A5AE"
+					item: "quark:red_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "3BAB9AEFE32E0D31"
+					item: "quark:orange_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "395214F830AA463D"
+					item: "quark:yellow_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "1A7B2AE9A8C1321E"
+					item: "quark:green_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "673BA2E314D6ACE1"
+					item: "quark:blue_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "6DCB938D1936667A"
+					item: "quark:indigo_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "4F3BE76D14308060"
+					item: "quark:violet_corundum_cluster"
+					type: "item"
+				}
+			]
+			title: "&8The entire &r&l&o&n&cR&6a&ei&an&bb&9o&dw"
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: ["\"Stock up on &8andesite&r cuz you need it for &8andesite alloy&r!\""]
+			icon: "minecraft:lantern"
+			id: "7D6CA452A433EBD7"
+			tasks: [{
+				id: "110A241E6410CDC0"
+				type: "checkmark"
+			}]
+			title: "From Inconspicuous_lamp"
+			x: -28.9d
+			y: 14.4d
+		}
+		{
+			dependencies: ["5525E70F7FBDBD92"]
+			description: [
+				"The following quests are from prominent people in the &9Discord&r!"
+				""
+				"They are fully &boptional&r, but may help out later on!"
+				""
+				"I asked each person, \"&o&aWhat is one thing you wish you knew from the very start of your first playthrough?&r\""
+				"The following quests were their responses."
+			]
+			id: "4F9B4B7F2D747375"
+			tasks: [{
+				id: "554F2A68817444F8"
+				title: "README.md"
+				type: "checkmark"
+			}]
+			x: -30.5d
+			y: 14.4d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: [
+				"\"Probably the fact that &5Ars Nouveau&r was pretty overpowered lol. "
+				""
+				"&5Ars Nouveau&r is extremely useful in almost every step of the modpack, including the early-game as it gives you a good source of &aflight&r in the beginning, and even a combination of a &cTier I armor set&r and &cbook&r makes you well equipped early on in the game. "
+				""
+				"Not only that, but you also get access to &6Rituals&r which are useful in of themselves (&6Ritual&r of &bFlight&r gives you &acreative flight&r within a set radius) and &8warp portals&r, which honestly just act as alternative waystones but much cheaper and much more accessible.\""
+			]
+			icon: "alexsmobs:farseer_arm"
+			id: "12B9DBB08E1A760D"
+			tasks: [{
+				id: "3959EA9AF3798912"
+				title: "From CraftxTD"
+				type: "checkmark"
+			}]
+			x: -28.9d
+			y: 13.1d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: [
+				"\"The &5Ars Nouveau&6 flight&r was just MINDBLOWING it made building a breeze (shoutout to &1@Demodraco&r). Also the fact that you could make &aspells&r that could mine &b6x6&r or &beven bigger areas&r was a game changer."
+				""
+				"For the Item i'd say its the &bBuilding&a Gadget&r, I used it a ton and i love to think of myself as a handy little building buddy :)\""
+			]
+			icon: "buildinggadgets2:gadget_building"
+			id: "44B6029E40E5AFE4"
+			tasks: [{
+				id: "5FC14712A8CB8147"
+				title: "From RealDapi"
+				type: "checkmark"
+			}]
+			x: -28.9d
+			y: 11.6d
 		}
 	]
 	title: "&6&nGetting Started!"

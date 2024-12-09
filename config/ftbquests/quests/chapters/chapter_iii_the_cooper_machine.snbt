@@ -384,7 +384,7 @@
 					type: "choice"
 				}
 			]
-			shape: "rsquare"
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "1837A98319870BC6"

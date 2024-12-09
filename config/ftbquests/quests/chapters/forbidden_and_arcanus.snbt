@@ -1568,7 +1568,7 @@
 			tasks: [{
 				count: 16L
 				id: "763F1F13570524F6"
-				item: "forbidden_arcanus:edelwood_ladder"
+				item: { Count: 16, id: "forbidden_arcanus:edelwood_ladder" }
 				type: "item"
 			}]
 			x: -13.0d

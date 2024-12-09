@@ -557,6 +557,142 @@
 			x: 8.0d
 			y: 7.0d
 		}
+		{
+			height: 3.0d
+			image: "kubejs:textures/thespacecaptain.png"
+			rotation: 0.0d
+			width: 8.19d
+			x: 16.2d
+			y: -3.9d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 13.299999999999999d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.1d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.9d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 15.7d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 17.3d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.1d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.9d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 19.699999999999996d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "ad_astra:textures/sky/moon.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 23.4d
+			y: -1.6d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/skeleton.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.4d
+			y: -1.6d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/zombie.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -1.6d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/creeper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.3d
+			y: -1.6d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/spider.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.2d
+			y: -1.6d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.5d
+			y: 2.0d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -754,7 +890,7 @@
 					consume_items: true
 					count: 500L
 					id: "418CABBCB6D218DB"
-					item: "farmersdelight:rice_roll_medley_block"
+					item: { Count: 500, id: "farmersdelight:rice_roll_medley_block" }
 					type: "item"
 				}
 			]
@@ -2777,7 +2913,7 @@
 				consume_items: true
 				count: 3L
 				id: "1B1E0D0B64209315"
-				item: "numismatics:cog"
+				item: { Count: 3, id: "numismatics:cog" }
 				type: "item"
 			}]
 			title: "Eye of Fire Dragon"
@@ -2800,7 +2936,7 @@
 				consume_items: true
 				count: 3L
 				id: "04CFA571C0FB3208"
-				item: "numismatics:cog"
+				item: { Count: 3, id: "numismatics:cog" }
 				type: "item"
 			}]
 			title: "Eye of Ice Dragon"
@@ -2823,7 +2959,7 @@
 				consume_items: true
 				count: 5L
 				id: "6286E3AC63F5BCC6"
-				item: "numismatics:cog"
+				item: { Count: 3, id: "numismatics:cog" }
 				type: "item"
 			}]
 			title: "Eye of Lightning Dragon"
@@ -2868,7 +3004,7 @@
 				consume_items: true
 				count: 2L
 				id: "2E250F12EC8E2BF0"
-				item: "numismatics:sun"
+				item: { Count: 3, id: "numismatics:sun" }
 				type: "item"
 			}]
 			title: "Everblasting upgrade"
@@ -3033,6 +3169,516 @@
 			}]
 			x: 4.95d
 			y: 10.950000000000001d
+		}
+		{
+			description: [
+				"What's going on, &akid&r. Like I said, my name is &6Star&r. You can call me &bthe Space Captain&r. Or just &bthe Captain&r. &oWhatever&r."
+				""
+				"So listen, here's the deal: I'm constantly flying through the &6stars&r, and just don't have the time to make my &0own Factory&r. I'll make you some exchanges, and in return, I'll pay you with some money I...&4&oearned&r."
+				""
+				"{@pagebreak}"
+				"One thing though. I, uh, I &adon't want to take stuff from you&r that you &chaven't automated yet&r."
+				""
+				"So make sure you have the &6quests&r related to it done!"
+			]
+			icon: "alexsmobs:enderiophage_rocket"
+			id: "4D995A3D7DC968C7"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "I'm StarZlinger!"
+			tasks: [{
+				id: "097F5DCEA89BB798"
+				title: "&bHey! What's up?"
+				type: "checkmark"
+			}]
+			title: "&bThe Space Captain"
+			x: 19.6d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:blue_orchid"
+			id: "1DF6A1218A7DFCCE"
+			rewards: [
+				{
+					id: "060D676C010DCBED"
+					table_id: 1117549589621609543L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73C57B43C261E24A"
+					table_id: 1117549589621609543L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BF078E3D32937B1"
+					table_id: 1117549589621609543L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DAD1E56B1BE5DD2"
+					table_id: 1117549589621609543L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56C23E403A639013"
+					table_id: 1117549589621609543L
+					type: "choice"
+				}
+			]
+			subtitle: "She's willing to share"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7FF6F996D49A29BA"
+				item: { Count: 3, id: "numismatics:spur" }
+				type: "item"
+			}]
+			title: "The Moon has Flowers"
+			x: 22.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "ad_astra:cheese_block"
+			id: "3A9628CDC0E8EF6C"
+			rewards: [{
+				id: "048031FBE9D098E5"
+				item: "create_confectionery:chocolate_candy_3"
+				type: "item"
+			}]
+			subtitle: "She'll give you chocolate"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "08429DDD909FA5C8"
+					item: "minecraft:blue_orchid"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3F245C312202A620"
+					item: { Count: 64, id: "minecraft:poppy" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0EAB5C055D8E14A5"
+					item: { Count: 64, id: "minecraft:dandelion" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "645F10C4BC0699B3"
+					item: { Count: 64, id: "minecraft:allium" }
+					type: "item"
+				}
+			]
+			title: "The Moon needs Flowers"
+			x: 24.2d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:red_dye"
+			id: "52D1546E8BE32864"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BD06FA7A92F7AAC"
+				table_id: 2047465633216770232L
+				title: "Have some Dye"
+				type: "loot"
+			}]
+			subtitle: "She's dye-ing to give it away"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "25796C421A0E1A6F"
+				item: { Count: 5, id: "numismatics:spur" }
+				type: "item"
+			}]
+			title: "The Moon has Dyes"
+			x: 22.5d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:black_dye"
+			id: "6AC73514D2011D7B"
+			rewards: [
+				{
+					id: "088230EA270DDDB6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "12B8128F32BF64DA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "She's dye-ing without them"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "15C663B6BFA2E079"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dyes"
+					}
+				}
+				title: "Any dye"
+				type: "item"
+			}]
+			title: "The Moon needs Dyes"
+			x: 24.2d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			hide_until_deps_complete: true
+			icon: "minecraft:zombie_head"
+			id: "4C736F9CBD79FBF9"
+			rewards: [
+				{
+					id: "16FFE6CDC0BC4232"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A10A6E76E148199"
+					table_id: 5502891540795320308L
+					type: "random"
+				}
+			]
+			subtitle: "Kill some Zombies"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "2EDBBD9C789C9A64"
+					title: "Kill 25 Zombies"
+					type: "kill"
+					value: 25L
+				}
+				{
+					consume_items: true
+					count: 50L
+					id: "7EE504D16AD23064"
+					item: { Count: 50, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+			]
+			title: "Making the area safer"
+			x: 12.5d
+			y: -1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:skeleton_skull"
+			id: "289E4D1EA08A0DA4"
+			rewards: [
+				{
+					id: "40A3E460413B7927"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47D4714FD2CF1228"
+					table_id: 5502891540795320308L
+					type: "random"
+				}
+			]
+			subtitle: "Kill some skeletons"
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "29AE7FBCBAB66A0F"
+					title: "Kill 25 Skeletons"
+					type: "kill"
+					value: 25L
+				}
+				{
+					count: 50L
+					id: "32C968835AE558D4"
+					item: { Count: 50, id: "minecraft:bone" }
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "72B1B7E9288A383D"
+					item: { Count: 50, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			title: "Making the area safer"
+			x: 13.4d
+			y: -1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			description: ["&oSo fun fact, the creeper overhaul mod makes it hard to detect you killing ALL creepers. :)"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:creeper_head"
+			id: "30F8BC8036F6A677"
+			rewards: [
+				{
+					id: "4861694FA477504E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AEE8A418AE79ACC"
+					table_id: 5502891540795320308L
+					type: "random"
+				}
+			]
+			subtitle: "Kill some Creepers"
+			tasks: [{
+				count: 50L
+				id: "49B9D98ACD869203"
+				item: { Count: 50, id: "minecraft:gunpowder" }
+				type: "item"
+			}]
+			title: "Make the area safer"
+			x: 14.3d
+			y: -1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "handcrafted:spider_trophy"
+			id: "44C618044D9CD150"
+			rewards: [
+				{
+					id: "58C832841A73B874"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AC1ED2221A0C8C6"
+					table_id: 5502891540795320308L
+					type: "random"
+				}
+			]
+			subtitle: "Kill some Spiders"
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					icon: "handcrafted:spider_trophy"
+					id: "301E31E7D4C70F6D"
+					title: "Kill 25 Spiders"
+					type: "kill"
+					value: 25L
+				}
+				{
+					count: 50L
+					id: "4DC8DD71B6B46798"
+					item: { Count: 50, id: "minecraft:spider_eye" }
+					type: "item"
+				}
+			]
+			title: "Make the area safer"
+			x: 15.2d
+			y: -1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5E60FF6098CB030B"
+				"4D995A3D7DC968C7"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0CB39DCAF5213D8D"
+			rewards: [
+				{
+					count: 5
+					id: "478A0108FF6F08BE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A27D4BCDD968745"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "71A7983F99F56452"
+				item: "kubejs:rotation_mechanism"
+				type: "item"
+			}]
+			title: "I need some Rotation Mechanisms"
+			x: 13.7d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"5E60FF6098CB030B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "648925A3449BFAC0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03CCEC5DF6410388"
+					table_id: 1117549589621609543L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "03B5D6BFACFD5339"
+					item: "numismatics:spur"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73CD697BBB058C0B"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+			]
+			subtitle: "Gotta make my first house"
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "0977162EB9CF3FA7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:oak_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:spruce_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:birch_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:jungle_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:acacia_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:dark_oak_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:mangrove_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:cherry_log"
+							}
+						]
+					}
+				}
+				title: "Some Wood"
+				type: "item"
+			}]
+			x: 16.1d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"5E60FF6098CB030B"
+			]
+			description: ["Here, I'll even give you a &6brass&r tier machine that I...&4found&r."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "create:andesite_alloy"
+			id: "15D045633CCFA838"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F86D9F969ADE8DC"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AC94665D962B39B"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			subtitle: "I hope you did!"
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "7494C9261DB5FA05"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "050E478572DC0F70"
+					item: { Count: 2, id: "numismatics:spur" }
+					type: "item"
+				}
+			]
+			title: "I didn't make a lot"
+			x: 18.5d
+			y: 0.0d
 		}
 	]
 	title: "&0&lThe Black Market"

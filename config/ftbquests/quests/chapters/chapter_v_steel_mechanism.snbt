@@ -57,7 +57,7 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "44B2D39FC1CB0678"
@@ -401,7 +401,7 @@
 				{
 					count: 8L
 					id: "6D060A1C93359038"
-					item: "tfmg:fireproof_brick_reinforcement"
+					item: { Count: 8, id: "tfmg:fireproof_brick_reinforcement" }
 					type: "item"
 				}
 				{
