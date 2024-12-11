@@ -1385,7 +1385,7 @@
 				{
 					count: 10L
 					id: "50E50067EA492EBE"
-					item: { Count: 10, id: "minecraft:obsidian" }
+					item: "minecraft:obsidian"
 					type: "item"
 				}
 				{
@@ -1925,7 +1925,7 @@
 			tasks: [{
 				count: 4L
 				id: "1744774CD4C3B85D"
-				item: { Count: 4, id: "betterarcheology:fossiliferous_dirt" }
+				item: "betterarcheology:fossiliferous_dirt"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1944,7 +1944,7 @@
 			tasks: [{
 				count: 4L
 				id: "35496C9EA7213E5A"
-				item: { Count: 4, id: "betterarcheology:suspicious_red_sand" }
+				item: "betterarcheology:suspicious_red_sand"
 				type: "item"
 			}]
 			x: 5.0d

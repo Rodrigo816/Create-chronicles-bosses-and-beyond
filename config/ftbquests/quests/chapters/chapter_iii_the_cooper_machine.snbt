@@ -141,6 +141,12 @@
 					item: "moped:moped_key"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "70BA69E3F2734888"
+					table_id: 6388897065031649624L
+					type: "choice"
+				}
 			]
 			tasks: [{
 				id: "7A340C67ECB502E3"
@@ -205,12 +211,12 @@
 			description: [
 				"Still have some Copper Ingots left? No? Go grab some more and create Winry! By that I mean the Wrench. "
 				""
-				"&cThe Wrench&r by itself can be used to rotate blocks and to make a Deployer use the Wrench, &nyou have to use a Hopper/Chute with a Chest on top and place the Wrench inside the chest so it goes into the Deployer.&r"
+				"&o&dNote:&r&r &oIf you recognize the name Winry, you Rock like a Bell!&r"
 				""
+				"{@pagebreak}"
+				"&cThe Wrench&r by itself can be used to rotate blocks and to make a Deployer use the Wrench, &n&l&o&4you have to use a Hopper/Chute with a Chest on top and place the Wrench inside the chest so it goes into the Deployer.&r"
 				""
 				"{image:kubejs:textures/chute_hopper_exp.png width:150 height:194 align:1}"
-				""
-				"&o&dNote:&r&r &oIf you recognize the name Winry, you Rock like a Bell!&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -381,6 +387,12 @@
 					exclude_from_claim_all: true
 					id: "1CD417F9CCDEFFAB"
 					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "602E2DA87724F157"
+					table_id: 6388897065031649624L
 					type: "choice"
 				}
 			]

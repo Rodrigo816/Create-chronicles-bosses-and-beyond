@@ -1,0 +1,18 @@
+{
+	icon: "create:orange_toolbox"
+	id: "58A9EC07E3BF4958"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "create:mechanical_pump" }
+		{ count: 8, item: "create:fluid_pipe" }
+		{ item: "create:copper_casing" }
+		{ count: 2, item: "create:fluid_tank" }
+		{ count: 2, item: "create_connected:fluid_vessel" }
+		{ item: "create:hose_pulley" }
+		{ item: "create:fluid_valve" }
+		{ count: 2, item: "create:portable_fluid_interface" }
+		{ item: "create:spout" }
+	]
+	title: "Valve Rewards"
+}

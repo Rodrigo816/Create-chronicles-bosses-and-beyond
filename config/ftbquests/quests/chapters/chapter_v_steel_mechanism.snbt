@@ -401,7 +401,7 @@
 				{
 					count: 8L
 					id: "6D060A1C93359038"
-					item: { Count: 8, id: "tfmg:fireproof_brick_reinforcement" }
+					item: "tfmg:fireproof_brick_reinforcement"
 					type: "item"
 				}
 				{
