@@ -217,7 +217,7 @@
 				{
 					count: 8L
 					id: "0F1EB600ADB01BAB"
-					item: { Count: 8, id: "minecraft:blaze_rod" }
+					item: "minecraft:blaze_rod"
 					type: "item"
 				}
 			]
@@ -252,7 +252,7 @@
 				{
 					count: 8L
 					id: "3AD71C6EC344C7F7"
-					item: { Count: 8, id: "irons_spellbooks:frozen_bone" }
+					item: "irons_spellbooks:frozen_bone"
 					type: "item"
 				}
 			]
@@ -287,7 +287,7 @@
 				{
 					count: 8L
 					id: "0F674C309D3A8C43"
-					item: { Count: 8, id: "irons_spellbooks:lightning_bottle" }
+					item: "irons_spellbooks:lightning_bottle"
 					type: "item"
 				}
 			]
@@ -322,7 +322,7 @@
 				{
 					count: 8L
 					id: "21A043BCF2CAD62B"
-					item: { Count: 8, id: "minecraft:ender_pearl" }
+					item: "minecraft:ender_pearl"
 					type: "item"
 				}
 			]
@@ -391,7 +391,7 @@
 				{
 					count: 8L
 					id: "372146ACB33443BD"
-					item: { Count: 8, id: "irons_spellbooks:blood_vial" }
+					item: "irons_spellbooks:blood_vial"
 					type: "item"
 				}
 			]
@@ -425,7 +425,7 @@
 				{
 					count: 8L
 					id: "00D75629FAB50D6B"
-					item: { Count: 8, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 			]
@@ -459,7 +459,7 @@
 				{
 					count: 8L
 					id: "4FCD6A1260A5682F"
-					item: { Count: 8, id: "irons_spellbooks:arcane_essence" }
+					item: "irons_spellbooks:arcane_essence"
 					type: "item"
 				}
 			]
@@ -493,7 +493,7 @@
 				{
 					count: 8L
 					id: "0719E0E11F207196"
-					item: { Count: 8, id: "minecraft:phantom_membrane" }
+					item: "minecraft:phantom_membrane"
 					type: "item"
 				}
 			]
@@ -527,7 +527,7 @@
 				{
 					count: 8L
 					id: "60BA73AA9C7F6860"
-					item: { Count: 8, id: "minecraft:pufferfish" }
+					item: "minecraft:pufferfish"
 					type: "item"
 				}
 			]
@@ -562,7 +562,7 @@
 				{
 					count: 8L
 					id: "278B094BB42173B4"
-					item: { Count: 8, id: "minecraft:poisonous_potato" }
+					item: "minecraft:poisonous_potato"
 					type: "item"
 				}
 			]
