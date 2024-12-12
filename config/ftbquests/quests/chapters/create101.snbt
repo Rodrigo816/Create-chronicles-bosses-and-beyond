@@ -3479,7 +3479,11 @@
 		}
 		{
 			dependencies: ["2FE8BF89339153CB"]
-			description: ["Repairs items when held in your main hand."]
+			description: [
+				"Repairs items when held in your main hand."
+				""
+				"&4&n&o&lNote: The item MUST have the &bMending enchant&4 already on it!"
+			]
 			icon: {
 				Count: 1
 				id: "create_things_and_misc:mending_rune"

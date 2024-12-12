@@ -557,6 +557,454 @@
 			x: 8.0d
 			y: 7.0d
 		}
+		{
+			height: 3.0d
+			image: "kubejs:textures/thespacecaptain.png"
+			rotation: 0.0d
+			width: 8.19d
+			x: 16.2d
+			y: -3.9d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 13.299999999999999d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.1d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.9d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 15.7d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 17.3d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.1d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.9d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 19.699999999999996d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "ad_astra:textures/sky/moon.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 23.4d
+			y: -1.6d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/skeleton.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.4d
+			y: -1.6d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/zombie.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -1.6d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/creeper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.3d
+			y: -1.6d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/spider.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.2d
+			y: -1.6d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.5d
+			y: 1.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 13.3d
+			y: 1.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.1d
+			y: 1.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.9d
+			y: 1.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 15.7d
+			y: 1.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.5d
+			y: 1.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 17.3d
+			y: 1.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.1d
+			y: 1.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.9d
+			y: 1.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 19.7d
+			y: 1.1d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.5d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 13.3d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.1d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.9d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 15.7d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.5d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 17.3d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.1d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.9d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 19.7d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.5d
+			y: 3.3d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 13.3d
+			y: 3.3d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.1d
+			y: 3.3d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.9d
+			y: 3.3d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 15.7d
+			y: 3.3d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.5d
+			y: 3.3d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 17.3d
+			y: 3.3d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.1d
+			y: 3.3d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.9d
+			y: 3.3d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 19.7d
+			y: 3.3d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 13.3d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.1d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.9d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 15.7d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 17.3d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.1d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.9d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 19.7d
+			y: 4.5d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -754,7 +1202,7 @@
 					consume_items: true
 					count: 500L
 					id: "418CABBCB6D218DB"
-					item: { Count: 500, id: "farmersdelight:rice_roll_medley_block" }
+					item: "farmersdelight:rice_roll_medley_block"
 					type: "item"
 				}
 			]
@@ -2425,8 +2873,13 @@
 			y: 5.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from June 1st to July 22, 2024!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "14E52F88F5AAC10C"
 			rewards: [
@@ -2443,7 +2896,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "For historical reference, the challenge ran from June 1 to July 22, 2024. Of course, the reward has been nerfed now."
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 10000L
@@ -2456,6 +2909,11 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from July 23rd to September 20th, 2024!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "7339ED3D12600BDF"
 			rewards: [
@@ -2472,7 +2930,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "For historical reference, the challenge ran from 23 July till 20 September, 2024. Of course, the reward has been nerfed now."
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 15000L
@@ -2485,6 +2943,11 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from July 23rd to September 20th, 2024!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "56C3AF461DA8C053"
 			rewards: [
@@ -2508,7 +2971,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "For historical reference, the challenge ran from 23 July till 20 September, 2024. Of course, the reward has been nerfed now."
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 5000L
@@ -2521,6 +2984,11 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from July 23rd to September 20th, 2024!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "73828F0D2C7084A7"
 			rewards: [
@@ -2556,7 +3024,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "For historical reference, the challenge ran from 23 July till 20 September, 2024. Of course, the reward has been nerfed now."
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 2000L
@@ -2569,27 +3037,15 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from September 21st to December 21st!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "5C012EC7707187FA"
 			rewards: [
 				{
-					count: 3
-					id: "408C33CD0253A53F"
-					item: "numismatics:crown"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6365FAF827BD8EB2"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:eternal_stella"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 5
 					id: "42C3FFD8CB0405A4"
 					item: "waystones:waystone"
 					type: "item"
@@ -2608,10 +3064,16 @@
 					}
 					type: "item"
 				}
+				{
+					count: 5
+					id: "5C5A5586766F2E67"
+					item: "numismatics:cog"
+					type: "item"
+				}
 			]
 			shape: "gear"
-			size: 1.5d
-			subtitle: "TBA"
+			size: 1.0d
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 10000L
@@ -2619,34 +3081,32 @@
 				item: "create_dd:asphalt_block"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.0d
+			x: 5.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from September 21st to December 21st!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "1EC0BCBFA72BA522"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "35485CA8ADB971AE"
-					item: "numismatics:cog"
+					item: "numismatics:sprocket"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2CA7172610A4361D"
-					table_id: 4880289861207512209L
-					type: "loot"
-				}
-				{
-					count: 2
 					id: "7A49A92EA8B45EF8"
 					item: "paraglider:spirit_orb"
 					type: "item"
 				}
 				{
-					count: 20
+					count: 5
 					id: "526559BFBE440A16"
 					item: {
 						Count: 1
@@ -2661,15 +3121,15 @@
 					type: "item"
 				}
 				{
-					count: 20
+					count: 5
 					id: "47158C6B67135BFC"
 					item: "minecraft:blaze_powder"
 					type: "item"
 				}
 			]
 			shape: "gear"
-			size: 1.5d
-			subtitle: "TBA"
+			size: 1.0d
+			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 5000L
@@ -2677,47 +3137,46 @@
 				item: "farmersdelight:cabbage_rolls"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.0d
+			x: 8.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"For historical reference:"
+				"This challenge ran from September 21st to December 21st!"
+				"Of course, the reward has been nerfed now."
+			]
 			hide_until_deps_complete: true
 			id: "26C6BBDCE6D047F4"
 			rewards: [
 				{
-					count: 2
+					count: 5
 					id: "19B22CA33A48BBC8"
-					item: "numismatics:crown"
+					item: "numismatics:cog"
 					type: "item"
 				}
 				{
-					count: 2
 					id: "381A069B484C8454"
 					item: "paraglider:spirit_orb"
 					type: "item"
 				}
 				{
-					id: "3F49CBEB9F90B2D6"
-					item: "forbidden_arcanus:elementarium"
-					type: "item"
-				}
-				{
-					count: 10
+					count: 2
 					id: "1E5A81CAB518553B"
 					item: "irons_spellbooks:blank_rune"
 					type: "item"
 				}
 				{
-					count: 10
+					count: 5
 					id: "3ABF595C40D55BCE"
-					item: "irons_spellbooks:legendary_ink"
+					item: "irons_spellbooks:epic_ink"
 					type: "item"
 				}
 			]
 			shape: "gear"
-			size: 1.5d
-			subtitle: "TBA"
+			size: 1.0d
+			subtitle: "Retired"
 			tasks: [{
 				consume_items: true
 				count: 5000L
@@ -2725,8 +3184,8 @@
 				item: "alexscaves:spelunkie"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 11.0d
+			x: 6.5d
+			y: 15.0d
 		}
 		{
 			can_repeat: true
@@ -2766,7 +3225,7 @@
 				consume_items: true
 				count: 3L
 				id: "1B1E0D0B64209315"
-				item: { Count: 3, id: "numismatics:cog" }
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			title: "Eye of Fire Dragon"
@@ -2789,7 +3248,7 @@
 				consume_items: true
 				count: 3L
 				id: "04CFA571C0FB3208"
-				item: { Count: 3, id: "numismatics:cog" }
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			title: "Eye of Ice Dragon"
@@ -2812,7 +3271,7 @@
 				consume_items: true
 				count: 5L
 				id: "6286E3AC63F5BCC6"
-				item: { Count: 3, id: "numismatics:cog" }
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			title: "Eye of Lightning Dragon"
@@ -2857,7 +3316,7 @@
 				consume_items: true
 				count: 2L
 				id: "2E250F12EC8E2BF0"
-				item: { Count: 3, id: "numismatics:sun" }
+				item: "numismatics:sun"
 				type: "item"
 			}]
 			title: "Everblasting upgrade"
@@ -2886,6 +3345,1220 @@
 			x: -1.0d
 			y: 6.5d
 		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			id: "0E0BF38BE954BE5D"
+			rewards: [
+				{
+					id: "389B42CA07B1791F"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					id: "756D8267CC0F9D02"
+					item: "artifacts:snowshoes"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5ABF347BCE27437A"
+					item: "eyesoficeandfire:eye_of_ice_dragon"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35E901441E173FE7"
+					table_id: 4902539736743094778L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 5000L
+				id: "623158969F101E54"
+				item: "create_confectionery:soothing_hot_chocolate"
+				type: "item"
+			}]
+			x: 1.9500000000000002d
+			y: 10.950000000000001d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			id: "7293F2FC9F63DC6C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "770581454F1BEA1C"
+					table_id: 8674998444894269447L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FC8C61190110BE6"
+					table_id: 8674998444894269447L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "06437FD367C2C8F7"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "5C7AC7E2D86F6E0F"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "aether:zephyr"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D873363F70E2BBB"
+					table_id: 6337359776125332254L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "118D8C4C4F4634E2"
+				item: "twilightforest:snowy_cloud"
+				type: "item"
+			}]
+			x: 3.45d
+			y: 10.950000000000001d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			id: "27C2901036362B31"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08E83616DFC399AE"
+					table_id: 8674998444894269447L
+					type: "choice"
+				}
+				{
+					count: 5
+					id: "6AEC0260AB524062"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "26C922EEAC9A5694"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "66CE30EF28CE7911"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "5051515B30441B0B"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 4.95d
+			y: 10.950000000000001d
+		}
+		{
+			description: [
+				"What's going on, &akid&r. Like I said, my name is &6Star&r. You can call me &bthe Space Captain&r. Or just &bthe Captain&r. &oWhatever&r."
+				""
+				"So listen, here's the deal: I'm constantly flying through the &6stars&r, and just don't have the time to make my &0own Factory&r. I'll make you some exchanges, and in return, I'll pay you with some money I...&4&oearned&r."
+				""
+				"{@pagebreak}"
+				"One thing though. I, uh, I &adon't want to take stuff from you&r that you &chaven't automated yet&r."
+				""
+				"So make sure you have the &6quests&r related to it done!"
+			]
+			hide_dependent_lines: true
+			icon: "alexsmobs:enderiophage_rocket"
+			id: "4D995A3D7DC968C7"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "I'm StarZlinger!"
+			tasks: [{
+				id: "097F5DCEA89BB798"
+				title: "&bHey! What's up?"
+				type: "checkmark"
+			}]
+			title: "&bThe Space Captain"
+			x: 19.6d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"3A9628CDC0E8EF6C"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:blue_orchid"
+			id: "1DF6A1218A7DFCCE"
+			rewards: [
+				{
+					id: "060D676C010DCBED"
+					table_id: 1117549589621609543L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73C57B43C261E24A"
+					table_id: 1117549589621609543L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BF078E3D32937B1"
+					table_id: 1117549589621609543L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DAD1E56B1BE5DD2"
+					table_id: 1117549589621609543L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56C23E403A639013"
+					table_id: 1117549589621609543L
+					type: "choice"
+				}
+			]
+			subtitle: "She's willing to share"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7FF6F996D49A29BA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			title: "The Moon has Flowers"
+			x: 22.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "ad_astra:cheese_block"
+			id: "3A9628CDC0E8EF6C"
+			rewards: [{
+				id: "048031FBE9D098E5"
+				item: "create_confectionery:chocolate_candy_3"
+				type: "item"
+			}]
+			subtitle: "She'll give you chocolate"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "08429DDD909FA5C8"
+					item: "minecraft:blue_orchid"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3F245C312202A620"
+					item: "minecraft:poppy"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0EAB5C055D8E14A5"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "645F10C4BC0699B3"
+					item: "minecraft:allium"
+					type: "item"
+				}
+			]
+			title: "The Moon needs Flowers"
+			x: 24.2d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"6AC73514D2011D7B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:red_dye"
+			id: "52D1546E8BE32864"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BD06FA7A92F7AAC"
+				table_id: 2047465633216770232L
+				title: "Have some Dye"
+				type: "loot"
+			}]
+			subtitle: "She's dye-ing to give it away"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "25796C421A0E1A6F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			title: "The Moon has Dyes"
+			x: 22.5d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"3A9628CDC0E8EF6C"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:black_dye"
+			id: "6AC73514D2011D7B"
+			rewards: [
+				{
+					id: "088230EA270DDDB6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "12B8128F32BF64DA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "She's dye-ing without them"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "15C663B6BFA2E079"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dyes"
+					}
+				}
+				title: "Any dye"
+				type: "item"
+			}]
+			title: "The Moon needs Dyes"
+			x: 24.2d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			hide_until_deps_complete: true
+			icon: "minecraft:zombie_head"
+			id: "4C736F9CBD79FBF9"
+			rewards: [
+				{
+					id: "16FFE6CDC0BC4232"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A10A6E76E148199"
+					table_id: 5502891540795320308L
+					type: "random"
+				}
+			]
+			subtitle: "Kill some Zombies"
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "7EE504D16AD23064"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			title: "Making the area safer"
+			x: 12.5d
+			y: -1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:skeleton_skull"
+			id: "289E4D1EA08A0DA4"
+			rewards: [
+				{
+					id: "40A3E460413B7927"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47D4714FD2CF1228"
+					table_id: 5502891540795320308L
+					type: "random"
+				}
+			]
+			subtitle: "Kill some skeletons"
+			tasks: [
+				{
+					count: 50L
+					id: "32C968835AE558D4"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "72B1B7E9288A383D"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			title: "Making the area safer"
+			x: 13.4d
+			y: -1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			description: [""]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:creeper_head"
+			id: "30F8BC8036F6A677"
+			rewards: [
+				{
+					id: "4861694FA477504E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AEE8A418AE79ACC"
+					table_id: 5502891540795320308L
+					type: "random"
+				}
+			]
+			subtitle: "Kill some Creepers"
+			tasks: [{
+				count: 50L
+				id: "49B9D98ACD869203"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "Making the area safer"
+			x: 14.3d
+			y: -1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "handcrafted:spider_trophy"
+			id: "44C618044D9CD150"
+			rewards: [
+				{
+					id: "58C832841A73B874"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AC1ED2221A0C8C6"
+					table_id: 5502891540795320308L
+					type: "random"
+				}
+			]
+			subtitle: "Kill some Spiders"
+			tasks: [{
+				count: 50L
+				id: "4DC8DD71B6B46798"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			title: "Making the area safer"
+			x: 15.2d
+			y: -1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5E60FF6098CB030B"
+				"4D995A3D7DC968C7"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0CB39DCAF5213D8D"
+			rewards: [
+				{
+					count: 5
+					id: "478A0108FF6F08BE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A27D4BCDD968745"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "71A7983F99F56452"
+				item: "kubejs:rotation_mechanism"
+				type: "item"
+			}]
+			title: "I need some Rotation Mechanisms"
+			x: 16.1d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"5E60FF6098CB030B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_log"
+			id: "648925A3449BFAC0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03CCEC5DF6410388"
+					table_id: 1117549589621609543L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "03B5D6BFACFD5339"
+					item: "numismatics:spur"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73CD697BBB058C0B"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+			]
+			subtitle: "Gotta make my first house"
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "0977162EB9CF3FA7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:oak_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:spruce_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:birch_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:jungle_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:acacia_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:dark_oak_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:mangrove_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:cherry_log"
+							}
+						]
+					}
+				}
+				title: "Some Wood"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"5E60FF6098CB030B"
+			]
+			description: ["Here, I'll even give you a &6brass&r tier machine that I...&4found&r."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "create:andesite_alloy"
+			id: "15D045633CCFA838"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F86D9F969ADE8DC"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AC94665D962B39B"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			subtitle: "I hope you did!"
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "7494C9261DB5FA05"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "050E478572DC0F70"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			title: "I didn't make a lot"
+			x: 13.7d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"646C119DC7AC80AB"
+				"4D995A3D7DC968C7"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3A225444C4D80A19"
+			rewards: [
+				{
+					id: "1F9ADF69C49B2153"
+					item: "numismatics:spur"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FEAFA5FC0934B9F"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C98C2B91D25498C"
+					table_id: 6388897065031649624L
+					type: "random"
+				}
+			]
+			subtitle: "Got some spare &6copper&r?"
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "4D6BFF441E540C80"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "I gotta replace some wires"
+			x: 13.7d
+			y: 1.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"646C119DC7AC80AB"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6CD2714A783258EB"
+			rewards: [{
+				count: 7
+				id: "7C8B05AA80319ED8"
+				item: "numismatics:spur"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "05883AAF5C9625C0"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			title: "I need some Valve Mechanisms"
+			x: 16.1d
+			y: 1.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"269E461376CE2456"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5746800F9D6733DD"
+			rewards: [{
+				id: "1011A2D208A3970B"
+				item: "numismatics:spur"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Bring me some"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "09D590A2FBEE71C2"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Belts in my rocket engine broke"
+			x: 18.5d
+			y: 1.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"6F2EA0844769A10A"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7A0C5AEB3F74C6FA"
+			rewards: [
+				{
+					count: 10
+					id: "0535A7A57CA67921"
+					item: "numismatics:spur"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D1B2E61A4C34621"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "26BE3F969E4807AF"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "I need some Precision Mechanisms"
+			x: 16.1d
+			y: 2.2d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"6F2EA0844769A10A"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "45F55FFA31EF4F45"
+			rewards: [
+				{
+					count: 2
+					id: "6AC4082733C4147E"
+					item: "numismatics:spur"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "277654BB4F776EF6"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+			]
+			subtitle: "It's both malleable, and tough!"
+			tasks: [{
+				count: 2048L
+				id: "6378BC316D531057"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Brass is really useful"
+			x: 13.7d
+			y: 2.2d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"6F2EA0844769A10A"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "12E9757D234A8BCB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EAAAF501920702E"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					count: 5
+					id: "12B8370DA70BFB63"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "43455D46D93DA725"
+					item: "ae2:flawed_budding_quartz"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "I guess Red displays work..."
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "2892E29223EDFB04"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Electron Tubes?!"
+			x: 18.5d
+			y: 2.2d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"3DFF1B74E8AADB57"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6CD75ACE12435ABE"
+			rewards: [
+				{
+					count: 2
+					id: "4B041117A38DF50B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "61B953F04F57718B"
+					item: "numismatics:spur"
+					random_bonus: 5
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "A Chew-Chew train"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "6180D9B708336A48"
+				item: "kubejs:locomotive_mechanism"
+				type: "item"
+			}]
+			title: "What's a chef's favorite type of train?"
+			x: 13.7d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"69D628450626D8D5"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "53A42A9BF10D5DA1"
+			rewards: [
+				{
+					id: "78B80D880FF83F39"
+					item: "numismatics:spur"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					count: 3
+					id: "173B47EED67B22A0"
+					item: "numismatics:bevel"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Thanks for all your help!"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "4922042C1F651CAB"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			title: "You have steelen my heart"
+			x: 16.1d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"7EEB0092E87627F1"
+			]
+			description: ["Also, sorry about the &bshipping fees&r, I'll try to reimburse you!"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "ad_astra:fuel_bucket"
+			id: "1B3D862DFB1D6F90"
+			rewards: [
+				{
+					count: 5
+					id: "0A44F519491E0621"
+					item: "numismatics:bevel"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "648C87967C55BCAB"
+					table_id: 6337359776125332254L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "I'm keeping your buckets too"
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "6FEB0030E81A010B"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "4E3846A24C678C32"
+					item: { Count: 7, id: "numismatics:bevel" }
+					type: "item"
+				}
+			]
+			title: "My rocket ran out of fuel"
+			x: 18.5d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"108EA49E8421CCC7"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0AD17899EE6FCE2B"
+			rewards: [
+				{
+					count: 2
+					id: "3F6B78FD5C38D58F"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "13C2EE4C3B8AF4A1"
+					item: "sophisticatedbackpacks:netherite_backpack"
+					title: "Here, take more of these"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "I don't think I need anymore from you"
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "76EB44E5076F14E1"
+				item: "create_dd:calculation_mechanism"
+				type: "item"
+			}]
+			title: "I'll be honest"
+			x: 13.7d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4D995A3D7DC968C7"
+				"1360D8CD2949E41B"
+			]
+			description: ["[ \"Also, I seriously recommend you use the \", { \"text\": \"Hostile Neural Networks Loot Fabricator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1360D8CD2949E41B\" } }, \" to make everything!\"]"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:bread"
+			id: "3495326C9E6CF83D"
+			rewards: [
+				{
+					id: "538BD129AD6F412E"
+					item: "waystones:mossy_waystone"
+					type: "item"
+				}
+				{
+					id: "7AC378B4909C5309"
+					item: {
+						Count: 1
+						id: "aether:golden_ring"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Ring of the hungry\",\"color\":\"green\",\"bold\":\"true\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "608A4DC51117928E"
+					table_id: 5502891540795320308L
+					type: "random"
+				}
+				{
+					id: "4DE8E7CAB769D8A4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Supply me, and I'll make it up to you"
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "1E9A32E7525F98C4"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "7F90FA205D5A6F48"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "7977B7FECFCA57F0"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "78FF1797AA3C1696"
+					item: "minecraft:cooked_mutton"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "2133169893C2EE39"
+					item: "minecraft:cooked_chicken"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 250L
+					id: "30DDD7C428AAE979"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "387EC92F4C6F3D06"
+					item: "twilightforest:cooked_meef"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "253B5D521344FBD8"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "30CA2796D3CC67CC"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+			]
+			title: "I'm wanting that ring of the hungerless"
+			x: 18.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D995A3D7DC968C7"]
+			description: [
+				"Fun fact: &2yes&r, this quest is based on my wife in real life!"
+				""
+				"She plays the pack with myself [&bStarZlinger&r], and focuses solely on getting tons of animals."
+				""
+				"The numbers for the items are numbers SHE picked. So you can blame her."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "182B3B9A782D7791"
+			rewards: [
+				{
+					id: "30875CAF9E88001B"
+					item: "minecraft:wolf_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "153D5AF837797BD1"
+					item: "minecraft:cat_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "542F9B663434A7EB"
+					item: "minecraft:parrot_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "7C6AFA52E7A906D6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "But she has no way to tame them!"
+			tasks: [
+				{
+					consume_items: true
+					count: 1250L
+					id: "6F29B3AEF40FFD18"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1250L
+					id: "24642535B61BA7CC"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 575L
+					id: "4647D6A0F2A9726C"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			title: "My wife loves pets"
+			x: 17.5d
+			y: -1.6d
+		}
+		{
+			dependencies: ["28D0EEACC8402E6C"]
+			description: [
+				"Thank you to &cReys&r and &dLuis&r for the opprotunity to help out."
+				""
+				"And thank &byou&r for playing their pack!"
+				""
+				"My name has been &eStarZlinger&r! Peace out!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "artifacts:crystal_heart"
+				tag: {
+					display: {
+						Name: "{\"text\":\"The Space Captain's Heart\",\"color\":\"red\",\"bold\":\"true\"}"
+					}
+				}
+			}
+			id: "0F38D254BC9861C3"
+			rewards: [{
+				id: "61991DF85C3AA3D1"
+				item: {
+					Count: 1
+					id: "artifacts:crystal_heart"
+					tag: {
+						display: {
+							Name: "{\"text\":\"The Space Captain's Heart\",\"color\":\"red\",\"bold\":\"true\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "2EC66EE010FFC0EB"
+				title: "Thank you"
+				type: "checkmark"
+			}]
+			x: 16.1d
+			y: 4.5d
+		}
 	]
-	title: "&0&l The Black Market"
+	title: "&0&lThe Black Market"
 }
