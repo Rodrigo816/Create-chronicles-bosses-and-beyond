@@ -8,5 +8,13 @@
     scale: 1.0d
 		zoom: 1.0d
     square: true
+    # Info hidden under minimap
+    # Default: ["ftbchunks:debug"]
+    info_hidden: [
+      "ftbchunks:debug"
+      "ftbchunks:game_time"
+      "ftbchunks:real_time"
+      "ftbchunks:fps"
+    ]
   }
 }

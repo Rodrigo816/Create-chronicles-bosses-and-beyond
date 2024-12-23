@@ -6,7 +6,7 @@
 		{
 			item: {
 				Count: 1
-				id: "iceandfire:dragonsteel_ice_sword"
+				id: "iceandfire:dragonbone_sword_fire"
 				tag: {
 					Damage: 0
 				}
@@ -15,7 +15,16 @@
 		{
 			item: {
 				Count: 1
-				id: "iceandfire:dragonsteel_fire_sword"
+				id: "iceandfire:dragonbone_sword_ice"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonbone_sword_lightning"
 				tag: {
 					Damage: 0
 				}

@@ -17,8 +17,8 @@
 			image: "kubejs:textures/logo.png"
 			rotation: 0.0d
 			width: 8.0d
-			x: -38.0d
-			y: 18.0d
+			x: -40.0d
+			y: 18.1d
 		}
 		{
 			color: 14522965
@@ -26,7 +26,7 @@
 			image: "chalk:block/mark/arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: -24.5d
+			x: -28.0d
 			y: 17.0d
 		}
 		{
@@ -35,8 +35,8 @@
 			image: "chalk:block/mark/arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: -29.0d
-			y: 17.0d
+			x: -31.6d
+			y: 17.2d
 		}
 		{
 			color: 14522965
@@ -53,8 +53,8 @@
 			image: "supplementaries:textures/gui/book/icon/discord.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -29.7d
-			y: 15.2d
+			x: -32.1d
+			y: 15.4d
 		}
 		{
 			color: 14522965
@@ -108,7 +108,7 @@
 				type: "checkmark"
 			}]
 			title: "Progression: The Talent Tree"
-			x: -33.5d
+			x: -35.9d
 			y: 19.0d
 		}
 		{
@@ -143,7 +143,7 @@
 				type: "checkmark"
 			}]
 			title: "&9Welcome!"
-			x: -31.5d
+			x: -33.9d
 			y: 18.0d
 		}
 		{
@@ -179,7 +179,7 @@
 				type: "item"
 			}]
 			title: "&6Always the same"
-			x: -27.0d
+			x: -29.85d
 			y: 18.0d
 		}
 		{
@@ -251,7 +251,7 @@
 				type: "checkmark"
 			}]
 			title: "Loot Chests"
-			x: -33.5d
+			x: -35.9d
 			y: 17.0d
 		}
 		{
@@ -285,7 +285,7 @@
 				type: "checkmark"
 			}]
 			title: "Waystones"
-			x: -31.5d
+			x: -33.9d
 			y: 16.0d
 		}
 		{
@@ -646,7 +646,7 @@
 				type: "checkmark"
 			}]
 			title: "Why I have less hearts?"
-			x: -33.5d
+			x: -35.9d
 			y: 18.0d
 		}
 		{
@@ -766,7 +766,7 @@
 				type: "checkmark"
 			}]
 			title: "Shaders"
-			x: -32.5d
+			x: -34.9d
 			y: 20.0d
 		}
 		{
@@ -982,7 +982,7 @@
 				type: "checkmark"
 			}]
 			title: "Keybinds"
-			x: -31.5d
+			x: -33.9d
 			y: 20.0d
 		}
 		{
@@ -1120,7 +1120,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["0C49795E134A27E0"]
+			dependencies: ["261651FB7B600587"]
 			description: [
 				"Whether you are an experienced modded player, or a complete noob to MC, everyone has to make a &2Wooden Pickaxe&r."
 				""
@@ -1582,7 +1582,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Multiplayer:&r Chunk Claiming"
-			x: -32.5d
+			x: -34.9d
 			y: 16.0d
 		}
 		{
@@ -1779,7 +1779,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Your feedback helps :)"
-			x: -30.5d
+			x: -32.9d
 			y: 16.0d
 		}
 		{
@@ -1873,7 +1873,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Mastering Currency"
-			x: -30.5d
+			x: -32.9d
 			y: 20.0d
 		}
 		{
@@ -3668,6 +3668,8 @@
 				item: "minecraft:chest"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "Craft a Chest or a Barrel"
 			tasks: [{
 				id: "0A4067255335AACF"
@@ -3690,8 +3692,8 @@
 				type: "item"
 			}]
 			title: "Craft a Chest"
-			x: -27.0d
-			y: 20.0d
+			x: -26.250000000000004d
+			y: 18.0d
 		}
 		{
 			dependencies: ["478DE12D3EF8C22A"]
@@ -3817,8 +3819,8 @@
 				type: "checkmark"
 			}]
 			title: "From Inconspicuous_lamp"
-			x: -28.9d
-			y: 14.4d
+			x: -31.4d
+			y: 12.9d
 		}
 		{
 			dependencies: ["5525E70F7FBDBD92"]
@@ -3836,7 +3838,7 @@
 				title: "README.md"
 				type: "checkmark"
 			}]
-			x: -30.5d
+			x: -32.9d
 			y: 14.4d
 		}
 		{
@@ -3855,8 +3857,8 @@
 				title: "From CraftxTD"
 				type: "checkmark"
 			}]
-			x: -28.9d
-			y: 13.1d
+			x: -32.9d
+			y: 12.8d
 		}
 		{
 			dependencies: ["4F9B4B7F2D747375"]
@@ -3872,8 +3874,8 @@
 				title: "From RealDapi"
 				type: "checkmark"
 			}]
-			x: -28.9d
-			y: 11.6d
+			x: -34.2d
+			y: 12.9d
 		}
 	]
 	title: "&6&nGetting Started!"

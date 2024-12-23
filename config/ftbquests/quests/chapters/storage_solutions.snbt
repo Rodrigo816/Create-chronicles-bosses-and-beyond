@@ -28,11 +28,11 @@
 			image: "chalk:block/mark/arrow"
 			rotation: 90.0d
 			width: 1.0d
-			x: 0.2999999999999998d
-			y: 4.3999999999999995d
+			x: 0.2d
+			y: 4.8d
 		}
 	]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -849,8 +849,8 @@
 				type: "item"
 			}]
 			title: "Iron Shulker"
-			x: -0.9999999999999991d
-			y: -0.10000000000000053d
+			x: -1.6999999999999993d
+			y: 0.49999999999999956d
 		}
 		{
 			dependencies: ["2B4E5F59E5625ADF"]
@@ -1015,8 +1015,8 @@
 				title: "Any Gold Shulker"
 				type: "item"
 			}]
-			x: -2.3999999999999995d
-			y: -0.10000000000000053d
+			x: -3.0999999999999996d
+			y: 0.49999999999999956d
 		}
 		{
 			dependencies: ["3E7413B4D1A55B58"]
@@ -1188,8 +1188,8 @@
 				type: "item"
 			}]
 			title: "Diamond Shulker"
-			x: -3.8d
-			y: -0.10000000000000053d
+			x: -4.5d
+			y: 0.49999999999999956d
 		}
 		{
 			dependencies: ["7226FB66C2B28ACB"]
@@ -1437,8 +1437,8 @@
 				type: "item"
 			}]
 			title: "Iron Barrel"
-			x: -0.9999999999999991d
-			y: -1.1000000000000005d
+			x: -1.6999999999999993d
+			y: -0.5000000000000004d
 		}
 		{
 			dependencies: ["32F8B69C66723910"]
@@ -1685,8 +1685,8 @@
 				type: "item"
 			}]
 			title: "Gold Barrel"
-			x: -2.3999999999999995d
-			y: -1.1000000000000005d
+			x: -3.0999999999999996d
+			y: -0.5000000000000004d
 		}
 		{
 			dependencies: ["2AA436F021EDDC48"]
@@ -1852,8 +1852,8 @@
 				type: "item"
 			}]
 			title: "Netherite Shulker"
-			x: -5.2d
-			y: -0.10000000000000053d
+			x: -5.9d
+			y: 0.49999999999999956d
 		}
 		{
 			dependencies: ["7F5DCDCFFD24ABE7"]
@@ -1885,8 +1885,8 @@
 				type: "item"
 			}]
 			title: "Diamond Barrel"
-			x: -3.8d
-			y: -1.1000000000000005d
+			x: -4.5d
+			y: -0.5000000000000004d
 		}
 		{
 			dependencies: ["52092833009BDC49"]
@@ -1917,8 +1917,8 @@
 				type: "item"
 			}]
 			title: "Netherite Barrel"
-			x: -5.2d
-			y: -1.1000000000000005d
+			x: -5.9d
+			y: -0.5000000000000004d
 		}
 		{
 			dependencies: ["7226FB66C2B28ACB"]
@@ -2166,8 +2166,8 @@
 				type: "item"
 			}]
 			title: "Iron Chest"
-			x: -0.9999999999999991d
-			y: -2.1d
+			x: -1.6999999999999993d
+			y: -1.5d
 		}
 		{
 			dependencies: ["34174F45D62D0D6E"]
@@ -2414,8 +2414,8 @@
 				type: "item"
 			}]
 			title: "Gold Chest"
-			x: -2.3999999999999995d
-			y: -2.1d
+			x: -3.0999999999999996d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1A2605092B8B7F37"]
@@ -2662,8 +2662,8 @@
 				type: "item"
 			}]
 			title: "Diamond Chest"
-			x: -3.8d
-			y: -2.1d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0562F21AA82B2961"]
@@ -2910,8 +2910,8 @@
 				type: "item"
 			}]
 			title: "Netherite Chest"
-			x: -5.2d
-			y: -2.1d
+			x: -5.9d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -2945,8 +2945,8 @@
 				type: "item"
 			}]
 			title: "Limited I Iron Barrel"
-			x: 2.7d
-			y: -4.2d
+			x: -1.7000000000000002d
+			y: -2.6d
 		}
 		{
 			dependencies: ["7A36AA33AB12EE37"]
@@ -2976,8 +2976,8 @@
 				type: "item"
 			}]
 			title: "Limited I Gold Barrel"
-			x: 4.2d
-			y: -4.2d
+			x: -3.1d
+			y: -2.6d
 		}
 		{
 			dependencies: ["703D0E0BD4F9DC4F"]
@@ -3007,8 +3007,8 @@
 				type: "item"
 			}]
 			title: "Limited I Diamond Barrel"
-			x: 5.699999999999998d
-			y: -4.2d
+			x: -4.5d
+			y: -2.6d
 		}
 		{
 			dependencies: ["51ECBE8030E9D801"]
@@ -3038,8 +3038,8 @@
 				type: "item"
 			}]
 			title: "Limited I Netherite Barrel"
-			x: 7.199999999999998d
-			y: -4.2d
+			x: -5.9d
+			y: -2.6d
 		}
 		{
 			dependencies: ["4BC707D6FBE8FF09"]
@@ -3948,8 +3948,8 @@
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.3999999999999995d
+			x: -1.7000000000000002d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1DDD74A012CDE699"]
@@ -3976,8 +3976,8 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			x: -2.3999999999999995d
-			y: 4.3999999999999995d
+			x: -3.0999999999999996d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5A52E77204B42646"]
@@ -4004,8 +4004,8 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			x: -3.8d
-			y: 4.3999999999999995d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0C28D365031DFBB9"]
@@ -4032,8 +4032,8 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			x: -5.2d
-			y: 4.3999999999999995d
+			x: -5.9d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7261FED43BDDEFA8"]
@@ -4059,7 +4059,7 @@
 				type: "item"
 			}]
 			x: 3.2d
-			y: 4.3999999999999995d
+			y: 4.799999999999999d
 		}
 		{
 			dependencies: ["261651FB7B600587"]
@@ -4080,6 +4080,7 @@
 				""
 				"You can also press &bR&r and &bU&r while hovering over any item to see their Recipe and Uses"
 			]
+			hide_until_deps_complete: true
 			id: "7261FED43BDDEFA8"
 			rewards: [{
 				id: "6936CD16F9688A12"
@@ -4094,8 +4095,8 @@
 				type: "item"
 			}]
 			title: "Portable Inventory"
-			x: 1.2000000000000002d
-			y: 4.3999999999999995d
+			x: 1.2d
+			y: 4.799999999999999d
 		}
 		{
 			dependencies: ["33628061006314AB"]
@@ -4108,7 +4109,7 @@
 			}]
 			title: "Portable Friendly Tip!"
 			x: 7.2d
-			y: 3.499999999999999d
+			y: 3.899999999999999d
 		}
 		{
 			dependencies: [
@@ -4128,7 +4129,7 @@
 				type: "item"
 			}]
 			x: 5.7d
-			y: 4.3999999999999995d
+			y: 4.799999999999999d
 		}
 		{
 			dependencies: [
@@ -4148,7 +4149,7 @@
 				type: "item"
 			}]
 			x: 6.7d
-			y: 4.3999999999999995d
+			y: 4.799999999999999d
 		}
 		{
 			dependencies: [
@@ -4169,7 +4170,7 @@
 				type: "item"
 			}]
 			x: 7.7d
-			y: 4.3999999999999995d
+			y: 4.799999999999999d
 		}
 		{
 			dependencies: [
@@ -4190,7 +4191,7 @@
 				type: "item"
 			}]
 			x: 8.7d
-			y: 4.3999999999999995d
+			y: 4.799999999999999d
 		}
 		{
 			dependencies: [
@@ -4211,14 +4212,10 @@
 				type: "item"
 			}]
 			x: 9.7d
-			y: 4.3999999999999995d
+			y: 4.799999999999999d
 		}
 		{
-			dependencies: [
-				"57ADB28DF447C621"
-				"341CBC06BAA8D3DF"
-				"53F91F18C2045A1A"
-			]
+			dependencies: ["4BC707D6FBE8FF09"]
 			dependency_requirement: "one_completed"
 			description: [
 				"Compacting Drawers, from a few other mods, automatically compacts nuggets into ingots."
@@ -4239,7 +4236,6 @@
 				""
 				"&e&lHappy Compacting!"
 			]
-			hide_dependency_lines: true
 			id: "2946E1B9B068C2F3"
 			min_required_dependencies: 1
 			subtitle: "Make your own!"
@@ -4249,8 +4245,8 @@
 				type: "item"
 			}]
 			title: "Do you miss Compacting Drawers?"
-			x: 1.2d
-			y: -7.2d
+			x: -0.4d
+			y: -4.2d
 		}
 		{
 			dependencies: ["33628061006314AB"]
@@ -4284,7 +4280,7 @@
 			}]
 			title: "Pick Up"
 			x: 4.1d
-			y: 6.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["33628061006314AB"]
@@ -4302,7 +4298,7 @@
 			}]
 			title: "Pesky Eating"
 			x: 3.2d
-			y: 6.2d
+			y: 6.6d
 		}
 		{
 			dependencies: ["33628061006314AB"]
@@ -4320,7 +4316,7 @@
 			}]
 			title: "Deposit"
 			x: 2.3d
-			y: 6.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["33628061006314AB"]
@@ -4428,8 +4424,8 @@
 				}
 			]
 			title: "Workstation Upgrades"
-			x: 1.7d
-			y: 5.3d
+			x: 1.6999999999999997d
+			y: 5.699999999999999d
 		}
 		{
 			dependencies: ["33628061006314AB"]
@@ -4457,7 +4453,7 @@
 				type: "item"
 			}]
 			x: 3.2d
-			y: 3.2d
+			y: 3.6d
 		}
 		{
 			dependencies: ["33628061006314AB"]
@@ -4470,7 +4466,7 @@
 				type: "item"
 			}]
 			x: 4.7d
-			y: 5.3d
+			y: 5.699999999999999d
 		}
 	]
 	title: "&d&lSophisticated Storage"
