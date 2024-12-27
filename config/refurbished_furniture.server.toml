@@ -41,6 +41,16 @@
 	# cause issues for your server/world save.
 	# Valid values: true, false
 	banSendingItemsWithInventories = true
+	# A list of dimensions you are allowed to place mailboxes. An empty list means that
+	# mailboxes can be placed in any dimension.
+	# An example of how the list is defined:
+	# allowedDimensions = [
+	#     "minecraft:overworld",
+	#     "minecraft:the_nether",
+	#     ...
+	# ]
+	# ^ Note: This is just an example. Write your list below.
+	allowedDimensions = []
 
 # Electricity related properties
 [electricity]
@@ -70,6 +80,17 @@
 	# would consume almost 2 coal per in-game day.
 	# Valid range: 1 to 128 (inclusive)
 	fuelToPowerRatio = 16
+
+	# Cheats for electricity. Free power, etc.
+	[electricity.cheats]
+		# Makes all blocks that require electricity always be powered without them being
+		# connected to an Electricity Generator. Warning, some blocks may no longer work as
+		# expected. Use at your own risk of a downgraded experience.
+		# Valid values: true, false
+		everythingIsPowered = false
+		# Electricity Generators will now output free power, and stay on forever.
+		# Valid values: true, false
+		freeGeneratorPower = false
 
 # Recycle Bin related properties
 [recycleBin]
