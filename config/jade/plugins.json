@@ -54,9 +54,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "tombstone": {
-    "graves": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -86,6 +83,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "pipez": {
+    "pipe": true
+  },
   "twilightforest": {
     "quest_ram_wool": true
   },
@@ -105,6 +105,9 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "gravestone": {
+    "grave": true
   },
   "camera": {
     "image_frame": true

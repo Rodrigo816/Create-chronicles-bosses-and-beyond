@@ -139,7 +139,7 @@
 			glacian = true
 
 		[types.leaves_type.create_dd]
-			rubber = true
+			rubber = false
 
 	[types.wood_type]
 
@@ -201,19 +201,19 @@
 			aurum = true
 			edelwood = true
 
-		[types.wood_type.betterarcheology]
-			rotten = true
-
 		[types.wood_type.ad_astra]
 			aeronos = true
 			strophar = true
 			glacian = true
 
 		[types.wood_type.create_dd]
-			rose = true
-			smoked = true
-			spirit = true
-			rubber = true
+			rose = false
+			smoked = false
+			spirit = false
+			rubber = false
+
+		[types.wood_type.betterarcheology]
+			rotten = true
 
 	[types.cake]
 

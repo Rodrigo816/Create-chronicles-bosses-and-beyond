@@ -3741,7 +3741,7 @@
 			}]
 			title: "POWER UP!!!"
 			x: 10.0d
-			y: 12.5d
+			y: 12.8d
 		}
 		{
 			dependencies: ["1278600075A14600"]
@@ -3876,6 +3876,18 @@
 			}]
 			x: -34.2d
 			y: 12.9d
+		}
+		{
+			dependencies: ["0ADF7E30D7F5B61E"]
+			description: ["You can convert RF to the mod’s current energy system using the&6 Circuit Breaker.&r"]
+			id: "31DB2CD7ECC30BF9"
+			tasks: [{
+				id: "1EF67D0C964E0ABF"
+				item: "cfm_circuit_breaker:circuit_breaker"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.4d
 		}
 	]
 	title: "&6&nGetting Started!"
