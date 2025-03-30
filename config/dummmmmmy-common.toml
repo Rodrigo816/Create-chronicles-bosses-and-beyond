@@ -26,9 +26,6 @@
 	#Health of the dummy when in boss moe (wearing a banner)
 	#Range: 1 ~ 1000
 	boss_health = 200
-	#Time in ticks that it takes for a dummy to be considered out of combat after having recieved damage
-	#Range: 20 ~ 1000
-	maximum_out_of_combat_interval = 120
 
 [mobs_damage_numbers]
 	#Show damage taken form

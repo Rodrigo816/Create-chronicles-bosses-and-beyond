@@ -570,6 +570,18 @@ ServerEvents.recipes(event => {
     TFMG('steel_mechanism')         
   )
   event.replaceInput(
+    { id: 'create_optical:thermal_optical_source' }, 
+    CR('fluid_tank'),               
+    TFMG('steel_mechanism')         
+  )
+
+  event.replaceInput(
+    { id: 'create_optical:hologram_source' }, 
+    CR('andesite_casing'),               
+    TFMG('steel_mechanism')         
+  )
+  
+  event.replaceInput(
     { id: 'create_optical:optical_receptor' }, 
     CR('andesite_casing'),               
     TFMG('steel_mechanism')         

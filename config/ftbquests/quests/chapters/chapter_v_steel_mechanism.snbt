@@ -851,7 +851,7 @@
 				item: "create_optical:optical_receptor"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.9d
 			y: 13.5d
 		}
 		{
@@ -884,7 +884,7 @@
 				item: "create_optical:optical_sensor"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.3999999999999999d
 			y: 13.5d
 		}
 		{
@@ -915,7 +915,7 @@
 				item: "create_optical:encased_mirror"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.1d
 			y: 13.5d
 		}
 		{
@@ -948,7 +948,7 @@
 				item: "create_optical:polarizing_beam_splitter_block"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.6d
 			y: 13.5d
 		}
 		{
@@ -981,7 +981,7 @@
 				item: "create_optical:absorption_polarizing_filter"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.9d
 			y: 13.5d
 		}
 		{
@@ -1010,7 +1010,7 @@
 				item: "create_optical:beam_focuser"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.9d
 			y: 13.5d
 		}
 		{
@@ -1033,7 +1033,7 @@
 				item: "create_optical:beam_condenser"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.4d
 			y: 13.5d
 		}
 		{
@@ -1107,8 +1107,52 @@
 				item: "create_optical:heavy_optical_receptor"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.9d
 			y: 15.0d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			id: "3629B7D03A59F516"
+			rewards: [{
+				count: 2
+				id: "37D2AAD9E4AEDA16"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "489BC24E893B6276"
+				item: "create_optical:thermal_optical_source"
+				type: "item"
+			}]
+			x: 5.9d
+			y: 12.0d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: ["texto"]
+			hide_until_deps_complete: true
+			id: "30513F4AD063919A"
+			rewards: [
+				{
+					count: 10
+					id: "789FEAB334414B3C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "24B7D092C6FEA000"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52442E822D7EBC1E"
+				item: "create_optical:hologram_source"
+				type: "item"
+			}]
+			x: 3.7d
+			y: 13.5d
 		}
 	]
 	title: "Chapter V: Steel Mechanism"

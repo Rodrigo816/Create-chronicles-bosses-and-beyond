@@ -1393,13 +1393,6 @@
 				}
 				{
 					consume_items: true
-					count: 2000L
-					id: "584300D656F07686"
-					item: "iceandfire:silver_ingot"
-					type: "item"
-				}
-				{
-					consume_items: true
 					count: 5000L
 					id: "4E35763DB74AB89F"
 					item: "ad_astra:desh_ingot"
@@ -3407,6 +3400,7 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
+				consume_items: true
 				count: 10000L
 				id: "623158969F101E54"
 				item: "create_confectionery:soothing_hot_chocolate"

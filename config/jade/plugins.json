@@ -65,6 +65,9 @@
   "lootr": {
     "info": true
   },
+  "balm": {
+    "jade": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -106,10 +109,10 @@
   "waystones": {
     "waystone": true
   },
-  "gravestone": {
-    "grave": true
-  },
   "camera": {
     "image_frame": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }

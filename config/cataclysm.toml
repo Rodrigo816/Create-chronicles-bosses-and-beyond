@@ -7,13 +7,6 @@
 	shadersCompat = false
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
-	#custombossbar(on/off)
-	"custombossbar(on/off)" = true
-	#BossMusic(on/off)
-	"BossMusic(on/off)" = true
-	#BossMusicVolume(denominator)
-	#Range: 1 ~ 1000000
-	BossMusicVolume = 2
 
 [Weapon]
 	#Armor Infinity Durability(on/off)
@@ -48,9 +41,6 @@
 	#Void Core's Cooldown
 	#Range: 0 ~ 1000000
 	VoidCoreCooldown = 160
-	#Sandstorm's Timer
-	#Range: 0 ~ 1000000
-	SandstormTimer = 160
 	#Soul Render's Timer
 	#Range: 0 ~ 1000000
 	SoulRenderCooldown = 40
@@ -60,6 +50,9 @@
 	#The Immolator's Timer
 	#Range: 0 ~ 1000000
 	immolatorCooldown = 300
+	#Sandstorm's cooldown
+	#Range: 0 ~ 1000000
+	Sandstormcooldown = 300
 
 ["Entity damage"]
 	#Void Rune's Damage
@@ -122,6 +115,12 @@
 	#Cursed Sandstorm's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Cursed Sandstorm Damage" = 6.0
+	#Flame jet's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Flame Jet Damage" = 7.0
+	#Flare Bomb's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Flare Bomb Damage" = 7.0
 
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
@@ -168,6 +167,9 @@
 	#EnderGuardian's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianNatureHealing = 10.0
+	#EnderGuardian's DamageTime
+	#Range: 0 ~ 100
+	EnderGuardianDamageTime = 30
 
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
@@ -199,6 +201,17 @@
 	# Monstrosity's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityNatureHealing = 10.0
+	#Lava Bomb of Monstrosity's Duration
+	#Range: 1 ~ 10000
+	LavaBombDuration = 350
+	#Lava Bomb of Monstrosity's additional random duration size
+	#Range: 1 ~ 10000
+	LavaBombRandomDuration = 150
+	#Monstrosity's DamageTime
+	#Range: 0 ~ 100
+	MonstrosityDamageTime = 10
+	#Monstrosity's block breaking ignore the MobGriefing
+	monstrosityBlockBreaking = true
 
 ["Ender Golem"]
 	#Ender Golem's block breaking ignore the MobGriefing
@@ -234,6 +247,9 @@
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 10.0
+	#Ignis's DamageTime
+	#Range: 0 ~ 100
+	IgnisDamageTime = 15
 
 [revenant]
 	#Revenant's Health Multiplier
@@ -281,6 +297,9 @@
 	#Harbinger's laser's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Harbinger's laser damage" = 5.0
+	#Harbinger's DamageTime
+	#Range: 0 ~ 100
+	"The Harbinger DamageTime" = 12
 
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
@@ -314,6 +333,9 @@
 	#Leviathan's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 10.0
+	#Leviathan's DamageTime
+	#Range: 0 ~ 100
+	"Leviathan DamageTime" = 15
 
 ["The Baby Leviathan"]
 	#BabyLeviathan's Health Multiplier
@@ -372,6 +394,9 @@
 	#AncientRemnant's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantNatureHealing = 10.0
+	#Ancient Remnant's DamageTime
+	#Range: 0 ~ 100
+	"Ancient Remnant DamageTime" = 12
 
 [Koboleton]
 	#Cause Koboleton to Drop Item In Hand Percent
@@ -483,6 +508,9 @@
 	"Maledictus's Phantom Arrow Damage" = 8.0
 	#Maledictus's cracked block breaking ignore the MobGriefing
 	MaledictusBlockBreaking = true
+	#Maledictus's DamageTime
+	#Range: 0 ~ 100
+	"Maledictus DamageTime" = 30
 
 ["World Generation"]
 	#Defines the area in which the structure check for height variances (1 means 9 chunks will be checked (center + area around it)) - 0 disables this check
@@ -494,7 +522,7 @@
 
 [Block]
 	#Cursed Tombstone Summon cooldown Minute
-	#Range: 3 ~ 300
+	#Range: 1 ~ 300
 	"Cursed Tombstone Summon cooldown Minute" = 30
 
 [Wadjet]
@@ -515,4 +543,21 @@
 	#Axe Blade's Damage
 	#Range: 0.0 ~ 1000000.0
 	AptrgangrAxeBladeDamage = 12.0
+
+["bosses Common settings"]
+	#custombossbar(on/off)
+	"custombossbar(on/off)" = true
+	#BossMusic(on/off)
+	"BossMusic(on/off)" = true
+	#BossMusicVolume(denominator)
+	#Range: 1 ~ 1000000
+	BossMusicVolume = 1
+	#If the boss leaves the summoned location and there is no target, it returns to the summoned location. When set to 0, it does not return
+	#Range: 0 ~ 200
+	ReturnHome = 20
+
+["Netherite Ministrosity"]
+	#Ministrosity's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MinistrosityHealthMultiplier = 1.5
 

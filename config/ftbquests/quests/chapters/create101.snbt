@@ -3786,7 +3786,7 @@
 			description: [
 				"&6The Jetpack&r is a great early game flight. "
 				""
-				"You can 3 types of Jetpack: Copper, Andesite and Brass. "
+				"You can 4 types of Jetpack: Copper, Andesite, Brass and Netherite. "
 				""
 				"Each Jetpack uses Fuel to function which is Water, Lava or both. "
 				""
@@ -4926,7 +4926,7 @@
 				""
 				"To fill the Filling Tank you must hold it and right click with it on Water. "
 				""
-				"It's a manual process but you can automate this process with the use of a Deployer."
+				"It's a manual process but &6&lyou can automate this process with a Spout to fill the tank.&r&r"
 			]
 			id: "61CCCE7E1910A3FE"
 			rewards: [{
@@ -4953,7 +4953,7 @@
 				""
 				"To fill the Fueling Tank you must hold it and right click with it on Lava."
 				""
-				"It's a manual process but you can automate this process with the use of a Deployer."
+				"It's a manual process but &6&lyou can automate this process with a Spout to fill the tank.&r&r"
 			]
 			id: "6FE3DEFFD08C4830"
 			rewards: [{
