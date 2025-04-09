@@ -5,6 +5,16 @@
 	group: "13742BAAC673A80E"
 	icon: "deeperdarker:heart_of_the_deep"
 	id: "4B6E4A0215F45FC0"
+	images: [{
+		alpha: 200
+		color: 16672790
+		height: 1.2d
+		image: "chalk:block/mark/arrow"
+		rotation: 0.0d
+		width: 1.2d
+		x: 7.1d
+		y: 7.3d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -36,8 +46,8 @@
 				value: 1L
 			}]
 			title: "&lBossfight:&r &3The Warden"
-			x: 7.0d
-			y: 4.0d
+			x: 7.050000000000001d
+			y: 6.000000000000001d
 		}
 		{
 			dependencies: ["731C3214BB61FDAE"]
@@ -54,6 +64,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "Used to negate the darkness in &8&lThe Otherside."
 			tasks: [{
 				id: "42CA7AAF304767E7"
@@ -67,17 +79,13 @@
 				type: "item"
 			}]
 			title: "Craft a &9Warden Helmet"
-			x: 7.0d
-			y: 6.5d
+			x: 7.050000000000001d
+			y: 4.050000000000001d
 		}
 		{
-			dependencies: [
-				"731C3214BB61FDAE"
-				"123D70CA4959F172"
-			]
+			dependencies: ["44937B2D2EB38094"]
 			description: ["Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &bHeart of The Deep &rthat you got earlier from killing The Warden."]
 			id: "704CCA2CEAB23B4D"
-			invisible: true
 			rewards: [
 				{
 					id: "336DFFDBA2B4F736"

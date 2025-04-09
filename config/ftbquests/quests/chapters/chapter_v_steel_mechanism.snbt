@@ -79,7 +79,7 @@
 				""
 				"&l&cTroubleshoot:&r&r If it's not working try break the &n&ccasting basing&r&r and mold and place it again."
 				""
-				"&o&7There is also an alternative recipe if you are having problems running it the intended way on a server.&r&r"
+				"&o&7There is also an alternative recipe using compacting if you are having problems running it the intended way on a server.&r&r"
 			]
 			id: "60A94E3337A26181"
 			rewards: [
@@ -1153,6 +1153,48 @@
 			}]
 			x: 3.7d
 			y: 13.5d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			id: "0285493F505AE97E"
+			rewards: [
+				{
+					count: 2
+					id: "10AAB8C81462799E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "6042AE9DDDCBB5B5"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76A8C90C026B44AD"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: 1.1d
+			y: 9.5d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			id: "3837A48CE549F839"
+			rewards: [{
+				count: 2
+				id: "7BC34A78C3EBF8DB"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67CCFFB0F9B77D47"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: 1.1d
+			y: 10.6d
 		}
 	]
 	title: "Chapter V: Steel Mechanism"

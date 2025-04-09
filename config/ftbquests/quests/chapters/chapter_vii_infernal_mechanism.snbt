@@ -30,6 +30,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0CFFF58986CE7733"
+			rewards: [{
+				count: 2
+				id: "30AFE366142D9666"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "you know how to make coal don't you? "
 			tasks: [{
 				id: "43AD25D516C4DC06"
@@ -42,6 +48,12 @@
 		{
 			dependencies: ["0CFFF58986CE7733"]
 			id: "645E8388213F1284"
+			rewards: [{
+				count: 2
+				id: "5E380617D78CE7E4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "Block of coal"
 			tasks: [{
 				id: "48748B75597DC519"
@@ -65,6 +77,12 @@
 				"{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3D862A3D3F83CA26\" } }"
 			]
 			id: "5690FCED46349207"
+			rewards: [{
+				count: 2
+				id: "64617466C8C06D54"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F136A019E348CD4"
 				item: "kubejs:mystic_coal_block"
@@ -81,6 +99,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "6C52531E3B0CCB60"
+			rewards: [{
+				count: 2
+				id: "656DE3F189C63FC7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6012EF5123327E81"
 				item: "minecraft:blaze_rod"
@@ -93,6 +117,12 @@
 			dependencies: ["6C52531E3B0CCB60"]
 			description: ["{ \"text\": \"☞ Click here for more information about beams visit Chapter V at the end.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"265960CE3104527E\" } }"]
 			id: "1D9D2E1FF9BD8A91"
+			rewards: [{
+				count: 2
+				id: "60CCAE620E1A7E6F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "It uses a &6Beam Focuser&r"
 			tasks: [{
 				id: "20A855B3B2E0B5A7"
@@ -111,6 +141,12 @@
 				"{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1DB562D431DB8D96\" } }"
 			]
 			id: "466F43B18F0D1B7E"
+			rewards: [{
+				count: 2
+				id: "0A611A0129E24640"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54052EC191B72E3C"
 				item: "kubejs:ingot_mystic_coal"
@@ -122,6 +158,12 @@
 		{
 			dependencies: ["466F43B18F0D1B7E"]
 			id: "69E26E48222CEC01"
+			rewards: [{
+				count: 2
+				id: "7545441CFD757771"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "Rolling"
 			tasks: [{
 				id: "0CA9848993BF29B0"
@@ -136,6 +178,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1A36CF8C1DF5DEC4"
+			rewards: [{
+				count: 2
+				id: "18A2BA962881CA70"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B61CF2AEB5A536E"
 				item: "create:cinder_flour"
@@ -147,6 +195,12 @@
 		{
 			dependencies: ["0706D3B957259D7B"]
 			id: "020E3DF3DAA4292F"
+			rewards: [{
+				count: 2
+				id: "1A5FEB5D7208157A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "01A0949F876C011E"
 				item: "minecraft:glow_ink_sac"
@@ -160,6 +214,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0706D3B957259D7B"
+			rewards: [{
+				count: 2
+				id: "0904155EA86C66C4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "026F73EBCA345E92"
 				item: "minecraft:ink_sac"
@@ -175,6 +235,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "738C37B1E696F933"
+			rewards: [{
+				count: 2
+				id: "296E8527832CD7C0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DDA923F80609B46"
 				item: "create_dd:ember_alloy"
@@ -186,6 +252,12 @@
 		{
 			dependencies: ["312D4E8EBE475538"]
 			id: "4706B7F09A2BFC25"
+			rewards: [{
+				count: 2
+				id: "6E901BD9E1286AA6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "nipa farm"
 			tasks: [{
 				id: "3C659447C538B899"
@@ -198,6 +270,12 @@
 		{
 			dependencies: ["4706B7F09A2BFC25"]
 			id: "25F677F8D587C451"
+			rewards: [{
+				count: 2
+				id: "4F71A944DC24BB7E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "15D5BFE6A644C840"
 				item: "forbidden_arcanus:arcane_crystal_dust"
@@ -216,6 +294,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "312D4E8EBE475538"
+			rewards: [{
+				count: 2
+				id: "216F8D3933EF8365"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38C4815C1D5E7A60"
 				item: "forbidden_arcanus:nipa"
@@ -231,6 +315,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "0179452F07812322"
+			rewards: [{
+				count: 2
+				id: "58B59C8A62E6A076"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A3F8FDBFE26CEB3"
 				item: "minecraft:prismarine_crystals"
@@ -243,17 +333,29 @@
 			dependencies: ["1084B343FEEBB88E"]
 			hide_until_deps_complete: true
 			id: "4D391FCA01F6D795"
+			rewards: [{
+				count: 2
+				id: "00F9EED1212747CF"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "632939ADDADCC2A2"
 				item: "create_dd:industrial_fan"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.7d
 			y: 8.0d
 		}
 		{
 			dependencies: ["438AFB85E4605DF6"]
 			id: "67F1C2891AA7CD0E"
+			rewards: [{
+				count: 2
+				id: "7C6426F9D99689BC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "138B877F4F400CB4"
 				item: "create_things_and_misc:crushed_magma"
@@ -267,6 +369,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7F5486A6318789B5"
+			rewards: [{
+				count: 2
+				id: "5E5C1A1721D111A8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CCF81064E6397BE"
 				item: "tfmg:gasoline_bucket"
@@ -284,6 +392,44 @@
 			dependency_requirement: "one_completed"
 			hide_details_until_startable: false
 			id: "1084B343FEEBB88E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6051A25768905771"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B1F50E1BE9C8A67"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AFDA2AD4C88B589"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12F028A02588E48C"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BF9F85F62DEE2F3"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DC3F61A68F63CD7"
+					table_id: 6337359776125332254L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -300,6 +446,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "438AFB85E4605DF6"
+			rewards: [{
+				count: 2
+				id: "5E04D39D9AF90F6A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "73730D3EF2168510"
 				item: "minecraft:magma_block"
@@ -313,6 +465,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "029C392AD3BA76AD"
+			rewards: [{
+				count: 2
+				id: "6C8A76C998DD6910"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "221C56497902B8AA"
 				item: "minecraft:lapis_lazuli"
@@ -326,6 +484,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7E56F2B931A55A36"
+			rewards: [{
+				count: 2
+				id: "20700612C13E3973"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "30138F8F0234319D"
 				item: "create_dd:diamond_shard"
@@ -340,6 +504,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "453F0E5926BA4AB1"
+			rewards: [{
+				count: 2
+				id: "554A51FB6B6B8659"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "This can be found in blue skies dimension"
 			tasks: [{
 				id: "32DD7FA9050C4FD3"
@@ -354,6 +524,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0CD56ADF87F8799B"
+			rewards: [{
+				count: 2
+				id: "44C1C002442EE47D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EB7E246748365C2"
 				item: "minecraft:lava_bucket"
@@ -365,12 +541,46 @@
 		{
 			dependencies: ["1084B343FEEBB88E"]
 			id: "53A0688E8472A4BD"
+			rewards: [{
+				count: 2
+				id: "1F85EBE0C86E3F86"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "19F53D1A096940D3"
 				item: "balancedflight:flight_anchor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.3d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			id: "19F6483C2A25F16E"
+			rewards: [{
+				count: 2
+				id: "60F3D3DFE4238480"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "350E99CC6C4428D7"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: 8.3d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			id: "5E7CF560990974D5"
+			tasks: [{
+				id: "41619713494294C6"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
 			y: 8.0d
 		}
 	]

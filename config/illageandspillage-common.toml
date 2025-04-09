@@ -72,7 +72,7 @@
 		#Spiritcaller's max health
 		#Requires game restart
 		#Default: 160.0
-		spiritcaller_health = 300.0
+		spiritcaller_health = 900.0
 		#How many Spiritcallers each wave
 		#Requires game restart
 		#Must have no more and no less than 8 integers
@@ -100,7 +100,7 @@
 		#Freakager's max health
 		#Requires game restart
 		#Default: 160.0
-		freakager_health = 300.0
+		freakager_health = 900.0
 		#Ragno's max health
 		#Requires game restart
 		#Default: 180.0
@@ -125,7 +125,7 @@
 		#Magispeller's max health
 		#Requires game restart
 		#Default: 250.0
-		magispeller_health = 300.0
+		magispeller_health = 400.0
 		#How many Magispellers each wave
 		#Requires game restart
 		#Must have no more and no less than 8 integers
@@ -248,21 +248,21 @@
 		#The Spiritcaller's damage will be multiplied by this number
 		#Only applies when Nightmare Mode is enabled
 		#Default: 2.5
-		spiritcaller_damage_multiplier = 5.0
+		spiritcaller_damage_multiplier = 4.0
 
 	["Nightmare Mode"."Freakager & Ragno settings"]
 		#The Freakager's damage will be multiplied by this number
 		#Only applies when Nightmare Mode is enabled
 		#Default: 2.5
-		freakager_damage_multiplier = 2.0
+		freakager_damage_multiplier = 2.5
 		#Ragno's damage will be multiplied by this number
 		#Only applies when Nightmare Mode is enabled
 		#Default: 5.0
-		ragno_damage_multiplier = 5.0
+		ragno_damage_multiplier = 4.0
 
 	["Nightmare Mode"."Magispeller settings"]
 		#The Magispeller's damage will be multiplied by this number
 		#Only applies when Nightmare Mode is enabled
 		#Default: 2.5
-		magispeller_damage_multiplier = 5.0
+		magispeller_damage_multiplier = 3.7
 

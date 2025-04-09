@@ -383,25 +383,6 @@ LootJS.modifiers((event) => {
     .addLoot("simplyswords:frostfall")*/
 
 
-
-
-
-  //corail tombstone
-  event
-    .addLootTypeModifier(LootType.ENTITY)
-    .removeLoot('tombstone:grave_dust')
-  event
-    .addLootTypeModifier(LootType.ENTITY)
-    .removeLoot('tombstone:essence_of_undeath')  
-  event
-    .addLootTypeModifier(LootType.ENTITY)
-    .removeLoot('tombstone:lollipop')      
-  event
-    .addLootTypeModifier(LootType.ENTITY)
-    .removeLoot('tombstone:soul_receptacle')  
-  event
-    .addLootTypeModifier(LootType.FISHING)
-    .removeLoot('tombstone:grave_dust')
   
   //Space
   event

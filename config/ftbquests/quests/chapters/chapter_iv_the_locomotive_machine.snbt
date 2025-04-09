@@ -751,6 +751,47 @@
 			x: 4.5d
 			y: -7.0d
 		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			id: "36364789C9C3EA4C"
+			rewards: [{
+				count: 20
+				id: "58C901FA1AD3B24F"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45A054949F52898D"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: 1.4d
+			y: 2.7d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			id: "44B4B7E89C0FAB9C"
+			rewards: [
+				{
+					count: 2
+					id: "421B5CED2F284E9B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "3F7E0013D8CEFD92"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45BC5DC26A3BA56B"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.7d
+		}
 	]
 	title: "Chapter IV: The Locomotive Machine"
 }

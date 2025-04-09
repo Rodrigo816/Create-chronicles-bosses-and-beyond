@@ -3841,55 +3841,6 @@
 		{
 			dependencies: ["7226FB66C2B28ACB"]
 			description: [
-				"Color of multiple dyes in recipe gets combined, similar to how it works for coloring leather armor, except each of these can have two colors - main and accent"
-				""
-				"To color your storage, put it in a crafting table with your dye(s) of choice!"
-				""
-				"Dyes to the left of the storage apply to the main color"
-				""
-				"Dyes to the right apply to the accent color of the storage"
-				""
-				"Dyes in the same column apply to both"
-				""
-				"And once dyed you can continue adding dyes, which combine with the current applied color!"
-				""
-				"&4&lAdditionally you can use block instead of dyes with barrels!&r&r"
-				""
-				"&o&aThis also works with your backpacks."
-			]
-			icon: {
-				Count: 1
-				id: "sophisticatedstorage:limited_barrel_1"
-				tag: {
-					materials: {
-						bottom: "create:andesite_casing"
-						bottom_trim: "chipped:layered_gold_block"
-						side: "create:andesite_casing"
-						side_trim: "chipped:layered_gold_block"
-						top: "chipped:gold_block_panels"
-						top_inner_trim: "create:andesite_casing"
-						top_trim: "create:andesite_casing"
-					}
-					woodType: "birch"
-				}
-			}
-			id: "16116FCD6A662C0D"
-			rewards: [{
-				id: "0C3C710E48A1A592"
-				item: "numismatics:spur"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0ABB21055E1BDBCC"
-				title: "&aCustomizing&r&b looks&r &cof&r &dyour&r &estorage&r"
-				type: "checkmark"
-			}]
-			x: 2.2d
-			y: -2.7d
-		}
-		{
-			dependencies: ["7226FB66C2B28ACB"]
-			description: [
 				"You can display items outside of chests to better organize your storage. For example, a food chest can display a carrot to indicate its contents."
 				""
 				"To do this, go to the settings of the chest and navigate to the Item Display Settings. Left-click on an item inside the chest to display it. The selected item will be marked with a border square. To remove the display, right-click on the square."
@@ -4467,6 +4418,40 @@
 			}]
 			x: 4.7d
 			y: 5.699999999999999d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: ["&eDecoration Table&r allows you to customize the Chest with any block."]
+			id: "6A0982B3EC12BAF2"
+			rewards: [{
+				id: "2D1902E3619D2D0D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35FAD25B09AE6869"
+				item: "sophisticatedstorage:decoration_table"
+				type: "item"
+			}]
+			x: 2.2d
+			y: -2.6d
+		}
+		{
+			dependencies: ["6A0982B3EC12BAF2"]
+			description: ["Apply your custom decoration at the table by inserting a paintbrush. Once applied, you can use the paintbrush directly on a chest without breaking it, instantly transferring the chosen style."]
+			id: "065D5E33586CE44C"
+			rewards: [{
+				id: "49D0CF4C8C3D869C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "305BA44F654CCB65"
+				item: "sophisticatedstorage:paintbrush"
+				type: "item"
+			}]
+			x: 3.3d
+			y: -2.6d
 		}
 	]
 	title: "&d&lSophisticated Storage"

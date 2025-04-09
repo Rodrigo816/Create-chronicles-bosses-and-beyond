@@ -28,15 +28,6 @@
 			x: 1.0d
 			y: 12.0d
 		}
-		{
-			color: 16721411
-			height: 3.0d
-			image: "mowziesmobs:particle/sparks_ring"
-			rotation: 0.0d
-			width: 3.0d
-			x: 1.0d
-			y: 12.0d
-		}
 	]
 	order_index: 13
 	progression_mode: "flexible"

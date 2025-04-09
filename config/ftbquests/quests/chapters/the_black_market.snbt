@@ -346,8 +346,8 @@
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.0d
-			y: 15.5d
+			x: 8.1d
+			y: 12.1d
 		}
 		{
 			height: 1.0d
@@ -402,8 +402,8 @@
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.0d
-			y: 11.5d
+			x: -0.9d
+			y: 13.7d
 		}
 		{
 			height: 1.0d
@@ -414,44 +414,36 @@
 			y: -3.5d
 		}
 		{
-			height: 1.82d
-			image: "kubejs:textures/monthly_challenges.png"
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
-			width: 6.195761856710393d
-			x: 3.5d
-			y: 9.0d
+			width: 1.0d
+			x: 0.6d
+			y: 13.7d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.5d
-			y: 11.5d
+			x: 2.1d
+			y: 13.7d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
-			y: 11.5d
+			x: -0.9d
+			y: 12.1d
 		}
 		{
-			height: 1.0d
-			image: "supplementaries:item/item_shelf"
+			height: 1.2d
+			image: "kubejs:textures/challengesx.png"
 			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
-			y: 15.5d
-		}
-		{
-			height: 1.82d
-			image: "kubejs:textures/previous_challenges.png"
-			rotation: 0.0d
-			width: 6.195761856710393d
-			x: 3.5d
-			y: 13.5d
+			width: 8.0d
+			x: 3.7d
+			y: 10.3d
 		}
 		{
 			height: 1.0d
@@ -466,40 +458,40 @@
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.5d
-			y: 15.5d
+			x: 6.6d
+			y: 12.1d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
-			y: 15.5d
+			x: 5.1d
+			y: 12.1d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.5d
-			y: 15.5d
+			x: 3.7d
+			y: 12.1d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.0d
-			y: 15.5d
+			x: 2.1d
+			y: 12.1d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: 15.5d
+			x: 0.6d
+			y: 12.1d
 		}
 		{
 			height: 1.0d
@@ -1005,6 +997,102 @@
 			x: 19.7d
 			y: 4.5d
 		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.7d
+			y: 13.7d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: 13.7d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.6d
+			y: 13.7d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.1d
+			y: 13.7d
+		}
+		{
+			height: 2.28d
+			image: "kubejs:textures/creative.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 3.8d
+			y: 16.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.9d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.6d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.1d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.7d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.6d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.1d
+			y: 18.0d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -1059,6 +1147,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide_until_deps_complete: true
 			icon: "ringsofascension:ring_hungerless"
@@ -1348,6 +1437,7 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide_until_deps_complete: true
 			icon: {
@@ -1396,6 +1486,27 @@
 					count: 5000L
 					id: "4E35763DB74AB89F"
 					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "08F16B3B718268F3"
+					item: "dustrial_decor:industrial_iron_billet"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "45292D082DC154D2"
+					item: "create_dd:lapis_alloy"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2000L
+					id: "2D642AC6BFE9F268"
+					item: { Count: 2000, id: "blue_skies:horizonite_ingot" }
 					type: "item"
 				}
 			]
@@ -1489,13 +1600,6 @@
 					count: 300L
 					id: "1109EAF2AF2B28EB"
 					item: "create_dd:glowberry_milkshake"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 800L
-					id: "6D578DB5911A7589"
-					item: "create_confectionery:honey_candy"
 					type: "item"
 				}
 			]
@@ -2386,6 +2490,22 @@
 					item: "ringsofascension:ring_undying"
 					type: "item"
 				}
+				{
+					id: "3A52E13306F1F08E"
+					item: {
+						Count: 1
+						id: "twilightforest:glass_sword"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+							display: {
+								Lore: ["{\"text\":\"A fragile-looking blade...\",\"color\":\"gray\",\"italic\":true}"]
+								Name: "{\"text\":\"Glass Sword\",\"color\":\"aqua\",\"italic\":false}"
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 2.0d
@@ -2427,7 +2547,7 @@
 			y: 1.0d
 		}
 		{
-			can_repeat: false
+			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide_until_deps_complete: true
 			icon: {
@@ -2564,7 +2684,7 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "&l&4Lootbox&r&r of weapons"
+			title: "&eI have a slight addiction problem...&r"
 			x: 0.5d
 			y: 3.5d
 		}
@@ -2784,22 +2904,38 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"&6Pipez includes a built-in filtering system&r, accessible once you've installed at least an &2Advanced Upgrade.&r"
+				""
+				"To set filters, open the pipe’s interface and click the Add button. You can filter items by:"
+				""
+				"&b->&r Item Type, Tags, or NBT Data."
+				""
+				"&b->&r Assign a Destination Inventory by Shift + Right-clicking the target container with the filter."
+				""
+				""
+				"Additionally, you'll need to configure each filter mode to either:"
+				""
+				"&b->&r Whitelist: Allow only items matching the filter"
+				""
+				"&b->&r Blacklist: Allow everything except items matching the filter."
+			]
 			hide_until_deps_complete: true
-			icon: "mowziesmobs:earth_talisman"
+			icon: "pipez:filter_destination_tool"
 			id: "7020BE898C53E474"
 			rewards: [{
-				id: "36D5D3E82A69D613"
-				item: "mowziesmobs:earth_talisman"
+				id: "33776F6C4B579A47"
+				item: "pipez:filter_destination_tool"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
-				count: 40L
+				count: 2L
 				id: "3469EFC16C17BCFF"
 				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "&l&dEarth Talisman"
+			title: "Filter Destination Tool"
 			x: 6.5d
 			y: 3.5d
 		}
@@ -2868,28 +3004,62 @@
 		{
 			can_repeat: false
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"For historical reference:"
-				"This challenge ran from June 1st to July 22, 2024!"
-				"Of course, the reward has been nerfed now."
-			]
+			description: [""]
 			hide_until_deps_complete: true
 			id: "14E52F88F5AAC10C"
 			rewards: [
 				{
-					count: 16
+					count: 3
 					id: "4E347E65A43AE352"
-					item: "numismatics:cog"
+					item: "numismatics:crown"
 					type: "item"
 				}
 				{
+					count: 2
 					id: "4D4C8908AFD5C75D"
 					item: "paraglider:spirit_orb"
 					type: "item"
 				}
+				{
+					count: 10
+					id: "2460C8707B9B2031"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:primordial_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "24010860422A785D"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "54021A5F39E71002"
+					item: "irons_spellbooks:arcane_debris"
+					type: "item"
+				}
+				{
+					id: "00E3C0197428F218"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:eternal_stella"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7192F5A57334FCD7"
+					item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+					type: "item"
+				}
 			]
 			shape: "gear"
-			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 10000L
@@ -2897,33 +3067,71 @@
 				item: "quark:myalite"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 15.0d
+			x: -0.9d
+			y: 11.7d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"For historical reference:"
-				"This challenge ran from July 23rd to September 20th, 2024!"
-				"Of course, the reward has been nerfed now."
-			]
+			description: [""]
 			hide_until_deps_complete: true
 			id: "7339ED3D12600BDF"
 			rewards: [
 				{
-					count: 16
-					id: "61CF4F3F2BB21B20"
-					item: "numismatics:cog"
-					type: "item"
-				}
-				{
+					count: 4
 					id: "487AD74BCFE7D103"
 					item: "paraglider:spirit_orb"
 					type: "item"
 				}
+				{
+					count: 7
+					id: "1E8721043653B931"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "29F92139D85FA6B6"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CC717B0DBCBFA8E"
+					item: {
+						Count: 1
+						id: "create_sa:netherite_jetpack_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "69BB9907473C594D"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "03EE4FEEEE0E23B7"
+					item: "sophisticatedstorage:stack_upgrade_omega_tier"
+					type: "item"
+				}
+				{
+					id: "677E554AB4EE5F02"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:eternal_stella"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
 			shape: "gear"
-			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 15000L
@@ -2931,40 +3139,35 @@
 				item: "minecraft:tuff"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 15.0d
+			x: 0.6d
+			y: 11.7d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"For historical reference:"
-				"This challenge ran from July 23rd to September 20th, 2024!"
-				"Of course, the reward has been nerfed now."
-			]
+			description: [""]
 			hide_until_deps_complete: true
 			id: "56C3AF461DA8C053"
 			rewards: [
 				{
-					count: 2
+					count: 30
 					id: "71EFF8ACD09E0BC4"
 					item: "irons_spellbooks:lesser_spell_slot_upgrade"
 					type: "item"
 				}
 				{
-					count: 3
+					count: 7
 					id: "52AB62C04686485C"
 					item: "numismatics:cog"
 					type: "item"
 				}
 				{
-					count: 5
+					count: 15
 					id: "701025846FF4C01F"
 					item: "irons_spellbooks:legendary_ink"
 					type: "item"
 				}
 			]
 			shape: "gear"
-			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 5000L
@@ -2972,25 +3175,15 @@
 				item: "blue_skies:crescent_fruit"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 15.0d
+			x: 5.1d
+			y: 11.7d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"For historical reference:"
-				"This challenge ran from July 23rd to September 20th, 2024!"
-				"Of course, the reward has been nerfed now."
-			]
+			description: [""]
 			hide_until_deps_complete: true
 			id: "73828F0D2C7084A7"
 			rewards: [
-				{
-					count: 3
-					id: "66F10F1D3133FEEB"
-					item: "numismatics:cog"
-					type: "item"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "1AB8FDD1C458666E"
@@ -3015,9 +3208,24 @@
 					table_id: 6337359776125332254L
 					type: "loot"
 				}
+				{
+					count: 100
+					id: "7466C15377EBF1FB"
+					item: "create:experience_block"
+					type: "item"
+				}
+				{
+					id: "466CB8A1181F0A8D"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					id: "020A335E679E1758"
+					type: "xp_levels"
+					xp_levels: 100
+				}
 			]
 			shape: "gear"
-			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 2000L
@@ -3025,20 +3233,17 @@
 				item: "farmersdelight:rice_roll_medley_block"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 15.0d
+			x: 3.7d
+			y: 11.7d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"For historical reference:"
-				"This challenge ran from September 21st to December 21st!"
-				"Of course, the reward has been nerfed now."
-			]
+			description: [""]
 			hide_until_deps_complete: true
 			id: "5C012EC7707187FA"
 			rewards: [
 				{
+					count: 5
 					id: "42C3FFD8CB0405A4"
 					item: "waystones:waystone"
 					type: "item"
@@ -3075,32 +3280,43 @@
 					table_id: 4880289861207512209L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "412887074D5F9A35"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					id: "5DC3146090FDC821"
+					item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+					type: "item"
+				}
+				{
+					id: "1E4B2B6C90940B3F"
+					item: "sophisticatedstorage:stack_upgrade_omega_tier"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 10000L
 				id: "32F1835DE2D2F0C0"
-				item: "create_dd:asphalt_block"
+				item: "farmersdelight:organic_compost"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 15.0d
+			x: 2.1d
+			y: 11.7d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"For historical reference:"
-				"This challenge ran from September 21st to December 21st!"
-				"Of course, the reward has been nerfed now."
-			]
+			description: [""]
 			hide_until_deps_complete: true
 			id: "1EC0BCBFA72BA522"
 			rewards: [
 				{
-					count: 10
+					count: 20
 					id: "526559BFBE440A16"
 					item: {
 						Count: 1
@@ -3110,13 +3326,13 @@
 					type: "item"
 				}
 				{
-					count: 20
+					count: 50
 					id: "47158C6B67135BFC"
 					item: "minecraft:blaze_powder"
 					type: "item"
 				}
 				{
-					count: 2
+					count: 6
 					id: "3CB20A3BDBE64461"
 					item: "numismatics:cog"
 					type: "item"
@@ -3124,7 +3340,6 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "Retired Challenge"
 			tasks: [{
 				consume_items: true
 				count: 5000L
@@ -3132,33 +3347,29 @@
 				item: "farmersdelight:cabbage_rolls"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 15.0d
+			x: 8.1d
+			y: 11.7d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [
-				"For historical reference:"
-				"This challenge ran from September 21st to December 21st!"
-				"Of course, the reward has been nerfed now."
-			]
+			description: [""]
 			hide_until_deps_complete: true
 			id: "26C6BBDCE6D047F4"
 			rewards: [
 				{
-					count: 5
+					count: 7
 					id: "19B22CA33A48BBC8"
 					item: "numismatics:cog"
 					type: "item"
 				}
 				{
-					count: 2
+					count: 30
 					id: "1E5A81CAB518553B"
 					item: "irons_spellbooks:blank_rune"
 					type: "item"
 				}
 				{
-					count: 10
+					count: 20
 					id: "047AD8FA8AF2AD6C"
 					item: "irons_spellbooks:legendary_ink"
 					type: "item"
@@ -3166,7 +3377,6 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "Retired"
 			tasks: [{
 				consume_items: true
 				count: 5000L
@@ -3174,8 +3384,8 @@
 				item: "alexscaves:spelunkie"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 15.0d
+			x: 6.6d
+			y: 11.7d
 		}
 		{
 			can_repeat: true
@@ -3327,6 +3537,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 2L
 				id: "44136CDB430B3610"
 				item: "numismatics:cog"
 				type: "item"
@@ -3347,58 +3558,14 @@
 					type: "item"
 				}
 				{
-					id: "756D8267CC0F9D02"
-					item: "artifacts:snowshoes"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "5ABF347BCE27437A"
-					item: "eyesoficeandfire:eye_of_ice_dragon"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "35E901441E173FE7"
 					table_id: 4902539736743094778L
 					type: "choice"
 				}
-				{
-					count: 3
-					id: "4F0D82914AB01462"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:eternal_stella"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "66DA44865CADFA45"
-					item: {
-						Count: 1
-						id: "shieldexp:paragon_shield"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "196208877A3C32B2"
-					item: "minecraft:netherite_ingot"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "1FCDDBBB75059671"
-					item: "minecraft:diamond"
-					type: "item"
-				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				consume_items: true
 				count: 10000L
@@ -3406,8 +3573,8 @@
 				item: "create_confectionery:soothing_hot_chocolate"
 				type: "item"
 			}]
-			x: 1.9500000000000002d
-			y: 10.950000000000001d
+			x: 8.1d
+			y: 13.3d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
@@ -3415,29 +3582,9 @@
 			id: "7293F2FC9F63DC6C"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "770581454F1BEA1C"
-					table_id: 8674998444894269447L
-					type: "choice"
-				}
-				{
-					count: 10
+					count: 3
 					id: "06437FD367C2C8F7"
-					item: "numismatics:cog"
-					type: "item"
-				}
-				{
-					id: "5C7AC7E2D86F6E0F"
-					item: {
-						Count: 1
-						id: "obtrophies:trophy"
-						tag: {
-							BlockEntityTag: {
-								VariantID: 0
-								entity: "aether:zephyr"
-							}
-						}
-					}
+					item: "numismatics:crown"
 					type: "item"
 				}
 				{
@@ -3465,25 +3612,20 @@
 					type: "random"
 				}
 				{
-					count: 3
+					count: 5
 					id: "36FC0EAD557D408D"
 					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
 					type: "item"
 				}
 				{
-					count: 3
+					count: 5
 					id: "6E40DE9865B91529"
 					item: "sophisticatedstorage:stack_upgrade_tier_5"
 					type: "item"
 				}
-				{
-					id: "4F8F2445F0BA8F8A"
-					item: "paraglider:stamina_vessel"
-					type: "item"
-				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				consume_items: true
 				count: 10000L
@@ -3491,20 +3633,14 @@
 				item: "twilightforest:snowy_cloud"
 				type: "item"
 			}]
-			x: 3.45d
-			y: 10.950000000000001d
+			x: 6.6d
+			y: 13.3d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide_until_deps_complete: true
 			id: "27C2901036362B31"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "08E83616DFC399AE"
-					table_id: 8674998444894269447L
-					type: "choice"
-				}
 				{
 					count: 2
 					id: "66CE30EF28CE7911"
@@ -3523,7 +3659,7 @@
 					type: "item"
 				}
 				{
-					count: 3
+					count: 10
 					id: "5D266D07D4C860E7"
 					item: "simplyswords:empowered_remnant"
 					type: "item"
@@ -3536,16 +3672,16 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 10000L
+				count: 5000L
 				id: "5051515B30441B0B"
-				item: "minecraft:campfire"
+				item: "create_confectionery:honey_candy"
 				type: "item"
 			}]
-			x: 4.95d
-			y: 10.950000000000001d
+			x: 5.1d
+			y: 13.3d
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
@@ -4631,6 +4767,425 @@
 			}]
 			x: 16.1d
 			y: 4.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide_until_deps_complete: true
+			id: "049AD5BB302D67E6"
+			rewards: [
+				{
+					count: 3
+					id: "549D1C004E8644C7"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "12BBB770E53E2162"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A833545236308CB"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7AE4EDE85652FDFA"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "03773B9E3C05C978"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "497F152D6BCCCCA1"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "76B4C7296688D5C7"
+					item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "046EED9A28C9DC59"
+				item: "create_dd:aethersite"
+				type: "item"
+			}]
+			x: -0.9d
+			y: 13.3d
+		}
+		{
+			can_repeat: false
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide_until_deps_complete: true
+			id: "5F6217EF615F4927"
+			rewards: [
+				{
+					count: 3
+					id: "073CBD8E45810E44"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "16234D8B018FEC34"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5BD8D35DC91B96E7"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "598F9FD132613BD4"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:abyssal_chasm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7914400623DC12A6"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:forlorn_hollows"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21089D67CFA45B64"
+					item: {
+						Count: 1
+						id: "create_sa:netherite_jetpack_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0DAFCC38EDF6A0B1"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32FE24EDE96632A3"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "496E9B157DB77303"
+					item: "sophisticatedstorage:stack_upgrade_omega_tier"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "511BEB3A81AF398A"
+				item: "twilightforest:castle_brick"
+				type: "item"
+			}]
+			x: 0.6d
+			y: 13.3d
+		}
+		{
+			can_repeat: false
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide_until_deps_complete: true
+			id: "0EC54B3F484DD1DD"
+			rewards: [
+				{
+					count: 3
+					id: "7E3EC7B936432D71"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3CF34C3A5ECDED49"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "776C9017B3FA1D9E"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55D9A1FEC8951FA4"
+					item: "ars_elemental:mark_of_mastery"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "49EF5EFD6151C789"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:candy_cavity"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1468655C6AE58112"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:eternal_stella"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "74FEE0315DB2D1A0"
+				item: "ars_nouveau:sky_block"
+				type: "item"
+			}]
+			x: 2.1d
+			y: 13.3d
+		}
+		{
+			can_repeat: false
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [""]
+			hide_until_deps_complete: true
+			id: "08CE4754734E9ABD"
+			rewards: [
+				{
+					count: 2
+					id: "6E92438191FD6906"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					id: "73AF264CFB2B2D14"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "243EFE52C250AF1A"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:eternal_stella"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6EE1397F53A96BBA"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:toxic_caves"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "31E724007E8B55CB"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			x: 3.7d
+			y: 13.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			icon: "create:creative_motor"
+			id: "7985551D71CC03AF"
+			rewards: [{
+				id: "72BBB1CD84DC270E"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "4FB150597195F628"
+				item: "kubejs:create_chronicles"
+				type: "item"
+			}]
+			title: "Creative Motor"
+			x: -0.9d
+			y: 17.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			icon: "create:creative_fluid_tank"
+			id: "6DA6AAE788DD1066"
+			rewards: [{
+				id: "6B53E692D6CEEA3D"
+				item: "create:creative_fluid_tank"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "76B231ABC47C7FF1"
+				item: "kubejs:create_chronicles"
+				type: "item"
+			}]
+			title: "Creative Fluid Tank"
+			x: 0.6d
+			y: 17.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			icon: "create_sa:creative_filling_tank"
+			id: "032B469F8B54FA2D"
+			rewards: [{
+				id: "34120160787F4E28"
+				item: "create_sa:creative_filling_tank"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "15B194B52056E833"
+				item: "kubejs:create_chronicles"
+				type: "item"
+			}]
+			title: "Creative Filling Tank"
+			x: 2.1d
+			y: 17.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			icon: "create:creative_blaze_cake"
+			id: "050C55A3D0E6FBB0"
+			rewards: [{
+				id: "2EEC767F84510483"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "4B23093FED95ACAC"
+				item: "kubejs:create_chronicles"
+				type: "item"
+			}]
+			title: "Creative Blaze Cake"
+			x: 3.7d
+			y: 17.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			icon: "createaddition:creative_energy"
+			id: "3CC86FCE8996B1E9"
+			rewards: [{
+				id: "5C1407064EA04364"
+				item: "createaddition:creative_energy"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "46FF271B93178F8D"
+				item: "kubejs:create_chronicles"
+				type: "item"
+			}]
+			title: "Creative Generator"
+			x: 5.1d
+			y: 17.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			icon: "ae2:creative_item_cell"
+			id: "728CF2D5A67597E3"
+			rewards: [{
+				id: "61A3F9C746756192"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "1C4596FCBF112B6C"
+				item: "kubejs:create_chronicles"
+				type: "item"
+			}]
+			title: "Creative ME Item Cell"
+			x: 6.6d
+			y: 17.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21FB9D855FA9D2DF"]
+			hide_until_deps_complete: true
+			icon: "ae2:creative_fluid_cell"
+			id: "29F5F66556427238"
+			rewards: [{
+				id: "1742E8A849EB58E8"
+				item: "ae2:creative_fluid_cell"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "24EDCC35F7335619"
+				item: "kubejs:create_chronicles"
+				type: "item"
+			}]
+			title: "Creative ME Fluid Cell"
+			x: 8.1d
+			y: 17.6d
 		}
 	]
 	title: "&0&lThe Black Market"

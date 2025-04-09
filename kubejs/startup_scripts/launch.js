@@ -23,6 +23,9 @@ ItemEvents.modification(event => {
     event.modify('create_dd:refined_radiance_sheet', item => {
         item.maxStackSize = 64
     })
+    event.modify('deeperdarker:heart_of_the_deep', item => {
+        item.maxStackSize = 64
+    })
 })
 
 BlockEvents.modification(event => {
@@ -102,14 +105,14 @@ StartupEvents.registry('item', event => {
         .displayName("+1 Skill Point")
         .tooltip("Adds one skill point to your talent tree on use")
         .texture("kubejs:item/skill_point")
-        .rarity('Epic')
+        .rarity('EPIC')
 
     event.create('skill_reset')
         .maxStackSize(64)
         .displayName("Talent Tree Reset")
         .tooltip("Resets all your skill points")
         .texture("kubejs:item/reset_points")
-        .rarity('Epic')
+        .rarity('EPIC')
     // Blaze
     //event.create('dormant_dust_mystic_coal').texture("kubejs:item/mystic_dust").displayName('Mystic Dormant Coal Dust')
     //event.create('dust_mystic_coal').texture("kubejs:item/zinc_dust").displayName('Mystic Coal Dust')
@@ -123,31 +126,30 @@ StartupEvents.registry('item', event => {
 
     event.create('siliceous_compound').displayName('Siliceous Compound').texture('kubejs:item/siliceous_compound')
 	
-    event.create('create_chronicles').displayName("§bCreate Chronicles").texture('kubejs:item/logo_texture')
 	event.create('engineer_badge')
         .displayName("§6Engineer's Badge")
         .texture("kubejs:item/create_badge")
-        .rarity('Epic')
+        .rarity('EPIC')
 
     event.create('slayer_badge')
         .displayName("§6Ultimate Slayer's Badge")
         .texture("kubejs:item/bosses_badge")
-        .rarity('Epic')
+        .rarity('EPIC')
 
     event.create('relic_badge')
         .displayName("§6Relic Hunter's Badge")
         .texture("kubejs:item/artifact_badge")
-        .rarity('Epic')
+        .rarity('EPIC')
 
     event.create('ascendant_badge')
         .displayName("§6Ascendant's Badge")
         .texture("kubejs:item/ring_badge")
-        .rarity('Epic')
+        .rarity('EPIC')
 
     event.create('blade_badge')
         .displayName("§6Blade Master Badge")
         .texture("kubejs:item/sword_badge")
-        .rarity('Epic')
+        .rarity('EPIC')
     
 
     event.create('uncommon_paper')
@@ -187,4 +189,13 @@ StartupEvents.registry('item', event => {
     event.create('incomplete_shepherds_pie_block', 'create:sequenced_assembly')
     event.create('incomplete_steak_and_potatoes', 'create:sequenced_assembly')
 
+    //
+    event.create('create_chronicles').displayName("§6Create Chronicles").texture('kubejs:item/logo_texture').rarity("EPIC").tooltip([
+        '§7So, you really think you\'re ready for this? ',
+        '§7Creative power in your mortal hands... madness! ',
+        '§cOnly those insane enough dare claim this prize. ',
+      ])
+    event.create('chronicles_fragment_head').texture("kubejs:item/dragon_head").displayName('§6Chronicles Fragment - Head').rarity("EPIC")
+    event.create('chronicles_fragment_wings').texture("kubejs:item/dragon_wing").displayName('§6Chronicles Fragment - Wing').rarity("EPIC")
+    event.create('chronicles_fragment_body').texture("kubejs:item/dragon_body").displayName('§6Chronicles Fragment - Body').rarity("EPIC")
 })

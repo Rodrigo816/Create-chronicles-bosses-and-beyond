@@ -343,9 +343,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3B59E7697E722AB2"
-				item: "alexscaves:submarine"
-				type: "item"
+				advancement: "alexscaves:alexscaves/ride_submarine"
+				criterion: ""
+				id: "0F2115707119EE19"
+				type: "advancement"
 			}]
 			x: -15.5d
 			y: 28.0d

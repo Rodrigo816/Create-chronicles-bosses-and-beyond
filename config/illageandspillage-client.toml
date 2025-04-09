@@ -7,7 +7,7 @@
 	webbedScreen = true
 	#Setting this to false will disable the jumpscare after killing ragno
 	#Requires game restart
-	doJumpscare = true
+	doJumpscare = false
 	#Setting this to true will turn on Arachnophobe-Safe Mode, Ragno will become a horrifying monstrosity in a different way
 	arachnophobeMode = false
 

@@ -25,14 +25,6 @@
 		}
 		{
 			height: 1.0d
-			image: "ars_nouveau:block/warp_portal"
-			rotation: 0.0d
-			width: 0.03125d
-			x: 3.5d
-			y: -4.0d
-		}
-		{
-			height: 1.0d
 			image: "ars_nouveau:block/mage_block_transparent"
 			rotation: 0.0d
 			width: 1.0d
@@ -4837,8 +4829,8 @@
 				item: "ars_nouveau:thread_depths"
 				type: "item"
 			}]
-			x: 29.5d
-			y: -1.5d
+			x: 24.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
@@ -4910,29 +4902,6 @@
 			}]
 			x: 24.5d
 			y: -3.5d
-		}
-		{
-			dependencies: ["0F5BBE3219E8FE10"]
-			id: "36B3FF63BC459457"
-			rewards: [
-				{
-					id: "600D1BE28C82EC44"
-					item: "numismatics:spur"
-					type: "item"
-				}
-				{
-					id: "6C3B2D994F04F19B"
-					item: "create_dd:experience_ingot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4E1FD04E2DC2360F"
-				item: "ars_elemental:thread_shock"
-				type: "item"
-			}]
-			x: 24.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
