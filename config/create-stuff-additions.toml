@@ -11,7 +11,7 @@
 	andesiteJetpackSpeed = 0.08
 	copperJetpackSpeed = 0.02
 	netheriteJetpackSpeed = 0.08
-	grapplinWhiskSpeed = 0.2
+	grapplinWhiskSpeed = 0.1
 
 ["Fuel/Water Capacity"]
 	gadgetCapacity = 1600.0

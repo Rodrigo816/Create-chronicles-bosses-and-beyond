@@ -28,7 +28,7 @@ LootJS.modifiers((event) => {
     "alexscaves:luxtructosaurus": [6, 12],
     "minecraft:wither": [2, 4],
     "ars_nouveau:wilden_boss": [6, 12],
-    "minecraft:warden": [3, 6],
+    "minecraft:warden": [2, 4],
     "blue_skies:arachnarch": [2, 8],
     "blue_skies:starlit_crusher": [2, 8],
     "blue_skies:summoner": [2, 4],

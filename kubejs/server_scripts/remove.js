@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
         CR('crushing/diorite'),
         CR('splashing/crushed_raw_gold'),
         CR('sequenced_assembly/precision_mechanism'),
-//        CRDD('sequenced_assembly/inductive_mechanism'),
+        CRDD('sequenced_assembly/inductive_mechanism'),
         CRDD('sequenced_assembly/logistic_mechanism'),
         CRSA('block_picker_recipe'),
 
@@ -192,7 +192,7 @@ ServerEvents.recipes(event => {
         CRDD('industrial_iron_nugget'),
         CRDD('integrated_mechanism'),
         AE2('small_quartz_bud'),
-        //CRDD('inductive_mechanism'),
+        CRDD('inductive_mechanism'),
        // CR('asurine'),
        // CRDD('shadow_steel'),
         //CRDD('blaze_gold'),

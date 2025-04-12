@@ -372,7 +372,7 @@
 				"2E9E011F51858EF2"
 			]
 			description: [
-				"&6The Blast Furnace&r is a multi block machine. Make sure to use the pounder function (pressing W) to see how to build the Blast Furnace."
+				"&6The Blast Furnace&r is a multi block machine. Make sure to use the ponder function (pressing W) to see how to build the Blast Furnace."
 				""
 				"If it doesn't work, try breaking the blast furnace output and placing it again. If this still doesn't work, you might be doing something wrong."
 				""
@@ -829,7 +829,11 @@
 		}
 		{
 			dependencies: ["078DF329C409A210"]
-			description: ["&6The Optical Receptor&r converts the &3Light Rays&r that output from the Optical Source back into &aRotational Power&r."]
+			description: [
+				"&6The Optical Receptor&r converts the &bLight Rays&r that output from the Optical Source back into &dRotational Power&r."
+				""
+				"You need to use an&c Optical Device&r on the &6Optical Receptor&r &nby right-clicking&r with the &cOptical Device&r on the Optical Receptor for it to receive the &bLight Rays.&r"
+			]
 			hide_until_deps_complete: true
 			id: "07FDCB535DE4C4BA"
 			rewards: [
@@ -1112,6 +1116,11 @@
 		}
 		{
 			dependencies: ["078DF329C409A210"]
+			description: [
+				"The &eThermal Optical Source&r requires an additional source to function, which is fluids, such as &bWater&r and &cLava&r to send &6Light Rays&r. "
+				""
+				"The advantage of this is that it doubles the SU of the normal one. Water gives double SU and Lava gives the double of Water."
+			]
 			id: "3629B7D03A59F516"
 			rewards: [{
 				count: 2
@@ -1124,12 +1133,16 @@
 				item: "create_optical:thermal_optical_source"
 				type: "item"
 			}]
-			x: 5.9d
+			x: 4.8d
 			y: 12.0d
 		}
 		{
 			dependencies: ["078DF329C409A210"]
-			description: ["texto"]
+			description: [
+				"&6The Hologram Source&r allows you to use Visible Light to show an Hologram. Click with an item in hand on the Hologram Source to display that Item."
+				""
+				"Clicking with an empty hand gives you a control window to choose the angel of the Hologram."
+			]
 			hide_until_deps_complete: true
 			id: "30513F4AD063919A"
 			rewards: [

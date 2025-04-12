@@ -2870,7 +2870,7 @@
 			subtitle: "Used to locate The Catacombs."
 			tasks: [{
 				consume_items: true
-				count: 6L
+				count: 8L
 				id: "247C98C6017EBCA4"
 				item: "numismatics:cog"
 				type: "item"
@@ -2930,7 +2930,6 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 2L
 				id: "3469EFC16C17BCFF"
 				item: "numismatics:cog"
 				type: "item"
@@ -2992,7 +2991,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 14L
+				count: 15L
 				id: "1810510D4A7D747A"
 				item: "numismatics:cog"
 				type: "item"
@@ -3004,7 +3003,6 @@
 		{
 			can_repeat: false
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "14E52F88F5AAC10C"
 			rewards: [
@@ -3072,7 +3070,6 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "7339ED3D12600BDF"
 			rewards: [
@@ -3109,27 +3106,6 @@
 					}
 					type: "item"
 				}
-				{
-					count: 32
-					id: "69BB9907473C594D"
-					item: "minecraft:diamond_block"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "03EE4FEEEE0E23B7"
-					item: "sophisticatedstorage:stack_upgrade_omega_tier"
-					type: "item"
-				}
-				{
-					id: "677E554AB4EE5F02"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:eternal_stella"
-						tag: { }
-					}
-					type: "item"
-				}
 			]
 			shape: "gear"
 			tasks: [{
@@ -3144,7 +3120,6 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "56C3AF461DA8C053"
 			rewards: [
@@ -3155,13 +3130,13 @@
 					type: "item"
 				}
 				{
-					count: 7
+					count: 15
 					id: "52AB62C04686485C"
 					item: "numismatics:cog"
 					type: "item"
 				}
 				{
-					count: 15
+					count: 5
 					id: "701025846FF4C01F"
 					item: "irons_spellbooks:legendary_ink"
 					type: "item"
@@ -3180,7 +3155,6 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "73828F0D2C7084A7"
 			rewards: [
@@ -3238,7 +3212,6 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "5C012EC7707187FA"
 			rewards: [
@@ -3311,12 +3284,11 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "1EC0BCBFA72BA522"
 			rewards: [
 				{
-					count: 20
+					count: 30
 					id: "526559BFBE440A16"
 					item: {
 						Count: 1
@@ -3352,12 +3324,11 @@
 		}
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "26C6BBDCE6D047F4"
 			rewards: [
 				{
-					count: 7
+					count: 20
 					id: "19B22CA33A48BBC8"
 					item: "numismatics:cog"
 					type: "item"
@@ -3369,9 +3340,18 @@
 					type: "item"
 				}
 				{
-					count: 20
+					count: 5
 					id: "047AD8FA8AF2AD6C"
 					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+				{
+					id: "194F508BA106145B"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:eternal_stella"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -3492,7 +3472,7 @@
 			subtitle: "only resets boss of mass destruction"
 			tasks: [{
 				consume_items: true
-				count: 2L
+				count: 5L
 				id: "7BB42459DD0CD980"
 				item: "numismatics:cog"
 				type: "item"
@@ -3514,12 +3494,12 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 2L
+				count: 3L
 				id: "2E250F12EC8E2BF0"
 				item: "numismatics:sun"
 				type: "item"
 			}]
-			title: "Everblasting upgrade"
+			title: "Everlasting upgrade"
 			x: 8.0d
 			y: 6.5d
 		}
@@ -4771,7 +4751,6 @@
 		{
 			can_repeat: false
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "049AD5BB302D67E6"
 			rewards: [
@@ -4878,15 +4857,6 @@
 					type: "item"
 				}
 				{
-					id: "21089D67CFA45B64"
-					item: {
-						Count: 1
-						id: "create_sa:netherite_jetpack_chestplate"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
 					count: 4
 					id: "0DAFCC38EDF6A0B1"
 					item: "minecraft:ancient_debris"
@@ -4894,12 +4864,6 @@
 				}
 				{
 					count: 4
-					id: "32FE24EDE96632A3"
-					item: "minecraft:diamond_block"
-					type: "item"
-				}
-				{
-					count: 2
 					id: "496E9B157DB77303"
 					item: "sophisticatedstorage:stack_upgrade_omega_tier"
 					type: "item"
@@ -4919,7 +4883,6 @@
 		{
 			can_repeat: false
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "0EC54B3F484DD1DD"
 			rewards: [
@@ -4984,7 +4947,6 @@
 		{
 			can_repeat: false
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "08CE4754734E9ABD"
 			rewards: [
@@ -5000,7 +4962,7 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 2
 					id: "243EFE52C250AF1A"
 					item: {
 						Count: 1

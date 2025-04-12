@@ -575,6 +575,12 @@
 		{
 			dependencies: ["1084B343FEEBB88E"]
 			id: "5E7CF560990974D5"
+			rewards: [{
+				count: 10
+				id: "607A653F12398763"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "41619713494294C6"
 				item: "pipez:ultimate_upgrade"
