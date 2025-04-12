@@ -193,6 +193,7 @@ ServerEvents.recipes(event => {
         CRDD('integrated_mechanism'),
         AE2('small_quartz_bud'),
         CRDD('inductive_mechanism'),
+        CRDD('crafting_inductive_mechanism2'),
        // CR('asurine'),
        // CRDD('shadow_steel'),
         //CRDD('blaze_gold'),

@@ -140,7 +140,7 @@ key_key.cycleRight:key.keyboard.h
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_key.veinmining.activate.desc:key.keyboard.grave.accent
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
-key_keybinds.combatroll.roll:key.keyboard.caps.lock
+key_keybinds.combatroll.roll:key.keyboard.r
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_key.aether.open_accessories.desc:key.keyboard.i
 key_key.aether.gravitite_jump_ability.desc:key.keyboard.space
@@ -312,7 +312,7 @@ key_key.create_sa.increase_reach:key.keyboard.up
 key_key.create_sa.decrease_reach:key.keyboard.down
 key_key.ars_elemental.open_pouch:key.keyboard.j
 key_key.irons_spellbooks.spell_wheel:key.keyboard.x
-key_key.irons_spellbooks.spellbook_cast:key.keyboard.r
+key_key.irons_spellbooks.spellbook_cast:key.mouse.middle
 key_key.irons_spellbooks.spell_bar_modifier:key.keyboard.left.shift
 key_key.irons_spellbooks.spell_quick_cast_1:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_2:key.keyboard.unknown

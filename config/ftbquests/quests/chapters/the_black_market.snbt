@@ -2490,22 +2490,6 @@
 					item: "ringsofascension:ring_undying"
 					type: "item"
 				}
-				{
-					id: "3A52E13306F1F08E"
-					item: {
-						Count: 1
-						id: "twilightforest:glass_sword"
-						tag: {
-							Damage: 0
-							Unbreakable: 1b
-							display: {
-								Lore: ["{\"text\":\"A fragile-looking blade...\",\"color\":\"gray\",\"italic\":true}"]
-								Name: "{\"text\":\"Glass Sword\",\"color\":\"aqua\",\"italic\":false}"
-							}
-						}
-					}
-					type: "item"
-				}
 			]
 			shape: "octagon"
 			size: 2.0d
