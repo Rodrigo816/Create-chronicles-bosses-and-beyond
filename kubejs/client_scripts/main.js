@@ -20,7 +20,7 @@ JEIEvents.hideItems(event => {
   event.hide('pipez:infinity_upgrade')
 
   event.hide('sophisticatedstorage:storage_tool')
-  event.hide('sophisticatedstorage:infininty_upgrade')
+  event.hide('sophisticatedstorage:infinity_upgrade')
 
   //temp
   event.hide('tfmg:charcoal_dust')

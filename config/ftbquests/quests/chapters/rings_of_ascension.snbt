@@ -8,6 +8,7 @@
 	icon: "ringsofascension:ring_slow_falling"
 	id: "1773A53BB0698605"
 	images: [{
+		color: 26367
 		height: 1.0d
 		image: "aether:slot/ring"
 		rotation: 0.0d

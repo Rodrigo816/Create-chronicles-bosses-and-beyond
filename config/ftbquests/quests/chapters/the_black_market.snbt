@@ -3922,7 +3922,6 @@
 		{
 			can_repeat: true
 			dependencies: ["4D995A3D7DC968C7"]
-			description: [""]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "minecraft:creeper_head"
@@ -4794,7 +4793,6 @@
 		{
 			can_repeat: false
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "5F6217EF615F4927"
 			rewards: [

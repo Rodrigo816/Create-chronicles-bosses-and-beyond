@@ -1,20 +1,5 @@
 
 ServerEvents.recipes(event => { 
-
-	///legenary
-	event.shaped(
-		Item.of('kubejs:legendary_paper', 8),
-		[ 
-		'AAA', 
-		'ABA',
-		'AAA'
-		],
-		{
-		A: 'minecraft:paper',
-				B: 'minecraft:yellow_dye'
-		}
-	).id('kubejs:legendary_paper')
-
 	event.recipes.createMixing([Item.of('irons_spellbooks:common_ink').withChance(0.30)],[
 		'2x irons_spellbooks:arcane_essence',
 		Fluid.of("create_enchantment_industry:ink", 300),

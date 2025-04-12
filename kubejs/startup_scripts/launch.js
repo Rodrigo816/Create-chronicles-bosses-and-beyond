@@ -151,12 +151,12 @@ StartupEvents.registry('item', event => {
         .texture("kubejs:item/sword_badge")
         .rarity('EPIC')
     
-
+    /* NO longer used
     event.create('uncommon_paper')
     event.create('rare_paper')
     event.create('epic_paper')
     event.create('legendary_paper')
-
+    */
     event.create('unfinished_fire_scroll', 'create:sequenced_assembly').rarity("RARE")
     event.create('unfinished_ice_scroll', 'create:sequenced_assembly').rarity("RARE")
     event.create('unfinished_blood_scroll', 'create:sequenced_assembly').rarity("RARE")
