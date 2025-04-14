@@ -943,7 +943,6 @@
 		}
 		{
 			dependencies: ["34BBF229D598EC32"]
-			description: [""]
 			hide_dependency_lines: false
 			hide_until_deps_complete: false
 			id: "3818BF7AAFFFF348"
@@ -976,7 +975,6 @@
 		}
 		{
 			dependencies: ["3818BF7AAFFFF348"]
-			description: [""]
 			hide_dependency_lines: false
 			hide_until_deps_complete: false
 			id: "7E05746BAA2DFC51"

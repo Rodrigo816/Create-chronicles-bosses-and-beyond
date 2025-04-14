@@ -26,7 +26,7 @@ LootJS.modifiers((event) => {
     "bosses_of_mass_destruction:obsidilith": [6, 14],
     "bosses_of_mass_destruction:gauntlet": [6, 12],
     "alexscaves:luxtructosaurus": [6, 12],
-    "minecraft:wither": [2, 4],
+    "minecraft:wither": [4, 10],
     "ars_nouveau:wilden_boss": [6, 12],
     "minecraft:warden": [2, 4],
     "blue_skies:arachnarch": [2, 8],
