@@ -54,9 +54,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "tombstone": {
-    "graves": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -67,6 +64,9 @@
   },
   "lootr": {
     "info": true
+  },
+  "balm": {
+    "jade": true
   },
   "ae2": {
     "part_icon": true,
@@ -85,6 +85,9 @@
   },
   "jadeaddons": {
     "equipment_requirement": ""
+  },
+  "pipez": {
+    "pipe": true
   },
   "twilightforest": {
     "quest_ram_wool": true
@@ -108,5 +111,8 @@
   },
   "camera": {
     "image_frame": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }

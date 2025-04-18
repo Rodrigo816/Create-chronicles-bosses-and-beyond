@@ -15,6 +15,13 @@ JEIEvents.hideItems(event => {
   event.hide('balancedflight:ascended_flight_ring')
   event.hide('ringsofascension:ring_undying')
   event.hide('alexsmobs:transmutation_table')
+  event.hide('twilightforest:glass_sword')
+  event.hide('pipez:gas_pipe')
+  event.hide('pipez:infinity_upgrade')
+  event.hide('blue_skies:alchemy_table')
+
+  event.hide('sophisticatedstorage:debug_tool')
+  event.hide('sophisticatedstorage:infinity_upgrade')
 
   //temp
   event.hide('tfmg:charcoal_dust')
@@ -79,8 +86,6 @@ JEIEvents.hideItems(event => {
   event.hide('create_dd:shadow_steel_scaffolding')
   event.hide('create_dd:shadow_steel_sheet')
 
-  event.hide(/^tombstone:/)
-
   event.hide('create_dd:potassic_cobble')
   event.hide('simplyswords:contained_remnant')
   event.hide('simplyswords:tampered_remnant')
@@ -96,6 +101,11 @@ JEIEvents.hideItems(event => {
 
   event.hide('create_dd:shadow_steel')
   event.hide('create_dd:shadow_steel_casing')
+
+  event.hide('create_dd:stargaze_singularity_block')
+  event.hide('create_dd:stargaze_singularity_casing')
+  event.hide('create_dd:stargaze_singularity_scaffolding')
+  event.hide('create_dd:blaze_gold_sheet')
 
   
   event.hide('ars_nouveau:glyph_animate_block')
@@ -131,12 +141,14 @@ JEIEvents.hideItems(event => {
   event.hide('alexscaves:sulfur_bud_large')
   event.hide('alexscaves:sulfur_cluster')
   event.hide('moped:tiny_copper_moped_item')
-  event.hide('create_dd:stargaze_singularity')
+  //event.hide('create_dd:stargaze_singularity')
   event.hide('create_dd:stargaze_singularity_sheet')
-  event.hide('create_dd:stargaze_singularity_scaffolding')
-  event.hide('create_dd:stargaze_singularity_casing')
-  event.hide('create_dd:stargaze_singularity_block')
-  event.hide('create_dd:fallen_stargaze_singularity')
+  event.hide('create_dd:ponder_stone_generation')
+
+  //event.hide('create_dd:stargaze_singularity_scaffolding')
+  //event.hide('create_dd:stargaze_singularity_casing')
+  //event.hide('create_dd:stargaze_singularity_block')
+  //event.hide('create_dd:fallen_stargaze_singularity')
   event.hide('moped:tiny_copper_moped_item')
 
   event.hide('forbidden_arcanus:reinforced_deorum_blacksmith_gavel')
@@ -160,11 +172,7 @@ ItemEvents.tooltip(event => {
   event.addAdvanced(['minecraft:bundle'], (item, advanced, text) => {
     text.remove(1)
   })
-
   event.add('blue_skies:alchemy_table',[
-    Text.of('§4This item cannot be obtained by any means.').red()
-  ])
-  event.add('minecraft:alchemy_table',[
     Text.of('§4This item cannot be obtained by any means.').red()
   ])
   event.add('forbidden_arcanus:soul',[
@@ -193,8 +201,22 @@ JEIEvents.information(e => {
   e.addItem('forbidden_arcanus:stellarite_piece', [
     'This very rare ore can be found in the Overworld (Y=42 to -42). Known to be very volatile and will explode when mined using conventional techniques.',
   ])
+
   e.addItem('minecraft:firework_star', [
     'Crafted with a gunpowder and at least one dye in a crafting table, You can also add extra ingredients such as feathers, gold nuggets, etc for extra effects.',
     'Used to make fireworks! Combine the star with paper and gunpowder.',
+  ])
+  e.addItem('minecraft:firework_star', [
+    'Crafted with a gunpowder and at least one dye in a crafting table, You can also add extra ingredients such as feathers, gold nuggets, etc for extra effects.',
+    'Used to make fireworks! Combine the star with paper and gunpowder.',
+  ])
+  e.addItem('create_dd:shadow_steel', [
+    'Shadow Steel is made by throwing Chromatic Compound into the void (it will float back up).',
+  ])
+  e.addItem('create_dd:blaze_gold', [
+    'Blaze Brass is made by right clicking any blaze (not spawner) with Chromatic Compound',
+  ])
+  e.addItem('create_dd:stargaze_singularity', [
+    'Stargaze Singularity is made by throwing Fallen Stargaze Singularity above y256 at night',
   ])
 })

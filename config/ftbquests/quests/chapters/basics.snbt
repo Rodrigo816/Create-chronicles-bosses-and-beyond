@@ -48,7 +48,7 @@
 			y: 17.0d
 		}
 		{
-			click: "https://discord.gg/regYxpqbun"
+			click: "https://discord.gg/yRAmua5keG"
 			height: 1.0d
 			image: "supplementaries:textures/gui/book/icon/discord.png"
 			rotation: 0.0d
@@ -87,7 +87,7 @@
 				""
 				"To reassign your talents, use the consumable item &cTalent Tree Reset&f, which refunds all your skill points upon use. The means to acquire a &cTalent Tree Reset&f are unlocked at later stage. "
 				""
-				"&eSkill points&f are primarily earned through challenging boss battles, with a max of &667 skills&r in total, all obtainable via quests. "
+				"&eSkill points&f are primarily earned through challenging boss battles, with a max of &671 skills&r in total, all obtainable via quests. "
 				""
 				"For a comprehensive guide on acquiring &eskill points&f, refer to the &2'Bosses and Skill Points'&f chapter."
 			]
@@ -745,9 +745,10 @@
 				""
 				"You can select the shader of your preference by going through &aOptions -> Video Settings -> Shader Packs.&r"
 				""
-				"Our recommendation for high performance and a style close to vanilla is &bSildur's Enhanced Default&r, although the maximum shadow distance is 7."
-				""
 				"For the best visuals, select &bComplementary Reimagined&r."
+				""
+				"Our recommendation for high performance and a style close to vanilla is &bSildur's Enhanced Default,&r although the maximum shadow distance is 7."
+				"If Create contraptions are glitching, go to your shader settings and turn fog off."
 				""
 				"For a more balanced approach between graphics and performance, select &bMake Up Ultra Fast&r."
 				""
@@ -1530,7 +1531,7 @@
 				"Combat mechanics were altered by the &6Better Combat&r, &6Dodge Roll&r, &6Shield overhaul&r and&6 Shield Expansion&r mod."
 				""
 				"&c-> Dodge Roll&r"
-				"Press &6\"caps lock\"&r (default key) to roll. You can roll into any direction you are heading. This is crucial to dodge attacks during boss fights!"
+				"Press &6\"R\"&r (default key) to roll. You can roll into any direction you are heading. This is crucial to dodge attacks during boss fights!"
 				""
 				"The combat roll ability has 10 seconds cooldown by default."
 				""
@@ -1764,7 +1765,7 @@
 				""
 				"Your support helps us make this modpack better for everyone!"
 				""
-				"https://discord.gg/regYxpqbun"
+				"https://discord.gg/yRAmua5keG"
 			]
 			icon: "createdeco:decal_warning"
 			id: "5525E70F7FBDBD92"
@@ -3670,23 +3671,14 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Craft a Chest or a Barrel"
+			subtitle: "Craft a Chest"
 			tasks: [{
 				id: "0A4067255335AACF"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "itemfilters:tag"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:barrel"
-							}
-							{
-								Count: 1b
-								id: "minecraft:chest"
-							}
-						]
+						value: "forge:chests"
 					}
 				}
 				type: "item"
@@ -3741,7 +3733,7 @@
 			}]
 			title: "POWER UP!!!"
 			x: 10.0d
-			y: 12.5d
+			y: 12.8d
 		}
 		{
 			dependencies: ["1278600075A14600"]
@@ -3818,9 +3810,9 @@
 				id: "110A241E6410CDC0"
 				type: "checkmark"
 			}]
-			title: "From Inconspicuous_lamp"
-			x: -31.4d
-			y: 12.9d
+			title: "From &eInconspicuous_lamp"
+			x: -32.9d
+			y: 13.0d
 		}
 		{
 			dependencies: ["5525E70F7FBDBD92"]
@@ -3831,6 +3823,16 @@
 				""
 				"I asked each person, \"&o&aWhat is one thing you wish you knew from the very start of your first playthrough?&r\""
 				"The following quests were their responses."
+				""
+				""
+				"&eHonorable Mentions:&r"
+				""
+				"->Jetpack + grappling whisk is pretty fun to use &d&o- by L B&r&r"
+				""
+				"-> Angel Wings with a Jetpack is goated."
+				"Also, Earth magic from Irons is pretty strong. &d&o- by AxoFit&r"
+				""
+				"-> It’s much easier to start automating by taking Brass Funnels from the Brass Tier quest rewards in Chapter 2. They allow you to transport stacks or varying amounts of items, rather than just one item at a time on belts. &d&o- by Broken_Statstick&r"
 			]
 			id: "4F9B4B7F2D747375"
 			tasks: [{
@@ -3857,8 +3859,9 @@
 				title: "From CraftxTD"
 				type: "checkmark"
 			}]
-			x: -32.9d
-			y: 12.8d
+			title: "From &eCraftxTD"
+			x: -33.9d
+			y: 13.3d
 		}
 		{
 			dependencies: ["4F9B4B7F2D747375"]
@@ -3874,8 +3877,57 @@
 				title: "From RealDapi"
 				type: "checkmark"
 			}]
+			title: "From &eRealDapi"
 			x: -34.2d
-			y: 12.9d
+			y: 14.3d
+		}
+		{
+			dependencies: ["0ADF7E30D7F5B61E"]
+			description: ["You can convert RF to the mod’s current energy system using the&6 Circuit Breaker.&r"]
+			id: "31DB2CD7ECC30BF9"
+			tasks: [{
+				id: "1EF67D0C964E0ABF"
+				item: "cfm_circuit_breaker:circuit_breaker"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.4d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: [
+				"-> Creating a &dSourceberry farm&r with a &bTablet of Flight&r for early creative flight around your base area."
+				""
+				"-> &aArs Portals&r can be used as an alternative to trains for item transportation."
+				""
+				"-> You can use &cSophisticated Storage to make subnetworks&r for your base, saving you a lot of trouble creating TSS items for your network."
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:warp_scroll"
+				tag: { }
+			}
+			id: "600B5CE699E3DE1D"
+			tasks: [{
+				id: "2B2C58EC9086DE24"
+				type: "checkmark"
+			}]
+			title: "From &eNich"
+			x: -31.8d
+			y: 13.2d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: ["You can easily find &cMimics&r and farm &eArtifacts&r by keeping the &aSpectral Eye Amulet&r in your inventory (you don't even need to equip it) and going underground. They appear with a blue outline."]
+			icon: "artifacts:mimic_spawn_egg"
+			id: "0A95DD8CC46A30B5"
+			tasks: [{
+				id: "1B9E935A0CC30B89"
+				type: "checkmark"
+			}]
+			title: "From &exceing"
+			x: -31.4d
+			y: 14.1d
 		}
 	]
 	title: "&6&nGetting Started!"

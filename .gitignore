@@ -27,6 +27,7 @@ config/jei
 /.mixin.out
 /screenshots/
 /immersive_paintings_cache/
+/simplebackups/
 
 
 # files

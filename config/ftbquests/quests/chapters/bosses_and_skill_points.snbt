@@ -9,68 +9,88 @@
 	id: "16389783F38DFDED"
 	images: [
 		{
-			height: 1.0d
-			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.5d
-			y: 9.5d
-		}
-		{
-			height: 11.5d
-			image: "forbidden_arcanus:block/arcane_polished_darkstone"
-			rotation: 0.0d
-			width: 12.0d
-			x: 1.0d
-			y: 5.0d
-		}
-		{
-			height: 1.0d
-			image: "createdeco:block/palettes/decals/decal_skull"
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.5d
-			y: 0.5d
-		}
-		{
-			height: 1.0d
-			image: "irons_spellbooks:textures/gui/spell_icons/wither_skull.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: 0.5d
-		}
-		{
 			height: 2.0d
 			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.0d
-			y: -1.0d
+			x: -24.8d
+			y: 4.8d
 		}
 		{
+			color: 14522965
 			height: 1.0d
-			image: "createdeco:block/palettes/decals/decal_skull"
-			rotation: 0.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
 			width: 1.0d
-			x: -3.5d
-			y: 0.5d
+			x: -16.2d
+			y: 4.7d
 		}
 		{
+			color: 14522965
 			height: 1.0d
-			image: "createdeco:block/palettes/decals/decal_skull"
-			rotation: 0.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
 			width: 1.0d
-			x: -3.5d
-			y: 9.5d
+			x: -8.0d
+			y: 4.7d
 		}
 		{
+			color: 14522965
 			height: 1.0d
-			image: "createdeco:block/palettes/decals/decal_skull"
-			rotation: 0.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
 			width: 1.0d
-			x: 5.5d
-			y: 9.5d
+			x: -0.7d
+			y: 4.7d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.7d
+			y: 4.6d
+		}
+		{
+			height: 0.98d
+			image: "kubejs:textures/tier_1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -20.0d
+			y: 3.4d
+		}
+		{
+			height: 0.9d
+			image: "kubejs:textures/tier_2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.4d
+			y: 3.4d
+		}
+		{
+			height: 0.82d
+			image: "kubejs:textures/tier_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.4d
+			y: 3.4d
+		}
+		{
+			height: 0.8d
+			image: "kubejs:textures/tier_4.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 3.4d
+		}
+		{
+			height: 0.88d
+			image: "kubejs:textures/tier_5.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.4d
+			y: 3.4d
 		}
 	]
 	order_index: 1
@@ -123,8 +143,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Extinction was a lie"
-			x: 3.0d
-			y: 6.5d
+			x: 1.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -169,8 +189,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: From the Abyss"
-			x: 2.0d
-			y: 7.5d
+			x: 1.0d
+			y: 6.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -210,8 +230,8 @@
 				value: 1L
 			}]
 			title: "&eEnd&f: Protector of the end"
-			x: 1.0d
-			y: 6.5d
+			x: -4.4d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -258,8 +278,8 @@
 				value: 1L
 			}]
 			title: "&cNether&f: The immortal "
-			x: 2.0d
-			y: 8.5d
+			x: 7.4d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -296,8 +316,8 @@
 				value: 1L
 			}]
 			title: "&cNether&f: The Monstrosity of lava"
-			x: 0.0d
-			y: 6.5d
+			x: -3.4d
+			y: 6.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -331,7 +351,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				icon: "cataclysm:mech_eye"
@@ -340,8 +360,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Who needs to build one?"
-			x: -1.0d
-			y: 7.5d
+			x: -6.4d
+			y: 7.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -377,8 +397,8 @@
 				type: "advancement"
 			}]
 			title: "&eEnd&f: Void Worm"
-			x: -3.0d
-			y: 5.5d
+			x: -11.7d
+			y: 6.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -409,8 +429,8 @@
 				value: 1L
 			}]
 			title: "&cNether&f: Warped Mosco"
-			x: -3.0d
-			y: 6.5d
+			x: -19.9d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -449,8 +469,8 @@
 				value: 1L
 			}]
 			title: "&eEnd&f: The Obsidilith"
-			x: 2.0d
-			y: 1.5d
+			x: -4.4d
+			y: 6.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -486,8 +506,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: The Void Blossom"
-			x: 3.0d
-			y: 1.5d
+			x: -17.9d
+			y: 7.7d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -534,8 +554,8 @@
 				}
 			]
 			title: "&2Overworld&f: The Night Lich"
-			x: 3.0d
-			y: 2.5d
+			x: -6.4d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -568,8 +588,8 @@
 				value: 1L
 			}]
 			title: "&cNether&f: The Nether Gauntlet"
-			x: 2.0d
-			y: 2.5d
+			x: -5.4d
+			y: 6.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -608,8 +628,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Wither"
-			x: -3.0d
-			y: 4.5d
+			x: -12.7d
+			y: 6.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -658,8 +678,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Warden"
-			x: -2.0d
-			y: 4.5d
+			x: -4.4d
+			y: 4.6d
 		}
 		{
 			can_repeat: false
@@ -701,8 +721,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Cyclops Slayer"
-			x: -2.0d
-			y: 2.5d
+			x: -13.7d
+			y: 6.6d
 		}
 		{
 			can_repeat: false
@@ -739,8 +759,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Hydra Slayer"
-			x: -3.0d
-			y: 3.5d
+			x: -14.7d
+			y: 7.6d
 		}
 		{
 			can_repeat: false
@@ -777,8 +797,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Sea Serpent Slayer"
-			x: -3.0d
-			y: 2.5d
+			x: -6.4d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -811,8 +831,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Lord Pumpkinhead"
-			x: 0.0d
-			y: 3.5d
+			x: -5.4d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -857,8 +877,8 @@
 				value: 1L
 			}]
 			title: "&6Space-Venus&f: Lightning Dragon Slayer"
-			x: -1.0d
-			y: 1.5d
+			x: 2.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -908,8 +928,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Ice Dragon Slayer"
-			x: -2.0d
-			y: 1.5d
+			x: 1.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -959,8 +979,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Fire Dragon Slayer"
-			x: 0.0d
-			y: 1.5d
+			x: 3.0d
+			y: 4.6d
 		}
 		{
 			can_repeat: false
@@ -1009,8 +1029,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Myrmex Queen"
-			x: -1.0d
-			y: 2.5d
+			x: -18.9d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1066,8 +1086,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Corrupted Champion"
-			x: 1.0d
-			y: 8.5d
+			x: 8.5d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1106,8 +1126,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Sir Pumpkinhead"
-			x: 0.0d
-			y: 4.5d
+			x: -17.9d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1158,8 +1178,8 @@
 				value: 1L
 			}]
 			title: "&eEnd&f: Ender Golem"
-			x: 2.0d
-			y: 6.5d
+			x: -9.7d
+			y: 6.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1210,8 +1230,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: The Prowler"
-			x: 0.0d
-			y: 7.5d
+			x: -14.7d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1262,8 +1282,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Amethyst Crab"
-			x: 5.0d
-			y: 6.5d
+			x: -11.7d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1301,8 +1321,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Forsaken"
-			x: -3.0d
-			y: 7.5d
+			x: -13.7d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1357,8 +1377,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Hullbreaker"
-			x: 1.0d
-			y: 7.5d
+			x: -13.7d
+			y: 7.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1400,8 +1420,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Tremorzilla"
-			x: -2.0d
-			y: 7.5d
+			x: -2.4000000000000004d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1438,8 +1458,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Luxtructosauros"
-			x: -1.0d
-			y: 6.5d
+			x: -2.4000000000000004d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1476,7 +1496,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			subtitle: "&6⭐⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
@@ -1485,8 +1505,8 @@
 				value: 1L
 			}]
 			title: "&eEnd&f: The Ender Dragon"
-			x: -1.0d
-			y: 4.5d
+			x: -5.4d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1519,8 +1539,8 @@
 				value: 1L
 			}]
 			title: "&3The other side&f: Stalker"
-			x: -2.0d
-			y: 3.5d
+			x: -17.9d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1561,8 +1581,8 @@
 				weak_nbt_match: true
 			}]
 			title: "&cNether&f: The Hovering Inferno"
-			x: 4.0d
-			y: 4.5d
+			x: -3.4d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1601,8 +1621,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Mutant Creeper"
-			x: 2.0d
-			y: 3.5d
+			x: -19.9d
+			y: 7.7d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1641,8 +1661,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Mutant Enderman"
-			x: 1.0d
-			y: 3.5d
+			x: -12.7d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1679,8 +1699,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Mutant Skeleton"
-			x: 2.0d
-			y: 4.5d
+			x: -20.9d
+			y: 7.7d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1717,8 +1737,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Mutant Zombie"
-			x: 3.0d
-			y: 3.5d
+			x: -18.9d
+			y: 7.7d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1749,8 +1769,8 @@
 				type: "item"
 			}]
 			title: "&2Twilight Forest&f: Naga"
-			x: 4.0d
-			y: 1.5d
+			x: -19.9d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1781,8 +1801,8 @@
 				type: "item"
 			}]
 			title: "&2Twilight Forest&f: Twilight Lich"
-			x: 5.0d
-			y: 1.5d
+			x: -18.9d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1812,8 +1832,8 @@
 				type: "item"
 			}]
 			title: "&2Twilight Forest&f: Hydra"
-			x: 5.0d
-			y: 2.5d
+			x: -11.7d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1843,8 +1863,8 @@
 				type: "item"
 			}]
 			title: "&2Twilight Forest&f: Ur-Ghast"
-			x: 4.0d
-			y: 3.5d
+			x: -10.7d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1874,8 +1894,8 @@
 				type: "item"
 			}]
 			title: "&2Twilight Forest&f: Snow Queen"
-			x: 4.0d
-			y: 2.5d
+			x: -9.7d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1920,8 +1940,8 @@
 				value: 1L
 			}]
 			title: "&9Blue Skies&f: Alchemist"
-			x: 3.0d
-			y: 5.5d
+			x: -20.9d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1970,8 +1990,8 @@
 				value: 1L
 			}]
 			title: "&9Blue Skies&f: The Summoner"
-			x: 2.0d
-			y: 5.5d
+			x: -21.9d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2020,8 +2040,8 @@
 				value: 1L
 			}]
 			title: "&9Blue Skies&f: The Arachnarch"
-			x: 1.0d
-			y: 5.5d
+			x: -14.7d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2054,8 +2074,8 @@
 				value: 1L
 			}]
 			title: "&9Blue Skies&f: Starlit crusher"
-			x: 0.0d
-			y: 5.5d
+			x: -13.7d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2085,8 +2105,8 @@
 				type: "item"
 			}]
 			title: "&6The Aether&f: The Bronze Key!"
-			x: -2.0d
-			y: 5.5d
+			x: -18.9d
+			y: 6.7d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2116,8 +2136,8 @@
 				type: "item"
 			}]
 			title: "&6The Aether&f: The Silver Key!"
-			x: -1.0d
-			y: 5.5d
+			x: -19.9d
+			y: 6.7d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2147,8 +2167,8 @@
 				type: "item"
 			}]
 			title: "&6The Aether&f: The Gold Key!"
-			x: -2.0d
-			y: 6.5d
+			x: -17.9d
+			y: 6.7d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2193,8 +2213,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Conjurer"
-			x: 4.0d
-			y: 5.5d
+			x: -20.9d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2218,15 +2238,15 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			subtitle: "&6⭐⭐⭐&7⭐⭐⭐"
 			tasks: [{
 				id: "2B4BE55FF05CB23C"
 				item: "ars_nouveau:wilden_tribute"
 				type: "item"
 			}]
 			title: "&2Overworld&f: Chimera"
-			x: 5.0d
-			y: 3.5d
+			x: -6.4d
+			y: 6.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2259,8 +2279,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: The Death King"
-			x: 0.0d
-			y: 2.5d
+			x: -12.7d
+			y: 7.6d
 		}
 		{
 			dependencies: [
@@ -2359,8 +2379,8 @@
 				title: "Completionist"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: -3.0d
+			x: -24.75d
+			y: 8.25d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2417,8 +2437,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Elder Guardian"
-			x: 5.0d
-			y: 4.5d
+			x: -11.7d
+			y: 7.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2469,8 +2489,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Coralssus"
-			x: 3.0d
-			y: 7.5d
+			x: -14.7d
+			y: 6.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2503,8 +2523,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Coral Golem"
-			x: 4.0d
-			y: 7.5d
+			x: -21.9d
+			y: 7.7d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2537,8 +2557,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Wadjet"
-			x: 4.0d
-			y: 6.5d
+			x: -10.7d
+			y: 5.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2571,8 +2591,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Kobolediator "
-			x: 5.0d
-			y: 5.5d
+			x: -9.7d
+			y: 5.6d
 		}
 		{
 			can_repeat: false
@@ -2629,8 +2649,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Gorgon"
-			x: -1.0d
-			y: 3.5d
+			x: -21.9d
+			y: 6.7d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2673,8 +2693,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Foliaath"
-			x: 1.0d
-			y: 1.5d
+			x: -20.9d
+			y: 6.7d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2717,8 +2737,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Ferrous Wroughtnaut"
-			x: 1.0d
-			y: 2.5d
+			x: -10.7d
+			y: 6.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2771,8 +2791,8 @@
 				value: 1L
 			}]
 			title: "&6Space-&bGlacio&r&f: Frostmaw"
-			x: 0.0d
-			y: 8.5d
+			x: 9.600000000000001d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2816,8 +2836,8 @@
 				value: 1L
 			}]
 			title: "&6Space-Mars&f: Umvuthi"
-			x: 1.0d
-			y: 4.5d
+			x: -2.4000000000000004d
+			y: 6.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2869,8 +2889,8 @@
 				value: 5L
 			}]
 			title: "&2Overworld&f: Kill Your Nightmares"
-			x: 3.0d
-			y: 4.5d
+			x: -21.9d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2907,8 +2927,8 @@
 				type: "checkmark"
 			}]
 			title: "&l&6Rating System"
-			x: 1.1d
-			y: 0.45d
+			x: -24.72d
+			y: 6.359999999999999d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2942,8 +2962,8 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Maledictus"
-			x: -3.0d
-			y: 1.5d
+			x: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2976,8 +2996,181 @@
 				value: 1L
 			}]
 			title: "&2Overworld&f: Aptrgangr"
-			x: 5.0d
-			y: 7.5d
+			x: -12.7d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&dMagispeller&r are &n&aone of the 3 random bosses&r&r that can appear during a Raid Invasion in a village."
+				""
+				"You can trigger a raid by defeating a Pillager Captain (the ones with the banner on their head) to get the Bad Omen effect, then entering a village. The raid will begin automatically."
+			]
+			icon: "illageandspillage:totem_of_banishment"
+			id: "16BC123471572D6B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5A117015CEEC8568"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "76BF4B862A452531"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				advancement: "illageandspillage:kill_magi"
+				criterion: ""
+				id: "132DA665DDACCB91"
+				type: "advancement"
+			}]
+			title: "&2Overworld&f: Magispeller"
+			x: 4.0d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&dFreakager and Ragno&r are &n&aone of the 3 random bosses&r&r that can appear during a Raid Invasion in a village."
+				""
+				"You can trigger a raid by defeating a Pillager Captain (the ones with the banner on their head) to get the Bad Omen effect, then entering a village. The raid will begin automatically."
+			]
+			icon: "illageandspillage:bag_of_horrors"
+			id: "53B5ACF76227380F"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "69BB18D6185AAB00"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "080C9C1F8E4133CC"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				advancement: "illageandspillage:kill_freaky"
+				criterion: ""
+				icon: "illageandspillage:bag_of_horrors"
+				id: "526FA87F0F744E7A"
+				type: "advancement"
+			}]
+			title: "&2Overworld&f: Freakager and Ragno"
+			x: 2.0d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&dSpiritcaller&r are &n&aone of the 3 random bosses&r&r that can appear during a Raid Invasion in a village."
+				""
+				"You can trigger a raid by defeating a Pillager Captain (the ones with the banner on their head) to get the Bad Omen effect, then entering a village. The raid will begin automatically."
+			]
+			icon: {
+				Count: 1
+				id: "illageandspillage:spellbound_book"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "252E06162AAF16B1"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "0F35C865A591CA2F"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "1F00E7AD134DABD3"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				advancement: "illageandspillage:kill_spiri"
+				criterion: ""
+				id: "05A8D5A0DF8FD497"
+				type: "advancement"
+			}]
+			title: "&2Overworld&f: Spiritcaller"
+			x: 3.0d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&6Tongbi the Sculptor&r can be found in the &bMonastery&r, a large temple structure that spawns in Frozen Peaks."
+				""
+				"Once you find him, you can either: Fight him directly or Offer him Blaze Rods to initiate The Sculptor’s Trial."
+				""
+				"It’s recommended to use Jump Boost for better mobility during the trial!"
+				""
+				"To complete the quest, &eyou must finish the trial to obtain&r the &4Earthrend Gauntlets.&r"
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:earthrend_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31879F695EBA0301"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "06DFE3E8961FD635"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "1671D8A39495274D"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				id: "1EC28E0CA5DC14AB"
+				item: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Overworld&f: Tongbi the Sculptor"
+			x: -3.4d
+			y: 4.6d
 		}
 	]
 	title: "&9&lBosses and Skill Points"

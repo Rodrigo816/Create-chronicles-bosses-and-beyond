@@ -1313,6 +1313,69 @@
 			x: 6.0d
 			y: 19.5d
 		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: [
+				"Just attach the right pipe type—&eitems&r, &bfluids&r, or &cenergy&r—to the blocks you want connected."
+				""
+				"For now you only have acess to &eitem pipes&r."
+				""
+				"Use the &aPipe Wrench&r (it's compatible with other wrenches) to easily configure sides: set them to &dpull&r, &dpush&r, or &ddisconnect&r entirely."
+				""
+				"It's logistics simplified!"
+			]
+			id: "33981F0231E2187E"
+			rewards: [{
+				count: 20
+				id: "1BE30227F867AF1B"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26929F4B85C13B0B"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "2686D7B3A51A70BF"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			title: "Pipez"
+			x: -2.7d
+			y: 18.7d
+		}
+		{
+			dependencies: ["33981F0231E2187E"]
+			description: [
+				"Each upgrade enhances the transfer speed of &aPipez&r and unlocks additional pipe features:"
+				""
+				"&6Basic Upgrade&r: enables pipes to be controlled by Redstone signals."
+				""
+				"&6Improved Upgrade&r: provides options for custom distribution of items."
+				""
+				"&6Advanced Upgrade&r: allows applying filters to specify exactly what gets transferred."
+				""
+				"&6Ultimate Upgrade&r: maximizes transfer speed but doesn't add new features."
+				""
+				"Those will unlock at later stages."
+			]
+			id: "0BCC513F995DF314"
+			rewards: [{
+				id: "2DDD7266E6C3D956"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F3FDEB8637340E0"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.7d
+		}
 	]
 	title: "Chapter III: The Precision Machine"
 }

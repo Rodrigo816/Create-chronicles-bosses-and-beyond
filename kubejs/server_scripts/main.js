@@ -542,7 +542,7 @@ ServerEvents.recipes(event => {
       B: MC('red_sand')
   })
 
-  event.recipes.createFilling(TFMG('steel_ingot'), [TFMG('ingot_mold'),Fluid.of(TFMG("molten_steel"), 224)]).id('cc:alternative_steel'),
+  event.recipes.createCompacting([TFMG('steel_ingot'),TFMG('ingot_mold')],[TFMG('ingot_mold'),Fluid.of(TFMG("molten_steel"), 112)])
 
 
   event.recipes.createFilling(transitional, [transitional,Fluid.of('minecraft:lava', 250)]),
@@ -569,6 +569,18 @@ ServerEvents.recipes(event => {
     CR('andesite_casing'),               
     TFMG('steel_mechanism')         
   )
+  event.replaceInput(
+    { id: 'create_optical:thermal_optical_source' }, 
+    CR('fluid_tank'),               
+    TFMG('steel_mechanism')         
+  )
+
+  event.replaceInput(
+    { id: 'create_optical:hologram_source' }, 
+    CR('andesite_casing'),               
+    TFMG('steel_mechanism')         
+  )
+  
   event.replaceInput(
     { id: 'create_optical:optical_receptor' }, 
     CR('andesite_casing'),               
@@ -773,8 +785,7 @@ ServerEvents.recipes(event => {
 
   transitional = KJ('incomplete_t2_plating')
   event.recipes.createSequencedAssembly([
-    Item.of(KJ('tier_2_plating')).withChance(90.0),
-    Item.of(ASTRA('desh_plate')).withChance(10.0),
+    Item.of(KJ('tier_2_plating'))
   ], KJ('tier_1_plating'), [
     event.recipes.createDeploying(transitional, [transitional, ASTRA('desh_plate')]),
     event.recipes.createPressing(transitional, transitional)
@@ -815,8 +826,7 @@ ServerEvents.recipes(event => {
   
   transitional = KJ('incomplete_t3_plating')
   event.recipes.createSequencedAssembly([
-    Item.of(KJ('tier_3_plating')).withChance(90.0),
-    Item.of(ASTRA('ostrum_plate')).withChance(10.0),
+    Item.of(KJ('tier_3_plating'))
   ], KJ('tier_2_plating'), [
     event.recipes.createDeploying(transitional, [transitional, ASTRA('ostrum_plate')]),
     event.recipes.createPressing(transitional, transitional)
@@ -848,8 +858,7 @@ ServerEvents.recipes(event => {
 
   transitional = KJ('incomplete_t4_plating')
   event.recipes.createSequencedAssembly([
-    Item.of(KJ('tier_4_plating')).withChance(95.0),
-    Item.of(ASTRA('calorite_plate')).withChance(5.0),
+    Item.of(KJ('tier_4_plating'))
   ], KJ('tier_3_plating'), [
     event.recipes.createDeploying(transitional, [transitional, ASTRA('calorite_plate')]),
     event.recipes.createPressing(transitional, transitional)
@@ -1016,17 +1025,13 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(transitional, [transitional, ('create_optical:optical_device')]),
     event.recipes.createPressing(transitional, transitional)
   ]).transitionalItem(transitional)
-    .loops(3)
+    .loops(2)
     .id(CRDD('calculation_mechanism'))
 
   
     transitional = CRDD('incomplete_integrated_circuit')
     event.recipes.createSequencedAssembly([
-      Item.of(CRDD('integrated_circuit')).withChance(100.0),
-      Item.of(CRDD('overcharge_alloy_sheet')).withChance(2.0),
-      Item.of(CR('brass_nugget')).withChance(1.0),
-      Item.of(CRA('electrum_nugget')).withChance(1.0),
-      Item.of('create_connected:control_chip').withChance(1.0),
+      Item.of(CRDD('integrated_circuit')).withChance(100.0)
     ], CRDD('calculation_mechanism'), [
       event.recipes.createDeploying(transitional, [transitional, CRDD('overcharge_alloy_sheet')]),
       event.recipes.createDeploying(transitional, [transitional, 'create_connected:control_chip']),
@@ -1034,7 +1039,7 @@ ServerEvents.recipes(event => {
       event.recipes.createDeploying(transitional, [transitional, TFMG('resistor_')]),
       event.recipes.createDeploying(transitional, [transitional, TFMG('capacitor_')]),
     ]).transitionalItem(transitional)
-      .loops(2)
+      .loops(1)
       .id(CRDD('integrated_circuit'))
 
 
@@ -1125,5 +1130,175 @@ ServerEvents.recipes(event => {
     C: MC('ender_pearl'),
     D: MC('blaze_powder')
   })
+
+
+  event.recipes.createMechanicalCrafting(KJ('chronicles_fragment_head'), [
+    '  Z   Z  ',
+    '  Z  ZOY ',
+    ' ZTUVOOY ',
+    'ZBCDEFGY ',
+    'ZRARHILMA',
+    'ZNPPPA AA',
+    ' AJJA AYA',
+    'XQQZ  WY ',
+    ' XX  SWS ',
+  ], {
+    A: CRDD('inductive_mechanism'),
+    B: CRDD('forest_ravager'),
+    C: CRDD('deforester_saw'),
+    D: 'simplyswords:sword_on_a_stick',
+    E: 'simplyswords:bramblethorn',
+    F: 'simplyswords:soulstealer',
+    G: 'simplyswords:shadowsting',
+    H: 'simplyswords:ribboncleaver',
+    I: 'simplyswords:awakened_lichblade',
+    J: 'ringsofascension:ring_hungerless',
+    L: 'aeinfinitybooster:infinity_card',
+    M: 'aeinfinitybooster:dimension_card',
+    N: 'constructionwand:infinity_wand',
+    O: 'quark:diamond_heart',
+    P: 'ars_nouveau:sky_block',
+    Q: CRDD('nether_brick_casing'),
+    R: 'waystones:warp_stone',
+    S:  'tfmg:resistor',
+    T: 'supplementaries:antique_ink',
+    U: 'aether:ambrosium_block',
+    V: 'aether:zanite_block',
+    X: 'aether:enchanted_gravitite',
+    W: 'tfmg:rotor',
+    Z: '#iceandfire:scales/dragon/lightning',
+    Y: 'create_dd:stargaze_singularity',
+  })
+
+  event.recipes.createMechanicalCrafting(KJ('chronicles_fragment_wings'), [
+    '       HI',
+    '     ZCA ',
+    '   ZDEFZ ',
+    ' ZGHIUZ  ',
+    'ZWMNOZ   ',
+    ' APQRSTA ',
+    ' AUVXWWAA',
+    ' JJAAJJ  ',
+    'LBBBL    ',
+  ], {
+    A: CRDD('integrated_mechanism'),
+    B: 'forbidden_arcanus:dark_nether_star_block',
+    C: CRDD('blaze_gold'),
+    D: 'minecraft:end_crystal',
+    E: 'minecraft:heart_of_the_sea',
+    F: 'minecraft:fermented_spider_eye',
+    G: "alexscaves:amber_monolith",
+    H: 'irons_spellbooks:greater_evasion_elixir',
+    I: 'irons_spellbooks:greater_oakskin_elixir',
+    J: 'ae2things:disk_drive_256k',
+    L: 'dustrial_decor:cinder_brick_slab',
+    M: 'alexscaves:galena_gauntlet',
+    N: 'alexscaves:telecore',
+    O: 'alexscaves:tesla_bulb',
+    P: 'alexscaves:ambersol',
+    Q: 'alexscaves:amber_monolith',
+    R: 'alexscaves:pearl',
+    S: 'alexscaves:darkened_apple',
+    T: 'alexscaves:moth_ball',
+    U: 'alexscaves:sundae',
+    V: 'alexscaves:conversion_crucible',
+    X: 'alexsmobs:straddlite_block',
+    Z: 'numismatics:sun',
+    W: '#iceandfire:scales/dragon/ice',
+  })
+
+
+  event.recipes.createMechanicalCrafting(KJ('chronicles_fragment_body'), [
+    '  AAA BBB',
+    '  AAZZZBB',
+    ' WWCCCC  ',
+    ' EFGHIJL ',
+    '  NOOOOOP',
+    '   QRRRRS',
+    '   DD  DD',
+    ' TUV  XKY',
+    'MMMM     ',
+  ], {
+    A: 'ae2:spatial_cell_component_128',
+    B: 'ae2:spatial_anchor',
+    C: 'ae2:quantum_ring',
+    D: 'ars_elemental:mark_of_mastery',
+    E: 'ars_elemental:anima_essence',
+    F: 'ars_elemental:siren_shards',
+    G: 'betterarcheology:torrent_totem',
+    H: 'betterarcheology:soul_totem',
+    I: 'betterarcheology:growth_totem',
+    J: 'betterarcheology:radiance_totem',
+    L: 'born_in_chaos_v1:death_totem',
+    M: 'create_sa:heat_engine',
+    N: 'deeperdarker:sculk_transmitter',
+    O: 'dimdungeons:item_homeward_pearl',
+    P: 'irons_spellbooks:energized_core',
+    Q: 'mowziesmobs:ice_crystal',
+    R: 'balancedflight:flight_anchor',
+    S: 'born_in_chaos_v1:transmuting_elixir',
+    T: 'forbidden_arcanus:terrastomp_prism',
+    U: 'forbidden_arcanus:sea_prism',
+    V: 'forbidden_arcanus:whirlwind_prism',
+    X: 'forbidden_arcanus:smelter_prism',
+    K: 'forbidden_arcanus:eternal_stella',
+    W: 'iceandfire:shiny_scales',
+    Z: '#iceandfire:scales/dragon/fire',
+    Y: 'dimdungeons:block_portal_crown',
+  })
+  event.recipes.createMechanicalCrafting(KJ('create_chronicles'), [
+    ' AB',
+    ' C ',
+  ], {
+    A: KJ('chronicles_fragment_head'),
+    B: KJ('chronicles_fragment_wings'),
+    C: KJ('chronicles_fragment_body'),
+  })
+
+  // Painfull mechanism
+  transitional = CRDD('incomplete_integrated_mechanism')
+  event.recipes.createSequencedAssembly([
+    CRDD('integrated_mechanism'),
+  ], CRDD('integrated_circuit'), [
+    event.recipes.createDeploying(transitional, [transitional, ('ars_elemental:base_bangle')]),
+    event.recipes.createDeploying(transitional, [transitional, ('ars_elemental:lesser_earth_focus')]),
+    event.recipes.createDeploying(transitional, [transitional, ('ars_elemental:lesser_air_focus')]),
+    event.recipes.createDeploying(transitional, [transitional, ('ars_elemental:lesser_water_focus')]),
+    event.recipes.createDeploying(transitional, [transitional, ('ars_elemental:lesser_fire_focus')]),
+    event.recipes.createDeploying(transitional, [transitional, ('twilightforest:magic_map_focus')]),
+  ]).transitionalItem(transitional)
+    .loops(64)
+    .id(CRDD('integrated_mechanism'))
+
+  transitional = CRDD('incomplete_inductive_mechanism')
+  event.recipes.createSequencedAssembly([
+    CRDD('inductive_mechanism'),
+  ], KJ('tier_3_plating'), [
+    event.recipes.createFilling(transitional, [transitional, Fluid.of(ASTRA("fuel"), 100)]),
+    event.recipes.createDeploying(transitional, [transitional, ('forbidden_arcanus:arcane_chiseled_darkstone')]),
+    event.recipes.createDeploying(transitional, [transitional, ('create_optical:rose_quartz_catalyst_coil')]),
+    event.recipes.createDeploying(transitional, [transitional, ('forbidden_arcanus:purifying_soap')]),
+    event.recipes.createDeploying(transitional, [transitional, ('irons_spellbooks:legendary_ink')]),
+    event.recipes.createDeploying(transitional, [transitional, ('forbidden_arcanus:dark_matter')]),
+  ]).transitionalItem(transitional)
+    .loops(64)
+    .id(CRDD('inductive_mechanism'))
+
+  //Pipez
+
+  event.replaceInput({ id: 'pipez:item_pipe' },'minecraft:redstone', CR('precision_mechanism'));
+  event.replaceInput({ id: 'pipez:basic_upgrade' },'minecraft:redstone', CR('precision_mechanism'));
+
+  event.replaceInput({ id: 'pipez:energy_pipe' },'minecraft:redstone', KJ('locomotive_mechanism'));
+  event.replaceInput({ id: 'pipez:improved_upgrade' },'minecraft:redstone', KJ('locomotive_mechanism'));
+
+
+  event.replaceInput({ id: 'pipez:fluid_pipe' },'minecraft:redstone', TFMG('steel_mechanism'));
+  event.replaceInput({ id: 'pipez:advanced_upgrade' },'minecraft:redstone_block', TFMG('steel_mechanism'));
+
+  event.replaceInput({ id: 'pipez:universal_pipe' },'minecraft:redstone_block', CRDD('infernal_mechanism'));
+  event.replaceInput({ id: 'pipez:ultimate_upgrade' },'minecraft:redstone_block', CRDD('infernal_mechanism'));
+
+
 
 })

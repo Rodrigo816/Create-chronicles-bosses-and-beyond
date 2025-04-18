@@ -32,3 +32,27 @@ BlockEvents.rightClicked( event => {
         event.block.popItemFromFace('forbidden_arcanus:soul', event.getFacing())
     }
 })
+  const bannedBlocks = [
+    "molten_vents:dormant_molten_asurine",
+    "molten_vents:active_molten_asurine",
+    "molten_vents:dormant_molten_veridium",
+    "molten_vents:active_molten_veridium",
+    "molten_vents:dormant_molten_crimsite",
+    "molten_vents:active_molten_crimsite",
+    "molten_vents:dormant_molten_orchrum",
+    "molten_vents:active_molten_orchrum",
+    "molten_vents:dormant_molten_scorchia",
+    "molten_vents:active_molten_scorchia",
+    "molten_vents:dormant_molten_scoria",
+    "molten_vents:active_molten_scoria",
+    "molten_vents:dormant_molten_potassic",
+    "molten_vents:active_molten_potassic",
+    "molten_vents:dormant_molten_battery",
+    "molten_vents:active_molten_battery"
+  ]
+  
+  BlockEvents.placed(event => {
+    if (bannedBlocks.includes(event.block.id)) {
+      event.cancel()
+    }
+  })

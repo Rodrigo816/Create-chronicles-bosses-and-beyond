@@ -31,6 +31,8 @@ ServerEvents.recipes(event => {
         'bosses_of_mass_destruction:brimstone_nectar',
         'sophisticatedbackpacks:everlasting_upgrade',
         'create_dd:mixing/asphalt',
+        'pipez:filter_destination_tool',
+        'create_sa:netherite_jetpack_recipe',
 
         'irons_spellbooks:curios/affinity_ring',
         'alexsmobs:transmutation_table',
@@ -90,7 +92,7 @@ ServerEvents.recipes(event => {
         CR('sequenced_assembly/precision_mechanism'),
         CRDD('sequenced_assembly/inductive_mechanism'),
         CRDD('sequenced_assembly/logistic_mechanism'),
-        CRSA('block_picker'),
+        CRSA('block_picker_recipe'),
 
         // Locomotive
         'alexscaves:metal_rebar',
@@ -171,7 +173,10 @@ ServerEvents.recipes(event => {
        'born_in_chaos_v1:phantom_powder_k',
        'alexscaves:gunpowder_from_sulfur',
        'create:splashing/crushed_raw_zinc',
-       'create:filling/gunpowder'
+       'create:filling/gunpowder',
+
+       CRDD('crafting/stargaze_singularity_from_block'),
+       CRDD('deploying/infablock/stargaze')
     ].forEach((recipeID) => event.remove({id: recipeID}));
 
     //Remove all recipes an item is related to. For example putting 'minecraft:bonemeal' here would remove the recipe for bone blocks as well.
@@ -188,12 +193,13 @@ ServerEvents.recipes(event => {
         CRDD('integrated_mechanism'),
         AE2('small_quartz_bud'),
         CRDD('inductive_mechanism'),
+        CRDD('crafting_inductive_mechanism2'),
        // CR('asurine'),
-        CRDD('shadow_steel'),
-        CRDD('blaze_gold'),
+       // CRDD('shadow_steel'),
+        //CRDD('blaze_gold'),
         ASTRA('hammer'),
         AE2('condenser'),
-        'blue_skies:alchemy_table',
+        //'blue_skies:alchemy_table',
     ].forEach((ingredientID) => event.remove({input: ingredientID}));
     
     //Remove by item ID
@@ -247,8 +253,8 @@ ServerEvents.recipes(event => {
          AE2('magenta_paint_ball'),
          AE2('brown_paint_ball'),
          AE2('black_paint_ball'),
-         CRDD('shadow_steel'),
-         CRDD('blaze_gold'),
+         //CRDD('shadow_steel'),
+         //CRDD('blaze_gold'),
          AE2('silicon'),
          'aeinfinitybooster:infinity_card',
          'aeinfinitybooster:dimension_card',
@@ -269,9 +275,9 @@ ServerEvents.recipes(event => {
     ].forEach((itemID) => event.remove({output: itemID}));
 
     event.remove({ type: 'ad_astra:fuel_conversion' });
-    event.remove({output: 'create_dd:stargaze_singularity'});
+    //event.remove({output: 'create_dd:stargaze_singularity'});
     event.remove({input: 'create_dd:stargaze_singularity'});
-    event.remove({output: 'create_dd:fallen_stargaze_singularity'});
+    //event.remove({output: 'create_dd:fallen_stargaze_singularity'});
 
     event.remove({mod: 'eyesoficeandfire'});
 

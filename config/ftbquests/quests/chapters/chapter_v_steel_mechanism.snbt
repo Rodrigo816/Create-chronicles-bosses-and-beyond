@@ -79,7 +79,7 @@
 				""
 				"&l&cTroubleshoot:&r&r If it's not working try break the &n&ccasting basing&r&r and mold and place it again."
 				""
-				"&o&7There is also an alternative recipe if you are having problems running it the intended way on a server.&r&r"
+				"&o&7There is also an alternative recipe using compacting if you are having problems running it the intended way on a server.&r&r"
 			]
 			id: "60A94E3337A26181"
 			rewards: [
@@ -372,7 +372,7 @@
 				"2E9E011F51858EF2"
 			]
 			description: [
-				"&6The Blast Furnace&r is a multi block machine. Make sure to use the pounder function (pressing W) to see how to build the Blast Furnace."
+				"&6The Blast Furnace&r is a multi block machine. Make sure to use the ponder function (pressing W) to see how to build the Blast Furnace."
 				""
 				"If it doesn't work, try breaking the blast furnace output and placing it again. If this still doesn't work, you might be doing something wrong."
 				""
@@ -829,7 +829,11 @@
 		}
 		{
 			dependencies: ["078DF329C409A210"]
-			description: ["&6The Optical Receptor&r converts the &3Light Rays&r that output from the Optical Source back into &aRotational Power&r."]
+			description: [
+				"&6The Optical Receptor&r converts the &bLight Rays&r that output from the Optical Source back into &dRotational Power&r."
+				""
+				"You need to use an&c Optical Device&r on the &6Optical Receptor&r &nby right-clicking&r with the &cOptical Device&r on the Optical Receptor for it to receive the &bLight Rays.&r"
+			]
 			hide_until_deps_complete: true
 			id: "07FDCB535DE4C4BA"
 			rewards: [
@@ -851,7 +855,7 @@
 				item: "create_optical:optical_receptor"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.9d
 			y: 13.5d
 		}
 		{
@@ -884,7 +888,7 @@
 				item: "create_optical:optical_sensor"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.3999999999999999d
 			y: 13.5d
 		}
 		{
@@ -915,7 +919,7 @@
 				item: "create_optical:encased_mirror"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.1d
 			y: 13.5d
 		}
 		{
@@ -948,7 +952,7 @@
 				item: "create_optical:polarizing_beam_splitter_block"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.6d
 			y: 13.5d
 		}
 		{
@@ -981,7 +985,7 @@
 				item: "create_optical:absorption_polarizing_filter"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.9d
 			y: 13.5d
 		}
 		{
@@ -1010,7 +1014,7 @@
 				item: "create_optical:beam_focuser"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.9d
 			y: 13.5d
 		}
 		{
@@ -1033,7 +1037,7 @@
 				item: "create_optical:beam_condenser"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.4d
 			y: 13.5d
 		}
 		{
@@ -1107,8 +1111,103 @@
 				item: "create_optical:heavy_optical_receptor"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.9d
 			y: 15.0d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"The &eThermal Optical Source&r requires an additional source to function, which is fluids, such as &bWater&r and &cLava&r to send &6Light Rays&r. "
+				""
+				"The advantage of this is that it doubles the SU of the normal one. Water gives double SU and Lava gives the double of Water."
+			]
+			id: "3629B7D03A59F516"
+			rewards: [{
+				count: 2
+				id: "37D2AAD9E4AEDA16"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "489BC24E893B6276"
+				item: "create_optical:thermal_optical_source"
+				type: "item"
+			}]
+			x: 4.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"&6The Hologram Source&r allows you to use Visible Light to show an Hologram. Click with an item in hand on the Hologram Source to display that Item."
+				""
+				"Clicking with an empty hand gives you a control window to choose the angel of the Hologram."
+			]
+			hide_until_deps_complete: true
+			id: "30513F4AD063919A"
+			rewards: [
+				{
+					count: 10
+					id: "789FEAB334414B3C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "24B7D092C6FEA000"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52442E822D7EBC1E"
+				item: "create_optical:hologram_source"
+				type: "item"
+			}]
+			x: 3.7d
+			y: 13.5d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			id: "0285493F505AE97E"
+			rewards: [
+				{
+					count: 2
+					id: "10AAB8C81462799E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "6042AE9DDDCBB5B5"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76A8C90C026B44AD"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: 1.1d
+			y: 9.5d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			id: "3837A48CE549F839"
+			rewards: [{
+				count: 2
+				id: "7BC34A78C3EBF8DB"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67CCFFB0F9B77D47"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: 1.1d
+			y: 10.6d
 		}
 	]
 	title: "Chapter V: Steel Mechanism"

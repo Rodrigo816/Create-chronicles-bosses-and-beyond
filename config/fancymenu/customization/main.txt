@@ -281,7 +281,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 2068ff59-30e8-4419-bdac-d2dc7f89ae38-1708562525285
-  [executable_action_instance:d5d581b5-f5c5-43ac-8235-8d4922381d74-1709162988440][action_type:openlink] = https://discord.gg/regYxpqbun
+  [executable_action_instance:d5d581b5-f5c5-43ac-8235-8d4922381d74-1709162988440][action_type:openlink] = https://discord.gg/yRAmua5keG
   [executable_block:2068ff59-30e8-4419-bdac-d2dc7f89ae38-1708562525285][type:generic] = [executables:d5d581b5-f5c5-43ac-8235-8d4922381d74-1709162988440;]
   backgroundnormal = [source:local]/config/fancymenu/assets/discord.png
   backgroundhovered = [source:local]/config/fancymenu/assets/discordhover.png

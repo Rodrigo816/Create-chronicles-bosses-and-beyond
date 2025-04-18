@@ -20,7 +20,7 @@
 					Damage: 0
 				}
 			}
-			weight: 0.20999996f
+			weight: 0.11999996f
 		}
 		{
 			item: {
@@ -30,7 +30,7 @@
 					Damage: 0
 				}
 			}
-			weight: 0.20999998f
+			weight: 0.11999996f
 		}
 		{
 			item: {
@@ -40,7 +40,7 @@
 					Damage: 0
 				}
 			}
-			weight: 0.20999998f
+			weight: 0.11999996f
 		}
 		{
 			item: {
@@ -50,7 +50,7 @@
 					Damage: 0
 				}
 			}
-			weight: 0.20999998f
+			weight: 0.11999996f
 		}
 		{
 			item: {
@@ -184,6 +184,76 @@
 					Damage: 0
 				}
 			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:ghost_sword"
+				tag: {
+					Damage: 0
+					display: {
+						Name: "{\"text\":\"Phantasmal Blade\",\"color\":\"blue\",\"italic\":false}"
+					}
+				}
+			}
+			weight: 0.08999997f
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:netherite_scythe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 10s
+					}]
+					Unbreakable: 1b
+					display: {
+						Lore: ["{\"text\":\"Forged in forgotten realms...\",\"italic\":true,\"color\":\"gray\"}"]
+						Name: "{\"text\":\"Scythe of the Forgotten\",\"color\":\"dark_purple\",\"bold\":true}"
+					}
+				}
+			}
+			weight: 0.13f
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:spellbreaker"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:counterspell"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
+			weight: 0.49999997f
+		}
+		{ count: 64, item: "minecraft:diamond", weight: 0.15f }
+		{ item: "ars_nouveau:burst", weight: 0.08999997f }
+		{
+			item: {
+				Count: 1
+				id: "twilightforest:glass_sword"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Lore: ["{\"text\":\"A fragile-looking blade...\",\"color\":\"gray\",\"italic\":true}"]
+						Name: "{\"text\":\"Glass Sword\",\"color\":\"aqua\",\"italic\":false}"
+					}
+				}
+			}
+			weight: 0.049999963f
 		}
 	]
 	title: "&lSpellblade Crate"

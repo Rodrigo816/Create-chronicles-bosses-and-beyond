@@ -1979,7 +1979,7 @@
 				""
 				"Default key is &6\"x\"&r to open wheel."
 				""
-				"Default cast key is &6\"r\"&r"
+				"Default cast key is &6\"Scroll wheel\"&r"
 			]
 			id: "594A8459AD944A3B"
 			rewards: [

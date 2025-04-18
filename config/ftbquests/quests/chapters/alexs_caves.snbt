@@ -10,10 +10,10 @@
 		color: 16672790
 		height: 1.2d
 		image: "chalk:block/mark/arrow"
-		rotation: 180.0d
+		rotation: 90.0d
 		width: 1.2d
-		x: -17.0d
-		y: 22.0d
+		x: -18.0d
+		y: 23.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -343,9 +343,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3B59E7697E722AB2"
-				item: "alexscaves:submarine"
-				type: "item"
+				advancement: "alexscaves:alexscaves/ride_submarine"
+				criterion: ""
+				id: "0F2115707119EE19"
+				type: "advancement"
 			}]
 			x: -15.5d
 			y: 28.0d
@@ -1461,7 +1462,13 @@
 		}
 		{
 			dependencies: ["24416D60F9757C16"]
-			description: ["This is the latest cave update from Alex's Caves. Over time, we will add proper questing."]
+			description: [
+				"A strange biome full of all kinds of &dsweet treats&r and savory vistas, a kid's dream come true! Also has powerful foes, such as the powerful&5 Licowitches&r. "
+				""
+				"&9The Candy Cavity&r holds many secrets and strange things, such as the key to changing the very nature of the Overworld itself."
+				""
+				"Though this cave may seem to the &esweetest&r of taste and of refuge, other creatures live in this place. However, if one is ever low on health or hunger, the&b majority of the blocks and items in the biome are edible and very efficient food sources&r."
+			]
 			icon: {
 				Count: 1
 				id: "alexscaves:cave_tablet"
@@ -1470,11 +1477,25 @@
 				}
 			}
 			id: "4BAF03239FBEA642"
-			rewards: [{
-				id: "585D2FB507EB9EC6"
-				item: "numismatics:spur"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "585D2FB507EB9EC6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7667BA1E2F755A6A"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "65C8872A8D5C720C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
 			tasks: [{
 				biome: "alexscaves:candy_cavity"
 				icon: {
@@ -1488,8 +1509,444 @@
 				type: "biome"
 			}]
 			title: "Visit a Candy Cave"
+			x: -17.0d
+			y: 18.8d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: [
+				"&dThe Sack of Sating&r must be fed by right-clicking edible items into it, similar to storing items in a Bundle. When fed, it irreversibly stores the hunger value of the items within itself. If fed food contained in Bowls or Bottles, the Sack of Sating will return the Bowl or Bottle."
+				""
+				"When the player becomes hungry, the Sack of Sating will passively feed them, replenishing 1 (🍗) hunger every 5 seconds (100 ticks). This effect will stack if the player has multiple Sack of Sating in their inventory."
+			]
+			id: "2B078C0B08C5FF1E"
+			rewards: [
+				{
+					count: 5
+					id: "54456909E0DAC995"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D2F594A0B1DF322"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: " Allows you to store an infinite amount of food which will then automatically feed you"
+			tasks: [{
+				id: "2C612D055145CD86"
+				item: "alexscaves:sack_of_sating"
+				type: "item"
+			}]
+			x: -18.099999999999998d
+			y: 16.6d
+		}
+		{
+			dependencies: ["5E96F5006CC7E8EF"]
+			description: [
+				"If a player hooks a &aGum Worm&r with a &cCandy Cane Hook&r, they will be immediately pulled towards it, mounting it upon contact. "
+				""
+				"At first, the &aGum Worm&r will only be capable of moving in a straight line along the surface - however, if the player hooks it with a second Candy Cane Hook (in their off-hand slot), they will be able to control it. "
+				""
+				"The A and D keys can be used to steer it, and the left Shift key can be used to dismount it. In addition to this, the spacebar causes it to jump, and can be held to charge a special bar that allows for a higher jump when released, relative to how much the bar was filled - while jumping, it cannot be steered, and will damage any players or mobs within a 3-block radius. When moving on the ground, it can step up 5 full blocks without having to jump."
+			]
+			id: "703BC828E983E165"
+			rewards: [
+				{
+					count: 5
+					id: "4CAB891C65F68D18"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "21082319CDDEC020"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "119038DD9DB8B564"
+				item: {
+					Count: 1
+					id: "alexscaves:candy_cane_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.4d
+			y: 15.2d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: ["Allows you to avoid fall damage and it makes you bounce. It also leaves a rainbow trail as you fall."]
+			id: "54C71D964F389BF2"
+			rewards: [
+				{
+					count: 5
+					id: "7A139B13DEC567F3"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "462F18E4486246F9"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F104B7D91DB9447"
+				item: {
+					Count: 1
+					id: "alexscaves:rainbounce_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.2d
+			y: 16.6d
+		}
+		{
+			dependencies: ["6D42FFB26774833A"]
+			description: ["It allows the player to recreate some of the Licowitch's attacks. "]
+			id: "6A9047497BE80DE8"
+			rewards: [
+				{
+					count: 5
+					id: "60628BC7D2F143D4"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "253E3F9585B5D16D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "298F0BC2DF4EA61F"
+				item: {
+					Count: 1
+					id: "alexscaves:sugar_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.4d
+			y: 15.3d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: [
+				"&aSugar Rush&r is an effect that can also be obtained by eating certain foods. "
+				""
+				"It makes things around you go slow as you go fast."
+				""
+				"Also makes you look &cka&r&5waii&r &9and&r &dgo&r &3a bi&r&et crazy. "
+			]
+			id: "6FD97B8AC6824AC6"
+			rewards: [
+				{
+					count: 5
+					id: "43526056D538AAAF"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6626CFE31A352D1A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FBC37A357FA59A0"
+				item: "alexscaves:purple_soda_bottle"
+				type: "item"
+			}]
+			x: -16.299999999999997d
+			y: 16.6d
+		}
+		{
+			dependencies: ["5338A94A05A528F4"]
+			description: [
+				"To obtain the &6Conversion Crucible&r, the player must kill a &dLicowitch&r to obtain their &2Radiant Essence,&r and gather an extreme amount of gold to create 7 blocks."
+				""
+				"&6Conversion Crucibles&r have a 100% chance to generate within &bLicowitch Towers&r. Only 1 &6Conversion Crucible&r will spawn in each &bLicowitch Tower.&r"
+				""
+				"The &6Conversion Crucible&r has the magical ability to change the biome around it, if the correct ingredients are tossed into it."
+				""
+				"To start, the player must eat a &c&lBiome Treat&r&r in the biome they want while starving, binding the Biome Treat to that biome. "
+				""
+				"They must then collect some blocks from that biome and toss them into the Crucible."
+				""
+				"The &6Crucible&r requires nine items total: eight blocks from a given biome, and a rare item from that biome. Most biomes will require a Diamond, although a few will require different items (e.g. a Sweet Tooth). After all items are deposited into the &6crucible&r, the &6Crucible&r will bubble and rapidly shake, before converting the surrounding area into the wanted biome in a 12x12 range."
+				""
+				"&l&bConversion List:&r&r"
+				"&aBiome&r/&dBlocks needed&r/&bRare Item needed&r"
+				"_____"
+				"Deep Dark -> Dirt/ Grass Block->Diamond"
+				""
+				"Dripstone Caves-> Stone-> Diamond"
+				""
+				"Lush Caves ->Dirt/Grass Block -> Diamond"
+				""
+				"Overworld mountain biomes -> Stone -> Diamond"
+				""
+				"Overworld surface biomes -> Dirt/Grass Block -> Diamond"
+				""
+				"Basalt Deltas ->Basalt -> Netherite Ingot"
+				""
+				"Crimson Forest -> Crimson Nylium -> Netherite Ingot"
+				""
+				"Nether Wastes -> Netherrack -> Netherite Ingot"
+				""
+				"Soul Sand Valley -> Soul Soil -> Netherite Ingot"
+				""
+				"Warped Forest -> Warped Nylium -> Netherite Ingot"
+				""
+				"All End biomes -> End Stone -> Dragon's Breath"
+				""
+				"Magnetic Caves -> Galena -> Heart of Iron"
+				""
+				"Primordial Caves -> Dirt/Grass Block -> Tectonic Shard"
+				""
+				"Toxic Caves -> Radrock -> Nuclear Bomb"
+				""
+				"Abyssal Chasm -> Stone -> Enigmatic Engine"
+				""
+				"Forlorn Hollows -> Packed Mud-> Pure Darkness"
+				""
+				"Candy Cavity ->Block of Chocolate /"
+				"Block of Frosted Chocolate -> Sweet Tooth"
+			]
+			id: "23F764FC98353921"
+			rewards: [
+				{
+					count: 5
+					id: "787E752EEFF626D2"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "164EA2BB0466B9A6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "The &6Conversion Crucible&r has the magical ability to change the biome around it, if the correct ingredients are tossed into it."
+			tasks: [{
+				id: "1F3AF08C1A74F49F"
+				item: "alexscaves:conversion_crucible"
+				type: "item"
+			}]
+			x: -19.4d
+			y: 13.8d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: ["Drinking this will remove the insomnia effect from the player, which is the effect that makes Phantom spawn."]
+			id: "096FD8208453176D"
+			rewards: [
+				{
+					count: 5
+					id: "78E20399F5460858"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7068F0D0F15336DC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68F5A74EDDBFFE11"
+				item: "alexscaves:hot_chocolate_bottle"
+				type: "item"
+			}]
+			x: -15.3d
+			y: 16.6d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: ["A weapon to shoot your enemies with &cGumball Pile&r!"]
+			id: "6E910871CDD12D0D"
+			rewards: [
+				{
+					count: 5
+					id: "515DDEEBF2090E3A"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01205B7854F8BE8D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "639A032D9B71A35D"
+				item: "alexscaves:shot_gum"
+				type: "item"
+			}]
 			x: -19.0d
-			y: 23.0d
+			y: 16.6d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: [
+				"Drops from &dLicowitch&r in &6Licowitch Towers&r. "
+				""
+				"Only 3 Licowitches can be found in a Licowitch Tower at once."
+			]
+			id: "6D42FFB26774833A"
+			rewards: [
+				{
+					count: 5
+					id: "6B5464F7FCBDAD06"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "230BD2B1DEB19A88"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3414AE0BF090FF13"
+				item: "alexscaves:radiant_essence"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 16.6d
+		}
+		{
+			dependencies: ["6D42FFB26774833A"]
+			id: "5338A94A05A528F4"
+			rewards: [
+				{
+					count: 5
+					id: "75678C0CDB72A9D1"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67DD144F826AC3A1"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Used at Conversion Crucible"
+			tasks: [{
+				id: "150FC3D22D76231A"
+				item: "alexscaves:biome_treat"
+				type: "item"
+			}]
+			x: -19.4d
+			y: 15.3d
+		}
+		{
+			dependencies: ["6D42FFB26774833A"]
+			description: [
+				"The Confection Oven has the magical property of being able to infinitely &6summon Gingebread Men&r if the proper redstone signal is provided. "
+				""
+				"If Rock Candy of any color is placed under the oven, the &6Gingerbread Men&r summoned will take on the color of the placed Rock Candy. The summoned &6Gingerbread Men&r will attack any mob that isnt the same color as it (including the player who placed the oven)."
+			]
+			id: "39EF8D27E2FE6C42"
+			rewards: [
+				{
+					count: 5
+					id: "15676B302B8B1E48"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "30DAD38A9365F379"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35591AC6AFB8C058"
+				item: "alexscaves:confection_oven"
+				type: "item"
+			}]
+			x: -21.4d
+			y: 15.3d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: [
+				"&eGum Worms&r are common large neutral mobs. They quickly burrow through blocks, and can be mounted by launching dual-wielded Candy Cane Hooks towards them."
+				""
+				"&6Gum Worms&r will seek out any &l&cGobthumpers&r&r within a 200-block radius - once they get within 8 blocks of a &cGobthumper&r, they will open their mouth before consuming them and leaping out of the ground, continuing to ascend for 2 seconds before beginning to descend afterwards. If there are no Gum Worms near a Gobthumper, a new one will spawn 200 blocks away from it and 30 blocks below the surface and immediately begin to dig towards it."
+			]
+			id: "5E96F5006CC7E8EF"
+			rewards: [
+				{
+					count: 5
+					id: "6283A3F741E5C847"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0AE3E72142808BB4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F22DC671A6CBCF6"
+				item: "alexscaves:gobthumper"
+				type: "item"
+			}]
+			x: -14.4d
+			y: 16.6d
+		}
+		{
+			dependencies: ["54C71D964F389BF2"]
+			description: [" It has no durability and instead must be replenished or retrieved when thrown."]
+			id: "7F079B7ADC0C38C8"
+			rewards: [
+				{
+					count: 5
+					id: "385ECCC30598C435"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4558D0BC82AB9A26"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3936F2615B41917A"
+				item: "alexscaves:frostmint_spear"
+				type: "item"
+			}]
+			x: -17.2d
+			y: 15.2d
 		}
 	]
 	title: "&l&cAlex's Caves"

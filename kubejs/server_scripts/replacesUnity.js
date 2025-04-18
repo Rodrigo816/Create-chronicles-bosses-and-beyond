@@ -29,15 +29,11 @@ ServerEvents.recipes(event => {
   event.remove({output: 'samurai_dynasty:steel_nugget'});
   event.replaceInput({}, 'samurai_dynasty:steel_nugget', 'create_dd:steel_nugget');
 
-
-  // CORAIL STUFF
-  event.remove({mod: 'tombstone'});
-  event.remove({type: 'minecraft:brewing', mod: 'tombstone'}); 
-  event.remove({type: 'minecraft:smelting', mod: 'tombstone'});
   
   //silver uni
   event.replaceInput({}, '#forge:ingots/silver', 'samurai_dynasty:silver_ingot')
   event.replaceInput({}, '#forge:nuggets/silver', 'samurai_dynasty:silver_nugget')
+  event.remove({output: 'create:blasting/silver_ingot_compat_iceandfire'});
   //event.remove({output: 'epic_samurai:silver_ingot'});
   //event.replaceInput({}, 'iceandfire:silver_ingot', 'epic_samurai:silver_ingot');
   //event.replaceInput({}, 'iceandfire:silver_ore', 'epic_samurai:silver_ore');
