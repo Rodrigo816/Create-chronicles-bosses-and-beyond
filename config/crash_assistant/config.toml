@@ -19,6 +19,10 @@
 	show_dont_send_screenshot_of_gui_notice = true
 	#List of blacklisted log files (checked with startswith()). This files won't show in GUI logs list.
 	blacklisted_logs = []
+	#Animate border to request user attention even more.
+	screenshot_of_gui_notice_animated_border = true
+	#Animate border to request user attention even more.
+	upload_all_animated_border = true
 
 #Here you can change text of lang placeHolders.
 #Also you can change any text in lang files.
@@ -66,7 +70,7 @@
 	#nicknames of players, who considered as modpack creator.
 	#Only this players can overwrite modlist.json
 	#If this feature is enabled and this array is empty, will be appended with nickname of current player.
-	modpack_creators = ["Reyals"]
+	modpack_creators = ["Volumia"]
 	#If enabled, modlist.json will be overwritten on every launch(first tick of TitleScreen),
 	#then game is launched by modpack creator.
 	#So you won't forget to save it before publishing.

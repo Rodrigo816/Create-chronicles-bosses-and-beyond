@@ -18,8 +18,9 @@ JEIEvents.hideItems(event => {
   event.hide('twilightforest:glass_sword')
   event.hide('pipez:gas_pipe')
   event.hide('pipez:infinity_upgrade')
+  event.hide('blue_skies:alchemy_table')
 
-  event.hide('sophisticatedstorage:storage_tool')
+  event.hide('sophisticatedstorage:debug_tool')
   event.hide('sophisticatedstorage:infinity_upgrade')
 
   //temp
@@ -171,11 +172,7 @@ ItemEvents.tooltip(event => {
   event.addAdvanced(['minecraft:bundle'], (item, advanced, text) => {
     text.remove(1)
   })
-
   event.add('blue_skies:alchemy_table',[
-    Text.of('§4This item cannot be obtained by any means.').red()
-  ])
-  event.add('minecraft:alchemy_table',[
     Text.of('§4This item cannot be obtained by any means.').red()
   ])
   event.add('forbidden_arcanus:soul',[
@@ -204,6 +201,7 @@ JEIEvents.information(e => {
   e.addItem('forbidden_arcanus:stellarite_piece', [
     'This very rare ore can be found in the Overworld (Y=42 to -42). Known to be very volatile and will explode when mined using conventional techniques.',
   ])
+
   e.addItem('minecraft:firework_star', [
     'Crafted with a gunpowder and at least one dye in a crafting table, You can also add extra ingredients such as feathers, gold nuggets, etc for extra effects.',
     'Used to make fireworks! Combine the star with paper and gunpowder.',

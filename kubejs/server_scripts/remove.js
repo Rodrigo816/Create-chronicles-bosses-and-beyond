@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
         'create_dd:acompat/createaddition/charging/overcharge_alloy',
         'forbidden_arcanus:arcane_crystal_dust',
         'ars_nouveau:glyph_animate_block',
-        //'ars_nouveau:burst',
+        'ars_nouveau:burst',
         'twilightforest:uncrafting_table',
         'explorerscompass:explorers_compass',
         'create:crafting/palettes/scorchia',
@@ -199,7 +199,7 @@ ServerEvents.recipes(event => {
         //CRDD('blaze_gold'),
         ASTRA('hammer'),
         AE2('condenser'),
-        'blue_skies:alchemy_table',
+        //'blue_skies:alchemy_table',
     ].forEach((ingredientID) => event.remove({input: ingredientID}));
     
     //Remove by item ID

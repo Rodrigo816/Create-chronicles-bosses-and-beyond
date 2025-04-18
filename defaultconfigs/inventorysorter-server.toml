@@ -1,0 +1,9 @@
+
+#Inventory sorter blacklists
+[blacklists]
+	#Container blacklist
+	containerBlacklist = ["corpse:corpse_additional_items", "corpse:corpse_inventory", "l2tabs:curios", "curios:curios_container"]
+	#Slot type blacklist
+	slotBlacklist = []
+
+

@@ -4498,6 +4498,11 @@
 					title: "Here, take more of these"
 					type: "item"
 				}
+				{
+					id: "2196E2C6828002CD"
+					item: "sophisticatedstorage:stack_upgrade_omega_tier"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "I don't think I need anymore from you"
@@ -5003,11 +5008,11 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide_until_deps_complete: true
-			icon: "create:creative_fluid_tank"
+			icon: "iceandfire:creative_dragon_meal"
 			id: "6DA6AAE788DD1066"
 			rewards: [{
-				id: "6B53E692D6CEEA3D"
-				item: "create:creative_fluid_tank"
+				id: "647E2FCA309C191C"
+				item: "iceandfire:creative_dragon_meal"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -5017,7 +5022,7 @@
 				item: "kubejs:create_chronicles"
 				type: "item"
 			}]
-			title: "Creative Fluid Tank"
+			title: "Creative Dragon Meal"
 			x: 0.6d
 			y: 17.6d
 		}
@@ -5091,11 +5096,11 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide_until_deps_complete: true
-			icon: "ae2:creative_item_cell"
+			icon: "ars_nouveau:creative_spell_book"
 			id: "728CF2D5A67597E3"
 			rewards: [{
-				id: "61A3F9C746756192"
-				item: "ae2:creative_item_cell"
+				id: "020304BA268AD3D6"
+				item: "ars_nouveau:creative_spell_book"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -5105,7 +5110,7 @@
 				item: "kubejs:create_chronicles"
 				type: "item"
 			}]
-			title: "Creative ME Item Cell"
+			title: "Creative Spell Book"
 			x: 6.6d
 			y: 17.6d
 		}
@@ -5113,13 +5118,120 @@
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide_until_deps_complete: true
-			icon: "ae2:creative_fluid_cell"
+			icon: "create_dd:stargaze_singularity"
 			id: "29F5F66556427238"
-			rewards: [{
-				id: "1742E8A849EB58E8"
-				item: "ae2:creative_fluid_cell"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "30919B7C6F442750"
+					item: "create_dd:infared_sand"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442751"
+					item: "create_dd:infatuff"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442752"
+					item: "create_dd:infasand"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442753"
+					item: "create_dd:infaice"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442754"
+					item: "create_dd:infadirt"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442755"
+					item: "create_dd:infaend_stone"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442756"
+					item: "create_dd:infadripstone_block"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442757"
+					item: "create_dd:infastone"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442758"
+					item: "create_dd:infamagma_block"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442759"
+					item: "create_dd:infacoarse_dirt"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442760"
+					item: "create_dd:infasnow_block"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442761"
+					item: "create_dd:infadiorite"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442762"
+					item: "create_dd:infacalcite"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442763"
+					item: "create_dd:infanetherrack"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442764"
+					item: "create_dd:infamud"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442765"
+					item: "create_dd:infasoul_sand"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442766"
+					item: "create_dd:infagranite"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442767"
+					item: "create_dd:infagravel"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442768"
+					item: "create_dd:infamoss_block"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442769"
+					item: "create_dd:infaobsidian"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442770"
+					item: "create_dd:infacobblestone"
+					type: "item"
+				}
+				{
+					id: "30919B7C6F442771"
+					item: "create_dd:infasand"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				consume_items: true
@@ -5127,7 +5239,7 @@
 				item: "kubejs:create_chronicles"
 				type: "item"
 			}]
-			title: "Creative ME Fluid Cell"
+			title: "Infinite blocks"
 			x: 8.1d
 			y: 17.6d
 		}
