@@ -3172,6 +3172,44 @@
 			x: -3.4d
 			y: 4.6d
 		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"You can craft an &neye of storm&r to locate the structure"
+				""
+				"&eScylla&r can be found in an &bAcropolis&r—a massive structure located above the ocean. It’s heavily guarded by Clawdians. Once you find it, look for a large anchor on the ground; right-click it to summon the boss."
+			]
+			icon: "cataclysm:storm_eye"
+			id: "345DFF20A4873D6F"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "7DFC7B598BDF9A56"
+					silent: true
+					title: "+1 Skill Point"
+					type: "command"
+				}
+				{
+					id: "51DC58F33F3C69EC"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:storm_eye"
+				id: "3466A0192BDC7FF7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Scylla"
+			x: -5.4d
+			y: 7.6d
+		}
 	]
 	title: "&9&lBosses and Skill Points"
 }
