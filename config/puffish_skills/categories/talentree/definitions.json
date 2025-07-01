@@ -1,6 +1,6 @@
 {
 	"fill": {
-		"title": "§a+1% Ender Spell Power",
+		"title": "§a+2% Ender Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -20,7 +20,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ender_spell_power",
-					"value": 0.01,
+					"value": 0.02,
 					"operation": "multiply_total"
 				}
 			}
@@ -145,7 +145,7 @@
 		]
 	},
 	"ironsEnder%small": {
-		"title": "§d[1P] §a+1% Ender Spell Power",
+		"title": "§d[1P] §a+2% Ender Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -165,7 +165,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ender_spell_power",
-					"value": 0.01,
+					"value": 0.02,
 					"operation": "multiply_total"
 				}
 			}
@@ -176,7 +176,7 @@
 		}
 	},
 	"ironsEnder%md": {
-		"title": "§d[4P] §a+4% Ender Spell Power",
+		"title": "§d[4P] §a+5% Ender Spell Power",
 		"cost": 4,
 		"frame": {
 			"type": "texture",
@@ -197,7 +197,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ender_spell_power",
-					"value": 0.04,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
@@ -210,7 +210,7 @@
 	"ironsEnder%F": {
 		"title": "§d[15P] §e§lMaster of Ender",
 		"cost": 15,
-		"description": "§a+25% Ender Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
+		"description": "§a+40% Ender Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -230,7 +230,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ender_spell_power",
-					"value": 0.25,
+					"value": 0.40,
 					"operation": "multiply_total"
 				}
 			},
@@ -273,7 +273,7 @@
 		}
 	},
 	"ironsEnvocation%small": {
-		"title": "§d[1P] §a+1% Evocation Spell Power",
+		"title": "§d[1P] §a+2% Evocation Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -293,7 +293,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:evocation_spell_power",
-					"value": 0.01,
+					"value": 0.02,
 					"operation": "multiply_total"
 				}
 			}
@@ -304,7 +304,7 @@
 		}
 	},
 	"ironsEvocation%md": {
-		"title": "§d[4P] §a+4% Evocation Spell Power",
+		"title": "§d[4P] §a+5% Evocation Spell Power",
 		"cost": 4,
 		"frame": {
 			"type": "texture",
@@ -325,7 +325,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:evocation_spell_power",
-					"value": 0.04,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
@@ -338,7 +338,7 @@
 	"ironsEvocation%F": {
 		"title": "§d[15P] §e§lMaster of Evocation",
 		"cost": 15,
-		"description": "§a+25% Evocation Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
+		"description": "§a+40% Evocation Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -358,7 +358,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:evocation_spell_power",
-					"value": 0.25,
+					"value": 0.40,
 					"operation": "multiply_total"
 				}
 			},
@@ -401,7 +401,7 @@
 		}
 	},
 	"ironsBlood%small": {
-		"title": "§d[1P] §a+1% Blood Spell Power",
+		"title": "§d[1P] §a+2% Blood Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -421,7 +421,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:blood_spell_power",
-					"value": 0.01,
+					"value": 0.02,
 					"operation": "multiply_total"
 				}
 			}
@@ -432,7 +432,7 @@
 		}
 	},
 	"ironsBlood%md": {
-		"title": "§d[4P] §a+4% Blood Spell Power",
+		"title": "§d[4P] §a+5% Blood Spell Power",
 		"cost": 4,
 		"frame": {
 			"type": "texture",
@@ -453,7 +453,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:blood_spell_power",
-					"value": 0.04,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
@@ -466,7 +466,7 @@
 	"ironsBlood%F": {
 		"title": "§d[15P] §e§lMaster of Blood",
 		"cost": 15,
-		"description": "§a+25% Blood Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
+		"description": "§a+40% Blood Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -486,7 +486,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:blood_spell_power",
-					"value": 0.25,
+					"value": 0.40,
 					"operation": "multiply_total"
 				}
 			},
@@ -529,7 +529,7 @@
 		}
 	},
 	"ironsFire%small": {
-		"title": "§d[1P] §a+1% Fire Spell Power",
+		"title": "§d[1P] §a+2% Fire Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -549,7 +549,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 0.01,
+					"value": 0.02,
 					"operation": "multiply_total"
 				}
 			}
@@ -560,7 +560,7 @@
 		}
 	},
 	"ironsFire%md": {
-		"title": "§d[4P] §a+4% Fire Spell Power",
+		"title": "§d[4P] §a+5% Fire Spell Power",
 		"cost": 4,
 		"frame": {
 			"type": "texture",
@@ -581,7 +581,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 0.04,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
@@ -594,7 +594,7 @@
 	"ironsFire%F": {
 		"title": "§d[15P] §e§lMaster of Fire",
 		"cost": 15,
-		"description": "§a+25% Fire Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
+		"description": "§a+40% Fire Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -614,7 +614,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 0.25,
+					"value": 0.40,
 					"operation": "multiply_total"
 				}
 			},
@@ -657,7 +657,7 @@
 		}
 	},
 	"ironsHoly%small": {
-		"title": "§d[1P] §a+1% Holy Spell Power",
+		"title": "§d[1P] §a+2% Holy Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -677,7 +677,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:holy_spell_power",
-					"value": 0.01,
+					"value": 0.02,
 					"operation": "multiply_total"
 				}
 			}
@@ -688,7 +688,7 @@
 		}
 	},
 	"ironsHoly%md": {
-		"title": "§d[4P] §a+4% Holy Spell Power",
+		"title": "§d[4P] §a+5% Holy Spell Power",
 		"cost": 4,
 		"frame": {
 			"type": "texture",
@@ -709,7 +709,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:holy_spell_power",
-					"value": 0.04,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
@@ -722,7 +722,7 @@
 	"ironsHoly%F": {
 		"title": "§d[15P] §e§lMaster of Holy",
 		"cost": 15,
-		"description": "§a+25% Holy Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
+		"description": "§a+40% Holy Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -742,7 +742,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:holy_spell_power",
-					"value": 0.25,
+					"value": 0.40,
 					"operation": "multiply_total"
 				}
 			},
@@ -785,7 +785,7 @@
 		}
 	},
 	"ironsIce%small": {
-		"title": "§d[1P] §a+1% Ice Spell Power",
+		"title": "§d[1P] §a+2% Ice Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -805,7 +805,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 0.01,
+					"value": 0.02,
 					"operation": "multiply_total"
 				}
 			}
@@ -816,7 +816,7 @@
 		}
 	},
 	"ironsIce%md": {
-		"title": "§d[4P] §a+4% Ice Spell Power",
+		"title": "§d[4P] §a+5% Ice Spell Power",
 		"cost": 4,
 		"frame": {
 			"type": "texture",
@@ -837,7 +837,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 0.04,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
@@ -850,7 +850,7 @@
 	"ironsIce%F": {
 		"title": "§d[15P] §e§lMaster of Ice",
 		"cost": 15,
-		"description": "§a+25% Ice Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
+		"description": "§a+40% Ice Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -870,7 +870,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 0.25,
+					"value": 0.40,
 					"operation": "multiply_total"
 				}
 			},
@@ -913,7 +913,7 @@
 		}
 	},
 	"ironsLight%small": {
-		"title": "§d[1P] §a+1% Lightning Spell Power",
+		"title": "§d[1P] §a+2% Lightning Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -933,7 +933,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:lightning_spell_power",
-					"value": 0.01,
+					"value": 0.02,
 					"operation": "multiply_total"
 				}
 			}
@@ -944,7 +944,7 @@
 		}
 	},
 	"ironsLight%md": {
-		"title": "§d[4P] §a+4% Lightning Spell Power",
+		"title": "§d[4P] §a+5% Lightning Spell Power",
 		"cost": 4,
 		"frame": {
 			"type": "texture",
@@ -965,7 +965,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:lightning_spell_power",
-					"value": 0.04,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
@@ -978,7 +978,7 @@
 	"ironsLight%F": {
 		"title": "§d[15P] §e§lMaster of Lightning",
 		"cost": 15,
-		"description": "§a+25% Lightning Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
+		"description": "§a+40% Lightning Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -998,7 +998,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:lightning_spell_power",
-					"value": 0.25,
+					"value": 0.40,
 					"operation": "multiply_total"
 				}
 			},
@@ -1041,7 +1041,7 @@
 		}
 	},
 	"ironsNature%small": {
-		"title": "§d[1P] §a+1% Nature Spell Power",
+		"title": "§d[1P] §a+2% Nature Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1061,7 +1061,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:nature_spell_power",
-					"value": 0.01,
+					"value": 0.02,
 					"operation": "multiply_total"
 				}
 			}
@@ -1072,7 +1072,7 @@
 		}
 	},
 	"ironsNature%md": {
-		"title": "§d[4P] §a+4% Nature Spell Power",
+		"title": "§d[4P] §a+5% Nature Spell Power",
 		"cost": 4,
 		"frame": {
 			"type": "texture",
@@ -1093,7 +1093,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:nature_spell_power",
-					"value": 0.04,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
@@ -1106,7 +1106,7 @@
 	"ironsNature%F": {
 		"title": "§d[15P] §e§lMaster of Nature",
 		"cost": 15,
-		"description": "§a+25% Nature Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
+		"description": "§a+40% Nature Spell Power \n§a+10% Mana Regen Speed\n§a+10% Max Mana \n§a+20% Casting Time Reduction \n§a+20% Cooldown Reduction",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1126,7 +1126,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:nature_spell_power",
-					"value": 0.25,
+					"value": 0.40,
 					"operation": "multiply_total"
 				}
 			},
@@ -1169,7 +1169,7 @@
 		}
 	},
 	"ironsSpellPower%md": {
-		"title": "§d[5P] §a+3% Spell Power",
+		"title": "§d[5P] §a+5% Spell Power",
 		"cost":5,
 		"frame": {
 			"type": "texture",
@@ -1190,7 +1190,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
-					"value": 0.04,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
@@ -1843,7 +1843,7 @@
 		}
 	},
 	"resistance+1%": {
-		"title": "§d[3P] §a+5% Resistance",
+		"title": "§d[3P] §a+8% Resistance",
 		"cost":3,
 		"frame": {
 			"type": "texture",
@@ -1864,7 +1864,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.resistance",
-					"value":  0.05,
+					"value":  0.08,
 					"operation": "multiply_total"
 				}
 			}

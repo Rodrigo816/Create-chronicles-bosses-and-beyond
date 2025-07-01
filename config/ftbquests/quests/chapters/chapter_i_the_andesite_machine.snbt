@@ -536,11 +536,6 @@
 					type: "choice"
 				}
 				{
-					id: "5509D7DFEB9473BB"
-					item: "create:goggles"
-					type: "item"
-				}
-				{
 					id: "15260D3E5D01A927"
 					item: {
 						Count: 1
@@ -549,6 +544,12 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "123D206F671E33AF"
+					item: "create:andesite_alloy"
 					type: "item"
 				}
 			]
@@ -615,6 +616,11 @@
 				{
 					id: "501E705E75020F6D"
 					item: "quark:slime_in_a_bucket"
+					type: "item"
+				}
+				{
+					id: "5D1A14C6911A3D5A"
+					item: "create:goggles"
 					type: "item"
 				}
 			]

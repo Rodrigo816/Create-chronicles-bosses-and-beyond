@@ -48,7 +48,7 @@
 			y: 17.0d
 		}
 		{
-			click: "https://discord.gg/yRAmua5keG"
+			click: "https://discord.gg/pkEvhgByPw"
 			height: 1.0d
 			image: "supplementaries:textures/gui/book/icon/discord.png"
 			rotation: 0.0d
@@ -1765,7 +1765,7 @@
 				""
 				"Your support helps us make this modpack better for everyone!"
 				""
-				"https://discord.gg/yRAmua5keG"
+				"https://discord.gg/pkEvhgByPw"
 			]
 			icon: "createdeco:decal_warning"
 			id: "5525E70F7FBDBD92"

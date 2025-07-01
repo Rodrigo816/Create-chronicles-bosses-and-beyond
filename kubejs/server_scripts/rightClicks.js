@@ -32,6 +32,7 @@ BlockEvents.rightClicked( event => {
         event.block.popItemFromFace('forbidden_arcanus:soul', event.getFacing())
     }
 })
+/*
   const bannedBlocks = [
     "molten_vents:dormant_molten_asurine",
     "molten_vents:active_molten_asurine",
@@ -55,4 +56,4 @@ BlockEvents.rightClicked( event => {
     if (bannedBlocks.includes(event.block.id)) {
       event.cancel()
     }
-  })
+  })*/

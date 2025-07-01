@@ -915,5 +915,24 @@ event
   .addEntityLootModifier("cataclysm:maledictus")
   .randomChance(0.16)
   .addLoot("simplyswords:caelestis")    
+ 
+
+event
+  .addEntityLootModifier("cataclysm:scylla")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:caelestis")    
+event
+  .addEntityLootModifier("cataclysm:scylla")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:emberlash")    
+event
+  .addEntityLootModifier("cataclysm:scylla")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:soulpyre")    
+event
+  .addEntityLootModifier("cataclysm:scylla")
+  .randomChance(normalChance)
+  .addLoot("simplyswords:brimstone_claymore")      
 });
+
 

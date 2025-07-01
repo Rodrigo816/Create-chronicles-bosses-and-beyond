@@ -59,9 +59,28 @@ ServerEvents.tags('item', event => {
          .add('forbidden_arcanus:aurum_log');
 });
 
+const bannedBlocks = [
+    "molten_vents:dormant_molten_asurine",
+    "molten_vents:active_molten_asurine",
+    "molten_vents:dormant_molten_veridium",
+    "molten_vents:active_molten_veridium",
+    "molten_vents:dormant_molten_crimsite",
+    "molten_vents:active_molten_crimsite",
+    "molten_vents:dormant_molten_orchrum",
+    "molten_vents:active_molten_orchrum",
+    "molten_vents:dormant_molten_scorchia",
+    "molten_vents:active_molten_scorchia",
+    "molten_vents:dormant_molten_scoria",
+    "molten_vents:active_molten_scoria",
+    "molten_vents:dormant_molten_potassic",
+    "molten_vents:active_molten_potassic",
+    "molten_vents:dormant_molten_battery",
+    "molten_vents:active_molten_battery"
+  ]
 
 ServerEvents.tags('block', event => {
     event.add("ftbchunks:interact_whitelist", ['#minecraft:doors','create_things_and_misc:card_reader','refurbished_furniture:post_box','numismatics:blaze_banker','create:contraption_controls',"numismatics:andesite_depositor", "numismatics:brass_depositor", "numismatics:bank_terminal", "numismatics:vendor"]);
+    event.add("ars_nouveau:relocation_not_supported", bannedBlocks);
 })
  /*ServerEvents.tags("entity_type", (event) => {
     event.add("ars_nouveau:drygmy_blacklist", [/minecraft:.+/]);

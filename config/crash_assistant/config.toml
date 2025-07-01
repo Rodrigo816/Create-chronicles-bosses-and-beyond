@@ -4,7 +4,7 @@
 	#Link which will be opened in browser on request_help_button pressed.
 	#If equals CHANGE_ME, will open Forge/NeoForge/Fabric/Quilt discord link. Names of communities/channels also will be used not from config, but according to this link.
 	#Must start with 'https://' or 'www.'
-	help_link = "https://discord.gg/yRAmua5keG"
+	help_link = "https://discord.gg/pkEvhgByPw"
 	#Anyways log will be uploaded to mclo.gs, but with this option you can wrap link to gnomebot.dev for better formatting.
 	#If help_link equals 'CHANGE_ME', this value will be ignored and gnomebot.dev used.
 	#Supported values: mclo.gs / gnomebot.dev
@@ -51,7 +51,7 @@
 	#You can include:
 	#   * some form, which users should fill out.
 	#   * additional information like Minecraft version, etc.
-	text_under_crashed = ""
+	text_under_crashed = "\n* **Launcher Used: **(e.g. CurseForge, Prism, etc.)\n* **Did the game ever work before the crash?** (e.g. first-time launch or it used to work before?)\n* **What were you doing when the crash occurred?** (e.g. loading world, joining server, opening inventory)\n*  **Crash Consistency:** Does it crash every time or only sometimes?"
 	#With this option you can notify user about something related with posting generated message.
 	#For example if they need to fill some option from "text_under_crashed", etc.
 	#Supports html formatting, placeholders.
@@ -74,6 +74,10 @@
 	#nicknames of players, who considered as modpack creator.
 	#Only this players can overwrite modlist.json
 	#If this feature is enabled and this array is empty, will be appended with nickname of current player.
+	#-----------------------------------------------------------------------------------------------------
+	#Warning! This is not displayed anywhere, it's just tech param used for modlist feature to work correctly.
+	#Here must be actual nicknames of people who work with the modpack and publishing releases!
+	#-----------------------------------------------------------------------------------------------------
 	modpack_creators = ["Volumia"]
 	#If enabled, modlist.json will be overwritten on every launch(first tick of TitleScreen),
 	#then game is launched by modpack creator.
@@ -85,10 +89,9 @@
 	add_resourcepacks = false
 	#If enabled, will add modloader jar name to modlist, to easily track if user changed version of modloader.
 	add_modloader_jar_name = true
-	#If enabled, will add modlist.txt, with names of all mods to logs.
-	#false - only if general.help_link equals CHANGE_ME, will add modlist.txt to logs.
-	#true - anyways will add modlist.txt to logs.
-	force_add_full_modlist_as_log = false
+	#If enabled, will add generated modlist.txt, with names of all mods / modids / mixin configs / jarjar mods info to logs.
+	#
+	add_modlist_txt_as_log = true
 
 #Settings of '/crash_assistant crash' command feature.
 [crash_command]

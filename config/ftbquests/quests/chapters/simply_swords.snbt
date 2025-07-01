@@ -482,6 +482,8 @@
 				"- Twilight Forest: Hydra"
 				""
 				"- Cataclysm: Netherite Monstrosity"
+				""
+				"- Cataclysm: Scylla"
 			]
 			id: "2097C3E4ED7D5F02"
 			rewards: [
@@ -628,6 +630,8 @@
 				"- Cataclysm: Ancient Remnant"
 				""
 				"- Cataclysm: Ignis"
+				""
+				"- Cataclysm: Scylla"
 			]
 			id: "5CEB5D0A9457C85F"
 			rewards: [
@@ -912,6 +916,8 @@
 				"- Born in Chaos: Lord Pumpkinhead Head"
 				""
 				"- Alex's Caves: Luxtructosaurus"
+				""
+				"- Cataclysm: Scylla"
 			]
 			id: "54281D0166F4A2B7"
 			rewards: [
@@ -1673,7 +1679,11 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["- Cataclysm: Maledictus"]
+			description: [
+				"- Cataclysm: Maledictus"
+				""
+				"- Cataclysm: Scylla"
+			]
 			id: "6FAD2E8780C8F445"
 			rewards: [
 				{

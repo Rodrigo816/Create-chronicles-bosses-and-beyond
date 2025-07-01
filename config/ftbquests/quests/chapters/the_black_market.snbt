@@ -2375,28 +2375,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"7FD31970F7A3ABC2"
-				"4BA2A3CE6159F396"
-				"318AA1462F299CA6"
-				"1355B7A11A3AF9CD"
-				"4238FA580B3DA9D9"
-				"49F5334F500A9615"
-				"59E3B38C6886F22E"
-				"0FB8722642860DFF"
-				"2146B907572F18E7"
-				"27AE17F884999DA5"
-				"71016DF306B1C628"
-				"4EEDE7245553A616"
-				"1FB255BADD1BE35E"
-				"71501C6B437B6DAE"
-				"4C5F0F864A1801D1"
-				"65EA2300DCD3E129"
-				"25EC727AA4CDE24C"
-				"3DB0C71C531082E7"
-				"33DB2CA9D5E90864"
-				"0B4CF106789A624F"
-			]
+			dependencies: ["21FB9D855FA9D2DF"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			icon: "ringsofascension:ring_flight"
