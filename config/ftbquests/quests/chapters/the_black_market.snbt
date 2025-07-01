@@ -2377,7 +2377,7 @@
 		{
 			dependencies: ["21FB9D855FA9D2DF"]
 			hide_dependency_lines: true
-			hide_until_deps_complete: false
+			hide_until_deps_complete: true
 			icon: "ringsofascension:ring_flight"
 			id: "35026166839C8E4C"
 			rewards: [
